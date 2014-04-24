@@ -1,8 +1,17 @@
 Elementary-OS-Terminal-Colors
 =============================
 
-For Linux Mint
+## For Linux Mint - Ubuntu
 ----------------
+
+Download and save the script file, make this file executable and run it:
+
+```bash
+    $ chmod +x elementary.sh
+    $ ./elementary.sh
+```
+
+Alternatively you can open the file and copy and paste lines directly into your shell.
 
 ```bash
 gconftool-2 -s -t string /apps/gnome-terminal/profiles/Default/background_color '#101010101010'
@@ -12,8 +21,9 @@ gconftool-2 -s -t string /apps/gnome-terminal/profiles/Default/palette "#3030303
 
 
 
-Others
-======
+### More colors
+
+copy and paste lines directly into your shell.
 
 ```bash
 gconftool-2 -s -t string /apps/gnome-terminal/profiles/Default/palette '#393945455252:#c0c05b5b5b5b:#5b5bc0c05b5b:#c0c0c0c05b5b:#5b5b5b5bc0c0:#c0c05b5bc0c0:#5b5bc0c0c0c0:#aaaab7b7c4c4:#62626e6e7b7b:#f5f5e5e5e5e5:#e5e5f5f5e5e5:#f5f5f5f5e5e5:#e5e5e5e5f5f5:#f5f5e5e5f5f5:#e5e5f5f5f5f5:#d9d9e5e5f2f2'
