@@ -19,7 +19,35 @@ gconftool-2 -s -t string /apps/gnome-terminal/profiles/Default/foreground_color 
 gconftool-2 -s -t string /apps/gnome-terminal/profiles/Default/palette "#303030303030:#e1e132321a1a:#6a6ab0b01717:#ffffc0c00505:#00004f4f9e9e:#ecec00004848:#2a2aa7a7e7e7:#f2f2f2f2f2f2:#5d5d5d5d5d5d:#ffff36361e1e:#7b7bc9c91f1f:#ffffd0d00a0a:#00007171ffff:#ffff1d1d6262:#4b4bb8b8fdfd:#a0a02020f0f0"
 ``` 
 
+### Script themes:
 
+- azu.sh
+
+![azu](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/azu.png)
+
+- cai.sh
+
+![cai](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/cai.png)
+
+- elementary.sh
+
+![elementary](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/elementary.png)
+
+- elic.sh
+
+![elic](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/elic.png)
+
+- elio.sh
+
+![elio](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/elio.png)
+
+- miu.sh
+
+![miu](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/miu.png)
+
+- tin.sh
+
+![tin](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/tin.png)
 
 ### More colors
 
