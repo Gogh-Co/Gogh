@@ -1,7 +1,7 @@
 Elementary-OS-Terminal-Colors
 =============================
 
-## For Linux Mint - Ubuntu
+## Color Schemes For Linux Mint - Ubuntu
 ----------------
 
 Download and save the script file, make this file executable and run it:
