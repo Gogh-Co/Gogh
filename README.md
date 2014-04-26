@@ -7,9 +7,13 @@ Elementary-OS-Terminal-Colors
 Download and save the script file, make this file executable and run it:
 
 ```bash
+    $ wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/elementary.sh
     $ chmod +x elementary.sh
     $ ./elementary.sh
 ```
+
+oneline commnado
+    $ wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/elementary.sh && chmod +x elementary.sh && ./elementary.sh
 
 Alternatively you can open the file and copy and paste lines directly into your shell.
 
