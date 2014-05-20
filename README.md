@@ -12,7 +12,7 @@ Download and save the script file, make this file executable and run it:
     $ ./elementary.sh
 ```
 
-oneline command
+One line command
 
 ```bash
     $ wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/elementary.sh && chmod +x elementary.sh && ./elementary.sh && rm elementary.sh
@@ -32,69 +32,14 @@ gconftool-2 -s -t string /apps/gnome-terminal/profiles/Default/palette "#3030303
     http://ciembor.github.io/4bit/     
 ```
 
-### Script themes:
-
-- azu.sh
-
-![azu](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/azu.png)
-
-```bash
-    $ THEMEE="azu.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
-```
-
-- cai.sh
-
-![cai](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/cai.png)
-
-```bash
-    $ THEMEE="cai.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
-```
-
-- elementary.sh
-
-![elementary](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/elementary.png)
-
-```bash
-    $ THEMEE="elementary.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
-```
-
-- elic.sh
-
-![elic](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/elic.png)
-
-```bash
-    $ THEMEE="elic.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
-```
-
-- elio.sh
-
-![elio](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/elio.png)
-
-```bash
-    $ THEMEE="elio.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
-```
-
-- miu.sh
-
-![miu](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/miu.png)
-
-```bash
-    $ THEMEE="miu.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
-```
-
-- tin.sh
-
-![tin](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/tin.png)
-
-```bash
-    $ THEMEE="tin.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
-```
+## More themes:
 
 - aci.sh
 
 ![aci](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/aci.png)
 
 ```bash
+    # One line command, copy and paste into the terminal
     $ THEMEE="aci.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
 ```
 
@@ -103,7 +48,71 @@ gconftool-2 -s -t string /apps/gnome-terminal/profiles/Default/palette "#3030303
 ![aco](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/aco.png)
 
 ```bash
+    # One line command, copy and paste into the terminal
     $ THEMEE="aco.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
+```
+
+- azu.sh
+
+![azu](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/azu.png)
+
+```bash
+    # One line command, copy and paste into the terminal
+    $ THEMEE="azu.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
+```
+
+- cai.sh
+
+![cai](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/cai.png)
+
+```bash
+    # One line command, copy and paste into the terminal
+    $ THEMEE="cai.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
+```
+
+- elic.sh
+
+![elic](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/elic.png)
+
+```bash
+    # One line command, copy and paste into the terminal
+    $ THEMEE="elic.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
+```
+
+- elio.sh
+
+![elio](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/elio.png)
+
+```bash
+    # One line command, copy and paste into the terminal
+    $ THEMEE="elio.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
+```
+
+- miu.sh
+
+![miu](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/miu.png)
+
+```bash
+    # One line command, copy and paste into the terminal
+    $ THEMEE="miu.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
+```
+
+- tin.sh
+
+![tin](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/tin.png)
+
+```bash
+    # One line command, copy and paste into the terminal
+    $ THEMEE="tin.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
+```
+
+- elementary.sh
+
+![elementary](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/elementary.png)
+
+```bash
+    # One line command, copy and paste into the terminal
+    $ THEMEE="elementary.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
 ```
 
 ### More colors
