@@ -90,6 +90,22 @@ gconftool-2 -s -t string /apps/gnome-terminal/profiles/Default/palette "#3030303
     $ THEMEE="tin.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
 ```
 
+- aci.sh
+
+![aci](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/aci.png)
+
+```bash
+    $ THEMEE="aci.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
+```
+
+- aco.sh
+
+![aco](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/aco.png)
+
+```bash
+    $ THEMEE="aco.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
+```
+
 ### More colors
 
 copy and paste lines directly into your shell.
