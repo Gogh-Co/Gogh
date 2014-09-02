@@ -115,6 +115,14 @@ gconftool-2 -s -t string /apps/gnome-terminal/profiles/Default/palette "#3030303
     $ THEMEE="elementary.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
 ```
 
+- vag.sh
+
+![vag](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/vag.png)
+
+```bash
+    # One line command, copy and paste into the terminal
+    $ THEMEE="vag.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
+```
 ### More colors
 
 copy and paste lines directly into your shell.
