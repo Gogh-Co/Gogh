@@ -4,7 +4,7 @@ Elementary-OS-Terminal-Colors
 #### Color Schemes For Elementary OS - Linux Mint - Ubuntu
 
 
-![elementary](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/elementary.png)
+![elementary](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/themes.gif)
 
 ----
 
