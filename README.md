@@ -201,23 +201,3 @@ gconftool-2 -s -t string /apps/gnome-terminal/profiles/Default/palette "#3030303
     # One line command, copy and paste into the terminal
     $ THEMEE="ura.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
 ```
-
-
-- ven.sh
-
-![ven](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/ven.png)
-
-```bash
-    # One line command, copy and paste into the terminal
-    $ THEMEE="ven.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
-```
-
-
-- him.sh
-
-![him](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/him.png)
-
-```bash
-    # One line command, copy and paste into the terminal
-    $ THEMEE="him.sh" && wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/$THEMEE && chmod +x $THEMEE && ./$THEMEE && rm $THEMEE
-```
