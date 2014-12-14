@@ -232,3 +232,13 @@ $ wget -O xt  http://git.io/TF6KDA && chmod +x xt && ./xt && rm xt
 # One line install:
 $ wget -O xt  http://git.io/GUFFsQ && chmod +x xt && ./xt && rm xt
 ```
+
+
+- **pali.sh**
+
+![pali](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/pali.png)
+
+```bash
+# One line install:
+$ wget -O xt  http://git.io/xh3YKA && chmod +x xt && ./xt && rm xt
+```
