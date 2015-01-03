@@ -66,6 +66,10 @@ https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/base.sh
 
 - http://ciembor.github.io/4bit/
 
+#### contributors:
+
+- https://github.com/javaguirre
+
 -------
 
 ### More themes:
@@ -241,4 +245,14 @@ $ wget -O xt  http://git.io/GUFFsQ && chmod +x xt && ./xt && rm xt
 ```bash
 # One line install:
 $ wget -O xt  http://git.io/xh3YKA && chmod +x xt && ./xt && rm xt
+```
+
+
+- **hydrid.sh**
+
+![hydrid](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/Hybrid.png)
+
+```bash
+# One line install:
+$ wget -O xt  http://git.io/PWgNtA && chmod +x xt && ./xt && rm xt
 ```
