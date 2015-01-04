@@ -24,6 +24,14 @@ This way of installing is equals the above, the only thing is that a shortening 
     $ wget -O xt  http://git.io/fXU8Jg && chmod +x xt && ./xt && rm xt
 ```
 
+#### Elementary OS
+
+ Uncomment the following line in ```.bashrc```
+
+```bash
+    #force_color_prompt=yes
+```
+
 ### New Script
 
 To have more control over colors, I made a new simple script to change those made with 4 bits.
