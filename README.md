@@ -26,10 +26,16 @@ This way of installing is equals the above, the only thing is that a shortening 
 
 #### Elementary OS
 
- Uncomment the following line in ```.bashrc```
+ - Uncomment the following line in ```.bashrc```
 
 ```bash
     #force_color_prompt=yes
+```
+
+ - execute in terminal
+
+```bash
+    $ source .bashrc
 ```
 
 ### New Script
