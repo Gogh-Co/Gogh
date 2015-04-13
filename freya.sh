@@ -11,14 +11,14 @@ PURPLE="#EC0048"                  # COLOR_06
 CYAN="#2AA198"                    # COLOR_07 <--
 WHITE="#94A3A5"                   # COLOR_08
 
-BBLACK="#000000"                  # COLOR_09
+BBLACK="#586E75"                  # COLOR_09
 BRED="#CB4B16"                    # COLOR_10 <--
 BGREEN="#859900"                  # COLOR_11 <--
 BYELLOW="#B58900"                 # COLOR_12
 BBLUE="#268BD2"                   # COLOR_13 <--
 BPURPLE="#D33682"                 # COLOR_14
 BCYAN="#2AA198"                   # COLOR_15
-BWHITE="#ffffff"                  # COLOR_16
+BWHITE="#EEEEEE"                  # COLOR_16
 
 BACKGROUD_COLOR="#2D363A"         # Background Color
 FOREGROUND_COLOR="#94A3A5"        # Text
