@@ -96,14 +96,15 @@ Section 2: Bold text.
 Section 3: text and background.
 
 The basic colors are 8:
-Black
-White
-network
-green
-Yellow
-Blue
-Purple
-Cyan
+
+- Black
+- Red
+- Green
+- Yellow
+- Blue
+- Purple
+- Cyan
+- White
 
 In comments variables is that of the console belongs each color.
 
