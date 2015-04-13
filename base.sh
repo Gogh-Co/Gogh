@@ -2,26 +2,26 @@
 
 # ====================CONFIG THIS =============================== #
 
+COLOR_01="#073642"           # HOST
+COLOR_02="#DC322F"           # SYNTAX_STRING
+COLOR_03="#859900"           # COMMAND
+COLOR_04="#B58900"           # COMMAND_COLOR2
+COLOR_05="#268BD2"           # PATH
+COLOR_06="#EC0048"           # SYNTAX_VAR
+COLOR_07="#2AA198"           # PROMP
+COLOR_08="#94A3A5"           #
+
+COLOR_09="#000000"           #
+COLOR_10="#CB4B16"           # COMMAND_ERROR
+COLOR_11="#859900"           # EXEC
+COLOR_12="#B58900"           #
+COLOR_13="#268BD2"           # FOLDER
+COLOR_14="#D33682"           #
+COLOR_15="#2AA198"           #
+COLOR_16="#ffffff"           #
+
 BACKGROUD_COLOR="#2F373B"    # Background Color
 FOREGROUND_COLOR="#d9e6f2"   # Text
-COLOR_01="#383838"           # HOST
-COLOR_03="#939f93"           # COMMAND
-COLOR_04="#9f9f93"           # COMMAND_COLOR2
-COLOR_10="#ab4642"           # COMMAND_ERROR
-COLOR_05="#7cafc2"           # PATH
-COLOR_07="#ab4642"           # PROMP
-COLOR_11="#a1b56c"           # EXEC
-COLOR_13="#7cafc2"           # FOLDER
-
-COLOR_02="#9f9393"           # SYNTAX_STRING
-COLOR_06="#9f939f"           # SYNTAX_VAR
-
-COLOR_08="#F2F2F2"           # COLOR_08
-COLOR_09="#5D5D5D"           # COLOR_09
-COLOR_12="#FFD00A"           # COLOR_12
-COLOR_14="#FF1D62"           # COLOR_14
-COLOR_15="#4BB8FD"           # COLOR_15
-COLOR_16="#A020F0"           # COLOR_16
 
 # =============================================================== #
 
