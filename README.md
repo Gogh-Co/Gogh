@@ -23,10 +23,9 @@ Elementary os Freya 0.3 color scheme.
 ```bash
     $ wget -O xt  http://git.io/fXU8Jg && chmod +x xt && ./xt && rm xt
 ```
-
 This way of installing is equals the below, the only thing is that a shortening of urls (git.io) was used and fits all commands on a single line.
 
-- Download and save the script file, make this file executable and run it:
+- **or** Download and save the script file, make this file executable and run it:
 
 ```bash
     $ wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/elementary.sh
