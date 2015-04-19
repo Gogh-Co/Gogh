@@ -1,7 +1,10 @@
-Elementary-OS-Terminal-Colors
-=============================
+Gogh
+====
 
-#### Color Schemes For Elementary OS - Linux Mint - Ubuntu
+## Color Scheme for Gnome Terminal
+
+
+Color Schemes For Ubuntu, Linux Mint and all distributions that use gnome terminal, initially inspired by Elementary OS.
 
 ![elementary](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/themes.gif)
 ----
