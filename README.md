@@ -11,13 +11,21 @@ Color Schemes For Ubuntu, Linux Mint and all distributions that use gnome termin
 
 ### What's  New
 
-Elementary os Freya 0.3 color scheme.
+- Elementary os Freya 0.3 color scheme.
 
 ```bash
-  wget -O xt  http://git.io/vvmPj && chmod +x xt && ./xt && rm xt
+  $ wget -O xt  http://git.io/vvmPj && chmod +x xt && ./xt && rm xt
 ```
 
 ![new](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/new.png)
+
+- Flat Theme - inspired by https://dribbble.com/shots/1021755-Flat-UI-Terminal-Theme
+
+```bash
+  $ wget -O xt  http://git.io/vvppo && chmod +x xt && ./xt && rm xt
+```
+
+![Flat](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/flat.png)
 
 ### How to install:
 
