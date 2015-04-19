@@ -45,6 +45,7 @@ Miguel D. Quintero
 
 - https://github.com/javaguirre
 
--------
+## Mentions
 
-
+- [Awesome-Shell](https://github.com/alebcay/awesome-shell)
+- [Hipertextual](http://hipertextual.com/archivo/2014/11/4bit/)
