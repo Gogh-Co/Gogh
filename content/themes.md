@@ -189,11 +189,41 @@ $ wget -O xt  http://git.io/xh3YKA && chmod +x xt && ./xt && rm xt
 ```
 
 
-- **hydrid**
+- **Hybrid**
 
 ![hydrid](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/Hybrid.png)
 
 ```bash
 # One line install:
 $ wget -O xt  http://git.io/PWgNtA && chmod +x xt && ./xt && rm xt
+```
+
+
+- **Monokai Dark**
+
+![Monokai](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/mnokai.dark.png)
+
+```bash
+# One line install:
+$ wget -O xt  http://git.io/vvjFK && chmod +x xt && ./xt && rm xt
+```
+
+
+- **Solarized Dark**
+
+![Solarized](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/solarized.dark.png)
+
+```bash
+# One line install:
+$ wget -O xt  http://git.io/vvjFH && chmod +x xt && ./xt && rm xt
+```
+
+
+- **Solarized Light**
+
+![Solarized](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/solarized.light.png)
+
+```bash
+# One line install:
+$ wget -O xt  http://git.io/vvjFb && chmod +x xt && ./xt && rm xt
 ```
