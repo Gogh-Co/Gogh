@@ -2,6 +2,9 @@
 
 # ====================CONFIG THIS =============================== #
 
+BACKGROUD_COLOR="#2F373B"    # Background Color
+FOREGROUND_COLOR="#d9e6f2"   # Text
+
 COLOR_01="#073642"           # HOST
 COLOR_02="#DC322F"           # SYNTAX_STRING
 COLOR_03="#859900"           # COMMAND
@@ -19,9 +22,6 @@ COLOR_13="#268BD2"           # FOLDER
 COLOR_14="#D33682"           #
 COLOR_15="#2AA198"           #
 COLOR_16="#ffffff"           #
-
-BACKGROUD_COLOR="#2F373B"    # Background Color
-FOREGROUND_COLOR="#d9e6f2"   # Text
 
 # =============================================================== #
 
@@ -45,17 +45,24 @@ function gnome_color () {
 
 BACKGROUD_COLOR=$(gnome_color $BACKGROUD_COLOR)
 FOREGROUND_COLOR=$(gnome_color $FOREGROUND_COLOR)
+
 COLOR_01=$(gnome_color $COLOR_01)
+COLOR_02=$(gnome_color $COLOR_02)
 COLOR_03=$(gnome_color $COLOR_03)
 COLOR_04=$(gnome_color $COLOR_04)
-COLOR_10=$(gnome_color $COLOR_10)
 COLOR_05=$(gnome_color $COLOR_05)
-COLOR_07=$(gnome_color $COLOR_07)
-COLOR_11=$(gnome_color $COLOR_11)
-COLOR_13=$(gnome_color $COLOR_13)
-
-COLOR_02=$(gnome_color $COLOR_02)
 COLOR_06=$(gnome_color $COLOR_06)
+COLOR_07=$(gnome_color $COLOR_07)
+COLOR_08=$(gnome_color $COLOR_08)
+
+COLOR_09=$(gnome_color $COLOR_09)
+COLOR_10=$(gnome_color $COLOR_10)
+COLOR_11=$(gnome_color $COLOR_11)
+COLOR_12=$(gnome_color $COLOR_12)
+COLOR_13=$(gnome_color $COLOR_13)
+COLOR_14=$(gnome_color $COLOR_14)
+COLOR_15=$(gnome_color $COLOR_15)
+COLOR_16=$(gnome_color $COLOR_16)
 
 
 
