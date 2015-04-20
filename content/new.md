@@ -41,7 +41,7 @@ Gogh
   $ wget -O xt  http://git.io/vvjFK && chmod +x xt && ./xt && rm xt
 ```
 
-![Monokai](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/mnokai.dark.png)
+![Monokai](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/monokai.dark.png)
 
 
 
