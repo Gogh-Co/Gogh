@@ -30,20 +30,22 @@ We have lots of themes. Check them out! [Here...](https://github.com/Mayccoll/El
 
 If you want to create your own color scheme or contribute to the project. [Here...](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/howto.md)
 
-## Author
-
-Miguel D. Quintero
-
-- [Lanet.co](http:lanet.co)
-
-
 ## Credits:
 
 - http://ciembor.github.io/4bit/
+- Flat Theme - inspired by https://dribbble.com/shots/1021755-Flat-UI-Terminal-Theme
+- https://github.com/zenorocha/dracula-theme
+- http://ethanschoonover.com/solarized
+- Monokai
+- Elementary Os - https://elementary.io/
 
 ## Contributors:
 
 - https://github.com/javaguirre
+
+## Author
+
+- Miguel D. Quintero - [Lanet.co](http:lanet.co)
 
 ## Mentions
 

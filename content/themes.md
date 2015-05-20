@@ -5,7 +5,7 @@ Gogh
 
 ## Themes:
 
-- **Freya**
+## Freya
 
 ![freya](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/freya.png)
 
@@ -15,7 +15,9 @@ Gogh
 $ wget -O xt  http://git.io/vvmPj && chmod +x xt && ./xt && rm xt
 ```
 
-- **aci**
+-----
+
+## aci
 
 ![aci](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/aci.png)
 
@@ -25,7 +27,9 @@ $ wget -O xt  http://git.io/vvmPj && chmod +x xt && ./xt && rm xt
 $ wget -O xt  http://git.io/mGzs5Q && chmod +x xt && ./xt && rm xt
 ```
 
-- **aco**
+-----
+
+## aco
 
 ![aco](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/aco.png)
 
@@ -34,7 +38,9 @@ $ wget -O xt  http://git.io/mGzs5Q && chmod +x xt && ./xt && rm xt
 $ wget -O xt  http://git.io/0l4A5w && chmod +x xt && ./xt && rm xt
 ```
 
-- **azu**
+-----
+
+## azu
 
 ![azu](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/azu.png)
 
@@ -43,7 +49,9 @@ $ wget -O xt  http://git.io/0l4A5w && chmod +x xt && ./xt && rm xt
 $ wget -O xt  http://git.io/pDU8aQ && chmod +x xt && ./xt && rm xt
 ```
 
-- **cai**
+-----
+
+## cai
 
 ![cai](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/cai.png)
 
@@ -52,7 +60,9 @@ $ wget -O xt  http://git.io/pDU8aQ && chmod +x xt && ./xt && rm xt
 $ wget -O xt  http://git.io/ECkzjg && chmod +x xt && ./xt && rm xt
 ```
 
-- **elic**
+-----
+
+## elic
 
 ![elic](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/elic.png)
 
@@ -61,7 +71,9 @@ $ wget -O xt  http://git.io/ECkzjg && chmod +x xt && ./xt && rm xt
 $ wget -O xt  http://git.io/sSSshQ && chmod +x xt && ./xt && rm xt
 ```
 
-- **elio**
+-----
+
+## elio
 
 ![elio](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/elio.png)
 
@@ -70,7 +82,9 @@ $ wget -O xt  http://git.io/sSSshQ && chmod +x xt && ./xt && rm xt
 $ wget -O xt  http://git.io/bCVhIA && chmod +x xt && ./xt && rm xt
 ```
 
-- **miu**
+-----
+
+## miu
 
 ![miu](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/miu.png)
 
@@ -79,7 +93,9 @@ $ wget -O xt  http://git.io/bCVhIA && chmod +x xt && ./xt && rm xt
 $ wget -O xt  http://git.io/b-eZVQ && chmod +x xt && ./xt && rm xt
 ```
 
-- **tin**
+-----
+
+## tin
 
 ![tin](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/tin.png)
 
@@ -88,8 +104,9 @@ $ wget -O xt  http://git.io/b-eZVQ && chmod +x xt && ./xt && rm xt
 $ wget -O xt  http://git.io/W5dkrA && chmod +x xt && ./xt && rm xt
 ```
 
+-----
 
-- **elementary**
+## elementary
 
 ![elementary](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/elementary.png)
 
@@ -98,8 +115,9 @@ $ wget -O xt  http://git.io/W5dkrA && chmod +x xt && ./xt && rm xt
 $ wget -O xt  http://git.io/fXU8Jg && chmod +x xt && ./xt && rm xt
 ```
 
+-----
 
-- **vag**
+## vag
 
 ![vag](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/vag.png)
 
@@ -108,8 +126,9 @@ $ wget -O xt  http://git.io/fXU8Jg && chmod +x xt && ./xt && rm xt
 $ wget -O xt  http://git.io/xwkzlg && chmod +x xt && ./xt && rm xt
 ```
 
+-----
 
-- **bim**
+## bim
 
 ![bim](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/bim.png)
 
@@ -118,8 +137,9 @@ $ wget -O xt  http://git.io/xwkzlg && chmod +x xt && ./xt && rm xt
 $ wget -O xt  http://git.io/-t0lXg && chmod +x xt && ./xt && rm xt
 ```
 
+-----
 
-- **jup**
+## jup
 
 ![jup](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/jup.png)
 
@@ -128,8 +148,9 @@ $ wget -O xt  http://git.io/-t0lXg && chmod +x xt && ./xt && rm xt
 $ wget -O xt  http://git.io/PE0xXw && chmod +x xt && ./xt && rm xt
 ```
 
+-----
 
-- **mar**
+## mar
 
 ![mar](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/mar.png)
 
@@ -138,8 +159,9 @@ $ wget -O xt  http://git.io/PE0xXw && chmod +x xt && ./xt && rm xt
 $ wget -O xt  http://git.io/g749-Q && chmod +x xt && ./xt && rm xt
 ```
 
+-----
 
-- **nep**
+## nep
 
 ![nep](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/nep.png)
 
@@ -148,8 +170,9 @@ $ wget -O xt  http://git.io/g749-Q && chmod +x xt && ./xt && rm xt
 $ wget -O xt  http://git.io/6hJsiw && chmod +x xt && ./xt && rm xt
 ```
 
+-----
 
-- **sat**
+## sat
 
 ![sat](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/vag.png)
 
@@ -158,8 +181,9 @@ $ wget -O xt  http://git.io/6hJsiw && chmod +x xt && ./xt && rm xt
 $ wget -O xt  http://git.io/luv_2A && chmod +x xt && ./xt && rm xt
 ```
 
+-----
 
-- **shel**
+## shel
 
 ![shel](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/shel.png)
 
@@ -168,8 +192,9 @@ $ wget -O xt  http://git.io/luv_2A && chmod +x xt && ./xt && rm xt
 $ wget -O xt  http://git.io/TF6KDA && chmod +x xt && ./xt && rm xt
 ```
 
+-----
 
-- **ura**
+## ura
 
 ![ura](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/ura.png)
 
@@ -178,8 +203,9 @@ $ wget -O xt  http://git.io/TF6KDA && chmod +x xt && ./xt && rm xt
 $ wget -O xt  http://git.io/GUFFsQ && chmod +x xt && ./xt && rm xt
 ```
 
+-----
 
-- **pali**
+## pali
 
 ![pali](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/pali.png)
 
@@ -188,8 +214,9 @@ $ wget -O xt  http://git.io/GUFFsQ && chmod +x xt && ./xt && rm xt
 $ wget -O xt  http://git.io/xh3YKA && chmod +x xt && ./xt && rm xt
 ```
 
+-----
 
-- **Hybrid**
+## Hybrid
 
 ![hydrid](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/Hybrid.png)
 
@@ -198,18 +225,20 @@ $ wget -O xt  http://git.io/xh3YKA && chmod +x xt && ./xt && rm xt
 $ wget -O xt  http://git.io/PWgNtA && chmod +x xt && ./xt && rm xt
 ```
 
+-----
 
-- **Monokai Dark**
+## Monokai Dark
 
-![Monokai](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/mnokai.dark.png)
+![Monokai](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/monokai.dark.png)
 
 ```bash
 # One line install:
 $ wget -O xt  http://git.io/vvjFK && chmod +x xt && ./xt && rm xt
 ```
 
+-----
 
-- **Solarized Dark**
+## Solarized Dark
 
 ![Solarized](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/solarized.dark.png)
 
@@ -218,8 +247,9 @@ $ wget -O xt  http://git.io/vvjFK && chmod +x xt && ./xt && rm xt
 $ wget -O xt  http://git.io/vvjFH && chmod +x xt && ./xt && rm xt
 ```
 
+-----
 
-- **Solarized Light**
+## Solarized Light
 
 ![Solarized](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/solarized.light.png)
 
@@ -227,3 +257,16 @@ $ wget -O xt  http://git.io/vvjFH && chmod +x xt && ./xt && rm xt
 # One line install:
 $ wget -O xt  http://git.io/vvjFb && chmod +x xt && ./xt && rm xt
 ```
+
+-----
+
+## Dracula
+
+![new](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/dracula.png)
+
+```bash
+  # One line install:
+  $ wget -O xt  http://git.io/vTBJC && chmod +x xt && ./xt && rm xt
+```
+
+-----

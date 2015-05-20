@@ -5,6 +5,15 @@ Gogh
 
 ## What's  New
 
+
+## Dracula
+
+```bash
+  $ wget -O xt  http://git.io/vTBJC && chmod +x xt && ./xt && rm xt
+```
+
+![new](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/dracula.png)
+
 ## Freya
 
 - Elementary os Freya 0.3 color scheme.
@@ -15,15 +24,16 @@ Gogh
 
 ![new](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/new.png)
 
-## Flat
 
-- Flat Theme - inspired by https://dribbble.com/shots/1021755-Flat-UI-Terminal-Theme
+
+## Flat
 
 ```bash
   $ wget -O xt  http://git.io/vvppo && chmod +x xt && ./xt && rm xt
 ```
 
 ![Flat](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/flat.png)
+
 
 
 ## Hybrid
@@ -33,6 +43,7 @@ Gogh
 ```
 
 ![hydrid](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/Hybrid.png)
+
 
 
 ## Monokai Dark
