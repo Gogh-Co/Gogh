@@ -3,7 +3,7 @@
 # ====================CONFIG THIS =============================== #
 
 BACKGROUD_COLOR="#282a36"    # Background Color
-FOREGROUND_COLOR="#f8f8f2"   # Text
+FOREGROUND_COLOR="#94A3A5"   # Text
 
 COLOR_01="#44475a"           # HOST
 COLOR_02="#ff5555"           # SYNTAX_STRING
