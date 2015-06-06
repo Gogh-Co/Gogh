@@ -51,3 +51,4 @@ If you want to create your own color scheme or contribute to the project. [Here.
 
 - [Awesome-Shell](https://github.com/alebcay/awesome-shell)
 - [Hipertextual](http://hipertextual.com/archivo/2014/11/4bit/)
+- [MuyLinux](http://www.muylinux.com/2015/06/06/ping-91)
