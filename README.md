@@ -14,6 +14,10 @@ Color Schemes For Ubuntu, Linux Mint and all distributions that use gnome termin
 
 ### Chalk
 
+```bash
+  $ wget -O xt  http://git.io/vmKFA && chmod +x xt && ./xt && rm xt
+```
+
 ![new](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/chalk.png)
 
 Check the last uploaded color schemes [Here...](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/new.md)
@@ -42,6 +46,7 @@ If you want to create your own color scheme or contribute to the project. [Here.
 - http://ethanschoonover.com/solarized
 - Monokai
 - Elementary Os - https://elementary.io/
+- https://github.com/chalk/chalk
 
 ## Contributors:
 

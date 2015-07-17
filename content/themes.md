@@ -270,3 +270,11 @@ $ wget -O xt  http://git.io/vvjFb && chmod +x xt && ./xt && rm xt
 ```
 
 -----
+
+## Chalk
+
+```bash
+  $ wget -O xt  http://git.io/vmKFA && chmod +x xt && ./xt && rm xt
+```
+
+![new](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/chalk.png)

@@ -5,6 +5,15 @@ Gogh
 
 ## What's  New
 
+## Chalk
+
+```bash
+  $ wget -O xt  http://git.io/vmKFA && chmod +x xt && ./xt && rm xt
+```
+
+![new](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/chalk.png)
+
+
 
 ## Dracula
 
@@ -13,6 +22,8 @@ Gogh
 ```
 
 ![new](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/dracula.png)
+
+
 
 ## Freya
 
