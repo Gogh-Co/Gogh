@@ -12,6 +12,10 @@ Color Schemes For Ubuntu, Linux Mint and all distributions that use gnome termin
 
 ## [What's New](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/new.md)
 
+### Chalk
+
+![new](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/chalk.png)
+
 Check the last uploaded color schemes [Here...](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/new.md)
 
 ## [Install](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/install.md)
