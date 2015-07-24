@@ -22,9 +22,7 @@ This way of installing is equals the below, the only thing is that a shortening 
 
 #### Elementary OS
 
-- Unfortunately I could not make it work in freya
-
-- For Luna Uncomment the following line in ```.bashrc```
+- Uncomment the following line in ```.bashrc```
 
 ```bash
     #force_color_prompt=yes
