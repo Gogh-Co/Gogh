@@ -3,14 +3,16 @@ Gogh
 
 ![elementary](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/Gogh-icons.png)
 
-## Color Scheme for Gnome Terminal
+## Color Scheme for Gnome Terminal and Pantheon Terminal
 
-Color Schemes For Ubuntu, Linux Mint and all distributions that use gnome terminal, initially inspired by Elementary OS.
+Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that use gnome terminal or Pantheon Terminal, initially inspired by Elementary OS Luna.
 
 ![elementary](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/themes.gif)
 ----
 
 ## [What's New](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/new.md)
+
+**Now Thanks to [RafaelCz](https://github.com/RafaelCz) Gogh fully supports pantheon-terminal (Elementary OS Freya)**
 
 ### Chalk
 
@@ -51,6 +53,7 @@ If you want to create your own color scheme or contribute to the project. [Here.
 ## Contributors:
 
 - https://github.com/javaguirre
+- https://github.com/RafaelCz
 
 ## Author
 

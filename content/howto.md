@@ -20,26 +20,30 @@ https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/base.sh
 - **Variables**
 
 ```bash
-    BACKGROUD_COLOR="#2F373B"    # Background Color
-    FOREGROUND_COLOR="#d9e6f2"   # Text
+    # Section 1
+    COLOR_01="#363636"          # HOST
+    COLOR_02="#ff0883"          # SYNTAX_STRING
+    COLOR_03="#83ff08"          # COMMAND
+    COLOR_04="#ff8308"          # COMMAND_COLOR2
+    COLOR_05="#0883ff"          # PATH
+    COLOR_06="#8308ff"          # SYNTAX_VAR
+    COLOR_07="#08ff83"          # PROMP
+    COLOR_08="#b6b6b6"          #
 
-    COLOR_01="#383838"           # HOST
-    COLOR_02="#9f9393"           # SYNTAX_STRING
-    COLOR_03="#939f93"           # COMMAND
-    COLOR_04="#9f9f93"           # COMMAND_COLOR2
-    COLOR_05="#7cafc2"           # PATH
-    COLOR_06="#9f939f"           # SYNTAX_VAR
-    COLOR_07="#ab4642"           # PROMP
-    COLOR_08="#F2F2F2"           #
+    # Section 2
+    COLOR_09="#424242"          #
+    COLOR_10="#ff1e8e"          # COMMAND_ERROR
+    COLOR_11="#8eff1e"          # EXEC
+    COLOR_12="#ff8e1e"          #
+    COLOR_13="#1e8eff"          # FOLDER
+    COLOR_14="#8e1eff"          #
+    COLOR_15="#1eff8e"          #
+    COLOR_16="#c2c2c2"          #
 
-    COLOR_09="#5D5D5D"           #
-    COLOR_10="#ab4642"           # COMMAND_ERROR
-    COLOR_11="#a1b56c"           # EXEC
-    COLOR_12="#FFD00A"           #
-    COLOR_13="#7cafc2"           # FOLDER
-    COLOR_14="#FF1D62"           #
-    COLOR_15="#4BB8FD"           #
-    COLOR_16="#A020F0"           #
+    # Section 3
+    BACKGROUND_COLOR="#0d1926"  # Background Color
+    FOREGROUND_COLOR="#b4e1fd"  # Text
+    CURSOR_COLOR="$FOREGROUND_COLOR" # Cursors
 ```
 - **Explanation of colors and variables**
 
@@ -73,7 +77,7 @@ Here is a picture that explains a little better as colors are distributed.
 You can use this alias to view your color scheme in termial
 
 ```bash
-colors () {
+color () {
     # echo ""
     #black
     echo -e "\e[0;30m ███ *** AaBbCs ---  ███ \\e[0m   ---> Color 01 0;30m"
