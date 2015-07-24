@@ -20,7 +20,7 @@ https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/base.sh
 - **Variables**
 
 ```bash
-    BACKGROUD_COLOR="#2F373B"    # Background Color
+    BACKGROUND_COLOR="#2F373B"    # Background Color
     FOREGROUND_COLOR="#d9e6f2"   # Text
 
     COLOR_01="#383838"           # HOST

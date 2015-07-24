@@ -1,14 +1,83 @@
 #!/bin/bash
 
-# Save this script into set_colors.sh, make this file executable and run it:
-#
-# $ chmod +x set_colors.sh
-# $ ./set_colors.sh
-#
-# Alternatively copy lines below directly into your shell.
+# ====================CONFIG THIS =============================== #
+COLOR_01="#000000"           # HOST
+COLOR_02="#dd006f"           # SYNTAX_STRING
+COLOR_03="#6fdd00"           # COMMAND
+COLOR_04="#dd6f00"           # COMMAND_COLOR2
+COLOR_05="#006fdd"           # PATH
+COLOR_06="#6f00dd"           # SYNTAX_VAR
+COLOR_07="#00dd6f"           # PROMP
+COLOR_08="#f2f2f2"           #
 
-gconftool-2 --set /apps/gnome-terminal/profiles/Default/use_theme_background --type bool false
-gconftool-2 --set /apps/gnome-terminal/profiles/Default/use_theme_colors --type bool false
-gconftool-2 -s -t string /apps/gnome-terminal/profiles/Default/background_color '#757584848080'
-gconftool-2 -s -t string /apps/gnome-terminal/profiles/Default/foreground_color '#232347476a6a'
-gconftool-2 -s -t string /apps/gnome-terminal/profiles/Default/palette '#000000000000:#dddd00006f6f:#6f6fdddd0000:#dddd6f6f0000:#00006f6fdddd:#6f6f0000dddd:#0000dddd6f6f:#f2f2f2f2f2f2:#7d7d7d7d7d7d:#ffff7474b9b9:#b9b9ffff7474:#ffffb9b97474:#7474b9b9ffff:#b9b97474ffff:#7474ffffb9b9:#ffffffffffff'
+COLOR_09="#7d7d7d"           #
+COLOR_10="#ff74b9"           # COMMAND_ERROR
+COLOR_11="#b9ff74"           # EXEC
+COLOR_12="#ffb974"           #
+COLOR_13="#74b9ff"           # FOLDER
+COLOR_14="#b974ff"           #
+COLOR_15="#74ffb9"           #
+COLOR_16="#ffffff"           #
+
+BACKGROUND_COLOR="#758480"   # Background Color
+FOREGROUND_COLOR="#23476a"   # Text
+# =====================  END CONFIG   ======================================= #
+
+# |
+# | Convert RGB to gnome colors
+# | ===========================================
+function gnome_color () {
+
+    AA=${1:1:2}
+    BB=${1:3:2}
+    CC=${1:5:2}
+
+    echo "#${AA}${AA}${BB}${BB}${CC}${CC}"
+}
+
+# |
+# | Check for OS and decide how to apply
+# | ===========================================
+if [ $(lsb_release -c -s) == "freya" ]; then
+
+    # |
+    # | Apply Variables
+    # | ===========================================
+    gsettings set org.pantheon.terminal.settings background "${BACKGROUND_COLOR}"
+    gsettings set org.pantheon.terminal.settings foreground "${FOREGROUND_COLOR}"
+    gsettings set org.pantheon.terminal.settings palette "${COLOR_01}:${COLOR_02}:${COLOR_03}:${COLOR_04}:${COLOR_05}:${COLOR_06}:${COLOR_07}:${COLOR_08}:${COLOR_09}:${COLOR_10}:${COLOR_11}:${COLOR_12}:${COLOR_13}:${COLOR_14}:${COLOR_15}:${COLOR_16}"
+
+else
+
+    # |
+    # | Set gnome Variables
+    # | ===========================================
+    BACKGROUND_COLOR=$(gnome_color $BACKGROUND_COLOR)
+    FOREGROUND_COLOR=$(gnome_color $FOREGROUND_COLOR)
+    COLOR_01=$(gnome_color $COLOR_01)
+    COLOR_02=$(gnome_color $COLOR_02)
+    COLOR_03=$(gnome_color $COLOR_03)
+    COLOR_04=$(gnome_color $COLOR_04)
+    COLOR_05=$(gnome_color $COLOR_05)
+    COLOR_06=$(gnome_color $COLOR_06)
+    COLOR_07=$(gnome_color $COLOR_07)
+    COLOR_08=$(gnome_color $COLOR_08)
+    COLOR_09=$(gnome_color $COLOR_09)
+    COLOR_10=$(gnome_color $COLOR_10)
+    COLOR_11=$(gnome_color $COLOR_11)
+    COLOR_12=$(gnome_color $COLOR_12)
+    COLOR_13=$(gnome_color $COLOR_13)
+    COLOR_14=$(gnome_color $COLOR_14)
+    COLOR_15=$(gnome_color $COLOR_15)
+    COLOR_16=$(gnome_color $COLOR_16)
+
+    # |
+    # | Apply Variables
+    # | ===========================================
+    gconftool-2 --set /apps/gnome-terminal/profiles/Default/use_theme_background --type bool false
+    gconftool-2 --set /apps/gnome-terminal/profiles/Default/use_theme_colors --type bool false
+    gconftool-2 -s -t string /apps/gnome-terminal/profiles/Default/background_color "${BACKGROUND_COLOR}"
+    gconftool-2 -s -t string /apps/gnome-terminal/profiles/Default/foreground_color "${FOREGROUND_COLOR}"
+    gconftool-2 -s -t string /apps/gnome-terminal/profiles/Default/palette "${COLOR_01}:${COLOR_02}:${COLOR_03}:${COLOR_04}:${COLOR_05}:${COLOR_06}:${COLOR_07}:${COLOR_08}:${COLOR_09}:${COLOR_10}:${COLOR_11}:${COLOR_12}:${COLOR_13}:${COLOR_14}:${COLOR_15}:${COLOR_16}"
+
+fi
