@@ -1,14 +1,30 @@
 #!/bin/bash
 
-# Save this script into set_colors.sh, make this file executable and run it:
-#
-# $ chmod +x set_colors.sh
-# $ ./set_colors.sh
-#
-# Alternatively copy lines below directly into your shell.
+# ====================CONFIG THIS =============================== #
+COLOR_01="#363636"          # HOST
+COLOR_02="#ff0883"          # SYNTAX_STRING
+COLOR_03="#83ff08"          # COMMAND
+COLOR_04="#ff8308"          # COMMAND_COLOR2
+COLOR_05="#0883ff"          # PATH
+COLOR_06="#8308ff"          # SYNTAX_VAR
+COLOR_07="#08ff83"          # PROMP
+COLOR_08="#b6b6b6"          #
 
-gconftool-2 --set /apps/gnome-terminal/profiles/Default/use_theme_background --type bool false
-gconftool-2 --set /apps/gnome-terminal/profiles/Default/use_theme_colors --type bool false
-gconftool-2 -s -t string /apps/gnome-terminal/profiles/Default/background_color '#0d0d19192626'
-gconftool-2 -s -t string /apps/gnome-terminal/profiles/Default/foreground_color '#b4b4e1e1fdfd'
-gconftool-2 -s -t string /apps/gnome-terminal/profiles/Default/palette '#363636363636:#ffff08088383:#8383ffff0808:#ffff83830808:#08088383ffff:#83830808ffff:#0808ffff8383:#b6b6b6b6b6b6:#424242424242:#ffff1e1e8e8e:#8e8effff1e1e:#ffff8e8e1e1e:#1e1e8e8effff:#8e8e1e1effff:#1e1effff8e8e:#c2c2c2c2c2c2'
+COLOR_09="#424242"          #
+COLOR_10="#ff1e8e"          # COMMAND_ERROR
+COLOR_11="#8eff1e"          # EXEC
+COLOR_12="#ff8e1e"          #
+COLOR_13="#1e8eff"          # FOLDER
+COLOR_14="#8e1eff"          #
+COLOR_15="#1eff8e"          #
+COLOR_16="#c2c2c2"          #
+
+BACKGROUND_COLOR="#0d1926"  # Background Color
+FOREGROUND_COLOR="#b4e1fd"  # Text
+CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+# =============================================================== #
+
+# |
+# | Apply Colors
+# | ===========================================
+source <(wget  -O - http://git.io/vY8Qq)
