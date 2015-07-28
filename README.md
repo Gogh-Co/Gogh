@@ -12,7 +12,7 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that u
 
 ## [What's New](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/new.md)
 
-**Now Thanks to [RafaelCz](https://github.com/RafaelCz) Gogh fully supports pantheon-terminal (Elementary OS Freya)**
+**Now Thanks to [RafaelCz](https://github.com/RafaelCz) Gogh fully supports pantheon-terminal (Elementary OS Freya)** and we have a new theme.
 
 ### Chalk
 
@@ -22,7 +22,7 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that u
 
 ![new](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/chalk.png)
 
-Check the last uploaded color schemes [Here...](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/new.md)
+Check all themes here [Here...](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/themes.md)
 
 ## [Install](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/install.md)
 

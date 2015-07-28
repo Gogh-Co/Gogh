@@ -1,7 +1,7 @@
-Gogh
-====
 
-![elementary](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/Gogh-icons.png)
+![elementary](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/Gogh-logo.png)
+
+-----
 
 ## How To
 
