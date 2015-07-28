@@ -21,6 +21,7 @@ COLOR_16="#c4c4c4"           #
 
 BACKGROUND_COLOR="#1f1305"   # Background Color
 FOREGROUND_COLOR="#b4e1fd"   # Text
+CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
 # =============================================================== #
 
 # |
