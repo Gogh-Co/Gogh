@@ -247,79 +247,78 @@ $ wget -O xt  http://git.io/vTBJC && chmod +x xt && ./xt && rm xt
 
 ## Chalk
 
-![Chalk](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/chalk.png)
-
 ```bash
 $ wget -O xt  http://git.io/vmKFA && chmod +x xt && ./xt && rm xt
 ```
+
+![Chalk](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/chalk.png)
 
 -----
 
 ## Flat
 
-![Flat](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/flat.png)
-
 ```bash
 $ wget -O xt  http://git.io/vvppo && chmod +x xt && ./xt && rm xt
 ```
+
+![Flat](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/flat.png)
 
 -----
 
 ## Hemisu Dark
 
-![Hemisu Dark](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/hemisu-dark.png)
-
 ```bash
 $ wget -O xt  http://git.io/v3KBf && chmod +x xt && ./xt && rm xt
 ```
+
+![Hemisu Dark](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/hemisu-dark.png)
 
 -----
 
 ## Hemisu Light
 
-![Hemisu Light](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/hemisu-light.png)
-
 ```bash
 $ wget -O xt  http://git.io/v3KBt && chmod +x xt && ./xt && rm xt
 ```
+
+![Hemisu Light](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/hemisu-light.png)
 
 -----
 
 ## Ocean Dark
 
-![Ocean Dark](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/ocean-dark.png)
-
 ```bash
 $ wget -O xt  http://git.io/v3KBj && chmod +x xt && ./xt && rm xt
 ```
+
+![Ocean Dark](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/ocean-dark.png)
 
 -----
 
 ## Peppermint
 
-![Peppermint](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/peppermint.png)
-
 ```bash
 $ wget -O xt  http://git.io/v3KR8 && chmod +x xt && ./xt && rm xt
 ```
+
+![Peppermint](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/peppermint.png)
 
 -----
 
 ## Smyck
 
-![Smyck](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/smyck.png)
-
 ```bash
 $ wget -O xt  http://git.io/v3KRS && chmod +x xt && ./xt && rm xt
 ```
+
+![Smyck](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/smyck.png)
 
 -----
 
 ## Material Colors
 
-![Material Colors](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/material-colors.png)
-
-
 ```bash
 $ wget -O xt  http://git.io/v3KPi && chmod +x xt && ./xt && rm xt
 ```
+
+![Material Colors](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/material-colors.png)

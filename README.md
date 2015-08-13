@@ -43,51 +43,52 @@ Each theme has his own line.
 
 #### Hemisu Dark
 
-![Hemisu Dark](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/hemisu-dark.png)
-
 ```bash
 $ wget -O xt  http://git.io/v3KBf && chmod +x xt && ./xt && rm xt
 ```
 
-#### Hemisu Light
+![Hemisu Dark](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/hemisu-dark.png)
 
-![Hemisu Light](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/hemisu-light.png)
+#### Hemisu Light
 
 ```bash
 $ wget -O xt  http://git.io/v3KBt && chmod +x xt && ./xt && rm xt
 ```
 
-#### Ocean Dark
+![Hemisu Light](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/hemisu-light.png)
 
-![Ocean Dark](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/ocean-dark.png)
+#### Ocean Dark
 
 ```bash
 $ wget -O xt  http://git.io/v3KBj && chmod +x xt && ./xt && rm xt
 ```
 
-#### Peppermint
+![Ocean Dark](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/ocean-dark.png)
 
-![Peppermint](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/peppermint.png)
+#### Peppermint
 
 ```bash
 $ wget -O xt  http://git.io/v3KR8 && chmod +x xt && ./xt && rm xt
 ```
 
-#### Smyck
+![Peppermint](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/peppermint.png)
 
-![Smyck](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/smyck.png)
+
+#### Smyck
 
 ```bash
 $ wget -O xt  http://git.io/v3KRS && chmod +x xt && ./xt && rm xt
 ```
 
-#### Material Colors
+![Smyck](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/smyck.png)
 
- ![Material Colors](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/material-colors.png)
+#### Material Colors
 
 ```bash
 $ wget -O xt  http://git.io/v3KPi && chmod +x xt && ./xt && rm xt
 ```
+
+ ![Material Colors](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/material-colors.png)
 
 
 Check all themes here [Here...](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/themes.md)
