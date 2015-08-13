@@ -312,3 +312,14 @@ $ wget -O xt  http://git.io/v3KR8 && chmod +x xt && ./xt && rm xt
 ```bash
 $ wget -O xt  http://git.io/v3KRS && chmod +x xt && ./xt && rm xt
 ```
+
+-----
+
+## Material Colors
+
+![Material Colors](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/material-colors.png)
+
+
+```bash
+$ wget -O xt  http://git.io/v3KPi && chmod +x xt && ./xt && rm xt
+```

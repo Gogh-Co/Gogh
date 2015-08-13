@@ -248,3 +248,8 @@ function_message_title ' Smyck '
 wget -O xt  http://git.io/v3KRS && chmod +x xt && ./xt && rm xt
 color
 sleep 1
+
+function_message_title ' Material Colors '
+wget -O xt  http://git.io/v3KPi && chmod +x xt && ./xt && rm xt
+color
+sleep 1
