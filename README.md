@@ -131,6 +131,7 @@ If you want to create your own color scheme or contribute to the project. [Here.
 - [Peppermint color theme](https://noahfrederick.com/log/lion-terminal-theme-peppermint/) by Noah Frederick.
 - [Ocean theme](https://github.com/fabianperez/ocean-dark-iterm) by [Fabian Perez](https://github.com/fabianperez).
 - [SMYCK color theme](http://color.smyck.org/) originally created by John-Paul Bader ([hukl](https://github.com/hukl)).
+- [Mitchel van Eijgen](https://gist.github.com/mvaneijgen/4c56701215847dd5ddcf) and [Liu Xinan](https://gist.github.com/xinan/ca2b82fef6aaa0d1e099).
 
 
 
