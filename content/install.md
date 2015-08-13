@@ -5,7 +5,9 @@
 
 ## Install:
 
-- Just copy and paste One line command
+- Just copy and paste One line command.
+
+- Each theme has his own line.
 
 ```bash
     $ wget -O xt  http://git.io/fXU8Jg && chmod +x xt && ./xt && rm xt

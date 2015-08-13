@@ -10,11 +10,30 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that u
 ![elementary](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/themes.gif)
 ----
 
+
+<br/>
+<br/>
+
+
+## [Install](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/install.md)
+
+Just copy and paste One line command.
+Each theme has his own line.
+
+```bash
+  $ wget -O xt  http://git.io/fXU8Jg && chmod +x xt && ./xt && rm xt
+```
+
+
+<br/>
+<br/>
+
+
 ## What's New
 
 **Now Thanks to [RafaelCz](https://github.com/RafaelCz) Gogh fully supports pantheon-terminal (Elementary OS Freya)** and we have a new theme.
 
-### Chalk
+#### Chalk
 
 ```bash
   $ wget -O xt  http://git.io/vmKFA && chmod +x xt && ./xt && rm xt
@@ -22,23 +41,73 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that u
 
 ![new](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/chalk.png)
 
-Check all themes here [Here...](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/themes.md)
+#### Hemisu Dark
 
-## [Install](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/install.md)
-
-Just copy and paste One line command
+![Hemisu Dark](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/hemisu-dark.png)
 
 ```bash
-  $ wget -O xt  http://git.io/fXU8Jg && chmod +x xt && ./xt && rm xt
+$ wget -O xt  http://git.io/v3KBf && chmod +x xt && ./xt && rm xt
 ```
+
+#### Hemisu Light
+
+![Hemisu Light](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/hemisu-light.png)
+
+```bash
+$ wget -O xt  http://git.io/v3KBt && chmod +x xt && ./xt && rm xt
+```
+
+#### Ocean Dark
+
+![Ocean Dark](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/ocean-dark.png)
+
+```bash
+$ wget -O xt  http://git.io/v3KBj && chmod +x xt && ./xt && rm xt
+```
+
+#### Peppermint
+
+![Peppermint](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/peppermint.png)
+
+```bash
+$ wget -O xt  http://git.io/v3KR8 && chmod +x xt && ./xt && rm xt
+```
+
+#### Smyck
+
+![Smyck](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/smyck.png)
+
+```bash
+$ wget -O xt  http://git.io/v3KRS && chmod +x xt && ./xt && rm xt
+```
+
+Check all themes here [Here...](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/themes.md)
+
+
+
+<br/>
+<br/>
+
 
 ## [Themes](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/themes.md)
 
 We have lots of themes. Check them out! [Here...](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/themes.md)
 
+
+<br/>
+<br/>
+
+
+
 ## [How to](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/howto.md)
 
 If you want to create your own color scheme or contribute to the project. [Here...](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/howto.md)
+
+
+
+<br/>
+<br/>
+
 
 ## Credits:
 
@@ -49,15 +118,38 @@ If you want to create your own color scheme or contribute to the project. [Here.
 - Monokai
 - Elementary Os - https://elementary.io/
 - https://github.com/chalk/chalk
+- [Hemisu color themes](https://noahfrederick.com/log/hemisu-for-os-x-terminal/) by Noah Frederick.
+- [Peppermint color theme](https://noahfrederick.com/log/lion-terminal-theme-peppermint/) by Noah Frederick.
+- [Ocean theme](https://github.com/fabianperez/ocean-dark-iterm) by [Fabian Perez](https://github.com/fabianperez).
+- [SMYCK color theme](http://color.smyck.org/) originally created by John-Paul Bader ([hukl](https://github.com/hukl)).
+
+
+
+<br/>
+<br/>
+
 
 ## Contributors:
 
 - https://github.com/javaguirre
 - https://github.com/RafaelCz
 
+
+
+<br/>
+<br/>
+
+
 ## Author
 
 - Miguel D. Quintero - [Lanet.co](http:lanet.co)
+
+
+
+<br/>
+<br/>
+
+
 
 ## Mentions
 

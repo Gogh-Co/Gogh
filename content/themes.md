@@ -262,3 +262,53 @@ $ wget -O xt  http://git.io/vmKFA && chmod +x xt && ./xt && rm xt
 ```bash
 $ wget -O xt  http://git.io/vvppo && chmod +x xt && ./xt && rm xt
 ```
+
+-----
+
+## Hemisu Dark
+
+![Hemisu Dark](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/hemisu-dark.png)
+
+```bash
+$ wget -O xt  http://git.io/v3KBf && chmod +x xt && ./xt && rm xt
+```
+
+-----
+
+## Hemisu Light
+
+![Hemisu Light](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/hemisu-light.png)
+
+```bash
+$ wget -O xt  http://git.io/v3KBt && chmod +x xt && ./xt && rm xt
+```
+
+-----
+
+## Ocean Dark
+
+![Ocean Dark](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/ocean-dark.png)
+
+```bash
+$ wget -O xt  http://git.io/v3KBj && chmod +x xt && ./xt && rm xt
+```
+
+-----
+
+## Peppermint
+
+![Peppermint](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/peppermint.png)
+
+```bash
+$ wget -O xt  http://git.io/v3KR8 && chmod +x xt && ./xt && rm xt
+```
+
+-----
+
+## Smyck
+
+![Smyck](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/smyck.png)
+
+```bash
+$ wget -O xt  http://git.io/v3KRS && chmod +x xt && ./xt && rm xt
+```

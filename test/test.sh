@@ -223,3 +223,28 @@ function_message_title ' Theme Flat '
 wget -O xt  http://git.io/vvppo && chmod +x xt && ./xt && rm xt
 color
 sleep 1
+
+function_message_title ' Hemisu Dark '
+wget -O xt  http://git.io/v3KBf && chmod +x xt && ./xt && rm xt
+color
+sleep 1
+
+function_message_title ' Hemisu Light '
+wget -O xt  http://git.io/v3KBt && chmod +x xt && ./xt && rm xt
+color
+sleep 1
+
+function_message_title ' Ocean Dark '
+wget -O xt  http://git.io/v3KBj && chmod +x xt && ./xt && rm xt
+color
+sleep 1
+
+function_message_title ' Peppermint '
+wget -O xt  http://git.io/v3KR8 && chmod +x xt && ./xt && rm xt
+color
+sleep 1
+
+function_message_title ' Smyck '
+wget -O xt  http://git.io/v3KRS && chmod +x xt && ./xt && rm xt
+color
+sleep 1
