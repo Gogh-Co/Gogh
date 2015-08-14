@@ -21,7 +21,7 @@ Just copy and paste One line command.
 Each theme has his own line.
 
 ```bash
-  $ wget -O xt  http://git.io/fXU8Jg && chmod +x xt && ./xt && rm xt
+  $ wget -O xt  http://git.io/v3D4o && chmod +x xt && ./xt && rm xt
 ```
 
 
@@ -36,7 +36,7 @@ Each theme has his own line.
 #### Chalk
 
 ```bash
-  $ wget -O xt  http://git.io/vmKFA && chmod +x xt && ./xt && rm xt
+  $ wget -O xt  http://git.io/v3Dlb && chmod +x xt && ./xt && rm xt
 ```
 
 ![new](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/chalk.png)
@@ -44,7 +44,7 @@ Each theme has his own line.
 #### Hemisu Dark
 
 ```bash
-$ wget -O xt  http://git.io/v3KBf && chmod +x xt && ./xt && rm xt
+$ wget -O xt  http://git.io/v3D4M && chmod +x xt && ./xt && rm xt
 ```
 
 ![Hemisu Dark](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/hemisu-dark.png)
@@ -52,7 +52,7 @@ $ wget -O xt  http://git.io/v3KBf && chmod +x xt && ./xt && rm xt
 #### Hemisu Light
 
 ```bash
-$ wget -O xt  http://git.io/v3KBt && chmod +x xt && ./xt && rm xt
+$ wget -O xt  http://git.io/v3D49 && chmod +x xt && ./xt && rm xt
 ```
 
 ![Hemisu Light](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/hemisu-light.png)
@@ -60,7 +60,7 @@ $ wget -O xt  http://git.io/v3KBt && chmod +x xt && ./xt && rm xt
 #### Ocean Dark
 
 ```bash
-$ wget -O xt  http://git.io/v3KBj && chmod +x xt && ./xt && rm xt
+$ wget -O xt  http://git.io/v3DBz && chmod +x xt && ./xt && rm xt
 ```
 
 ![Ocean Dark](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/ocean-dark.png)
@@ -68,7 +68,7 @@ $ wget -O xt  http://git.io/v3KBj && chmod +x xt && ./xt && rm xt
 #### Peppermint
 
 ```bash
-$ wget -O xt  http://git.io/v3KR8 && chmod +x xt && ./xt && rm xt
+$ wget -O xt  http://git.io/v3DBK && chmod +x xt && ./xt && rm xt
 ```
 
 ![Peppermint](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/peppermint.png)
@@ -77,7 +77,7 @@ $ wget -O xt  http://git.io/v3KR8 && chmod +x xt && ./xt && rm xt
 #### Smyck
 
 ```bash
-$ wget -O xt  http://git.io/v3KRS && chmod +x xt && ./xt && rm xt
+$ wget -O xt  http://git.io/v3DB9 && chmod +x xt && ./xt && rm xt
 ```
 
 ![Smyck](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/smyck.png)
@@ -85,7 +85,7 @@ $ wget -O xt  http://git.io/v3KRS && chmod +x xt && ./xt && rm xt
 #### Material Colors
 
 ```bash
-$ wget -O xt  http://git.io/v3KPi && chmod +x xt && ./xt && rm xt
+$ wget -O xt  http://git.io/v3DBv && chmod +x xt && ./xt && rm xt
 ```
 
  ![Material Colors](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/material-colors.png)
