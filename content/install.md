@@ -10,7 +10,7 @@
 - Each theme has his own line.
 
 ```bash
-    $ wget -O xt  http://git.io/fXU8Jg && chmod +x xt && ./xt && rm xt
+    $ wget -O xt  http://git.io/v3D4o && chmod +x xt && ./xt && rm xt
 ```
 This way of installing is equals the below, the only thing is that a shortening of urls (git.io) was used and fits all commands on a single line.
 
