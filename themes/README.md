@@ -1,1 +1,1 @@
-/home/o/Documents/Gogh/content/themes.md
+./content/themes.md
