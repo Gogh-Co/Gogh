@@ -322,3 +322,53 @@ $ wget -O xt  http://git.io/v3DBv && chmod +x xt && ./xt && rm xt
 ```
 
 ![Material Colors](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/material-colors.png)
+
+-----
+
+## Tomorrow Night Blue
+
+```bash
+$ wget -O xt  http://git.io/v3DBj && chmod +x xt && ./xt && rm xt
+```
+
+![Tomorrow Night Blue](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/tomorrow-night-blue.png)
+
+-----
+
+## Tomorrow Night Bright
+
+```bash
+$ wget -O xt  http://git.io/v3DRJ && chmod +x xt && ./xt && rm xt
+```
+
+![Tomorrow Night Bright](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/tomorrow-night-bright.png)
+
+-----
+
+## Tomorrow Night Eighties
+
+```bash
+$ wget -O xt  http://git.io/v3DRI && chmod +x xt && ./xt && rm xt
+```
+
+![Tomorrow Night Eighties](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/tomorrow-night-eighties.png)
+
+-----
+
+## Tomorrow Night
+
+```bash
+$ wget -O xt  http://git.io/v3DRs && chmod +x xt && ./xt && rm xt
+```
+
+![Tomorrow Night](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/tomorrow-night.png)
+
+-----
+
+## Tomorrow
+
+```bash
+$ wget -O xt  http://git.io/v3DRc && chmod +x xt && ./xt && rm xt
+```
+
+![Tomorrow](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/tomorrow.png)

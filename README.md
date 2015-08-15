@@ -39,7 +39,7 @@ Each theme has his own line.
   $ wget -O xt  http://git.io/v3Dlb && chmod +x xt && ./xt && rm xt
 ```
 
-![new](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/chalk.png)
+![Chalk](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/chalk.png)
 
 #### Hemisu Dark
 
@@ -88,8 +88,47 @@ $ wget -O xt  http://git.io/v3DB9 && chmod +x xt && ./xt && rm xt
 $ wget -O xt  http://git.io/v3DBv && chmod +x xt && ./xt && rm xt
 ```
 
- ![Material Colors](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/material-colors.png)
+![Material Colors](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/material-colors.png)
 
+#### Tomorrow Night Blue
+
+```bash
+$ wget -O xt  http://git.io/v3DBj && chmod +x xt && ./xt && rm xt
+```
+
+![Tomorrow Night Blue](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/tomorrow-night-blue.png)
+
+#### Tomorrow Night Bright
+
+```bash
+$ wget -O xt  http://git.io/v3DRJ && chmod +x xt && ./xt && rm xt
+```
+
+![Tomorrow Night Bright](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/tomorrow-night-bright.png)
+
+#### Tomorrow Night Eighties
+
+```bash
+$ wget -O xt  http://git.io/v3DRI && chmod +x xt && ./xt && rm xt
+```
+
+![Tomorrow Night Eighties](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/tomorrow-night-eighties.png)
+
+#### Tomorrow Night
+
+```bash
+$ wget -O xt  http://git.io/v3DRs && chmod +x xt && ./xt && rm xt
+```
+
+![Tomorrow Night](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/tomorrow-night.png)
+
+#### Tomorrow
+
+```bash
+$ wget -O xt  http://git.io/v3DRc && chmod +x xt && ./xt && rm xt
+```
+
+![Tomorrow](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/tomorrow.png)
 
 Check all themes here [Here...](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/themes.md)
 
@@ -133,6 +172,7 @@ If you want to create your own color scheme or contribute to the project. [Here.
 - [Ocean theme](https://github.com/fabianperez/ocean-dark-iterm) by [Fabian Perez](https://github.com/fabianperez).
 - [SMYCK color theme](http://color.smyck.org/) originally created by John-Paul Bader ([hukl](https://github.com/hukl)).
 - [Mitchel van Eijgen](https://gist.github.com/mvaneijgen/4c56701215847dd5ddcf) and [Liu Xinan](https://gist.github.com/xinan/ca2b82fef6aaa0d1e099).
+- [Tomorrow color theme set](https://github.com/chriskempson/tomorrow-theme) by [Chris Kempson](https://github.com/chriskempson).
 
 
 
