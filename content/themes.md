@@ -258,7 +258,7 @@ $ wget -O xt  http://git.io/v3Dlb && chmod +x xt && ./xt && rm xt
 ## Flat
 
 ```bash
-$ wget -O xt  http://git.io/v3Dlb && chmod +x xt && ./xt && rm xt
+$ wget -O xt  http://git.io/v3D4z && chmod +x xt && ./xt && rm xt
 ```
 
 ![Flat](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/flat.png)
