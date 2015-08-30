@@ -1,13 +1,13 @@
 Gogh
 ====
 
-![elementary](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/Gogh-icons.png)
+![elementary](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/Gogh-icons.png)
 
 ## Color Scheme for Gnome Terminal and Pantheon Terminal
 
 Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that use gnome terminal or Pantheon Terminal, initially inspired by Elementary OS Luna.
 
-![elementary](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/themes.gif)
+![elementary](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes.gif)
 ----
 
 
@@ -15,7 +15,7 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that u
 <br/>
 
 
-## [Install](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/install.md)
+## [Install](https://github.com/Mayccoll/Gogh/blob/master/content/install.md)
 
 Just copy and paste One line command.
 Each theme has his own line.
@@ -31,106 +31,26 @@ Each theme has his own line.
 
 ## What's New
 
-**Now Thanks to [RafaelCz](https://github.com/RafaelCz) Gogh fully supports pantheon-terminal (Elementary OS Freya)** and we have a new theme.
+**Now Thanks to [RafaelCz](https://github.com/RafaelCz) Gogh fully supports pantheon-terminal (Elementary OS Freya)** and we have new themes.
 
-#### Chalk
-
-```bash
-  $ wget -O xt  http://git.io/v3Dlb && chmod +x xt && ./xt && rm xt
-```
-
-![Chalk](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/chalk.png)
-
-#### Hemisu Dark
+#### One Dark
 
 ```bash
-$ wget -O xt  http://git.io/v3D4M && chmod +x xt && ./xt && rm xt
+  $ wget -O xt  http://git.io/vs7Ut && chmod +x xt && ./xt && rm xt
 ```
 
-![Hemisu Dark](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/hemisu-dark.png)
+![one.light](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/one.dark.png)
 
-#### Hemisu Light
+#### One Light
 
 ```bash
-$ wget -O xt  http://git.io/v3D49 && chmod +x xt && ./xt && rm xt
+$ wget -O xt  http://git.io/vs7UQ && chmod +x xt && ./xt && rm xt
 ```
 
-![Hemisu Light](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/hemisu-light.png)
-
-#### Ocean Dark
-
-```bash
-$ wget -O xt  http://git.io/v3DBz && chmod +x xt && ./xt && rm xt
-```
-
-![Ocean Dark](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/ocean-dark.png)
-
-#### Peppermint
-
-```bash
-$ wget -O xt  http://git.io/v3DBK && chmod +x xt && ./xt && rm xt
-```
-
-![Peppermint](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/peppermint.png)
+![one.light](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/one.light.png)
 
 
-#### Smyck
-
-```bash
-$ wget -O xt  http://git.io/v3DB9 && chmod +x xt && ./xt && rm xt
-```
-
-![Smyck](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/smyck.png)
-
-#### Material Colors
-
-```bash
-$ wget -O xt  http://git.io/v3DBv && chmod +x xt && ./xt && rm xt
-```
-
-![Material Colors](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/material-colors.png)
-
-#### Tomorrow Night Blue
-
-```bash
-$ wget -O xt  http://git.io/v3DBj && chmod +x xt && ./xt && rm xt
-```
-
-![Tomorrow Night Blue](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/tomorrow-night-blue.png)
-
-#### Tomorrow Night Bright
-
-```bash
-$ wget -O xt  http://git.io/v3DRJ && chmod +x xt && ./xt && rm xt
-```
-
-![Tomorrow Night Bright](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/tomorrow-night-bright.png)
-
-#### Tomorrow Night Eighties
-
-```bash
-$ wget -O xt  http://git.io/v3DRI && chmod +x xt && ./xt && rm xt
-```
-
-![Tomorrow Night Eighties](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/tomorrow-night-eighties.png)
-
-#### Tomorrow Night
-
-```bash
-$ wget -O xt  http://git.io/v3DRs && chmod +x xt && ./xt && rm xt
-```
-
-![Tomorrow Night](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/tomorrow-night.png)
-
-#### Tomorrow
-
-```bash
-$ wget -O xt  http://git.io/v3DRc && chmod +x xt && ./xt && rm xt
-```
-
-![Tomorrow](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/tomorrow.png)
-
-Check all themes here [Here...](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/themes.md)
+Check all themes here [Here...](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md)
 
 
 
@@ -138,9 +58,9 @@ Check all themes here [Here...](https://github.com/Mayccoll/Elementary-OS-Termin
 <br/>
 
 
-## [Themes](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/themes.md)
+## [Themes](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md)
 
-We have lots of themes. Check them out! [Here...](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/themes.md)
+We have lots of themes. Check them out! [Here...](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md)
 
 
 <br/>
@@ -148,9 +68,9 @@ We have lots of themes. Check them out! [Here...](https://github.com/Mayccoll/El
 
 
 
-## [How to](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/howto.md)
+## [How to](https://github.com/Mayccoll/Gogh/blob/master/content/howto.md)
 
-If you want to create your own color scheme or contribute to the project. [Here...](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/howto.md)
+If you want to create your own color scheme or contribute to the project. [Here...](https://github.com/Mayccoll/Gogh/blob/master/content/howto.md)
 
 
 
@@ -173,7 +93,7 @@ If you want to create your own color scheme or contribute to the project. [Here.
 - [SMYCK color theme](http://color.smyck.org/) originally created by John-Paul Bader ([hukl](https://github.com/hukl)).
 - [Mitchel van Eijgen](https://gist.github.com/mvaneijgen/4c56701215847dd5ddcf) and [Liu Xinan](https://gist.github.com/xinan/ca2b82fef6aaa0d1e099).
 - [Tomorrow color theme set](https://github.com/chriskempson/tomorrow-theme) by [Chris Kempson](https://github.com/chriskempson).
-
+- [One Dark & Light theme set](https://github.com/nathanbuchar/one-dark-terminal) by [Nathan Buchar](https://github.com/nathanbuchar). 
 
 
 <br/>

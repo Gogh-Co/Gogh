@@ -372,3 +372,23 @@ $ wget -O xt  http://git.io/v3DRc && chmod +x xt && ./xt && rm xt
 ```
 
 ![Tomorrow](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/tomorrow.png)
+
+-----
+
+## One Dark
+
+```bash
+  $ wget -O xt  http://git.io/vs7Ut && chmod +x xt && ./xt && rm xt
+```
+
+![one.light](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/one.dark.png)
+
+-----
+
+## One Light
+
+```bash
+$ wget -O xt  http://git.io/vs7UQ && chmod +x xt && ./xt && rm xt
+```
+
+![one.light](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/one.light.png)
