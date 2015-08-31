@@ -17,7 +17,7 @@ This way of installing is equals the below, the only thing is that a shortening 
 - **or** Download and save the script file, make this file executable and run it:
 
 ```bash
-    $ wget https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/elementary.sh
+    $ wget https://github.com/Mayccoll/Gogh/blob/master/themes/freya.sh
     $ chmod +x elementary.sh
     $ ./elementary.sh
 ```
