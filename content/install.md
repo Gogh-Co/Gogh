@@ -17,9 +17,9 @@ This way of installing is equals the below, the only thing is that a shortening 
 - **or** Download and save the script file, make this file executable and run it:
 
 ```bash
-    $ wget https://github.com/Mayccoll/Gogh/blob/master/themes/freya.sh
-    $ chmod +x elementary.sh
-    $ ./elementary.sh
+    $ wget https://raw.githubusercontent.com/Mayccoll/Gogh/master/themes/freya.sh
+    $ chmod +x freya.sh
+    $ ./freya.sh
 ```
 
 #### Elementary OS
