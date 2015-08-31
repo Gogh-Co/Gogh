@@ -5,7 +5,7 @@ Gogh
 
 ## Color Scheme for Gnome Terminal and Pantheon Terminal
 
-Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that use gnome terminal or Pantheon Terminal, initially inspired by Elementary OS Luna.
+Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that use gnome terminal or Pantheon Terminal, initially inspired by Elementary OS Luna. You can check all themes [here...](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md)
 
 ![elementary](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes.gif)
 ----
@@ -24,6 +24,9 @@ Each theme has his own line.
   $ wget -O xt  http://git.io/v3D4o && chmod +x xt && ./xt && rm xt
 ```
 
+**DEMO:**
+
+![gogh-demo](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/gogh-demo.gif)
 
 <br/>
 <br/>
@@ -93,7 +96,7 @@ If you want to create your own color scheme or contribute to the project. [Here.
 - [SMYCK color theme](http://color.smyck.org/) originally created by John-Paul Bader ([hukl](https://github.com/hukl)).
 - [Mitchel van Eijgen](https://gist.github.com/mvaneijgen/4c56701215847dd5ddcf) and [Liu Xinan](https://gist.github.com/xinan/ca2b82fef6aaa0d1e099).
 - [Tomorrow color theme set](https://github.com/chriskempson/tomorrow-theme) by [Chris Kempson](https://github.com/chriskempson).
-- [One Dark & Light theme set](https://github.com/nathanbuchar/one-dark-terminal) by [Nathan Buchar](https://github.com/nathanbuchar). 
+- [One Dark & Light theme set](https://github.com/nathanbuchar/one-dark-terminal) by [Nathan Buchar](https://github.com/nathanbuchar).
 
 
 <br/>
