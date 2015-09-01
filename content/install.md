@@ -22,16 +22,43 @@ This way of installing is equals the below, the only thing is that a shortening 
     $ ./freya.sh
 ```
 
-#### Elementary OS
+## Elementary OS
 
-- Uncomment the following line in ```.bashrc```
+1 - Uncomment the following line in ```.bashrc``` you can find this file in your ```/home/USER/``` directory.
 
 ```bash
     #force_color_prompt=yes
 ```
 
- - execute in terminal
+2 - execute in terminal
 
 ```bash
     $ source .bashrc
 ```
+
+
+## Install by Script
+
+You also can execute this script this will list all available themas allowing you to select the one you like.
+
+```bash
+  $ wget -O xt  http://git.io/vGz67 && chmod +x xt && ./xt && rm xt
+```
+
+## Create a command line
+
+WARNING: Only if you know what you are doing or thrust me :)
+
+```bash
+  $ sudo wget -O /usr/local/bin/gogh  http://git.io/vGz67  && sudo chmod +x /usr/local/bin/gogh
+```
+
+No in your terminal just tipe ```gogh```
+
+```bash
+  $ gogh
+```
+
+**DEMO:**
+
+![Script Demo](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/script-demo.gif)
