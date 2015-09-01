@@ -32,6 +32,18 @@ Each theme has his own line.
 <br/>
 
 
+## [Install by Script](https://github.com/Mayccoll/Gogh/blob/master/content/install.md)
+
+You also can execute this script this will list all available themas allowing you to select the one you like.
+
+```bash
+  $ wget -O xt  http://git.io/vGz67 && chmod +x xt && ./xt && rm xt
+```
+[View demo](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/script-demo.gif) - if you want a command line [Follow the instruction](https://github.com/Mayccoll/Gogh/blob/master/content/install.md#create-a-command-line)
+
+<br/>
+<br/>
+
 ## What's New
 
 **Now Thanks to [RafaelCz](https://github.com/RafaelCz) Gogh fully supports pantheon-terminal (Elementary OS Freya)** and we have new themes.
