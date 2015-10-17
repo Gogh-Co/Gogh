@@ -46,7 +46,8 @@ You also can execute this script this will list all available themas allowing yo
 
 ## What's New
 
-**Now Thanks to [RafaelCz](https://github.com/RafaelCz) Gogh fully supports pantheon-terminal (Elementary OS Freya)** and we have new themes.
+- **Support Ubuntu 15.04** thanks to [Terminal Sexy](https://terminal.sexy) script
+- **Now Thanks to [RafaelCz](https://github.com/RafaelCz) Gogh fully supports pantheon-terminal (Elementary OS Freya)** and we have new themes.
 
 #### One Dark
 
@@ -95,7 +96,7 @@ If you want to create your own color scheme or contribute to the project. [Here.
 
 ## Credits:
 
-- http://ciembor.github.io/4bit/
+- [4bit}(http://ciembor.github.io/4bit/)
 - Flat Theme - inspired by https://dribbble.com/shots/1021755-Flat-UI-Terminal-Theme
 - https://github.com/zenorocha/dracula-theme
 - http://ethanschoonover.com/solarized
@@ -109,6 +110,7 @@ If you want to create your own color scheme or contribute to the project. [Here.
 - [Mitchel van Eijgen](https://gist.github.com/mvaneijgen/4c56701215847dd5ddcf) and [Liu Xinan](https://gist.github.com/xinan/ca2b82fef6aaa0d1e099).
 - [Tomorrow color theme set](https://github.com/chriskempson/tomorrow-theme) by [Chris Kempson](https://github.com/chriskempson).
 - [One Dark & Light theme set](https://github.com/nathanbuchar/one-dark-terminal) by [Nathan Buchar](https://github.com/nathanbuchar).
+- [Terminal Sexy](https://terminal.sexy)
 
 
 <br/>
