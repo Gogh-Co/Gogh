@@ -96,12 +96,12 @@ If you want to create your own color scheme or contribute to the project. [Here.
 
 ## Credits:
 
-- [4bit}(http://ciembor.github.io/4bit/)
+- [4bit](http://ciembor.github.io/4bit/)
 - Flat Theme - inspired by https://dribbble.com/shots/1021755-Flat-UI-Terminal-Theme
 - https://github.com/zenorocha/dracula-theme
 - http://ethanschoonover.com/solarized
 - Monokai
-- Elementary Os - https://elementary.io/
+- [Elementary Os](https://elementary.io/)
 - https://github.com/chalk/chalk
 - [Hemisu color themes](https://noahfrederick.com/log/hemisu-for-os-x-terminal/) by Noah Frederick.
 - [Peppermint color theme](https://noahfrederick.com/log/lion-terminal-theme-peppermint/) by Noah Frederick.
