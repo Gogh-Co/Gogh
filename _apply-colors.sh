@@ -186,4 +186,6 @@ function gogh_colors () {
     echo ""
 }
 
-gogh_colors
+if [[ "$(dirname $(readlink -f "${*:-/dev/null}"))" == "$(dirname $(readlink -f "$0"))*" ]]; then
+  gogh_colors
+fi
