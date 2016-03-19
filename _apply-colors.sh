@@ -15,7 +15,7 @@ function gnome_color () {
 # |
 # | Check for OS and decide how to apply
 # | ===========================================
-if [ $(lsb_release -c -s) == "freya" ]; then
+if [ $(lsb_release -c -s) = "freya" ]; then
 
     # |
     # | Apply Variables
