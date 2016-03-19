@@ -114,8 +114,13 @@ else
             dset palette "['${COLOR_01}', '${COLOR_02}', '${COLOR_03}', '${COLOR_04}', '${COLOR_05}', '${COLOR_06}', '${COLOR_07}', '${COLOR_08}', '${COLOR_09}', '${COLOR_10}', '${COLOR_11}', '${COLOR_12}', '${COLOR_13}', '${COLOR_14}', '${COLOR_15}', '${COLOR_16}']"
             dset background-color "'${BACKGROUND_COLOR}'"
             dset foreground-color "'${FOREGROUND_COLOR}'"
-            dset bold-color "'${COLOR_08}'"
-            dset bold-color-same-as-fg "true"
+            if [ ! -z "${BOLD_COLOR}" ]; then
+              dset bold-color "'${BOLD_COLOR}'"
+              dset bold-color-same-as-fg "false"
+            else
+              dset bold-color "'${COLOR_08}'"
+              dset bold-color-same-as-fg "true"
+            fi
             dset use-theme-colors "false"
             dset use-theme-background "false"
 
