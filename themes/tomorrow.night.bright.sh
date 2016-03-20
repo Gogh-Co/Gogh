@@ -27,4 +27,5 @@ CURSOR_COLOR="#E9E9E9"
 # |
 # | Apply Colors
 # | ===========================================
-source <(wget  -O - http://git.io/vY8Qq)
+source $(cd "$(dirname "$(readlink -f "$0")")" && pwd)/../_apply-colors.sh || \
+  source <(wget  -O - http://git.io/vY8Qq)
