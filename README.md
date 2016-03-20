@@ -122,6 +122,7 @@ If you want to create your own color scheme or contribute to the project. [Here.
 - https://github.com/javaguirre
 - https://github.com/RafaelCz
 - https://github.com/limatheus
+- https://github.com/DoomHammer
 
 
 <br/>
