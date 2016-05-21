@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # ====================CONFIG THIS =============================== #
 COLOR_01="#0a0a0a"           # HOST

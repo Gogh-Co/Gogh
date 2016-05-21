@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # ====================CONFIG THIS =============================== #
 COLOR_01="#4F4F4F"
