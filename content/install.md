@@ -12,7 +12,7 @@
 ```bash
     $ wget -O xt  http://git.io/v3D4o && chmod +x xt && ./xt && rm xt
 ```
-This way of installing is equals the below, the only thing is that a shortening of urls (git.io) was used and fits all commands on a single line.
+This way of installing is equals the below, the only thing is that a shortening of URLs (git.io) was used and fits all commands on a single line.
 
 - **or** Download and save the script file, make this file executable and run it:
 
@@ -53,7 +53,7 @@ WARNING: Only if you know what you are doing or thrust me :)
   $ sudo wget -O /usr/local/bin/gogh  http://git.io/vGz67  && sudo chmod +x /usr/local/bin/gogh
 ```
 
-No in your terminal just tipe ```gogh```
+Now in your terminal just type ```gogh```
 
 ```bash
   $ gogh
