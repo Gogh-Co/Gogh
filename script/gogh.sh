@@ -46,126 +46,126 @@ Themes:
     (\\e[0m\e[0;34m 39 \\e[0m\e[0m) vag
 "
 echo -e "Usage : Enter Theme Number (\\e[0m\e[0;34mOPTION\\e[0m\e[0m)"
-echo -n 'Enter OPTION : '
+echo -n 'Enter OPTION :'
 read NUM
 case $NUM in
     0) echo '0 is not in OPTION' ;;
 
-    1 | 01) echo 'Thme: aci     '
+    1 | 01) echo 'Theme: aci'
     wget -O xt  http://git.io/v3Dlm && chmod +x xt && ./xt && rm xt;;
 
-    2 | 02) echo 'Thme: aco     '
+    2 | 02) echo 'Theme: aco'
     wget -O xt  http://git.io/v3Dll && chmod +x xt && ./xt && rm xt;;
 
-    3 | 03) echo 'Thme: azu     '
+    3 | 03) echo 'Theme: azu'
     wget -O xt  http://git.io/v3Dlz && chmod +x xt && ./xt && rm xt;;
 
-    4 | 04) echo 'Thme: bim     '
+    4 | 04) echo 'Theme: bim'
     wget -O xt  http://git.io/v3Dlr && chmod +x xt && ./xt && rm xt;;
 
-    5 | 05) echo 'Thme: cai     '
+    5 | 05) echo 'Theme: cai'
     wget -O xt  http://git.io/v3Dli && chmod +x xt && ./xt && rm xt;;
 
-    6 | 06) echo 'Thme: Chalk     '
+    6 | 06) echo 'Theme: Chalk'
     wget -O xt  http://git.io/v3Dlb && chmod +x xt && ./xt && rm xt;;
 
-    7 | 07) echo 'Thme: Dracula     '
+    7 | 07) echo 'Theme: Dracula'
     wget -O xt  http://git.io/v3D8e && chmod +x xt && ./xt && rm xt;;
 
-    8 | 08) echo 'Thme: elementary     '
+    8 | 08) echo 'Theme: elementary'
     wget -O xt  http://git.io/v3D8R && chmod +x xt && ./xt && rm xt;;
 
-    9 | 09) echo 'Thme: elic     '
+    9 | 09) echo 'Theme: elic'
     wget -O xt  http://git.io/v3D82 && chmod +x xt && ./xt && rm xt;;
 
-    10) echo 'Thme: elio     '
+    10) echo 'Theme: elio'
     wget -O xt  http://git.io/v3D44 && chmod +x xt && ./xt && rm xt;;
 
-    11) echo 'Thme: Flat     '
+    11) echo 'Theme: Flat'
     wget -O xt  http://git.io/v3D4z && chmod +x xt && ./xt && rm xt;;
 
-    12) echo 'Thme: Freya     '
+    12) echo 'Theme: Freya'
     wget -O xt  http://git.io/v3D4o && chmod +x xt && ./xt && rm xt;;
 
-    13) echo 'Thme: Hemisu Dark     '
+    13) echo 'Theme: Hemisu Dark'
     wget -O xt  http://git.io/v3D4M && chmod +x xt && ./xt && rm xt;;
 
-    14) echo 'Thme: Hemisu Light     '
+    14) echo 'Theme: Hemisu Light'
     wget -O xt  http://git.io/v3D49 && chmod +x xt && ./xt && rm xt;;
 
-    15) echo 'Thme: Hybrid     '
+    15) echo 'Theme: Hybrid'
     wget -O xt  http://git.io/v3D4d && chmod +x xt && ./xt && rm xt;;
 
-    16) echo 'Thme: jup     '
+    16) echo 'Theme: jup'
     wget -O xt  http://git.io/v3D4N && chmod +x xt && ./xt && rm xt;;
 
-    17) echo 'Thme: mar     '
+    17) echo 'Theme: mar'
     wget -O xt  http://git.io/v3DBe && chmod +x xt && ./xt && rm xt;;
 
-    18) echo 'Thme: Material Colors     '
+    18) echo 'Theme: Material Colors'
     wget -O xt  http://git.io/v3DBv && chmod +x xt && ./xt && rm xt;;
 
-    19) echo 'Thme: miu     '
+    19) echo 'Theme: miu'
     wget -O xt  http://git.io/v3DBT && chmod +x xt && ./xt && rm xt;;
 
-    20) echo 'Thme: Monokai Dark     '
+    20) echo 'Theme: Monokai Dark'
     wget -O xt  http://git.io/v3DBO && chmod +x xt && ./xt && rm xt;;
 
-    21) echo 'Thme: nep     '
+    21) echo 'Theme: nep'
     wget -O xt  http://git.io/v3DBB && chmod +x xt && ./xt && rm xt;;
 
-    22) echo 'Thme: Ocean Dark     '
+    22) echo 'Theme: Ocean Dark'
     wget -O xt  http://git.io/v3DBz && chmod +x xt && ./xt && rm xt;;
 
-    23) echo 'Thme: One Dark     $ '
+    23) echo 'Theme: One Dark     $'
     wget -O xt  http://git.io/vs7Ut && chmod +x xt && ./xt && rm xt;;
 
-    24) echo 'Thme: One Light     '
+    24) echo 'Theme: One Light'
     wget -O xt  http://git.io/vs7UQ && chmod +x xt && ./xt && rm xt;;
 
-    25) echo 'Thme: pali     '
+    25) echo 'Theme: pali'
     wget -O xt  http://git.io/v3DBV && chmod +x xt && ./xt && rm xt;;
 
-    26) echo 'Thme: Peppermint     '
+    26) echo 'Theme: Peppermint'
     wget -O xt  http://git.io/v3DBK && chmod +x xt && ./xt && rm xt;;
 
-    27) echo 'Thme: sat     '
+    27) echo 'Theme: sat'
     wget -O xt  http://git.io/v3DBP && chmod +x xt && ./xt && rm xt;;
 
-    28) echo 'Thme: shel     '
+    28) echo 'Theme: shel'
     wget -O xt  http://git.io/v3DBM && chmod +x xt && ./xt && rm xt;;
 
-    29) echo 'Thme: Smyck     '
+    29) echo 'Theme: Smyck'
     wget -O xt  http://git.io/v3DB9 && chmod +x xt && ./xt && rm xt;;
 
-    30) echo 'Thme: Solarized Dark     '
+    30) echo 'Theme: Solarized Dark'
     wget -O xt  http://git.io/v3DBQ && chmod +x xt && ./xt && rm xt;;
 
-    31) echo 'Thme: Solarized Light     '
+    31) echo 'Theme: Solarized Light'
     wget -O xt  http://git.io/v3DB5 && chmod +x xt && ./xt && rm xt;;
 
-    32) echo 'Thme: tin     '
+    32) echo 'Theme: tin'
     wget -O xt  http://git.io/v3DBF && chmod +x xt && ./xt && rm xt;;
 
-    33) echo 'Thme: Tomorrow     '
+    33) echo 'Theme: Tomorrow'
     wget -O xt  http://git.io/v3DRc && chmod +x xt && ./xt && rm xt;;
 
-    34) echo 'Thme: Tomorrow Night     '
+    34) echo 'Theme: Tomorrow Night'
     wget -O xt  http://git.io/v3DRs && chmod +x xt && ./xt && rm xt;;
 
-    35) echo 'Thme: Tomorrow Night Blue     '
+    35) echo 'Theme: Tomorrow Night Blue'
     wget -O xt  http://git.io/v3DBj && chmod +x xt && ./xt && rm xt;;
 
-    36) echo 'Thme: Tomorrow Night Bright     '
+    36) echo 'Theme: Tomorrow Night Bright'
     wget -O xt  http://git.io/v3DRJ && chmod +x xt && ./xt && rm xt;;
 
-    37) echo 'Thme: Tomorrow Night Eighties     '
+    37) echo 'Theme: Tomorrow Night Eighties'
     wget -O xt  http://git.io/v3DRI && chmod +x xt && ./xt && rm xt;;
 
-    38) echo 'Thme: ura     '
+    38) echo 'Theme: ura'
     wget -O xt  http://git.io/v3DRB && chmod +x xt && ./xt && rm xt;;
 
-    39) echo 'Thme: vag     '
+    39) echo 'Theme: vag'
     wget -O xt  http://git.io/v3DR0 && chmod +x xt && ./xt && rm xt;;
 
     *) echo 'INVALID OPTION!' ;;
