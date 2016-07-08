@@ -119,11 +119,14 @@ If you want to create your own color scheme or contribute to the project. [Here.
 
 ## Contributors:
 
-- https://github.com/javaguirre
-- https://github.com/RafaelCz
-- https://github.com/limatheus
-- https://github.com/DoomHammer
-- https://github.com/kragniz
+- [@javaguirre](https://github.com/javaguirre)
+- [@RafaelCz](https://github.com/RafaelCz)
+- [@limatheus](https://github.com/limatheus)
+- [@DoomHammer](https://github.com/DoomHammer)
+- [@kragniz](https://github.com/kragniz)
+- [@oxydron](https://github.com/oxydron)
+- [@jhonnymoreira](https://github.com/jhonnymoreira)
+- [@aloisdg](https://github.com/aloisdg)
 
 
 <br/>
