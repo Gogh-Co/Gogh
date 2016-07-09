@@ -34,11 +34,20 @@ Each theme has his own line.
 
 ## [Install by Script](https://github.com/Mayccoll/Gogh/blob/master/content/install.md)
 
-You also can execute this script this will list all available themas allowing you to select the one you like.
+You also can execute one of the scripts below. Both will list all available themes allowing you to select the one you like.
 
-```bash
-  $ wget -O xt  http://git.io/vGz67 && chmod +x xt && ./xt && rm xt
-```
+1. Without creating a profile with the name of the theme:
+
+    ```bash
+    $ wget -O xt  http://git.io/vGz67 && chmod +x xt && ./xt && rm x
+    ```
+
+2. Creating a profile with name of the theme:
+
+    ```bash
+    $ wget -O xt https://git.io/vKOB6 && chmod +x xt && ./xt && rm xt
+    ```
+
 [View demo](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/script-demo.gif) - if you want a command line [Follow the instruction](https://github.com/Mayccoll/Gogh/blob/master/content/install.md#create-a-command-line)
 
 <br/>
