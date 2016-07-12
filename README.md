@@ -39,7 +39,7 @@ You also can execute one of the scripts below. Both will list all available them
 1. Without creating a profile with the name of the theme:
 
     ```bash
-    $ wget -O xt  http://git.io/vGz67 && chmod +x xt && ./xt && rm x
+    $ wget -O xt  http://git.io/vGz67 && chmod +x xt && ./xt && rm xt
     ```
 
 2. Creating a profile with name of the theme:
