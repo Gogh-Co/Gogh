@@ -47,11 +47,21 @@ You also can execute this script this will list all available themas allowing yo
 
 ## Create a command line
 
-WARNING: Only if you know what you are doing or thrust me :)
+**WARNING:** *Only if you know what you are doing or thrust me :)*
 
-```bash
-  $ sudo wget -O /usr/local/bin/gogh  http://git.io/vGz67  && sudo chmod +x /usr/local/bin/gogh
-```
+You have two options:
+
+1. Without creating a profile with the name of the theme:
+
+    ```bash
+    $ sudo wget -O /usr/local/bin/gogh http://git.io/vGz67 && sudo chmod +x /usr/local/bin/gogh
+    ```
+
+2. Creating a profile with name of the theme:
+
+    ```bash
+    $ sudo wget -O /usr/local/bin/gogh https://git.io/vKOB6 && sudo chmod +x /usr/local/bin/gogh
+    ```
 
 Now in your terminal just type ```gogh```
 
