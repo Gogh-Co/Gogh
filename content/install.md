@@ -24,13 +24,13 @@ This way of installing is equals the below, the only thing is that a shortening 
 
 ## Elementary OS
 
-1 - Uncomment the following line in ```.bashrc``` you can find this file in your ```/home/USER/``` directory.
+1 - Uncomment the following line in `.bashrc` you can find this file in your `/home/USER/` directory.
 
 ```bash
     #force_color_prompt=yes
 ```
 
-2 - execute in terminal
+2 - Execute in terminal
 
 ```bash
     $ source .bashrc
@@ -39,7 +39,7 @@ This way of installing is equals the below, the only thing is that a shortening 
 
 ## Install by Script
 
-You also can execute this script this will list all available themas allowing you to select the one you like.
+You also can execute this script. This will list all available themes allowing you to select the one you like.
 
 ```bash
   $ wget -O xt  http://git.io/vGz67 && chmod +x xt && ./xt && rm xt
@@ -47,7 +47,7 @@ You also can execute this script this will list all available themas allowing yo
 
 ## Create a command line
 
-**WARNING:** *Only if you know what you are doing or thrust me :)*
+**WARNING:** *Only if you know what you are doing or trust me :)*
 
 You have two options:
 
@@ -63,7 +63,7 @@ You have two options:
     $ sudo wget -O /usr/local/bin/gogh https://git.io/vKOB6 && sudo chmod +x /usr/local/bin/gogh
     ```
 
-Now in your terminal just type ```gogh```
+Now in your terminal just type `gogh`:
 
 ```bash
   $ gogh

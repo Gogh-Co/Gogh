@@ -8,6 +8,7 @@ Gogh
 Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that use gnome terminal or Pantheon Terminal, initially inspired by Elementary OS Luna. You can check all themes [here...](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md)
 
 ![elementary](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes.gif)
+
 ----
 
 
@@ -48,14 +49,14 @@ You also can execute one of the scripts below. Both will list all available them
     $ wget -O xt https://git.io/vKOB6 && chmod +x xt && ./xt && rm xt
     ```
 
-[View demo](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/script-demo.gif) - if you want a command line [Follow the instruction](https://github.com/Mayccoll/Gogh/blob/master/content/install.md#create-a-command-line)
+[View demo](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/script-demo.gif) - if you want a command line : [Follow the instructions.](https://github.com/Mayccoll/Gogh/blob/master/content/install.md#create-a-command-line)
 
 <br/>
 <br/>
 
 ## What's New
 
-- **Support Ubuntu 15.04** thanks to [Terminal Sexy](https://terminal.sexy) script
+- **Support Ubuntu 15.04** thanks to [Terminal Sexy](https://terminal.sexy) script.
 - **Now Thanks to [RafaelCz](https://github.com/RafaelCz) Gogh fully supports pantheon-terminal (Elementary OS Freya)** and we have new themes.
 
 #### One Dark
@@ -75,7 +76,7 @@ $ wget -O xt  http://git.io/vs7UQ && chmod +x xt && ./xt && rm xt
 ![one.light](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/one.light.png)
 
 
-Check all themes here [Here...](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md)
+Check all themes [Here...](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md)
 
 
 
