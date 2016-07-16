@@ -137,6 +137,7 @@ If you want to create your own color scheme or contribute to the project. [Here.
 - [@oxydron](https://github.com/oxydron)
 - [@jhonnymoreira](https://github.com/jhonnymoreira)
 - [@aloisdg](https://github.com/aloisdg)
+- [@hg8](https://github.com/hg8)
 
 
 <br/>
