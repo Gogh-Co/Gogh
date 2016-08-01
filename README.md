@@ -121,6 +121,7 @@ If you want to create your own color scheme or contribute to the project. [Here.
 - [Tomorrow color theme set](https://github.com/chriskempson/tomorrow-theme) by [Chris Kempson](https://github.com/chriskempson).
 - [One Dark & Light theme set](https://github.com/nathanbuchar/one-dark-terminal) by [Nathan Buchar](https://github.com/nathanbuchar).
 - [Terminal Sexy](https://terminal.sexy)
+- [Gruvbox](https://github.com/morhetz/gruvbox)
 
 
 <br/>
@@ -138,6 +139,7 @@ If you want to create your own color scheme or contribute to the project. [Here.
 - [@jhonnymoreira](https://github.com/jhonnymoreira)
 - [@aloisdg](https://github.com/aloisdg)
 - [@hg8](https://github.com/hg8)
+- [@ErickChacon](https://github.com/ErickChacon)
 
 
 <br/>
