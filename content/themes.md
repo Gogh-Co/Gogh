@@ -392,3 +392,13 @@ $ wget -O xt  http://git.io/vs7UQ && chmod +x xt && ./xt && rm xt
 ```
 
 ![one.light](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/one.light.png)
+
+-----
+
+## Gruvbox Dark
+
+```bash
+$ wget -O xt  http://git.io/v6JYg && chmod +x xt && ./xt && rm xt
+```
+
+![one.light](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/gruvbox-dark.png)
