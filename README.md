@@ -15,6 +15,11 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that u
 <br/>
 <br/>
 
+## Pre-Install
+
+```bash
+$ sudo apt-get install dconf-cli
+```
 
 ## [Install](https://github.com/Mayccoll/Gogh/blob/master/content/install.md)
 
