@@ -1,6 +1,6 @@
 
-![elementary](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/Gogh-logo.png)
+![elementary](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/gogh/Gogh-logo.png)
 
 ## Themes:
 
-[Click ...](https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/content/themes.md)
+ [Go to theme page :link:](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md)
