@@ -1,5 +1,5 @@
 
-![elementary](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/Gogh-logo.png)
+![elementary](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/gogh/Gogh-logo.png)
 
 -----
 
@@ -71,4 +71,4 @@ Now in your terminal just type `gogh`:
 
 **DEMO:**
 
-![Script Demo](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/script-demo.gif)
+![Script Demo](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/demos/script-demo.gif)

@@ -1,5 +1,5 @@
 
-![elementary](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/Gogh-logo.png)
+![elementary](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/gogh/Gogh-logo.png)
 
 -----
 
@@ -70,7 +70,7 @@ In comments variables is that of the console belongs each color.
 
 Here is a picture that explains a little better as colors are distributed.
 
-![Colors](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/colors.png)
+![Colors](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/gogh/colors.png)
 
 - **View Colors**
 
