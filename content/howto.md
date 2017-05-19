@@ -1,5 +1,5 @@
 
-![elementary](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/gogh/Gogh-logo.png)
+![elementary](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/gogh/Gogh-logo.png)
 
 -----
 
@@ -15,7 +15,7 @@ Please feel free to use and create your own color schemes.
 
 - **The Script**
 
-https://github.com/Mayccoll/Elementary-OS-Terminal-Colors/blob/master/base.sh
+https://github.com/Mayccoll/Gogh/blob/master/base.sh
 
 - **Variables**
 
@@ -70,7 +70,7 @@ In comments variables is that of the console belongs each color.
 
 Here is a picture that explains a little better as colors are distributed.
 
-![Colors](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/gogh/colors.png)
+![Colors](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/gogh/colors.png)
 
 - **View Colors**
 
