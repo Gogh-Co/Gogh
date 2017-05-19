@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-function set_gogh () {
+function set_gogh () {    
     wget -O gogh https://raw.githubusercontent.com/Mayccoll/Gogh/master/themes/$1 && chmod +x gogh && ./gogh && rm gogh
 }
 

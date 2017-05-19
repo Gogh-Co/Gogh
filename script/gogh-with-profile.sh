@@ -2,7 +2,11 @@
 
 
 function set_gogh () {
-    export {PROFILE_NAME,PROFILE_SLUG}=$1 && wget -O gogh https://raw.githubusercontent.com/Mayccoll/Gogh/master/themes/$1 && chmod +x gogh && ./gogh && rm gogh
+    string=$1
+    string_r="${string%???}"
+    string_s=${string_r//\./_}
+    result="${string_s^}"
+    export {PROFILE_NAME,PROFILE_SLUG}=$result && wget -O gogh https://raw.githubusercontent.com/Mayccoll/Gogh/master/themes/$1 && chmod +x gogh && ./gogh && rm gogh
 }
 
 echo -e "
