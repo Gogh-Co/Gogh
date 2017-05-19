@@ -15,7 +15,7 @@ Please feel free to use and create your own color schemes.
 
 - **The Script**
 
-https://github.com/Mayccoll/Gogh/blob/master/base.sh
+https://github.com/Mayccoll/Gogh/blob/master/themes/_base.sh
 
 - **Variables**
 
