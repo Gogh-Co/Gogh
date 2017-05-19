@@ -2,7 +2,7 @@
 
 
 function set_gogh () {
-    export wget -O gogh https://raw.githubusercontent.com/Mayccoll/Gogh/master/themes/$1 && chmod +x gogh && ./gogh && rm gogh
+    wget -O gogh https://raw.githubusercontent.com/Mayccoll/Gogh/master/themes/$1 && chmod +x gogh && ./gogh && rm gogh
 }
 
 echo -e "
