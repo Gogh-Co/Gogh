@@ -24,21 +24,20 @@ $ sudo apt-get install dconf-cli
 ## [Install](https://github.com/Mayccoll/Gogh/blob/master/content/install.md)
 
 Just copy and paste One line command.
-Each theme has his own line.
 
 ```bash
-  $ wget -O xt  http://git.io/v3D4o && chmod +x xt && ./xt && rm xt
+  $  wget -O gogh https://git.io/vKOB6 && chmod +x gogh && ./gogh
 ```
 
 **DEMO:**
 
-![gogh-demo](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/demos/gogh-demo.gif)
+![gogh-demo-profile](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/demos/gogh-demo-profile.gif)
 
 <br/>
 <br/>
 
 
-## [Install by Script](https://github.com/Mayccoll/Gogh/blob/master/content/install.md)
+## [More options: ](https://github.com/Mayccoll/Gogh/blob/master/content/install.md)
 
 You also can execute one of the scripts below. Both will list all available themes allowing you to select the one you like.
 
