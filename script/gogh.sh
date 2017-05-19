@@ -25,33 +25,33 @@ Themes:
     (\\e[0m\e[0;34m 10 \\e[0m\e[0m) Elio
     (\\e[0m\e[0;34m 11 \\e[0m\e[0m) Flat
     (\\e[0m\e[0;34m 12 \\e[0m\e[0m) Freya
-    (\\e[0m\e[0;34m 13 \\e[0m\e[0m) Gruvbox.dark
-    (\\e[0m\e[0;34m 14 \\e[0m\e[0m) Hemisu.dark
-    (\\e[0m\e[0;34m 15 \\e[0m\e[0m) Hemisu.light
+    (\\e[0m\e[0;34m 13 \\e[0m\e[0m) Gruvbox Dark
+    (\\e[0m\e[0;34m 14 \\e[0m\e[0m) Hemisu Dark
+    (\\e[0m\e[0;34m 15 \\e[0m\e[0m) Hemisu Light
     (\\e[0m\e[0;34m 16 \\e[0m\e[0m) Hybrid
     (\\e[0m\e[0;34m 17 \\e[0m\e[0m) Jup
     (\\e[0m\e[0;34m 18 \\e[0m\e[0m) Mar
     (\\e[0m\e[0;34m 19 \\e[0m\e[0m) Material
     (\\e[0m\e[0;34m 20 \\e[0m\e[0m) Miu
-    (\\e[0m\e[0;34m 21 \\e[0m\e[0m) Monokai.dark
+    (\\e[0m\e[0;34m 21 \\e[0m\e[0m) Monokai Dark
     (\\e[0m\e[0;34m 22 \\e[0m\e[0m) Nep
-    (\\e[0m\e[0;34m 23 \\e[0m\e[0m) Nord.light
+    (\\e[0m\e[0;34m 23 \\e[0m\e[0m) Nord Light
     (\\e[0m\e[0;34m 24 \\e[0m\e[0m) Nord
-    (\\e[0m\e[0;34m 25 \\e[0m\e[0m) Ocean.dark
-    (\\e[0m\e[0;34m 26 \\e[0m\e[0m) One.dark
-    (\\e[0m\e[0;34m 27 \\e[0m\e[0m) One.light
+    (\\e[0m\e[0;34m 25 \\e[0m\e[0m) Ocean Dark
+    (\\e[0m\e[0;34m 26 \\e[0m\e[0m) One Dark
+    (\\e[0m\e[0;34m 27 \\e[0m\e[0m) One Light
     (\\e[0m\e[0;34m 28 \\e[0m\e[0m) Pali
     (\\e[0m\e[0;34m 29 \\e[0m\e[0m) Peppermint
     (\\e[0m\e[0;34m 30 \\e[0m\e[0m) Sat
     (\\e[0m\e[0;34m 31 \\e[0m\e[0m) Shel
     (\\e[0m\e[0;34m 32 \\e[0m\e[0m) Smyck
-    (\\e[0m\e[0;34m 33 \\e[0m\e[0m) Solarized.dark
-    (\\e[0m\e[0;34m 34 \\e[0m\e[0m) Solarized.light
+    (\\e[0m\e[0;34m 33 \\e[0m\e[0m) Solarized Dark
+    (\\e[0m\e[0;34m 34 \\e[0m\e[0m) Solarized Light
     (\\e[0m\e[0;34m 35 \\e[0m\e[0m) Tin
-    (\\e[0m\e[0;34m 36 \\e[0m\e[0m) Tomorrow.night.blue
-    (\\e[0m\e[0;34m 37 \\e[0m\e[0m) Tomorrow.night.bright
-    (\\e[0m\e[0;34m 38 \\e[0m\e[0m) Tomorrow.night.eighties
-    (\\e[0m\e[0;34m 39 \\e[0m\e[0m) Tomorrow.night
+    (\\e[0m\e[0;34m 36 \\e[0m\e[0m) Tomorrow Night Blue
+    (\\e[0m\e[0;34m 37 \\e[0m\e[0m) Tomorrow Night Bright
+    (\\e[0m\e[0;34m 38 \\e[0m\e[0m) Tomorrow Night Eighties
+    (\\e[0m\e[0;34m 39 \\e[0m\e[0m) Tomorrow Night
     (\\e[0m\e[0;34m 40 \\e[0m\e[0m) Tomorrow
     (\\e[0m\e[0;34m 41 \\e[0m\e[0m) Ura
     (\\e[0m\e[0;34m 42 \\e[0m\e[0m) Vag
