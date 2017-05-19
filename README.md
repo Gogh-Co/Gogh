@@ -1,13 +1,13 @@
 Gogh
 ====
 
-![elementary](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/Gogh-icons.png)
+![elementary](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/gogh/Gogh-icons.png)
 
 ## Color Scheme for Gnome Terminal and Pantheon Terminal
 
 Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that use gnome terminal or Pantheon Terminal, initially inspired by Elementary OS Luna. You can check all themes [here...](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md)
 
-![elementary](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes.gif)
+![elementary](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/demos/themes.gif)
 
 ----
 
@@ -32,7 +32,7 @@ Each theme has his own line.
 
 **DEMO:**
 
-![gogh-demo](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/gogh-demo.gif)
+![gogh-demo](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/demos/gogh-demo.gif)
 
 <br/>
 <br/>
@@ -54,7 +54,7 @@ You also can execute one of the scripts below. Both will list all available them
     $ wget -O xt https://git.io/vKOB6 && chmod +x xt && ./xt && rm xt
     ```
 
-[View demo](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/script-demo.gif) - if you want a command line : [Follow the instructions.](https://github.com/Mayccoll/Gogh/blob/master/content/install.md#create-a-command-line)
+[View demo](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/demos/script-demo.gif) - if you want a command line : [Follow the instructions.](https://github.com/Mayccoll/Gogh/blob/master/content/install.md#create-a-command-line)
 
 <br/>
 <br/>
@@ -70,7 +70,7 @@ You also can execute one of the scripts below. Both will list all available them
   $ wget -O xt  http://git.io/vs7Ut && chmod +x xt && ./xt && rm xt
 ```
 
-![one.light](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/one.dark.png)
+![one.light](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/one.dark.png)
 
 #### One Light
 
@@ -78,7 +78,7 @@ You also can execute one of the scripts below. Both will list all available them
 $ wget -O xt  http://git.io/vs7UQ && chmod +x xt && ./xt && rm xt
 ```
 
-![one.light](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/one.light.png)
+![one.light](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/one.light.png)
 
 
 Check all themes [Here...](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md)
