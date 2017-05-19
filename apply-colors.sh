@@ -14,9 +14,9 @@ function gnome_color () {
 
 # |
 # | Check for the terminal name and decide how to apply
-TERMINAL=$(ps -o comm= $PPID)
 # | ===========================================
-if [ $TERMINAL = "pantheon-terminal-" ]; then
+TERMINAL=$(ps -p $(ps -p $(ps -p $$ -o ppid=) -o ppid=) -o args=)
+if [ $TERMINAL = "pantheon-terminal" ]; then
     # |
     # | Applying values on pantheon-terminal
     # | ===========================================
