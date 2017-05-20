@@ -58,35 +58,6 @@ You also can execute one of the scripts below. Both will list all available them
 <br/>
 <br/>
 
-## What's New
-
-- **Support Ubuntu 15.04** thanks to [Terminal Sexy](https://terminal.sexy) script.
-- **Now Thanks to [RafaelCz](https://github.com/RafaelCz) Gogh fully supports pantheon-terminal (Elementary OS Freya)** and we have new themes.
-
-#### One Dark
-
-```bash
-  $ wget -O xt  http://git.io/vs7Ut && chmod +x xt && ./xt && rm xt
-```
-
-![one.light](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/one.dark.png)
-
-#### One Light
-
-```bash
-$ wget -O xt  http://git.io/vs7UQ && chmod +x xt && ./xt && rm xt
-```
-
-![one.light](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/one.light.png)
-
-
-Check all themes [Here...](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md)
-
-
-
-<br/>
-<br/>
-
 
 ## [Themes](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md)
 
@@ -134,17 +105,7 @@ If you want to create your own color scheme or contribute to the project. [Here.
 
 ## Contributors:
 
-- [@javaguirre](https://github.com/javaguirre)
-- [@RafaelCz](https://github.com/RafaelCz)
-- [@limatheus](https://github.com/limatheus)
-- [@DoomHammer](https://github.com/DoomHammer)
-- [@kragniz](https://github.com/kragniz)
-- [@oxydron](https://github.com/oxydron)
-- [@jhonnymoreira](https://github.com/jhonnymoreira)
-- [@aloisdg](https://github.com/aloisdg)
-- [@hg8](https://github.com/hg8)
-- [@ErickChacon](https://github.com/ErickChacon)
-
+- [@contributors](https://github.com/Mayccoll/Gogh/graphs/contributors)
 
 <br/>
 <br/>
