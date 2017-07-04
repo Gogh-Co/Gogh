@@ -40,7 +40,6 @@ dlist_append() {
 
 set_theme() {
     dset visible-name "'$PROFILE_NAME'"
-    dset palette "'${COLOR_01}:${COLOR_02}:${COLOR_03}:${COLOR_04}:${COLOR_05}:${COLOR_06}:${COLOR_07}:${COLOR_08}:${COLOR_09}:${COLOR_10}:${COLOR_11}:${COLOR_12}:${COLOR_13}:${COLOR_14}:${COLOR_15}:${COLOR_16}'"
     dset background-color "'${BACKGROUND_COLOR}'"
     dset foreground-color "'${FOREGROUND_COLOR}'"
     if [ ! -z "${BOLD_COLOR}" ]; then
@@ -99,6 +98,7 @@ elif [ $TERMINAL = "mate-terminal" ]; then
     dlist_append $BASE_DIR/global/profile-list "$PROFILE_SLUG"
 
     set_theme
+    dset palette "'${COLOR_01}:${COLOR_02}:${COLOR_03}:${COLOR_04}:${COLOR_05}:${COLOR_06}:${COLOR_07}:${COLOR_08}:${COLOR_09}:${COLOR_10}:${COLOR_11}:${COLOR_12}:${COLOR_13}:${COLOR_14}:${COLOR_15}:${COLOR_16}'"
 
     exit 0
 
@@ -162,6 +162,7 @@ else
 
             # update profile values with theme options
 	    set_theme
+	    dset palette "['${COLOR_01}', '${COLOR_02}', '${COLOR_03}', '${COLOR_04}', '${COLOR_05}', '${COLOR_06}', '${COLOR_07}', '${COLOR_08}', '${COLOR_09}', '${COLOR_10}', '${COLOR_11}', '${COLOR_12}', '${COLOR_13}', '${COLOR_14}', '${COLOR_15}', '${COLOR_16}']"
 
             unset PROFILE_NAME
             unset PROFILE_SLUG
