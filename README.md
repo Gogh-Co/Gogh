@@ -26,34 +26,12 @@ $ sudo apt-get install dconf-cli
 Just copy and paste One line command.
 
 ```bash
-  $  wget -O gogh https://git.io/vKOB6 && chmod +x gogh && ./gogh
+  $  wget -O gogh https://git.io/vQgMr && chmod +x gogh && ./gogh
 ```
 
 **DEMO:**
 
 ![gogh-demo-profile](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/demos/gogh-demo-profile.gif)
-
-<br/>
-<br/>
-
-
-## [More options: ](https://github.com/Mayccoll/Gogh/blob/master/content/install.md)
-
-You also can execute one of the scripts below. Both will list all available themes allowing you to select the one you like.
-
-1. Without creating a profile with the name of the theme:
-
-    ```bash
-    $ wget -O xt  http://git.io/vGz67 && chmod +x xt && ./xt && rm xt
-    ```
-
-2. Creating a profile with name of the theme:
-
-    ```bash
-    $ wget -O xt https://git.io/vKOB6 && chmod +x xt && ./xt && rm xt
-    ```
-
-[View demo](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/demos/script-demo.gif) - if you want a command line : [Follow the instructions.](https://github.com/Mayccoll/Gogh/blob/master/content/install.md#create-a-command-line)
 
 <br/>
 <br/>
