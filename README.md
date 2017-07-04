@@ -26,7 +26,7 @@ $ sudo apt-get install dconf-cli
 Just copy and paste One line command.
 
 ```bash
-  $  wget -O gogh https://git.io/vQgMr && chmod +x gogh && ./gogh
+  $  wget -O gogh https://git.io/vQgMr && chmod +x gogh && ./gogh && rm gogh
 ```
 
 **DEMO:**
