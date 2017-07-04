@@ -3,7 +3,7 @@
 # |
 # | Convert RGB to gnome colors
 # | ===========================================
-function gnome_color () {
+gnome_color () {
 
     AA=${1:1:2}
     BB=${1:3:2}
@@ -58,6 +58,7 @@ set_theme() {
 # | Check for the terminal name and decide how to apply
 # | ===========================================
 TERMINAL=$(ps -p $(ps -p $(ps -p $$ -o ppid=) -o ppid=) -o args=)
+
 if [ $TERMINAL = "pantheon-terminal" ]; then
     # |
     # | Applying values on pantheon-terminal
