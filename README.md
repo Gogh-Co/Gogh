@@ -75,6 +75,7 @@ If you want to create your own color scheme or contribute to the project. [Here.
 - [One Dark & Light theme set](https://github.com/nathanbuchar/one-dark-terminal) by [Nathan Buchar](https://github.com/nathanbuchar).
 - [Terminal Sexy](https://terminal.sexy)
 - [Gruvbox](https://github.com/morhetz/gruvbox)
+- [Tilix](https://github.com/storm119/Tilix-Themes)
 
 
 <br/>
