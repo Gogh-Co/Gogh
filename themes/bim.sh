@@ -22,6 +22,7 @@ COLOR_16="#f5eeec"           #
 BACKGROUND_COLOR="#012849"   # Background Color
 FOREGROUND_COLOR="#a9bed8"   # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+PROFILE_NAME="Bim"
 # =============================================================== #
 
 

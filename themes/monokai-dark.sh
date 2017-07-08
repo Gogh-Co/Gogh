@@ -22,6 +22,7 @@ COLOR_16="#f8f8f2"           #
 BACKGROUND_COLOR="#272822"   # Background Color
 FOREGROUND_COLOR="#f8f8f2"   # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+PROFILE_NAME="Monokai-dark"
 # =============================================================== #
 
 

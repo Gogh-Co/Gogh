@@ -22,6 +22,7 @@ COLOR_16="#cfcfcf"          #
 BACKGROUND_COLOR="#191f1d"  # Background Color
 FOREGROUND_COLOR="#d9e6f2"  # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+PROFILE_NAME="Vag"
 # =============================================================== #
 
 

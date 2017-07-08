@@ -22,6 +22,7 @@ COLOR_16="#DEDEDE" #lightWhite
 BACKGROUND_COLOR="#ebeaf2"
 FOREGROUND_COLOR="#004f7c"
 CURSOR_COLOR=$COLOR_05
+PROFILE_NAME="Nord-light"
 # =============================================================== #
 
 

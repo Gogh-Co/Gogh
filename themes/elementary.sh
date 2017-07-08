@@ -22,6 +22,7 @@ COLOR_16="#a020f0"           #
 BACKGROUND_COLOR="#101010"   # Background Color
 FOREGROUND_COLOR="#f2f2f2"   # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+PROFILE_NAME="Elementary"
 # =============================================================== #
 
 

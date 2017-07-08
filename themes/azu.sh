@@ -22,6 +22,7 @@ COLOR_16="#ffffff"           #
 BACKGROUND_COLOR="#09111a"   # Background Color
 FOREGROUND_COLOR="#d9e6f2"   # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+PROFILE_NAME="Azu"
 # =============================================================== #
 
 

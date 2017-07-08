@@ -22,6 +22,7 @@ COLOR_16="#BABABA"
 BACKGROUND_COLOR="#EFEFEF"
 FOREGROUND_COLOR="#444444"
 CURSOR_COLOR="#FF0054"
+PROFILE_NAME="Hemisu-light"
 # =============================================================== #
 
 

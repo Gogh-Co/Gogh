@@ -22,6 +22,7 @@ COLOR_16="#f5eeec"           #
 BACKGROUND_COLOR="#2a201f"   # Background Color
 FOREGROUND_COLOR="#4882cd"   # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+PROFILE_NAME="Shel"
 # =============================================================== #
 
 

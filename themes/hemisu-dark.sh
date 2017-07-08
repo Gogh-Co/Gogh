@@ -22,6 +22,7 @@ COLOR_16="#FFFFFF"
 BACKGROUND_COLOR="#000000"
 FOREGROUND_COLOR="#FFFFFF"
 CURSOR_COLOR="#BAFFAA"
+PROFILE_NAME="Hemisu-dark"
 # =============================================================== #
 
 
