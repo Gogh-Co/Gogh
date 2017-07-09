@@ -22,6 +22,7 @@ COLOR_16="#F7F7F7"          #
 BACKGROUND_COLOR="#242424"  # Background Color
 FOREGROUND_COLOR="#F7F7F7"  # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+PROFILE_NAME="Smyck"
 # =============================================================== #
 
 

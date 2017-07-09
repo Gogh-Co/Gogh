@@ -22,6 +22,7 @@ COLOR_16="#FFFFFF"
 BACKGROUND_COLOR="#1E282C"
 FOREGROUND_COLOR="#C3C7D1"
 CURSOR_COLOR="#657B83"
+PROFILE_NAME="Material"
 # =============================================================== #
 
 

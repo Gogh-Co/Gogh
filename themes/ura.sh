@@ -22,6 +22,7 @@ COLOR_16="#e5e5e5"          #
 BACKGROUND_COLOR="#feffee"  # Background Color
 FOREGROUND_COLOR="#23476a"  # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+PROFILE_NAME="Ura"
 # =============================================================== #
 
 

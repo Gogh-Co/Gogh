@@ -22,6 +22,7 @@ COLOR_16="#ffffff"           #
 BACKGROUND_COLOR="#758480"   # Background Color
 FOREGROUND_COLOR="#23476a"   # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+PROFILE_NAME="Nep"
 # =============================================================== #
 
 

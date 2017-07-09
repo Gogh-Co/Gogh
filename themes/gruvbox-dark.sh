@@ -22,6 +22,7 @@ COLOR_16="#fe8019"          #
 BACKGROUND_COLOR="#282828"  # Background Color
 FOREGROUND_COLOR="#ebdbb2"  # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+PROFILE_NAME="Gruvbox-dark"
 # =============================================================== #
 
 

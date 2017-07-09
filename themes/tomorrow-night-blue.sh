@@ -22,6 +22,7 @@ COLOR_16="#FFFEFE"
 BACKGROUND_COLOR="#002451"
 FOREGROUND_COLOR="#FFFEFE"
 CURSOR_COLOR="#FFFEFE"
+PROFILE_NAME="Tomorrow-night-blue"
 # =============================================================== #
 
 

@@ -22,6 +22,7 @@ COLOR_16="#DEDEDE"
 BACKGROUND_COLOR="#000000"
 FOREGROUND_COLOR="#C7C7C7"
 CURSOR_COLOR="#BBBBBB"
+PROFILE_NAME="Peppermint"
 # =============================================================== #
 
 

@@ -22,6 +22,7 @@ COLOR_16="#FFFEFE"
 BACKGROUND_COLOR="#1E2127"
 FOREGROUND_COLOR="#5C6370"
 CURSOR_COLOR="#5C6370"
+PROFILE_NAME="One-dark"
 # =============================================================== #
 
 

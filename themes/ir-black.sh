@@ -22,6 +22,7 @@ COLOR_16="#ffffff"           #
 BACKGROUND_COLOR="#000000"   # Background Color
 FOREGROUND_COLOR="#eeeeee"   # Text
 CURSOR_COLOR="ffa560"        # Cursor
+PROFILE_NAME="Ir-black"
 # =============================================
 
 

@@ -22,6 +22,7 @@ COLOR_16="#FFFEFE"
 BACKGROUND_COLOR="#FFFFFF"
 FOREGROUND_COLOR="#4D4D4C"
 CURSOR_COLOR="#4C4C4C"
+PROFILE_NAME="Tomorrow"
 # =============================================================== #
 
 
