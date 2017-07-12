@@ -215,7 +215,7 @@ read -p 'Enter OPTION(S) : ' -a OPTION
 # |
 for OP in "${OPTION[@]}"; do
 
-    if [[ $OP<$ARRAYLENGTH ]]; then
+    if (( OP < ARRAYLENGTH )); then
         echo "Theme: ${FILENAME_SPACE^}"
         SET_THEME="${THEMES[(($OP-1))]}"
         set_gogh "${SET_THEME}"
