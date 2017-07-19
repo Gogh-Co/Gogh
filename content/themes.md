@@ -398,7 +398,7 @@ $ wget -O xt  http://git.io/vs7UQ && chmod +x xt && ./xt && rm xt
 ## Gruvbox Dark
 
 ```bash
-$ wget -O xt  http://git.io/v6JYg && chmod +x xt && ./xt && rm xt
+$ wget -O xt https://git.io/v7eBS && chmod +x xt && ./xt && rm xt
 ```
 
-![one.light](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/gruvbox-dark.png)
+![Gruvbox Dark](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/gruvbox-dark.png)
