@@ -140,7 +140,7 @@ declare -a THEMES=(
     'terminix-dark.sh'
     'thayer-bright.sh'
     'tin.sh'
-    'tommorow-night.sh'
+    'tomorrow-night.sh'
     'tomorrow-night-blue.sh'
     'tomorrow-night-bright.sh'
     'tomorrow-night-eighties.sh'
