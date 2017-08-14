@@ -221,7 +221,6 @@ for OP in "${OPTION[@]}"; do
         echo "Theme: ${FILENAME_SPACE^}"
         SET_THEME="${THEMES[((OP-1))]}"
         set_gogh "${SET_THEME}"
-        exit 1
     else
         echo -e "\\e[0m\e[0;31m ~ INVALID OPTION! ~\\e[0m\e[0m"
         exit 1
