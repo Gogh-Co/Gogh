@@ -216,10 +216,11 @@ read -p 'Enter OPTION(S) : ' -a OPTION
 for OP in "${OPTION[@]}"; do
 
     if (( OP < ARRAYLENGTH )); then
+        FILENAME="${THEMES[((OP-1))]::-3}"
+        FILENAME_SPACE="${FILENAME//-/ }"
         echo "Theme: ${FILENAME_SPACE^}"
-        SET_THEME="${THEMES[(($OP-1))]}"
+        SET_THEME="${THEMES[((OP-1))]}"
         set_gogh "${SET_THEME}"
-        exit 1
     else
         echo -e "\\e[0m\e[0;31m ~ INVALID OPTION! ~\\e[0m\e[0m"
         exit 1
