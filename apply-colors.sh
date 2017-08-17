@@ -175,7 +175,17 @@ else
     fi
 
     # Fallback for Gnome 2 and early Gnome 3
-    [[ -z "$GCONFTOOL" ]] && GCONFTOOL=gconftool
+
+    # error handling on gconftool
+    if [[ -z "$GCONFTOOL" ]]; then
+      GCONFTOOL=$(which gconftool 2>/dev/null)
+      if [[ "$?" -ne 0 ]]; then
+        echo "Error gconftool not found!"
+        echo "Possible fix, enter the following and run again:"
+        echo "export GCONFTOOL=/path/to/gconftool/"
+        exit 1
+      fi
+
     [[ -z "$BASE_KEY" ]] && BASE_KEY=/apps/gnome-terminal/profiles
 
     PROFILE_KEY="$BASE_KEY/$PROFILE_SLUG"
