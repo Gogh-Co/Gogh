@@ -185,6 +185,7 @@ else
         echo "export GCONFTOOL=/path/to/gconftool/"
         exit 1
       fi
+    fi
 
     [[ -z "$BASE_KEY" ]] && BASE_KEY=/apps/gnome-terminal/profiles
 
