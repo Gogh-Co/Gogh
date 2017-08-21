@@ -218,7 +218,7 @@ $ wget -O xt  http://git.io/v3DBO && chmod +x xt && ./xt && rm xt
 ## Solarized Dark
 
 ```bash
-$ wget -O xt  http://git.io/v3DBQ && chmod +x xt && ./xt && rm xt
+$ wget -O xt  http://git.io/v5f6B && chmod +x xt && ./xt && rm xt
 ```
 
 ![Solarized Dark](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/solarized.dark.png)
