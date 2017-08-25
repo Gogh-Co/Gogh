@@ -22,6 +22,7 @@ COLOR_16="#6c71c4"
 BACKGROUND_COLOR="#252e32"        # Background Color
 FOREGROUND_COLOR="#94a3a5"        # Text
 CURSOR_COLOR="#839496"            # Cursor
+PROFILE_NAME="Freya"
 # =====================  END CONFIG   ======================================= #
 
 

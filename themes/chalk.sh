@@ -22,6 +22,7 @@ COLOR_16="#D4D4D4"           #
 BACKGROUND_COLOR="#2D2D2D"   # Background Color
 FOREGROUND_COLOR="#D4D4D4"   # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+PROFILE_NAME="Chalk"
 # =============================================================== #
 
 

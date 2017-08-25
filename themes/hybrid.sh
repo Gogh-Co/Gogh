@@ -22,6 +22,7 @@ COLOR_16="#c5c8c6"           #
 BACKGROUND_COLOR="#141414"   # Background Color
 FOREGROUND_COLOR="#94a3a5"   # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+PROFILE_NAME="Hybrid"
 # =============================================================== #
 
 

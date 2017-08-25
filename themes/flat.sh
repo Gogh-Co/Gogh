@@ -22,6 +22,7 @@ COLOR_16="#ecf0f1"           #
 BACKGROUND_COLOR="#1F2D3A"   # Background Color
 FOREGROUND_COLOR="#1abc9c"   # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+PROFILE_NAME="Flat"
 # =============================================================== #
 
 

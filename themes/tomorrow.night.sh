@@ -1,27 +1,28 @@
 #!/usr/bin/env bash
 
 # ====================CONFIG THIS =============================== #
-COLOR_01="#000000"
-COLOR_02="#CC6666"
-COLOR_03="#B5BD68"
-COLOR_04="#F0C674"
-COLOR_05="#81A2BE"
-COLOR_06="#B293BB"
-COLOR_07="#8ABEB7"
-COLOR_08="#FFFEFE"
+COLOR_01="#000000"           # HOST
+COLOR_02="#cc6666"           # SYNTAX_STRING
+COLOR_03="#b5bd68"           # COMMAND
+COLOR_04="#f0c674"           # COMMAND_COLOR2
+COLOR_05="#81a2be"           # PATH
+COLOR_06="#b294bb"           # SYNTAX_VAR
+COLOR_07="#8abeb7"           # PROMP
+COLOR_08="#ffffff"           #
 
-COLOR_09="#000000"
-COLOR_10="#CC6666"
-COLOR_11="#B5BD68"
-COLOR_12="#F0C574"
-COLOR_13="#80A1BD"
-COLOR_14="#B294BA"
-COLOR_15="#8ABDB6"
-COLOR_16="#FFFEFE"
+COLOR_09="#000000"           #
+COLOR_10="#cc6666"           # COMMAND_ERROR
+COLOR_11="#b5bd68"           # EXEC
+COLOR_12="#f0c674"           #
+COLOR_13="#81a2be"           # FOLDER
+COLOR_14="#b294bb"           #
+COLOR_15="#8abeb7"           #
+COLOR_16="#ffffff"           #
 
-BACKGROUND_COLOR="#1D1F21"
-FOREGROUND_COLOR="#C5C8C6"
-CURSOR_COLOR="#C4C8C5"
+BACKGROUND_COLOR="#1d1f21"   # Background Color
+FOREGROUND_COLOR="#c5c8c6"   # Text
+CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+PROFILE_NAME="Tommorow Night"
 # =============================================================== #
 
 
@@ -43,12 +44,9 @@ function gogh_colors () {
 SCRIPT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 PARENT_PATH="$(dirname "$SCRIPT_PATH")"
 
-if [ -e $PARENT_PATH"/apply-colors.sh" ]
-then
 gogh_colors
-source $PARENT_PATH"/apply-colors.sh"
-
+if [ -e $PARENT_PATH"/apply-colors.sh" ]; then
+    source $PARENT_PATH"/apply-colors.sh"
 else
-gogh_colors
-source <(wget  -O - https://raw.githubusercontent.com/Mayccoll/Gogh/master/apply-colors.sh)
+    source <(wget  -O - https://raw.githubusercontent.com/Mayccoll/Gogh/master/apply-colors.sh)
 fi

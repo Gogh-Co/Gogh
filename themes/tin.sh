@@ -22,6 +22,7 @@ COLOR_16="#ffffff"          #
 BACKGROUND_COLOR="#2e2e35"  # Background Color
 FOREGROUND_COLOR="#ffffff"  # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+PROFILE_NAME="Tin"
 # =============================================================== #
 
 

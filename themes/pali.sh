@@ -22,6 +22,7 @@ COLOR_16="#A020F0"           #
 BACKGROUND_COLOR="#232E37"   # Background Color
 FOREGROUND_COLOR="#d9e6f2"   # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+PROFILE_NAME="Pali"
 # =============================================================== #
 
 
