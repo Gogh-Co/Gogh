@@ -101,7 +101,7 @@ wget -O xt  http://git.io/v3DBK && chmod +x xt && ./xt && rm xt
 color
 wget -O xt  http://git.io/v3DBM && chmod +x xt && ./xt && rm xt
 color
-wget -O xt  http://git.io/v3DBO && chmod +x xt && ./xt && rm xt
+wget -O xt  https://git.io/v5mPp && chmod +x xt && ./xt && rm xt
 color
 wget -O xt  http://git.io/v3DBP && chmod +x xt && ./xt && rm xt
 color
