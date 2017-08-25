@@ -208,7 +208,7 @@ $ wget -O xt  http://git.io/v3D4d && chmod +x xt && ./xt && rm xt
 ## Monokai Dark
 
 ```bash
-$ wget -O xt  http://git.io/v3DBO && chmod +x xt && ./xt && rm xt
+$ wget -O xt  https://git.io/v5mPp && chmod +x xt && ./xt && rm xt
 ```
 
 ![Monokai](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/monokai.dark.png)
