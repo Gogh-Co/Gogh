@@ -87,7 +87,7 @@ wget -O xt  http://git.io/v3D8e && chmod +x xt && ./xt && rm xt
 color
 wget -O xt  http://git.io/v3D8R && chmod +x xt && ./xt && rm xt
 color
-wget -O xt  http://git.io/v3DB5 && chmod +x xt && ./xt && rm xt
+wget -O xt  https://git.io/v5mXi && chmod +x xt && ./xt && rm xt
 color
 wget -O xt  http://git.io/v3DB9 && chmod +x xt && ./xt && rm xt
 color

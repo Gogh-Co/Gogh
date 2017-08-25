@@ -228,7 +228,7 @@ $ wget -O xt  http://git.io/v5f6B && chmod +x xt && ./xt && rm xt
 ## Solarized Light
 
 ```bash
-$ wget -O xt  http://git.io/v3DB5 && chmod +x xt && ./xt && rm xt
+$ wget -O xt  https://git.io/v5mXi && chmod +x xt && ./xt && rm xt
 ```
 
 ![Solarized Light](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/solarized.light.png)
