@@ -378,7 +378,7 @@ $ wget -O xt  http://git.io/v3DRc && chmod +x xt && ./xt && rm xt
 ## One Dark
 
 ```bash
-  $ wget -O xt  http://git.io/vs7Ut && chmod +x xt && ./xt && rm xt
+  $ wget -O xt  https://git.io/v5m1l && chmod +x xt && ./xt && rm xt
 ```
 
 ![one.light](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/one.dark.png)
