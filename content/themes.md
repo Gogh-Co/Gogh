@@ -278,7 +278,7 @@ $ wget -O xt  https://git.io/v5mXA && chmod +x xt && ./xt && rm xt
 ## Hemisu Light
 
 ```bash
-$ wget -O xt  http://git.io/v3D49 && chmod +x xt && ./xt && rm xt
+$ wget -O xt  https://git.io/v5mXj && chmod +x xt && ./xt && rm xt
 ```
 
 ![Hemisu Light](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/hemisu-light.png)

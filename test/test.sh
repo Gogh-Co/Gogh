@@ -71,7 +71,7 @@ color () {
 
 wget -O xt  http://git.io/v3D44 && chmod +x xt && ./xt && rm xt
 color
-wget -O xt  http://git.io/v3D49 && chmod +x xt && ./xt && rm xt
+wget -O xt  https://git.io/v5mXj && chmod +x xt && ./xt && rm xt
 color
 wget -O xt  http://git.io/v3D4d && chmod +x xt && ./xt && rm xt
 color
