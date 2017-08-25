@@ -208,7 +208,7 @@ $ wget -O xt  http://git.io/v3D4d && chmod +x xt && ./xt && rm xt
 ## Monokai Dark
 
 ```bash
-$ wget -O xt  http://git.io/v3DBO && chmod +x xt && ./xt && rm xt
+$ wget -O xt  https://git.io/v5mPp && chmod +x xt && ./xt && rm xt
 ```
 
 ![Monokai](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/monokai.dark.png)
@@ -228,7 +228,7 @@ $ wget -O xt  http://git.io/v5f6B && chmod +x xt && ./xt && rm xt
 ## Solarized Light
 
 ```bash
-$ wget -O xt  http://git.io/v3DB5 && chmod +x xt && ./xt && rm xt
+$ wget -O xt  https://git.io/v5mXi && chmod +x xt && ./xt && rm xt
 ```
 
 ![Solarized Light](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/solarized.light.png)
@@ -268,7 +268,7 @@ $ wget -O xt  http://git.io/v3D4z && chmod +x xt && ./xt && rm xt
 ## Hemisu Dark
 
 ```bash
-$ wget -O xt  http://git.io/v3D4M && chmod +x xt && ./xt && rm xt
+$ wget -O xt  https://git.io/v5mXA && chmod +x xt && ./xt && rm xt
 ```
 
 ![Hemisu Dark](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/hemisu-dark.png)
@@ -278,7 +278,7 @@ $ wget -O xt  http://git.io/v3D4M && chmod +x xt && ./xt && rm xt
 ## Hemisu Light
 
 ```bash
-$ wget -O xt  http://git.io/v3D49 && chmod +x xt && ./xt && rm xt
+$ wget -O xt  https://git.io/v5mXj && chmod +x xt && ./xt && rm xt
 ```
 
 ![Hemisu Light](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/hemisu-light.png)
@@ -288,7 +288,7 @@ $ wget -O xt  http://git.io/v3D49 && chmod +x xt && ./xt && rm xt
 ## Ocean Dark
 
 ```bash
-$ wget -O xt  http://git.io/v3DBz && chmod +x xt && ./xt && rm xt
+$ wget -O xt  https://git.io/vQ9TY && chmod +x xt && ./xt && rm xt
 ```
 
 ![Ocean Dark](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/ocean-dark.png)
@@ -328,7 +328,7 @@ $ wget -O xt  http://git.io/v3DBv && chmod +x xt && ./xt && rm xt
 ## Tomorrow Night Blue
 
 ```bash
-$ wget -O xt  http://git.io/v3DBj && chmod +x xt && ./xt && rm xt
+$ wget -O xt  https://git.io/v5m1t && chmod +x xt && ./xt && rm xt
 ```
 
 ![Tomorrow Night Blue](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/tomorrow-night-blue.png)
@@ -338,7 +338,7 @@ $ wget -O xt  http://git.io/v3DBj && chmod +x xt && ./xt && rm xt
 ## Tomorrow Night Bright
 
 ```bash
-$ wget -O xt  http://git.io/v3DRJ && chmod +x xt && ./xt && rm xt
+$ wget -O xt  https://git.io/v5m1Y && chmod +x xt && ./xt && rm xt
 ```
 
 ![Tomorrow Night Bright](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/tomorrow-night-bright.png)
@@ -348,7 +348,7 @@ $ wget -O xt  http://git.io/v3DRJ && chmod +x xt && ./xt && rm xt
 ## Tomorrow Night Eighties
 
 ```bash
-$ wget -O xt  http://git.io/v3DRI && chmod +x xt && ./xt && rm xt
+$ wget -O xt  https://git.io/v5m1s && chmod +x xt && ./xt && rm xt
 ```
 
 ![Tomorrow Night Eighties](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/tomorrow-night-eighties.png)
@@ -378,7 +378,7 @@ $ wget -O xt  http://git.io/v3DRc && chmod +x xt && ./xt && rm xt
 ## One Dark
 
 ```bash
-  $ wget -O xt  http://git.io/vs7Ut && chmod +x xt && ./xt && rm xt
+  $ wget -O xt  https://git.io/v5m1l && chmod +x xt && ./xt && rm xt
 ```
 
 ![one.light](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/one.dark.png)
@@ -388,7 +388,7 @@ $ wget -O xt  http://git.io/v3DRc && chmod +x xt && ./xt && rm xt
 ## One Light
 
 ```bash
-$ wget -O xt  http://git.io/vs7UQ && chmod +x xt && ./xt && rm xt
+$ wget -O xt  https://git.io/v5m1u && chmod +x xt && ./xt && rm xt
 ```
 
 ![one.light](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/one.light.png)

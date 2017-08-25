@@ -71,11 +71,11 @@ color () {
 
 wget -O xt  http://git.io/v3D44 && chmod +x xt && ./xt && rm xt
 color
-wget -O xt  http://git.io/v3D49 && chmod +x xt && ./xt && rm xt
+wget -O xt  https://git.io/v5mXj && chmod +x xt && ./xt && rm xt
 color
 wget -O xt  http://git.io/v3D4d && chmod +x xt && ./xt && rm xt
 color
-wget -O xt  http://git.io/v3D4M && chmod +x xt && ./xt && rm xt
+wget -O xt  https://git.io/v5mXA && chmod +x xt && ./xt && rm xt
 color
 wget -O xt  http://git.io/v3D4N && chmod +x xt && ./xt && rm xt
 color
@@ -87,7 +87,7 @@ wget -O xt  http://git.io/v3D8e && chmod +x xt && ./xt && rm xt
 color
 wget -O xt  http://git.io/v3D8R && chmod +x xt && ./xt && rm xt
 color
-wget -O xt  http://git.io/v3DB5 && chmod +x xt && ./xt && rm xt
+wget -O xt  https://git.io/v5mXi && chmod +x xt && ./xt && rm xt
 color
 wget -O xt  http://git.io/v3DB9 && chmod +x xt && ./xt && rm xt
 color
@@ -101,7 +101,7 @@ wget -O xt  http://git.io/v3DBK && chmod +x xt && ./xt && rm xt
 color
 wget -O xt  http://git.io/v3DBM && chmod +x xt && ./xt && rm xt
 color
-wget -O xt  http://git.io/v3DBO && chmod +x xt && ./xt && rm xt
+wget -O xt  https://git.io/v5mPp && chmod +x xt && ./xt && rm xt
 color
 wget -O xt  http://git.io/v3DBP && chmod +x xt && ./xt && rm xt
 color
@@ -113,7 +113,7 @@ wget -O xt  http://git.io/v3DBv && chmod +x xt && ./xt && rm xt
 color
 wget -O xt  http://git.io/v3DBV && chmod +x xt && ./xt && rm xt
 color
-wget -O xt  http://git.io/v3DBz && chmod +x xt && ./xt && rm xt
+wget -O xt  https://git.io/vQ9TY && chmod +x xt && ./xt && rm xt
 color
 wget -O xt  http://git.io/v3Dlb && chmod +x xt && ./xt && rm xt
 color
@@ -133,13 +133,13 @@ wget -O xt  http://git.io/v3DR0 && chmod +x xt && ./xt && rm xt
 color
 wget -O xt  http://git.io/v3DRB && chmod +x xt && ./xt && rm xt
 color
-wget -O xt  http://git.io/v3DBj && chmod +x xt && ./xt && rm xt
+wget -O xt  https://git.io/v5m1t && chmod +x xt && ./xt && rm xt
 color
 wget -O xt  http://git.io/v3DRc && chmod +x xt && ./xt && rm xt
 color
-wget -O xt  http://git.io/v3DRI && chmod +x xt && ./xt && rm xt
+wget -O xt  https://git.io/v5m1s && chmod +x xt && ./xt && rm xt
 color
-wget -O xt  http://git.io/v3DRJ && chmod +x xt && ./xt && rm xt
+wget -O xt  https://git.io/v5m1Y && chmod +x xt && ./xt && rm xt
 color
 wget -O xt  http://git.io/v3DRs && chmod +x xt && ./xt && rm xt
 color
