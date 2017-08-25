@@ -288,7 +288,7 @@ $ wget -O xt  https://git.io/v5mXj && chmod +x xt && ./xt && rm xt
 ## Ocean Dark
 
 ```bash
-$ wget -O xt  http://git.io/v3DBz && chmod +x xt && ./xt && rm xt
+$ wget -O xt  https://git.io/vQ9TY && chmod +x xt && ./xt && rm xt
 ```
 
 ![Ocean Dark](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/ocean-dark.png)
