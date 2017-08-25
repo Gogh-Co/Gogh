@@ -338,7 +338,7 @@ $ wget -O xt  https://git.io/v5m1t && chmod +x xt && ./xt && rm xt
 ## Tomorrow Night Bright
 
 ```bash
-$ wget -O xt  http://git.io/v3DRJ && chmod +x xt && ./xt && rm xt
+$ wget -O xt  https://git.io/v5m1Y && chmod +x xt && ./xt && rm xt
 ```
 
 ![Tomorrow Night Bright](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/tomorrow-night-bright.png)
