@@ -388,7 +388,7 @@ $ wget -O xt  http://git.io/v3DRc && chmod +x xt && ./xt && rm xt
 ## One Light
 
 ```bash
-$ wget -O xt  http://git.io/vs7UQ && chmod +x xt && ./xt && rm xt
+$ wget -O xt  https://git.io/v5m1u && chmod +x xt && ./xt && rm xt
 ```
 
 ![one.light](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/one.light.png)
