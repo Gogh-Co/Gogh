@@ -348,7 +348,7 @@ $ wget -O xt  https://git.io/v5m1Y && chmod +x xt && ./xt && rm xt
 ## Tomorrow Night Eighties
 
 ```bash
-$ wget -O xt  http://git.io/v3DRI && chmod +x xt && ./xt && rm xt
+$ wget -O xt  https://git.io/v5m1s && chmod +x xt && ./xt && rm xt
 ```
 
 ![Tomorrow Night Eighties](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/tomorrow-night-eighties.png)
