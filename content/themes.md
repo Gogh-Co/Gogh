@@ -268,7 +268,7 @@ $ wget -O xt  http://git.io/v3D4z && chmod +x xt && ./xt && rm xt
 ## Hemisu Dark
 
 ```bash
-$ wget -O xt  http://git.io/v3D4M && chmod +x xt && ./xt && rm xt
+$ wget -O xt  https://git.io/v5mXA && chmod +x xt && ./xt && rm xt
 ```
 
 ![Hemisu Dark](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/hemisu-dark.png)

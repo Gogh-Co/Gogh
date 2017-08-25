@@ -75,7 +75,7 @@ wget -O xt  http://git.io/v3D49 && chmod +x xt && ./xt && rm xt
 color
 wget -O xt  http://git.io/v3D4d && chmod +x xt && ./xt && rm xt
 color
-wget -O xt  http://git.io/v3D4M && chmod +x xt && ./xt && rm xt
+wget -O xt  https://git.io/v5mXA && chmod +x xt && ./xt && rm xt
 color
 wget -O xt  http://git.io/v3D4N && chmod +x xt && ./xt && rm xt
 color
