@@ -328,7 +328,7 @@ $ wget -O xt  http://git.io/v3DBv && chmod +x xt && ./xt && rm xt
 ## Tomorrow Night Blue
 
 ```bash
-$ wget -O xt  http://git.io/v3DBj && chmod +x xt && ./xt && rm xt
+$ wget -O xt  https://git.io/v5m1t && chmod +x xt && ./xt && rm xt
 ```
 
 ![Tomorrow Night Blue](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/tomorrow-night-blue.png)

@@ -133,7 +133,7 @@ wget -O xt  http://git.io/v3DR0 && chmod +x xt && ./xt && rm xt
 color
 wget -O xt  http://git.io/v3DRB && chmod +x xt && ./xt && rm xt
 color
-wget -O xt  http://git.io/v3DBj && chmod +x xt && ./xt && rm xt
+wget -O xt  https://git.io/v5m1t && chmod +x xt && ./xt && rm xt
 color
 wget -O xt  http://git.io/v3DRc && chmod +x xt && ./xt && rm xt
 color
