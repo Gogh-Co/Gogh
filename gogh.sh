@@ -215,7 +215,7 @@ read -p 'Enter OPTION(S) : ' -a OPTION
 # |
 for OP in "${OPTION[@]}"; do
 
-    if (( OP < ARRAYLENGTH )); then
+    if (( OP <= ARRAYLENGTH )); then
         FILENAME="${THEMES[((OP-1))]::-3}"
         FILENAME_SPACE="${FILENAME//-/ }"
         echo "Theme: ${FILENAME_SPACE^}"
