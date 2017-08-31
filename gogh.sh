@@ -193,7 +193,7 @@ Themes:
 for TH in "${THEMES[@]}"; do
 
     KEY=$(printf "%02d" $NUM)
-    FILENAME=${TH::-3}
+    FILENAME=${TH::$((${#TH}-3))}
     FILENAME_SPACE=${FILENAME//-/ }
 
     echo -e "    (\\e[0m\e[0;34m $KEY \\e[0m\e[0m) ${FILENAME_SPACE^}"
@@ -215,7 +215,7 @@ read -p 'Enter OPTION(S) : ' -a OPTION
 # |
 for OP in "${OPTION[@]}"; do
 
-    if (( OP <= ARRAYLENGTH )); then
+    if [[ OP -le ARRAYLENGTH ]]; then
         FILENAME="${THEMES[((OP-1))]::-3}"
         FILENAME_SPACE="${FILENAME//-/ }"
         echo "Theme: ${FILENAME_SPACE^}"
