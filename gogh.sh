@@ -44,6 +44,7 @@ declare -a THEMES=(
     'fishtank.sh'
     'flatland.sh'
     'flat.sh'
+    'foxnightly.sh'
     'freya.sh'
     'frontend-delight.sh'
     'frontend-fun-forrest.sh'
