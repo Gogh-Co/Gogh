@@ -179,17 +179,14 @@ NUM=1
 # | ::::::: Print Colors
 # |
 echo -e "
-Gogh
+Gogh\n
 \e[0;30m█████\\e[0m\e[0;31m█████\\e[0m\e[0;32m█████\\e[0m\e[0;33m█████\\e[0m\e[0;34m█████\\e[0m\e[0;35m█████\\e[0m\e[0;36m█████\\e[0m\e[0;37m█████\\e[0m
 \e[0m\e[1;30m█████\\e[0m\e[1;31m█████\\e[0m\e[1;32m█████\\e[0m\e[1;33m█████\\e[0m\e[1;34m█████\\e[0m\e[1;35m█████\\e[0m\e[1;36m█████\\e[0m\e[1;37m█████\\e[0m"
 
 # |
 # | ::::::: Print Themes
 # |
-echo -e "
-Themes:
-    (\\e[0m\e[0;34m 00 \\e[0m\e[0m) EXIT
-    "
+echo -e "\nThemes:\n"
 
 for TH in "${THEMES[@]}"; do
 
@@ -206,8 +203,8 @@ done
 # |
 # | ::::::: Select Option
 # |
-echo -e "Usage : Enter Desired Themes Numbers (\\e[0m\e[0;34mOPTIONS\\e[0m\e[0m) Separated By A Blank Space"
-
+echo -e "\nUsage : Enter Desired Themes Numbers (\\e[0m\e[0;34mOPTIONS\\e[0m\e[0m) Separated By A Blank Space"
+echo -e "        Press \e[0;34mENTER\\e[0m without options to Exit\n"
 read -p 'Enter OPTION(S) : ' -a OPTION
 
 
@@ -216,7 +213,7 @@ read -p 'Enter OPTION(S) : ' -a OPTION
 # |
 for OP in "${OPTION[@]}"; do
 
-    if [[ OP -le ARRAYLENGTH ]]; then
+    if [[ OP -le ARRAYLENGTH && OP -gt 0 ]]; then
         FILENAME="${THEMES[((OP-1))]::-3}"
         FILENAME_SPACE="${FILENAME//-/ }"
         echo "Theme: ${FILENAME_SPACE^}"
