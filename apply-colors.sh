@@ -59,7 +59,18 @@ set_theme() {
 # | ===========================================
 TERMINAL=$(ps -p $(ps -p $(ps -p $$ -o ppid=) -o ppid=) -o args=)
 
-if [ $TERMINAL = "pantheon-terminal" ]; then
+if [[ $TERMINAL =~ "guake" ]]; then
+    # |
+    # | Applying values if string contains guake.main
+    # | =============================================
+    # Note: Guake still uses gconf but plans to support dconf/gsettings when reaching 1.0.0.
+    #       See notes for 0.8.1 in https://github.com/Guake/guake/blob/master/NEWS.
+    gconftool-2 -s -t string /apps/guake/style/background/color "${BACKGROUND_COLOR}"
+    gconftool-2 -s -t string /apps/guake/style/font/color "${FOREGROUND_COLOR}"
+    gconftool-2 -s -t string /apps/guake/style/font/palette "${COLOR_01}:${COLOR_02}:${COLOR_03}:${COLOR_04}:${COLOR_05}:${COLOR_06}:${COLOR_07}:${COLOR_08}:${COLOR_09}:${COLOR_10}:${COLOR_11}:${COLOR_12}:${COLOR_13}:${COLOR_14}:${COLOR_15}:${COLOR_16}"
+    gconftool-2 -s -t string /apps/guake/style/font/palette_name "${PROFILE_NAME}"
+
+elif [ $TERMINAL = "pantheon-terminal" ]; then
     # |
     # | Applying values on pantheon-terminal
     # | ===========================================
@@ -103,7 +114,6 @@ elif [ $TERMINAL = "mate-terminal" ]; then
     dset allow-bold "true"
 
     exit 0
-
 
 else
     # |
