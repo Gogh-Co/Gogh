@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# This is an adaptation of the "One Half Dark" color scheme published by
+# Son A. Pham under the MIT license: https://github.com/sonph/onehalf
 
 # ====================CONFIG THIS =============================== #
 COLOR_01="#282c34"           # HOST
@@ -19,10 +21,10 @@ COLOR_14="#c678dd"           #
 COLOR_15="#56b6c2"           #
 COLOR_16="#dcdfe4"           #
 
-BACKGROUND_COLOR="#282c34"   # Background Color
+BACKGROUND_COLOR="#000000"   # Background Color
 FOREGROUND_COLOR="#dcdfe4"   # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
-PROFILE_NAME="One Half Dark"
+PROFILE_NAME="One Half Black"
 # =============================================
 
 
