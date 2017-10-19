@@ -94,7 +94,7 @@ fi
 # | ===========================================
 if [[ $TERMINAL =~ "guake" ]]; then
     # |
-    # | Applying values if string contains guake.main
+    # | Applying values if string contains guake
     # | =============================================
     # Note: Guake still uses gconf but plans to support dconf/gsettings when reaching 1.0.0.
     #       See notes for 0.8.1 in https://github.com/Guake/guake/blob/master/NEWS.
@@ -126,7 +126,7 @@ elif [ $TERMINAL = "iTerm.app" ]; then
     COLOR_15=$(convertNameAndRGBtoITerm "Ansi 14 Color" $COLOR_15)
     COLOR_16=$(convertNameAndRGBtoITerm "Ansi 15 Color" $COLOR_16)
 
-	# Assemble color scheme file contents
+    # Assemble color scheme file contents
     ITERMCOLORS='<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict>'${BACKGROUND_COLOR}${FOREGROUND_COLOR}${COLOR_01}${COLOR_02}${COLOR_03}${COLOR_04}${COLOR_05}${COLOR_06}${COLOR_07}${COLOR_08}${COLOR_09}${COLOR_10}${COLOR_11}${COLOR_12}${COLOR_13}${COLOR_14}${COLOR_15}'</dict></plist>'
     
     # Dump iTerm color scheme to file and import it by opening it
