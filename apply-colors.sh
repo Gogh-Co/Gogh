@@ -78,7 +78,6 @@ set_theme() {
 
 # |
 # | Check for the terminal name (depening on os)
-# | and decide how to apply
 # | ===========================================
 OS=$(uname)
 if [ $OS = "Darwin" ]; then
