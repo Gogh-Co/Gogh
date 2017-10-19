@@ -23,11 +23,29 @@ $ sudo apt-get install dconf-cli
 
 ## [Install](https://github.com/Mayccoll/Gogh/blob/master/content/install.md)
 
-Just copy and paste One line command.
+_Requires an Internet connection_
+
+**Just copy and paste One line command**
 
 ```bash
-  $  wget -O gogh https://git.io/vQgMr && chmod +x gogh && ./gogh && rm gogh
+$ source <(wget -O- https://git.io/vQgMr)
 ```
+
+_**Can't remember the URL ? Follow the steps below!**_
+
+* Create an alias which is shown below, inside `~/.bashrc` (or equivalent file), and save it
+
+```bash
+  alias gogh='source <(wget -O- https://git.io/vQgMr)';
+```
+
+* Now, you can execute above alias on a new terminal
+
+```bash
+  $ gogh
+```
+
+**Profit!**
 
 **DEMO:**
 
