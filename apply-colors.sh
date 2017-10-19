@@ -12,6 +12,28 @@ gnome_color () {
     echo "#${AA}${AA}${BB}${BB}${CC}${CC}"
 }
 
+convertRGBtoMac () {
+
+    AA=${1:1:2}
+    BB=${1:3:2}
+    CC=${1:5:2}
+
+    R="$((16#${AA}))"
+    G="$((16#${BB}))"
+    B="$((16#${CC}))"
+
+    R=$(echo "${R} / 255" | bc -l)
+    G=$(echo "${G} / 255" | bc -l)
+    B=$(echo "${B} / 255" | bc -l)
+    echo $R $G $B
+}
+
+convertNameAndRGBtoITerm() {
+    local name=$1
+    read R G B<<<$(convertRGBtoMac $2)
+    echo "<key>$1</key><dict><key>Blue Component</key><real>${B}</real><key>Green Component</key><real>${G}</real><key>Red Component</key><real>${R}</real></dict>"
+}
+
 dset() {
     local key="$1"; shift
     local val="$1"; shift
@@ -55,13 +77,24 @@ set_theme() {
 
 
 # |
-# | Check for the terminal name and decide how to apply
+# | Check for the terminal name (depening on os)
 # | ===========================================
-TERMINAL=$(ps -p $(ps -p $(ps -p $$ -o ppid=) -o ppid=) -o args=)
+OS=$(uname)
+if [ $OS = "Darwin" ]; then
+    # |
+    # | Check for the terminal name and decide how to apply
+    # | ===========================================
+    TERMINAL=$TERM_PROGRAM
+else  
+    TERMINAL=$(ps -p $(ps -p $(ps -p $$ -o ppid=) -o ppid=) -o args=)
+fi
 
+# |
+# | Apply color scheme to terminal
+# | ===========================================
 if [[ $TERMINAL =~ "guake" ]]; then
     # |
-    # | Applying values if string contains guake.main
+    # | Applying values if string contains guake
     # | =============================================
     # Note: Guake still uses gconf but plans to support dconf/gsettings when reaching 1.0.0.
     #       See notes for 0.8.1 in https://github.com/Guake/guake/blob/master/NEWS.
@@ -69,6 +102,37 @@ if [[ $TERMINAL =~ "guake" ]]; then
     gconftool-2 -s -t string /apps/guake/style/font/color "${FOREGROUND_COLOR}"
     gconftool-2 -s -t string /apps/guake/style/font/palette "${COLOR_01}:${COLOR_02}:${COLOR_03}:${COLOR_04}:${COLOR_05}:${COLOR_06}:${COLOR_07}:${COLOR_08}:${COLOR_09}:${COLOR_10}:${COLOR_11}:${COLOR_12}:${COLOR_13}:${COLOR_14}:${COLOR_15}:${COLOR_16}"
     gconftool-2 -s -t string /apps/guake/style/font/palette_name "${PROFILE_NAME}"
+
+elif [ $TERMINAL = "iTerm.app" ]; then
+    # |
+    # | Applying values on iTerm2
+    # | ===========================================
+    BACKGROUND_COLOR=$(convertNameAndRGBtoITerm "Background Color" $BACKGROUND_COLOR)
+    FOREGROUND_COLOR=$(convertNameAndRGBtoITerm "Foreground Color" $FOREGROUND_COLOR)
+    COLOR_01=$(convertNameAndRGBtoITerm "Ansi 0 Color" $COLOR_01)
+    COLOR_02=$(convertNameAndRGBtoITerm "Ansi 1 Color" $COLOR_02)
+    COLOR_03=$(convertNameAndRGBtoITerm "Ansi 2 Color" $COLOR_03)
+    COLOR_04=$(convertNameAndRGBtoITerm "Ansi 3 Color" $COLOR_04)
+    COLOR_05=$(convertNameAndRGBtoITerm "Ansi 4 Color" $COLOR_05)
+    COLOR_06=$(convertNameAndRGBtoITerm "Ansi 5 Color" $COLOR_06)
+    COLOR_07=$(convertNameAndRGBtoITerm "Ansi 6 Color" $COLOR_07)
+    COLOR_08=$(convertNameAndRGBtoITerm "Ansi 7 Color" $COLOR_08)
+    COLOR_09=$(convertNameAndRGBtoITerm "Ansi 8 Color" $COLOR_09)
+    COLOR_10=$(convertNameAndRGBtoITerm "Ansi 9 Color" $COLOR_10)
+    COLOR_11=$(convertNameAndRGBtoITerm "Ansi 10 Color" $COLOR_11)
+    COLOR_12=$(convertNameAndRGBtoITerm "Ansi 11 Color" $COLOR_12)
+    COLOR_13=$(convertNameAndRGBtoITerm "Ansi 12 Color" $COLOR_13)
+    COLOR_14=$(convertNameAndRGBtoITerm "Ansi 13 Color" $COLOR_14)
+    COLOR_15=$(convertNameAndRGBtoITerm "Ansi 14 Color" $COLOR_15)
+    COLOR_16=$(convertNameAndRGBtoITerm "Ansi 15 Color" $COLOR_16)
+
+    # Assemble color scheme file contents
+    ITERMCOLORS='<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict>'${BACKGROUND_COLOR}${FOREGROUND_COLOR}${COLOR_01}${COLOR_02}${COLOR_03}${COLOR_04}${COLOR_05}${COLOR_06}${COLOR_07}${COLOR_08}${COLOR_09}${COLOR_10}${COLOR_11}${COLOR_12}${COLOR_13}${COLOR_14}${COLOR_15}'</dict></plist>'
+    
+    # Dump iTerm color scheme to file and import it by opening it
+    echo $ITERMCOLORS > "${PROFILE_NAME}.itermcolors"
+    open "${PROFILE_NAME}.itermcolors"
+    rm "${PROFILE_NAME}.itermcolors"
 
 elif [ $TERMINAL = "pantheon-terminal" ]; then
     # |
