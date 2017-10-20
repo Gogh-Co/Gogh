@@ -41,6 +41,13 @@ function gogh_colors () {
     echo ""
 }
 
+function curlsource() {
+    f=$(mktemp -t curlsource)
+    curl -o "$f" -s -L "$1"
+    source "$f"
+    rm -f "$f"
+}
+
 SCRIPT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 PARENT_PATH="$(dirname "$SCRIPT_PATH")"
 
@@ -48,5 +55,12 @@ gogh_colors
 if [ -e $PARENT_PATH"/apply-colors.sh" ]; then
     source $PARENT_PATH"/apply-colors.sh"
 else
-    source <(wget  -O - https://raw.githubusercontent.com/Mayccoll/Gogh/master/apply-colors.sh)
+        if [ $(uname) = "Darwin" ]; then
+        # OSX ships with curl and ancient bash
+        # Note: here, sourcing directly from curl does not work
+        curlsource https://raw.githubusercontent.com/Mayccoll/Gogh/master/apply-colors.sh
+    else
+        # Linux ships with wget
+        source <(wget -O - https://raw.githubusercontent.com/Mayccoll/Gogh/master/apply-colors.sh)
+    fi
 fi
