@@ -163,12 +163,29 @@ declare -a THEMES=(
     'zenburn.sh'
 )
 
+capitalize (){
+    RES=""
+    for str in $1; do Str=`echo "${str:0:1}" | tr "[:lower:]" "[:upper:]"`"${str:1} "; RES="${RES}${Str}"; done
+    echo "${RES}"
+}
+
 set_gogh () {
     string=$1
     string_r="${string%???}"
     string_s=${string_r//\./_}
-    result="${string_s^}"
-    export {PROFILE_NAME,PROFILE_SLUG}=$result && source <(wget -O - https://raw.githubusercontent.com/Mayccoll/Gogh/master/themes/$1)
+	result=$(capitalize "${string_s}")
+	
+	if [ $(uname) = "Darwin" ]; then
+		# OSX ships with curl
+		# Note: sourcing directly from curl does not work
+        export {PROFILE_NAME,PROFILE_SLUG}=$result && curl -fLo gogh https://raw.githubusercontent.com/Mayccoll/Gogh/master/themes/$1 && source gogh && rm gogh
+	else
+        export {PROFILE_NAME,PROFILE_SLUG}=$result && source <(wget -O - https://raw.githubusercontent.com/Mayccoll/Gogh/master/themes/$1)
+    fi
+}
+
+remove_file_extension (){
+	echo "${1%.*}"
 }
 
 ### Get length of an array
@@ -180,8 +197,8 @@ NUM=1
 # |
 echo -e "
 Gogh\n
-\e[0;30m█████\\e[0m\e[0;31m█████\\e[0m\e[0;32m█████\\e[0m\e[0;33m█████\\e[0m\e[0;34m█████\\e[0m\e[0;35m█████\\e[0m\e[0;36m█████\\e[0m\e[0;37m█████\\e[0m
-\e[0m\e[1;30m█████\\e[0m\e[1;31m█████\\e[0m\e[1;32m█████\\e[0m\e[1;33m█████\\e[0m\e[1;34m█████\\e[0m\e[1;35m█████\\e[0m\e[1;36m█████\\e[0m\e[1;37m█████\\e[0m"
+\033[0;30m█████\\033[0m\033[0;31m█████\\033[0m\033[0;32m█████\\033[0m\033[0;33m█████\\033[0m\033[0;34m█████\\033[0m\033[0;35m█████\\033[0m\033[0;36m█████\\033[0m\033[0;37m█████\\033[0m
+\033[0m\033[1;30m█████\\033[0m\033[1;31m█████\\033[0m\033[1;32m█████\\033[0m\033[1;33m█████\\033[0m\033[1;34m█████\\033[0m\033[1;35m█████\\033[0m\033[1;36m█████\\033[0m\033[1;37m█████\\033[0m"
 
 # |
 # | ::::::: Print Themes
@@ -194,7 +211,7 @@ for TH in "${THEMES[@]}"; do
     FILENAME=${TH::$((${#TH}-3))}
     FILENAME_SPACE=${FILENAME//-/ }
 
-    echo -e "    (\\e[0m\e[0;34m $KEY \\e[0m\e[0m) ${FILENAME_SPACE^}"
+    echo -e "    (\\033[0m\033[0;34m $KEY \\033[0m\033[0m) $(capitalize "${FILENAME_SPACE}")"
 
     ((NUM++))
 
@@ -203,8 +220,8 @@ done
 # |
 # | ::::::: Select Option
 # |
-echo -e "\nUsage : Enter Desired Themes Numbers (\\e[0m\e[0;34mOPTIONS\\e[0m\e[0m) Separated By A Blank Space"
-echo -e "        Press \e[0;34mENTER\\e[0m without options to Exit\n"
+echo -e "\nUsage : Enter Desired Themes Numbers (\\033[0m\033[0;34mOPTIONS\\033[0m\033[0m) Separated By A Blank Space"
+echo -e "        Press \033[0;34mENTER\\033[0m without options to Exit\n"
 read -p 'Enter OPTION(S) : ' -a OPTION
 
 
@@ -214,13 +231,14 @@ read -p 'Enter OPTION(S) : ' -a OPTION
 for OP in "${OPTION[@]}"; do
 
     if [[ OP -le ARRAYLENGTH && OP -gt 0 ]]; then
-        FILENAME="${THEMES[((OP-1))]::-3}"
+
+		FILENAME=$(remove_file_extension "${THEMES[((OP-1))]}")
         FILENAME_SPACE="${FILENAME//-/ }"
-        echo "Theme: ${FILENAME_SPACE^}"
+		echo "Theme: $(capitalize "${FILENAME_SPACE}")"
         SET_THEME="${THEMES[((OP-1))]}"
         set_gogh "${SET_THEME}"
     else
-        echo -e "\\e[0m\e[0;31m ~ INVALID OPTION! ~\\e[0m\e[0m"
+        echo -e "\\033[0m\033[0;31m ~ INVALID OPTION! ~\\033[0m\033[0m"
         exit 1
     fi
 
