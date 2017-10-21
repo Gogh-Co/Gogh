@@ -169,18 +169,26 @@ capitalize (){
     echo "${RES}"
 }
 
+function curlsource() {
+    f=$(mktemp -t curlsource)
+    curl -o "$f" -s -L "$1"
+    source "$f"
+    rm -f "$f"
+}
+
 set_gogh () {
     string=$1
     string_r="${string%???}"
     string_s=${string_r//\./_}
 	result=$(capitalize "${string_s}")
-	
+	url="https://raw.githubusercontent.com/Mayccoll/Gogh/master/themes/$1"
+
 	if [ $(uname) = "Darwin" ]; then
 		# OSX ships with curl
 		# Note: sourcing directly from curl does not work
-        export {PROFILE_NAME,PROFILE_SLUG}=$result && curl -fLo gogh https://raw.githubusercontent.com/Mayccoll/Gogh/master/themes/$1 && source gogh && rm gogh
+        export {PROFILE_NAME,PROFILE_SLUG}=$result && curlsource "${url}"
 	else
-        export {PROFILE_NAME,PROFILE_SLUG}=$result && source <(wget -O - https://raw.githubusercontent.com/Mayccoll/Gogh/master/themes/$1)
+        export {PROFILE_NAME,PROFILE_SLUG}=$result && source <(wget -O - "${url}")
     fi
 }
 
