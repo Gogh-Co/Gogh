@@ -402,3 +402,13 @@ $ wget -O xt https://git.io/v7eBS && chmod +x xt && ./xt && rm xt
 ```
 
 ![Gruvbox Dark](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/gruvbox-dark.png)
+
+-----
+
+## Srcery
+
+```bash
+$ wget -O xt https://git.io/vbLa5 && chmod +x xt && ./xt && rm xt
+```
+
+![Srcery](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/themes/srcery.png)
