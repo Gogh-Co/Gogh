@@ -76,6 +76,7 @@ If you want to create your own color scheme or contribute to the project. [Here.
 - [Terminal Sexy](https://terminal.sexy)
 - [Gruvbox](https://github.com/morhetz/gruvbox)
 - [Tilix](https://github.com/storm119/Tilix-Themes)
+- [Srcery](https://github.com/roosta/vim-srcery) by [Daniel Berg](https://github.com/roosta)
 
 
 <br/>
