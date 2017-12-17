@@ -124,6 +124,7 @@ declare -a THEMES=(
     'shel.sh'
     'slate.sh'
     'smyck.sh'
+    'snazzy.sh'
     'soft-server.sh'
     'solarized-darcula.sh'
     'solarized-dark-higher-contrast.sh'

@@ -66,6 +66,7 @@ If you want to create your own color scheme or contribute to the project. [Here.
 - Monokai
 - [Elementary Os](https://elementary.io/)
 - https://github.com/chalk/chalk
+- [Snazzy](https://github.com/sindresorhus/hyper-snazzy)
 - [Hemisu color themes](https://noahfrederick.com/log/hemisu-for-os-x-terminal/) by Noah Frederick.
 - [Peppermint color theme](https://noahfrederick.com/log/lion-terminal-theme-peppermint/) by Noah Frederick.
 - [Ocean theme](https://github.com/fabianperez/ocean-dark-iterm) by [Fabian Perez](https://github.com/fabianperez).
