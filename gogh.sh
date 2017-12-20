@@ -167,8 +167,15 @@ declare -a THEMES=(
 )
 
 capitalize (){
-    RES=""
-    for str in $1; do Str=`echo "${str:0:1}" | tr "[:lower:]" "[:upper:]"`"${str:1} "; RES="${RES}${Str}"; done
+    local RES=""
+    local string=$1
+
+    for char in $string
+    do
+        str=$(echo "${char:0:1}" | tr "[:lower:]" "[:upper:]")"${char:1} "
+        RES="${RES}${str}"
+    done
+
     echo "${RES}"
 }
 
@@ -183,20 +190,20 @@ set_gogh () {
     string=$1
     string_r="${string%???}"
     string_s=${string_r//\./_}
-	result=$(capitalize "${string_s}")
-	url="https://raw.githubusercontent.com/Mayccoll/Gogh/master/themes/$1"
+    result=$(capitalize "${string_s}")
+    url="https://raw.githubusercontent.com/Mayccoll/Gogh/master/themes/$1"
 
-	if [ $(uname) = "Darwin" ]; then
-		# OSX ships with curl
-		# Note: sourcing directly from curl does not work
-        export {PROFILE_NAME,PROFILE_SLUG}=$result && curlsource "${url}"
-	else
-        export {PROFILE_NAME,PROFILE_SLUG}=$result && source <(wget -O - "${url}")
+    if [ "$(uname)" = "Darwin" ]; then
+        # OSX ships with curl
+        # Note: sourcing directly from curl does not work
+        export {PROFILE_NAME,PROFILE_SLUG}="$result" && curlsource "${url}"
+    else
+        export {PROFILE_NAME,PROFILE_SLUG}="$result" && source <(wget -O - "${url}")
     fi
 }
 
 remove_file_extension (){
-	echo "${1%.*}"
+    echo "${1%.*}"
 }
 
 ### Get length of an array
@@ -243,9 +250,9 @@ for OP in "${OPTION[@]}"; do
 
     if [[ OP -le ARRAYLENGTH && OP -gt 0 ]]; then
 
-		FILENAME=$(remove_file_extension "${THEMES[((OP-1))]}")
+        FILENAME=$(remove_file_extension "${THEMES[((OP-1))]}")
         FILENAME_SPACE="${FILENAME//-/ }"
-		echo "Theme: $(capitalize "${FILENAME_SPACE}")"
+        echo "Theme: $(capitalize "${FILENAME_SPACE}")"
         SET_THEME="${THEMES[((OP-1))]}"
         set_gogh "${SET_THEME}"
     else
