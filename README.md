@@ -60,24 +60,24 @@ If you want to create your own color scheme or contribute to the project. [Here.
 ## Credits:
 
 - [4bit](http://ciembor.github.io/4bit/)
-- Flat Theme - inspired by https://dribbble.com/shots/1021755-Flat-UI-Terminal-Theme
-- https://github.com/zenorocha/dracula-theme
-- http://ethanschoonover.com/solarized
-- Monokai
-- [Elementary Os](https://elementary.io/)
-- https://github.com/chalk/chalk
-- [Snazzy](https://github.com/sindresorhus/hyper-snazzy)
-- [Hemisu color themes](https://noahfrederick.com/log/hemisu-for-os-x-terminal/) by Noah Frederick.
-- [Peppermint color theme](https://noahfrederick.com/log/lion-terminal-theme-peppermint/) by Noah Frederick.
-- [Ocean theme](https://github.com/fabianperez/ocean-dark-iterm) by [Fabian Perez](https://github.com/fabianperez).
-- [SMYCK color theme](http://color.smyck.org/) originally created by John-Paul Bader ([hukl](https://github.com/hukl)).
-- [Mitchel van Eijgen](https://gist.github.com/mvaneijgen/4c56701215847dd5ddcf) and [Liu Xinan](https://gist.github.com/xinan/ca2b82fef6aaa0d1e099).
-- [Tomorrow color theme set](https://github.com/chriskempson/tomorrow-theme) by [Chris Kempson](https://github.com/chriskempson).
-- [One Dark & Light theme set](https://github.com/nathanbuchar/one-dark-terminal) by [Nathan Buchar](https://github.com/nathanbuchar).
-- [Terminal Sexy](https://terminal.sexy)
-- [Gruvbox](https://github.com/morhetz/gruvbox)
-- [Tilix](https://github.com/storm119/Tilix-Themes)
+- [Chalk](https://github.com/chalk/chalk) by [Sindre Sorhus](https://github.com/sindresorhus)
+- [Dracula](https://github.com/dracula/dracula-theme) by [Zeno Rocha](https://github.com/zenorocha)
+- [Elementary OS](https://elementary.io/)
+- [Flat UI Terminal Theme](https://dribbble.com/shots/1021755-Flat-UI-Terminal-Theme)
+- [Gruvbox](https://github.com/morhetz/gruvbox) by [Pavel Pertsev](https://github.com/morhetz)
+- [Hemisu](https://noahfrederick.com/log/hemisu-for-os-x-terminal/) by [Noah Frederick](https://github.com/noahfrederick)
+- Material theme by [Mitchel van Eijgen](https://gist.github.com/mvaneijgen/4c56701215847dd5ddcf) and [Liu Xinan](https://gist.github.com/xinan/ca2b82fef6aaa0d1e099)
+- [Monokai](https://web.archive.org/web/20161117102850/http://www.monokai.nl/blog/2006/07/15/textmate-color-theme) by [Wimer Hazenberg](https://github.com/monokai)
+- [Ocean](https://github.com/fabianperez/ocean-dark-iterm) by [Fabian Perez](https://github.com/fabianperez)
+- [One Dark & Light theme set](https://github.com/nathanbuchar/one-dark-terminal) by [Nathan Buchar](https://github.com/nathanbuchar)
+- [Peppermint](https://noahfrederick.com/log/lion-terminal-theme-peppermint/) by [Noah Frederick](https://github.com/noahfrederick)
+- [SMYCK](http://color.smyck.org/) by [John-Paul Bader](https://github.com/hukl)
+- [Snazzy](https://github.com/sindresorhus/hyper-snazzy) by [Sindre Sorhus](https://github.com/sindresorhus)
+- [Solarized](http://ethanschoonover.com/solarized) by [Ethan Schoonover](https://github.com/altercation)
 - [Srcery](https://github.com/roosta/vim-srcery) by [Daniel Berg](https://github.com/roosta)
+- [Terminal Sexy](https://terminal.sexy) by [George Czabania](https://github.com/stayradiated)
+- [Tilix](https://github.com/storm119/Tilix-Themes)
+- [Tomorrow color theme set](https://github.com/chriskempson/tomorrow-theme) by [Chris Kempson](https://github.com/chriskempson)
 
 
 <br/>
@@ -94,7 +94,7 @@ If you want to create your own color scheme or contribute to the project. [Here.
 
 ## Author
 
-- Miguel D. Quintero - [Lanet.co](http:lanet.co)
+- Miguel D. Quintero - [Lanet.co](http://lanet.co)
 
 
 
