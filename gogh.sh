@@ -168,15 +168,18 @@ declare -a THEMES=(
 
 capitalize (){
     local RES=""
+    local STR=""
+    local RES_NO_TRAIL_SPACE=""
     local string=$1
 
     for char in $string
     do
-        str=$(echo "${char:0:1}" | tr "[:lower:]" "[:upper:]")"${char:1}"
-        RES="${RES}${str}"
+        STR=$(echo "${char:0:1}" | tr "[:lower:]" "[:upper:]")"${char:1} "
+        RES="${RES}${STR}"
+        RES_NO_TRAIL_SPACE="$(echo -e "${RES}" | sed -e 's/[[:space:]]*$//')"
     done
 
-    echo "${RES}"
+    echo "${RES_NO_TRAIL_SPACE}"
 }
 
 function curlsource() {
@@ -199,6 +202,7 @@ set_gogh () {
         export {PROFILE_NAME,PROFILE_SLUG}="$result" && curlsource "${url}"
     else
         export {PROFILE_NAME,PROFILE_SLUG}="$result" && source <(wget -O - "${url}")
+        echo "$result"
     fi
 }
 
@@ -227,7 +231,7 @@ for TH in "${THEMES[@]}"; do
 
     KEY=$(printf "%02d" $NUM)
     FILENAME=${TH::$((${#TH}-3))}
-    FILENAME_SPACE=${FILENAME//-/}
+    FILENAME_SPACE=${FILENAME//-/ }
 
     echo -e "    (\\033[0m\033[0;34m $KEY \\033[0m\033[0m) $(capitalize "${FILENAME_SPACE}")"
 
@@ -252,7 +256,8 @@ for OP in "${OPTION[@]}"; do
 
         FILENAME=$(remove_file_extension "${THEMES[((OP-1))]}")
         FILENAME_SPACE="${FILENAME//-/ }"
-        echo "Theme: $(capitalize "${FILENAME_SPACE}")"
+        echo -e "\nTheme: $(capitalize "${FILENAME_SPACE}")\n\033[0;30m•\\033[0m\033[0;31m•\\033[0m\033[0;32m•\\033[0m\033[0;33m•\\033[0m\033[0;34m•\\033[0m\033[0;35m•\\033[0m\033[0;36m•\\033[0m\033[0;37m•\\033[0m \033[0;37m•\\033[0m\033[0;36m•\\033[0m\033[0;35m•\\033[0m\033[0;34m•\\033[0m\033[0;33m•\\033[0m\033[0;32m•\\033[0m\033[0;31m•\\033[0m\033[0;30m•\\033[0m\n"
+
         SET_THEME="${THEMES[((OP-1))]}"
         set_gogh "${SET_THEME}"
     else
