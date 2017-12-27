@@ -172,7 +172,7 @@ capitalize (){
 
     for char in $string
     do
-        str=$(echo "${char:0:1}" | tr "[:lower:]" "[:upper:]")"${char:1} "
+        str=$(echo "${char:0:1}" | tr "[:lower:]" "[:upper:]")"${char:1}"
         RES="${RES}${str}"
     done
 
@@ -227,7 +227,7 @@ for TH in "${THEMES[@]}"; do
 
     KEY=$(printf "%02d" $NUM)
     FILENAME=${TH::$((${#TH}-3))}
-    FILENAME_SPACE=${FILENAME//-/ }
+    FILENAME_SPACE=${FILENAME//-/}
 
     echo -e "    (\\033[0m\033[0;34m $KEY \\033[0m\033[0m) $(capitalize "${FILENAME_SPACE}")"
 
