@@ -22,7 +22,7 @@ COLOR_16="#ffffff"           #
 BACKGROUND_COLOR="#132738"   # Background Color
 FOREGROUND_COLOR="#ffffff"   # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
-PROFILE_NAME="Cobalt2"
+PROFILE_NAME="Cobalt 2"
 # =============================================================== #
 
 

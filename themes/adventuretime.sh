@@ -22,7 +22,7 @@ COLOR_16="#f6f5fb"           #
 BACKGROUND_COLOR="#1f1d45"   # Background Color
 FOREGROUND_COLOR="#f8dcc0"   # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
-PROFILE_NAME="AdventureTime"
+PROFILE_NAME="Adventure Time"
 # =============================================================== #
 
 

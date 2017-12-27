@@ -22,7 +22,7 @@ COLOR_16="#FFFEFE"
 BACKGROUND_COLOR="#F8F8F8"
 FOREGROUND_COLOR="#2A2B32"
 CURSOR_COLOR="#2A2B32"
-PROFILE_NAME="One-light"
+PROFILE_NAME="One Light"
 # =============================================================== #
 
 

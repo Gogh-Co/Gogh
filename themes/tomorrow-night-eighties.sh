@@ -22,7 +22,7 @@ COLOR_16="#FFFEFE"
 BACKGROUND_COLOR="#2C2C2C"
 FOREGROUND_COLOR="#CCCCCC"
 CURSOR_COLOR="#CCCCCC"
-PROFILE_NAME="Tomorrow-night-eighties"
+PROFILE_NAME="Tomorrow Night Eighties"
 # =============================================================== #
 
 

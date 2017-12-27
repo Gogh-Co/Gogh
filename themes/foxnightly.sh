@@ -10,7 +10,7 @@ COLOR_06="#75507B"           # SYNTAX_VAR | Hot purple (import) list-bg-color | 
 COLOR_07="#ACACAE"           # PROMP | Dark grey | html-tag-angle-brackets
 COLOR_08="#FFFFFF"           # White | active list-bg (probably)
 
-COLOR_09="#A40000"           # UNKNOWN | Tomato 
+COLOR_09="#A40000"           # UNKNOWN | Tomato
 COLOR_10="#BF4040"           # COMMAND_ERROR | Valencia (grep highlight)
 COLOR_11="#66A05B"           # EXEC | same as PATH (De york) (maybe)
 COLOR_12="#FFB86C"           # UNKNOWN | Rajah
@@ -25,7 +25,7 @@ CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
 PROFILE_NAME="Foxnightly"
 # =============================================
 
-# Mainly inspired by firefox developer/nightly (58) inspector theme 
+# Mainly inspired by firefox developer/nightly (58) inspector theme
 # Font: Hack or Liberation Mono Regular | 9 (font-size)
 # Allow bold text
 # Cursor shape: Block or Underline (if Hack — Block else Underline)
@@ -68,4 +68,3 @@ gogh_colors
         source <(wget -O - https://raw.githubusercontent.com/Mayccoll/Gogh/master/apply-colors.sh)
     fi
 fi
-

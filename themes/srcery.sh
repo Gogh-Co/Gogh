@@ -22,7 +22,7 @@ COLOR_16="#FCE8C3"           #
 BACKGROUND_COLOR="#282828"   # Background Color
 FOREGROUND_COLOR="#ebdbb2"   # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
-PROFILE_NAME="srcery"
+PROFILE_NAME="Srcery"
 # =============================================
 
 

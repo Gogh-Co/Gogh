@@ -22,7 +22,7 @@ COLOR_16="#FFFFFF"           #
 BACKGROUND_COLOR="#121b21"   # Background Color
 FOREGROUND_COLOR="#b3b8c3"   # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
-PROFILE_NAME="Oceanic-Next"
+PROFILE_NAME="Oceanic Next"
 # =============================================================== #
 
 

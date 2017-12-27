@@ -22,8 +22,8 @@ COLOR_16="#FDF6E3"           #
 BACKGROUND_COLOR="#002B36"   # Background Color
 FOREGROUND_COLOR="#839496"   # Text
 BOLD_COLOR="#93A1A1"         # Bold
-PROFILE_NAME="Solarized-dark"
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+PROFILE_NAME="Solarized Dark"
 # =============================================================== #
 
 

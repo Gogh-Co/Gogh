@@ -22,7 +22,7 @@ COLOR_16="#fff9d5"           #
 BACKGROUND_COLOR="#2a1f1d"   # Background Color
 FOREGROUND_COLOR="#e0dbb7"   # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
-PROFILE_NAME="BirdsOfParadise"
+PROFILE_NAME="Birds Of Paradise"
 # =============================================================== #
 
 

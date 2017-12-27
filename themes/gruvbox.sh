@@ -22,7 +22,7 @@ COLOR_16="#ebdbb2"           #
 BACKGROUND_COLOR="#282828"   # Background Color
 FOREGROUND_COLOR="#ebdbb2"   # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
-PROFILE_NAME="Gruvbox for Tilix"
+PROFILE_NAME="Gruvbox"
 # =============================================================== #
 
 
