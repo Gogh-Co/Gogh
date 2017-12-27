@@ -166,15 +166,15 @@ declare -a THEMES=(
     'zenburn.sh'
 )
 
-capitalize (){
+capitalize() {
+    local ARGUMENT=$1
     local RES=""
     local STR=""
     local RES_NO_TRAIL_SPACE=""
-    local string=$1
 
-    for char in $string
+    for CHAR in $ARGUMENT
     do
-        STR=$(echo "${char:0:1}" | tr "[:lower:]" "[:upper:]")"${char:1} "
+        STR=$(echo "${CHAR:0:1}" | tr "[:lower:]" "[:upper:]")"${CHAR:1} "
         RES="${RES}${STR}"
         RES_NO_TRAIL_SPACE="$(echo -e "${RES}" | sed -e 's/[[:space:]]*$//')"
     done
@@ -182,14 +182,14 @@ capitalize (){
     echo "${RES_NO_TRAIL_SPACE}"
 }
 
-function curlsource() {
-    f=$(mktemp -t curlsource)
-    curl -o "$f" -s -L "$1"
-    source "$f"
-    rm -f "$f"
+curlsource() {
+    local F=$(mktemp -t curlsource)
+    curl -o "$F" -s -L "$1"
+    source "$F"
+    rm -f "$F"
 }
 
-set_gogh () {
+set_gogh() {
     string=$1
     string_r="${string%???}"
     string_s=${string_r//\./_}
@@ -202,7 +202,6 @@ set_gogh () {
         export {PROFILE_NAME,PROFILE_SLUG}="$result" && curlsource "${url}"
     else
         export {PROFILE_NAME,PROFILE_SLUG}="$result" && source <(wget -O - "${url}")
-        echo "$result"
     fi
 }
 
