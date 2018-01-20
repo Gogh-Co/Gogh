@@ -50,6 +50,7 @@ declare -a THEMES=(
     'frontend-fun-forrest.sh'
     'frontend-galaxy.sh'
     'github.sh'
+    'gooey.sh'
     'grape.sh'
     'grass.sh'
     'gruvbox-dark.sh'
