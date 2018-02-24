@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # ====================CONFIG THIS =============================== #
-COLOR_01="#121212"           # HOST
+COLOR_01="#1b1d1e"           # HOST
 COLOR_02="#7325FA"           # SYNTAX_STRING
 COLOR_03="#23E298"           # COMMAND
 COLOR_04="#60D4DF"           # COMMAND_COLOR2
@@ -19,7 +19,7 @@ COLOR_14="#FF87AF"           #
 COLOR_15="#FFCE51"           #
 COLOR_16="#FFFFFF"           #
 
-BACKGROUND_COLOR="#121212"   # Background Color
+BACKGROUND_COLOR="#1b1d1e"   # Background Color
 FOREGROUND_COLOR="#BBBBBB"   # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
 PROFILE_NAME="Molokai"
