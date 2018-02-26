@@ -25,6 +25,7 @@ declare -a THEMES=(
     'chalk.sh'
     'chalkboard.sh'
     'ciapre.sh'
+    'clone-of-ubuntu.sh'
     'clrs.sh'
     'cobalt-neon.sh'
     'cobalt2.sh'
