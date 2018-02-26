@@ -245,6 +245,13 @@ else
             unset DCONF
             unset UUIDGEN
             exit 0
+        else
+            # provide a user friendly error text if no saved profile exists, otherwise it will display "Error gconftool not found!"
+            # it could happen on a newly installed system. (happened on CentOS 7)
+            echo "Error, no saved profiles found!"
+            echo "Possible fix, new a profile (Terminal > Edit > Preferences > Profiles > New, then Close) and try again."
+            echo "You can safely delete the created profile after the installation."
+            exit 1
         fi
     fi
 
