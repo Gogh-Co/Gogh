@@ -12,20 +12,43 @@ gnome_color () {
     echo "#${AA}${AA}${BB}${BB}${CC}${CC}"
 }
 
+hexToDec () {
+    echo "$((16#${1}))"
+}
+
+hexRGBtoDecRGB () {
+    R="$(hexToDec ${1:1:2})"
+    G="$(hexToDec ${1:3:2})"
+    B="$(hexToDec ${1:5:2})"
+
+    echo "$R" "$G" "$B"
+}
+
 convertRGBtoMac () {
-
-    AA=${1:1:2}
-    BB=${1:3:2}
-    CC=${1:5:2}
-
-    R="$((16#${AA}))"
-    G="$((16#${BB}))"
-    B="$((16#${CC}))"
+    read R G B<<<$(hexRGBtoDecRGB $1)
 
     R=$(echo "${R} / 255" | bc -l)
     G=$(echo "${G} / 255" | bc -l)
     B=$(echo "${B} / 255" | bc -l)
+
     echo "$R" "$G" "$B"
+}
+
+createMinttyEntry () {
+    local name="$1"
+    local colour="$2"
+
+    read R G B<<<$(hexRGBtoDecRGB $colour)
+    echo "$name=$R,$G,$B"
+}
+
+updateMinttyConfig () {
+    local config="$1"
+    local colour="$2"
+    local name="$3"
+
+    echo "`cat "${config}" | grep -v -e "^${name}="`" > $config
+    echo -n "$(createMinttyEntry ${name} ${colour})" >> $config
 }
 
 convertNameAndRGBtoITerm() {
@@ -85,6 +108,8 @@ if [ "$OS" = "Darwin" ]; then
     # | Check for the terminal name and decide how to apply
     # | ===========================================
     TERMINAL=$TERM_PROGRAM
+elif [ "${OS#CYGWIN}" != "${OS}" ]; then
+    TERMINAL="mintty"
 else
     TERMINAL="$(ps -p $(ps -p $(ps -p $$ -o ppid=) -o ppid=) -o args=)"
 fi
@@ -177,6 +202,47 @@ elif [ "$TERMINAL" = "mate-terminal" ]; then
     dset palette "'${COLOR_01}:${COLOR_02}:${COLOR_03}:${COLOR_04}:${COLOR_05}:${COLOR_06}:${COLOR_07}:${COLOR_08}:${COLOR_09}:${COLOR_10}:${COLOR_11}:${COLOR_12}:${COLOR_13}:${COLOR_14}:${COLOR_15}:${COLOR_16}'"
     dset allow-bold "true"
 
+    exit 0
+
+elif [ "$TERMINAL" = "mintty" ]; then
+    # |
+    # | Applying values on mintty (cygwin)
+    # | ===========================================
+
+    CFGFILE="${HOME}/.minttyrc"
+    echo "Patching mintty configuration file (${CFGFILE}) with new colours..."
+
+    if [[ ! -f "$CFGFILE" ]]; then
+        echo ""
+        echo "Warning: Couldn't find an existing configuration file, so one will be created for you."
+        echo "Warning: Are you really running Cygwin's mintty?"
+        echo ""
+        touch "$CFGFILE"
+    fi
+
+    updateMinttyConfig "$CFGFILE" "$COLOR_01" "Black"
+    updateMinttyConfig "$CFGFILE" "$COLOR_02" "Red"
+    updateMinttyConfig "$CFGFILE" "$COLOR_03" "Green"
+    updateMinttyConfig "$CFGFILE" "$COLOR_04" "Yellow"
+    updateMinttyConfig "$CFGFILE" "$COLOR_05" "Blue"
+    updateMinttyConfig "$CFGFILE" "$COLOR_06" "Magenta"
+    updateMinttyConfig "$CFGFILE" "$COLOR_07" "Cyan"
+    updateMinttyConfig "$CFGFILE" "$COLOR_08" "White"
+
+    updateMinttyConfig "$CFGFILE" "$COLOR_09" "BoldBlack"
+    updateMinttyConfig "$CFGFILE" "$COLOR_10" "BoldRed"
+    updateMinttyConfig "$CFGFILE" "$COLOR_11" "BoldGreen"
+    updateMinttyConfig "$CFGFILE" "$COLOR_12" "BoldYellow"
+    updateMinttyConfig "$CFGFILE" "$COLOR_13" "BoldBlue"
+    updateMinttyConfig "$CFGFILE" "$COLOR_14" "BoldMagenta"
+    updateMinttyConfig "$CFGFILE" "$COLOR_15" "BoldCyan"
+    updateMinttyConfig "$CFGFILE" "$COLOR_16" "BoldWhite"
+
+    updateMinttyConfig "$CFGFILE" "$BACKGROUND_COLOR" "BackgroundColour"
+    updateMinttyConfig "$CFGFILE" "$FOREGROUND_COLOR" "ForegroundColour"
+    updateMinttyConfig "$CFGFILE" "$CURSOR_COLOR" "CursorColour"
+
+    echo "Done - please reopen your Cygwin terminal to see the changes"
     exit 0
 
 else
