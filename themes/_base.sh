@@ -1,28 +1,28 @@
 #!/usr/bin/env bash
 
 # ====================CONFIG THIS =============================== #
-COLOR_01="#44475a"           # Black
-COLOR_02="#ff5555"           # Red
-COLOR_03="#50fa7b"           # Green
-COLOR_04="#ffb86c"           # Yellow
-COLOR_05="#8be9fd"           # Blue
-COLOR_06="#bd93f9"           # Cyan
-COLOR_07="#ff79c6"           # Magenta
-COLOR_08="#94A3A5"           # Light gray
+COLOR_01="#606D6F"           # Dark gray
+COLOR_02="#EB9090"           # Pink
+COLOR_03="#5EB30E"           # Green
+COLOR_04="#C4A000"           # Yellow
+COLOR_05="#71ACEC"           # Blue
+COLOR_06="#D088C8"           # Cyan
+COLOR_07="#3AE0E0"           # Magenta
+COLOR_08="#D3D7CF"           # Light gray
 
-COLOR_09="#000000"           # Dark gray
-COLOR_10="#ff5555"           # Light Red
-COLOR_11="#50fa7b"           # Light Green
-COLOR_12="#ffb86c"           # Light Yellow
-COLOR_13="#8be9fd"           # Light Blue
-COLOR_14="#bd93f9"           # Light Cyan
-COLOR_15="#ff79c6"           # Light Magenta
-COLOR_16="#ffffff"           # White
+COLOR_09="#75796E"           # Dark gray
+COLOR_10="#FD9C9C"           # Light pink
+COLOR_11="#8AE234"           # Light Green
+COLOR_12="#FCE94F"           # Light Yellow
+COLOR_13="#84B9F2"           # Light Blue
+COLOR_14="#D296CB"           # Light Cyan
+COLOR_15="#4AF5F5"           # Light Magenta
+COLOR_16="#EEEEEC"           # White
 
-BACKGROUND_COLOR="#282a36"   # Background Color
-FOREGROUND_COLOR="#94A3A5"   # Foreground Color (text)
+BACKGROUND_COLOR="#8A0404"   # Background Color
+FOREGROUND_COLOR="#D7D9D9"   # Foreground Color (text)
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor color
-PROFILE_NAME="_base"
+PROFILE_NAME="rafaalata"
 # =============================================
 
 
