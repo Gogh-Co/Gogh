@@ -36,6 +36,32 @@ This way of installing is equals the below, the only thing is that a shortening 
     $ source .bashrc
 ```
 
+## Debian Fixes
+
+### [Fix 1](https://github.com/Mayccoll/Gogh/issues/63#issuecomment-361071956) (@romzie):
+
+- reset your profiles:
+
+```bash
+dconf reset -f /org/gnome/terminal/legacy/profiles:/
+```
+
+### [Fix 2](https://github.com/Mayccoll/Gogh/issues/63#issuecomment-401224491) (@MalwareJedi):
+
+- Reset your profiles:
+
+```bash
+dconf reset -f /org/gnome/terminal/legacy/profiles:/
+```
+
+- Close your terminal. Re-open the terminal.
+- Go to Edit ---> Preferences ---> Profiles.
+- Create NEW profile called "Default".
+- Close the terminal. Re-open the terminal.
+- Confirm "Default" is still listed in your profiles.
+- If it is, run the Gogh script again.
+
+
 
 ## Install by Script
 
