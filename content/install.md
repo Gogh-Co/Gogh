@@ -43,7 +43,7 @@ This way of installing is equals the below, the only thing is that a shortening 
 - reset your profiles:
 
 ```bash
-dconf reset -f /org/gnome/terminal/legacy/profiles:/
+$ dconf reset -f /org/gnome/terminal/legacy/profiles:/
 ```
 
 ### [Fix 2](https://github.com/Mayccoll/Gogh/issues/63#issuecomment-401224491) (@MalwareJedi):
@@ -51,7 +51,7 @@ dconf reset -f /org/gnome/terminal/legacy/profiles:/
 - Reset your profiles:
 
 ```bash
-dconf reset -f /org/gnome/terminal/legacy/profiles:/
+$ dconf reset -f /org/gnome/terminal/legacy/profiles:/
 ```
 
 - Close your terminal. Re-open the terminal.
@@ -61,6 +61,20 @@ dconf reset -f /org/gnome/terminal/legacy/profiles:/
 - Confirm "Default" is still listed in your profiles.
 - If it is, run the Gogh script again.
 
+### [Fix 3](https://github.com/Mayccoll/Gogh/issues/63#issuecomment-401510226) (@sui74):
+
+- Reset your profiles:
+
+```bash
+$ dconf reset -f /org/gnome/terminal/legacy/profiles:/
+```
+
+- "Unname" Rename profile called "default".
+
+```bash
+$ sudo apt install uuid-runtime
+```
+- run Gogh script.
 
 
 ## Install by Script
