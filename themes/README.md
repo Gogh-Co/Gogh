@@ -3,4 +3,4 @@
 
 ## Themes:
 
- [Go to theme page :link:](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md)
+ [Go to theme page :link:](http://mayccoll.github.io/Gogh/)

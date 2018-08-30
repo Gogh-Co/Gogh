@@ -5,7 +5,7 @@ Gogh
 
 ## Color Scheme for Gnome Terminal and Pantheon Terminal
 
-Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that use gnome terminal or Pantheon Terminal, initially inspired by Elementary OS Luna. You can check all themes [here...](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md)
+Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that use gnome terminal or Pantheon Terminal, initially inspired by Elementary OS Luna. You can check all themes [here...](http://mayccoll.github.io/Gogh/)
 
 ![elementary](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/demos/themes.gif)
 
@@ -37,9 +37,9 @@ Just copy and paste One line command.
 <br/>
 
 
-## [Themes](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md)
+## [Themes](http://mayccoll.github.io/Gogh/)
 
-We have lots of themes. Check them out! [Here...](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md)
+We have lots of themes. Check them out! [Here...](http://mayccoll.github.io/Gogh/)
 
 
 <br/>
