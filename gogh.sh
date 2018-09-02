@@ -202,7 +202,7 @@ set_gogh() {
         # Note: sourcing directly from curl does not work
         export {PROFILE_NAME,PROFILE_SLUG}="$result" && curlsource "${url}"
     else
-        export {PROFILE_NAME,PROFILE_SLUG}="$result" && source <(wget -O - "${url}")
+        export {PROFILE_NAME,PROFILE_SLUG}="$result" && bash <(wget -O - "${url}")
     fi
 }
 
