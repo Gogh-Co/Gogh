@@ -1,0 +1,18 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "",
+  "homepage": "",
+  "devDependencies": {},
+  "dependencies": {
+    "browser-sync": "^2.24.7",
+    "compass-mixins": "^0.12.10",
+    "gulp": "^3.9.1"
+  }
+}
