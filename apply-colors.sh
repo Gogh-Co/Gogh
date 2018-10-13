@@ -102,16 +102,18 @@ set_theme() {
 # |
 # | Check for the terminal name (depening on os)
 # | ===========================================
-OS=$(uname)
-if [ "$OS" = "Darwin" ]; then
-    # |
-    # | Check for the terminal name and decide how to apply
-    # | ===========================================
-    TERMINAL=$TERM_PROGRAM
-elif [ "${OS#CYGWIN}" != "${OS}" ]; then
-    TERMINAL="mintty"
-else
-    TERMINAL="$(ps -p $(ps -p $(ps -p $$ -o ppid=) -o ppid=) -o args=)"
+if [[ -z "$TERMINAL" ]]; then
+  OS=$(uname)
+  if [ "$OS" = "Darwin" ]; then
+      # |
+      # | Check for the terminal name and decide how to apply
+      # | ===========================================
+      TERMINAL=$TERM_PROGRAM
+  elif [ "${OS#CYGWIN}" != "${OS}" ]; then
+      TERMINAL="mintty"
+  else
+      TERMINAL="$(ps -p $(ps -p $(ps -p $$ -o ppid=) -o ppid=) -o args=)"
+  fi
 fi
 
 # |
