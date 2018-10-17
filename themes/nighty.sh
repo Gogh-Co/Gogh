@@ -19,8 +19,8 @@ COLOR_14="#ED86C9"           # Light Cyan
 COLOR_15="#70D2A4"           # Light Magenta
 COLOR_16="#DFDFDF"           # White
 
-BACKGROUND_COLOR="#282a36"   # Background Color
-FOREGROUND_COLOR="#94A3A5"   # Foreground Color (text)
+BACKGROUND_COLOR="#2F2F2F"   # Background Color
+FOREGROUND_COLOR="#DFDFDF"   # Foreground Color (text)
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor color
 PROFILE_NAME="nighty"
 # =============================================
