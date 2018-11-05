@@ -51,7 +51,6 @@ function curlsource() {
 SCRIPT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 PARENT_PATH="$(dirname "$SCRIPT_PATH")"
 
-gogh_colors
 if [ -e $PARENT_PATH"/apply-colors.sh" ]; then
     source $PARENT_PATH"/apply-colors.sh"
 else

@@ -51,14 +51,10 @@ function curlsource() {
 SCRIPT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 PARENT_PATH="$(dirname "$SCRIPT_PATH")"
 
-if [ -e $PARENT_PATH"/apply-colors.sh" ]
-then
-gogh_colors
-source $PARENT_PATH"/apply-colors.sh"
-
+if [ -e $PARENT_PATH"/apply-colors.sh" ]; then
+    source $PARENT_PATH"/apply-colors.sh"
 else
-gogh_colors
-    if [ $(uname) = "Darwin" ]; then
+        if [ $(uname) = "Darwin" ]; then
         # OSX ships with curl and ancient bash
         # Note: here, sourcing directly from curl does not work
         curlsource https://raw.githubusercontent.com/Mayccoll/Gogh/master/apply-colors.sh

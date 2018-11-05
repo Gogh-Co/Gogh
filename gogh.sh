@@ -54,6 +54,8 @@ declare -a THEMES=(
     'frontend-fun-forrest.sh'
     'frontend-galaxy.sh'
     'github.sh'
+    'google-dark.sh'
+    'google-light.sh'
     'gooey.sh'
     'grape.sh'
     'grass.sh'
@@ -169,8 +171,6 @@ declare -a THEMES=(
     'wombat.sh'
     'wryan.sh'
     'zenburn.sh'
-    'google-light.sh'
-    'google-dark.sh'
 )
 
 
@@ -178,13 +178,14 @@ cleanup() {
   echo
   echo "Caught signal..$? Cleaning up"
   rm -rf "$scratchdir"
+  unset TERMINAL TRUECOLOR LOOP OPTLENGTH
   echo "Done..."
-  exit 1
+  exit 0
 }
 
 scratchdir=$(mktemp -d -t tmp.XXXXXXXX)
 export scratchdir
-trap cleanup SIGHUP SIGINT SIGQUIT SIGABRT
+trap 'cleanup; trap - EXIT' EXIT HUP INT QUIT PIPE TERM
 
 
 capitalize() {
@@ -314,10 +315,29 @@ if [[ "$TERMINAL" = "tilix" ]]; then
 fi
 
 # |
+# | If terminal supports truecolor then we can show theme colors without applying the theme
+# | ===========================================
+if [[ "$COLORTERM" == "truecolor" ]] || [[ "$COLORTERM" == "24bit" ]]; then
+    # This function gets called in apply-colors.sh instead of gogh_colors
+    # Calls to gogh_colors has also been move to apply-colors.sh to avoid printing twice
+    function gogh_truecolor () {
+      echo
+      for c in {01..16}; do
+        local color="COLOR_$c"
+        set -- $(hexRGBtoDecRGB "${!color}")
+        echo -ne "\033[38;2;${1};${2};${3}m█████"
+        [[ "$c" == "08" ]] && echo # new line
+      done
+      echo
+    }
+    export -f gogh_truecolor
+fi
+
+# |
 # | ::::::: Export one-off variables
 # |
 [[ -v TILIX_RES ]] && export TILIX_RES
-export  TERMINAL LOOP OPTLENGTH=${#OPTION[@]}
+export TERMINAL LOOP OPTLENGTH=${#OPTION[@]}
 
 # |
 # | ::::::: Apply Theme
