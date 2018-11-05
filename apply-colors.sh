@@ -17,15 +17,15 @@ hexToDec () {
 }
 
 hexRGBtoDecRGB () {
-    R="$(hexToDec ${1:1:2})"
-    G="$(hexToDec ${1:3:2})"
-    B="$(hexToDec ${1:5:2})"
+    R="$(hexToDec "${1:1:2}")"
+    G="$(hexToDec "${1:3:2}")"
+    B="$(hexToDec "${1:5:2}")"
 
     echo "$R" "$G" "$B"
 }
 
 convertRGBtoMac () {
-    read R G B<<<$(hexRGBtoDecRGB $1)
+    read -r R G B<<<"$(hexRGBtoDecRGB "$1")"
 
     R=$(echo "${R} / 255" | bc -l)
     G=$(echo "${G} / 255" | bc -l)
@@ -38,7 +38,7 @@ createMinttyEntry () {
     local name="$1"
     local colour="$2"
 
-    read R G B<<<$(hexRGBtoDecRGB $colour)
+    read -r R G B<<<"$(hexRGBtoDecRGB "$colour")"
     echo "$name=$R,$G,$B"
 }
 
@@ -47,13 +47,13 @@ updateMinttyConfig () {
     local colour="$2"
     local name="$3"
 
-    echo "`cat "${config}" | grep -v -e "^${name}="`" > $config
-    echo -n "$(createMinttyEntry ${name} ${colour})" >> $config
+    echo "${config}" | grep -v -e "^${name}=" > "$config"
+    echo -n "$(createMinttyEntry "${name}" "${colour}")" >> "$config"
 }
 
 convertNameAndRGBtoITerm() {
     local name=$1
-    read R G B<<<$(convertRGBtoMac $2)
+    read -r R G B<<<"$(convertRGBtoMac "$2")"
     echo "<key>$1</key><dict><key>Blue Component</key><real>${B}</real><key>Green Component</key><real>${G}</real><key>Red Component</key><real>${R}</real></dict>"
 }
 
@@ -72,10 +72,11 @@ dset() {
 dlist_append() {
     local key="$1"; shift
     local val="$1"; shift
-
-    local entries="$(
+    local entries
+    
+    entries="$(
             {
-                "$DCONF" read "$key" | tr -d '[]' | tr , "\n" | fgrep -v "$val"
+                "$DCONF" read "$key" | tr -d "[]" | tr , "\n" | grep -F -v "$val"
                 echo "'$val'"
             } | head -c-1 | tr "\n" ,
         )"
@@ -87,7 +88,7 @@ set_theme() {
     dset visible-name "'$PROFILE_NAME'"
     dset background-color "'${BACKGROUND_COLOR}'"
     dset foreground-color "'${FOREGROUND_COLOR}'"
-    if [ ! -z "${BOLD_COLOR}" ]; then
+    if [ -n "${BOLD_COLOR}" ]; then
         dset bold-color "'${BOLD_COLOR}'"
         dset bold-color-same-as-fg "false"
     else
@@ -97,22 +98,6 @@ set_theme() {
     dset use-theme-colors "false"
     dset use-theme-background "false"
 }
-
-
-# |
-# | Check for the terminal name (depening on os)
-# | ===========================================
-OS=$(uname)
-if [ "$OS" = "Darwin" ]; then
-    # |
-    # | Check for the terminal name and decide how to apply
-    # | ===========================================
-    TERMINAL=$TERM_PROGRAM
-elif [ "${OS#CYGWIN}" != "${OS}" ]; then
-    TERMINAL="mintty"
-else
-    TERMINAL="$(ps -p $(ps -p $(ps -p $$ -o ppid=) -o ppid=) -o args=)"
-fi
 
 # |
 # | Apply color scheme to terminal
@@ -181,9 +166,9 @@ elif [ "$TERMINAL" = "mate-terminal" ]; then
     PROFILE_DIR="$BASE_DIR/profiles"
 
     if [[ -n "$($DCONF read $BASE_DIR/global/default-profile)" ]]; then
-        DEFAULT_SLUG=$($DCONF read $BASE_DIR/global/default-profile | tr -d \')
+        DEFAULT_SLUG=$($DCONF read $BASE_DIR/global/default-profile | tr -d "'")
     else
-        DEFAULT_SLUG=$($DCONF list $PROFILE_DIR/ | head -n1 | tr -d \/)
+        DEFAULT_SLUG=$($DCONF list $PROFILE_DIR/ | head -n1 | tr -d "/")
     fi
 
     DEFAULT_KEY="$PROFILE_DIR/$DEFAULT_SLUG"
@@ -254,6 +239,107 @@ elif [ "$TERMINAL" = "io.elementary.terminal" ]; then
     gsettings set io.elementary.terminal.settings cursor-color "${CURSOR_COLOR}"
     gsettings set io.elementary.terminal.settings palette "${COLOR_01}:${COLOR_02}:${COLOR_03}:${COLOR_04}:${COLOR_05}:${COLOR_06}:${COLOR_07}:${COLOR_08}:${COLOR_09}:${COLOR_10}:${COLOR_11}:${COLOR_12}:${COLOR_13}:${COLOR_14}:${COLOR_15}:${COLOR_16}"
 
+elif [ "$TERMINAL" = "tilix" ]; then
+    # |
+    # | Applying values to tilix
+    # | ===========================================
+    BACKGROUND_COLOR=$(gnome_color "$BACKGROUND_COLOR")
+    FOREGROUND_COLOR=$(gnome_color "$FOREGROUND_COLOR")
+    COLOR_01=$(gnome_color "$COLOR_01")
+    COLOR_02=$(gnome_color "$COLOR_02")
+    COLOR_03=$(gnome_color "$COLOR_03")
+    COLOR_04=$(gnome_color "$COLOR_04")
+    COLOR_05=$(gnome_color "$COLOR_05")
+    COLOR_06=$(gnome_color "$COLOR_06")
+    COLOR_07=$(gnome_color "$COLOR_07")
+    COLOR_08=$(gnome_color "$COLOR_08")
+    COLOR_09=$(gnome_color "$COLOR_09")
+    COLOR_10=$(gnome_color "$COLOR_10")
+    COLOR_11=$(gnome_color "$COLOR_11")
+    COLOR_12=$(gnome_color "$COLOR_12")
+    COLOR_13=$(gnome_color "$COLOR_13")
+    COLOR_14=$(gnome_color "$COLOR_14")
+    COLOR_15=$(gnome_color "$COLOR_15")
+    COLOR_16=$(gnome_color "$COLOR_16")
+
+    # |
+    # | Apply Variables
+    # | ===========================================
+
+
+    [[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Default"
+    [[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="Default"
+    [[ -z "$DCONF" ]] && DCONF=dconf
+    [[ -z "$UUIDGEN" ]] && UUIDGEN=uuidgen
+
+    [[ -z "$BASE_KEY_NEW" ]] && BASE_KEY_NEW=/com/gexperts/Tilix/profiles
+
+    if [[ -n "$($DCONF list $BASE_KEY_NEW/)" ]]; then
+        if command -v "$UUIDGEN" > /dev/null 2>&1; then
+            PROFILE_SLUG=$(uuidgen)
+        fi
+
+        if [[ -n "$($DCONF read $BASE_KEY_NEW/default)" ]]; then
+            DEFAULT_SLUG=$($DCONF read $BASE_KEY_NEW/default | tr -d "'")
+        else
+            DEFAULT_SLUG=$($DCONF list $BASE_KEY_NEW/ | grep '\/$' | head -n1 | tr -d "/")
+        fi
+
+        if [[ ${TILIX_RES::1} =~ ^(y|Y)$ ]]; then
+          [[ -d "$HOME/.config/tilix/schemes" ]] || mkdir -p "$HOME/.config/tilix/schemes"
+
+          TILIXCOLORS='{\n\t"background-color":"'${BACKGROUND_COLOR}'",\n\t"badge-color": "#FFFFFF",\n\t"bold-color": "#FFFFFF",\n\t"comment": "Generated by Gogh",\n\t"cursor-background-color": "#000000",\n\t"cursor-foreground-color": "'${CURSOR_COLOR}'",\n\t"foreground-color": "#FFFFFF",\n\t"highlight-background-color": "#000000",\n\t"highlight-foreground-color": "#FFFFFF",\n\t"name": "'${PROFILE_NAME}'",\n\t"palette": [\n\t\t"'${COLOR_01}'",\n\t\t"'${COLOR_02}'",\n\t\t"'${COLOR_03}'",\n\t\t"'${COLOR_04}'",\n\t\t"'${COLOR_05}'",\n\t\t"'${COLOR_06}'",\n\t\t"'${COLOR_07}'",\n\t\t"'${COLOR_08}'",\n\t\t"'${COLOR_09}'",\n\t\t"'${COLOR_10}'",\n\t\t"'${COLOR_11}'",\n\t\t"'${COLOR_12}'",\n\t\t"'${COLOR_13}'",\n\t\t"'${COLOR_14}'",\n\t\t"'${COLOR_15}'",\n\t\t"'${COLOR_16}'"\n\t],\n\t"use-badge-color": false,\n\t"use-bold-color": false,\n\t"use-cursor-color": false,\n\t"use-highlight-color": false,\n\t"use-theme-colors": false\n}'
+          echo -e "$TILIXCOLORS" > "$scratchdir/${PROFILE_NAME}.json"
+
+          # Note: Tilix does not store color scheme name in dconf
+          # so we have to update color palette for the current profile in order to switch to the new theme
+          # but only set the palette on the last loop to avoid a flashing terminal
+          if ((LOOP == OPTLENGTH)); then
+              cp -f "$scratchdir/*" "$HOME/.config/tilix/schemes/"
+              rm -rf "$scratchdir"
+              PROFILE_KEY="$BASE_KEY_NEW/$DEFAULT_SLUG"
+              PROFILE_NAME=$($DCONF read $PROFILE_KEY/visible-name | tr -d "'")
+              read -r -p "All done - apply new theme? [y/N] " -n 1 TILIX_RES
+              if [[ ${TILIX_RES::1} =~ ^(y|Y)$ ]]; then
+                  set_theme
+                  dset palette "['${COLOR_01}', '${COLOR_02}', '${COLOR_03}', '${COLOR_04}', '${COLOR_05}', '${COLOR_06}', '${COLOR_07}', '${COLOR_08}', '${COLOR_09}', '${COLOR_10}', '${COLOR_11}', '${COLOR_12}', '${COLOR_13}', '${COLOR_14}', '${COLOR_15}', '${COLOR_16}']"
+              fi
+          fi
+
+          unset PROFILE_NAME
+          unset PROFILE_SLUG
+          unset DCONF
+          unset UUIDGEN
+          unset TILIXCOLORS
+          exit 0
+        fi
+
+        DEFAULT_KEY="$BASE_KEY_NEW/$DEFAULT_SLUG"
+        PROFILE_KEY="$BASE_KEY_NEW/$PROFILE_SLUG"
+
+        # copy existing settings from default profile
+        $DCONF dump "$DEFAULT_KEY/" | $DCONF load "$PROFILE_KEY/"
+
+        # add new copy to list of profiles
+        dlist_append "$BASE_KEY_NEW/list" "$PROFILE_SLUG"
+
+        # update profile values with theme options
+        set_theme
+        dset palette "['${COLOR_01}', '${COLOR_02}', '${COLOR_03}', '${COLOR_04}', '${COLOR_05}', '${COLOR_06}', '${COLOR_07}', '${COLOR_08}', '${COLOR_09}', '${COLOR_10}', '${COLOR_11}', '${COLOR_12}', '${COLOR_13}', '${COLOR_14}', '${COLOR_15}', '${COLOR_16}']"
+
+        unset PROFILE_NAME
+        unset PROFILE_SLUG
+        unset DCONF
+        unset UUIDGEN
+        exit 0
+    else
+        # provide a user friendly error text if no saved profile exists, otherwise it will display "Error gconftool not found!"
+        # it could happen on a newly installed system. (happened on CentOS 7)
+        echo "Error, no saved profiles found!"
+        echo "Possible fix, new a profile (Terminal > Settings > New profile, then Close) and try again."
+        echo "You can safely delete the created profile after the installation."
+        exit 1
+    fi
 else
     # |
     # | Applying values on gnome-terminal
@@ -288,18 +374,18 @@ else
     [[ -z "$UUIDGEN" ]] && UUIDGEN=uuidgen
 
     # Newest versions of gnome-terminal use dconf
-    if which "$DCONF" > /dev/null 2>&1; then
+    if command -v "$DCONF" > /dev/null 2>&1; then
         [[ -z "$BASE_KEY_NEW" ]] && BASE_KEY_NEW=/org/gnome/terminal/legacy/profiles:
 
         if [[ -n "$($DCONF list $BASE_KEY_NEW/)" ]]; then
-            if which "$UUIDGEN" > /dev/null 2>&1; then
+            if command -v "$UUIDGEN" > /dev/null 2>&1; then
                 PROFILE_SLUG=$(uuidgen)
             fi
 
             if [[ -n "$($DCONF read $BASE_KEY_NEW/default)" ]]; then
-                DEFAULT_SLUG=$($DCONF read $BASE_KEY_NEW/default | tr -d \')
+                DEFAULT_SLUG=$($DCONF read $BASE_KEY_NEW/default | tr -d "'")
             else
-                DEFAULT_SLUG=$($DCONF list $BASE_KEY_NEW/ | grep '^:' | head -n1 | tr -d :/)
+                DEFAULT_SLUG=$($DCONF list $BASE_KEY_NEW/ | grep '^:' | head -n1 | tr -d ":/")
             fi
 
             DEFAULT_KEY="$BASE_KEY_NEW/:$DEFAULT_SLUG"
@@ -334,8 +420,8 @@ else
 
     # error handling on gconftool
     if [[ -z "$GCONFTOOL" ]]; then
-      GCONFTOOL=$(which gconftool 2>/dev/null)
-      if [[ "$?" -ne 0 ]]; then
+      GCONFTOOL=$(command -v gconftool 2>/dev/null)
+      if [[ GCONFTOOL -ne 0 ]]; then
         echo "Error gconftool not found!"
         echo "Possible fix, enter the following and run again:"
         echo "export GCONFTOOL=/path/to/gconftool/"
@@ -360,10 +446,11 @@ else
         local type="$1"; shift
         local key="$1"; shift
         local val="$1"; shift
+        local entries
 
-        local entries="$(
+        entries="$(
             {
-                "$GCONFTOOL" --get "$key" | tr -d '[]' | tr , "\n" | fgrep -v "$val"
+                "$GCONFTOOL" --get "$key" | tr -d "[]" | tr , "\n" | grep -F -v "$val"
                 echo "$val"
             } | head -c-1 | tr "\n" ,
         )"

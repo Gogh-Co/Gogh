@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Handle errors gracefully
+set -euo pipefail
+
 declare -a THEMES=(
     '3024-day.sh'
     '3024-night.sh'
@@ -165,7 +168,23 @@ declare -a THEMES=(
     'wombat.sh'
     'wryan.sh'
     'zenburn.sh'
+    'google-light.sh'
+    'google-dark.sh'
 )
+
+
+cleanup() {
+  echo
+  echo "Caught signal..$? Cleaning up"
+  rm -rf "$scratchdir"
+  echo "Done..."
+  exit 1
+}
+
+scratchdir=$(mktemp -d -t tmp.XXXXXXXX)
+export scratchdir
+trap cleanup SIGHUP SIGINT SIGQUIT SIGABRT
+
 
 capitalize() {
     local ARGUMENT=$1
@@ -184,7 +203,8 @@ capitalize() {
 }
 
 curlsource() {
-    local F=$(mktemp -t curlsource)
+    local F
+    F=$(mktemp -t curlsource)
     curl -o "$F" -s -L "$1"
     source "$F"
     rm -f "$F"
@@ -197,12 +217,20 @@ set_gogh() {
     result=$(capitalize "${string_s}")
     url="https://raw.githubusercontent.com/Mayccoll/Gogh/master/themes/$1"
 
-    if [ "$(uname)" = "Darwin" ]; then
-        # OSX ships with curl
-        # Note: sourcing directly from curl does not work
-        export {PROFILE_NAME,PROFILE_SLUG}="$result" && curlsource "${url}"
+    export {PROFILE_NAME,PROFILE_SLUG}="$result"
+
+    # Evaluate if Gogh was called from local source - i.e cloned repo
+    SCRIPT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+    if [ -e "$SCRIPT_PATH/themes/$1" ]; then
+        bash "$SCRIPT_PATH/themes/$1"
     else
-        export {PROFILE_NAME,PROFILE_SLUG}="$result" && bash <(wget -O - "${url}")
+      if [ "$(uname)" = "Darwin" ]; then
+          # OSX ships with curl
+          # Note: sourcing directly from curl does not work
+          curlsource "${url}"
+      else
+          bash <(wget -O - "${url}")
+      fi
     fi
 }
 
@@ -244,14 +272,63 @@ done
 # |
 echo -e "\nUsage : Enter Desired Themes Numbers (\\033[0m\033[0;34mOPTIONS\\033[0m\033[0m) Separated By A Blank Space"
 echo -e "        Press \033[0;34mENTER\\033[0m without options to Exit\n"
-read -p 'Enter OPTION(S) : ' -a OPTION
+read -r -p 'Enter OPTION(S) : ' -a OPTION
 
+
+# |
+# | ::::::: Get terminal
+# |
+# |
+# | Check for the terminal name (depening on os)
+# | ===========================================
+OS=$(uname)
+if [ "$OS" = "Darwin" ]; then
+    # |
+    # | Check for the terminal name and decide how to apply
+    # | ===========================================
+    TERMINAL=$TERM_PROGRAM
+elif [ "${OS#CYGWIN}" != "${OS}" ]; then
+    TERMINAL="mintty"
+else
+    # |
+    # | Depending on how the script was invoked, we need
+    # | to loop until pid is no longer a subshell
+    # | ===========================================
+    pid="$$"
+    TERMINAL="$(ps -h -o comm -p $pid)"
+    while [[ "${TERMINAL:(-2)}" == "sh" ]]; do
+      pid="$(ps -h -o ppid -p $pid)"
+      TERMINAL="$(ps -h -o comm -p $pid)"
+    done
+fi
+
+# |
+# | Tilix supports fg/bg in color schemes - ask wether user wants to go that route
+# | This is to avoid creating multiple profiles just for colors
+# | ===========================================
+if [[ "$TERMINAL" = "tilix" ]]; then
+    echo
+    read -r -p "Tilix detected - use color schemes instead of profiles? [y/N] " -n 1 TILIX_RES
+    echo
+fi
+
+# |
+# | ::::::: Export one-off variables
+# |
+[[ -v TILIX_RES ]] && export TILIX_RES
+export  TERMINAL LOOP OPTLENGTH=${#OPTION[@]}
 
 # |
 # | ::::::: Apply Theme
 # |
-for OP in "${OPTION[@]}"; do
 
+  # Note:
+  # Constants with a leading 0 are interpreted as octal numbers
+  # Hence option 08 and 09 will not work
+  # Solution is to remove the leading 0 from the parsed options
+for OP in "${OPTION[@]#0}"; do
+    # See Tilix section in apply-colors.sh for usage of LOOP
+    LOOP=$((${LOOP:-0}+1))
     if [[ OP -le ARRAYLENGTH && OP -gt 0 ]]; then
 
         FILENAME=$(remove_file_extension "${THEMES[((OP-1))]}")
@@ -264,5 +341,4 @@ for OP in "${OPTION[@]}"; do
         echo -e "\\033[0m\033[0;31m ~ INVALID OPTION! ~\\033[0m\033[0m"
         exit 1
     fi
-
 done
