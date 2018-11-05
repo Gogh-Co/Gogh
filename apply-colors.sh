@@ -99,6 +99,7 @@ set_theme() {
     dset use-theme-background "false"
 }
 
+
 # |
 # | Apply color scheme to terminal
 # | ===========================================

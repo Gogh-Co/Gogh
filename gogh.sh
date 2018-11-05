@@ -98,6 +98,7 @@ declare -a THEMES=(
     'neutron.sh'
     'nightlion-v1.sh'
     'nightlion-v2.sh'
+    'nighty.sh'
     'nord-light.sh'
     'nord.sh'
     'novel.sh'
