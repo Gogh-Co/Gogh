@@ -336,7 +336,7 @@ fi
 # |
 # | ::::::: Export one-off variables
 # |
-[[ -n "${TILIX_RES:-} ]] && export TILIX_RES
+[[ -n "${TILIX_RES:-}" ]] && export TILIX_RES
 export TERMINAL LOOP OPTLENGTH=${#OPTION[@]}
 
 # |
