@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-# Handle errors gracefully
-set -euo pipefail
-
 declare -a THEMES=(
     '3024-day.sh'
     '3024-night.sh'
