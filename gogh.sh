@@ -317,7 +317,7 @@ fi
 # |
 # | If terminal supports truecolor then we can show theme colors without applying the theme
 # | ===========================================
-if [[ "$COLORTERM" == "truecolor" ]] || [[ "$COLORTERM" == "24bit" ]]; then
+if [[ "${COLORTERM:-}" == "truecolor" ]] || [[ "${COLORTERM:-}" == "24bit" ]]; then
     # This function gets called in apply-colors.sh instead of gogh_colors
     # Calls to gogh_colors has also been move to apply-colors.sh to avoid printing twice
     function gogh_truecolor () {
