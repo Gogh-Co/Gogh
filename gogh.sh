@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-# Handle errors gracefully
-set -euo pipefail
-
 declare -a THEMES=(
     '3024-day.sh'
     '3024-night.sh'
@@ -317,8 +314,8 @@ fi
 # |
 # | If terminal supports truecolor then we can show theme colors without applying the theme
 # | ===========================================
-if [[ "$COLORTERM" == "truecolor" ]] || [[ "$COLORTERM" == "24bit" ]]; then
-    # This function gets called in apply-colors.sh
+if [[ "${COLORTERM:-}" == "truecolor" ]] || [[ "${COLORTERM:-}" == "24bit" ]]; then
+    # This function gets called in apply-colors.sh instead of gogh_colors
     # Calls to gogh_colors has also been move to apply-colors.sh to avoid printing twice
     function gogh_truecolor () {
       for c in {01..16}; do
@@ -335,7 +332,7 @@ fi
 # |
 # | ::::::: Export one-off variables
 # |
-[[ -v TILIX_RES ]] && export TILIX_RES
+[[ -n "${TILIX_RES:-}" ]] && export TILIX_RES
 export TERMINAL LOOP OPTLENGTH=${#OPTION[@]}
 
 # |
