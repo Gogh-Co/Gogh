@@ -176,9 +176,9 @@ declare -a THEMES=(
 
 cleanup() {
   echo
-  echo "Caught signal..$? Cleaning up"
+  echo "Cleaning up"
   rm -rf "$scratchdir"
-  unset TERMINAL TRUECOLOR LOOP OPTLENGTH
+  unset TERMINAL LOOP OPTLENGTH
   echo "Done..."
   exit 0
 }
@@ -318,17 +318,16 @@ fi
 # | If terminal supports truecolor then we can show theme colors without applying the theme
 # | ===========================================
 if [[ "$COLORTERM" == "truecolor" ]] || [[ "$COLORTERM" == "24bit" ]]; then
-    # This function gets called in apply-colors.sh instead of gogh_colors
+    # This function gets called in apply-colors.sh
     # Calls to gogh_colors has also been move to apply-colors.sh to avoid printing twice
     function gogh_truecolor () {
-      echo
       for c in {01..16}; do
         local color="COLOR_$c"
         set -- $(hexRGBtoDecRGB "${!color}")
-        echo -ne "\033[38;2;${1};${2};${3}m█████"
+        echo -ne "\033[38;2;${1};${2};${3}m█████\033[0m"
         [[ "$c" == "08" ]] && echo # new line
       done
-      echo
+      echo -e "\n\n"
     }
     export -f gogh_truecolor
 fi
