@@ -318,7 +318,8 @@ if [[ "${COLORTERM:-}" == "truecolor" ]] || [[ "${COLORTERM:-}" == "24bit" ]]; t
     # This function gets called in apply-colors.sh instead of gogh_colors
     # Calls to gogh_colors has also been move to apply-colors.sh to avoid printing twice
     function gogh_truecolor () {
-      for c in {01..16}; do
+      # Note: {01..16} does not work on OSX
+      for c in $(seq -s " " -w 16); do
         local color="COLOR_$c"
         set -- $(hexRGBtoDecRGB "${!color}")
         echo -ne "\033[38;2;${1};${2};${3}m█████\033[0m"
