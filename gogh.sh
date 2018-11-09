@@ -201,14 +201,6 @@ capitalize() {
     echo "${RES_NO_TRAIL_SPACE}"
 }
 
-curlsource() {
-    local F
-    F=$(mktemp -t curlsource)
-    curl -o "$F" -s -L "$1"
-    source "$F"
-    rm -f "$F"
-}
-
 set_gogh() {
     string=$1
     string_r="${string%???}"
@@ -225,10 +217,9 @@ set_gogh() {
     else
       if [ "$(uname)" = "Darwin" ]; then
           # OSX ships with curl
-          # Note: sourcing directly from curl does not work
-          curlsource "${url}"
+          bash -c eval "$(curl -Lo- "${url}")"
       else
-          bash <(wget -O - "${url}")
+          bash <(wget -O- "${url}")
       fi
     fi
 }
