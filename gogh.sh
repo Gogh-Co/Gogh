@@ -217,9 +217,10 @@ set_gogh() {
     else
       if [ "$(uname)" = "Darwin" ]; then
           # OSX ships with curl
-          bash -c eval "$(curl -Lo- "${url}")"
+          (eval "$(curl -sLo- "${url}")")
       else
-          bash <(wget -O- "${url}")
+          # Linux ships with wget
+          (eval "$(wget -qO- "${url}")")
       fi
     fi
 }
