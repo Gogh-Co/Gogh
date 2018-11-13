@@ -107,13 +107,43 @@ set_theme() {
 }
 
 # |
+# | If terminal supports truecolor then we can show theme colors without applying the theme
+# | ===========================================
+if [[ "${COLORTERM:-}" == "truecolor" ]] || [[ "${COLORTERM:-}" == "24bit" ]]; then
+    # gogh_colors have been moved here to avoid multiple definitions
+    function gogh_colors () {
+      echo
+      # Note: {01..16} does not work on OSX
+      for c in $(seq -s " " -w 16); do
+        local color="COLOR_$c"
+        set -- $(hexRGBtoDecRGB "${!color}")
+        echo -ne "\033[38;2;${1};${2};${3}m█████$(tput sgr0)"
+        [[ ${GOGH_DRY_RUN:-0} -eq 1 ]] && declare -g DEMO_COLOR_${c}="\033[38;2;${1};${2};${3}m"
+        [[ "$c" == "08" ]] && echo # new line
+      done
+      echo -e "\n\n"
+    }
+else
+    function gogh_colors () {
+      echo
+      for c in {0..15}; do
+        echo -n "$(tput setaf $c)█████$(tput sgr0)"
+        [[ $c == 7 ]] && echo # new line
+      done
+      echo -e "\n\n"
+    }
+fi
+
+
+# |
 # | Print theme colors
 # | ===========================================
-if command -v gogh_truecolor > /dev/null; then
-  gogh_truecolor
-else
-  gogh_colors
-fi
+gogh_colors
+[[ ${GOGH_DRY_RUN:-0} -eq 1 ]] && color
+
+# End here if dry run was initiated
+[[ ${GOGH_DRY_RUN:-0} -eq 1 ]] && return 0
+
 
 # |
 # | Apply color scheme to terminal
