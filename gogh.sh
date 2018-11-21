@@ -202,13 +202,14 @@ set_gogh() {
     # Evaluate if Gogh was called from local source - i.e cloned repo
     SCRIPT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
     if [ -e "$SCRIPT_PATH/themes/$1" ]; then
-        eval "$SCRIPT_PATH/themes/$1"
+        (eval "$SCRIPT_PATH/themes/$1")
     else
       if [ "$(uname)" = "Darwin" ]; then
           # OSX ships with curl
-          eval "$(curl -so- "${url}")"
+          (eval "$(curl -sLo- "${url}")")
       else
-          eval "$(wget -qO- "${url}")"
+          # Linux ships with wget
+          (eval "$(wget -qO- "${url}")")
       fi
     fi
 }
@@ -229,23 +230,26 @@ NUM=1
 # |
 tput clear
 if [[ ${COLUMNS:-$(tput cols)} -ge 80 ]]; then
-  echo "                                                                                "
-  echo "                    █████████                    █████                          "
-  echo "                   ███     ███                    ███                           "
-  echo "                  ███           ██████   ███████  ███████                       "
-  echo "                  ███          ███  ███ ███  ███  ███  ███                      "
-  echo "                  ███    █████ ███  ███ ███  ███  ███  ███                      "
-  echo "                   ███    ███  ███  ███ ███  ███  ███  ███                      "
-  echo "                    █████████   ██████   ███████ ████ █████                     "
-  echo "    $(tput setaf 0)█████████$(tput setaf 1)█████████$(tput setaf 2)█████████$(tput setaf 3)█████████$(tput setaf 4)█████$(tput sgr 0)███$(tput setaf 4)█$(tput setaf 5)█████████$(tput setaf 6)█████████$(tput setaf 7)█████████    "
-  echo "    $(tput setaf 0)█████████$(tput setaf 1)█████████$(tput setaf 2)█████████$(tput setaf 3)█████████$(tput sgr 0)███$(tput setaf 4)██$(tput sgr 0)███$(tput setaf 4)█$(tput setaf 5)█████████$(tput setaf 6)█████████$(tput setaf 7)█████████    "
-  echo "    $(tput setaf 0)█████████$(tput setaf 1)█████████$(tput setaf 2)█████████$(tput setaf 3)█████████$(tput setaf 4)█$(tput sgr0)██████$(tput setaf 4)██$(tput setaf 5)█████████$(tput setaf 6)█████████$(tput setaf 7)█████████    "
-  echo "    $(tput setaf 8)█████████$(tput setaf 9)█████████$(tput setaf 10)█████████$(tput setaf 11)█████████$(tput setaf 12)█████████$(tput setaf 13)█████████$(tput setaf 14)█████████$(tput setaf 15)█████████$(tput sgr 0)    "
-  echo "    $(tput setaf 8)█████████$(tput setaf 9)█████████$(tput setaf 10)█████████$(tput setaf 11)█████████$(tput setaf 12)█████████$(tput setaf 13)█████████$(tput setaf 14)█████████$(tput setaf 15)█████████$(tput sgr 0)    "
-  echo "    $(tput setaf 8)█████████$(tput setaf 9)█████████$(tput setaf 10)█████████$(tput setaf 11)█████████$(tput setaf 12)█████████$(tput setaf 13)█████████$(tput setaf 14)█████████$(tput setaf 15)█████████$(tput sgr 0)    "
-  echo "                                                                                "
+  gogh_str=""
+  gogh_str+="                                                                                \n"
+  gogh_str+="                    █████████                    █████                          \n"
+  gogh_str+="                   ███     ███                    ███                           \n"
+  gogh_str+="                  ███           ██████   ███████  ███████                       \n"
+  gogh_str+="                  ███          ███  ███ ███  ███  ███  ███                      \n"
+  gogh_str+="                  ███    █████ ███  ███ ███  ███  ███  ███                      \n"
+  gogh_str+="                   ███    ███  ███  ███ ███  ███  ███  ███                      \n"
+  gogh_str+="                    █████████   ██████   ███████ ████ █████                     \n"
+  gogh_str+="    $(tput setaf 0)█████████$(tput setaf 1)█████████$(tput setaf 2)█████████$(tput setaf 3)█████████$(tput setaf 4)█████$(tput sgr 0)███$(tput setaf 4)█$(tput setaf 5)█████████$(tput setaf 6)█████████$(tput setaf 7)█████████    \n"
+  gogh_str+="    $(tput setaf 0)█████████$(tput setaf 1)█████████$(tput setaf 2)█████████$(tput setaf 3)█████████$(tput sgr 0)███$(tput setaf 4)██$(tput sgr 0)███$(tput setaf 4)█$(tput setaf 5)█████████$(tput setaf 6)█████████$(tput setaf 7)█████████    \n"
+  gogh_str+="    $(tput setaf 0)█████████$(tput setaf 1)█████████$(tput setaf 2)█████████$(tput setaf 3)█████████$(tput setaf 4)█$(tput sgr0)██████$(tput setaf 4)██$(tput setaf 5)█████████$(tput setaf 6)█████████$(tput setaf 7)█████████    \n"
+  gogh_str+="    $(tput setaf 8)█████████$(tput setaf 9)█████████$(tput setaf 10)█████████$(tput setaf 11)█████████$(tput setaf 12)█████████$(tput setaf 13)█████████$(tput setaf 14)█████████$(tput setaf 15)█████████$(tput sgr 0)    \n"
+  gogh_str+="    $(tput setaf 8)█████████$(tput setaf 9)█████████$(tput setaf 10)█████████$(tput setaf 11)█████████$(tput setaf 12)█████████$(tput setaf 13)█████████$(tput setaf 14)█████████$(tput setaf 15)█████████$(tput sgr 0)    \n"
+  gogh_str+="    $(tput setaf 8)█████████$(tput setaf 9)█████████$(tput setaf 10)█████████$(tput setaf 11)█████████$(tput setaf 12)█████████$(tput setaf 13)█████████$(tput setaf 14)█████████$(tput setaf 15)█████████$(tput sgr 0)    \n"
+  gogh_str+="                                                                                "
 
-  sleep 2.5
+
+  echo -e "${gogh_str}"
+  #sleep 2.5
 else
   echo -e "\nGogh\n"
   for c in {0..15}; do
@@ -287,28 +291,27 @@ read -r -p 'Enter OPTION(S) : ' -a OPTION
 # |
 # | ::::::: Get terminal
 # |
-# |
-# | Check for the terminal name (depening on os)
-# | ===========================================
-OS="$(uname)"
-if [ "$OS" = "Darwin" ]; then
-    # |
-    # | Check for the terminal name and decide how to apply
-    # | ===========================================
-    TERMINAL=$TERM_PROGRAM
-elif [ "${OS#CYGWIN}" != "${OS}" ]; then
-    TERMINAL="mintty"
-else
-    # |
-    # | Depending on how the script was invoked, we need
-    # | to loop until pid is no longer a subshell
-    # | ===========================================
-    pid="$$"
-    TERMINAL="$(ps -h -o comm -p $pid)"
-    while [[ "${TERMINAL:(-2)}" == "sh" ]]; do
-      pid="$(ps -h -o ppid -p $pid)"
+if [[ -z "${TERMINAL:-}" ]]; then
+  # |
+  # | Check for the terminal name (depening on os)
+  # | ===========================================
+  OS="$(uname)"
+  if [ "$OS" = "Darwin" ]; then
+      TERMINAL=$TERM_PROGRAM
+  elif [ "${OS#CYGWIN}" != "${OS}" ]; then
+      TERMINAL="mintty"
+  else
+      # |
+      # | Depending on how the script was invoked, we need
+      # | to loop until pid is no longer a subshell
+      # | ===========================================
+      pid="$$"
       TERMINAL="$(ps -h -o comm -p $pid)"
-    done
+      while [[ "${TERMINAL:(-2)}" == "sh" ]]; do
+        pid="$(ps -h -o ppid -p $pid)"
+        TERMINAL="$(ps -h -o comm -p $pid)"
+      done
+  fi
 fi
 
 
@@ -370,11 +373,13 @@ export TERMINAL LOOP OPTLENGTH=${#OPTION[@]}
   # Constants with a leading 0 are interpreted as octal numbers
   # Hence option 08 and 09 will not work
   # Solution is to remove the leading 0 from the parsed options
-bar::start 2> /dev/null
+command -v bar::start > /dev/null && bar::start
 for OP in "${OPTION[@]#0}"; do
     # See Tilix section in apply-colors.sh for usage of LOOP
     LOOP=$((${LOOP:-0}+1))
-    bar::status_changed $LOOP ${#OPTION[@]} 2> /dev/null
+
+    command -v bar::status_changed > /dev/null && bar::status_changed $LOOP ${#OPTION[@]}
+
     if [[ OP -le ARRAYLENGTH && OP -gt 0 ]]; then
 
         FILENAME=$(remove_file_extension "${THEMES[((OP-1))]}")
@@ -393,4 +398,4 @@ for OP in "${OPTION[@]#0}"; do
         exit 1
     fi
 done
-bar::stop 2> /dev/null
+command -v bar::stop > /dev/null && bar::stop

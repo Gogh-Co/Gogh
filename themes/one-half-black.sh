@@ -49,9 +49,9 @@ then
 else
     if [ "$(uname)" = "Darwin" ]; then
         # OSX ships with curl and ancient bash
-        eval "$(curl -so- "${BASE_URL}/apply-colors.sh")"
+        (eval "$(curl -so- "${BASE_URL}/apply-colors.sh")")
     else
         # Linux ships with wget
-        eval "$(wget -qO- "${BASE_URL}/apply-colors.sh")"
+        (eval "$(wget -qO- "${BASE_URL}/apply-colors.sh")")
     fi
 fi
