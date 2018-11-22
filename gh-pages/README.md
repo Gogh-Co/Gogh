@@ -1,3 +1,7 @@
+---
+permalink: /index.html
+---
+
 # Gogh
 ----
 To push changes into gh-pages
