@@ -5,7 +5,7 @@
 # | ===========================================
 UUIDGEN="${UUIDGEN:-$(command -v uuidgen)}"
 DCONF="${DCONF:-$(command -v dconf)}"
-GCONF="${GCONF:-$(command -v gconftool)}"
+GCONF="${GCONF:-$(command -v gconftool-2)}"
 GS="${GS:-$(command -v gsettings)}"
 
 case "${TERMINAL}" in
@@ -26,6 +26,7 @@ case "${TERMINAL}" in
       touch "$CFGFILE"
     fi
     ;;
+
   guake|tilix|mate-terminal|gnome-terminal* )
     case "${TERMINAL}" in
       guake|gnome-terminal* )
@@ -45,10 +46,6 @@ case "${TERMINAL}" in
     fi
     ;;
 
-  * )
-    printf '%s\n' "Unsupported terminal"
-    exit 1
-    ;;
 esac
 
 
@@ -146,7 +143,7 @@ gcset() {
     local key="$1"; shift
     local val="$1"
 
-    "$GCONFTOOL" --set --type "$type" "$PROFILE_KEY/$key" -- "$val"
+    "$GCONF" --set --type "$type" "$PROFILE_KEY/$key" -- "$val"
 }
 
 # Because gconftool doesn't have "append"
@@ -158,12 +155,12 @@ glist_append() {
 
     entries="$(
         {
-            "$GCONFTOOL" --get "$key" | tr -d "[]" | tr , "\n" | grep -F -v "$val"
+            "$GCONF" --get "$key" | tr -d "[]" | tr , "\n" | grep -F -v "$val"
             echo "$val"
         } | head -c-1 | tr "\n" ,
     )"
 
-    "$GCONFTOOL" --set --type list --list-type "$type" "$key" "[$entries]"
+    "$GCONF" --set --type list --list-type "$type" "$key" "[$entries]"
 }
 
 gset() {
@@ -447,34 +444,34 @@ case "${TERMINAL}" in
     apply_cygwin
     ;;
 
-  guake|gnome-terminal* )
-    if [[ -z ${DCONF} ]]; then
-      if [[ "${TERMINAL}" == "guake" ]]; then
-        apply_guake legacy
-      else
-        BASE_KEY="/apps/gnome-terminal/profiles"
-        apply_gtk legacy
-      fi
+  guake )
+    if [[ -n "$($DCONF list /apps/guake/style/)" ]]; then
+      apply_guake
     else
-      if [[ "${TERMINAL}" == "guake" ]]; then
-        apply_guake
-      else
-        BASE_KEY="/org/gnome/terminal/legacy/profiles:"
-        PROFILE_LIST_KEY="${BASE_KEY}/list"
-        PROFILE_SLUG=":${PROFILE_SLUG}"
+      apply_guake legacy
+    fi
+  ;;
 
-        : ${DEFAULT_SLUG:=":$($DCONF read ${BASE_KEY}/default | tr -d \')"}
-        : ${DEFAULT_SLUG:=":$($DCONF list ${BASE_KEY}/ | grep '/$' | head -n1 | tr -d ':/')"}
+  gnome-terminal* )
+    if [[ -n "$($DCONF list /org/gnome/terminal/)" ]]; then
+      BASE_KEY="/org/gnome/terminal/legacy/profiles:"
+      PROFILE_LIST_KEY="${BASE_KEY}/list"
+      PROFILE_SLUG=":${PROFILE_SLUG}"
 
-        echo $PROFILE_SLUG
-        echo $DEFAULT_SLUG
+      : ${DEFAULT_SLUG:=":$($DCONF read ${BASE_KEY}/default | tr -d \')"}
+      : ${DEFAULT_SLUG:=":$($DCONF list ${BASE_KEY}/ | grep '/$' | head -n1 | tr -d ':/')"}
 
-        LEFT_WRAPPER="["
-        RIGHT_WRAPPER=]
-        PALETTE_DELIM="', '"
+      echo $PROFILE_SLUG
+      echo $DEFAULT_SLUG
 
-        apply_gtk
-      fi
+      LEFT_WRAPPER="["
+      RIGHT_WRAPPER=]
+      PALETTE_DELIM="', '"
+
+      apply_gtk
+    else
+      BASE_KEY="/apps/gnome-terminal/profiles"
+      apply_gtk legacy
     fi
     ;;
   
@@ -503,6 +500,11 @@ case "${TERMINAL}" in
 
     appy_tilixschemes
     apply_gtk
+    ;;
+
+  * )
+    printf '%s\n' "Unsupported terminal!"
+    exit 1
     ;;
 
 esac

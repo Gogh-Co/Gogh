@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -euxo pipefail
+
 declare -a THEMES=(
     '3024-day.sh'
     '3024-night.sh'
