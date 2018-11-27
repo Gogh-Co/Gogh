@@ -270,11 +270,11 @@ else
     eval "$(wget -qO- "https://git.io/progressbar")"  2> /dev/null
 fi
 
-bar::start 2> /dev/null
+command -v bar::start > /dev/null && bar::start
 
 for THEME in "${THEMES[@]}"; do
   LOOP=$((${LOOP:-(-1)}+1))
-  bar::status_changed $LOOP ${#THEMES[@]} 2> /dev/null
+  command -v bar::status_changed > /dev/null && bar::status_changed $LOOP ${#THEMES[@]}
 
   FILENAME=$(remove_file_extension "${THEME}")
   FILENAME_SPACE="${FILENAME//-/ }"
@@ -288,8 +288,8 @@ for THEME in "${THEMES[@]}"; do
 done
 
 LOOP=$((${LOOP:-(-1)}+1))
-bar::status_changed $LOOP ${#THEMES[@]} 2> /dev/null
+command -v bar::stop > /dev/null && bar::status_changed $LOOP ${#THEMES[@]}
 
-bar::stop 2> /dev/null
+command -v bar::stop > /dev/null && bar::stop
 
 unset GOGH_DRY_RUN
