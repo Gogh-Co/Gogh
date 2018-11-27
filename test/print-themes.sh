@@ -245,15 +245,15 @@ set_gogh() {
     url="https://raw.githubusercontent.com/Mayccoll/Gogh/master/themes/$1"
 
     # Evaluate if Gogh was called from local source - i.e cloned repo
-    SCRIPT_PATH="$( cd "../$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-    if [ -e "$SCRIPT_PATH/themes/$1" ]; then
-        eval "$SCRIPT_PATH/themes/$1"
+    SCRIPT_PATH="$(dirname "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)")"
+    if [[ -e "${SCRIPT_PATH}/themes/$1" ]]; then
+        eval "$(<"${SCRIPT_PATH}/themes/$1")"
     else
-      if [ "$(uname)" = "Darwin" ]; then
+      if [[ "$(uname)" = "Darwin" ]]; then
           # OSX ships with curl
-          eval "$(curl -so- "${url}")"
+          (eval "$(curl -so- "${url}")")
       else
-          eval "$(wget -qO- "${url}")"
+          (eval "$(wget -qO- "${url}")")
       fi
     fi
 }
