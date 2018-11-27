@@ -3,10 +3,12 @@
 # |
 # | Early pre-requisites check
 # | ===========================================
-UUIDGEN="${UUIDGEN:-$(command -v uuidgen)}"
-DCONF="${DCONF:-$(command -v dconf)}"
-GCONF="${GCONF:-$(command -v gconftool-2)}"
-GS="${GS:-$(command -v gsettings)}"
+UUIDGEN="${UUIDGEN:-$(command -v uuidgen | xargs echo)}"
+DCONF="${DCONF:-$(command -v dconf | xargs echo)}"
+GCONF="${GCONF:-$(command -v gconftool-2 | xargs echo)}"
+GS="${GS:-$(command -v gsettings | xargs echo)}"
+# Note: xargs echo is to make the command sucessful even if it was not
+# otherwise the script will exit if the command does not exist (elementary os)
 
 case "${TERMINAL}" in
   pantheon-terminal|io.elementary.t* )
@@ -175,11 +177,11 @@ set_theme() {
     dset foreground-color                "'${FOREGROUND_COLOR}'"
 
     if [[ -n "${BOLD_COLOR:-}" ]]; then
-      dset bold-color                    "'${BOLD_COLOR}'"
-      dset bold-color-same-as-fg         "false"
+      dset   bold-color                  "'${BOLD_COLOR}'"
+      dset   bold-color-same-as-fg       "false"
     else
-      dset bold-color                    "'${FOREGROUND_COLOR}'"
-      dset bold-color-same-as-fg         "true"
+      dset   bold-color                  "'${FOREGROUND_COLOR}'"
+      dset   bold-color-same-as-fg       "true"
     fi
     dset     use-theme-colors            "false"
     dset     use-theme-background        "false"

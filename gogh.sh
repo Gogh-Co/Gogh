@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-set -euo pipefail
-export SHELLOPTS
+
 declare -a THEMES=(
     '3024-day.sh'
     '3024-night.sh'
