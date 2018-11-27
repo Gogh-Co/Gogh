@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
-
-set -euxo pipefail
-
+set -euo pipefail
+export SHELLOPTS
 declare -a THEMES=(
     '3024-day.sh'
     '3024-night.sh'
@@ -203,10 +202,12 @@ set_gogh() {
 
     # Evaluate if Gogh was called from local source - i.e cloned repo
     SCRIPT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-    if [ -e "$SCRIPT_PATH/themes/$1" ]; then
-        (eval "$SCRIPT_PATH/themes/$1")
+    # This is to handle dirs with spaces in their names
+    printf -v SCRIPT_PATH "'%s'" "${SCRIPT_PATH}"
+    if [[ -e "${SCRIPT_PATH}/themes/$1" ]]; then
+        (eval "${SCRIPT_PATH}/themes/$1")
     else
-      if [ "$(uname)" = "Darwin" ]; then
+      if [[ "$(uname)" = "Darwin" ]]; then
           # OSX ships with curl
           (eval "$(curl -sLo- "${url}")")
       else
@@ -250,7 +251,7 @@ if [[ ${COLUMNS:-$(tput cols)} -ge 80 ]]; then
   gogh_str+="                                                                                "
 
 
-  echo -e "${gogh_str}"
+  printf '%b\n' "${gogh_str}"
   #sleep 2.5
 else
   echo -e "\nGogh\n"
@@ -298,9 +299,9 @@ if [[ -z "${TERMINAL:-}" ]]; then
   # | Check for the terminal name (depening on os)
   # | ===========================================
   OS="$(uname)"
-  if [ "$OS" = "Darwin" ]; then
+  if [[ "$OS" = "Darwin" ]]; then
       TERMINAL=$TERM_PROGRAM
-  elif [ "${OS#CYGWIN}" != "${OS}" ]; then
+  elif [[ "${OS#CYGWIN}" != "${OS}" ]]; then
       TERMINAL="mintty"
   else
       # |
