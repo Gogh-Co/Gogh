@@ -252,7 +252,7 @@ if [[ ${COLUMNS:-$(tput cols)} -ge 80 ]]; then
 
 
   printf '%b\n' "${gogh_str}"
-  #sleep 2.5
+  sleep 2.5
 else
   echo -e "\nGogh\n"
   for c in {0..15}; do

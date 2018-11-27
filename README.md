@@ -3,6 +3,8 @@ Gogh
 
 ![elementary](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/gogh/Gogh-icons.png)
 
+## :small_orange_diamond: [Visit the Website](http://mayccoll.github.io/Gogh) :small_orange_diamond:
+
 ## Color Scheme for Gnome Terminal, Pantheon Terminal and Tilix
 
 Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that use gnome terminal, Pantheon Terminal or Tilix, initially inspired by Elementary OS Luna. Also work on iTerm for macOS. You can check some themes [here...](https://mayccoll.github.io/Gogh/)
@@ -10,7 +12,6 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that u
 ![elementary](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/demos/themes.gif)
 
 ----
-
 
 <br/>
 <br/>
