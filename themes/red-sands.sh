@@ -1,28 +1,28 @@
 #!/usr/bin/env bash
 
 # ====================CONFIG THIS =============================== #
-COLOR_01="#000000"           # HOST
-COLOR_02="#ff3f00"           # SYNTAX_STRING
-COLOR_03="#00bb00"           # COMMAND
-COLOR_04="#e7b000"           # COMMAND_COLOR2
-COLOR_05="#0072ff"           # PATH
-COLOR_06="#bb00bb"           # SYNTAX_VAR
-COLOR_07="#00bbbb"           # PROMP
-COLOR_08="#bbbbbb"           #
+export COLOR_01="#000000"           # HOST
+export COLOR_02="#ff3f00"           # SYNTAX_STRING
+export COLOR_03="#00bb00"           # COMMAND
+export COLOR_04="#e7b000"           # COMMAND_COLOR2
+export COLOR_05="#0072ff"           # PATH
+export COLOR_06="#bb00bb"           # SYNTAX_VAR
+export COLOR_07="#00bbbb"           # PROMP
+export COLOR_08="#bbbbbb"           #
 
-COLOR_09="#555555"           #
-COLOR_10="#bb0000"           # COMMAND_ERROR
-COLOR_11="#00bb00"           # EXEC
-COLOR_12="#e7b000"           #
-COLOR_13="#0072ae"           # FOLDER
-COLOR_14="#ff55ff"           #
-COLOR_15="#55ffff"           #
-COLOR_16="#ffffff"           #
+export COLOR_09="#555555"           #
+export COLOR_10="#bb0000"           # COMMAND_ERROR
+export COLOR_11="#00bb00"           # EXEC
+export COLOR_12="#e7b000"           #
+export COLOR_13="#0072ae"           # FOLDER
+export COLOR_14="#ff55ff"           #
+export COLOR_15="#55ffff"           #
+export COLOR_16="#ffffff"           #
 
-BACKGROUND_COLOR="#7a251e"   # Background Color
-FOREGROUND_COLOR="#d7c9a7"   # Text
-CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
-PROFILE_NAME="Red Sands"
+export BACKGROUND_COLOR="#7a251e"   # Background Color
+export FOREGROUND_COLOR="#d7c9a7"   # Text
+export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+export PROFILE_NAME="Red Sands"
 # =============================================================== #
 
 
@@ -34,22 +34,21 @@ PROFILE_NAME="Red Sands"
 # =============================================================== #
 # | Apply Colors
 # ===============================================================|#
-SCRIPT_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PARENT_PATH="$(dirname "$SCRIPT_PATH")"
+SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
+PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 
 # Allow developer to change url to forked url for easier testing
 BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Mayccoll/Gogh/master"}
 
 
-if [ -e "${PARENT_PATH}/apply-colors.sh" ]
-then
-    source "${PARENT_PATH}/apply-colors.sh"
+if [[ -e "${PARENT_PATH}/apply-colors.sh" ]]; then
+  bash "${PARENT_PATH}/apply-colors.sh"
 else
-    if [ "$(uname)" = "Darwin" ]; then
-        # OSX ships with curl and ancient bash
-        (eval "$(curl -so- "${BASE_URL}/apply-colors.sh")")
-    else
-        # Linux ships with wget
-        (eval "$(wget -qO- "${BASE_URL}/apply-colors.sh")")
-    fi
+  if [[ "$(uname)" = "Darwin" ]]; then
+    # OSX ships with curl and ancient bash
+    (eval "$(curl -so- "${BASE_URL}/apply-colors.sh")")
+  else
+    # Linux ships with wget
+    (eval "$(wget -qO- "${BASE_URL}/apply-colors.sh")")
+  fi
 fi

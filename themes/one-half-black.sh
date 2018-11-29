@@ -3,28 +3,28 @@
 # Son A. Pham under the MIT license: https://github.com/sonph/onehalf
 
 # ====================CONFIG THIS =============================== #
-COLOR_01="#282c34"           # HOST
-COLOR_02="#e06c75"           # SYNTAX_STRING
-COLOR_03="#98c379"           # COMMAND
-COLOR_04="#e5c07b"           # COMMAND_COLOR2
-COLOR_05="#61afef"           # PATH
-COLOR_06="#c678dd"           # SYNTAX_VAR
-COLOR_07="#56b6c2"           # PROMP
-COLOR_08="#dcdfe4"           #
+export COLOR_01="#282c34"           # HOST
+export COLOR_02="#e06c75"           # SYNTAX_STRING
+export COLOR_03="#98c379"           # COMMAND
+export COLOR_04="#e5c07b"           # COMMAND_COLOR2
+export COLOR_05="#61afef"           # PATH
+export COLOR_06="#c678dd"           # SYNTAX_VAR
+export COLOR_07="#56b6c2"           # PROMP
+export COLOR_08="#dcdfe4"           #
 
-COLOR_09="#282c34"           #
-COLOR_10="#e06c75"           # COMMAND_ERROR
-COLOR_11="#98c379"           # EXEC
-COLOR_12="#e5c07b"           #
-COLOR_13="#61afef"           # FOLDER
-COLOR_14="#c678dd"           #
-COLOR_15="#56b6c2"           #
-COLOR_16="#dcdfe4"           #
+export COLOR_09="#282c34"           #
+export COLOR_10="#e06c75"           # COMMAND_ERROR
+export COLOR_11="#98c379"           # EXEC
+export COLOR_12="#e5c07b"           #
+export COLOR_13="#61afef"           # FOLDER
+export COLOR_14="#c678dd"           #
+export COLOR_15="#56b6c2"           #
+export COLOR_16="#dcdfe4"           #
 
-BACKGROUND_COLOR="#000000"   # Background Color
-FOREGROUND_COLOR="#dcdfe4"   # Text
-CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
-PROFILE_NAME="One Half Black"
+export BACKGROUND_COLOR="#000000"   # Background Color
+export FOREGROUND_COLOR="#dcdfe4"   # Text
+export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+export PROFILE_NAME="One Half Black"
 # =============================================
 
 
@@ -36,22 +36,21 @@ PROFILE_NAME="One Half Black"
 # =============================================================== #
 # | Apply Colors
 # ===============================================================|#
-SCRIPT_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PARENT_PATH="$(dirname "$SCRIPT_PATH")"
+SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
+PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 
 # Allow developer to change url to forked url for easier testing
 BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Mayccoll/Gogh/master"}
 
 
-if [ -e "${PARENT_PATH}/apply-colors.sh" ]
-then
-    source "${PARENT_PATH}/apply-colors.sh"
+if [[ -e "${PARENT_PATH}/apply-colors.sh" ]]; then
+  bash "${PARENT_PATH}/apply-colors.sh"
 else
-    if [ "$(uname)" = "Darwin" ]; then
-        # OSX ships with curl and ancient bash
-        (eval "$(curl -so- "${BASE_URL}/apply-colors.sh")")
-    else
-        # Linux ships with wget
-        (eval "$(wget -qO- "${BASE_URL}/apply-colors.sh")")
-    fi
+  if [[ "$(uname)" = "Darwin" ]]; then
+    # OSX ships with curl and ancient bash
+    (eval "$(curl -so- "${BASE_URL}/apply-colors.sh")")
+  else
+    # Linux ships with wget
+    (eval "$(wget -qO- "${BASE_URL}/apply-colors.sh")")
+  fi
 fi

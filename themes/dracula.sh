@@ -1,28 +1,28 @@
 #!/usr/bin/env bash
 
 # ====================CONFIG THIS =============================== #
-COLOR_01="#44475a"           # HOST
-COLOR_02="#ff5555"           # SYNTAX_STRING
-COLOR_03="#50fa7b"           # COMMAND
-COLOR_04="#ffb86c"           # COMMAND_COLOR2
-COLOR_05="#8be9fd"           # PATH
-COLOR_06="#bd93f9"           # SYNTAX_VAR
-COLOR_07="#ff79c6"           # PROMP
-COLOR_08="#94A3A5"           #
+export COLOR_01="#44475a"           # HOST
+export COLOR_02="#ff5555"           # SYNTAX_STRING
+export COLOR_03="#50fa7b"           # COMMAND
+export COLOR_04="#ffb86c"           # COMMAND_COLOR2
+export COLOR_05="#8be9fd"           # PATH
+export COLOR_06="#bd93f9"           # SYNTAX_VAR
+export COLOR_07="#ff79c6"           # PROMP
+export COLOR_08="#94A3A5"           #
 
-COLOR_09="#000000"           #
-COLOR_10="#ff5555"           # COMMAND_ERROR
-COLOR_11="#50fa7b"           # EXEC
-COLOR_12="#ffb86c"           #
-COLOR_13="#8be9fd"           # FOLDER
-COLOR_14="#bd93f9"           #
-COLOR_15="#ff79c6"           #
-COLOR_16="#ffffff"           #
+export COLOR_09="#000000"           #
+export COLOR_10="#ff5555"           # COMMAND_ERROR
+export COLOR_11="#50fa7b"           # EXEC
+export COLOR_12="#ffb86c"           #
+export COLOR_13="#8be9fd"           # FOLDER
+export COLOR_14="#bd93f9"           #
+export COLOR_15="#ff79c6"           #
+export COLOR_16="#ffffff"           #
 
-BACKGROUND_COLOR="#282a36"   # Background Color
-FOREGROUND_COLOR="#94A3A5"   # Text
-CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
-PROFILE_NAME="Dracula"
+export BACKGROUND_COLOR="#282a36"   # Background Color
+export FOREGROUND_COLOR="#94A3A5"   # Text
+export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+export PROFILE_NAME="Dracula"
 # =============================================================== #
 
 
@@ -34,22 +34,21 @@ PROFILE_NAME="Dracula"
 # =============================================================== #
 # | Apply Colors
 # ===============================================================|#
-SCRIPT_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PARENT_PATH="$(dirname "$SCRIPT_PATH")"
+SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
+PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 
 # Allow developer to change url to forked url for easier testing
 BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Mayccoll/Gogh/master"}
 
 
-if [ -e "${PARENT_PATH}/apply-colors.sh" ]
-then
-    source "${PARENT_PATH}/apply-colors.sh"
+if [[ -e "${PARENT_PATH}/apply-colors.sh" ]]; then
+  bash "${PARENT_PATH}/apply-colors.sh"
 else
-    if [ "$(uname)" = "Darwin" ]; then
-        # OSX ships with curl and ancient bash
-        (eval "$(curl -so- "${BASE_URL}/apply-colors.sh")")
-    else
-        # Linux ships with wget
-        (eval "$(wget -qO- "${BASE_URL}/apply-colors.sh")")
-    fi
+  if [[ "$(uname)" = "Darwin" ]]; then
+    # OSX ships with curl and ancient bash
+    (eval "$(curl -so- "${BASE_URL}/apply-colors.sh")")
+  else
+    # Linux ships with wget
+    (eval "$(wget -qO- "${BASE_URL}/apply-colors.sh")")
+  fi
 fi

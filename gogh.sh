@@ -1,224 +1,221 @@
 #!/usr/bin/env bash
 
 declare -a THEMES=(
-    '3024-day.sh'
-    '3024-night.sh'
-    'aci.sh'
-    'aco.sh'
-    'adventuretime.sh'
-    'afterglow.sh'
-    'alien-blood.sh'
-    'argonaut.sh'
-    'arthur.sh'
-    'atom.sh'
-    'azu.sh'
-    'belafonte-day.sh'
-    'belafonte-night.sh'
-    'bim.sh'
-    'birds-of-paradise.sh'
-    'blazer.sh'
-    'borland.sh'
-    'broadcast.sh'
-    'brogrammer.sh'
-    'c64.sh'
-    'cai.sh'
-    'chalk.sh'
-    'chalkboard.sh'
-    'ciapre.sh'
-    'clone-of-ubuntu.sh'
-    'clrs.sh'
-    'cobalt-neon.sh'
-    'cobalt2.sh'
-    'crayon-pony-fish.sh'
-    'dark-pastel.sh'
-    'darkside.sh'
-    'desert.sh'
-    'dimmed-monokai.sh'
-    'dracula.sh'
-    'earthsong.sh'
-    'elemental.sh'
-    'elementary.sh'
-    'elic.sh'
-    'elio.sh'
-    'espresso-libre.sh'
-    'espresso.sh'
-    'fishtank.sh'
-    'flat.sh'
-    'flatland.sh'
-    'foxnightly.sh'
-    'freya.sh'
-    'frontend-delight.sh'
-    'frontend-fun-forrest.sh'
-    'frontend-galaxy.sh'
-    'github.sh'
-    'google-dark.sh'
-    'google-light.sh'
-    'gooey.sh'
-    'grape.sh'
-    'grass.sh'
-    'gruvbox-dark.sh'
-    'gruvbox.sh'
-    'hardcore.sh'
-    'harper.sh'
-    'hemisu-dark.sh'
-    'hemisu-light.sh'
-    'highway.sh'
-    'hipster-green.sh'
-    'homebrew.sh'
-    'hurtado.sh'
-    'hybrid.sh'
-    'ic-green-ppl.sh'
-    'ic-orange-ppl.sh'
-    'idle-toes.sh'
-    'ir-black.sh'
-    'jackie-brown.sh'
-    'japanesque.sh'
-    'jellybeans.sh'
-    'jup.sh'
-    'kibble.sh'
-    'later-this-evening.sh'
-    'lavandula.sh'
-    'liquid-carbon-transparent.sh'
-    'liquid-carbon.sh'
-    'man-page.sh'
-    'mar.sh'
-    'material.sh'
-    'mathias.sh'
-    'medallion.sh'
-    'misterioso.sh'
-    'miu.sh'
-    'molokai.sh'
-    'mona-lisa.sh'
-    'monokai-dark.sh'
-    'monokai-soda.sh'
-    'n0tch2k.sh'
-    'neopolitan.sh'
-    'nep.sh'
-    'neutron.sh'
-    'nightlion-v1.sh'
-    'nightlion-v2.sh'
-    'nighty.sh'
-    'nord-light.sh'
-    'nord.sh'
-    'novel.sh'
-    'obsidian.sh'
-    'ocean-dark.sh'
-    'ocean.sh'
-    'oceanic-next.sh'
-    'ollie.sh'
-    'one-dark.sh'
-    'one-half-black.sh'
-    'one-light.sh'
-    'pali.sh'
-    'paraiso-dark.sh'
-    'paul-millr.sh'
-    'pencil-dark.sh'
-    'pencil-light.sh'
-    'peppermint.sh'
-    'pnevma.sh'
-    'pro.sh'
-    'red-alert.sh'
-    'red-sands.sh'
-    'rippedcasts.sh'
-    'royal.sh'
-    'sat.sh'
-    'sea-shells.sh'
-    'seafoam-pastel.sh'
-    'seti.sh'
-    'shaman.sh'
-    'shel.sh'
-    'slate.sh'
-    'smyck.sh'
-    'snazzy.sh'
-    'soft-server.sh'
-    'solarized-darcula.sh'
-    'solarized-dark-higher-contrast.sh'
-    'solarized-dark.sh'
-    'solarized-light.sh'
-    'spacedust.sh'
-    'spacegray-eighties-dull.sh'
-    'spacegray-eighties.sh'
-    'spacegray.sh'
-    'spring.sh'
-    'square.sh'
-    'srcery.sh'
-    'sundried.sh'
-    'symphonic.sh'
-    'teerb.sh'
-    'terminal-basic.sh'
-    'terminix-dark.sh'
-    'thayer-bright.sh'
-    'tin.sh'
-    'tomorrow-night-blue.sh'
-    'tomorrow-night-bright.sh'
-    'tomorrow-night-eighties.sh'
-    'tomorrow-night.sh'
-    'tomorrow.sh'
-    'toy-chest.sh'
-    'treehouse.sh'
-    'twilight.sh'
-    'ura.sh'
-    'urple.sh'
-    'vag.sh'
-    'vaughn.sh'
-    'vibrant-ink.sh'
-    'warm-neon.sh'
-    'wez.sh'
-    'wild-cherry.sh'
-    'wombat.sh'
-    'wryan.sh'
-    'zenburn.sh'
-)
+  '3024-day.sh'
+  '3024-night.sh'
+  'aci.sh'
+  'aco.sh'
+  'adventuretime.sh'
+  'afterglow.sh'
+  'alien-blood.sh'
+  'argonaut.sh'
+  'arthur.sh'
+  'atom.sh'
+  'azu.sh'
+  'belafonte-day.sh'
+  'belafonte-night.sh'
+  'bim.sh'
+  'birds-of-paradise.sh'
+  'blazer.sh'
+  'borland.sh'
+  'broadcast.sh'
+  'brogrammer.sh'
+  'c64.sh'
+  'cai.sh'
+  'chalk.sh'
+  'chalkboard.sh'
+  'ciapre.sh'
+  'clone-of-ubuntu.sh'
+  'clrs.sh'
+  'cobalt-neon.sh'
+  'cobalt2.sh'
+  'crayon-pony-fish.sh'
+  'dark-pastel.sh'
+  'darkside.sh'
+  'desert.sh'
+  'dimmed-monokai.sh'
+  'dracula.sh'
+  'earthsong.sh'
+  'elemental.sh'
+  'elementary.sh'
+  'elic.sh'
+  'elio.sh'
+  'espresso-libre.sh'
+  'espresso.sh'
+  'fishtank.sh'
+  'flat.sh'
+  'flatland.sh'
+  'foxnightly.sh'
+  'freya.sh'
+  'frontend-delight.sh'
+  'frontend-fun-forrest.sh'
+  'frontend-galaxy.sh'
+  'github.sh'
+  'google-dark.sh'
+  'google-light.sh'
+  'gooey.sh'
+  'grape.sh'
+  'grass.sh'
+  'gruvbox-dark.sh'
+  'gruvbox.sh'
+  'hardcore.sh'
+  'harper.sh'
+  'hemisu-dark.sh'
+  'hemisu-light.sh'
+  'highway.sh'
+  'hipster-green.sh'
+  'homebrew.sh'
+  'hurtado.sh'
+  'hybrid.sh'
+  'ic-green-ppl.sh'
+  'ic-orange-ppl.sh'
+  'idle-toes.sh'
+  'ir-black.sh'
+  'jackie-brown.sh'
+  'japanesque.sh'
+  'jellybeans.sh'
+  'jup.sh'
+  'kibble.sh'
+  'later-this-evening.sh'
+  'lavandula.sh'
+  'liquid-carbon-transparent.sh'
+  'liquid-carbon.sh'
+  'man-page.sh'
+  'mar.sh'
+  'material.sh'
+  'mathias.sh'
+  'medallion.sh'
+  'misterioso.sh'
+  'miu.sh'
+  'molokai.sh'
+  'mona-lisa.sh'
+  'monokai-dark.sh'
+  'monokai-soda.sh'
+  'n0tch2k.sh'
+  'neopolitan.sh'
+  'nep.sh'
+  'neutron.sh'
+  'nightlion-v1.sh'
+  'nightlion-v2.sh'
+  'nighty.sh'
+  'nord-light.sh'
+  'nord.sh'
+  'novel.sh'
+  'obsidian.sh'
+  'ocean-dark.sh'
+  'ocean.sh'
+  'oceanic-next.sh'
+  'ollie.sh'
+  'one-dark.sh'
+  'one-half-black.sh'
+  'one-light.sh'
+  'pali.sh'
+  'paraiso-dark.sh'
+  'paul-millr.sh'
+  'pencil-dark.sh'
+  'pencil-light.sh'
+  'peppermint.sh'
+  'pnevma.sh'
+  'pro.sh'
+  'red-alert.sh'
+  'red-sands.sh'
+  'rippedcasts.sh'
+  'royal.sh'
+  'sat.sh'
+  'sea-shells.sh'
+  'seafoam-pastel.sh'
+  'seti.sh'
+  'shaman.sh'
+  'shel.sh'
+  'slate.sh'
+  'smyck.sh'
+  'snazzy.sh'
+  'soft-server.sh'
+  'solarized-darcula.sh'
+  'solarized-dark-higher-contrast.sh'
+  'solarized-dark.sh'
+  'solarized-light.sh'
+  'spacedust.sh'
+  'spacegray-eighties-dull.sh'
+  'spacegray-eighties.sh'
+  'spacegray.sh'
+  'spring.sh'
+  'square.sh'
+  'srcery.sh'
+  'sundried.sh'
+  'symphonic.sh'
+  'teerb.sh'
+  'terminal-basic.sh'
+  'terminix-dark.sh'
+  'thayer-bright.sh'
+  'tin.sh'
+  'tomorrow-night-blue.sh'
+  'tomorrow-night-bright.sh'
+  'tomorrow-night-eighties.sh'
+  'tomorrow-night.sh'
+  'tomorrow.sh'
+  'toy-chest.sh'
+  'treehouse.sh'
+  'twilight.sh'
+  'ura.sh'
+  'urple.sh'
+  'vag.sh'
+  'vaughn.sh'
+  'vibrant-ink.sh'
+  'warm-neon.sh'
+  'wez.sh'
+  'wild-cherry.sh'
+  'wombat.sh'
+  'wryan.sh'
+  'zenburn.sh'
+  )
 
 # Allow developer to change url to forked url for easier testing
 BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Mayccoll/Gogh/master"}
 
 capitalize() {
-    local ARGUMENT=$1
-    local RES=""
-    local STR=""
-    local RES_NO_TRAIL_SPACE=""
+  local ARGUMENT=$1
+  local RES=""
+  local STR=""
+  local RES_NO_TRAIL_SPACE=""
 
-    for CHAR in $ARGUMENT
-    do
-        STR=$(echo "${CHAR:0:1}" | tr "[:lower:]" "[:upper:]")"${CHAR:1} "
-        RES="${RES}${STR}"
-        RES_NO_TRAIL_SPACE="$(echo -e "${RES}" | sed -e 's/[[:space:]]*$//')"
-    done
+  for CHAR in $ARGUMENT; do
+    STR=$(echo "${CHAR:0:1}" | tr "[:lower:]" "[:upper:]")"${CHAR:1} "
+    RES="${RES}${STR}"
+    RES_NO_TRAIL_SPACE="$(echo -e "${RES}" | sed -e 's/[[:space:]]*$//')"
+  done
 
-    echo "${RES_NO_TRAIL_SPACE}"
+  echo "${RES_NO_TRAIL_SPACE}"
 }
 
 
 set_gogh() {
-    string=$1
-    string_r="${string%???}"
-    string_s=${string_r//\./_}
-    result=$(capitalize "${string_s}")
-    url="${BASE_URL}/themes/$1"
+  string=$1
+  string_r="${string%???}"
+  string_s=${string_r//\./_}
+  result=$(capitalize "${string_s}")
+  url="${BASE_URL}/themes/$1"
 
-    export {PROFILE_NAME,PROFILE_SLUG}="$result"
+  export {PROFILE_NAME,PROFILE_SLUG}="$result"
 
-    # Evaluate if Gogh was called from local source - i.e cloned repo
-    SCRIPT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-    # This is to handle dirs with spaces in their names
-    printf -v SCRIPT_PATH "'%s'" "${SCRIPT_PATH}"
-    if [[ -e "${SCRIPT_PATH}/themes/$1" ]]; then
-        (eval "${SCRIPT_PATH}/themes/$1")
+  # Evaluate if Gogh was called from local source - i.e cloned repo
+  SCRIPT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+  if [[ -e "${SCRIPT_PATH}/themes/$1" ]]; then
+    bash "${SCRIPT_PATH}/themes/$1"
+  else
+    if [[ "$(uname)" = "Darwin" ]]; then
+      # OSX ships with curl
+      (eval "$(curl -sLo- "${url}")")
     else
-      if [[ "$(uname)" = "Darwin" ]]; then
-          # OSX ships with curl
-          (eval "$(curl -sLo- "${url}")")
-      else
-          # Linux ships with wget
-          (eval "$(wget -qO- "${url}")")
-      fi
+      # Linux ships with wget
+      (eval "$(wget -qO- "${url}")")
     fi
+  fi
 }
 
 
 remove_file_extension (){
-    echo "${1%.*}"
+  echo "${1%.*}"
 }
 
 
@@ -251,7 +248,7 @@ if [[ ${COLUMNS:-$(tput cols)} -ge 80 ]]; then
 
 
   printf '%b\n' "${gogh_str}"
-  sleep 2.5
+  #sleep 2.5
 else
   echo -e "\nGogh\n"
   for c in {0..15}; do
@@ -269,16 +266,16 @@ echo -e "\nThemes:\n"
 
 for TH in "${THEMES[@]}"; do
 
-    KEY=$(printf "%02d" $NUM)
-    FILENAME=${TH::$((${#TH}-3))}
-    FILENAME_SPACE=${FILENAME//-/ }
+  KEY=$(printf "%02d" $NUM)
+  FILENAME=${TH::$((${#TH}-3))}
+  FILENAME_SPACE=${FILENAME//-/ }
 
-    echo -e "    ($(tput setaf 4) $KEY $(tput sgr0)) $(capitalize "${FILENAME_SPACE}")"
+  echo -e "    ($(tput setaf 4) $KEY $(tput sgr0)) $(capitalize "${FILENAME_SPACE}")"
 
-    ((NUM++))
+  ((NUM++))
 
 done
-    echo -e "    ($(tput setaf 4) ALL $(tput sgr0)) All themes"
+echo -e "    ($(tput setaf 4) ALL $(tput sgr0)) All themes"
 
 # |
 # | ::::::: Select Option
@@ -299,20 +296,20 @@ if [[ -z "${TERMINAL:-}" ]]; then
   # | ===========================================
   OS="$(uname)"
   if [[ "$OS" = "Darwin" ]]; then
-      TERMINAL=$TERM_PROGRAM
+    TERMINAL=$TERM_PROGRAM
   elif [[ "${OS#CYGWIN}" != "${OS}" ]]; then
-      TERMINAL="mintty"
+    TERMINAL="mintty"
   else
-      # |
-      # | Depending on how the script was invoked, we need
-      # | to loop until pid is no longer a subshell
-      # | ===========================================
-      pid="$$"
+    # |
+    # | Depending on how the script was invoked, we need
+    # | to loop until pid is no longer a subshell
+    # | ===========================================
+    pid="$$"
+    TERMINAL="$(ps -h -o comm -p $pid)"
+    while [[ "${TERMINAL:(-2)}" == "sh" ]]; do
+      pid="$(ps -h -o ppid -p $pid)"
       TERMINAL="$(ps -h -o comm -p $pid)"
-      while [[ "${TERMINAL:(-2)}" == "sh" ]]; do
-        pid="$(ps -h -o ppid -p $pid)"
-        TERMINAL="$(ps -h -o comm -p $pid)"
-      done
+    done
   fi
 fi
 
@@ -321,11 +318,11 @@ fi
 # | ::::::: Fancy progressbar for lengthy operations
 # |
 if [[ ${#OPTION[@]} -gt 5 ]]; then
-    if [ "$(uname)" = "Darwin" ]; then
-        eval "$(curl -sLo- "https://git.io/progressbar")" 2> /dev/null
-    else
-        eval "$(wget -qO- "https://git.io/progressbar")"  2> /dev/null
-    fi
+  if [[ "$(uname)" = "Darwin" ]]; then
+    eval "$(curl -sLo- "https://git.io/progressbar")" 2> /dev/null
+  else
+    eval "$(wget -qO- "https://git.io/progressbar")"  2> /dev/null
+  fi
 fi
 
 
@@ -334,29 +331,29 @@ fi
 # | This is to avoid creating multiple profiles just for colors
 # | ===========================================
 if [[ "$TERMINAL" = "tilix" ]] && [[ ${#OPTION[@]} -gt 0 ]]; then
-    echo
-    read -r -p "Tilix detected - use color schemes instead of profiles? [y/N] " -n 1 TILIX_RES
-    echo
-    
-    # |
-    # | When selecting multiple themes and user opts for color schemes, we save all themes
-    # | in a tmpdir and copy the files once all themes has been processed.. If a user
-    # | desides to abort before all themes has been processed this section will cleanup the tmpdir
-    # | =======================================
-    if [[ ${TILIX_RES::1} =~ ^(y|Y)$ ]]; then
-      cleanup() {
-        echo
-        echo "Cleaning up"
-        rm -rf "$scratchdir"
-        unset LOOP OPTLENGTH
-        echo "Done..."
-        exit 0
-      }
+  echo
+  read -r -p "Tilix detected - use color schemes instead of profiles? [y/N] " -n 1 TILIX_RES
+  echo
+  
+  # |
+  # | When selecting multiple themes and user opts for color schemes, we save all themes
+  # | in a tmpdir and copy the files once all themes has been processed.. If a user
+  # | desides to abort before all themes has been processed this section will cleanup the tmpdir
+  # | =======================================
+  if [[ ${TILIX_RES::1} =~ ^(y|Y)$ ]]; then
+    cleanup() {
+      echo
+      echo "Cleaning up"
+      rm -rf "$scratchdir"
+      unset LOOP OPTLENGTH
+      echo "Done..."
+      exit 0
+    }
 
-      scratchdir=$(mktemp -d -t tmp.XXXXXXXX)
-      export scratchdir
-      trap 'cleanup; trap - EXIT' EXIT HUP INT QUIT PIPE TERM
-    fi
+    scratchdir=$(mktemp -d -t tmp.XXXXXXXX)
+    export scratchdir
+    trap 'cleanup; trap - EXIT' EXIT HUP INT QUIT PIPE TERM
+  fi
 fi
 
 
@@ -371,33 +368,36 @@ export TERMINAL LOOP OPTLENGTH=${#OPTION[@]}
 # | ::::::: Apply Theme
 # |
 
-  # Note:
-  # Constants with a leading 0 are interpreted as octal numbers
-  # Hence option 08 and 09 will not work
-  # Solution is to remove the leading 0 from the parsed options
+declare color_dot_str
+for c in {0..15}; do
+  color_dot_str+="$(tput setaf $c)•$(tput sgr0)"
+  [[ $c == 7 ]] && color_dot_str+=" "
+done
+
+# Note:
+# Constants with a leading 0 are interpreted as octal numbers
+# Hence option 08 and 09 will not work
+# Solution is to remove the leading 0 from the parsed options
 command -v bar::start > /dev/null && bar::start
 for OP in "${OPTION[@]#0}"; do
-    # See Tilix section in apply-colors.sh for usage of LOOP
-    LOOP=$((${LOOP:-0}+1))
+  # See appy_tilixschemes in apply-colors.sh for usage of LOOP
+  LOOP=$((${LOOP:-0}+1))
 
-    command -v bar::status_changed > /dev/null && bar::status_changed $LOOP ${#OPTION[@]}
+  command -v bar::status_changed > /dev/null && bar::status_changed $LOOP ${#OPTION[@]}
 
-    if [[ OP -le ARRAYLENGTH && OP -gt 0 ]]; then
+  if [[ OP -le ARRAYLENGTH && OP -gt 0 ]]; then
 
-        FILENAME=$(remove_file_extension "${THEMES[((OP-1))]}")
-        FILENAME_SPACE="${FILENAME//-/ }"
-        echo -e "\nTheme: $(capitalize "${FILENAME_SPACE}")"
-        for c in {0..15}; do
-          echo -n "$(tput setaf $c)•$(tput sgr0)"
-          [[ $c == 7 ]] && echo -n " "
-        done
-        echo
+    FILENAME=$(remove_file_extension "${THEMES[((OP-1))]}")
+    FILENAME_SPACE="${FILENAME//-/ }"
+    echo -e "\nTheme: $(capitalize "${FILENAME_SPACE}")"
+    echo "${color_dot_str}"
+    echo
 
-        SET_THEME="${THEMES[((OP-1))]}"
-        set_gogh "${SET_THEME}"
-    else
-        echo -e "$(tput setaf 1) ~ INVALID OPTION! ~$(tput sgr0)"
-        exit 1
-    fi
+    SET_THEME="${THEMES[((OP-1))]}"
+    set_gogh "${SET_THEME}"
+  else
+    echo -e "$(tput setaf 1) ~ INVALID OPTION! ~$(tput sgr0)"
+    exit 1
+  fi
 done
-command -v bar::stop > /dev/null && bar::stop
+command -v bar::stop > /dev/null && bar::stop || :

@@ -10,6 +10,36 @@ GS="${GS:-$(command -v gsettings | xargs echo)}"
 # Note: xargs echo is to make the command sucessful even if it was not
 # otherwise the script will exit if the command does not exist (elementary os)
 
+
+# |
+# | Second test for TERMINAL in case user ran
+# | theme script directly instead of gogh.sh
+# | ============================================
+if [[ -z "${TERMINAL:-}" ]]; then
+
+  # |
+  # | Check for the terminal name (depening on os)
+  # | ===========================================
+  OS="$(uname)"
+  if [[ "$OS" = "Darwin" ]]; then
+    TERMINAL=$TERM_PROGRAM
+  elif [[ "${OS#CYGWIN}" != "${OS}" ]]; then
+    TERMINAL="mintty"
+  else
+    # |
+    # | Depending on how the script was invoked, we need
+    # | to loop until pid is no longer a subshell
+    # | ===========================================
+    pid="$$"
+    TERMINAL="$(ps -h -o comm -p $pid)"
+    while [[ "${TERMINAL:(-2)}" == "sh" ]]; do
+      pid="$(ps -h -o ppid -p $pid)"
+      TERMINAL="$(ps -h -o comm -p $pid)"
+    done
+  fi
+fi
+
+
 case "${TERMINAL}" in
   pantheon-terminal|io.elementary.t* )
     if [[ -z "${GS}" ]]; then
@@ -38,7 +68,7 @@ case "${TERMINAL}" in
           printf '%s\n\n' "or export GCONF=/path/to/gconftool-2/"
           exit 1
         fi
-      ;;
+        ;;
     esac
     if [[ -z "${DCONF}" ]]; then
       printf '\n%s\n' "Error dconf not found"
@@ -77,7 +107,7 @@ hexRGBtoDecRGB () {
 
 convertRGBtoMac () {
   local color="${1}"
-  set -
+  set --
   set -- $(hexRGBtoDecRGB "${color}")
   R=${1}; shift; G=${1}; shift; B=${1}; shift
 
@@ -91,7 +121,7 @@ convertRGBtoMac () {
 createMinttyEntry () {
   local  name="${1}"
   local color="${2}"
-  set -
+  set --
   set -- $(hexRGBtoDecRGB "${color}")
   R=${1}; shift; G=${1}; shift; B=${1}; shift
 
@@ -109,7 +139,7 @@ updateMinttyConfig () {
 convertNameAndRGBtoITerm() {
   local  name="${1}"
   local color="${2}"
-  set -
+  set --
   set -- $(convertRGBtoMac "${color}")
   R=${1}; shift; G=${1}; shift; B=${1}; shift
 
@@ -128,12 +158,12 @@ dlist_append() {
   local key="${1}"; shift
   local val="${1}"; shift
   local entries
-    
+  
   entries="$(
-    {
-      "${DCONF}" read "${key}" | tr -d "[]" | tr , "\n" | grep -F -v "${val}"
-      echo "'${val}'"
-    } | head -c-1 | tr "\n" ,
+  {
+    "${DCONF}" read "${key}" | tr -d "[]" | tr , "\n" | grep -F -v "${val}"
+    echo "'${val}'"
+  } | head -c-1 | tr "\n" ,
   )"
 
   "${DCONF}" write "${key}" "[${entries}]"
@@ -155,10 +185,10 @@ glist_append() {
   local entries
 
   entries="$(
-    {
-      "${GCONF}" --get "${key}" | tr -d "[]" | tr , "\n" | grep -F -v "${val}"
-      echo "${val}"
-    } | head -c-1 | tr "\n" ,
+  {
+    "${GCONF}" --get "${key}" | tr -d "[]" | tr , "\n" | grep -F -v "${val}"
+    echo "${val}"
+  } | head -c-1 | tr "\n" ,
   )"
 
   "${GCONF}" --set --type list --list-type "${type}" "${key}" "[${entries}]"
@@ -172,35 +202,35 @@ gset() {
 }
 
 set_theme() {
-    dset visible-name                    "'${PROFILE_NAME}'"
-    dset background-color                "'${BACKGROUND_COLOR}'"
-    dset foreground-color                "'${FOREGROUND_COLOR}'"
+  dset visible-name                    "'${PROFILE_NAME}'"
+  dset background-color                "'${BACKGROUND_COLOR}'"
+  dset foreground-color                "'${FOREGROUND_COLOR}'"
 
-    if [[ -n "${BOLD_COLOR:-}" ]]; then
-      dset   bold-color                  "'${BOLD_COLOR}'"
-      dset   bold-color-same-as-fg       "false"
-    else
-      dset   bold-color                  "'${FOREGROUND_COLOR}'"
-      dset   bold-color-same-as-fg       "true"
-    fi
-    dset     use-theme-colors            "false"
-    dset     use-theme-background        "false"
+  if [[ -n "${BOLD_COLOR:-}" ]]; then
+    dset   bold-color                  "'${BOLD_COLOR}'"
+    dset   bold-color-same-as-fg       "false"
+  else
+    dset   bold-color                  "'${FOREGROUND_COLOR}'"
+    dset   bold-color-same-as-fg       "true"
+  fi
+  dset     use-theme-colors            "false"
+  dset     use-theme-background        "false"
 }
 
 legacy_set_theme() {
-    gcset string visible_name            "${PROFILE_NAME}"
-    gcset string background_color        "${BACKGROUND_COLOR}"
-    gcset string foreground_color        "${FOREGROUND_COLOR}"
+  gcset string visible_name            "${PROFILE_NAME}"
+  gcset string background_color        "${BACKGROUND_COLOR}"
+  gcset string foreground_color        "${FOREGROUND_COLOR}"
 
-    if [[ -n "${BOLD_COLOR:-}" ]]; then
-      gcset string bold_color            "${BOLD_COLOR}"
-      gcset bool   bold_color_same_as_fg "false"
-    else
-      gcset string bold_color            "${FOREGROUND_COLOR}"
-      gcset bool   bold_color_same_as_fg "true"
-    fi
-    gcset bool     use_theme_colors      "false"
-    gcset bool     use_theme_background  "false"
+  if [[ -n "${BOLD_COLOR:-}" ]]; then
+    gcset string bold_color            "${BOLD_COLOR}"
+    gcset bool   bold_color_same_as_fg "false"
+  else
+    gcset string bold_color            "${FOREGROUND_COLOR}"
+    gcset bool   bold_color_same_as_fg "true"
+  fi
+  gcset bool     use_theme_colors      "false"
+  gcset bool     use_theme_background  "false"
 }
 
 
@@ -209,30 +239,30 @@ legacy_set_theme() {
 # | If terminal supports truecolor then we can show theme colors without applying the theme
 # | ===========================================
 if [[ "${COLORTERM:-}" == "truecolor" ]] || [[ "${COLORTERM:-}" == "24bit" ]]; then
-    # gogh_colors have been moved here to avoid multiple definitions
-    function gogh_colors () {
-      # Build up the color string to avoid visual rendering
-      local color_str
-      # Note: {01..16} does not work on OSX
-      for c in $(seq -s " " -w 16); do
-        local color="COLOR_$c"
-        set -- $(hexRGBtoDecRGB "${!color}")
-        color_str+="\033[38;2;${1};${2};${3}m█████$(tput sgr0)"
-        [[ ${GOGH_DRY_RUN:-0} -eq 1 ]] && export "DEMO_COLOR_$c=\033[38;2;${1};${2};${3}m"
-        [[ "$c" == "08" ]] && color_str+="\n" # new line
-      done
-      printf '\n%b\n\n\n' "${color_str}"
-    }
+  # gogh_colors have been moved here to avoid multiple definitions
+  function gogh_colors () {
+    # Build up the color string to avoid visual rendering
+    local color_str
+    # Note: {01..16} does not work on OSX
+    for c in $(seq -s " " -w 16); do
+      local color="COLOR_$c"
+      set -- $(hexRGBtoDecRGB "${!color}")
+      color_str+="\033[38;2;${1};${2};${3}m█████$(tput sgr0)"
+      [[ ${GOGH_DRY_RUN:-0} -eq 1 ]] && export "DEMO_COLOR_$c=\033[38;2;${1};${2};${3}m"
+      [[ "$c" == "08" ]] && color_str+="\n" # new line
+    done
+    printf '\n%b\n\n\n' "${color_str}"
+  }
 else
-    function gogh_colors () {
-      # Build up the color string to avoid visual rendering
-      local color_str
-      for c in {0..15}; do
-        color_str+="$(tput setaf $c)█████$(tput sgr0)"
-        [[ $c == 7 ]] && color_str+="\n" # new line
-      done
-      printf '\n%b\n\n' "${color_str}"
-    }
+  function gogh_colors () {
+    # Build up the color string to avoid visual rendering
+    local color_str
+    for c in {0..15}; do
+      color_str+="$(tput setaf $c)█████$(tput sgr0)"
+      [[ $c == 7 ]] && color_str+="\n" # new line
+    done
+    printf '\n%b\n\n' "${color_str}"
+  }
 fi
 
 
@@ -243,18 +273,18 @@ gogh_colors
 if [[ ${GOGH_DRY_RUN:-0} -eq 1 ]]; then
   color
   # End here if dry run was initiated
-  return 0
+  exit 0
 fi
 
 
 apply_elementary() {
-    # |
-    # | Applying values on elementary/pantheon terminal
-    # | ===========================================
-    gset background   "${BACKGROUND_COLOR}"
-    gset foreground   "${FOREGROUND_COLOR}"
-    gset cursor-color "${CURSOR_COLOR}"
-    gset palette      "${COLOR_01}:${COLOR_02}:${COLOR_03}:${COLOR_04}:${COLOR_05}:${COLOR_06}:${COLOR_07}:${COLOR_08}:${COLOR_09}:${COLOR_10}:${COLOR_11}:${COLOR_12}:${COLOR_13}:${COLOR_14}:${COLOR_15}:${COLOR_16}"
+  # |
+  # | Applying values on elementary/pantheon terminal
+  # | ===========================================
+  gset background   "${BACKGROUND_COLOR}"
+  gset foreground   "${FOREGROUND_COLOR}"
+  gset cursor-color "${CURSOR_COLOR}"
+  gset palette      "${COLOR_01}:${COLOR_02}:${COLOR_03}:${COLOR_04}:${COLOR_05}:${COLOR_06}:${COLOR_07}:${COLOR_08}:${COLOR_09}:${COLOR_10}:${COLOR_11}:${COLOR_12}:${COLOR_13}:${COLOR_14}:${COLOR_15}:${COLOR_16}"
 }
 
 apply_cygwin() {
@@ -293,7 +323,7 @@ apply_darwin() {
   # |
   # | Applying values on iTerm2
   # | ===========================================
-    
+  
   BACKGROUND_COLOR=$(convertNameAndRGBtoITerm "Background Color" "$BACKGROUND_COLOR")
   FOREGROUND_COLOR=$(convertNameAndRGBtoITerm "Foreground Color" "$FOREGROUND_COLOR")
   COLOR_01=$(convertNameAndRGBtoITerm "Ansi 0 Color"             "$COLOR_01")
@@ -341,10 +371,10 @@ apply_gtk() {
   # Check first wether profile already exists
   profile_hashes=($(${CONFTOOL} "${PROFILE_LIST_KEY}" | tr "[]'," " "))
   for profile in "${profile_hashes[@]}"; do
-   if [[ "$(${CONFTOOL} "${BASE_DIR}${profile}/${VISIBLE_NAME}" | tr -d "'")" == "${PROFILE_NAME}" ]]; then
-     printf '%s\n' "Profile already exists" "Skipping..."
-     exit 0
-   fi
+    if [[ "$(${CONFTOOL} "${BASE_DIR}${profile}/${VISIBLE_NAME}" | tr -d "'")" == "${PROFILE_NAME}" ]]; then
+      printf '%s\n' "Profile already exists" "Skipping..."
+      exit 0
+    fi
   done
 
   # Fallback if there is no default profile 
@@ -360,11 +390,11 @@ apply_gtk() {
   if [[ -z "${legacy}" ]]; then
     if [[ -z "$(${DCONF} list ${BASE_DIR%:})" ]]; then
       # Provide a user friendly error text if no saved profile exists, otherwise it will display "Error gconftool not found!"
-      # it could happen on a newly installed system. (happened on CentOS 7)
-      printf '%s\n'                                                                                               \
-        "Error, no saved profiles found!"                                                                         \
-        "Possible fix, new a profile (Terminal > Edit > Preferences > Profiles > New, then Close) and try again." \
-        "You can safely delete the created profile after the installation."
+      #  it could happen on a newly installed system. (happened on CentOS 7)
+      printf '%s\n'                                                                                             \
+      "Error, no saved profiles found!"                                                                         \
+      "Possible fix, new a profile (Terminal > Edit > Preferences > Profiles > New, then Close) and try again." \
+      "You can safely delete the created profile after the installation."
       exit 1
     fi
 
@@ -443,15 +473,15 @@ appy_tilixschemes() {
     # so we have to update color palette for the current profile in order to switch to the new theme
     # but only set the palette on the last loop to avoid a flashing terminal
     if ((LOOP == OPTLENGTH)); then
-        cp -f  ${scratchdir}/* "$HOME/.config/tilix/schemes/"
-        rm -rf "${scratchdir}"
-        read -r -p "All done - apply new theme? [y/N] " -n 1 TILIX_RES
-        if [[ ${TILIX_RES::1} =~ ^(y|Y)$ ]]; then
-            PROFILE_KEY="${BASE_DIR}${DEFAULT_SLUG}"
-            PROFILE_NAME="$(${DCONF} read ${PROFILE_KEY}/visible-name | tr -d \')"
-            set_theme
-            dset palette "['${COLOR_01}', '${COLOR_02}', '${COLOR_03}', '${COLOR_04}', '${COLOR_05}', '${COLOR_06}', '${COLOR_07}', '${COLOR_08}', '${COLOR_09}', '${COLOR_10}', '${COLOR_11}', '${COLOR_12}', '${COLOR_13}', '${COLOR_14}', '${COLOR_15}', '${COLOR_16}']"
-        fi
+      cp -f  ${scratchdir}/* "$HOME/.config/tilix/schemes/"
+      rm -rf "${scratchdir}"
+      read -r -p "All done - apply new theme? [y/N] " -n 1 TILIX_RES
+      if [[ ${TILIX_RES::1} =~ ^(y|Y)$ ]]; then
+        PROFILE_KEY="${BASE_DIR}${DEFAULT_SLUG}"
+        PROFILE_NAME="$(${DCONF} read ${PROFILE_KEY}/visible-name | tr -d \')"
+        set_theme
+        dset palette "['${COLOR_01}', '${COLOR_02}', '${COLOR_03}', '${COLOR_04}', '${COLOR_05}', '${COLOR_06}', '${COLOR_07}', '${COLOR_08}', '${COLOR_09}', '${COLOR_10}', '${COLOR_11}', '${COLOR_12}', '${COLOR_13}', '${COLOR_14}', '${COLOR_15}', '${COLOR_16}']"
+      fi
     fi
 
     unset PROFILE_NAME
@@ -488,7 +518,7 @@ case "${TERMINAL}" in
     else
       apply_guake legacy
     fi
-  ;;
+    ;;
 
   gnome-terminal* )
     if [[ -n "$(${DCONF} list /org/gnome/terminal/)" ]]; then
@@ -515,7 +545,7 @@ case "${TERMINAL}" in
       apply_gtk legacy
     fi
     ;;
-  
+
   mate-terminal )
     BASE_DIR="/org/mate/terminal/profiles/"
     PROFILE_LIST_KEY="${BASE_DIR/profiles/global}profile-list"
@@ -543,25 +573,25 @@ case "${TERMINAL}" in
     ;;
 
   * )
-    printf '%s\n'                                               \
-      "Unsupported terminal!"                                   \
-      ""                                                        \
-      "Supported terminals:"                                    \
-      "   mintty and deriviates"                                \
-      "   guake"                                                \
-      "   iTerm2"                                               \
-      "   elementary terminal (pantheon/elementary)"            \
-      "   mate-terminal"                                        \
-      "   gnome-terminal"                                       \
-      "   tilix"                                                \
-      ""                                                        \
-      "If you believe you have recieved this message in error," \
-      "try manually setting \`TERMINAL', hint: ps -h -o comm -p \$PPID"
+    printf '%s\n'                                             \
+    "Unsupported terminal!"                                   \
+    ""                                                        \
+    "Supported terminals:"                                    \
+    "   mintty and deriviates"                                \
+    "   guake"                                                \
+    "   iTerm2"                                               \
+    "   elementary terminal (pantheon/elementary)"            \
+    "   mate-terminal"                                        \
+    "   gnome-terminal"                                       \
+    "   tilix"                                                \
+    ""                                                        \
+    "If you believe you have recieved this message in error," \
+    "try manually setting \`TERMINAL', hint: ps -h -o comm -p \$PPID"
     exit 1
     ;;
 
 esac
-    
+
 unset PROFILE_NAME
 unset PROFILE_SLUG
 unset DEFAULT_SLUG

@@ -1,28 +1,28 @@
 #!/usr/bin/env bash
 
 # ====================CONFIG THIS =============================== #
-COLOR_01="#000000"
-COLOR_02="#E06C75"
-COLOR_03="#98C379"
-COLOR_04="#D19A66"
-COLOR_05="#61AFEF"
-COLOR_06="#C678DD"
-COLOR_07="#56B6C2"
-COLOR_08="#ABB2BF"
+export COLOR_01="#000000"
+export COLOR_02="#E06C75"
+export COLOR_03="#98C379"
+export COLOR_04="#D19A66"
+export COLOR_05="#61AFEF"
+export COLOR_06="#C678DD"
+export COLOR_07="#56B6C2"
+export COLOR_08="#ABB2BF"
 
-COLOR_09="#5C6370"
-COLOR_10="#E06C75"
-COLOR_11="#98C379"
-COLOR_12="#D19A66"
-COLOR_13="#61AFEF"
-COLOR_14="#C678DD"
-COLOR_15="#56B6C2"
-COLOR_16="#FFFEFE"
+export COLOR_09="#5C6370"
+export COLOR_10="#E06C75"
+export COLOR_11="#98C379"
+export COLOR_12="#D19A66"
+export COLOR_13="#61AFEF"
+export COLOR_14="#C678DD"
+export COLOR_15="#56B6C2"
+export COLOR_16="#FFFEFE"
 
-BACKGROUND_COLOR="#1E2127"
-FOREGROUND_COLOR="#5C6370"
-CURSOR_COLOR="#5C6370"
-PROFILE_NAME="One Dark"
+export BACKGROUND_COLOR="#1E2127"
+export FOREGROUND_COLOR="#5C6370"
+export CURSOR_COLOR="#5C6370"
+export PROFILE_NAME="One Dark"
 # =============================================================== #
 
 
@@ -34,22 +34,21 @@ PROFILE_NAME="One Dark"
 # =============================================================== #
 # | Apply Colors
 # ===============================================================|#
-SCRIPT_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PARENT_PATH="$(dirname "$SCRIPT_PATH")"
+SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
+PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 
 # Allow developer to change url to forked url for easier testing
 BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Mayccoll/Gogh/master"}
 
 
-if [ -e "${PARENT_PATH}/apply-colors.sh" ]
-then
-    source "${PARENT_PATH}/apply-colors.sh"
+if [[ -e "${PARENT_PATH}/apply-colors.sh" ]]; then
+  bash "${PARENT_PATH}/apply-colors.sh"
 else
-    if [ "$(uname)" = "Darwin" ]; then
-        # OSX ships with curl and ancient bash
-        (eval "$(curl -so- "${BASE_URL}/apply-colors.sh")")
-    else
-        # Linux ships with wget
-        (eval "$(wget -qO- "${BASE_URL}/apply-colors.sh")")
-    fi
+  if [[ "$(uname)" = "Darwin" ]]; then
+    # OSX ships with curl and ancient bash
+    (eval "$(curl -so- "${BASE_URL}/apply-colors.sh")")
+  else
+    # Linux ships with wget
+    (eval "$(wget -qO- "${BASE_URL}/apply-colors.sh")")
+  fi
 fi
