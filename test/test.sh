@@ -69,77 +69,77 @@ color () {
 }
 
 
-wget -O xt  http://git.io/v3D44 && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3D44")"
 color
-wget -O xt  https://git.io/v5mXj && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "https://git.io/v5mXj")"
 color
-wget -O xt  http://git.io/v3D4d && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3D4d")"
 color
-wget -O xt  https://git.io/v5mXA && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "https://git.io/v5mXA")"
 color
-wget -O xt  http://git.io/v3D4N && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3D4N")"
 color
-wget -O xt  http://git.io/v3D4o && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3D4o")"
 color
-wget -O xt  http://git.io/v3D82 && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3D82")"
 color
-wget -O xt  http://git.io/v3D8e && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3D8e")"
 color
-wget -O xt  http://git.io/v3D8R && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3D8R")"
 color
-wget -O xt  https://git.io/v5mXi && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "https://git.io/v5mXi")"
 color
-wget -O xt  http://git.io/v3DB9 && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3DB9")"
 color
-wget -O xt  http://git.io/v3DBB && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3DBB")"
 color
-wget -O xt  http://git.io/v3DBe && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3DBe")"
 color
-wget -O xt  http://git.io/v3DBF && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3DBF")"
 color
-wget -O xt  http://git.io/v3DBK && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3DBK")"
 color
-wget -O xt  http://git.io/v3DBM && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3DBM")"
 color
-wget -O xt  https://git.io/v5mPp && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "https://git.io/v5mPp")"
 color
-wget -O xt  http://git.io/v3DBP && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3DBP")"
 color
-wget -O xt  http://git.io/v5f6B && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v5f6B")"
 color
-wget -O xt  http://git.io/v3DBT && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3DBT")"
 color
-wget -O xt  http://git.io/v3DBv && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3DBv")"
 color
-wget -O xt  http://git.io/v3DBV && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3DBV")"
 color
-wget -O xt  https://git.io/vQ9TY && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "https://git.io/vQ9TY")"
 color
-wget -O xt  http://git.io/v3Dlb && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3Dlb")"
 color
-wget -O xt  http://git.io/v3Dlb && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3Dlb")"
 color
-wget -O xt  http://git.io/v3Dli && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3Dli")"
 color
-wget -O xt  http://git.io/v3Dll && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3Dll")"
 color
-wget -O xt  http://git.io/v3Dlm && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3Dlm")"
 color
-wget -O xt  http://git.io/v3Dlr && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3Dlr")"
 color
-wget -O xt  http://git.io/v3Dlz && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3Dlz")"
 color
-wget -O xt  http://git.io/v3DR0 && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3DR0")"
 color
-wget -O xt  http://git.io/v3DRB && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3DRB")"
 color
-wget -O xt  https://git.io/v5m1t && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "https://git.io/v5m1t")"
 color
-wget -O xt  http://git.io/v3DRc && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3DRc")"
 color
-wget -O xt  https://git.io/v5m1s && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "https://git.io/v5m1s")"
 color
-wget -O xt  https://git.io/v5m1Y && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "https://git.io/v5m1Y")"
 color
-wget -O xt  http://git.io/v3DRs && chmod +x xt && ./xt && rm xt
+bash -c "$(wget -qO- "http://git.io/v3DRs")"
 color

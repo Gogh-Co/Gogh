@@ -46,9 +46,9 @@ if [[ -e "${PARENT_PATH}/apply-colors.sh" ]]; then
 else
   if [[ "$(uname)" = "Darwin" ]]; then
     # OSX ships with curl and ancient bash
-    (eval "$(curl -so- "${BASE_URL}/apply-colors.sh")")
+    bash -c "$(curl -so- "${BASE_URL}/apply-colors.sh")"
   else
     # Linux ships with wget
-    (eval "$(wget -qO- "${BASE_URL}/apply-colors.sh")")
+    bash -c "$(wget -qO- "${BASE_URL}/apply-colors.sh")"
   fi
 fi

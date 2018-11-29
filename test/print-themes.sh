@@ -251,9 +251,9 @@ set_gogh() {
     bash "${PARENT_PATH}/themes/$1"
   else
     if [[ "$(uname)" = "Darwin" ]]; then
-      (eval "$(curl -so- "${url}")")
+      bash -c "$(curl -so- "${url}")"
     else
-      (eval "$(wget -qO- "${url}")")
+      bash -c "$(wget -qO- "${url}")"
     fi
   fi
 }
@@ -264,9 +264,9 @@ remove_file_extension (){
 
 # Fancy progress bar
 if [[ "$(uname)" = "Darwin" ]]; then
-  eval "$(curl -sLo- "https://git.io/progressbar")" 2> /dev/null
+  eval "$(curl -sLo- https://git.io/progressbar)" 2> /dev/null
 else
-  eval "$(wget -qO- "https://git.io/progressbar")"  2> /dev/null
+  eval "$(wget -qO- https://git.io/progressbar)"  2> /dev/null
 fi
 
 declare color_dot_str

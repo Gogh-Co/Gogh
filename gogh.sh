@@ -205,10 +205,10 @@ set_gogh() {
   else
     if [[ "$(uname)" = "Darwin" ]]; then
       # OSX ships with curl
-      (eval "$(curl -sLo- "${url}")")
+      bash -c "$(curl -sLo- "${url}")"
     else
       # Linux ships with wget
-      (eval "$(wget -qO- "${url}")")
+      bash -c "$(wget -qO- "${url}")"
     fi
   fi
 }
@@ -248,7 +248,7 @@ if [[ ${COLUMNS:-$(tput cols)} -ge 80 ]]; then
 
 
   printf '%b\n' "${gogh_str}"
-  #sleep 2.5
+  sleep 2.5
 else
   echo -e "\nGogh\n"
   for c in {0..15}; do
@@ -319,9 +319,9 @@ fi
 # |
 if [[ ${#OPTION[@]} -gt 5 ]]; then
   if [[ "$(uname)" = "Darwin" ]]; then
-    eval "$(curl -sLo- "https://git.io/progressbar")" 2> /dev/null
+    eval "$(curl -sLo- https://git.io/progressbar)" 2> /dev/null
   else
-    eval "$(wget -qO- "https://git.io/progressbar")"  2> /dev/null
+    eval "$(wget -qO- https://git.io/progressbar)"  2> /dev/null
   fi
 fi
 
