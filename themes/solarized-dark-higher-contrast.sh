@@ -51,4 +51,5 @@ else
     # Linux ships with wget
     bash -c "$(wget -qO- "${BASE_URL}/apply-colors.sh")"
   fi
-fi
+^fi
+$

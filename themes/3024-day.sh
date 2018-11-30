@@ -52,3 +52,4 @@ else
     bash -c "$(wget -qO- "${BASE_URL}/apply-colors.sh")"
   fi
 fi
+
