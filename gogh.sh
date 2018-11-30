@@ -1,5 +1,16 @@
 #!/usr/bin/env bash
 
+# Define traps and trapfunctions early in case any errors before script exits
+GLOBAL_VAR_CLEANUP(){
+  [[ -n "$(command -v TILIX_TMP_CLEANUP)" ]] && TILIX_TMP_CLEANUP
+  unset PROFILE_NAME
+  unset PROFILE_SLUG
+  unset TILIX_RES
+  unset TERMINAL
+}    
+
+trap 'GLOBAL_VAR_CLEANUP; trap - EXIT' EXIT HUP INT QUIT PIPE TERM
+
 declare -a THEMES=(
   '3024-day.sh'
   '3024-night.sh'
@@ -341,18 +352,17 @@ if [[ "$TERMINAL" = "tilix" ]] && [[ ${#OPTION[@]} -gt 0 ]]; then
   # | desides to abort before all themes has been processed this section will cleanup the tmpdir
   # | =======================================
   if [[ ${TILIX_RES::1} =~ ^(y|Y)$ ]]; then
-    cleanup() {
+    TILIX_TMP_CLEANUP() {
       echo
       echo "Cleaning up"
       rm -rf "$scratchdir"
-      unset LOOP OPTLENGTH
+      unset LOOP OPTLENGTH scratchdir
       echo "Done..."
       exit 0
     }
 
     scratchdir=$(mktemp -d -t tmp.XXXXXXXX)
     export scratchdir
-    trap 'cleanup; trap - EXIT' EXIT HUP INT QUIT PIPE TERM
   fi
 fi
 

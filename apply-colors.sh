@@ -10,6 +10,35 @@ GS="${GS:-$(command -v gsettings | xargs echo)}"
 # Note: xargs echo is to make the command sucessful even if it was not
 # otherwise the script will exit if the command does not exist (elementary os)
 
+# |
+# | Make sure all exported variables get unset no matter what
+# | Defining this in this script because it gets called even if
+# | gogh.sh was not called. Exported variables in gogh.sh gets
+# | handled there in case there was en error before this script was called
+# | ============================================
+GLOBAL_VAR_CLEANUP() {
+  unset PROFILE_NAME
+  unset PROFILE_SLUG
+  unset scratchdir
+  unset TILIX_RES
+  unset TERMINAL
+  unset LOOP
+  unset OPTLENGTH
+
+  for c in $(seq -s " " -w 16); do
+    unset DEMO_COLOR_${c}
+    unset COLOR_${c}
+  done
+
+  unset BACKGROUND_COLOR
+  unset FOREGROUND_COLOR
+  unset CURSOR_COLOR
+  unset PROFILE_NAME
+}
+
+# Note: Since all scripts gets invoked in a subshell the traps from the parent shell 
+# will not get inherited. Hence traps defined in gogh.sh and print-themes.sh will still trigger
+trap 'GLOBAL_VAR_CLEANUP; trap - EXIT' EXIT HUP INT QUIT PIPE TERM
 
 # |
 # | Second test for TERMINAL in case user ran
@@ -252,6 +281,7 @@ if [[ "${COLORTERM:-}" == "truecolor" ]] || [[ "${COLORTERM:-}" == "24bit" ]]; t
       [[ "$c" == "08" ]] && color_str+="\n" # new line
     done
     printf '\n%b\n\n\n' "${color_str}"
+    unset color_str
   }
 else
   function gogh_colors () {
@@ -262,6 +292,7 @@ else
       [[ $c == 7 ]] && color_str+="\n" # new line
     done
     printf '\n%b\n\n' "${color_str}"
+    unset color_str
   }
 fi
 
