@@ -1,53 +1,33 @@
 #!/usr/bin/env bash
 
+trap 'unset GOGH_DRY_RUN; unset -f color; trap - EXIT' EXIT HUP INT QUIT PIPE TERM
+
 if [[ "${COLORTERM:-}" != "truecolor" ]] && [[ "${COLORTERM:-}" != "24bit" ]]; then
-  echo "TrueColor support is needed for this to function"
-  echo "You can try to manually set COLORTERM to truecolor"
+  printf '%s\n' "TrueColor support is needed for this to function"   \
+                "You can try to manually set COLORTERM to truecolor"
   exit 1
 fi
 
-# Reset color
-export RS="$(tput sgr0)"
-
 # Print all themes without applying, this variable gets checked in apply-colors.sh
-export GOGH_DRY_RUN=1
+export GOGH_DRY_RUN=1 
 
 color () {
-  # echo ""
-  #black
-  echo -e "${DEMO_COLOR_01} ███ *** AaBbCs ---  ███ ${RS}   ---> Color 01 'tput setaf 0'"
-  #red
-  echo -e "${DEMO_COLOR_02} ███ *** AaBbCs ---  ███ ${RS}   ---> Color 02 'tput setaf 1'"
-  #green
-  echo -e "${DEMO_COLOR_03} ███ *** AaBbCs ---  ███ ${RS}   ---> Color 03 'tput setaf 2'"
-  #yellow
-  echo -e "${DEMO_COLOR_04} ███ *** AaBbCs ---  ███ ${RS}   ---> Color 04 'tput setaf 3'"
-  #blue
-  echo -e "${DEMO_COLOR_05} ███ *** AaBbCs ---  ███ ${RS}   ---> Color 05 'tput setaf 4'"
-  #purple
-  echo -e "${DEMO_COLOR_06} ███ *** AaBbCs ---  ███ ${RS}   ---> Color 06 'tput setaf 5'"
-  #cyan
-  echo -e "${DEMO_COLOR_07} ███ *** AaBbCs ---  ███ ${RS}   ---> Color 07 'tput setaf 6'"
-  #white
-  echo -e "${DEMO_COLOR_08} ███ *** AaBbCs ---  ███ ${RS}   ---> Color 08 'tput setaf 7'"
-  echo ""
-  #black
-  echo -e "${DEMO_COLOR_09} ███ *** AaBbCs ---  ███ ${RS}   ---> Color 09 'tput setaf 8'"
-  #red
-  echo -e "${DEMO_COLOR_10} ███ *** AaBbCs ---  ███ ${RS}   ---> Color 10 'tput setaf 9'"
-  #green
-  echo -e "${DEMO_COLOR_11} ███ *** AaBbCs ---  ███ ${RS}   ---> Color 11 'tput setaf 10'"
-  #yellow
-  echo -e "${DEMO_COLOR_12} ███ *** AaBbCs ---  ███ ${RS}   ---> Color 12 'tput setaf 11'"
-  #blue
-  echo -e "${DEMO_COLOR_13} ███ *** AaBbCs ---  ███ ${RS}   ---> Color 13 'tput setaf 12'"
-  #purple
-  echo -e "${DEMO_COLOR_14} ███ *** AaBbCs ---  ███ ${RS}   ---> Color 14 'tput setaf 13'"
-  #cyan
-  echo -e "${DEMO_COLOR_15} ███ *** AaBbCs ---  ███ ${RS}   ---> Color 15 'tput setaf 14'"
-  #white
-  echo -e "${DEMO_COLOR_16} ███ *** AaBbCs ---  ███ ${RS}   ---> Color 16 'tput setaf 15'"
-  echo ""
+  printf '%b\n'   "${DEMO_COLOR_01} ███ *** AaBbCs ---  ███ $(tput sgr0)   ---> Color 01 'tput setaf 0'"  # black
+  printf '%b\n'   "${DEMO_COLOR_02} ███ *** AaBbCs ---  ███ $(tput sgr0)   ---> Color 02 'tput setaf 1'"  # red
+  printf '%b\n'   "${DEMO_COLOR_03} ███ *** AaBbCs ---  ███ $(tput sgr0)   ---> Color 03 'tput setaf 2'"  # green
+  printf '%b\n'   "${DEMO_COLOR_04} ███ *** AaBbCs ---  ███ $(tput sgr0)   ---> Color 04 'tput setaf 3'"  # yellow
+  printf '%b\n'   "${DEMO_COLOR_05} ███ *** AaBbCs ---  ███ $(tput sgr0)   ---> Color 05 'tput setaf 4'"  # blue
+  printf '%b\n'   "${DEMO_COLOR_06} ███ *** AaBbCs ---  ███ $(tput sgr0)   ---> Color 06 'tput setaf 5'"  # pruple
+  printf '%b\n'   "${DEMO_COLOR_07} ███ *** AaBbCs ---  ███ $(tput sgr0)   ---> Color 07 'tput setaf 6'"  # cyan
+  printf '%b\n\n' "${DEMO_COLOR_08} ███ *** AaBbCs ---  ███ $(tput sgr0)   ---> Color 08 'tput setaf 7'"  # white
+  printf '%b\n'   "${DEMO_COLOR_09} ███ *** AaBbCs ---  ███ $(tput sgr0)   ---> Color 09 'tput setaf 8'"  # bold black
+  printf '%b\n'   "${DEMO_COLOR_10} ███ *** AaBbCs ---  ███ $(tput sgr0)   ---> Color 10 'tput setaf 9'"  # bold red
+  printf '%b\n'   "${DEMO_COLOR_11} ███ *** AaBbCs ---  ███ $(tput sgr0)   ---> Color 11 'tput setaf 10'" # bold green
+  printf '%b\n'   "${DEMO_COLOR_12} ███ *** AaBbCs ---  ███ $(tput sgr0)   ---> Color 12 'tput setaf 11'" # bold yellow
+  printf '%b\n'   "${DEMO_COLOR_13} ███ *** AaBbCs ---  ███ $(tput sgr0)   ---> Color 13 'tput setaf 12'" # bold blue
+  printf '%b\n'   "${DEMO_COLOR_14} ███ *** AaBbCs ---  ███ $(tput sgr0)   ---> Color 14 'tput setaf 13'" # bold purple
+  printf '%b\n'   "${DEMO_COLOR_15} ███ *** AaBbCs ---  ███ $(tput sgr0)   ---> Color 15 'tput setaf 14'" # bold cyan
+  printf '%b\n\n' "${DEMO_COLOR_16} ███ *** AaBbCs ---  ███ $(tput sgr0)   ---> Color 16 'tput setaf 15'" # bold white
 }
 
 export -f color
@@ -293,5 +273,3 @@ LOOP=$((${LOOP:-(-1)}+1))
 command -v bar::status_changed > /dev/null && bar::status_changed $LOOP ${#THEMES[@]}
 
 command -v bar::stop > /dev/null && bar::stop || :
-
-unset GOGH_DRY_RUN
