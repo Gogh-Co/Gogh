@@ -19,7 +19,7 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that u
 ## Pre-Install
 
 ```bash
-$ sudo apt-get install dconf-cli
+  $ sudo apt-get install dconf-cli
 ```
 
 ## [Install](https://github.com/Mayccoll/Gogh/blob/master/content/install.md)
@@ -27,7 +27,13 @@ $ sudo apt-get install dconf-cli
 Just copy and paste One line command.
 
 ```bash
-  $  wget -O gogh https://git.io/vQgMr && chmod +x gogh && ./gogh && rm gogh
+  $  bash -c  "$(wget -qO- https://git.io/vQgMr)"
+```
+
+or if you are a mac user
+
+```bash
+  $  bash -c  "$(curl -sLo- https://git.io/vQgMr)"
 ```
 
 **DEMO:**
