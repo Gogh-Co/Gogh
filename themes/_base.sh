@@ -23,7 +23,7 @@ export BACKGROUND_COLOR="#260346"   # Background Color
 export FOREGROUND_COLOR="#DADADA"   # Foreground Color (text)
 export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor color
 export PROFILE_NAME="_base"
-# =============================================
+# =============================================================== #
 
 
 
