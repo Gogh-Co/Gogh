@@ -1,28 +1,28 @@
 #!/usr/bin/env bash
 
 # ====================CONFIG THIS =============================== #
-COLOR_01="#15171c"           # HOST
-COLOR_02="#ec5f67"           # SYNTAX_STRING
-COLOR_03="#81a764"           # COMMAND
-COLOR_04="#fec254"           # COMMAND_COLOR2
-COLOR_05="#5486c0"           # PATH
-COLOR_06="#bf83c1"           # SYNTAX_VAR
-COLOR_07="#57c2c1"           # PROMP
-COLOR_08="#efece7"           #
+export COLOR_01="#15171c"           # HOST
+export COLOR_02="#ec5f67"           # SYNTAX_STRING
+export COLOR_03="#81a764"           # COMMAND
+export COLOR_04="#fec254"           # COMMAND_COLOR2
+export COLOR_05="#5486c0"           # PATH
+export COLOR_06="#bf83c1"           # SYNTAX_VAR
+export COLOR_07="#57c2c1"           # PROMP
+export COLOR_08="#efece7"           #
 
-COLOR_09="#555555"           #
-COLOR_10="#ff6973"           # COMMAND_ERROR
-COLOR_11="#93d493"           # EXEC
-COLOR_12="#ffd256"           #
-COLOR_13="#4d84d1"           # FOLDER
-COLOR_14="#ff55ff"           #
-COLOR_15="#83e9e4"           #
-COLOR_16="#ffffff"           #
+export COLOR_09="#555555"           #
+export COLOR_10="#ff6973"           # COMMAND_ERROR
+export COLOR_11="#93d493"           # EXEC
+export COLOR_12="#ffd256"           #
+export COLOR_13="#4d84d1"           # FOLDER
+export COLOR_14="#ff55ff"           #
+export COLOR_15="#83e9e4"           #
+export COLOR_16="#ffffff"           #
 
-BACKGROUND_COLOR="#222222"   # Background Color
-FOREGROUND_COLOR="#bdbaae"   # Text
-CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
-PROFILE_NAME="SpaceGray Eighties"
+export BACKGROUND_COLOR="#222222"   # Background Color
+export FOREGROUND_COLOR="#bdbaae"   # Text
+export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+export PROFILE_NAME="SpaceGray Eighties"
 # =============================================================== #
 
 
@@ -34,33 +34,21 @@ PROFILE_NAME="SpaceGray Eighties"
 # =============================================================== #
 # | Apply Colors
 # ===============================================================|#
-function gogh_colors () {
-    echo ""
-    echo -e "\033[0;30m█████\\033[0m\033[0;31m█████\\033[0m\033[0;32m█████\\033[0m\033[0;33m█████\\033[0m\033[0;34m█████\\033[0m\033[0;35m█████\\033[0m\033[0;36m█████\\033[0m\033[0;37m█████\\033[0m"
-    echo -e "\033[0m\033[1;30m█████\\033[0m\033[1;31m█████\\033[0m\033[1;32m█████\\033[0m\033[1;33m█████\\033[0m\033[1;34m█████\\033[0m\033[1;35m█████\\033[0m\033[1;36m█████\\033[0m\033[1;37m█████\\033[0m"
-    echo ""
-}
+SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
+PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 
-function curlsource() {
-    f=$(mktemp -t curlsource)
-    curl -o "$f" -s -L "$1"
-    source "$f"
-    rm -f "$f"
-}
+# Allow developer to change url to forked url for easier testing
+BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Mayccoll/Gogh/master"}
 
-SCRIPT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-PARENT_PATH="$(dirname "$SCRIPT_PATH")"
 
-gogh_colors
-if [ -e $PARENT_PATH"/apply-colors.sh" ]; then
-    source $PARENT_PATH"/apply-colors.sh"
+if [[ -e "${PARENT_PATH}/apply-colors.sh" ]]; then
+  bash "${PARENT_PATH}/apply-colors.sh"
 else
-        if [ $(uname) = "Darwin" ]; then
-        # OSX ships with curl and ancient bash
-        # Note: here, sourcing directly from curl does not work
-        curlsource https://raw.githubusercontent.com/Mayccoll/Gogh/master/apply-colors.sh
-    else
-        # Linux ships with wget
-        source <(wget -O - https://raw.githubusercontent.com/Mayccoll/Gogh/master/apply-colors.sh)
-    fi
+  if [[ "$(uname)" = "Darwin" ]]; then
+    # OSX ships with curl and ancient bash
+    bash -c "$(curl -so- "${BASE_URL}/apply-colors.sh")"
+  else
+    # Linux ships with wget
+    bash -c "$(wget -qO- "${BASE_URL}/apply-colors.sh")"
+  fi
 fi

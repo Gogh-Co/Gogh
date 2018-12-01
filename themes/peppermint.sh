@@ -1,28 +1,28 @@
 #!/usr/bin/env bash
 
 # ====================CONFIG THIS =============================== #
-COLOR_01="#353535"
-COLOR_02="#E64569"
-COLOR_03="#89D287"
-COLOR_04="#DAB752"
-COLOR_05="#439ECF"
-COLOR_06="#D961DC"
-COLOR_07="#64AAAF"
-COLOR_08="#B3B3B3"
+export COLOR_01="#353535"
+export COLOR_02="#E64569"
+export COLOR_03="#89D287"
+export COLOR_04="#DAB752"
+export COLOR_05="#439ECF"
+export COLOR_06="#D961DC"
+export COLOR_07="#64AAAF"
+export COLOR_08="#B3B3B3"
 
-COLOR_09="#535353"
-COLOR_10="#E4859A"
-COLOR_11="#A2CCA1"
-COLOR_12="#E1E387"
-COLOR_13="#6FBBE2"
-COLOR_14="#E586E7"
-COLOR_15="#96DCDA"
-COLOR_16="#DEDEDE"
+export COLOR_09="#535353"
+export COLOR_10="#E4859A"
+export COLOR_11="#A2CCA1"
+export COLOR_12="#E1E387"
+export COLOR_13="#6FBBE2"
+export COLOR_14="#E586E7"
+export COLOR_15="#96DCDA"
+export COLOR_16="#DEDEDE"
 
-BACKGROUND_COLOR="#000000"
-FOREGROUND_COLOR="#C7C7C7"
-CURSOR_COLOR="#BBBBBB"
-PROFILE_NAME="Peppermint"
+export BACKGROUND_COLOR="#000000"
+export FOREGROUND_COLOR="#C7C7C7"
+export CURSOR_COLOR="#BBBBBB"
+export PROFILE_NAME="Peppermint"
 # =============================================================== #
 
 
@@ -34,36 +34,21 @@ PROFILE_NAME="Peppermint"
 # =============================================================== #
 # | Apply Colors
 # ===============================================================|#
-function gogh_colors () {
-    echo ""
-    echo -e "\033[0;30m█████\\033[0m\033[0;31m█████\\033[0m\033[0;32m█████\\033[0m\033[0;33m█████\\033[0m\033[0;34m█████\\033[0m\033[0;35m█████\\033[0m\033[0;36m█████\\033[0m\033[0;37m█████\\033[0m"
-    echo -e "\033[0m\033[1;30m█████\\033[0m\033[1;31m█████\\033[0m\033[1;32m█████\\033[0m\033[1;33m█████\\033[0m\033[1;34m█████\\033[0m\033[1;35m█████\\033[0m\033[1;36m█████\\033[0m\033[1;37m█████\\033[0m"
-    echo ""
-}
+SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
+PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 
-function curlsource() {
-    f=$(mktemp -t curlsource)
-    curl -o "$f" -s -L "$1"
-    source "$f"
-    rm -f "$f"
-}
+# Allow developer to change url to forked url for easier testing
+BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Mayccoll/Gogh/master"}
 
-SCRIPT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-PARENT_PATH="$(dirname "$SCRIPT_PATH")"
 
-if [ -e $PARENT_PATH"/apply-colors.sh" ]
-then
-gogh_colors
-source $PARENT_PATH"/apply-colors.sh"
-
+if [[ -e "${PARENT_PATH}/apply-colors.sh" ]]; then
+  bash "${PARENT_PATH}/apply-colors.sh"
 else
-gogh_colors
-    if [ $(uname) = "Darwin" ]; then
-        # OSX ships with curl and ancient bash
-        # Note: here, sourcing directly from curl does not work
-        curlsource https://raw.githubusercontent.com/Mayccoll/Gogh/master/apply-colors.sh
-    else
-        # Linux ships with wget
-        source <(wget -O - https://raw.githubusercontent.com/Mayccoll/Gogh/master/apply-colors.sh)
-    fi
+  if [[ "$(uname)" = "Darwin" ]]; then
+    # OSX ships with curl and ancient bash
+    bash -c "$(curl -so- "${BASE_URL}/apply-colors.sh")"
+  else
+    # Linux ships with wget
+    bash -c "$(wget -qO- "${BASE_URL}/apply-colors.sh")"
+  fi
 fi
