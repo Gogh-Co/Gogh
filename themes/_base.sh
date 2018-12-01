@@ -1,29 +1,29 @@
 #!/usr/bin/env bash
 
 # ====================CONFIG THIS =============================== #
-export COLOR_01="#44475a"           # Black
-export COLOR_02="#ff5555"           # Red
-export COLOR_03="#50fa7b"           # Green
-export COLOR_04="#ffb86c"           # Yellow
-export COLOR_05="#8be9fd"           # Blue
-export COLOR_06="#bd93f9"           # Cyan
-export COLOR_07="#ff79c6"           # Magenta
-export COLOR_08="#94A3A5"           # Light gray
+export COLOR_01="##243342"           # Black
+export COLOR_02="##C54133"           # Red
+export COLOR_03="##27AE60"           # Green
+export COLOR_04="##EDB20A"           # Yellow
+export COLOR_05="##2479D0"           # Blue
+export COLOR_06="##7D3EA0"           # Magenta
+export COLOR_07="##1D8579"           # Cyan
+export COLOR_08="##C9CCCD"           # Light gray
 
-export COLOR_09="#000000"           # Dark gray
-export COLOR_10="#ff5555"           # Light Red
-export COLOR_11="#50fa7b"           # Light Green
-export COLOR_12="#ffb86c"           # Light Yellow
-export COLOR_13="#8be9fd"           # Light Blue
-export COLOR_14="#bd93f9"           # Light Cyan
-export COLOR_15="#ff79c6"           # Light Magenta
-export COLOR_16="#ffffff"           # White
+export COLOR_09="##34495E"           # Dark gray
+export COLOR_10="##E74C3C"           # Light Red
+export COLOR_11="##2ECC71"           # Light Green
+export COLOR_12="##F1C40F"           # Light Yellow
+export COLOR_13="##3498DB"           # Light Blue
+export COLOR_14="##9B59B6"           # Light Magenta
+export COLOR_15="##2AA198"           # Light Cyan
+export COLOR_16="##ECF0F1"           # White
 
-export BACKGROUND_COLOR="#282a36"   # Background Color
-export FOREGROUND_COLOR="#94A3A5"   # Foreground Color (text)
+export BACKGROUND_COLOR="#260346"   # Background Color
+export FOREGROUND_COLOR="#DADADA"   # Foreground Color (text)
 export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor color
 export PROFILE_NAME="_base"
-# =============================================
+# =============================================================== #
 
 
 
