@@ -62,8 +62,6 @@ declare -a THEMES=(
   'frontend-fun-forrest.sh'
   'frontend-galaxy.sh'
   'github.sh'
-  'google-dark.sh'
-  'google-light.sh'
   'gooey.sh'
   'grape.sh'
   'grass.sh'
@@ -183,6 +181,7 @@ declare -a THEMES=(
 
 # Allow developer to change url to forked url for easier testing
 BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Mayccoll/Gogh/master"}
+PROGRESS_URL="https://raw.githubusercontent.com/phenonymous/shell-progressbar/1.0/progress.sh"
 
 capitalize() {
   local ARGUMENT=$1
@@ -329,10 +328,11 @@ fi
 # | ::::::: Fancy progressbar for lengthy operations
 # |
 if [[ ${#OPTION[@]} -gt 5 ]]; then
+  # Note: We use eval here because we want the functions to be available in this script
   if [[ "$(uname)" = "Darwin" ]]; then
-    eval "$(curl -sLo- https://git.io/progressbar)" 2> /dev/null
+    eval "$(curl -so- ${PROGRESS_URL})" 2> /dev/null
   else
-    eval "$(wget -qO- https://git.io/progressbar)"  2> /dev/null
+    eval "$(wget -qO- ${PROGRESS_URL})"  2> /dev/null
   fi
 fi
 
@@ -410,4 +410,6 @@ for OP in "${OPTION[@]#0}"; do
     exit 1
   fi
 done
+# If you skip || : and the command does not exist the script will exit with code 1
+# this will always return exit code 0 if we got this far
 command -v bar::stop > /dev/null && bar::stop || :
