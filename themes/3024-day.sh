@@ -38,6 +38,7 @@ SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
 PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 
 # Allow developer to change url to forked url for easier testing
+# IMPORTANT: Make sure you export this variable if your main shell is not bash
 BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Mayccoll/Gogh/master"}
 
 
@@ -52,4 +53,3 @@ else
     bash -c "$(wget -qO- "${BASE_URL}/apply-colors.sh")"
   fi
 fi
-
