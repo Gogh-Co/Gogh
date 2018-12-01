@@ -30,7 +30,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel=stylesheet>
   <link rel=stylesheet href=./components/prism/prism.css>
   <link rel=stylesheet href=./css/main.min.css>
-  <link rel=stylesheet href="http://fonts.googleapis.com/css?family=Antic|Raleway:300">
+  <link href="https://fonts.googleapis.com/css?family=RalewayRaleway:300,400,700" rel="stylesheet">
 </head>
 
 <body>
@@ -46,7 +46,7 @@
     <p> Just copy and paste One line command. </p>
 
     <div class="code-wrap">
-      <pre><code class=language-bash id="foo"> wget -O gogh https://git.io/vQgMr && chmod +x gogh && ./gogh && rm gogh </code></pre>
+      <pre><code class=language-bash id="foo"> bash -c  "$(wget -qO- https://git.io/vQgMr)" </code></pre>
       <span class="btn-copy" data-clipboard-target="#foo">
         <img class="clippy" src="./img/clippy.svg" alt="Copy to clipboard">
     </span>
