@@ -1,8 +1,20 @@
 'use strict';
 
-const gulp = require('gulp');
+const gulp        = require('gulp');
 
-const browserSync = require('browser-sync').create();
+const htmlmin      = require('gulp-htmlmin');
+const inlinesource = require('gulp-inline-source');
+const rename       = require("gulp-rename");
+const browserSync  = require('browser-sync').create();
+
+
+gulp.task('minify', () => {
+  return gulp.src('./*.src.html')
+    .pipe(inlinesource())
+    .pipe(htmlmin({ collapseWhitespace: true }))
+    .pipe(rename("index.html"))
+    .pipe(gulp.dest('./'));
+});
 
 gulp.task('serve', function () {
   browserSync.init({
@@ -23,7 +35,7 @@ gulp.task('reload', function (done) {
 });
 
 gulp.task('watch', ['serve'], function () {
-  gulp.watch('./**/*', { interval: 800 }, ['reload']);
+  gulp.watch(['./**/*', '!./index.html'], { interval: 800 }, ['minify', 'reload']);
 });
 
 gulp.task('default', ['watch']);

@@ -13,6 +13,9 @@
   "dependencies": {
     "browser-sync": "^2.24.7",
     "compass-mixins": "^0.12.10",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-inline-source": "^4.0.0",
+    "gulp-rename": "^1.4.0"
   }
 }
