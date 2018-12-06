@@ -99,16 +99,20 @@ If you want to create your own color scheme or contribute to the project. [Here.
 <br/>
 <br/>
 
+## Why Gogh?
+
+There is no blue without yellow and without orange.
+-- [Vincent Van Gogh](https://en.wikipedia.org/wiki/Vincent_van_Gogh)
+
+<br/>
+<br/>
 
 ## Author
 
 - Miguel D. Quintero - [Lanet.co](https://lanet.co)
 
-
-
 <br/>
 <br/>
-
 
 
 ## Mentions
