@@ -7,7 +7,7 @@ GLOBAL_VAR_CLEANUP(){
   unset PROFILE_SLUG
   unset TILIX_RES
   unset TERMINAL
-}    
+}
 
 trap 'GLOBAL_VAR_CLEANUP; trap - EXIT' EXIT HUP INT QUIT PIPE TERM
 
@@ -33,13 +33,13 @@ declare -a THEMES=(
   'brogrammer.sh'
   'c64.sh'
   'cai.sh'
-  'chalk.sh'
   'chalkboard.sh'
+  'chalk.sh'
   'ciapre.sh'
   'clone-of-ubuntu.sh'
   'clrs.sh'
-  'cobalt-neon.sh'
   'cobalt2.sh'
+  'cobalt-neon.sh'
   'crayon-pony-fish.sh'
   'dark-pastel.sh'
   'darkside.sh'
@@ -54,8 +54,8 @@ declare -a THEMES=(
   'espresso-libre.sh'
   'espresso.sh'
   'fishtank.sh'
-  'flat.sh'
   'flatland.sh'
+  'flat.sh'
   'foxnightly.sh'
   'freya.sh'
   'frontend-delight.sh'
@@ -89,8 +89,9 @@ declare -a THEMES=(
   'kibble.sh'
   'later-this-evening.sh'
   'lavandula.sh'
-  'liquid-carbon-transparent.sh'
   'liquid-carbon.sh'
+  'liquid-carbon-transparent.sh'
+  'maia.sh'
   'man-page.sh'
   'mar.sh'
   'material.sh'
@@ -114,8 +115,8 @@ declare -a THEMES=(
   'novel.sh'
   'obsidian.sh'
   'ocean-dark.sh'
-  'ocean.sh'
   'oceanic-next.sh'
+  'ocean.sh'
   'ollie.sh'
   'one-dark.sh'
   'one-half-black.sh'
@@ -133,8 +134,8 @@ declare -a THEMES=(
   'rippedcasts.sh'
   'royal.sh'
   'sat.sh'
-  'sea-shells.sh'
   'seafoam-pastel.sh'
+  'sea-shells.sh'
   'seti.sh'
   'shaman.sh'
   'shel.sh'
@@ -179,7 +180,7 @@ declare -a THEMES=(
   'wombat.sh'
   'wryan.sh'
   'zenburn.sh'
-  )
+)
 
 # Allow developer to change url to forked url for easier testing
 BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Mayccoll/Gogh/master"}
@@ -347,7 +348,7 @@ if [[ "$TERMINAL" = "tilix" ]] && [[ ${#OPTION[@]} -gt 0 ]]; then
   echo
   read -r -p "Tilix detected - use color schemes instead of profiles? [y/N] " -n 1 TILIX_RES
   echo
-  
+
   # |
   # | When selecting multiple themes and user opts for color schemes, we save all themes
   # | in a tmpdir and copy the files once all themes has been processed.. If a user
