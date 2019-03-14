@@ -78,6 +78,7 @@ declare -a THEMES=(
   'homebrew.sh'
   'hurtado.sh'
   'hybrid.sh'
+  'ibm3270.sh'
   'ic-green-ppl.sh'
   'ic-orange-ppl.sh'
   'idle-toes.sh'
