@@ -8,7 +8,7 @@ export COLOR_04="#F0D824"           # Yellow
 export COLOR_05="#7890F0"           # Blue
 export COLOR_06="#F078D8"           # Magenta
 export COLOR_07="#54E4E4"           # Cyan
-export COLOR_08="#BBBBBB"           # Light gray
+export COLOR_08="#A5A5A5"           # Light gray
 
 export COLOR_09="#888888"           # Dark gray
 export COLOR_10="#EF8383"           # Light Red
@@ -20,7 +20,7 @@ export COLOR_15="#9CE2E2"           # Light Cyan
 export COLOR_16="#FFFFFF"           # White
 
 export BACKGROUND_COLOR="#000000"   # Background Color
-export FOREGROUND_COLOR="#A5A5A5"   # Foreground Color (text)
+export FOREGROUND_COLOR="#FDFDFD"   # Foreground Color (text)
 export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor color
 export PROFILE_NAME="ibm3270"
 # =============================================================== #
