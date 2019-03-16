@@ -3,6 +3,10 @@ minig
 
 A minimal version of [Gogh](https://mayccoll.github.io/Gogh/) with beautifully crafted, retro-inspired monochrome themes.
 
+## Themes
+
+![minig gif](https://git.io/fjvL4)
+
 ## Requirements
 
 ```bash
