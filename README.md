@@ -1,7 +1,7 @@
 minig
 =====
 
-A mini (and minimal) version of [Gogh](https://mayccoll.github.io/Gogh/) with beautifully crafted, retro-inspired monochrome themes.
+A minimal version of [Gogh](https://mayccoll.github.io/Gogh/) with beautifully crafted, retro-inspired monochrome themes.
 
 ## Requirements
 
@@ -14,15 +14,15 @@ A mini (and minimal) version of [Gogh](https://mayccoll.github.io/Gogh/) with be
 Just copy and paste One line command.
 
 ```bash
-  $  bash -c  "$(wget -qO- https://git.io/vQgMr)"
+  $  bash -c  "$(wget -qO- https://git.io/fjvLY)"
 ```
 
 or if you are a mac user
 
 ```bash
-  $  bash -c  "$(curl -sLo- https://git.io/vQgMr)"
+  $  bash -c  "$(curl -sLo- https://git.io/fjvLY)"
 ```
 
 ## Credits
 
-minig is entirely based on the awesome Gogh tool by [Miguel D. Quintero](https://lanet.co)
+minig is based on the awesome Gogh tool by [Miguel D. Quintero](https://lanet.co)
