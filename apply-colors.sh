@@ -561,36 +561,48 @@ apply_xfce4-terminal() {
     # any of the themes in there. The color settings need to
     # be written there directly.
     if ((LOOP == OPTLENGTH)); then
-        if grep -q "^ColorPalette=" "${CONFFILE}"; then
-            sed -i -r -e "s/^ColorPalette=.*/${L_COLORPALETTE}/" "${CONFFILE}"
-        else
-            echo "${L_COLORPALETTE}" >> "${CONFFILE}"
-        fi
-        
-        if grep -q "^ColorCursor=" "${CONFFILE}"; then
-            sed -i -r -e "s/^ColorCursor=.*/${L_COLORCURSOR}/" "${CONFFILE}"
-        else
-            echo "${L_COLORCURSOR}" >> "${CONFFILE}"
-        fi
+        read -r -p "All done - apply new theme? [y/N] " -n 1 XFCE4_APPLY_CURR_THEME
+        if [[ ${XFCE4_APPLY_CURR_THEME::1} =~ ^(y|Y)$ ]]; then
+            if grep -q "^ColorPalette=" "${CONFFILE}"; then
+                sed -i -r -e "s/^ColorPalette=.*/${L_COLORPALETTE}/" "${CONFFILE}"
+            else
+                echo "${L_COLORPALETTE}" >> "${CONFFILE}"
+            fi
+            
+            if grep -q "^ColorCursor=" "${CONFFILE}"; then
+                sed -i -r -e "s/^ColorCursor=.*/${L_COLORCURSOR}/" "${CONFFILE}"
+            else
+                echo "${L_COLORCURSOR}" >> "${CONFFILE}"
+            fi
 
-        if grep -q "^ColorForeground=" "${CONFFILE}"; then
-            sed -i -r -e "s/^ColorForeground=.*/ColorForeground=${FOREGROUND_COLOR}/" "${CONFFILE}"
-        else
-            echo "ColorForeground=${FOREGROUND_COLOR}" >> "${CONFFILE}"
-        fi
+            if grep -q "^ColorForeground=" "${CONFFILE}"; then
+                sed -i -r -e "s/^ColorForeground=.*/ColorForeground=${FOREGROUND_COLOR}/" "${CONFFILE}"
+            else
+                echo "ColorForeground=${FOREGROUND_COLOR}" >> "${CONFFILE}"
+            fi
 
-        if grep -q "^ColorBackground=" "${CONFFILE}"; then
-            sed -i -r -e "s/^ColorBackground=.*/ColorBackground=${BACKGROUND_COLOR}/" "${CONFFILE}"
-        else
-            echo "ColorBackground=${BACKGROUND_COLOR}" >> "${CONFFILE}"
-        fi
+            if grep -q "^ColorBackground=" "${CONFFILE}"; then
+                sed -i -r -e "s/^ColorBackground=.*/ColorBackground=${BACKGROUND_COLOR}/" "${CONFFILE}"
+            else
+                echo "ColorBackground=${BACKGROUND_COLOR}" >> "${CONFFILE}"
+            fi
 
-        if grep -q "^ColorCursorUseDefault=FALSE" "${CONFFILE}"; then
-            true
-        else
-            echo "ColorCursorUseDefault=FALSE" >> "${CONFFILE}"
+            if grep -q "^ColorCursorUseDefault=FALSE" "${CONFFILE}"; then
+                true
+            else
+                echo "ColorCursorUseDefault=FALSE" >> "${CONFFILE}"
+            fi
         fi
     fi
+
+    unset SCHEMEDIR
+    unset CONFFILE
+    unset PROFILE_NAME
+    unset F_NAME
+    unset FF_NAME
+    unset L_COLORCURSOR
+    unset L_COLORPALETTE
+    exit 0
 }
 
 [[ -n "${UUIDGEN}" ]] && PROFILE_SLUG="$(uuidgen)"
