@@ -522,6 +522,73 @@ appy_tilixschemes() {
   fi
 }
 
+apply_xfce4-terminal() {
+    # XFCE4 terminal has no profiles, instead it uses color presets
+    SCHEMEDIR="${HOME}/.local/share/xfce4/terminal/colorschemes"
+    CONFFILE="${HOME}/.config/xfce4/terminal/terminalrc"
+
+    if [[ ! (-w "${CONFFILE}") ]]; then
+        echo "ERROR: config file not present or not writeable!"
+        exit 1
+    fi
+
+    [[ -d "${SCHEMEDIR}" ]] || mkdir -p "${SCHEMEDIR}"
+
+    F_NAME=${PROFILE_NAME// /-}
+    F_NAME=$(echo "${F_NAME}" | awk '{print tolower($0)}')
+
+    FF_NAME="${SCHEMEDIR}/${F_NAME}.theme"
+
+    touch "${FF_NAME}"
+
+    L_COLORCURSOR="ColorCursor=${CURSOR_COLOR}"
+    L_COLORPALETTE="ColorPalette=${COLOR_01};${COLOR_02};${COLOR_03};${COLOR_04};${COLOR_05};${COLOR_06};${COLOR_07};${COLOR_08};${COLOR_09};${COLOR_10};${COLOR_11};${COLOR_12};${COLOR_13};${COLOR_14};${COLOR_15};${COLOR_16}"
+
+    printf '%s\n' \
+        "[Scheme]" \
+        "Name=${PROFILE_NAME}" \
+        "ColorForeground=${FOREGROUND_COLOR}" \
+        "ColorBackground=${BACKGROUND_COLOR}" \
+        "${L_COLORCURSOR}" \
+        "${L_COLORPALETTE}" \
+        "ColorCursorUseDefault=FALSE" > ${FF_NAME}
+
+    # apply last theme in queue
+    # xfce4-terminal monitors its rc file and doesn't reference
+    # any of the themes in there. The color settings need to
+    # be written there directly.
+    if ((LOOP == OPTLENGTH)); then
+        if grep "^ColorPalette=" "${CONFFILE}"; then
+            sed -i -r -e "s/^ColorPalette=.*/${L_COLORPALETTE}/" "${CONFFILE}"
+        else
+            echo "${L_COLORPALETTE}" >> "${CONFFILE}"
+        fi
+        
+        if grep "^ColorCursor=" "${CONFFILE}"; then
+            sed -i -r -e "s/^ColorCursor=.*/${L_COLORCURSOR}/" "${CONFFILE}"
+        else
+            echo "${L_COLORCURSOR}" >> "${CONFFILE}"
+        fi
+
+        if grep "^ColorForeground=" "${CONFFILE}"; then
+            sed -i -r -e "s/^ColorForeground=.*/ColorForeground=${FOREGROUND_COLOR}/" "${CONFFILE}"
+        else
+            echo "ColorForeground=${FOREGROUND_COLOR}" >> "${CONFFILE}"
+        fi
+
+        if grep "^ColorBackground=" "${CONFFILE}"; then
+            sed -i -r -e "s/^ColorBackground=.*/ColorBackground=${BACKGROUND_COLOR}/" "${CONFFILE}"
+        else
+            echo "ColorBackground=${BACKGROUND_COLOR}" >> "${CONFFILE}"
+        fi
+
+        if grep "^ColorCursorUseDefault=FALSE" "${CONFFILE}"; then
+            true
+        else
+            echo "ColorCursorUseDefault=FALSE" >> "${CONFFILE}"
+        fi
+    fi
+}
 
 [[ -n "${UUIDGEN}" ]] && PROFILE_SLUG="$(uuidgen)"
 
@@ -603,6 +670,10 @@ case "${TERMINAL}" in
     apply_gtk
     ;;
 
+  xfce4-terminal )
+    apply_xfce4-terminal
+    ;;
+
   * )
     printf '%s\n'                                             \
     "Unsupported terminal!"                                   \
@@ -615,6 +686,7 @@ case "${TERMINAL}" in
     "   mate-terminal"                                        \
     "   gnome-terminal"                                       \
     "   tilix"                                                \
+    "   xfce4-terminal"                                       \
     ""                                                        \
     "If you believe you have recieved this message in error," \
     "try manually setting \`TERMINAL', hint: ps -h -o comm -p \$PPID"
