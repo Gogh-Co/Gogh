@@ -5,9 +5,9 @@ Gogh
 
 ## :small_orange_diamond: [Visit the Website](http://mayccoll.github.io/Gogh) :small_orange_diamond:
 
-## Color Scheme for Gnome Terminal, Pantheon Terminal and Tilix
+## Color Scheme for Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4 Terminal
 
-Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that use gnome terminal, Pantheon Terminal or Tilix, initially inspired by Elementary OS Luna. Also work on iTerm for macOS. You can check some themes [here...](https://mayccoll.github.io/Gogh/)
+Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that use Gnome Terminal, Pantheon Terminal, Tilix, or XFCE4 Terminal; initially inspired by Elementary OS Luna. Also works on iTerm for macOS. You can check-out the themes [here...](https://mayccoll.github.io/Gogh/)
 
 ![elementary](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/demos/themes.gif)
 
@@ -24,13 +24,13 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that u
 
 ## [Install](https://github.com/Mayccoll/Gogh/blob/master/content/install.md)
 
-Just copy and paste One line command.
+Just copy and paste this one-line command:
 
 ```bash
   $  bash -c  "$(wget -qO- https://git.io/vQgMr)"
 ```
 
-or if you are a mac user
+Or, if you are a Mac user:
 
 ```bash
   $  bash -c  "$(curl -sLo- https://git.io/vQgMr)"
@@ -46,7 +46,7 @@ or if you are a mac user
 
 ## [Themes](https://mayccoll.github.io/Gogh/)
 
-We have lots of themes. Check them out! [Here...](https://mayccoll.github.io/Gogh/)
+We have lots of themes. Check them out [Here...](https://mayccoll.github.io/Gogh/)!
 
 
 <br/>
@@ -56,7 +56,7 @@ We have lots of themes. Check them out! [Here...](https://mayccoll.github.io/Gog
 
 ## [How to](https://github.com/Mayccoll/Gogh/blob/master/content/howto.md)
 
-If you want to create your own color scheme or contribute to the project. [Here...](https://github.com/Mayccoll/Gogh/blob/master/content/howto.md)
+If you want to create your own color scheme or contribute to the project, [start here](https://github.com/Mayccoll/Gogh/blob/master/content/howto.md).
 
 
 
