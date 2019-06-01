@@ -130,6 +130,8 @@ declare -a THEMES=(
   'one-half-black.sh'
   'one-light.sh'
   'pali.sh'
+  'papercolor-dark.sh'
+  'papercolor-light.sh'
   'paraiso-dark.sh'
   'paul-millr.sh'
   'pencil-dark.sh'
