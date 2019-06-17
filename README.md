@@ -19,7 +19,7 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that u
 ## Pre-Install
 
 ```bash
-  $ sudo apt-get install dconf-cli
+  $ sudo apt-get install dconf-cli uuid-runtime
 ```
 
 ## [Install](https://github.com/Mayccoll/Gogh/blob/master/content/install.md)
