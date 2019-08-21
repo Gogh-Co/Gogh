@@ -33,6 +33,9 @@ GLOBAL_VAR_CLEANUP() {
   unset BACKGROUND_COLOR
   unset FOREGROUND_COLOR
   unset CURSOR_COLOR
+  unset HIGHLIGHT_FG_COLOR
+  unset HIGHLIGHT_BG_COLOR
+  unset USE_SYS_TRANSPARENCY
   unset PROFILE_NAME
 }
 
@@ -235,6 +238,14 @@ set_theme() {
   dset background-color                "'${BACKGROUND_COLOR}'"
   dset foreground-color                "'${FOREGROUND_COLOR}'"
 
+  if [[ -n "${HIGHLIGHT_BG_COLOR:-}" ]]; then
+    dset   highlight-colors-set        "true"
+    dset   highlight-background-color  "'${HIGHLIGHT_BG_COLOR}'"
+    if [[ -n "${HIGHLIGHT_FG_COLOR:-}" ]]; then
+      dset   highlight-foreground-color  "'${HIGHLIGHT_FG_COLOR}'"
+    fi
+  fi
+
   if [[ -n "${BOLD_COLOR:-}" ]]; then
     dset   bold-color                  "'${BOLD_COLOR}'"
     dset   bold-color-same-as-fg       "false"
@@ -244,6 +255,7 @@ set_theme() {
   fi
   dset     use-theme-colors            "false"
   dset     use-theme-background        "false"
+  dset     use-theme-transparency      "${USE_SYS_TRANSPARENCY:-false}"
 }
 
 legacy_set_theme() {
@@ -431,6 +443,8 @@ apply_gtk() {
 
     BACKGROUND_COLOR=$(gnome_color "$BACKGROUND_COLOR")
     FOREGROUND_COLOR=$(gnome_color "$FOREGROUND_COLOR")
+    HIGHLIGHT_BG_COLOR=$(gnome_color "$HIGHLIGHT_BG_COLOR")
+    HIGHLIGHT_FG_COLOR=$(gnome_color "$HIGHLIGHT_FG_COLOR")
     COLOR_01=$(gnome_color         "$COLOR_01")
     COLOR_02=$(gnome_color         "$COLOR_02")
     COLOR_03=$(gnome_color         "$COLOR_03")
