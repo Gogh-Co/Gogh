@@ -33,6 +33,8 @@ GLOBAL_VAR_CLEANUP() {
   unset BACKGROUND_COLOR
   unset FOREGROUND_COLOR
   unset CURSOR_COLOR
+  unset HIGHLIGHT_FG_COLOR
+  unset HIGHLIGHT_BG_COLOR
   unset PROFILE_NAME
 }
 
@@ -234,6 +236,12 @@ set_theme() {
   dset visible-name                    "'${PROFILE_NAME}'"
   dset background-color                "'${BACKGROUND_COLOR}'"
   dset foreground-color                "'${FOREGROUND_COLOR}'"
+
+  if [[ -n "${HIGHLIGHT_BG_COLOR:-}" ]]; then
+    dset   highlight-colors-set        "true"
+    dset   highlight-background-color  "${HIGHLIGHT_BG_COLOR}"
+    dset   highlight-foreground-color  "${HIGHLIGHT_FG_COLOR:-$FOREGROUND_COLOR}"
+  fi
 
   if [[ -n "${BOLD_COLOR:-}" ]]; then
     dset   bold-color                  "'${BOLD_COLOR}'"

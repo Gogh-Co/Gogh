@@ -11,6 +11,8 @@ GLOBAL_VAR_CLEANUP(){
 
 trap 'GLOBAL_VAR_CLEANUP; trap - EXIT' EXIT HUP INT QUIT PIPE TERM
 
+# TO-DO: Investigate dynamically building this array e.g.
+# curl -s https://github.com/Mayccoll/Gogh/tree/master/themes | grep -o "title=.*\.sh\" " | awk -F '=' '{print $2}'
 declare -a THEMES=(
   '3024-day.sh'
   '3024-night.sh'
@@ -40,6 +42,7 @@ declare -a THEMES=(
   'clrs.sh'
   'cobalt2.sh'
   'cobalt-neon.sh'
+  'colorcli.sh'
   'crayon-pony-fish.sh'
   'dark-pastel.sh'
   'darkside.sh'
@@ -141,6 +144,7 @@ declare -a THEMES=(
   'pro.sh'
   'red-alert.sh'
   'red-sands.sh'
+  'relaxed.sh'
   'rippedcasts.sh'
   'royal.sh'
   'sat.sh'
