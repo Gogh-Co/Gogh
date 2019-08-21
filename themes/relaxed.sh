@@ -24,8 +24,8 @@ export BACKGROUND_COLOR="#353A44"   # Background Color
 export FOREGROUND_COLOR="#D9D9D9"   # Foreground Color 
 export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor color
 export HIGHLIGHT_FG_COLOR="$FOREGROUND_COLOR" # Text color within highlight
-export HIGHLIGHT_BG_COLOR="#ACBBD0" # Highlight color 
-export PROFILE_NAME="relaxed"
+export HIGHLIGHT_BG_COLOR="#6A8799" # Highlight color 
+export PROFILE_NAME="Relaxed"
 # =============================================================== #
 
 
