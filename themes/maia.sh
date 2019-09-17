@@ -20,7 +20,7 @@ export COLOR_15="#00D1D1"           # Light Cyan
 export COLOR_16="#E8E8E8"           # White
 
 export BACKGROUND_COLOR="#31363B"   # Background Color
-export FOREGROUND_COLOR="#BDX3C7"   # Foreground Color (text)
+export FOREGROUND_COLOR="#BDC3C7"   # Foreground Color (text)
 export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor color
 export PROFILE_NAME="Maia"
 # =============================================================== #
