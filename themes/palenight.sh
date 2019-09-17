@@ -42,14 +42,14 @@ PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Mayccoll/Gogh/master"}
 
 
-#if [[ -e "${PARENT_PATH}/apply-colors.sh" ]]; then
-#  bash "${PARENT_PATH}/apply-colors.sh"
-#else
-#  if [[ "$(uname)" = "Darwin" ]]; then
+if [[ -e "${PARENT_PATH}/apply-colors.sh" ]]; then
+  bash "${PARENT_PATH}/apply-colors.sh"
+else
+  if [[ "$(uname)" = "Darwin" ]]; then
     # OSX ships with curl and ancient bash
-#    bash -c "$(curl -so- "${BASE_URL}/apply-colors.sh")"
-#  else
+    bash -c "$(curl -so- "${BASE_URL}/apply-colors.sh")"
+  else
     # Linux ships with wget
     bash -c "$(wget -qO- "${BASE_URL}/apply-colors.sh")"
-#  fi
-#fi
+  fi
+fi
