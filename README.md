@@ -7,7 +7,7 @@ Gogh
 
 ## Color Scheme for Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4 Terminal
 
-Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that use Gnome Terminal, Pantheon Terminal, Tilix, or XFCE4 Terminal; initially inspired by Elementary OS Luna. Also works on iTerm for macOS. You can check-out the themes [here...](https://mayccoll.github.io/Gogh/)
+Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that use Gnome Terminal, Pantheon Terminal, Tilix, or XFCE4 Terminal; initially inspired by Elementary OS Luna. Also works on iTerm for macOS. You can check out the themes [here](https://mayccoll.github.io/Gogh/).
 
 ![elementary](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/demos/themes.gif)
 
@@ -46,7 +46,7 @@ Or, if you are a Mac user:
 
 ## [Themes](https://mayccoll.github.io/Gogh/)
 
-We have lots of themes. Check them out [Here...](https://mayccoll.github.io/Gogh/)!
+We have lots of themes. Check them out [here](https://mayccoll.github.io/Gogh/)!
 
 
 <br/>
