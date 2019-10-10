@@ -24,7 +24,7 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that u
 
 ## [Install](https://github.com/Mayccoll/Gogh/blob/master/content/install.md)
 
-Just copy and paste this one-line command:
+**1. Just copy and paste this one-line command:**
 
 ```bash
   $  bash -c  "$(wget -qO- https://git.io/vQgMr)"
@@ -35,6 +35,8 @@ Or, if you are a Mac user:
 ```bash
   $  bash -c  "$(curl -sLo- https://git.io/vQgMr)"
 ```
+
+**2. Select the color theme installed from the terminal**
 
 **DEMO:**
 
