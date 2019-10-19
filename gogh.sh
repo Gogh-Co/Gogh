@@ -92,6 +92,7 @@ declare -a THEMES=(
   'jellybeans.sh'
   'jup.sh'
   'kibble.sh'
+  'kokuban.sh'
   'later-this-evening.sh'
   'lavandula.sh'
   'liquid-carbon-transparent.sh'

@@ -77,6 +77,7 @@ If you want to create your own color scheme or contribute to the project, [start
 - [Gooey](http://simey.me/editor-themes/) by [Matt Harris](https://github.com/mdh34)
 - [Gruvbox](https://github.com/morhetz/gruvbox) by [Pavel Pertsev](https://github.com/morhetz)
 - [Hemisu](https://noahfrederick.com/log/hemisu-for-os-x-terminal/) by [Noah Frederick](https://github.com/noahfrederick)
+- [kokuban](https://github.com/ygkn/kokuban) by [ygkn](https://github.com/ygkn)
 - Material theme by [Mitchel van Eijgen](https://gist.github.com/mvaneijgen/4c56701215847dd5ddcf) and [Liu Xinan](https://gist.github.com/xinan/ca2b82fef6aaa0d1e099)
 - [Monokai](https://web.archive.org/web/20161117102850/https://www.monokai.nl/blog/2006/07/15/textmate-color-theme) by [Wimer Hazenberg](https://github.com/monokai)
 - [Ocean](https://github.com/fabianperez/ocean-dark-iterm) by [Fabian Perez](https://github.com/fabianperez)
