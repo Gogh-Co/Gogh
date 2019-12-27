@@ -22,7 +22,7 @@ export COLOR_16="#E5E5E5"           # White
 export BACKGROUND_COLOR="#272822"   # Background Color
 export FOREGROUND_COLOR="#FFFFFF"   # Foreground Color (text)
 export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor color
-export PROFILE_NAME="monokai-pop"
+export PROFILE_NAME="summer-pop"
 # =============================================================== #
 
 
