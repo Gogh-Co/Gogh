@@ -87,6 +87,7 @@ If you want to create your own color scheme or contribute to the project, [start
 - [Snazzy](https://github.com/sindresorhus/hyper-snazzy) by [Sindre Sorhus](https://github.com/sindresorhus)
 - [Solarized](https://ethanschoonover.com/solarized) by [Ethan Schoonover](https://github.com/altercation)
 - [Srcery](https://github.com/roosta/vim-srcery) by [Daniel Berg](https://github.com/roosta)
+- [Summer Pop](https://github.com/guillermoap/Gogh) by [Guillermo Aguirre](https://github.com/guillermoap)
 - [Terminal Sexy](https://terminal.sexy) by [George Czabania](https://github.com/stayradiated)
 - [Tilix](https://github.com/storm119/Tilix-Themes)
 - [Tomorrow color theme set](https://github.com/chriskempson/tomorrow-theme) by [Chris Kempson](https://github.com/chriskempson)
