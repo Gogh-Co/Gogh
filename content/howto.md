@@ -74,7 +74,7 @@ Here is a picture that explains a little better as colors are distributed.
 
 - **View Colors**
 
-You can use this alias to view your color scheme in termial
+You can use this alias to view your color scheme in terminal
 
 ```bash
 color () {
