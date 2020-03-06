@@ -1,4 +1,5 @@
 out.txt
+node_modules
 gh-pages/node_modules
 *lock*
 .stfolder
