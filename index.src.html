@@ -146,10 +146,10 @@
         <ul>
             <li class="mix" v-for="(theme, index) in data" v-bind:class="theme.filters">
                 <h3> {{ theme.name }} </h3>
-                <img v-if="window.location.href.indexOf('githubusercontent') > -1"
+                <img v-if="window.location.href.indexOf('github') > -1"
                     v-bind:alt="theme.name"
                     v-bind:src="'https://raw.githubusercontent.com/Mayccoll/Gogh/master' + theme.image">
-                <img v-if="window.location.href.indexOf('8890') > -1"
+                <img v-if="window.location.href.indexOf('gh-pages') > -1"
                     v-bind:alt="theme.name"
                     v-bind:src="'..' + theme.image">
             </li>
