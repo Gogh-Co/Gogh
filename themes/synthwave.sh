@@ -21,7 +21,7 @@ export COLOR_16="#ffffff"           # White
 
 export BACKGROUND_COLOR="#262335"   # Background Color
 export FOREGROUND_COLOR="#ffffff"   # Foreground Color (text)
-export CURSOR_COLOR="03edf9" # Cursor color
+export CURSOR_COLOR="#03edf9" # Cursor color
 export PROFILE_NAME="SynthWave"
 # =============================================================== #
 
