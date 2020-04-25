@@ -21,7 +21,7 @@ export COLOR_16="#ffffff"           #
 
 export BACKGROUND_COLOR="#000000"   # Background Color
 export FOREGROUND_COLOR="#eeeeee"   # Text
-export CURSOR_COLOR="ffa560"        # Cursor
+export CURSOR_COLOR="#ffa560"        # Cursor
 export PROFILE_NAME="Ir Black"
 # =============================================
 
