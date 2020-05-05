@@ -329,7 +329,7 @@ var $themes = [{
     "filters": "dark bg-black"
   },
   {
-    "name": "Hydrid",
+    "name": "Hybrid",
     "image": "/images/themes/Hybrid.jpg",
     "filters": "dark bg-black"
   },
