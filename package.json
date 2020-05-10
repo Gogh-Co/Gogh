@@ -10,7 +10,7 @@
   "license": "",
   "homepage": "",
   "devDependencies": {
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.1.0"
   },
   "dependencies": {
     "browser-sync": "^2.26.7",

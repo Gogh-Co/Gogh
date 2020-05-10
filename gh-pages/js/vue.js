@@ -1,14 +1,12 @@
-/* global $, fetch, console */
+/* global $, fetch, console, Vue, $users */
 /* eslint no-undef: "error", semi: 2 */
 /* jshint esversion: 6 */
 
-// var $themes = './data/themes.json';
-
-Vue.component('component', {
-  template: '#wrap_themes',
+Vue.component('terminal', {
+  template: '#template-terminal',
   props: {
     data: {
-      type: null
+      type: Object
     }
   }
 });
@@ -17,7 +15,7 @@ var $app = new Vue({
   el: '#js-vue-app',
   data: function () {
     return {
-      theme_data: $themes
+      schemes_data: $schemes
     }
   }
 });
