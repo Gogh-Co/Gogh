@@ -5,32 +5,24 @@
     <meta charset=utf-8>
     <meta http-equiv=X-UA-Compatible content="IE=edge">
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <meta name=description content="">
-    <meta name=keywords content="">
+    <meta name=description content="Color Scheme for Terminals">
     <meta name=author content="Miguel D. Quintero">
     <link rel=author href=humans.txt>
 
     <title>Gogh - Color Scheme</title>
 
-    <link rel=apple-touch-icon sizes=57x57 href=./favicons//apple-icon-57x57.png>
-    <link rel=apple-touch-icon sizes=60x60 href=./favicons//apple-icon-60x60.png>
-    <link rel=apple-touch-icon sizes=72x72 href=./favicons//apple-icon-72x72.png>
-    <link rel=apple-touch-icon sizes=76x76 href=./favicons//apple-icon-76x76.png>
-    <link rel=apple-touch-icon sizes=114x114 href=./favicons//apple-icon-114x114.png>
-    <link rel=apple-touch-icon sizes=120x120 href=./favicons//apple-icon-120x120.png>
-    <link rel=apple-touch-icon sizes=144x144 href=./favicons//apple-icon-144x144.png>
-    <link rel=apple-touch-icon sizes=152x152 href=./favicons//apple-icon-152x152.png>
-    <link rel=apple-touch-icon sizes=180x180 href=./favicons//apple-icon-180x180.png>
-    <link rel=icon type=image/png sizes=192x192 href=./favicons//android-icon-192x192.png>
-    <link rel=icon type=image/png sizes=32x32 href=./favicons//favicon-32x32.png>
-    <link rel=icon type=image/png sizes=96x96 href=./favicons//favicon-96x96.png>
-    <link rel=icon type=image/png sizes=16x16 href=./favicons//favicon-16x16.png>
-    <link rel=manifest href=./favicons//manifest.json>
+    <link rel=icon type=image/png sizes=16x16 href=./favicons/favicon.png>
     <link rel=icon href=favicons/favicon.ico>
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel=stylesheet>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/themes/prism.min.css" />
-    <link rel=stylesheet href=./css/main.min.css inline>
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/themes/prism.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap-grid.min.css" />
+
+    <link rel=stylesheet href=./css/main.min.css inline>
 </head>
 
 <body>
@@ -103,34 +95,18 @@
 
     <main class=cd-main-content>
 
-        <div class=cd-tab-filter-wrapper>
-            <div class=cd-tab-filter>
-                <ul class=cd-filters>
-                    <li class=filter>
-                        <a class=selected data-filter=all href="JavaScript:void(0);">
-                            All
-                        </a>
-                    </li>
-                    <li class=filter>
-                        <a data-filter=.dark href="JavaScript:void(0);">
-                            Dark
-                        </a>
-                    </li>
-                    <li class=filter>
-                        <a data-filter=.light href="JavaScript:void(0);">
-                            Light
-                        </a>
-                    </li>
-                </ul>
+        <div id="js-vue-app">
+            <div class="container-fluid">
+                <div class="row">
+                    <template v-for="value in schemes_data.schemes">
+                        <div class="col-md-6 col-lg-6 col-xl-4">
+                            <terminal v-bind:data="value" />
+                        </div>
+                    </template>
+                </div>
             </div>
         </div>
 
-
-        <section class="container cd-gallery">
-            <div id="js-vue-app">
-                <component v-bind:data="theme_data"></component>
-            </div>
-        </section>
 
     </main>
 
@@ -142,18 +118,102 @@
             <a href=https://lanet.co>Lanet.co</a>
     </footer>
 
-    <template id="wrap_themes">
-        <ul>
-            <li class="mix" v-for="(theme, index) in data" v-bind:class="theme.filters">
-                <h3> {{ theme.name }} </h3>
-                <img v-if="window.location.href.indexOf('github') > -1"
-                    v-bind:alt="theme.name"
-                    v-bind:src="'https://raw.githubusercontent.com/Mayccoll/Gogh/master' + theme.image">
-                <img v-if="window.location.href.indexOf('gh-pages') > -1"
-                    v-bind:alt="theme.name"
-                    v-bind:src="'..' + theme.image">
-            </li>
-        </ul>
+    <template id="template-terminal">
+        <div class="terminal">
+            <div class=bar>
+                <div class="bar__title">
+                    {{ data.name }}
+                </div>
+                <div class="bar__btns">
+                    <span class="btn btn--min"></span>
+                    <span class="btn btn--max"></span>
+                    <span class="btn btn--close"></span>
+                </div>
+            </div>
+            <div class="body" :style="'background-color: ' + data.background">
+                <div class="body__bar body__bar--top">
+                    <span :style="'background-color: ' + data.black"></span>
+                    <span :style="'background-color: ' + data.red"></span>
+                    <span :style="'background-color: ' + data.green"></span>
+                    <span :style="'background-color: ' + data.yellow"></span>
+                    <span :style="'background-color: ' + data.blue"></span>
+                    <span :style="'background-color: ' + data.purple"></span>
+                    <span :style="'background-color: ' + data.cyan"></span>
+                    <span :style="'background-color: ' + data.white"></span>
+                </div>
+                <div class="body__bar body__bar--bottom">
+                    <span :style="'background-color: ' + data.brightBlack"></span>
+                    <span :style="'background-color: ' + data.brightRed"></span>
+                    <span :style="'background-color: ' + data.brightGreen"></span>
+                    <span :style="'background-color: ' + data.brightYellow"></span>
+                    <span :style="'background-color: ' + data.brightBlue"></span>
+                    <span :style="'background-color: ' + data.brightPurple"></span>
+                    <span :style="'background-color: ' + data.brightCyan"></span>
+                    <span :style="'background-color: ' + data.brightWhite"></span>
+                </div>
+                <div class="body__txt">
+                    <p :style="'color: ' + data.black">
+                         &block;&block;&block; <span>*** AaBbMmYyZz . Color 01 ---</span>  &block;&block;&block;
+                    </p>
+                    <p :style="'color: ' + data.red">
+                         &block;&block;&block; <span>*** AaBbMmYyZz . Color 02 ---</span>  &block;&block;&block;
+                    </p>
+                    <p :style="'color: ' + data.green">
+                         &block;&block;&block; <span>*** AaBbMmYyZz . Color 03 ---</span>  &block;&block;&block;
+                    </p>
+                    <p :style="'color: ' + data.yellow">
+                         &block;&block;&block; <span>*** AaBbMmYyZz . Color 04 ---</span>  &block;&block;&block;
+                    </p>
+                    <p :style="'color: ' + data.blue">
+                         &block;&block;&block; <span>*** AaBbMmYyZz . Color 05 ---</span>  &block;&block;&block;
+                    </p>
+                    <p :style="'color: ' + data.purple">
+                         &block;&block;&block; <span>*** AaBbMmYyZz . Color 06 ---</span>  &block;&block;&block;
+                    </p>
+                    <p :style="'color: ' + data.cyan">
+                         &block;&block;&block; <span>*** AaBbMmYyZz . Color 07 ---</span>  &block;&block;&block;
+                    </p>
+                    <p :style="'color: ' + data.white">
+                         &block;&block;&block; <span>*** AaBbMmYyZz . Color 08 ---</span>  &block;&block;&block;
+                    </p>
+                    <br>
+                    <p :style="'color: ' + data.brightBlack">
+                         &block;&block;&block; <span>*** AaBbMmYyZz . Color 09 ---</span>  &block;&block;&block;
+                    </p>
+                    <p :style="'color: ' + data.brightRed">
+                         &block;&block;&block; <span>*** AaBbMmYyZz . Color 10 ---</span>  &block;&block;&block;
+                    </p>
+                    <p :style="'color: ' + data.brightGreen">
+                         &block;&block;&block; <span>*** AaBbMmYyZz . Color 11 ---</span>  &block;&block;&block;
+                    </p>
+                    <p :style="'color: ' + data.brightYellow">
+                         &block;&block;&block; <span>*** AaBbMmYyZz . Color 12 ---</span>  &block;&block;&block;
+                    </p>
+                    <p :style="'color: ' + data.brightBlue">
+                         &block;&block;&block; <span>*** AaBbMmYyZz . Color 13 ---</span>  &block;&block;&block;
+                    </p>
+                    <p :style="'color: ' + data.brightPurple">
+                         &block;&block;&block; <span>*** AaBbMmYyZz . Color 14 ---</span>  &block;&block;&block;
+                    </p>
+                    <p :style="'color: ' + data.blabrightCyanck">
+                         &block;&block;&block; <span>*** AaBbMmYyZz . Color 15 ---</span>  &block;&block;&block;
+                    </p>
+                    <p :style="'color: ' + data.brightWhite">
+                         &block;&block;&block; <span>*** AaBbMmYyZz . Color 16 ---</span>  &block;&block;&block;
+                    </p>
+                </div>
+
+                <div class="cmd">
+                    <span class="cmd__ini" :style="'color: ' + data.foreground">$</span>
+                    <span class="cmd__sudo" :style="'color: ' + data.red">sudo</span>
+                    <span class="cmd__apt" :style="'color: ' + data.green">apt</span>
+                    <span class="cmd__install" :style="'color: ' + data.foreground">install</span>
+                    <span class="cmd__linux" :style="'color: ' + data.foreground">linux</span>
+                    <span class="cmd__cursor" :style="'color: ' + data.foreground">|</span>
+                </div>
+
+            </div>
+        </div>
     </template>
 
 
