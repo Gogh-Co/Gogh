@@ -204,6 +204,7 @@ declare -a THEMES=(
   'wild-cherry.sh'
   'wombat.sh'
   'wryan.sh'
+  'wzoreck.sh'
   'zenburn.sh'
 )
 
