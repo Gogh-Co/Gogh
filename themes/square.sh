@@ -20,7 +20,7 @@ export COLOR_15="#d7d9fc"           #
 export COLOR_16="#e2e2e2"           #
 
 export BACKGROUND_COLOR="#0a1e24"   # Background Color
-export FOREGROUND_COLOR="#1a1a1a"   # Text
+export FOREGROUND_COLOR="#a1a1a1"   # Text
 export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
 export PROFILE_NAME="Square"
 # =============================================================== #
