@@ -49,6 +49,7 @@ declare -a THEMES=(
   'bim.sh'
   'birds-of-paradise.sh'
   'blazer.sh'
+  'bluloco-light.sh'
   'borland.sh'
   'broadcast.sh'
   'brogrammer.sh'
