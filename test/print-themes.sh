@@ -84,6 +84,7 @@ declare -a THEMES=(
   'frontend-fun-forrest.sh'
   'frontend-galaxy.sh'
   'github.sh'
+  'geohot.sh'
   'gooey.sh'
   'google-dark.sh'
   'google-light.sh'
