@@ -22,7 +22,9 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that u
   $ sudo apt-get install dconf-cli uuid-runtime
 ```
 
-## [Install](https://github.com/Mayccoll/Gogh/blob/master/content/install.md)
+You can now install in interactive mode (easy) or non-interactive mode (ideal for scripting)
+
+## [Install (interactive mode)](https://github.com/Mayccoll/Gogh/blob/master/content/install.md)
 
 **1. Just copy and paste this one-line command:**
 
@@ -45,6 +47,20 @@ Or, if you are a Mac user:
 <br/>
 <br/>
 
+## Install (non-interactive mode)
+
+    # clone the repo into "$HOME/src/gogh"
+    mkdir -p "$HOME/src"
+    cd "$HOME/src"
+    git clone https://github.com/Mayccoll/Gogh.git gogh
+    cd gogh/themes
+    
+    # necessary on ubuntu
+    export TERMINAL=gnome-terminal
+    
+    # install themes
+    ./atom.sh
+    ./dracula.sh
 
 ## [Themes](https://mayccoll.github.io/Gogh/)
 
