@@ -2684,6 +2684,28 @@ const $schemes = {
       "brightWhite": "#5b6ea7"
     },
     {
+      "name": "Omni",
+      "foreground": "#ABB2BF",
+      "background": "#191622",
+      "cursorColor": "#ABB2BF",
+      "black": "#000000",
+      "red": "#E96379",
+      "green": "#67e480",
+      "yellow": "#E89E64",
+      "blue": "#78D1E1",
+      "purple": "#988BC7",
+      "cyan": "#FF79C6",
+      "white": "#ABB2BF",
+      "brightBlack": "#000000",
+      "brightRed": "#E96379",
+      "brightGreen": "#67e480",
+      "brightYellow": "#E89E64",
+      "brightBlue": "#78D1E1",
+      "brightPurple": "#988BC7",
+      "brightCyan": "#FF79C6",
+      "brightWhite": "#ffffff"
+    },
+    {
       "name": "One Dark",
       "foreground": "#5C6370",
       "background": "#1E2127",
