@@ -137,6 +137,7 @@ declare -a THEMES=(
   'ocean.sh'
   'oceanic-next.sh'
   'ollie.sh'
+  'omni'
   'one-dark.sh'
   'one-half-black.sh'
   'one-light.sh'
