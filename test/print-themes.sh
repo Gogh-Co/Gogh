@@ -209,7 +209,7 @@ declare -a THEMES=(
 
 # Allow developer to change url to forked url for easier testing
 # IMPORTANT: Make sure you export this variable if your main shell is not bash
-BASE_URL=${BASE_URL:-"https://github.com/Jangrie/Gogh/tree/add-panda-theme"}
+BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Mayccoll/Gogh/master"}
 PROGRESS_URL="https://raw.githubusercontent.com/phenonymous/shell-progressbar/1.0/progress.sh"
 
 capitalize() {
