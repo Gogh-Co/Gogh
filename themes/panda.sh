@@ -22,7 +22,7 @@ export COLOR_16="#F0F0F0"           # White
 export BACKGROUND_COLOR="#1D1E20"   # Background Color
 export FOREGROUND_COLOR="#F0F0F0"   # Foreground Color (text)
 export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor color
-export PROFILE_NAME="_bash"
+export PROFILE_NAME="Panda"
 # =============================================================== #
 
 
