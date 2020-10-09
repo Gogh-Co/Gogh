@@ -85,6 +85,7 @@ If you want to create your own color scheme or contribute to the project, [start
 ## Credits:
 
 - [4bit](https://ciembor.github.io/4bit/)
+- [Bluloco Light Theme](https://github.com/uloco/theme-bluloco-light)
 - [Chalk](https://github.com/chalk/chalk) by [Sindre Sorhus](https://github.com/sindresorhus)
 - [Dracula](https://github.com/dracula/dracula-theme) by [Zeno Rocha](https://github.com/zenorocha)
 - [Elementary OS](https://elementary.io/)
@@ -96,9 +97,12 @@ If you want to create your own color scheme or contribute to the project, [start
 - [Gruvbox](https://github.com/morhetz/gruvbox) by [Pavel Pertsev](https://github.com/morhetz)
 - [Hemisu](https://noahfrederick.com/log/hemisu-for-os-x-terminal/) by [Noah Frederick](https://github.com/noahfrederick)
 - [kokuban](https://github.com/ygkn/kokuban) by [ygkn](https://github.com/ygkn)
+- Material theme by [Mitchel van Eijgen](https://gist.github.com/mvaneijgen/4c56701215847dd5ddcf) and [Liu Xinan](https://gist.github.com/xinan/ca2b82fef6aaa0d1e099)
 - [Monokai](https://web.archive.org/web/20161117102850/https://www.monokai.nl/blog/2006/07/15/textmate-color-theme) by [Wimer Hazenberg](https://github.com/monokai)
 - [Ocean](https://github.com/fabianperez/ocean-dark-iterm) by [Fabian Perez](https://github.com/fabianperez)
+- [Omni](https://github.com/getomni)
 - [One Dark & Light theme set](https://github.com/nathanbuchar/one-dark-terminal) by [Nathan Buchar](https://github.com/nathanbuchar)
+- [Panda](https://github.com/PandaTheme) by [Siamak](https://github.com/siamak)
 - [Peppermint](https://noahfrederick.com/log/lion-terminal-theme-peppermint/) by [Noah Frederick](https://github.com/noahfrederick)
 - [SMYCK](http://color.smyck.org/) by [John-Paul Bader](https://github.com/hukl)
 - [Snazzy](https://github.com/sindresorhus/hyper-snazzy) by [Sindre Sorhus](https://github.com/sindresorhus)
@@ -109,9 +113,6 @@ If you want to create your own color scheme or contribute to the project, [start
 - [Terminal Sexy](https://terminal.sexy) by [George Czabania](https://github.com/stayradiated)
 - [Tilix](https://github.com/storm119/Tilix-Themes)
 - [Tomorrow color theme set](https://github.com/chriskempson/tomorrow-theme) by [Chris Kempson](https://github.com/chriskempson)
-- Material theme by [Mitchel van Eijgen](https://gist.github.com/mvaneijgen/4c56701215847dd5ddcf) and [Liu Xinan](https://gist.github.com/xinan/ca2b82fef6aaa0d1e099)
-- [Bluloco Light Theme](https://github.com/uloco/theme-bluloco-light)
-- [Omni](https://github.com/getomni)
 
 <br/>
 <br/>

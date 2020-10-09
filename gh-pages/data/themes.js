@@ -2816,6 +2816,28 @@ const $schemes = {
       "brightWhite": "#A020F0"
     },
     {
+      "name": "Panda",
+      "foreground": "#F0F0F0",
+      "background": "#1D1E20",
+      "cursorColor": "#F0F0F0",
+      "black": "#1F1F20",
+      "red": "#FB055A",
+      "green": "#26FFD4",
+      "yellow": "#FDAA5A",
+      "blue": "#5C9FFF",
+      "purple": "#FC59A6",
+      "cyan": "#26FFD4",
+      "white": "#F0F0F0",
+      "brightBlack": "#5C6370",
+      "brightRed": "#FB055A",
+      "brightGreen": "#26FFD4",
+      "brightYellow": "#FEBE7E",
+      "brightBlue": "#55ADFF",
+      "brightPurple": "#FD95D0",
+      "brightCyan": "#26FFD4",
+      "brightWhite": "#F0F0F0"
+    },
+    {
       "name": "PaperColor Dark",
       "foreground": "#D0D0D0",
       "background": "#1C1C1C",
