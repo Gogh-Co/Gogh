@@ -22,6 +22,12 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that u
   $ sudo apt-get install dconf-cli uuid-runtime
 ```
 
+Additional for Ubuntu 20.04:
+
+```bash
+  $ sudo apt-get install gconf2
+```
+
 You can now install in interactive mode (easy) or non-interactive mode (ideal for scripting)
 
 ## [Install (interactive mode)](https://github.com/Mayccoll/Gogh/blob/master/content/install.md)
