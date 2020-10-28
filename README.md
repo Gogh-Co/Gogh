@@ -22,7 +22,7 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that u
   $ sudo apt-get install dconf-cli uuid-runtime
 ```
 
-Additional for Ubuntu 20.04:
+Additionally for Ubuntu 20.04:
 
 ```bash
   $ sudo apt-get install gconf2
