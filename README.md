@@ -16,26 +16,28 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that u
 <br/>
 <br/>
 
-## Pre-Install
+## ⚙️ Pre-Install
+
+In your terminal type:
 
 ```bash
-  $ sudo apt-get install dconf-cli uuid-runtime
+sudo apt-get install dconf-cli uuid-runtime
 ```
 
 You can now install in interactive mode (easy) or non-interactive mode (ideal for scripting)
 
-## [Install (interactive mode)](https://github.com/Mayccoll/Gogh/blob/master/content/install.md)
+## ⚙️ [Install (interactive mode)](https://github.com/Mayccoll/Gogh/blob/master/content/install.md)
 
 **1. Just copy and paste this one-line command:**
 
 ```bash
-  $  bash -c  "$(wget -qO- https://git.io/vQgMr)"
+bash -c "$(wget -qO- https://git.io/vQgMr)"
 ```
 
 Or, if you are a Mac user:
 
 ```bash
-  $  bash -c  "$(curl -sLo- https://git.io/vQgMr)"
+bash -c "$(curl -sLo- https://git.io/vQgMr)"
 ```
 
 **2. Select the color theme installed from the terminal**
@@ -49,40 +51,43 @@ Or, if you are a Mac user:
 
 ## Install (non-interactive mode)
 
-    # clone the repo into "$HOME/src/gogh"
-    mkdir -p "$HOME/src"
-    cd "$HOME/src"
-    git clone https://github.com/Mayccoll/Gogh.git gogh
-    cd gogh/themes
-    
-    # necessary on ubuntu
-    export TERMINAL=gnome-terminal
-    
-    # install themes
-    ./atom.sh
-    ./dracula.sh
+```bash
+# clone the repo into "$HOME/src/gogh"
+mkdir -p "$HOME/src"
+cd "$HOME/src"
+git clone https://github.com/Mayccoll/Gogh.git gogh
+cd gogh/themes
 
-## [Themes](https://mayccoll.github.io/Gogh/)
+# necessary on ubuntu
+export TERMINAL=gnome-terminal
+
+# install themes
+./atom.sh
+./dracula.sh
+```
+
+<br/>
+
+## 🎨 [Themes](https://mayccoll.github.io/Gogh/)
 
 We have lots of themes. Check them out [here](https://mayccoll.github.io/Gogh/)!
 
-
 <br/>
 <br/>
 
-
-
-## [How to](https://github.com/Mayccoll/Gogh/blob/master/content/howto.md)
+## 📌 [How to](https://github.com/Mayccoll/Gogh/blob/master/content/howto.md)
 
 If you want to create your own color scheme or contribute to the project, [start here](https://github.com/Mayccoll/Gogh/blob/master/content/howto.md).
 
+<br/>
 
+## :thinking: [Help](https://github.com/Mayccoll/Gogh/blob/master/content/help.md)
 
 <br/>
 <br/>
 
 
-## Credits:
+## :heart: Credits:
 
 - [4bit](https://ciembor.github.io/4bit/)
 - [Bluloco Light Theme](https://github.com/uloco/theme-bluloco-light)
@@ -118,7 +123,7 @@ If you want to create your own color scheme or contribute to the project, [start
 <br/>
 
 
-## Contributors:
+## :heart: Contributors:
 
 - [@contributors](https://github.com/Mayccoll/Gogh/graphs/contributors)
 
