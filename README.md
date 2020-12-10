@@ -26,7 +26,7 @@ sudo apt-get install dconf-cli uuid-runtime
 
 You can now install in interactive mode (easy) or non-interactive mode (ideal for scripting)
 
-## ⚙️ [Install (interactive mode)](https://github.com/Mayccoll/Gogh/blob/master/content/install.md)
+## ⚙️ Install (interactive mode)
 
 **1. Just copy and paste this one-line command:**
 
