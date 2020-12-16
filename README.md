@@ -156,6 +156,7 @@ There is no blue without yellow and without orange.
 - [Hipertextual](https://hipertextual.com/archivo/2014/11/4bit/)
 - [MuyLinux](https://www.muylinux.com/2015/06/06/ping-91)
 - [Reddit - elementaryos](https://www.reddit.com/r/elementaryos/comments/3ivnb7/how_to_change_terminals_colors/)
+- [dev.to](https://dev.to/mayccoll/color-scheme-for-your-terminal-1pea)
 
 ## Themes in `json` format
 
