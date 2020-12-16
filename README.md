@@ -2,7 +2,7 @@ Gogh
 ====
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/gogh/Gogh-logo-dark.png" alt="Gogh">
+  <img src="https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/gogh/Gogh-logo-dark.png" alt="Gogh" width="100%">
 </div>
 
 <div align="center">
