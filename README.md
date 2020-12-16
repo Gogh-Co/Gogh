@@ -1,9 +1,13 @@
 Gogh
 ====
 
-![elementary](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/gogh/Gogh-icons.png)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/gogh/Gogh-logo-dark.png" alt="Gogh">
+</div>
 
-## :small_orange_diamond: [Visit the Website](http://mayccoll.github.io/Gogh) :small_orange_diamond:
+<div align="center">
+  :small_blue_diamond: <a href="http://mayccoll.github.io/Gogh"> Visit the Website </a> :small_blue_diamond:
+</div>
 
 ## Color Scheme for Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4 Terminal
 
