@@ -4,3 +4,4 @@ gh-pages/node_modules
 *lock*
 .stfolder
 apply-colors-original.sh
+.tmp
