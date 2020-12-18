@@ -60,6 +60,10 @@ ls -1 $SCRIPT_PATH/../.tmp/*.sh | while read a; do createColors "$a" >> $SCRIPT_
 echo '  ]' >> $SCRIPT_PATH/../gh-pages/data/themes.json
 echo '}' >> $SCRIPT_PATH/../gh-pages/data/themes.json
 
+cat $SCRIPT_PATH/../gh-pages/data/themes.json | tr -d " \t\n\r" > $SCRIPT_PATH/../gh-pages/data/themes.json.tmp
+sed 's/},]}/}]}/g' $SCRIPT_PATH/../gh-pages/data/themes.json.tmp > $SCRIPT_PATH/../gh-pages/data/themes.json
+rm $SCRIPT_PATH/../gh-pages/data/themes.json.tmp
+
 echo ""
 echo "File location:"
 echo -e "${GREEN} gh-pages/data/themes.json"
