@@ -48,21 +48,21 @@ createColors() {
 
 mkdir -p $SCRIPT_PATH/../.tmp
 
-echo '{' > $SCRIPT_PATH/../gh-pages/data/themes.json
-echo '  "themes": [' >> $SCRIPT_PATH/../gh-pages/data/themes.json
+echo '{' > $SCRIPT_PATH/../data/themes.json
+echo '  "themes": [' >> $SCRIPT_PATH/../data/themes.json
 
 ls -1 $SCRIPT_PATH/../themes/*.sh | while read a; do grep "export" $a > "${a/themes/.tmp}"; done
 
 ls -1 $SCRIPT_PATH/../.tmp/*.sh | while read a; do sed -i /IMPORTANT/d  "${a}"; done
 
-ls -1 $SCRIPT_PATH/../.tmp/*.sh | while read a; do createColors "$a" >> $SCRIPT_PATH/../gh-pages/data/themes.json; done
+ls -1 $SCRIPT_PATH/../.tmp/*.sh | while read a; do createColors "$a" >> $SCRIPT_PATH/../data/themes.json; done
 
-echo '  ]' >> $SCRIPT_PATH/../gh-pages/data/themes.json
-echo '}' >> $SCRIPT_PATH/../gh-pages/data/themes.json
+echo '  ]' >> $SCRIPT_PATH/../data/themes.json
+echo '}' >> $SCRIPT_PATH/../data/themes.json
 
-cat $SCRIPT_PATH/../gh-pages/data/themes.json | tr -d " \t\n\r" > $SCRIPT_PATH/../gh-pages/data/themes.json.tmp
-sed 's/},]}/}]}/g' $SCRIPT_PATH/../gh-pages/data/themes.json.tmp > $SCRIPT_PATH/../gh-pages/data/themes.json
-rm $SCRIPT_PATH/../gh-pages/data/themes.json.tmp
+cat $SCRIPT_PATH/../data/themes.json | tr -d " \t\n\r" > $SCRIPT_PATH/../data/themes.json.tmp
+sed 's/},]}/}]}/g' $SCRIPT_PATH/../data/themes.json.tmp > $SCRIPT_PATH/../data/themes.json
+rm $SCRIPT_PATH/../data/themes.json.tmp
 
 echo ""
 echo "File location:"

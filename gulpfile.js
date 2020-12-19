@@ -1,6 +1,5 @@
 /* global $, fetch, console */
 /* eslint no-undef: "error", semi: 2 */
-/* jshint esversion: 6 */
 
 'use strict';
 
@@ -12,11 +11,11 @@ const {
   watch
 } = require('gulp');
 
-const htmlmin = require('gulp-htmlmin');
+const htmlmin      = require('gulp-htmlmin');
 const inlinesource = require('gulp-inline-source');
-const rename = require('gulp-rename');
-const browserSync = require('browser-sync').create();
-const sass = require('gulp-sass');
+const rename       = require('gulp-rename');
+const browserSync  = require('browser-sync').create();
+const sass         = require('gulp-sass');
 
 function sassCompile () {
   return src('./gh-pages/sass/**/main.scss')
