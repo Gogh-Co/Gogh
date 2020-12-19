@@ -1,0 +1,164 @@
+/**
+ * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ * ·······  Terminal
+ * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+*/
+.terminal {
+  box-sizing: border-box;
+  margin    : 0 0 50px;
+  box-shadow: 5px 5px 11px #737373, -5px -5px 11px #b1b1b1;
+  animation : slideIn ease 0.4s forwards;
+
+  .btn--terminal {
+    display         : inline-block;
+    width           : 10px;
+    height          : 10px;
+    margin          : 0 4px;
+    cursor          : pointer;
+    border-radius   : 100px;
+    background-color: #000000;
+  }
+
+  .btn--min {
+    border          : 1px solid darken(#868686, 10%);
+    background-color: #868686;
+  }
+
+  .btn--max {
+    border          : 1px solid darken(#656565, 10%);
+    background-color: #656565;
+  }
+
+  .btn--close {
+    border          : 1px solid darken(#171717, 10%);
+    background-color: #171717;
+  }
+
+  .cmd__cursor {
+    animation: 1s blink step-end infinite;
+  }
+
+  .bar {
+    position        : relative;
+    width           : 100%;
+    height          : 25px;
+    text-align      : center;
+    border-radius   : 5px 5px 0 0;
+    background-color: #D9D9D9;
+    font-size       : 0;
+
+    .bar__title {
+      position   : absolute;
+      top        : 4px;
+      right      : 0;
+      left       : 0;
+      margin     : 0 auto;
+      color      : #5e5e5e;
+      font-family: Arial;
+      font-size  : 14px;
+      font-weight: 400;
+      line-height: 1.2;
+    }
+
+    .bar__btns {
+      position: absolute;
+      top     : 7px;
+      right   : 10px;
+    }
+  }
+
+  .body {
+    box-sizing   : border-box;
+    padding      : 30px;
+    border       : 1px solid #D9D9D9;
+    border-radius: 0 0 5px 5px;
+
+    .body__txt {
+      margin: 0 0 30px;
+
+      p {
+        margin     : 0;
+        padding    : 0;
+        font-size  : 20px;
+        line-height: 1.1;
+        @include m360 {}
+        @include m450 {}
+        @include m576 {}
+        @include m600 {}
+        @include m768 {
+          font-size: 14px;
+        }
+        @include m900 {}
+        @include m992 {
+          font-size: 20px;
+        }
+        @include m1200 {
+          font-size: 18px;
+        }
+        @include m1400 {}
+        @include m1800 {}
+        @include m2200 {}
+
+        span {
+          letter-spacing: 2px;
+          font-size     : 16px;
+          @include m360 {}
+          @include m450 {}
+          @include m576 {}
+          @include m600 {}
+          @include m768 {
+            letter-spacing: 1px;
+            font-size     : 12px;
+          }
+          @include m900 {}
+          @include m992 {
+            letter-spacing: 1.5px;
+            font-size     : 15px;
+          }
+          @include m1200 {
+            font-size: 10px;
+          }
+          @include m1400 {}
+          @include m1800 {}
+          @include m2200 {}
+        }
+      }
+    }
+
+    .body__bar {
+      font-size: 0;
+
+      span {
+        display: inline-block;
+        width  : 12.5%;
+        height : 30px;
+      }
+    }
+
+    .body__bar--bottom {
+      margin: 0 0 30px;
+    }
+  }
+}
+
+@keyframes "blink" {
+  from,
+  to {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes slideIn {
+  from {
+    opacity  : 0;
+    transform: scale(0);
+  }
+
+  to {
+    opacity  : 1;
+    transform: scale(1);
+  }
+}

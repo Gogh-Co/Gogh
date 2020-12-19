@@ -1,0 +1,250 @@
+/**
+ * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ * ·······  Colors
+ * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+*/
+
+:root {
+  --color-blue       : #65d8ee;
+  --color-green      : #A6E22E;
+  --color-yellow     : #E6DB74;
+  --color-orange     : #FD971F;
+  --color-red        : #F92672;
+  --color-purple     : #AE81FF;
+  --color-cyan       : #0F94CF;
+  /* */
+  --color-grey-light : #E9E9E9;
+  --color-grey-medium: #7E868C;
+  --color-grey-dark  : #333E47;
+  /* */
+  --color-black      : #000000;
+  --color-white      : #FFFFFF;
+  /* */
+  --color-primary    : var(--color-blue);
+  --color-success    : var(--color-green);
+  --color-info       : var(--color-yellow);
+  --color-warning    : var(--color-orange);
+  --color-danger     : var(--color-red);
+}
+
+$color_blue       : var(--color-blue);
+$color_green      : var(--color-green);
+$color_yellow     : var(--color-yellow);
+$color_orange     : var(--color-orange);
+$color_red        : var(--color-red);
+$color_purple     : var(--color-purple);
+$color_cyan       : var(--color-cyan);
+/* */
+$color_grey_light : var(--color-grey-light);
+$color_grey_medium: var(--color-grey-medium);
+$color_grey_dark  : var(--color-grey-dark);
+/* */
+$color_black      : var(--color-black);
+$color_white      : var(--color-white);
+/* */
+$color_primary    : $color_blue;
+$color_success    : $color_green;
+$color_info       : $color_yellow;
+$color_warning    : $color_orange;
+$color_danger     : $color_red;
+
+
+/**
+ * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ * ·······  Fonts
+ * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+*/
+$font_roboto_default: 'Roboto', sans-serif;
+/* */
+$font_default  : $font_roboto_default;
+$font_normal   : $font_default;
+/* */
+$font_size_base: 1.6rem;
+/**
+ * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ * ·······  General
+ * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+*/
+body,
+html {
+  height   : 100%;
+  font-size: 10px;
+}
+
+body {
+  color                   : $color_black;
+  font-size               : $font_size_base;
+  font-family             : $font_default;
+
+  -webkit-font-smoothing  : antialiased;
+  -moz-osx-font-smoothing : grayscale;
+  -webkit-font-smoothing  : antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust    : 100%;
+}
+/**
+ * ::::::: Typography
+*/
+p {
+  color       : $color_black;
+  font-weight : 400;
+  font-style  : normal;
+  font-variant: normal;
+  font-size   : $font_size_base;
+  line-height : 1.4;
+}
+
+h1 {
+  margin      : 0;
+  color       : $color_primary;
+  font-size   : $font_size_base + 2.4;
+  line-height : 1;
+}
+
+h2 {
+  margin      : 0;
+  font-size   : $font_size_base + 1.5;
+  line-height : 1;
+}
+
+h3 {
+  margin      : 0;
+  font-size   : $font_size_base + .9;
+  line-height : 1;
+}
+
+h4 {
+  margin      : 0;
+  font-size   : $font_size_base + .6;
+  line-height : 1;
+}
+
+h5 {
+  margin      : 0;
+  font-size   : $font_size_base + .3;
+  line-height : 1;
+}
+
+h6 {
+  margin      : 0;
+  font-size   : $font_size_base;
+  line-height : 1;
+}
+
+strong {
+  font-weight: 900;
+}
+
+small {
+  font-size: $font_size_base - 3;
+}
+
+em {
+  font-style: italic;
+}
+
+blockquote > p {
+  margin        : $font_size_base;
+  padding       : 0;
+  border-color  : #ccc;
+  border-color  : rgba(0,0,0,0.2);
+  border-top    : 2px solid;
+  border-bottom : 2px solid;
+  border-radius : 0.25em;
+  color         : #888;
+  letter-spacing: 0.05em;
+  font-style    : italic;
+  font-size     : $font_size_base + 3;
+}
+
+ol {
+  padding: 0;
+
+  li {
+    margin-left: $font_size_base;
+    padding    : 0;
+  }
+}
+
+ul {
+  padding: 0;
+
+  li {
+    margin-left: $font_size_base;
+    padding    : 0;
+  }
+}
+
+/**
+ * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ * ·······  Media
+ * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+*/
+
+/**
+ * ::::::: Media Width
+ */
+@mixin m360  { @media (min-width: 360px)  { @content; } }
+@mixin m450  { @media (min-width: 450px)  { @content; } }
+@mixin m576  { @media (min-width: 576px)  { @content; } }
+@mixin m600  { @media (min-width: 600px)  { @content; } }
+@mixin m650  { @media (min-width: 650px)  { @content; } }
+@mixin m768  { @media (min-width: 768px)  { @content; } }
+@mixin m800  { @media (min-width: 800px)  { @content; } }
+@mixin m900  { @media (min-width: 900px)  { @content; } }
+@mixin m992  { @media (min-width: 992px)  { @content; } }
+@mixin m1200 { @media (min-width: 1200px) { @content; } }
+@mixin m1400 { @media (min-width: 1400px) { @content; } }
+@mixin m1800 { @media (min-width: 1800px) { @content; } }
+@mixin m2200 { @media (min-width: 2200px) { @content; } }
+
+/**
+ * ::::::: Media Height
+ */
+@mixin h360  { @media (min-height: 360px)  { @content; } }
+@mixin h450  { @media (min-height: 450px)  { @content; } }
+@mixin h576  { @media (min-height: 576px)  { @content; } }
+@mixin h600  { @media (min-height: 600px)  { @content; } }
+@mixin h650  { @media (min-height: 650px)  { @content; } }
+@mixin h768  { @media (min-height: 768px)  { @content; } }
+@mixin h800  { @media (min-height: 800px)  { @content; } }
+@mixin h900  { @media (min-height: 900px)  { @content; } }
+@mixin h992  { @media (min-height: 992px)  { @content; } }
+@mixin h1200 { @media (min-height: 1200px) { @content; } }
+@mixin h1400 { @media (min-height: 1400px) { @content; } }
+@mixin h1800 { @media (min-height: 1800px) { @content; } }
+@mixin h2200 { @media (min-height: 2200px) { @content; } }
+
+/**
+ * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ * ·······  Helpers
+ * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+*/
+
+.center {text-align: center}
+
+.black {color: $color_black}
+.white {color: $color_white}
+.red {color: $color_red}
+.yellow {color: $color_yellow}
+.green {color: $color_green}
+.blue {color: $color_blue}
+.purple {color: $color_purple}
+.orange {color: $color_orange}
+.cyan {color: $color_cyan}
+.grey-light {color: $color_grey_light}
+.grey-medium {color: $color_grey_medium}
+.grey-dark {color: $color_grey_dark}
+
+.bg-black {background-color: $color_black}
+.bg-white {background-color: $color_white}
+.bg-red {background-color: $color_red}
+.bg-yellow {background-color: $color_yellow}
+.bg-green {background-color: $color_green}
+.bg-blue {background-color: $color_blue}
+.bg-purple {background-color: $color_purple}
+.bg-orange {background-color: $color_orange}
+.bg-cyan {background-color: $color_cyan}
+.bg-grey-light {background-color: $color_grey_light}
+.bg-grey-medium {background-color: $color_grey_medium}
+.bg-grey-dark {background-color: $color_grey_dark}
