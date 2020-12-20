@@ -76,6 +76,8 @@ export TERMINAL=gnome-terminal
 
 We have lots of themes. Check them out [here](https://mayccoll.github.io/Gogh/)!
 
+also all themes in json format: https://raw.githubusercontent.com/Mayccoll/Gogh/master/data/themes.json
+
 <br/>
 <br/>
 
