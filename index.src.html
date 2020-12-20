@@ -27,15 +27,15 @@
 
 <body>
     <a href=https://github.com/Mayccoll/Gogh>
-          <img
-              loading="lazy"
-              width="149"
-              height="149"
-              style="position: absolute; top: 0; right: 0; border: 0;"
-              src="https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png"
-              class="attachment-full size-full"
-              alt="Fork me on GitHub"
-              data-recalc-dims="1">
+        <img
+            loading="lazy"
+            width="149"
+            height="149"
+            style="position: absolute; top: 0; right: 0; border: 0;"
+            src="https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png"
+            class="attachment-full size-full"
+            alt="Fork me on GitHub"
+            data-recalc-dims="1">
     </a>
 
     <header class=gogh-header>
@@ -52,6 +52,7 @@
                     <h2>
                         Color Scheme for Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4 Terminal
                     </h2>
+
                     <p>
                        Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that use Gnome Terminal, Pantheon Terminal, Tilix, or XFCE4 Terminal; initially inspired by Elementary OS Luna. Also works on iTerm for macOS.
                     </p>
@@ -107,29 +108,50 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="filters">
-                                <button class="btn"
-                                    v-bind:class="{ active: filter === 'all' }"
-                                    v-on:click="setFilter('all')">
+                                <button class="btn js-btn--filter"
+                                    :class="{ active: filter === 'all' }"
+                                    @click="setFilter('all'); resetMenuSelected()">
                                     All
                                 </button>
-                                <button class="btn"
-                                    v-bind:class="{ active: filter === 'light' }"
-                                    v-on:click="setFilter('light')">
+                                <button class="btn js-btn--filter"
+                                    :class="{ active: filter === 'light' }"
+                                    @click="setFilter('light'); resetMenuSelected()">
                                     Light Themes
                                 </button>
-                                <button class="btn"
-                                    v-bind:class="{ active: filter === 'dark' }"
-                                    v-on:click="setFilter('dark')">
+                                <button class="btn js-btn--filter"
+                                    :class="{ active: filter === 'dark' }"
+                                    @click="setFilter('dark'); resetMenuSelected()">
                                     Dark Themes
+                                </button>
+                                <button class="btn js-btn--filter-bg"
+                                    :class="{ active: selected === 'background' }"
+                                    @click="getBackgrounds()">
+                                    by Background
                                 </button>
                             </div>
                         </div>
                     </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="filter-background js-filter-background" style="display: none;">
+                                <template v-for="item in themeBackgrounds">
+                                    <button class="btn btn--filter-bg"
+                                        :class="{ active: filter === item.toLowerCase() }"
+                                        :style="'background-color:' + item"
+                                        @click="setFilter(item)">
+                                        <span>{{ item.toLowerCase() }}</span>
+                                    </button>
+                                </template>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <div class="container-fluid">
                     <div class="row">
                         <template v-for="theme in themes">
-                            <div class="col-md-6 col-lg-6 col-xl-4" v-show="filter === theme.category || filter === 'all'">
+                            <div class="col-md-6 col-lg-6 col-xl-4" v-show="filter === theme.category || filter === 'all' || filter === 'background' || filter === theme.background.toLowerCase()">
                                 <div class="terminal">
                                     <div class=bar>
                                         <div class="bar__title">
@@ -240,7 +262,9 @@
             <a target=_blank href="https://clipboardjs.com/"> Clipboardjs </a> put it all together :
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js" integrity="sha512-/DXTXr6nQodMUiq+IUJYCt2PPOUjrHJ9wFrqpJ3XkgPNOZVfMok7cRw6CSxyCQxXn6ozlESsSh1/sMCTF1rL/g==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js" integrity="sha512-yocoLferfPbcwpCMr8v/B0AB4SWpJlouBwgE0D3ZHaiP1nuu5djZclFEIj9znuqghaZ3tdCMRrreLoM8km+jIQ==" crossorigin="anonymous"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/components/prism-core.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/plugins/autoloader/prism-autoloader.min.js"></script>

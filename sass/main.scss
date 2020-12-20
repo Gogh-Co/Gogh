@@ -138,6 +138,125 @@
 }
 /**
  * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ * ·······  Filters
+ * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+*/
+.filters {
+  display        : flex;
+  justify-content: center;
+  margin         : 0 0 40px;
+
+  .btn {
+    position: relative;
+    margin  : 0 15px;
+
+    &:hover {
+      &::before {
+        position          : absolute;
+        right             : 0;
+        bottom            : -10px;
+        left              : 0;
+        margin            : 0 auto;
+        width             : 100%;
+        height            : 1px;
+        background-color  : #0d1926;
+        content           : " ";
+        opacity           : 1;
+        animation-name    : anim-gogh-bg;
+        animation-duration: 8s;
+      }
+    }
+
+    &::before {
+      position        : absolute;
+      right           : 0;
+      bottom          : -10px;
+      left            : 0;
+      margin          : 0 auto;
+      width           : 0;
+      height          : 1px;
+      background-color: #0d1926;
+      content         : " ";
+      opacity         : 0;
+      transition      : all 0.3s ease;
+    }
+
+    &.active {
+      background-color: #0d1926;
+      color           : #e7e7e7;
+    }
+
+    &.active::before {
+      position        : absolute;
+      right           : 0;
+      bottom          : -10px;
+      left            : 0;
+      width           : 100%;
+      height          : 1px;
+      background-color: #0d1926;
+      content         : " ";
+      opacity         : 1;
+    }
+  }
+}
+/**
+ * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ * ·······  Filters Bg
+ * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+*/
+.filter-background {
+  margin: 0 0 70px;
+
+  .btn--filter-bg {
+    position  : relative;
+    padding   : 0;
+    width     : 5%;
+    height    : 40px;
+    border    : none;
+    cursor    : pointer;
+    transition: all 0.3s ease, border-radius 0.9s ease;
+
+    span {
+      position      : absolute;
+      bottom        : -12px;
+      display       : none;
+      padding       : 1px 3px;
+      width         : 100%;
+      border-radius : 1px;
+      background    : #0d1926;
+      color         : #ffffff;
+      text-align    : center;
+      text-transform: none;
+      font-size     : 0.6rem;
+      transition    : all 0.3s ease;
+    }
+
+    &:hover {
+      z-index      : 20;
+      height       : 40px;
+      border       : 1px solid #414141;
+      border-radius: 1px;
+      transform    : scale(1.6);
+
+      span {
+        display: block;
+      }
+    }
+  }
+
+  .btn--filter-bg.active {
+    z-index      : 10;
+    border       : 1px solid #414141;
+    border-radius: 1px;
+    transform    : scale(1.6);
+
+    span {
+      display: block;
+    }
+  }
+}
+/**
+ * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
  * ·······  Main Content
  * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -159,65 +278,6 @@
   }
   @include m2200 {
     max-width: 74%;
-  }
-
-  .filters {
-    display        : flex;
-    justify-content: center;
-    margin         : 0 0 60px;
-
-    .btn {
-      position: relative;
-      margin  : 0 15px;
-
-      &:hover {
-        &::before {
-          position          : absolute;
-          right             : 0;
-          bottom            : -10px;
-          left              : 0;
-          margin            : 0 auto;
-          width             : 100%;
-          height            : 1px;
-          background-color  : #0d1926;
-          content           : " ";
-          opacity           : 1;
-          animation-name    : anim-gogh-bg;
-          animation-duration: 8s;
-        }
-      }
-
-      &::before {
-        position        : absolute;
-        right           : 0;
-        bottom          : -10px;
-        left            : 0;
-        margin          : 0 auto;
-        width           : 0;
-        height          : 1px;
-        background-color: #0d1926;
-        content         : " ";
-        opacity         : 0;
-        transition      : all 0.3s ease;
-      }
-
-      &.active {
-        background-color: #0d1926;
-        color           : #e7e7e7;
-      }
-
-      &.active::before {
-        position        : absolute;
-        right           : 0;
-        bottom          : -10px;
-        left            : 0;
-        width           : 100%;
-        height          : 1px;
-        background-color: #0d1926;
-        content         : " ";
-        opacity         : 1;
-      }
-    }
   }
 }
 /**
