@@ -85,6 +85,8 @@ declare -a THEMES=(
   'highway.sh'
   'hipster-green.sh'
   'homebrew.sh'
+  'horizon-bright.sh'
+  'horizon-dark.sh'
   'hurtado.sh'
   'hybrid.sh'
   'ibm3270.sh'
