@@ -157,7 +157,7 @@ const $app = {
       const $bgsRGB = $bgsUnique.map((ele) => chroma(ele).rgb());
       const $bgsSort = sortColors($bgsRGB);
       const $bgsHEX = $bgsSort.map(ele => chroma(ele).hex());
-      this.themeBackgrounds = $bgsHEX;
+      this.themeBackgrounds = $bgsHEX.reverse();
       this.selected = 'background';
       this.filter = 'background';
     },
