@@ -22,7 +22,7 @@ export COLOR_16="#c9d1d9"           # White
 export BACKGROUND_COLOR="#161b22"   # Background Color
 export FOREGROUND_COLOR="#c9d1d9"   # Foreground Color (text)
 export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor color
-export PROFILE_NAME="_bash"
+export PROFILE_NAME="Purple People Eater"
 # =============================================================== #
 
 
