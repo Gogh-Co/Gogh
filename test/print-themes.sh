@@ -155,6 +155,7 @@ declare -a THEMES=(
   'peppermint.sh'
   'pnevma.sh'
   'pro.sh'
+  'purple-people-eater.sh'
   'red-alert.sh'
   'red-sands.sh'
   'rippedcasts.sh'

@@ -156,6 +156,7 @@ declare -a THEMES=(
   'pnevma.sh'
   'powershell.sh'
   'pro.sh'
+  'purple-people-eater.sh'
   'red-alert.sh'
   'red-sands.sh'
   'relaxed.sh'
