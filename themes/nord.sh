@@ -1,27 +1,27 @@
 #!/usr/bin/env bash
 
 # ====================CONFIG THIS =============================== #
-export COLOR_01="#353535" #black
-export COLOR_02="#E64569" #red
-export COLOR_03="#89D287" #green
-export COLOR_04="#DAB752" #yellow
-export COLOR_05="#439ECF" #blue
-export COLOR_06="#D961DC" #magenta
-export COLOR_07="#64AAAF" #cyan
-export COLOR_08="#B3B3B3" #white
+export COLOR_01="#3B4252" #nord1
+export COLOR_02="#BF616A" #nord11
+export COLOR_03="#A3BE8C" #nord14
+export COLOR_04="#EBCB8B" #nord13
+export COLOR_05="#81A1C1" #nord9
+export COLOR_06="#B48EAD" #nord15
+export COLOR_07="#88C0D0" #nord8
+export COLOR_08="#E5E9F0" #nord5
 
-export COLOR_09="#535353" #lightBlack
-export COLOR_10="#E4859A" #lightRed
-export COLOR_11="#A2CCA1" #lightGreen
-export COLOR_12="#E1E387" #lightYellow
-export COLOR_13="#6FBBE2" #lightBlue
-export COLOR_14="#E586E7" #lightMagenta
-export COLOR_15="#96DCDA" #lightCyan
-export COLOR_16="#DEDEDE" #lightWhite
+export COLOR_09="#4C566A" #nord3
+export COLOR_10="#BF616A" #nord11
+export COLOR_11="#A3BE8C" #nord14
+export COLOR_12="#EBCB8B" #nord13
+export COLOR_13="#81A1C1" #nord9
+export COLOR_14="#B48EAD" #nord15
+export COLOR_15="#8FBCBB" #nord7
+export COLOR_16="#ECEFF4" #nord6
 
-export BACKGROUND_COLOR=$COLOR_01
-export FOREGROUND_COLOR=$COLOR_05
-export CURSOR_COLOR=$COLOR_05
+export BACKGROUND_COLOR="#2E3440" #nord0
+export FOREGROUND_COLOR="#D8DEE9" #nord4
+export CURSOR_COLOR=$FOREGROUND_COLOR
 export PROFILE_NAME="Nord"
 # =============================================================== #
 
