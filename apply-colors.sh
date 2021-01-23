@@ -122,7 +122,9 @@ gnome_color () {
   BB=${1:3:2}
   CC=${1:5:2}
 
-  echo "#${AA}${AA}${BB}${BB}${CC}${CC}"
+  if [[ -n "${AA:-}" ]]; then
+    echo "#${AA}${AA}${BB}${BB}${CC}${CC}"
+  fi
 }
 
 hexToDec () {
@@ -237,6 +239,9 @@ set_theme() {
   dset visible-name                    "'${PROFILE_NAME}'"
   dset background-color                "'${BACKGROUND_COLOR}'"
   dset foreground-color                "'${FOREGROUND_COLOR}'"
+  dset cursor-colors-set               "true"
+  dset cursor-background-color         "'${CURSOR_COLOR}'"
+  dset cursor-foreground-color         "'${BACKGROUND_COLOR}'"
 
   if [[ -n "${HIGHLIGHT_BG_COLOR:-}" ]]; then
     dset   highlight-colors-set        "true"
@@ -443,6 +448,7 @@ apply_gtk() {
 
     BACKGROUND_COLOR=$(gnome_color "$BACKGROUND_COLOR")
     FOREGROUND_COLOR=$(gnome_color "$FOREGROUND_COLOR")
+    CURSOR_COLOR=$(gnome_color "$CURSOR_COLOR")
     HIGHLIGHT_BG_COLOR=$(gnome_color "$HIGHLIGHT_BG_COLOR")
     HIGHLIGHT_FG_COLOR=$(gnome_color "$HIGHLIGHT_FG_COLOR")
     COLOR_01=$(gnome_color         "$COLOR_01")
