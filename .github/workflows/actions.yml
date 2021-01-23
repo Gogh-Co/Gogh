@@ -14,6 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
+          bash tools/generate.sh
           git config user.name  github-actions[bot]
           git config user.email github-actions[bot]@github.com
           git add .
