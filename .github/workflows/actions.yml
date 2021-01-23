@@ -1,0 +1,21 @@
+name: Generate themes.json
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+    branches:
+    - master
+
+jobs:
+  run:
+    name: Lint with ESLint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Run bash script
+        run: |
+          chmod +x /github/workspace/.github/workflows/actions.sh
+          /github/workspace/.github/workflows/actions.sh
+
+
