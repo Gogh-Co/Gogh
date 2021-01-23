@@ -12,10 +12,12 @@ jobs:
     name: Lint with ESLint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-      - name: Run bash script
-        run: |
-          chmod +x /github/workspace/.github/workflows/actions.sh
-          /github/workspace/.github/workflows/actions.sh
+      - uses: actions/checkout@v2
+      - run: |
+          git config user.name  github-actions[bot]
+          git config user.email github-actions[bot]@github.com
+          git add .
+          git commit -m "------- Generate themes.json -------"
+          git push
 
 
