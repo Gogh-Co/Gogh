@@ -1,28 +1,28 @@
 #!/usr/bin/env bash
 
 # ====================CONFIG THIS =============================== #
-export COLOR_01="#1D1F21"           # Black
-export COLOR_02="#CC342B"           # Red
-export COLOR_03="#198844"           # Green
-export COLOR_04="#FBA922"           # Yellow
-export COLOR_05="#3971ED"           # Blue
-export COLOR_06="#A36AC7"           # Cyan
-export COLOR_07="#3971ED"           # Magenta
-export COLOR_08="#C5C8C6"           # Light gray
+export COLOR_01="#000000"           # Black
+export COLOR_02="#EA4335"           # Red
+export COLOR_03="#34A853"           # Green
+export COLOR_04="#FBBC05"           # Yellow
+export COLOR_05="#4285F4"           # Blue
+export COLOR_06="#A142F4"           # Cyan
+export COLOR_07="#24C1E0"           # Purple
+export COLOR_08="#EEEEEE"           # Light gray
 
-export COLOR_09="#969896"           # Dark gray
-export COLOR_10="#CC342B"           # Light Red
-export COLOR_11="#198844"           # Light Green
-export COLOR_12="#FBA922"           # Light Yellow
-export COLOR_13="#3971ED"           # Light Blue
-export COLOR_14="#A36AC7"           # Light Cyan
-export COLOR_15="#3971ED"           # Light Magenta
+export COLOR_09="#656565"           # Dark gray
+export COLOR_10="#EA4335"           # Bright Red
+export COLOR_11="#34A853"           # Bright Green
+export COLOR_12="#FBBC05"           # Bright Yellow
+export COLOR_13="#4285F4"           # Bright Blue
+export COLOR_14="#A142F4"           # Bright Cyan
+export COLOR_15="#24C1E0"           # Bright Purple
 export COLOR_16="#FFFFFF"           # White
 
-export BACKGROUND_COLOR="#1D1F21"   # Background Color
-export FOREGROUND_COLOR="#B4B7B4"   # Foreground Color (text)
+export BACKGROUND_COLOR="#000000"   # Background Color
+export FOREGROUND_COLOR="#EEEEEE"   # Foreground Color (text)
 export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor color
-export PROFILE_NAME="base16: Google (dark)"
+export PROFILE_NAME="Google Dark"
 # =============================================
 
 
