@@ -156,6 +156,7 @@ declare -a THEMES=(
   'pencil-dark.sh'
   'pencil-light.sh'
   'peppermint.sh'
+  'pixiefloss.sh'
   'pnevma.sh'
   'powershell.sh'
   'pro.sh'
