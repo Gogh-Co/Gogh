@@ -100,6 +100,7 @@ declare -a THEMES=(
   'jup.sh'
   'kibble.sh'
   'kokuban.sh'
+	'laserwave.sh'
   'later-this-evening.sh'
   'lavandula.sh'
   'liquid-carbon-transparent.sh'
