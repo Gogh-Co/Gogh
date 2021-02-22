@@ -367,6 +367,67 @@ apply_cygwin() {
   echo "Done - please reopen your Cygwin terminal to see the changes"
 }
 
+apply_alacritty() {
+  # |
+  # | Applying values on Alacritty
+  # | ===========================================
+
+  json_str="\
+  { \
+    \"colors\": \
+    {\
+      \"primary\":\
+      {\
+        \"background\": \"$BACKGROUND_COLOR\",\
+        \"foreground\": \"$FOREGROUND_COLOR\"\
+      },\
+      \"normal\":\
+      {\
+        \"black\": \"$COLOR_01\",\
+        \"red\": \"$COLOR_02\",\
+        \"green\": \"$COLOR_03\",\
+        \"yellow\":\"$COLOR_04\",\
+        \"blue\":\"$COLOR_05\",\
+        \"magenta\": \"$COLOR_06\",\
+        \"cyan\":\"$COLOR_07\",\
+        \"white\": \"$COLOR_08\"\
+      },\
+      \"bright\":\
+      {\
+        \"black\":\"$COLOR_09\",\
+        \"red\":\"$COLOR_10\",\
+        \"green\":\"$COLOR_11\",\
+        \"yellow\": \"$COLOR_12\",\
+        \"blue\": \"$COLOR_13\",\
+        \"magenta\":\"$COLOR_14\",\
+        \"cyan\": \"$COLOR_15\",\
+        \"white\":\"$COLOR_16\"\
+      } \
+    }\
+  }"
+
+  SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
+  PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
+
+  # Allow developer to change url to forked url for easier testing
+  # IMPORTANT: Make sure you export this variable if your main shell is not bash
+  BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Mayccoll/Gogh/master"}
+
+
+  if [[ -e "${SCRIPT_PATH}/apply-alacritty.py" ]]; then
+    python3 "${SCRIPT_PATH}/apply-alacritty.py" "$json_str"
+  else
+    if [[ "$(uname)" = "Darwin" ]]; then
+      # OSX ships with curl and ancient bash
+      python3 -c "$(curl -so- "${BASE_URL}/apply-alacritty.py")" "$json_str"
+    else
+      # Linux ships with wget
+      python3 -c "$(wget -qO- "${BASE_URL}/apply-alacritty.py")" "$json_str"
+    fi
+  fi
+
+}
+
 apply_darwin() {
   # |
   # | Applying values on iTerm2
@@ -711,6 +772,10 @@ case "${TERMINAL}" in
 
   xfce4-terminal )
     apply_xfce4-terminal
+    ;;
+
+  alacritty )
+    apply_alacritty
     ;;
 
   * )
