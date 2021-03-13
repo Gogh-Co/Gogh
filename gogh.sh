@@ -191,6 +191,7 @@ declare -a THEMES=(
   'summer-pop.sh'
   'sundried.sh'
   'sweet.sh'
+  'sweet-eliverlara.sh'
   'symphonic.sh'
   'synthwave.sh'
   'teerb.sh'
