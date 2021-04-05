@@ -47,6 +47,7 @@ declare -a THEMES=(
   'crayon-pony-fish.sh'
   'dark-pastel.sh'
   'darkside.sh'
+  'dehydration.sh'
   'desert.sh'
   'dimmed-monokai.sh'
   'dracula.sh'
