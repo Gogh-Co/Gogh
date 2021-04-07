@@ -126,6 +126,7 @@ declare -a THEMES=(
   'mono-white.sh'
   'mono-yellow.sh'
   'monokai-dark.sh'
+  'monokai-pro.sh'
   'monokai-soda.sh'
   'n0tch2k.sh'
   'neon-night.sh'
