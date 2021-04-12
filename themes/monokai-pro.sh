@@ -1,26 +1,26 @@
 #!/usr/bin/env bash
 
 # ====================CONFIG THIS =============================== #
-export COLOR_01="#363537"           # Black
-export COLOR_02="#ff618e"           # Red
-export COLOR_03="#6ed892"           # Green
-export COLOR_04="#ffe572"           # Yellow
-export COLOR_05="#ff935b"           # Blue
-export COLOR_06="#938ae0"           # Magenta
-export COLOR_07="#3bd4e4"           # Cyan
-export COLOR_08="#f7f1fe"           # Light gray
+export COLOR_01="#363537"           # Dark Gray
+export COLOR_02="#FF6188"           # Monokai Pro Red
+export COLOR_03="#A9DC76"           # Monokai Pro Green
+export COLOR_04="#FFD866"           # Monokai Pro Yellow
+export COLOR_05="#FC9867"           # Monokai Pro Orange
+export COLOR_06="#AB9DF2"           # Monokai Pro Magenta
+export COLOR_07="#78DCE8"           # Monokai Pro Cyan
+export COLOR_08="#FDF9F3"           # Light Gray
 
-export COLOR_09="#363537"           # Dark gray
-export COLOR_10="#ff618e"           # Light Red
-export COLOR_11="#6ed892"           # Light Green
-export COLOR_12="#ffe572"           # Light Yellow
-export COLOR_13="#ff935b"           # Light Blue
-export COLOR_14="#938ae0"           # Light Magenta
-export COLOR_15="#3bd4e4"           # Light Cyan
-export COLOR_16="#f7f1fe"           # White
+export COLOR_09="#908E8F"           # Dark Gray
+export COLOR_10="#FF6188"           # Monokai Pro Red
+export COLOR_11="#A9DC76"           # Monokai Pro Green
+export COLOR_12="#FFD866"           # Monokai Pro Yellow
+export COLOR_13="#FC9867"           # Monokai Pro Orange
+export COLOR_14="#AB9DF2"           # Monokai Pro Magenta
+export COLOR_15="#78DCE8"           # Monokai Pro Cyan
+export COLOR_16="#FDF9F3"           # Light Gray
 
 export BACKGROUND_COLOR="#363537"   # Background Color
-export FOREGROUND_COLOR="#f7f1fe"   # Foreground Color (text)
+export FOREGROUND_COLOR="#FDF9F3"   # Foreground Color (text)
 export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor color
 export PROFILE_NAME="Monokai Pro"
 # =============================================================== #
