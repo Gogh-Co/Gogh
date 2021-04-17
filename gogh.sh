@@ -215,6 +215,7 @@ declare -a THEMES=(
   'vaughn.sh'
   'vibrant-ink.sh'
   'vs-code-dark-plus.sh'
+  'vs-code-light-plus.sh'
   'warm-neon.sh'
   'wez.sh'
   'wild-cherry.sh'
