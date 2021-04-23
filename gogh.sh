@@ -38,6 +38,7 @@ declare -a THEMES=(
   'cai.sh'
   'chalk.sh'
   'chalkboard.sh'
+  'chameleon.sh'
   'ciapre.sh'
   'clone-of-ubuntu.sh'
   'clrs.sh'
