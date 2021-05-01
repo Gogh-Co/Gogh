@@ -53,7 +53,7 @@
       right      : 0;
       left       : 0;
       margin     : 0 auto;
-      color      : #5e5e5e;
+      color      : #424242;
       font-family: Arial;
       font-size  : 14px;
       font-weight: 400;
@@ -67,14 +67,32 @@
     }
   }
 
+  /**
+   * ::::::: Body
+  */
   .body {
     box-sizing   : border-box;
     padding      : 30px;
     border       : 1px solid #D9D9D9;
     border-radius: 0 0 5px 5px;
+    position: relative;
 
     .body__txt {
       margin: 0 0 30px;
+      display: none;
+      @include m360 {}
+      @include m450 {}
+      @include m576 {
+        display: block;
+      }
+      @include m650 {}
+      @include m768 {}
+      @include m900 {}
+      @include m992 {}
+      @include m1200 {}
+      @include m1400 {}
+      @include m1800 {}
+      @include m2200 {}
 
       p {
         margin     : 0;
@@ -83,17 +101,19 @@
         line-height: 1.1;
         @include m360 {}
         @include m450 {}
-        @include m576 {}
+        @include m576 {
+          font-size: 1.2rem;
+        }
         @include m600 {}
         @include m768 {
-          font-size: 14px;
+          font-size: 1.4rem;
         }
         @include m900 {}
         @include m992 {
-          font-size: 20px;
+          font-size: 2.0rem;
         }
         @include m1200 {
-          font-size: 18px;
+          font-size: 1.8rem;
         }
         @include m1400 {}
         @include m1800 {}
