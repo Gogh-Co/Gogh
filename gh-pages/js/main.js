@@ -138,6 +138,26 @@ const $app = {
     });
   },
 
+  computed: {
+    allValues () {
+      // var $result = [];
+      // for(var e in this.themes) {
+      //   var value = this.themes[e];
+      //   for (var i in value) {
+      //     if (value.hasOwnProperty(i)) {
+      //       $result.push(value[i])
+      //     }
+      //   }
+      // }
+      // $result = $result.filter(s => ~s.indexOf("#"));
+      // $result = $result.map(ele => ele.toLowerCase());
+      // $result = [...new Set($result)];
+      // $result = $result.sort();
+      // return $result;
+
+    }
+  },
+
   methods: {
     setFilter (f) {
       this.filter = '';
@@ -168,7 +188,8 @@ const $app = {
   }
 };
 
-Vue.createApp($app).mount('#js-vue-app');
+Vue.createApp($app)
+  .mount('#js-vue-app');
 
 /**
  * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░

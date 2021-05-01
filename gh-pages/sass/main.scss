@@ -8,7 +8,7 @@
 */
 .btn {
   display         : inline-block;
-  padding         : 0.5rem 2.5rem 0.55rem;
+  padding         : 0.8rem 2.5rem 0.85rem;
   outline         : none;
   border          : 1px solid #0d1926;
   border-radius   : 0;
@@ -17,9 +17,25 @@
   text-align      : center;
   text-decoration : none;
   text-transform  : uppercase;
-  font-size       : 16px;
+  font-size       : 1.6rem;
   cursor          : pointer;
   transition      : all 0.3s ease;
+  @include m360 {}
+  @include m450 {}
+  @include m576 {}
+  @include m650 {
+    font-size       : 1.4rem;
+    padding: 0.57rem 1.5rem 0.55rem;
+  }
+  @include m768 {
+    padding:  1.3rem 2.5rem 0.85rem;
+  }
+  @include m900 {}
+  @include m992 {}
+  @include m1200 {}
+  @include m1400 {}
+  @include m1800 {}
+  @include m2200 {}
 }
 
 .btn:hover {
@@ -42,9 +58,9 @@
 */
 .gogh-header {
   display         : flex;
+  background-color: #0d1926;
   align-items     : center;
   justify-content : center;
-  background-color: #0d1926;
 
   h1 {
     width      : 500px;
@@ -80,8 +96,68 @@
   h2 {
     margin     : 0 0 25px;
     color      : #595647;
-    font-weight: 400;
-    font-size  : 2.8rem;
+    text-align : center;
+    font-weight: 700;
+    font-size  : 2.0rem;
+    line-height: 1.2;
+    @include m360 {}
+    @include m450 {}
+    @include m576 {}
+    @include m650 {}
+    @include m768 {
+      text-align : left;
+      font-weight: 400;
+      font-size  : 2.8rem;
+      line-height: 1;
+    }
+    @include m900 {}
+    @include m992 {}
+    @include m1200 {}
+    @include m1400 {}
+    @include m1800 {}
+    @include m2200 {}
+  }
+
+  h3 {
+    @include m360 {}
+    @include m450 {
+      font-size: 2.8rem;
+    }
+    @include m576 {}
+    @include m650 {
+      font-size: 3.2rem;
+    }
+    @include m768 {}
+    @include m900 {}
+    @include m992 {}
+    @include m1200 {}
+    @include m1400 {}
+    @include m1800 {}
+    @include m2200 {}
+  }
+
+  h4 {
+    font-size: 1.8rem;
+    @include m360 {}
+    @include m450 {
+      font-size: 2.2rem;
+    }
+    @include m576 {}
+    @include m650 {
+      font-size: 2.8rem;
+    }
+    @include m768 {}
+    @include m900 {}
+    @include m992 {}
+    @include m1200 {}
+    @include m1400 {}
+    @include m1800 {}
+    @include m2200 {}
+
+    span {
+      font-weight: 300;
+      font-size  : 1.4rem;
+    }
   }
 
   p {
@@ -100,20 +176,55 @@
   position: relative;
   margin  : 0 0 40px;
 
+  .language-bash {
+    padding: 0.8rem 0.8rem 1.5rem;
+    @include m360 {}
+    @include m450 {
+      padding: 1.5rem 1.2rem;
+    }
+    @include m576 {}
+    @include m650 {}
+    @include m768 {}
+    @include m900 {}
+    @include m992 {}
+    @include m1200 {}
+    @include m1400 {}
+    @include m1800 {}
+    @include m2200 {}
+  }
+
+  .code-holder {
+    position: relative;
+  }
+
   .btn-copy {
-    position  : absolute;
-    right     : 10px;
-    bottom    : 14px;
-    display   : inline-block;
-    width     : 25px;
-    cursor    : pointer;
-    transition: all 0.3s ease;
+    position        : absolute;
+    right           : 0;
+    bottom          : 0;
+    display         : inline-flex;
+    padding         : 5px 10px;
+    height          : 100%;
+    background-color: #F5F2F0;
+    cursor          : pointer;
+    transition      : all 0.3s ease;
+    @include m360 {}
+    @include m450 {}
+    @include m576 {}
+    @include m650 {
+      max-width: 50px;
+    }
+    @include m768 {}
+    @include m900 {}
+    @include m992 {}
+    @include m1200 {}
+    @include m1400 {}
+    @include m1800 {}
+    @include m2200 {}
 
     svg {
       width     : 100%;
       height    : auto;
       transition: all 0.3s ease;
-
       fill      : #363636;
     }
 
@@ -121,7 +232,6 @@
       svg {
         animation-name    : anim-gogh;
         animation-duration: 8s;
-
         fill              : #FF0883;
       }
     }
@@ -143,12 +253,41 @@
 */
 .filters {
   display        : flex;
-  justify-content: center;
   margin         : 0 0 40px;
+  justify-content: center;
+  flex-direction: column;
+  @include m360 {}
+  @include m450 {}
+  @include m576 {}
+  @include m650 {
+    flex-direction: row;
+  }
+  @include m768 {}
+  @include m900 {}
+  @include m992 {}
+  @include m1200 {}
+  @include m1400 {}
+  @include m1800 {}
+  @include m2200 {}
 
   .btn {
     position: relative;
-    margin  : 0 15px;
+    margin  : 0 0 20px 0;
+    @include m360 {}
+    @include m450 {}
+    @include m576 {}
+    @include m650 {
+      margin  : 0 15px;
+    }
+    @include m768 {
+
+    }
+    @include m900 {}
+    @include m992 {}
+    @include m1200 {}
+    @include m1400 {}
+    @include m1800 {}
+    @include m2200 {}
 
     &:hover {
       &::before {
@@ -168,17 +307,30 @@
     }
 
     &::before {
-      position        : absolute;
-      right           : 0;
-      bottom          : -10px;
-      left            : 0;
-      margin          : 0 auto;
-      width           : 0;
-      height          : 1px;
-      background-color: #0d1926;
-      content         : " ";
-      opacity         : 0;
-      transition      : all 0.3s ease;
+      @include m360 {}
+      @include m450 {}
+      @include m576 {}
+      @include m650 {}
+      @include m768 {
+        position        : absolute;
+        right           : 0;
+        bottom          : -10px;
+        left            : 0;
+        margin          : 0 auto;
+        width           : 0;
+        height          : 1px;
+        background-color: #0d1926;
+        content         : " ";
+        opacity         : 0;
+        transition      : all 0.3s ease;
+      }
+      @include m900 {}
+      @include m992 {}
+      @include m1200 {}
+      @include m1400 {}
+      @include m1800 {}
+      @include m2200 {}
+
     }
 
     &.active {
@@ -187,15 +339,28 @@
     }
 
     &.active::before {
-      position        : absolute;
-      right           : 0;
-      bottom          : -10px;
-      left            : 0;
-      width           : 100%;
-      height          : 1px;
-      background-color: #0d1926;
-      content         : " ";
-      opacity         : 1;
+      @include m360 {}
+      @include m450 {}
+      @include m576 {}
+      @include m650 {}
+      @include m768 {
+        position        : absolute;
+        right           : 0;
+        bottom          : -10px;
+        left            : 0;
+        width           : 100%;
+        height          : 1px;
+        background-color: #0d1926;
+        content         : " ";
+        opacity         : 1;
+      }
+      @include m900 {}
+      @include m992 {}
+      @include m1200 {}
+      @include m1400 {}
+      @include m1800 {}
+      @include m2200 {}
+
     }
   }
 }
