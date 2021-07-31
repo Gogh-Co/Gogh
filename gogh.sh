@@ -133,7 +133,7 @@ declare -a THEMES=(
   'monokai-dark.sh'
   'monokai-pro.sh'
   'monokai-soda.sh'
-  'Morada.sh'
+  'morada.sh'
   'n0tch2k.sh'
   'neon-night.sh'
   'neopolitan.sh'
