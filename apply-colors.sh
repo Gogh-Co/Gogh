@@ -110,6 +110,14 @@ case "${TERMINAL}" in
     fi
     ;;
 
+  foot )
+    CFGFILE="${HOME}/.config/foot/foot.ini"
+    if [[ ! -f "${CFGFILE}" ]]; then
+      printf '\n%s\n' "Error: Couldn't find an existing configuration file."
+      exit 1
+    fi
+    ;;
+
 esac
 
 
@@ -168,6 +176,14 @@ updateMinttyConfig () {
   local   name="${3}"
 
   sed -i -r -e "s/^${name}=.+/$(createMinttyEntry "${name}" "${color}")/g" "${config}"
+}
+
+updateFootConfig () {
+  local config="${1}"
+  local  color="${2}"
+  local   name="${3}"
+
+  sed -i -r -e "s/^${name}=.+/${name}=${color/\#/}/g" "${config}"
 }
 
 convertNameAndRGBtoITerm() {
@@ -428,11 +444,43 @@ apply_alacritty() {
 
 }
 
+apply_foot() {
+  # |
+  # | Applying values on foot
+  # | ===========================================
+
+  echo "Patching foot configuration file (${CFGFILE}) with new colors..."
+
+  updateFootConfig "$CFGFILE" "$COLOR_01" "regular0"
+  updateFootConfig "$CFGFILE" "$COLOR_02" "regular1"
+  updateFootConfig "$CFGFILE" "$COLOR_03" "regular2"
+  updateFootConfig "$CFGFILE" "$COLOR_04" "regular3"
+  updateFootConfig "$CFGFILE" "$COLOR_05" "regular4"
+  updateFootConfig "$CFGFILE" "$COLOR_06" "regular5"
+  updateFootConfig "$CFGFILE" "$COLOR_07" "regular6"
+  updateFootConfig "$CFGFILE" "$COLOR_08" "regular7"
+
+  updateFootConfig "$CFGFILE" "$COLOR_09" "bright0"
+  updateFootConfig "$CFGFILE" "$COLOR_10" "bright1"
+  updateFootConfig "$CFGFILE" "$COLOR_11" "bright2"
+  updateFootConfig "$CFGFILE" "$COLOR_12" "bright3"
+  updateFootConfig "$CFGFILE" "$COLOR_13" "bright4"
+  updateFootConfig "$CFGFILE" "$COLOR_14" "bright5"
+  updateFootConfig "$CFGFILE" "$COLOR_15" "bright6"
+  updateFootConfig "$CFGFILE" "$COLOR_16" "bright7"
+
+  updateFootConfig "$CFGFILE" "$BACKGROUND_COLOR" "background"
+  updateFootConfig "$CFGFILE" "$FOREGROUND_COLOR" "foreground"
+
+  echo "Done - please reopen your foot terminal to see the changes"
+
+}
+
 apply_darwin() {
   # |
   # | Applying values on iTerm2
   # | ===========================================
-  
+
   BACKGROUND_COLOR=$(convertNameAndRGBtoITerm "Background Color" "$BACKGROUND_COLOR")
   FOREGROUND_COLOR=$(convertNameAndRGBtoITerm "Foreground Color" "$FOREGROUND_COLOR")
   COLOR_01=$(convertNameAndRGBtoITerm "Ansi 0 Color"             "$COLOR_01")
@@ -778,6 +826,10 @@ case "${TERMINAL}" in
     apply_alacritty
     ;;
 
+  foot )
+    apply_foot
+    ;;
+
   * )
     printf '%s\n'                                             \
     "Unsupported terminal!"                                   \
@@ -791,6 +843,7 @@ case "${TERMINAL}" in
     "   gnome-terminal"                                       \
     "   tilix"                                                \
     "   xfce4-terminal"                                       \
+    "   foot"                                                 \
     ""                                                        \
     "If you believe you have recieved this message in error," \
     "try manually setting \`TERMINAL', hint: ps -h -o comm -p \$PPID"
