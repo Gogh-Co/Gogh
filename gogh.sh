@@ -96,6 +96,7 @@ declare -a THEMES=(
   'hurtado.sh'
   'hybrid.sh'
   'ibm3270.sh'
+  'ibm3270-hicontrast.sh'
   'ic-green-ppl.sh'
   'ic-orange-ppl.sh'
   'idle-toes.sh'
