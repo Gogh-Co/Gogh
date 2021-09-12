@@ -9,7 +9,7 @@ Gogh
   :small_blue_diamond: <a href="http://mayccoll.github.io/Gogh"> Visit the Website </a> :small_blue_diamond:
 </div>
 
-## Color Scheme for Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4 Terminal
+## Color scheme for your terminal
 
 Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that use Gnome Terminal, Pantheon Terminal, Tilix, or XFCE4 Terminal; initially inspired by Elementary OS Luna. Also works on iTerm for macOS. You can check out the themes [here](https://mayccoll.github.io/Gogh/).
 
@@ -17,8 +17,19 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that u
 
 ----
 
-<br/>
-<br/>
+## 💻 Terminals
+
+- Gnome - [Web](https://help.gnome.org/users/gnome-terminal/stable/)
+- Mintty - [Web](https://mintty.github.io/)
+- Mate - [Web](https://github.com/mate-desktop/mate-terminal)
+- Pantheon / Elementary - [Web](https://github.com/elementary/terminal)
+- Tilix - [Web](https://gnunn1.github.io/tilix-web/)
+- XFCE4 - [Web](https://docs.xfce.org/apps/terminal/start)
+- iTerm - [Web](https://iterm2.com/)
+- Cygwin - [Web](https://www.cygwin.com/)
+- Guake - [Web](https://sw.kovidgoyal.net/kitty/)
+- Foot - [Web](https://codeberg.org/dnkl/foot)
+- Kitty - [Web](https://sw.kovidgoyal.net/kitty/)
 
 ## ⚙️ Pre-Install
 
@@ -148,6 +159,11 @@ There is no blue without yellow and without orange.
 ## Author
 
 - Miguel D. Quintero - [Lanet.co](https://lanet.co)
+<form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="hosted_button_id" value="UCTBRYLUVKQ32" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_CO/i/scr/pixel.gif" width="1" height="1" />
+</form>
 
 <br/>
 <br/>
