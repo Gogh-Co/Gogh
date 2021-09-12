@@ -365,6 +365,8 @@ if [[ -z "${TERMINAL:-}" ]]; then
     TERMINAL=$TERM_PROGRAM
   elif [[ "${OS#CYGWIN}" != "${OS}" ]]; then
     TERMINAL="mintty"
+  elif [[ "$TERM" = "xterm-kitty" ]]; then
+    TERMINAL="kitty"
   else
     # |
     # | Depending on how the script was invoked, we need
