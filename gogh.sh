@@ -24,6 +24,7 @@ declare -a THEMES=(
   'argonaut.sh'
   'arthur.sh'
   'atom.sh'
+  'aura.sh'
   'ayu-dark.sh'
   'ayu-light.sh'
   'ayu-mirage.sh'
