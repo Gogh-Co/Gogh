@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 
 # ====================CONFIG THIS =============================== #
-export COLOR_01="#353535" #black
+export COLOR_01="#003B4E" #black
 export COLOR_02="#E64569" #red
-export COLOR_03="#89D287" #green
+export COLOR_03="#069F5F" #green
 export COLOR_04="#DAB752" #yellow
 export COLOR_05="#439ECF" #blue
 export COLOR_06="#D961DC" #magenta
-export COLOR_07="#64AAAF" #cyan
+export COLOR_07="#00B1BE" #cyan
 export COLOR_08="#B3B3B3" #white
 
-export COLOR_09="#535353" #lightBlack
+export COLOR_09="#3E89A1" #lightBlack
 export COLOR_10="#E4859A" #lightRed
 export COLOR_11="#A2CCA1" #lightGreen
 export COLOR_12="#E1E387" #lightYellow
