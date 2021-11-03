@@ -22,8 +22,11 @@ SCRIPT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 createColors() {
   source $1
+
+  # Get the index of the theme from the second argument
+  local index="$(printf %02i $2)"
   echo '    {'
-  echo '      "name": "'"$PROFILE_NAME"'",'
+  echo '      "name": "'"$PROFILE_NAME (theme $index)"'",'
   echo '      "black": "'"$COLOR_01"'",'
   echo '      "red": "'"$COLOR_02"'",'
   echo '      "green": "'"$COLOR_03"'",'
@@ -55,15 +58,22 @@ ls -1 $SCRIPT_PATH/../themes/*.sh | while read a; do grep "export" $a > "${a/the
 
 ls -1 $SCRIPT_PATH/../.tmp/*.sh | while read a; do sed -i /IMPORTANT/d  "${a}"; done
 
-ls -1 $SCRIPT_PATH/../.tmp/*.sh | while read a; do createColors "$a" >> $SCRIPT_PATH/../data/themes.json; done
+# Keep track of the theme id to include it as a detail in the theme name
+theme_id=1
+ls -1 $SCRIPT_PATH/../.tmp/*.sh | while read a; do 
+  createColors "$a" "$theme_id" >> $SCRIPT_PATH/../data/themes.json;
+  let theme_id++
+done
 
 echo '  ]' >> $SCRIPT_PATH/../data/themes.json
 echo '}' >> $SCRIPT_PATH/../data/themes.json
 
-cat $SCRIPT_PATH/../data/themes.json | tr -d " \t\n\r" > $SCRIPT_PATH/../data/themes.json.tmp
-sed 's/},]}/}]}/g' $SCRIPT_PATH/../data/themes.json.tmp > $SCRIPT_PATH/../data/themes.json
+# Use sed to remove the final trailing comma in the json file
+cp $SCRIPT_PATH/../data/themes.json $SCRIPT_PATH/../data/themes.json.tmp
+sed -e ':a' -e 'N' -e '$!ba' -e 's/},\n  ]/}\n  ]/g' \
+  $SCRIPT_PATH/../data/themes.json.tmp > $SCRIPT_PATH/../data/themes.json
 rm $SCRIPT_PATH/../data/themes.json.tmp
 
 echo ""
 echo "File location:"
-echo -e "${GREEN} gh-pages/data/themes.json"
+echo -e "${GREEN} data/themes.json"
