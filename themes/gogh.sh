@@ -22,7 +22,7 @@ export COLOR_16="#FFFEFE"           # White
 export BACKGROUND_COLOR="#292D3E"   # Background Color
 export FOREGROUND_COLOR="#BFC7D5"   # Foreground Color (text)
 export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor color
-export PROFILE_NAME="_bash"
+export PROFILE_NAME="Gogh"
 # =============================================================== #
 
 
