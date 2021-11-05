@@ -78,6 +78,7 @@ declare -a THEMES=(
   'frontend-galaxy.sh'
   'geohot.sh'
   'github.sh'
+  'gogh.sh'
   'gooey.sh'
   'google-dark.sh'
   'google-light.sh'
