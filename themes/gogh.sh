@@ -3,11 +3,11 @@
 # ====================CONFIG THIS =============================== #
 export COLOR_01="#292D3E"           # Black
 export COLOR_02="#F07178"           # Red
-export COLOR_03="#C3E88D"           # Green
+export COLOR_03="#62DE84"           # Green
 export COLOR_04="#FFCB6B"           # Yellow
-export COLOR_05="#82AAFF"           # Blue
-export COLOR_06="#C792EA"           # Magenta
-export COLOR_07="#60ADEC"           # Cyan
+export COLOR_05="#75A1FF"           # Blue
+export COLOR_06="#F580FF"           # Magenta
+export COLOR_07="#60BAEC"           # Cyan
 export COLOR_08="#ABB2BF"           # Light gray
 
 export COLOR_09="#959DCB"           # Dark gray
