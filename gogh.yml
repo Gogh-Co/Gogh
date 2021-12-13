@@ -1,0 +1,25 @@
+---
+name: Gogh
+
+color-01: "#243342"       # Black (Host)
+color-02: "#c54133"       # Red (Syntax string)
+color-03: "#27ae60"       # Green (Command)
+color-04: "#edb20a"       # Yellow (Command second)
+color-05: "#2479d0"       # Blue (Path)
+color-06: "#7d3ea0"       # Magenta (Syntax var)
+color-07: "#1d8579"       # Cyan (Promp)
+color-08: "#c9cccd"       # Light Gray
+
+color-09: "#34495E"       # Dark Gray
+color-10: "#E74C3C"       # Light Red (Command error)
+color-11: "#2ECC71"       # Light Green (Exec)
+color-12: "#F1C40F"       # Light Yellow
+color-13: "#3498DB"       # Light Blue (Folder)
+color-14: "#9B59B6"       # Light Magenta
+color-15: "#2AA198"       # Light Cyan
+color-16: "#ECF0F1"       # White
+
+background: "#0D1926"     # Background Color
+foreground: "#ECF0F1"     # Foreground Color (Text)
+
+cursor: "#edb20a"         # Cursor
