@@ -540,6 +540,13 @@ apply_kitty() {
   echo "Done - please reopen your kitty terminal to see the changes"
 }
 
+apply_konsole() {
+  # |
+  # | Applying values on Konsole
+  # | ===========================================
+  
+}
+
 apply_darwin() {
   # |
   # | Applying values on iTerm2
@@ -896,6 +903,10 @@ case "${TERMINAL}" in
 
   kitty )
     apply_kitty
+    ;;
+
+  konsole )
+    apply_konsole
     ;;
 
   * )
