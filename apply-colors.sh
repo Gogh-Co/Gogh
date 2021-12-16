@@ -39,7 +39,7 @@ GLOBAL_VAR_CLEANUP() {
   unset PROFILE_NAME
 }
 
-# Note: Since all scripts gets invoked in a subshell the traps from the parent shell 
+# Note: Since all scripts gets invoked in a subshell the traps from the parent shell
 # will not get inherited. Hence traps defined in gogh.sh and print-themes.sh will still trigger
 trap 'GLOBAL_VAR_CLEANUP; trap - EXIT' EXIT HUP INT QUIT PIPE TERM
 
@@ -198,6 +198,26 @@ updateFootConfig () {
   sed -i -r -e "s/^${name}=.+/${name}=${color/\#/}/g" "${config}"
 }
 
+createKonsoleEntry () {
+  local   name="${1}"
+  local  color="${2}"
+  set --
+  set -- $(hexRGBtoDecRGB "${color}")
+  R=${1}; shift; G=${1}; shift; B=${1}; shift
+
+  echo -e "[$name]\nColor=${R},${G},${B}\n"
+}
+
+createKonsoleTriple () {
+  local   name="${1}"
+  local colorn="${2}"  # normal and faint
+  local colori="${3}"  # intense
+
+  createKonsoleEntry "${name}" "${colorn}"
+  createKonsoleEntry "${name}Faint" "${colorn}"
+  createKonsoleEntry "${name}Intense" "${colori}"
+}
+
 convertNameAndRGBtoITerm() {
   local  name="${1}"
   local color="${2}"
@@ -220,7 +240,7 @@ dlist_append() {
   local key="${1}"; shift
   local val="${1}"; shift
   local entries
-  
+
   entries="$(
   {
     "${DCONF}" read "${key}" | tr -d "[]" | tr , "\n" | grep -F -v "${val}"
@@ -544,7 +564,39 @@ apply_konsole() {
   # |
   # | Applying values on Konsole
   # | ===========================================
-  
+
+  if [[ -z "${XDG_DATA_HOME:-}" ]]; then
+    KDIR="${HOME}/.local/share/konsole"
+  else
+	KDIR="${XDG_DATA_HOME}/konsole"
+  fi
+
+  KPROFILE="${KDIR}/${PROFILE_NAME}.colorscheme"
+  echo "Updating color theme file (${KPROFILE}) with theme ..."
+  if [[ -f "${KPROFILE}" ]]; then
+      echo "Profile ${PROFILE_NAME} already exists in Konsole confiuration (${KONSOLE_DIR}); Skipping ..."
+      exit 0
+  fi
+
+  touch "${KPROFILE}"
+  createKonsoleTriple "Background" "${BACKGROUND_COLOR}" "${BACKGROUND_COLOR}" >> "${KPROFILE}"
+  createKonsoleTriple "Color0" "${COLOR_01}" "${COLOR_09}" >> "${KPROFILE}"
+  createKonsoleTriple "Color1" "${COLOR_02}" "${COLOR_10}" >> "${KPROFILE}"
+  createKonsoleTriple "Color2" "${COLOR_03}" "${COLOR_11}" >> "${KPROFILE}"
+  createKonsoleTriple "Color3" "${COLOR_04}" "${COLOR_12}" >> "${KPROFILE}"
+  createKonsoleTriple "Color4" "${COLOR_05}" "${COLOR_13}" >> "${KPROFILE}"
+  createKonsoleTriple "Color5" "${COLOR_06}" "${COLOR_14}" >> "${KPROFILE}"
+  createKonsoleTriple "Color6" "${COLOR_07}" "${COLOR_15}" >> "${KPROFILE}"
+  createKonsoleTriple "Color7" "${COLOR_08}" "${COLOR_16}" >> "${KPROFILE}"
+  createKonsoleTriple "Foreground" "${FOREGROUND_COLOR}" "${FOREGROUND_COLOR}" >> "${KPROFILE}"
+  echo "[General]" >> "${KPROFILE}"
+  echo "Blur=false" >> "${KPROFILE}"
+  echo "ColorRandomization=false" >> "${KPROFILE}"
+  echo "Description=${PROFILE_NAME}" >> "${KPROFILE}"
+  echo "Opacity=1" >> "${KPROFILE}"
+  echo "Wallpaper=" >> "${KPROFILE}"
+
+  echo "Done - please change your profile by going to Settings > Manage Profiles... > Edit... > Appearance"
 }
 
 apply_darwin() {
@@ -586,7 +638,7 @@ apply_gtk() {
   # | ===========================================
 
   local legacy="${1:-}"
-  
+
   # This is to avoid doing the profile loop definition twice
   if [[ -z "${legacy}" ]]; then
     CONFTOOL="${DCONF} read"
@@ -605,7 +657,7 @@ apply_gtk() {
     fi
   done
 
-  # Fallback if there is no default profile 
+  # Fallback if there is no default profile
   set -- $(${CONFTOOL} ${PROFILE_LIST_KEY} | tr "[]'," " ")
   : ${DEFAULT_SLUG:="$1"}
 
