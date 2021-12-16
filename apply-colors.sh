@@ -130,6 +130,14 @@ case "${TERMINAL}" in
       exit 1
     fi
     ;;
+
+  konsole )
+    CFGFILE="${HOME}/.config/konsolerc"
+    if [[ ! -f "${CFGFILE}" ]]; then
+      printf '\n%s\n' "Error: Couldn't find an existing configuration file for Konsole."
+      exit 1
+    fi
+    ;;
 esac
 
 
@@ -565,38 +573,50 @@ apply_konsole() {
   # | Applying values on Konsole
   # | ===========================================
 
+  PARENT=$(grep -o "^DefaultProfile=.*$" ${CFGFILE} | cut -d '=' -f 2)
+  if [[ -z "${PARENT}" ]]; then
+    PARENT="FALLBACK/"
+  fi
+
   if [[ -z "${XDG_DATA_HOME:-}" ]]; then
     KDIR="${HOME}/.local/share/konsole"
   else
 	KDIR="${XDG_DATA_HOME}/konsole"
   fi
 
-  KPROFILE="${KDIR}/${PROFILE_NAME}.colorscheme"
-  echo "Updating color theme file (${KPROFILE}) with theme ..."
+  KPROFILE="${KDIR}/${PROFILE_NAME}.profile"
   if [[ -f "${KPROFILE}" ]]; then
       echo "Profile ${PROFILE_NAME} already exists in Konsole confiuration (${KONSOLE_DIR}); Skipping ..."
       exit 0
   fi
 
   touch "${KPROFILE}"
-  createKonsoleTriple "Background" "${BACKGROUND_COLOR}" "${BACKGROUND_COLOR}" >> "${KPROFILE}"
-  createKonsoleTriple "Color0" "${COLOR_01}" "${COLOR_09}" >> "${KPROFILE}"
-  createKonsoleTriple "Color1" "${COLOR_02}" "${COLOR_10}" >> "${KPROFILE}"
-  createKonsoleTriple "Color2" "${COLOR_03}" "${COLOR_11}" >> "${KPROFILE}"
-  createKonsoleTriple "Color3" "${COLOR_04}" "${COLOR_12}" >> "${KPROFILE}"
-  createKonsoleTriple "Color4" "${COLOR_05}" "${COLOR_13}" >> "${KPROFILE}"
-  createKonsoleTriple "Color5" "${COLOR_06}" "${COLOR_14}" >> "${KPROFILE}"
-  createKonsoleTriple "Color6" "${COLOR_07}" "${COLOR_15}" >> "${KPROFILE}"
-  createKonsoleTriple "Color7" "${COLOR_08}" "${COLOR_16}" >> "${KPROFILE}"
-  createKonsoleTriple "Foreground" "${FOREGROUND_COLOR}" "${FOREGROUND_COLOR}" >> "${KPROFILE}"
-  echo "[General]" >> "${KPROFILE}"
-  echo "Blur=false" >> "${KPROFILE}"
-  echo "ColorRandomization=false" >> "${KPROFILE}"
-  echo "Description=${PROFILE_NAME}" >> "${KPROFILE}"
-  echo "Opacity=1" >> "${KPROFILE}"
-  echo "Wallpaper=" >> "${KPROFILE}"
+  echo -e "[Appearance]\nColorScheme=${PROFILE_NAME}\n" >> "${KPROFILE}"
+  echo -e "[General]\nName=${PROFILE_NAME}\nParent=$PARENT" >> "${KPROFILE}"
 
-  echo "Done - please change your profile by going to Settings > Manage Profiles... > Edit... > Appearance"
+  KCOLORSCHEME="${KDIR}/${PROFILE_NAME}.colorscheme"
+  if [[ -f "${KCOLORSCHEME}" ]]; then
+      echo "Color Scheme ${PROFILE_NAME} already exists in Konsole confiuration (${KONSOLE_DIR}); Skipping ..."
+      exit 0
+  fi
+
+  touch "${KCOLORSCHEME}"
+  createKonsoleTriple "Background" "${BACKGROUND_COLOR}" "${BACKGROUND_COLOR}" >> "${KCOLORSCHEME}"
+  createKonsoleTriple "Color0" "${COLOR_01}" "${COLOR_09}" >> "${KCOLORSCHEME}"
+  createKonsoleTriple "Color1" "${COLOR_02}" "${COLOR_10}" >> "${KCOLORSCHEME}"
+  createKonsoleTriple "Color2" "${COLOR_03}" "${COLOR_11}" >> "${KCOLORSCHEME}"
+  createKonsoleTriple "Color3" "${COLOR_04}" "${COLOR_12}" >> "${KCOLORSCHEME}"
+  createKonsoleTriple "Color4" "${COLOR_05}" "${COLOR_13}" >> "${KCOLORSCHEME}"
+  createKonsoleTriple "Color5" "${COLOR_06}" "${COLOR_14}" >> "${KCOLORSCHEME}"
+  createKonsoleTriple "Color6" "${COLOR_07}" "${COLOR_15}" >> "${KCOLORSCHEME}"
+  createKonsoleTriple "Color7" "${COLOR_08}" "${COLOR_16}" >> "${KCOLORSCHEME}"
+  createKonsoleTriple "Foreground" "${FOREGROUND_COLOR}" "${FOREGROUND_COLOR}" >> "${KCOLORSCHEME}"
+  echo "[General]" >> "${KCOLORSCHEME}"
+  echo "Blur=false" >> "${KCOLORSCHEME}"
+  echo "ColorRandomization=false" >> "${KCOLORSCHEME}"
+  echo "Description=${PROFILE_NAME}" >> "${KCOLORSCHEME}"
+  echo "Opacity=1" >> "${KCOLORSCHEME}"
+  echo "Wallpaper=" >> "${KCOLORSCHEME}"
 }
 
 apply_darwin() {
