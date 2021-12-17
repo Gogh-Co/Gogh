@@ -39,7 +39,7 @@ GLOBAL_VAR_CLEANUP() {
   unset PROFILE_NAME
 }
 
-# Note: Since all scripts gets invoked in a subshell the traps from the parent shell 
+# Note: Since all scripts gets invoked in a subshell the traps from the parent shell
 # will not get inherited. Hence traps defined in gogh.sh and print-themes.sh will still trigger
 trap 'GLOBAL_VAR_CLEANUP; trap - EXIT' EXIT HUP INT QUIT PIPE TERM
 
@@ -130,6 +130,14 @@ case "${TERMINAL}" in
       exit 1
     fi
     ;;
+
+  konsole )
+    CFGFILE="${HOME}/.config/konsolerc"
+    if [[ ! -f "${CFGFILE}" ]]; then
+      printf '\n%s\n' "Error: Couldn't find an existing configuration file for Konsole."
+      exit 1
+    fi
+    ;;
 esac
 
 
@@ -198,6 +206,26 @@ updateFootConfig () {
   sed -i -r -e "s/^${name}=.+/${name}=${color/\#/}/g" "${config}"
 }
 
+createKonsoleEntry () {
+  local   name="${1}"
+  local  color="${2}"
+  set --
+  set -- $(hexRGBtoDecRGB "${color}")
+  R=${1}; shift; G=${1}; shift; B=${1}; shift
+
+  echo -e "[$name]\nColor=${R},${G},${B}\n"
+}
+
+createKonsoleTriple () {
+  local   name="${1}"
+  local colorn="${2}"  # normal and faint
+  local colori="${3}"  # intense
+
+  createKonsoleEntry "${name}" "${colorn}"
+  createKonsoleEntry "${name}Faint" "${colorn}"
+  createKonsoleEntry "${name}Intense" "${colori}"
+}
+
 convertNameAndRGBtoITerm() {
   local  name="${1}"
   local color="${2}"
@@ -220,7 +248,7 @@ dlist_append() {
   local key="${1}"; shift
   local val="${1}"; shift
   local entries
-  
+
   entries="$(
   {
     "${DCONF}" read "${key}" | tr -d "[]" | tr , "\n" | grep -F -v "${val}"
@@ -540,6 +568,57 @@ apply_kitty() {
   echo "Done - please reopen your kitty terminal to see the changes"
 }
 
+apply_konsole() {
+  # |
+  # | Applying values on Konsole
+  # | ===========================================
+
+  PARENT=$(grep -o "^DefaultProfile=.*$" ${CFGFILE} | cut -d '=' -f 2)
+  if [[ -z "${PARENT}" ]]; then
+    PARENT="FALLBACK/"
+  fi
+
+  if [[ -z "${XDG_DATA_HOME:-}" ]]; then
+    KDIR="${HOME}/.local/share/konsole"
+  else
+	KDIR="${XDG_DATA_HOME}/konsole"
+  fi
+
+  KPROFILE="${KDIR}/${PROFILE_NAME}.profile"
+  if [[ -f "${KPROFILE}" ]]; then
+      echo "Profile ${PROFILE_NAME} already exists in Konsole confiuration (${KONSOLE_DIR}); Skipping ..."
+      exit 0
+  fi
+
+  touch "${KPROFILE}"
+  echo -e "[Appearance]\nColorScheme=${PROFILE_NAME}\n" >> "${KPROFILE}"
+  echo -e "[General]\nName=${PROFILE_NAME}\nParent=$PARENT" >> "${KPROFILE}"
+
+  KCOLORSCHEME="${KDIR}/${PROFILE_NAME}.colorscheme"
+  if [[ -f "${KCOLORSCHEME}" ]]; then
+      echo "Color Scheme ${PROFILE_NAME} already exists in Konsole confiuration (${KONSOLE_DIR}); Skipping ..."
+      exit 0
+  fi
+
+  touch "${KCOLORSCHEME}"
+  createKonsoleTriple "Background" "${BACKGROUND_COLOR}" "${BACKGROUND_COLOR}" >> "${KCOLORSCHEME}"
+  createKonsoleTriple "Color0" "${COLOR_01}" "${COLOR_09}" >> "${KCOLORSCHEME}"
+  createKonsoleTriple "Color1" "${COLOR_02}" "${COLOR_10}" >> "${KCOLORSCHEME}"
+  createKonsoleTriple "Color2" "${COLOR_03}" "${COLOR_11}" >> "${KCOLORSCHEME}"
+  createKonsoleTriple "Color3" "${COLOR_04}" "${COLOR_12}" >> "${KCOLORSCHEME}"
+  createKonsoleTriple "Color4" "${COLOR_05}" "${COLOR_13}" >> "${KCOLORSCHEME}"
+  createKonsoleTriple "Color5" "${COLOR_06}" "${COLOR_14}" >> "${KCOLORSCHEME}"
+  createKonsoleTriple "Color6" "${COLOR_07}" "${COLOR_15}" >> "${KCOLORSCHEME}"
+  createKonsoleTriple "Color7" "${COLOR_08}" "${COLOR_16}" >> "${KCOLORSCHEME}"
+  createKonsoleTriple "Foreground" "${FOREGROUND_COLOR}" "${FOREGROUND_COLOR}" >> "${KCOLORSCHEME}"
+  echo "[General]" >> "${KCOLORSCHEME}"
+  echo "Blur=false" >> "${KCOLORSCHEME}"
+  echo "ColorRandomization=false" >> "${KCOLORSCHEME}"
+  echo "Description=${PROFILE_NAME}" >> "${KCOLORSCHEME}"
+  echo "Opacity=1" >> "${KCOLORSCHEME}"
+  echo "Wallpaper=" >> "${KCOLORSCHEME}"
+}
+
 apply_darwin() {
   # |
   # | Applying values on iTerm2
@@ -579,7 +658,7 @@ apply_gtk() {
   # | ===========================================
 
   local legacy="${1:-}"
-  
+
   # This is to avoid doing the profile loop definition twice
   if [[ -z "${legacy}" ]]; then
     CONFTOOL="${DCONF} read"
@@ -598,7 +677,7 @@ apply_gtk() {
     fi
   done
 
-  # Fallback if there is no default profile 
+  # Fallback if there is no default profile
   set -- $(${CONFTOOL} ${PROFILE_LIST_KEY} | tr "[]'," " ")
   : ${DEFAULT_SLUG:="$1"}
 
@@ -898,6 +977,10 @@ case "${TERMINAL}" in
     apply_kitty
     ;;
 
+  konsole )
+    apply_konsole
+    ;;
+
   * )
     printf '%s\n'                                             \
     "Unsupported terminal!"                                   \
@@ -913,6 +996,7 @@ case "${TERMINAL}" in
     "   xfce4-terminal"                                       \
     "   foot"                                                 \
     "   kitty"                                                \
+    "   konsole"                                              \
     ""                                                        \
     "If you believe you have recieved this message in error," \
     "try manually setting \`TERMINAL', hint: ps -h -o comm -p \$PPID"
