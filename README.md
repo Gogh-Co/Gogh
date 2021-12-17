@@ -17,21 +17,6 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that u
 
 ----
 
-## 💻 Terminals
-
-- Cygwin - [Web](https://www.cygwin.com/)
-- Foot - [Web](https://codeberg.org/dnkl/foot)
-- Gnome - [Web](https://help.gnome.org/users/gnome-terminal/stable/)
-- Guake - [Web](https://sw.kovidgoyal.net/kitty/)
-- iTerm - [Web](https://iterm2.com/)
-- Kitty - [Web](https://sw.kovidgoyal.net/kitty/)
-- Konsole - [Web](https://konsole.kde.org/)
-- Mate - [Web](https://github.com/mate-desktop/mate-terminal)
-- Mintty - [Web](https://mintty.github.io/)
-- Pantheon / Elementary - [Web](https://github.com/elementary/terminal)
-- Tilix - [Web](https://gnunn1.github.io/tilix-web/)
-- XFCE4 - [Web](https://docs.xfce.org/apps/terminal/start)
-
 ## ⚙️ Pre-Install
 
 In your terminal type:
@@ -81,6 +66,21 @@ export TERMINAL=gnome-terminal
 ./atom.sh
 ./dracula.sh
 ```
+
+## 💻 Terminals
+
+- Cygwin - [Web](https://www.cygwin.com/)
+- Foot - [Web](https://codeberg.org/dnkl/foot)
+- Gnome - [Web](https://help.gnome.org/users/gnome-terminal/stable/)
+- Guake - [Web](https://sw.kovidgoyal.net/kitty/)
+- iTerm - [Web](https://iterm2.com/)
+- Kitty - [Web](https://sw.kovidgoyal.net/kitty/)
+- Konsole - [Web](https://konsole.kde.org/)
+- Mate - [Web](https://github.com/mate-desktop/mate-terminal)
+- Mintty - [Web](https://mintty.github.io/)
+- Pantheon / Elementary - [Web](https://github.com/elementary/terminal)
+- Tilix - [Web](https://gnunn1.github.io/tilix-web/)
+- XFCE4 - [Web](https://docs.xfce.org/apps/terminal/start)
 
 <br/>
 
