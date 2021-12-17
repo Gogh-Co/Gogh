@@ -996,6 +996,7 @@ case "${TERMINAL}" in
     "   xfce4-terminal"                                       \
     "   foot"                                                 \
     "   kitty"                                                \
+    "   konsole"                                              \
     ""                                                        \
     "If you believe you have recieved this message in error," \
     "try manually setting \`TERMINAL', hint: ps -h -o comm -p \$PPID"
