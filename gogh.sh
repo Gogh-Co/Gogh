@@ -194,6 +194,7 @@ declare -a THEMES=(
   'solarized-dark-higher-contrast.sh'
   'solarized-dark.sh'
   'solarized-light.sh'
+  'sonokai.sh'
   'spacedust.sh'
   'spacegray-eighties-dull.sh'
   'spacegray-eighties.sh'
