@@ -72,7 +72,7 @@ export TERMINAL=gnome-terminal
 - Cygwin - [Web](https://www.cygwin.com/)
 - Foot - [Web](https://codeberg.org/dnkl/foot)
 - Gnome - [Web](https://help.gnome.org/users/gnome-terminal/stable/)
-- Guake - [Web](https://sw.kovidgoyal.net/kitty/)
+- Guake - [Web](http://guake-project.org/)
 - iTerm - [Web](https://iterm2.com/)
 - Kitty - [Web](https://sw.kovidgoyal.net/kitty/)
 - Konsole - [Web](https://konsole.kde.org/)
