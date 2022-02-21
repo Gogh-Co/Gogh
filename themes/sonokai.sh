@@ -11,7 +11,7 @@ export COLOR_06="#B39DF3"           # Sonokai Magenta
 export COLOR_07="#76CCE0"           # Sonokai Cyan
 export COLOR_08="#E2E2E3"           # Light Gray
 # Bold text
-export COLOR_09="#2C2E34"           # Dark Gray
+export COLOR_09="#7F8490"           # Gray
 export COLOR_10="#FC5D7C"           # Sonokai Red
 export COLOR_11="#9ED072"           # Sonokai Green
 export COLOR_12="#E7C664"           # Sonokai Yellow
