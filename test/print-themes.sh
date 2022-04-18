@@ -9,7 +9,7 @@ if [[ "${COLORTERM:-}" != "truecolor" ]] && [[ "${COLORTERM:-}" != "24bit" ]]; t
 fi
 
 # Print all themes without applying, this variable gets checked in apply-colors.sh
-export GOGH_DRY_RUN=1 
+export GOGH_DRY_RUN=1
 
 color () {
   printf '%b\n'   "${DEMO_COLOR_01} ███ *** AaBbCs ---  ███ $(tput sgr0)   ---> Color 01 'tput setaf 0'"  # black
@@ -213,7 +213,7 @@ declare -a THEMES=(
 
 # Allow developer to change url to forked url for easier testing
 # IMPORTANT: Make sure you export this variable if your main shell is not bash
-BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Mayccoll/Gogh/master"}
+BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Gogh-Co/Gogh/master"}
 PROGRESS_URL="https://raw.githubusercontent.com/phenonymous/shell-progressbar/1.0/progress.sh"
 
 capitalize() {

@@ -12,7 +12,7 @@ GLOBAL_VAR_CLEANUP(){
 trap 'GLOBAL_VAR_CLEANUP; trap - EXIT' EXIT HUP INT QUIT PIPE TERM
 
 # TO-DO: Investigate dynamically building this array e.g.
-# curl -s https://github.com/Mayccoll/Gogh/tree/master/themes | grep -o "title=.*\.sh\" " | awk -F '=' '{print $2}'
+# curl -s https://github.com/Gogh-Co/Gogh/tree/master/themes | grep -o "title=.*\.sh\" " | awk -F '=' '{print $2}'
 declare -a THEMES=(
   '3024-day.sh'
   '3024-night.sh'
@@ -242,7 +242,7 @@ declare -a THEMES=(
 )
 
 # Allow developer to change url to forked url for easier testing
-BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Mayccoll/Gogh/master"}
+BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Gogh-Co/Gogh/master"}
 PROGRESS_URL="https://raw.githubusercontent.com/phenonymous/shell-progressbar/1.0/progress.sh"
 
 capitalize() {

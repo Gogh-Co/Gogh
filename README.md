@@ -2,18 +2,18 @@ Gogh
 ====
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/gogh/Gogh-logo-dark.png" alt="Gogh" width="100%">
+  <img src="https://raw.githubusercontent.com/Gogh-Co/Gogh/master/images/gogh/Gogh-logo-dark.png" alt="Gogh" width="100%">
 </div>
 
 <div align="center">
-  :small_blue_diamond: <a href="http://mayccoll.github.io/Gogh"> Visit the Website </a> :small_blue_diamond:
+  :small_blue_diamond: <a href="http://Gogh-Co.github.io/Gogh"> Visit the Website </a> :small_blue_diamond:
 </div>
 
 ## Color scheme for your terminal
 
-Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that use Gnome Terminal, Pantheon Terminal, Tilix, or XFCE4 Terminal; initially inspired by Elementary OS Luna. Also works on iTerm for macOS. You can check out the themes [here](https://mayccoll.github.io/Gogh/).
+Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that use Gnome Terminal, Pantheon Terminal, Tilix, or XFCE4 Terminal; initially inspired by Elementary OS Luna. Also works on iTerm for macOS. You can check out the themes [here](https://Gogh-Co.github.io/Gogh/).
 
-![elementary](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/demos/themes.gif)
+![elementary](https://raw.githubusercontent.com/Gogh-Co/Gogh/master/images/demos/themes.gif)
 
 ----
 
@@ -45,7 +45,7 @@ bash -c "$(curl -sLo- https://git.io/vQgMr)"
 
 **DEMO:**
 
-![gogh-demo-profile](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/demos/gogh-demo-profile.gif)
+![gogh-demo-profile](https://raw.githubusercontent.com/Gogh-Co/Gogh/master/images/demos/gogh-demo-profile.gif)
 
 <br/>
 <br/>
@@ -56,7 +56,7 @@ bash -c "$(curl -sLo- https://git.io/vQgMr)"
 # clone the repo into "$HOME/src/gogh"
 mkdir -p "$HOME/src"
 cd "$HOME/src"
-git clone https://github.com/Mayccoll/Gogh.git gogh
+git clone https://github.com/Gogh-Co/Gogh.git gogh
 cd gogh/themes
 
 # necessary on ubuntu
@@ -84,22 +84,22 @@ export TERMINAL=gnome-terminal
 
 <br/>
 
-## 🎨 [Themes](https://mayccoll.github.io/Gogh/)
+## 🎨 [Themes](https://Gogh-Co.github.io/Gogh/)
 
-We have lots of themes. Check them out [here](https://mayccoll.github.io/Gogh/)!
+We have lots of themes. Check them out [here](https://Gogh-Co.github.io/Gogh/)!
 
-also all themes in json format: https://raw.githubusercontent.com/Mayccoll/Gogh/master/data/themes.json
-
-<br/>
-<br/>
-
-## 📌 [How to](https://github.com/Mayccoll/Gogh/blob/master/content/howto.md)
-
-If you want to create your own color scheme or contribute to the project, [start here](https://github.com/Mayccoll/Gogh/blob/master/content/howto.md).
+also all themes in json format: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json
 
 <br/>
+<br/>
 
-## :thinking: [Help](https://github.com/Mayccoll/Gogh/blob/master/content/help.md)
+## 📌 [How to](https://github.com/Gogh-Co/Gogh/blob/master/content/howto.md)
+
+If you want to create your own color scheme or contribute to the project, [start here](https://github.com/Gogh-Co/Gogh/blob/master/content/howto.md).
+
+<br/>
+
+## :thinking: [Help](https://github.com/Gogh-Co/Gogh/blob/master/content/help.md)
 
 <br/>
 <br/>
@@ -145,7 +145,7 @@ If you want to create your own color scheme or contribute to the project, [start
 
 ## :heart: Contributors:
 
-- [@contributors](https://github.com/Mayccoll/Gogh/graphs/contributors)
+- [@contributors](https://github.com/Gogh-Co/Gogh/graphs/contributors)
 
 <br/>
 <br/>
@@ -178,7 +178,7 @@ There is no blue without yellow and without orange.
 - [Hipertextual](https://hipertextual.com/archivo/2014/11/4bit/)
 - [MuyLinux](https://www.muylinux.com/2015/06/06/ping-91)
 - [Reddit - elementaryos](https://www.reddit.com/r/elementaryos/comments/3ivnb7/how_to_change_terminals_colors/)
-- [dev.to](https://dev.to/mayccoll/color-scheme-for-your-terminal-1pea)
+- [dev.to](https://dev.to/Gogh-Co/color-scheme-for-your-terminal-1pea)
 
 ## Themes in `json` format
 

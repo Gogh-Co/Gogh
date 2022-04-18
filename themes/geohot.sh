@@ -1,4 +1,4 @@
-#!/usr/bin/env bash 
+#!/usr/bin/env bash
 
 #==================== CONFIG THIS ======================#
 export COLOR_01='#F9F5F5'   # HOST          :: WHITE
@@ -33,7 +33,7 @@ PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 
 # Allow developer to change url to forked url for easier testing
 # IMPORTANT: Make sure you export this variable if your main shell is not bash
-BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Mayccoll/Gogh/master"}
+BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Gogh-Co/Gogh/master"}
 
 if [[ -e "${PARENT_PATH}/apply-colors.sh" ]]; then
   bash "${PARENT_PATH}/apply-colors.sh"
