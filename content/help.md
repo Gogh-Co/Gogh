@@ -1,14 +1,14 @@
 
-![elementary](https://raw.githubusercontent.com/Mayccoll/Elementary-OS-Terminal-Colors/master/images/gogh/Gogh-logo.png)
+![elementary](https://raw.githubusercontent.com/Gogh-Co/Elementary-OS-Terminal-Colors/master/images/gogh/Gogh-logo.png)
 
 -----
 
 # HELP
 
-- [Ubuntu 19.10: default_profile not a valid identifier, command not found](https://github.com/Mayccoll/Gogh/issues/203)
-- [Using Elementary terminal but says unsupported](https://github.com/Mayccoll/Gogh/issues/175)
-- [Doesn't working Debian](https://github.com/Mayccoll/Gogh/issues/63)
-- [Not Working on Ubuntu](https://github.com/Mayccoll/Gogh/issues/41)
+- [Ubuntu 19.10: default_profile not a valid identifier, command not found](https://github.com/Gogh-Co/Gogh/issues/203)
+- [Using Elementary terminal but says unsupported](https://github.com/Gogh-Co/Gogh/issues/175)
+- [Doesn't working Debian](https://github.com/Gogh-Co/Gogh/issues/63)
+- [Not Working on Ubuntu](https://github.com/Gogh-Co/Gogh/issues/41)
 
 ## Elementary OS
 
@@ -26,7 +26,7 @@ source .bashrc
 
 ## Debian Fixes
 
-### [Fix 1](https://github.com/Mayccoll/Gogh/issues/63#issuecomment-361071956) (@romzie):
+### [Fix 1](https://github.com/Gogh-Co/Gogh/issues/63#issuecomment-361071956) (@romzie):
 
 - reset your profiles:
 
@@ -34,7 +34,7 @@ source .bashrc
 dconf reset -f /org/gnome/terminal/legacy/profiles:/
 ```
 
-### [Fix 2](https://github.com/Mayccoll/Gogh/issues/63#issuecomment-401224491) (@MalwareJedi):
+### [Fix 2](https://github.com/Gogh-Co/Gogh/issues/63#issuecomment-401224491) (@MalwareJedi):
 
 - Reset your profiles:
 
@@ -49,7 +49,7 @@ dconf reset -f /org/gnome/terminal/legacy/profiles:/
 - Confirm **Default** is still listed in your profiles.
 - If it is, run the Gogh script again.
 
-### [Fix 3](https://github.com/Mayccoll/Gogh/issues/63#issuecomment-401510226) (@sui74):
+### [Fix 3](https://github.com/Gogh-Co/Gogh/issues/63#issuecomment-401510226) (@sui74):
 
 - Reset your profiles:
 
