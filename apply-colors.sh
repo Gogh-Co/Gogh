@@ -390,7 +390,7 @@ apply_elementary() {
 
   # If the background color is in the format #rrggbb, convert it to rgba(r,g,b,0.95).
   # This makes it 5% transparent, which is the default in elementary OS.
-  if [[ ${BACKGROUND_COLOR} =~ ^#[0-9A-Fa-f]{6}$ ]]; then
+  if [[ ${BACKGROUND_COLOR} =~ ^#[[:xdigit:]]{6}$ ]]; then
     local R="$((16#${BACKGROUND_COLOR:1:2}))"
     local G="$((16#${BACKGROUND_COLOR:3:2}))"
     local B="$((16#${BACKGROUND_COLOR:5:2}))"
