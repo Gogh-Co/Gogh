@@ -385,7 +385,19 @@ apply_elementary() {
   # |
   # | Applying values on elementary/pantheon terminal
   # | ===========================================
-  gset background   "${BACKGROUND_COLOR}"
+
+  local BG_COLOR="${BACKGROUND_COLOR}"
+
+  # If the background color is in the format #rrggbb, convert it to rgba(r,g,b,0.95).
+  # This makes it 5% transparent, which is the default in elementary OS.
+  if [[ ${BACKGROUND_COLOR} =~ ^#[0-9A-Fa-f]{6}$ ]]; then
+    local R="$((16#${BACKGROUND_COLOR:1:2}))"
+    local G="$((16#${BACKGROUND_COLOR:3:2}))"
+    local B="$((16#${BACKGROUND_COLOR:5:2}))"
+    BG_COLOR="rgba($R,$G,$B,0.95)"
+  fi
+
+  gset background   "${BG_COLOR}"
   gset foreground   "${FOREGROUND_COLOR}"
   gset cursor-color "${CURSOR_COLOR}"
   gset palette      "${COLOR_01}:${COLOR_02}:${COLOR_03}:${COLOR_04}:${COLOR_05}:${COLOR_06}:${COLOR_07}:${COLOR_08}:${COLOR_09}:${COLOR_10}:${COLOR_11}:${COLOR_12}:${COLOR_13}:${COLOR_14}:${COLOR_15}:${COLOR_16}"
