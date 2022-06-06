@@ -145,6 +145,7 @@ declare -a THEMES=(
   'nep.sh'
   'neutron.sh'
   'night-owl.sh'
+  'nightfox.sh'
   'nightlion-v1.sh'
   'nightlion-v2.sh'
   'nighty.sh'
