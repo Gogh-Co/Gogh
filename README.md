@@ -121,6 +121,7 @@ If you want to create your own color scheme or contribute to the project, [start
 - [Hemisu](https://noahfrederick.com/log/hemisu-for-os-x-terminal/) by [Noah Frederick](https://github.com/noahfrederick)
 - [kokuban](https://github.com/ygkn/kokuban) by [ygkn](https://github.com/ygkn)
 - [Monokai](https://web.archive.org/web/20161117102850/https://www.monokai.nl/blog/2006/07/15/textmate-color-theme) by [Wimer Hazenberg](https://github.com/monokai)
+- [Nightfox](https://github.com/EdenEast/nightfox.nvim)
 - [Ocean](https://github.com/fabianperez/ocean-dark-iterm) by [Fabian Perez](https://github.com/fabianperez)
 - [Omni](https://github.com/getomni)
 - [One Dark & Light theme set](https://github.com/nathanbuchar/one-dark-terminal) by [Nathan Buchar](https://github.com/nathanbuchar)
