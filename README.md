@@ -189,6 +189,6 @@ In your terminal type:
 bash tools/generate.sh
 ```
 
-this generates a json file located at `gh-pages/data/themes.json`
+This generates a json file located at `gh-pages/data/themes.json`
 
-orginal script source: https://gist.github.com/rapgru/09b449285231d18f4e4536c5f48fc927
+Original script source: https://gist.github.com/rapgru/09b449285231d18f4e4536c5f48fc927
