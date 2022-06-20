@@ -132,8 +132,9 @@ const $app = {
   created () {
     axios.get($getUrl).then((response) => {
       this.themes = response.data.themes;
-      this.themes.forEach((v) => {
+      this.themes.forEach((v, idx) => {
         v.category = lightOrDark(v.background);
+        v.name = v.name + ` (${idx + 1})`
       });
     });
   },
