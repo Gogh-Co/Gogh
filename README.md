@@ -162,17 +162,13 @@ There is no blue without yellow and without orange.
 ## Author
 
 - Miguel D. Quintero - [Lanet.co](https://lanet.co)
-<form action="https://www.paypal.com/donate" method="post" target="_top">
-<input type="hidden" name="hosted_button_id" value="UCTBRYLUVKQ32" />
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_CO/i/scr/pixel.gif" width="1" height="1" />
-</form>
-
-<br/>
-<br/>
 
 
-## Mentions
+[💵 Buy me a coffee - paypal](https://paypal.me/mgldvd?country.x=CO&locale.x=es_XC)
+
+
+
+## 📣 Mentions
 
 - [VSCode Theme](https://marketplace.visualstudio.com/items?itemName=Avetis.gogh-theme)
 - [Awesome-Shell](https://github.com/alebcay/awesome-shell)
@@ -192,3 +188,10 @@ bash tools/generate.sh
 This generates a json file located at `gh-pages/data/themes.json`
 
 Original script source: https://gist.github.com/rapgru/09b449285231d18f4e4536c5f48fc927
+
+
+## 🌟 Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/Gogh-Co/Gogh.svg)](https://starchart.cc/Gogh-Co/Gogh)
+
+
