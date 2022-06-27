@@ -1010,7 +1010,7 @@ case "${TERMINAL}" in
     "   kitty"                                                \
     "   konsole"                                              \
     ""                                                        \
-    "If you believe you have recieved this message in error," \
+    "If you believe you have received this message in error," \
     "try manually setting \`TERMINAL', hint: ps -h -o comm -p \$PPID"
     exit 1
     ;;
