@@ -134,6 +134,7 @@ If you want to create your own color scheme or contribute to the project, [start
 - [Srcery](https://github.com/roosta/vim-srcery) by [Daniel Berg](https://github.com/roosta)
 - [Summer Pop](https://github.com/guillermoap/Gogh) by [Guillermo Aguirre](https://github.com/guillermoap)
 - [SynthWave '84 ](https://github.com/robb0wen/synthwave-vscode)
+- [SynthWave Alpha](https://github.com/vikpe/synthwave-alpha)
 - [Terminal Sexy](https://terminal.sexy) by [George Czabania](https://github.com/stayradiated)
 - [Tilix](https://github.com/storm119/Tilix-Themes)
 - [Tokyo Night](https://github.com/enkia/tokyo-night-vscode-theme)
