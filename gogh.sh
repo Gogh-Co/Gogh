@@ -209,6 +209,7 @@ declare -a THEMES=(
   'sweet-terminal.sh'
   'symphonic.sh'
   'synthwave.sh'
+  'synthwave-alpha.sh'
   'teerb.sh'
   'tender.sh'
   'terminal-basic.sh'
