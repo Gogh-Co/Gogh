@@ -53,12 +53,12 @@ if [[ -z "${TERMINAL:-}" ]]; then
   # | Check for the terminal name (depening on os)
   # | ===========================================
   OS="$(uname)"
-  if [[ "$OS" = "Darwin" ]]; then
+  if [[ "$TERM" = "xterm-kitty" ]]; then
+    TERMINAL="kitty"
+  elif [[ "$OS" = "Darwin" ]]; then
     TERMINAL=$TERM_PROGRAM
   elif [[ "${OS#CYGWIN}" != "${OS}" ]]; then
     TERMINAL="mintty"
-  elif [[ "$TERM" = "xterm-kitty" ]]; then
-    TERMINAL="kitty"
   else
     # |
     # | Depending on how the script was invoked, we need
