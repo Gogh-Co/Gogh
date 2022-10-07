@@ -4,6 +4,7 @@
   "description": "",
   "main": "",
   "scripts": {
+    "dev": "gulp dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
