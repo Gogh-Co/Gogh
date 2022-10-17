@@ -140,6 +140,7 @@ If you want to create your own color scheme or contribute to the project, [start
 - [Tokyo Night](https://github.com/enkia/tokyo-night-vscode-theme)
 - [Tomorrow color theme set](https://github.com/chriskempson/tomorrow-theme) by [Chris Kempson](https://github.com/chriskempson)
 - Material theme by [Mitchel van Eijgen](https://gist.github.com/mvaneijgen/4c56701215847dd5ddcf) and [Liu Xinan](https://gist.github.com/xinan/ca2b82fef6aaa0d1e099)
+- [KANAGAWA.nvim](https://github.com/rebelot/kanagawa.nvim)
 
 <br/>
 <br/>
