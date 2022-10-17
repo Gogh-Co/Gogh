@@ -112,6 +112,7 @@ declare -a THEMES=(
   'japanesque.sh'
   'jellybeans.sh'
   'jup.sh'
+  'kanagawa.sh'
   'kibble.sh'
   'kokuban.sh'
   'laserwave.sh'
