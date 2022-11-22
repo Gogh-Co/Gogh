@@ -57,10 +57,17 @@ bash -c "$(curl -sLo- https://git.io/vQgMr)"
 mkdir -p "$HOME/src"
 cd "$HOME/src"
 git clone https://github.com/Gogh-Co/Gogh.git gogh
-cd gogh/themes
+cd gogh
 
-# necessary on ubuntu
+# necessary in the Gnome terminal on ubuntu
 export TERMINAL=gnome-terminal
+
+# necessary in the Alacritty terminal
+pip install -r requirements.txt
+export TERMINAL=alacritty
+
+# Enter themes dir
+cd themes
 
 # install themes
 ./atom.sh
@@ -69,6 +76,7 @@ export TERMINAL=gnome-terminal
 
 ## 💻 Terminals
 
+- Alacritty - [Web](https://github.com/alacritty/alacritty)
 - Cygwin - [Web](https://www.cygwin.com/)
 - Foot - [Web](https://codeberg.org/dnkl/foot)
 - Gnome - [Web](https://help.gnome.org/users/gnome-terminal/stable/)
