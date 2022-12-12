@@ -142,7 +142,7 @@ If you want to create your own color scheme or contribute to the project, [start
 - [Snazzy](https://github.com/sindresorhus/hyper-snazzy) by [Sindre Sorhus](https://github.com/sindresorhus)
 - [Solarized](https://ethanschoonover.com/solarized) by [Ethan Schoonover](https://github.com/altercation)
 - [Sonokai](https://github.com/sainnhe/sonokai) by [Sainnhe Park](https://github.com/sainnhe)
-- [Srcery](https://github.com/roosta/vim-srcery) by [Daniel Berg](https://github.com/roosta)
+- [Srcery](https://github.com/srcery-colors/srcery-terminal) by [Daniel Berg](https://github.com/roosta)
 - [Summer Pop](https://github.com/guillermoap/Gogh) by [Guillermo Aguirre](https://github.com/guillermoap)
 - [SynthWave '84 ](https://github.com/robb0wen/synthwave-vscode)
 - [SynthWave Alpha](https://github.com/vikpe/synthwave-alpha)
