@@ -1,27 +1,27 @@
 #!/usr/bin/env bash
 
 # ====================CONFIG THIS =============================== #
-export COLOR_01="#1C1B19"           # HOST
-export COLOR_02="#FF3128"           # SYNTAX_STRING
-export COLOR_03="#519F50"           # COMMAND
-export COLOR_04="#FBB829"           # COMMAND_COLOR2
-export COLOR_05="#5573A3"           # PATH
-export COLOR_06="#E02C6D"           # SYNTAX_VAR
-export COLOR_07="#0AAEB3"           # PROMP
-export COLOR_08="#918175"           #
+export COLOR_01="#1c1b19"           # HOST
+export COLOR_02="#ef2f27"           # SYNTAX_STRING
+export COLOR_03="#519f50"           # COMMAND
+export COLOR_04="#fbb829"           # COMMAND_COLOR2
+export COLOR_05="#2c78bf"           # PATH
+export COLOR_06="#e02c6d"           # SYNTAX_VAR
+export COLOR_07="#0aaeb3"           # PROMP
+export COLOR_08="#baa67f"           #
 
-export COLOR_09="#2D2B28"           #
-export COLOR_10="#F75341"           # COMMAND_ERROR
-export COLOR_11="#98BC37"           # EXEC
-export COLOR_12="#FED06E"           #
-export COLOR_13="#8EB2F7"           # FOLDER
-export COLOR_14="#E35682"           #
-export COLOR_15="#53FDE9"           #
-export COLOR_16="#FCE8C3"           #
+export COLOR_09="#918175"           #
+export COLOR_10="#f75341"           # COMMAND_ERROR
+export COLOR_11="#98bc37"           # EXEC
+export COLOR_12="#fed06e"           #
+export COLOR_13="#68a8e4"           # FOLDER
+export COLOR_14="#ff5c8f"           #
+export COLOR_15="#2be4d0"           #
+export COLOR_16="#fce8c3"           #
 
-export BACKGROUND_COLOR="#282828"   # Background Color
-export FOREGROUND_COLOR="#ebdbb2"   # Text
-export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
+export BACKGROUND_COLOR="#1c1b19"   # Background Color
+export FOREGROUND_COLOR="#fce8c3"   # Text
+export CURSOR_COLOR="#fbb829" # Cursor
 export PROFILE_NAME="Srcery"
 # =============================================
 
