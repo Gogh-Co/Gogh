@@ -122,6 +122,7 @@ If you want to create your own color scheme or contribute to the project, [start
 - [Dracula](https://github.com/dracula/dracula-theme) by [Zeno Rocha](https://github.com/zenorocha)
 - [Elementary OS](https://elementary.io/)
 - [Everblush](https://github.com/Everblush)
+- [Everforest Dark & Light theme set](https://github.com/sainnhe/everforest) by [Sainnhe Park](https://github.com/sainnhe)
 - [Fairy Floss](https://github.com/sailorhg/fairyfloss)
 - [Flat Remix](https://github.com/daniruiz/flat-remix)
 - [Flat UI Terminal Theme](https://dribbble.com/shots/1021755-Flat-UI-Terminal-Theme)

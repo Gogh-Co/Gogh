@@ -74,6 +74,8 @@ declare -a THEMES=(
   'espresso-libre.sh'
   'espresso.sh'
   'everblush.sh'
+  'everforest-dark.sh'
+  'everforest-light.sh'
   'fairyfloss.sh'
   'fairyflossdark.sh'
   'fishtank.sh'
