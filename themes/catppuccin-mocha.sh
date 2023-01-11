@@ -19,8 +19,8 @@ export COLOR_14="#F5C2E7"           # Light Magenta
 export COLOR_15="#94E2D5"           # Light Cyan
 export COLOR_16="#A6ADC8"           # White
 
-export BACKGROUND_COLOR="#"   # Background Color
-export FOREGROUND_COLOR="#"   # Foreground Color (text)
+export BACKGROUND_COLOR="#1e1e2e"   # Background Color
+export FOREGROUND_COLOR="#cdd6f4"   # Foreground Color (text)
 export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor color
 export PROFILE_NAME="Catppuccin Mocha"
 # =============================================================== #
