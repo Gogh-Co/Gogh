@@ -40,6 +40,7 @@ declare -a THEMES=(
   'breath-light.sh'
   'breath-silverfox.sh'
   'breath.sh'
+  'breath-darker.sh'
   'breeze.sh'
   'broadcast.sh'
   'brogrammer.sh'
