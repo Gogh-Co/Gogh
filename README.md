@@ -1,27 +1,55 @@
-Gogh
-====
+<h1 align="center">
+  Gogh
+</h1>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Gogh-Co/Gogh/master/images/gogh/Gogh-logo-dark.png" alt="Gogh" width="100%">
 </div>
 
 <div align="center">
-  :small_blue_diamond: <a href="http://Gogh-Co.github.io/Gogh"> Visit the Website </a> :small_blue_diamond:
+:small_blue_diamond: <a href="http://Gogh-Co.github.io/Gogh"> Visit the Website </a> :small_blue_diamond:
 </div>
 
 ## Color scheme for your terminal
 
 Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that use Gnome Terminal, Pantheon Terminal, Tilix, or XFCE4 Terminal; initially inspired by Elementary OS Luna. Also works on iTerm for macOS. You can check out the themes [here](https://Gogh-Co.github.io/Gogh/).
 
-**Quick install:**
+<table>
+<tr>
+<td>
+<img width="441" height="1">
+<br>
 
-```bash
-bash -c "$(wget -qO- https://git.io/vQgMr)"
-```
+<h2>
+Index:
+</h2>
 
-![elementary](https://raw.githubusercontent.com/Gogh-Co/Gogh/master/images/demos/themes.gif)
+- [Pre-Install](https://github.com/Gogh-Co/Gogh#%EF%B8%8F-pre-install)
+- [Install 📦](https://github.com/Gogh-Co/Gogh#%EF%B8%8F-install-interactive-mode)
+- [Help](https://github.com/Gogh-Co/Gogh#thinking-help)
+- [Install (non-interactive mode)](https://github.com/Gogh-Co/Gogh#%EF%B8%8F-install-non-interactive-mode)
+- [Terminals](https://github.com/Gogh-Co/Gogh#-terminals)
+- [Themes](https://github.com/Gogh-Co/Gogh#-themes)
+- [How to ?](https://github.com/Gogh-Co/Gogh#-how-to)
+- [First commit](https://github.com/Gogh-Co/Gogh#-first-commit)
+- [Credits](https://github.com/Gogh-Co/Gogh#heart-credits)
+- [Contributors](https://github.com/Gogh-Co/Gogh#heart-contributors)
+- [Why Gogh?](https://github.com/Gogh-Co/Gogh#%EF%B8%8F-why-gogh)
+- [Author](https://github.com/Gogh-Co/Gogh#-author)
+- [Mentions](https://github.com/Gogh-Co/Gogh#-mentions)
+- [Themes in json format](https://github.com/Gogh-Co/Gogh#-themes-in-json-format)
+- [Stargazers over time](https://github.com/Gogh-Co/Gogh#-stargazers-over-time)
 
-----
+</td>
+<td>
+<img width="441" height="1">
+
+![gogh](https://raw.githubusercontent.com/Gogh-Co/Gogh/master/images/demos/themes.gif)
+
+</td>
+</table>
+
+<br>
 
 ## ⚙️ Pre-Install
 
@@ -33,7 +61,9 @@ sudo apt-get install dconf-cli uuid-runtime
 
 You can now install in interactive mode (easy) or non-interactive mode (ideal for scripting)
 
-## ⚙️ Install (interactive mode)
+## 📦 **Install**
+
+Interactive mode
 
 **1. Just copy and paste this one-line command:**
 
@@ -61,7 +91,7 @@ bash -c "$(curl -sLo- https://git.io/vQgMr)"
 
 <br/>
 
-## Install (non-interactive mode)
+## ⚙️ Install (non-interactive mode)
 
 ```bash
 # clone the repo into "$HOME/src/gogh"
@@ -180,6 +210,7 @@ Many thanks to all who have participated in this project.
 ## 🖌️ Why Gogh?
 
 There is no blue without yellow and without orange.
+
 -- [Vincent Van Gogh](https://en.wikipedia.org/wiki/Vincent_van_Gogh) --
 
 <br/>
@@ -191,7 +222,7 @@ There is no blue without yellow and without orange.
 
 &nbsp;&nbsp;&nbsp;&nbsp; [💵 Invite me a coffee - paypal](https://paypal.me/mgldvd?country.x=CO&locale.x=es_XC)
 
-
+<br/>
 
 ## 📣 Mentions
 
@@ -201,6 +232,8 @@ There is no blue without yellow and without orange.
 - [MuyLinux](https://www.muylinux.com/2015/06/06/ping-91)
 - [Reddit - elementaryos](https://www.reddit.com/r/elementaryos/comments/3ivnb7/how_to_change_terminals_colors/)
 - [dev.to](https://dev.to/Gogh-Co/color-scheme-for-your-terminal-1pea)
+
+<br/>
 
 ##  📄 Themes in `json` format
 
@@ -216,6 +249,7 @@ This generates a json file located at `gh-pages/data/themes.json`
 
 Original script source: https://gist.github.com/rapgru/09b449285231d18f4e4536c5f48fc927
 
+<br/>
 
 ## 🌟 Stargazers over time
 
