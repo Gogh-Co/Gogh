@@ -13,6 +13,12 @@ Gogh
 
 Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that use Gnome Terminal, Pantheon Terminal, Tilix, or XFCE4 Terminal; initially inspired by Elementary OS Luna. Also works on iTerm for macOS. You can check out the themes [here](https://Gogh-Co.github.io/Gogh/).
 
+**Quick install:**
+
+```bash
+bash -c "$(wget -qO- https://git.io/vQgMr)"
+```
+
 ![elementary](https://raw.githubusercontent.com/Gogh-Co/Gogh/master/images/demos/themes.gif)
 
 ----
@@ -48,6 +54,11 @@ bash -c "$(curl -sLo- https://git.io/vQgMr)"
 ![gogh-demo-profile](https://raw.githubusercontent.com/Gogh-Co/Gogh/master/images/demos/gogh-demo-profile.gif)
 
 <br/>
+
+## :thinking: [Help](https://github.com/Gogh-Co/Gogh/blob/master/content/help.md)
+
+ - [link to page](https://github.com/Gogh-Co/Gogh/blob/master/content/help.md)
+
 <br/>
 
 ## Install (non-interactive mode)
@@ -74,6 +85,8 @@ cd themes
 ./dracula.sh
 ```
 
+<br/>
+
 ## 💻 Terminals
 
 - Alacritty - [Web](https://github.com/alacritty/alacritty)
@@ -99,19 +112,19 @@ We have lots of themes. Check them out [here](https://Gogh-Co.github.io/Gogh/)!
 also all themes in json format: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json
 
 <br/>
-<br/>
 
 ## 📌 [How to](https://github.com/Gogh-Co/Gogh/blob/master/content/howto.md)
 
 If you want to create your own color scheme or contribute to the project, [start here](https://github.com/Gogh-Co/Gogh/blob/master/content/howto.md).
 
-<br/>
-
-## :thinking: [Help](https://github.com/Gogh-Co/Gogh/blob/master/content/help.md)
 
 <br/>
-<br/>
 
+## 🌱 First commit:
+
+Nov 18, 2013 - [aa9871e](https://github.com/Gogh-Co/Gogh/commit/aa9871e2d6008d5dc8986b90356fa7cf433a0bb3)
+
+<br/>
 
 ## :heart: Credits:
 
@@ -155,30 +168,28 @@ If you want to create your own color scheme or contribute to the project, [start
 - [KANAGAWA.nvim](https://github.com/rebelot/kanagawa.nvim)
 
 <br/>
-<br/>
-
 
 ## :heart: Contributors:
+
+Many thanks to all who have participated in this project.
 
 - [@contributors](https://github.com/Gogh-Co/Gogh/graphs/contributors)
 
 <br/>
-<br/>
 
-## Why Gogh?
+## 🖌️ Why Gogh?
 
 There is no blue without yellow and without orange.
--- [Vincent Van Gogh](https://en.wikipedia.org/wiki/Vincent_van_Gogh)
+-- [Vincent Van Gogh](https://en.wikipedia.org/wiki/Vincent_van_Gogh) --
 
 <br/>
-<br/>
 
-## Author
+## 🧠 Author
 
 - Miguel D. Quintero - [Lanet.co](https://lanet.co)
 
 
-[💵 Buy me a coffee - paypal](https://paypal.me/mgldvd?country.x=CO&locale.x=es_XC)
+&nbsp;&nbsp;&nbsp;&nbsp; [💵 Invite me a coffee - paypal](https://paypal.me/mgldvd?country.x=CO&locale.x=es_XC)
 
 
 
@@ -191,7 +202,9 @@ There is no blue without yellow and without orange.
 - [Reddit - elementaryos](https://www.reddit.com/r/elementaryos/comments/3ivnb7/how_to_change_terminals_colors/)
 - [dev.to](https://dev.to/Gogh-Co/color-scheme-for-your-terminal-1pea)
 
-## Themes in `json` format
+##  📄 Themes in `json` format
+
+- :link:  [json RAW](https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json)
 
 In your terminal type:
 
