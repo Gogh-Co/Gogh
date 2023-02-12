@@ -6,8 +6,8 @@ export COLOR_02="#EA4335"           # Red
 export COLOR_03="#34A853"           # Green
 export COLOR_04="#FBBC04"           # Yellow
 export COLOR_05="#4285F4"           # Blue
-export COLOR_06="#A142F4"           # Cyan
-export COLOR_07="#24C1E0"           # Purple
+export COLOR_06="#A142F4"           # Purple
+export COLOR_07="#24C1E0"           # Cyan
 export COLOR_08="#E8EAED"           # Light gray
 
 export COLOR_09="#5F6368"           # Dark gray
@@ -15,8 +15,8 @@ export COLOR_10="#EA4335"           # Bright Red
 export COLOR_11="#34A853"           # Bright Green
 export COLOR_12="#FBBC05"           # Bright Yellow
 export COLOR_13="#4285F4"           # Bright Blue
-export COLOR_14="#A142F4"           # Bright Cyan
-export COLOR_15="#24C1E0"           # Bright Purple
+export COLOR_14="#A142F4"           # Bright Purple
+export COLOR_15="#24C1E0"           # Bright Cyan
 export COLOR_16="#FFFFFF"           # White
 
 export BACKGROUND_COLOR="#FFFFFF"   # Background Color
