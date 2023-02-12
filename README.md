@@ -26,12 +26,12 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that u
 <br>
 
 - [Pre-Install](https://github.com/Gogh-Co/Gogh#%EF%B8%8F-pre-install)
-- [Install 📦](https://github.com/Gogh-Co/Gogh#%EF%B8%8F-install-interactive-mode)
+- [Install 📦](https://github.com/Gogh-Co/Gogh#-install)
 - [Help](https://github.com/Gogh-Co/Gogh#thinking-help)
 - [Install (non-interactive mode)](https://github.com/Gogh-Co/Gogh#%EF%B8%8F-install-non-interactive-mode)
 - [Terminals](https://github.com/Gogh-Co/Gogh#-terminals)
 - [Themes](https://github.com/Gogh-Co/Gogh#-themes)
-- [How to ?](https://github.com/Gogh-Co/Gogh#-how-to)
+- [How to?](https://github.com/Gogh-Co/Gogh#-how-to)
 - [First commit](https://github.com/Gogh-Co/Gogh#-first-commit)
 - [Credits](https://github.com/Gogh-Co/Gogh#heart-credits)
 - [Contributors](https://github.com/Gogh-Co/Gogh#heart-contributors)
