@@ -14,15 +14,16 @@
 
 Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that use Gnome Terminal, Pantheon Terminal, Tilix, or XFCE4 Terminal; initially inspired by Elementary OS Luna. Also works on iTerm for macOS. You can check out the themes [here](https://Gogh-Co.github.io/Gogh/).
 
+<br>
+
 <table>
 <tr>
 <td>
 <img width="441" height="1">
-<br>
 
-<h2>
-Index:
-</h2>
+<b style="font-size:30px">Index:</b>
+
+<br>
 
 - [Pre-Install](https://github.com/Gogh-Co/Gogh#%EF%B8%8F-pre-install)
 - [Install 📦](https://github.com/Gogh-Co/Gogh#%EF%B8%8F-install-interactive-mode)
@@ -43,6 +44,8 @@ Index:
 </td>
 <td>
 <img width="441" height="1">
+<br>
+<br>
 
 ![gogh](https://raw.githubusercontent.com/Gogh-Co/Gogh/master/images/demos/themes.gif)
 
