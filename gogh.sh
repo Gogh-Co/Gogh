@@ -187,6 +187,7 @@ declare -a THEMES=(
   'pixiefloss.sh'
   'pnevma.sh'
   'powershell.sh'
+  'predawn.sh'
   'pro.sh'
   'purple-people-eater.sh'
   'red-alert.sh'
