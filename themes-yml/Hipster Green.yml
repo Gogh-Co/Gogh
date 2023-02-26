@@ -1,0 +1,25 @@
+---
+name: 'Hipster Green'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#B6214A'    # Red (Syntax string)
+color_03: '#00A600'    # Green (Command)
+color_04: '#BFBF00'    # Yellow (Command second)
+color_05: '#246EB2'    # Blue (Path)
+color_06: '#B200B2'    # Magenta (Syntax var)
+color_07: '#00A6B2'    # Cyan (Prompt)
+color_08: '#BFBFBF'    # White
+
+color_09: '#666666'    # Bright Black
+color_10: '#E50000'    # Bright Red (Command error)
+color_11: '#86A93E'    # Bright Green (Exec)
+color_12: '#E5E500'    # Bright Yellow
+color_13: '#0000FF'    # Bright Blue (Folder)
+color_14: '#E500E5'    # Bright Magenta
+color_15: '#00E5E5'    # Bright Cyan
+color_16: '#E5E5E5'    # Bright White
+
+background: '#100B05'  # Background
+foreground: '#84C138'  # Foreground (Text)
+
+cursor: '#84C138'      # Cursor

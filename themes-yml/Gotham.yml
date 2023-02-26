@@ -1,0 +1,25 @@
+---
+name: 'Gotham'
+
+color_01: '#0A0F14'    # Black (Host)
+color_02: '#C33027'    # Red (Syntax string)
+color_03: '#26A98B'    # Green (Command)
+color_04: '#EDB54B'    # Yellow (Command second)
+color_05: '#195465'    # Blue (Path)
+color_06: '#4E5165'    # Magenta (Syntax var)
+color_07: '#33859D'    # Cyan (Prompt)
+color_08: '#98D1CE'    # White
+
+color_09: '#10151B'    # Bright Black
+color_10: '#D26939'    # Bright Red (Command error)
+color_11: '#081F2D'    # Bright Green (Exec)
+color_12: '#245361'    # Bright Yellow
+color_13: '#093748'    # Bright Blue (Folder)
+color_14: '#888BA5'    # Bright Magenta
+color_15: '#599CAA'    # Bright Cyan
+color_16: '#D3EBE9'    # Bright White
+
+background: '#0A0F14'  # Background
+foreground: '#98D1CE'  # Foreground (Text)
+
+cursor: '#98D1CE'      # Cursor

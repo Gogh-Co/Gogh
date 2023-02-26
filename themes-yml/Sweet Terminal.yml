@@ -1,0 +1,25 @@
+---
+name: 'Sweet Terminal'
+
+color_01: '#3F3F54'    # Black (Host)
+color_02: '#F60055'    # Red (Syntax string)
+color_03: '#06C993'    # Green (Command)
+color_04: '#9700BE'    # Yellow (Command second)
+color_05: '#F69154'    # Blue (Path)
+color_06: '#EC89CB'    # Magenta (Syntax var)
+color_07: '#60ADEC'    # Cyan (Prompt)
+color_08: '#ABB2BF'    # White
+
+color_09: '#959DCB'    # Bright Black
+color_10: '#F60055'    # Bright Red (Command error)
+color_11: '#06C993'    # Bright Green (Exec)
+color_12: '#9700BE'    # Bright Yellow
+color_13: '#F69154'    # Bright Blue (Folder)
+color_14: '#EC89CB'    # Bright Magenta
+color_15: '#00DDED'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#222235'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

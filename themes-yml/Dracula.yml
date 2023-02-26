@@ -1,0 +1,25 @@
+---
+name: 'Dracula'
+
+color_01: '#44475A'    # Black (Host)
+color_02: '#FF5555'    # Red (Syntax string)
+color_03: '#50FA7B'    # Green (Command)
+color_04: '#FFB86C'    # Yellow (Command second)
+color_05: '#8BE9FD'    # Blue (Path)
+color_06: '#BD93F9'    # Magenta (Syntax var)
+color_07: '#FF79C6'    # Cyan (Prompt)
+color_08: '#94A3A5'    # White
+
+color_09: '#000000'    # Bright Black
+color_10: '#FF5555'    # Bright Red (Command error)
+color_11: '#50FA7B'    # Bright Green (Exec)
+color_12: '#FFB86C'    # Bright Yellow
+color_13: '#8BE9FD'    # Bright Blue (Folder)
+color_14: '#BD93F9'    # Bright Magenta
+color_15: '#FF79C6'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#282A36'  # Background
+foreground: '#94A3A5'  # Foreground (Text)
+
+cursor: '#94A3A5'      # Cursor

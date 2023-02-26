@@ -1,0 +1,25 @@
+---
+name: 'Belafonte Night'
+
+color_01: '#20111B'    # Black (Host)
+color_02: '#BE100E'    # Red (Syntax string)
+color_03: '#858162'    # Green (Command)
+color_04: '#EAA549'    # Yellow (Command second)
+color_05: '#426A79'    # Blue (Path)
+color_06: '#97522C'    # Magenta (Syntax var)
+color_07: '#989A9C'    # Cyan (Prompt)
+color_08: '#968C83'    # White
+
+color_09: '#5E5252'    # Bright Black
+color_10: '#BE100E'    # Bright Red (Command error)
+color_11: '#858162'    # Bright Green (Exec)
+color_12: '#EAA549'    # Bright Yellow
+color_13: '#426A79'    # Bright Blue (Folder)
+color_14: '#97522C'    # Bright Magenta
+color_15: '#989A9C'    # Bright Cyan
+color_16: '#D5CCBA'    # Bright White
+
+background: '#20111B'  # Background
+foreground: '#968C83'  # Foreground (Text)
+
+cursor: '#968C83'      # Cursor

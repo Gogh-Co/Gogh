@@ -1,0 +1,25 @@
+---
+name: 'Foxnightly'
+
+color_01: '#2A2A2E'    # Black (Host)
+color_02: '#B98EFF'    # Red (Syntax string)
+color_03: '#FF7DE9'    # Green (Command)
+color_04: '#729FCF'    # Yellow (Command second)
+color_05: '#66A05B'    # Blue (Path)
+color_06: '#75507B'    # Magenta (Syntax var)
+color_07: '#ACACAE'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#A40000'    # Bright Black
+color_10: '#BF4040'    # Bright Red (Command error)
+color_11: '#66A05B'    # Bright Green (Exec)
+color_12: '#FFB86C'    # Bright Yellow
+color_13: '#729FCF'    # Bright Blue (Folder)
+color_14: '#8F5902'    # Bright Magenta
+color_15: '#C4A000'    # Bright Cyan
+color_16: '#5C3566'    # Bright White
+
+background: '#2A2A2E'  # Background
+foreground: '#D7D7DB'  # Foreground (Text)
+
+cursor: '#D7D7DB'      # Cursor

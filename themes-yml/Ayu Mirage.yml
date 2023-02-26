@@ -1,0 +1,25 @@
+---
+name: 'Ayu Mirage'
+
+color_01: '#1F2430'    # Black (Host)
+color_02: '#FF3333'    # Red (Syntax string)
+color_03: '#BAE67E'    # Green (Command)
+color_04: '#FFA759'    # Yellow (Command second)
+color_05: '#73D0FF'    # Blue (Path)
+color_06: '#D4BFFF'    # Magenta (Syntax var)
+color_07: '#95E6CB'    # Cyan (Prompt)
+color_08: '#CBCCC6'    # White
+
+color_09: '#707A8C'    # Bright Black
+color_10: '#FF3333'    # Bright Red (Command error)
+color_11: '#BAE67E'    # Bright Green (Exec)
+color_12: '#FFA759'    # Bright Yellow
+color_13: '#73D0FF'    # Bright Blue (Folder)
+color_14: '#D4BFFF'    # Bright Magenta
+color_15: '#95E6CB'    # Bright Cyan
+color_16: '#CBCCC6'    # Bright White
+
+background: '#1F2430'  # Background
+foreground: '#CBCCC6'  # Foreground (Text)
+
+cursor: '#FFCC66'      # Cursor

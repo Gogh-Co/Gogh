@@ -1,0 +1,25 @@
+---
+name: 'Material'
+
+color_01: '#073641'    # Black (Host)
+color_02: '#EB606B'    # Red (Syntax string)
+color_03: '#C3E88D'    # Green (Command)
+color_04: '#F7EB95'    # Yellow (Command second)
+color_05: '#80CBC3'    # Blue (Path)
+color_06: '#FF2490'    # Magenta (Syntax var)
+color_07: '#AEDDFF'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#002B36'    # Bright Black
+color_10: '#EB606B'    # Bright Red (Command error)
+color_11: '#C3E88D'    # Bright Green (Exec)
+color_12: '#F7EB95'    # Bright Yellow
+color_13: '#7DC6BF'    # Bright Blue (Folder)
+color_14: '#6C71C3'    # Bright Magenta
+color_15: '#34434D'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#1E282C'  # Background
+foreground: '#C3C7D1'  # Foreground (Text)
+
+cursor: '#657B83'      # Cursor

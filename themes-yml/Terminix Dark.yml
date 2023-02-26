@@ -1,0 +1,25 @@
+---
+name: 'Terminix Dark'
+
+color_01: '#282A2E'    # Black (Host)
+color_02: '#A54242'    # Red (Syntax string)
+color_03: '#A1B56C'    # Green (Command)
+color_04: '#DE935F'    # Yellow (Command second)
+color_05: '#225555'    # Blue (Path)
+color_06: '#85678F'    # Magenta (Syntax var)
+color_07: '#5E8D87'    # Cyan (Prompt)
+color_08: '#777777'    # White
+
+color_09: '#373B41'    # Bright Black
+color_10: '#C63535'    # Bright Red (Command error)
+color_11: '#608360'    # Bright Green (Exec)
+color_12: '#FA805A'    # Bright Yellow
+color_13: '#449DA1'    # Bright Blue (Folder)
+color_14: '#BA8BAF'    # Bright Magenta
+color_15: '#86C1B9'    # Bright Cyan
+color_16: '#C5C8C6'    # Bright White
+
+background: '#091116'  # Background
+foreground: '#868A8C'  # Foreground (Text)
+
+cursor: '#868A8C'      # Cursor

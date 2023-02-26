@@ -1,0 +1,25 @@
+---
+name: 'Panda'
+
+color_01: '#1F1F20'    # Black (Host)
+color_02: '#FB055A'    # Red (Syntax string)
+color_03: '#26FFD4'    # Green (Command)
+color_04: '#FDAA5A'    # Yellow (Command second)
+color_05: '#5C9FFF'    # Blue (Path)
+color_06: '#FC59A6'    # Magenta (Syntax var)
+color_07: '#26FFD4'    # Cyan (Prompt)
+color_08: '#F0F0F0'    # White
+
+color_09: '#5C6370'    # Bright Black
+color_10: '#FB055A'    # Bright Red (Command error)
+color_11: '#26FFD4'    # Bright Green (Exec)
+color_12: '#FEBE7E'    # Bright Yellow
+color_13: '#55ADFF'    # Bright Blue (Folder)
+color_14: '#FD95D0'    # Bright Magenta
+color_15: '#26FFD4'    # Bright Cyan
+color_16: '#F0F0F0'    # Bright White
+
+background: '#1D1E20'  # Background
+foreground: '#F0F0F0'  # Foreground (Text)
+
+cursor: '#F0F0F0'      # Cursor

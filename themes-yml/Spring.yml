@@ -1,0 +1,25 @@
+---
+name: 'Spring'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#FF4D83'    # Red (Syntax string)
+color_03: '#1F8C3B'    # Green (Command)
+color_04: '#1FC95B'    # Yellow (Command second)
+color_05: '#1DD3EE'    # Blue (Path)
+color_06: '#8959A8'    # Magenta (Syntax var)
+color_07: '#3E999F'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#000000'    # Bright Black
+color_10: '#FF0021'    # Bright Red (Command error)
+color_11: '#1FC231'    # Bright Green (Exec)
+color_12: '#D5B807'    # Bright Yellow
+color_13: '#15A9FD'    # Bright Blue (Folder)
+color_14: '#8959A8'    # Bright Magenta
+color_15: '#3E999F'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#0A1E24'  # Background
+foreground: '#ECF0C1'  # Foreground (Text)
+
+cursor: '#ECF0C1'      # Cursor

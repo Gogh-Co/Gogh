@@ -1,0 +1,25 @@
+---
+name: 'Flatland'
+
+color_01: '#1D1D19'    # Black (Host)
+color_02: '#F18339'    # Red (Syntax string)
+color_03: '#9FD364'    # Green (Command)
+color_04: '#F4EF6D'    # Yellow (Command second)
+color_05: '#5096BE'    # Blue (Path)
+color_06: '#695ABC'    # Magenta (Syntax var)
+color_07: '#D63865'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#1D1D19'    # Bright Black
+color_10: '#D22A24'    # Bright Red (Command error)
+color_11: '#A7D42C'    # Bright Green (Exec)
+color_12: '#FF8949'    # Bright Yellow
+color_13: '#61B9D0'    # Bright Blue (Folder)
+color_14: '#695ABC'    # Bright Magenta
+color_15: '#D63865'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#1D1F21'  # Background
+foreground: '#B8DBEF'  # Foreground (Text)
+
+cursor: '#B8DBEF'      # Cursor

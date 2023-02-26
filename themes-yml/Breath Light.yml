@@ -1,0 +1,25 @@
+---
+name: 'Breath Light'
+
+color_01: '#E8E8E8'    # Black (Host)
+color_02: '#ED1515'    # Red (Syntax string)
+color_03: '#C0392B'    # Green (Command)
+color_04: '#F67400'    # Yellow (Command second)
+color_05: '#1D99F3'    # Blue (Path)
+color_06: '#9B59B6'    # Magenta (Syntax var)
+color_07: '#1ABC9C'    # Cyan (Prompt)
+color_08: '#FCFCFC'    # White
+
+color_09: '#7F8C8D'    # Bright Black
+color_10: '#C0392B'    # Bright Red (Command error)
+color_11: '#55A649'    # Bright Green (Exec)
+color_12: '#FDBC4B'    # Bright Yellow
+color_13: '#3DAEE9'    # Bright Blue (Folder)
+color_14: '#8E44AD'    # Bright Magenta
+color_15: '#16A085'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#E8E8E8'  # Background
+foreground: '#292F34'  # Foreground (Text)
+
+cursor: '#292F34'      # Cursor

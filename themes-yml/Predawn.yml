@@ -1,0 +1,25 @@
+---
+name: 'Predawn'
+
+color_01: '#F18260'    # Black (Host)
+color_02: '#B51A20'    # Red (Syntax string)
+color_03: '#A6CC75'    # Green (Command)
+color_04: '#FED33A'    # Yellow (Command second)
+color_05: '#81B2B1'    # Blue (Path)
+color_06: '#EB6C4E'    # Magenta (Syntax var)
+color_07: '#81B2B1'    # Cyan (Prompt)
+color_08: '#EAEAEA'    # White
+
+color_09: '#666666'    # Bright Black
+color_10: '#FF000B'    # Bright Red (Command error)
+color_11: '#C4EE94'    # Bright Green (Exec)
+color_12: '#E8E06D'    # Bright Yellow
+color_13: '#A5EBEA'    # Bright Blue (Folder)
+color_14: '#EF8A50'    # Bright Magenta
+color_15: '#A5EBEA'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#282828'  # Background
+foreground: '#F1F1F1'  # Foreground (Text)
+
+cursor: '#F1F1F1'      # Cursor

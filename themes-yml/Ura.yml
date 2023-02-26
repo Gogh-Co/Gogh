@@ -1,0 +1,25 @@
+---
+name: 'Ura'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#C21B6F'    # Red (Syntax string)
+color_03: '#6FC21B'    # Green (Command)
+color_04: '#C26F1B'    # Yellow (Command second)
+color_05: '#1B6FC2'    # Blue (Path)
+color_06: '#6F1BC2'    # Magenta (Syntax var)
+color_07: '#1BC26F'    # Cyan (Prompt)
+color_08: '#808080'    # White
+
+color_09: '#808080'    # Bright Black
+color_10: '#EE84B9'    # Bright Red (Command error)
+color_11: '#B9EE84'    # Bright Green (Exec)
+color_12: '#EEB984'    # Bright Yellow
+color_13: '#84B9EE'    # Bright Blue (Folder)
+color_14: '#B984EE'    # Bright Magenta
+color_15: '#84EEB9'    # Bright Cyan
+color_16: '#E5E5E5'    # Bright White
+
+background: '#FEFFEE'  # Background
+foreground: '#23476A'  # Foreground (Text)
+
+cursor: '#23476A'      # Cursor

@@ -1,0 +1,25 @@
+---
+name: 'Chalk'
+
+color_01: '#646464'    # Black (Host)
+color_02: '#F58E8E'    # Red (Syntax string)
+color_03: '#A9D3AB'    # Green (Command)
+color_04: '#FED37E'    # Yellow (Command second)
+color_05: '#7AABD4'    # Blue (Path)
+color_06: '#D6ADD5'    # Magenta (Syntax var)
+color_07: '#79D4D5'    # Cyan (Prompt)
+color_08: '#D4D4D4'    # White
+
+color_09: '#646464'    # Bright Black
+color_10: '#F58E8E'    # Bright Red (Command error)
+color_11: '#A9D3AB'    # Bright Green (Exec)
+color_12: '#FED37E'    # Bright Yellow
+color_13: '#7AABD4'    # Bright Blue (Folder)
+color_14: '#D6ADD5'    # Bright Magenta
+color_15: '#79D4D5'    # Bright Cyan
+color_16: '#D4D4D4'    # Bright White
+
+background: '#2D2D2D'  # Background
+foreground: '#D4D4D4'  # Foreground (Text)
+
+cursor: '#D4D4D4'      # Cursor

@@ -1,0 +1,25 @@
+---
+name: 'Nord Light'
+
+color_01: '#003B4E'    # Black (Host)
+color_02: '#E64569'    # Red (Syntax string)
+color_03: '#069F5F'    # Green (Command)
+color_04: '#DAB752'    # Yellow (Command second)
+color_05: '#439ECF'    # Blue (Path)
+color_06: '#D961DC'    # Magenta (Syntax var)
+color_07: '#00B1BE'    # Cyan (Prompt)
+color_08: '#B3B3B3'    # White
+
+color_09: '#3E89A1'    # Bright Black
+color_10: '#E4859A'    # Bright Red (Command error)
+color_11: '#A2CCA1'    # Bright Green (Exec)
+color_12: '#E1E387'    # Bright Yellow
+color_13: '#6FBBE2'    # Bright Blue (Folder)
+color_14: '#E586E7'    # Bright Magenta
+color_15: '#96DCDA'    # Bright Cyan
+color_16: '#DEDEDE'    # Bright White
+
+background: '#EBEAF2'  # Background
+foreground: '#004F7C'  # Foreground (Text)
+
+cursor: '#439ECF'      # Cursor

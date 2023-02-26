@@ -1,0 +1,25 @@
+---
+name: 'Clone Of Ubuntu'
+
+color_01: '#2E3436'    # Black (Host)
+color_02: '#CC0000'    # Red (Syntax string)
+color_03: '#4E9A06'    # Green (Command)
+color_04: '#C4A000'    # Yellow (Command second)
+color_05: '#3465A4'    # Blue (Path)
+color_06: '#75507B'    # Magenta (Syntax var)
+color_07: '#06989A'    # Cyan (Prompt)
+color_08: '#D3D7CF'    # White
+
+color_09: '#555753'    # Bright Black
+color_10: '#EF2929'    # Bright Red (Command error)
+color_11: '#8AE234'    # Bright Green (Exec)
+color_12: '#FCE94F'    # Bright Yellow
+color_13: '#729FCF'    # Bright Blue (Folder)
+color_14: '#AD7FA8'    # Bright Magenta
+color_15: '#34E2E2'    # Bright Cyan
+color_16: '#EEEEEC'    # Bright White
+
+background: '#300A24'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

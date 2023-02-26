@@ -1,0 +1,25 @@
+---
+name: 'One Light'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#DA3E39'    # Red (Syntax string)
+color_03: '#41933E'    # Green (Command)
+color_04: '#855504'    # Yellow (Command second)
+color_05: '#315EEE'    # Blue (Path)
+color_06: '#930092'    # Magenta (Syntax var)
+color_07: '#0E6FAD'    # Cyan (Prompt)
+color_08: '#8E8F96'    # White
+
+color_09: '#2A2B32'    # Bright Black
+color_10: '#DA3E39'    # Bright Red (Command error)
+color_11: '#41933E'    # Bright Green (Exec)
+color_12: '#855504'    # Bright Yellow
+color_13: '#315EEE'    # Bright Blue (Folder)
+color_14: '#930092'    # Bright Magenta
+color_15: '#0E6FAD'    # Bright Cyan
+color_16: '#FFFEFE'    # Bright White
+
+background: '#F8F8F8'  # Background
+foreground: '#2A2B32'  # Foreground (Text)
+
+cursor: '#2A2B32'      # Cursor

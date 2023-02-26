@@ -1,0 +1,25 @@
+---
+name: 'Medallion'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#B64C00'    # Red (Syntax string)
+color_03: '#7C8B16'    # Green (Command)
+color_04: '#D3BD26'    # Yellow (Command second)
+color_05: '#616BB0'    # Blue (Path)
+color_06: '#8C5A90'    # Magenta (Syntax var)
+color_07: '#916C25'    # Cyan (Prompt)
+color_08: '#CAC29A'    # White
+
+color_09: '#5E5219'    # Bright Black
+color_10: '#FF9149'    # Bright Red (Command error)
+color_11: '#B2CA3B'    # Bright Green (Exec)
+color_12: '#FFE54A'    # Bright Yellow
+color_13: '#ACB8FF'    # Bright Blue (Folder)
+color_14: '#FFA0FF'    # Bright Magenta
+color_15: '#FFBC51'    # Bright Cyan
+color_16: '#FED698'    # Bright White
+
+background: '#1D1908'  # Background
+foreground: '#CAC296'  # Foreground (Text)
+
+cursor: '#CAC296'      # Cursor

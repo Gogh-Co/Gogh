@@ -1,0 +1,25 @@
+---
+name: 'Pnevma'
+
+color_01: '#2F2E2D'    # Black (Host)
+color_02: '#A36666'    # Red (Syntax string)
+color_03: '#90A57D'    # Green (Command)
+color_04: '#D7AF87'    # Yellow (Command second)
+color_05: '#7FA5BD'    # Blue (Path)
+color_06: '#C79EC4'    # Magenta (Syntax var)
+color_07: '#8ADBB4'    # Cyan (Prompt)
+color_08: '#D0D0D0'    # White
+
+color_09: '#4A4845'    # Bright Black
+color_10: '#D78787'    # Bright Red (Command error)
+color_11: '#AFBEA2'    # Bright Green (Exec)
+color_12: '#E4C9AF'    # Bright Yellow
+color_13: '#A1BDCE'    # Bright Blue (Folder)
+color_14: '#D7BEDA'    # Bright Magenta
+color_15: '#B1E7DD'    # Bright Cyan
+color_16: '#EFEFEF'    # Bright White
+
+background: '#1C1C1C'  # Background
+foreground: '#D0D0D0'  # Foreground (Text)
+
+cursor: '#D0D0D0'      # Cursor

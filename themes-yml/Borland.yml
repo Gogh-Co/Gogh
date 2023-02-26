@@ -1,0 +1,25 @@
+---
+name: 'Borland'
+
+color_01: '#4F4F4F'    # Black (Host)
+color_02: '#FF6C60'    # Red (Syntax string)
+color_03: '#A8FF60'    # Green (Command)
+color_04: '#FFFFB6'    # Yellow (Command second)
+color_05: '#96CBFE'    # Blue (Path)
+color_06: '#FF73FD'    # Magenta (Syntax var)
+color_07: '#C6C5FE'    # Cyan (Prompt)
+color_08: '#EEEEEE'    # White
+
+color_09: '#7C7C7C'    # Bright Black
+color_10: '#FFB6B0'    # Bright Red (Command error)
+color_11: '#CEFFAC'    # Bright Green (Exec)
+color_12: '#FFFFCC'    # Bright Yellow
+color_13: '#B5DCFF'    # Bright Blue (Folder)
+color_14: '#FF9CFE'    # Bright Magenta
+color_15: '#DFDFFE'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#0000A4'  # Background
+foreground: '#FFFF4E'  # Foreground (Text)
+
+cursor: '#FFFF4E'      # Cursor

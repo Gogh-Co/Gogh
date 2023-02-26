@@ -1,0 +1,25 @@
+---
+name: 'One Dark'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#E06C75'    # Red (Syntax string)
+color_03: '#98C379'    # Green (Command)
+color_04: '#D19A66'    # Yellow (Command second)
+color_05: '#61AFEF'    # Blue (Path)
+color_06: '#C678DD'    # Magenta (Syntax var)
+color_07: '#56B6C2'    # Cyan (Prompt)
+color_08: '#ABB2BF'    # White
+
+color_09: '#5C6370'    # Bright Black
+color_10: '#E06C75'    # Bright Red (Command error)
+color_11: '#98C379'    # Bright Green (Exec)
+color_12: '#D19A66'    # Bright Yellow
+color_13: '#61AFEF'    # Bright Blue (Folder)
+color_14: '#C678DD'    # Bright Magenta
+color_15: '#56B6C2'    # Bright Cyan
+color_16: '#FFFEFE'    # Bright White
+
+background: '#1E2127'  # Background
+foreground: '#5C6370'  # Foreground (Text)
+
+cursor: '#5C6370'      # Cursor

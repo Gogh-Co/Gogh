@@ -1,0 +1,25 @@
+---
+name: 'Grape'
+
+color_01: '#2D283F'    # Black (Host)
+color_02: '#ED2261'    # Red (Syntax string)
+color_03: '#1FA91B'    # Green (Command)
+color_04: '#8DDC20'    # Yellow (Command second)
+color_05: '#487DF4'    # Blue (Path)
+color_06: '#8D35C9'    # Magenta (Syntax var)
+color_07: '#3BDEED'    # Cyan (Prompt)
+color_08: '#9E9EA0'    # White
+
+color_09: '#59516A'    # Bright Black
+color_10: '#F0729A'    # Bright Red (Command error)
+color_11: '#53AA5E'    # Bright Green (Exec)
+color_12: '#B2DC87'    # Bright Yellow
+color_13: '#A9BCEC'    # Bright Blue (Folder)
+color_14: '#AD81C2'    # Bright Magenta
+color_15: '#9DE3EB'    # Bright Cyan
+color_16: '#A288F7'    # Bright White
+
+background: '#171423'  # Background
+foreground: '#9F9FA1'  # Foreground (Text)
+
+cursor: '#9F9FA1'      # Cursor

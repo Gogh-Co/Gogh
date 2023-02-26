@@ -1,0 +1,25 @@
+---
+name: 'Royal'
+
+color_01: '#241F2B'    # Black (Host)
+color_02: '#91284C'    # Red (Syntax string)
+color_03: '#23801C'    # Green (Command)
+color_04: '#B49D27'    # Yellow (Command second)
+color_05: '#6580B0'    # Blue (Path)
+color_06: '#674D96'    # Magenta (Syntax var)
+color_07: '#8AAABE'    # Cyan (Prompt)
+color_08: '#524966'    # White
+
+color_09: '#312D3D'    # Bright Black
+color_10: '#D5356C'    # Bright Red (Command error)
+color_11: '#2CD946'    # Bright Green (Exec)
+color_12: '#FDE83B'    # Bright Yellow
+color_13: '#90BAF9'    # Bright Blue (Folder)
+color_14: '#A479E3'    # Bright Magenta
+color_15: '#ACD4EB'    # Bright Cyan
+color_16: '#9E8CBD'    # Bright White
+
+background: '#100815'  # Background
+foreground: '#514968'  # Foreground (Text)
+
+cursor: '#514968'      # Cursor

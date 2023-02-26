@@ -1,0 +1,25 @@
+---
+name: 'Cai'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#CA274D'    # Red (Syntax string)
+color_03: '#4DCA27'    # Green (Command)
+color_04: '#CAA427'    # Yellow (Command second)
+color_05: '#274DCA'    # Blue (Path)
+color_06: '#A427CA'    # Magenta (Syntax var)
+color_07: '#27CAA4'    # Cyan (Prompt)
+color_08: '#808080'    # White
+
+color_09: '#808080'    # Bright Black
+color_10: '#E98DA3'    # Bright Red (Command error)
+color_11: '#A3E98D'    # Bright Green (Exec)
+color_12: '#E9D48D'    # Bright Yellow
+color_13: '#8DA3E9'    # Bright Blue (Folder)
+color_14: '#D48DE9'    # Bright Magenta
+color_15: '#8DE9D4'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#09111A'  # Background
+foreground: '#D9E6F2'  # Foreground (Text)
+
+cursor: '#D9E6F2'      # Cursor

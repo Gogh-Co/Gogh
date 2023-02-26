@@ -1,0 +1,25 @@
+---
+name: 'Tomorrow Night Bright'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#D54E53'    # Red (Syntax string)
+color_03: '#B9CA49'    # Green (Command)
+color_04: '#E7C547'    # Yellow (Command second)
+color_05: '#79A6DA'    # Blue (Path)
+color_06: '#C397D8'    # Magenta (Syntax var)
+color_07: '#70C0B1'    # Cyan (Prompt)
+color_08: '#FFFEFE'    # White
+
+color_09: '#000000'    # Bright Black
+color_10: '#D44D53'    # Bright Red (Command error)
+color_11: '#B9C949'    # Bright Green (Exec)
+color_12: '#E6C446'    # Bright Yellow
+color_13: '#79A6DA'    # Bright Blue (Folder)
+color_14: '#C396D7'    # Bright Magenta
+color_15: '#70C0B1'    # Bright Cyan
+color_16: '#FFFEFE'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#E9E9E9'  # Foreground (Text)
+
+cursor: '#E9E9E9'      # Cursor

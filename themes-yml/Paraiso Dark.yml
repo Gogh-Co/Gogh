@@ -1,0 +1,25 @@
+---
+name: 'Paraiso Dark'
+
+color_01: '#2F1E2E'    # Black (Host)
+color_02: '#EF6155'    # Red (Syntax string)
+color_03: '#48B685'    # Green (Command)
+color_04: '#FEC418'    # Yellow (Command second)
+color_05: '#06B6EF'    # Blue (Path)
+color_06: '#815BA4'    # Magenta (Syntax var)
+color_07: '#5BC4BF'    # Cyan (Prompt)
+color_08: '#A39E9B'    # White
+
+color_09: '#776E71'    # Bright Black
+color_10: '#EF6155'    # Bright Red (Command error)
+color_11: '#48B685'    # Bright Green (Exec)
+color_12: '#FEC418'    # Bright Yellow
+color_13: '#06B6EF'    # Bright Blue (Folder)
+color_14: '#815BA4'    # Bright Magenta
+color_15: '#5BC4BF'    # Bright Cyan
+color_16: '#E7E9DB'    # Bright White
+
+background: '#2F1E2E'  # Background
+foreground: '#A39E9B'  # Foreground (Text)
+
+cursor: '#A39E9B'      # Cursor

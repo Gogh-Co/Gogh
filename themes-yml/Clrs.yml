@@ -1,0 +1,25 @@
+---
+name: 'Clrs'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#F8282A'    # Red (Syntax string)
+color_03: '#328A5D'    # Green (Command)
+color_04: '#FA701D'    # Yellow (Command second)
+color_05: '#135CD0'    # Blue (Path)
+color_06: '#9F00BD'    # Magenta (Syntax var)
+color_07: '#33C3C1'    # Cyan (Prompt)
+color_08: '#B3B3B3'    # White
+
+color_09: '#555753'    # Bright Black
+color_10: '#FB0416'    # Bright Red (Command error)
+color_11: '#2CC631'    # Bright Green (Exec)
+color_12: '#FDD727'    # Bright Yellow
+color_13: '#1670FF'    # Bright Blue (Folder)
+color_14: '#E900B0'    # Bright Magenta
+color_15: '#3AD5CE'    # Bright Cyan
+color_16: '#EEEEEC'    # Bright White
+
+background: '#FFFFFF'  # Background
+foreground: '#262626'  # Foreground (Text)
+
+cursor: '#262626'      # Cursor

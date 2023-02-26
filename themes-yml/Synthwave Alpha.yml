@@ -1,0 +1,25 @@
+---
+name: 'Synthwave Alpha'
+
+color_01: '#241B30'    # Black (Host)
+color_02: '#9A0048'    # Red (Syntax string)
+color_03: '#00986C'    # Green (Command)
+color_04: '#ADAD3E'    # Yellow (Command second)
+color_05: '#6E29AD'    # Blue (Path)
+color_06: '#B300AD'    # Magenta (Syntax var)
+color_07: '#00B0B1'    # Cyan (Prompt)
+color_08: '#B9B1BC'    # White
+
+color_09: '#7F7094'    # Bright Black
+color_10: '#E60A70'    # Bright Red (Command error)
+color_11: '#0AE4A4'    # Bright Green (Exec)
+color_12: '#F9F972'    # Bright Yellow
+color_13: '#AA54F9'    # Bright Blue (Folder)
+color_14: '#FF00F6'    # Bright Magenta
+color_15: '#00FBFD'    # Bright Cyan
+color_16: '#F2F2E3'    # Bright White
+
+background: '#241B30'  # Background
+foreground: '#F2F2E3'  # Foreground (Text)
+
+cursor: '#F2F2E3'      # Cursor

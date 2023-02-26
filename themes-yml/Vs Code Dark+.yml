@@ -1,0 +1,25 @@
+---
+name: 'Vs Code Dark+'
+
+color_01: '#6A787A'    # Black (Host)
+color_02: '#E9653B'    # Red (Syntax string)
+color_03: '#39E9A8'    # Green (Command)
+color_04: '#E5B684'    # Yellow (Command second)
+color_05: '#44AAE6'    # Blue (Path)
+color_06: '#E17599'    # Magenta (Syntax var)
+color_07: '#3DD5E7'    # Cyan (Prompt)
+color_08: '#C3DDE1'    # White
+
+color_09: '#598489'    # Bright Black
+color_10: '#E65029'    # Bright Red (Command error)
+color_11: '#00FF9A'    # Bright Green (Exec)
+color_12: '#E89440'    # Bright Yellow
+color_13: '#009AFB'    # Bright Blue (Folder)
+color_14: '#FF578F'    # Bright Magenta
+color_15: '#5FFFFF'    # Bright Cyan
+color_16: '#D9FBFF'    # Bright White
+
+background: '#1E1E1E'  # Background
+foreground: '#CCCCCC'  # Foreground (Text)
+
+cursor: '#CCCCCC'      # Cursor

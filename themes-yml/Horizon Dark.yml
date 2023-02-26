@@ -1,0 +1,25 @@
+---
+name: 'Horizon Dark'
+
+color_01: '#16161C'    # Black (Host)
+color_02: '#E95678'    # Red (Syntax string)
+color_03: '#29D398'    # Green (Command)
+color_04: '#FAB795'    # Yellow (Command second)
+color_05: '#26BBD9'    # Blue (Path)
+color_06: '#EE64AE'    # Magenta (Syntax var)
+color_07: '#59E3E3'    # Cyan (Prompt)
+color_08: '#FADAD1'    # White
+
+color_09: '#232530'    # Bright Black
+color_10: '#EC6A88'    # Bright Red (Command error)
+color_11: '#3FDAA4'    # Bright Green (Exec)
+color_12: '#FBC3A7'    # Bright Yellow
+color_13: '#3FC6DE'    # Bright Blue (Folder)
+color_14: '#F075B7'    # Bright Magenta
+color_15: '#6BE6E6'    # Bright Cyan
+color_16: '#FDF0ED'    # Bright White
+
+background: '#1C1E26'  # Background
+foreground: '#FDF0ED'  # Foreground (Text)
+
+cursor: '#FDF0ED'      # Cursor

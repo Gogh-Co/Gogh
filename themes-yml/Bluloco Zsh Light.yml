@@ -1,0 +1,25 @@
+---
+name: 'Bluloco Zsh Light'
+
+color_01: '#E4E5F1'    # Black (Host)
+color_02: '#D52753'    # Red (Syntax string)
+color_03: '#23974A'    # Green (Command)
+color_04: '#DF631C'    # Yellow (Command second)
+color_05: '#275FE4'    # Blue (Path)
+color_06: '#823FF1'    # Magenta (Syntax var)
+color_07: '#27618D'    # Cyan (Prompt)
+color_08: '#000000'    # White
+
+color_09: '#5794DE'    # Bright Black
+color_10: '#FF6480'    # Bright Red (Command error)
+color_11: '#3CBC66'    # Bright Green (Exec)
+color_12: '#C5A332'    # Bright Yellow
+color_13: '#0099E1'    # Bright Blue (Folder)
+color_14: '#CE33C0'    # Bright Magenta
+color_15: '#6D93BB'    # Bright Cyan
+color_16: '#26272D'    # Bright White
+
+background: '#F9F9F9'  # Background
+foreground: '#383A42'  # Foreground (Text)
+
+cursor: '#383A42'      # Cursor

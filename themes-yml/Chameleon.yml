@@ -1,0 +1,25 @@
+---
+name: 'Chameleon'
+
+color_01: '#2C2C2C'    # Black (Host)
+color_02: '#CC231C'    # Red (Syntax string)
+color_03: '#689D69'    # Green (Command)
+color_04: '#D79922'    # Yellow (Command second)
+color_05: '#366B71'    # Blue (Path)
+color_06: '#4E5165'    # Magenta (Syntax var)
+color_07: '#458587'    # Cyan (Prompt)
+color_08: '#C8BB97'    # White
+
+color_09: '#777777'    # Bright Black
+color_10: '#CC231C'    # Bright Red (Command error)
+color_11: '#689D69'    # Bright Green (Exec)
+color_12: '#D79922'    # Bright Yellow
+color_13: '#366B71'    # Bright Blue (Folder)
+color_14: '#4E5165'    # Bright Magenta
+color_15: '#458587'    # Bright Cyan
+color_16: '#C8BB97'    # Bright White
+
+background: '#2C2C2C'  # Background
+foreground: '#DEDEDE'  # Foreground (Text)
+
+cursor: '#DEDEDE'      # Cursor

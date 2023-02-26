@@ -1,0 +1,25 @@
+---
+name: 'Espresso Libre'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#CC0000'    # Red (Syntax string)
+color_03: '#1A921C'    # Green (Command)
+color_04: '#F0E53A'    # Yellow (Command second)
+color_05: '#0066FF'    # Blue (Path)
+color_06: '#C5656B'    # Magenta (Syntax var)
+color_07: '#06989A'    # Cyan (Prompt)
+color_08: '#D3D7CF'    # White
+
+color_09: '#555753'    # Bright Black
+color_10: '#EF2929'    # Bright Red (Command error)
+color_11: '#9AFF87'    # Bright Green (Exec)
+color_12: '#FFFB5C'    # Bright Yellow
+color_13: '#43A8ED'    # Bright Blue (Folder)
+color_14: '#FF818A'    # Bright Magenta
+color_15: '#34E2E2'    # Bright Cyan
+color_16: '#EEEEEC'    # Bright White
+
+background: '#2A211C'  # Background
+foreground: '#B8A898'  # Foreground (Text)
+
+cursor: '#B8A898'      # Cursor

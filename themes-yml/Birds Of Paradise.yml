@@ -1,0 +1,25 @@
+---
+name: 'Birds Of Paradise'
+
+color_01: '#573D26'    # Black (Host)
+color_02: '#BE2D26'    # Red (Syntax string)
+color_03: '#6BA18A'    # Green (Command)
+color_04: '#E99D2A'    # Yellow (Command second)
+color_05: '#5A86AD'    # Blue (Path)
+color_06: '#AC80A6'    # Magenta (Syntax var)
+color_07: '#74A6AD'    # Cyan (Prompt)
+color_08: '#E0DBB7'    # White
+
+color_09: '#9B6C4A'    # Bright Black
+color_10: '#E84627'    # Bright Red (Command error)
+color_11: '#95D8BA'    # Bright Green (Exec)
+color_12: '#D0D150'    # Bright Yellow
+color_13: '#B8D3ED'    # Bright Blue (Folder)
+color_14: '#D19ECB'    # Bright Magenta
+color_15: '#93CFD7'    # Bright Cyan
+color_16: '#FFF9D5'    # Bright White
+
+background: '#2A1F1D'  # Background
+foreground: '#E0DBB7'  # Foreground (Text)
+
+cursor: '#E0DBB7'      # Cursor

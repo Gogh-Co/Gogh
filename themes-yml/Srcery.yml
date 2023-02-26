@@ -1,0 +1,25 @@
+---
+name: 'Srcery'
+
+color_01: '#1C1B19'    # Black (Host)
+color_02: '#EF2F27'    # Red (Syntax string)
+color_03: '#519F50'    # Green (Command)
+color_04: '#FBB829'    # Yellow (Command second)
+color_05: '#2C78BF'    # Blue (Path)
+color_06: '#E02C6D'    # Magenta (Syntax var)
+color_07: '#0AAEB3'    # Cyan (Prompt)
+color_08: '#BAA67F'    # White
+
+color_09: '#918175'    # Bright Black
+color_10: '#F75341'    # Bright Red (Command error)
+color_11: '#98BC37'    # Bright Green (Exec)
+color_12: '#FED06E'    # Bright Yellow
+color_13: '#68A8E4'    # Bright Blue (Folder)
+color_14: '#FF5C8F'    # Bright Magenta
+color_15: '#2BE4D0'    # Bright Cyan
+color_16: '#FCE8C3'    # Bright White
+
+background: '#1C1B19'  # Background
+foreground: '#FCE8C3'  # Foreground (Text)
+
+cursor: '#FBB829'      # Cursor

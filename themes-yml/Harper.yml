@@ -1,0 +1,25 @@
+---
+name: 'Harper'
+
+color_01: '#010101'    # Black (Host)
+color_02: '#F8B63F'    # Red (Syntax string)
+color_03: '#7FB5E1'    # Green (Command)
+color_04: '#D6DA25'    # Yellow (Command second)
+color_05: '#489E48'    # Blue (Path)
+color_06: '#B296C6'    # Magenta (Syntax var)
+color_07: '#F5BFD7'    # Cyan (Prompt)
+color_08: '#A8A49D'    # White
+
+color_09: '#726E6A'    # Bright Black
+color_10: '#F8B63F'    # Bright Red (Command error)
+color_11: '#7FB5E1'    # Bright Green (Exec)
+color_12: '#D6DA25'    # Bright Yellow
+color_13: '#489E48'    # Bright Blue (Folder)
+color_14: '#B296C6'    # Bright Magenta
+color_15: '#F5BFD7'    # Bright Cyan
+color_16: '#FEFBEA'    # Bright White
+
+background: '#010101'  # Background
+foreground: '#A8A49D'  # Foreground (Text)
+
+cursor: '#A8A49D'      # Cursor

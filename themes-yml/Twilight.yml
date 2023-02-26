@@ -1,0 +1,25 @@
+---
+name: 'Twilight'
+
+color_01: '#141414'    # Black (Host)
+color_02: '#C06D44'    # Red (Syntax string)
+color_03: '#AFB97A'    # Green (Command)
+color_04: '#C2A86C'    # Yellow (Command second)
+color_05: '#44474A'    # Blue (Path)
+color_06: '#B4BE7C'    # Magenta (Syntax var)
+color_07: '#778385'    # Cyan (Prompt)
+color_08: '#FFFFD4'    # White
+
+color_09: '#262626'    # Bright Black
+color_10: '#DE7C4C'    # Bright Red (Command error)
+color_11: '#CCD88C'    # Bright Green (Exec)
+color_12: '#E2C47E'    # Bright Yellow
+color_13: '#5A5E62'    # Bright Blue (Folder)
+color_14: '#D0DC8E'    # Bright Magenta
+color_15: '#8A989B'    # Bright Cyan
+color_16: '#FFFFD4'    # Bright White
+
+background: '#141414'  # Background
+foreground: '#FFFFD4'  # Foreground (Text)
+
+cursor: '#FFFFD4'      # Cursor

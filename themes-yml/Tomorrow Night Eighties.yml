@@ -1,0 +1,25 @@
+---
+name: 'Tomorrow Night Eighties'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#F27779'    # Red (Syntax string)
+color_03: '#99CC99'    # Green (Command)
+color_04: '#FFCC66'    # Yellow (Command second)
+color_05: '#6699CC'    # Blue (Path)
+color_06: '#CC99CC'    # Magenta (Syntax var)
+color_07: '#66CCCC'    # Cyan (Prompt)
+color_08: '#FFFEFE'    # White
+
+color_09: '#000000'    # Bright Black
+color_10: '#F17779'    # Bright Red (Command error)
+color_11: '#99CC99'    # Bright Green (Exec)
+color_12: '#FFCC66'    # Bright Yellow
+color_13: '#6699CC'    # Bright Blue (Folder)
+color_14: '#CC99CC'    # Bright Magenta
+color_15: '#66CCCC'    # Bright Cyan
+color_16: '#FFFEFE'    # Bright White
+
+background: '#2C2C2C'  # Background
+foreground: '#CCCCCC'  # Foreground (Text)
+
+cursor: '#CCCCCC'      # Cursor

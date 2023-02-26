@@ -1,0 +1,25 @@
+---
+name: 'Cobalt Neon'
+
+color_01: '#142631'    # Black (Host)
+color_02: '#FF2320'    # Red (Syntax string)
+color_03: '#3BA5FF'    # Green (Command)
+color_04: '#E9E75C'    # Yellow (Command second)
+color_05: '#8FF586'    # Blue (Path)
+color_06: '#781AA0'    # Magenta (Syntax var)
+color_07: '#8FF586'    # Cyan (Prompt)
+color_08: '#BA46B2'    # White
+
+color_09: '#FFF688'    # Bright Black
+color_10: '#D4312E'    # Bright Red (Command error)
+color_11: '#8FF586'    # Bright Green (Exec)
+color_12: '#E9F06D'    # Bright Yellow
+color_13: '#3C7DD2'    # Bright Blue (Folder)
+color_14: '#8230A7'    # Bright Magenta
+color_15: '#6CBC67'    # Bright Cyan
+color_16: '#8FF586'    # Bright White
+
+background: '#142838'  # Background
+foreground: '#8FF586'  # Foreground (Text)
+
+cursor: '#8FF586'      # Cursor

@@ -1,0 +1,25 @@
+---
+name: 'C64'
+
+color_01: '#090300'    # Black (Host)
+color_02: '#883932'    # Red (Syntax string)
+color_03: '#55A049'    # Green (Command)
+color_04: '#BFCE72'    # Yellow (Command second)
+color_05: '#40318D'    # Blue (Path)
+color_06: '#8B3F96'    # Magenta (Syntax var)
+color_07: '#67B6BD'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#000000'    # Bright Black
+color_10: '#883932'    # Bright Red (Command error)
+color_11: '#55A049'    # Bright Green (Exec)
+color_12: '#BFCE72'    # Bright Yellow
+color_13: '#40318D'    # Bright Blue (Folder)
+color_14: '#8B3F96'    # Bright Magenta
+color_15: '#67B6BD'    # Bright Cyan
+color_16: '#F7F7F7'    # Bright White
+
+background: '#40318D'  # Background
+foreground: '#7869C4'  # Foreground (Text)
+
+cursor: '#7869C4'      # Cursor

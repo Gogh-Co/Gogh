@@ -1,0 +1,25 @@
+---
+name: 'Google Dark'
+
+color_01: '#202124'    # Black (Host)
+color_02: '#EA4335'    # Red (Syntax string)
+color_03: '#34A853'    # Green (Command)
+color_04: '#FBBC04'    # Yellow (Command second)
+color_05: '#4285F4'    # Blue (Path)
+color_06: '#A142F4'    # Magenta (Syntax var)
+color_07: '#24C1E0'    # Cyan (Prompt)
+color_08: '#E8EAED'    # White
+
+color_09: '#5F6368'    # Bright Black
+color_10: '#EA4335'    # Bright Red (Command error)
+color_11: '#34A853'    # Bright Green (Exec)
+color_12: '#FBBC05'    # Bright Yellow
+color_13: '#4285F4'    # Bright Blue (Folder)
+color_14: '#A142F4'    # Bright Magenta
+color_15: '#24C1E0'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#202124'  # Background
+foreground: '#E8EAED'  # Foreground (Text)
+
+cursor: '#E8EAED'      # Cursor

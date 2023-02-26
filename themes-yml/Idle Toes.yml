@@ -1,0 +1,25 @@
+---
+name: 'Idle Toes'
+
+color_01: '#323232'    # Black (Host)
+color_02: '#D25252'    # Red (Syntax string)
+color_03: '#7FE173'    # Green (Command)
+color_04: '#FFC66D'    # Yellow (Command second)
+color_05: '#4099FF'    # Blue (Path)
+color_06: '#F680FF'    # Magenta (Syntax var)
+color_07: '#BED6FF'    # Cyan (Prompt)
+color_08: '#EEEEEC'    # White
+
+color_09: '#535353'    # Bright Black
+color_10: '#F07070'    # Bright Red (Command error)
+color_11: '#9DFF91'    # Bright Green (Exec)
+color_12: '#FFE48B'    # Bright Yellow
+color_13: '#5EB7F7'    # Bright Blue (Folder)
+color_14: '#FF9DFF'    # Bright Magenta
+color_15: '#DCF4FF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#323232'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

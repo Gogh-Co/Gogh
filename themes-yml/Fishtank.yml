@@ -1,0 +1,25 @@
+---
+name: 'Fishtank'
+
+color_01: '#03073C'    # Black (Host)
+color_02: '#C6004A'    # Red (Syntax string)
+color_03: '#ACF157'    # Green (Command)
+color_04: '#FECD5E'    # Yellow (Command second)
+color_05: '#525FB8'    # Blue (Path)
+color_06: '#986F82'    # Magenta (Syntax var)
+color_07: '#968763'    # Cyan (Prompt)
+color_08: '#ECF0FC'    # White
+
+color_09: '#6C5B30'    # Bright Black
+color_10: '#DA4B8A'    # Bright Red (Command error)
+color_11: '#DBFFA9'    # Bright Green (Exec)
+color_12: '#FEE6A9'    # Bright Yellow
+color_13: '#B2BEFA'    # Bright Blue (Folder)
+color_14: '#FDA5CD'    # Bright Magenta
+color_15: '#A5BD86'    # Bright Cyan
+color_16: '#F6FFEC'    # Bright White
+
+background: '#232537'  # Background
+foreground: '#ECF0FE'  # Foreground (Text)
+
+cursor: '#ECF0FE'      # Cursor

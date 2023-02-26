@@ -1,0 +1,25 @@
+---
+name: 'Atom'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#FD5FF1'    # Red (Syntax string)
+color_03: '#87C38A'    # Green (Command)
+color_04: '#FFD7B1'    # Yellow (Command second)
+color_05: '#85BEFD'    # Blue (Path)
+color_06: '#B9B6FC'    # Magenta (Syntax var)
+color_07: '#85BEFD'    # Cyan (Prompt)
+color_08: '#E0E0E0'    # White
+
+color_09: '#000000'    # Bright Black
+color_10: '#FD5FF1'    # Bright Red (Command error)
+color_11: '#94FA36'    # Bright Green (Exec)
+color_12: '#F5FFA8'    # Bright Yellow
+color_13: '#96CBFE'    # Bright Blue (Folder)
+color_14: '#B9B6FC'    # Bright Magenta
+color_15: '#85BEFD'    # Bright Cyan
+color_16: '#E0E0E0'    # Bright White
+
+background: '#161719'  # Background
+foreground: '#C5C8C6'  # Foreground (Text)
+
+cursor: '#C5C8C6'      # Cursor

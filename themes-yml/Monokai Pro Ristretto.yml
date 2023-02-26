@@ -1,0 +1,25 @@
+---
+name: 'Monokai Pro Ristretto'
+
+color_01: '#3E3838'    # Black (Host)
+color_02: '#DF7484'    # Red (Syntax string)
+color_03: '#BBD87E'    # Green (Command)
+color_04: '#EDCE73'    # Yellow (Command second)
+color_05: '#DC9373'    # Blue (Path)
+color_06: '#A9AAE9'    # Magenta (Syntax var)
+color_07: '#A4D7CC'    # Cyan (Prompt)
+color_08: '#FBF2F3'    # White
+
+color_09: '#70696A'    # Bright Black
+color_10: '#DF7484'    # Bright Red (Command error)
+color_11: '#BBD87E'    # Bright Green (Exec)
+color_12: '#EDCE73'    # Bright Yellow
+color_13: '#DC9373'    # Bright Blue (Folder)
+color_14: '#A9AAE9'    # Bright Magenta
+color_15: '#A4D7CC'    # Bright Cyan
+color_16: '#FBF2F3'    # Bright White
+
+background: '#3E3838'  # Background
+foreground: '#FBF2F3'  # Foreground (Text)
+
+cursor: '#FBF2F3'      # Cursor

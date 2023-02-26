@@ -1,0 +1,25 @@
+---
+name: 'Papercolor Light'
+
+color_01: '#EEEEEE'    # Black (Host)
+color_02: '#AF0000'    # Red (Syntax string)
+color_03: '#008700'    # Green (Command)
+color_04: '#5F8700'    # Yellow (Command second)
+color_05: '#0087AF'    # Blue (Path)
+color_06: '#878787'    # Magenta (Syntax var)
+color_07: '#005F87'    # Cyan (Prompt)
+color_08: '#444444'    # White
+
+color_09: '#BCBCBC'    # Bright Black
+color_10: '#D70000'    # Bright Red (Command error)
+color_11: '#D70087'    # Bright Green (Exec)
+color_12: '#8700AF'    # Bright Yellow
+color_13: '#D75F00'    # Bright Blue (Folder)
+color_14: '#D75F00'    # Bright Magenta
+color_15: '#005FAF'    # Bright Cyan
+color_16: '#005F87'    # Bright White
+
+background: '#EEEEEE'  # Background
+foreground: '#444444'  # Foreground (Text)
+
+cursor: '#444444'      # Cursor

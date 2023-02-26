@@ -1,0 +1,25 @@
+---
+name: 'Shaman'
+
+color_01: '#012026'    # Black (Host)
+color_02: '#B2302D'    # Red (Syntax string)
+color_03: '#00A941'    # Green (Command)
+color_04: '#5E8BAA'    # Yellow (Command second)
+color_05: '#449A86'    # Blue (Path)
+color_06: '#00599D'    # Magenta (Syntax var)
+color_07: '#5D7E19'    # Cyan (Prompt)
+color_08: '#405555'    # White
+
+color_09: '#384451'    # Bright Black
+color_10: '#FF4242'    # Bright Red (Command error)
+color_11: '#2AEA5E'    # Bright Green (Exec)
+color_12: '#8ED4FD'    # Bright Yellow
+color_13: '#61D5BA'    # Bright Blue (Folder)
+color_14: '#1298FF'    # Bright Magenta
+color_15: '#98D028'    # Bright Cyan
+color_16: '#58FBD6'    # Bright White
+
+background: '#001015'  # Background
+foreground: '#405555'  # Foreground (Text)
+
+cursor: '#405555'      # Cursor

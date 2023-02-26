@@ -1,0 +1,25 @@
+---
+name: 'Desert'
+
+color_01: '#4D4D4D'    # Black (Host)
+color_02: '#FF2B2B'    # Red (Syntax string)
+color_03: '#98FB98'    # Green (Command)
+color_04: '#F0E68C'    # Yellow (Command second)
+color_05: '#CD853F'    # Blue (Path)
+color_06: '#FFDEAD'    # Magenta (Syntax var)
+color_07: '#FFA0A0'    # Cyan (Prompt)
+color_08: '#F5DEB3'    # White
+
+color_09: '#555555'    # Bright Black
+color_10: '#FF5555'    # Bright Red (Command error)
+color_11: '#55FF55'    # Bright Green (Exec)
+color_12: '#FFFF55'    # Bright Yellow
+color_13: '#87CEFF'    # Bright Blue (Folder)
+color_14: '#FF55FF'    # Bright Magenta
+color_15: '#FFD700'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#333333'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

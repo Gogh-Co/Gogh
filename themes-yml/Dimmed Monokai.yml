@@ -1,0 +1,25 @@
+---
+name: 'Dimmed Monokai'
+
+color_01: '#3A3D43'    # Black (Host)
+color_02: '#BE3F48'    # Red (Syntax string)
+color_03: '#879A3B'    # Green (Command)
+color_04: '#C5A635'    # Yellow (Command second)
+color_05: '#4F76A1'    # Blue (Path)
+color_06: '#855C8D'    # Magenta (Syntax var)
+color_07: '#578FA4'    # Cyan (Prompt)
+color_08: '#B9BCBA'    # White
+
+color_09: '#888987'    # Bright Black
+color_10: '#FB001F'    # Bright Red (Command error)
+color_11: '#0F722F'    # Bright Green (Exec)
+color_12: '#C47033'    # Bright Yellow
+color_13: '#186DE3'    # Bright Blue (Folder)
+color_14: '#FB0067'    # Bright Magenta
+color_15: '#2E706D'    # Bright Cyan
+color_16: '#FDFFB9'    # Bright White
+
+background: '#1F1F1F'  # Background
+foreground: '#B9BCBA'  # Foreground (Text)
+
+cursor: '#B9BCBA'      # Cursor

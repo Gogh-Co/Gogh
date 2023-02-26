@@ -1,0 +1,25 @@
+---
+name: 'Rosé Pine'
+
+color_01: '#26233A'    # Black (Host)
+color_02: '#EB6F92'    # Red (Syntax string)
+color_03: '#9CCFD8'    # Green (Command)
+color_04: '#F6C177'    # Yellow (Command second)
+color_05: '#31748F'    # Blue (Path)
+color_06: '#C4A7E7'    # Magenta (Syntax var)
+color_07: '#EBBCBA'    # Cyan (Prompt)
+color_08: '#E0DEF4'    # White
+
+color_09: '#6E6A86'    # Bright Black
+color_10: '#EB6F92'    # Bright Red (Command error)
+color_11: '#9CCFD8'    # Bright Green (Exec)
+color_12: '#F6C177'    # Bright Yellow
+color_13: '#31748F'    # Bright Blue (Folder)
+color_14: '#C4A7E7'    # Bright Magenta
+color_15: '#EBBCBA'    # Bright Cyan
+color_16: '#E0DEF4'    # Bright White
+
+background: '#191724'  # Background
+foreground: '#E0DEF4'  # Foreground (Text)
+
+cursor: '#E0DEF4'      # Cursor

@@ -1,0 +1,25 @@
+---
+name: 'Ayu Dark'
+
+color_01: '#0A0E14'    # Black (Host)
+color_02: '#FF3333'    # Red (Syntax string)
+color_03: '#C2D94C'    # Green (Command)
+color_04: '#FF8F40'    # Yellow (Command second)
+color_05: '#59C2FF'    # Blue (Path)
+color_06: '#FFEE99'    # Magenta (Syntax var)
+color_07: '#95E6CB'    # Cyan (Prompt)
+color_08: '#B3B1AD'    # White
+
+color_09: '#4D5566'    # Bright Black
+color_10: '#FF3333'    # Bright Red (Command error)
+color_11: '#C2D94C'    # Bright Green (Exec)
+color_12: '#FF8F40'    # Bright Yellow
+color_13: '#59C2FF'    # Bright Blue (Folder)
+color_14: '#FFEE99'    # Bright Magenta
+color_15: '#95E6CB'    # Bright Cyan
+color_16: '#B3B1AD'    # Bright White
+
+background: '#0A0E14'  # Background
+foreground: '#B3B1AD'  # Foreground (Text)
+
+cursor: '#E6B450'      # Cursor

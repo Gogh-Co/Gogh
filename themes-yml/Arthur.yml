@@ -1,0 +1,25 @@
+---
+name: 'Arthur'
+
+color_01: '#3D352A'    # Black (Host)
+color_02: '#CD5C5C'    # Red (Syntax string)
+color_03: '#86AF80'    # Green (Command)
+color_04: '#E8AE5B'    # Yellow (Command second)
+color_05: '#6495ED'    # Blue (Path)
+color_06: '#DEB887'    # Magenta (Syntax var)
+color_07: '#B0C4DE'    # Cyan (Prompt)
+color_08: '#BBAA99'    # White
+
+color_09: '#554444'    # Bright Black
+color_10: '#CC5533'    # Bright Red (Command error)
+color_11: '#88AA22'    # Bright Green (Exec)
+color_12: '#FFA75D'    # Bright Yellow
+color_13: '#87CEEB'    # Bright Blue (Folder)
+color_14: '#996600'    # Bright Magenta
+color_15: '#B0C4DE'    # Bright Cyan
+color_16: '#DDCCBB'    # Bright White
+
+background: '#1C1C1C'  # Background
+foreground: '#DDEEDD'  # Foreground (Text)
+
+cursor: '#DDEEDD'      # Cursor

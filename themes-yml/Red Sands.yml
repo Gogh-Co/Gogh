@@ -1,0 +1,25 @@
+---
+name: 'Red Sands'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#FF3F00'    # Red (Syntax string)
+color_03: '#00BB00'    # Green (Command)
+color_04: '#E7B000'    # Yellow (Command second)
+color_05: '#0072FF'    # Blue (Path)
+color_06: '#BB00BB'    # Magenta (Syntax var)
+color_07: '#00BBBB'    # Cyan (Prompt)
+color_08: '#BBBBBB'    # White
+
+color_09: '#555555'    # Bright Black
+color_10: '#BB0000'    # Bright Red (Command error)
+color_11: '#00BB00'    # Bright Green (Exec)
+color_12: '#E7B000'    # Bright Yellow
+color_13: '#0072AE'    # Bright Blue (Folder)
+color_14: '#FF55FF'    # Bright Magenta
+color_15: '#55FFFF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#7A251E'  # Background
+foreground: '#D7C9A7'  # Foreground (Text)
+
+cursor: '#D7C9A7'      # Cursor

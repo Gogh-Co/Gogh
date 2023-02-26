@@ -1,0 +1,25 @@
+---
+name: 'Wombat'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#FF615A'    # Red (Syntax string)
+color_03: '#B1E969'    # Green (Command)
+color_04: '#EBD99C'    # Yellow (Command second)
+color_05: '#5DA9F6'    # Blue (Path)
+color_06: '#E86AFF'    # Magenta (Syntax var)
+color_07: '#82FFF7'    # Cyan (Prompt)
+color_08: '#DEDACF'    # White
+
+color_09: '#313131'    # Bright Black
+color_10: '#F58C80'    # Bright Red (Command error)
+color_11: '#DDF88F'    # Bright Green (Exec)
+color_12: '#EEE5B2'    # Bright Yellow
+color_13: '#A5C7FF'    # Bright Blue (Folder)
+color_14: '#DDAAFF'    # Bright Magenta
+color_15: '#B7FFF9'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#171717'  # Background
+foreground: '#DEDACF'  # Foreground (Text)
+
+cursor: '#DEDACF'      # Cursor

@@ -1,0 +1,25 @@
+---
+name: 'Nighty'
+
+color_01: '#373D48'    # Black (Host)
+color_02: '#9B3E46'    # Red (Syntax string)
+color_03: '#095B32'    # Green (Command)
+color_04: '#808020'    # Yellow (Command second)
+color_05: '#1D3E6F'    # Blue (Path)
+color_06: '#823065'    # Magenta (Syntax var)
+color_07: '#3A7458'    # Cyan (Prompt)
+color_08: '#828282'    # White
+
+color_09: '#5C6370'    # Bright Black
+color_10: '#D0555F'    # Bright Red (Command error)
+color_11: '#119955'    # Bright Green (Exec)
+color_12: '#DFE048'    # Bright Yellow
+color_13: '#4674B8'    # Bright Blue (Folder)
+color_14: '#ED86C9'    # Bright Magenta
+color_15: '#70D2A4'    # Bright Cyan
+color_16: '#DFDFDF'    # Bright White
+
+background: '#2F2F2F'  # Background
+foreground: '#DFDFDF'  # Foreground (Text)
+
+cursor: '#DFDFDF'      # Cursor

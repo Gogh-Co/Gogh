@@ -1,0 +1,25 @@
+---
+name: 'Neutron'
+
+color_01: '#23252B'    # Black (Host)
+color_02: '#B54036'    # Red (Syntax string)
+color_03: '#5AB977'    # Green (Command)
+color_04: '#DEB566'    # Yellow (Command second)
+color_05: '#6A7C93'    # Blue (Path)
+color_06: '#A4799D'    # Magenta (Syntax var)
+color_07: '#3F94A8'    # Cyan (Prompt)
+color_08: '#E6E8EF'    # White
+
+color_09: '#23252B'    # Bright Black
+color_10: '#B54036'    # Bright Red (Command error)
+color_11: '#5AB977'    # Bright Green (Exec)
+color_12: '#DEB566'    # Bright Yellow
+color_13: '#6A7C93'    # Bright Blue (Folder)
+color_14: '#A4799D'    # Bright Magenta
+color_15: '#3F94A8'    # Bright Cyan
+color_16: '#EBEDF2'    # Bright White
+
+background: '#1C1E22'  # Background
+foreground: '#E6E8EF'  # Foreground (Text)
+
+cursor: '#E6E8EF'      # Cursor

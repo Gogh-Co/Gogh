@@ -1,0 +1,25 @@
+---
+name: 'Hurtado'
+
+color_01: '#575757'    # Black (Host)
+color_02: '#FF1B00'    # Red (Syntax string)
+color_03: '#A5E055'    # Green (Command)
+color_04: '#FBE74A'    # Yellow (Command second)
+color_05: '#496487'    # Blue (Path)
+color_06: '#FD5FF1'    # Magenta (Syntax var)
+color_07: '#86E9FE'    # Cyan (Prompt)
+color_08: '#CBCCCB'    # White
+
+color_09: '#262626'    # Bright Black
+color_10: '#D51D00'    # Bright Red (Command error)
+color_11: '#A5DF55'    # Bright Green (Exec)
+color_12: '#FBE84A'    # Bright Yellow
+color_13: '#89BEFF'    # Bright Blue (Folder)
+color_14: '#C001C1'    # Bright Magenta
+color_15: '#86EAFE'    # Bright Cyan
+color_16: '#DBDBDB'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#DBDBDB'  # Foreground (Text)
+
+cursor: '#DBDBDB'      # Cursor

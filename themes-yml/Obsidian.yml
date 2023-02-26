@@ -1,0 +1,25 @@
+---
+name: 'Obsidian'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#A60001'    # Red (Syntax string)
+color_03: '#00BB00'    # Green (Command)
+color_04: '#FECD22'    # Yellow (Command second)
+color_05: '#3A9BDB'    # Blue (Path)
+color_06: '#BB00BB'    # Magenta (Syntax var)
+color_07: '#00BBBB'    # Cyan (Prompt)
+color_08: '#BBBBBB'    # White
+
+color_09: '#555555'    # Bright Black
+color_10: '#FF0003'    # Bright Red (Command error)
+color_11: '#93C863'    # Bright Green (Exec)
+color_12: '#FEF874'    # Bright Yellow
+color_13: '#A1D7FF'    # Bright Blue (Folder)
+color_14: '#FF55FF'    # Bright Magenta
+color_15: '#55FFFF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#283033'  # Background
+foreground: '#CDCDCD'  # Foreground (Text)
+
+cursor: '#CDCDCD'      # Cursor

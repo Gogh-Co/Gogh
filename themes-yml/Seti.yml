@@ -1,0 +1,25 @@
+---
+name: 'Seti'
+
+color_01: '#323232'    # Black (Host)
+color_02: '#C22832'    # Red (Syntax string)
+color_03: '#8EC43D'    # Green (Command)
+color_04: '#E0C64F'    # Yellow (Command second)
+color_05: '#43A5D5'    # Blue (Path)
+color_06: '#8B57B5'    # Magenta (Syntax var)
+color_07: '#8EC43D'    # Cyan (Prompt)
+color_08: '#EEEEEE'    # White
+
+color_09: '#323232'    # Bright Black
+color_10: '#C22832'    # Bright Red (Command error)
+color_11: '#8EC43D'    # Bright Green (Exec)
+color_12: '#E0C64F'    # Bright Yellow
+color_13: '#43A5D5'    # Bright Blue (Folder)
+color_14: '#8B57B5'    # Bright Magenta
+color_15: '#8EC43D'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#111213'  # Background
+foreground: '#CACECD'  # Foreground (Text)
+
+cursor: '#CACECD'      # Cursor

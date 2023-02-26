@@ -1,0 +1,25 @@
+---
+name: 'Kibble'
+
+color_01: '#4D4D4D'    # Black (Host)
+color_02: '#C70031'    # Red (Syntax string)
+color_03: '#29CF13'    # Green (Command)
+color_04: '#D8E30E'    # Yellow (Command second)
+color_05: '#3449D1'    # Blue (Path)
+color_06: '#8400FF'    # Magenta (Syntax var)
+color_07: '#0798AB'    # Cyan (Prompt)
+color_08: '#E2D1E3'    # White
+
+color_09: '#5A5A5A'    # Bright Black
+color_10: '#F01578'    # Bright Red (Command error)
+color_11: '#6CE05C'    # Bright Green (Exec)
+color_12: '#F3F79E'    # Bright Yellow
+color_13: '#97A4F7'    # Bright Blue (Folder)
+color_14: '#C495F0'    # Bright Magenta
+color_15: '#68F2E0'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#0E100A'  # Background
+foreground: '#F7F7F7'  # Foreground (Text)
+
+cursor: '#F7F7F7'      # Cursor

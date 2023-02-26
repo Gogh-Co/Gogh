@@ -1,0 +1,25 @@
+---
+name: 'Nep'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#DD6F00'    # Red (Syntax string)
+color_03: '#00DD6F'    # Green (Command)
+color_04: '#6FDD00'    # Yellow (Command second)
+color_05: '#6F00DD'    # Blue (Path)
+color_06: '#DD006F'    # Magenta (Syntax var)
+color_07: '#006FDD'    # Cyan (Prompt)
+color_08: '#F2F2F2'    # White
+
+color_09: '#7D7D7D'    # Bright Black
+color_10: '#FFB974'    # Bright Red (Command error)
+color_11: '#74FFB9'    # Bright Green (Exec)
+color_12: '#B9FF74'    # Bright Yellow
+color_13: '#B974FF'    # Bright Blue (Folder)
+color_14: '#FF74B9'    # Bright Magenta
+color_15: '#74B9FF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#758480'  # Background
+foreground: '#23476A'  # Foreground (Text)
+
+cursor: '#23476A'      # Cursor

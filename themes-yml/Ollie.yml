@@ -1,0 +1,25 @@
+---
+name: 'Ollie'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#AC2E31'    # Red (Syntax string)
+color_03: '#31AC61'    # Green (Command)
+color_04: '#AC4300'    # Yellow (Command second)
+color_05: '#2D57AC'    # Blue (Path)
+color_06: '#B08528'    # Magenta (Syntax var)
+color_07: '#1FA6AC'    # Cyan (Prompt)
+color_08: '#8A8EAC'    # White
+
+color_09: '#5B3725'    # Bright Black
+color_10: '#FF3D48'    # Bright Red (Command error)
+color_11: '#3BFF99'    # Bright Green (Exec)
+color_12: '#FF5E1E'    # Bright Yellow
+color_13: '#4488FF'    # Bright Blue (Folder)
+color_14: '#FFC21D'    # Bright Magenta
+color_15: '#1FFAFF'    # Bright Cyan
+color_16: '#5B6EA7'    # Bright White
+
+background: '#222125'  # Background
+foreground: '#8A8DAE'  # Foreground (Text)
+
+cursor: '#8A8DAE'      # Cursor

@@ -1,0 +1,25 @@
+---
+name: 'Morada'
+
+color_01: '#040404'    # Black (Host)
+color_02: '#0F49C4'    # Red (Syntax string)
+color_03: '#48B117'    # Green (Command)
+color_04: '#E87324'    # Yellow (Command second)
+color_05: '#BC0116'    # Blue (Path)
+color_06: '#665B93'    # Magenta (Syntax var)
+color_07: '#70A699'    # Cyan (Prompt)
+color_08: '#F5DCBE'    # White
+
+color_09: '#4F7CBF'    # Bright Black
+color_10: '#1C96C7'    # Bright Red (Command error)
+color_11: '#3BFF6F'    # Bright Green (Exec)
+color_12: '#EFC31C'    # Bright Yellow
+color_13: '#FB605B'    # Bright Blue (Folder)
+color_14: '#975B5A'    # Bright Magenta
+color_15: '#1EFF8E'    # Bright Cyan
+color_16: '#F6F5FB'    # Bright White
+
+background: '#211F46'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

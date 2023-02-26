@@ -1,0 +1,25 @@
+---
+name: 'Tomorrow'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#C82828'    # Red (Syntax string)
+color_03: '#718C00'    # Green (Command)
+color_04: '#EAB700'    # Yellow (Command second)
+color_05: '#4171AE'    # Blue (Path)
+color_06: '#8959A8'    # Magenta (Syntax var)
+color_07: '#3E999F'    # Cyan (Prompt)
+color_08: '#FFFEFE'    # White
+
+color_09: '#000000'    # Bright Black
+color_10: '#C82828'    # Bright Red (Command error)
+color_11: '#708B00'    # Bright Green (Exec)
+color_12: '#E9B600'    # Bright Yellow
+color_13: '#4170AE'    # Bright Blue (Folder)
+color_14: '#8958A7'    # Bright Magenta
+color_15: '#3D999F'    # Bright Cyan
+color_16: '#FFFEFE'    # Bright White
+
+background: '#FFFFFF'  # Background
+foreground: '#4D4D4C'  # Foreground (Text)
+
+cursor: '#4C4C4C'      # Cursor

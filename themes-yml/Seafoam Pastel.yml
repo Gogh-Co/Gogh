@@ -1,0 +1,25 @@
+---
+name: 'Seafoam Pastel'
+
+color_01: '#757575'    # Black (Host)
+color_02: '#825D4D'    # Red (Syntax string)
+color_03: '#728C62'    # Green (Command)
+color_04: '#ADA16D'    # Yellow (Command second)
+color_05: '#4D7B82'    # Blue (Path)
+color_06: '#8A7267'    # Magenta (Syntax var)
+color_07: '#729494'    # Cyan (Prompt)
+color_08: '#E0E0E0'    # White
+
+color_09: '#8A8A8A'    # Bright Black
+color_10: '#CF937A'    # Bright Red (Command error)
+color_11: '#98D9AA'    # Bright Green (Exec)
+color_12: '#FAE79D'    # Bright Yellow
+color_13: '#7AC3CF'    # Bright Blue (Folder)
+color_14: '#D6B2A1'    # Bright Magenta
+color_15: '#ADE0E0'    # Bright Cyan
+color_16: '#E0E0E0'    # Bright White
+
+background: '#243435'  # Background
+foreground: '#D4E7D4'  # Foreground (Text)
+
+cursor: '#D4E7D4'      # Cursor

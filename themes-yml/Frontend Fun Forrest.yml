@@ -1,0 +1,25 @@
+---
+name: 'Frontend Fun Forrest'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#D6262B'    # Red (Syntax string)
+color_03: '#919C00'    # Green (Command)
+color_04: '#BE8A13'    # Yellow (Command second)
+color_05: '#4699A3'    # Blue (Path)
+color_06: '#8D4331'    # Magenta (Syntax var)
+color_07: '#DA8213'    # Cyan (Prompt)
+color_08: '#DDC265'    # White
+
+color_09: '#7F6A55'    # Bright Black
+color_10: '#E55A1C'    # Bright Red (Command error)
+color_11: '#BFC65A'    # Bright Green (Exec)
+color_12: '#FFCB1B'    # Bright Yellow
+color_13: '#7CC9CF'    # Bright Blue (Folder)
+color_14: '#D26349'    # Bright Magenta
+color_15: '#E6A96B'    # Bright Cyan
+color_16: '#FFEAA3'    # Bright White
+
+background: '#251200'  # Background
+foreground: '#DEC165'  # Foreground (Text)
+
+cursor: '#DEC165'      # Cursor

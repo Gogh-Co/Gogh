@@ -1,0 +1,25 @@
+---
+name: 'Ocean Dark'
+
+color_01: '#4F4F4F'    # Black (Host)
+color_02: '#AF4B57'    # Red (Syntax string)
+color_03: '#AFD383'    # Green (Command)
+color_04: '#E5C079'    # Yellow (Command second)
+color_05: '#7D90A4'    # Blue (Path)
+color_06: '#A4799D'    # Magenta (Syntax var)
+color_07: '#85A6A5'    # Cyan (Prompt)
+color_08: '#EEEDEE'    # White
+
+color_09: '#7B7B7B'    # Bright Black
+color_10: '#AF4B57'    # Bright Red (Command error)
+color_11: '#CEFFAB'    # Bright Green (Exec)
+color_12: '#FFFECC'    # Bright Yellow
+color_13: '#B5DCFE'    # Bright Blue (Folder)
+color_14: '#FB9BFE'    # Bright Magenta
+color_15: '#DFDFFD'    # Bright Cyan
+color_16: '#FEFFFE'    # Bright White
+
+background: '#1C1F27'  # Background
+foreground: '#979CAC'  # Foreground (Text)
+
+cursor: '#979CAC'      # Cursor

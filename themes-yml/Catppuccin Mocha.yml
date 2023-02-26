@@ -1,0 +1,25 @@
+---
+name: 'Catppuccin Mocha'
+
+color_01: '#45475A'    # Black (Host)
+color_02: '#F38BA8'    # Red (Syntax string)
+color_03: '#A6E3A1'    # Green (Command)
+color_04: '#F9E2AF'    # Yellow (Command second)
+color_05: '#89B4FA'    # Blue (Path)
+color_06: '#F5C2E7'    # Magenta (Syntax var)
+color_07: '#94E2D5'    # Cyan (Prompt)
+color_08: '#BAC2DE'    # White
+
+color_09: '#585B70'    # Bright Black
+color_10: '#F38BA8'    # Bright Red (Command error)
+color_11: '#A6E3A1'    # Bright Green (Exec)
+color_12: '#F9E2AF'    # Bright Yellow
+color_13: '#89B4FA'    # Bright Blue (Folder)
+color_14: '#F5C2E7'    # Bright Magenta
+color_15: '#94E2D5'    # Bright Cyan
+color_16: '#A6ADC8'    # Bright White
+
+background: '#1E1E2E'  # Background
+foreground: '#CDD6F4'  # Foreground (Text)
+
+cursor: '#CDD6F4'      # Cursor

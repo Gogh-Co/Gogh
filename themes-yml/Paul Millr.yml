@@ -1,0 +1,25 @@
+---
+name: 'Paul Millr'
+
+color_01: '#2A2A2A'    # Black (Host)
+color_02: '#FF0000'    # Red (Syntax string)
+color_03: '#79FF0F'    # Green (Command)
+color_04: '#D3BF00'    # Yellow (Command second)
+color_05: '#396BD7'    # Blue (Path)
+color_06: '#B449BE'    # Magenta (Syntax var)
+color_07: '#66CCFF'    # Cyan (Prompt)
+color_08: '#BBBBBB'    # White
+
+color_09: '#666666'    # Bright Black
+color_10: '#FF0080'    # Bright Red (Command error)
+color_11: '#66FF66'    # Bright Green (Exec)
+color_12: '#F3D64E'    # Bright Yellow
+color_13: '#709AED'    # Bright Blue (Folder)
+color_14: '#DB67E6'    # Bright Magenta
+color_15: '#7ADFF2'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#F2F2F2'  # Foreground (Text)
+
+cursor: '#F2F2F2'      # Cursor

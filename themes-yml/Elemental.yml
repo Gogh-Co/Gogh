@@ -1,0 +1,25 @@
+---
+name: 'Elemental'
+
+color_01: '#3C3C30'    # Black (Host)
+color_02: '#98290F'    # Red (Syntax string)
+color_03: '#479A43'    # Green (Command)
+color_04: '#7F7111'    # Yellow (Command second)
+color_05: '#497F7D'    # Blue (Path)
+color_06: '#7F4E2F'    # Magenta (Syntax var)
+color_07: '#387F58'    # Cyan (Prompt)
+color_08: '#807974'    # White
+
+color_09: '#555445'    # Bright Black
+color_10: '#E0502A'    # Bright Red (Command error)
+color_11: '#61E070'    # Bright Green (Exec)
+color_12: '#D69927'    # Bright Yellow
+color_13: '#79D9D9'    # Bright Blue (Folder)
+color_14: '#CD7C54'    # Bright Magenta
+color_15: '#59D599'    # Bright Cyan
+color_16: '#FFF1E9'    # Bright White
+
+background: '#22211D'  # Background
+foreground: '#807A74'  # Foreground (Text)
+
+cursor: '#807A74'      # Cursor

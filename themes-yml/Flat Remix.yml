@@ -1,0 +1,25 @@
+---
+name: 'Flat Remix'
+
+color_01: '#1F2229'    # Black (Host)
+color_02: '#D41919'    # Red (Syntax string)
+color_03: '#5EBDAB'    # Green (Command)
+color_04: '#FEA44C'    # Yellow (Command second)
+color_05: '#367BF0'    # Blue (Path)
+color_06: '#BF2E5D'    # Magenta (Syntax var)
+color_07: '#49AEE6'    # Cyan (Prompt)
+color_08: '#E6E6E6'    # White
+
+color_09: '#8C42AB'    # Bright Black
+color_10: '#EC0101'    # Bright Red (Command error)
+color_11: '#47D4B9'    # Bright Green (Exec)
+color_12: '#FF8A18'    # Bright Yellow
+color_13: '#277FFF'    # Bright Blue (Folder)
+color_14: '#D71655'    # Bright Magenta
+color_15: '#05A1F7'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#272A34'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

@@ -1,0 +1,25 @@
+---
+name: 'Sundried'
+
+color_01: '#302B2A'    # Black (Host)
+color_02: '#A7463D'    # Red (Syntax string)
+color_03: '#587744'    # Green (Command)
+color_04: '#9D602A'    # Yellow (Command second)
+color_05: '#485B98'    # Blue (Path)
+color_06: '#864651'    # Magenta (Syntax var)
+color_07: '#9C814F'    # Cyan (Prompt)
+color_08: '#C9C9C9'    # White
+
+color_09: '#4D4E48'    # Bright Black
+color_10: '#AA000C'    # Bright Red (Command error)
+color_11: '#128C21'    # Bright Green (Exec)
+color_12: '#FC6A21'    # Bright Yellow
+color_13: '#7999F7'    # Bright Blue (Folder)
+color_14: '#FD8AA1'    # Bright Magenta
+color_15: '#FAD484'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#1A1818'  # Background
+foreground: '#C9C9C9'  # Foreground (Text)
+
+cursor: '#C9C9C9'      # Cursor
