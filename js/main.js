@@ -118,6 +118,7 @@ function sortColors (colors) {
  */
 
 var $getUrl = 'https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json';
+// var $getUrl = '../data/themes.json';
 
 const $app = {
   data () {
