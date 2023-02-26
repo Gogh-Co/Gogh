@@ -3,27 +3,27 @@
 export PROFILE_NAME="Pencil Dark"
 
 export COLOR_01="#212121"           # Black (Host)
-export COLOR_02="#c30771"           # Red (Syntax string)
-export COLOR_03="#10a778"           # Green (Command)
-export COLOR_04="#a89c14"           # Yellow (Command second)
-export COLOR_05="#008ec4"           # Blue (Path)
-export COLOR_06="#523c79"           # Magenta (Syntax var)
-export COLOR_07="#20a5ba"           # Cyan (Prompt)
-export COLOR_08="#d9d9d9"           # White
+export COLOR_02="#C30771"           # Red (Syntax string)
+export COLOR_03="#10A778"           # Green (Command)
+export COLOR_04="#A89C14"           # Yellow (Command second)
+export COLOR_05="#008EC4"           # Blue (Path)
+export COLOR_06="#523C79"           # Magenta (Syntax var)
+export COLOR_07="#20A5BA"           # Cyan (Prompt)
+export COLOR_08="#D9D9D9"           # White
 
 export COLOR_09="#424242"           # Bright Black
-export COLOR_10="#fb007a"           # Bright Red (Command error)
-export COLOR_11="#5fd7af"           # Bright Green (Exec)
-export COLOR_12="#f3e430"           # Bright Yellow
-export COLOR_13="#20bbfc"           # Bright Blue (Folder)
-export COLOR_14="#6855de"           # Bright Magenta
-export COLOR_15="#4fb8cc"           # Bright Cyan
-export COLOR_16="#f1f1f1"           # Bright White
+export COLOR_10="#FB007A"           # Bright Red (Command error)
+export COLOR_11="#5FD7AF"           # Bright Green (Exec)
+export COLOR_12="#F3E430"           # Bright Yellow
+export COLOR_13="#20BBFC"           # Bright Blue (Folder)
+export COLOR_14="#6855DE"           # Bright Magenta
+export COLOR_15="#4FB8CC"           # Bright Cyan
+export COLOR_16="#F1F1F1"           # Bright White
 
 export BACKGROUND_COLOR="#212121"   # Background
-export FOREGROUND_COLOR="#f1f1f1"   # Foreground (Text)
+export FOREGROUND_COLOR="#F1F1F1"   # Foreground (Text)
 
-export CURSOR_COLOR="#f1f1f1" # Cursor
+export CURSOR_COLOR="#F1F1F1" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

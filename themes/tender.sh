@@ -2,23 +2,23 @@
 
 export PROFILE_NAME="Tender"
 
-export COLOR_01="#1d1d1d"           # Black (Host)
-export COLOR_02="#c5152f"           # Red (Syntax string)
-export COLOR_03="#c9d05c"           # Green (Command)
-export COLOR_04="#ffc24b"           # Yellow (Command second)
-export COLOR_05="#b3deef"           # Blue (Path)
-export COLOR_06="#d3b987"           # Magenta (Syntax var)
-export COLOR_07="#73cef4"           # Cyan (Prompt)
-export COLOR_08="#eeeeee"           # White
+export COLOR_01="#1D1D1D"           # Black (Host)
+export COLOR_02="#C5152F"           # Red (Syntax string)
+export COLOR_03="#C9D05C"           # Green (Command)
+export COLOR_04="#FFC24B"           # Yellow (Command second)
+export COLOR_05="#B3DEEF"           # Blue (Path)
+export COLOR_06="#D3B987"           # Magenta (Syntax var)
+export COLOR_07="#73CEF4"           # Cyan (Prompt)
+export COLOR_08="#EEEEEE"           # White
 
 export COLOR_09="#323232"           # Bright Black
-export COLOR_10="#f43753"           # Bright Red (Command error)
-export COLOR_11="#d9e066"           # Bright Green (Exec)
-export COLOR_12="#facc72"           # Bright Yellow
-export COLOR_13="#c0eafb"           # Bright Blue (Folder)
-export COLOR_14="#efd093"           # Bright Magenta
-export COLOR_15="#a1d6ec"           # Bright Cyan
-export COLOR_16="#ffffff"           # Bright White
+export COLOR_10="#F43753"           # Bright Red (Command error)
+export COLOR_11="#D9E066"           # Bright Green (Exec)
+export COLOR_12="#FACC72"           # Bright Yellow
+export COLOR_13="#C0EAFB"           # Bright Blue (Folder)
+export COLOR_14="#EFD093"           # Bright Magenta
+export COLOR_15="#A1D6EC"           # Bright Cyan
+export COLOR_16="#FFFFFF"           # Bright White
 
 export BACKGROUND_COLOR="#282828"   # Background
 export FOREGROUND_COLOR="#EEEEEE"   # Foreground (Text)

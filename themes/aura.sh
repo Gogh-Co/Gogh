@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Aura"
 
-export COLOR_01="#110f18"           # Black (Host)
-export COLOR_02="#ff6767"           # Red (Syntax string)
-export COLOR_03="#61ffca"           # Green (Command)
-export COLOR_04="#ffca85"           # Yellow (Command second)
-export COLOR_05="#a277ff"           # Blue (Path)
-export COLOR_06="#a277ff"           # Magenta (Syntax var)
-export COLOR_07="#61ffca"           # Cyan (Prompt)
-export COLOR_08="#edecee"           # White
+export COLOR_01="#110F18"           # Black (Host)
+export COLOR_02="#FF6767"           # Red (Syntax string)
+export COLOR_03="#61FFCA"           # Green (Command)
+export COLOR_04="#FFCA85"           # Yellow (Command second)
+export COLOR_05="#A277FF"           # Blue (Path)
+export COLOR_06="#A277FF"           # Magenta (Syntax var)
+export COLOR_07="#61FFCA"           # Cyan (Prompt)
+export COLOR_08="#EDECEE"           # White
 
-export COLOR_09="#6d6d6d"           # Bright Black
-export COLOR_10="#ffca85"           # Bright Red (Command error)
-export COLOR_11="#a277ff"           # Bright Green (Exec)
-export COLOR_12="#ffca85"           # Bright Yellow
-export COLOR_13="#a277ff"           # Bright Blue (Folder)
-export COLOR_14="#a277ff"           # Bright Magenta
-export COLOR_15="#61ffca"           # Bright Cyan
-export COLOR_16="#edecee"           # Bright White
+export COLOR_09="#6D6D6D"           # Bright Black
+export COLOR_10="#FFCA85"           # Bright Red (Command error)
+export COLOR_11="#A277FF"           # Bright Green (Exec)
+export COLOR_12="#FFCA85"           # Bright Yellow
+export COLOR_13="#A277FF"           # Bright Blue (Folder)
+export COLOR_14="#A277FF"           # Bright Magenta
+export COLOR_15="#61FFCA"           # Bright Cyan
+export COLOR_16="#EDECEE"           # Bright White
 
 export BACKGROUND_COLOR="#15141B"   # Background
-export FOREGROUND_COLOR="#edecee"   # Foreground (Text)
+export FOREGROUND_COLOR="#EDECEE"   # Foreground (Text)
 
-export CURSOR_COLOR="#edecee" # Cursor
+export CURSOR_COLOR="#EDECEE" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

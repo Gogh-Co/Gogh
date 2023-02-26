@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Kibble"
 
-export COLOR_01="#4d4d4d"           # Black (Host)
-export COLOR_02="#c70031"           # Red (Syntax string)
-export COLOR_03="#29cf13"           # Green (Command)
-export COLOR_04="#d8e30e"           # Yellow (Command second)
-export COLOR_05="#3449d1"           # Blue (Path)
-export COLOR_06="#8400ff"           # Magenta (Syntax var)
-export COLOR_07="#0798ab"           # Cyan (Prompt)
-export COLOR_08="#e2d1e3"           # White
+export COLOR_01="#4D4D4D"           # Black (Host)
+export COLOR_02="#C70031"           # Red (Syntax string)
+export COLOR_03="#29CF13"           # Green (Command)
+export COLOR_04="#D8E30E"           # Yellow (Command second)
+export COLOR_05="#3449D1"           # Blue (Path)
+export COLOR_06="#8400FF"           # Magenta (Syntax var)
+export COLOR_07="#0798AB"           # Cyan (Prompt)
+export COLOR_08="#E2D1E3"           # White
 
-export COLOR_09="#5a5a5a"           # Bright Black
-export COLOR_10="#f01578"           # Bright Red (Command error)
-export COLOR_11="#6ce05c"           # Bright Green (Exec)
-export COLOR_12="#f3f79e"           # Bright Yellow
-export COLOR_13="#97a4f7"           # Bright Blue (Folder)
-export COLOR_14="#c495f0"           # Bright Magenta
-export COLOR_15="#68f2e0"           # Bright Cyan
-export COLOR_16="#ffffff"           # Bright White
+export COLOR_09="#5A5A5A"           # Bright Black
+export COLOR_10="#F01578"           # Bright Red (Command error)
+export COLOR_11="#6CE05C"           # Bright Green (Exec)
+export COLOR_12="#F3F79E"           # Bright Yellow
+export COLOR_13="#97A4F7"           # Bright Blue (Folder)
+export COLOR_14="#C495F0"           # Bright Magenta
+export COLOR_15="#68F2E0"           # Bright Cyan
+export COLOR_16="#FFFFFF"           # Bright White
 
-export BACKGROUND_COLOR="#0e100a"   # Background
-export FOREGROUND_COLOR="#f7f7f7"   # Foreground (Text)
+export BACKGROUND_COLOR="#0E100A"   # Background
+export FOREGROUND_COLOR="#F7F7F7"   # Foreground (Text)
 
-export CURSOR_COLOR="#f7f7f7" # Cursor
+export CURSOR_COLOR="#F7F7F7" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Dimmed Monokai"
 
-export COLOR_01="#3a3d43"           # Black (Host)
-export COLOR_02="#be3f48"           # Red (Syntax string)
-export COLOR_03="#879a3b"           # Green (Command)
-export COLOR_04="#c5a635"           # Yellow (Command second)
-export COLOR_05="#4f76a1"           # Blue (Path)
-export COLOR_06="#855c8d"           # Magenta (Syntax var)
-export COLOR_07="#578fa4"           # Cyan (Prompt)
-export COLOR_08="#b9bcba"           # White
+export COLOR_01="#3A3D43"           # Black (Host)
+export COLOR_02="#BE3F48"           # Red (Syntax string)
+export COLOR_03="#879A3B"           # Green (Command)
+export COLOR_04="#C5A635"           # Yellow (Command second)
+export COLOR_05="#4F76A1"           # Blue (Path)
+export COLOR_06="#855C8D"           # Magenta (Syntax var)
+export COLOR_07="#578FA4"           # Cyan (Prompt)
+export COLOR_08="#B9BCBA"           # White
 
 export COLOR_09="#888987"           # Bright Black
-export COLOR_10="#fb001f"           # Bright Red (Command error)
-export COLOR_11="#0f722f"           # Bright Green (Exec)
-export COLOR_12="#c47033"           # Bright Yellow
-export COLOR_13="#186de3"           # Bright Blue (Folder)
-export COLOR_14="#fb0067"           # Bright Magenta
-export COLOR_15="#2e706d"           # Bright Cyan
-export COLOR_16="#fdffb9"           # Bright White
+export COLOR_10="#FB001F"           # Bright Red (Command error)
+export COLOR_11="#0F722F"           # Bright Green (Exec)
+export COLOR_12="#C47033"           # Bright Yellow
+export COLOR_13="#186DE3"           # Bright Blue (Folder)
+export COLOR_14="#FB0067"           # Bright Magenta
+export COLOR_15="#2E706D"           # Bright Cyan
+export COLOR_16="#FDFFB9"           # Bright White
 
-export BACKGROUND_COLOR="#1f1f1f"   # Background
-export FOREGROUND_COLOR="#b9bcba"   # Foreground (Text)
+export BACKGROUND_COLOR="#1F1F1F"   # Background
+export FOREGROUND_COLOR="#B9BCBA"   # Foreground (Text)
 
-export CURSOR_COLOR="#b9bcba" # Cursor
+export CURSOR_COLOR="#B9BCBA" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

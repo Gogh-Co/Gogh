@@ -3,27 +3,27 @@
 export PROFILE_NAME="Alien Blood"
 
 export COLOR_01="#112616"           # Black (Host)
-export COLOR_02="#7f2b27"           # Red (Syntax string)
-export COLOR_03="#2f7e25"           # Green (Command)
-export COLOR_04="#717f24"           # Yellow (Command second)
-export COLOR_05="#2f6a7f"           # Blue (Path)
-export COLOR_06="#47587f"           # Magenta (Syntax var)
-export COLOR_07="#327f77"           # Cyan (Prompt)
-export COLOR_08="#647d75"           # White
+export COLOR_02="#7F2B27"           # Red (Syntax string)
+export COLOR_03="#2F7E25"           # Green (Command)
+export COLOR_04="#717F24"           # Yellow (Command second)
+export COLOR_05="#2F6A7F"           # Blue (Path)
+export COLOR_06="#47587F"           # Magenta (Syntax var)
+export COLOR_07="#327F77"           # Cyan (Prompt)
+export COLOR_08="#647D75"           # White
 
-export COLOR_09="#3c4812"           # Bright Black
-export COLOR_10="#e08009"           # Bright Red (Command error)
-export COLOR_11="#18e000"           # Bright Green (Exec)
-export COLOR_12="#bde000"           # Bright Yellow
-export COLOR_13="#00aae0"           # Bright Blue (Folder)
-export COLOR_14="#0058e0"           # Bright Magenta
-export COLOR_15="#00e0c4"           # Bright Cyan
-export COLOR_16="#73fa91"           # Bright White
+export COLOR_09="#3C4812"           # Bright Black
+export COLOR_10="#E08009"           # Bright Red (Command error)
+export COLOR_11="#18E000"           # Bright Green (Exec)
+export COLOR_12="#BDE000"           # Bright Yellow
+export COLOR_13="#00AAE0"           # Bright Blue (Folder)
+export COLOR_14="#0058E0"           # Bright Magenta
+export COLOR_15="#00E0C4"           # Bright Cyan
+export COLOR_16="#73FA91"           # Bright White
 
-export BACKGROUND_COLOR="#0f1610"   # Background
-export FOREGROUND_COLOR="#637d75"   # Foreground (Text)
+export BACKGROUND_COLOR="#0F1610"   # Background
+export FOREGROUND_COLOR="#637D75"   # Foreground (Text)
 
-export CURSOR_COLOR="#637d75" # Cursor
+export CURSOR_COLOR="#637D75" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

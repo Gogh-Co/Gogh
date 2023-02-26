@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Teerb"
 
-export COLOR_01="#1c1c1c"           # Black (Host)
-export COLOR_02="#d68686"           # Red (Syntax string)
-export COLOR_03="#aed686"           # Green (Command)
-export COLOR_04="#d7af87"           # Yellow (Command second)
-export COLOR_05="#86aed6"           # Blue (Path)
-export COLOR_06="#d6aed6"           # Magenta (Syntax var)
-export COLOR_07="#8adbb4"           # Cyan (Prompt)
-export COLOR_08="#d0d0d0"           # White
+export COLOR_01="#1C1C1C"           # Black (Host)
+export COLOR_02="#D68686"           # Red (Syntax string)
+export COLOR_03="#AED686"           # Green (Command)
+export COLOR_04="#D7AF87"           # Yellow (Command second)
+export COLOR_05="#86AED6"           # Blue (Path)
+export COLOR_06="#D6AED6"           # Magenta (Syntax var)
+export COLOR_07="#8ADBB4"           # Cyan (Prompt)
+export COLOR_08="#D0D0D0"           # White
 
-export COLOR_09="#1c1c1c"           # Bright Black
-export COLOR_10="#d68686"           # Bright Red (Command error)
-export COLOR_11="#aed686"           # Bright Green (Exec)
-export COLOR_12="#e4c9af"           # Bright Yellow
-export COLOR_13="#86aed6"           # Bright Blue (Folder)
-export COLOR_14="#d6aed6"           # Bright Magenta
-export COLOR_15="#b1e7dd"           # Bright Cyan
-export COLOR_16="#efefef"           # Bright White
+export COLOR_09="#1C1C1C"           # Bright Black
+export COLOR_10="#D68686"           # Bright Red (Command error)
+export COLOR_11="#AED686"           # Bright Green (Exec)
+export COLOR_12="#E4C9AF"           # Bright Yellow
+export COLOR_13="#86AED6"           # Bright Blue (Folder)
+export COLOR_14="#D6AED6"           # Bright Magenta
+export COLOR_15="#B1E7DD"           # Bright Cyan
+export COLOR_16="#EFEFEF"           # Bright White
 
 export BACKGROUND_COLOR="#262626"   # Background
-export FOREGROUND_COLOR="#d0d0d0"   # Foreground (Text)
+export FOREGROUND_COLOR="#D0D0D0"   # Foreground (Text)
 
-export CURSOR_COLOR="#d0d0d0" # Cursor
+export CURSOR_COLOR="#D0D0D0" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

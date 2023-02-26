@@ -3,27 +3,27 @@
 export PROFILE_NAME="Novel"
 
 export COLOR_01="#000000"           # Black (Host)
-export COLOR_02="#cc0000"           # Red (Syntax string)
+export COLOR_02="#CC0000"           # Red (Syntax string)
 export COLOR_03="#009600"           # Green (Command)
-export COLOR_04="#d06b00"           # Yellow (Command second)
-export COLOR_05="#0000cc"           # Blue (Path)
-export COLOR_06="#cc00cc"           # Magenta (Syntax var)
-export COLOR_07="#0087cc"           # Cyan (Prompt)
-export COLOR_08="#cccccc"           # White
+export COLOR_04="#D06B00"           # Yellow (Command second)
+export COLOR_05="#0000CC"           # Blue (Path)
+export COLOR_06="#CC00CC"           # Magenta (Syntax var)
+export COLOR_07="#0087CC"           # Cyan (Prompt)
+export COLOR_08="#CCCCCC"           # White
 
 export COLOR_09="#808080"           # Bright Black
-export COLOR_10="#cc0000"           # Bright Red (Command error)
+export COLOR_10="#CC0000"           # Bright Red (Command error)
 export COLOR_11="#009600"           # Bright Green (Exec)
-export COLOR_12="#d06b00"           # Bright Yellow
-export COLOR_13="#0000cc"           # Bright Blue (Folder)
-export COLOR_14="#cc00cc"           # Bright Magenta
-export COLOR_15="#0087cc"           # Bright Cyan
-export COLOR_16="#ffffff"           # Bright White
+export COLOR_12="#D06B00"           # Bright Yellow
+export COLOR_13="#0000CC"           # Bright Blue (Folder)
+export COLOR_14="#CC00CC"           # Bright Magenta
+export COLOR_15="#0087CC"           # Bright Cyan
+export COLOR_16="#FFFFFF"           # Bright White
 
-export BACKGROUND_COLOR="#dfdbc3"   # Background
-export FOREGROUND_COLOR="#3b2322"   # Foreground (Text)
+export BACKGROUND_COLOR="#DFDBC3"   # Background
+export FOREGROUND_COLOR="#3B2322"   # Foreground (Text)
 
-export CURSOR_COLOR="#3b2322" # Cursor
+export CURSOR_COLOR="#3B2322" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

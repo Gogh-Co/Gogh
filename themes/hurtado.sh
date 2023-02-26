@@ -3,27 +3,27 @@
 export PROFILE_NAME="Hurtado"
 
 export COLOR_01="#575757"           # Black (Host)
-export COLOR_02="#ff1b00"           # Red (Syntax string)
-export COLOR_03="#a5e055"           # Green (Command)
-export COLOR_04="#fbe74a"           # Yellow (Command second)
+export COLOR_02="#FF1B00"           # Red (Syntax string)
+export COLOR_03="#A5E055"           # Green (Command)
+export COLOR_04="#FBE74A"           # Yellow (Command second)
 export COLOR_05="#496487"           # Blue (Path)
-export COLOR_06="#fd5ff1"           # Magenta (Syntax var)
-export COLOR_07="#86e9fe"           # Cyan (Prompt)
-export COLOR_08="#cbcccb"           # White
+export COLOR_06="#FD5FF1"           # Magenta (Syntax var)
+export COLOR_07="#86E9FE"           # Cyan (Prompt)
+export COLOR_08="#CBCCCB"           # White
 
 export COLOR_09="#262626"           # Bright Black
-export COLOR_10="#d51d00"           # Bright Red (Command error)
-export COLOR_11="#a5df55"           # Bright Green (Exec)
-export COLOR_12="#fbe84a"           # Bright Yellow
-export COLOR_13="#89beff"           # Bright Blue (Folder)
-export COLOR_14="#c001c1"           # Bright Magenta
-export COLOR_15="#86eafe"           # Bright Cyan
-export COLOR_16="#dbdbdb"           # Bright White
+export COLOR_10="#D51D00"           # Bright Red (Command error)
+export COLOR_11="#A5DF55"           # Bright Green (Exec)
+export COLOR_12="#FBE84A"           # Bright Yellow
+export COLOR_13="#89BEFF"           # Bright Blue (Folder)
+export COLOR_14="#C001C1"           # Bright Magenta
+export COLOR_15="#86EAFE"           # Bright Cyan
+export COLOR_16="#DBDBDB"           # Bright White
 
 export BACKGROUND_COLOR="#000000"   # Background
-export FOREGROUND_COLOR="#dbdbdb"   # Foreground (Text)
+export FOREGROUND_COLOR="#DBDBDB"   # Foreground (Text)
 
-export CURSOR_COLOR="#dbdbdb" # Cursor
+export CURSOR_COLOR="#DBDBDB" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

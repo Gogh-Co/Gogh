@@ -3,27 +3,27 @@
 export PROFILE_NAME="Japanesque"
 
 export COLOR_01="#343935"           # Black (Host)
-export COLOR_02="#cf3f61"           # Red (Syntax string)
-export COLOR_03="#7bb75b"           # Green (Command)
-export COLOR_04="#e9b32a"           # Yellow (Command second)
-export COLOR_05="#4c9ad4"           # Blue (Path)
-export COLOR_06="#a57fc4"           # Magenta (Syntax var)
-export COLOR_07="#389aad"           # Cyan (Prompt)
-export COLOR_08="#fafaf6"           # White
+export COLOR_02="#CF3F61"           # Red (Syntax string)
+export COLOR_03="#7BB75B"           # Green (Command)
+export COLOR_04="#E9B32A"           # Yellow (Command second)
+export COLOR_05="#4C9AD4"           # Blue (Path)
+export COLOR_06="#A57FC4"           # Magenta (Syntax var)
+export COLOR_07="#389AAD"           # Cyan (Prompt)
+export COLOR_08="#FAFAF6"           # White
 
-export COLOR_09="#595b59"           # Bright Black
-export COLOR_10="#d18fa6"           # Bright Red (Command error)
-export COLOR_11="#767f2c"           # Bright Green (Exec)
-export COLOR_12="#78592f"           # Bright Yellow
+export COLOR_09="#595B59"           # Bright Black
+export COLOR_10="#D18FA6"           # Bright Red (Command error)
+export COLOR_11="#767F2C"           # Bright Green (Exec)
+export COLOR_12="#78592F"           # Bright Yellow
 export COLOR_13="#135979"           # Bright Blue (Folder)
 export COLOR_14="#604291"           # Bright Magenta
-export COLOR_15="#76bbca"           # Bright Cyan
-export COLOR_16="#b2b5ae"           # Bright White
+export COLOR_15="#76BBCA"           # Bright Cyan
+export COLOR_16="#B2B5AE"           # Bright White
 
-export BACKGROUND_COLOR="#1e1e1e"   # Background
-export FOREGROUND_COLOR="#f7f6ec"   # Foreground (Text)
+export BACKGROUND_COLOR="#1E1E1E"   # Background
+export FOREGROUND_COLOR="#F7F6EC"   # Foreground (Text)
 
-export CURSOR_COLOR="#f7f6ec" # Cursor
+export CURSOR_COLOR="#F7F6EC" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

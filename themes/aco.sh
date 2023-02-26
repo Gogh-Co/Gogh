@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Aco"
 
-export COLOR_01="#3f3f3f"           # Black (Host)
-export COLOR_02="#ff0883"           # Red (Syntax string)
-export COLOR_03="#83ff08"           # Green (Command)
-export COLOR_04="#ff8308"           # Yellow (Command second)
-export COLOR_05="#0883ff"           # Blue (Path)
-export COLOR_06="#8308ff"           # Magenta (Syntax var)
-export COLOR_07="#08ff83"           # Cyan (Prompt)
-export COLOR_08="#bebebe"           # White
+export COLOR_01="#3F3F3F"           # Black (Host)
+export COLOR_02="#FF0883"           # Red (Syntax string)
+export COLOR_03="#83FF08"           # Green (Command)
+export COLOR_04="#FF8308"           # Yellow (Command second)
+export COLOR_05="#0883FF"           # Blue (Path)
+export COLOR_06="#8308FF"           # Magenta (Syntax var)
+export COLOR_07="#08FF83"           # Cyan (Prompt)
+export COLOR_08="#BEBEBE"           # White
 
 export COLOR_09="#474747"           # Bright Black
-export COLOR_10="#ff1e8e"           # Bright Red (Command error)
-export COLOR_11="#8eff1e"           # Bright Green (Exec)
-export COLOR_12="#ff8e1e"           # Bright Yellow
-export COLOR_13="#1e8eff"           # Bright Blue (Folder)
-export COLOR_14="#8e1eff"           # Bright Magenta
-export COLOR_15="#1eff8e"           # Bright Cyan
-export COLOR_16="#c4c4c4"           # Bright White
+export COLOR_10="#FF1E8E"           # Bright Red (Command error)
+export COLOR_11="#8EFF1E"           # Bright Green (Exec)
+export COLOR_12="#FF8E1E"           # Bright Yellow
+export COLOR_13="#1E8EFF"           # Bright Blue (Folder)
+export COLOR_14="#8E1EFF"           # Bright Magenta
+export COLOR_15="#1EFF8E"           # Bright Cyan
+export COLOR_16="#C4C4C4"           # Bright White
 
-export BACKGROUND_COLOR="#1f1305"   # Background
-export FOREGROUND_COLOR="#b4e1fd"   # Foreground (Text)
+export BACKGROUND_COLOR="#1F1305"   # Background
+export FOREGROUND_COLOR="#B4E1FD"   # Foreground (Text)
 
-export CURSOR_COLOR="#b4e1fd" # Cursor
+export CURSOR_COLOR="#B4E1FD" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

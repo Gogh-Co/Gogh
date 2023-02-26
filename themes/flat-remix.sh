@@ -6,7 +6,7 @@ export COLOR_01="#1F2229"           # Black (Host)
 export COLOR_02="#D41919"           # Red (Syntax string)
 export COLOR_03="#5EBDAB"           # Green (Command)
 export COLOR_04="#FEA44C"           # Yellow (Command second)
-export COLOR_05="#367bf0"           # Blue (Path)
+export COLOR_05="#367BF0"           # Blue (Path)
 export COLOR_06="#BF2E5D"           # Magenta (Syntax var)
 export COLOR_07="#49AEE6"           # Cyan (Prompt)
 export COLOR_08="#E6E6E6"           # White
@@ -20,7 +20,7 @@ export COLOR_14="#D71655"           # Bright Magenta
 export COLOR_15="#05A1F7"           # Bright Cyan
 export COLOR_16="#FFFFFF"           # Bright White
 
-export BACKGROUND_COLOR="#272a34"   # Background
+export BACKGROUND_COLOR="#272A34"   # Background
 export FOREGROUND_COLOR="#FFFFFF"   # Foreground (Text)
 
 export CURSOR_COLOR="#FFFFFF" # Cursor

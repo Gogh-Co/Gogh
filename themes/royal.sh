@@ -2,23 +2,23 @@
 
 export PROFILE_NAME="Royal"
 
-export COLOR_01="#241f2b"           # Black (Host)
-export COLOR_02="#91284c"           # Red (Syntax string)
-export COLOR_03="#23801c"           # Green (Command)
-export COLOR_04="#b49d27"           # Yellow (Command second)
-export COLOR_05="#6580b0"           # Blue (Path)
-export COLOR_06="#674d96"           # Magenta (Syntax var)
-export COLOR_07="#8aaabe"           # Cyan (Prompt)
+export COLOR_01="#241F2B"           # Black (Host)
+export COLOR_02="#91284C"           # Red (Syntax string)
+export COLOR_03="#23801C"           # Green (Command)
+export COLOR_04="#B49D27"           # Yellow (Command second)
+export COLOR_05="#6580B0"           # Blue (Path)
+export COLOR_06="#674D96"           # Magenta (Syntax var)
+export COLOR_07="#8AAABE"           # Cyan (Prompt)
 export COLOR_08="#524966"           # White
 
-export COLOR_09="#312d3d"           # Bright Black
-export COLOR_10="#d5356c"           # Bright Red (Command error)
-export COLOR_11="#2cd946"           # Bright Green (Exec)
-export COLOR_12="#fde83b"           # Bright Yellow
-export COLOR_13="#90baf9"           # Bright Blue (Folder)
-export COLOR_14="#a479e3"           # Bright Magenta
-export COLOR_15="#acd4eb"           # Bright Cyan
-export COLOR_16="#9e8cbd"           # Bright White
+export COLOR_09="#312D3D"           # Bright Black
+export COLOR_10="#D5356C"           # Bright Red (Command error)
+export COLOR_11="#2CD946"           # Bright Green (Exec)
+export COLOR_12="#FDE83B"           # Bright Yellow
+export COLOR_13="#90BAF9"           # Bright Blue (Folder)
+export COLOR_14="#A479E3"           # Bright Magenta
+export COLOR_15="#ACD4EB"           # Bright Cyan
+export COLOR_16="#9E8CBD"           # Bright White
 
 export BACKGROUND_COLOR="#100815"   # Background
 export FOREGROUND_COLOR="#514968"   # Foreground (Text)

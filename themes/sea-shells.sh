@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Sea Shells"
 
-export COLOR_01="#17384c"           # Black (Host)
-export COLOR_02="#d15123"           # Red (Syntax string)
-export COLOR_03="#027c9b"           # Green (Command)
-export COLOR_04="#fca02f"           # Yellow (Command second)
-export COLOR_05="#1e4950"           # Blue (Path)
-export COLOR_06="#68d4f1"           # Magenta (Syntax var)
-export COLOR_07="#50a3b5"           # Cyan (Prompt)
-export COLOR_08="#deb88d"           # White
+export COLOR_01="#17384C"           # Black (Host)
+export COLOR_02="#D15123"           # Red (Syntax string)
+export COLOR_03="#027C9B"           # Green (Command)
+export COLOR_04="#FCA02F"           # Yellow (Command second)
+export COLOR_05="#1E4950"           # Blue (Path)
+export COLOR_06="#68D4F1"           # Magenta (Syntax var)
+export COLOR_07="#50A3B5"           # Cyan (Prompt)
+export COLOR_08="#DEB88D"           # White
 
-export COLOR_09="#434b53"           # Bright Black
-export COLOR_10="#d48678"           # Bright Red (Command error)
-export COLOR_11="#628d98"           # Bright Green (Exec)
-export COLOR_12="#fdd39f"           # Bright Yellow
-export COLOR_13="#1bbcdd"           # Bright Blue (Folder)
-export COLOR_14="#bbe3ee"           # Bright Magenta
-export COLOR_15="#87acb4"           # Bright Cyan
-export COLOR_16="#fee4ce"           # Bright White
+export COLOR_09="#434B53"           # Bright Black
+export COLOR_10="#D48678"           # Bright Red (Command error)
+export COLOR_11="#628D98"           # Bright Green (Exec)
+export COLOR_12="#FDD39F"           # Bright Yellow
+export COLOR_13="#1BBCDD"           # Bright Blue (Folder)
+export COLOR_14="#BBE3EE"           # Bright Magenta
+export COLOR_15="#87ACB4"           # Bright Cyan
+export COLOR_16="#FEE4CE"           # Bright White
 
-export BACKGROUND_COLOR="#09141b"   # Background
-export FOREGROUND_COLOR="#deb88d"   # Foreground (Text)
+export BACKGROUND_COLOR="#09141B"   # Background
+export FOREGROUND_COLOR="#DEB88D"   # Foreground (Text)
 
-export CURSOR_COLOR="#deb88d" # Cursor
+export CURSOR_COLOR="#DEB88D" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

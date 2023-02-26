@@ -2,25 +2,25 @@
 
 export PROFILE_NAME="Dracula"
 
-export COLOR_01="#44475a"           # Black (Host)
-export COLOR_02="#ff5555"           # Red (Syntax string)
-export COLOR_03="#50fa7b"           # Green (Command)
-export COLOR_04="#ffb86c"           # Yellow (Command second)
-export COLOR_05="#8be9fd"           # Blue (Path)
-export COLOR_06="#bd93f9"           # Magenta (Syntax var)
-export COLOR_07="#ff79c6"           # Cyan (Prompt)
+export COLOR_01="#44475A"           # Black (Host)
+export COLOR_02="#FF5555"           # Red (Syntax string)
+export COLOR_03="#50FA7B"           # Green (Command)
+export COLOR_04="#FFB86C"           # Yellow (Command second)
+export COLOR_05="#8BE9FD"           # Blue (Path)
+export COLOR_06="#BD93F9"           # Magenta (Syntax var)
+export COLOR_07="#FF79C6"           # Cyan (Prompt)
 export COLOR_08="#94A3A5"           # White
 
 export COLOR_09="#000000"           # Bright Black
-export COLOR_10="#ff5555"           # Bright Red (Command error)
-export COLOR_11="#50fa7b"           # Bright Green (Exec)
-export COLOR_12="#ffb86c"           # Bright Yellow
-export COLOR_13="#8be9fd"           # Bright Blue (Folder)
-export COLOR_14="#bd93f9"           # Bright Magenta
-export COLOR_15="#ff79c6"           # Bright Cyan
-export COLOR_16="#ffffff"           # Bright White
+export COLOR_10="#FF5555"           # Bright Red (Command error)
+export COLOR_11="#50FA7B"           # Bright Green (Exec)
+export COLOR_12="#FFB86C"           # Bright Yellow
+export COLOR_13="#8BE9FD"           # Bright Blue (Folder)
+export COLOR_14="#BD93F9"           # Bright Magenta
+export COLOR_15="#FF79C6"           # Bright Cyan
+export COLOR_16="#FFFFFF"           # Bright White
 
-export BACKGROUND_COLOR="#282a36"   # Background
+export BACKGROUND_COLOR="#282A36"   # Background
 export FOREGROUND_COLOR="#94A3A5"   # Foreground (Text)
 
 export CURSOR_COLOR="#94A3A5" # Cursor

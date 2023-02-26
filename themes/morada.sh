@@ -3,27 +3,27 @@
 export PROFILE_NAME="Morada"
 
 export COLOR_01="#040404"           # Black (Host)
-export COLOR_02="#0f49c4"           # Red (Syntax string)
-export COLOR_03="#48b117"           # Green (Command)
-export COLOR_04="#e87324"           # Yellow (Command second)
-export COLOR_05="#bc0116"           # Blue (Path)
-export COLOR_06="#665b93"           # Magenta (Syntax var)
-export COLOR_07="#70a699"           # Cyan (Prompt)
-export COLOR_08="#f5dcbe"           # White
+export COLOR_02="#0F49C4"           # Red (Syntax string)
+export COLOR_03="#48B117"           # Green (Command)
+export COLOR_04="#E87324"           # Yellow (Command second)
+export COLOR_05="#BC0116"           # Blue (Path)
+export COLOR_06="#665B93"           # Magenta (Syntax var)
+export COLOR_07="#70A699"           # Cyan (Prompt)
+export COLOR_08="#F5DCBE"           # White
 
-export COLOR_09="#4f7cbf"           # Bright Black
-export COLOR_10="#1c96c7"           # Bright Red (Command error)
-export COLOR_11="#3bff6f"           # Bright Green (Exec)
-export COLOR_12="#efc31c"           # Bright Yellow
-export COLOR_13="#fb605b"           # Bright Blue (Folder)
-export COLOR_14="#975b5a"           # Bright Magenta
-export COLOR_15="#1eff8e"           # Bright Cyan
-export COLOR_16="#f6f5fb"           # Bright White
+export COLOR_09="#4F7CBF"           # Bright Black
+export COLOR_10="#1C96C7"           # Bright Red (Command error)
+export COLOR_11="#3BFF6F"           # Bright Green (Exec)
+export COLOR_12="#EFC31C"           # Bright Yellow
+export COLOR_13="#FB605B"           # Bright Blue (Folder)
+export COLOR_14="#975B5A"           # Bright Magenta
+export COLOR_15="#1EFF8E"           # Bright Cyan
+export COLOR_16="#F6F5FB"           # Bright White
 
-export BACKGROUND_COLOR="#211f46"   # Background
-export FOREGROUND_COLOR="#ffffff"   # Foreground (Text)
+export BACKGROUND_COLOR="#211F46"   # Background
+export FOREGROUND_COLOR="#FFFFFF"   # Foreground (Text)
 
-export CURSOR_COLOR="#ffffff" # Cursor
+export CURSOR_COLOR="#FFFFFF" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

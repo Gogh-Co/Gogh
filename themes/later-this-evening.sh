@@ -2,23 +2,23 @@
 
 export PROFILE_NAME="Later This Evening"
 
-export COLOR_01="#2b2b2b"           # Black (Host)
-export COLOR_02="#d45a60"           # Red (Syntax string)
-export COLOR_03="#afba67"           # Green (Command)
-export COLOR_04="#e5d289"           # Yellow (Command second)
-export COLOR_05="#a0bad6"           # Blue (Path)
-export COLOR_06="#c092d6"           # Magenta (Syntax var)
-export COLOR_07="#91bfb7"           # Cyan (Prompt)
-export COLOR_08="#3c3d3d"           # White
+export COLOR_01="#2B2B2B"           # Black (Host)
+export COLOR_02="#D45A60"           # Red (Syntax string)
+export COLOR_03="#AFBA67"           # Green (Command)
+export COLOR_04="#E5D289"           # Yellow (Command second)
+export COLOR_05="#A0BAD6"           # Blue (Path)
+export COLOR_06="#C092D6"           # Magenta (Syntax var)
+export COLOR_07="#91BFB7"           # Cyan (Prompt)
+export COLOR_08="#3C3D3D"           # White
 
 export COLOR_09="#454747"           # Bright Black
-export COLOR_10="#d3232f"           # Bright Red (Command error)
-export COLOR_11="#aabb39"           # Bright Green (Exec)
-export COLOR_12="#e5be39"           # Bright Yellow
-export COLOR_13="#6699d6"           # Bright Blue (Folder)
-export COLOR_14="#ab53d6"           # Bright Magenta
-export COLOR_15="#5fc0ae"           # Bright Cyan
-export COLOR_16="#c1c2c2"           # Bright White
+export COLOR_10="#D3232F"           # Bright Red (Command error)
+export COLOR_11="#AABB39"           # Bright Green (Exec)
+export COLOR_12="#E5BE39"           # Bright Yellow
+export COLOR_13="#6699D6"           # Bright Blue (Folder)
+export COLOR_14="#AB53D6"           # Bright Magenta
+export COLOR_15="#5FC0AE"           # Bright Cyan
+export COLOR_16="#C1C2C2"           # Bright White
 
 export BACKGROUND_COLOR="#222222"   # Background
 export FOREGROUND_COLOR="#959595"   # Foreground (Text)

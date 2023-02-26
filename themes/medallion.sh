@@ -3,27 +3,27 @@
 export PROFILE_NAME="Medallion"
 
 export COLOR_01="#000000"           # Black (Host)
-export COLOR_02="#b64c00"           # Red (Syntax string)
-export COLOR_03="#7c8b16"           # Green (Command)
-export COLOR_04="#d3bd26"           # Yellow (Command second)
-export COLOR_05="#616bb0"           # Blue (Path)
-export COLOR_06="#8c5a90"           # Magenta (Syntax var)
-export COLOR_07="#916c25"           # Cyan (Prompt)
-export COLOR_08="#cac29a"           # White
+export COLOR_02="#B64C00"           # Red (Syntax string)
+export COLOR_03="#7C8B16"           # Green (Command)
+export COLOR_04="#D3BD26"           # Yellow (Command second)
+export COLOR_05="#616BB0"           # Blue (Path)
+export COLOR_06="#8C5A90"           # Magenta (Syntax var)
+export COLOR_07="#916C25"           # Cyan (Prompt)
+export COLOR_08="#CAC29A"           # White
 
-export COLOR_09="#5e5219"           # Bright Black
-export COLOR_10="#ff9149"           # Bright Red (Command error)
-export COLOR_11="#b2ca3b"           # Bright Green (Exec)
-export COLOR_12="#ffe54a"           # Bright Yellow
-export COLOR_13="#acb8ff"           # Bright Blue (Folder)
-export COLOR_14="#ffa0ff"           # Bright Magenta
-export COLOR_15="#ffbc51"           # Bright Cyan
-export COLOR_16="#fed698"           # Bright White
+export COLOR_09="#5E5219"           # Bright Black
+export COLOR_10="#FF9149"           # Bright Red (Command error)
+export COLOR_11="#B2CA3B"           # Bright Green (Exec)
+export COLOR_12="#FFE54A"           # Bright Yellow
+export COLOR_13="#ACB8FF"           # Bright Blue (Folder)
+export COLOR_14="#FFA0FF"           # Bright Magenta
+export COLOR_15="#FFBC51"           # Bright Cyan
+export COLOR_16="#FED698"           # Bright White
 
-export BACKGROUND_COLOR="#1d1908"   # Background
-export FOREGROUND_COLOR="#cac296"   # Foreground (Text)
+export BACKGROUND_COLOR="#1D1908"   # Background
+export FOREGROUND_COLOR="#CAC296"   # Foreground (Text)
 
-export CURSOR_COLOR="#cac296" # Cursor
+export CURSOR_COLOR="#CAC296" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

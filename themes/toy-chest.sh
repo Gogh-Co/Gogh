@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Toy Chest"
 
-export COLOR_01="#2c3f58"           # Black (Host)
-export COLOR_02="#be2d26"           # Red (Syntax string)
-export COLOR_03="#1a9172"           # Green (Command)
-export COLOR_04="#db8e27"           # Yellow (Command second)
-export COLOR_05="#325d96"           # Blue (Path)
-export COLOR_06="#8a5edc"           # Magenta (Syntax var)
-export COLOR_07="#35a08f"           # Cyan (Prompt)
-export COLOR_08="#23d183"           # White
+export COLOR_01="#2C3F58"           # Black (Host)
+export COLOR_02="#BE2D26"           # Red (Syntax string)
+export COLOR_03="#1A9172"           # Green (Command)
+export COLOR_04="#DB8E27"           # Yellow (Command second)
+export COLOR_05="#325D96"           # Blue (Path)
+export COLOR_06="#8A5EDC"           # Magenta (Syntax var)
+export COLOR_07="#35A08F"           # Cyan (Prompt)
+export COLOR_08="#23D183"           # White
 
 export COLOR_09="#336889"           # Bright Black
-export COLOR_10="#dd5944"           # Bright Red (Command error)
-export COLOR_11="#31d07b"           # Bright Green (Exec)
-export COLOR_12="#e7d84b"           # Bright Yellow
-export COLOR_13="#34a6da"           # Bright Blue (Folder)
-export COLOR_14="#ae6bdc"           # Bright Magenta
-export COLOR_15="#42c3ae"           # Bright Cyan
-export COLOR_16="#d5d5d5"           # Bright White
+export COLOR_10="#DD5944"           # Bright Red (Command error)
+export COLOR_11="#31D07B"           # Bright Green (Exec)
+export COLOR_12="#E7D84B"           # Bright Yellow
+export COLOR_13="#34A6DA"           # Bright Blue (Folder)
+export COLOR_14="#AE6BDC"           # Bright Magenta
+export COLOR_15="#42C3AE"           # Bright Cyan
+export COLOR_16="#D5D5D5"           # Bright White
 
-export BACKGROUND_COLOR="#24364b"   # Background
-export FOREGROUND_COLOR="#31d07b"   # Foreground (Text)
+export BACKGROUND_COLOR="#24364B"   # Background
+export FOREGROUND_COLOR="#31D07B"   # Foreground (Text)
 
-export CURSOR_COLOR="#31d07b" # Cursor
+export CURSOR_COLOR="#31D07B" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

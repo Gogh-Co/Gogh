@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Purple People Eater"
 
-export COLOR_01="#0d1117"           # Black (Host)
-export COLOR_02="#e34c26"           # Red (Syntax string)
+export COLOR_01="#0D1117"           # Black (Host)
+export COLOR_02="#E34C26"           # Red (Syntax string)
 export COLOR_03="#238636"           # Green (Command)
-export COLOR_04="#ed9a51"           # Yellow (Command second)
-export COLOR_05="#a5d6ff"           # Blue (Path)
-export COLOR_06="#6eb0e8"           # Magenta (Syntax var)
-export COLOR_07="#c09aeb"           # Cyan (Prompt)
-export COLOR_08="#c9d1d9"           # White
+export COLOR_04="#ED9A51"           # Yellow (Command second)
+export COLOR_05="#A5D6FF"           # Blue (Path)
+export COLOR_06="#6EB0E8"           # Magenta (Syntax var)
+export COLOR_07="#C09AEB"           # Cyan (Prompt)
+export COLOR_08="#C9D1D9"           # White
 
-export COLOR_09="#0d1117"           # Bright Black
-export COLOR_10="#ff7b72"           # Bright Red (Command error)
-export COLOR_11="#3bab4a"           # Bright Green (Exec)
-export COLOR_12="#ffa657"           # Bright Yellow
-export COLOR_13="#a5d6ff"           # Bright Blue (Folder)
-export COLOR_14="#79c0ff"           # Bright Magenta
-export COLOR_15="#b694df"           # Bright Cyan
-export COLOR_16="#c9d1d9"           # Bright White
+export COLOR_09="#0D1117"           # Bright Black
+export COLOR_10="#FF7B72"           # Bright Red (Command error)
+export COLOR_11="#3BAB4A"           # Bright Green (Exec)
+export COLOR_12="#FFA657"           # Bright Yellow
+export COLOR_13="#A5D6FF"           # Bright Blue (Folder)
+export COLOR_14="#79C0FF"           # Bright Magenta
+export COLOR_15="#B694DF"           # Bright Cyan
+export COLOR_16="#C9D1D9"           # Bright White
 
-export BACKGROUND_COLOR="#161b22"   # Background
-export FOREGROUND_COLOR="#c9d1d9"   # Foreground (Text)
+export BACKGROUND_COLOR="#161B22"   # Background
+export FOREGROUND_COLOR="#C9D1D9"   # Foreground (Text)
 
-export CURSOR_COLOR="#c9d1d9" # Cursor
+export CURSOR_COLOR="#C9D1D9" # Cursor
 
 # | ===========================================================================
 # | Apply Colors
