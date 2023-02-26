@@ -124,8 +124,12 @@
           font-size     : 16px;
           @include m360 {}
           @include m450 {}
-          @include m576 {}
-          @include m600 {}
+          @include m576 {
+            font-size     : 11px;
+          }
+          @include m600 {
+            font-size     : 12px;
+          }
           @include m768 {
             letter-spacing: 1px;
             font-size     : 12px;
@@ -133,12 +137,14 @@
           @include m900 {}
           @include m992 {
             letter-spacing: 1.5px;
-            font-size     : 15px;
+            font-size     : 13px;
           }
           @include m1200 {
-            font-size: 10px;
+            font-size: 12px;
           }
-          @include m1400 {}
+          @include m1400 {
+            font-size: 14px;
+          }
           @include m1800 {}
           @include m2200 {}
         }
@@ -161,7 +167,7 @@
   }
 }
 
-@keyframes "blink" {
+@keyframes blink {
   from,
   to {
     opacity: 0;

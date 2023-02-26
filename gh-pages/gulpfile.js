@@ -15,23 +15,23 @@ const htmlmin      = require('gulp-htmlmin');
 const inlinesource = require('gulp-inline-source');
 const rename       = require('gulp-rename');
 const browserSync  = require('browser-sync').create();
-const sass         = require('gulp-sass');
+const sass         = require('gulp-sass')(require('sass'));
 
 function sassCompile () {
-  return src('./gh-pages/sass/**/main.scss')
+  return src('./sass/**/main.scss')
     .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
     .pipe(rename('main.min.css'))
-    .pipe(dest('./gh-pages/css'));
+    .pipe(dest('./css'));
 }
 
 function minify () {
-  return src('./gh-pages/*.src.html')
+  return src('./*.src.html')
     .pipe(inlinesource())
     .pipe(htmlmin({
       collapseWhitespace: true
     }))
     .pipe(rename('index.html'))
-    .pipe(dest('./gh-pages/'));
+    .pipe(dest('./'));
 }
 
 function serve () {
@@ -53,9 +53,9 @@ function reload (done) {
 }
 
 function watchFiles () {
-  watch(['./gh-pages/**/*.html', '!./gh-pages/index.html'], series(sassCompile, minify, reload));
-  watch(['./gh-pages/js/**/*.js'], series(sassCompile, minify, reload));
-  watch(['./gh-pages/sass/**/*.scss'], series(sassCompile, minify, reload));
+  watch(['./**/*.html', '!./index.html'], series(sassCompile, minify, reload));
+  watch(['./js/**/*.js'], series(sassCompile, minify, reload));
+  watch(['./sass/**/*.scss'], series(sassCompile, minify, reload));
 }
 
 exports.default = parallel(serve, watchFiles);

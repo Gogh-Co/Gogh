@@ -187,57 +187,67 @@
                                             <span :style="'background-color: ' + theme.brightWhite"></span>
                                         </div>
 
-                                        <div class="body__txt">
-                                            <p :style="'color: ' + theme.black">
-                                                 &block;&block;&block; <span>*** AaBbMmYyZz 01 ---</span>  &block;&block;&block; <span> {{ theme.black.toLowerCase() }}</span>
-                                            </p>
-                                            <p :style="'color: ' + theme.red">
-                                                 &block;&block;&block; <span>*** AaBbMmYyZz 02 ---</span>  &block;&block;&block; <span> {{ theme.red.toLowerCase() }}</span>
-                                            </p>
-                                            <p :style="'color: ' + theme.green">
-                                                 &block;&block;&block; <span>*** AaBbMmYyZz 03 ---</span>  &block;&block;&block; <span> {{ theme.green.toLowerCase() }}</span>
-                                            </p>
-                                            <p :style="'color: ' + theme.yellow">
-                                                 &block;&block;&block; <span>*** AaBbMmYyZz 04 ---</span>  &block;&block;&block; <span> {{ theme.yellow.toLowerCase() }}</span>
-                                            </p>
-                                            <p :style="'color: ' + theme.blue">
-                                                 &block;&block;&block; <span>*** AaBbMmYyZz 05 ---</span>  &block;&block;&block; <span> {{ theme.blue.toLowerCase() }}</span>
-                                            </p>
-                                            <p :style="'color: ' + theme.purple">
-                                                 &block;&block;&block; <span>*** AaBbMmYyZz 06 ---</span>  &block;&block;&block; <span> {{ theme.purple.toLowerCase() }}</span>
-                                            </p>
-                                            <p :style="'color: ' + theme.cyan">
-                                                 &block;&block;&block; <span>*** AaBbMmYyZz 07 ---</span>  &block;&block;&block; <span> {{ theme.cyan.toLowerCase() }}</span>
-                                            </p>
-                                            <p :style="'color: ' + theme.white">
-                                                 &block;&block;&block; <span>*** AaBbMmYyZz 08 ---</span>  &block;&block;&block; <span> {{ theme.white.toLowerCase() }}</span>
-                                            </p>
-                                            <br>
-                                            <p :style="'color: ' + theme.brightBlack">
-                                                 &block;&block;&block; <span>*** AaBbMmYyZz 09 ---</span>  &block;&block;&block; <span> {{ theme.brightBlack.toLowerCase() }}</span>
-                                            </p>
-                                            <p :style="'color: ' + theme.brightRed">
-                                                 &block;&block;&block; <span>*** AaBbMmYyZz 10 ---</span>  &block;&block;&block; <span> {{ theme.brightRed.toLowerCase() }}</span>
-                                            </p>
-                                            <p :style="'color: ' + theme.brightGreen">
-                                                 &block;&block;&block; <span>*** AaBbMmYyZz 11 ---</span>  &block;&block;&block; <span> {{ theme.brightGreen.toLowerCase() }}</span>
-                                            </p>
-                                            <p :style="'color: ' + theme.brightYellow">
-                                                 &block;&block;&block; <span>*** AaBbMmYyZz 12 ---</span>  &block;&block;&block; <span> {{ theme.brightYellow.toLowerCase() }}</span>
-                                            </p>
-                                            <p :style="'color: ' + theme.brightBlue">
-                                                 &block;&block;&block; <span>*** AaBbMmYyZz 13 ---</span>  &block;&block;&block; <span> {{ theme.brightBlue.toLowerCase() }}</span>
-                                            </p>
-                                            <p :style="'color: ' + theme.brightPurple">
-                                                 &block;&block;&block; <span>*** AaBbMmYyZz 14 ---</span>  &block;&block;&block; <span> {{ theme.brightPurple.toLowerCase() }}</span>
-                                            </p>
-                                            <p :style="'color: ' + theme.brightCyan">
-                                                 &block;&block;&block; <span>*** AaBbMmYyZz 15 ---</span>  &block;&block;&block; <span> {{ theme.brightCyan.toLowerCase() }}</span>
-                                            </p>
-                                            <p :style="'color: ' + theme.brightWhite">
-                                                 &block;&block;&block; <span>*** AaBbMmYyZz 16 ---</span>  &block;&block;&block; <span> {{ theme.brightWhite.toLowerCase() }}</span>
-                                            </p>
+                                        <div class="row">
+                                            <div class="col-sm-6 col-md-12 col-lg-6 col-xl-6">
+                                                <div class="body__txt">
+                                                    <p :style="'color: ' + theme.black">
+                                                        <span> AaBbMmYyZz - {{ theme.black.toUpperCase() }}</span>
+                                                    </p>
+                                                    <p :style="'color: ' + theme.red">
+                                                        <span> AaBbMmYyZz - {{ theme.red.toUpperCase() }}</span>
+                                                    </p>
+                                                    <p :style="'color: ' + theme.green">
+                                                        <span> AaBbMmYyZz - {{ theme.green.toUpperCase() }}</span>
+                                                    </p>
+                                                    <p :style="'color: ' + theme.yellow">
+                                                        <span> AaBbMmYyZz - {{ theme.yellow.toUpperCase() }}</span>
+                                                    </p>
+                                                    <p :style="'color: ' + theme.blue">
+                                                        <span> AaBbMmYyZz - {{ theme.blue.toUpperCase() }}</span>
+                                                    </p>
+                                                    <p :style="'color: ' + theme.purple">
+                                                        <span> AaBbMmYyZz - {{ theme.purple.toUpperCase() }}</span>
+                                                    </p>
+                                                    <p :style="'color: ' + theme.cyan">
+                                                        <span> AaBbMmYyZz - {{ theme.cyan.toUpperCase() }}</span>
+                                                    </p>
+                                                    <p :style="'color: ' + theme.white">
+                                                        <span> AaBbMmYyZz - {{ theme.white.toUpperCase() }}</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 col-md-12 col-lg-6 col-xl-6">
+                                                <div class="body__txt">
+                                                    <p :style="'color: ' + theme.brightBlack">
+                                                        <span> AaBbMmYyZz - {{ theme.brightBlack.toUpperCase() }}</span>
+                                                    </p>
+                                                    <p :style="'color: ' + theme.brightRed">
+                                                        <span> AaBbMmYyZz - {{ theme.brightRed.toUpperCase() }}</span>
+                                                    </p>
+                                                    <p :style="'color: ' + theme.brightGreen">
+                                                        <span> AaBbMmYyZz - {{ theme.brightGreen.toUpperCase() }}</span>
+                                                    </p>
+                                                    <p :style="'color: ' + theme.brightYellow">
+                                                        <span> AaBbMmYyZz - {{ theme.brightYellow.toUpperCase() }}</span>
+                                                    </p>
+                                                    <p :style="'color: ' + theme.brightBlue">
+                                                        <span> AaBbMmYyZz - {{ theme.brightBlue.toUpperCase() }}</span>
+                                                    </p>
+                                                    <p :style="'color: ' + theme.brightPurple">
+                                                        <span> AaBbMmYyZz - {{ theme.brightPurple.toUpperCase() }}</span>
+                                                    </p>
+                                                    <p :style="'color: ' + theme.brightCyan">
+                                                        <span> AaBbMmYyZz - {{ theme.brightCyan.toUpperCase() }}</span>
+                                                    </p>
+                                                    <p :style="'color: ' + theme.brightWhite">
+                                                        <span> AaBbMmYyZz - {{ theme.brightWhite.toUpperCase() }}</span>
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
+
+
+
 
                                         <div class="cmd">
                                             <span class="cmd__ini" :style="'color: ' + theme.foreground">$ </span>
