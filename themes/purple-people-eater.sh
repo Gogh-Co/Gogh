@@ -1,39 +1,33 @@
 #!/usr/bin/env bash
 
-# ====================CONFIG THIS =============================== #
-export COLOR_01="#0d1117"           # Black
-export COLOR_02="#e34c26"           # Red
-export COLOR_03="#238636"           # Green
-export COLOR_04="#ed9a51"           # Yellow
-export COLOR_05="#a5d6ff"           # Blue
-export COLOR_06="#6eb0e8"           # Magenta
-export COLOR_07="#c09aeb"           # Cyan
-export COLOR_08="#c9d1d9"           # Light gray
-
-export COLOR_09="#0d1117"           # Dark gray
-export COLOR_10="#ff7b72"           # Light Red
-export COLOR_11="#3bab4a"           # Light Green
-export COLOR_12="#ffa657"           # Light Yellow
-export COLOR_13="#a5d6ff"           # Light Blue
-export COLOR_14="#79c0ff"           # Light Magenta
-export COLOR_15="#b694df"           # Light Cyan
-export COLOR_16="#c9d1d9"           # White
-
-export BACKGROUND_COLOR="#161b22"   # Background Color
-export FOREGROUND_COLOR="#c9d1d9"   # Foreground Color (text)
-export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor color
 export PROFILE_NAME="Purple People Eater"
-# =============================================================== #
 
+export COLOR_01="#0d1117"           # Black (Host)
+export COLOR_02="#e34c26"           # Red (Syntax string)
+export COLOR_03="#238636"           # Green (Command)
+export COLOR_04="#ed9a51"           # Yellow (Command second)
+export COLOR_05="#a5d6ff"           # Blue (Path)
+export COLOR_06="#6eb0e8"           # Magenta (Syntax var)
+export COLOR_07="#c09aeb"           # Cyan (Prompt)
+export COLOR_08="#c9d1d9"           # White
 
+export COLOR_09="#0d1117"           # Bright Black
+export COLOR_10="#ff7b72"           # Bright Red (Command error)
+export COLOR_11="#3bab4a"           # Bright Green (Exec)
+export COLOR_12="#ffa657"           # Bright Yellow
+export COLOR_13="#a5d6ff"           # Bright Blue (Folder)
+export COLOR_14="#79c0ff"           # Bright Magenta
+export COLOR_15="#b694df"           # Bright Cyan
+export COLOR_16="#c9d1d9"           # Bright White
 
+export BACKGROUND_COLOR="#161b22"   # Background
+export FOREGROUND_COLOR="#c9d1d9"   # Foreground (Text)
 
+export CURSOR_COLOR="#c9d1d9" # Cursor
 
-
-
-# =============================================================== #
+# | ===========================================================================
 # | Apply Colors
-# ===============================================================|#
+# | ===========================================================================
 SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
 PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 

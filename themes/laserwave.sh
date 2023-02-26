@@ -1,39 +1,33 @@
 #!/usr/bin/env bash
 
-# ====================CONFIG THIS =============================== #
-export COLOR_01="#39243A"           # Black
-export COLOR_02="#EB64B9"           # Red
-export COLOR_03="#AFD686"           # Green
-export COLOR_04="#FEAE87"           # Yellow
-export COLOR_05="#40B4C4"           # Blue
-export COLOR_06="#B381C5"           # Magenta
-export COLOR_07="#215969"           # Cyan
-export COLOR_08="#91889b"           # Light gray
+export PROFILE_NAME="Laserwave"
 
-export COLOR_09="#716485"           # Dark gray
-export COLOR_10="#FC2377"           # Light Red
-export COLOR_11="#50FA7B"           # Light Green
-export COLOR_12="#FFE261"           # Light Yellow
-export COLOR_13="#74DFC4"           # Light Blue
-export COLOR_14="#6D75E0"           # Light Magenta
-export COLOR_15="#B4DCE7"           # Light Cyan
-export COLOR_16="#FFFFFF"           # White
+export COLOR_01="#39243A"           # Black (Host)
+export COLOR_02="#EB64B9"           # Red (Syntax string)
+export COLOR_03="#AFD686"           # Green (Command)
+export COLOR_04="#FEAE87"           # Yellow (Command second)
+export COLOR_05="#40B4C4"           # Blue (Path)
+export COLOR_06="#B381C5"           # Magenta (Syntax var)
+export COLOR_07="#215969"           # Cyan (Prompt)
+export COLOR_08="#91889b"           # White
 
-export BACKGROUND_COLOR="#1F1926"   # Background Color
-export FOREGROUND_COLOR="#E0E0E0"   # Foreground Color (text)
-export CURSOR_COLOR="#C7C7C7"       # Cursor color
-export PROFILE_NAME="laserwave"
-# =============================================================== #
+export COLOR_09="#716485"           # Bright Black
+export COLOR_10="#FC2377"           # Bright Red (Command error)
+export COLOR_11="#50FA7B"           # Bright Green (Exec)
+export COLOR_12="#FFE261"           # Bright Yellow
+export COLOR_13="#74DFC4"           # Bright Blue (Folder)
+export COLOR_14="#6D75E0"           # Bright Magenta
+export COLOR_15="#B4DCE7"           # Bright Cyan
+export COLOR_16="#FFFFFF"           # Bright White
 
+export BACKGROUND_COLOR="#1F1926"   # Background
+export FOREGROUND_COLOR="#E0E0E0"   # Foreground (Text)
 
+export CURSOR_COLOR="#C7C7C7" # Cursor
 
-
-
-
-
-# =============================================================== #
+# | ===========================================================================
 # | Apply Colors
-# ===============================================================|#
+# | ===========================================================================
 SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
 PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 

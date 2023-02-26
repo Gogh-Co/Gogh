@@ -1,39 +1,33 @@
 #!/usr/bin/env bash
 
-# ====================CONFIG THIS =============================== #
-export COLOR_01="#1f1f1f"           # HOST
-export COLOR_02="#fb002a"           # SYNTAX_STRING
-export COLOR_03="#339c24"           # COMMAND
-export COLOR_04="#659b25"           # COMMAND_COLOR2
-export COLOR_05="#149b45"           # PATH
-export COLOR_06="#53b82c"           # SYNTAX_VAR
-export COLOR_07="#2cb868"           # PROMP
-export COLOR_08="#e0ffef"           #
+export PROFILE_NAME="Ic Green Ppl"
 
-export COLOR_09="#032710"           #
-export COLOR_10="#a7ff3f"           # COMMAND_ERROR
-export COLOR_11="#9fff6d"           # EXEC
-export COLOR_12="#d2ff6d"           #
-export COLOR_13="#72ffb5"           # FOLDER
-export COLOR_14="#50ff3e"           #
-export COLOR_15="#22ff71"           #
-export COLOR_16="#daefd0"           #
+export COLOR_01="#1f1f1f"           # Black (Host)
+export COLOR_02="#fb002a"           # Red (Syntax string)
+export COLOR_03="#339c24"           # Green (Command)
+export COLOR_04="#659b25"           # Yellow (Command second)
+export COLOR_05="#149b45"           # Blue (Path)
+export COLOR_06="#53b82c"           # Magenta (Syntax var)
+export COLOR_07="#2cb868"           # Cyan (Prompt)
+export COLOR_08="#e0ffef"           # White
 
-export BACKGROUND_COLOR="#3a3d3f"   # Background Color
-export FOREGROUND_COLOR="#d9efd3"   # Text
-export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
-export PROFILE_NAME="IC Green PPL"
-# =============================================================== #
+export COLOR_09="#032710"           # Bright Black
+export COLOR_10="#a7ff3f"           # Bright Red (Command error)
+export COLOR_11="#9fff6d"           # Bright Green (Exec)
+export COLOR_12="#d2ff6d"           # Bright Yellow
+export COLOR_13="#72ffb5"           # Bright Blue (Folder)
+export COLOR_14="#50ff3e"           # Bright Magenta
+export COLOR_15="#22ff71"           # Bright Cyan
+export COLOR_16="#daefd0"           # Bright White
 
+export BACKGROUND_COLOR="#3a3d3f"   # Background
+export FOREGROUND_COLOR="#d9efd3"   # Foreground (Text)
 
+export CURSOR_COLOR="#d9efd3" # Cursor
 
-
-
-
-
-# =============================================================== #
+# | ===========================================================================
 # | Apply Colors
-# ===============================================================|#
+# | ===========================================================================
 SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
 PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 
