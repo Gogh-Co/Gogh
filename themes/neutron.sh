@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Neutron"
 
-export COLOR_01="#23252b"           # Black (Host)
-export COLOR_02="#b54036"           # Red (Syntax string)
-export COLOR_03="#5ab977"           # Green (Command)
-export COLOR_04="#deb566"           # Yellow (Command second)
-export COLOR_05="#6a7c93"           # Blue (Path)
-export COLOR_06="#a4799d"           # Magenta (Syntax var)
-export COLOR_07="#3f94a8"           # Cyan (Prompt)
-export COLOR_08="#e6e8ef"           # White
+export COLOR_01="#23252B"           # Black (Host)
+export COLOR_02="#B54036"           # Red (Syntax string)
+export COLOR_03="#5AB977"           # Green (Command)
+export COLOR_04="#DEB566"           # Yellow (Command second)
+export COLOR_05="#6A7C93"           # Blue (Path)
+export COLOR_06="#A4799D"           # Magenta (Syntax var)
+export COLOR_07="#3F94A8"           # Cyan (Prompt)
+export COLOR_08="#E6E8EF"           # White
 
-export COLOR_09="#23252b"           # Bright Black
-export COLOR_10="#b54036"           # Bright Red (Command error)
-export COLOR_11="#5ab977"           # Bright Green (Exec)
-export COLOR_12="#deb566"           # Bright Yellow
-export COLOR_13="#6a7c93"           # Bright Blue (Folder)
-export COLOR_14="#a4799d"           # Bright Magenta
-export COLOR_15="#3f94a8"           # Bright Cyan
-export COLOR_16="#ebedf2"           # Bright White
+export COLOR_09="#23252B"           # Bright Black
+export COLOR_10="#B54036"           # Bright Red (Command error)
+export COLOR_11="#5AB977"           # Bright Green (Exec)
+export COLOR_12="#DEB566"           # Bright Yellow
+export COLOR_13="#6A7C93"           # Bright Blue (Folder)
+export COLOR_14="#A4799D"           # Bright Magenta
+export COLOR_15="#3F94A8"           # Bright Cyan
+export COLOR_16="#EBEDF2"           # Bright White
 
-export BACKGROUND_COLOR="#1c1e22"   # Background
-export FOREGROUND_COLOR="#e6e8ef"   # Foreground (Text)
+export BACKGROUND_COLOR="#1C1E22"   # Background
+export FOREGROUND_COLOR="#E6E8EF"   # Foreground (Text)
 
-export CURSOR_COLOR="#e6e8ef" # Cursor
+export CURSOR_COLOR="#E6E8EF" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

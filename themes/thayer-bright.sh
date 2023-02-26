@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Thayer Bright"
 
-export COLOR_01="#1b1d1e"           # Black (Host)
-export COLOR_02="#f92672"           # Red (Syntax string)
-export COLOR_03="#4df840"           # Green (Command)
-export COLOR_04="#f4fd22"           # Yellow (Command second)
-export COLOR_05="#2757d6"           # Blue (Path)
-export COLOR_06="#8c54fe"           # Magenta (Syntax var)
-export COLOR_07="#38c8b5"           # Cyan (Prompt)
-export COLOR_08="#ccccc6"           # White
+export COLOR_01="#1B1D1E"           # Black (Host)
+export COLOR_02="#F92672"           # Red (Syntax string)
+export COLOR_03="#4DF840"           # Green (Command)
+export COLOR_04="#F4FD22"           # Yellow (Command second)
+export COLOR_05="#2757D6"           # Blue (Path)
+export COLOR_06="#8C54FE"           # Magenta (Syntax var)
+export COLOR_07="#38C8B5"           # Cyan (Prompt)
+export COLOR_08="#CCCCC6"           # White
 
 export COLOR_09="#505354"           # Bright Black
-export COLOR_10="#ff5995"           # Bright Red (Command error)
-export COLOR_11="#b6e354"           # Bright Green (Exec)
-export COLOR_12="#feed6c"           # Bright Yellow
-export COLOR_13="#3f78ff"           # Bright Blue (Folder)
-export COLOR_14="#9e6ffe"           # Bright Magenta
-export COLOR_15="#23cfd5"           # Bright Cyan
-export COLOR_16="#f8f8f2"           # Bright White
+export COLOR_10="#FF5995"           # Bright Red (Command error)
+export COLOR_11="#B6E354"           # Bright Green (Exec)
+export COLOR_12="#FEED6C"           # Bright Yellow
+export COLOR_13="#3F78FF"           # Bright Blue (Folder)
+export COLOR_14="#9E6FFE"           # Bright Magenta
+export COLOR_15="#23CFD5"           # Bright Cyan
+export COLOR_16="#F8F8F2"           # Bright White
 
-export BACKGROUND_COLOR="#1b1d1e"   # Background
-export FOREGROUND_COLOR="#f8f8f8"   # Foreground (Text)
+export BACKGROUND_COLOR="#1B1D1E"   # Background
+export FOREGROUND_COLOR="#F8F8F8"   # Foreground (Text)
 
-export CURSOR_COLOR="#f8f8f8" # Cursor
+export CURSOR_COLOR="#F8F8F8" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

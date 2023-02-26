@@ -3,27 +3,27 @@
 export PROFILE_NAME="Wez"
 
 export COLOR_01="#000000"           # Black (Host)
-export COLOR_02="#cc5555"           # Red (Syntax string)
-export COLOR_03="#55cc55"           # Green (Command)
-export COLOR_04="#cdcd55"           # Yellow (Command second)
-export COLOR_05="#5555cc"           # Blue (Path)
-export COLOR_06="#cc55cc"           # Magenta (Syntax var)
-export COLOR_07="#7acaca"           # Cyan (Prompt)
-export COLOR_08="#cccccc"           # White
+export COLOR_02="#CC5555"           # Red (Syntax string)
+export COLOR_03="#55CC55"           # Green (Command)
+export COLOR_04="#CDCD55"           # Yellow (Command second)
+export COLOR_05="#5555CC"           # Blue (Path)
+export COLOR_06="#CC55CC"           # Magenta (Syntax var)
+export COLOR_07="#7ACACA"           # Cyan (Prompt)
+export COLOR_08="#CCCCCC"           # White
 
 export COLOR_09="#555555"           # Bright Black
-export COLOR_10="#ff5555"           # Bright Red (Command error)
-export COLOR_11="#55ff55"           # Bright Green (Exec)
-export COLOR_12="#ffff55"           # Bright Yellow
-export COLOR_13="#5555ff"           # Bright Blue (Folder)
-export COLOR_14="#ff55ff"           # Bright Magenta
-export COLOR_15="#55ffff"           # Bright Cyan
-export COLOR_16="#ffffff"           # Bright White
+export COLOR_10="#FF5555"           # Bright Red (Command error)
+export COLOR_11="#55FF55"           # Bright Green (Exec)
+export COLOR_12="#FFFF55"           # Bright Yellow
+export COLOR_13="#5555FF"           # Bright Blue (Folder)
+export COLOR_14="#FF55FF"           # Bright Magenta
+export COLOR_15="#55FFFF"           # Bright Cyan
+export COLOR_16="#FFFFFF"           # Bright White
 
 export BACKGROUND_COLOR="#000000"   # Background
-export FOREGROUND_COLOR="#b3b3b3"   # Foreground (Text)
+export FOREGROUND_COLOR="#B3B3B3"   # Foreground (Text)
 
-export CURSOR_COLOR="#b3b3b3" # Cursor
+export CURSOR_COLOR="#B3B3B3" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

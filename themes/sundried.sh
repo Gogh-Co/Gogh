@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Sundried"
 
-export COLOR_01="#302b2a"           # Black (Host)
-export COLOR_02="#a7463d"           # Red (Syntax string)
+export COLOR_01="#302B2A"           # Black (Host)
+export COLOR_02="#A7463D"           # Red (Syntax string)
 export COLOR_03="#587744"           # Green (Command)
-export COLOR_04="#9d602a"           # Yellow (Command second)
-export COLOR_05="#485b98"           # Blue (Path)
+export COLOR_04="#9D602A"           # Yellow (Command second)
+export COLOR_05="#485B98"           # Blue (Path)
 export COLOR_06="#864651"           # Magenta (Syntax var)
-export COLOR_07="#9c814f"           # Cyan (Prompt)
-export COLOR_08="#c9c9c9"           # White
+export COLOR_07="#9C814F"           # Cyan (Prompt)
+export COLOR_08="#C9C9C9"           # White
 
-export COLOR_09="#4d4e48"           # Bright Black
-export COLOR_10="#aa000c"           # Bright Red (Command error)
-export COLOR_11="#128c21"           # Bright Green (Exec)
-export COLOR_12="#fc6a21"           # Bright Yellow
-export COLOR_13="#7999f7"           # Bright Blue (Folder)
-export COLOR_14="#fd8aa1"           # Bright Magenta
-export COLOR_15="#fad484"           # Bright Cyan
-export COLOR_16="#ffffff"           # Bright White
+export COLOR_09="#4D4E48"           # Bright Black
+export COLOR_10="#AA000C"           # Bright Red (Command error)
+export COLOR_11="#128C21"           # Bright Green (Exec)
+export COLOR_12="#FC6A21"           # Bright Yellow
+export COLOR_13="#7999F7"           # Bright Blue (Folder)
+export COLOR_14="#FD8AA1"           # Bright Magenta
+export COLOR_15="#FAD484"           # Bright Cyan
+export COLOR_16="#FFFFFF"           # Bright White
 
-export BACKGROUND_COLOR="#1a1818"   # Background
-export FOREGROUND_COLOR="#c9c9c9"   # Foreground (Text)
+export BACKGROUND_COLOR="#1A1818"   # Background
+export FOREGROUND_COLOR="#C9C9C9"   # Foreground (Text)
 
-export CURSOR_COLOR="#c9c9c9" # Cursor
+export CURSOR_COLOR="#C9C9C9" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

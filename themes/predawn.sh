@@ -3,22 +3,22 @@
 export PROFILE_NAME="Predawn"
 
 export COLOR_01="#F18260"           # Black (Host)
-export COLOR_02="#b51a20"           # Red (Syntax string)
-export COLOR_03="#a6cc75"           # Green (Command)
-export COLOR_04="#fed33a"           # Yellow (Command second)
-export COLOR_05="#81b2b1"           # Blue (Path)
-export COLOR_06="#eb6c4e"           # Magenta (Syntax var)
-export COLOR_07="#81b2b1"           # Cyan (Prompt)
-export COLOR_08="#eaeaea"           # White
+export COLOR_02="#B51A20"           # Red (Syntax string)
+export COLOR_03="#A6CC75"           # Green (Command)
+export COLOR_04="#FED33A"           # Yellow (Command second)
+export COLOR_05="#81B2B1"           # Blue (Path)
+export COLOR_06="#EB6C4E"           # Magenta (Syntax var)
+export COLOR_07="#81B2B1"           # Cyan (Prompt)
+export COLOR_08="#EAEAEA"           # White
 
 export COLOR_09="#666666"           # Bright Black
-export COLOR_10="#ff000b"           # Bright Red (Command error)
-export COLOR_11="#c4ee94"           # Bright Green (Exec)
-export COLOR_12="#e8e06d"           # Bright Yellow
-export COLOR_13="#a5ebea"           # Bright Blue (Folder)
-export COLOR_14="#ef8a50"           # Bright Magenta
-export COLOR_15="#a5ebea"           # Bright Cyan
-export COLOR_16="#ffffff"           # Bright White
+export COLOR_10="#FF000B"           # Bright Red (Command error)
+export COLOR_11="#C4EE94"           # Bright Green (Exec)
+export COLOR_12="#E8E06D"           # Bright Yellow
+export COLOR_13="#A5EBEA"           # Bright Blue (Folder)
+export COLOR_14="#EF8A50"           # Bright Magenta
+export COLOR_15="#A5EBEA"           # Bright Cyan
+export COLOR_16="#FFFFFF"           # Bright White
 
 export BACKGROUND_COLOR="#282828"   # Background
 export FOREGROUND_COLOR="#F1F1F1"   # Foreground (Text)

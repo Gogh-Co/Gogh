@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Bluloco Light"
 
-export COLOR_01="#d5d6dd"           # Black (Host)
-export COLOR_02="#d52753"           # Red (Syntax string)
-export COLOR_03="#23974a"           # Green (Command)
-export COLOR_04="#df631c"           # Yellow (Command second)
-export COLOR_05="#275fe4"           # Blue (Path)
-export COLOR_06="#823ff1"           # Magenta (Syntax var)
-export COLOR_07="#27618d"           # Cyan (Prompt)
+export COLOR_01="#D5D6DD"           # Black (Host)
+export COLOR_02="#D52753"           # Red (Syntax string)
+export COLOR_03="#23974A"           # Green (Command)
+export COLOR_04="#DF631C"           # Yellow (Command second)
+export COLOR_05="#275FE4"           # Blue (Path)
+export COLOR_06="#823FF1"           # Magenta (Syntax var)
+export COLOR_07="#27618D"           # Cyan (Prompt)
 export COLOR_08="#000000"           # White
 
-export COLOR_09="#e4e5ed"           # Bright Black
-export COLOR_10="#ff6480"           # Bright Red (Command error)
-export COLOR_11="#3cbc66"           # Bright Green (Exec)
-export COLOR_12="#c5a332"           # Bright Yellow
-export COLOR_13="#0099e1"           # Bright Blue (Folder)
-export COLOR_14="#ce33c0"           # Bright Magenta
-export COLOR_15="#6d93bb"           # Bright Cyan
-export COLOR_16="#26272d"           # Bright White
+export COLOR_09="#E4E5ED"           # Bright Black
+export COLOR_10="#FF6480"           # Bright Red (Command error)
+export COLOR_11="#3CBC66"           # Bright Green (Exec)
+export COLOR_12="#C5A332"           # Bright Yellow
+export COLOR_13="#0099E1"           # Bright Blue (Folder)
+export COLOR_14="#CE33C0"           # Bright Magenta
+export COLOR_15="#6D93BB"           # Bright Cyan
+export COLOR_16="#26272D"           # Bright White
 
-export BACKGROUND_COLOR="#f9f9f9"   # Background
-export FOREGROUND_COLOR="#383a42"   # Foreground (Text)
+export BACKGROUND_COLOR="#F9F9F9"   # Background
+export FOREGROUND_COLOR="#383A42"   # Foreground (Text)
 
-export CURSOR_COLOR="#383a42" # Cursor
+export CURSOR_COLOR="#383A42" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

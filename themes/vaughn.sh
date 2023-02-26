@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Vaughn"
 
-export COLOR_01="#25234f"           # Black (Host)
+export COLOR_01="#25234F"           # Black (Host)
 export COLOR_02="#705050"           # Red (Syntax string)
-export COLOR_03="#60b48a"           # Green (Command)
-export COLOR_04="#dfaf8f"           # Yellow (Command second)
-export COLOR_05="#5555ff"           # Blue (Path)
-export COLOR_06="#f08cc3"           # Magenta (Syntax var)
-export COLOR_07="#8cd0d3"           # Cyan (Prompt)
+export COLOR_03="#60B48A"           # Green (Command)
+export COLOR_04="#DFAF8F"           # Yellow (Command second)
+export COLOR_05="#5555FF"           # Blue (Path)
+export COLOR_06="#F08CC3"           # Magenta (Syntax var)
+export COLOR_07="#8CD0D3"           # Cyan (Prompt)
 export COLOR_08="#709080"           # White
 
 export COLOR_09="#709080"           # Bright Black
-export COLOR_10="#dca3a3"           # Bright Red (Command error)
-export COLOR_11="#60b48a"           # Bright Green (Exec)
-export COLOR_12="#f0dfaf"           # Bright Yellow
-export COLOR_13="#5555ff"           # Bright Blue (Folder)
-export COLOR_14="#ec93d3"           # Bright Magenta
-export COLOR_15="#93e0e3"           # Bright Cyan
-export COLOR_16="#ffffff"           # Bright White
+export COLOR_10="#DCA3A3"           # Bright Red (Command error)
+export COLOR_11="#60B48A"           # Bright Green (Exec)
+export COLOR_12="#F0DFAF"           # Bright Yellow
+export COLOR_13="#5555FF"           # Bright Blue (Folder)
+export COLOR_14="#EC93D3"           # Bright Magenta
+export COLOR_15="#93E0E3"           # Bright Cyan
+export COLOR_16="#FFFFFF"           # Bright White
 
-export BACKGROUND_COLOR="#25234f"   # Background
-export FOREGROUND_COLOR="#dcdccc"   # Foreground (Text)
+export BACKGROUND_COLOR="#25234F"   # Background
+export FOREGROUND_COLOR="#DCDCCC"   # Foreground (Text)
 
-export CURSOR_COLOR="#dcdccc" # Cursor
+export CURSOR_COLOR="#DCDCCC" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

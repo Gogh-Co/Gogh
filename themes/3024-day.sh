@@ -3,27 +3,27 @@
 export PROFILE_NAME="3024 Day"
 
 export COLOR_01="#090300"           # Black (Host)
-export COLOR_02="#db2d20"           # Red (Syntax string)
-export COLOR_03="#01a252"           # Green (Command)
-export COLOR_04="#fded02"           # Yellow (Command second)
-export COLOR_05="#01a0e4"           # Blue (Path)
-export COLOR_06="#a16a94"           # Magenta (Syntax var)
-export COLOR_07="#b5e4f4"           # Cyan (Prompt)
-export COLOR_08="#a5a2a2"           # White
+export COLOR_02="#DB2D20"           # Red (Syntax string)
+export COLOR_03="#01A252"           # Green (Command)
+export COLOR_04="#FDED02"           # Yellow (Command second)
+export COLOR_05="#01A0E4"           # Blue (Path)
+export COLOR_06="#A16A94"           # Magenta (Syntax var)
+export COLOR_07="#B5E4F4"           # Cyan (Prompt)
+export COLOR_08="#A5A2A2"           # White
 
-export COLOR_09="#5c5855"           # Bright Black
-export COLOR_10="#e8bbd0"           # Bright Red (Command error)
-export COLOR_11="#3a3432"           # Bright Green (Exec)
-export COLOR_12="#4a4543"           # Bright Yellow
-export COLOR_13="#807d7c"           # Bright Blue (Folder)
-export COLOR_14="#d6d5d4"           # Bright Magenta
-export COLOR_15="#cdab53"           # Bright Cyan
-export COLOR_16="#f7f7f7"           # Bright White
+export COLOR_09="#5C5855"           # Bright Black
+export COLOR_10="#E8BBD0"           # Bright Red (Command error)
+export COLOR_11="#3A3432"           # Bright Green (Exec)
+export COLOR_12="#4A4543"           # Bright Yellow
+export COLOR_13="#807D7C"           # Bright Blue (Folder)
+export COLOR_14="#D6D5D4"           # Bright Magenta
+export COLOR_15="#CDAB53"           # Bright Cyan
+export COLOR_16="#F7F7F7"           # Bright White
 
-export BACKGROUND_COLOR="#f7f7f7"   # Background
-export FOREGROUND_COLOR="#4a4543"   # Foreground (Text)
+export BACKGROUND_COLOR="#F7F7F7"   # Background
+export FOREGROUND_COLOR="#4A4543"   # Foreground (Text)
 
-export CURSOR_COLOR="#4a4543" # Cursor
+export CURSOR_COLOR="#4A4543" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

@@ -4,26 +4,26 @@ export PROFILE_NAME="Homebrew"
 
 export COLOR_01="#000000"           # Black (Host)
 export COLOR_02="#990000"           # Red (Syntax string)
-export COLOR_03="#00a600"           # Green (Command)
+export COLOR_03="#00A600"           # Green (Command)
 export COLOR_04="#999900"           # Yellow (Command second)
-export COLOR_05="#0000b2"           # Blue (Path)
-export COLOR_06="#b200b2"           # Magenta (Syntax var)
-export COLOR_07="#00a6b2"           # Cyan (Prompt)
-export COLOR_08="#bfbfbf"           # White
+export COLOR_05="#0000B2"           # Blue (Path)
+export COLOR_06="#B200B2"           # Magenta (Syntax var)
+export COLOR_07="#00A6B2"           # Cyan (Prompt)
+export COLOR_08="#BFBFBF"           # White
 
 export COLOR_09="#666666"           # Bright Black
-export COLOR_10="#e50000"           # Bright Red (Command error)
-export COLOR_11="#00d900"           # Bright Green (Exec)
-export COLOR_12="#e5e500"           # Bright Yellow
-export COLOR_13="#0000ff"           # Bright Blue (Folder)
-export COLOR_14="#e500e5"           # Bright Magenta
-export COLOR_15="#00e5e5"           # Bright Cyan
-export COLOR_16="#e5e5e5"           # Bright White
+export COLOR_10="#E50000"           # Bright Red (Command error)
+export COLOR_11="#00D900"           # Bright Green (Exec)
+export COLOR_12="#E5E500"           # Bright Yellow
+export COLOR_13="#0000FF"           # Bright Blue (Folder)
+export COLOR_14="#E500E5"           # Bright Magenta
+export COLOR_15="#00E5E5"           # Bright Cyan
+export COLOR_16="#E5E5E5"           # Bright White
 
 export BACKGROUND_COLOR="#000000"   # Background
-export FOREGROUND_COLOR="#00ff00"   # Foreground (Text)
+export FOREGROUND_COLOR="#00FF00"   # Foreground (Text)
 
-export CURSOR_COLOR="#00ff00" # Cursor
+export CURSOR_COLOR="#00FF00" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

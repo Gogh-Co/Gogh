@@ -4,26 +4,26 @@ export PROFILE_NAME="C64"
 
 export COLOR_01="#090300"           # Black (Host)
 export COLOR_02="#883932"           # Red (Syntax string)
-export COLOR_03="#55a049"           # Green (Command)
-export COLOR_04="#bfce72"           # Yellow (Command second)
-export COLOR_05="#40318d"           # Blue (Path)
-export COLOR_06="#8b3f96"           # Magenta (Syntax var)
-export COLOR_07="#67b6bd"           # Cyan (Prompt)
-export COLOR_08="#ffffff"           # White
+export COLOR_03="#55A049"           # Green (Command)
+export COLOR_04="#BFCE72"           # Yellow (Command second)
+export COLOR_05="#40318D"           # Blue (Path)
+export COLOR_06="#8B3F96"           # Magenta (Syntax var)
+export COLOR_07="#67B6BD"           # Cyan (Prompt)
+export COLOR_08="#FFFFFF"           # White
 
 export COLOR_09="#000000"           # Bright Black
 export COLOR_10="#883932"           # Bright Red (Command error)
-export COLOR_11="#55a049"           # Bright Green (Exec)
-export COLOR_12="#bfce72"           # Bright Yellow
-export COLOR_13="#40318d"           # Bright Blue (Folder)
-export COLOR_14="#8b3f96"           # Bright Magenta
-export COLOR_15="#67b6bd"           # Bright Cyan
-export COLOR_16="#f7f7f7"           # Bright White
+export COLOR_11="#55A049"           # Bright Green (Exec)
+export COLOR_12="#BFCE72"           # Bright Yellow
+export COLOR_13="#40318D"           # Bright Blue (Folder)
+export COLOR_14="#8B3F96"           # Bright Magenta
+export COLOR_15="#67B6BD"           # Bright Cyan
+export COLOR_16="#F7F7F7"           # Bright White
 
-export BACKGROUND_COLOR="#40318d"   # Background
-export FOREGROUND_COLOR="#7869c4"   # Foreground (Text)
+export BACKGROUND_COLOR="#40318D"   # Background
+export FOREGROUND_COLOR="#7869C4"   # Foreground (Text)
 
-export CURSOR_COLOR="#7869c4" # Cursor
+export CURSOR_COLOR="#7869C4" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

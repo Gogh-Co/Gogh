@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Spacedust"
 
-export COLOR_01="#6e5346"           # Black (Host)
-export COLOR_02="#e35b00"           # Red (Syntax string)
-export COLOR_03="#5cab96"           # Green (Command)
-export COLOR_04="#e3cd7b"           # Yellow (Command second)
-export COLOR_05="#0f548b"           # Blue (Path)
-export COLOR_06="#e35b00"           # Magenta (Syntax var)
-export COLOR_07="#06afc7"           # Cyan (Prompt)
-export COLOR_08="#f0f1ce"           # White
+export COLOR_01="#6E5346"           # Black (Host)
+export COLOR_02="#E35B00"           # Red (Syntax string)
+export COLOR_03="#5CAB96"           # Green (Command)
+export COLOR_04="#E3CD7B"           # Yellow (Command second)
+export COLOR_05="#0F548B"           # Blue (Path)
+export COLOR_06="#E35B00"           # Magenta (Syntax var)
+export COLOR_07="#06AFC7"           # Cyan (Prompt)
+export COLOR_08="#F0F1CE"           # White
 
-export COLOR_09="#684c31"           # Bright Black
-export COLOR_10="#ff8a3a"           # Bright Red (Command error)
-export COLOR_11="#aecab8"           # Bright Green (Exec)
-export COLOR_12="#ffc878"           # Bright Yellow
-export COLOR_13="#67a0ce"           # Bright Blue (Folder)
-export COLOR_14="#ff8a3a"           # Bright Magenta
-export COLOR_15="#83a7b4"           # Bright Cyan
-export COLOR_16="#fefff1"           # Bright White
+export COLOR_09="#684C31"           # Bright Black
+export COLOR_10="#FF8A3A"           # Bright Red (Command error)
+export COLOR_11="#AECAB8"           # Bright Green (Exec)
+export COLOR_12="#FFC878"           # Bright Yellow
+export COLOR_13="#67A0CE"           # Bright Blue (Folder)
+export COLOR_14="#FF8A3A"           # Bright Magenta
+export COLOR_15="#83A7B4"           # Bright Cyan
+export COLOR_16="#FEFFF1"           # Bright White
 
-export BACKGROUND_COLOR="#0a1e24"   # Background
-export FOREGROUND_COLOR="#ecf0c1"   # Foreground (Text)
+export BACKGROUND_COLOR="#0A1E24"   # Background
+export FOREGROUND_COLOR="#ECF0C1"   # Foreground (Text)
 
-export CURSOR_COLOR="#ecf0c1" # Cursor
+export CURSOR_COLOR="#ECF0C1" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

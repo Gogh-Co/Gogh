@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Paraiso Dark"
 
-export COLOR_01="#2f1e2e"           # Black (Host)
-export COLOR_02="#ef6155"           # Red (Syntax string)
-export COLOR_03="#48b685"           # Green (Command)
-export COLOR_04="#fec418"           # Yellow (Command second)
-export COLOR_05="#06b6ef"           # Blue (Path)
-export COLOR_06="#815ba4"           # Magenta (Syntax var)
-export COLOR_07="#5bc4bf"           # Cyan (Prompt)
-export COLOR_08="#a39e9b"           # White
+export COLOR_01="#2F1E2E"           # Black (Host)
+export COLOR_02="#EF6155"           # Red (Syntax string)
+export COLOR_03="#48B685"           # Green (Command)
+export COLOR_04="#FEC418"           # Yellow (Command second)
+export COLOR_05="#06B6EF"           # Blue (Path)
+export COLOR_06="#815BA4"           # Magenta (Syntax var)
+export COLOR_07="#5BC4BF"           # Cyan (Prompt)
+export COLOR_08="#A39E9B"           # White
 
-export COLOR_09="#776e71"           # Bright Black
-export COLOR_10="#ef6155"           # Bright Red (Command error)
-export COLOR_11="#48b685"           # Bright Green (Exec)
-export COLOR_12="#fec418"           # Bright Yellow
-export COLOR_13="#06b6ef"           # Bright Blue (Folder)
-export COLOR_14="#815ba4"           # Bright Magenta
-export COLOR_15="#5bc4bf"           # Bright Cyan
-export COLOR_16="#e7e9db"           # Bright White
+export COLOR_09="#776E71"           # Bright Black
+export COLOR_10="#EF6155"           # Bright Red (Command error)
+export COLOR_11="#48B685"           # Bright Green (Exec)
+export COLOR_12="#FEC418"           # Bright Yellow
+export COLOR_13="#06B6EF"           # Bright Blue (Folder)
+export COLOR_14="#815BA4"           # Bright Magenta
+export COLOR_15="#5BC4BF"           # Bright Cyan
+export COLOR_16="#E7E9DB"           # Bright White
 
-export BACKGROUND_COLOR="#2f1e2e"   # Background
-export FOREGROUND_COLOR="#a39e9b"   # Foreground (Text)
+export BACKGROUND_COLOR="#2F1E2E"   # Background
+export FOREGROUND_COLOR="#A39E9B"   # Foreground (Text)
 
-export CURSOR_COLOR="#a39e9b" # Cursor
+export CURSOR_COLOR="#A39E9B" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

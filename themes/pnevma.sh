@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Pnevma"
 
-export COLOR_01="#2f2e2d"           # Black (Host)
-export COLOR_02="#a36666"           # Red (Syntax string)
-export COLOR_03="#90a57d"           # Green (Command)
-export COLOR_04="#d7af87"           # Yellow (Command second)
-export COLOR_05="#7fa5bd"           # Blue (Path)
-export COLOR_06="#c79ec4"           # Magenta (Syntax var)
-export COLOR_07="#8adbb4"           # Cyan (Prompt)
-export COLOR_08="#d0d0d0"           # White
+export COLOR_01="#2F2E2D"           # Black (Host)
+export COLOR_02="#A36666"           # Red (Syntax string)
+export COLOR_03="#90A57D"           # Green (Command)
+export COLOR_04="#D7AF87"           # Yellow (Command second)
+export COLOR_05="#7FA5BD"           # Blue (Path)
+export COLOR_06="#C79EC4"           # Magenta (Syntax var)
+export COLOR_07="#8ADBB4"           # Cyan (Prompt)
+export COLOR_08="#D0D0D0"           # White
 
-export COLOR_09="#4a4845"           # Bright Black
-export COLOR_10="#d78787"           # Bright Red (Command error)
-export COLOR_11="#afbea2"           # Bright Green (Exec)
-export COLOR_12="#e4c9af"           # Bright Yellow
-export COLOR_13="#a1bdce"           # Bright Blue (Folder)
-export COLOR_14="#d7beda"           # Bright Magenta
-export COLOR_15="#b1e7dd"           # Bright Cyan
-export COLOR_16="#efefef"           # Bright White
+export COLOR_09="#4A4845"           # Bright Black
+export COLOR_10="#D78787"           # Bright Red (Command error)
+export COLOR_11="#AFBEA2"           # Bright Green (Exec)
+export COLOR_12="#E4C9AF"           # Bright Yellow
+export COLOR_13="#A1BDCE"           # Bright Blue (Folder)
+export COLOR_14="#D7BEDA"           # Bright Magenta
+export COLOR_15="#B1E7DD"           # Bright Cyan
+export COLOR_16="#EFEFEF"           # Bright White
 
-export BACKGROUND_COLOR="#1c1c1c"   # Background
-export FOREGROUND_COLOR="#d0d0d0"   # Foreground (Text)
+export BACKGROUND_COLOR="#1C1C1C"   # Background
+export FOREGROUND_COLOR="#D0D0D0"   # Foreground (Text)
 
-export CURSOR_COLOR="#d0d0d0" # Cursor
+export CURSOR_COLOR="#D0D0D0" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

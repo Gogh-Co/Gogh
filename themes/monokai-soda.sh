@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Monokai Soda"
 
-export COLOR_01="#1a1a1a"           # Black (Host)
-export COLOR_02="#f4005f"           # Red (Syntax string)
-export COLOR_03="#98e024"           # Green (Command)
-export COLOR_04="#fa8419"           # Yellow (Command second)
-export COLOR_05="#9d65ff"           # Blue (Path)
-export COLOR_06="#f4005f"           # Magenta (Syntax var)
-export COLOR_07="#58d1eb"           # Cyan (Prompt)
-export COLOR_08="#c4c5b5"           # White
+export COLOR_01="#1A1A1A"           # Black (Host)
+export COLOR_02="#F4005F"           # Red (Syntax string)
+export COLOR_03="#98E024"           # Green (Command)
+export COLOR_04="#FA8419"           # Yellow (Command second)
+export COLOR_05="#9D65FF"           # Blue (Path)
+export COLOR_06="#F4005F"           # Magenta (Syntax var)
+export COLOR_07="#58D1EB"           # Cyan (Prompt)
+export COLOR_08="#C4C5B5"           # White
 
-export COLOR_09="#625e4c"           # Bright Black
-export COLOR_10="#f4005f"           # Bright Red (Command error)
-export COLOR_11="#98e024"           # Bright Green (Exec)
-export COLOR_12="#e0d561"           # Bright Yellow
-export COLOR_13="#9d65ff"           # Bright Blue (Folder)
-export COLOR_14="#f4005f"           # Bright Magenta
-export COLOR_15="#58d1eb"           # Bright Cyan
-export COLOR_16="#f6f6ef"           # Bright White
+export COLOR_09="#625E4C"           # Bright Black
+export COLOR_10="#F4005F"           # Bright Red (Command error)
+export COLOR_11="#98E024"           # Bright Green (Exec)
+export COLOR_12="#E0D561"           # Bright Yellow
+export COLOR_13="#9D65FF"           # Bright Blue (Folder)
+export COLOR_14="#F4005F"           # Bright Magenta
+export COLOR_15="#58D1EB"           # Bright Cyan
+export COLOR_16="#F6F6EF"           # Bright White
 
-export BACKGROUND_COLOR="#1a1a1a"   # Background
-export FOREGROUND_COLOR="#c4c5b5"   # Foreground (Text)
+export BACKGROUND_COLOR="#1A1A1A"   # Background
+export FOREGROUND_COLOR="#C4C5B5"   # Foreground (Text)
 
-export CURSOR_COLOR="#c4c5b5" # Cursor
+export CURSOR_COLOR="#C4C5B5" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

@@ -2,7 +2,7 @@
 
 export PROFILE_NAME="Molokai"
 
-export COLOR_01="#1b1d1e"           # Black (Host)
+export COLOR_01="#1B1D1E"           # Black (Host)
 export COLOR_02="#7325FA"           # Red (Syntax string)
 export COLOR_03="#23E298"           # Green (Command)
 export COLOR_04="#60D4DF"           # Yellow (Command second)
@@ -20,7 +20,7 @@ export COLOR_14="#FF87AF"           # Bright Magenta
 export COLOR_15="#FFCE51"           # Bright Cyan
 export COLOR_16="#FFFFFF"           # Bright White
 
-export BACKGROUND_COLOR="#1b1d1e"   # Background
+export BACKGROUND_COLOR="#1B1D1E"   # Background
 export FOREGROUND_COLOR="#BBBBBB"   # Foreground (Text)
 
 export CURSOR_COLOR="#BBBBBB" # Cursor

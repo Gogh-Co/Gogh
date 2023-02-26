@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Pali"
 
-export COLOR_01="#0a0a0a"           # Black (Host)
-export COLOR_02="#ab8f74"           # Red (Syntax string)
-export COLOR_03="#74ab8f"           # Green (Command)
-export COLOR_04="#8fab74"           # Yellow (Command second)
-export COLOR_05="#8f74ab"           # Blue (Path)
-export COLOR_06="#ab748f"           # Magenta (Syntax var)
-export COLOR_07="#748fab"           # Cyan (Prompt)
+export COLOR_01="#0A0A0A"           # Black (Host)
+export COLOR_02="#AB8F74"           # Red (Syntax string)
+export COLOR_03="#74AB8F"           # Green (Command)
+export COLOR_04="#8FAB74"           # Yellow (Command second)
+export COLOR_05="#8F74AB"           # Blue (Path)
+export COLOR_06="#AB748F"           # Magenta (Syntax var)
+export COLOR_07="#748FAB"           # Cyan (Prompt)
 export COLOR_08="#F2F2F2"           # White
 
 export COLOR_09="#5D5D5D"           # Bright Black
 export COLOR_10="#FF1D62"           # Bright Red (Command error)
-export COLOR_11="#9cc3af"           # Bright Green (Exec)
+export COLOR_11="#9CC3AF"           # Bright Green (Exec)
 export COLOR_12="#FFD00A"           # Bright Yellow
-export COLOR_13="#af9cc3"           # Bright Blue (Folder)
+export COLOR_13="#AF9CC3"           # Bright Blue (Folder)
 export COLOR_14="#FF1D62"           # Bright Magenta
 export COLOR_15="#4BB8FD"           # Bright Cyan
 export COLOR_16="#A020F0"           # Bright White
 
 export BACKGROUND_COLOR="#232E37"   # Background
-export FOREGROUND_COLOR="#d9e6f2"   # Foreground (Text)
+export FOREGROUND_COLOR="#D9E6F2"   # Foreground (Text)
 
-export CURSOR_COLOR="#d9e6f2" # Cursor
+export CURSOR_COLOR="#D9E6F2" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

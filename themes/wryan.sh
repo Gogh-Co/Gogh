@@ -3,22 +3,22 @@
 export PROFILE_NAME="Wryan"
 
 export COLOR_01="#333333"           # Black (Host)
-export COLOR_02="#8c4665"           # Red (Syntax string)
+export COLOR_02="#8C4665"           # Red (Syntax string)
 export COLOR_03="#287373"           # Green (Command)
-export COLOR_04="#7c7c99"           # Yellow (Command second)
+export COLOR_04="#7C7C99"           # Yellow (Command second)
 export COLOR_05="#395573"           # Blue (Path)
-export COLOR_06="#5e468c"           # Magenta (Syntax var)
-export COLOR_07="#31658c"           # Cyan (Prompt)
-export COLOR_08="#899ca1"           # White
+export COLOR_06="#5E468C"           # Magenta (Syntax var)
+export COLOR_07="#31658C"           # Cyan (Prompt)
+export COLOR_08="#899CA1"           # White
 
-export COLOR_09="#3d3d3d"           # Bright Black
-export COLOR_10="#bf4d80"           # Bright Red (Command error)
-export COLOR_11="#53a6a6"           # Bright Green (Exec)
-export COLOR_12="#9e9ecb"           # Bright Yellow
-export COLOR_13="#477ab3"           # Bright Blue (Folder)
-export COLOR_14="#7e62b3"           # Bright Magenta
-export COLOR_15="#6096bf"           # Bright Cyan
-export COLOR_16="#c0c0c0"           # Bright White
+export COLOR_09="#3D3D3D"           # Bright Black
+export COLOR_10="#BF4D80"           # Bright Red (Command error)
+export COLOR_11="#53A6A6"           # Bright Green (Exec)
+export COLOR_12="#9E9ECB"           # Bright Yellow
+export COLOR_13="#477AB3"           # Bright Blue (Folder)
+export COLOR_14="#7E62B3"           # Bright Magenta
+export COLOR_15="#6096BF"           # Bright Cyan
+export COLOR_16="#C0C0C0"           # Bright White
 
 export BACKGROUND_COLOR="#101010"   # Background
 export FOREGROUND_COLOR="#999993"   # Foreground (Text)

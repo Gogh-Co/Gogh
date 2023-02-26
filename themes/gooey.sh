@@ -11,14 +11,14 @@ export COLOR_06="#6488C4"           # Magenta (Syntax var)
 export COLOR_07="#8D84C6"           # Cyan (Prompt)
 export COLOR_08="#858893"           # White
 
-export COLOR_09="#1f222d"           # Bright Black
-export COLOR_10="#ee829f"           # Bright Red (Command error)
-export COLOR_11="#a5ffe1"           # Bright Green (Exec)
-export COLOR_12="#f99170"           # Bright Yellow
-export COLOR_13="#8be9fd"           # Bright Blue (Folder)
-export COLOR_14="#97bbf7"           # Bright Magenta
-export COLOR_15="#c0b7f9"           # Bright Cyan
-export COLOR_16="#ffffff"           # Bright White
+export COLOR_09="#1F222D"           # Bright Black
+export COLOR_10="#EE829F"           # Bright Red (Command error)
+export COLOR_11="#A5FFE1"           # Bright Green (Exec)
+export COLOR_12="#F99170"           # Bright Yellow
+export COLOR_13="#8BE9FD"           # Bright Blue (Folder)
+export COLOR_14="#97BBF7"           # Bright Magenta
+export COLOR_15="#C0B7F9"           # Bright Cyan
+export COLOR_16="#FFFFFF"           # Bright White
 
 export BACKGROUND_COLOR="#0D101B"   # Background
 export FOREGROUND_COLOR="#EBEEF9"   # Foreground (Text)

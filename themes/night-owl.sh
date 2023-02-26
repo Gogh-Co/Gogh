@@ -4,26 +4,26 @@ export PROFILE_NAME="Night Owl"
 
 export COLOR_01="#011627"           # Black (Host)
 export COLOR_02="#EF5350"           # Red (Syntax string)
-export COLOR_03="#22da6e"           # Green (Command)
-export COLOR_04="#addb67"           # Yellow (Command second)
-export COLOR_05="#82aaff"           # Blue (Path)
-export COLOR_06="#c792ea"           # Magenta (Syntax var)
-export COLOR_07="#21c7a8"           # Cyan (Prompt)
-export COLOR_08="#ffffff"           # White
+export COLOR_03="#22DA6E"           # Green (Command)
+export COLOR_04="#ADDB67"           # Yellow (Command second)
+export COLOR_05="#82AAFF"           # Blue (Path)
+export COLOR_06="#C792EA"           # Magenta (Syntax var)
+export COLOR_07="#21C7A8"           # Cyan (Prompt)
+export COLOR_08="#FFFFFF"           # White
 
 export COLOR_09="#575656"           # Bright Black
-export COLOR_10="#ef5350"           # Bright Red (Command error)
-export COLOR_11="#22da6e"           # Bright Green (Exec)
-export COLOR_12="#ffeb95"           # Bright Yellow
-export COLOR_13="#82aaff"           # Bright Blue (Folder)
-export COLOR_14="#c792ea"           # Bright Magenta
-export COLOR_15="#7fdbca"           # Bright Cyan
-export COLOR_16="#ffffff"           # Bright White
+export COLOR_10="#EF5350"           # Bright Red (Command error)
+export COLOR_11="#22DA6E"           # Bright Green (Exec)
+export COLOR_12="#FFEB95"           # Bright Yellow
+export COLOR_13="#82AAFF"           # Bright Blue (Folder)
+export COLOR_14="#C792EA"           # Bright Magenta
+export COLOR_15="#7FDBCA"           # Bright Cyan
+export COLOR_16="#FFFFFF"           # Bright White
 
 export BACKGROUND_COLOR="#011627"   # Background
-export FOREGROUND_COLOR="#d6deeb"   # Foreground (Text)
+export FOREGROUND_COLOR="#D6DEEB"   # Foreground (Text)
 
-export CURSOR_COLOR="#d6deeb" # Cursor
+export CURSOR_COLOR="#D6DEEB" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

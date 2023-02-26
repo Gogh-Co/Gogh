@@ -4,7 +4,7 @@ export PROFILE_NAME="Omni"
 
 export COLOR_01="#191622"           # Black (Host)
 export COLOR_02="#E96379"           # Red (Syntax string)
-export COLOR_03="#67e480"           # Green (Command)
+export COLOR_03="#67E480"           # Green (Command)
 export COLOR_04="#E89E64"           # Yellow (Command second)
 export COLOR_05="#78D1E1"           # Blue (Path)
 export COLOR_06="#988BC7"           # Magenta (Syntax var)
@@ -13,12 +13,12 @@ export COLOR_08="#ABB2BF"           # White
 
 export COLOR_09="#000000"           # Bright Black
 export COLOR_10="#E96379"           # Bright Red (Command error)
-export COLOR_11="#67e480"           # Bright Green (Exec)
+export COLOR_11="#67E480"           # Bright Green (Exec)
 export COLOR_12="#E89E64"           # Bright Yellow
 export COLOR_13="#78D1E1"           # Bright Blue (Folder)
 export COLOR_14="#988BC7"           # Bright Magenta
 export COLOR_15="#FF79C6"           # Bright Cyan
-export COLOR_16="#ffffff"           # Bright White
+export COLOR_16="#FFFFFF"           # Bright White
 
 export BACKGROUND_COLOR="#191622"   # Background
 export FOREGROUND_COLOR="#ABB2BF"   # Foreground (Text)

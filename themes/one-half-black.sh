@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="One Half Black"
 
-export COLOR_01="#282c34"           # Black (Host)
-export COLOR_02="#e06c75"           # Red (Syntax string)
-export COLOR_03="#98c379"           # Green (Command)
-export COLOR_04="#e5c07b"           # Yellow (Command second)
-export COLOR_05="#61afef"           # Blue (Path)
-export COLOR_06="#c678dd"           # Magenta (Syntax var)
-export COLOR_07="#56b6c2"           # Cyan (Prompt)
-export COLOR_08="#dcdfe4"           # White
+export COLOR_01="#282C34"           # Black (Host)
+export COLOR_02="#E06C75"           # Red (Syntax string)
+export COLOR_03="#98C379"           # Green (Command)
+export COLOR_04="#E5C07B"           # Yellow (Command second)
+export COLOR_05="#61AFEF"           # Blue (Path)
+export COLOR_06="#C678DD"           # Magenta (Syntax var)
+export COLOR_07="#56B6C2"           # Cyan (Prompt)
+export COLOR_08="#DCDFE4"           # White
 
-export COLOR_09="#282c34"           # Bright Black
-export COLOR_10="#e06c75"           # Bright Red (Command error)
-export COLOR_11="#98c379"           # Bright Green (Exec)
-export COLOR_12="#e5c07b"           # Bright Yellow
-export COLOR_13="#61afef"           # Bright Blue (Folder)
-export COLOR_14="#c678dd"           # Bright Magenta
-export COLOR_15="#56b6c2"           # Bright Cyan
-export COLOR_16="#dcdfe4"           # Bright White
+export COLOR_09="#282C34"           # Bright Black
+export COLOR_10="#E06C75"           # Bright Red (Command error)
+export COLOR_11="#98C379"           # Bright Green (Exec)
+export COLOR_12="#E5C07B"           # Bright Yellow
+export COLOR_13="#61AFEF"           # Bright Blue (Folder)
+export COLOR_14="#C678DD"           # Bright Magenta
+export COLOR_15="#56B6C2"           # Bright Cyan
+export COLOR_16="#DCDFE4"           # Bright White
 
 export BACKGROUND_COLOR="#000000"   # Background
-export FOREGROUND_COLOR="#dcdfe4"   # Foreground (Text)
+export FOREGROUND_COLOR="#DCDFE4"   # Foreground (Text)
 
-export CURSOR_COLOR="#dcdfe4" # Cursor
+export CURSOR_COLOR="#DCDFE4" # Cursor
 
 # | ===========================================================================
 # | Apply Colors

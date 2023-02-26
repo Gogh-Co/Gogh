@@ -20,10 +20,10 @@ export COLOR_14="#AD7FA8"           # Bright Magenta
 export COLOR_15="#34E2E2"           # Bright Cyan
 export COLOR_16="#EEEEEC"           # Bright White
 
-export BACKGROUND_COLOR="#300a24"   # Background
-export FOREGROUND_COLOR="#ffffff"   # Foreground (Text)
+export BACKGROUND_COLOR="#300A24"   # Background
+export FOREGROUND_COLOR="#FFFFFF"   # Foreground (Text)
 
-export CURSOR_COLOR="#ffffff" # Cursor
+export CURSOR_COLOR="#FFFFFF" # Cursor
 
 # | ===========================================================================
 # | Apply Colors
