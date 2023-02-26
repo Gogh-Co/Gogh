@@ -1,40 +1,33 @@
 #!/usr/bin/env bash
 
-# ====================CONFIG THIS =============================== #
-export COLOR_01="#2A2A2E"           # HOST | Black russian | list-text-color | maybe
-export COLOR_02="#B98EFF"           # SYNTAX_STRING | Medium purple | html-attribute-value
-export COLOR_03="#FF7DE9"           # COMMAND | Orchid | html-attribute-name
-export COLOR_04="#729FCF"           # COMMAND_COLOR2 | Jordy blue | html-tag
-export COLOR_05="#66A05B"           # PATH | De york | html-comment and doctype
-export COLOR_06="#75507B"           # SYNTAX_VAR | Hot purple (import) list-bg-color | maybe
-export COLOR_07="#ACACAE"           # PROMP | Dark grey | html-tag-angle-brackets
-export COLOR_08="#FFFFFF"           # White | active list-bg (probably)
-
-export COLOR_09="#A40000"           # UNKNOWN | Tomato
-export COLOR_10="#BF4040"           # COMMAND_ERROR | Valencia (grep highlight)
-export COLOR_11="#66A05B"           # EXEC | same as PATH (De york) (maybe)
-export COLOR_12="#FFB86C"           # UNKNOWN | Rajah
-export COLOR_13="#729FCF"           # FOLDER | Jordy blue | active:html-brackets/parenthesis
-export COLOR_14="#8F5902"           # Mandalay | special sort of-files (probably)
-export COLOR_15="#C4A000"           # (maybe) | Lemon
-export COLOR_16="#5C3566"           # UNKNOWN | Honey flower
-
-export BACKGROUND_COLOR="#2A2A2E"   # Background Color | Black russian | true
-export FOREGROUND_COLOR="#D7D7DB"   # Text | Fuscous grey | html-tag-content
-export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
 export PROFILE_NAME="Foxnightly"
-# =============================================
 
-# Mainly inspired by firefox developer/nightly (58) inspector theme
-# Font: Hack or Liberation Mono Regular | 9 (font-size)
-# Allow bold text
-# Cursor shape: Block or Underline (if Hack — Block else Underline)
-# Show menubar by default in new terminals — turn off (unchecked)
-# Bold color: Same as text color (as you wish — checked/unchecked)
+export COLOR_01="#2A2A2E"           # Black (Host)
+export COLOR_02="#B98EFF"           # Red (Syntax string)
+export COLOR_03="#FF7DE9"           # Green (Command)
+export COLOR_04="#729FCF"           # Yellow (Command second)
+export COLOR_05="#66A05B"           # Blue (Path)
+export COLOR_06="#75507B"           # Magenta (Syntax var)
+export COLOR_07="#ACACAE"           # Cyan (Prompt)
+export COLOR_08="#FFFFFF"           # White
 
-# =============================================================== #
+export COLOR_09="#A40000"           # Bright Black
+export COLOR_10="#BF4040"           # Bright Red (Command error)
+export COLOR_11="#66A05B"           # Bright Green (Exec)
+export COLOR_12="#FFB86C"           # Bright Yellow
+export COLOR_13="#729FCF"           # Bright Blue (Folder)
+export COLOR_14="#8F5902"           # Bright Magenta
+export COLOR_15="#C4A000"           # Bright Cyan
+export COLOR_16="#5C3566"           # Bright White
+
+export BACKGROUND_COLOR="#2A2A2E"   # Background
+export FOREGROUND_COLOR="#D7D7DB"   # Foreground (Text)
+
+export CURSOR_COLOR="#D7D7DB" # Cursor
+
+# | ===========================================================================
 # | Apply Colors
-# ===============================================================|#
+# | ===========================================================================
 SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
 PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 

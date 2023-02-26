@@ -1,39 +1,33 @@
 #!/usr/bin/env bash
 
-# ====================CONFIG THIS =============================== #
-export COLOR_01="#000000"
-export COLOR_02="#DA3E39"
-export COLOR_03="#41933E"
-export COLOR_04="#855504"
-export COLOR_05="#315EEE"
-export COLOR_06="#930092"
-export COLOR_07="#0E6FAD"
-export COLOR_08="#8E8F96"
-
-export COLOR_09="#2A2B32"
-export COLOR_10="#DA3E39"
-export COLOR_11="#41933E"
-export COLOR_12="#855504"
-export COLOR_13="#315EEE"
-export COLOR_14="#930092"
-export COLOR_15="#0E6FAD"
-export COLOR_16="#FFFEFE"
-
-export BACKGROUND_COLOR="#F8F8F8"
-export FOREGROUND_COLOR="#2A2B32"
-export CURSOR_COLOR="#2A2B32"
 export PROFILE_NAME="One Light"
-# =============================================================== #
 
+export COLOR_01="#000000"           # Black (Host)
+export COLOR_02="#DA3E39"           # Red (Syntax string)
+export COLOR_03="#41933E"           # Green (Command)
+export COLOR_04="#855504"           # Yellow (Command second)
+export COLOR_05="#315EEE"           # Blue (Path)
+export COLOR_06="#930092"           # Magenta (Syntax var)
+export COLOR_07="#0E6FAD"           # Cyan (Prompt)
+export COLOR_08="#8E8F96"           # White
 
+export COLOR_09="#2A2B32"           # Bright Black
+export COLOR_10="#DA3E39"           # Bright Red (Command error)
+export COLOR_11="#41933E"           # Bright Green (Exec)
+export COLOR_12="#855504"           # Bright Yellow
+export COLOR_13="#315EEE"           # Bright Blue (Folder)
+export COLOR_14="#930092"           # Bright Magenta
+export COLOR_15="#0E6FAD"           # Bright Cyan
+export COLOR_16="#FFFEFE"           # Bright White
 
+export BACKGROUND_COLOR="#F8F8F8"   # Background
+export FOREGROUND_COLOR="#2A2B32"   # Foreground (Text)
 
+export CURSOR_COLOR="#2A2B32" # Cursor
 
-
-
-# =============================================================== #
+# | ===========================================================================
 # | Apply Colors
-# ===============================================================|#
+# | ===========================================================================
 SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
 PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 

@@ -1,39 +1,33 @@
 #!/usr/bin/env bash
 
-# ====================CONFIG THIS =============================== #
-export COLOR_01="#010101"           # HOST
-export COLOR_02="#f8b63f"           # SYNTAX_STRING
-export COLOR_03="#7fb5e1"           # COMMAND
-export COLOR_04="#d6da25"           # COMMAND_COLOR2
-export COLOR_05="#489e48"           # PATH
-export COLOR_06="#b296c6"           # SYNTAX_VAR
-export COLOR_07="#f5bfd7"           # PROMP
-export COLOR_08="#a8a49d"           #
-
-export COLOR_09="#726e6a"           #
-export COLOR_10="#f8b63f"           # COMMAND_ERROR
-export COLOR_11="#7fb5e1"           # EXEC
-export COLOR_12="#d6da25"           #
-export COLOR_13="#489e48"           # FOLDER
-export COLOR_14="#b296c6"           #
-export COLOR_15="#f5bfd7"           #
-export COLOR_16="#fefbea"           #
-
-export BACKGROUND_COLOR="#010101"   # Background Color
-export FOREGROUND_COLOR="#a8a49d"   # Text
-export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
 export PROFILE_NAME="Harper"
-# =============================================================== #
 
+export COLOR_01="#010101"           # Black (Host)
+export COLOR_02="#f8b63f"           # Red (Syntax string)
+export COLOR_03="#7fb5e1"           # Green (Command)
+export COLOR_04="#d6da25"           # Yellow (Command second)
+export COLOR_05="#489e48"           # Blue (Path)
+export COLOR_06="#b296c6"           # Magenta (Syntax var)
+export COLOR_07="#f5bfd7"           # Cyan (Prompt)
+export COLOR_08="#a8a49d"           # White
 
+export COLOR_09="#726e6a"           # Bright Black
+export COLOR_10="#f8b63f"           # Bright Red (Command error)
+export COLOR_11="#7fb5e1"           # Bright Green (Exec)
+export COLOR_12="#d6da25"           # Bright Yellow
+export COLOR_13="#489e48"           # Bright Blue (Folder)
+export COLOR_14="#b296c6"           # Bright Magenta
+export COLOR_15="#f5bfd7"           # Bright Cyan
+export COLOR_16="#fefbea"           # Bright White
 
+export BACKGROUND_COLOR="#010101"   # Background
+export FOREGROUND_COLOR="#a8a49d"   # Foreground (Text)
 
+export CURSOR_COLOR="#a8a49d" # Cursor
 
-
-
-# =============================================================== #
+# | ===========================================================================
 # | Apply Colors
-# ===============================================================|#
+# | ===========================================================================
 SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
 PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 

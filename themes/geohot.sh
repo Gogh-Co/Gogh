@@ -1,39 +1,40 @@
 #!/usr/bin/env bash
 
-#==================== CONFIG THIS ======================#
-export COLOR_01='#F9F5F5'   # HOST          :: WHITE
-export COLOR_02='#CC0000'   # SYNTAX_STRING :: RED
-export COLOR_03='#1F1E1F'		# COMMAND				:: BLACK
-export COLOR_04='#ADA110'		# COMMAND_COLOR2:: YELLOW
-export COLOR_05='#FF004E'		# PATH					:: PINK
-export COLOR_06='#75507B'		# SYNTAX_VAR		:: PURPLE
-export COLOR_07='#06919A'		# PROMP					:: BLUE
-export COLOR_08='#FFFFFF'		#								:: CREAM WHITE
+export PROFILE_NAME="Geohot"
 
-export COLOR_09='#555753'		#								:: DARK GREY
-export COLOR_10='#EF2929'		# COMMAND_ERROR :: RED
-export COLOR_11='#FF0000'		# EXEC					:: RED
-export COLOR_12='#ADA110'   #								:: YELLOW
-export COLOR_13='#5F4AA6'		# FOLDER				:: PURPLE
-export COLOR_14='#B74438'		#								:: DARK RED
-export COLOR_15='#408F0C'		#								:: GREEN
-export COLOR_16='#FFFFFF'		#								:: WHITE
+export COLOR_01="#F9F5F5"           # Black (Host)
+export COLOR_02="#CC0000"           # Red (Syntax string)
+export COLOR_03="#1F1E1F"           # Green (Command)
+export COLOR_04="#ADA110"           # Yellow (Command second)
+export COLOR_05="#FF004E"           # Blue (Path)
+export COLOR_06="#75507B"           # Magenta (Syntax var)
+export COLOR_07="#06919A"           # Cyan (Prompt)
+export COLOR_08="#FFFFFF"           # White
 
-export BACKGROUND_COLOR='#1F1E1F'   #BACKGROUND COLOR :: GREYGEO
-export FOREGROUND_COLOR='#FFFFFF'   #FOREGROUND COLOR (TEXT) :: WHITE
-export CURSOR_COLOR="$FOREGROUND_COLOR" #CURSORT COLOR
-export PROFILE_NAME="GeoHot"
-#==================== CONFIG THIS ======================#
+export COLOR_09="#555753"           # Bright Black
+export COLOR_10="#EF2929"           # Bright Red (Command error)
+export COLOR_11="#FF0000"           # Bright Green (Exec)
+export COLOR_12="#ADA110"           # Bright Yellow
+export COLOR_13="#5F4AA6"           # Bright Blue (Folder)
+export COLOR_14="#B74438"           # Bright Magenta
+export COLOR_15="#408F0C"           # Bright Cyan
+export COLOR_16="#FFFFFF"           # Bright White
 
-#=======================================================#
-#             		 | APPLY COLOR |
-#=======================================================#
+export BACKGROUND_COLOR="#1F1E1F"   # Background
+export FOREGROUND_COLOR="#FFFFFF"   # Foreground (Text)
+
+export CURSOR_COLOR="#FFFFFF" # Cursor
+
+# | ===========================================================================
+# | Apply Colors
+# | ===========================================================================
 SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
 PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 
 # Allow developer to change url to forked url for easier testing
 # IMPORTANT: Make sure you export this variable if your main shell is not bash
 BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Gogh-Co/Gogh/master"}
+
 
 if [[ -e "${PARENT_PATH}/apply-colors.sh" ]]; then
   bash "${PARENT_PATH}/apply-colors.sh"

@@ -1,41 +1,33 @@
 #!/usr/bin/env bash
-# This is an adaptation of the "One Half Dark" color scheme published by
-# Son A. Pham under the MIT license: https://github.com/sonph/onehalf
 
-# ====================CONFIG THIS =============================== #
-export COLOR_01="#282c34"           # HOST
-export COLOR_02="#e06c75"           # SYNTAX_STRING
-export COLOR_03="#98c379"           # COMMAND
-export COLOR_04="#e5c07b"           # COMMAND_COLOR2
-export COLOR_05="#61afef"           # PATH
-export COLOR_06="#c678dd"           # SYNTAX_VAR
-export COLOR_07="#56b6c2"           # PROMP
-export COLOR_08="#dcdfe4"           #
-
-export COLOR_09="#282c34"           #
-export COLOR_10="#e06c75"           # COMMAND_ERROR
-export COLOR_11="#98c379"           # EXEC
-export COLOR_12="#e5c07b"           #
-export COLOR_13="#61afef"           # FOLDER
-export COLOR_14="#c678dd"           #
-export COLOR_15="#56b6c2"           #
-export COLOR_16="#dcdfe4"           #
-
-export BACKGROUND_COLOR="#000000"   # Background Color
-export FOREGROUND_COLOR="#dcdfe4"   # Text
-export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
 export PROFILE_NAME="One Half Black"
-# =============================================
 
+export COLOR_01="#282c34"           # Black (Host)
+export COLOR_02="#e06c75"           # Red (Syntax string)
+export COLOR_03="#98c379"           # Green (Command)
+export COLOR_04="#e5c07b"           # Yellow (Command second)
+export COLOR_05="#61afef"           # Blue (Path)
+export COLOR_06="#c678dd"           # Magenta (Syntax var)
+export COLOR_07="#56b6c2"           # Cyan (Prompt)
+export COLOR_08="#dcdfe4"           # White
 
+export COLOR_09="#282c34"           # Bright Black
+export COLOR_10="#e06c75"           # Bright Red (Command error)
+export COLOR_11="#98c379"           # Bright Green (Exec)
+export COLOR_12="#e5c07b"           # Bright Yellow
+export COLOR_13="#61afef"           # Bright Blue (Folder)
+export COLOR_14="#c678dd"           # Bright Magenta
+export COLOR_15="#56b6c2"           # Bright Cyan
+export COLOR_16="#dcdfe4"           # Bright White
 
+export BACKGROUND_COLOR="#000000"   # Background
+export FOREGROUND_COLOR="#dcdfe4"   # Foreground (Text)
 
+export CURSOR_COLOR="#dcdfe4" # Cursor
 
-
-
-# =============================================================== #
+# | ===========================================================================
 # | Apply Colors
-# ===============================================================|#
+# | ===========================================================================
 SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
 PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 

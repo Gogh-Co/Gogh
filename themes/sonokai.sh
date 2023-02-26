@@ -1,40 +1,33 @@
 #!/usr/bin/env bash
 
-# ====================CONFIG THIS =============================== #
-# Regular text
-export COLOR_01="#2C2E34"           # Dark Gray
-export COLOR_02="#FC5D7C"           # Sonokai Red
-export COLOR_03="#9ED072"           # Sonokai Green
-export COLOR_04="#E7C664"           # Sonokai Yellow
-export COLOR_05="#F39660"           # Sonokai Orange
-export COLOR_06="#B39DF3"           # Sonokai Magenta
-export COLOR_07="#76CCE0"           # Sonokai Cyan
-export COLOR_08="#E2E2E3"           # Light Gray
-# Bold text
-export COLOR_09="#7F8490"           # Gray
-export COLOR_10="#FC5D7C"           # Sonokai Red
-export COLOR_11="#9ED072"           # Sonokai Green
-export COLOR_12="#E7C664"           # Sonokai Yellow
-export COLOR_13="#F39660"           # Sonokai Orange
-export COLOR_14="#B39DF3"           # Sonokai Magenta
-export COLOR_15="#76CCE0"           # Sonokai Cyan
-export COLOR_16="#E2E2E3"           # Light Gray
-# Text and background
-export BACKGROUND_COLOR="#2C2E34"   # Background Color
-export FOREGROUND_COLOR="#E2E2E3"   # Foreground Color (text)
-export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor color
 export PROFILE_NAME="Sonokai"
-# =============================================================== #
 
+export COLOR_01="#2C2E34"           # Black (Host)
+export COLOR_02="#FC5D7C"           # Red (Syntax string)
+export COLOR_03="#9ED072"           # Green (Command)
+export COLOR_04="#E7C664"           # Yellow (Command second)
+export COLOR_05="#F39660"           # Blue (Path)
+export COLOR_06="#B39DF3"           # Magenta (Syntax var)
+export COLOR_07="#76CCE0"           # Cyan (Prompt)
+export COLOR_08="#E2E2E3"           # White
 
+export COLOR_09="#7F8490"           # Bright Black
+export COLOR_10="#FC5D7C"           # Bright Red (Command error)
+export COLOR_11="#9ED072"           # Bright Green (Exec)
+export COLOR_12="#E7C664"           # Bright Yellow
+export COLOR_13="#F39660"           # Bright Blue (Folder)
+export COLOR_14="#B39DF3"           # Bright Magenta
+export COLOR_15="#76CCE0"           # Bright Cyan
+export COLOR_16="#E2E2E3"           # Bright White
 
+export BACKGROUND_COLOR="#2C2E34"   # Background
+export FOREGROUND_COLOR="#E2E2E3"   # Foreground (Text)
 
+export CURSOR_COLOR="#E2E2E3" # Cursor
 
-
-
-# =============================================================== #
+# | ===========================================================================
 # | Apply Colors
-# ===============================================================|#
+# | ===========================================================================
 SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
 PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 
