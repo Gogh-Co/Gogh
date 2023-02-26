@@ -1,2 +1,3 @@
 ruamel.yaml==0.17.21
-
+unidecode
+pyyaml
