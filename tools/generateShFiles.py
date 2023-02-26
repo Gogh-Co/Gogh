@@ -5,8 +5,8 @@ import re
 import subprocess
 import yaml
 
-folder_path = "../themes-yml"
-dest_path = '../themes'
+folder_path = "./themes-yml"
+dest_path = './themes'
 themes = []
 
 # List files and directories in the folder

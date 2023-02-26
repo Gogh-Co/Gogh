@@ -3,8 +3,8 @@ import json
 import yaml
 import hashlib
 
-source_path = "../themes-yml"
-dest_path = "../data/themes.json"
+source_path = "./themes-yml"
+dest_path = "./data/themes.json"
 themes = []
 
 os.remove(dest_path)

@@ -1,18 +1,52 @@
-name: Generate themes.json
-on: [workflow_dispatch]
+name: Execute Python Scripts on New Theme-YML Files
+
+on:
+  push:
+    paths:
+      - 'theme-yml/*'
 
 jobs:
-  run:
-    name: Lint with ESLint
-    runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2
-      - run: |
-          bash tools/generate.sh
-          git config user.name  github-actions[bot]
-          git config user.email github-actions[bot]@github.com
-          git add .
-          git commit -m "------- Generate themes.json -------"
-          git push
 
+    - name: Checkout code
+      uses: actions/checkout@v2
 
+    - name: Update ubuntu
+      run: |
+        apt -qq update
+        echo 🏅
+
+    - name: Install python3
+      run: |
+        apt install python3 -y > /dev/null 2>&1
+        echo 🏅
+
+    - name: Install pip3
+      run: |
+        apt install -y python3-pip > /dev/null 2>&1
+        echo 🏅
+
+    - name: Python3 requirements.txt
+      run: |
+        pip3 install -r requirements.txt > /dev/null 2>&1
+        echo 🏅
+
+    - name: Generate json
+      run: |
+        python3 tools/generatJson.py
+        echo 🏅
+
+    - name: Generate Installers
+      run: |
+        python3 tools/generateShFiles.py
+        echo 🏅
+
+    - name: Git commit
+      run: |
+        git config user.name  github-actions[bot]
+        git config user.email github-actions[bot]@github.com
+        git add .
+        git commit -m "------- Generate Themes Github Action -------"
+        git push
