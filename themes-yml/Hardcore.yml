@@ -1,0 +1,25 @@
+---
+name: 'Hardcore'
+
+color_01: '#1B1D1E'    # Black (Host)
+color_02: '#F92672'    # Red (Syntax string)
+color_03: '#A6E22E'    # Green (Command)
+color_04: '#FD971F'    # Yellow (Command second)
+color_05: '#66D9EF'    # Blue (Path)
+color_06: '#9E6FFE'    # Magenta (Syntax var)
+color_07: '#5E7175'    # Cyan (Prompt)
+color_08: '#CCCCC6'    # White
+
+color_09: '#505354'    # Bright Black
+color_10: '#FF669D'    # Bright Red (Command error)
+color_11: '#BEED5F'    # Bright Green (Exec)
+color_12: '#E6DB74'    # Bright Yellow
+color_13: '#66D9EF'    # Bright Blue (Folder)
+color_14: '#9E6FFE'    # Bright Magenta
+color_15: '#A3BABF'    # Bright Cyan
+color_16: '#F8F8F2'    # Bright White
+
+background: '#121212'  # Background
+foreground: '#A0A0A0'  # Foreground (Text)
+
+cursor: '#A0A0A0'      # Cursor

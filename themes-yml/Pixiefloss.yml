@@ -1,0 +1,25 @@
+---
+name: 'Pixiefloss'
+
+color_01: '#2F2942'    # Black (Host)
+color_02: '#FF857F'    # Red (Syntax string)
+color_03: '#48B685'    # Green (Command)
+color_04: '#E6C000'    # Yellow (Command second)
+color_05: '#AE81FF'    # Blue (Path)
+color_06: '#EF6155'    # Magenta (Syntax var)
+color_07: '#C2FFDF'    # Cyan (Prompt)
+color_08: '#F8F8F2'    # White
+
+color_09: '#75507B'    # Bright Black
+color_10: '#F1568E'    # Bright Red (Command error)
+color_11: '#5ADBA2'    # Bright Green (Exec)
+color_12: '#D5A425'    # Bright Yellow
+color_13: '#C5A3FF'    # Bright Blue (Folder)
+color_14: '#EF6155'    # Bright Magenta
+color_15: '#C2FFFF'    # Bright Cyan
+color_16: '#F8F8F0'    # Bright White
+
+background: '#241F33'  # Background
+foreground: '#D1CAE8'  # Foreground (Text)
+
+cursor: '#D1CAE8'      # Cursor

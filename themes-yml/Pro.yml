@@ -1,0 +1,25 @@
+---
+name: 'Pro'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#990000'    # Red (Syntax string)
+color_03: '#00A600'    # Green (Command)
+color_04: '#999900'    # Yellow (Command second)
+color_05: '#2009DB'    # Blue (Path)
+color_06: '#B200B2'    # Magenta (Syntax var)
+color_07: '#00A6B2'    # Cyan (Prompt)
+color_08: '#BFBFBF'    # White
+
+color_09: '#666666'    # Bright Black
+color_10: '#E50000'    # Bright Red (Command error)
+color_11: '#00D900'    # Bright Green (Exec)
+color_12: '#E5E500'    # Bright Yellow
+color_13: '#0000FF'    # Bright Blue (Folder)
+color_14: '#E500E5'    # Bright Magenta
+color_15: '#00E5E5'    # Bright Cyan
+color_16: '#E5E5E5'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#F2F2F2'  # Foreground (Text)
+
+cursor: '#F2F2F2'      # Cursor

@@ -1,0 +1,25 @@
+---
+name: 'Broadcast'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#DA4939'    # Red (Syntax string)
+color_03: '#519F50'    # Green (Command)
+color_04: '#FFD24A'    # Yellow (Command second)
+color_05: '#6D9CBE'    # Blue (Path)
+color_06: '#D0D0FF'    # Magenta (Syntax var)
+color_07: '#6E9CBE'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#323232'    # Bright Black
+color_10: '#FF7B6B'    # Bright Red (Command error)
+color_11: '#83D182'    # Bright Green (Exec)
+color_12: '#FFFF7C'    # Bright Yellow
+color_13: '#9FCEF0'    # Bright Blue (Folder)
+color_14: '#FFFFFF'    # Bright Magenta
+color_15: '#A0CEF0'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#2B2B2B'  # Background
+foreground: '#E6E1DC'  # Foreground (Text)
+
+cursor: '#E6E1DC'      # Cursor

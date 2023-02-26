@@ -1,0 +1,25 @@
+---
+name: 'Sonokai'
+
+color_01: '#2C2E34'    # Black (Host)
+color_02: '#FC5D7C'    # Red (Syntax string)
+color_03: '#9ED072'    # Green (Command)
+color_04: '#E7C664'    # Yellow (Command second)
+color_05: '#F39660'    # Blue (Path)
+color_06: '#B39DF3'    # Magenta (Syntax var)
+color_07: '#76CCE0'    # Cyan (Prompt)
+color_08: '#E2E2E3'    # White
+
+color_09: '#7F8490'    # Bright Black
+color_10: '#FC5D7C'    # Bright Red (Command error)
+color_11: '#9ED072'    # Bright Green (Exec)
+color_12: '#E7C664'    # Bright Yellow
+color_13: '#F39660'    # Bright Blue (Folder)
+color_14: '#B39DF3'    # Bright Magenta
+color_15: '#76CCE0'    # Bright Cyan
+color_16: '#E2E2E3'    # Bright White
+
+background: '#2C2E34'  # Background
+foreground: '#E2E2E3'  # Foreground (Text)
+
+cursor: '#E2E2E3'      # Cursor

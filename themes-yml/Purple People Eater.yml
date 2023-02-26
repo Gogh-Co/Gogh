@@ -1,0 +1,25 @@
+---
+name: 'Purple People Eater'
+
+color_01: '#0D1117'    # Black (Host)
+color_02: '#E34C26'    # Red (Syntax string)
+color_03: '#238636'    # Green (Command)
+color_04: '#ED9A51'    # Yellow (Command second)
+color_05: '#A5D6FF'    # Blue (Path)
+color_06: '#6EB0E8'    # Magenta (Syntax var)
+color_07: '#C09AEB'    # Cyan (Prompt)
+color_08: '#C9D1D9'    # White
+
+color_09: '#0D1117'    # Bright Black
+color_10: '#FF7B72'    # Bright Red (Command error)
+color_11: '#3BAB4A'    # Bright Green (Exec)
+color_12: '#FFA657'    # Bright Yellow
+color_13: '#A5D6FF'    # Bright Blue (Folder)
+color_14: '#79C0FF'    # Bright Magenta
+color_15: '#B694DF'    # Bright Cyan
+color_16: '#C9D1D9'    # Bright White
+
+background: '#161B22'  # Background
+foreground: '#C9D1D9'  # Foreground (Text)
+
+cursor: '#C9D1D9'      # Cursor

@@ -1,0 +1,25 @@
+---
+name: 'Shel'
+
+color_01: '#2C2423'    # Black (Host)
+color_02: '#AB2463'    # Red (Syntax string)
+color_03: '#6CA323'    # Green (Command)
+color_04: '#AB6423'    # Yellow (Command second)
+color_05: '#2C64A2'    # Blue (Path)
+color_06: '#6C24A2'    # Magenta (Syntax var)
+color_07: '#2CA363'    # Cyan (Prompt)
+color_08: '#918988'    # White
+
+color_09: '#918988'    # Bright Black
+color_10: '#F588B9'    # Bright Red (Command error)
+color_11: '#C2EE86'    # Bright Green (Exec)
+color_12: '#F5BA86'    # Bright Yellow
+color_13: '#8FBAEC'    # Bright Blue (Folder)
+color_14: '#C288EC'    # Bright Magenta
+color_15: '#8FEEB9'    # Bright Cyan
+color_16: '#F5EEEC'    # Bright White
+
+background: '#2A201F'  # Background
+foreground: '#4882CD'  # Foreground (Text)
+
+cursor: '#4882CD'      # Cursor

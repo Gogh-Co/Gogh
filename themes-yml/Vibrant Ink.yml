@@ -1,0 +1,25 @@
+---
+name: 'Vibrant Ink'
+
+color_01: '#878787'    # Black (Host)
+color_02: '#FF6600'    # Red (Syntax string)
+color_03: '#CCFF04'    # Green (Command)
+color_04: '#FFCC00'    # Yellow (Command second)
+color_05: '#44B4CC'    # Blue (Path)
+color_06: '#9933CC'    # Magenta (Syntax var)
+color_07: '#44B4CC'    # Cyan (Prompt)
+color_08: '#F5F5F5'    # White
+
+color_09: '#555555'    # Bright Black
+color_10: '#FF0000'    # Bright Red (Command error)
+color_11: '#00FF00'    # Bright Green (Exec)
+color_12: '#FFFF00'    # Bright Yellow
+color_13: '#0000FF'    # Bright Blue (Folder)
+color_14: '#FF00FF'    # Bright Magenta
+color_15: '#00FFFF'    # Bright Cyan
+color_16: '#E5E5E5'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

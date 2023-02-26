@@ -1,0 +1,25 @@
+---
+name: 'Square'
+
+color_01: '#050505'    # Black (Host)
+color_02: '#E9897C'    # Red (Syntax string)
+color_03: '#B6377D'    # Green (Command)
+color_04: '#ECEBBE'    # Yellow (Command second)
+color_05: '#A9CDEB'    # Blue (Path)
+color_06: '#75507B'    # Magenta (Syntax var)
+color_07: '#C9CAEC'    # Cyan (Prompt)
+color_08: '#F2F2F2'    # White
+
+color_09: '#141414'    # Bright Black
+color_10: '#F99286'    # Bright Red (Command error)
+color_11: '#C3F786'    # Bright Green (Exec)
+color_12: '#FCFBCC'    # Bright Yellow
+color_13: '#B6DEFB'    # Bright Blue (Folder)
+color_14: '#AD7FA8'    # Bright Magenta
+color_15: '#D7D9FC'    # Bright Cyan
+color_16: '#E2E2E2'    # Bright White
+
+background: '#0A1E24'  # Background
+foreground: '#A1A1A1'  # Foreground (Text)
+
+cursor: '#A1A1A1'      # Cursor

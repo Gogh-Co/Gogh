@@ -1,0 +1,25 @@
+---
+name: 'Catppuccin Frappé'
+
+color_01: '#51576D'    # Black (Host)
+color_02: '#E78284'    # Red (Syntax string)
+color_03: '#A6D189'    # Green (Command)
+color_04: '#E5C890'    # Yellow (Command second)
+color_05: '#8CAAEE'    # Blue (Path)
+color_06: '#F4B8E4'    # Magenta (Syntax var)
+color_07: '#81C8BE'    # Cyan (Prompt)
+color_08: '#B5BFE2'    # White
+
+color_09: '#626880'    # Bright Black
+color_10: '#E78284'    # Bright Red (Command error)
+color_11: '#A6D189'    # Bright Green (Exec)
+color_12: '#E5C890'    # Bright Yellow
+color_13: '#8CAAEE'    # Bright Blue (Folder)
+color_14: '#F4B8E4'    # Bright Magenta
+color_15: '#81C8BE'    # Bright Cyan
+color_16: '#A5ADCE'    # Bright White
+
+background: '#303446'  # Background
+foreground: '#C6D0F5'  # Foreground (Text)
+
+cursor: '#C6D0F5'      # Cursor

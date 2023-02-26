@@ -1,0 +1,25 @@
+---
+name: 'Monokai Soda'
+
+color_01: '#1A1A1A'    # Black (Host)
+color_02: '#F4005F'    # Red (Syntax string)
+color_03: '#98E024'    # Green (Command)
+color_04: '#FA8419'    # Yellow (Command second)
+color_05: '#9D65FF'    # Blue (Path)
+color_06: '#F4005F'    # Magenta (Syntax var)
+color_07: '#58D1EB'    # Cyan (Prompt)
+color_08: '#C4C5B5'    # White
+
+color_09: '#625E4C'    # Bright Black
+color_10: '#F4005F'    # Bright Red (Command error)
+color_11: '#98E024'    # Bright Green (Exec)
+color_12: '#E0D561'    # Bright Yellow
+color_13: '#9D65FF'    # Bright Blue (Folder)
+color_14: '#F4005F'    # Bright Magenta
+color_15: '#58D1EB'    # Bright Cyan
+color_16: '#F6F6EF'    # Bright White
+
+background: '#1A1A1A'  # Background
+foreground: '#C4C5B5'  # Foreground (Text)
+
+cursor: '#C4C5B5'      # Cursor

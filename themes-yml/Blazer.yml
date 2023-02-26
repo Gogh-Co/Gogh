@@ -1,0 +1,25 @@
+---
+name: 'Blazer'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#B87A7A'    # Red (Syntax string)
+color_03: '#7AB87A'    # Green (Command)
+color_04: '#B8B87A'    # Yellow (Command second)
+color_05: '#7A7AB8'    # Blue (Path)
+color_06: '#B87AB8'    # Magenta (Syntax var)
+color_07: '#7AB8B8'    # Cyan (Prompt)
+color_08: '#D9D9D9'    # White
+
+color_09: '#262626'    # Bright Black
+color_10: '#DBBDBD'    # Bright Red (Command error)
+color_11: '#BDDBBD'    # Bright Green (Exec)
+color_12: '#DBDBBD'    # Bright Yellow
+color_13: '#BDBDDB'    # Bright Blue (Folder)
+color_14: '#DBBDDB'    # Bright Magenta
+color_15: '#BDDBDB'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#0D1926'  # Background
+foreground: '#D9E6F2'  # Foreground (Text)
+
+cursor: '#D9E6F2'      # Cursor

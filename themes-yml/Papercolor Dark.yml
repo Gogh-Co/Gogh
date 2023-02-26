@@ -1,0 +1,25 @@
+---
+name: 'Papercolor Dark'
+
+color_01: '#1C1C1C'    # Black (Host)
+color_02: '#AF005F'    # Red (Syntax string)
+color_03: '#5FAF00'    # Green (Command)
+color_04: '#D7AF5F'    # Yellow (Command second)
+color_05: '#5FAFD7'    # Blue (Path)
+color_06: '#808080'    # Magenta (Syntax var)
+color_07: '#D7875F'    # Cyan (Prompt)
+color_08: '#D0D0D0'    # White
+
+color_09: '#585858'    # Bright Black
+color_10: '#5FAF5F'    # Bright Red (Command error)
+color_11: '#AFD700'    # Bright Green (Exec)
+color_12: '#AF87D7'    # Bright Yellow
+color_13: '#FFAF00'    # Bright Blue (Folder)
+color_14: '#FF5FAF'    # Bright Magenta
+color_15: '#00AFAF'    # Bright Cyan
+color_16: '#5F8787'    # Bright White
+
+background: '#1C1C1C'  # Background
+foreground: '#D0D0D0'  # Foreground (Text)
+
+cursor: '#D0D0D0'      # Cursor

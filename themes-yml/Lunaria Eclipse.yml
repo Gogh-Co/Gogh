@@ -1,0 +1,25 @@
+---
+name: 'Lunaria Eclipse'
+
+color_01: '#323F46'    # Black (Host)
+color_02: '#83615B'    # Red (Syntax string)
+color_03: '#7F9781'    # Green (Command)
+color_04: '#A69875'    # Yellow (Command second)
+color_05: '#53516F'    # Blue (Path)
+color_06: '#856880'    # Magenta (Syntax var)
+color_07: '#7D96B2'    # Cyan (Prompt)
+color_08: '#C9CDD7'    # White
+
+color_09: '#3D4950'    # Bright Black
+color_10: '#BA9088'    # Bright Red (Command error)
+color_11: '#BEDBC1'    # Bright Green (Exec)
+color_12: '#F1DFB4'    # Bright Yellow
+color_13: '#767495'    # Bright Blue (Folder)
+color_14: '#BE9CB8'    # Bright Magenta
+color_15: '#BCDBFF'    # Bright Cyan
+color_16: '#DFE2ED'    # Bright White
+
+background: '#323F46'  # Background
+foreground: '#C9CDD7'  # Foreground (Text)
+
+cursor: '#C9CDD7'      # Cursor

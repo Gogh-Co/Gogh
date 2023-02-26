@@ -1,0 +1,25 @@
+---
+name: 'Solarized Dark Higher Contrast'
+
+color_01: '#002831'    # Black (Host)
+color_02: '#D11C24'    # Red (Syntax string)
+color_03: '#6CBE6C'    # Green (Command)
+color_04: '#A57706'    # Yellow (Command second)
+color_05: '#2176C7'    # Blue (Path)
+color_06: '#C61C6F'    # Magenta (Syntax var)
+color_07: '#259286'    # Cyan (Prompt)
+color_08: '#EAE3CB'    # White
+
+color_09: '#006488'    # Bright Black
+color_10: '#F5163B'    # Bright Red (Command error)
+color_11: '#51EF84'    # Bright Green (Exec)
+color_12: '#B27E28'    # Bright Yellow
+color_13: '#178EC8'    # Bright Blue (Folder)
+color_14: '#E24D8E'    # Bright Magenta
+color_15: '#00B39E'    # Bright Cyan
+color_16: '#FCF4DC'    # Bright White
+
+background: '#001E27'  # Background
+foreground: '#9CC2C3'  # Foreground (Text)
+
+cursor: '#9CC2C3'      # Cursor

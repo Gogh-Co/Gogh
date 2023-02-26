@@ -1,0 +1,25 @@
+---
+name: 'Brogrammer'
+
+color_01: '#1F1F1F'    # Black (Host)
+color_02: '#F81118'    # Red (Syntax string)
+color_03: '#2DC55E'    # Green (Command)
+color_04: '#ECBA0F'    # Yellow (Command second)
+color_05: '#2A84D2'    # Blue (Path)
+color_06: '#4E5AB7'    # Magenta (Syntax var)
+color_07: '#1081D6'    # Cyan (Prompt)
+color_08: '#D6DBE5'    # White
+
+color_09: '#D6DBE5'    # Bright Black
+color_10: '#DE352E'    # Bright Red (Command error)
+color_11: '#1DD361'    # Bright Green (Exec)
+color_12: '#F3BD09'    # Bright Yellow
+color_13: '#1081D6'    # Bright Blue (Folder)
+color_14: '#5350B9'    # Bright Magenta
+color_15: '#0F7DDB'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#131313'  # Background
+foreground: '#D6DBE5'  # Foreground (Text)
+
+cursor: '#D6DBE5'      # Cursor

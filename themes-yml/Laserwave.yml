@@ -1,0 +1,25 @@
+---
+name: 'Laserwave'
+
+color_01: '#39243A'    # Black (Host)
+color_02: '#EB64B9'    # Red (Syntax string)
+color_03: '#AFD686'    # Green (Command)
+color_04: '#FEAE87'    # Yellow (Command second)
+color_05: '#40B4C4'    # Blue (Path)
+color_06: '#B381C5'    # Magenta (Syntax var)
+color_07: '#215969'    # Cyan (Prompt)
+color_08: '#91889B'    # White
+
+color_09: '#716485'    # Bright Black
+color_10: '#FC2377'    # Bright Red (Command error)
+color_11: '#50FA7B'    # Bright Green (Exec)
+color_12: '#FFE261'    # Bright Yellow
+color_13: '#74DFC4'    # Bright Blue (Folder)
+color_14: '#6D75E0'    # Bright Magenta
+color_15: '#B4DCE7'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#1F1926'  # Background
+foreground: '#E0E0E0'  # Foreground (Text)
+
+cursor: '#C7C7C7'      # Cursor

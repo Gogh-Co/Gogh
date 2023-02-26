@@ -1,0 +1,25 @@
+---
+name: 'Spacegray Eighties'
+
+color_01: '#15171C'    # Black (Host)
+color_02: '#EC5F67'    # Red (Syntax string)
+color_03: '#81A764'    # Green (Command)
+color_04: '#FEC254'    # Yellow (Command second)
+color_05: '#5486C0'    # Blue (Path)
+color_06: '#BF83C1'    # Magenta (Syntax var)
+color_07: '#57C2C1'    # Cyan (Prompt)
+color_08: '#EFECE7'    # White
+
+color_09: '#555555'    # Bright Black
+color_10: '#FF6973'    # Bright Red (Command error)
+color_11: '#93D493'    # Bright Green (Exec)
+color_12: '#FFD256'    # Bright Yellow
+color_13: '#4D84D1'    # Bright Blue (Folder)
+color_14: '#FF55FF'    # Bright Magenta
+color_15: '#83E9E4'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#222222'  # Background
+foreground: '#BDBAAE'  # Foreground (Text)
+
+cursor: '#BDBAAE'      # Cursor

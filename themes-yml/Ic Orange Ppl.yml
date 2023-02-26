@@ -1,0 +1,25 @@
+---
+name: 'Ic Orange Ppl'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#C13900'    # Red (Syntax string)
+color_03: '#A4A900'    # Green (Command)
+color_04: '#CAAF00'    # Yellow (Command second)
+color_05: '#BD6D00'    # Blue (Path)
+color_06: '#FC5E00'    # Magenta (Syntax var)
+color_07: '#F79500'    # Cyan (Prompt)
+color_08: '#FFC88A'    # White
+
+color_09: '#6A4F2A'    # Bright Black
+color_10: '#FF8C68'    # Bright Red (Command error)
+color_11: '#F6FF40'    # Bright Green (Exec)
+color_12: '#FFE36E'    # Bright Yellow
+color_13: '#FFBE55'    # Bright Blue (Folder)
+color_14: '#FC874F'    # Bright Magenta
+color_15: '#C69752'    # Bright Cyan
+color_16: '#FAFAFF'    # Bright White
+
+background: '#262626'  # Background
+foreground: '#FFCB83'  # Foreground (Text)
+
+cursor: '#FFCB83'      # Cursor

@@ -1,0 +1,25 @@
+---
+name: 'Tender'
+
+color_01: '#1D1D1D'    # Black (Host)
+color_02: '#C5152F'    # Red (Syntax string)
+color_03: '#C9D05C'    # Green (Command)
+color_04: '#FFC24B'    # Yellow (Command second)
+color_05: '#B3DEEF'    # Blue (Path)
+color_06: '#D3B987'    # Magenta (Syntax var)
+color_07: '#73CEF4'    # Cyan (Prompt)
+color_08: '#EEEEEE'    # White
+
+color_09: '#323232'    # Bright Black
+color_10: '#F43753'    # Bright Red (Command error)
+color_11: '#D9E066'    # Bright Green (Exec)
+color_12: '#FACC72'    # Bright Yellow
+color_13: '#C0EAFB'    # Bright Blue (Folder)
+color_14: '#EFD093'    # Bright Magenta
+color_15: '#A1D6EC'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#282828'  # Background
+foreground: '#EEEEEE'  # Foreground (Text)
+
+cursor: '#EEEEEE'      # Cursor

@@ -1,0 +1,25 @@
+---
+name: 'Soft Server'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#A2686A'    # Red (Syntax string)
+color_03: '#9AA56A'    # Green (Command)
+color_04: '#A3906A'    # Yellow (Command second)
+color_05: '#6B8FA3'    # Blue (Path)
+color_06: '#6A71A3'    # Magenta (Syntax var)
+color_07: '#6BA58F'    # Cyan (Prompt)
+color_08: '#99A3A2'    # White
+
+color_09: '#666C6C'    # Bright Black
+color_10: '#DD5C60'    # Bright Red (Command error)
+color_11: '#BFDF55'    # Bright Green (Exec)
+color_12: '#DEB360'    # Bright Yellow
+color_13: '#62B1DF'    # Bright Blue (Folder)
+color_14: '#606EDF'    # Bright Magenta
+color_15: '#64E39C'    # Bright Cyan
+color_16: '#D2E0DE'    # Bright White
+
+background: '#242626'  # Background
+foreground: '#99A3A2'  # Foreground (Text)
+
+cursor: '#99A3A2'      # Cursor

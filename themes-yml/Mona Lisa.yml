@@ -1,0 +1,25 @@
+---
+name: 'Mona Lisa'
+
+color_01: '#351B0E'    # Black (Host)
+color_02: '#9B291C'    # Red (Syntax string)
+color_03: '#636232'    # Green (Command)
+color_04: '#C36E28'    # Yellow (Command second)
+color_05: '#515C5D'    # Blue (Path)
+color_06: '#9B1D29'    # Magenta (Syntax var)
+color_07: '#588056'    # Cyan (Prompt)
+color_08: '#F7D75C'    # White
+
+color_09: '#874228'    # Bright Black
+color_10: '#FF4331'    # Bright Red (Command error)
+color_11: '#B4B264'    # Bright Green (Exec)
+color_12: '#FF9566'    # Bright Yellow
+color_13: '#9EB2B4'    # Bright Blue (Folder)
+color_14: '#FF5B6A'    # Bright Magenta
+color_15: '#8ACD8F'    # Bright Cyan
+color_16: '#FFE598'    # Bright White
+
+background: '#120B0D'  # Background
+foreground: '#F7D66A'  # Foreground (Text)
+
+cursor: '#F7D66A'      # Cursor

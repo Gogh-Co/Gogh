@@ -1,0 +1,25 @@
+---
+name: 'Omni'
+
+color_01: '#191622'    # Black (Host)
+color_02: '#E96379'    # Red (Syntax string)
+color_03: '#67E480'    # Green (Command)
+color_04: '#E89E64'    # Yellow (Command second)
+color_05: '#78D1E1'    # Blue (Path)
+color_06: '#988BC7'    # Magenta (Syntax var)
+color_07: '#FF79C6'    # Cyan (Prompt)
+color_08: '#ABB2BF'    # White
+
+color_09: '#000000'    # Bright Black
+color_10: '#E96379'    # Bright Red (Command error)
+color_11: '#67E480'    # Bright Green (Exec)
+color_12: '#E89E64'    # Bright Yellow
+color_13: '#78D1E1'    # Bright Blue (Folder)
+color_14: '#988BC7'    # Bright Magenta
+color_15: '#FF79C6'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#191622'  # Background
+foreground: '#ABB2BF'  # Foreground (Text)
+
+cursor: '#ABB2BF'      # Cursor

@@ -1,0 +1,25 @@
+---
+name: 'Night Owl'
+
+color_01: '#011627'    # Black (Host)
+color_02: '#EF5350'    # Red (Syntax string)
+color_03: '#22DA6E'    # Green (Command)
+color_04: '#ADDB67'    # Yellow (Command second)
+color_05: '#82AAFF'    # Blue (Path)
+color_06: '#C792EA'    # Magenta (Syntax var)
+color_07: '#21C7A8'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#575656'    # Bright Black
+color_10: '#EF5350'    # Bright Red (Command error)
+color_11: '#22DA6E'    # Bright Green (Exec)
+color_12: '#FFEB95'    # Bright Yellow
+color_13: '#82AAFF'    # Bright Blue (Folder)
+color_14: '#C792EA'    # Bright Magenta
+color_15: '#7FDBCA'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#011627'  # Background
+foreground: '#D6DEEB'  # Foreground (Text)
+
+cursor: '#D6DEEB'      # Cursor

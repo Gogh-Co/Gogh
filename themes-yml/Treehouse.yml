@@ -1,0 +1,25 @@
+---
+name: 'Treehouse'
+
+color_01: '#321300'    # Black (Host)
+color_02: '#B2270E'    # Red (Syntax string)
+color_03: '#44A900'    # Green (Command)
+color_04: '#AA820C'    # Yellow (Command second)
+color_05: '#58859A'    # Blue (Path)
+color_06: '#97363D'    # Magenta (Syntax var)
+color_07: '#B25A1E'    # Cyan (Prompt)
+color_08: '#786B53'    # White
+
+color_09: '#433626'    # Bright Black
+color_10: '#ED5D20'    # Bright Red (Command error)
+color_11: '#55F238'    # Bright Green (Exec)
+color_12: '#F2B732'    # Bright Yellow
+color_13: '#85CFED'    # Bright Blue (Folder)
+color_14: '#E14C5A'    # Bright Magenta
+color_15: '#F07D14'    # Bright Cyan
+color_16: '#FFC800'    # Bright White
+
+background: '#191919'  # Background
+foreground: '#786B53'  # Foreground (Text)
+
+cursor: '#786B53'      # Cursor

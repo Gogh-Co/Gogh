@@ -1,0 +1,25 @@
+---
+name: 'Jellybeans'
+
+color_01: '#929292'    # Black (Host)
+color_02: '#E27373'    # Red (Syntax string)
+color_03: '#94B979'    # Green (Command)
+color_04: '#FFBA7B'    # Yellow (Command second)
+color_05: '#97BEDC'    # Blue (Path)
+color_06: '#E1C0FA'    # Magenta (Syntax var)
+color_07: '#00988E'    # Cyan (Prompt)
+color_08: '#DEDEDE'    # White
+
+color_09: '#BDBDBD'    # Bright Black
+color_10: '#FFA1A1'    # Bright Red (Command error)
+color_11: '#BDDEAB'    # Bright Green (Exec)
+color_12: '#FFDCA0'    # Bright Yellow
+color_13: '#B1D8F6'    # Bright Blue (Folder)
+color_14: '#FBDAFF'    # Bright Magenta
+color_15: '#1AB2A8'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#121212'  # Background
+foreground: '#DEDEDE'  # Foreground (Text)
+
+cursor: '#DEDEDE'      # Cursor

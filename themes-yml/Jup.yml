@@ -1,0 +1,25 @@
+---
+name: 'Jup'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#DD006F'    # Red (Syntax string)
+color_03: '#6FDD00'    # Green (Command)
+color_04: '#DD6F00'    # Yellow (Command second)
+color_05: '#006FDD'    # Blue (Path)
+color_06: '#6F00DD'    # Magenta (Syntax var)
+color_07: '#00DD6F'    # Cyan (Prompt)
+color_08: '#F2F2F2'    # White
+
+color_09: '#7D7D7D'    # Bright Black
+color_10: '#FF74B9'    # Bright Red (Command error)
+color_11: '#B9FF74'    # Bright Green (Exec)
+color_12: '#FFB974'    # Bright Yellow
+color_13: '#74B9FF'    # Bright Blue (Folder)
+color_14: '#B974FF'    # Bright Magenta
+color_15: '#74FFB9'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#758480'  # Background
+foreground: '#23476A'  # Foreground (Text)
+
+cursor: '#23476A'      # Cursor

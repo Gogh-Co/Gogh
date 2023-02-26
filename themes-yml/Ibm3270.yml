@@ -1,0 +1,25 @@
+---
+name: 'Ibm3270'
+
+color_01: '#222222'    # Black (Host)
+color_02: '#F01818'    # Red (Syntax string)
+color_03: '#24D830'    # Green (Command)
+color_04: '#F0D824'    # Yellow (Command second)
+color_05: '#7890F0'    # Blue (Path)
+color_06: '#F078D8'    # Magenta (Syntax var)
+color_07: '#54E4E4'    # Cyan (Prompt)
+color_08: '#A5A5A5'    # White
+
+color_09: '#888888'    # Bright Black
+color_10: '#EF8383'    # Bright Red (Command error)
+color_11: '#7ED684'    # Bright Green (Exec)
+color_12: '#EFE28B'    # Bright Yellow
+color_13: '#B3BFEF'    # Bright Blue (Folder)
+color_14: '#EFB3E3'    # Bright Magenta
+color_15: '#9CE2E2'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#FDFDFD'  # Foreground (Text)
+
+cursor: '#FDFDFD'      # Cursor

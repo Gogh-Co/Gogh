@@ -1,0 +1,25 @@
+---
+name: 'Toy Chest'
+
+color_01: '#2C3F58'    # Black (Host)
+color_02: '#BE2D26'    # Red (Syntax string)
+color_03: '#1A9172'    # Green (Command)
+color_04: '#DB8E27'    # Yellow (Command second)
+color_05: '#325D96'    # Blue (Path)
+color_06: '#8A5EDC'    # Magenta (Syntax var)
+color_07: '#35A08F'    # Cyan (Prompt)
+color_08: '#23D183'    # White
+
+color_09: '#336889'    # Bright Black
+color_10: '#DD5944'    # Bright Red (Command error)
+color_11: '#31D07B'    # Bright Green (Exec)
+color_12: '#E7D84B'    # Bright Yellow
+color_13: '#34A6DA'    # Bright Blue (Folder)
+color_14: '#AE6BDC'    # Bright Magenta
+color_15: '#42C3AE'    # Bright Cyan
+color_16: '#D5D5D5'    # Bright White
+
+background: '#24364B'  # Background
+foreground: '#31D07B'  # Foreground (Text)
+
+cursor: '#31D07B'      # Cursor

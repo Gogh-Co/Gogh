@@ -1,0 +1,25 @@
+---
+name: 'Flat'
+
+color_01: '#2C3E50'    # Black (Host)
+color_02: '#C0392B'    # Red (Syntax string)
+color_03: '#27AE60'    # Green (Command)
+color_04: '#F39C12'    # Yellow (Command second)
+color_05: '#2980B9'    # Blue (Path)
+color_06: '#8E44AD'    # Magenta (Syntax var)
+color_07: '#16A085'    # Cyan (Prompt)
+color_08: '#BDC3C7'    # White
+
+color_09: '#34495E'    # Bright Black
+color_10: '#E74C3C'    # Bright Red (Command error)
+color_11: '#2ECC71'    # Bright Green (Exec)
+color_12: '#F1C40F'    # Bright Yellow
+color_13: '#3498DB'    # Bright Blue (Folder)
+color_14: '#9B59B6'    # Bright Magenta
+color_15: '#2AA198'    # Bright Cyan
+color_16: '#ECF0F1'    # Bright White
+
+background: '#1F2D3A'  # Background
+foreground: '#1ABC9C'  # Foreground (Text)
+
+cursor: '#1ABC9C'      # Cursor

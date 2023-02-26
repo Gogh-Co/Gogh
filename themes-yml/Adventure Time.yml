@@ -1,0 +1,25 @@
+---
+name: 'Adventure Time'
+
+color_01: '#050404'    # Black (Host)
+color_02: '#BD0013'    # Red (Syntax string)
+color_03: '#4AB118'    # Green (Command)
+color_04: '#E7741E'    # Yellow (Command second)
+color_05: '#0F4AC6'    # Blue (Path)
+color_06: '#665993'    # Magenta (Syntax var)
+color_07: '#70A598'    # Cyan (Prompt)
+color_08: '#F8DCC0'    # White
+
+color_09: '#4E7CBF'    # Bright Black
+color_10: '#FC5F5A'    # Bright Red (Command error)
+color_11: '#9EFF6E'    # Bright Green (Exec)
+color_12: '#EFC11A'    # Bright Yellow
+color_13: '#1997C6'    # Bright Blue (Folder)
+color_14: '#9B5953'    # Bright Magenta
+color_15: '#C8FAF4'    # Bright Cyan
+color_16: '#F6F5FB'    # Bright White
+
+background: '#1F1D45'  # Background
+foreground: '#F8DCC0'  # Foreground (Text)
+
+cursor: '#F8DCC0'      # Cursor

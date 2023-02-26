@@ -1,0 +1,25 @@
+---
+name: 'Hemisu Dark'
+
+color_01: '#444444'    # Black (Host)
+color_02: '#FF0054'    # Red (Syntax string)
+color_03: '#B1D630'    # Green (Command)
+color_04: '#9D895E'    # Yellow (Command second)
+color_05: '#67BEE3'    # Blue (Path)
+color_06: '#B576BC'    # Magenta (Syntax var)
+color_07: '#569A9F'    # Cyan (Prompt)
+color_08: '#EDEDED'    # White
+
+color_09: '#777777'    # Bright Black
+color_10: '#D65E75'    # Bright Red (Command error)
+color_11: '#BAFFAA'    # Bright Green (Exec)
+color_12: '#ECE1C8'    # Bright Yellow
+color_13: '#9FD3E5'    # Bright Blue (Folder)
+color_14: '#DEB3DF'    # Bright Magenta
+color_15: '#B6E0E5'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#BAFFAA'      # Cursor

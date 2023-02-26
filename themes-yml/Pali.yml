@@ -1,0 +1,25 @@
+---
+name: 'Pali'
+
+color_01: '#0A0A0A'    # Black (Host)
+color_02: '#AB8F74'    # Red (Syntax string)
+color_03: '#74AB8F'    # Green (Command)
+color_04: '#8FAB74'    # Yellow (Command second)
+color_05: '#8F74AB'    # Blue (Path)
+color_06: '#AB748F'    # Magenta (Syntax var)
+color_07: '#748FAB'    # Cyan (Prompt)
+color_08: '#F2F2F2'    # White
+
+color_09: '#5D5D5D'    # Bright Black
+color_10: '#FF1D62'    # Bright Red (Command error)
+color_11: '#9CC3AF'    # Bright Green (Exec)
+color_12: '#FFD00A'    # Bright Yellow
+color_13: '#AF9CC3'    # Bright Blue (Folder)
+color_14: '#FF1D62'    # Bright Magenta
+color_15: '#4BB8FD'    # Bright Cyan
+color_16: '#A020F0'    # Bright White
+
+background: '#232E37'  # Background
+foreground: '#D9E6F2'  # Foreground (Text)
+
+cursor: '#D9E6F2'      # Cursor

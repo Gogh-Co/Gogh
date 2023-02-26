@@ -1,0 +1,25 @@
+---
+name: 'Wild Cherry'
+
+color_01: '#000507'    # Black (Host)
+color_02: '#D94085'    # Red (Syntax string)
+color_03: '#2AB250'    # Green (Command)
+color_04: '#FFD16F'    # Yellow (Command second)
+color_05: '#883CDC'    # Blue (Path)
+color_06: '#ECECEC'    # Magenta (Syntax var)
+color_07: '#C1B8B7'    # Cyan (Prompt)
+color_08: '#FFF8DE'    # White
+
+color_09: '#009CC9'    # Bright Black
+color_10: '#DA6BAC'    # Bright Red (Command error)
+color_11: '#F4DCA5'    # Bright Green (Exec)
+color_12: '#EAC066'    # Bright Yellow
+color_13: '#308CBA'    # Bright Blue (Folder)
+color_14: '#AE636B'    # Bright Magenta
+color_15: '#FF919D'    # Bright Cyan
+color_16: '#E4838D'    # Bright White
+
+background: '#1F1726'  # Background
+foreground: '#DAFAFF'  # Foreground (Text)
+
+cursor: '#DAFAFF'      # Cursor

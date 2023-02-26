@@ -1,0 +1,25 @@
+---
+name: 'Sat'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#DD0007'    # Red (Syntax string)
+color_03: '#07DD00'    # Green (Command)
+color_04: '#DDD600'    # Yellow (Command second)
+color_05: '#0007DD'    # Blue (Path)
+color_06: '#D600DD'    # Magenta (Syntax var)
+color_07: '#00DDD6'    # Cyan (Prompt)
+color_08: '#F2F2F2'    # White
+
+color_09: '#7D7D7D'    # Bright Black
+color_10: '#FF7478'    # Bright Red (Command error)
+color_11: '#78FF74'    # Bright Green (Exec)
+color_12: '#FFFA74'    # Bright Yellow
+color_13: '#7478FF'    # Bright Blue (Folder)
+color_14: '#FA74FF'    # Bright Magenta
+color_15: '#74FFFA'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#758480'  # Background
+foreground: '#23476A'  # Foreground (Text)
+
+cursor: '#23476A'      # Cursor

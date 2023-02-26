@@ -1,0 +1,25 @@
+---
+name: 'Vaughn'
+
+color_01: '#25234F'    # Black (Host)
+color_02: '#705050'    # Red (Syntax string)
+color_03: '#60B48A'    # Green (Command)
+color_04: '#DFAF8F'    # Yellow (Command second)
+color_05: '#5555FF'    # Blue (Path)
+color_06: '#F08CC3'    # Magenta (Syntax var)
+color_07: '#8CD0D3'    # Cyan (Prompt)
+color_08: '#709080'    # White
+
+color_09: '#709080'    # Bright Black
+color_10: '#DCA3A3'    # Bright Red (Command error)
+color_11: '#60B48A'    # Bright Green (Exec)
+color_12: '#F0DFAF'    # Bright Yellow
+color_13: '#5555FF'    # Bright Blue (Folder)
+color_14: '#EC93D3'    # Bright Magenta
+color_15: '#93E0E3'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#25234F'  # Background
+foreground: '#DCDCCC'  # Foreground (Text)
+
+cursor: '#DCDCCC'      # Cursor

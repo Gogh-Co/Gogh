@@ -1,0 +1,25 @@
+---
+name: 'Mar'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#B5407B'    # Red (Syntax string)
+color_03: '#7BB540'    # Green (Command)
+color_04: '#B57B40'    # Yellow (Command second)
+color_05: '#407BB5'    # Blue (Path)
+color_06: '#7B40B5'    # Magenta (Syntax var)
+color_07: '#40B57B'    # Cyan (Prompt)
+color_08: '#F8F8F8'    # White
+
+color_09: '#737373'    # Bright Black
+color_10: '#CD73A0'    # Bright Red (Command error)
+color_11: '#A0CD73'    # Bright Green (Exec)
+color_12: '#CDA073'    # Bright Yellow
+color_13: '#73A0CD'    # Bright Blue (Folder)
+color_14: '#A073CD'    # Bright Magenta
+color_15: '#73CDA0'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#FFFFFF'  # Background
+foreground: '#23476A'  # Foreground (Text)
+
+cursor: '#23476A'      # Cursor

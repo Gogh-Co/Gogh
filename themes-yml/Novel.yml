@@ -1,0 +1,25 @@
+---
+name: 'Novel'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#CC0000'    # Red (Syntax string)
+color_03: '#009600'    # Green (Command)
+color_04: '#D06B00'    # Yellow (Command second)
+color_05: '#0000CC'    # Blue (Path)
+color_06: '#CC00CC'    # Magenta (Syntax var)
+color_07: '#0087CC'    # Cyan (Prompt)
+color_08: '#CCCCCC'    # White
+
+color_09: '#808080'    # Bright Black
+color_10: '#CC0000'    # Bright Red (Command error)
+color_11: '#009600'    # Bright Green (Exec)
+color_12: '#D06B00'    # Bright Yellow
+color_13: '#0000CC'    # Bright Blue (Folder)
+color_14: '#CC00CC'    # Bright Magenta
+color_15: '#0087CC'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#DFDBC3'  # Background
+foreground: '#3B2322'  # Foreground (Text)
+
+cursor: '#3B2322'      # Cursor

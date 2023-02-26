@@ -1,0 +1,25 @@
+---
+name: 'Tokyo Night Light'
+
+color_01: '#0F0F14'    # Black (Host)
+color_02: '#8C4351'    # Red (Syntax string)
+color_03: '#485E30'    # Green (Command)
+color_04: '#8F5E15'    # Yellow (Command second)
+color_05: '#34548A'    # Blue (Path)
+color_06: '#5A4A78'    # Magenta (Syntax var)
+color_07: '#0F4B6E'    # Cyan (Prompt)
+color_08: '#343B58'    # White
+
+color_09: '#9699A3'    # Bright Black
+color_10: '#8C4351'    # Bright Red (Command error)
+color_11: '#485E30'    # Bright Green (Exec)
+color_12: '#8F5E15'    # Bright Yellow
+color_13: '#34548A'    # Bright Blue (Folder)
+color_14: '#5A4A78'    # Bright Magenta
+color_15: '#0F4B6E'    # Bright Cyan
+color_16: '#343B58'    # Bright White
+
+background: '#D5D6DB'  # Background
+foreground: '#565A6E'  # Foreground (Text)
+
+cursor: '#565A6E'      # Cursor

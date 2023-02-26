@@ -1,0 +1,25 @@
+---
+name: 'Bim'
+
+color_01: '#2C2423'    # Black (Host)
+color_02: '#F557A0'    # Red (Syntax string)
+color_03: '#A9EE55'    # Green (Command)
+color_04: '#F5A255'    # Yellow (Command second)
+color_05: '#5EA2EC'    # Blue (Path)
+color_06: '#A957EC'    # Magenta (Syntax var)
+color_07: '#5EEEA0'    # Cyan (Prompt)
+color_08: '#918988'    # White
+
+color_09: '#918988'    # Bright Black
+color_10: '#F579B2'    # Bright Red (Command error)
+color_11: '#BBEE78'    # Bright Green (Exec)
+color_12: '#F5B378'    # Bright Yellow
+color_13: '#81B3EC'    # Bright Blue (Folder)
+color_14: '#BB79EC'    # Bright Magenta
+color_15: '#81EEB2'    # Bright Cyan
+color_16: '#F5EEEC'    # Bright White
+
+background: '#012849'  # Background
+foreground: '#A9BED8'  # Foreground (Text)
+
+cursor: '#A9BED8'      # Cursor

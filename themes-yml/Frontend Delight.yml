@@ -1,0 +1,25 @@
+---
+name: 'Frontend Delight'
+
+color_01: '#242526'    # Black (Host)
+color_02: '#F8511B'    # Red (Syntax string)
+color_03: '#565747'    # Green (Command)
+color_04: '#FA771D'    # Yellow (Command second)
+color_05: '#2C70B7'    # Blue (Path)
+color_06: '#F02E4F'    # Magenta (Syntax var)
+color_07: '#3CA1A6'    # Cyan (Prompt)
+color_08: '#ADADAD'    # White
+
+color_09: '#5FAC6D'    # Bright Black
+color_10: '#F74319'    # Bright Red (Command error)
+color_11: '#74EC4C'    # Bright Green (Exec)
+color_12: '#FDC325'    # Bright Yellow
+color_13: '#3393CA'    # Bright Blue (Folder)
+color_14: '#E75E4F'    # Bright Magenta
+color_15: '#4FBCE6'    # Bright Cyan
+color_16: '#8C735B'    # Bright White
+
+background: '#1B1C1D'  # Background
+foreground: '#ADADAD'  # Foreground (Text)
+
+cursor: '#ADADAD'      # Cursor

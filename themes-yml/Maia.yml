@@ -1,0 +1,25 @@
+---
+name: 'Maia'
+
+color_01: '#232423'    # Black (Host)
+color_02: '#BA2922'    # Red (Syntax string)
+color_03: '#7E807E'    # Green (Command)
+color_04: '#4C4F4D'    # Yellow (Command second)
+color_05: '#16A085'    # Blue (Path)
+color_06: '#43746A'    # Magenta (Syntax var)
+color_07: '#00CCCC'    # Cyan (Prompt)
+color_08: '#E0E0E0'    # White
+
+color_09: '#282928'    # Bright Black
+color_10: '#CC372C'    # Bright Red (Command error)
+color_11: '#8D8F8D'    # Bright Green (Exec)
+color_12: '#4E524F'    # Bright Yellow
+color_13: '#13BF9D'    # Bright Blue (Folder)
+color_14: '#487D72'    # Bright Magenta
+color_15: '#00D1D1'    # Bright Cyan
+color_16: '#E8E8E8'    # Bright White
+
+background: '#31363B'  # Background
+foreground: '#BDC3C7'  # Foreground (Text)
+
+cursor: '#BDC3C7'      # Cursor

@@ -1,0 +1,25 @@
+---
+name: 'Monokai Dark'
+
+color_01: '#75715E'    # Black (Host)
+color_02: '#F92672'    # Red (Syntax string)
+color_03: '#A6E22E'    # Green (Command)
+color_04: '#F4BF75'    # Yellow (Command second)
+color_05: '#66D9EF'    # Blue (Path)
+color_06: '#AE81FF'    # Magenta (Syntax var)
+color_07: '#2AA198'    # Cyan (Prompt)
+color_08: '#F9F8F5'    # White
+
+color_09: '#272822'    # Bright Black
+color_10: '#F92672'    # Bright Red (Command error)
+color_11: '#A6E22E'    # Bright Green (Exec)
+color_12: '#F4BF75'    # Bright Yellow
+color_13: '#66D9EF'    # Bright Blue (Folder)
+color_14: '#AE81FF'    # Bright Magenta
+color_15: '#2AA198'    # Bright Cyan
+color_16: '#F8F8F2'    # Bright White
+
+background: '#272822'  # Background
+foreground: '#F8F8F2'  # Foreground (Text)
+
+cursor: '#F8F8F2'      # Cursor

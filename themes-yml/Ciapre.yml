@@ -1,0 +1,25 @@
+---
+name: 'Ciapre'
+
+color_01: '#181818'    # Black (Host)
+color_02: '#810009'    # Red (Syntax string)
+color_03: '#48513B'    # Green (Command)
+color_04: '#CC8B3F'    # Yellow (Command second)
+color_05: '#576D8C'    # Blue (Path)
+color_06: '#724D7C'    # Magenta (Syntax var)
+color_07: '#5C4F4B'    # Cyan (Prompt)
+color_08: '#AEA47F'    # White
+
+color_09: '#555555'    # Bright Black
+color_10: '#AC3835'    # Bright Red (Command error)
+color_11: '#A6A75D'    # Bright Green (Exec)
+color_12: '#DCDF7C'    # Bright Yellow
+color_13: '#3097C6'    # Bright Blue (Folder)
+color_14: '#D33061'    # Bright Magenta
+color_15: '#F3DBB2'    # Bright Cyan
+color_16: '#F4F4F4'    # Bright White
+
+background: '#191C27'  # Background
+foreground: '#AEA47A'  # Foreground (Text)
+
+cursor: '#AEA47A'      # Cursor

@@ -1,0 +1,25 @@
+---
+name: 'Github'
+
+color_01: '#3E3E3E'    # Black (Host)
+color_02: '#970B16'    # Red (Syntax string)
+color_03: '#07962A'    # Green (Command)
+color_04: '#F8EEC7'    # Yellow (Command second)
+color_05: '#003E8A'    # Blue (Path)
+color_06: '#E94691'    # Magenta (Syntax var)
+color_07: '#89D1EC'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#666666'    # Bright Black
+color_10: '#DE0000'    # Bright Red (Command error)
+color_11: '#87D5A2'    # Bright Green (Exec)
+color_12: '#F1D007'    # Bright Yellow
+color_13: '#2E6CBA'    # Bright Blue (Folder)
+color_14: '#FFA29F'    # Bright Magenta
+color_15: '#1CFAFE'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#F4F4F4'  # Background
+foreground: '#3E3E3E'  # Foreground (Text)
+
+cursor: '#3E3E3E'      # Cursor

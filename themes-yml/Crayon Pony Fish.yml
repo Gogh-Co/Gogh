@@ -1,0 +1,25 @@
+---
+name: 'Crayon Pony Fish'
+
+color_01: '#2B1B1D'    # Black (Host)
+color_02: '#91002B'    # Red (Syntax string)
+color_03: '#579524'    # Green (Command)
+color_04: '#AB311B'    # Yellow (Command second)
+color_05: '#8C87B0'    # Blue (Path)
+color_06: '#692F50'    # Magenta (Syntax var)
+color_07: '#E8A866'    # Cyan (Prompt)
+color_08: '#68525A'    # White
+
+color_09: '#3D2B2E'    # Bright Black
+color_10: '#C5255D'    # Bright Red (Command error)
+color_11: '#8DFF57'    # Bright Green (Exec)
+color_12: '#C8381D'    # Bright Yellow
+color_13: '#CFC9FF'    # Bright Blue (Folder)
+color_14: '#FC6CBA'    # Bright Magenta
+color_15: '#FFCEAF'    # Bright Cyan
+color_16: '#B0949D'    # Bright White
+
+background: '#150707'  # Background
+foreground: '#68525A'  # Foreground (Text)
+
+cursor: '#68525A'      # Cursor

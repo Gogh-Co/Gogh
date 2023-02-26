@@ -1,0 +1,25 @@
+---
+name: 'Tomorrow Night Blue'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#FF9DA3'    # Red (Syntax string)
+color_03: '#D1F1A9'    # Green (Command)
+color_04: '#FFEEAD'    # Yellow (Command second)
+color_05: '#BBDAFF'    # Blue (Path)
+color_06: '#EBBBFF'    # Magenta (Syntax var)
+color_07: '#99FFFF'    # Cyan (Prompt)
+color_08: '#FFFEFE'    # White
+
+color_09: '#000000'    # Bright Black
+color_10: '#FF9CA3'    # Bright Red (Command error)
+color_11: '#D0F0A8'    # Bright Green (Exec)
+color_12: '#FFEDAC'    # Bright Yellow
+color_13: '#BADAFF'    # Bright Blue (Folder)
+color_14: '#EBBAFF'    # Bright Magenta
+color_15: '#99FFFF'    # Bright Cyan
+color_16: '#FFFEFE'    # Bright White
+
+background: '#002451'  # Background
+foreground: '#FFFEFE'  # Foreground (Text)
+
+cursor: '#FFFEFE'      # Cursor

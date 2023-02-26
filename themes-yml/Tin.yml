@@ -1,0 +1,25 @@
+---
+name: 'Tin'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#8D534E'    # Red (Syntax string)
+color_03: '#4E8D53'    # Green (Command)
+color_04: '#888D4E'    # Yellow (Command second)
+color_05: '#534E8D'    # Blue (Path)
+color_06: '#8D4E88'    # Magenta (Syntax var)
+color_07: '#4E888D'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#000000'    # Bright Black
+color_10: '#B57D78'    # Bright Red (Command error)
+color_11: '#78B57D'    # Bright Green (Exec)
+color_12: '#B0B578'    # Bright Yellow
+color_13: '#7D78B5'    # Bright Blue (Folder)
+color_14: '#B578B0'    # Bright Magenta
+color_15: '#78B0B5'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#2E2E35'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

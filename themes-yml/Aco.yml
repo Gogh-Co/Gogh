@@ -1,0 +1,25 @@
+---
+name: 'Aco'
+
+color_01: '#3F3F3F'    # Black (Host)
+color_02: '#FF0883'    # Red (Syntax string)
+color_03: '#83FF08'    # Green (Command)
+color_04: '#FF8308'    # Yellow (Command second)
+color_05: '#0883FF'    # Blue (Path)
+color_06: '#8308FF'    # Magenta (Syntax var)
+color_07: '#08FF83'    # Cyan (Prompt)
+color_08: '#BEBEBE'    # White
+
+color_09: '#474747'    # Bright Black
+color_10: '#FF1E8E'    # Bright Red (Command error)
+color_11: '#8EFF1E'    # Bright Green (Exec)
+color_12: '#FF8E1E'    # Bright Yellow
+color_13: '#1E8EFF'    # Bright Blue (Folder)
+color_14: '#8E1EFF'    # Bright Magenta
+color_15: '#1EFF8E'    # Bright Cyan
+color_16: '#C4C4C4'    # Bright White
+
+background: '#1F1305'  # Background
+foreground: '#B4E1FD'  # Foreground (Text)
+
+cursor: '#B4E1FD'      # Cursor

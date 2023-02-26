@@ -1,0 +1,25 @@
+---
+name: 'Mono Cyan'
+
+color_01: '#003340'    # Black (Host)
+color_02: '#00CCFF'    # Red (Syntax string)
+color_03: '#00CCFF'    # Green (Command)
+color_04: '#00CCFF'    # Yellow (Command second)
+color_05: '#00CCFF'    # Blue (Path)
+color_06: '#00CCFF'    # Magenta (Syntax var)
+color_07: '#00CCFF'    # Cyan (Prompt)
+color_08: '#00CCFF'    # White
+
+color_09: '#00CCFF'    # Bright Black
+color_10: '#00CCFF'    # Bright Red (Command error)
+color_11: '#00CCFF'    # Bright Green (Exec)
+color_12: '#00CCFF'    # Bright Yellow
+color_13: '#00CCFF'    # Bright Blue (Folder)
+color_14: '#00CCFF'    # Bright Magenta
+color_15: '#00CCFF'    # Bright Cyan
+color_16: '#00CCFF'    # Bright White
+
+background: '#00222B'  # Background
+foreground: '#00CCFF'  # Foreground (Text)
+
+cursor: '#00CCFF'      # Cursor

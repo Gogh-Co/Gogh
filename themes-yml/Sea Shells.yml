@@ -1,0 +1,25 @@
+---
+name: 'Sea Shells'
+
+color_01: '#17384C'    # Black (Host)
+color_02: '#D15123'    # Red (Syntax string)
+color_03: '#027C9B'    # Green (Command)
+color_04: '#FCA02F'    # Yellow (Command second)
+color_05: '#1E4950'    # Blue (Path)
+color_06: '#68D4F1'    # Magenta (Syntax var)
+color_07: '#50A3B5'    # Cyan (Prompt)
+color_08: '#DEB88D'    # White
+
+color_09: '#434B53'    # Bright Black
+color_10: '#D48678'    # Bright Red (Command error)
+color_11: '#628D98'    # Bright Green (Exec)
+color_12: '#FDD39F'    # Bright Yellow
+color_13: '#1BBCDD'    # Bright Blue (Folder)
+color_14: '#BBE3EE'    # Bright Magenta
+color_15: '#87ACB4'    # Bright Cyan
+color_16: '#FEE4CE'    # Bright White
+
+background: '#09141B'  # Background
+foreground: '#DEB88D'  # Foreground (Text)
+
+cursor: '#DEB88D'      # Cursor

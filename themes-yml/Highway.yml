@@ -1,0 +1,25 @@
+---
+name: 'Highway'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#D00E18'    # Red (Syntax string)
+color_03: '#138034'    # Green (Command)
+color_04: '#FFCB3E'    # Yellow (Command second)
+color_05: '#006BB3'    # Blue (Path)
+color_06: '#6B2775'    # Magenta (Syntax var)
+color_07: '#384564'    # Cyan (Prompt)
+color_08: '#EDEDED'    # White
+
+color_09: '#5D504A'    # Bright Black
+color_10: '#F07E18'    # Bright Red (Command error)
+color_11: '#B1D130'    # Bright Green (Exec)
+color_12: '#FFF120'    # Bright Yellow
+color_13: '#4FC2FD'    # Bright Blue (Folder)
+color_14: '#DE0071'    # Bright Magenta
+color_15: '#5D504A'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#222225'  # Background
+foreground: '#EDEDED'  # Foreground (Text)
+
+cursor: '#EDEDED'      # Cursor

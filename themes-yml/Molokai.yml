@@ -1,0 +1,25 @@
+---
+name: 'Molokai'
+
+color_01: '#1B1D1E'    # Black (Host)
+color_02: '#7325FA'    # Red (Syntax string)
+color_03: '#23E298'    # Green (Command)
+color_04: '#60D4DF'    # Yellow (Command second)
+color_05: '#D08010'    # Blue (Path)
+color_06: '#FF0087'    # Magenta (Syntax var)
+color_07: '#D0A843'    # Cyan (Prompt)
+color_08: '#BBBBBB'    # White
+
+color_09: '#555555'    # Bright Black
+color_10: '#9D66F6'    # Bright Red (Command error)
+color_11: '#5FE0B1'    # Bright Green (Exec)
+color_12: '#6DF2FF'    # Bright Yellow
+color_13: '#FFAF00'    # Bright Blue (Folder)
+color_14: '#FF87AF'    # Bright Magenta
+color_15: '#FFCE51'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#1B1D1E'  # Background
+foreground: '#BBBBBB'  # Foreground (Text)
+
+cursor: '#BBBBBB'      # Cursor

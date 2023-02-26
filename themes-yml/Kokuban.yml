@@ -1,0 +1,25 @@
+---
+name: 'Kokuban'
+
+color_01: '#2E8744'    # Black (Host)
+color_02: '#D84E4C'    # Red (Syntax string)
+color_03: '#95DA5A'    # Green (Command)
+color_04: '#D6E264'    # Yellow (Command second)
+color_05: '#4B9ED7'    # Blue (Path)
+color_06: '#945FC5'    # Magenta (Syntax var)
+color_07: '#D89B25'    # Cyan (Prompt)
+color_08: '#D8E2D7'    # White
+
+color_09: '#34934F'    # Bright Black
+color_10: '#FF4F59'    # Bright Red (Command error)
+color_11: '#AFF56A'    # Bright Green (Exec)
+color_12: '#FCFF75'    # Bright Yellow
+color_13: '#57AEFF'    # Bright Blue (Folder)
+color_14: '#AE63E9'    # Bright Magenta
+color_15: '#FFAA2B'    # Bright Cyan
+color_16: '#FFFEFE'    # Bright White
+
+background: '#0D4A08'  # Background
+foreground: '#D8E2D7'  # Foreground (Text)
+
+cursor: '#D8E2D7'      # Cursor

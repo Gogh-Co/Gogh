@@ -1,0 +1,25 @@
+---
+name: 'Gruvbox Dark'
+
+color_01: '#282828'    # Black (Host)
+color_02: '#CC241D'    # Red (Syntax string)
+color_03: '#98971A'    # Green (Command)
+color_04: '#D79921'    # Yellow (Command second)
+color_05: '#458588'    # Blue (Path)
+color_06: '#B16286'    # Magenta (Syntax var)
+color_07: '#689D6A'    # Cyan (Prompt)
+color_08: '#A89984'    # White
+
+color_09: '#928374'    # Bright Black
+color_10: '#FB4934'    # Bright Red (Command error)
+color_11: '#B8BB26'    # Bright Green (Exec)
+color_12: '#FABD2F'    # Bright Yellow
+color_13: '#83A598'    # Bright Blue (Folder)
+color_14: '#D3869B'    # Bright Magenta
+color_15: '#8EC07C'    # Bright Cyan
+color_16: '#EBDBB2'    # Bright White
+
+background: '#282828'  # Background
+foreground: '#EBDBB2'  # Foreground (Text)
+
+cursor: '#EBDBB2'      # Cursor

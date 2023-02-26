@@ -1,0 +1,25 @@
+---
+name: 'Alien Blood'
+
+color_01: '#112616'    # Black (Host)
+color_02: '#7F2B27'    # Red (Syntax string)
+color_03: '#2F7E25'    # Green (Command)
+color_04: '#717F24'    # Yellow (Command second)
+color_05: '#2F6A7F'    # Blue (Path)
+color_06: '#47587F'    # Magenta (Syntax var)
+color_07: '#327F77'    # Cyan (Prompt)
+color_08: '#647D75'    # White
+
+color_09: '#3C4812'    # Bright Black
+color_10: '#E08009'    # Bright Red (Command error)
+color_11: '#18E000'    # Bright Green (Exec)
+color_12: '#BDE000'    # Bright Yellow
+color_13: '#00AAE0'    # Bright Blue (Folder)
+color_14: '#0058E0'    # Bright Magenta
+color_15: '#00E0C4'    # Bright Cyan
+color_16: '#73FA91'    # Bright White
+
+background: '#0F1610'  # Background
+foreground: '#637D75'  # Foreground (Text)
+
+cursor: '#637D75'      # Cursor

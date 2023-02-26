@@ -1,0 +1,25 @@
+---
+name: 'Teerb'
+
+color_01: '#1C1C1C'    # Black (Host)
+color_02: '#D68686'    # Red (Syntax string)
+color_03: '#AED686'    # Green (Command)
+color_04: '#D7AF87'    # Yellow (Command second)
+color_05: '#86AED6'    # Blue (Path)
+color_06: '#D6AED6'    # Magenta (Syntax var)
+color_07: '#8ADBB4'    # Cyan (Prompt)
+color_08: '#D0D0D0'    # White
+
+color_09: '#1C1C1C'    # Bright Black
+color_10: '#D68686'    # Bright Red (Command error)
+color_11: '#AED686'    # Bright Green (Exec)
+color_12: '#E4C9AF'    # Bright Yellow
+color_13: '#86AED6'    # Bright Blue (Folder)
+color_14: '#D6AED6'    # Bright Magenta
+color_15: '#B1E7DD'    # Bright Cyan
+color_16: '#EFEFEF'    # Bright White
+
+background: '#262626'  # Background
+foreground: '#D0D0D0'  # Foreground (Text)
+
+cursor: '#D0D0D0'      # Cursor

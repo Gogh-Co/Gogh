@@ -1,0 +1,25 @@
+---
+name: 'Gogh'
+
+color_01: '#292D3E'    # Black (Host)
+color_02: '#F07178'    # Red (Syntax string)
+color_03: '#62DE84'    # Green (Command)
+color_04: '#FFCB6B'    # Yellow (Command second)
+color_05: '#75A1FF'    # Blue (Path)
+color_06: '#F580FF'    # Magenta (Syntax var)
+color_07: '#60BAEC'    # Cyan (Prompt)
+color_08: '#ABB2BF'    # White
+
+color_09: '#959DCB'    # Bright Black
+color_10: '#F07178'    # Bright Red (Command error)
+color_11: '#C3E88D'    # Bright Green (Exec)
+color_12: '#FF5572'    # Bright Yellow
+color_13: '#82AAFF'    # Bright Blue (Folder)
+color_14: '#FFCB6B'    # Bright Magenta
+color_15: '#676E95'    # Bright Cyan
+color_16: '#FFFEFE'    # Bright White
+
+background: '#292D3E'  # Background
+foreground: '#BFC7D5'  # Foreground (Text)
+
+cursor: '#BFC7D5'      # Cursor

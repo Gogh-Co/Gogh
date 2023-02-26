@@ -1,0 +1,25 @@
+---
+name: 'Neopolitan'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#800000'    # Red (Syntax string)
+color_03: '#61CE3C'    # Green (Command)
+color_04: '#FBDE2D'    # Yellow (Command second)
+color_05: '#253B76'    # Blue (Path)
+color_06: '#FF0080'    # Magenta (Syntax var)
+color_07: '#8DA6CE'    # Cyan (Prompt)
+color_08: '#F8F8F8'    # White
+
+color_09: '#000000'    # Bright Black
+color_10: '#800000'    # Bright Red (Command error)
+color_11: '#61CE3C'    # Bright Green (Exec)
+color_12: '#FBDE2D'    # Bright Yellow
+color_13: '#253B76'    # Bright Blue (Folder)
+color_14: '#FF0080'    # Bright Magenta
+color_15: '#8DA6CE'    # Bright Cyan
+color_16: '#F8F8F8'    # Bright White
+
+background: '#271F19'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

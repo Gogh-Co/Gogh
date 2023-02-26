@@ -1,0 +1,25 @@
+---
+name: 'Everblush'
+
+color_01: '#232A2D'    # Black (Host)
+color_02: '#E57474'    # Red (Syntax string)
+color_03: '#8CCF7E'    # Green (Command)
+color_04: '#E5C76B'    # Yellow (Command second)
+color_05: '#67B0E8'    # Blue (Path)
+color_06: '#C47FD5'    # Magenta (Syntax var)
+color_07: '#6CBFBF'    # Cyan (Prompt)
+color_08: '#B3B9B8'    # White
+
+color_09: '#2D3437'    # Bright Black
+color_10: '#EF7E7E'    # Bright Red (Command error)
+color_11: '#96D988'    # Bright Green (Exec)
+color_12: '#F4D67A'    # Bright Yellow
+color_13: '#71BAF2'    # Bright Blue (Folder)
+color_14: '#CE89DF'    # Bright Magenta
+color_15: '#67CBE7'    # Bright Cyan
+color_16: '#BDC3C2'    # Bright White
+
+background: '#141B1E'  # Background
+foreground: '#DADADA'  # Foreground (Text)
+
+cursor: '#DADADA'      # Cursor

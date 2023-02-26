@@ -1,0 +1,25 @@
+---
+name: 'One Half Black'
+
+color_01: '#282C34'    # Black (Host)
+color_02: '#E06C75'    # Red (Syntax string)
+color_03: '#98C379'    # Green (Command)
+color_04: '#E5C07B'    # Yellow (Command second)
+color_05: '#61AFEF'    # Blue (Path)
+color_06: '#C678DD'    # Magenta (Syntax var)
+color_07: '#56B6C2'    # Cyan (Prompt)
+color_08: '#DCDFE4'    # White
+
+color_09: '#282C34'    # Bright Black
+color_10: '#E06C75'    # Bright Red (Command error)
+color_11: '#98C379'    # Bright Green (Exec)
+color_12: '#E5C07B'    # Bright Yellow
+color_13: '#61AFEF'    # Bright Blue (Folder)
+color_14: '#C678DD'    # Bright Magenta
+color_15: '#56B6C2'    # Bright Cyan
+color_16: '#DCDFE4'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#DCDFE4'  # Foreground (Text)
+
+cursor: '#DCDFE4'      # Cursor

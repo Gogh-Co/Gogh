@@ -1,0 +1,25 @@
+---
+name: 'Colorcli'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#D70000'    # Red (Syntax string)
+color_03: '#5FAF00'    # Green (Command)
+color_04: '#5FAF00'    # Yellow (Command second)
+color_05: '#005F87'    # Blue (Path)
+color_06: '#D70000'    # Magenta (Syntax var)
+color_07: '#5F5F5F'    # Cyan (Prompt)
+color_08: '#E4E4E4'    # White
+
+color_09: '#5F5F5F'    # Bright Black
+color_10: '#D70000'    # Bright Red (Command error)
+color_11: '#5F5F5F'    # Bright Green (Exec)
+color_12: '#FFFF00'    # Bright Yellow
+color_13: '#0087AF'    # Bright Blue (Folder)
+color_14: '#0087AF'    # Bright Magenta
+color_15: '#0087AF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#FFFFFF'  # Background
+foreground: '#005F87'  # Foreground (Text)
+
+cursor: '#005F87'      # Cursor

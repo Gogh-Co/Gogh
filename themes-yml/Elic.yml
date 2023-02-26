@@ -1,0 +1,25 @@
+---
+name: 'Elic'
+
+color_01: '#303030'    # Black (Host)
+color_02: '#E1321A'    # Red (Syntax string)
+color_03: '#6AB017'    # Green (Command)
+color_04: '#FFC005'    # Yellow (Command second)
+color_05: '#729FCF'    # Blue (Path)
+color_06: '#EC0048'    # Magenta (Syntax var)
+color_07: '#F2F2F2'    # Cyan (Prompt)
+color_08: '#2AA7E7'    # White
+
+color_09: '#5D5D5D'    # Bright Black
+color_10: '#FF361E'    # Bright Red (Command error)
+color_11: '#7BC91F'    # Bright Green (Exec)
+color_12: '#FFD00A'    # Bright Yellow
+color_13: '#0071FF'    # Bright Blue (Folder)
+color_14: '#FF1D62'    # Bright Magenta
+color_15: '#4BB8FD'    # Bright Cyan
+color_16: '#A020F0'    # Bright White
+
+background: '#4A453E'  # Background
+foreground: '#F2F2F2'  # Foreground (Text)
+
+cursor: '#F2F2F2'      # Cursor

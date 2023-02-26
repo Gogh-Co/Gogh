@@ -1,0 +1,25 @@
+---
+name: 'Azu'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#AC6D74'    # Red (Syntax string)
+color_03: '#74AC6D'    # Green (Command)
+color_04: '#ACA46D'    # Yellow (Command second)
+color_05: '#6D74AC'    # Blue (Path)
+color_06: '#A46DAC'    # Magenta (Syntax var)
+color_07: '#6DACA4'    # Cyan (Prompt)
+color_08: '#E6E6E6'    # White
+
+color_09: '#262626'    # Bright Black
+color_10: '#D6B8BC'    # Bright Red (Command error)
+color_11: '#BCD6B8'    # Bright Green (Exec)
+color_12: '#D6D3B8'    # Bright Yellow
+color_13: '#B8BCD6'    # Bright Blue (Folder)
+color_14: '#D3B8D6'    # Bright Magenta
+color_15: '#B8D6D3'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#09111A'  # Background
+foreground: '#D9E6F2'  # Foreground (Text)
+
+cursor: '#D9E6F2'      # Cursor

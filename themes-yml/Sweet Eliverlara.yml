@@ -1,0 +1,25 @@
+---
+name: 'Sweet Eliverlara'
+
+color_01: '#282C34'    # Black (Host)
+color_02: '#ED254E'    # Red (Syntax string)
+color_03: '#71F79F'    # Green (Command)
+color_04: '#F9DC5C'    # Yellow (Command second)
+color_05: '#7CB7FF'    # Blue (Path)
+color_06: '#C74DED'    # Magenta (Syntax var)
+color_07: '#00C1E4'    # Cyan (Prompt)
+color_08: '#DCDFE4'    # White
+
+color_09: '#282C34'    # Bright Black
+color_10: '#ED254E'    # Bright Red (Command error)
+color_11: '#71F79F'    # Bright Green (Exec)
+color_12: '#F9DC5C'    # Bright Yellow
+color_13: '#7CB7FF'    # Bright Blue (Folder)
+color_14: '#C74DED'    # Bright Magenta
+color_15: '#00C1E4'    # Bright Cyan
+color_16: '#DCDFE4'    # Bright White
+
+background: '#282C34'  # Background
+foreground: '#C3C7D1'  # Foreground (Text)
+
+cursor: '#C3C7D1'      # Cursor

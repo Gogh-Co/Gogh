@@ -1,0 +1,25 @@
+---
+name: 'Vag'
+
+color_01: '#303030'    # Black (Host)
+color_02: '#A87139'    # Red (Syntax string)
+color_03: '#39A871'    # Green (Command)
+color_04: '#71A839'    # Yellow (Command second)
+color_05: '#7139A8'    # Blue (Path)
+color_06: '#A83971'    # Magenta (Syntax var)
+color_07: '#3971A8'    # Cyan (Prompt)
+color_08: '#8A8A8A'    # White
+
+color_09: '#494949'    # Bright Black
+color_10: '#B0763B'    # Bright Red (Command error)
+color_11: '#3BB076'    # Bright Green (Exec)
+color_12: '#76B03B'    # Bright Yellow
+color_13: '#763BB0'    # Bright Blue (Folder)
+color_14: '#B03B76'    # Bright Magenta
+color_15: '#3B76B0'    # Bright Cyan
+color_16: '#CFCFCF'    # Bright White
+
+background: '#191F1D'  # Background
+foreground: '#D9E6F2'  # Foreground (Text)
+
+cursor: '#D9E6F2'      # Cursor

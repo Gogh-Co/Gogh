@@ -1,0 +1,25 @@
+---
+name: 'Japanesque'
+
+color_01: '#343935'    # Black (Host)
+color_02: '#CF3F61'    # Red (Syntax string)
+color_03: '#7BB75B'    # Green (Command)
+color_04: '#E9B32A'    # Yellow (Command second)
+color_05: '#4C9AD4'    # Blue (Path)
+color_06: '#A57FC4'    # Magenta (Syntax var)
+color_07: '#389AAD'    # Cyan (Prompt)
+color_08: '#FAFAF6'    # White
+
+color_09: '#595B59'    # Bright Black
+color_10: '#D18FA6'    # Bright Red (Command error)
+color_11: '#767F2C'    # Bright Green (Exec)
+color_12: '#78592F'    # Bright Yellow
+color_13: '#135979'    # Bright Blue (Folder)
+color_14: '#604291'    # Bright Magenta
+color_15: '#76BBCA'    # Bright Cyan
+color_16: '#B2B5AE'    # Bright White
+
+background: '#1E1E1E'  # Background
+foreground: '#F7F6EC'  # Foreground (Text)
+
+cursor: '#F7F6EC'      # Cursor

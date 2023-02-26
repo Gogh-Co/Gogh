@@ -1,0 +1,25 @@
+---
+name: 'Oceanic Next'
+
+color_01: '#121C21'    # Black (Host)
+color_02: '#E44754'    # Red (Syntax string)
+color_03: '#89BD82'    # Green (Command)
+color_04: '#F7BD51'    # Yellow (Command second)
+color_05: '#5486C0'    # Blue (Path)
+color_06: '#B77EB8'    # Magenta (Syntax var)
+color_07: '#50A5A4'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#52606B'    # Bright Black
+color_10: '#E44754'    # Bright Red (Command error)
+color_11: '#89BD82'    # Bright Green (Exec)
+color_12: '#F7BD51'    # Bright Yellow
+color_13: '#5486C0'    # Bright Blue (Folder)
+color_14: '#B77EB8'    # Bright Magenta
+color_15: '#50A5A4'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#121B21'  # Background
+foreground: '#B3B8C3'  # Foreground (Text)
+
+cursor: '#B3B8C3'      # Cursor

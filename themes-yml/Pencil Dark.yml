@@ -1,0 +1,25 @@
+---
+name: 'Pencil Dark'
+
+color_01: '#212121'    # Black (Host)
+color_02: '#C30771'    # Red (Syntax string)
+color_03: '#10A778'    # Green (Command)
+color_04: '#A89C14'    # Yellow (Command second)
+color_05: '#008EC4'    # Blue (Path)
+color_06: '#523C79'    # Magenta (Syntax var)
+color_07: '#20A5BA'    # Cyan (Prompt)
+color_08: '#D9D9D9'    # White
+
+color_09: '#424242'    # Bright Black
+color_10: '#FB007A'    # Bright Red (Command error)
+color_11: '#5FD7AF'    # Bright Green (Exec)
+color_12: '#F3E430'    # Bright Yellow
+color_13: '#20BBFC'    # Bright Blue (Folder)
+color_14: '#6855DE'    # Bright Magenta
+color_15: '#4FB8CC'    # Bright Cyan
+color_16: '#F1F1F1'    # Bright White
+
+background: '#212121'  # Background
+foreground: '#F1F1F1'  # Foreground (Text)
+
+cursor: '#F1F1F1'      # Cursor

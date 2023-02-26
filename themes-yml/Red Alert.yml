@@ -1,0 +1,25 @@
+---
+name: 'Red Alert'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#D62E4E'    # Red (Syntax string)
+color_03: '#71BE6B'    # Green (Command)
+color_04: '#BEB86B'    # Yellow (Command second)
+color_05: '#489BEE'    # Blue (Path)
+color_06: '#E979D7'    # Magenta (Syntax var)
+color_07: '#6BBEB8'    # Cyan (Prompt)
+color_08: '#D6D6D6'    # White
+
+color_09: '#262626'    # Bright Black
+color_10: '#E02553'    # Bright Red (Command error)
+color_11: '#AFF08C'    # Bright Green (Exec)
+color_12: '#DFDDB7'    # Bright Yellow
+color_13: '#65AAF1'    # Bright Blue (Folder)
+color_14: '#DDB7DF'    # Bright Magenta
+color_15: '#B7DFDD'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#762423'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

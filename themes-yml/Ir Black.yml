@@ -1,0 +1,25 @@
+---
+name: 'Ir Black'
+
+color_01: '#4E4E4E'    # Black (Host)
+color_02: '#FF6C60'    # Red (Syntax string)
+color_03: '#A8FF60'    # Green (Command)
+color_04: '#FFFFB6'    # Yellow (Command second)
+color_05: '#69CBFE'    # Blue (Path)
+color_06: '#FF73FD'    # Magenta (Syntax var)
+color_07: '#C6C5FE'    # Cyan (Prompt)
+color_08: '#EEEEEE'    # White
+
+color_09: '#7C7C7C'    # Bright Black
+color_10: '#FFB6B0'    # Bright Red (Command error)
+color_11: '#CEFFAC'    # Bright Green (Exec)
+color_12: '#FFFFCB'    # Bright Yellow
+color_13: '#B5DCFE'    # Bright Blue (Folder)
+color_14: '#FF9CFE'    # Bright Magenta
+color_15: '#DFDFFE'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#EEEEEE'  # Foreground (Text)
+
+cursor: '#FFA560'      # Cursor

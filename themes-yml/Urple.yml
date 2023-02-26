@@ -1,0 +1,25 @@
+---
+name: 'Urple'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#B0425B'    # Red (Syntax string)
+color_03: '#37A415'    # Green (Command)
+color_04: '#AD5C42'    # Yellow (Command second)
+color_05: '#564D9B'    # Blue (Path)
+color_06: '#6C3CA1'    # Magenta (Syntax var)
+color_07: '#808080'    # Cyan (Prompt)
+color_08: '#87799C'    # White
+
+color_09: '#5D3225'    # Bright Black
+color_10: '#FF6388'    # Bright Red (Command error)
+color_11: '#29E620'    # Bright Green (Exec)
+color_12: '#F08161'    # Bright Yellow
+color_13: '#867AED'    # Bright Blue (Folder)
+color_14: '#A05EEE'    # Bright Magenta
+color_15: '#EAEAEA'    # Bright Cyan
+color_16: '#BFA3FF'    # Bright White
+
+background: '#1B1B23'  # Background
+foreground: '#877A9B'  # Foreground (Text)
+
+cursor: '#877A9B'      # Cursor

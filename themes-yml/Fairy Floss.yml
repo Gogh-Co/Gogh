@@ -1,0 +1,25 @@
+---
+name: 'Fairy Floss'
+
+color_01: '#42395D'    # Black (Host)
+color_02: '#A8757B'    # Red (Syntax string)
+color_03: '#FF857F'    # Green (Command)
+color_04: '#E6C000'    # Yellow (Command second)
+color_05: '#AE81FF'    # Blue (Path)
+color_06: '#716799'    # Magenta (Syntax var)
+color_07: '#C2FFDF'    # Cyan (Prompt)
+color_08: '#F8F8F2'    # White
+
+color_09: '#75507B'    # Bright Black
+color_10: '#FFB8D1'    # Bright Red (Command error)
+color_11: '#F1568E'    # Bright Green (Exec)
+color_12: '#D5A425'    # Bright Yellow
+color_13: '#C5A3FF'    # Bright Blue (Folder)
+color_14: '#8077A8'    # Bright Magenta
+color_15: '#C2FFFF'    # Bright Cyan
+color_16: '#F8F8F0'    # Bright White
+
+background: '#5A5475'  # Background
+foreground: '#C2FFDF'  # Foreground (Text)
+
+cursor: '#FFB8D1'      # Cursor

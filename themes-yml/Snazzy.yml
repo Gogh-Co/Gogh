@@ -1,0 +1,25 @@
+---
+name: 'Snazzy'
+
+color_01: '#282A36'    # Black (Host)
+color_02: '#FF5C57'    # Red (Syntax string)
+color_03: '#5AF78E'    # Green (Command)
+color_04: '#F3F99D'    # Yellow (Command second)
+color_05: '#57C7FF'    # Blue (Path)
+color_06: '#FF6AC1'    # Magenta (Syntax var)
+color_07: '#9AEDFE'    # Cyan (Prompt)
+color_08: '#F1F1F0'    # White
+
+color_09: '#686868'    # Bright Black
+color_10: '#FF5C57'    # Bright Red (Command error)
+color_11: '#5AF78E'    # Bright Green (Exec)
+color_12: '#F3F99D'    # Bright Yellow
+color_13: '#57C7FF'    # Bright Blue (Folder)
+color_14: '#FF6AC1'    # Bright Magenta
+color_15: '#9AEDFE'    # Bright Cyan
+color_16: '#EFF0EB'    # Bright White
+
+background: '#282A36'  # Background
+foreground: '#EFF0EB'  # Foreground (Text)
+
+cursor: '#97979B'      # Cursor

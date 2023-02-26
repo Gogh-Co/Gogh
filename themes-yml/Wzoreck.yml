@@ -1,0 +1,25 @@
+---
+name: 'Wzoreck'
+
+color_01: '#2E3436'    # Black (Host)
+color_02: '#FC6386'    # Red (Syntax string)
+color_03: '#424043'    # Green (Command)
+color_04: '#FCE94F'    # Yellow (Command second)
+color_05: '#FB976B'    # Blue (Path)
+color_06: '#75507B'    # Magenta (Syntax var)
+color_07: '#34E2E2'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#989595'    # Bright Black
+color_10: '#FC6386'    # Bright Red (Command error)
+color_11: '#A9DC76'    # Bright Green (Exec)
+color_12: '#FCE94F'    # Bright Yellow
+color_13: '#FB976B'    # Bright Blue (Folder)
+color_14: '#AB9DF2'    # Bright Magenta
+color_15: '#34E2E2'    # Bright Cyan
+color_16: '#D1D1C0'    # Bright White
+
+background: '#424043'  # Background
+foreground: '#FCFCFA'  # Foreground (Text)
+
+cursor: '#FCFCFA'      # Cursor

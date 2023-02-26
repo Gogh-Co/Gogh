@@ -1,0 +1,25 @@
+---
+name: 'Solarized Darcula'
+
+color_01: '#25292A'    # Black (Host)
+color_02: '#F24840'    # Red (Syntax string)
+color_03: '#629655'    # Green (Command)
+color_04: '#B68800'    # Yellow (Command second)
+color_05: '#2075C7'    # Blue (Path)
+color_06: '#797FD4'    # Magenta (Syntax var)
+color_07: '#15968D'    # Cyan (Prompt)
+color_08: '#D2D8D9'    # White
+
+color_09: '#25292A'    # Bright Black
+color_10: '#F24840'    # Bright Red (Command error)
+color_11: '#629655'    # Bright Green (Exec)
+color_12: '#B68800'    # Bright Yellow
+color_13: '#2075C7'    # Bright Blue (Folder)
+color_14: '#797FD4'    # Bright Magenta
+color_15: '#15968D'    # Bright Cyan
+color_16: '#D2D8D9'    # Bright White
+
+background: '#3D3F41'  # Background
+foreground: '#D2D8D9'  # Foreground (Text)
+
+cursor: '#D2D8D9'      # Cursor
