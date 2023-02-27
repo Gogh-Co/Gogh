@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PROFILE_NAME="Ocean"
+export PROFILE_NAME="Homebrew Ocean"
 
 export COLOR_01="#000000"           # Black (Host)
 export COLOR_02="#990000"           # Red (Syntax string)
