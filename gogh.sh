@@ -284,14 +284,14 @@ set_gogh() {
   string_r="${string%???}"
   string_s=${string_r//\./_}
   result=$(capitalize "${string_s}")
-  url="${BASE_URL}/themes/$1"
+  url="${BASE_URL}/installs/$1"
 
   export {PROFILE_NAME,PROFILE_SLUG}="$result"
 
   # Evaluate if Gogh was called from local source - i.e cloned repo
   SCRIPT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-  if [[ -e "${SCRIPT_PATH}/themes/$1" ]]; then
-    bash "${SCRIPT_PATH}/themes/$1"
+  if [[ -e "${SCRIPT_PATH}/installs/$1" ]]; then
+    bash "${SCRIPT_PATH}/installs/$1"
   else
     if [[ "$(uname)" = "Darwin" ]]; then
       # OSX ships with curl

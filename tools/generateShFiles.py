@@ -6,7 +6,7 @@ import subprocess
 import yaml
 
 folder_path = "./themes-yml"
-dest_path = './themes'
+dest_path = './installs'
 themes = []
 
 # List files and directories in the folder
