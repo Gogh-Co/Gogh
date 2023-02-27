@@ -205,8 +205,11 @@ Nov 18, 2013 - [aa9871e](https://github.com/Gogh-Co/Gogh/commit/aa9871e2d6008d5d
 
 Many thanks to all who have participated in this project.
 
-- [@contributors](https://github.com/Gogh-Co/Gogh/graphs/contributors)
+[@contributors](https://github.com/Gogh-Co/Gogh/graphs/contributors)
 
+<a href="https://github.com/Gogh-Co/Gogh/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=Gogh-Co/Gogh&max=500" />
+</a>
 <br/>
 
 
