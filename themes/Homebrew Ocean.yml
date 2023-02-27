@@ -1,5 +1,5 @@
 ---
-name: 'Ocean'
+name: 'Homebrew Ocean'
 
 color_01: '#000000'    # Black (Host)
 color_02: '#990000'    # Red (Syntax string)
