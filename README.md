@@ -38,7 +38,6 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that u
 - [Author](https://github.com/Gogh-Co/Gogh#-author)
 - [Why Gogh?](https://github.com/Gogh-Co/Gogh#%EF%B8%8F-why-gogh)
 - [Mentions](https://github.com/Gogh-Co/Gogh#-mentions)
-- [Themes in json format](https://github.com/Gogh-Co/Gogh#-themes-in-json-format)
 - [Stargazers over time](https://github.com/Gogh-Co/Gogh#-stargazers-over-time)
 
 </td>
@@ -237,22 +236,6 @@ There is no blue without yellow and without orange.
 - [MuyLinux](https://www.muylinux.com/2015/06/06/ping-91)
 - [Reddit - elementaryos](https://www.reddit.com/r/elementaryos/comments/3ivnb7/how_to_change_terminals_colors/)
 - [dev.to](https://dev.to/Gogh-Co/color-scheme-for-your-terminal-1pea)
-
-<br/>
-
-##  📄 Themes in `json` format
-
-- :link:  [json RAW](https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json)
-
-In your terminal type:
-
-```bash
-bash tools/generate.sh
-```
-
-This generates a json file located at `gh-pages/data/themes.json`
-
-Original script source: https://gist.github.com/rapgru/09b449285231d18f4e4536c5f48fc927
 
 <br/>
 
