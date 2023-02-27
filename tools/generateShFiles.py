@@ -5,7 +5,7 @@ import re
 import subprocess
 import yaml
 
-folder_path = "./themes-yml"
+folder_path = "./themes"
 dest_path = './installs'
 themes = []
 

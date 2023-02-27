@@ -3,7 +3,7 @@ import json
 import yaml
 import hashlib
 
-source_path = "./themes-yml"
+source_path = "./themes"
 dest_path = "./data/themes.json"
 themes = []
 

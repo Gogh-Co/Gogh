@@ -54,6 +54,11 @@ jobs:
         python3 tools/generateShFiles.py
         echo 🏅
 
+    - name: update themes in gogh file
+      run: |
+        python3 tools/updateThemes.py
+        echo 🏅
+
     - name: Git commit
       run: |
         git config user.name  github-actions[bot]
