@@ -16,22 +16,22 @@ jobs:
 
     - name: Update ubuntu
       run: |
-        apt -qq update
+        apt-get -qq update
         echo 🏅
 
     - name: Install git
       run: |
-        apt install git -y > /dev/null 2>&1
+        apt-get install git -y > /dev/null 2>&1
         echo 🏅
 
     - name: Install python3
       run: |
-        apt install python3 -y > /dev/null 2>&1
+        apt-get install python3 -y > /dev/null 2>&1
         echo 🏅
 
     - name: Install pip3
       run: |
-        apt install -y python3-pip > /dev/null 2>&1
+        apt-get install -y python3-pip > /dev/null 2>&1
         echo 🏅
 
     - name: Python3 requirements.txt
