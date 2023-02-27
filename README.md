@@ -31,7 +31,7 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that u
 - [Install (non-interactive mode)](https://github.com/Gogh-Co/Gogh#%EF%B8%8F-install-non-interactive-mode)
 - [Terminals](https://github.com/Gogh-Co/Gogh#-terminals)
 - [Themes](https://github.com/Gogh-Co/Gogh#-themes)
-- [Create your own theme](https://github.com/Gogh-Co/Gogh#-how-to)
+- [Create your own theme](https://github.com/Gogh-Co/Gogh#-create-your-own-theme)
 - [First commit](https://github.com/Gogh-Co/Gogh#-first-commit)
 - [Credits](https://github.com/Gogh-Co/Gogh#heart-credits)
 - [Contributors](https://github.com/Gogh-Co/Gogh#heart-contributors)
