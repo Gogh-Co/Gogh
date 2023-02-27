@@ -138,7 +138,6 @@ declare -a THEMES=(
   'mathias.sh'
   'medallion.sh'
   'misterioso.sh'
-  'miu.sh'
   'molokai.sh'
   'mona-lisa.sh'
   'mono-amber.sh'
