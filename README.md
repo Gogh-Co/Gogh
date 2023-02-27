@@ -31,7 +31,7 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that u
 - [Install (non-interactive mode)](https://github.com/Gogh-Co/Gogh#%EF%B8%8F-install-non-interactive-mode)
 - [Terminals](https://github.com/Gogh-Co/Gogh#-terminals)
 - [Themes](https://github.com/Gogh-Co/Gogh#-themes)
-- [How to?](https://github.com/Gogh-Co/Gogh#-how-to)
+- [Create your own theme](https://github.com/Gogh-Co/Gogh#-how-to)
 - [First commit](https://github.com/Gogh-Co/Gogh#-first-commit)
 - [Credits](https://github.com/Gogh-Co/Gogh#heart-credits)
 - [Contributors](https://github.com/Gogh-Co/Gogh#heart-contributors)
@@ -88,9 +88,9 @@ bash -c "$(curl -sLo- https://git.io/vQgMr)"
 
 <br/>
 
-## :thinking: [Help](https://github.com/Gogh-Co/Gogh/blob/master/content/help.md)
+## :thinking: [Help](https://github.com/Gogh-Co/Gogh/blob/master/pages/help.md)
 
- - [link to page](https://github.com/Gogh-Co/Gogh/blob/master/content/help.md)
+ - [link to page](https://github.com/Gogh-Co/Gogh/blob/master/pages/help.md)
 
 <br/>
 
@@ -146,9 +146,9 @@ also all themes in json format: https://raw.githubusercontent.com/Gogh-Co/Gogh/m
 
 <br/>
 
-## 📌 [How to](https://github.com/Gogh-Co/Gogh/blob/master/content/howto.md)
+## 📌 [Create your own theme](https://github.com/Gogh-Co/Gogh/blob/master/pages/howto.md)
 
-If you want to create your own color scheme or contribute to the project, [start here](https://github.com/Gogh-Co/Gogh/blob/master/content/howto.md).
+If you want to create your own color scheme or contribute to the project, [start here](https://github.com/Gogh-Co/Gogh/blob/master/pages/howto.md).
 
 
 <br/>

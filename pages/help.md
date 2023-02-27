@@ -1,5 +1,5 @@
 
-![elementary](https://raw.githubusercontent.com/Gogh-Co/Elementary-OS-Terminal-Colors/master/images/gogh/Gogh-logo.png)
+![Gogh](https://raw.githubusercontent.com/Gogh-Co/Gogh/master/images/gogh/Gogh-logo.png)
 
 -----
 
