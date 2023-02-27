@@ -27,7 +27,7 @@ for filename in os.listdir(source_path):
                 "name": data["name"],
                 "foreground": data["foreground"],
                 "background": data["background"],
-                "cursorColor": data["cursor"],
+                "color": data["cursor"],
                 "hash": hash_hex
             })
             themes.append(theme)
