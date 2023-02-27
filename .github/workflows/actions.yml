@@ -44,6 +44,11 @@ jobs:
         python3 tools/generatJson.py
         echo 🏅
 
+    - name: Generate json files
+      run: |
+        python3 tools/generateJsonFiles.py
+        echo 🏅
+
     - name: Generate Installers
       run: |
         python3 tools/generateShFiles.py
