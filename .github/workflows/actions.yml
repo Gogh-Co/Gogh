@@ -16,27 +16,27 @@ jobs:
 
     - name: Update ubuntu
       run: |
-        apt-get update > /dev/null 2>&1
+        apt-get update
         echo 🏅
 
     - name: Install git
       run: |
-        apt-get install git -y > /dev/null 2>&1
+        apt-get install git -y
         echo 🏅
 
     - name: Install python3
       run: |
-        apt-get install python3 -y > /dev/null 2>&1
+        apt-get install python3 -y
         echo 🏅
 
     - name: Install pip3
       run: |
-        apt-get install -y python3-pip > /dev/null 2>&1
+        apt-get install -y python3-pip
         echo 🏅
 
     - name: Python3 requirements.txt
       run: |
-        pip3 install -r requirements.txt > /dev/null 2>&1
+        pip3 install -r requirements.txt
         echo 🏅
 
     - name: Generate json
