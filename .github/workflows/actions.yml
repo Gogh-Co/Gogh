@@ -1,6 +1,7 @@
 name: Execute Python Scripts on New Theme-YML Files
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - 'theme-yml/*'
@@ -16,6 +17,11 @@ jobs:
     - name: Update ubuntu
       run: |
         apt -qq update
+        echo 🏅
+
+    - name: Install git
+      run: |
+        apt install git -y > /dev/null 2>&1
         echo 🏅
 
     - name: Install python3
@@ -48,5 +54,5 @@ jobs:
         git config user.name  github-actions[bot]
         git config user.email github-actions[bot]@github.com
         git add .
-        git commit -m "------- Generate Themes Github Action -------"
+        git commit -m "------- Generate Themes -------"
         git push
