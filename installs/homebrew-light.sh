@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PROFILE_NAME="Terminal Basic"
+export PROFILE_NAME="Homebrew Light"
 
 export COLOR_01="#000000"           # Black (Host)
 export COLOR_02="#990000"           # Red (Syntax string)
