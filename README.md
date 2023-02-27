@@ -35,8 +35,8 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that u
 - [First commit](https://github.com/Gogh-Co/Gogh#-first-commit)
 - [Credits](https://github.com/Gogh-Co/Gogh#heart-credits)
 - [Contributors](https://github.com/Gogh-Co/Gogh#heart-contributors)
-- [Why Gogh?](https://github.com/Gogh-Co/Gogh#%EF%B8%8F-why-gogh)
 - [Author](https://github.com/Gogh-Co/Gogh#-author)
+- [Why Gogh?](https://github.com/Gogh-Co/Gogh#%EF%B8%8F-why-gogh)
 - [Mentions](https://github.com/Gogh-Co/Gogh#-mentions)
 - [Themes in json format](https://github.com/Gogh-Co/Gogh#-themes-in-json-format)
 - [Stargazers over time](https://github.com/Gogh-Co/Gogh#-stargazers-over-time)
@@ -210,20 +210,22 @@ Many thanks to all who have participated in this project.
 
 <br/>
 
+
+## 🧠 Author (contributor)
+
+I cannot claim to be the only author of this project. Without the help of the people who have contributed, this would not have been possible. Therefore, that's why all contributors are listed first in this document. While I am listed as the author, the true authors are all those who are mentioned in the document. I would like to express my gratitude to all of them, as well as to future contributors.
+
+- Miguel D. Quintero - [Lanet.co](https://lanet.co)
+
+&nbsp;&nbsp;&nbsp;&nbsp; [💵 Invite me a coffee - paypal](https://paypal.me/mgldvd?country.x=CO&locale.x=es_XC)
+
+<br/>
+
 ## 🖌️ Why Gogh?
 
 There is no blue without yellow and without orange.
 
 -- [Vincent Van Gogh](https://en.wikipedia.org/wiki/Vincent_van_Gogh) --
-
-<br/>
-
-## 🧠 Author
-
-- Miguel D. Quintero - [Lanet.co](https://lanet.co)
-
-
-&nbsp;&nbsp;&nbsp;&nbsp; [💵 Invite me a coffee - paypal](https://paypal.me/mgldvd?country.x=CO&locale.x=es_XC)
 
 <br/>
 
