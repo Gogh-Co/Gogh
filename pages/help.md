@@ -9,6 +9,7 @@
 - [Using Elementary terminal but says unsupported](https://github.com/Gogh-Co/Gogh/issues/175)
 - [Doesn't working Debian](https://github.com/Gogh-Co/Gogh/issues/63)
 - [Not Working on Ubuntu](https://github.com/Gogh-Co/Gogh/issues/41)
+- `sudo apt install gconf2` - https://github.com/Gogh-Co/Gogh/issues/334#issuecomment-1374541799
 
 ## Elementary OS
 
