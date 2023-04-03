@@ -98,6 +98,7 @@ declare -a THEMES=(
   'grape.sh'
   'grass.sh'
   'gruvbox-dark.sh'
+  'gruvbox-material.sh'
   'gruvbox.sh'
   'hardcore.sh'
   'harper.sh'
