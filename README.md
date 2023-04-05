@@ -111,8 +111,8 @@ export TERMINAL=gnome-terminal
 pip install -r requirements.txt
 export TERMINAL=alacritty
 
-# Enter themes dir
-cd themes
+# Enter theme installs dir
+cd installs
 
 # install themes
 ./atom.sh
