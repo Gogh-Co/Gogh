@@ -20,7 +20,7 @@ export COLOR_14="#DF69BA"           # Bright Magenta
 export COLOR_15="#35A77C"           # Bright Cyan
 export COLOR_16="#DFDDC8"           # Bright White
 
-export BACKGROUND_COLOR="#2F383E"   # Background
+export BACKGROUND_COLOR="#2D353B"   # Background
 export FOREGROUND_COLOR="#D3C6AA"   # Foreground (Text)
 
 export CURSOR_COLOR="#D3C6AA" # Cursor
