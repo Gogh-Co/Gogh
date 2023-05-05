@@ -34,10 +34,10 @@ def get_conf_path():
         home = os.getenv('HOME')
         if home is not None and os.path.exists(home + '/.config/alacritty/alacritty.yml'):
             return home + "/.config/alacritty/alacritty.yml"
-        if home is not None and os.path.exists(home + '/.config/alacritty.yml'):
-            return home + "/.config/alacritty.yml"
-        if home is not None and os.path.exists(home + 'alacritty.yml'):
-            return home + "/alacritty.yml"
+        if home is not None and os.path.exists(home + '/.config/alacritty/alacritty.yml'):
+            return home + "/.config/alacritty/alacritty.yml"
+        if home is not None and os.path.exists(home + '/.alacritty.yml'):
+            return home + "/.alacritty.yml"
 
     print("Could not find alacritty config file\nPlease make sure you have a file in one of the paths specified on\nhttps://github.com/alacritty/alacritty#configuration")
     sys.exit(1)
