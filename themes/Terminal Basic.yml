@@ -1,0 +1,25 @@
+---
+name: 'Terminal Basic'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#990000'    # Red (Syntax string)
+color_03: '#00a600'    # Green (Command)
+color_04: '#999900'    # Yellow (Command second)
+color_05: '#0000b2'    # Blue (Path)
+color_06: '#b200b2'    # Magenta (Syntax var)
+color_07: '#00a6b2'    # Cyan (Prompt)
+color_08: '#bfbfbf'    # White
+
+color_09: '#666666'    # Bright Black
+color_10: '#e50000'    # Bright Red (Command error)
+color_11: '#00d900'    # Bright Green (Exec)
+color_12: '#e5e500'    # Bright Yellow
+color_13: '#0000ff'    # Bright Blue (Folder)
+color_14: '#e500e5'    # Bright Magenta
+color_15: '#00e5e5'    # Bright Cyan
+color_16: '#e5e5e5'    # Bright White
+
+background: '#ffffff'  # Background
+foreground: '#000000'  # Foreground (Text)
+
+cursor: '#7f7f7f'      # Cursor
