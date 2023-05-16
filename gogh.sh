@@ -229,6 +229,7 @@ declare -a THEMES=(
   'synthwave.sh'
   'teerb.sh'
   'tender.sh'
+  'terminal-basic.sh'
   'terminix-dark.sh'
   'thayer-bright.sh'
   'tin.sh'
