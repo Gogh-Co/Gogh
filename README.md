@@ -151,6 +151,11 @@ also all themes in json format: https://raw.githubusercontent.com/Gogh-Co/Gogh/m
 
 If you want to create your own color scheme or contribute to the project, [start here](https://github.com/Gogh-Co/Gogh/blob/master/pages/howto.md).
 
+<br/>
+
+## ⚫ Accessibility - wcag
+
+- https://gogh-co.github.io/Gogh/wcag/
 
 <br/>
 
