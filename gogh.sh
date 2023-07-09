@@ -21,6 +21,7 @@ declare -a THEMES=(
   'adventure-time.sh'
   'afterglow.sh'
   'alien-blood.sh'
+  'apprentice.sh'
   'argonaut.sh'
   'arthur.sh'
   'atom.sh'
