@@ -175,6 +175,7 @@ declare -a THEMES=(
   'one-dark.sh'
   'one-half-black.sh'
   'one-light.sh'
+  'oxocarbon-dark.sh'
   'palenight.sh'
   'pali.sh'
   'panda.sh'
