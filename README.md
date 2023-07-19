@@ -205,6 +205,8 @@ Nov 18, 2013 - [aa9871e](https://github.com/Gogh-Co/Gogh/commit/aa9871e2d6008d5d
 - [Tomorrow color theme set](https://github.com/chriskempson/tomorrow-theme) by [Chris Kempson](https://github.com/chriskempson)
 - Material theme by [Mitchel van Eijgen](https://gist.github.com/mvaneijgen/4c56701215847dd5ddcf) and [Liu Xinan](https://gist.github.com/xinan/ca2b82fef6aaa0d1e099)
 - [KANAGAWA.nvim](https://github.com/rebelot/kanagawa.nvim)
+- [Apprentice](https://romainl.github.io/Apprentice/)
+- [Oxocarbon](https://github.com/nyoom-engineering/oxocarbon.nvim)
 
 <br/>
 
