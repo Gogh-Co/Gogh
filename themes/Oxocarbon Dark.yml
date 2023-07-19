@@ -1,0 +1,24 @@
+name: 'Oxocarbon Dark'
+
+color_01: '#262626'    # Black (Host)
+color_02: '#EE5396'    # Red (Syntax string)
+color_03: '#42BE65'    # Green (Command)
+color_04: '#FFE97B'    # Yellow (Command second)
+color_05: '#33B1FF'    # Blue (Path)
+color_06: '#FF7EB6'    # Magenta (Syntax var)
+color_07: '#3DDBD9'    # Cyan (Prompt)
+color_08: '#DDE1E6'    # White
+
+color_09: '#393939'    # Bright Black
+color_10: '#EE5396'    # Bright Red (Command error)
+color_11: '#42BE65'    # Bright Green (Exec)
+color_12: '#FFE97B'    # Bright Yellow
+color_13: '#33B1FF'    # Bright Blue (Folder)
+color_14: '#FF7EB6'    # Bright Magenta
+color_15: '#3DDBD9'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#161616'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#6F6F6F'      # Cursor
