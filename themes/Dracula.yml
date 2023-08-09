@@ -8,7 +8,7 @@ color_04: '#FFB86C'    # Yellow (Command second)
 color_05: '#8BE9FD'    # Blue (Path)
 color_06: '#BD93F9'    # Magenta (Syntax var)
 color_07: '#FF79C6'    # Cyan (Prompt)
-color_08: '#94A3A5'    # White
+color_08: '#f8f8f2'    # White
 
 color_09: '#000000'    # Bright Black
 color_10: '#FF5555'    # Bright Red (Command error)
@@ -20,6 +20,6 @@ color_15: '#FF79C6'    # Bright Cyan
 color_16: '#FFFFFF'    # Bright White
 
 background: '#282A36'  # Background
-foreground: '#94A3A5'  # Foreground (Text)
+foreground: '#f8f8f2'  # Foreground (Text)
 
-cursor: '#94A3A5'      # Cursor
+cursor: '#f8f8f2'      # Cursor
