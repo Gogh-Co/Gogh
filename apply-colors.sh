@@ -893,6 +893,11 @@ apply_xfce4-terminal() {
     exit 0
 }
 
+apply_terminator() {
+    python set_theme.py "${PROFILE_NAME}"
+    echo Please open a new terminator instance to apply changes.
+}
+
 [[ -n "${UUIDGEN}" ]] && PROFILE_SLUG="$(uuidgen)"
 
 case "${TERMINAL}" in
@@ -991,6 +996,10 @@ case "${TERMINAL}" in
 
   konsole )
     apply_konsole
+    ;;
+
+  terminator )
+    apply_terminator
     ;;
 
   * )
