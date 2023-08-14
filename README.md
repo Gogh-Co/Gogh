@@ -207,6 +207,7 @@ Nov 18, 2013 - [aa9871e](https://github.com/Gogh-Co/Gogh/commit/aa9871e2d6008d5d
 - [KANAGAWA.nvim](https://github.com/rebelot/kanagawa.nvim)
 - [Apprentice](https://romainl.github.io/Apprentice/)
 - [Oxocarbon](https://github.com/nyoom-engineering/oxocarbon.nvim)
+- [website-theme](https://github.com/shayanaqvi/website-theme)
 
 <br/>
 
