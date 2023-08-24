@@ -1,7 +1,10 @@
 import io
 import json
-import sys
 import os
+import sys
+
+import tomli
+import tomli_w
 from ruamel.yaml import YAML  # use ruamel.yaml to preserve comments in config
 
 
@@ -23,6 +26,10 @@ def get_conf_path():
         alacritty_path = os.path.expandvars(r'%APPDATA%\alacritty\alacritty.yml')
         if os.path.exists(alacritty_path):
             return alacritty_path
+        # Check for TOML config for newer version of Alacritty
+        alacritty_path = os.path.expandvars(r'%APPDATA%\alacritty\alacritty.toml')
+        if os.path.exists(alacritty_path):
+            return alacritty_path
     else:
         # If it is not win32 it can exists in only a few other places
         xdg_config_home = os.getenv('XDG_CONFIG_HOME')
@@ -31,6 +38,11 @@ def get_conf_path():
         if xdg_config_home is not None and os.path.exists(xdg_config_home + "/alacritty.yml"):
             return xdg_config_home + "/alacritty.yml"
 
+        if xdg_config_home is not None and os.path.exists(xdg_config_home + '/alacritty/alacritty.toml'):
+            return xdg_config_home + "/alacritty/alacritty.toml"
+        if xdg_config_home is not None and os.path.exists(xdg_config_home + "/alacritty.toml"):
+            return xdg_config_home + "/alacritty.toml"
+
         home = os.getenv('HOME')
         if home is not None and os.path.exists(home + '/.config/alacritty/alacritty.yml'):
             return home + "/.config/alacritty/alacritty.yml"
@@ -38,6 +50,13 @@ def get_conf_path():
             return home + "/.config/alacritty/alacritty.yml"
         if home is not None and os.path.exists(home + '/.alacritty.yml'):
             return home + "/.alacritty.yml"
+
+        if home is not None and os.path.exists(home + '/.config/alacritty/alacritty.toml'):
+            return home + "/.config/alacritty/alacritty.toml"
+        if home is not None and os.path.exists(home + '/.config/alacritty/alacritty.toml'):
+            return home + "/.config/alacritty/alacritty.toml"
+        if home is not None and os.path.exists(home + '/.alacritty.toml'):
+            return home + "/.alacritty.toml"
 
     print("Could not find alacritty config file\nPlease make sure you have a file in one of the paths specified on\nhttps://github.com/alacritty/alacritty#configuration")
     sys.exit(1)
@@ -48,8 +67,14 @@ conf_path = get_conf_path()
 yaml = YAML()
 
 # Read & parse alacritty config
-with open(conf_path, 'r') as stream:
-    data_loaded = yaml.load(stream)
+if conf_path.endswith('yml'):
+    with open(conf_path, 'r') as stream:
+        data_loaded = yaml.load(stream)
+elif conf_path.endswith('toml'):
+    with open(conf_path, 'rb') as stream:
+        data_loaded = tomli.load(stream)
+else:
+    raise NotImplementedError(f'Config parsing not available for config file {conf_path}')
 
 # parse new colors
 js = json.loads(sys.argv[1])
@@ -62,16 +87,23 @@ try:
     data_loaded['colors']['bright'].update(js['colors']['bright'])
 except KeyError:
     print("Could not find existing 'colors' settings in your alacritty.yml file\nplease make sure to uncomment\n'colors', as well as 'primary', 'normal' and 'bright'")
-    print("Check the example config at\nhttps://github.com/alacritty/alacritty/blob/master/alacritty.yml for more information")
+    print("Check the example config at\nhttps://github.com/alacritty/alacritty/releases/download/v0.12.2/alacritty.yml for more information")
+    print("Note that alacritty following release 0.13.0 uses toml configuration.")
     sys.exit(1)
 
 # make sure the user is okay with having their config changed
 answer = input("This script will update your alacritty config at: \n" +
-               conf_path + "\nIt is reccomended to make a copy of this file before proceeding.\nAre you sure you want to continue? (Y/N)\n")
-if not answer.lower() in ['y', 'yes']:
+               conf_path + "\nIt is recommended to make a copy of this file before proceeding.\nAre you sure you want to continue? (Y/N)\n")
+if answer.lower() not in ['y', 'yes']:
     print("Aborted")
     sys.exit(1)
 
 # Write alacritty config
-with io.open(conf_path, 'w', encoding='utf8') as outfile:
-    yaml.dump(data_loaded, outfile)
+if conf_path.endswith('yml'):
+    with io.open(conf_path, 'w', encoding='UTF8') as outfile:
+        yaml.dump(data_loaded, outfile)
+elif conf_path.endswith('toml'):
+    with open(conf_path, 'wb') as outfile:
+        tomli_w.dump(data_loaded, outfile)
+else:
+    pass
