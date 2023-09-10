@@ -1,0 +1,25 @@
+---
+name: 'Campbell'
+
+color_01: '#0C0C0C'    # Black (Host)
+color_02: '#C50F1F'    # Red (Syntax string)
+color_03: '#13A10E'    # Green (Command)
+color_04: '#C19C00'    # Yellow (Command second)
+color_05: '#0037DA'    # Blue (Path)
+color_06: '#881798'    # Magenta (Syntax var)
+color_07: '#3A96DD'    # Cyan (Prompt)
+color_08: '#CCCCCC'    # White
+
+color_09: '#767676'    # Bright Black
+color_10: '#E74856'    # Bright Red (Command error)
+color_11: '#16C60C'    # Bright Green (Exec)
+color_12: '#F9F1A5'    # Bright Yellow
+color_13: '#3B78FF'    # Bright Blue (Folder)
+color_14: '#B4009E'    # Bright Magenta
+color_15: '#61D6D6'    # Bright Cyan
+color_16: '#F2F2F2'    # Bright White
+
+background: '#0C0C0C'  # Background
+foreground: '#CCCCCC'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor
