@@ -47,6 +47,7 @@ declare -a THEMES=(
   'brogrammer.sh'
   'c64.sh'
   'cai.sh'
+  'campbell.sh'
   'catppuccin-frappe.sh'
   'catppuccin-latte.sh'
   'catppuccin-macchiato.sh'
