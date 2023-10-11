@@ -893,6 +893,19 @@ apply_xfce4-terminal() {
     exit 0
 }
 
+apply_linux () {
+  local theme_dir=~/.setvtrgb-themes
+  mkdir -p "${theme_dir}"
+  local file_name=${theme_dir}/${PROFILE_NAME}
+  if [[ ! -f ${file_name} ]]; then
+    touch "${file_name}"
+	  for c in $(seq -s " " -w 16); do
+	    local color=COLOR_${c}
+	    echo "${!color}" >> "${file_name}"
+	  done
+  fi
+}
+
 [[ -n "${UUIDGEN}" ]] && PROFILE_SLUG="$(uuidgen)"
 
 case "${TERMINAL}" in
@@ -991,6 +1004,10 @@ case "${TERMINAL}" in
 
   konsole )
     apply_konsole
+    ;;
+
+  login )
+    apply_linux
     ;;
 
   * )
