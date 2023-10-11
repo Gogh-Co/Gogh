@@ -913,7 +913,7 @@ apply_linux_vt () {
 	  done
   fi
 
-  if [[ "${USER}" = "root" ]]; then
+  if command -v update-alternatives >/dev/null &2>&1 && [[ "${USER}" = "root" ]]; then
     update-alternatives --install /etc/vtrgb vtrgb "${file_name}" 30
   fi
 }
