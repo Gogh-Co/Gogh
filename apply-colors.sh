@@ -59,6 +59,8 @@ if [[ -z "${TERMINAL:-}" ]]; then
     TERMINAL=$TERM_PROGRAM
   elif [[ "${OS#CYGWIN}" != "${OS}" ]]; then
     TERMINAL="mintty"
+  elif [[ "${TERM}" = "linux" ]]; then
+    TERMINAL="linux"
   else
     # |
     # | Depending on how the script was invoked, we need
@@ -1015,13 +1017,13 @@ case "${TERMINAL}" in
     apply_konsole
     ;;
 
-  login )
+  linux )
     apply_linux_vt
     ;;
 
   * )
     printf '%s\n'                                             \
-    "Unsupported terminal!"                                   \
+    "Unsupported terminal ${TERMINAL}!"                       \
     ""                                                        \
     "Supported terminals:"                                    \
     "   mintty and deriviates"                                \
