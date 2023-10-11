@@ -897,12 +897,13 @@ apply_xfce4-terminal() {
 
 apply_linux_vt () {
   local theme_dir
-  if [[ "${USER}" == "root" ]]; then
+  if [[ "${USER}" = "root" ]]; then
     theme_dir=/usr/local/share/vtrgb-gogh
   else
     theme_dir=~/.vtrgb-gogh
   fi
   mkdir -p "${theme_dir}"
+
   local file_name=${theme_dir}/${PROFILE_NAME}
   if [[ ! -f ${file_name} ]]; then
     touch "${file_name}"
@@ -912,7 +913,7 @@ apply_linux_vt () {
 	  done
   fi
 
-  if [[ "${USER}" == "root" ]]; then
+  if [[ "${USER}" = "root" ]]; then
     update-alternatives --install /etc/vtrgb vtrgb "${file_name}" 30
   fi
 }
@@ -1037,6 +1038,7 @@ case "${TERMINAL}" in
     "   foot"                                                 \
     "   kitty"                                                \
     "   konsole"                                              \
+    "   linux"
     ""                                                        \
     "If you believe you have received this message in error," \
     "try manually setting \`TERMINAL', hint: ps -h -o comm -p \$PPID"
