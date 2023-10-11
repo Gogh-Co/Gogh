@@ -1024,7 +1024,7 @@ case "${TERMINAL}" in
 
   * )
     printf '%s\n'                                             \
-    "Unsupported terminal ${TERMINAL}!"                       \
+    "Unsupported terminal!"                                   \
     ""                                                        \
     "Supported terminals:"                                    \
     "   mintty and deriviates"                                \
