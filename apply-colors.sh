@@ -893,8 +893,8 @@ apply_xfce4-terminal() {
     exit 0
 }
 
-apply_linux () {
-  local theme_dir=~/.setvtrgb-themes
+apply_linux_vt () {
+  local theme_dir=~/.vtrgb-gogh
   mkdir -p "${theme_dir}"
   local file_name=${theme_dir}/${PROFILE_NAME}
   if [[ ! -f ${file_name} ]]; then
@@ -1007,7 +1007,7 @@ case "${TERMINAL}" in
     ;;
 
   login )
-    apply_linux
+    apply_linux_vt
     ;;
 
   * )
