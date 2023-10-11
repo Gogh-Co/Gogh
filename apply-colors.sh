@@ -894,7 +894,12 @@ apply_xfce4-terminal() {
 }
 
 apply_linux_vt () {
-  local theme_dir=~/.vtrgb-gogh
+  local theme_dir
+  if [[ "${USER}" == "root" ]]; then
+    theme_dir=/usr/local/share/vtrgb-gogh
+  else
+    theme_dir=~/.vtrgb-gogh
+  fi
   mkdir -p "${theme_dir}"
   local file_name=${theme_dir}/${PROFILE_NAME}
   if [[ ! -f ${file_name} ]]; then
@@ -903,6 +908,10 @@ apply_linux_vt () {
 	    local color=COLOR_${c}
 	    echo "${!color}" >> "${file_name}"
 	  done
+  fi
+
+  if [[ "${USER}" == "root" ]]; then
+    update-alternatives --install /etc/vtrgb vtrgb "${file_name}" 30
   fi
 }
 
