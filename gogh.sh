@@ -395,6 +395,8 @@ if [[ -z "${TERMINAL:-}" ]]; then
     TERMINAL="mintty"
   elif [[ "$TERM" = "xterm-kitty" ]]; then
     TERMINAL="kitty"
+  elif [[ "${TERM}" = "linux" ]]; then
+    TERMINAL="linux"
   else
     # |
     # | Depending on how the script was invoked, we need

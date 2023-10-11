@@ -59,6 +59,8 @@ if [[ -z "${TERMINAL:-}" ]]; then
     TERMINAL=$TERM_PROGRAM
   elif [[ "${OS#CYGWIN}" != "${OS}" ]]; then
     TERMINAL="mintty"
+  elif [[ "${TERM}" = "linux" ]]; then
+    TERMINAL="linux"
   else
     # |
     # | Depending on how the script was invoked, we need
@@ -893,6 +895,29 @@ apply_xfce4-terminal() {
     exit 0
 }
 
+apply_linux_vt () {
+  local theme_dir
+  if [[ "${USER}" = "root" ]]; then
+    theme_dir=/usr/local/share/vtrgb-gogh
+  else
+    theme_dir=~/.vtrgb-gogh
+  fi
+  mkdir -p "${theme_dir}"
+
+  local file_name=${theme_dir}/${PROFILE_NAME}
+  if [[ ! -f ${file_name} ]]; then
+    touch "${file_name}"
+	  for c in $(seq -s " " -w 16); do
+	    local color=COLOR_${c}
+	    echo "${!color}" >> "${file_name}"
+	  done
+  fi
+
+  if command -v update-alternatives >/dev/null &2>&1 && [[ "${USER}" = "root" ]]; then
+    update-alternatives --install /etc/vtrgb vtrgb "${file_name}" 30
+  fi
+}
+
 [[ -n "${UUIDGEN}" ]] && PROFILE_SLUG="$(uuidgen)"
 
 case "${TERMINAL}" in
@@ -993,6 +1018,10 @@ case "${TERMINAL}" in
     apply_konsole
     ;;
 
+  linux )
+    apply_linux_vt
+    ;;
+
   * )
     printf '%s\n'                                             \
     "Unsupported terminal!"                                   \
@@ -1009,6 +1038,7 @@ case "${TERMINAL}" in
     "   foot"                                                 \
     "   kitty"                                                \
     "   konsole"                                              \
+    "   linux"                                                \
     ""                                                        \
     "If you believe you have received this message in error," \
     "try manually setting \`TERMINAL', hint: ps -h -o comm -p \$PPID"
