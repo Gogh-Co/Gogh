@@ -1,5 +1,5 @@
 ---
-name: 'Github'
+name: 'Github Light'
 
 color_01: '#3E3E3E'    # Black (Host)
 color_02: '#970B16'    # Red (Syntax string)
