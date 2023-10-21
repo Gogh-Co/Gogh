@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PROFILE_NAME="Github"
+export PROFILE_NAME="Github Light"
 
 export COLOR_01="#3E3E3E"           # Black (Host)
 export COLOR_02="#970B16"           # Red (Syntax string)
