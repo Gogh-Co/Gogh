@@ -1,0 +1,25 @@
+---
+name: 'Github Dark'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#F78166'    # Red (Syntax string)
+color_03: '#56D364'    # Green (Command)
+color_04: '#E3B341'    # Yellow (Command second)
+color_05: '#6CA4F8'    # Blue (Path)
+color_06: '#DB61A2'    # Magenta (Syntax var)
+color_07: '#2B7489'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#4D4D4D'    # Bright Black
+color_10: '#F78166'    # Bright Red (Command error)
+color_11: '#56D364'    # Bright Green (Exec)
+color_12: '#E3B341'    # Bright Yellow
+color_13: '#6CA4F8'    # Bright Blue (Folder)
+color_14: '#DB61A2'    # Bright Magenta
+color_15: '#2B7489'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#101216'  # Background
+foreground: '#8B949E'  # Foreground (Text)
+
+cursor: '#C9D1D9'      # Cursor
