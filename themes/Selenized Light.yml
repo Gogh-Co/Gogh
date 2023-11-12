@@ -1,0 +1,25 @@
+---
+name: 'Solarized Light'
+
+color_01: '#fbf3db'    # Black (Host)
+color_02: '#d2212d'    # Red (Syntax string)
+color_03: '#489100'    # Green (Command)
+color_04: '#ad8900'    # Yellow (Command second)
+color_05: '#0072d4'    # Blue (Path)
+color_06: '#ca4898'    # Magenta (Syntax var)
+color_07: '#009c8f'    # Cyan (Prompt)
+color_08: '#53676d'    # White
+
+color_09: '#ece3cc'    # Bright Black
+color_10: '#cc1729'    # Bright Red (Command error)
+color_11: '#428b00'    # Bright Green (Exec)
+color_12: '#a78300'    # Bright Yellow
+color_13: '#006dce'    # Bright Blue (Folder)
+color_14: '#c44392'    # Bright Magenta
+color_15: '#00978a'    # Bright Cyan
+color_16: '#3a4d53'    # Bright White
+
+background: '#fbf3db'  # Background
+foreground: '#53676d'  # Foreground (Text)
+
+cursor: '#53676d'      # Cursor
