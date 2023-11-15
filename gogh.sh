@@ -257,6 +257,7 @@ declare -a THEMES=(
   'vs-code-dark.sh'
   'vs-code-light.sh'
   'warm-neon.sh'
+  'website.sh'
   'wez.sh'
   'wild-cherry.sh'
   'wombat.sh'
