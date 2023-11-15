@@ -205,6 +205,7 @@ declare -a THEMES=(
   'sat.sh'
   'sea-shells.sh'
   'seafoam-pastel.sh'
+  'selenized-dark.sh'
   'seti.sh'
   'shaman.sh'
   'shel.sh'
