@@ -191,6 +191,7 @@ Nov 18, 2013 - [aa9871e](https://github.com/Gogh-Co/Gogh/commit/aa9871e2d6008d5d
 - [Panda](https://github.com/PandaTheme) by [Siamak](https://github.com/siamak)
 - [Peppermint](https://noahfrederick.com/log/lion-terminal-theme-peppermint/) by [Noah Frederick](https://github.com/noahfrederick)
 - [Rosé Pine](https://github.com/rose-pine)
+- [Selenized](https://github.com/jan-warchol/selenized/)
 - [SMYCK](http://color.smyck.org/) by [John-Paul Bader](https://github.com/hukl)
 - [Snazzy](https://github.com/sindresorhus/hyper-snazzy) by [Sindre Sorhus](https://github.com/sindresorhus)
 - [Solarized](https://ethanschoonover.com/solarized) by [Ethan Schoonover](https://github.com/altercation)
