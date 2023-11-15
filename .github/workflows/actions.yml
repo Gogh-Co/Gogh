@@ -12,32 +12,24 @@ jobs:
     steps:
 
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
-    - name: Python3 requirements.txt
+    - name: Run python scripts
       run: |
+        echo 🏅 - requirements.txt
         pip3 install -r requirements.txt
-        echo 🏅
 
-    - name: Generate json
-      run: |
+        echo 🏅 - Generate json
         python3 tools/generatJson.py
-        echo 🏅
 
-    - name: Generate json files
-      run: |
+        echo 🏅 - Generate json files
         python3 tools/generateJsonFiles.py
-        echo 🏅
 
-    - name: Generate Installers
-      run: |
+        echo 🏅 - Generate Installers
         python3 tools/generateShFiles.py
-        echo 🏅
 
-    - name: update themes in gogh file
-      run: |
+        echo 🏅 - update themes in gogh file
         python3 tools/updateThemes.py
-        echo 🏅
 
     - name: Git commit
       run: |
