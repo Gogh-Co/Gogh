@@ -8,31 +8,11 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
 
     - name: Checkout code
       uses: actions/checkout@v2
-
-    - name: Update ubuntu
-      run: |
-        sudo apt-get update
-        echo 🏅
-
-    - name: Install git
-      run: |
-        sudo apt-get install git -y
-        echo 🏅
-
-    - name: Install python3
-      run: |
-        sudo apt-get install python3 -y
-        echo 🏅
-
-    - name: Install pip3
-      run: |
-        sudo apt-get install -y python3-pip
-        echo 🏅
 
     - name: Python3 requirements.txt
       run: |
