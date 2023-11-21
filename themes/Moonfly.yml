@@ -1,0 +1,25 @@
+---
+name: 'Moonfly'
+
+color_01: '#323437'    # Black (Host)
+color_02: '#FF5454'    # Red (Syntax string)
+color_03: '#8CC85F'    # Green (Command)
+color_04: '#E3C78A'    # Yellow (Command second)
+color_05: '#80A0FF'    # Blue (Path)
+color_06: '#CF87E8'    # Magenta (Syntax var)
+color_07: '#79DAC8'    # Cyan (Prompt)
+color_08: '#C6C6C6'    # White
+
+color_09: '#949494'    # Bright Black
+color_10: '#FF5189'    # Bright Red (Command error)
+color_11: '#36C692'    # Bright Green (Exec)
+color_12: '#C2C292'    # Bright Yellow
+color_13: '#74B2FF'    # Bright Blue (Folder)
+color_14: '#AE81FF'    # Bright Magenta
+color_15: '#85DC85'    # Bright Cyan
+color_16: '#E4E4E4'    # Bright White
+
+background: '#080808'  # Background
+foreground: '#BDBDBD'  # Foreground (Text)
+
+cursor: '#9E9E9E'      # Cursor
