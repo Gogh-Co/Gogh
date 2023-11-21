@@ -1,0 +1,25 @@
+---
+name: 'Nightfly'
+
+color_01: '#1D3B53'    # Black (Host)
+color_02: '#FC514E'    # Red (Syntax string)
+color_03: '#A1CD5E'    # Green (Command)
+color_04: '#E3D18A'    # Yellow (Command second)
+color_05: '#82AAFF'    # Blue (Path)
+color_06: '#C792EA'    # Magenta (Syntax var)
+color_07: '#7FDBCA'    # Cyan (Prompt)
+color_08: '#A1AAB8'    # White
+
+color_09: '#7C8F8F'    # Bright Black
+color_10: '#FF5874'    # Bright Red (Command error)
+color_11: '#21C7A8'    # Bright Green (Exec)
+color_12: '#ECC48D'    # Bright Yellow
+color_13: '#82AAFF'    # Bright Blue (Folder)
+color_14: '#AE81FF'    # Bright Magenta
+color_15: '#7FDBCA'    # Bright Cyan
+color_16: '#D6DEEB'    # Bright White
+
+background: '#011627'  # Background
+foreground: '#BDC1C6'  # Foreground (Text)
+
+cursor: '#9CA1AA'      # Cursor
