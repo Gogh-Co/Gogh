@@ -156,6 +156,7 @@ declare -a THEMES=(
   'monokai-pro-ristretto.sh'
   'monokai-pro.sh'
   'monokai-soda.sh'
+  'moonfly.sh'
   'morada.sh'
   'n0tch2k.sh'
   'neon-night.sh'
