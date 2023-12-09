@@ -34,7 +34,7 @@ for filename in os.listdir(source_path):
 
 themes = sorted(themes, key=lambda x: x["name"])
 
-json_data = {"themes": themes}
+# json_data = {"themes": themes}
 
 with open(dest_path, "w") as f:
-    json.dump(json_data, f)
+    json.dump(themes, f)
