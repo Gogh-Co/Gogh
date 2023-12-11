@@ -117,8 +117,8 @@ function sortColors (colors) {
  * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
  */
 
-var $getUrl = 'https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json';
-// var $getUrl = '../data/themes.json';
+ var $getUrl = 'https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json';
+ // var $getUrl = 'themes.json';
 
 const $app = {
   data () {
@@ -132,7 +132,8 @@ const $app = {
 
   created () {
     axios.get($getUrl).then((response) => {
-      this.themes = response.data.themes;
+      //this.themes = response.data.themes;
+      this.themes = response.data;
       this.themes.forEach((v) => {
         v.category = lightOrDark(v.background);
       });
