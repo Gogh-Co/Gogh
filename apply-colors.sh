@@ -912,6 +912,10 @@ apply_linux_vt () {
 	    local color=COLOR_${c}
 	    echo "${!color}" >> "${file_name}"
 	  done
+    # apply the theme if setvtrgb exists
+    if command -v setvtrgb >/dev/null &2>&1; then
+           setvtrgb "${file_name}"
+    fi
   fi
 
   if command -v update-alternatives >/dev/null &2>&1 && [[ "${USER}" = "root" ]]; then
