@@ -133,6 +133,18 @@ case "${TERMINAL}" in
     fi
     ;;
 
+  kmscon )
+    if [[ -z "${KMSCON_CONFIG_DIRECTORY:-}" ]]; then
+      KMSCON_CONFIG_DIRECTORY="/etc/kmscon"
+      CFGFILE="${KMSCON_CONFIG_DIRECTORY}/kmscon.conf"
+    fi
+    if [[ ! -f "${CFGFILE}" ]]; then
+      printf '\n%s\n' "Error: Couldn't find an existing configuration file for KMSCon."
+      exit 1
+    fi
+    ;;
+
+
   konsole )
     CFGFILE="${HOME}/.config/konsolerc"
     if [[ ! -f "${CFGFILE}" ]]; then
@@ -198,6 +210,26 @@ updateMinttyConfig () {
   local   name="${3}"
 
   sed -i -r -e "s/^${name}=.+/$(createMinttyEntry "${name}" "${color}")/g" "${config}"
+}
+
+createKmsconEntry () {
+  local  name="${1}"
+  local color="${2}"
+  set --
+  set -- $(hexRGBtoDecRGB "${color}")
+  R=${1}; shift; G=${1}; shift; B=${1}; shift
+
+  echo "${name}=${R}, ${G}, ${B}"
+}
+
+updateKmsconConfig () {
+  local config="${1}"
+  local  color="${2}"
+  local   name="${3}"
+
+  if ! grep -qe "^${name}=.+" "${config}"; then
+	  echo "$(createKmsconEntry "${name}" "${color}")" >> "${config}"
+  fi
 }
 
 updateFootConfig () {
@@ -583,6 +615,36 @@ apply_kitty() {
   killall -u ${USER} -SIGUSR1 kitty || pkill --uid $(id -u) -SIGUSR1 kitty || echo "Reload failed. Please reopen your kitty terminal to see the changes."
 }
 
+apply_kmscon() {
+  # |
+  # | Applying values on kmscon | ===========================================
+
+  echo "Patching kmscon configuration file (${CFGFILE}) with new colors..."
+
+  updateKmsconConfig "$CFGFILE" "$COLOR_01"         "palette-black"
+  updateKmsconConfig "$CFGFILE" "$COLOR_02"         "palette-red"
+  updateKmsconConfig "$CFGFILE" "$COLOR_03"         "palette-green"
+  updateKmsconConfig "$CFGFILE" "$COLOR_04"         "palette-yellow"
+  updateKmsconConfig "$CFGFILE" "$COLOR_05"         "palette-blue"
+  updateKmsconConfig "$CFGFILE" "$COLOR_06"         "palette-magenta"
+  updateKmsconConfig "$CFGFILE" "$COLOR_07"         "palette-cyan"
+  updateKmsconConfig "$CFGFILE" "$COLOR_08"         "palette-dark-grey"
+
+  updateKmsconConfig "$CFGFILE" "$COLOR_09"         "palette-light-grey"
+  updateKmsconConfig "$CFGFILE" "$COLOR_10"         "palette-light-red"
+  updateKmsconConfig "$CFGFILE" "$COLOR_11"         "palette-light-green"
+  updateKmsconConfig "$CFGFILE" "$COLOR_12"         "palette-light-yellow"
+  updateKmsconConfig "$CFGFILE" "$COLOR_13"         "palette-light-blue"
+  updateKmsconConfig "$CFGFILE" "$COLOR_14"         "palette-light-magenta"
+  updateKmsconConfig "$CFGFILE" "$COLOR_15"         "palette-light-cyan"
+  updateKmsconConfig "$CFGFILE" "$COLOR_16"         "palette-white"
+
+  updateKmsconConfig "$CFGFILE" "$BACKGROUND_COLOR" "palette-background"
+  updateKmsconConfig "$CFGFILE" "$FOREGROUND_COLOR" "palette-foreground"
+
+  echo "Done - please restart your kmscon vt to see changes"
+}
+
 apply_konsole() {
   # |
   # | Applying values on Konsole
@@ -905,8 +967,8 @@ apply_linux_vt () {
   fi
   mkdir -p "${theme_dir}"
 
-  local file_name=${theme_dir}/${PROFILE_NAME}
-  if [[ ! -f ${file_name} ]]; then
+  local file_name="${theme_dir}"/"${PROFILE_NAME}"
+  if [[ ! -f "${file_name}" ]]; then
     touch "${file_name}"
 	  for c in $(seq -s " " -w 16); do
 	    local color=COLOR_${c}
@@ -914,12 +976,16 @@ apply_linux_vt () {
 	  done
     # apply the theme if setvtrgb exists
     if command -v setvtrgb >/dev/null &2>&1; then
-           setvtrgb "${file_name}"
+	    setvtrgb "${file_name}"
+	    echo setvtrgb "${file_name}"
+	    gogh_colors # preview
     fi
   fi
 
   if command -v update-alternatives >/dev/null &2>&1 && [[ "${USER}" = "root" ]]; then
     update-alternatives --install /etc/vtrgb vtrgb "${file_name}" 30
+    update-alternatives --set vtrgb "${file_name}"
+    setvtrgb /etc/vtrgb
   fi
 }
 
@@ -1019,6 +1085,10 @@ case "${TERMINAL}" in
     apply_kitty
     ;;
 
+  kmscon )
+    apply_kmscon
+    ;;
+
   konsole )
     apply_konsole
     ;;
@@ -1042,6 +1112,7 @@ case "${TERMINAL}" in
     "   xfce4-terminal"                                       \
     "   foot"                                                 \
     "   kitty"                                                \
+    "   kmscon"                                               \
     "   konsole"                                              \
     "   linux"                                                \
     ""                                                        \
