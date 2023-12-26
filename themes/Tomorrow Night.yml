@@ -10,7 +10,7 @@ color_06: '#B293BB'    # Magenta (Syntax var)
 color_07: '#8ABEB7'    # Cyan (Prompt)
 color_08: '#FFFEFE'    # White
 
-color_09: '#000000'    # Bright Black
+color_09: '#808080'    # Bright Black is too Dark for Terminal
 color_10: '#CC6666'    # Bright Red (Command error)
 color_11: '#B5BD68'    # Bright Green (Exec)
 color_12: '#F0C574'    # Bright Yellow
