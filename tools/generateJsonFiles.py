@@ -8,7 +8,7 @@ with open('./data/themes.json', 'r') as f:
     json_obj = json.load(f)
 
 # Get the list of themes
-themes = json_obj['themes']
+themes = json_obj
 
 # Create or empty the directory to store the output files
 output_dir = './json'
