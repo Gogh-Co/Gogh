@@ -45,6 +45,7 @@ declare -a THEMES=(
   'breeze.sh'
   'broadcast.sh'
   'brogrammer.sh'
+  'butrin.sh'
   'c64.sh'
   'cai.sh'
   'campbell.sh'
