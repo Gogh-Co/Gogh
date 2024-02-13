@@ -69,7 +69,7 @@ def backup_conf(terminator_conf_file_path):
     backup_path = f'{terminator_conf_file_path}.{now_str}'
     shutil.copyfile(terminator_conf_file_path, backup_path)
     print('')
-    print('Backup created at'+ backup_path)
+    print('Backup created at '+ backup_path)
 
 def strip_accents(s):
    return ''.join(c for c in unicodedata.normalize('NFD', s)
