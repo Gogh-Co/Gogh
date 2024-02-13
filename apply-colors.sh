@@ -1143,7 +1143,7 @@ case "${TERMINAL}" in
 
   * )
     printf '%s\n'                                             \
-    "Unsupported terminal! ${TERMINAL}"                                   \
+    "Unsupported terminal!"                                   \
     ""                                                        \
     "Supported terminals:"                                    \
     "   mintty and deriviates"                                \
@@ -1159,6 +1159,7 @@ case "${TERMINAL}" in
     "   kmscon"                                               \
     "   konsole"                                              \
     "   linux"                                                \
+    "   terminator"                                           \
     ""                                                        \
     "If you believe you have received this message in error," \
     "try manually setting \`TERMINAL', hint: ps -h -o comm -p \$PPID"
