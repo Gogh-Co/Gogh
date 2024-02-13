@@ -136,6 +136,7 @@ cd installs
 - Pantheon / Elementary - [Web](https://github.com/elementary/terminal)
 - Tilix - [Web](https://gnunn1.github.io/tilix-web/)
 - XFCE4 - [Web](https://docs.xfce.org/apps/terminal/start)
+- Terminator - [Web](https://github.com/gnome-terminator/terminator)
 
 <br/>
 
