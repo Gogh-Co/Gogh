@@ -43,11 +43,14 @@ def choose_profile():
     if profile_answer.lower() in ['', 'default']:
         profile_answer = 'default'
     else:
-        copy_default_config_answer = input("Do you want to copy your config from default profile? [Y]: (Y/N) ")
-        if copy_default_config_answer.lower() in ['', 'yes', 'y']:
-            copy_default_config_answer = 'yes'
-        else:
-            copy_default_config_answer = 'no'
+        while True: 
+            copy_default_config_answer = input("Do you want to copy your config from default profile? [Y]: (Y/N) ")
+            if copy_default_config_answer.lower() in ['', 'yes', 'y']:
+                copy_default_config_answer = 'yes'
+                break
+            elif copy_default_config_answer.lower() in ['no', 'n']:
+                copy_default_config_answer = 'no'
+                break
     return {"profile": profile_answer, "copy_default_config": copy_default_config_answer}
 
 
