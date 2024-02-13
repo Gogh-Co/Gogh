@@ -532,7 +532,7 @@ apply_alacritty() {
 
 apply_terminator() {
   # |
-  # | Applying values on Alacritty
+  # | Applying values on Terminator
   # | ===========================================
 
   json_str="\
