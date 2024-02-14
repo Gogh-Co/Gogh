@@ -530,6 +530,46 @@ apply_alacritty() {
 
 }
 
+apply_terminator() {
+  # |
+  # | Applying values on Terminator
+  # | ===========================================
+
+  json_str="\
+  { \
+    \"colors\": \
+    {\
+      \"primary\":\
+      {\
+        \"background\": \"$BACKGROUND_COLOR\",\
+        \"foreground\": \"$FOREGROUND_COLOR\"\
+      },\
+      \"pallete\":\"${COLOR_01}:${COLOR_02}:${COLOR_03}:${COLOR_04}:${COLOR_05}:${COLOR_06}:${COLOR_07}:${COLOR_08}:${COLOR_09}:${COLOR_10}:${COLOR_11}:${COLOR_12}:${COLOR_13}:${COLOR_14}:${COLOR_15}:${COLOR_16}\"
+    }\
+  }"
+
+  SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
+  PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
+
+  # Allow developer to change url to forked url for easier testing
+  # IMPORTANT: Make sure you export this variable if your main shell is not bash
+  BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Gogh-Co/Gogh/master"}
+
+
+  if [[ -e "${SCRIPT_PATH}/apply-terminator.py" ]]; then
+    python3 "${SCRIPT_PATH}/apply-terminator.py" "$json_str"
+  else
+    if [[ "$(uname)" = "Darwin" ]]; then
+      # OSX ships with curl and ancient bash
+      python3 -c "$(curl -so- "${BASE_URL}/apply-terminator.py")" "$json_str"
+    else
+      # Linux ships with wget
+      python3 -c "$(wget -qO- "${BASE_URL}/apply-terminator.py")" "$json_str"
+    fi
+  fi
+
+}
+
 apply_foot() {
   # |
   # | Applying values on foot
@@ -1077,6 +1117,10 @@ case "${TERMINAL}" in
     apply_alacritty
     ;;
 
+  terminator )
+  apply_terminator
+  ;;
+
   foot )
     apply_foot
     ;;
@@ -1115,6 +1159,7 @@ case "${TERMINAL}" in
     "   kmscon"                                               \
     "   konsole"                                              \
     "   linux"                                                \
+    "   terminator"                                           \
     ""                                                        \
     "If you believe you have received this message in error," \
     "try manually setting \`TERMINAL', hint: ps -h -o comm -p \$PPID"
