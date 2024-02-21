@@ -197,6 +197,7 @@ declare -a THEMES=(
   'predawn.sh'
   'pro.sh'
   'purple-people-eater.sh'
+  'quiet.sh'
   'red-alert.sh'
   'red-sands.sh'
   'relaxed.sh'
