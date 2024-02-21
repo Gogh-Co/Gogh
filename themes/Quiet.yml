@@ -1,0 +1,25 @@
+---
+name: 'Quiet'
+
+color_01: '#141414'    # Black (Host)
+color_02: '#C16262'    # Red (Syntax string)
+color_03: '#49B685'    # Green (Command)
+color_04: '#C5B76D'    # Yellow (Command second)
+color_05: '#4992B6'    # Blue (Path)
+color_06: '#815BBE'    # Magenta (Syntax var)
+color_07: '#41A4A4'    # Cyan (Prompt)
+color_08: '#C5C5C5'    # White
+
+color_09: '#505050'    # Bright Black
+color_10: '#ED5E7A'    # Bright Red (Command error)
+color_11: '#7ECE7E'    # Bright Green (Exec)
+color_12: '#DBDB70'    # Bright Yellow
+color_13: '#4DBFFF'    # Bright Blue (Folder)
+color_14: '#C067E4'    # Bright Magenta
+color_15: '#70DBD8'    # Bright Cyan
+color_16: '#F0F0F0'    # Bright White
+
+background: '#141414'  # Background
+foreground: '#B9B9B9'  # Foreground (Text)
+
+cursor: '#A0A0A0'      # Cursor
