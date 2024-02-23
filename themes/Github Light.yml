@@ -3,8 +3,8 @@ name: 'Github Light'
 
 color_01: '#24292f'    # Black (Host)
 color_02: '#cf222e'    # Red (Syntax string)
-color_03: '#116329'    # Green (Command)
-color_04: '#4d2d00'    # Yellow (Command second)
+color_03: '#1a7f37'    # Green (Command)
+color_04: '#9a6700'    # Yellow (Command second)
 color_05: '#0969da'    # Blue (Path)
 color_06: '#8250df'    # Magenta (Syntax var)
 color_07: '#1b7c83'    # Cyan (Prompt)
@@ -12,8 +12,8 @@ color_08: '#6e7781'    # White
 
 color_09: '#57606a'    # Bright Black
 color_10: '#a40e26'    # Bright Red (Command error)
-color_11: '#1a7f37'    # Bright Green (Exec)
-color_12: '#633c01'    # Bright Yellow
+color_11: '#2da44e'    # Bright Green (Exec)
+color_12: '#bf8700'    # Bright Yellow
 color_13: '#218bff'    # Bright Blue (Folder)
 color_14: '#a475f9'    # Bright Magenta
 color_15: '#3192aa'    # Bright Cyan
