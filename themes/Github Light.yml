@@ -1,25 +1,25 @@
 ---
 name: 'Github Light'
 
-color_01: '#3E3E3E'    # Black (Host)
-color_02: '#970B16'    # Red (Syntax string)
-color_03: '#07962A'    # Green (Command)
-color_04: '#F8EEC7'    # Yellow (Command second)
-color_05: '#003E8A'    # Blue (Path)
-color_06: '#E94691'    # Magenta (Syntax var)
-color_07: '#89D1EC'    # Cyan (Prompt)
-color_08: '#FFFFFF'    # White
+color_01: '#24292f'    # Black (Host)
+color_02: '#cf222e'    # Red (Syntax string)
+color_03: '#1a7f37'    # Green (Command)
+color_04: '#9a6700'    # Yellow (Command second)
+color_05: '#0969da'    # Blue (Path)
+color_06: '#8250df'    # Magenta (Syntax var)
+color_07: '#1b7c83'    # Cyan (Prompt)
+color_08: '#6e7781'    # White
 
-color_09: '#666666'    # Bright Black
-color_10: '#DE0000'    # Bright Red (Command error)
-color_11: '#87D5A2'    # Bright Green (Exec)
-color_12: '#F1D007'    # Bright Yellow
-color_13: '#2E6CBA'    # Bright Blue (Folder)
-color_14: '#FFA29F'    # Bright Magenta
-color_15: '#1CFAFE'    # Bright Cyan
-color_16: '#FFFFFF'    # Bright White
+color_09: '#57606a'    # Bright Black
+color_10: '#a40e26'    # Bright Red (Command error)
+color_11: '#2da44e'    # Bright Green (Exec)
+color_12: '#bf8700'    # Bright Yellow
+color_13: '#218bff'    # Bright Blue (Folder)
+color_14: '#a475f9'    # Bright Magenta
+color_15: '#3192aa'    # Bright Cyan
+color_16: '#8c959f'    # Bright White
 
-background: '#F4F4F4'  # Background
-foreground: '#3E3E3E'  # Foreground (Text)
+background: '#f6f8fa'  # Background
+foreground: '#1f2328'  # Foreground (Text)
 
-cursor: '#3E3E3E'      # Cursor
+cursor: '#1f2328'      # Cursor
