@@ -1,0 +1,26 @@
+---
+name : "Sparky"
+
+color_01: "#212322"
+color_02: "#e03e52"
+color_03: "#78d64b"
+color_04: "#f6eb61"
+color_05: "#407ec9"
+color_06: "#eb6fbd"
+color_07: "#2dccd3"
+color_08: "#dee6de"
+
+color_09: "#4b4f54"
+color_10: "#cb333b"
+color_11: "#67b941"
+color_12: "#fbdd40"
+color_13: "#3a5dae"
+color_14: "#c6579a"
+color_15: "#48a9c5"
+color_16: "#c8c9c7"
+
+background: "#141414"
+foreground: "#B9B9B9"
+
+cursor: "#A0A0A0"
+---
