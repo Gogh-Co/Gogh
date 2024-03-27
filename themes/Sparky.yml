@@ -1,26 +1,25 @@
 ---
 name : "Sparky"
 
-color_01: "#212322"
-color_02: "#e03e52"
-color_03: "#78d64b"
-color_04: "#f6eb61"
-color_05: "#407ec9"
-color_06: "#eb6fbd"
-color_07: "#2dccd3"
-color_08: "#dee6de"
+color_01: '#212322'    # Black (Host)
+color_02: '#e03e52'    # Red (Syntax string)
+color_03: '#78d64b'    # Green (Command)
+color_04: '#F3EA5D'    # Yellow (Command second)
+color_05: '#407ec9'    # Blue (Path)
+color_06: '#eb6fbd'    # Magenta (Syntax var)
+color_07: '#2dccd3'    # Cyan (Prompt)
+color_08: '#dee6de'    # White
 
-color_09: "#4b4f54"
-color_10: "#cb333b"
-color_11: "#67b941"
-color_12: "#fbdd40"
-color_13: "#3a5dae"
-color_14: "#c6579a"
-color_15: "#48a9c5"
-color_16: "#c8c9c7"
+color_09: '#4B4F54'    # Bright Black
+color_10: '#F8485E'    # Bright Red (Command error)
+color_11: '#8EDD65'    # Bright Green (Exec)
+color_12: '#F0E991'    # Bright Yellow
+color_13: '#418FDE'    # Bright Blue (Folder)
+color_14: '#EF95CF'    # Bright Magenta
+color_15: '#05C3DE'    # Bright Cyan
+color_16: '#D9E1E2'    # Bright White
 
-background: "#141414"
-foreground: "#B9B9B9"
+background: '#072B31'    # Background
+foreground: '#F4F5F0'    # Foreground (Text)
 
-cursor: "#A0A0A0"
----
+cursor: '#F4F5F0'      # Cursor
