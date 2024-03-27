@@ -227,6 +227,7 @@ declare -a THEMES=(
   'spacegray-eighties-dull.sh'
   'spacegray-eighties.sh'
   'spacegray.sh'
+  'sparky.sh'
   'spring.sh'
   'square.sh'
   'srcery.sh'
