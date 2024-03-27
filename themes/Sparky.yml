@@ -2,21 +2,22 @@
 name : "Sparky"
 
 color_01: '#212322'    # Black (Host)
-color_02: '#e03e52'    # Red (Syntax string)
-color_03: '#78d64b'    # Green (Command)
-color_04: '#F3EA5D'    # Yellow (Command second)
-color_05: '#407ec9'    # Blue (Path)
-color_06: '#eb6fbd'    # Magenta (Syntax var)
-color_07: '#2dccd3'    # Cyan (Prompt)
-color_08: '#dee6de'    # White
+
+color_02: '#FF585D'    # Red (Syntax string)
+color_03: '#78D64B'    # Green (Command)
+color_04: '#FBDD40'    # Yellow (Command second)
+color_05: '#4698CB'    # Blue (Path)
+color_06: '#D59ED7'    # Magenta (Syntax var)
+color_07: '#2DCCD3'    # Cyan (Prompt)
+color_08: '#DEE6DE'    # White
 
 color_09: '#4B4F54'    # Bright Black
-color_10: '#F8485E'    # Bright Red (Command error)
+color_10: '#FF7276'    # Bright Red (Command error)
 color_11: '#8EDD65'    # Bright Green (Exec)
-color_12: '#F0E991'    # Bright Yellow
-color_13: '#418FDE'    # Bright Blue (Folder)
-color_14: '#EF95CF'    # Bright Magenta
-color_15: '#05C3DE'    # Bright Cyan
+color_12: '#F6EB61'    # Bright Yellow
+color_13: '#69B3E7'    # Bright Blue (Folder)
+color_14: '#F99FC9'    # Bright Magenta
+color_15: '#00C1D5'    # Bright Cyan
 color_16: '#D9E1E2'    # Bright White
 
 background: '#072B31'    # Background
