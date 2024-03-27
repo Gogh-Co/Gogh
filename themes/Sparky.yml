@@ -2,7 +2,6 @@
 name : "Sparky"
 
 color_01: '#212322'    # Black (Host)
-
 color_02: '#FF585D'    # Red (Syntax string)
 color_03: '#78D64B'    # Green (Command)
 color_04: '#FBDD40'    # Yellow (Command second)
