@@ -1,0 +1,24 @@
+name: 'Miramare'
+
+color_01: '#242021'    # Black (Host)
+color_02: '#e68183'    # Red (Syntax string)
+color_03: '#a7c080'    # Green (Command)
+color_04: '#d9bb80'    # Yellow (Command second)
+color_05: '#89beba'    # Blue (Path)
+color_06: '#d3a0bc'    # Magenta (Syntax var)
+color_07: '#87c095'    # Cyan (Prompt)
+color_08: '#d8caac'    # White
+
+color_09: '#444444'    # Bright Black
+color_10: '#e39b7b'    # Bright Red (Command error)
+color_11: '#a7c080'    # Bright Green (Exec)
+color_12: '#d9bb80'    # Bright Yellow
+color_13: '#89beba'    # Bright Blue (Folder)
+color_14: '#d3a0bc'    # Bright Magenta
+color_15: '#87c095'    # Bright Cyan
+color_16: '#e6d6ac'    # Bright White
+
+background: '#2a2426'  # Background
+foreground: '#e6d6ac'  # Foreground (Text)
+
+cursor: '#e6d6ac'      # Cursor
