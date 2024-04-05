@@ -1,0 +1,25 @@
+---
+name: 'Seoul256 Light'
+
+color_01: '#4e4e4e'    # Black (Host)
+color_02: '#af5f5f'    # Red (Syntax string)
+color_03: '#5f885f'    # Green (Command)
+color_04: '#af8760'    # Yellow (Command second)
+color_05: '#5f87ae'    # Blue (Path)
+color_06: '#875f87'    # Magenta (Syntax var)
+color_07: '#5f8787'    # Cyan (Prompt)
+color_08: '#e4e4e4'    # White
+
+color_09: '#3a3a3a'    # Bright Black
+color_10: '#870100'    # Bright Red (Command error)
+color_11: '#005f00'    # Bright Green (Exec)
+color_12: '#d8865f'    # Bright Yellow
+color_13: '#0087af'    # Bright Blue (Folder)
+color_14: '#87025f'    # Bright Magenta
+color_15: '#008787'    # Bright Cyan
+color_16: '#eeeeee'    # Bright White
+
+background: '#dadada'  # Background
+foreground: '#4e4e4e'  # Foreground (Text)
+
+cursor: '#4e4e4e'      # Cursor
