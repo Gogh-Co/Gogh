@@ -1,25 +1,25 @@
 ---
 name: 'Zenburn'
 
-color_01: '#4D4D4D'    # Black (Host)
-color_02: '#705050'    # Red (Syntax string)
-color_03: '#60B48A'    # Green (Command)
-color_04: '#F0DFAF'    # Yellow (Command second)
-color_05: '#506070'    # Blue (Path)
-color_06: '#DC8CC3'    # Magenta (Syntax var)
-color_07: '#8CD0D3'    # Cyan (Prompt)
-color_08: '#DCDCCC'    # White
+color_01: '#333333'    # Black (Host)
+color_02: '#cc9393'    # Red (Syntax string)
+color_03: '#efef87'    # Green (Command)
+color_04: '#ffd7a7'    # Yellow (Command second)
+color_05: '#c3bf97'    # Blue (Path)
+color_06: '#bca3a3'    # Magenta (Syntax var)
+color_07: '#93b3a3'    # Cyan (Prompt)
+color_08: '#f0efd0'    # White
 
-color_09: '#709080'    # Bright Black
-color_10: '#DCA3A3'    # Bright Red (Command error)
-color_11: '#C3BF9F'    # Bright Green (Exec)
-color_12: '#E0CF9F'    # Bright Yellow
-color_13: '#94BFF3'    # Bright Blue (Folder)
-color_14: '#EC93D3'    # Bright Magenta
-color_15: '#93E0E3'    # Bright Cyan
-color_16: '#FFFFFF'    # Bright White
+color_09: '#757575'    # Bright Black
+color_10: '#dfaf87'    # Bright Red (Command error)
+color_11: '#ffff87'    # Bright Green (Exec)
+color_12: '#ffcfaf'    # Bright Yellow
+color_13: '#d7d7af'    # Bright Blue (Folder)
+color_14: '#d7afaf'    # Bright Magenta
+color_15: '#93bea3'    # Bright Cyan
+color_16: '#dcdccc'    # Bright White
 
-background: '#3F3F3F'  # Background
-foreground: '#DCDCCC'  # Foreground (Text)
+background: '#3a3a3a'  # Background
+foreground: '#dcdccc'  # Foreground (Text)
 
-cursor: '#DCDCCC'      # Cursor
+cursor: '#dcdccc'      # Cursor
