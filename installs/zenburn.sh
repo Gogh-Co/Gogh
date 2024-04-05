@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Zenburn"
 
-export COLOR_01="#4D4D4D"           # Black (Host)
-export COLOR_02="#705050"           # Red (Syntax string)
-export COLOR_03="#60B48A"           # Green (Command)
-export COLOR_04="#F0DFAF"           # Yellow (Command second)
-export COLOR_05="#506070"           # Blue (Path)
-export COLOR_06="#DC8CC3"           # Magenta (Syntax var)
-export COLOR_07="#8CD0D3"           # Cyan (Prompt)
-export COLOR_08="#DCDCCC"           # White
+export COLOR_01="#333333"           # Black (Host)
+export COLOR_02="#cc9393"           # Red (Syntax string)
+export COLOR_03="#efef87"           # Green (Command)
+export COLOR_04="#ffd7a7"           # Yellow (Command second)
+export COLOR_05="#c3bf97"           # Blue (Path)
+export COLOR_06="#bca3a3"           # Magenta (Syntax var)
+export COLOR_07="#93b3a3"           # Cyan (Prompt)
+export COLOR_08="#f0efd0"           # White
 
-export COLOR_09="#709080"           # Bright Black
-export COLOR_10="#DCA3A3"           # Bright Red (Command error)
-export COLOR_11="#C3BF9F"           # Bright Green (Exec)
-export COLOR_12="#E0CF9F"           # Bright Yellow
-export COLOR_13="#94BFF3"           # Bright Blue (Folder)
-export COLOR_14="#EC93D3"           # Bright Magenta
-export COLOR_15="#93E0E3"           # Bright Cyan
-export COLOR_16="#FFFFFF"           # Bright White
+export COLOR_09="#757575"           # Bright Black
+export COLOR_10="#dfaf87"           # Bright Red (Command error)
+export COLOR_11="#ffff87"           # Bright Green (Exec)
+export COLOR_12="#ffcfaf"           # Bright Yellow
+export COLOR_13="#d7d7af"           # Bright Blue (Folder)
+export COLOR_14="#d7afaf"           # Bright Magenta
+export COLOR_15="#93bea3"           # Bright Cyan
+export COLOR_16="#dcdccc"           # Bright White
 
-export BACKGROUND_COLOR="#3F3F3F"   # Background
-export FOREGROUND_COLOR="#DCDCCC"   # Foreground (Text)
+export BACKGROUND_COLOR="#3a3a3a"   # Background
+export FOREGROUND_COLOR="#dcdccc"   # Foreground (Text)
 
-export CURSOR_COLOR="#DCDCCC" # Cursor
+export CURSOR_COLOR="#dcdccc" # Cursor
 
 # | ===========================================================================
 # | Apply Colors
