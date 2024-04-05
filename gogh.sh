@@ -211,6 +211,8 @@ declare -a THEMES=(
   'seafoam-pastel.sh'
   'selenized-dark.sh'
   'selenized-light.sh'
+  'seoul256-light.sh'
+  'seoul256.sh'
   'seti.sh'
   'shaman.sh'
   'shel.sh'
