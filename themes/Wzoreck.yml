@@ -3,7 +3,7 @@ name: 'Wzoreck'
 
 color_01: '#2E3436'    # Black (Host)
 color_02: '#FC6386'    # Red (Syntax string)
-color_03: '#424043'    # Green (Command)
+color_03: '#A9DC76'    # Green (Command)
 color_04: '#FCE94F'    # Yellow (Command second)
 color_05: '#FB976B'    # Blue (Path)
 color_06: '#75507B'    # Magenta (Syntax var)
