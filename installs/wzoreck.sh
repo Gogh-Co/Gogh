@@ -4,7 +4,7 @@ export PROFILE_NAME="Wzoreck"
 
 export COLOR_01="#2E3436"           # Black (Host)
 export COLOR_02="#FC6386"           # Red (Syntax string)
-export COLOR_03="#424043"           # Green (Command)
+export COLOR_03="#A9DC76"           # Green (Command)
 export COLOR_04="#FCE94F"           # Yellow (Command second)
 export COLOR_05="#FB976B"           # Blue (Path)
 export COLOR_06="#75507B"           # Magenta (Syntax var)
