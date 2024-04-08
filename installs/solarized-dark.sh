@@ -12,12 +12,12 @@ export COLOR_07="#2AA198"           # Cyan (Prompt)
 export COLOR_08="#EEE8D5"           # White
 
 export COLOR_09="#657B83"           # Bright Black
-export COLOR_10="#D87979"           # Bright Red (Command error)
-export COLOR_11="#88CF76"           # Bright Green (Exec)
-export COLOR_12="#657B83"           # Bright Yellow
-export COLOR_13="#2699FF"           # Bright Blue (Folder)
+export COLOR_10="#CB4B16"           # Bright Red (Command error)
+export COLOR_11="#859900"           # Bright Green (Exec)
+export COLOR_12="#CF9A6B"           # Bright Yellow
+export COLOR_13="#6c71c4"           # Bright Blue (Folder)
 export COLOR_14="#D33682"           # Bright Magenta
-export COLOR_15="#43B8C3"           # Bright Cyan
+export COLOR_15="#2AA198"           # Bright Cyan
 export COLOR_16="#FDF6E3"           # Bright White
 
 export BACKGROUND_COLOR="#002B36"   # Background
