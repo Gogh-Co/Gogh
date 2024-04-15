@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PROFILE_NAME="Everforest Light"
+export PROFILE_NAME="Everforest Light Medium"
 
 export COLOR_01="#5C6A72"           # Black (Host)
 export COLOR_02="#F85552"           # Red (Syntax string)
@@ -11,7 +11,7 @@ export COLOR_06="#DF69BA"           # Magenta (Syntax var)
 export COLOR_07="#35A77C"           # Cyan (Prompt)
 export COLOR_08="#DFDDC8"           # White
 
-export COLOR_09="#4B565C"           # Bright Black
+export COLOR_09="#343F44"           # Bright Black
 export COLOR_10="#E67E80"           # Bright Red (Command error)
 export COLOR_11="#A7C080"           # Bright Green (Exec)
 export COLOR_12="#DBBC7F"           # Bright Yellow
