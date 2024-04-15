@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-export PROFILE_NAME="Everforest Dark"
+export PROFILE_NAME="Everforest Dark Hard"
 
-export COLOR_01="#4B565C"           # Black (Host)
+export COLOR_01="#2E383C"           # Black (Host)
 export COLOR_02="#E67E80"           # Red (Syntax string)
 export COLOR_03="#A7C080"           # Green (Command)
 export COLOR_04="#DBBC7F"           # Yellow (Command second)
@@ -20,7 +20,7 @@ export COLOR_14="#DF69BA"           # Bright Magenta
 export COLOR_15="#35A77C"           # Bright Cyan
 export COLOR_16="#DFDDC8"           # Bright White
 
-export BACKGROUND_COLOR="#2D353B"   # Background
+export BACKGROUND_COLOR="#272E33"   # Background
 export FOREGROUND_COLOR="#D3C6AA"   # Foreground (Text)
 
 export CURSOR_COLOR="#D3C6AA" # Cursor
