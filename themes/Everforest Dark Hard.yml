@@ -1,0 +1,25 @@
+---
+name: 'Everforest Dark Hard'
+
+color_01: '#2E383C'    # Black (Host)
+color_02: '#E67E80'    # Red (Syntax string)
+color_03: '#A7C080'    # Green (Command)
+color_04: '#DBBC7F'    # Yellow (Command second)
+color_05: '#7FBBB3'    # Blue (Path)
+color_06: '#D699B6'    # Magenta (Syntax var)
+color_07: '#83C092'    # Cyan (Prompt)
+color_08: '#D3C6AA'    # White
+
+color_09: '#5C6A72'    # Bright Black
+color_10: '#F85552'    # Bright Red (Command error)
+color_11: '#8DA101'    # Bright Green (Exec)
+color_12: '#DFA000'    # Bright Yellow
+color_13: '#3A94C5'    # Bright Blue (Folder)
+color_14: '#DF69BA'    # Bright Magenta
+color_15: '#35A77C'    # Bright Cyan
+color_16: '#DFDDC8'    # Bright White
+
+background: '#272E33'  # Background
+foreground: '#D3C6AA'  # Foreground (Text)
+
+cursor: '#D3C6AA'      # Cursor
