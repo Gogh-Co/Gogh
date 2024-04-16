@@ -1,0 +1,25 @@
+---
+name: 'Blue Dolphin'
+
+color_01: '#292D3E'    # Black (Host)
+color_02: '#FF8288'    # Red (Syntax string)
+color_03: '#B4E88D'    # Green (Command)
+color_04: '#F4D69F'    # Yellow (Command second)
+color_05: '#82AAFF'    # Blue (Path)
+color_06: '#E9C1FF'    # Magenta (Syntax var)
+color_07: '#89EBFF'    # Cyan (Prompt)
+color_08: '#D0D0D0'    # White
+
+color_09: '#434758'    # Bright Black
+color_10: '#FF8B92'    # Bright Red (Command error)
+color_11: '#DDFFA7'    # Bright Green (Exec)
+color_12: '#FFE585'    # Bright Yellow
+color_13: '#9CC4FF'    # Bright Blue (Folder)
+color_14: '#DDB0F6'    # Bright Magenta
+color_15: '#A3F7FF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#006984'  # Background
+foreground: '#C5F2FF'  # Foreground (Text)
+
+cursor: '#FFCC00'      # Cursor
