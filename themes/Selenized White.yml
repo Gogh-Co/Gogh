@@ -1,0 +1,25 @@
+---
+name: 'Selenized White'
+
+color_01: '#ebebeb'    # Black (Host) 
+color_02: '#d6000c'    # Red (Syntax string)
+color_03: '#1d9700'    # Green (Command)
+color_04: '#c49700'    # Yellow (Command second)
+color_05: '#0064e4'    # Blue (Path)
+color_06: '#dd0f9d'    # Magenta (Syntax var)
+color_07: '#00ad9c'    # Cyan (Prompt)
+color_08: '#878787'    # White
+
+color_09: '#cdcdcd'    # Bright Black
+color_10: '#bf0000'    # Bright Red (Command error)
+color_11: '#008400'    # Bright Green (Exec)
+color_12: '#af8500'    # Bright Yellow
+color_13: '#0054cf'    # Bright Blue (Folder)
+color_14: '#c7008b'    # Bright Magenta
+color_15: '#009a8a'    # Bright Cyan
+color_16: '#282828'    # Bright White
+
+background: '#ffffff'  # Background
+foreground: '#474747'  # Foreground (Text)
+
+cursor: '#282828'      # Cursor
