@@ -1,16 +1,16 @@
 ---
 name: 'Selenized Dark'
 
-color_01: '#103c48'    # Black (Host)
+color_01: '#184956'    # Black (Host) 
 color_02: '#fa5750'    # Red (Syntax string)
 color_03: '#75b938'    # Green (Command)
 color_04: '#dbb32d'    # Yellow (Command second)
 color_05: '#4695f7'    # Blue (Path)
 color_06: '#f275be'    # Magenta (Syntax var)
 color_07: '#41c7b9'    # Cyan (Prompt)
-color_08: '#adbcbc'    # White
+color_08: '#72898f'    # White
 
-color_09: '#184956'    # Bright Black
+color_09: '#2d5b69'    # Bright Black
 color_10: '#ff665c'    # Bright Red (Command error)
 color_11: '#84c747'    # Bright Green (Exec)
 color_12: '#ebc13d'    # Bright Yellow
@@ -22,4 +22,4 @@ color_16: '#cad8d9'    # Bright White
 background: '#103c48'  # Background
 foreground: '#adbcbc'  # Foreground (Text)
 
-cursor: '#adbcbc'      # Cursor
+cursor: '#cad8d9'      # Cursor
