@@ -2,16 +2,16 @@
 
 export PROFILE_NAME="Selenized Dark"
 
-export COLOR_01="#103c48"           # Black (Host)
+export COLOR_01="#184956"           # Black (Host)
 export COLOR_02="#fa5750"           # Red (Syntax string)
 export COLOR_03="#75b938"           # Green (Command)
 export COLOR_04="#dbb32d"           # Yellow (Command second)
 export COLOR_05="#4695f7"           # Blue (Path)
 export COLOR_06="#f275be"           # Magenta (Syntax var)
 export COLOR_07="#41c7b9"           # Cyan (Prompt)
-export COLOR_08="#adbcbc"           # White
+export COLOR_08="#72898f"           # White
 
-export COLOR_09="#184956"           # Bright Black
+export COLOR_09="#2d5b69"           # Bright Black
 export COLOR_10="#ff665c"           # Bright Red (Command error)
 export COLOR_11="#84c747"           # Bright Green (Exec)
 export COLOR_12="#ebc13d"           # Bright Yellow
@@ -23,7 +23,7 @@ export COLOR_16="#cad8d9"           # Bright White
 export BACKGROUND_COLOR="#103c48"   # Background
 export FOREGROUND_COLOR="#adbcbc"   # Foreground (Text)
 
-export CURSOR_COLOR="#adbcbc" # Cursor
+export CURSOR_COLOR="#cad8d9" # Cursor
 
 # | ===========================================================================
 # | Apply Colors
