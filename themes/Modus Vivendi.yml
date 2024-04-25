@@ -1,0 +1,25 @@
+---
+name: 'Modus Vivendi'
+
+color_01: "#000000"    # Black (Host)
+color_02: "#ff5f59"    # Red (Syntax string)
+color_03: "#44bc44"    # Green (Command)
+color_04: "#d0bc00"    # Yellow (Command second)
+color_05: "#2fafff"    # Blue (Path)
+color_06: "#feacd0"    # Magenta (Syntax var)
+color_07: "#00d3d0"    # Cyan (Prompt)
+color_08: "#ffffff"    # White
+
+color_09: "#1e1e1e"    # Bright Black
+color_10: "#ff5f5f"    # Bright Red (Command error)
+color_11: "#44df44"    # Bright Green (Exec)
+color_12: "#efef00"    # Bright Yellow
+color_13: "#338fff"    # Bright Blue (Folder)
+color_14: "#ff66ff"    # Bright Magenta
+color_15: "#00eff0"    # Bright Cyan
+color_16: "#989898"    # Bright White
+
+background: '#000000'  # Background
+foreground: '#ffffff'  # Foreground (Text)
+
+cursor: '#ffffff'      # Cursor
