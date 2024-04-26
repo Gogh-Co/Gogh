@@ -1,0 +1,25 @@
+---
+name: 'Modus Operandi Tinted'
+
+color_01: '#fbf7f0'    # Black (Host) OK
+color_02: '#a60000'    # Red (Syntax string) OK
+color_03: '#006800'    # Green (Command) OK
+color_04: '#6f5500'    # Yellow (Command second)
+color_05: '#0031a9'    # Blue (Path)
+color_06: '#721045'    # Magenta (Syntax var)
+color_07: '#005e8b'    # Cyan (Prompt)
+color_08: '#000000'    # White
+
+color_09: '#efe9dd'    # Bright Black
+color_10: '#d00000'    # Bright Red (Command error)
+color_11: '#008900'    # Bright Green (Exec)
+color_12: '#808000'    # Bright Yellow
+color_13: '#0000ff'    # Bright Blue (Folder)
+color_14: '#dd22dd'    # Bright Magenta
+color_15: '#008899'    # Bright Cyan
+color_16: '#595959'    # Bright White
+
+background: '#fbf7f0'  # Background
+foreground: '#000000'  # Foreground (Text)
+
+cursor: '#000000'      # Cursor
