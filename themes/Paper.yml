@@ -1,0 +1,25 @@
+---
+name: 'Paper'
+
+color_01: '#000000'    # Black (Host)
+color_02: '#cc3e28'    # Red (Syntax string)
+color_03: '#216609'    # Green (Command)
+color_04: '#b58900'    # Yellow (Command second)
+color_05: '#1e6fcc'    # Blue (Path)
+color_06: '#5c21a5'    # Magenta (Syntax var)
+color_07: '#158c86'    # Cyan (Prompt)
+color_08: '#aaaaaa'    # White
+
+color_09: '#555555'    # Bright Black
+color_10: '#cc3e28'    # Bright Red (Command error)
+color_11: '#216609'    # Bright Green (Exec)
+color_12: '#b58900'    # Bright Yellow
+color_13: '#1e6fcc'    # Bright Blue (Folder)
+color_14: '#5c21a5'    # Bright Magenta
+color_15: '#158c86'    # Bright Cyan
+color_16: '#aaaaaa'    # Bright White
+
+background: '#f2eede'  # Background
+foreground: '#000000'  # Foreground (Text)
+
+cursor: '#000000'      # Cursor
