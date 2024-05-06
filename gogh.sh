@@ -195,6 +195,7 @@ declare -a THEMES=(
   'palenight.sh'
   'pali.sh'
   'panda.sh'
+  'paper.sh'
   'papercolor-dark.sh'
   'papercolor-light.sh'
   'paraiso-dark.sh'
