@@ -1,0 +1,25 @@
+---
+name: 'Iceberg'
+
+color_01: '#161821'    # Black (Host)
+color_02: '#e27878'    # Red (Syntax string)
+color_03: '#b4be82'    # Green (Command)
+color_04: '#e2a478'    # Yellow (Command second)
+color_05: '#84a0c6'    # Blue (Path)
+color_06: '#a093c7'    # Magenta (Syntax var)
+color_07: '#89b8c2'    # Cyan (Prompt)
+color_08: '#c6c8d1'    # White
+
+color_09: '#6b7089'    # Bright Black
+color_10: '#e98989'    # Bright Red (Command error)
+color_11: '#c0ca8e'    # Bright Green (Exec)
+color_12: '#e9b189'    # Bright Yellow
+color_13: '#91acd1'    # Bright Blue (Folder)
+color_14: '#ada0d3'    # Bright Magenta
+color_15: '#95c4ce'    # Bright Cyan
+color_16: '#d2d4de'    # Bright White
+
+background: '#161821'  # Background
+foreground: '#c6c8d1'  # Foreground (Text)
+
+cursor: '#d2d4de'      # Cursor
