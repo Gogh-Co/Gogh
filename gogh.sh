@@ -126,6 +126,7 @@ declare -a THEMES=(
   'ibm3270.sh'
   'ic-green-ppl.sh'
   'ic-orange-ppl.sh'
+  'iceberg.sh'
   'idle-toes.sh'
   'ir-black.sh'
   'jackie-brown.sh'
