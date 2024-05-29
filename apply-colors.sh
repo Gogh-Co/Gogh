@@ -39,6 +39,9 @@ GLOBAL_VAR_CLEANUP() {
   unset PROFILE_NAME
 }
 
+SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
+PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
+
 # Note: Since all scripts gets invoked in a subshell the traps from the parent shell
 # will not get inherited. Hence traps defined in gogh.sh and print-themes.sh will still trigger
 trap 'GLOBAL_VAR_CLEANUP; trap - EXIT' EXIT HUP INT QUIT PIPE TERM
@@ -508,26 +511,14 @@ apply_alacritty() {
     }\
   }"
 
-  SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
-  PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
-
-  # Allow developer to change url to forked url for easier testing
-  # IMPORTANT: Make sure you export this variable if your main shell is not bash
-  BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Gogh-Co/Gogh/master"}
-
-
-  if [[ -e "${SCRIPT_PATH}/apply-alacritty.py" ]]; then
+  if [[ -e "${GOGH_ALACRITTY_SCRIPT}" ]]; then
+    python3 "${GOGH_ALACRITTY_SCRIPT}" "$json_str"
+  elif [[ -e "${SCRIPT_PATH}/apply-alacritty.py" ]]; then
     python3 "${SCRIPT_PATH}/apply-alacritty.py" "$json_str"
   else
-    if [[ "$(uname)" = "Darwin" ]]; then
-      # OSX ships with curl and ancient bash
-      python3 -c "$(curl -so- "${BASE_URL}/apply-alacritty.py")" "$json_str"
-    else
-      # Linux ships with wget
-      python3 -c "$(wget -qO- "${BASE_URL}/apply-alacritty.py")" "$json_str"
-    fi
+    printf '\n%s\n' "Error: Couldn't find apply-alacritty.py file."
+    exit 1
   fi
-
 }
 
 apply_terminator() {
@@ -548,24 +539,13 @@ apply_terminator() {
     }\
   }"
 
-  SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
-  PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
-
-  # Allow developer to change url to forked url for easier testing
-  # IMPORTANT: Make sure you export this variable if your main shell is not bash
-  BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Gogh-Co/Gogh/master"}
-
-
-  if [[ -e "${SCRIPT_PATH}/apply-terminator.py" ]]; then
+  if [[ -e "${GOGH_TERMINATOR_SCRIPT}" ]]; then
+   python3 "${GOGH_TERMINATOR_SCRIPT}" "$json_str"
+  elif [[ -e "${SCRIPT_PATH}/apply-terminator.py" ]]; then
     python3 "${SCRIPT_PATH}/apply-terminator.py" "$json_str"
   else
-    if [[ "$(uname)" = "Darwin" ]]; then
-      # OSX ships with curl and ancient bash
-      python3 -c "$(curl -so- "${BASE_URL}/apply-terminator.py")" "$json_str"
-    else
-      # Linux ships with wget
-      python3 -c "$(wget -qO- "${BASE_URL}/apply-terminator.py")" "$json_str"
-    fi
+    printf '\n%s\n' "Error: Couldn't find apply-terminator.py."
+    exit 1
   fi
 
 }
@@ -1118,7 +1098,7 @@ case "${TERMINAL}" in
     ;;
 
   terminator )
-  apply_terminator
+    apply_terminator
   ;;
 
   foot )
@@ -1146,10 +1126,12 @@ case "${TERMINAL}" in
     "Unsupported terminal!"                                   \
     ""                                                        \
     "Supported terminals:"                                    \
-    "   mintty and deriviates"                                \
+    "   alacritty"                                            \
+    "   mintty (and deriviates)"                              \
     "   guake"                                                \
-    "   iTerm2"                                               \
-    "   elementary terminal (pantheon/elementary)"            \
+    "   iTerm.app (iTerm2)"                                   \
+    "   pantheon-terminal"                                    \
+    "   io.elementary.t* (elementary terminal)"               \
     "   mate-terminal"                                        \
     "   gnome-terminal"                                       \
     "   tilix"                                                \
@@ -1158,11 +1140,12 @@ case "${TERMINAL}" in
     "   kitty"                                                \
     "   kmscon"                                               \
     "   konsole"                                              \
-    "   linux"                                                \
+    "   linux (linux vt)"                                     \
     "   terminator"                                           \
     ""                                                        \
     "If you believe you have received this message in error," \
-    "try manually setting \`TERMINAL', hint: ps -h -o comm -p \$PPID"
+    "try manually setting env \`TERMINAL' with the value above." \
+    "hint: ps -h -o comm -p \$PPID"
     exit 1
     ;;
 

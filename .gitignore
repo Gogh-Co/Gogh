@@ -5,3 +5,6 @@ gh-pages/node_modules
 .stfolder
 apply-colors-original.sh
 .tmp
+venv
+.venv
+.*.swp
