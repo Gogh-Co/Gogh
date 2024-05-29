@@ -31,19 +31,13 @@ export CURSOR_COLOR="#DDEEDD" # Cursor
 SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
 PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 
-# Allow developer to change url to forked url for easier testing
-# IMPORTANT: Make sure you export this variable if your main shell is not bash
-BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Gogh-Co/Gogh/master"}
-
-
-if [[ -e "${PARENT_PATH}/apply-colors.sh" ]]; then
+if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then
+  bash "${GOGH_APPLY_SCRIPT}"
+elif [[ -e "${PARENT_PATH}/apply-colors.sh" ]]; then
   bash "${PARENT_PATH}/apply-colors.sh"
+elif [[ -e "${SCRIPT_PATH}/apply-colors.sh" ]]; then
+  bash "${SCRIPT_PATH}/apply-colors.sh"
 else
-  if [[ "$(uname)" = "Darwin" ]]; then
-    # OSX ships with curl and ancient bash
-    bash -c "$(curl -so- "${BASE_URL}/apply-colors.sh")"
-  else
-    # Linux ships with wget
-    bash -c "$(wget -qO- "${BASE_URL}/apply-colors.sh")"
-  fi
+  printf '\n%s\n' "Error: Couldn't find apply-colors.sh"
+  exit 1
 fi
