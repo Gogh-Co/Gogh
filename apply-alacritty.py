@@ -8,6 +8,10 @@ import tomli_w
 from ruamel.yaml import YAML  # use ruamel.yaml to preserve comments in config
 
 
+def printerr(*args, **kwargs):
+    print(*args, file=sys.stderr, **kwargs)
+
+
 def get_conf_path():
     # Determine system
     # When we are in some Java world do extra checks
@@ -58,7 +62,7 @@ def get_conf_path():
         if home is not None and os.path.exists(home + '/.alacritty.toml'):
             return home + "/.alacritty.toml"
 
-    print("Could not find alacritty config file\nPlease make sure you have a file in one of the paths specified on\nhttps://github.com/alacritty/alacritty#configuration")
+    printerr("Could not find alacritty config file\nPlease make sure you have a file in one of the paths specified on\nhttps://github.com/alacritty/alacritty#configuration")
     sys.exit(1)
 # end
 
@@ -74,6 +78,7 @@ elif conf_path.endswith('toml'):
     with open(conf_path, 'rb') as stream:
         data_loaded = tomli.load(stream)
 else:
+    printerr(f'Config parsing no available for config file {conf_path}')
     raise NotImplementedError(f'Config parsing not available for config file {conf_path}')
 
 # parse new colors
@@ -86,17 +91,18 @@ try:
     data_loaded['colors']['normal'].update(js['colors']['normal'])
     data_loaded['colors']['bright'].update(js['colors']['bright'])
 except KeyError:
-    print("Could not find existing 'colors' settings in your alacritty.yml file\nplease make sure to uncomment\n'colors', as well as 'primary', 'normal' and 'bright'")
-    print("Check the example config at\nhttps://github.com/alacritty/alacritty/releases/download/v0.12.2/alacritty.yml for more information")
-    print("Note that alacritty following release 0.13.0 uses toml configuration.")
+    printerr("Could not find existing 'colors' settings in your alacritty.yml file\nplease make sure to uncomment\n'colors', as well as 'primary', 'normal' and 'bright'")
+    printerr("Check the example config at\nhttps://github.com/alacritty/alacritty/releases/download/v0.12.2/alacritty.yml for more information")
+    printerr("Note that alacritty following release 0.13.0 uses toml configuration.")
     sys.exit(1)
 
 # make sure the user is okay with having their config changed
-answer = input("This script will update your alacritty config at: \n" +
-               conf_path + "\nIt is recommended to make a copy of this file before proceeding.\nAre you sure you want to continue? (Y/N)\n")
-if answer.lower() not in ['y', 'yes']:
-    print("Aborted")
-    sys.exit(1)
+if not "GOGH_NONINTERACTIVE" in os.environ:
+    answer = input("This script will update your alacritty config at: \n" +
+                   conf_path + "\nIt is recommended to make a copy of this file before proceeding.\nAre you sure you want to continue? (Y/N)\n")
+    if answer.lower() not in ['y', 'yes']:
+        print("Aborted")
+        sys.exit(1)
 
 # Write alacritty config
 if conf_path.endswith('yml'):
