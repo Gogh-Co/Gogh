@@ -2,11 +2,16 @@
 
 # Define traps and trapfunctions early in case any errors before script exits
 GLOBAL_VAR_CLEANUP(){
+  echo "Cleanup up..."
   [[ -n "$(command -v TILIX_TMP_CLEANUP)" ]] && TILIX_TMP_CLEANUP
+  [[ -n "$(command -v ALACRITTY_APPLY_TMP_CLEANUP)" ]] && ALACRITTY_APPLY_TMP_CLEANUP
+  [[ -n "$(command -v TERMINATOR_APPLY_TMP_CLEANUP)" ]] && TERMINATOR_APPLY_TMP_CLEANUP
+  [[ -n "$(command -v APPLY_SCRIPT_TMP_CLEANUP)" ]] && APPLY_SCRIPT_TMP_CLEANUP
   unset PROFILE_NAME
   unset PROFILE_SLUG
   unset TILIX_RES
   unset TERMINAL
+  echo "Done"
 }
 
 trap 'GLOBAL_VAR_CLEANUP; trap - EXIT' EXIT HUP INT QUIT PIPE TERM
@@ -293,6 +298,8 @@ declare -a THEMES=(
 BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Gogh-Co/Gogh/master"}
 PROGRESS_URL="https://raw.githubusercontent.com/phenonymous/shell-progressbar/1.0/progress.sh"
 
+SCRIPT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 capitalize() {
   local ARGUMENT=$1
   local RES=""
@@ -309,6 +316,57 @@ capitalize() {
 }
 
 
+# Used to get required python scripts, either from the internet or from local directory
+if [[ ! -f "${SCRIPT_PATH}/apply-alacritty.py" ]]; then
+  ALACRITTY_APPLY_TMP_CLEANUP() {
+    rm -rf "${GOGH_ALACRITTY_SCRIPT}"
+    unset GOGH_ALACRITTY_SCRIPT
+  }
+  export GOGH_ALACRITTY_SCRIPT="$(mktemp -t gogh.alacritty.XXXXXX)"
+  if [[ "$(uname)" = "Darwin" ]]; then
+    # OSX ships with curl and ancient bash
+    curl -so "${GOGH_ALACRITTY_SCRIPT}" "${BASE_URL}/apply-alacritty.py"
+  else
+    # Linux ships with wget
+    wget -qO "${GOGH_ALACRITTY_SCRIPT}" "${BASE_URL}/apply-alacritty.py"
+  fi
+fi
+
+
+# Used to get required python scripts, either from the internet or from local directory
+if [[ ! -e "${SCRIPT_PATH}/apply-terminator.py" ]]; then
+  TERMINATOR_APPLY_TMP_CLEANUP() {
+    rm -rf "${GOGH_TERMINATOR_SCRIPT}"
+    unset GOGH_TERMINATOR_SCRIPT
+  }
+  export GOGH_TERMINATOR_SCRIPT="$(mktemp -t gogh.terminator.XXXXXX)"
+  if [[ "$(uname)" = "Darwin" ]]; then
+    # OSX ships with curl and ancient bash
+    curl -so "${GOGH_TERMINATOR_SCRIPT}" "${BASE_URL}/apply-terminator.py"
+  else
+    # Linux ships with wget
+    wget -qO "${GOGH_TERMINATOR_SCRIPT}" "${BASE_URL}/apply-terminator.py"
+  fi
+fi
+
+
+# Used to get required shell scripts, either from the internet or from local directory
+if [[ ! -e "${SCRIPT_PATH}/apply-colors.sh" ]]; then
+  APPLY_SCRIPT_TMP_CLEANUP() {
+    rm -rf "${GOGH_APPLY_SCRIPT}"
+    unset GOGH_APPLY_SCRIPT
+  }
+  export GOGH_APPLY_SCRIPT="$(mktemp -t gogh.apply.XXXXXX)"
+  if [[ "$(uname)" = "Darwin" ]]; then
+    # OSX ships with curl and ancient bash
+    curl -so "${GOGH_APPLY_SCRIPT}" "${BASE_URL}/apply-colors.sh"
+  else
+    # Linux ships with wget
+    wget -qO "${GOGH_APPLY_SCRIPT}" "${BASE_URL}/apply-colors.sh"
+  fi
+fi
+
+
 set_gogh() {
   string=$1
   string_r="${string%???}"
@@ -318,8 +376,6 @@ set_gogh() {
 
   export {PROFILE_NAME,PROFILE_SLUG}="$result"
 
-  # Evaluate if Gogh was called from local source - i.e cloned repo
-  SCRIPT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
   if [[ -e "${SCRIPT_PATH}/installs/$1" ]]; then
     bash "${SCRIPT_PATH}/installs/$1"
   else
@@ -475,7 +531,7 @@ if [[ "$TERMINAL" = "tilix" ]] && [[ ${#OPTION[@]} -gt 0 ]]; then
       exit 0
     }
 
-    scratchdir=$(mktemp -d -t tmp.XXXXXXXX)
+    scratchdir=$(mktemp -d -t gogh.tilix.XXXXXXXX)
     export scratchdir
   fi
 fi

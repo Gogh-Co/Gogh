@@ -3,3 +3,4 @@ unidecode
 pyyaml
 tomli
 tomli_w
+configobj
