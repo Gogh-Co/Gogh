@@ -25,19 +25,27 @@ export FOREGROUND_COLOR="#FFFFFF"   # Foreground (Text)
 
 export CURSOR_COLOR="#DC322F" # Cursor
 
+apply_theme() {
+    if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then
+      bash "${GOGH_APPLY_SCRIPT}"
+    elif [[ -e "${PARENT_PATH}/apply-colors.sh" ]]; then
+      bash "${PARENT_PATH}/apply-colors.sh"
+    elif [[ -e "${SCRIPT_PATH}/apply-colors.sh" ]]; then
+      bash "${SCRIPT_PATH}/apply-colors.sh"
+    else
+      printf '\n%s\n' "Error: Couldn't find apply-colors.sh" 1>&2
+      exit 1
+    fi
+}
+
 # | ===========================================================================
 # | Apply Colors
 # | ===========================================================================
 SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
 PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 
-if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then
-  bash "${GOGH_APPLY_SCRIPT}"
-elif [[ -e "${PARENT_PATH}/apply-colors.sh" ]]; then
-  bash "${PARENT_PATH}/apply-colors.sh"
-elif [[ -e "${SCRIPT_PATH}/apply-colors.sh" ]]; then
-  bash "${SCRIPT_PATH}/apply-colors.sh"
+if [ -z "${GOGH_NONINTERACTIVE+yes}" ]; then
+    apply_theme
 else
-  printf '\n%s\n' "Error: Couldn't find apply-colors.sh"
-  exit 1
+    apply_theme 1>/dev/null
 fi
