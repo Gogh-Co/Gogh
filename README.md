@@ -96,9 +96,13 @@ bash -c "$(curl -sLo- https://git.io/vQgMr)"
 <br/>
 
 ## ⚙️ Install (non-interactive mode)
+Two ways:
+* Clone repo
+* Download only required files (bare minimum)
 
+### Clone repo
 ```bash
-# clone the repo into "$HOME/src/gogh"
+# Clone the repo into "$HOME/src/gogh"
 mkdir -p "$HOME/src"
 cd "$HOME/src"
 git clone https://github.com/Gogh-Co/Gogh.git gogh
@@ -117,6 +121,31 @@ cd installs
 # install themes
 ./atom.sh
 ./dracula.sh
+```
+
+### Download only required files (bare minimum)
+```bash
+# Download apply script
+wget https://github.com/Gogh-Co/Gogh/raw/master/apply-colors.sh
+# Download desired themes from Gogh/installs dir like this one:
+wget https://github.com/Gogh-Co/Gogh/raw/master/installs/selenized-dark.sh
+
+# Optional - download Alacritty dependency (may require additional python packages, see requirements.txt for more)
+wget https://github.com/Gogh-Co/Gogh/raw/master/apply-alacritty.py
+# Optional - download Terminator dependency (may require additional python packages, see requirements.txt for more)
+wget https://github.com/Gogh-Co/Gogh/raw/master/apply-terminator.py
+
+# Note you can also tell the theme file where to find the the apply scripts with the following environmental variables:
+# - GOGH_APPLY_SCRIPT=/path/to/file/apply-colors.sh
+# - GOGH_ALACRITTY_SCRIPT=/path/to/file/apply-alacritty.py  <-- only needed if applying to Alacritty terminal
+# - GOGH_TERMINATOR_SCRIPT=/path/to/file/apply-terminator.py  <-- only needed if applying to Terminator terminal
+
+# Select for which terminal to install the theme (see apply-colors.sh for all supported terminals)
+export TERMINAL=gnome-terminal
+# Apply downloaded theme (apply script must be in the same folder)
+bash ./selenized-dark.sh
+# OR specify apply script path
+GOGH_APPLY_SCRIPT=/path/to/file/apply-colors.sh bash ./selenized-dark.sh
 ```
 
 <br/>
