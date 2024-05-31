@@ -44,7 +44,7 @@ apply_theme() {
 SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
 PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 
-if [ -z "${GOGH_NONINTERACTIVE+yes}" ]; then
+if [ -z "${GOGH_NONINTERACTIVE+no}" ]; then
     apply_theme
 else
     apply_theme 1>/dev/null

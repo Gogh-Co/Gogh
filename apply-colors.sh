@@ -49,7 +49,7 @@ trap 'GLOBAL_VAR_CLEANUP; trap - EXIT' EXIT HUP INT QUIT PIPE TERM
 print() {
 	format="${1:?missing value for print}"
 	shift
-	if [ -z "${GOGH_NONINTERACTIVE+yes}" ]; then
+	if [ -z "${GOGH_NONINTERACTIVE+no}" ]; then
 		printf "${format}" "${@}"
 	fi
 }
@@ -895,8 +895,10 @@ appy_tilixschemes() {
     if ((LOOP == OPTLENGTH)); then
       cp -f  ${scratchdir}/* "$HOME/.config/tilix/schemes/"
       rm -rf "${scratchdir}"
-      if [ -z "${GOGH_NONINTERACTIVE+yes}" ]; then
+      if [ -z "${GOGH_NONINTERACTIVE+no}" ] && [ -z "${GOGH_USE_NEW_THEME+no}" ]; then
               read -r -p "All done - apply new theme? [y/N] " -n 1 TILIX_RES
+      elif [ ! -z "${GOGH_USE_NEW_THEME+yes}" ]; then
+              TILIX_RES="Y"
       else
               TILIX_RES="N"
       fi
@@ -958,8 +960,10 @@ apply_xfce4-terminal() {
     # any of the themes in there. The color settings need to
     # be written there directly.
     if ((LOOP == OPTLENGTH)); then
-        if [ -z "${GOGH_NONINTERACTIVE+yes}" ]; then
+        if [ -z "${GOGH_NONINTERACTIVE+no}" ] && [ -z "${GOGH_USE_NEW_THEME+no}" ]; then
             read -r -p "All done - apply new theme? [y/N] " -n 1 XFCE4_APPLY_CURR_THEME
+        elif [ ! -z "${GOGH_USE_NEW_THEME+yes}" ]; then
+            XFCE4_APPLY_CURR_THEME="Y"
         else
             XFCE4_APPLY_CURR_THEME="N"
         fi
