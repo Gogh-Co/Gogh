@@ -44,6 +44,7 @@ declare -a THEMES=(
   'bluloco-light.sh'
   'bluloco-zsh-light.sh'
   'borland.sh'
+  'breadog.sh'
   'breath-darker.sh'
   'breath-light.sh'
   'breath-silverfox.sh'
