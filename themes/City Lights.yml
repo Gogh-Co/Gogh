@@ -1,0 +1,25 @@
+---
+name: 'City Lights'
+
+color_01: '#41505E'    # Black (Host)
+color_02: '#D95468'    # Red (Syntax string)
+color_03: '#8BD49C'    # Green (Command)
+color_04: '#EBBF83'    # Yellow (Command second)
+color_05: '#539AFC'    # Blue (Path)
+color_06: '#B62D65'    # Magenta (Syntax var)
+color_07: '#70E1E8'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#41505E'    # Bright Black
+color_10: '#D95468'    # Bright Red (Command error)
+color_11: '#8BD49C'    # Bright Green (Exec)
+color_12: '#EBBF83'    # Bright Yellow
+color_13: '#539AFC'    # Bright Blue (Folder)
+color_14: '#B62D65'    # Bright Magenta
+color_15: '#70E1E8'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#171D23'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#008B94'      # Cursor
