@@ -59,8 +59,16 @@ The inspiration for Gogh came from the clean and minimalistic design of Elementa
 
 In your terminal type:
 
+Debian/Ubuntu
+
 ```bash
 sudo apt-get install dconf-cli uuid-runtime
+```
+
+Arch Linux
+
+```bash
+sudo pacman -S dconf util-linux-libs
 ```
 
 You can now install in interactive mode (easy) or non-interactive mode (ideal for scripting)
