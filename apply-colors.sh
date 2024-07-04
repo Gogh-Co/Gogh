@@ -123,7 +123,7 @@ case "${TERMINAL}" in
   guake|tilix|mate-terminal|gnome-terminal* )
     case "${TERMINAL}" in
       guake|gnome-terminal* )
-        if [[ -z "${DCONF}" ]] && [[ -z "${GCONF}" ]]; then
+        if [[ -z "${GS}"]] &&[[ -z "${DCONF}" ]] && [[ -z "${GCONF}" ]]; then
           printerr '\n%s\n' "Error gconftool not found!"
           printerr '%s\n'   "sudo apt install gconftool?"
           printerr '%s\n\n' "or export GCONF=/path/to/gconftool-2/"
@@ -862,12 +862,19 @@ apply_guake() {
   # | ===========================================
 
   local legacy="${1:-}"
-  PROFILE_KEY="/apps/guake/style/font"
 
   if [[ -z "${legacy}" ]]; then
-    dset palette              "'${COLOR_01}:${COLOR_02}:${COLOR_03}:${COLOR_04}:${COLOR_05}:${COLOR_06}:${COLOR_07}:${COLOR_08}:${COLOR_09}:${COLOR_10}:${COLOR_11}:${COLOR_12}:${COLOR_13}:${COLOR_14}:${COLOR_15}:${COLOR_16}:${FOREGROUND_COLOR}:${BACKGROUND_COLOR}'"
-    dset palette-name         "'${PROFILE_NAME}'"
-    dset allow-bold 'true'
+    if ${GS} list-children guake &>/dev/null; then
+      PROFILE_KEY="guake.style.font"
+      gset palette              "'${COLOR_01}:${COLOR_02}:${COLOR_03}:${COLOR_04}:${COLOR_05}:${COLOR_06}:${COLOR_07}:${COLOR_08}:${COLOR_09}:${COLOR_10}:${COLOR_11}:${COLOR_12}:${COLOR_13}:${COLOR_14}:${COLOR_15}:${COLOR_16}:${FOREGROUND_COLOR}:${BACKGROUND_COLOR}'"
+      gset palette-name         "'${PROFILE_NAME}'"
+      gset allow-bold 'true'
+    else
+      PROFILE_KEY="/apps/guake/style/font"
+      dset palette              "'${COLOR_01}:${COLOR_02}:${COLOR_03}:${COLOR_04}:${COLOR_05}:${COLOR_06}:${COLOR_07}:${COLOR_08}:${COLOR_09}:${COLOR_10}:${COLOR_11}:${COLOR_12}:${COLOR_13}:${COLOR_14}:${COLOR_15}:${COLOR_16}:${FOREGROUND_COLOR}:${BACKGROUND_COLOR}'"
+      dset palette-name         "'${PROFILE_NAME}'"
+      dset allow-bold 'true'
+    fi
   else
     gcset string color        "${FOREGROUND_COLOR}"
     gcset string palette      "${COLOR_01}:${COLOR_02}:${COLOR_03}:${COLOR_04}:${COLOR_05}:${COLOR_06}:${COLOR_07}:${COLOR_08}:${COLOR_09}:${COLOR_10}:${COLOR_11}:${COLOR_12}:${COLOR_13}:${COLOR_14}:${COLOR_15}:${COLOR_16}"
@@ -1062,7 +1069,7 @@ case "${TERMINAL}" in
     ;;
 
   guake )
-    if [[ -n "$(${DCONF} list /apps/guake/style/)" ]]; then
+    if ${GS} list-children guake &>/dev/null || [[ -n "$(${DCONF} list /apps/guake/style/)" ]]; then
       apply_guake
     else
       apply_guake legacy
