@@ -123,7 +123,7 @@ case "${TERMINAL}" in
   guake|tilix|mate-terminal|gnome-terminal* )
     case "${TERMINAL}" in
       guake|gnome-terminal* )
-        if [[ -z "${GS}"]] &&[[ -z "${DCONF}" ]] && [[ -z "${GCONF}" ]]; then
+        if [[ -z "${GS}" ]] && [[ -z "${DCONF}" ]] && [[ -z "${GCONF}" ]]; then
           printerr '\n%s\n' "Error gconftool not found!"
           printerr '%s\n'   "sudo apt install gconftool?"
           printerr '%s\n\n' "or export GCONF=/path/to/gconftool-2/"
