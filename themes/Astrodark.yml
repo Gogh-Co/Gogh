@@ -1,0 +1,25 @@
+---
+name: 'Astrodark'
+
+color_01: '#111317'    # Black (Host)
+color_02: '#F8747E'    # Red (Syntax string)
+color_03: '#75AD47'    # Green (Command)
+color_04: '#D09214'    # Yellow (Command second)
+color_05: '#50A4E9'    # Blue (Path)
+color_06: '#CC83E3'    # Magenta (Syntax var)
+color_07: '#00B298'    # Cyan (Prompt)
+color_08: '#ADB0BB'    # White
+
+color_09: '#576176'    # Bright Black
+color_10: '#FAA5AB'    # Bright Red (Command error)
+color_11: '#A5CD84'    # Bright Green (Exec)
+color_12: '#EFBD58'    # Bright Yellow
+color_13: '#8DC3F1'    # Bright Blue (Folder)
+color_14: '#DEAEED'    # Bright Magenta
+color_15: '#27FFDF'    # Bright Cyan
+color_16: '#CACCD3'    # Bright White
+
+background: '#1A1D23'  # Background
+foreground: '#9B9FA9'  # Foreground (Text)
+
+cursor: '#CACCD3'      # Cursor
