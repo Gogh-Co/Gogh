@@ -29,6 +29,7 @@ declare -a THEMES=(
   'apprentice.sh'
   'argonaut.sh'
   'arthur.sh'
+  'astrodark.sh'
   'atom.sh'
   'aura.sh'
   'ayu-dark.sh'
