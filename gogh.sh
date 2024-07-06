@@ -407,7 +407,6 @@ remove_file_extension (){
 
 ### Get length of an array
 ARRAYLENGTH=${#THEMES[@]}
-NUM=1
 
 
 # |
@@ -450,18 +449,26 @@ fi
 # |
 echo -e "\nThemes:\n"
 
-for TH in "${THEMES[@]}"; do
+# Column display of available themes
+# Note: /usr/bin/column uses tabs and does not support ANSI codes yet (merged but not released)
+MAXL=$(( $(printf "%s\n" "${THEMES[@]}" | wc -L) - 3 )) # Biggest theme name without the extension
+NCOLS=$(( ${COLUMNS:-$(tput cols)} / (10+MAXL) ))       # number of columns, 10 is the length of '  ( xxx ) '
+NROWS=$(( (ARRAYLENGTH-1)/NCOLS + 1 ))                  # number of rows
+row=0
 
-  KEY=$(printf "%02d" $NUM)
-  FILENAME=${TH::$((${#TH}-3))}
-  FILENAME_SPACE=${FILENAME//-/ }
+while ((row < NROWS)); do
+  col=0
+  while ((col < NCOLS)); do
+    NUM=$((col*NROWS+row))
+    NAME="${THEMES[$NUM]}"
+    [[ -n $NAME ]] && printf "  ( ${C4}%3d${CR} ) %-${MAXL}s" $((NUM+1)) "$NAME"
+    ((col++))
+  done
+  echo
+  ((row++))
+done | sed -e 's/\.\S*//g' -e 's/-/ /g' -e 's/\<\w\w/\u&/g' # Remove .sh, replace - with space, and capitalize
 
-  echo -e "    (${C4} $KEY ${CR}) $(capitalize "${FILENAME_SPACE}")"
-
-  ((NUM++))
-
-done
-echo -e "    (${C4} ALL ${CR}) All themes"
+echo -e "  (${C4} ALL ${CR}) All themes"
 
 # |
 # | ::::::: Select Option
