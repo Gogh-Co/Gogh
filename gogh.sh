@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
+# Variables to avoid repeated calls to tput
+for n in {0..15}; do
+  declare C$n=$(tput setaf $n)
+done
+CR=$(tput sgr0)
+CS0=$(tput sgr 0)
+
 # Define traps and trapfunctions early in case any errors before script exits
 GLOBAL_VAR_CLEANUP(){
   echo "Cleanup up..."
@@ -417,12 +424,12 @@ if [[ ${COLUMNS:-$(tput cols)} -ge 80 ]]; then
   gogh_str+="                  ███    █████ ███  ███ ███  ███  ███  ███                      \n"
   gogh_str+="                   ███    ███  ███  ███ ███  ███  ███  ███                      \n"
   gogh_str+="                    █████████   ██████   ███████ ████ █████                     \n"
-  gogh_str+="    $(tput setaf 0)█████████$(tput setaf 1)█████████$(tput setaf 2)█████████$(tput setaf 3)█████████$(tput setaf 4)█████$(tput sgr 0)███$(tput setaf 4)█$(tput setaf 5)█████████$(tput setaf 6)█████████$(tput setaf 7)█████████    \n"
-  gogh_str+="    $(tput setaf 0)█████████$(tput setaf 1)█████████$(tput setaf 2)█████████$(tput setaf 3)█████████$(tput sgr 0)███$(tput setaf 4)██$(tput sgr 0)███$(tput setaf 4)█$(tput setaf 5)█████████$(tput setaf 6)█████████$(tput setaf 7)█████████    \n"
-  gogh_str+="    $(tput setaf 0)█████████$(tput setaf 1)█████████$(tput setaf 2)█████████$(tput setaf 3)█████████$(tput setaf 4)█$(tput sgr0)██████$(tput setaf 4)██$(tput setaf 5)█████████$(tput setaf 6)█████████$(tput setaf 7)█████████    \n"
-  gogh_str+="    $(tput setaf 8)█████████$(tput setaf 9)█████████$(tput setaf 10)█████████$(tput setaf 11)█████████$(tput setaf 12)█████████$(tput setaf 13)█████████$(tput setaf 14)█████████$(tput setaf 15)█████████$(tput sgr 0)    \n"
-  gogh_str+="    $(tput setaf 8)█████████$(tput setaf 9)█████████$(tput setaf 10)█████████$(tput setaf 11)█████████$(tput setaf 12)█████████$(tput setaf 13)█████████$(tput setaf 14)█████████$(tput setaf 15)█████████$(tput sgr 0)    \n"
-  gogh_str+="    $(tput setaf 8)█████████$(tput setaf 9)█████████$(tput setaf 10)█████████$(tput setaf 11)█████████$(tput setaf 12)█████████$(tput setaf 13)█████████$(tput setaf 14)█████████$(tput setaf 15)█████████$(tput sgr 0)    \n"
+  gogh_str+="    ${C0}█████████${C1}█████████${C2}█████████${C3}█████████${C4}█████${CS0}███${C4}█${C5}█████████${C6}█████████${C7}█████████    \n"
+  gogh_str+="    ${C0}█████████${C1}█████████${C2}█████████${C3}█████████${CS0}███${C4}██${CS0}███${C4}█${C5}█████████${C6}█████████${C7}█████████    \n"
+  gogh_str+="    ${C0}█████████${C1}█████████${C2}█████████${C3}█████████${C4}█${CR}██████${C4}██${C5}█████████${C6}█████████${C7}█████████    \n"
+  gogh_str+="    ${C8}█████████${C9}█████████${C10}█████████${C11}█████████${C12}█████████${C13}█████████${C14}█████████${C15}█████████${CS0}    \n"
+  gogh_str+="    ${C8}█████████${C9}█████████${C10}█████████${C11}█████████${C12}█████████${C13}█████████${C14}█████████${C15}█████████${CS0}    \n"
+  gogh_str+="    ${C8}█████████${C9}█████████${C10}█████████${C11}█████████${C12}█████████${C13}█████████${C14}█████████${C15}█████████${CS0}    \n"
   gogh_str+="                                                                                "
 
 
@@ -430,9 +437,9 @@ if [[ ${COLUMNS:-$(tput cols)} -ge 80 ]]; then
   sleep 2.5
 else
   echo -e "\nGogh\n"
-  for c in {0..15}; do
-    echo -n "$(tput setaf $c)█████$(tput sgr0)"
-    [[ $c == 7 ]] && echo # new line
+  for c in C{0..15}; do
+    echo -n "${!c}█████${CR}"
+    [[ $c == C7 ]] && echo # new line
   done
   echo
 fi
@@ -449,18 +456,18 @@ for TH in "${THEMES[@]}"; do
   FILENAME=${TH::$((${#TH}-3))}
   FILENAME_SPACE=${FILENAME//-/ }
 
-  echo -e "    ($(tput setaf 4) $KEY $(tput sgr0)) $(capitalize "${FILENAME_SPACE}")"
+  echo -e "    (${C4} $KEY ${CR}) $(capitalize "${FILENAME_SPACE}")"
 
   ((NUM++))
 
 done
-echo -e "    ($(tput setaf 4) ALL $(tput sgr0)) All themes"
+echo -e "    (${C4} ALL ${CR}) All themes"
 
 # |
 # | ::::::: Select Option
 # |
-echo -e "\nUsage : Enter Desired Themes Numbers ($(tput setaf 4)OPTIONS$(tput sgr0)) Separated By A Blank Space"
-echo -e "        Press $(tput setaf 4)ENTER$(tput sgr0) without options to Exit\n"
+echo -e "\nUsage : Enter Desired Themes Numbers (${C4}OPTIONS${CR}) Separated By A Blank Space"
+echo -e "        Press ${C4}ENTER${CR} without options to Exit\n"
 read -r -p 'Enter OPTION(S) : ' -a OPTION
 
 # Automagically generate options if user opts for all themes
@@ -552,9 +559,9 @@ export TERMINAL LOOP OPTLENGTH=${#OPTION[@]}
 # |
 
 declare color_dot_str
-for c in {0..15}; do
-  color_dot_str+="$(tput setaf $c)•$(tput sgr0)"
-  [[ $c == 7 ]] && color_dot_str+=" "
+for c in C{0..15}; do
+  color_dot_str+="${!c}•${CR}"
+  [[ $c == C7 ]] && color_dot_str+=" "
 done
 
 # Note:
@@ -579,7 +586,7 @@ for OP in "${OPTION[@]#0}"; do
     SET_THEME="${THEMES[((OP-1))]}"
     set_gogh "${SET_THEME}"
   else
-    echo -e "$(tput setaf 1) ~ INVALID OPTION! ~$(tput sgr0)"
+    echo -e "${C1} ~ INVALID OPTION! ~${CR}"
     exit 1
   fi
 done
