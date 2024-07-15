@@ -47,25 +47,25 @@ PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 trap 'GLOBAL_VAR_CLEANUP; trap - EXIT' EXIT HUP INT QUIT PIPE TERM
 
 print() {
-	format="${1:?missing value for print}"
-	shift
-	if [ -z "${GOGH_NONINTERACTIVE+no}" ]; then
-		printf "${format}" "${@}"
-	fi
+        format="${1:?missing value for print}"
+        shift
+        if [ -z "${GOGH_NONINTERACTIVE+no}" ]; then
+                printf "${format}" "${@}"
+        fi
 }
 
 prints() {
-	print '%s\n' "${@}"
+        print '%s\n' "${@}"
 }
 
 printerr() {
-	format="${1:?missing value for printerr}"
-	shift
-	printf "${format}" "${@}" 1>&2
+        format="${1:?missing value for printerr}"
+        shift
+        printf "${format}" "${@}" 1>&2
 }
 
 printserr() {
-	printerr '%s\n' "${@}"
+        printerr '%s\n' "${@}"
 }
 
 # |
@@ -142,8 +142,34 @@ case "${TERMINAL}" in
   foot )
     CFGFILE="${HOME}/.config/foot/foot.ini"
     if [[ ! -f "${CFGFILE}" ]]; then
-      printerr '\n%s\n' "Error: Couldn't find an existing configuration file."
-      exit 1
+      mkdir --parents "$(dirname "${CFGFILE}")"
+      # Create a new config for the user if not exist
+      # Extracted from foot's default config file
+      {
+        echo "[colors]"
+        echo "background=242424"
+        echo "foreground=ffffff"
+
+        echo "# Normal/regular colors (color palette 0-7)"
+        echo "regular0=242424  # black"
+        echo "regular1=f62b5a  # red"
+        echo "regular2=47b413  # green"
+        echo "regular3=e3c401  # yellow"
+        echo "regular4=24acd4  # blue"
+        echo "regular5=f2affd  # magenta"
+        echo "regular6=13c299  # cyan"
+        echo "regular7=e6e6e6  # white"
+
+        echo "# Bright colors (color palette 8-15)"
+        echo "bright0=616161   # bright black"
+        echo "bright1=ff4d51   # bright red"
+        echo "bright2=35d450   # bright green"
+        echo "bright3=e9e836   # bright yellow"
+        echo "bright4=5dc5f8   # bright blue"
+        echo "bright5=feabf2   # bright magenta"
+        echo "bright6=24dfc4   # bright cyan"
+        echo "bright7=ffffff   # bright white"
+      } > "${CFGFILE}"
     fi
     ;;
 
@@ -253,7 +279,7 @@ updateKmsconConfig () {
   local   name="${3}"
 
   if ! grep -qe "^${name}=.+" "${config}"; then
-	  echo "$(createKmsconEntry "${name}" "${color}")" >> "${config}"
+          echo "$(createKmsconEntry "${name}" "${color}")" >> "${config}"
   fi
 }
 
@@ -262,7 +288,7 @@ updateFootConfig () {
   local  color="${2}"
   local   name="${3}"
 
-  sed -i -r -e "s/^${name}=.+/${name}=${color/\#/}/g" "${config}"
+  sed -i -r -e "s/^${name}=.*/${name}=${color/\#/}/g" "${config}"
 }
 
 createKonsoleEntry () {
@@ -699,7 +725,7 @@ apply_konsole() {
   if [[ -z "${XDG_DATA_HOME:-}" ]]; then
     KDIR="${HOME}/.local/share/konsole"
   else
-	KDIR="${XDG_DATA_HOME}/konsole"
+        KDIR="${XDG_DATA_HOME}/konsole"
   fi
 
   KPROFILE="${KDIR}/${PROFILE_NAME}.profile"
@@ -1029,15 +1055,15 @@ apply_linux_vt () {
   local file_name="${theme_dir}"/"${PROFILE_NAME}"
   if [[ ! -f "${file_name}" ]]; then
     touch "${file_name}"
-	  for c in $(seq -s " " -w 16); do
-	    local color=COLOR_${c}
-	    echo "${!color}" >> "${file_name}"
-	  done
+          for c in $(seq -s " " -w 16); do
+            local color=COLOR_${c}
+            echo "${!color}" >> "${file_name}"
+          done
     # apply the theme if setvtrgb exists
     if command -v setvtrgb >/dev/null &2>&1; then
-	    setvtrgb "${file_name}"
-	    echo setvtrgb "${file_name}"
-	    gogh_colors # preview
+            setvtrgb "${file_name}"
+            echo setvtrgb "${file_name}"
+            gogh_colors # preview
     fi
   fi
 
