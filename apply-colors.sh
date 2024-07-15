@@ -930,12 +930,12 @@ apply_xfce4-terminal() {
     CONFFILE="${HOME}/.config/xfce4/terminal/terminalrc"
 
     if [[ ! (-w "${CONFFILE}") ]]; then
-        if [[ -r "${XDG_CONFIG_DIRS%%:*}/Terminal/terminalrc" ]]; then
-            cp "${XDG_CONFIG_DIRS%%:*}/Terminal/terminalrc" ${CONFFILE}
-        else
-            printserr "ERROR: config file not present or not writable!"
-            exit 1
-        fi
+      if [[ -r "${XDG_CONFIG_DIRS%%:*}/Terminal/terminalrc" ]]; then
+        cp "${XDG_CONFIG_DIRS%%:*}/Terminal/terminalrc" ${CONFFILE}
+      else
+        [[ -d "$(dirname "${CONFFILE}")" ]] || mkdir --parents "$(dirname "${CONFFILE}")"
+        touch "${CONFFILE}" || { printserr "Error: xfce4-terminal config file not writeable: ${CONFFILE}"; exit 1; }
+      fi
     fi
 
     [[ -d "${SCHEMEDIR}" ]] || mkdir -p "${SCHEMEDIR}"
