@@ -106,6 +106,8 @@ declare -a THEMES=(
   'flat-remix.sh'
   'flat.sh'
   'flatland.sh'
+  'flexoki-dark.sh'
+  'flexoki-light.sh'
   'foxnightly.sh'
   'freya.sh'
   'frontend-delight.sh'
