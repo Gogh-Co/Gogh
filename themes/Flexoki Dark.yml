@@ -1,0 +1,25 @@
+---
+name: 'Flexoki Dark'
+
+color_01: '#282726'    # Black (Host)
+color_02: '#AF3029'    # Red (Syntax string)
+color_03: '#66800B'    # Green (Command)
+color_04: '#AD8301'    # Yellow (Command second)
+color_05: '#205EA6'    # Blue (Path)
+color_06: '#A02F6F'    # Magenta (Syntax var)
+color_07: '#24837B'    # Cyan (Prompt)
+color_08: '#E6E4D9'    # White
+
+color_09: '#343331'    # Bright Black
+color_10: '#D14D41'    # Bright Red (Command error)
+color_11: '#879A39'    # Bright Green (Exec)
+color_12: '#D0A215'    # Bright Yellow
+color_13: '#4385BE'    # Bright Blue (Folder)
+color_14: '#CE5D97'    # Bright Magenta
+color_15: '#3AA99F'    # Bright Cyan
+color_16: '#FFFCF0'    # Bright White
+
+background: '#100F0F'  # Background
+foreground: '#878580'  # Foreground (Text)
+
+cursor: '#CECDC3'      # Cursor
