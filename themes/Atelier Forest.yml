@@ -1,0 +1,25 @@
+---
+name: 'Atelier Forest'
+
+color_01: '#F22C40'    # Black (Host)
+color_02: '#F22C40'    # Red (Syntax string)
+color_03: '#7B9726'    # Green (Command)
+color_04: '#C38418'    # Yellow (Command second)
+color_05: '#407EE7'    # Blue (Path)
+color_06: '#C33FF3'    # Magenta (Syntax var)
+color_07: '#3D97B8'    # Cyan (Prompt)
+color_08: '#E6E2E0'    # White
+
+color_09: '#766E6B'    # Bright Black
+color_10: '#DF5320'    # Bright Red (Command error)
+color_11: '#7B9726'    # Bright Green (Exec)
+color_12: '#C38418'    # Bright Yellow
+color_13: '#6666EA'    # Bright Blue (Folder)
+color_14: '#C33FF3'    # Bright Magenta
+color_15: '#3D97B8'    # Bright Cyan
+color_16: '#F1EFEE'    # Bright White
+
+background: '#1B1918'  # Background
+foreground: '#9C9491'  # Foreground (Text)
+
+cursor: '#9C9491'      # Cursor

@@ -1,0 +1,25 @@
+---
+name: 'Atelier Sulphurpool'
+
+color_01: '#C94922'    # Black (Host)
+color_02: '#C94922'    # Red (Syntax string)
+color_03: '#AC9739'    # Green (Command)
+color_04: '#C08B30'    # Yellow (Command second)
+color_05: '#3D8FD1'    # Blue (Path)
+color_06: '#9C637A'    # Magenta (Syntax var)
+color_07: '#22A2C9'    # Cyan (Prompt)
+color_08: '#DFE2F1'    # White
+
+color_09: '#6B7394'    # Bright Black
+color_10: '#C76B29'    # Bright Red (Command error)
+color_11: '#AC9739'    # Bright Green (Exec)
+color_12: '#C08B30'    # Bright Yellow
+color_13: '#6679CC'    # Bright Blue (Folder)
+color_14: '#9C637A'    # Bright Magenta
+color_15: '#22A2C9'    # Bright Cyan
+color_16: '#F5F7FF'    # Bright White
+
+background: '#202746'  # Background
+foreground: '#898EA4'  # Foreground (Text)
+
+cursor: '#898EA4'      # Cursor
