@@ -1,0 +1,25 @@
+---
+name: 'Base4Tone Classic A'
+
+color_01: '#211d1c'    # Black (Host)
+color_02: '#8d9f04'    # Red (Syntax string)
+color_03: '#dd40a4'    # Green (Command)
+color_04: '#f17ec7'    # Yellow (Command second)
+color_05: '#eb8275'    # Blue (Path)
+color_06: '#dc9118'    # Magenta (Syntax var)
+color_07: '#e963b8'    # Cyan (Prompt)
+color_08: '#eee8e8'    # White
+
+color_09: '#0d0807'    # Bright Black
+color_10: '#b9cf17'    # Bright Red (Command error)
+color_11: '#f391cf'    # Bright Green (Exec)
+color_12: '#f6b1dd'    # Bright Yellow
+color_13: '#f8cac3'    # Bright Blue (Folder)
+color_14: '#e8a02c'    # Bright Magenta
+color_15: '#fbbab1'    # Bright Cyan
+color_16: '#f9f6f6'    # Bright White
+
+background: '#211d1c'  # Background
+foreground: '#a19391'  # Foreground (Text)
+
+cursor: '#81747c'      # Cursor
