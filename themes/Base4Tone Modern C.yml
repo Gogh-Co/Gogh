@@ -1,0 +1,25 @@
+---
+name: 'Base4Tone Modern C'
+
+color_01: '#221f1c'    # Black (Host)
+color_02: '#5c6feb'    # Red (Syntax string)
+color_03: '#dd407c'    # Green (Command)
+color_04: '#f17eaa'    # Yellow (Command second)
+color_05: '#e6971a'    # Blue (Path)
+color_06: '#1bbba6'    # Magenta (Syntax var)
+color_07: '#e96396'    # Cyan (Prompt)
+color_08: '#eeebe8'    # White
+
+color_09: '#0d0b07'    # Bright Black
+color_10: '#929ff7'    # Bright Red (Command error)
+color_11: '#f391b6'    # Bright Green (Exec)
+color_12: '#f6b1cc'    # Bright Yellow
+color_13: '#f5d8a8'    # Bright Blue (Folder)
+color_14: '#1ed2ba'    # Bright Magenta
+color_15: '#f3cd91'    # Bright Cyan
+color_16: '#f9f8f6'    # Bright White
+
+background: '#221f1c'  # Background
+foreground: '#a39b8f'  # Foreground (Text)
+
+cursor: '#817479'      # Cursor
