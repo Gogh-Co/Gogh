@@ -1,0 +1,25 @@
+---
+name: 'Base2Tone Sea'
+
+color_01: '#1d262f'    # Black (Host)
+color_02: '#34659d'    # Red (Syntax string)
+color_03: '#0fc78a'    # Green (Command)
+color_04: '#47ebb4'    # Yellow (Command second)
+color_05: '#57718e'    # Blue (Path)
+color_06: '#0fc78a'    # Magenta (Syntax var)
+color_07: '#6e9bcf'    # Cyan (Prompt)
+color_08: '#a1aab5'    # White
+
+color_09: '#4a5f78'    # Bright Black
+color_10: '#14e19d'    # Bright Red (Command error)
+color_11: '#27323f'    # Bright Green (Exec)
+color_12: '#405368'    # Bright Yellow
+color_13: '#738191'    # Bright Blue (Folder)
+color_14: '#afd4fe'    # Bright Magenta
+color_15: '#0db57d'    # Bright Cyan
+color_16: '#ebf4ff'    # Bright White
+
+background: '#1d262f'  # Background
+foreground: '#a1aab5'  # Foreground (Text)
+
+cursor: '#067953'      # Cursor

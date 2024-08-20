@@ -1,0 +1,25 @@
+---
+name: 'Base2Tone Evening'
+
+color_01: '#2a2734'    # Black (Host)
+color_02: '#8a75f5'    # Red (Syntax string)
+color_03: '#ffad5c'    # Green (Command)
+color_04: '#ffcc99'    # Yellow (Command second)
+color_05: '#9a86fd'    # Blue (Path)
+color_06: '#ffad5c'    # Magenta (Syntax var)
+color_07: '#afa0fe'    # Cyan (Prompt)
+color_08: '#a4a1b5'    # White
+
+color_09: '#6c6783'    # Bright Black
+color_10: '#ffb870'    # Bright Red (Command error)
+color_11: '#363342'    # Bright Green (Exec)
+color_12: '#545167'    # Bright Yellow
+color_13: '#787391'    # Bright Blue (Folder)
+color_14: '#d9d2fe'    # Bright Magenta
+color_15: '#ffa142'    # Bright Cyan
+color_16: '#eeebff'    # Bright White
+
+background: '#2a2734'  # Background
+foreground: '#a4a1b5'  # Foreground (Text)
+
+cursor: '#b37537'      # Cursor

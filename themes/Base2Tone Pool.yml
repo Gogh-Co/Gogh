@@ -1,0 +1,25 @@
+---
+name: 'Base2Tone Pool'
+
+color_01: '#2a2433'    # Black (Host)
+color_02: '#aa75f5'    # Red (Syntax string)
+color_03: '#f87972'    # Green (Command)
+color_04: '#ffb6b3'    # Yellow (Command second)
+color_05: '#b886fd'    # Blue (Path)
+color_06: '#f87972'    # Magenta (Syntax var)
+color_07: '#c7a0fe'    # Cyan (Prompt)
+color_08: '#9a90a7'    # White
+
+color_09: '#635775'    # Bright Black
+color_10: '#fc8983'    # Bright Red (Command error)
+color_11: '#372f42'    # Bright Green (Exec)
+color_12: '#574b68'    # Bright Yellow
+color_13: '#706383'    # Bright Blue (Folder)
+color_14: '#e4d2fe'    # Bright Magenta
+color_15: '#f36f68'    # Bright Cyan
+color_16: '#f3ebff'    # Bright White
+
+background: '#2a2433'  # Background
+foreground: '#9a90a7'  # Foreground (Text)
+
+cursor: '#cf504a'      # Cursor

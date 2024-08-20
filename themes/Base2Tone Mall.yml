@@ -1,0 +1,25 @@
+---
+name: 'Base2Tone Mall'
+
+color_01: '#1e1e1f'    # Black (Host)
+color_02: '#a17efc'    # Red (Syntax string)
+color_03: '#75bfff'    # Green (Command)
+color_04: '#b3dbff'    # Yellow (Command second)
+color_05: '#b294ff'    # Blue (Path)
+color_06: '#75bfff'    # Magenta (Syntax var)
+color_07: '#c5adff'    # Cyan (Prompt)
+color_08: '#97959d'    # White
+
+color_09: '#5e5c60'    # Bright Black
+color_10: '#8ac8ff'    # Bright Red (Command error)
+color_11: '#2b2b2c'    # Bright Green (Exec)
+color_12: '#515053'    # Bright Yellow
+color_13: '#6a686e'    # Bright Blue (Folder)
+color_14: '#e5dbff'    # Bright Magenta
+color_15: '#69b5f7'    # Bright Cyan
+color_16: '#f4f0ff'    # Bright White
+
+background: '#1e1e1f'  # Background
+foreground: '#97959d'  # Foreground (Text)
+
+cursor: '#3692e2'      # Cursor

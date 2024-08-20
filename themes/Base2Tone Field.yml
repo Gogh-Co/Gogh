@@ -1,0 +1,25 @@
+---
+name: 'Base2Tone Field'
+
+color_01: '#18201e'    # Black (Host)
+color_02: '#0fbda0'    # Red (Syntax string)
+color_03: '#3be381'    # Green (Command)
+color_04: '#85ffb8'    # Yellow (Command second)
+color_05: '#25d0b4'    # Blue (Path)
+color_06: '#3be381'    # Magenta (Syntax var)
+color_07: '#40ddc3'    # Cyan (Prompt)
+color_08: '#8ea4a0'    # White
+
+color_09: '#5a6d6a'    # Bright Black
+color_10: '#55ec94'    # Bright Red (Command error)
+color_11: '#242e2c'    # Bright Green (Exec)
+color_12: '#42524f'    # Bright Yellow
+color_13: '#667a77'    # Bright Blue (Folder)
+color_14: '#88f2e0'    # Bright Magenta
+color_15: '#25d46e'    # Bright Cyan
+color_16: '#a8fff1'    # Bright White
+
+background: '#18201e'  # Background
+foreground: '#8ea4a0'  # Foreground (Text)
+
+cursor: '#00943e'      # Cursor
