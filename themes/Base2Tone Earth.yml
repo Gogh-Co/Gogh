@@ -1,0 +1,25 @@
+---
+name: 'Base2Tone Earth'
+
+color_01: '#322d29'    # Black (Host)
+color_02: '#816d5f'    # Red (Syntax string)
+color_03: '#d9b154'    # Green (Command)
+color_04: '#fcc440'    # Yellow (Command second)
+color_05: '#88786d'    # Blue (Path)
+color_06: '#d9b154'    # Magenta (Syntax var)
+color_07: '#967e6e'    # Cyan (Prompt)
+color_08: '#b5a9a1'    # White
+
+color_09: '#6a5f58'    # Bright Black
+color_10: '#e6b84d'    # Bright Red (Command error)
+color_11: '#3f3a37'    # Bright Green (Exec)
+color_12: '#5b534d'    # Bright Yellow
+color_13: '#796b63'    # Bright Blue (Folder)
+color_14: '#dfb99f'    # Bright Magenta
+color_15: '#cda956'    # Bright Cyan
+color_16: '#fff3eb'    # Bright White
+
+background: '#322d29'  # Background
+foreground: '#b5a9a1'  # Foreground (Text)
+
+cursor: '#9c8349'      # Cursor

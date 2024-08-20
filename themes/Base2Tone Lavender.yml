@@ -1,0 +1,25 @@
+---
+name: 'Base2Tone Lavender'
+
+color_01: '#201d2a'    # Black (Host)
+color_02: '#9375f5'    # Red (Syntax string)
+color_03: '#d294ff'    # Green (Command)
+color_04: '#ecd1ff'    # Yellow (Command second)
+color_05: '#a286fd'    # Blue (Path)
+color_06: '#d294ff'    # Magenta (Syntax var)
+color_07: '#b5a0fe'    # Cyan (Prompt)
+color_08: '#9992b0'    # White
+
+color_09: '#625a7c'    # Bright Black
+color_10: '#dba8ff'    # Bright Red (Command error)
+color_11: '#2c2839'    # Bright Green (Exec)
+color_12: '#4b455f'    # Bright Yellow
+color_13: '#6e658b'    # Bright Blue (Folder)
+color_14: '#dcd2fe'    # Bright Magenta
+color_15: '#ca80ff'    # Bright Cyan
+color_16: '#efebff'    # Bright White
+
+background: '#201d2a'  # Background
+foreground: '#9992b0'  # Foreground (Text)
+
+cursor: '#b042ff'      # Cursor

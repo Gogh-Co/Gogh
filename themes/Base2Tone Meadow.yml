@@ -1,0 +1,25 @@
+---
+name: 'Base2Tone Meadow'
+
+color_01: '#192834'    # Black (Host)
+color_02: '#277fbe'    # Red (Syntax string)
+color_03: '#80bf40'    # Green (Command)
+color_04: '#a6f655'    # Yellow (Command second)
+color_05: '#4299d7'    # Blue (Path)
+color_06: '#80bf40'    # Magenta (Syntax var)
+color_07: '#47adf5'    # Cyan (Prompt)
+color_08: '#7b9eb7'    # White
+
+color_09: '#3d5e76'    # Bright Black
+color_10: '#8cdd3c'    # Bright Red (Command error)
+color_11: '#223644'    # Bright Green (Exec)
+color_12: '#335166'    # Bright Yellow
+color_13: '#466b86'    # Bright Blue (Folder)
+color_14: '#afddfe'    # Bright Magenta
+color_15: '#73b234'    # Bright Cyan
+color_16: '#d1ecff'    # Bright White
+
+background: '#192834'  # Background
+foreground: '#7b9eb7'  # Foreground (Text)
+
+cursor: '#4d8217'      # Cursor

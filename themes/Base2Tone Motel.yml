@@ -1,0 +1,25 @@
+---
+name: 'Base2Tone Motel'
+
+color_01: '#242323'    # Black (Host)
+color_02: '#956f76'    # Red (Syntax string)
+color_03: '#f8917c'    # Green (Command)
+color_04: '#ffc8bd'    # Yellow (Command second)
+color_05: '#a7868b'    # Blue (Path)
+color_06: '#f8917c'    # Magenta (Syntax var)
+color_07: '#b89da2'    # Cyan (Prompt)
+color_08: '#a5979a'    # White
+
+color_09: '#766b6c'    # Bright Black
+color_10: '#ffa28f'    # Bright Red (Command error)
+color_11: '#373434'    # Bright Green (Exec)
+color_12: '#5a5354'    # Bright Yellow
+color_13: '#86797b'    # Bright Blue (Folder)
+color_14: '#dec9cc'    # Bright Magenta
+color_15: '#f77c64'    # Bright Cyan
+color_16: '#f0dbdf'    # Bright White
+
+background: '#242323'  # Background
+foreground: '#a5979a'  # Foreground (Text)
+
+cursor: '#e24f32'      # Cursor

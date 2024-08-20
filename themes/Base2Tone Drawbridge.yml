@@ -1,0 +1,25 @@
+---
+name: 'Base2Tone Drawbridge'
+
+color_01: '#1b1f32'    # Black (Host)
+color_02: '#627af4'    # Red (Syntax string)
+color_03: '#67c9e4'    # Green (Command)
+color_04: '#99e9ff'    # Yellow (Command second)
+color_05: '#7289fd'    # Blue (Path)
+color_06: '#67c9e4'    # Magenta (Syntax var)
+color_07: '#8b9efd'    # Cyan (Prompt)
+color_08: '#9094a7'    # White
+
+color_09: '#51587b'    # Bright Black
+color_10: '#75d5f0'    # Bright Red (Command error)
+color_11: '#252a41'    # Bright Green (Exec)
+color_12: '#444b6f'    # Bright Yellow
+color_13: '#5e6587'    # Bright Blue (Folder)
+color_14: '#c3cdfe'    # Bright Magenta
+color_15: '#5cbcd6'    # Bright Cyan
+color_16: '#e1e6ff'    # Bright White
+
+background: '#1b1f32'  # Background
+foreground: '#9094a7'  # Foreground (Text)
+
+cursor: '#289dbd'      # Cursor

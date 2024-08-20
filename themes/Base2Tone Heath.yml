@@ -1,0 +1,25 @@
+---
+name: 'Base2Tone Heath'
+
+color_01: '#222022'    # Black (Host)
+color_02: '#8f6c93'    # Red (Syntax string)
+color_03: '#cc8c33'    # Green (Command)
+color_04: '#ffd599'    # Yellow (Command second)
+color_05: '#9a819c'    # Blue (Path)
+color_06: '#cc8c33'    # Magenta (Syntax var)
+color_07: '#cb79d2'    # Cyan (Prompt)
+color_08: '#9e999f'    # White
+
+color_09: '#635f63'    # Bright Black
+color_10: '#d9b98c'    # Bright Red (Command error)
+color_11: '#2f2d2f'    # Bright Green (Exec)
+color_12: '#575158'    # Bright Yellow
+color_13: '#6f6b70'    # Bright Blue (Folder)
+color_14: '#eaa8f0'    # Bright Magenta
+color_15: '#c38022'    # Bright Cyan
+color_16: '#fdebff'    # Bright White
+
+background: '#222022'  # Background
+foreground: '#9e999f'  # Foreground (Text)
+
+cursor: '#995900'      # Cursor
