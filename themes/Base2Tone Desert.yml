@@ -1,0 +1,25 @@
+---
+name: 'Base2Tone Desert'
+
+color_01: '#292724'    # Black (Host)
+color_02: '#816f4b'    # Red (Syntax string)
+color_03: '#ec9255'    # Green (Command)
+color_04: '#ffb380'    # Yellow (Command second)
+color_05: '#957e50'    # Blue (Path)
+color_06: '#ec9255'    # Magenta (Syntax var)
+color_07: '#ac8e53'    # Cyan (Prompt)
+color_08: '#ada594'    # White
+
+color_09: '#7e7767'    # Bright Black
+color_10: '#f29d63'    # Bright Red (Command error)
+color_11: '#3d3a34'    # Bright Green (Exec)
+color_12: '#615c51'    # Bright Yellow
+color_13: '#908774'    # Bright Blue (Folder)
+color_14: '#ddcba6'    # Bright Magenta
+color_15: '#e58748'    # Bright Cyan
+color_16: '#f2ead9'    # Bright White
+
+background: '#292724'  # Background
+foreground: '#ada594'  # Foreground (Text)
+
+cursor: '#bc672f'      # Cursor

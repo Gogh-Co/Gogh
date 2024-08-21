@@ -1,0 +1,25 @@
+---
+name: 'Base2Tone Porch'
+
+color_01: '#221e24'    # Black (Host)
+color_02: '#9466a3'    # Red (Syntax string)
+color_03: '#f39b68'    # Green (Command)
+color_04: '#ffc29e'    # Yellow (Command second)
+color_05: '#a77cb6'    # Blue (Path)
+color_06: '#f39b68'    # Magenta (Syntax var)
+color_07: '#ba95c6'    # Cyan (Prompt)
+color_08: '#9f95a3'    # White
+
+color_09: '#645a68'    # Bright Black
+color_10: '#f8aa7c'    # Bright Red (Command error)
+color_11: '#302a32'    # Bright Green (Exec)
+color_12: '#574e5a'    # Bright Yellow
+color_13: '#716774'    # Bright Blue (Folder)
+color_14: '#dfcbe6'    # Bright Magenta
+color_15: '#ec8d55'    # Bright Cyan
+color_16: '#f2e3f7'    # Bright White
+
+background: '#221e24'  # Background
+foreground: '#9f95a3'  # Foreground (Text)
+
+cursor: '#c46731'      # Cursor
