@@ -1,0 +1,25 @@
+---
+name: 'Base4Tone Modern W'
+
+color_01: '#201d1e'    # Black (Host)
+color_02: '#21a00d'    # Red (Syntax string)
+color_03: '#1398aa'    # Green (Command)
+color_04: '#3ccadd'    # Yellow (Command second)
+color_05: '#eb75a2'    # Blue (Path)
+color_06: '#e97263'    # Magenta (Syntax var)
+color_07: '#23b4c7'    # Cyan (Prompt)
+color_08: '#ede8ea'    # White
+
+color_09: '#0d080a'    # Bright Black
+color_10: '#39c723'    # Bright Red (Command error)
+color_11: '#5ad2e2'    # Bright Green (Exec)
+color_12: '#a4e6ef'    # Bright Yellow
+color_13: '#f8bfd5'    # Bright Blue (Folder)
+color_14: '#f18c7e'    # Bright Magenta
+color_15: '#f6b1cc'    # Bright Cyan
+color_16: '#f9f6f7'    # Bright White
+
+background: '#201d1e'  # Background
+foreground: '#9e9498'  # Foreground (Text)
+
+cursor: '#6a878a'      # Cursor
