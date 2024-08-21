@@ -1,0 +1,25 @@
+---
+name: 'Base2Tone Lake'
+
+color_01: '#192d34'    # Black (Host)
+color_02: '#3e91ac'    # Red (Syntax string)
+color_03: '#cbbb4d'    # Green (Command)
+color_04: '#ffeb66'    # Yellow (Command second)
+color_05: '#499fbc'    # Blue (Path)
+color_06: '#cbbb4d'    # Magenta (Syntax var)
+color_07: '#62b1cb'    # Cyan (Prompt)
+color_08: '#7ba8b7'    # White
+
+color_09: '#3d6876'    # Bright Black
+color_10: '#d6c65c'    # Bright Red (Command error)
+color_11: '#223c44'    # Bright Green (Exec)
+color_12: '#335966'    # Bright Yellow
+color_13: '#467686'    # Bright Blue (Folder)
+color_14: '#a5d8e9'    # Bright Magenta
+color_15: '#c4b031'    # Bright Cyan
+color_16: '#e1f7ff'    # Bright White
+
+background: '#192d34'  # Background
+foreground: '#7ba8b7'  # Foreground (Text)
+
+cursor: '#84740b'      # Cursor
