@@ -390,6 +390,8 @@ set_theme() {
     if [[ -n "${HIGHLIGHT_FG_COLOR:-}" ]]; then
       dset   highlight-foreground-color  "'${HIGHLIGHT_FG_COLOR}'"
     fi
+  else
+    dset   highlight-colors-set        "false"
   fi
 
   if [[ -n "${BOLD_COLOR:-}" ]]; then
