@@ -679,7 +679,7 @@ apply_kitty() {
   [ -n "$HIGHLIGHT_BG_COLOR" ] && echo "selection_background $HIGHLIGHT_BG_COLOR" >> "$CFGFILE"
 
   echo "cursor $CURSOR_COLOR" >> "$CFGFILE"
-  
+
   prints "Done - signaling kitty to reload"
   killall -u ${USER} -SIGUSR1 kitty || pkill --uid $(id -u) -SIGUSR1 kitty || prints "Reload failed. Please reopen your kitty terminal to see the changes."
 }
