@@ -1,0 +1,39 @@
+# EditorConfig helps developers define and maintain consistent
+# coding styles between different editors and IDEs
+
+# Top-most EditorConfig file
+root = true
+
+# Default settings for all files
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+
+# Settings for Vue files
+[*.vue]
+indent_style = space
+indent_size = 4
+
+# Settings for Astro files
+[*.astro]
+indent_style = space
+indent_size = 4
+
+# Settings for JSON files
+[*.json]
+indent_style = space
+indent_size = 4
+
+# Settings for CSS, SCSS, and HTML
+[*.{css,scss,html}]
+indent_style = space
+indent_size = 4
+
+# Settings for JavaScript and TypeScript
+[*.{js,ts,jsx,tsx}]
+indent_style = space
+indent_size = 4
