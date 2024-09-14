@@ -31,6 +31,7 @@ The inspiration for Gogh came from the clean and minimalistic design of Elementa
 - **[Install 📦](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-install)**
 - [Install (non-interactive mode)](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-install-non-interactive-mode)
 - [Terminals](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-terminals)
+- [Themes](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-themes)
 - [Help](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-help)
 - [Create your own theme](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-how-to-ceate-your-own-theme)
 - [As command line](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-as-command-line)
