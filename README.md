@@ -28,12 +28,14 @@ The inspiration for Gogh came from the clean and minimalistic design of Elementa
 <br>
 
 - [Pre-Install](https://github.com/Gogh-Co/Gogh#%EF%B8%8F-pre-install)
-- [Install 📦](https://github.com/Gogh-Co/Gogh#-install)
-- [Help](https://github.com/Gogh-Co/Gogh#thinking-help)
+- **[Install 📦](https://github.com/Gogh-Co/Gogh#-install)**
 - [Install (non-interactive mode)](https://github.com/Gogh-Co/Gogh#%EF%B8%8F-install-non-interactive-mode)
 - [Terminals](https://github.com/Gogh-Co/Gogh#-terminals)
 - [Themes](https://github.com/Gogh-Co/Gogh#-themes)
+- [Help](https://github.com/Gogh-Co/Gogh#-help)
 - [Create your own theme](https://github.com/Gogh-Co/Gogh#-create-your-own-theme)
+- [As command line](https://github.com/Gogh-Co/Gogh#-as-command-line)
+- [Accessibility - wcag](https://github.com/Gogh-Co/Gogh#-accessibility-wcag)
 - [First commit](https://github.com/Gogh-Co/Gogh#-first-commit)
 - [Credits](https://github.com/Gogh-Co/Gogh#heart-credits)
 - [Contributors](https://github.com/Gogh-Co/Gogh#heart-contributors)
@@ -59,19 +61,22 @@ The inspiration for Gogh came from the clean and minimalistic design of Elementa
 
 In your terminal type:
 
-Debian/Ubuntu
+**Debian/Ubuntu**
 
 ```bash
 sudo apt-get install dconf-cli uuid-runtime
 ```
 
-Arch Linux
+**Arch Linux**
 
 ```bash
 sudo pacman -S dconf util-linux-libs
 ```
 
 You can now install in interactive mode (easy) or non-interactive mode (ideal for scripting)
+
+<br>
+<br>
 
 ## 📦 **Install**
 
@@ -96,12 +101,8 @@ bash -c "$(curl -sLo- https://git.io/vQgMr)"
 ![gogh-demo-profile](https://raw.githubusercontent.com/Gogh-Co/Gogh/master/images/demos/gogh-demo-profile.gif)
 
 <br/>
-
-## :thinking: [Help](https://github.com/Gogh-Co/Gogh/blob/master/pages/help.md)
-
- - [link to page](https://github.com/Gogh-Co/Gogh/blob/master/pages/help.md)
-
 <br/>
+
 
 ## ⚙️ Install (non-interactive mode)
 Two ways:
@@ -164,6 +165,7 @@ GOGH_APPLY_SCRIPT=/path/to/file/apply-colors.sh bash ./selenized-dark.sh
 ```
 
 <br/>
+<br/>
 
 ## 💻 Terminals
 
@@ -183,6 +185,7 @@ GOGH_APPLY_SCRIPT=/path/to/file/apply-colors.sh bash ./selenized-dark.sh
 - Terminator - [Web](https://github.com/gnome-terminator/terminator)
 
 <br/>
+<br/>
 
 ## 🎨 [Themes](https://Gogh-Co.github.io/Gogh/)
 
@@ -197,6 +200,166 @@ also all themes in json format: https://raw.githubusercontent.com/Gogh-Co/Gogh/m
 If you want to create your own color scheme or contribute to the project, [start here](https://github.com/Gogh-Co/Gogh/blob/master/pages/howto.md).
 
 <br/>
+<br>
+
+## ❓ HELP
+
+- [Ubuntu 19.10: default_profile not a valid identifier, command not found](https://github.com/Gogh-Co/Gogh/issues/203)
+- [Using Elementary terminal but says unsupported](https://github.com/Gogh-Co/Gogh/issues/175)
+- [Doesn't working Debian](https://github.com/Gogh-Co/Gogh/issues/63)
+- [Not Working on Ubuntu](https://github.com/Gogh-Co/Gogh/issues/41)
+- `sudo apt install gconf2` - https://github.com/Gogh-Co/Gogh/issues/334#issuecomment-1374541799
+
+### 🔹 Debian Fixes
+
+#### [Fix 1](https://github.com/Gogh-Co/Gogh/issues/63#issuecomment-361071956) (@romzie):
+
+- reset your profiles:
+
+```bash
+dconf reset -f /org/gnome/terminal/legacy/profiles:/
+```
+
+#### [Fix 2](https://github.com/Gogh-Co/Gogh/issues/63#issuecomment-401224491) (@MalwareJedi):
+
+- Reset your profiles:
+
+```bash
+dconf reset -f /org/gnome/terminal/legacy/profiles:/
+```
+
+- Close your terminal. Re-open the terminal.
+- Go to **Edit** ---> **Preferences** ---> **Profiles**.
+- Create NEW profile called **Default**.
+- Close the terminal. Re-open the terminal.
+- Confirm **Default** is still listed in your profiles.
+- If it is, run the Gogh script again.
+
+#### [Fix 3](https://github.com/Gogh-Co/Gogh/issues/63#issuecomment-401510226) (@sui74):
+
+- Reset your profiles:
+
+```bash
+dconf reset -f /org/gnome/terminal/legacy/profiles:/
+```
+
+- "Unname" Rename profile called "default".
+
+```bash
+sudo apt install uuid-runtime
+```
+- run Gogh script.
+
+
+### 🔹 Elementary OS
+
+1 - Uncomment the following line in `.bashrc` you can find this file in your `/home/USER/` directory.
+
+```bash
+    #force_color_prompt=yes
+```
+
+2 - Execute in terminal
+
+```bash
+source .bashrc
+```
+
+## 🖼️ How to ceate your own theme
+
+Good news! Contributing with new themes is now easier and less intimidating.
+
+You just need to create a YAML format file, following the example of the other files in the `themes` folder.
+
+Please keep in mind a few simple rules.
+
+- The file name should match the name of the theme. For example:
+    - **Filename**: `Adventure Time.yml`
+    - **Inside the .yml file**: `name: 'Adventure Time'`
+- Use title case for all words by capitalizing their first letter.
+- Ensure that the contrast is sufficient for good legibility.
+
+**Now you can send Pull Request.**
+
+**Thank you!**
+
+---
+
+### Theme .yml example
+
+```yml
+---
+name: 'Gogh'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
+
+color_01: '#292D3E'    # Black (Host)
+color_02: '#F07178'    # Red (Syntax string)
+color_03: '#62DE84'    # Green (Command)
+color_04: '#FFCB6B'    # Yellow (Command second)
+color_05: '#75A1FF'    # Blue (Path)
+color_06: '#F580FF'    # Magenta (Syntax var)
+color_07: '#60BAEC'    # Cyan (Prompt)
+color_08: '#ABB2BF'    # White
+
+color_09: '#959DCB'    # Bright Black
+color_10: '#F07178'    # Bright Red (Command error)
+color_11: '#C3E88D'    # Bright Green (Exec)
+color_12: '#FF5572'    # Bright Yellow
+color_13: '#82AAFF'    # Bright Blue (Folder)
+color_14: '#FFCB6B'    # Bright Magenta
+color_15: '#676E95'    # Bright Cyan
+color_16: '#FFFEFE'    # Bright White
+
+background: '#292D3E'  # Background
+foreground: '#BFC7D5'  # Foreground (Text)
+
+cursor: '#BFC7D5'      # Cursor
+```
+---
+### Explanation of colors and variables
+
+The colors of the terminal are composed of 18 colors in 3 sections.
+
+Section 1: Regular text.
+
+Section 2: Bold text.
+
+Section 3: text and background.
+
+The basic colors are 8:
+
+- Black
+- Red
+- Green
+- Yellow
+- Blue
+- Purple
+- Cyan
+- White
+
+In comments variables is that of the console belongs each color.
+
+Here is a picture that explains a little better as colors are distributed.
+
+![Colors](https://raw.githubusercontent.com/Gogh-Co/Gogh/master/images/gogh/colors.png)
+
+<br>
+
+## 👨‍💻 As command line
+
+**WARNING:** *Only if you know what you are doing or trust me :)*
+
+```bash
+sudo wget -O /usr/local/bin/gogh https://git.io/vQgMr && sudo chmod +x /usr/local/bin/gogh
+```
+
+Now in your terminal just type `gogh`:
+
+```bash
+gogh
+```
+
 
 ## ⚫ Accessibility - wcag
 
@@ -267,6 +430,7 @@ Many thanks to all who have participated in this project.
   <img src="https://contributors-img.web.app/image?repo=Gogh-Co/Gogh&max=500" />
 </a>
 <br/>
+<br/>
 
 
 ## 🧠 Author (contributor)
@@ -278,6 +442,7 @@ I cannot claim to be the only author of this project. Without the help of the pe
 &nbsp;&nbsp;&nbsp;&nbsp; [💵 Invite me a coffee - paypal](https://paypal.me/mgldvd?country.x=CO&locale.x=es_XC)
 
 <br/>
+<br/>
 
 ## 🖌️ Why Gogh?
 
@@ -285,6 +450,7 @@ There is no blue without yellow and without orange.
 
 -- [Vincent Van Gogh](https://en.wikipedia.org/wiki/Vincent_van_Gogh) --
 
+<br/>
 <br/>
 
 ## 📣 Mentions
@@ -302,5 +468,3 @@ There is no blue without yellow and without orange.
 ## 🌟 Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/Gogh-Co/Gogh.svg)](https://starchart.cc/Gogh-Co/Gogh)
-
-
