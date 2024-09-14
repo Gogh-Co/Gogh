@@ -27,22 +27,21 @@ The inspiration for Gogh came from the clean and minimalistic design of Elementa
 
 <br>
 
-- [Pre-Install](https://github.com/Gogh-Co/Gogh#%EF%B8%8F-pre-install)
-- **[Install 📦](https://github.com/Gogh-Co/Gogh#-install)**
-- [Install (non-interactive mode)](https://github.com/Gogh-Co/Gogh#%EF%B8%8F-install-non-interactive-mode)
-- [Terminals](https://github.com/Gogh-Co/Gogh#-terminals)
-- [Themes](https://github.com/Gogh-Co/Gogh#-themes)
-- [Help](https://github.com/Gogh-Co/Gogh#-help)
-- [Create your own theme](https://github.com/Gogh-Co/Gogh#-create-your-own-theme)
-- [As command line](https://github.com/Gogh-Co/Gogh#-as-command-line)
-- [Accessibility - wcag](https://github.com/Gogh-Co/Gogh#-accessibility-wcag)
-- [First commit](https://github.com/Gogh-Co/Gogh#-first-commit)
-- [Credits](https://github.com/Gogh-Co/Gogh#heart-credits)
-- [Contributors](https://github.com/Gogh-Co/Gogh#heart-contributors)
-- [Author](https://github.com/Gogh-Co/Gogh#-author)
-- [Why Gogh?](https://github.com/Gogh-Co/Gogh#%EF%B8%8F-why-gogh)
-- [Mentions](https://github.com/Gogh-Co/Gogh#-mentions)
-- [Stargazers over time](https://github.com/Gogh-Co/Gogh#-stargazers-over-time)
+- [Pre-Install](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-pre-install)
+- **[Install 📦](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-install)**
+- [Install (non-interactive mode)](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-install-non-interactive-mode)
+- [Terminals](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-terminals)
+- [Help](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-help)
+- [Create your own theme](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-how-to-ceate-your-own-theme)
+- [As command line](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-as-command-line)
+- [Accessibility - wcag](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-accessibility---wcag)
+- [First commit](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-first-commit)
+- [Credits](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#heart-credits)
+- [Contributors](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#heart-contributors)
+- [Author](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-author-contributor)
+- [Why Gogh?](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-why-gogh)
+- [Mentions](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-mentions)
+- [Stargazers over time](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-stargazers-over-time)
 
 </td>
 <td>
@@ -192,12 +191,6 @@ GOGH_APPLY_SCRIPT=/path/to/file/apply-colors.sh bash ./selenized-dark.sh
 We have lots of themes. Check them out [here](https://Gogh-Co.github.io/Gogh/)!
 
 also all themes in json format: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json
-
-<br/>
-
-## 📌 [Create your own theme](https://github.com/Gogh-Co/Gogh/blob/master/pages/howto.md)
-
-If you want to create your own color scheme or contribute to the project, [start here](https://github.com/Gogh-Co/Gogh/blob/master/pages/howto.md).
 
 <br/>
 <br>
