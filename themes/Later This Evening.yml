@@ -1,5 +1,7 @@
 ---
 name: 'Later This Evening'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#2B2B2B'    # Black (Host)
 color_02: '#D45A60'    # Red (Syntax string)

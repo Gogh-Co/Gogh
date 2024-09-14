@@ -1,5 +1,7 @@
 ---
 name: 'Belafonte Day'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#20111B'    # Black (Host)
 color_02: '#BE100E'    # Red (Syntax string)

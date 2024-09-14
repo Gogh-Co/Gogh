@@ -1,1 +1,25 @@
-{"color_01": "#20111B", "color_02": "#BE100E", "color_03": "#858162", "color_04": "#EAA549", "color_05": "#426A79", "color_06": "#97522C", "color_07": "#989A9C", "color_08": "#968C83", "color_09": "#5E5252", "color_10": "#BE100E", "color_11": "#858162", "color_12": "#EAA549", "color_13": "#426A79", "color_14": "#97522C", "color_15": "#989A9C", "color_16": "#D5CCBA", "name": "Belafonte Night", "foreground": "#968C83", "background": "#20111B", "cursor": "#968C83", "hash": "fbc985161092504203ed800465a141319472f9f3d4fc917e1d13b5f0c74ece79"}
+{
+  "name": "Belafonte Night",
+  "author": "",
+  "variant": "",
+  "color_01": "#20111B",
+  "color_02": "#BE100E",
+  "color_03": "#858162",
+  "color_04": "#EAA549",
+  "color_05": "#426A79",
+  "color_06": "#97522C",
+  "color_07": "#989A9C",
+  "color_08": "#968C83",
+  "color_09": "#5E5252",
+  "color_10": "#BE100E",
+  "color_11": "#858162",
+  "color_12": "#EAA549",
+  "color_13": "#426A79",
+  "color_14": "#97522C",
+  "color_15": "#989A9C",
+  "color_16": "#D5CCBA",
+  "background": "#20111B",
+  "foreground": "#968C83",
+  "cursor": "#968C83",
+  "hash": "fbc985161092504203ed800465a141319472f9f3d4fc917e1d13b5f0c74ece79"
+}

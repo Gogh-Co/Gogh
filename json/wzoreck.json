@@ -1,1 +1,25 @@
-{"color_01": "#2E3436", "color_02": "#FC6386", "color_03": "#A9DC76", "color_04": "#FCE94F", "color_05": "#FB976B", "color_06": "#75507B", "color_07": "#34E2E2", "color_08": "#FFFFFF", "color_09": "#989595", "color_10": "#FC6386", "color_11": "#A9DC76", "color_12": "#FCE94F", "color_13": "#FB976B", "color_14": "#AB9DF2", "color_15": "#34E2E2", "color_16": "#D1D1C0", "name": "Wzoreck", "foreground": "#FCFCFA", "background": "#424043", "cursor": "#FCFCFA", "hash": "d2493d59c25ca98dd8d03d47129dfa87c542505427d695a124abed74811afc25"}
+{
+  "name": "Wzoreck",
+  "author": "",
+  "variant": "",
+  "color_01": "#2E3436",
+  "color_02": "#FC6386",
+  "color_03": "#A9DC76",
+  "color_04": "#FCE94F",
+  "color_05": "#FB976B",
+  "color_06": "#75507B",
+  "color_07": "#34E2E2",
+  "color_08": "#FFFFFF",
+  "color_09": "#989595",
+  "color_10": "#FC6386",
+  "color_11": "#A9DC76",
+  "color_12": "#FCE94F",
+  "color_13": "#FB976B",
+  "color_14": "#AB9DF2",
+  "color_15": "#34E2E2",
+  "color_16": "#D1D1C0",
+  "background": "#424043",
+  "foreground": "#FCFCFA",
+  "cursor": "#FCFCFA",
+  "hash": "d2493d59c25ca98dd8d03d47129dfa87c542505427d695a124abed74811afc25"
+}

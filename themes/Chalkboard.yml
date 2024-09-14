@@ -1,5 +1,7 @@
 ---
 name: 'Chalkboard'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#000000'    # Black (Host)
 color_02: '#C37372'    # Red (Syntax string)

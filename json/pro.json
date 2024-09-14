@@ -1,1 +1,25 @@
-{"color_01": "#000000", "color_02": "#990000", "color_03": "#00A600", "color_04": "#999900", "color_05": "#2009DB", "color_06": "#B200B2", "color_07": "#00A6B2", "color_08": "#BFBFBF", "color_09": "#666666", "color_10": "#E50000", "color_11": "#00D900", "color_12": "#E5E500", "color_13": "#0000FF", "color_14": "#E500E5", "color_15": "#00E5E5", "color_16": "#E5E5E5", "name": "Pro", "foreground": "#F2F2F2", "background": "#000000", "cursor": "#F2F2F2", "hash": "01bc08e36947152241eab7d5fc28c1c5abb2c4d00c469c1cd802f8320eb296a7"}
+{
+  "name": "Pro",
+  "author": "",
+  "variant": "",
+  "color_01": "#000000",
+  "color_02": "#990000",
+  "color_03": "#00A600",
+  "color_04": "#999900",
+  "color_05": "#2009DB",
+  "color_06": "#B200B2",
+  "color_07": "#00A6B2",
+  "color_08": "#BFBFBF",
+  "color_09": "#666666",
+  "color_10": "#E50000",
+  "color_11": "#00D900",
+  "color_12": "#E5E500",
+  "color_13": "#0000FF",
+  "color_14": "#E500E5",
+  "color_15": "#00E5E5",
+  "color_16": "#E5E5E5",
+  "background": "#000000",
+  "foreground": "#F2F2F2",
+  "cursor": "#F2F2F2",
+  "hash": "01bc08e36947152241eab7d5fc28c1c5abb2c4d00c469c1cd802f8320eb296a7"
+}

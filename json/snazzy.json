@@ -1,1 +1,25 @@
-{"color_01": "#282A36", "color_02": "#FF5C57", "color_03": "#5AF78E", "color_04": "#F3F99D", "color_05": "#57C7FF", "color_06": "#FF6AC1", "color_07": "#9AEDFE", "color_08": "#F1F1F0", "color_09": "#686868", "color_10": "#FF5C57", "color_11": "#5AF78E", "color_12": "#F3F99D", "color_13": "#57C7FF", "color_14": "#FF6AC1", "color_15": "#9AEDFE", "color_16": "#EFF0EB", "name": "Snazzy", "foreground": "#EFF0EB", "background": "#282A36", "cursor": "#97979B", "hash": "7b4f96abb73154422a747f917b04f9ca0fd95c963473d147d6594ee97ab34639"}
+{
+  "name": "Snazzy",
+  "author": "",
+  "variant": "",
+  "color_01": "#282A36",
+  "color_02": "#FF5C57",
+  "color_03": "#5AF78E",
+  "color_04": "#F3F99D",
+  "color_05": "#57C7FF",
+  "color_06": "#FF6AC1",
+  "color_07": "#9AEDFE",
+  "color_08": "#F1F1F0",
+  "color_09": "#686868",
+  "color_10": "#FF5C57",
+  "color_11": "#5AF78E",
+  "color_12": "#F3F99D",
+  "color_13": "#57C7FF",
+  "color_14": "#FF6AC1",
+  "color_15": "#9AEDFE",
+  "color_16": "#EFF0EB",
+  "background": "#282A36",
+  "foreground": "#EFF0EB",
+  "cursor": "#97979B",
+  "hash": "7b4f96abb73154422a747f917b04f9ca0fd95c963473d147d6594ee97ab34639"
+}

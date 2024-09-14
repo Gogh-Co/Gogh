@@ -1,5 +1,7 @@
 ---
 name: 'Base2Tone Porch'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#221e24'    # Black (Host)
 color_02: '#9466a3'    # Red (Syntax string)

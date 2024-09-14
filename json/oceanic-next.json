@@ -1,1 +1,25 @@
-{"color_01": "#121C21", "color_02": "#E44754", "color_03": "#89BD82", "color_04": "#F7BD51", "color_05": "#5486C0", "color_06": "#B77EB8", "color_07": "#50A5A4", "color_08": "#FFFFFF", "color_09": "#52606B", "color_10": "#E44754", "color_11": "#89BD82", "color_12": "#F7BD51", "color_13": "#5486C0", "color_14": "#B77EB8", "color_15": "#50A5A4", "color_16": "#FFFFFF", "name": "Oceanic Next", "foreground": "#B3B8C3", "background": "#121B21", "cursor": "#B3B8C3", "hash": "5f6ccf51cb16876210d2d42258ae16b12267929455899d74f1384d2c8233cf15"}
+{
+  "name": "Oceanic Next",
+  "author": "",
+  "variant": "",
+  "color_01": "#121C21",
+  "color_02": "#E44754",
+  "color_03": "#89BD82",
+  "color_04": "#F7BD51",
+  "color_05": "#5486C0",
+  "color_06": "#B77EB8",
+  "color_07": "#50A5A4",
+  "color_08": "#FFFFFF",
+  "color_09": "#52606B",
+  "color_10": "#E44754",
+  "color_11": "#89BD82",
+  "color_12": "#F7BD51",
+  "color_13": "#5486C0",
+  "color_14": "#B77EB8",
+  "color_15": "#50A5A4",
+  "color_16": "#FFFFFF",
+  "background": "#121B21",
+  "foreground": "#B3B8C3",
+  "cursor": "#B3B8C3",
+  "hash": "5f6ccf51cb16876210d2d42258ae16b12267929455899d74f1384d2c8233cf15"
+}

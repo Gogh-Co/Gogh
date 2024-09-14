@@ -1,1 +1,25 @@
-{"color_01": "#201d1e", "color_02": "#21a00d", "color_03": "#1398aa", "color_04": "#3ccadd", "color_05": "#eb75a2", "color_06": "#e97263", "color_07": "#23b4c7", "color_08": "#ede8ea", "color_09": "#0d080a", "color_10": "#39c723", "color_11": "#5ad2e2", "color_12": "#a4e6ef", "color_13": "#f8bfd5", "color_14": "#f18c7e", "color_15": "#f6b1cc", "color_16": "#f9f6f7", "name": "Base4Tone Modern W", "foreground": "#9e9498", "background": "#201d1e", "cursor": "#6a878a", "hash": "5a894631d98334e3bfb0556d1b54676502c8a2d46605df8f4c4f34e674345fc2"}
+{
+  "name": "Base4Tone Modern W",
+  "author": "",
+  "variant": "",
+  "color_01": "#201d1e",
+  "color_02": "#21a00d",
+  "color_03": "#1398aa",
+  "color_04": "#3ccadd",
+  "color_05": "#eb75a2",
+  "color_06": "#e97263",
+  "color_07": "#23b4c7",
+  "color_08": "#ede8ea",
+  "color_09": "#0d080a",
+  "color_10": "#39c723",
+  "color_11": "#5ad2e2",
+  "color_12": "#a4e6ef",
+  "color_13": "#f8bfd5",
+  "color_14": "#f18c7e",
+  "color_15": "#f6b1cc",
+  "color_16": "#f9f6f7",
+  "background": "#201d1e",
+  "foreground": "#9e9498",
+  "cursor": "#6a878a",
+  "hash": "5a894631d98334e3bfb0556d1b54676502c8a2d46605df8f4c4f34e674345fc2"
+}

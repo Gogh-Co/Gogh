@@ -1,5 +1,7 @@
 ---
 name: 'Base2Tone Morning'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#232834'    # Black (Host)
 color_02: '#1659df'    # Red (Syntax string)

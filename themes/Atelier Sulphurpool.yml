@@ -1,5 +1,7 @@
 ---
 name: 'Atelier Sulphurpool'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#C94922'    # Black (Host)
 color_02: '#C94922'    # Red (Syntax string)

@@ -1,5 +1,7 @@
 ---
 name: 'Bluloco Zsh Light'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#E4E5F1'    # Black (Host)
 color_02: '#D52753'    # Red (Syntax string)

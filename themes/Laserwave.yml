@@ -1,5 +1,7 @@
 ---
 name: 'Laserwave'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#39243A'    # Black (Host)
 color_02: '#EB64B9'    # Red (Syntax string)

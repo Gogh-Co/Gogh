@@ -1,5 +1,7 @@
 ---
 name: 'Catppuccin Latte'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#5C5F77'    # Black (Host)
 color_02: '#D20F39'    # Red (Syntax string)

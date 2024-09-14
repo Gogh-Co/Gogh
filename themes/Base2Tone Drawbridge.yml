@@ -1,5 +1,7 @@
 ---
 name: 'Base2Tone Drawbridge'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#1b1f32'    # Black (Host)
 color_02: '#627af4'    # Red (Syntax string)

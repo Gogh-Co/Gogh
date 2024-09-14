@@ -1,5 +1,7 @@
 ---
 name: 'Spacegray Eighties'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#15171C'    # Black (Host)
 color_02: '#EC5F67'    # Red (Syntax string)

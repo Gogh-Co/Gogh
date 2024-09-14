@@ -1,5 +1,7 @@
 ---
 name: 'Tokyo Night Storm'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#414868'    # Black (Host)
 color_02: '#F7768E'    # Red (Syntax string)

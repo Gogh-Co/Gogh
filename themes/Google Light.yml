@@ -1,5 +1,7 @@
 ---
 name: 'Google Light'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#202124'    # Black (Host)
 color_02: '#EA4335'    # Red (Syntax string)

@@ -1,1 +1,25 @@
-{"color_01": "#0A0F14", "color_02": "#C33027", "color_03": "#26A98B", "color_04": "#EDB54B", "color_05": "#195465", "color_06": "#4E5165", "color_07": "#33859D", "color_08": "#98D1CE", "color_09": "#10151B", "color_10": "#D26939", "color_11": "#081F2D", "color_12": "#245361", "color_13": "#093748", "color_14": "#888BA5", "color_15": "#599CAA", "color_16": "#D3EBE9", "name": "Gotham", "foreground": "#98D1CE", "background": "#0A0F14", "cursor": "#98D1CE", "hash": "b3fc1edf2a8f02abb29af13b8e75fc5559c6cdb7bc23ca5a6cae0681062516e9"}
+{
+  "name": "Gotham",
+  "author": "",
+  "variant": "",
+  "color_01": "#0A0F14",
+  "color_02": "#C33027",
+  "color_03": "#26A98B",
+  "color_04": "#EDB54B",
+  "color_05": "#195465",
+  "color_06": "#4E5165",
+  "color_07": "#33859D",
+  "color_08": "#98D1CE",
+  "color_09": "#10151B",
+  "color_10": "#D26939",
+  "color_11": "#081F2D",
+  "color_12": "#245361",
+  "color_13": "#093748",
+  "color_14": "#888BA5",
+  "color_15": "#599CAA",
+  "color_16": "#D3EBE9",
+  "background": "#0A0F14",
+  "foreground": "#98D1CE",
+  "cursor": "#98D1CE",
+  "hash": "b3fc1edf2a8f02abb29af13b8e75fc5559c6cdb7bc23ca5a6cae0681062516e9"
+}

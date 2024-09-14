@@ -1,5 +1,7 @@
 ---
 name: 'Nightlion V1'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#4C4C4C'    # Black (Host)
 color_02: '#BB0000'    # Red (Syntax string)

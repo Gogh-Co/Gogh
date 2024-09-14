@@ -1,1 +1,25 @@
-{"color_01": "#282C34", "color_02": "#E06C75", "color_03": "#98C379", "color_04": "#E5C07B", "color_05": "#61AFEF", "color_06": "#C678DD", "color_07": "#56B6C2", "color_08": "#DCDFE4", "color_09": "#282C34", "color_10": "#E06C75", "color_11": "#98C379", "color_12": "#E5C07B", "color_13": "#61AFEF", "color_14": "#C678DD", "color_15": "#56B6C2", "color_16": "#DCDFE4", "name": "One Half Black", "foreground": "#DCDFE4", "background": "#000000", "cursor": "#DCDFE4", "hash": "203d9d1944fa97e75cb33aff340c8268d5de542da2e67035755148f18c237d10"}
+{
+  "name": "One Half Black",
+  "author": "",
+  "variant": "",
+  "color_01": "#282C34",
+  "color_02": "#E06C75",
+  "color_03": "#98C379",
+  "color_04": "#E5C07B",
+  "color_05": "#61AFEF",
+  "color_06": "#C678DD",
+  "color_07": "#56B6C2",
+  "color_08": "#DCDFE4",
+  "color_09": "#282C34",
+  "color_10": "#E06C75",
+  "color_11": "#98C379",
+  "color_12": "#E5C07B",
+  "color_13": "#61AFEF",
+  "color_14": "#C678DD",
+  "color_15": "#56B6C2",
+  "color_16": "#DCDFE4",
+  "background": "#000000",
+  "foreground": "#DCDFE4",
+  "cursor": "#DCDFE4",
+  "hash": "203d9d1944fa97e75cb33aff340c8268d5de542da2e67035755148f18c237d10"
+}

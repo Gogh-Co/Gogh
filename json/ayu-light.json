@@ -1,1 +1,25 @@
-{"color_01": "#575F66", "color_02": "#F51818", "color_03": "#86B300", "color_04": "#F2AE49", "color_05": "#399EE6", "color_06": "#A37ACC", "color_07": "#4CBF99", "color_08": "#FAFAFA", "color_09": "#8A9199", "color_10": "#F51818", "color_11": "#86B300", "color_12": "#F2AE49", "color_13": "#399EE6", "color_14": "#A37ACC", "color_15": "#4CBF99", "color_16": "#FAFAFA", "name": "Ayu Light", "foreground": "#575F66", "background": "#FAFAFA", "cursor": "#FF9940", "hash": "34d64fb782c08ecdc18842a9d751cb3dc0ed859b31ff4f1383b39442e11d8d7d"}
+{
+  "name": "Ayu Light",
+  "author": "",
+  "variant": "",
+  "color_01": "#575F66",
+  "color_02": "#F51818",
+  "color_03": "#86B300",
+  "color_04": "#F2AE49",
+  "color_05": "#399EE6",
+  "color_06": "#A37ACC",
+  "color_07": "#4CBF99",
+  "color_08": "#FAFAFA",
+  "color_09": "#8A9199",
+  "color_10": "#F51818",
+  "color_11": "#86B300",
+  "color_12": "#F2AE49",
+  "color_13": "#399EE6",
+  "color_14": "#A37ACC",
+  "color_15": "#4CBF99",
+  "color_16": "#FAFAFA",
+  "background": "#FAFAFA",
+  "foreground": "#575F66",
+  "cursor": "#FF9940",
+  "hash": "34d64fb782c08ecdc18842a9d751cb3dc0ed859b31ff4f1383b39442e11d8d7d"
+}

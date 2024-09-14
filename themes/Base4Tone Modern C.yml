@@ -1,5 +1,7 @@
 ---
 name: 'Base4Tone Modern C'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#221f1c'    # Black (Host)
 color_02: '#5c6feb'    # Red (Syntax string)

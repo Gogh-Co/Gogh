@@ -1,1 +1,25 @@
-{"color_01": "#F22C40", "color_02": "#F22C40", "color_03": "#7B9726", "color_04": "#C38418", "color_05": "#407EE7", "color_06": "#C33FF3", "color_07": "#3D97B8", "color_08": "#E6E2E0", "color_09": "#766E6B", "color_10": "#DF5320", "color_11": "#7B9726", "color_12": "#C38418", "color_13": "#6666EA", "color_14": "#C33FF3", "color_15": "#3D97B8", "color_16": "#F1EFEE", "name": "Atelier Forest", "foreground": "#9C9491", "background": "#1B1918", "cursor": "#9C9491", "hash": "be7b7c5f820d07c1e5d60c104d122f14c2f65c2d28731508a17d9970ba0e01ed"}
+{
+  "name": "Atelier Forest",
+  "author": "",
+  "variant": "",
+  "color_01": "#F22C40",
+  "color_02": "#F22C40",
+  "color_03": "#7B9726",
+  "color_04": "#C38418",
+  "color_05": "#407EE7",
+  "color_06": "#C33FF3",
+  "color_07": "#3D97B8",
+  "color_08": "#E6E2E0",
+  "color_09": "#766E6B",
+  "color_10": "#DF5320",
+  "color_11": "#7B9726",
+  "color_12": "#C38418",
+  "color_13": "#6666EA",
+  "color_14": "#C33FF3",
+  "color_15": "#3D97B8",
+  "color_16": "#F1EFEE",
+  "background": "#1B1918",
+  "foreground": "#9C9491",
+  "cursor": "#9C9491",
+  "hash": "be7b7c5f820d07c1e5d60c104d122f14c2f65c2d28731508a17d9970ba0e01ed"
+}

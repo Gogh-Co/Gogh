@@ -1,5 +1,7 @@
 ---
 name: 'Flatland'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#1D1D19'    # Black (Host)
 color_02: '#F18339'    # Red (Syntax string)

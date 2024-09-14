@@ -1,1 +1,25 @@
-{"color_01": "#FBF1C7", "color_02": "#CC241D", "color_03": "#98971A", "color_04": "#D79921", "color_05": "#458588", "color_06": "#B16286", "color_07": "#689D6A", "color_08": "#7C6F64", "color_09": "#928374", "color_10": "#9D0006", "color_11": "#79740E", "color_12": "#B57614", "color_13": "#076678", "color_14": "#8F3F71", "color_15": "#427B58", "color_16": "#3C3836", "name": "Gruvbox", "foreground": "#3C3836", "background": "#FBF1C7", "cursor": "#3C3836", "hash": "01060a90ad107aa5025a7eefb3f6dc61b1d11c861bc607b94f334ff6a0f02f27"}
+{
+  "name": "Gruvbox",
+  "author": "",
+  "variant": "",
+  "color_01": "#FBF1C7",
+  "color_02": "#CC241D",
+  "color_03": "#98971A",
+  "color_04": "#D79921",
+  "color_05": "#458588",
+  "color_06": "#B16286",
+  "color_07": "#689D6A",
+  "color_08": "#7C6F64",
+  "color_09": "#928374",
+  "color_10": "#9D0006",
+  "color_11": "#79740E",
+  "color_12": "#B57614",
+  "color_13": "#076678",
+  "color_14": "#8F3F71",
+  "color_15": "#427B58",
+  "color_16": "#3C3836",
+  "background": "#FBF1C7",
+  "foreground": "#3C3836",
+  "cursor": "#3C3836",
+  "hash": "01060a90ad107aa5025a7eefb3f6dc61b1d11c861bc607b94f334ff6a0f02f27"
+}

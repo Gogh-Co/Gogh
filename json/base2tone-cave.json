@@ -1,1 +1,25 @@
-{"color_01": "#222021", "color_02": "#936c7a", "color_03": "#cca133", "color_04": "#ffcc4d", "color_05": "#9c818b", "color_06": "#cca133", "color_07": "#d27998", "color_08": "#9f999b", "color_09": "#635f60", "color_10": "#ddaf3c", "color_11": "#2f2d2e", "color_12": "#565254", "color_13": "#706b6d", "color_14": "#f0a8c1", "color_15": "#c39622", "color_16": "#ffebf2", "name": "Base2Tone Cave", "foreground": "#9f999b", "background": "#222021", "cursor": "#996e00", "hash": "ce76c9362e81b411c2fae85c8e3ea363e76a01d6c8504d3795a2f38799a19062"}
+{
+  "name": "Base2Tone Cave",
+  "author": "",
+  "variant": "",
+  "color_01": "#222021",
+  "color_02": "#936c7a",
+  "color_03": "#cca133",
+  "color_04": "#ffcc4d",
+  "color_05": "#9c818b",
+  "color_06": "#cca133",
+  "color_07": "#d27998",
+  "color_08": "#9f999b",
+  "color_09": "#635f60",
+  "color_10": "#ddaf3c",
+  "color_11": "#2f2d2e",
+  "color_12": "#565254",
+  "color_13": "#706b6d",
+  "color_14": "#f0a8c1",
+  "color_15": "#c39622",
+  "color_16": "#ffebf2",
+  "background": "#222021",
+  "foreground": "#9f999b",
+  "cursor": "#996e00",
+  "hash": "ce76c9362e81b411c2fae85c8e3ea363e76a01d6c8504d3795a2f38799a19062"
+}

@@ -1,5 +1,7 @@
 ---
 name: 'Sweet Eliverlara'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#282C34'    # Black (Host)
 color_02: '#ED254E'    # Red (Syntax string)

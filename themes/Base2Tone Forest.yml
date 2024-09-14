@@ -1,5 +1,7 @@
 ---
 name: 'Base2Tone Forest'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#2a2d2a'    # Black (Host)
 color_02: '#5c705c'    # Red (Syntax string)

@@ -1,1 +1,25 @@
-{"color_01": "#000000", "color_02": "#CC0000", "color_03": "#009600", "color_04": "#D06B00", "color_05": "#0000CC", "color_06": "#CC00CC", "color_07": "#0087CC", "color_08": "#CCCCCC", "color_09": "#808080", "color_10": "#CC0000", "color_11": "#009600", "color_12": "#D06B00", "color_13": "#0000CC", "color_14": "#CC00CC", "color_15": "#0087CC", "color_16": "#FFFFFF", "name": "Novel", "foreground": "#3B2322", "background": "#DFDBC3", "cursor": "#3B2322", "hash": "b560cb9104f9e7875de3025f1ec600cc2499bf735fd5b7eeeb0750911715bc26"}
+{
+  "name": "Novel",
+  "author": "",
+  "variant": "",
+  "color_01": "#000000",
+  "color_02": "#CC0000",
+  "color_03": "#009600",
+  "color_04": "#D06B00",
+  "color_05": "#0000CC",
+  "color_06": "#CC00CC",
+  "color_07": "#0087CC",
+  "color_08": "#CCCCCC",
+  "color_09": "#808080",
+  "color_10": "#CC0000",
+  "color_11": "#009600",
+  "color_12": "#D06B00",
+  "color_13": "#0000CC",
+  "color_14": "#CC00CC",
+  "color_15": "#0087CC",
+  "color_16": "#FFFFFF",
+  "background": "#DFDBC3",
+  "foreground": "#3B2322",
+  "cursor": "#3B2322",
+  "hash": "b560cb9104f9e7875de3025f1ec600cc2499bf735fd5b7eeeb0750911715bc26"
+}

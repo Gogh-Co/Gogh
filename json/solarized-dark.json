@@ -1,1 +1,25 @@
-{"color_01": "#073642", "color_02": "#DC322F", "color_03": "#859900", "color_04": "#CF9A6B", "color_05": "#268BD2", "color_06": "#D33682", "color_07": "#2AA198", "color_08": "#EEE8D5", "color_09": "#657B83", "color_10": "#CB4B16", "color_11": "#859900", "color_12": "#CF9A6B", "color_13": "#6c71c4", "color_14": "#D33682", "color_15": "#2AA198", "color_16": "#FDF6E3", "name": "Solarized Dark", "foreground": "#839496", "background": "#002B36", "cursor": "#839496", "hash": "f76f6aab437396f3ee629faa9781d1a63cf4b8041e18a19321179e2d8009fa0d"}
+{
+  "name": "Solarized Dark",
+  "author": "",
+  "variant": "",
+  "color_01": "#073642",
+  "color_02": "#DC322F",
+  "color_03": "#859900",
+  "color_04": "#CF9A6B",
+  "color_05": "#268BD2",
+  "color_06": "#D33682",
+  "color_07": "#2AA198",
+  "color_08": "#EEE8D5",
+  "color_09": "#657B83",
+  "color_10": "#CB4B16",
+  "color_11": "#859900",
+  "color_12": "#CF9A6B",
+  "color_13": "#6c71c4",
+  "color_14": "#D33682",
+  "color_15": "#2AA198",
+  "color_16": "#FDF6E3",
+  "background": "#002B36",
+  "foreground": "#839496",
+  "cursor": "#839496",
+  "hash": "f76f6aab437396f3ee629faa9781d1a63cf4b8041e18a19321179e2d8009fa0d"
+}

@@ -1,5 +1,7 @@
 ---
 name: 'Base2Tone Garden'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#1e1f1e'    # Black (Host)
 color_02: '#3fac39'    # Red (Syntax string)

@@ -1,7 +1,7 @@
 ---
 name: 'Tomorrow'
-author: 'Chris Kempson (http://chriskempson.com)'
-variant: 'light'
+author: 'Chris Kempson (http://chriskempson.com)'             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'light'            # dark or light
 
 color_01: '#E0E0E0'    # Black (Host)
 color_02: '#C82829'    # Red (Syntax string)

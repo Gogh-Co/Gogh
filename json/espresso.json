@@ -1,1 +1,25 @@
-{"color_01": "#353535", "color_02": "#D25252", "color_03": "#A5C261", "color_04": "#FFC66D", "color_05": "#6C99BB", "color_06": "#D197D9", "color_07": "#BED6FF", "color_08": "#EEEEEC", "color_09": "#535353", "color_10": "#F00C0C", "color_11": "#C2E075", "color_12": "#E1E48B", "color_13": "#8AB7D9", "color_14": "#EFB5F7", "color_15": "#DCF4FF", "color_16": "#FFFFFF", "name": "Espresso", "foreground": "#FFFFFF", "background": "#323232", "cursor": "#FFFFFF", "hash": "003f72b6bfcb075aa16d7b2fe0251ce3bc1bbeb1d6ea1fb2a136823f8e08b6e7"}
+{
+  "name": "Espresso",
+  "author": "",
+  "variant": "",
+  "color_01": "#353535",
+  "color_02": "#D25252",
+  "color_03": "#A5C261",
+  "color_04": "#FFC66D",
+  "color_05": "#6C99BB",
+  "color_06": "#D197D9",
+  "color_07": "#BED6FF",
+  "color_08": "#EEEEEC",
+  "color_09": "#535353",
+  "color_10": "#F00C0C",
+  "color_11": "#C2E075",
+  "color_12": "#E1E48B",
+  "color_13": "#8AB7D9",
+  "color_14": "#EFB5F7",
+  "color_15": "#DCF4FF",
+  "color_16": "#FFFFFF",
+  "background": "#323232",
+  "foreground": "#FFFFFF",
+  "cursor": "#FFFFFF",
+  "hash": "003f72b6bfcb075aa16d7b2fe0251ce3bc1bbeb1d6ea1fb2a136823f8e08b6e7"
+}

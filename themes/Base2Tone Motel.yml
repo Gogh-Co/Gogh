@@ -1,5 +1,7 @@
 ---
 name: 'Base2Tone Motel'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#242323'    # Black (Host)
 color_02: '#956f76'    # Red (Syntax string)

@@ -1,5 +1,7 @@
 ---
 name: 'Solarized Darcula'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#25292A'    # Black (Host)
 color_02: '#F24840'    # Red (Syntax string)

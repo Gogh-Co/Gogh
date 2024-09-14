@@ -1,5 +1,7 @@
 ---
 name: 'Monokai Soda'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#1A1A1A'    # Black (Host)
 color_02: '#F4005F'    # Red (Syntax string)

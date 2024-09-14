@@ -1,5 +1,7 @@
 ---
 name: 'Paraiso Dark'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#2F1E2E'    # Black (Host)
 color_02: '#EF6155'    # Red (Syntax string)

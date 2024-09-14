@@ -1,5 +1,7 @@
 ---
 name: 'Sweet Terminal'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#3F3F54'    # Black (Host)
 color_02: '#F60055'    # Red (Syntax string)

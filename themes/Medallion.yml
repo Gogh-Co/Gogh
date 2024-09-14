@@ -1,5 +1,7 @@
 ---
 name: 'Medallion'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#000000'    # Black (Host)
 color_02: '#B64C00'    # Red (Syntax string)

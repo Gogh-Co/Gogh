@@ -1,5 +1,7 @@
 ---
 name: 'Base2Tone Lavender'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#201d2a'    # Black (Host)
 color_02: '#9375f5'    # Red (Syntax string)

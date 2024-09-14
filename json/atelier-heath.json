@@ -1,1 +1,25 @@
-{"color_01": "#CA402B", "color_02": "#CA402B", "color_03": "#918B3B", "color_04": "#BB8A35", "color_05": "#516AEC", "color_06": "#CC33CC", "color_07": "#159393", "color_08": "#D8CAD8", "color_09": "#776977", "color_10": "#A65926", "color_11": "#918B3B", "color_12": "#BB8A35", "color_13": "#7B59C0", "color_14": "#CC33CC", "color_15": "#159393", "color_16": "#F7F3F7", "name": "Atelier Heath", "foreground": "#9E8F9E", "background": "#1B181B", "cursor": "#9E8F9E", "hash": "8b293dcaa2f33e77347020a25c85529bc8b62392367633fa840d17135a4c8825"}
+{
+  "name": "Atelier Heath",
+  "author": "",
+  "variant": "",
+  "color_01": "#CA402B",
+  "color_02": "#CA402B",
+  "color_03": "#918B3B",
+  "color_04": "#BB8A35",
+  "color_05": "#516AEC",
+  "color_06": "#CC33CC",
+  "color_07": "#159393",
+  "color_08": "#D8CAD8",
+  "color_09": "#776977",
+  "color_10": "#A65926",
+  "color_11": "#918B3B",
+  "color_12": "#BB8A35",
+  "color_13": "#7B59C0",
+  "color_14": "#CC33CC",
+  "color_15": "#159393",
+  "color_16": "#F7F3F7",
+  "background": "#1B181B",
+  "foreground": "#9E8F9E",
+  "cursor": "#9E8F9E",
+  "hash": "8b293dcaa2f33e77347020a25c85529bc8b62392367633fa840d17135a4c8825"
+}

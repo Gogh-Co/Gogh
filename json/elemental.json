@@ -1,1 +1,25 @@
-{"color_01": "#3C3C30", "color_02": "#98290F", "color_03": "#479A43", "color_04": "#7F7111", "color_05": "#497F7D", "color_06": "#7F4E2F", "color_07": "#387F58", "color_08": "#807974", "color_09": "#555445", "color_10": "#E0502A", "color_11": "#61E070", "color_12": "#D69927", "color_13": "#79D9D9", "color_14": "#CD7C54", "color_15": "#59D599", "color_16": "#FFF1E9", "name": "Elemental", "foreground": "#807A74", "background": "#22211D", "cursor": "#807A74", "hash": "6e5e77a77aeca2dd93674341574fa5534c1a8bcc107a1029ff1f8b515bb39039"}
+{
+  "name": "Elemental",
+  "author": "",
+  "variant": "",
+  "color_01": "#3C3C30",
+  "color_02": "#98290F",
+  "color_03": "#479A43",
+  "color_04": "#7F7111",
+  "color_05": "#497F7D",
+  "color_06": "#7F4E2F",
+  "color_07": "#387F58",
+  "color_08": "#807974",
+  "color_09": "#555445",
+  "color_10": "#E0502A",
+  "color_11": "#61E070",
+  "color_12": "#D69927",
+  "color_13": "#79D9D9",
+  "color_14": "#CD7C54",
+  "color_15": "#59D599",
+  "color_16": "#FFF1E9",
+  "background": "#22211D",
+  "foreground": "#807A74",
+  "cursor": "#807A74",
+  "hash": "6e5e77a77aeca2dd93674341574fa5534c1a8bcc107a1029ff1f8b515bb39039"
+}

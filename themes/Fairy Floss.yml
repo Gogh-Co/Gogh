@@ -1,5 +1,7 @@
 ---
 name: 'Fairy Floss'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#42395D'    # Black (Host)
 color_02: '#A8757B'    # Red (Syntax string)

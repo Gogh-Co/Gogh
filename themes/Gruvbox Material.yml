@@ -1,5 +1,7 @@
 ---
 name: 'Gruvbox Material'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#3C3836'    # Black (Host)
 color_02: '#EA6962'    # Red (Syntax string)

@@ -1,5 +1,7 @@
 ---
 name: 'Base2Tone Lake'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#192d34'    # Black (Host)
 color_02: '#3e91ac'    # Red (Syntax string)

@@ -1,5 +1,7 @@
 ---
-name : "Sparky"
+name: 'Sparky'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#212322'    # Black (Host)
 color_02: '#FF585D'    # Red (Syntax string)
@@ -19,7 +21,7 @@ color_14: '#F99FC9'    # Bright Magenta
 color_15: '#00C1D5'    # Bright Cyan
 color_16: '#D9E1E2'    # Bright White
 
-background: '#072B31'    # Background
-foreground: '#F4F5F0'    # Foreground (Text)
+background: '#072B31'  # Background
+foreground: '#F4F5F0'  # Foreground (Text)
 
 cursor: '#F4F5F0'      # Cursor

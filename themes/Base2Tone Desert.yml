@@ -1,5 +1,7 @@
 ---
 name: 'Base2Tone Desert'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#292724'    # Black (Host)
 color_02: '#816f4b'    # Red (Syntax string)

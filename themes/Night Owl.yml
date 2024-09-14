@@ -1,5 +1,7 @@
 ---
 name: 'Night Owl'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#011627'    # Black (Host)
 color_02: '#EF5350'    # Red (Syntax string)

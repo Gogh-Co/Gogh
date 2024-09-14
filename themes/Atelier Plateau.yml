@@ -1,5 +1,7 @@
 ---
 name: 'Atelier Plateau'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#CA4949'    # Black (Host)
 color_02: '#CA4949'    # Red (Syntax string)

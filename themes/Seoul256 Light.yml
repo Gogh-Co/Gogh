@@ -1,5 +1,7 @@
 ---
 name: 'Seoul256 Light'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#4e4e4e'    # Black (Host)
 color_02: '#af5f5f'    # Red (Syntax string)

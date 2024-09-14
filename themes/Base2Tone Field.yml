@@ -1,5 +1,7 @@
 ---
 name: 'Base2Tone Field'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#18201e'    # Black (Host)
 color_02: '#0fbda0'    # Red (Syntax string)

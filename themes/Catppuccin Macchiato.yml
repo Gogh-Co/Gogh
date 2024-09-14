@@ -1,5 +1,7 @@
 ---
 name: 'Catppuccin Macchiato'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#494D64'    # Black (Host)
 color_02: '#ED8796'    # Red (Syntax string)

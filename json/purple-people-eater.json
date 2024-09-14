@@ -1,1 +1,25 @@
-{"color_01": "#0D1117", "color_02": "#E34C26", "color_03": "#238636", "color_04": "#ED9A51", "color_05": "#A5D6FF", "color_06": "#6EB0E8", "color_07": "#C09AEB", "color_08": "#C9D1D9", "color_09": "#0D1117", "color_10": "#FF7B72", "color_11": "#3BAB4A", "color_12": "#FFA657", "color_13": "#A5D6FF", "color_14": "#79C0FF", "color_15": "#B694DF", "color_16": "#C9D1D9", "name": "Purple People Eater", "foreground": "#C9D1D9", "background": "#161B22", "cursor": "#C9D1D9", "hash": "a7e993991894280d86e68a05b293e18e5bfd14f1ce104b2793602bf0df2e7295"}
+{
+  "name": "Purple People Eater",
+  "author": "",
+  "variant": "",
+  "color_01": "#0D1117",
+  "color_02": "#E34C26",
+  "color_03": "#238636",
+  "color_04": "#ED9A51",
+  "color_05": "#A5D6FF",
+  "color_06": "#6EB0E8",
+  "color_07": "#C09AEB",
+  "color_08": "#C9D1D9",
+  "color_09": "#0D1117",
+  "color_10": "#FF7B72",
+  "color_11": "#3BAB4A",
+  "color_12": "#FFA657",
+  "color_13": "#A5D6FF",
+  "color_14": "#79C0FF",
+  "color_15": "#B694DF",
+  "color_16": "#C9D1D9",
+  "background": "#161B22",
+  "foreground": "#C9D1D9",
+  "cursor": "#C9D1D9",
+  "hash": "a7e993991894280d86e68a05b293e18e5bfd14f1ce104b2793602bf0df2e7295"
+}

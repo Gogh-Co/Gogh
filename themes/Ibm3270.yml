@@ -1,5 +1,7 @@
 ---
 name: 'Ibm3270'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#222222'    # Black (Host)
 color_02: '#F01818'    # Red (Syntax string)

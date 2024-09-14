@@ -1,1 +1,25 @@
-{"color_01": "#000000", "color_02": "#B5407B", "color_03": "#7BB540", "color_04": "#B57B40", "color_05": "#407BB5", "color_06": "#7B40B5", "color_07": "#40B57B", "color_08": "#F8F8F8", "color_09": "#737373", "color_10": "#CD73A0", "color_11": "#A0CD73", "color_12": "#CDA073", "color_13": "#73A0CD", "color_14": "#A073CD", "color_15": "#73CDA0", "color_16": "#FFFFFF", "name": "Mar", "foreground": "#23476A", "background": "#FFFFFF", "cursor": "#23476A", "hash": "f6f079029bd4bbf262601921d740b4dc1d2dd95211bc3a168638b1cb648548d7"}
+{
+  "name": "Mar",
+  "author": "",
+  "variant": "",
+  "color_01": "#000000",
+  "color_02": "#B5407B",
+  "color_03": "#7BB540",
+  "color_04": "#B57B40",
+  "color_05": "#407BB5",
+  "color_06": "#7B40B5",
+  "color_07": "#40B57B",
+  "color_08": "#F8F8F8",
+  "color_09": "#737373",
+  "color_10": "#CD73A0",
+  "color_11": "#A0CD73",
+  "color_12": "#CDA073",
+  "color_13": "#73A0CD",
+  "color_14": "#A073CD",
+  "color_15": "#73CDA0",
+  "color_16": "#FFFFFF",
+  "background": "#FFFFFF",
+  "foreground": "#23476A",
+  "cursor": "#23476A",
+  "hash": "f6f079029bd4bbf262601921d740b4dc1d2dd95211bc3a168638b1cb648548d7"
+}

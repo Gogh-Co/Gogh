@@ -1,5 +1,7 @@
 ---
 name: 'Sonokai'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#2C2E34'    # Black (Host)
 color_02: '#FC5D7C'    # Red (Syntax string)

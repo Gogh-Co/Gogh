@@ -1,5 +1,7 @@
 ---
 name: 'Kanagawa'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#090618'    # Black (Host)
 color_02: '#C34043'    # Red (Syntax string)

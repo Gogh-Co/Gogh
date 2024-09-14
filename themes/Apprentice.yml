@@ -1,8 +1,7 @@
 ---
-
-# https://romainl.github.io/Apprentice/
-
 name: 'Apprentice'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#1C1C1C'    # Black (Host)
 color_02: '#AF5F5F'    # Red (Syntax string)

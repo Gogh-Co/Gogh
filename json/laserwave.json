@@ -1,1 +1,25 @@
-{"color_01": "#39243A", "color_02": "#EB64B9", "color_03": "#AFD686", "color_04": "#FEAE87", "color_05": "#40B4C4", "color_06": "#B381C5", "color_07": "#215969", "color_08": "#91889B", "color_09": "#716485", "color_10": "#FC2377", "color_11": "#50FA7B", "color_12": "#FFE261", "color_13": "#74DFC4", "color_14": "#6D75E0", "color_15": "#B4DCE7", "color_16": "#FFFFFF", "name": "Laserwave", "foreground": "#E0E0E0", "background": "#1F1926", "cursor": "#C7C7C7", "hash": "5b8dd8fc08d15520b1f7116bf935976bda25f641fcbb89a3383f737452bc0226"}
+{
+  "name": "Laserwave",
+  "author": "",
+  "variant": "",
+  "color_01": "#39243A",
+  "color_02": "#EB64B9",
+  "color_03": "#AFD686",
+  "color_04": "#FEAE87",
+  "color_05": "#40B4C4",
+  "color_06": "#B381C5",
+  "color_07": "#215969",
+  "color_08": "#91889B",
+  "color_09": "#716485",
+  "color_10": "#FC2377",
+  "color_11": "#50FA7B",
+  "color_12": "#FFE261",
+  "color_13": "#74DFC4",
+  "color_14": "#6D75E0",
+  "color_15": "#B4DCE7",
+  "color_16": "#FFFFFF",
+  "background": "#1F1926",
+  "foreground": "#E0E0E0",
+  "cursor": "#C7C7C7",
+  "hash": "5b8dd8fc08d15520b1f7116bf935976bda25f641fcbb89a3383f737452bc0226"
+}

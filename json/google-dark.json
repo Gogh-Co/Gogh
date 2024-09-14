@@ -1,1 +1,25 @@
-{"color_01": "#202124", "color_02": "#EA4335", "color_03": "#34A853", "color_04": "#FBBC04", "color_05": "#4285F4", "color_06": "#A142F4", "color_07": "#24C1E0", "color_08": "#E8EAED", "color_09": "#5F6368", "color_10": "#EA4335", "color_11": "#34A853", "color_12": "#FBBC05", "color_13": "#4285F4", "color_14": "#A142F4", "color_15": "#24C1E0", "color_16": "#FFFFFF", "name": "Google Dark", "foreground": "#E8EAED", "background": "#202124", "cursor": "#E8EAED", "hash": "506e5804eac6bcae187383fd4768c2b026bc734b1d4107fcd1a69cfcaee9b31f"}
+{
+  "name": "Google Dark",
+  "author": "",
+  "variant": "",
+  "color_01": "#202124",
+  "color_02": "#EA4335",
+  "color_03": "#34A853",
+  "color_04": "#FBBC04",
+  "color_05": "#4285F4",
+  "color_06": "#A142F4",
+  "color_07": "#24C1E0",
+  "color_08": "#E8EAED",
+  "color_09": "#5F6368",
+  "color_10": "#EA4335",
+  "color_11": "#34A853",
+  "color_12": "#FBBC05",
+  "color_13": "#4285F4",
+  "color_14": "#A142F4",
+  "color_15": "#24C1E0",
+  "color_16": "#FFFFFF",
+  "background": "#202124",
+  "foreground": "#E8EAED",
+  "cursor": "#E8EAED",
+  "hash": "506e5804eac6bcae187383fd4768c2b026bc734b1d4107fcd1a69cfcaee9b31f"
+}

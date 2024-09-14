@@ -1,5 +1,7 @@
 ---
 name: 'Crayon Pony Fish'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#2B1B1D'    # Black (Host)
 color_02: '#91002B'    # Red (Syntax string)

@@ -1,5 +1,7 @@
 ---
 name: 'Rippedcasts'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#000000'    # Black (Host)
 color_02: '#CDAF95'    # Red (Syntax string)

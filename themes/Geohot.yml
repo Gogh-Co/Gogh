@@ -1,5 +1,7 @@
 ---
 name: 'Geohot'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#F9F5F5'    # Black (Host)
 color_02: '#CC0000'    # Red (Syntax string)

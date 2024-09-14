@@ -1,5 +1,7 @@
 ---
 name: 'Flexoki Light'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#282726'    # Black (Host)
 color_02: '#AF3029'    # Red (Syntax string)

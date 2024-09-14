@@ -1,5 +1,7 @@
 ---
 name: 'Iceberg'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#161821'    # Black (Host)
 color_02: '#e27878'    # Red (Syntax string)

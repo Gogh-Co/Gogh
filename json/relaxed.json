@@ -1,1 +1,25 @@
-{"color_01": "#151515", "color_02": "#BC5653", "color_03": "#909D63", "color_04": "#EBC17A", "color_05": "#6A8799", "color_06": "#B06698", "color_07": "#C9DFFF", "color_08": "#D9D9D9", "color_09": "#636363", "color_10": "#BC5653", "color_11": "#A0AC77", "color_12": "#EBC17A", "color_13": "#7EAAC7", "color_14": "#B06698", "color_15": "#ACBBD0", "color_16": "#F7F7F7", "name": "Relaxed", "foreground": "#D9D9D9", "background": "#353A44", "cursor": "#D9D9D9", "hash": "b76d118c545c340e54573a78ce228c599a7de104b47f19b34e5bd0d7f54a9508"}
+{
+  "name": "Relaxed",
+  "author": "",
+  "variant": "",
+  "color_01": "#151515",
+  "color_02": "#BC5653",
+  "color_03": "#909D63",
+  "color_04": "#EBC17A",
+  "color_05": "#6A8799",
+  "color_06": "#B06698",
+  "color_07": "#C9DFFF",
+  "color_08": "#D9D9D9",
+  "color_09": "#636363",
+  "color_10": "#BC5653",
+  "color_11": "#A0AC77",
+  "color_12": "#EBC17A",
+  "color_13": "#7EAAC7",
+  "color_14": "#B06698",
+  "color_15": "#ACBBD0",
+  "color_16": "#F7F7F7",
+  "background": "#353A44",
+  "foreground": "#D9D9D9",
+  "cursor": "#D9D9D9",
+  "hash": "b76d118c545c340e54573a78ce228c599a7de104b47f19b34e5bd0d7f54a9508"
+}

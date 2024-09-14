@@ -1,5 +1,7 @@
 ---
 name: 'Gogh'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#292D3E'    # Black (Host)
 color_02: '#F07178'    # Red (Syntax string)

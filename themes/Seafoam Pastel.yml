@@ -1,5 +1,7 @@
 ---
 name: 'Seafoam Pastel'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#757575'    # Black (Host)
 color_02: '#825D4D'    # Red (Syntax string)

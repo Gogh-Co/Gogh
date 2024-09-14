@@ -1,5 +1,7 @@
 ---
 name: 'Neutron'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#23252B'    # Black (Host)
 color_02: '#B54036'    # Red (Syntax string)

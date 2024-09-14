@@ -1,5 +1,7 @@
 ---
 name: 'Molokai'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#1B1D1E'    # Black (Host)
 color_02: '#7325FA'    # Red (Syntax string)

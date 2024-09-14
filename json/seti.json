@@ -1,1 +1,25 @@
-{"color_01": "#323232", "color_02": "#C22832", "color_03": "#8EC43D", "color_04": "#E0C64F", "color_05": "#43A5D5", "color_06": "#8B57B5", "color_07": "#8EC43D", "color_08": "#EEEEEE", "color_09": "#323232", "color_10": "#C22832", "color_11": "#8EC43D", "color_12": "#E0C64F", "color_13": "#43A5D5", "color_14": "#8B57B5", "color_15": "#8EC43D", "color_16": "#FFFFFF", "name": "Seti", "foreground": "#CACECD", "background": "#111213", "cursor": "#CACECD", "hash": "86158ac5dce66e173c56b750d57d3e7c8002bfd232e49cd3a76f5fc67956eb6a"}
+{
+  "name": "Seti",
+  "author": "",
+  "variant": "",
+  "color_01": "#323232",
+  "color_02": "#C22832",
+  "color_03": "#8EC43D",
+  "color_04": "#E0C64F",
+  "color_05": "#43A5D5",
+  "color_06": "#8B57B5",
+  "color_07": "#8EC43D",
+  "color_08": "#EEEEEE",
+  "color_09": "#323232",
+  "color_10": "#C22832",
+  "color_11": "#8EC43D",
+  "color_12": "#E0C64F",
+  "color_13": "#43A5D5",
+  "color_14": "#8B57B5",
+  "color_15": "#8EC43D",
+  "color_16": "#FFFFFF",
+  "background": "#111213",
+  "foreground": "#CACECD",
+  "cursor": "#CACECD",
+  "hash": "86158ac5dce66e173c56b750d57d3e7c8002bfd232e49cd3a76f5fc67956eb6a"
+}

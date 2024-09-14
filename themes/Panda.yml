@@ -1,5 +1,7 @@
 ---
 name: 'Panda'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#1F1F20'    # Black (Host)
 color_02: '#FB055A'    # Red (Syntax string)

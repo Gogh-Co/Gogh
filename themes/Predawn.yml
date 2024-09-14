@@ -1,5 +1,7 @@
 ---
 name: 'Predawn'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#F18260'    # Black (Host)
 color_02: '#B51A20'    # Red (Syntax string)

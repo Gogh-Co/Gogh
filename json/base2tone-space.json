@@ -1,1 +1,25 @@
-{"color_01": "#24242e", "color_02": "#7676f4", "color_03": "#ec7336", "color_04": "#fe8c52", "color_05": "#767693", "color_06": "#ec7336", "color_07": "#8a8aad", "color_08": "#a1a1b5", "color_09": "#5b5b76", "color_10": "#f37b3f", "color_11": "#333342", "color_12": "#515167", "color_13": "#737391", "color_14": "#cecee3", "color_15": "#e66e33", "color_16": "#ebebff", "name": "Base2Tone Space", "foreground": "#a1a1b5", "background": "#24242e", "cursor": "#b25424", "hash": "83f1e1852dce5411517b79da16e4c721a5c568122a97226ed7d548e0730928a0"}
+{
+  "name": "Base2Tone Space",
+  "author": "",
+  "variant": "",
+  "color_01": "#24242e",
+  "color_02": "#7676f4",
+  "color_03": "#ec7336",
+  "color_04": "#fe8c52",
+  "color_05": "#767693",
+  "color_06": "#ec7336",
+  "color_07": "#8a8aad",
+  "color_08": "#a1a1b5",
+  "color_09": "#5b5b76",
+  "color_10": "#f37b3f",
+  "color_11": "#333342",
+  "color_12": "#515167",
+  "color_13": "#737391",
+  "color_14": "#cecee3",
+  "color_15": "#e66e33",
+  "color_16": "#ebebff",
+  "background": "#24242e",
+  "foreground": "#a1a1b5",
+  "cursor": "#b25424",
+  "hash": "83f1e1852dce5411517b79da16e4c721a5c568122a97226ed7d548e0730928a0"
+}

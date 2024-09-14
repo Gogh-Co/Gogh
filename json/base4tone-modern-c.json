@@ -1,1 +1,25 @@
-{"color_01": "#221f1c", "color_02": "#5c6feb", "color_03": "#dd407c", "color_04": "#f17eaa", "color_05": "#e6971a", "color_06": "#1bbba6", "color_07": "#e96396", "color_08": "#eeebe8", "color_09": "#0d0b07", "color_10": "#929ff7", "color_11": "#f391b6", "color_12": "#f6b1cc", "color_13": "#f5d8a8", "color_14": "#1ed2ba", "color_15": "#f3cd91", "color_16": "#f9f8f6", "name": "Base4Tone Modern C", "foreground": "#a39b8f", "background": "#221f1c", "cursor": "#817479", "hash": "7a675694782d4fde1a4935479ff62788cb4541d26c5cf5d45fec6af1dde35d82"}
+{
+  "name": "Base4Tone Modern C",
+  "author": "",
+  "variant": "",
+  "color_01": "#221f1c",
+  "color_02": "#5c6feb",
+  "color_03": "#dd407c",
+  "color_04": "#f17eaa",
+  "color_05": "#e6971a",
+  "color_06": "#1bbba6",
+  "color_07": "#e96396",
+  "color_08": "#eeebe8",
+  "color_09": "#0d0b07",
+  "color_10": "#929ff7",
+  "color_11": "#f391b6",
+  "color_12": "#f6b1cc",
+  "color_13": "#f5d8a8",
+  "color_14": "#1ed2ba",
+  "color_15": "#f3cd91",
+  "color_16": "#f9f8f6",
+  "background": "#221f1c",
+  "foreground": "#a39b8f",
+  "cursor": "#817479",
+  "hash": "7a675694782d4fde1a4935479ff62788cb4541d26c5cf5d45fec6af1dde35d82"
+}

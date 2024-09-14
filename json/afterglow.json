@@ -1,1 +1,25 @@
-{"color_01": "#151515", "color_02": "#A53C23", "color_03": "#7B9246", "color_04": "#D3A04D", "color_05": "#6C99BB", "color_06": "#9F4E85", "color_07": "#7DD6CF", "color_08": "#D0D0D0", "color_09": "#505050", "color_10": "#A53C23", "color_11": "#7B9246", "color_12": "#D3A04D", "color_13": "#547C99", "color_14": "#9F4E85", "color_15": "#7DD6CF", "color_16": "#F5F5F5", "name": "Afterglow", "foreground": "#D0D0D0", "background": "#222222", "cursor": "#D0D0D0", "hash": "1f2b1d2e9964d621f7017a78c67fac5f4d64358ffb2a4089167a002ff85ea3f0"}
+{
+  "name": "Afterglow",
+  "author": "",
+  "variant": "",
+  "color_01": "#151515",
+  "color_02": "#A53C23",
+  "color_03": "#7B9246",
+  "color_04": "#D3A04D",
+  "color_05": "#6C99BB",
+  "color_06": "#9F4E85",
+  "color_07": "#7DD6CF",
+  "color_08": "#D0D0D0",
+  "color_09": "#505050",
+  "color_10": "#A53C23",
+  "color_11": "#7B9246",
+  "color_12": "#D3A04D",
+  "color_13": "#547C99",
+  "color_14": "#9F4E85",
+  "color_15": "#7DD6CF",
+  "color_16": "#F5F5F5",
+  "background": "#222222",
+  "foreground": "#D0D0D0",
+  "cursor": "#D0D0D0",
+  "hash": "1f2b1d2e9964d621f7017a78c67fac5f4d64358ffb2a4089167a002ff85ea3f0"
+}

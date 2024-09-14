@@ -1,1 +1,25 @@
-{"color_01": "#2C2C2C", "color_02": "#CC231C", "color_03": "#689D69", "color_04": "#D79922", "color_05": "#366B71", "color_06": "#4E5165", "color_07": "#458587", "color_08": "#C8BB97", "color_09": "#777777", "color_10": "#CC231C", "color_11": "#689D69", "color_12": "#D79922", "color_13": "#366B71", "color_14": "#4E5165", "color_15": "#458587", "color_16": "#C8BB97", "name": "Chameleon", "foreground": "#DEDEDE", "background": "#2C2C2C", "cursor": "#DEDEDE", "hash": "8b730a5ad65013ca13a9839d36ae83c5e15c4de929198b94fd1518e680d27065"}
+{
+  "name": "Chameleon",
+  "author": "",
+  "variant": "",
+  "color_01": "#2C2C2C",
+  "color_02": "#CC231C",
+  "color_03": "#689D69",
+  "color_04": "#D79922",
+  "color_05": "#366B71",
+  "color_06": "#4E5165",
+  "color_07": "#458587",
+  "color_08": "#C8BB97",
+  "color_09": "#777777",
+  "color_10": "#CC231C",
+  "color_11": "#689D69",
+  "color_12": "#D79922",
+  "color_13": "#366B71",
+  "color_14": "#4E5165",
+  "color_15": "#458587",
+  "color_16": "#C8BB97",
+  "background": "#2C2C2C",
+  "foreground": "#DEDEDE",
+  "cursor": "#DEDEDE",
+  "hash": "8b730a5ad65013ca13a9839d36ae83c5e15c4de929198b94fd1518e680d27065"
+}

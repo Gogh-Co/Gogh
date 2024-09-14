@@ -1,5 +1,7 @@
 ---
 name: 'Tender'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#1D1D1D'    # Black (Host)
 color_02: '#C5152F'    # Red (Syntax string)

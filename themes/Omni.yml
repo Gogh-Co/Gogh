@@ -1,5 +1,7 @@
 ---
 name: 'Omni'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#191622'    # Black (Host)
 color_02: '#E96379'    # Red (Syntax string)

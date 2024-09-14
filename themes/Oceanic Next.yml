@@ -1,5 +1,7 @@
 ---
 name: 'Oceanic Next'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#121C21'    # Black (Host)
 color_02: '#E44754'    # Red (Syntax string)

@@ -1,1 +1,25 @@
-{"color_01": "#1F2430", "color_02": "#FF3333", "color_03": "#BAE67E", "color_04": "#FFA759", "color_05": "#73D0FF", "color_06": "#D4BFFF", "color_07": "#95E6CB", "color_08": "#CBCCC6", "color_09": "#707A8C", "color_10": "#FF3333", "color_11": "#BAE67E", "color_12": "#FFA759", "color_13": "#73D0FF", "color_14": "#D4BFFF", "color_15": "#95E6CB", "color_16": "#CBCCC6", "name": "Ayu Mirage", "foreground": "#CBCCC6", "background": "#1F2430", "cursor": "#FFCC66", "hash": "c2ff62d9337762023b66539a56712bfeda6e2536c8c7d295c726e5b9e44e2cad"}
+{
+  "name": "Ayu Mirage",
+  "author": "",
+  "variant": "",
+  "color_01": "#1F2430",
+  "color_02": "#FF3333",
+  "color_03": "#BAE67E",
+  "color_04": "#FFA759",
+  "color_05": "#73D0FF",
+  "color_06": "#D4BFFF",
+  "color_07": "#95E6CB",
+  "color_08": "#CBCCC6",
+  "color_09": "#707A8C",
+  "color_10": "#FF3333",
+  "color_11": "#BAE67E",
+  "color_12": "#FFA759",
+  "color_13": "#73D0FF",
+  "color_14": "#D4BFFF",
+  "color_15": "#95E6CB",
+  "color_16": "#CBCCC6",
+  "background": "#1F2430",
+  "foreground": "#CBCCC6",
+  "cursor": "#FFCC66",
+  "hash": "c2ff62d9337762023b66539a56712bfeda6e2536c8c7d295c726e5b9e44e2cad"
+}

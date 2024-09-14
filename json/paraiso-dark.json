@@ -1,1 +1,25 @@
-{"color_01": "#2F1E2E", "color_02": "#EF6155", "color_03": "#48B685", "color_04": "#FEC418", "color_05": "#06B6EF", "color_06": "#815BA4", "color_07": "#5BC4BF", "color_08": "#A39E9B", "color_09": "#776E71", "color_10": "#EF6155", "color_11": "#48B685", "color_12": "#FEC418", "color_13": "#06B6EF", "color_14": "#815BA4", "color_15": "#5BC4BF", "color_16": "#E7E9DB", "name": "Paraiso Dark", "foreground": "#A39E9B", "background": "#2F1E2E", "cursor": "#A39E9B", "hash": "e4f14cc2139f65400924ea792843eebb84b9c108181b261ebca1c0e87da27940"}
+{
+  "name": "Paraiso Dark",
+  "author": "",
+  "variant": "",
+  "color_01": "#2F1E2E",
+  "color_02": "#EF6155",
+  "color_03": "#48B685",
+  "color_04": "#FEC418",
+  "color_05": "#06B6EF",
+  "color_06": "#815BA4",
+  "color_07": "#5BC4BF",
+  "color_08": "#A39E9B",
+  "color_09": "#776E71",
+  "color_10": "#EF6155",
+  "color_11": "#48B685",
+  "color_12": "#FEC418",
+  "color_13": "#06B6EF",
+  "color_14": "#815BA4",
+  "color_15": "#5BC4BF",
+  "color_16": "#E7E9DB",
+  "background": "#2F1E2E",
+  "foreground": "#A39E9B",
+  "cursor": "#A39E9B",
+  "hash": "e4f14cc2139f65400924ea792843eebb84b9c108181b261ebca1c0e87da27940"
+}

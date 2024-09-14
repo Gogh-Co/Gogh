@@ -1,5 +1,7 @@
 ---
 name: 'Github Light'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#24292f'    # Black (Host)
 color_02: '#cf222e'    # Red (Syntax string)
