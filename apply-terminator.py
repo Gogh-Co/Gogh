@@ -22,7 +22,7 @@ def main(gogh_conf_theme):
     terminator_conf_file_path = get_terminator_conf_path()
     profile_options = choose_profile()
     update_terminator_conf(terminator_conf_file_path, gogh_conf_theme, profile_options)
-    
+
 
 def get_terminator_conf_path():
     try:
@@ -42,7 +42,7 @@ def update_terminator_conf(terminator_conf_file_path,gogh_conf_theme,profile_opt
         config['profiles'][profile_options["profile"]] = config['profiles']['default'].copy()
     elif profile_options["copy_default_config"] == 'no':
         config['profiles'][profile_options["profile"]] = {}
-        
+
     use_theme_colors = False
     config['profiles'][profile_options["profile"]]['foreground_color'] = js['colors']['primary']['foreground']
     config['profiles'][profile_options["profile"]]['background_color'] = js['colors']['primary']['background']
@@ -61,7 +61,7 @@ def choose_profile():
     if profile_answer.lower() in ['', 'default']:
         profile_answer = 'default'
     else:
-        while True: 
+        while True:
             copy_default_config_answer = input("Do you want to copy your config from default profile? [Y]: (Y/N) ").strip()
             if copy_default_config_answer.lower() in ['', 'yes', 'y']:
                 copy_default_config_answer = 'yes'
