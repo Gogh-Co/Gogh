@@ -1,5 +1,7 @@
 ---
 name: 'Dracula'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#44475A'    # Black (Host)
 color_02: '#FF5555'    # Red (Syntax string)

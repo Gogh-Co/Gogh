@@ -1,1 +1,25 @@
-{"color_01": "#000000", "color_02": "#C75646", "color_03": "#8EB33B", "color_04": "#D0B03C", "color_05": "#72B3CC", "color_06": "#C8A0D1", "color_07": "#218693", "color_08": "#B0B0B0", "color_09": "#5D5D5D", "color_10": "#E09690", "color_11": "#CDEE69", "color_12": "#FFE377", "color_13": "#9CD9F0", "color_14": "#FBB1F9", "color_15": "#77DFD8", "color_16": "#F7F7F7", "name": "Smyck", "foreground": "#F7F7F7", "background": "#242424", "cursor": "#F7F7F7", "hash": "aac036cd7015b0bfa7a4b6da30525994e47c074dad50733d8066d004e76d40d0"}
+{
+  "name": "Smyck",
+  "author": "",
+  "variant": "",
+  "color_01": "#000000",
+  "color_02": "#C75646",
+  "color_03": "#8EB33B",
+  "color_04": "#D0B03C",
+  "color_05": "#72B3CC",
+  "color_06": "#C8A0D1",
+  "color_07": "#218693",
+  "color_08": "#B0B0B0",
+  "color_09": "#5D5D5D",
+  "color_10": "#E09690",
+  "color_11": "#CDEE69",
+  "color_12": "#FFE377",
+  "color_13": "#9CD9F0",
+  "color_14": "#FBB1F9",
+  "color_15": "#77DFD8",
+  "color_16": "#F7F7F7",
+  "background": "#242424",
+  "foreground": "#F7F7F7",
+  "cursor": "#F7F7F7",
+  "hash": "aac036cd7015b0bfa7a4b6da30525994e47c074dad50733d8066d004e76d40d0"
+}

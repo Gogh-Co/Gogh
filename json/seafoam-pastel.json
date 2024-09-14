@@ -1,1 +1,25 @@
-{"color_01": "#757575", "color_02": "#825D4D", "color_03": "#728C62", "color_04": "#ADA16D", "color_05": "#4D7B82", "color_06": "#8A7267", "color_07": "#729494", "color_08": "#E0E0E0", "color_09": "#8A8A8A", "color_10": "#CF937A", "color_11": "#98D9AA", "color_12": "#FAE79D", "color_13": "#7AC3CF", "color_14": "#D6B2A1", "color_15": "#ADE0E0", "color_16": "#E0E0E0", "name": "Seafoam Pastel", "foreground": "#D4E7D4", "background": "#243435", "cursor": "#D4E7D4", "hash": "e8ce738b83d2a8d8c5e316e81afd017c159ae8d393bb91e180041c1306cfd6e5"}
+{
+  "name": "Seafoam Pastel",
+  "author": "",
+  "variant": "",
+  "color_01": "#757575",
+  "color_02": "#825D4D",
+  "color_03": "#728C62",
+  "color_04": "#ADA16D",
+  "color_05": "#4D7B82",
+  "color_06": "#8A7267",
+  "color_07": "#729494",
+  "color_08": "#E0E0E0",
+  "color_09": "#8A8A8A",
+  "color_10": "#CF937A",
+  "color_11": "#98D9AA",
+  "color_12": "#FAE79D",
+  "color_13": "#7AC3CF",
+  "color_14": "#D6B2A1",
+  "color_15": "#ADE0E0",
+  "color_16": "#E0E0E0",
+  "background": "#243435",
+  "foreground": "#D4E7D4",
+  "cursor": "#D4E7D4",
+  "hash": "e8ce738b83d2a8d8c5e316e81afd017c159ae8d393bb91e180041c1306cfd6e5"
+}

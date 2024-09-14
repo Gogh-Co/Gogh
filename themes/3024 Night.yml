@@ -1,5 +1,7 @@
 ---
 name: '3024 Night'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#090300'    # Black (Host)
 color_02: '#DB2D20'    # Red (Syntax string)

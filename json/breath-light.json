@@ -1,1 +1,25 @@
-{"color_01": "#E8E8E8", "color_02": "#ED1515", "color_03": "#C0392B", "color_04": "#F67400", "color_05": "#1D99F3", "color_06": "#9B59B6", "color_07": "#1ABC9C", "color_08": "#FCFCFC", "color_09": "#7F8C8D", "color_10": "#C0392B", "color_11": "#55A649", "color_12": "#FDBC4B", "color_13": "#3DAEE9", "color_14": "#8E44AD", "color_15": "#16A085", "color_16": "#FFFFFF", "name": "Breath Light", "foreground": "#292F34", "background": "#E8E8E8", "cursor": "#292F34", "hash": "0f0ee2dd7077ac31a77f399c19e7f4aaa9515c3b13a3edf5ecb4f4732dd86c0e"}
+{
+  "name": "Breath Light",
+  "author": "",
+  "variant": "",
+  "color_01": "#E8E8E8",
+  "color_02": "#ED1515",
+  "color_03": "#C0392B",
+  "color_04": "#F67400",
+  "color_05": "#1D99F3",
+  "color_06": "#9B59B6",
+  "color_07": "#1ABC9C",
+  "color_08": "#FCFCFC",
+  "color_09": "#7F8C8D",
+  "color_10": "#C0392B",
+  "color_11": "#55A649",
+  "color_12": "#FDBC4B",
+  "color_13": "#3DAEE9",
+  "color_14": "#8E44AD",
+  "color_15": "#16A085",
+  "color_16": "#FFFFFF",
+  "background": "#E8E8E8",
+  "foreground": "#292F34",
+  "cursor": "#292F34",
+  "hash": "0f0ee2dd7077ac31a77f399c19e7f4aaa9515c3b13a3edf5ecb4f4732dd86c0e"
+}

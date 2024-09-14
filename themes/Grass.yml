@@ -1,5 +1,7 @@
 ---
 name: 'Grass'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#000000'    # Black (Host)
 color_02: '#BB0000'    # Red (Syntax string)

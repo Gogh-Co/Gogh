@@ -1,5 +1,7 @@
 ---
 name: 'Papercolor Light'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#EEEEEE'    # Black (Host)
 color_02: '#AF0000'    # Red (Syntax string)

@@ -1,5 +1,7 @@
 ---
 name: 'Nord Light'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#003B4E'    # Black (Host)
 color_02: '#E64569'    # Red (Syntax string)

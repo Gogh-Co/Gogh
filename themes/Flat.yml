@@ -1,5 +1,7 @@
 ---
 name: 'Flat'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#2C3E50'    # Black (Host)
 color_02: '#C0392B'    # Red (Syntax string)

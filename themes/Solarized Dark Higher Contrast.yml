@@ -1,5 +1,7 @@
 ---
 name: 'Solarized Dark Higher Contrast'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#002831'    # Black (Host)
 color_02: '#D11C24'    # Red (Syntax string)

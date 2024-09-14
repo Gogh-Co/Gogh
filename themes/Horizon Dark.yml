@@ -1,5 +1,7 @@
 ---
 name: 'Horizon Dark'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#16161C'    # Black (Host)
 color_02: '#E95678'    # Red (Syntax string)

@@ -1,9 +1,11 @@
 ---
 name: 'Modus Operandi Tinted'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
-color_01: '#fbf7f0'    # Black (Host) OK
-color_02: '#a60000'    # Red (Syntax string) OK
-color_03: '#006800'    # Green (Command) OK
+color_01: '#fbf7f0'    # Black (Host)
+color_02: '#a60000'    # Red (Syntax string)
+color_03: '#006800'    # Green (Command)
 color_04: '#6f5500'    # Yellow (Command second)
 color_05: '#0031a9'    # Blue (Path)
 color_06: '#721045'    # Magenta (Syntax var)

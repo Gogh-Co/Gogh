@@ -1,1 +1,25 @@
-{"color_01": "#1F1F1F", "color_02": "#FB002A", "color_03": "#339C24", "color_04": "#659B25", "color_05": "#149B45", "color_06": "#53B82C", "color_07": "#2CB868", "color_08": "#E0FFEF", "color_09": "#032710", "color_10": "#A7FF3F", "color_11": "#9FFF6D", "color_12": "#D2FF6D", "color_13": "#72FFB5", "color_14": "#50FF3E", "color_15": "#22FF71", "color_16": "#DAEFD0", "name": "Ic Green Ppl", "foreground": "#D9EFD3", "background": "#3A3D3F", "cursor": "#D9EFD3", "hash": "bf6e9c405ee4ebc9ab78f071b66336526c9c721d39ede7d7549ff1a4e9822a3e"}
+{
+  "name": "Ic Green Ppl",
+  "author": "",
+  "variant": "",
+  "color_01": "#1F1F1F",
+  "color_02": "#FB002A",
+  "color_03": "#339C24",
+  "color_04": "#659B25",
+  "color_05": "#149B45",
+  "color_06": "#53B82C",
+  "color_07": "#2CB868",
+  "color_08": "#E0FFEF",
+  "color_09": "#032710",
+  "color_10": "#A7FF3F",
+  "color_11": "#9FFF6D",
+  "color_12": "#D2FF6D",
+  "color_13": "#72FFB5",
+  "color_14": "#50FF3E",
+  "color_15": "#22FF71",
+  "color_16": "#DAEFD0",
+  "background": "#3A3D3F",
+  "foreground": "#D9EFD3",
+  "cursor": "#D9EFD3",
+  "hash": "bf6e9c405ee4ebc9ab78f071b66336526c9c721d39ede7d7549ff1a4e9822a3e"
+}

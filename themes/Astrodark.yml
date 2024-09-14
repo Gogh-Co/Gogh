@@ -1,5 +1,7 @@
 ---
 name: 'Astrodark'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#111317'    # Black (Host)
 color_02: '#F8747E'    # Red (Syntax string)

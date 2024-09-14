@@ -1,5 +1,7 @@
 ---
 name: 'Lavandula'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#230046'    # Black (Host)
 color_02: '#7D1625'    # Red (Syntax string)

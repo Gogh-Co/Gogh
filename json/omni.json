@@ -1,1 +1,25 @@
-{"color_01": "#191622", "color_02": "#E96379", "color_03": "#67E480", "color_04": "#E89E64", "color_05": "#78D1E1", "color_06": "#988BC7", "color_07": "#FF79C6", "color_08": "#ABB2BF", "color_09": "#000000", "color_10": "#E96379", "color_11": "#67E480", "color_12": "#E89E64", "color_13": "#78D1E1", "color_14": "#988BC7", "color_15": "#FF79C6", "color_16": "#FFFFFF", "name": "Omni", "foreground": "#ABB2BF", "background": "#191622", "cursor": "#ABB2BF", "hash": "d6de6f2f737362e625be968919e42451b09cc9cea5638f492bacfb7415334cef"}
+{
+  "name": "Omni",
+  "author": "",
+  "variant": "",
+  "color_01": "#191622",
+  "color_02": "#E96379",
+  "color_03": "#67E480",
+  "color_04": "#E89E64",
+  "color_05": "#78D1E1",
+  "color_06": "#988BC7",
+  "color_07": "#FF79C6",
+  "color_08": "#ABB2BF",
+  "color_09": "#000000",
+  "color_10": "#E96379",
+  "color_11": "#67E480",
+  "color_12": "#E89E64",
+  "color_13": "#78D1E1",
+  "color_14": "#988BC7",
+  "color_15": "#FF79C6",
+  "color_16": "#FFFFFF",
+  "background": "#191622",
+  "foreground": "#ABB2BF",
+  "cursor": "#ABB2BF",
+  "hash": "d6de6f2f737362e625be968919e42451b09cc9cea5638f492bacfb7415334cef"
+}

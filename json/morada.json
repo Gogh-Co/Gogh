@@ -1,1 +1,25 @@
-{"color_01": "#040404", "color_02": "#0F49C4", "color_03": "#48B117", "color_04": "#E87324", "color_05": "#BC0116", "color_06": "#665B93", "color_07": "#70A699", "color_08": "#F5DCBE", "color_09": "#4F7CBF", "color_10": "#1C96C7", "color_11": "#3BFF6F", "color_12": "#EFC31C", "color_13": "#FB605B", "color_14": "#975B5A", "color_15": "#1EFF8E", "color_16": "#F6F5FB", "name": "Morada", "foreground": "#FFFFFF", "background": "#211F46", "cursor": "#FFFFFF", "hash": "df88d180aa3ae87f0945cf5332e7bdbbd5a17e37e75f7ac045d99e956c8ebf85"}
+{
+  "name": "Morada",
+  "author": "",
+  "variant": "",
+  "color_01": "#040404",
+  "color_02": "#0F49C4",
+  "color_03": "#48B117",
+  "color_04": "#E87324",
+  "color_05": "#BC0116",
+  "color_06": "#665B93",
+  "color_07": "#70A699",
+  "color_08": "#F5DCBE",
+  "color_09": "#4F7CBF",
+  "color_10": "#1C96C7",
+  "color_11": "#3BFF6F",
+  "color_12": "#EFC31C",
+  "color_13": "#FB605B",
+  "color_14": "#975B5A",
+  "color_15": "#1EFF8E",
+  "color_16": "#F6F5FB",
+  "background": "#211F46",
+  "foreground": "#FFFFFF",
+  "cursor": "#FFFFFF",
+  "hash": "df88d180aa3ae87f0945cf5332e7bdbbd5a17e37e75f7ac045d99e956c8ebf85"
+}

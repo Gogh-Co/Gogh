@@ -1,5 +1,7 @@
 ---
 name: 'Toy Chest'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#2C3F58'    # Black (Host)
 color_02: '#BE2D26'    # Red (Syntax string)

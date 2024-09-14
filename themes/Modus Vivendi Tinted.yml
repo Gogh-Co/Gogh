@@ -1,5 +1,7 @@
 ---
 name: 'Modus Vivendi Tinted'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#0d0e1c'    # Black (Host)
 color_02: '#ff5f59'    # Red (Syntax string)

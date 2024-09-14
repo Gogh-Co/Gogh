@@ -1,1 +1,25 @@
-{"color_01": "#D22D72", "color_02": "#D22D72", "color_03": "#568C3B", "color_04": "#8A8A0F", "color_05": "#257FAD", "color_06": "#B72DD2", "color_07": "#2D8F6F", "color_08": "#C1E4F6", "color_09": "#5A7B8C", "color_10": "#935C25", "color_11": "#568C3B", "color_12": "#8A8A0F", "color_13": "#6B6BB8", "color_14": "#B72DD2", "color_15": "#2D8F6F", "color_16": "#EBF8FF", "name": "Atelier Lakeside", "foreground": "#7195A8", "background": "#161B1D", "cursor": "#7195A8", "hash": "a198037b97a17682ea8b938ae0c37f5e97332dca502874f54edf5b82bed6008b"}
+{
+  "name": "Atelier Lakeside",
+  "author": "",
+  "variant": "",
+  "color_01": "#D22D72",
+  "color_02": "#D22D72",
+  "color_03": "#568C3B",
+  "color_04": "#8A8A0F",
+  "color_05": "#257FAD",
+  "color_06": "#B72DD2",
+  "color_07": "#2D8F6F",
+  "color_08": "#C1E4F6",
+  "color_09": "#5A7B8C",
+  "color_10": "#935C25",
+  "color_11": "#568C3B",
+  "color_12": "#8A8A0F",
+  "color_13": "#6B6BB8",
+  "color_14": "#B72DD2",
+  "color_15": "#2D8F6F",
+  "color_16": "#EBF8FF",
+  "background": "#161B1D",
+  "foreground": "#7195A8",
+  "cursor": "#7195A8",
+  "hash": "a198037b97a17682ea8b938ae0c37f5e97332dca502874f54edf5b82bed6008b"
+}

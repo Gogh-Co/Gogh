@@ -1,1 +1,25 @@
-{"color_01": "#777777", "color_02": "#FF0055", "color_03": "#739100", "color_04": "#503D15", "color_05": "#538091", "color_06": "#5B345E", "color_07": "#538091", "color_08": "#999999", "color_09": "#999999", "color_10": "#D65E76", "color_11": "#9CC700", "color_12": "#947555", "color_13": "#9DB3CD", "color_14": "#A184A4", "color_15": "#85B2AA", "color_16": "#BABABA", "name": "Hemisu Light", "foreground": "#444444", "background": "#EFEFEF", "cursor": "#FF0054", "hash": "91fcc08cf3aafa36db14820e2da4c4e8b20249b53157cbc7bb54fbb07891543c"}
+{
+  "name": "Hemisu Light",
+  "author": "",
+  "variant": "",
+  "color_01": "#777777",
+  "color_02": "#FF0055",
+  "color_03": "#739100",
+  "color_04": "#503D15",
+  "color_05": "#538091",
+  "color_06": "#5B345E",
+  "color_07": "#538091",
+  "color_08": "#999999",
+  "color_09": "#999999",
+  "color_10": "#D65E76",
+  "color_11": "#9CC700",
+  "color_12": "#947555",
+  "color_13": "#9DB3CD",
+  "color_14": "#A184A4",
+  "color_15": "#85B2AA",
+  "color_16": "#BABABA",
+  "background": "#EFEFEF",
+  "foreground": "#444444",
+  "cursor": "#FF0054",
+  "hash": "91fcc08cf3aafa36db14820e2da4c4e8b20249b53157cbc7bb54fbb07891543c"
+}

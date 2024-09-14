@@ -1,1 +1,25 @@
-{"color_01": "#142631", "color_02": "#FF2320", "color_03": "#3BA5FF", "color_04": "#E9E75C", "color_05": "#8FF586", "color_06": "#781AA0", "color_07": "#8FF586", "color_08": "#BA46B2", "color_09": "#FFF688", "color_10": "#D4312E", "color_11": "#8FF586", "color_12": "#E9F06D", "color_13": "#3C7DD2", "color_14": "#8230A7", "color_15": "#6CBC67", "color_16": "#8FF586", "name": "Cobalt Neon", "foreground": "#8FF586", "background": "#142838", "cursor": "#8FF586", "hash": "91bd13837e6e83890e07e5642f56dc3a703877f1b0b421fc775aa3ab1ce273b9"}
+{
+  "name": "Cobalt Neon",
+  "author": "",
+  "variant": "",
+  "color_01": "#142631",
+  "color_02": "#FF2320",
+  "color_03": "#3BA5FF",
+  "color_04": "#E9E75C",
+  "color_05": "#8FF586",
+  "color_06": "#781AA0",
+  "color_07": "#8FF586",
+  "color_08": "#BA46B2",
+  "color_09": "#FFF688",
+  "color_10": "#D4312E",
+  "color_11": "#8FF586",
+  "color_12": "#E9F06D",
+  "color_13": "#3C7DD2",
+  "color_14": "#8230A7",
+  "color_15": "#6CBC67",
+  "color_16": "#8FF586",
+  "background": "#142838",
+  "foreground": "#8FF586",
+  "cursor": "#8FF586",
+  "hash": "91bd13837e6e83890e07e5642f56dc3a703877f1b0b421fc775aa3ab1ce273b9"
+}

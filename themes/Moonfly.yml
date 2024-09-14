@@ -1,5 +1,7 @@
 ---
 name: 'Moonfly'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#323437'    # Black (Host)
 color_02: '#FF5454'    # Red (Syntax string)

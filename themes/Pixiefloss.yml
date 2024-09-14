@@ -1,5 +1,7 @@
 ---
 name: 'Pixiefloss'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#2F2942'    # Black (Host)
 color_02: '#FF857F'    # Red (Syntax string)

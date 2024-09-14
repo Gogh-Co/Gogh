@@ -1,5 +1,7 @@
 ---
 name: 'Breath Darker'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#1E2229'    # Black (Host)
 color_02: '#ED1515'    # Red (Syntax string)

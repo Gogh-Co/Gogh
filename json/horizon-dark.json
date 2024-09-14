@@ -1,1 +1,25 @@
-{"color_01": "#16161C", "color_02": "#E95678", "color_03": "#29D398", "color_04": "#FAB795", "color_05": "#26BBD9", "color_06": "#EE64AE", "color_07": "#59E3E3", "color_08": "#FADAD1", "color_09": "#232530", "color_10": "#EC6A88", "color_11": "#3FDAA4", "color_12": "#FBC3A7", "color_13": "#3FC6DE", "color_14": "#F075B7", "color_15": "#6BE6E6", "color_16": "#FDF0ED", "name": "Horizon Dark", "foreground": "#FDF0ED", "background": "#1C1E26", "cursor": "#FDF0ED", "hash": "67050e41df2d3e977de6140c3cddf98066c9bc1b2dadba24ccfdd4a911922393"}
+{
+  "name": "Horizon Dark",
+  "author": "",
+  "variant": "",
+  "color_01": "#16161C",
+  "color_02": "#E95678",
+  "color_03": "#29D398",
+  "color_04": "#FAB795",
+  "color_05": "#26BBD9",
+  "color_06": "#EE64AE",
+  "color_07": "#59E3E3",
+  "color_08": "#FADAD1",
+  "color_09": "#232530",
+  "color_10": "#EC6A88",
+  "color_11": "#3FDAA4",
+  "color_12": "#FBC3A7",
+  "color_13": "#3FC6DE",
+  "color_14": "#F075B7",
+  "color_15": "#6BE6E6",
+  "color_16": "#FDF0ED",
+  "background": "#1C1E26",
+  "foreground": "#FDF0ED",
+  "cursor": "#FDF0ED",
+  "hash": "67050e41df2d3e977de6140c3cddf98066c9bc1b2dadba24ccfdd4a911922393"
+}

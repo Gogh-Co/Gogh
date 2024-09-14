@@ -1,5 +1,7 @@
 ---
 name: 'Dimmed Monokai'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#3A3D43'    # Black (Host)
 color_02: '#BE3F48'    # Red (Syntax string)

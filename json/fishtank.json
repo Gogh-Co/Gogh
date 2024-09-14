@@ -1,1 +1,25 @@
-{"color_01": "#03073C", "color_02": "#C6004A", "color_03": "#ACF157", "color_04": "#FECD5E", "color_05": "#525FB8", "color_06": "#986F82", "color_07": "#968763", "color_08": "#ECF0FC", "color_09": "#6C5B30", "color_10": "#DA4B8A", "color_11": "#DBFFA9", "color_12": "#FEE6A9", "color_13": "#B2BEFA", "color_14": "#FDA5CD", "color_15": "#A5BD86", "color_16": "#F6FFEC", "name": "Fishtank", "foreground": "#ECF0FE", "background": "#232537", "cursor": "#ECF0FE", "hash": "9e4f9c3976ba4a5d78b6909dc37d13f8c9d68ae24949c9cb06b03a62905cb290"}
+{
+  "name": "Fishtank",
+  "author": "",
+  "variant": "",
+  "color_01": "#03073C",
+  "color_02": "#C6004A",
+  "color_03": "#ACF157",
+  "color_04": "#FECD5E",
+  "color_05": "#525FB8",
+  "color_06": "#986F82",
+  "color_07": "#968763",
+  "color_08": "#ECF0FC",
+  "color_09": "#6C5B30",
+  "color_10": "#DA4B8A",
+  "color_11": "#DBFFA9",
+  "color_12": "#FEE6A9",
+  "color_13": "#B2BEFA",
+  "color_14": "#FDA5CD",
+  "color_15": "#A5BD86",
+  "color_16": "#F6FFEC",
+  "background": "#232537",
+  "foreground": "#ECF0FE",
+  "cursor": "#ECF0FE",
+  "hash": "9e4f9c3976ba4a5d78b6909dc37d13f8c9d68ae24949c9cb06b03a62905cb290"
+}

@@ -1,5 +1,7 @@
 ---
 name: 'Summer Pop'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#666666'    # Black (Host)
 color_02: '#FF1E8E'    # Red (Syntax string)

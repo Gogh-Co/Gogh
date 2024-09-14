@@ -1,5 +1,7 @@
 ---
 name: 'Butrin'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#8C7E78'    # Black (Host)
 color_02: '#E68A8A'    # Red (Syntax string)

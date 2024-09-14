@@ -1,5 +1,7 @@
 ---
 name: 'Rosé Pine Dawn'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#F2E9E1'    # Black (Host)
 color_02: '#B4637A'    # Red (Syntax string)

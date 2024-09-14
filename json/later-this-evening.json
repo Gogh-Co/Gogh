@@ -1,1 +1,25 @@
-{"color_01": "#2B2B2B", "color_02": "#D45A60", "color_03": "#AFBA67", "color_04": "#E5D289", "color_05": "#A0BAD6", "color_06": "#C092D6", "color_07": "#91BFB7", "color_08": "#3C3D3D", "color_09": "#454747", "color_10": "#D3232F", "color_11": "#AABB39", "color_12": "#E5BE39", "color_13": "#6699D6", "color_14": "#AB53D6", "color_15": "#5FC0AE", "color_16": "#C1C2C2", "name": "Later This Evening", "foreground": "#959595", "background": "#222222", "cursor": "#959595", "hash": "d26f31afbefd34d2863c131567c954b16ec1d095cce559a506ffebb01a4ca0c9"}
+{
+  "name": "Later This Evening",
+  "author": "",
+  "variant": "",
+  "color_01": "#2B2B2B",
+  "color_02": "#D45A60",
+  "color_03": "#AFBA67",
+  "color_04": "#E5D289",
+  "color_05": "#A0BAD6",
+  "color_06": "#C092D6",
+  "color_07": "#91BFB7",
+  "color_08": "#3C3D3D",
+  "color_09": "#454747",
+  "color_10": "#D3232F",
+  "color_11": "#AABB39",
+  "color_12": "#E5BE39",
+  "color_13": "#6699D6",
+  "color_14": "#AB53D6",
+  "color_15": "#5FC0AE",
+  "color_16": "#C1C2C2",
+  "background": "#222222",
+  "foreground": "#959595",
+  "cursor": "#959595",
+  "hash": "d26f31afbefd34d2863c131567c954b16ec1d095cce559a506ffebb01a4ca0c9"
+}

@@ -1,5 +1,7 @@
 ---
 name: 'Material'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#073641'    # Black (Host)
 color_02: '#EB606B'    # Red (Syntax string)

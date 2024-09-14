@@ -1,5 +1,7 @@
 ---
 name: 'Solarized Dark'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#073642'    # Black (Host)
 color_02: '#DC322F'    # Red (Syntax string)

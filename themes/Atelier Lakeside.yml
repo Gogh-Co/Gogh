@@ -1,5 +1,7 @@
 ---
 name: 'Atelier Lakeside'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#D22D72'    # Black (Host)
 color_02: '#D22D72'    # Red (Syntax string)

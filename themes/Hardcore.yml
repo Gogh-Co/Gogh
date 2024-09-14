@@ -1,5 +1,7 @@
 ---
 name: 'Hardcore'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#1B1D1E'    # Black (Host)
 color_02: '#F92672'    # Red (Syntax string)

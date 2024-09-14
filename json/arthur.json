@@ -1,1 +1,25 @@
-{"color_01": "#3D352A", "color_02": "#CD5C5C", "color_03": "#86AF80", "color_04": "#E8AE5B", "color_05": "#6495ED", "color_06": "#DEB887", "color_07": "#B0C4DE", "color_08": "#BBAA99", "color_09": "#554444", "color_10": "#CC5533", "color_11": "#88AA22", "color_12": "#FFA75D", "color_13": "#87CEEB", "color_14": "#996600", "color_15": "#B0C4DE", "color_16": "#DDCCBB", "name": "Arthur", "foreground": "#DDEEDD", "background": "#1C1C1C", "cursor": "#DDEEDD", "hash": "8e3d7915a678a300751d043a84d0d6c756db5a175d9c68d422399ec2de05433b"}
+{
+  "name": "Arthur",
+  "author": "",
+  "variant": "",
+  "color_01": "#3D352A",
+  "color_02": "#CD5C5C",
+  "color_03": "#86AF80",
+  "color_04": "#E8AE5B",
+  "color_05": "#6495ED",
+  "color_06": "#DEB887",
+  "color_07": "#B0C4DE",
+  "color_08": "#BBAA99",
+  "color_09": "#554444",
+  "color_10": "#CC5533",
+  "color_11": "#88AA22",
+  "color_12": "#FFA75D",
+  "color_13": "#87CEEB",
+  "color_14": "#996600",
+  "color_15": "#B0C4DE",
+  "color_16": "#DDCCBB",
+  "background": "#1C1C1C",
+  "foreground": "#DDEEDD",
+  "cursor": "#DDEEDD",
+  "hash": "8e3d7915a678a300751d043a84d0d6c756db5a175d9c68d422399ec2de05433b"
+}

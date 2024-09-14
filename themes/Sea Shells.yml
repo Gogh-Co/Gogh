@@ -1,5 +1,7 @@
 ---
 name: 'Sea Shells'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#17384C'    # Black (Host)
 color_02: '#D15123'    # Red (Syntax string)

@@ -1,5 +1,7 @@
 ---
 name: 'Frontend Fun Forrest'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#000000'    # Black (Host)
 color_02: '#D6262B'    # Red (Syntax string)

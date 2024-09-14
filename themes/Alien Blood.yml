@@ -1,5 +1,7 @@
 ---
 name: 'Alien Blood'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#112616'    # Black (Host)
 color_02: '#7F2B27'    # Red (Syntax string)

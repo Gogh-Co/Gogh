@@ -1,5 +1,7 @@
 ---
 name: 'Brogrammer'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#1F1F1F'    # Black (Host)
 color_02: '#F81118'    # Red (Syntax string)

@@ -1,5 +1,7 @@
 ---
 name: 'Mona Lisa'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#351B0E'    # Black (Host)
 color_02: '#9B291C'    # Red (Syntax string)

@@ -1,1 +1,25 @@
-{"color_01": "#1C1C1C", "color_02": "#AF005F", "color_03": "#5FAF00", "color_04": "#D7AF5F", "color_05": "#5FAFD7", "color_06": "#808080", "color_07": "#D7875F", "color_08": "#D0D0D0", "color_09": "#585858", "color_10": "#5FAF5F", "color_11": "#AFD700", "color_12": "#AF87D7", "color_13": "#FFAF00", "color_14": "#FF5FAF", "color_15": "#00AFAF", "color_16": "#5F8787", "name": "Papercolor Dark", "foreground": "#D0D0D0", "background": "#1C1C1C", "cursor": "#D0D0D0", "hash": "82827ee4b079de4edac3155aba0730cdd986e35ba56caf11ea3b68eae84f4232"}
+{
+  "name": "Papercolor Dark",
+  "author": "",
+  "variant": "",
+  "color_01": "#1C1C1C",
+  "color_02": "#AF005F",
+  "color_03": "#5FAF00",
+  "color_04": "#D7AF5F",
+  "color_05": "#5FAFD7",
+  "color_06": "#808080",
+  "color_07": "#D7875F",
+  "color_08": "#D0D0D0",
+  "color_09": "#585858",
+  "color_10": "#5FAF5F",
+  "color_11": "#AFD700",
+  "color_12": "#AF87D7",
+  "color_13": "#FFAF00",
+  "color_14": "#FF5FAF",
+  "color_15": "#00AFAF",
+  "color_16": "#5F8787",
+  "background": "#1C1C1C",
+  "foreground": "#D0D0D0",
+  "cursor": "#D0D0D0",
+  "hash": "82827ee4b079de4edac3155aba0730cdd986e35ba56caf11ea3b68eae84f4232"
+}

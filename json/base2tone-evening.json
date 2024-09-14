@@ -1,1 +1,25 @@
-{"color_01": "#2a2734", "color_02": "#8a75f5", "color_03": "#ffad5c", "color_04": "#ffcc99", "color_05": "#9a86fd", "color_06": "#ffad5c", "color_07": "#afa0fe", "color_08": "#a4a1b5", "color_09": "#6c6783", "color_10": "#ffb870", "color_11": "#363342", "color_12": "#545167", "color_13": "#787391", "color_14": "#d9d2fe", "color_15": "#ffa142", "color_16": "#eeebff", "name": "Base2Tone Evening", "foreground": "#a4a1b5", "background": "#2a2734", "cursor": "#b37537", "hash": "a10c7f59ffa60e928d7b0fb8534f543376e13618e13208c13ca4763e2a922691"}
+{
+  "name": "Base2Tone Evening",
+  "author": "",
+  "variant": "",
+  "color_01": "#2a2734",
+  "color_02": "#8a75f5",
+  "color_03": "#ffad5c",
+  "color_04": "#ffcc99",
+  "color_05": "#9a86fd",
+  "color_06": "#ffad5c",
+  "color_07": "#afa0fe",
+  "color_08": "#a4a1b5",
+  "color_09": "#6c6783",
+  "color_10": "#ffb870",
+  "color_11": "#363342",
+  "color_12": "#545167",
+  "color_13": "#787391",
+  "color_14": "#d9d2fe",
+  "color_15": "#ffa142",
+  "color_16": "#eeebff",
+  "background": "#2a2734",
+  "foreground": "#a4a1b5",
+  "cursor": "#b37537",
+  "hash": "a10c7f59ffa60e928d7b0fb8534f543376e13618e13208c13ca4763e2a922691"
+}

@@ -1,5 +1,7 @@
 ---
 name: 'Mono Yellow'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#403500'    # Black (Host)
 color_02: '#FFD300'    # Red (Syntax string)

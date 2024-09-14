@@ -1,5 +1,7 @@
 ---
 name: 'Base2Tone Earth'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#322d29'    # Black (Host)
 color_02: '#816d5f'    # Red (Syntax string)

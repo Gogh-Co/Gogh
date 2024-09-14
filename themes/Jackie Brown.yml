@@ -1,5 +1,7 @@
 ---
 name: 'Jackie Brown'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#2C1D16'    # Black (Host)
 color_02: '#EF5734'    # Red (Syntax string)

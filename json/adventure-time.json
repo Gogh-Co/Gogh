@@ -1,1 +1,25 @@
-{"color_01": "#050404", "color_02": "#BD0013", "color_03": "#4AB118", "color_04": "#E7741E", "color_05": "#0F4AC6", "color_06": "#665993", "color_07": "#70A598", "color_08": "#F8DCC0", "color_09": "#4E7CBF", "color_10": "#FC5F5A", "color_11": "#9EFF6E", "color_12": "#EFC11A", "color_13": "#1997C6", "color_14": "#9B5953", "color_15": "#C8FAF4", "color_16": "#F6F5FB", "name": "Adventure Time", "foreground": "#F8DCC0", "background": "#1F1D45", "cursor": "#F8DCC0", "hash": "273eace091081bd7b49aa60beb31e2b0a72fcc22cf301db51292c7aa2c1c9767"}
+{
+  "name": "Adventure Time",
+  "author": "",
+  "variant": "",
+  "color_01": "#050404",
+  "color_02": "#BD0013",
+  "color_03": "#4AB118",
+  "color_04": "#E7741E",
+  "color_05": "#0F4AC6",
+  "color_06": "#665993",
+  "color_07": "#70A598",
+  "color_08": "#F8DCC0",
+  "color_09": "#4E7CBF",
+  "color_10": "#FC5F5A",
+  "color_11": "#9EFF6E",
+  "color_12": "#EFC11A",
+  "color_13": "#1997C6",
+  "color_14": "#9B5953",
+  "color_15": "#C8FAF4",
+  "color_16": "#F6F5FB",
+  "background": "#1F1D45",
+  "foreground": "#F8DCC0",
+  "cursor": "#F8DCC0",
+  "hash": "273eace091081bd7b49aa60beb31e2b0a72fcc22cf301db51292c7aa2c1c9767"
+}

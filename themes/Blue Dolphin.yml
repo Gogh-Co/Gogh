@@ -1,5 +1,7 @@
 ---
 name: 'Blue Dolphin'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#292D3E'    # Black (Host)
 color_02: '#FF8288'    # Red (Syntax string)

@@ -1,5 +1,7 @@
 ---
 name: 'Kokuban'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#2E8744'    # Black (Host)
 color_02: '#D84E4C'    # Red (Syntax string)

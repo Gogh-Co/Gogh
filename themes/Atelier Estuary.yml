@@ -1,5 +1,7 @@
 ---
 name: 'Atelier Estuary'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#BA6236'    # Black (Host)
 color_02: '#BA6236'    # Red (Syntax string)

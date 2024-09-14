@@ -1,5 +1,7 @@
 ---
 name: 'Ocean Dark'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#4F4F4F'    # Black (Host)
 color_02: '#AF4B57'    # Red (Syntax string)

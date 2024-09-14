@@ -1,5 +1,7 @@
 ---
 name: 'Base2Tone Mall'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#1e1e1f'    # Black (Host)
 color_02: '#a17efc'    # Red (Syntax string)

@@ -1,5 +1,7 @@
 ---
 name: 'Birds Of Paradise'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#573D26'    # Black (Host)
 color_02: '#BE2D26'    # Red (Syntax string)

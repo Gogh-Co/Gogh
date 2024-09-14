@@ -1,5 +1,7 @@
 ---
 name: 'Vs Code Dark+'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#6A787A'    # Black (Host)
 color_02: '#E9653B'    # Red (Syntax string)

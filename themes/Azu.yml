@@ -1,5 +1,7 @@
 ---
 name: 'Azu'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#000000'    # Black (Host)
 color_02: '#AC6D74'    # Red (Syntax string)

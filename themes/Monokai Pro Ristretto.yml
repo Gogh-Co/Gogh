@@ -1,5 +1,7 @@
 ---
 name: 'Monokai Pro Ristretto'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#3E3838'    # Black (Host)
 color_02: '#DF7484'    # Red (Syntax string)

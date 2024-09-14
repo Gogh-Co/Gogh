@@ -1,1 +1,25 @@
-{"color_01": "#414868", "color_02": "#F7768E", "color_03": "#9ECE6A", "color_04": "#E0AF68", "color_05": "#7AA2F7", "color_06": "#BB9AF7", "color_07": "#7DCFFF", "color_08": "#C0CAF5", "color_09": "#414868", "color_10": "#F7768E", "color_11": "#9ECE6A", "color_12": "#E0AF68", "color_13": "#7AA2F7", "color_14": "#BB9AF7", "color_15": "#7DCFFF", "color_16": "#C0CAF5", "name": "Tokyo Night Storm", "foreground": "#C0CAF5", "background": "#24283B", "cursor": "#C0CAF5", "hash": "04699640ae59bac56d99ac20dd381f90755d60b823b3a05302170ed4780025a0"}
+{
+  "name": "Tokyo Night Storm",
+  "author": "",
+  "variant": "",
+  "color_01": "#414868",
+  "color_02": "#F7768E",
+  "color_03": "#9ECE6A",
+  "color_04": "#E0AF68",
+  "color_05": "#7AA2F7",
+  "color_06": "#BB9AF7",
+  "color_07": "#7DCFFF",
+  "color_08": "#C0CAF5",
+  "color_09": "#414868",
+  "color_10": "#F7768E",
+  "color_11": "#9ECE6A",
+  "color_12": "#E0AF68",
+  "color_13": "#7AA2F7",
+  "color_14": "#BB9AF7",
+  "color_15": "#7DCFFF",
+  "color_16": "#C0CAF5",
+  "background": "#24283B",
+  "foreground": "#C0CAF5",
+  "cursor": "#C0CAF5",
+  "hash": "04699640ae59bac56d99ac20dd381f90755d60b823b3a05302170ed4780025a0"
+}

@@ -1,5 +1,7 @@
 ---
 name: 'Base2Tone Space'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#24242e'    # Black (Host)
 color_02: '#7676f4'    # Red (Syntax string)

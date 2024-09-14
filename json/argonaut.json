@@ -1,1 +1,25 @@
-{"color_01": "#232323", "color_02": "#FF000F", "color_03": "#8CE10B", "color_04": "#FFB900", "color_05": "#008DF8", "color_06": "#6D43A6", "color_07": "#00D8EB", "color_08": "#FFFFFF", "color_09": "#444444", "color_10": "#FF2740", "color_11": "#ABE15B", "color_12": "#FFD242", "color_13": "#0092FF", "color_14": "#9A5FEB", "color_15": "#67FFF0", "color_16": "#FFFFFF", "name": "Argonaut", "foreground": "#FFFAF4", "background": "#0E1019", "cursor": "#FFFAF4", "hash": "38d41161f5a667147c96b76e5c5a503a4cb170cc7898ecff6bd9d37e4be1006b"}
+{
+  "name": "Argonaut",
+  "author": "",
+  "variant": "",
+  "color_01": "#232323",
+  "color_02": "#FF000F",
+  "color_03": "#8CE10B",
+  "color_04": "#FFB900",
+  "color_05": "#008DF8",
+  "color_06": "#6D43A6",
+  "color_07": "#00D8EB",
+  "color_08": "#FFFFFF",
+  "color_09": "#444444",
+  "color_10": "#FF2740",
+  "color_11": "#ABE15B",
+  "color_12": "#FFD242",
+  "color_13": "#0092FF",
+  "color_14": "#9A5FEB",
+  "color_15": "#67FFF0",
+  "color_16": "#FFFFFF",
+  "background": "#0E1019",
+  "foreground": "#FFFAF4",
+  "cursor": "#FFFAF4",
+  "hash": "38d41161f5a667147c96b76e5c5a503a4cb170cc7898ecff6bd9d37e4be1006b"
+}

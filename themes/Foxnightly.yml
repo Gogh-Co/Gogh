@@ -1,5 +1,7 @@
 ---
 name: 'Foxnightly'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#2A2A2E'    # Black (Host)
 color_02: '#B98EFF'    # Red (Syntax string)

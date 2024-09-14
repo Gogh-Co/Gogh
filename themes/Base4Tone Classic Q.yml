@@ -1,5 +1,7 @@
 ---
 name: 'Base4Tone Classic Q'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#1d1d20'    # Black (Host)
 color_02: '#d4359a'    # Red (Syntax string)

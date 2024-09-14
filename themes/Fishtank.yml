@@ -1,5 +1,7 @@
 ---
 name: 'Fishtank'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#03073C'    # Black (Host)
 color_02: '#C6004A'    # Red (Syntax string)

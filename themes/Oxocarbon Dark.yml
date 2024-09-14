@@ -1,4 +1,7 @@
+---
 name: 'Oxocarbon Dark'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#262626'    # Black (Host)
 color_02: '#EE5396'    # Red (Syntax string)

@@ -1,5 +1,7 @@
 ---
 name: 'Jellybeans'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#929292'    # Black (Host)
 color_02: '#E27373'    # Red (Syntax string)

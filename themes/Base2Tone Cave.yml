@@ -1,5 +1,7 @@
 ---
 name: 'Base2Tone Cave'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#222021'    # Black (Host)
 color_02: '#936c7a'    # Red (Syntax string)

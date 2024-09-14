@@ -20,21 +20,24 @@ jobs:
         pip3 install -r requirements.txt
 
         echo 🏅 - Generate json
-        python3 tools/generatJson.py
+        python3 tools/pipe-generateJson.py
 
         echo 🏅 - Generate json files
-        python3 tools/generateJsonFiles.py
+        python3 tools/pipe-generateJsonFiles.py
 
         echo 🏅 - Generate Installers
-        python3 tools/generateShFiles.py
+        python3 tools/pipe-generateShFiles.py
 
         echo 🏅 - update themes in gogh file
-        python3 tools/updateThemes.py
+        python3 tools/pipe-updateThemes.py
+
+        echo 🏅 - Pipeline run date
+        python3 tools/pipe.py
 
     - name: Git commit
       run: |
         git config user.name  github-actions[bot]
         git config user.email github-actions[bot]@github.com
         git add .
-        git commit -m "------- Generate Themes -------"
+        git commit -m "------- 🤖 Gogh 🤖 -------"
         git push

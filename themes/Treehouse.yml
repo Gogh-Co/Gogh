@@ -1,5 +1,7 @@
 ---
 name: 'Treehouse'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#321300'    # Black (Host)
 color_02: '#B2270E'    # Red (Syntax string)

@@ -1,1 +1,25 @@
-{"color_01": "#24292f", "color_02": "#cf222e", "color_03": "#1a7f37", "color_04": "#9a6700", "color_05": "#0969da", "color_06": "#8250df", "color_07": "#1b7c83", "color_08": "#6e7781", "color_09": "#57606a", "color_10": "#a40e26", "color_11": "#2da44e", "color_12": "#bf8700", "color_13": "#218bff", "color_14": "#a475f9", "color_15": "#3192aa", "color_16": "#8c959f", "name": "Github Light", "foreground": "#1f2328", "background": "#f6f8fa", "cursor": "#1f2328", "hash": "a21d84f605749472b2473a9621f5b0a23a64acbbf4c9c313e4261752e73c3a64"}
+{
+  "name": "Github Light",
+  "author": "",
+  "variant": "",
+  "color_01": "#24292f",
+  "color_02": "#cf222e",
+  "color_03": "#1a7f37",
+  "color_04": "#9a6700",
+  "color_05": "#0969da",
+  "color_06": "#8250df",
+  "color_07": "#1b7c83",
+  "color_08": "#6e7781",
+  "color_09": "#57606a",
+  "color_10": "#a40e26",
+  "color_11": "#2da44e",
+  "color_12": "#bf8700",
+  "color_13": "#218bff",
+  "color_14": "#a475f9",
+  "color_15": "#3192aa",
+  "color_16": "#8c959f",
+  "background": "#f6f8fa",
+  "foreground": "#1f2328",
+  "cursor": "#1f2328",
+  "hash": "a21d84f605749472b2473a9621f5b0a23a64acbbf4c9c313e4261752e73c3a64"
+}

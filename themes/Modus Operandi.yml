@@ -1,5 +1,7 @@
 ---
 name: 'Modus Operandi'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#ffffff'    # Black (Host)
 color_02: '#a60000'    # Red (Syntax string)

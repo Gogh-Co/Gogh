@@ -1,5 +1,7 @@
 ---
 name: 'City Lights'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#41505E'    # Black (Host)
 color_02: '#D95468'    # Red (Syntax string)

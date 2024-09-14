@@ -1,5 +1,7 @@
 ---
 name: 'Hemisu Light'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#777777'    # Black (Host)
 color_02: '#FF0055'    # Red (Syntax string)

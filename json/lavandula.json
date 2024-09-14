@@ -1,1 +1,25 @@
-{"color_01": "#230046", "color_02": "#7D1625", "color_03": "#337E6F", "color_04": "#7F6F49", "color_05": "#4F4A7F", "color_06": "#5A3F7F", "color_07": "#58777F", "color_08": "#736E7D", "color_09": "#372D46", "color_10": "#E05167", "color_11": "#52E0C4", "color_12": "#E0C386", "color_13": "#8E87E0", "color_14": "#A776E0", "color_15": "#9AD4E0", "color_16": "#8C91FA", "name": "Lavandula", "foreground": "#736E7D", "background": "#050014", "cursor": "#736E7D", "hash": "19274bd870c724e74e57e940aa80c60ced82c617ba0816505d930c0b1b919ee8"}
+{
+  "name": "Lavandula",
+  "author": "",
+  "variant": "",
+  "color_01": "#230046",
+  "color_02": "#7D1625",
+  "color_03": "#337E6F",
+  "color_04": "#7F6F49",
+  "color_05": "#4F4A7F",
+  "color_06": "#5A3F7F",
+  "color_07": "#58777F",
+  "color_08": "#736E7D",
+  "color_09": "#372D46",
+  "color_10": "#E05167",
+  "color_11": "#52E0C4",
+  "color_12": "#E0C386",
+  "color_13": "#8E87E0",
+  "color_14": "#A776E0",
+  "color_15": "#9AD4E0",
+  "color_16": "#8C91FA",
+  "background": "#050014",
+  "foreground": "#736E7D",
+  "cursor": "#736E7D",
+  "hash": "19274bd870c724e74e57e940aa80c60ced82c617ba0816505d930c0b1b919ee8"
+}

@@ -1,5 +1,7 @@
 ---
 name: 'Zenburn'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#333333'    # Black (Host)
 color_02: '#cc9393'    # Red (Syntax string)

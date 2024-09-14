@@ -1,1 +1,25 @@
-{"color_01": "#F9F5F5", "color_02": "#CC0000", "color_03": "#1F1E1F", "color_04": "#ADA110", "color_05": "#FF004E", "color_06": "#75507B", "color_07": "#06919A", "color_08": "#FFFFFF", "color_09": "#555753", "color_10": "#EF2929", "color_11": "#FF0000", "color_12": "#ADA110", "color_13": "#5F4AA6", "color_14": "#B74438", "color_15": "#408F0C", "color_16": "#FFFFFF", "name": "Geohot", "foreground": "#FFFFFF", "background": "#1F1E1F", "cursor": "#FFFFFF", "hash": "b68253e74007adcade7c9a94c2d950354fe874867fb5b2be5901cc89c726d98f"}
+{
+  "name": "Geohot",
+  "author": "",
+  "variant": "",
+  "color_01": "#F9F5F5",
+  "color_02": "#CC0000",
+  "color_03": "#1F1E1F",
+  "color_04": "#ADA110",
+  "color_05": "#FF004E",
+  "color_06": "#75507B",
+  "color_07": "#06919A",
+  "color_08": "#FFFFFF",
+  "color_09": "#555753",
+  "color_10": "#EF2929",
+  "color_11": "#FF0000",
+  "color_12": "#ADA110",
+  "color_13": "#5F4AA6",
+  "color_14": "#B74438",
+  "color_15": "#408F0C",
+  "color_16": "#FFFFFF",
+  "background": "#1F1E1F",
+  "foreground": "#FFFFFF",
+  "cursor": "#FFFFFF",
+  "hash": "b68253e74007adcade7c9a94c2d950354fe874867fb5b2be5901cc89c726d98f"
+}

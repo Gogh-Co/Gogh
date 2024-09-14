@@ -1,1 +1,25 @@
-{"color_01": "#011627", "color_02": "#FE4450", "color_03": "#72F1B8", "color_04": "#FEDE5D", "color_05": "#03EDF9", "color_06": "#FF7EDB", "color_07": "#03EDF9", "color_08": "#FFFFFF", "color_09": "#575656", "color_10": "#FE4450", "color_11": "#72F1B8", "color_12": "#FEDE5D", "color_13": "#03EDF9", "color_14": "#FF7EDB", "color_15": "#03EDF9", "color_16": "#FFFFFF", "name": "Synthwave", "foreground": "#FFFFFF", "background": "#262335", "cursor": "#03EDF9", "hash": "4f63611e46322781968a9991e0ed083eca8e7de2889c926268e8341dac5f846d"}
+{
+  "name": "Synthwave",
+  "author": "",
+  "variant": "",
+  "color_01": "#011627",
+  "color_02": "#FE4450",
+  "color_03": "#72F1B8",
+  "color_04": "#FEDE5D",
+  "color_05": "#03EDF9",
+  "color_06": "#FF7EDB",
+  "color_07": "#03EDF9",
+  "color_08": "#FFFFFF",
+  "color_09": "#575656",
+  "color_10": "#FE4450",
+  "color_11": "#72F1B8",
+  "color_12": "#FEDE5D",
+  "color_13": "#03EDF9",
+  "color_14": "#FF7EDB",
+  "color_15": "#03EDF9",
+  "color_16": "#FFFFFF",
+  "background": "#262335",
+  "foreground": "#FFFFFF",
+  "cursor": "#03EDF9",
+  "hash": "4f63611e46322781968a9991e0ed083eca8e7de2889c926268e8341dac5f846d"
+}

@@ -1,5 +1,7 @@
 ---
 name: 'Ayu Mirage'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#1F2430'    # Black (Host)
 color_02: '#FF3333'    # Red (Syntax string)

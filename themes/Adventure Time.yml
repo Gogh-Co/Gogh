@@ -1,5 +1,7 @@
 ---
 name: 'Adventure Time'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#050404'    # Black (Host)
 color_02: '#BD0013'    # Red (Syntax string)

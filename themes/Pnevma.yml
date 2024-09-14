@@ -1,5 +1,7 @@
 ---
 name: 'Pnevma'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#2F2E2D'    # Black (Host)
 color_02: '#A36666'    # Red (Syntax string)

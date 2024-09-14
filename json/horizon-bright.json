@@ -1,1 +1,25 @@
-{"color_01": "#16161C", "color_02": "#DA103F", "color_03": "#1EB980", "color_04": "#F6661E", "color_05": "#26BBD9", "color_06": "#EE64AE", "color_07": "#1D8991", "color_08": "#FADAD1", "color_09": "#1A1C23", "color_10": "#F43E5C", "color_11": "#07DA8C", "color_12": "#F77D26", "color_13": "#3FC6DE", "color_14": "#F075B7", "color_15": "#1EAEAE", "color_16": "#FDF0ED", "name": "Horizon Bright", "foreground": "#1C1E26", "background": "#FDF0ED", "cursor": "#1C1E26", "hash": "1e29123bfcbf1fc81e9ad9b97b623ecf27f2824512b2e19f9cb6aed8c7e0c75e"}
+{
+  "name": "Horizon Bright",
+  "author": "",
+  "variant": "",
+  "color_01": "#16161C",
+  "color_02": "#DA103F",
+  "color_03": "#1EB980",
+  "color_04": "#F6661E",
+  "color_05": "#26BBD9",
+  "color_06": "#EE64AE",
+  "color_07": "#1D8991",
+  "color_08": "#FADAD1",
+  "color_09": "#1A1C23",
+  "color_10": "#F43E5C",
+  "color_11": "#07DA8C",
+  "color_12": "#F77D26",
+  "color_13": "#3FC6DE",
+  "color_14": "#F075B7",
+  "color_15": "#1EAEAE",
+  "color_16": "#FDF0ED",
+  "background": "#FDF0ED",
+  "foreground": "#1C1E26",
+  "cursor": "#1C1E26",
+  "hash": "1e29123bfcbf1fc81e9ad9b97b623ecf27f2824512b2e19f9cb6aed8c7e0c75e"
+}

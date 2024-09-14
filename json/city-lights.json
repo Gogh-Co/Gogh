@@ -1,1 +1,25 @@
-{"color_01": "#41505E", "color_02": "#D95468", "color_03": "#8BD49C", "color_04": "#EBBF83", "color_05": "#539AFC", "color_06": "#B62D65", "color_07": "#70E1E8", "color_08": "#FFFFFF", "color_09": "#41505E", "color_10": "#D95468", "color_11": "#8BD49C", "color_12": "#EBBF83", "color_13": "#539AFC", "color_14": "#B62D65", "color_15": "#70E1E8", "color_16": "#FFFFFF", "name": "City Lights", "foreground": "#FFFFFF", "background": "#171D23", "cursor": "#008B94", "hash": "5395c5777ddc1fd29ec7b2148442860799f3eee43189039abd7dafffa329466f"}
+{
+  "name": "City Lights",
+  "author": "",
+  "variant": "",
+  "color_01": "#41505E",
+  "color_02": "#D95468",
+  "color_03": "#8BD49C",
+  "color_04": "#EBBF83",
+  "color_05": "#539AFC",
+  "color_06": "#B62D65",
+  "color_07": "#70E1E8",
+  "color_08": "#FFFFFF",
+  "color_09": "#41505E",
+  "color_10": "#D95468",
+  "color_11": "#8BD49C",
+  "color_12": "#EBBF83",
+  "color_13": "#539AFC",
+  "color_14": "#B62D65",
+  "color_15": "#70E1E8",
+  "color_16": "#FFFFFF",
+  "background": "#171D23",
+  "foreground": "#FFFFFF",
+  "cursor": "#008B94",
+  "hash": "5395c5777ddc1fd29ec7b2148442860799f3eee43189039abd7dafffa329466f"
+}

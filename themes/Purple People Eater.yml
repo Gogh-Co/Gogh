@@ -1,5 +1,7 @@
 ---
 name: 'Purple People Eater'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#0D1117'    # Black (Host)
 color_02: '#E34C26'    # Red (Syntax string)

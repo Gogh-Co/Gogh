@@ -1,5 +1,7 @@
 ---
 name: 'Everforest Light Hard'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#5C6A72'    # Black (Host)
 color_02: '#F85552'    # Red (Syntax string)

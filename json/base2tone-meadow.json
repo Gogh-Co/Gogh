@@ -1,1 +1,25 @@
-{"color_01": "#192834", "color_02": "#277fbe", "color_03": "#80bf40", "color_04": "#a6f655", "color_05": "#4299d7", "color_06": "#80bf40", "color_07": "#47adf5", "color_08": "#7b9eb7", "color_09": "#3d5e76", "color_10": "#8cdd3c", "color_11": "#223644", "color_12": "#335166", "color_13": "#466b86", "color_14": "#afddfe", "color_15": "#73b234", "color_16": "#d1ecff", "name": "Base2Tone Meadow", "foreground": "#7b9eb7", "background": "#192834", "cursor": "#4d8217", "hash": "6091341d86b0bea492ea6765daec00a40a83de26dcd75da38db94d558a773f71"}
+{
+  "name": "Base2Tone Meadow",
+  "author": "",
+  "variant": "",
+  "color_01": "#192834",
+  "color_02": "#277fbe",
+  "color_03": "#80bf40",
+  "color_04": "#a6f655",
+  "color_05": "#4299d7",
+  "color_06": "#80bf40",
+  "color_07": "#47adf5",
+  "color_08": "#7b9eb7",
+  "color_09": "#3d5e76",
+  "color_10": "#8cdd3c",
+  "color_11": "#223644",
+  "color_12": "#335166",
+  "color_13": "#466b86",
+  "color_14": "#afddfe",
+  "color_15": "#73b234",
+  "color_16": "#d1ecff",
+  "background": "#192834",
+  "foreground": "#7b9eb7",
+  "cursor": "#4d8217",
+  "hash": "6091341d86b0bea492ea6765daec00a40a83de26dcd75da38db94d558a773f71"
+}

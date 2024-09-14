@@ -1,1 +1,25 @@
-{"color_01": "#575757", "color_02": "#FF1B00", "color_03": "#A5E055", "color_04": "#FBE74A", "color_05": "#496487", "color_06": "#FD5FF1", "color_07": "#86E9FE", "color_08": "#CBCCCB", "color_09": "#262626", "color_10": "#D51D00", "color_11": "#A5DF55", "color_12": "#FBE84A", "color_13": "#89BEFF", "color_14": "#C001C1", "color_15": "#86EAFE", "color_16": "#DBDBDB", "name": "Hurtado", "foreground": "#DBDBDB", "background": "#000000", "cursor": "#DBDBDB", "hash": "53f897672ffd61ce6b3b3b331830d9a5946cb65a984a5bad1a676c11a674da8f"}
+{
+  "name": "Hurtado",
+  "author": "",
+  "variant": "",
+  "color_01": "#575757",
+  "color_02": "#FF1B00",
+  "color_03": "#A5E055",
+  "color_04": "#FBE74A",
+  "color_05": "#496487",
+  "color_06": "#FD5FF1",
+  "color_07": "#86E9FE",
+  "color_08": "#CBCCCB",
+  "color_09": "#262626",
+  "color_10": "#D51D00",
+  "color_11": "#A5DF55",
+  "color_12": "#FBE84A",
+  "color_13": "#89BEFF",
+  "color_14": "#C001C1",
+  "color_15": "#86EAFE",
+  "color_16": "#DBDBDB",
+  "background": "#000000",
+  "foreground": "#DBDBDB",
+  "cursor": "#DBDBDB",
+  "hash": "53f897672ffd61ce6b3b3b331830d9a5946cb65a984a5bad1a676c11a674da8f"
+}

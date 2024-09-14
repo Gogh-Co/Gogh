@@ -1,5 +1,7 @@
 ---
 name: 'Earthsong'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#121418'    # Black (Host)
 color_02: '#C94234'    # Red (Syntax string)

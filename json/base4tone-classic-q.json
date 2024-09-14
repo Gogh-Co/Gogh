@@ -1,1 +1,25 @@
-{"color_01": "#1d1d20", "color_02": "#d4359a", "color_03": "#4287f5", "color_04": "#88b4fc", "color_05": "#a095f3", "color_06": "#ba6cea", "color_07": "#659efb", "color_08": "#e9e8ed", "color_09": "#08070d", "color_10": "#eb75c0", "color_11": "#9cc1fc", "color_12": "#c2d9ff", "color_13": "#d9d5fc", "color_14": "#c988f2", "color_15": "#d1cbfb", "color_16": "#f6f6f9", "name": "Base4Tone Classic Q", "foreground": "#95949e", "background": "#1d1d20", "cursor": "#67768e", "hash": "807bc4a4185179bc624b1c18df6bbce90a7e1782e6e9d3ce9d9c61fd439866f1"}
+{
+  "name": "Base4Tone Classic Q",
+  "author": "",
+  "variant": "",
+  "color_01": "#1d1d20",
+  "color_02": "#d4359a",
+  "color_03": "#4287f5",
+  "color_04": "#88b4fc",
+  "color_05": "#a095f3",
+  "color_06": "#ba6cea",
+  "color_07": "#659efb",
+  "color_08": "#e9e8ed",
+  "color_09": "#08070d",
+  "color_10": "#eb75c0",
+  "color_11": "#9cc1fc",
+  "color_12": "#c2d9ff",
+  "color_13": "#d9d5fc",
+  "color_14": "#c988f2",
+  "color_15": "#d1cbfb",
+  "color_16": "#f6f6f9",
+  "background": "#1d1d20",
+  "foreground": "#95949e",
+  "cursor": "#67768e",
+  "hash": "807bc4a4185179bc624b1c18df6bbce90a7e1782e6e9d3ce9d9c61fd439866f1"
+}

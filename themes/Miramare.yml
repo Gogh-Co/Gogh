@@ -1,4 +1,7 @@
+---
 name: 'Miramare'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#242021'    # Black (Host)
 color_02: '#e68183'    # Red (Syntax string)

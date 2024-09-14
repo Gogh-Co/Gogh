@@ -1,5 +1,7 @@
 ---
 name: 'Everblush'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#232A2D'    # Black (Host)
 color_02: '#E57474'    # Red (Syntax string)

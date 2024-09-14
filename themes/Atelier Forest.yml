@@ -1,5 +1,7 @@
 ---
 name: 'Atelier Forest'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#F22C40'    # Black (Host)
 color_02: '#F22C40'    # Red (Syntax string)

@@ -1,5 +1,7 @@
 ---
 name: 'Japanesque'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#343935'    # Black (Host)
 color_02: '#CF3F61'    # Red (Syntax string)

@@ -1,1 +1,25 @@
-{"color_01": "#000000", "color_02": "#CC5555", "color_03": "#55CC55", "color_04": "#CDCD55", "color_05": "#5555CC", "color_06": "#CC55CC", "color_07": "#7ACACA", "color_08": "#CCCCCC", "color_09": "#555555", "color_10": "#FF5555", "color_11": "#55FF55", "color_12": "#FFFF55", "color_13": "#5555FF", "color_14": "#FF55FF", "color_15": "#55FFFF", "color_16": "#FFFFFF", "name": "Wez", "foreground": "#B3B3B3", "background": "#000000", "cursor": "#B3B3B3", "hash": "5d75523e7fc1a8a66adce43140ed71774c0a1015ef5598ea3892d7bdee7f5960"}
+{
+  "name": "Wez",
+  "author": "",
+  "variant": "",
+  "color_01": "#000000",
+  "color_02": "#CC5555",
+  "color_03": "#55CC55",
+  "color_04": "#CDCD55",
+  "color_05": "#5555CC",
+  "color_06": "#CC55CC",
+  "color_07": "#7ACACA",
+  "color_08": "#CCCCCC",
+  "color_09": "#555555",
+  "color_10": "#FF5555",
+  "color_11": "#55FF55",
+  "color_12": "#FFFF55",
+  "color_13": "#5555FF",
+  "color_14": "#FF55FF",
+  "color_15": "#55FFFF",
+  "color_16": "#FFFFFF",
+  "background": "#000000",
+  "foreground": "#B3B3B3",
+  "cursor": "#B3B3B3",
+  "hash": "5d75523e7fc1a8a66adce43140ed71774c0a1015ef5598ea3892d7bdee7f5960"
+}

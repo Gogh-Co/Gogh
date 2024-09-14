@@ -1,5 +1,7 @@
 ---
 name: 'Atelier Dune'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: ''            # dark or light
 
 color_01: '#D73737'    # Black (Host)
 color_02: '#D73737'    # Red (Syntax string)
