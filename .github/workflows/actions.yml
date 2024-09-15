@@ -1,4 +1,4 @@
-name: Execute Python Scripts on New Theme-YML Files
+name: Run Generators
 
 on:
   workflow_dispatch:
