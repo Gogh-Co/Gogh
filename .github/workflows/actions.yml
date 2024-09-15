@@ -25,6 +25,9 @@ jobs:
         echo 🏅 - Generate json files
         python3 tools/pipe-generateJsonFiles.py
 
+        echo 🏅 - Generate Csv
+        python3 tools/pipe-generateCsv.py
+
         echo 🏅 - Generate Installers
         python3 tools/pipe-generateShFiles.py
 

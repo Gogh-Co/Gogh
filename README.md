@@ -191,7 +191,8 @@ GOGH_APPLY_SCRIPT=/path/to/file/apply-colors.sh bash ./selenized-dark.sh
 
 We have lots of themes. Check them out [here](https://Gogh-Co.github.io/Gogh/)!
 
-also all themes in json format: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json
+- themes in `json` format: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json
+- themes in `csv` format: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.csv
 
 <br/>
 <br>
@@ -259,6 +260,9 @@ sudo apt install uuid-runtime
 source .bashrc
 ```
 
+<br>
+<br>
+
 ## 🖼️ How to ceate your own theme
 
 Good news! Contributing with new themes is now easier and less intimidating.
@@ -276,8 +280,6 @@ Please keep in mind a few simple rules.
 **Now you can send Pull Request.**
 
 **Thank you!**
-
----
 
 ### Theme .yml example
 
@@ -310,7 +312,7 @@ foreground: '#BFC7D5'  # Foreground (Text)
 
 cursor: '#BFC7D5'      # Cursor
 ```
----
+
 ### Explanation of colors and variables
 
 The colors of the terminal are composed of 18 colors in 3 sections.
@@ -357,7 +359,7 @@ gogh
 
 ## ⚫ Accessibility - wcag
 
-- https://gogh-co.github.io/Gogh/wcag/
+- (PENDING)
 
 <br/>
 
@@ -423,9 +425,9 @@ Many thanks to all who have participated in this project.
 <a href="https://github.com/Gogh-Co/Gogh/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=Gogh-Co/Gogh&max=500" />
 </a>
-<br/>
-<br/>
 
+<br/>
+<br/>
 
 ## 🧠 Author (contributor)
 
