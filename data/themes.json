@@ -4335,7 +4335,7 @@
     "color_05": "#7E9CD8",
     "color_06": "#957FB8",
     "color_07": "#6A9589",
-    "color_08": "#DCD7BA",
+    "color_08": "#C8C093",
     "color_09": "#727169",
     "color_10": "#E82424",
     "color_11": "#98BB6C",
@@ -4343,11 +4343,11 @@
     "color_13": "#7FB4CA",
     "color_14": "#938AA9",
     "color_15": "#7AA89F",
-    "color_16": "#C8C093",
+    "color_16": "#DCD7BA",
     "background": "#1F1F28",
     "foreground": "#DCD7BA",
     "cursor": "#DCD7BA",
-    "hash": "815a17e6f16c745805010914ec23964508db8a4501f3cd91a0fc7c6f56ec6d9d"
+    "hash": "198030565d0657bdbdb05330d801fe77db65066f558bae8b9b74e6c5ebf4b9ea"
   },
   {
     "name": "Kanagawa Dragon",
