@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PROFILE_NAME="Kanagawa"
+export PROFILE_NAME="Kanagawa Wave"
 
 export COLOR_01="#090618"           # Black (Host)
 export COLOR_02="#C34043"           # Red (Syntax string)
