@@ -1,0 +1,27 @@
+---
+name: 'Doom One'
+author: 'Henrik Lissner'  # 'Henrik Lissner (https://github.com/hlissner)'
+variant: 'dark'           # dark or light
+
+color_01: '#1b2229'       # Black (Host)
+color_02: '#ff6c6b'       # Red (Syntax string)
+color_03: '#98be65'       # Green (Command)
+color_04: '#ecbe7b'       # Yellow (Command second)
+color_05: '#2257a0'       # Blue (Path)
+color_06: '#a9a1e1'       # Magenta (Syntax var)
+color_07: '#5699af'       # Cyan (Prompt)
+color_08: '#5b6268'       # White
+
+color_09: '#3f444a'       # Bright Black
+color_10: '#da8548'       # Bright Red (Command error)
+color_11: '#4db5bd'       # Bright Green (Exec)
+color_12: '#ecbe7b'       # Bright Yellow
+color_13: '#51afef'       # Bright Blue (Folder)
+color_14: '#c678dd'       # Bright Magenta
+color_15: '#46d9ff'       # Bright Cyan
+color_16: '#bbc2cf'       # Bright White
+
+background: '#21242b'     # Background
+foreground: '#5b6268'     # Foreground (Text)
+
+cursor: '#5b6268'         # Cursor
