@@ -134,6 +134,7 @@ declare -a THEMES=(
   'desert.sh'
   'dimmed-monokai.sh'
   'dissonance.sh'
+  'doom-one.sh'
   'dracula.sh'
   'earthsong.sh'
   'elemental.sh'
