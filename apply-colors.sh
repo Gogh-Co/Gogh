@@ -648,7 +648,7 @@ apply_kitty() {
 
   CFGFILE="${KITTY_CONFIG_DIRECTORY}/$COLOR_FILE"
 
-  pirnts "Updating color theme file ($CFGFILE) with theme..."
+  prints "Updating color theme file ($CFGFILE) with theme..."
 
   rm -f "$CFGFILE"
 
