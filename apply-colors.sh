@@ -86,6 +86,8 @@ if [[ -z "${TERMINAL:-}" ]]; then
     TERMINAL="mintty"
   elif [[ "${TERM}" = "linux" ]]; then
     TERMINAL="linux"
+  elif [[ "${HOME}" = *com.termux* ]]; then
+    TERMINAL="termux"
   else
     # |
     # | Depending on how the script was invoked, we need
@@ -203,6 +205,11 @@ case "${TERMINAL}" in
       exit 1
     fi
     ;;
+
+  termux )
+    CFGFILE="${HOME}/.termux/colors.properties"
+    echo > "${CFGFILE}"
+    ;;
 esac
 
 
@@ -289,6 +296,14 @@ updateFootConfig () {
   local   name="${3}"
 
   sed -i -r -e "s/^${name}=.*/${name}=${color/\#/}/g" "${config}"
+}
+
+updateTermuxConfig() {
+  local config="${1}"
+  local  color="${2,,}"
+  local   name="${3}"
+
+  echo "${name}=${color}" >> "${config}"
 }
 
 createKonsoleEntry () {
@@ -1076,6 +1091,47 @@ apply_linux_vt () {
   fi
 }
 
+apply_termux() {
+
+  updateTermuxConfig "$CFGFILE" "$BACKGROUND_COLOR" "background"
+  updateTermuxConfig "$CFGFILE" "$FOREGROUND_COLOR" "foreground"
+
+  updateTermuxConfig "$CFGFILE" "$CURSOR_COLOR" "cursor"
+  
+  updateTermuxConfig "$CFGFILE" "$COLOR_01"         "color0"
+  updateTermuxConfig "$CFGFILE" "$COLOR_02"         "color1"
+  updateTermuxConfig "$CFGFILE" "$COLOR_03"         "color2"
+  updateTermuxConfig "$CFGFILE" "$COLOR_04"         "color3"
+  updateTermuxConfig "$CFGFILE" "$COLOR_05"         "color4"
+  updateTermuxConfig "$CFGFILE" "$COLOR_06"         "color5"
+  updateTermuxConfig "$CFGFILE" "$COLOR_07"         "color6"
+  updateTermuxConfig "$CFGFILE" "$COLOR_08"         "color7"
+  updateTermuxConfig "$CFGFILE" "$COLOR_09"         "color8"
+
+  updateTermuxConfig "$CFGFILE" "$COLOR_10"         "color9"
+  updateTermuxConfig "$CFGFILE" "$COLOR_11"         "color10"
+  updateTermuxConfig "$CFGFILE" "$COLOR_12"         "color11"
+  updateTermuxConfig "$CFGFILE" "$COLOR_13"         "color12"
+  updateTermuxConfig "$CFGFILE" "$COLOR_14"         "color13"
+  updateTermuxConfig "$CFGFILE" "$COLOR_15"         "color14"
+  updateTermuxConfig "$CFGFILE" "$COLOR_16"         "color15"
+
+  local res
+  if [[ -z "${GOGH_NONINTERACTIVE+no}" ]] && [[ -z "${GOGH_USE_NEW_THEME+no}" ]]; then
+    read -r -p "All done - apply new theme? [y/N] " -n 1
+    res="${REPLY}"
+    unset REPLY
+  elif [[ ! -z "${GOGH_USE_NEW_THEME+yes}" ]]; then
+    res="Y"
+  else
+    res="N"
+  fi
+
+  if [[ "${res}" =~ ^(y|Y) ]]; then
+    termux-reload-settings || true
+  fi
+}
+
 [[ -n "${UUIDGEN}" ]] && PROFILE_SLUG="$(uuidgen)"
 
 case "${TERMINAL}" in
@@ -1188,6 +1244,10 @@ case "${TERMINAL}" in
     apply_linux_vt
     ;;
 
+  termux )
+    apply_termux
+    ;;
+
   * )
     printserr "Unsupported terminal!"                         \
     ""                                                        \
@@ -1208,6 +1268,7 @@ case "${TERMINAL}" in
     "   konsole"                                              \
     "   linux (linux vt)"                                     \
     "   terminator"                                           \
+    "   termux"                                               \
     ""                                                        \
     "If you believe you have received this message in error," \
     "try manually setting env \`TERMINAL' with the value above." \
