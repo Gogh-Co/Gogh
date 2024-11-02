@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Dracula"
 
-export COLOR_01="#44475A"           # Black (Host)
-export COLOR_02="#FF5555"           # Red (Syntax string)
-export COLOR_03="#50FA7B"           # Green (Command)
-export COLOR_04="#FFB86C"           # Yellow (Command second)
-export COLOR_05="#8BE9FD"           # Blue (Path)
-export COLOR_06="#BD93F9"           # Magenta (Syntax var)
-export COLOR_07="#FF79C6"           # Cyan (Prompt)
-export COLOR_08="#f8f8f2"           # White
+export COLOR_01="#262626"           # Black (Host)
+export COLOR_02="#E64747"           # Red (Syntax string)
+export COLOR_03="#42E66C"           # Green (Command)
+export COLOR_04="#E4F34A"           # Yellow (Command second)
+export COLOR_05="#9B6BDF"           # Blue (Path)
+export COLOR_06="#E356A7"           # Magenta (Syntax var)
+export COLOR_07="#75D7EC"           # Cyan (Prompt)
+export COLOR_08="#F8F8F2"           # White
 
-export COLOR_09="#000000"           # Bright Black
+export COLOR_09="#7A7A7A"           # Bright Black
 export COLOR_10="#FF5555"           # Bright Red (Command error)
 export COLOR_11="#50FA7B"           # Bright Green (Exec)
-export COLOR_12="#FFB86C"           # Bright Yellow
-export COLOR_13="#8BE9FD"           # Bright Blue (Folder)
-export COLOR_14="#BD93F9"           # Bright Magenta
-export COLOR_15="#FF79C6"           # Bright Cyan
-export COLOR_16="#FFFFFF"           # Bright White
+export COLOR_12="#F1FA8C"           # Bright Yellow
+export COLOR_13="#BD93F9"           # Bright Blue (Folder)
+export COLOR_14="#FF79C6"           # Bright Magenta
+export COLOR_15="#8BE9FD"           # Bright Cyan
+export COLOR_16="#F9F9FB"           # Bright White
 
 export BACKGROUND_COLOR="#282A36"   # Background
-export FOREGROUND_COLOR="#f8f8f2"   # Foreground (Text)
+export FOREGROUND_COLOR="#F8F8F2"   # Foreground (Text)
 
-export CURSOR_COLOR="#f8f8f2" # Cursor
+export CURSOR_COLOR="#F8F8F2" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then
