@@ -8,7 +8,7 @@ with open('./data/themes.json', 'r') as f:
     themes = json.load(f)
 
 # Create or empty the directory to store the output files
-output_dir = Path('./json')
+output_dir = Path('./data/json')
 output_dir.mkdir(parents=True, exist_ok=True)
 
 # Remove existing JSON files in the directory
