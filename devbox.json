@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetpack-io/devbox/0.10.1/.schema/devbox.schema.json",
+  "packages": [
+    "python@3.12"
+  ],
+  "shell": {
+    "init_hook": ". $VENV_DIR/bin/activate",
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}
