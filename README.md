@@ -10,6 +10,8 @@
 :small_blue_diamond: <a href="http://Gogh-Co.github.io/Gogh"> Visit the Website </a> :small_blue_diamond:
 </div>
 
+[![Created Badge](https://badges.pufler.dev/created/Gogh-Co/Gogh)](https://badges.pufler.dev)
+
 ## Color scheme for your terminal
 
 Gogh is a collection of color schemes for various terminal emulators, including Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4 Terminal. These schemes are designed to make your terminal more visually appealing and improve your productivity by providing a better contrast and color differentiation.
