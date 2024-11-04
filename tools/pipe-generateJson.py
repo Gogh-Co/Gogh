@@ -59,3 +59,8 @@ themes.sort(key=lambda x: x["name"])
 # Write the themes list to the JSON file with indentation
 with open(dest_path, "w") as f:
     json.dump(themes, f, indent=2)
+
+# Write the themes list to a minified JSON file without indentation
+minified_dest_path = dest_path.with_name("themes-min.json")
+with open(minified_dest_path, "w") as f:
+    json.dump(themes, f, separators=(',', ':'))

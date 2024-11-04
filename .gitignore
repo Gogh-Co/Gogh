@@ -1,6 +1,7 @@
 gh-pages/node_modules/
 node_modules/
 venv/
+bin/
 
 .venv/
 .devbox/

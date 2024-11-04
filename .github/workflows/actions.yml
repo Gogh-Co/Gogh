@@ -10,37 +10,54 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
-
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Run python scripts
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install Python dependencies
+      run: pip install -r requirements.txt
+
+    - name: Run Python scripts
       run: |
-        echo 🏅 - requirements.txt
-        pip3 install -r requirements.txt
+        echo 🏅 - Generate JSON
+        python tools/pipe-generateJson.py
 
-        echo 🏅 - Generate json
-        python3 tools/pipe-generateJson.py
+        echo 🏅 - Generate JSON files
+        python tools/pipe-generateJsonFiles.py
 
-        echo 🏅 - Generate json files
-        python3 tools/pipe-generateJsonFiles.py
-
-        echo 🏅 - Generate Csv
-        python3 tools/pipe-generateCsv.py
+        echo 🏅 - Generate CSV
+        python tools/pipe-generateCsv.py
 
         echo 🏅 - Generate Installers
-        python3 tools/pipe-generateShFiles.py
+        python tools/pipe-generateShFiles.py
 
-        echo 🏅 - update themes in gogh file
-        python3 tools/pipe-updateThemes.py
+        echo 🏅 - Update themes in Gogh file
+        python tools/pipe-updateThemes.py
 
         echo 🏅 - Pipeline run date
-        python3 tools/pipe.py
+        python tools/pipe.py
 
-    - name: Git commit
+    - name: Set up Deno
+      uses: denoland/setup-deno@v2
+      with:
+        deno-version: v2.x
+
+    - name: Run WCAG generator script with Deno
       run: |
-        git config user.name  github-actions[bot]
+        echo 🏅 - Running WCAG generator script
+        deno run --allow-all tools/pipe-generateWcag.js
+
+    - name: Commit and push changes
+      env:
+        GIT_AUTHOR_NAME: github-actions[bot]
+        GIT_AUTHOR_EMAIL: github-actions[bot]@github.com
+      run: |
+        git config user.name github-actions[bot]
         git config user.email github-actions[bot]@github.com
         git add .
-        git commit -m "------- 🤖 Gogh 🤖 -------"
+        git commit -m "Gogh 🤖 || echo "No changes to commit"
         git push
