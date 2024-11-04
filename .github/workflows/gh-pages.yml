@@ -1,4 +1,4 @@
-name: Deploy website
+name: Deploy Nuxt 3 Site to Pages
 
 on:
   # Runs on pushes targeting the default branch
