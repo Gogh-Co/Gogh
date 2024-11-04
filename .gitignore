@@ -5,6 +5,7 @@ bin/
 
 .venv/
 .devbox/
+.nuxt/
 
 .*.swp
 .stfolder
