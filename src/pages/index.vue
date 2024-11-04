@@ -1,7 +1,8 @@
 <script setup>
-import { ref, onMounted } from 'vue';
 import chroma from 'chroma-js';
-import Terminal from './components/Terminal/Terminal.vue';
+import ClipboardJS from 'clipboard';
+
+import Terminal from '@/components/Terminal/Terminal.vue';
 
 const getUrl = 'https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json';
 
@@ -9,6 +10,7 @@ const themes = ref([]);
 const filter = ref('all');
 const themeBackgrounds = ref(null);
 const selected = ref(null);
+const filterBackgroundVisible = ref(false);
 
 function lightOrDark(color) {
     // Variables for red, green, blue values
@@ -126,8 +128,17 @@ function getBackgrounds() {
     filter.value = 'background';
 }
 
+
 function resetMenuSelected() {
     selected.value = '';
+}
+
+function toggleFilterBackground(force) {
+    if (typeof force === 'boolean') {
+        filterBackgroundVisible.value = force;
+    } else {
+        filterBackgroundVisible.value = !filterBackgroundVisible.value;
+    }
 }
 
 onMounted(async () => {
@@ -136,11 +147,12 @@ onMounted(async () => {
     themes.value.forEach((v) => {
         v.category = lightOrDark(v.background);
     });
+    new ClipboardJS('.btn-copy')
+    getBackgrounds();
 });
 </script>
 
 <template>
-
     <a href=https://github.com/Gogh-Co/Gogh>
         <img
             loading="lazy"
@@ -153,6 +165,7 @@ onMounted(async () => {
             data-recalc-dims="1">
     </a>
 
+
     <header class="gogh-header">
         <h1>
             <span> Gogh </span>
@@ -160,17 +173,16 @@ onMounted(async () => {
         </h1>
     </header>
 
-
     <div class="gogh-content">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <h2>
-                        Color Scheme for Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4&nbsp;Terminal
+                        Color scheme for your terminal
                     </h2>
 
                     <p>
-                        Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that use Gnome Terminal, Pantheon Terminal, Tilix, or XFCE4 Terminal; initially inspired by Elementary OS Luna. Also works on iTerm for macOS.
+                        Gogh is a collection of color schemes for various terminal emulators, including Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4 Terminal. These schemes are designed to make your terminal more visually appealing and improve your productivity by providing a better contrast and color differentiation.
                     </p>
 
                     <div class=github-int>
@@ -222,7 +234,6 @@ onMounted(async () => {
             </div>
         </div>
 
-        <div class="gogh-content">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -239,24 +250,28 @@ onMounted(async () => {
                             @click="setFilter('dark'); resetMenuSelected()">
                             Dark Themes
                         </button>
-                        <button class="btn js-btn--filter-bg" :class="{ active: selected === 'background' }"
-                            @click="getBackgrounds()">
+                        <button class="btn" :class="{ active: selected === 'background' }"
+                            @click="toggleFilterBackground();">
                             by Background
                         </button>
                     </div>
                 </div>
             </div>
 
+
             <div class="row">
                 <div class="col-md-12">
-                    <div class="filter-background js-filter-background" style="display: none;">
-                        <template v-for="item in themeBackgrounds">
-                            <button class="btn btn--filter-bg" :class="{ active: filter === item.toLowerCase() }"
-                                :style="'background-color:' + item" @click="setFilter(item)">
-                                <span>{{ item.toLowerCase() }}</span>
-                            </button>
-                        </template>
-                    </div>
+                    <transition-expand>
+                        <div class="filter-background" v-show="filterBackgroundVisible">
+                            <template v-for="item in themeBackgrounds">
+                                <button class="btn btn--filter-bg" :class="{ active: filter === item.toLowerCase() }"
+                                    :style="'background-color:' + item"
+                                    @click="setFilter(item); toggleFilterBackground(false);">
+                                    <span>{{ item.toLowerCase() }}</span>
+                                </button>
+                            </template>
+                        </div>
+                    </transition-expand>
                 </div>
             </div>
         </div>
@@ -272,11 +287,14 @@ onMounted(async () => {
             </div>
         </div>
     </div>
-    </div>
 
+    <div id=master-dev style="display:none">
+        4d 69 67 75 65 6c 20 44 2e 20 51 75 69 6e 74 65 72 6f 20 2d 20 6d 69 67 75 65 6c 64 61 76 69 64 71 40 67 6d 61 69 6c 2e 63 6f 6d
+    </div>
 </template>
 
 
+
 <style lang="scss" scoped>
-@import './sass/main.scss';
+@use '@/sass/main.scss';
 </style>

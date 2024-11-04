@@ -1,0 +1,147 @@
+
+.gogh-header {
+    display: flex;
+    background-color: #0d1926;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        width: 500px;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1;
+
+        span {
+            display: block;
+            overflow: hidden;
+            color: #fff;
+            text-indent: 100%;
+            white-space: nowrap;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.theme-wrap {
+    padding: 20px 15px 5px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: left;
+    background-color: #fafafa;
+    margin-bottom: 30px;
+}
+
+.theme-header {
+    font-size: 1.25em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.theme-background {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+    font-style: italic;
+
+    .dot {
+        margin-left: 10px;
+        width: 40px;
+        border-radius: 0;
+        position: relative;
+        top: 2px;
+    }
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 2px 5px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 12px;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+
+
+.data-color {
+    text-align: left;
+}
+
+.data-hex {
+    text-align: center;
+    color: #555;
+}
+
+.data-score {
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.data-score.fail {
+    color: red;
+}
+
+
+.data-ratio {
+    text-align: right;
+    color: #232323;
+    font-size: 13px;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+
+
+// region Score count
+
+.score-counts {
+    margin-top: 15px;
+    font-size: 0.9em;
+
+    h3 {
+        font-size: 18px;
+        font-weight: 900;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            margin-right: 10px;
+            font-weight: bold;
+            font-size: 16px;
+            color: #9a9a9a;
+
+            span {
+                font-weight: normal;
+                color: #333;
+            }
+        }
+    }
+
+}

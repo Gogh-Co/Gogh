@@ -1,22 +1,22 @@
 {
-  "name": "vue-project",
-  "version": "0.0.0",
+  "name": "nuxt-app",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "chroma-js": "^3.1.1",
-    "vue": "^3.4.29"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.5",
-    "sass": "^1.78.0",
-    "sass-loader": "^16.0.1",
-    "vite": "^5.3.1",
-    "vite-plugin-singlefile": "^2.0.2"
+    "@morev/vue-transitions": "^3.0.5",
+    "axios": "^1.7.7",
+    "chroma-js": "^3.1.2",
+    "clipboard": "^2.0.11",
+    "nuxt": "^3.13.2",
+    "sass": "^1.80.6",
+    "vue": "latest",
+    "vue-router": "latest"
   }
 }

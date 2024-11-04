@@ -1,5 +1,4 @@
 <script setup>
-import { defineProps } from 'vue';
 
 const props = defineProps({
     theme: {
@@ -139,5 +138,5 @@ const props = defineProps({
 </template>
 
 <style lang="scss">
-@import './Terminal.scss';
+@use './Terminal.scss';
 </style>
