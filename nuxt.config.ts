@@ -48,6 +48,10 @@ export default defineNuxtConfig({
   modules: [
     '@morev/vue-transitions/nuxt',
   ],
+  target: 'static',
+  router: {
+    base: '/Gogh/'
+  }
   devtools: { enabled: true },
   compatibilityDate: '2024-04-03'
 })
