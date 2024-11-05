@@ -194,7 +194,18 @@ GOGH_APPLY_SCRIPT=/path/to/file/apply-colors.sh bash ./selenized-dark.sh
 We have lots of themes. Check them out [here](https://Gogh-Co.github.io/Gogh/)!
 
 - themes in `json` format: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json
+- themes in `json` min format: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes-min.json
 - themes in `csv` format: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.csv
+
+<br/>
+<br/>
+
+## 👀 [WCAG](https://Gogh-Co.github.io/Gogh/wcag) - Contrast
+
+  - https://gogh-co.github.io/Gogh/wcag
+  - RAW Data: https://raw.githubusercontent.com/Gogh-Co/Gogh/refs/heads/master/data/wcag.json
+  - RAW Data min: https://raw.githubusercontent.com/Gogh-Co/Gogh/refs/heads/master/data/wcag-min.json
+  - More info: https://webaim.org/resources/contrastchecker/
 
 <br/>
 <br>
