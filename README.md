@@ -200,7 +200,7 @@ We have lots of themes. Check them out [here](https://Gogh-Co.github.io/Gogh/)!
 <br/>
 <br/>
 
-## 👀 [WCAG](https://Gogh-Co.github.io/Gogh/wcag) - Contrast
+## 👀 [WCAG](https://Gogh-Co.github.io/Gogh/wcag) - Accessibility Contrast
 
   - https://gogh-co.github.io/Gogh/wcag
   - RAW Data: https://raw.githubusercontent.com/Gogh-Co/Gogh/refs/heads/master/data/wcag.json
@@ -368,11 +368,6 @@ Now in your terminal just type `gogh`:
 ```bash
 gogh
 ```
-
-
-## ⚫ Accessibility - wcag
-
-- (PENDING)
 
 <br/>
 
