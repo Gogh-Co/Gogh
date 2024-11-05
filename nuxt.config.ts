@@ -1,6 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+target: 'static',
   app: {
+    baseURL: '/Gogh/',
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
@@ -48,10 +50,8 @@ export default defineNuxtConfig({
   modules: [
     '@morev/vue-transitions/nuxt',
   ],
-  target: 'static',
-  router: {
-    base: '/Gogh/'
-  },
+
+
   devtools: { enabled: true },
   compatibilityDate: '2024-04-03'
 })
