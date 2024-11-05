@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+            ref: website
       - run: corepack enable
       - uses: actions/setup-node@v4
         with:
