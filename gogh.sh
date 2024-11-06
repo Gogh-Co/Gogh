@@ -240,6 +240,7 @@ declare -a THEMES=(
   'moonfly.sh'
   'morada.sh'
   'n0tch2k.sh'
+  'nanosecond.sh'
   'neon-night.sh'
   'neopolitan.sh'
   'nep.sh'
