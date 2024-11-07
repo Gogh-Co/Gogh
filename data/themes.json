@@ -5359,7 +5359,7 @@
     "color_04": "#FFAA00",
     "color_05": "#00AAFF",
     "color_06": "#FF00FF",
-    "color_07": "#AA00AA",
+    "color_07": "#00AAAA",
     "color_08": "#AAAAAA",
     "color_09": "#555555",
     "color_10": "#FF5555",
@@ -5372,7 +5372,7 @@
     "background": "#112233",
     "foreground": "#FAFAFA",
     "cursor": "#FAFAFA",
-    "hash": "757b29660a5582ed5616d1162e22a0cc4ee342b3156db6f7db48de4ed6c10155"
+    "hash": "0ca6d159dece4855255e749bcdd3412310263447fdd3c4c770df5b87b5ef362e"
   },
   {
     "name": "Neon Night",
