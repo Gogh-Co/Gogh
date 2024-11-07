@@ -9,7 +9,7 @@ color_03: '#00AA00'    # Green (Command)
 color_04: '#FFAA00'    # Yellow (Command second)
 color_05: '#00AAFF'    # Blue (Path)
 color_06: '#FF00FF'    # Magenta (Syntax var)
-color_07: '#AA00AA'    # Cyan (Prompt)
+color_07: '#00AAAA'    # Cyan (Prompt)
 color_08: '#AAAAAA'    # White
 
 color_09: '#555555'    # Bright Black
