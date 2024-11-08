@@ -25671,9 +25671,9 @@
       },
       {
         "Color": "color_07",
-        "Hex": "#AA00AA",
-        "Score": "Fail",
-        "Ratio": "2.5"
+        "Hex": "#00AAAA",
+        "Score": "AA",
+        "Ratio": "5.6"
       },
       {
         "Color": "color_08",
@@ -25738,9 +25738,9 @@
     ],
     "scoreCounts": {
       "AAA": 9,
-      "Fail": 3,
+      "Fail": 2,
       "AA Large": 1,
-      "AA": 5
+      "AA": 6
     }
   },
   {
