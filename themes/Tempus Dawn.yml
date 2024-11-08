@@ -1,0 +1,27 @@
+---
+name: 'Tempus Dawn'
+author: 'Protesilaos Stavrou (https://protesilaos.com)'             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'light'            # dark or light
+
+color_01: '#4a4b4e'    # Black (Host)
+color_02: '#a32a3a'    # Red (Syntax string)
+color_03: '#206620'    # Green (Command)
+color_04: '#745300'    # Yellow (Command second)
+color_05: '#4b529a'    # Blue (Path)
+color_06: '#8d377e'    # Magenta (Syntax var)
+color_07: '#086784'    # Cyan (Prompt)
+color_08: '#dee2e0'    # White
+
+color_09: '#676364'    # Bright Black
+color_10: '#a64822'    # Bright Red (Command error)
+color_11: '#187408'    # Bright Green (Exec)
+color_12: '#8b590a'    # Bright Yellow
+color_13: '#5c59b2'    # Bright Blue (Folder)
+color_14: '#8e45a8'    # Bright Magenta
+color_15: '#3f649c'    # Bright Cyan
+color_16: '#eff0f2'    # Bright White
+
+background: '#eff0f2'  # Background
+foreground: '#4a4b4e'  # Foreground (Text)
+
+cursor: '#4a4b4e'      # Cursor

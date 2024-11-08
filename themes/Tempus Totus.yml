@@ -1,0 +1,27 @@
+---
+name: 'Tempus Totus'
+author: 'Protesilaos Stavrou (https://protesilaos.com)'             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'light'            # dark or light
+
+color_01: '#4a484d'    # Black (Host)
+color_02: '#a50000'    # Red (Syntax string)
+color_03: '#005d26'    # Green (Command)
+color_04: '#714700'    # Yellow (Command second)
+color_05: '#1d3ccf'    # Blue (Path)
+color_06: '#88267a'    # Magenta (Syntax var)
+color_07: '#185570'    # Cyan (Prompt)
+color_08: '#efefef'    # White
+
+color_09: '#5e4b4f'    # Bright Black
+color_10: '#992030'    # Bright Red (Command error)
+color_11: '#4a5500'    # Bright Green (Exec)
+color_12: '#8a3600'    # Bright Yellow
+color_13: '#2d45b0'    # Bright Blue (Folder)
+color_14: '#700dc9'    # Bright Magenta
+color_15: '#005289'    # Bright Cyan
+color_16: '#ffffff'    # Bright White
+
+background: '#ffffff'  # Background
+foreground: '#4a484d'  # Foreground (Text)
+
+cursor: '#4a484d'      # Cursor
