@@ -1,0 +1,27 @@
+---
+name: 'Tempus Fugit'
+author: 'Protesilaos Stavrou (https://protesilaos.com)'             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'light'            # dark or light
+
+color_01: '#4d595f'    # Black (Host)
+color_02: '#c61a14'    # Red (Syntax string)
+color_03: '#357200'    # Green (Command)
+color_04: '#825e00'    # Yellow (Command second)
+color_05: '#1666b0'    # Blue (Path)
+color_06: '#a83884'    # Magenta (Syntax var)
+color_07: '#007072'    # Cyan (Prompt)
+color_08: '#efe6e4'    # White
+
+color_09: '#796271'    # Bright Black
+color_10: '#b93f1a'    # Bright Red (Command error)
+color_11: '#437520'    # Bright Green (Exec)
+color_12: '#985900'    # Bright Yellow
+color_13: '#485adf'    # Bright Blue (Folder)
+color_14: '#a234c0'    # Bright Magenta
+color_15: '#00756a'    # Bright Cyan
+color_16: '#fff5f3'    # Bright White
+
+background: '#fff5f3'  # Background
+foreground: '#4d595f'  # Foreground (Text)
+
+cursor: '#4d595f'      # Cursor

@@ -1,0 +1,27 @@
+---
+name: 'Tempus Night'
+author: 'Protesilaos Stavrou (https://protesilaos.com)'             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#1a1a1a'    # Black (Host)
+color_02: '#ff929f'    # Red (Syntax string)
+color_03: '#5fc940'    # Green (Command)
+color_04: '#c5b300'    # Yellow (Command second)
+color_05: '#5fb8ff'    # Blue (Path)
+color_06: '#ef91df'    # Magenta (Syntax var)
+color_07: '#1dc5c3'    # Cyan (Prompt)
+color_08: '#c4bdaf'    # White
+
+color_09: '#242536'    # Bright Black
+color_10: '#f69d6a'    # Bright Red (Command error)
+color_11: '#88c400'    # Bright Green (Exec)
+color_12: '#d7ae00'    # Bright Yellow
+color_13: '#8cb4f0'    # Bright Blue (Folder)
+color_14: '#de99f0'    # Bright Magenta
+color_15: '#00ca9a'    # Bright Cyan
+color_16: '#e0e0e0'    # Bright White
+
+background: '#1a1a1a'  # Background
+foreground: '#e0e0e0'  # Foreground (Text)
+
+cursor: '#e0e0e0'      # Cursor

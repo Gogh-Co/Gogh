@@ -1,0 +1,27 @@
+---
+name: 'Tempus Autumn'
+author: 'Protesilaos Stavrou (https://protesilaos.com)'             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#302420'    # Black (Host)
+color_02: '#f46f55'    # Red (Syntax string)
+color_03: '#85a400'    # Green (Command)
+color_04: '#b09640'    # Yellow (Command second)
+color_05: '#799aca'    # Blue (Path)
+color_06: '#df798e'    # Magenta (Syntax var)
+color_07: '#52a885'    # Cyan (Prompt)
+color_08: '#a8948a'    # White
+
+color_09: '#36302a'    # Bright Black
+color_10: '#e27e3d'    # Bright Red (Command error)
+color_11: '#43aa7a'    # Bright Green (Exec)
+color_12: '#ba9400'    # Bright Yellow
+color_13: '#958fdf'    # Bright Blue (Folder)
+color_14: '#ce7dc4'    # Bright Magenta
+color_15: '#2fa6b7'    # Bright Cyan
+color_16: '#a9a2a6'    # Bright White
+
+background: '#302420'  # Background
+foreground: '#a9a2a6'  # Foreground (Text)
+
+cursor: '#a9a2a6'      # Cursor
