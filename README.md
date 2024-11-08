@@ -35,7 +35,7 @@ The inspiration for Gogh came from the clean and minimalistic design of Elementa
 - [Terminals](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-terminals)
 - [Themes](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-themes)
 - [Help](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-help)
-- [Create your own theme](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-how-to-ceate-your-own-theme)
+- [Create your own theme](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-how-to-create-your-own-theme)
 - [As command line](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-as-command-line)
 - [Accessibility - wcag](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-accessibility---wcag)
 - [First commit](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-first-commit)
@@ -276,7 +276,7 @@ source .bashrc
 <br>
 <br>
 
-## 🖼️ How to ceate your own theme
+## 🖼️ How to create your own theme
 
 Good news! Contributing with new themes is now easier and less intimidating.
 
