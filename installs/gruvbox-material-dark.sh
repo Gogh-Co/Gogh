@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PROFILE_NAME="Gruvbox Material"
+export PROFILE_NAME="Gruvbox Material Dark"
 
 export COLOR_01="#3C3836"           # Black (Host)
 export COLOR_02="#EA6962"           # Red (Syntax string)
