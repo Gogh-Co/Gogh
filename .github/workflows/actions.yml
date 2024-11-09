@@ -18,38 +18,34 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Install Python dependencies
+    - name: 🏅 Install Python dependencies
       run: pip install -r requirements.txt
 
-    - name: Run Python scripts
-      run: |
-        echo 🏅 - Generate JSON
-        python tools/pipe-generateJson.py
+    - name: 🏅 Run Python scripts
+      run: python tools/pipe-generateJson.py
 
-        echo 🏅 - Generate JSON files
-        python tools/pipe-generateJsonFiles.py
+    - name: 🏅 Generate JSON files
+      run: python tools/pipe-generateJsonFiles.py
 
-        echo 🏅 - Generate CSV
-        python tools/pipe-generateCsv.py
+    - name: 🏅 Generate CSV
+      run: python tools/pipe-generateCsv.py
 
-        echo 🏅 - Generate Installers
-        python tools/pipe-generateShFiles.py
+    - name: 🏅 Generate Installers
+      run: python tools/pipe-generateShFiles.py
 
-        echo 🏅 - Update themes in Gogh file
-        python tools/pipe-updateThemes.py
+    - name: 🏅 Update themes in Gogh file
+      run: python tools/pipe-updateThemes.py
 
-        echo 🏅 - Pipeline run date
-        python tools/pipe.py
+    - name: 🏅 Pipeline run date
+      run: python tools/pipe.py
 
     - name: Set up Deno
       uses: denoland/setup-deno@v2
       with:
         deno-version: v2.x
 
-    - name: Run WCAG generator script with Deno
-      run: |
-        echo 🏅 - Running WCAG generator script
-        deno run --allow-all tools/pipe-generateWcag.js
+    - name: 🏅 Run WCAG generator script with Deno
+      run: deno run --allow-all tools/pipe-generateWcag.js
 
     - name: Commit and push changes
       env:

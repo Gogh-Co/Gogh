@@ -1,10 +1,8 @@
 import { ratio, score } from 'npm:wcag-color';
-import axios from 'npm:axios';
 import fs from 'node:fs';
 
 async function generateReport() {
-  const response = await axios.get('https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json');
-  const themes = response.data;
+  const themes = JSON.parse(fs.readFileSync('data/themes.json', 'utf-8'));
 
   const report = themes.map(theme => {
     const background = theme.background;
