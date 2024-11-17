@@ -1,0 +1,27 @@
+---
+name: 'Ayaka'
+author: 'Ruhannn (https://github.com/ruhannn)'     # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#36283d'    # Black (Host)
+color_02: '#71ADE9'    # Red (Syntax string)
+color_03: '#AB8CAE'    # Green (Command)
+color_04: '#9EA0D3'    # Yellow (Command second)
+color_05: '#8BB8E9'    # Blue (Path)
+color_06: '#E1B4CE'    # Magenta (Syntax var)
+color_07: '#cedaeb'    # Cyan (Prompt)
+color_08: '#9098a4'    # White
+
+color_09: '#71ADE9'    # Bright Black
+color_10: '#AB8CAE'    # Bright Red (Command error)
+color_11: '#E59DB1'    # Bright Green (Exec)
+color_12: '#9EA0D3'    # Bright Yellow
+color_13: '#8BB8E9'    # Bright Blue (Folder)
+color_14: '#E1B4CE'    # Bright Magenta
+color_15: '#cedaeb'    # Bright Cyan
+color_16: '#FFFEFE'    # Bright White
+
+background: '#36283d'  # Background
+foreground: '#cedaeb'  # Foreground (Text)
+
+cursor: '#cedaeb'      # Cursor
