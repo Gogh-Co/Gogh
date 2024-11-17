@@ -49,6 +49,7 @@ declare -a THEMES=(
   'atelier-sulphurpool.sh'
   'atom.sh'
   'aura.sh'
+  'ayaka.sh'
   'ayu-dark.sh'
   'ayu-light.sh'
   'ayu-mirage.sh'
