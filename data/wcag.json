@@ -23360,6 +23360,126 @@
     }
   },
   {
+    "theme": "Minimalist Dark",
+    "background": "#13141f",
+    "results": [
+      {
+        "Color": "Foreground",
+        "Hex": "#F5F5F5",
+        "Score": "AAA",
+        "Ratio": "16.8"
+      },
+      {
+        "Color": "color_01",
+        "Hex": "#F5F5F5",
+        "Score": "AAA",
+        "Ratio": "16.8"
+      },
+      {
+        "Color": "color_02",
+        "Hex": "#B81414",
+        "Score": "Fail",
+        "Ratio": "2.7"
+      },
+      {
+        "Color": "color_03",
+        "Hex": "#205843",
+        "Score": "Fail",
+        "Ratio": "2.2"
+      },
+      {
+        "Color": "color_04",
+        "Hex": "#D28F79",
+        "Score": "AA",
+        "Ratio": "6.9"
+      },
+      {
+        "Color": "color_05",
+        "Hex": "#AA5A24",
+        "Score": "AA Large",
+        "Ratio": "3.7"
+      },
+      {
+        "Color": "color_06",
+        "Hex": "#582957",
+        "Score": "Fail",
+        "Ratio": "1.6"
+      },
+      {
+        "Color": "color_07",
+        "Hex": "#FE8330",
+        "Score": "AAA",
+        "Ratio": "7.4"
+      },
+      {
+        "Color": "color_08",
+        "Hex": "#A5A2A2",
+        "Score": "AAA",
+        "Ratio": "7.2"
+      },
+      {
+        "Color": "color_09",
+        "Hex": "#5C5855",
+        "Score": "Fail",
+        "Ratio": "2.6"
+      },
+      {
+        "Color": "color_10",
+        "Hex": "#E8BBD0",
+        "Score": "AAA",
+        "Ratio": "10.8"
+      },
+      {
+        "Color": "color_11",
+        "Hex": "#006400",
+        "Score": "Fail",
+        "Ratio": "2.5"
+      },
+      {
+        "Color": "color_12",
+        "Hex": "#4A4543",
+        "Score": "Fail",
+        "Ratio": "1.9"
+      },
+      {
+        "Color": "color_13",
+        "Hex": "#A16A94",
+        "Score": "AA Large",
+        "Ratio": "4.4"
+      },
+      {
+        "Color": "color_14",
+        "Hex": "#A020F0",
+        "Score": "AA Large",
+        "Ratio": "3.5"
+      },
+      {
+        "Color": "color_15",
+        "Hex": "#FF69B4",
+        "Score": "AA",
+        "Ratio": "6.9"
+      },
+      {
+        "Color": "color_16",
+        "Hex": "#CACAD0",
+        "Score": "AAA",
+        "Ratio": "11.2"
+      },
+      {
+        "Color": "cursor",
+        "Hex": "#F5F5F5",
+        "Score": "AAA",
+        "Ratio": "16.8"
+      }
+    ],
+    "scoreCounts": {
+      "AAA": 7,
+      "Fail": 6,
+      "AA": 2,
+      "AA Large": 3
+    }
+  },
+  {
     "theme": "Miramare",
     "background": "#2a2426",
     "results": [

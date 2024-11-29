@@ -221,6 +221,7 @@ declare -a THEMES=(
   'material.sh'
   'mathias.sh'
   'medallion.sh'
+  'minimalist-dark.sh'
   'miramare.sh'
   'misterioso.sh'
   'modus-operandi-tinted.sh'
