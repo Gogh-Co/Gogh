@@ -47,6 +47,23 @@ jobs:
       - name: 🏅 Run WCAG generator script with Deno
         run: deno run --allow-all tools/pipe-generateWcag.js
 
+      - name: 🏅 Count total files in 'themes' directory
+        id: count_files
+        run: |
+          total_files=$(find themes -type f | wc -l)
+          echo "total_files=$total_files" >> $GITHUB_ENV
+
+      - name: 🏅 Create Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ env.total_files }}
+          release_name: Themes ${{ env.total_files }}
+          body: "Release with ${{ env.total_files }} files in the 'themes' directory."
+          draft: false
+          prerelease: false
+
       - name: 🏅 Commit and push changes
         env:
           GIT_AUTHOR_NAME: github-actions[bot]
@@ -57,18 +74,3 @@ jobs:
           git add .
           git commit -m "Gogh 🤖"
           git push
-
-      - name: 🏅 Count total files in 'themes' directory
-        id: count_files
-        run: |
-          total_files=$(find themes -type f | wc -l)
-          echo "total_files=$total_files" >> $GITHUB_ENV
-
-      - name: 🏅 Create Release
-        uses: actions/create-release@v1
-        with:
-          tag_name: v${{ env.total_files }}
-          release_name: Release ${{ env.total_files }}
-          body: "Release with ${env.total_files} files in the 'themes' directory."
-          draft: false
-          prerelease: false
