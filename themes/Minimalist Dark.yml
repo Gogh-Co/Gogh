@@ -5,10 +5,10 @@ variant: 'dark'            # dark or light
 
 color_01: '#F5F5F5'    # Black (Host)
 color_02: '#B81414'    # Red (Syntax string)
-color_03: '#205843'    # Green (Command)
+color_03: '#1B9F6B'    # Green (Command)
 color_04: '#D28F79'    # Yellow (Command second)
 color_05: '#AA5A24'    # Blue (Path)
-color_06: '#582957'    # Magenta (Syntax var)
+color_06: '#9E40A3'    # Magenta (Syntax var)
 color_07: '#FE8330'    # Cyan (Prompt)
 color_08: '#A5A2A2'    # White
 
