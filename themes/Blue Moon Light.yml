@@ -1,0 +1,28 @@
+---
+name: 'Blue Moon Light'
+author: 'kyazdani42 (https://github.com/kyazdani42/blue-moon)'
+variant: 'light'
+
+color_01: '#292d3e'	# Black (Host)
+color_02: '#d06179'	# Red (Syntax string)
+color_03: '#d0e7d0'	# Green (Command)
+color_04: '#cfcfbf'	# Yellow (Command second)
+color_05: '#959dcb'	# Blue (Path)
+color_06: '#a9a3db'	# Magenta (Syntax var)
+color_07: '#89bbdd'	# Cyan (Prompt)
+color_08: '#ffffff'	# White
+
+color_09: '#292d3e'	# Bright Black
+color_10: '#d06179'	# Bright Red (Command error)
+color_11: '#d0e7d0'	# Bright Green (Exec)
+color_12: '#cfcfbf'	# Bright Yellow
+color_13: '#959dcb'	# Bright Blue (Folder)
+color_14: '#a9a3db'	# Bright Magenta
+color_15: '#89bbdd'	# Bright Cyan
+color_16: '#ffffff'	# Bright White
+ 
+background: '#32374d'	# Background
+foreground: '#fbfbfb'	# Foreground (Text)
+
+cursor: '#fbfbfb'	# Cursor
+
