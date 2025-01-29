@@ -4,10 +4,10 @@ export PROFILE_NAME="Minimalist Dark"
 
 export COLOR_01="#F5F5F5"           # Black (Host)
 export COLOR_02="#B81414"           # Red (Syntax string)
-export COLOR_03="#205843"           # Green (Command)
+export COLOR_03="#1B9F6B"           # Green (Command)
 export COLOR_04="#D28F79"           # Yellow (Command second)
 export COLOR_05="#AA5A24"           # Blue (Path)
-export COLOR_06="#582957"           # Magenta (Syntax var)
+export COLOR_06="#9E40A3"           # Magenta (Syntax var)
 export COLOR_07="#FE8330"           # Cyan (Prompt)
 export COLOR_08="#A5A2A2"           # White
 

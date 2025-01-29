@@ -4,10 +4,10 @@
   "variant": "dark",
   "color_01": "#F5F5F5",
   "color_02": "#B81414",
-  "color_03": "#205843",
+  "color_03": "#1B9F6B",
   "color_04": "#D28F79",
   "color_05": "#AA5A24",
-  "color_06": "#582957",
+  "color_06": "#9E40A3",
   "color_07": "#FE8330",
   "color_08": "#A5A2A2",
   "color_09": "#5C5855",
@@ -21,5 +21,5 @@
   "background": "#13141f",
   "foreground": "#F5F5F5",
   "cursor": "#F5F5F5",
-  "hash": "7a64a4469d01f7f5da5dd7aa521c30b4afc05166e86930e0f3d22cd27d40188f"
+  "hash": "2f71775f3ae83563657ebf1f67d56f1d88939d35ea790c815333313552615c93"
 }
