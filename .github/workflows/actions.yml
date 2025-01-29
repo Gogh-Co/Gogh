@@ -19,7 +19,7 @@ jobs:
           python-version: '3.x'
 
       - name: 🏅 Install Python dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r requirements.txt --root-user-action=ignore
 
       - name: 🏅 Run Python scripts
         run: python tools/pipe-generateJson.py

@@ -6,37 +6,47 @@ import subprocess
 import yaml
 
 folder_path = "./themes"
-dest_path = './installs'
+dest_path = "./installs"
 themes = []
 
-# List files and directories in the folder
-folder_contents = os.listdir(dest_path)
+# Ensure the destination directory exists
+os.makedirs(dest_path, exist_ok=True)
 
-# Delete each file in the folder
-for item in folder_contents:
+# Remove all files in the destination directory
+for item in os.listdir(dest_path):
     item_path = os.path.join(dest_path, item)
     if os.path.isfile(item_path):
         os.remove(item_path)
 
+# Process YAML files
 for filename in os.listdir(folder_path):
     if filename.endswith(".yml"):
-        with open(os.path.join(folder_path, filename), "r") as f:
-            data = yaml.safe_load(f)
-            theme = {f"{key}": data[key] for key in data if key.startswith("color")}
-            theme.update({
-                "name": data["name"],
-                "foreground": data["foreground"],
-                "background": data["background"],
-                "cursorColor": data["cursor"]
-            })
-            themes.append(theme)
+        file_path = os.path.join(folder_path, filename)
 
+        # Read and clean YAML content
+        with open(file_path, "r") as f:
+            content = f.read()
+
+        # Replace tabs with 4 spaces to avoid YAML parsing errors
+        content = content.replace("\t", "    ")
+
+        # Load the cleaned YAML
+        data = yaml.safe_load(content)
+
+        # Build the theme dictionary
+        theme = {f"{key}": data[key] for key in data if key.startswith("color")}
+        theme.update({
+            "name": data["name"],
+            "foreground": data["foreground"],
+            "background": data["background"],
+            "cursorColor": data["cursor"]
+        })
+        themes.append(theme)
+
+# Sort themes by name
 themes = sorted(themes, key=lambda x: x["name"])
 
-colors_data = {"themes": themes}
-
-
-# create a template string for the shell script
+# Shell script template
 template = """\
 #!/usr/bin/env bash
 
@@ -91,18 +101,18 @@ else
 fi
 """
 
-# loop over the color schemes and create a new shell script for each one
-for scheme in colors_data['themes']:
-    # convert the scheme name to lowercase, replace spaces with dashes, remove accents, and replace non-alphanumeric characters with underscores
+# Generate .sh files for each color scheme
+for scheme in themes:
+    # Convert theme name to a valid filename
     filename = re.sub(r'[^a-zA-Z0-9]+', '-', unidecode(scheme['name']).lower().replace(' ', '-'))
     filename = re.sub(r'[-]+', '-', filename).strip('-')
     filename = f"{dest_path}/{filename}.sh"
+
     with open(filename, 'w') as f:
         f.write(template.format(**scheme))
 
-# Find all files with ".sh" extension in the folder
-files = [f for f in os.listdir(dest_path) if os.path.isfile(os.path.join(dest_path, f)) and f.endswith('.sh')]
-
-# Change permissions on each file
-for f in files:
-    subprocess.run(['chmod', '775', os.path.join(dest_path, f)])
+# Change permissions for generated scripts
+for f in os.listdir(dest_path):
+    file_path = os.path.join(dest_path, f)
+    if os.path.isfile(file_path) and f.endswith('.sh'):
+        subprocess.run(['chmod', '775', file_path])

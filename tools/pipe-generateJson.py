@@ -17,9 +17,15 @@ if dest_path.exists():
 # Iterate over all .yml files in the source directory
 for filepath in source_path.glob("*.yml"):
     with open(filepath, "r") as f:
-        data = yaml.safe_load(f)
+        content = f.read()
 
-    # Concatenate all values into a single string for hashing
+    # Replace tabs with 4 spaces
+    content = content.replace("\t", "    ")
+
+    # Load the corrected YAML file
+    data = yaml.safe_load(content)
+
+    # Concatenate all values into a single string to generate a hash
     values = ''.join(str(value) for value in data.values())
 
     # Generate SHA-256 hash
