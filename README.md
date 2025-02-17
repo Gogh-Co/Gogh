@@ -1,5 +1,5 @@
 <h1 align="center">
-  Gogh
+  Gogh + Vaombe (Added)
 </h1>
 
 <div align="center">
@@ -12,9 +12,9 @@
 
 [![Created Badge](https://badges.pufler.dev/created/Gogh-Co/Gogh)](https://badges.pufler.dev)
 
-## Color scheme for your terminal
+## Color Scheme Implementer for Terminals
 
-Gogh is a collection of color schemes for various terminal emulators, including Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4 Terminal. These schemes are designed to make your terminal more visually appealing and improve your productivity by providing a better contrast and color differentiation.
+Gogh is a collection of color schemes for various terminal emulators, including Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4 Terminal. These schemes are designed to make your terminal more visually appealing and improve your productivity by providing a better contrast and color differentiation. (This fork of Gogh includes a color scheme named "Vaombe".)
 
 The inspiration for Gogh came from the clean and minimalistic design of Elementary OS, but the project has since grown to include a variety of unique and beautiful options. Not only does Gogh work on Linux systems, but it's also compatible with iTerm on macOS, providing a consistent and visually appealing experience across platforms.
 
@@ -30,21 +30,21 @@ The inspiration for Gogh came from the clean and minimalistic design of Elementa
 <br>
 
 - [Pre-Install](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-pre-install)
-- **[Install 📦](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-install)**
-- [Install (non-interactive mode)](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-install-non-interactive-mode)
-- [Terminals](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-terminals)
-- [Themes](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-themes)
+- **[Install](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-install)**
+- [Install (Non-Interactive mode)](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-install-non-interactive-mode)
+- [Terminal Support](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-terminals)
+- [Available Themes](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-themes)
 - [Help](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-help)
-- [Create your own theme](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-how-to-create-your-own-theme)
-- [As command line](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-as-command-line)
-- [Accessibility - wcag](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-accessibility---wcag)
+- [Create your Own Theme!](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-how-to-create-your-own-theme)
+- [As Command line](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-as-command-line)
+- [Accessibility ~ WCAG](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-accessibility---wcag)
 - [First commit](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-first-commit)
 - [Credits](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#heart-credits)
 - [Contributors](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#heart-contributors)
 - [Author](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-author-contributor)
 - [Why Gogh?](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-why-gogh)
 - [Mentions](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-mentions)
-- [Stargazers over time](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-stargazers-over-time)
+- [*Stargazers Over Time*](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-stargazers-over-time)
 
 </td>
 <td>
@@ -61,28 +61,28 @@ The inspiration for Gogh came from the clean and minimalistic design of Elementa
 
 ## ⚙️ Pre-Install
 
-In your terminal type:
+In your terminal, type:
 
-**Debian/Ubuntu**
+For **Debian/Ubuntu:**
 
 ```bash
 sudo apt-get install dconf-cli uuid-runtime
 ```
 
-**Arch Linux**
+For **Arch Linux:**
 
 ```bash
 sudo pacman -S dconf util-linux-libs
 ```
 
-You can now install in interactive mode (easy) or non-interactive mode (ideal for scripting)
+You can now install Gogh in Interactive Mode (Easier) or Non-Interactive Mode! (Ideal for Scripting)
 
 <br>
 <br>
 
-## 📦 **Install**
+## **Install**
 
-Interactive mode
+### Interactive Mode:
 
 **1. Just copy and paste this one-line command:**
 
@@ -90,13 +90,13 @@ Interactive mode
 bash -c "$(wget -qO- https://git.io/vQgMr)"
 ```
 
-Or, if you are a Mac user:
+Or, if you're a Mac user:
 
 ```bash
 bash -c "$(curl -sLo- https://git.io/vQgMr)"
 ```
 
-**2. Select the color theme installed from the terminal**
+**2. Select your installed theme from your terminal.**
 
 **DEMO:**
 
@@ -106,12 +106,12 @@ bash -c "$(curl -sLo- https://git.io/vQgMr)"
 <br/>
 
 
-## ⚙️ Install (non-interactive mode)
+## ⚙️ Install (Non-Interactive Mode)
 Two ways:
-* Clone repo
-* Download only required files (bare minimum)
+* Clone the repository.
+* Download the only required files. (Bare Minimum!)
 
-### Clone repo
+### Clone Repository
 ```bash
 # Clone the repo into "$HOME/src/gogh"
 mkdir -p "$HOME/src"
@@ -134,7 +134,7 @@ cd installs
 ./dracula.sh
 ```
 
-### Download only required files (bare minimum)
+### Download the only required files. (Bare Minimum!)
 ```bash
 # Download apply script
 wget https://github.com/Gogh-Co/Gogh/raw/master/apply-colors.sh
@@ -169,7 +169,8 @@ GOGH_APPLY_SCRIPT=/path/to/file/apply-colors.sh bash ./selenized-dark.sh
 <br/>
 <br/>
 
-## 💻 Terminals
+## 💻 Terminal Support
+Here are some terminals that Gogh is supported with:
 
 - Alacritty - [Web](https://github.com/alacritty/alacritty)
 - Cygwin - [Web](https://www.cygwin.com/)
@@ -191,11 +192,11 @@ GOGH_APPLY_SCRIPT=/path/to/file/apply-colors.sh bash ./selenized-dark.sh
 
 ## 🎨 [Themes](https://Gogh-Co.github.io/Gogh/)
 
-We have lots of themes. Check them out [here](https://Gogh-Co.github.io/Gogh/)!
+We have lots of themes in stock! Check them out [here](https://Gogh-Co.github.io/Gogh/)!
 
-- themes in `json` format: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json
-- themes in `json` min format: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes-min.json
-- themes in `csv` format: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.csv
+- Themes in `json` format: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json
+- Themes in `json` min format: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes-min.json
+- Themes in `csv` format: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.csv
 
 <br/>
 <br/>
@@ -204,8 +205,8 @@ We have lots of themes. Check them out [here](https://Gogh-Co.github.io/Gogh/)!
 
   - https://gogh-co.github.io/Gogh/wcag
   - RAW Data: https://raw.githubusercontent.com/Gogh-Co/Gogh/refs/heads/master/data/wcag.json
-  - RAW Data min: https://raw.githubusercontent.com/Gogh-Co/Gogh/refs/heads/master/data/wcag-min.json
-  - More info: https://webaim.org/resources/contrastchecker/
+  - RAW Data (Min): https://raw.githubusercontent.com/Gogh-Co/Gogh/refs/heads/master/data/wcag-min.json
+  - More information: https://webaim.org/resources/contrastchecker/
 
 <br/>
 <br>
@@ -222,7 +223,7 @@ We have lots of themes. Check them out [here](https://Gogh-Co.github.io/Gogh/)!
 
 #### [Fix 1](https://github.com/Gogh-Co/Gogh/issues/63#issuecomment-361071956) (@romzie):
 
-- reset your profiles:
+- Reset your profiles:
 
 ```bash
 dconf reset -f /org/gnome/terminal/legacy/profiles:/
@@ -236,11 +237,11 @@ dconf reset -f /org/gnome/terminal/legacy/profiles:/
 dconf reset -f /org/gnome/terminal/legacy/profiles:/
 ```
 
-- Close your terminal. Re-open the terminal.
+- Close your terminal; re-open it.
 - Go to **Edit** ---> **Preferences** ---> **Profiles**.
-- Create NEW profile called **Default**.
-- Close the terminal. Re-open the terminal.
-- Confirm **Default** is still listed in your profiles.
+- Create a **new** profile called **Default**.
+- Close the terminal. re-open it.
+- Confirm that **Default** is still listed in your profiles.
 - If it is, run the Gogh script again.
 
 #### [Fix 3](https://github.com/Gogh-Co/Gogh/issues/63#issuecomment-401510226) (@sui74):
@@ -256,12 +257,12 @@ dconf reset -f /org/gnome/terminal/legacy/profiles:/
 ```bash
 sudo apt install uuid-runtime
 ```
-- run Gogh script.
+- Run the Gogh script.
 
 
 ### 🔹 Elementary OS
 
-1 - Uncomment the following line in `.bashrc` you can find this file in your `/home/USER/` directory.
+1 - Uncomment the following line in `.bashrc` ;you can find this file in your `/home/USER/` directory.
 
 ```bash
     #force_color_prompt=yes
@@ -276,31 +277,30 @@ source .bashrc
 <br>
 <br>
 
-## 🖼️ How to create your own theme
+## 🖼️ Create your Own Theme!
+Good news! Now, creating themes are easier than ever.
 
-Good news! Contributing with new themes is now easier and less intimidating.
+All you need to do is to create a YAML format file, following the example of the other files in the `themes` folder.
 
-You just need to create a YAML format file, following the example of the other files in the `themes` folder.
-
-Please keep in mind a few simple rules.
+Some rules to keep in mind:
 
 - The file name should match the name of the theme. For example:
-    - **Filename**: `Adventure Time.yml`
-    - **Inside the .yml file**: `name: 'Adventure Time'`
+    - **Filename**: `Solarized Dark.yml`
+    - **Inside the .yml file**: `name: 'Solarized Dark'`
 - Use title case for all words by capitalizing their first letter.
 - Ensure that the contrast is sufficient for good legibility.
 
-**Now you can send Pull Request.**
+***Now, you can send your Pull Request***
+**Thank you for collaborating!**
 
-**Thank you!**
-
-### Theme .yml example
+### Theme ".yml" template
+If you indeed use this, replace the HEX values with your own ones.
 
 ```yml
 ---
 name: 'Gogh'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
-variant: ''            # dark or light
+author: ''             # 'Author Name (http://website.com)'
+variant: ''            # Dark or Light
 
 color_01: '#292D3E'    # Black (Host)
 color_02: '#F07178'    # Red (Syntax string)
@@ -469,6 +469,6 @@ There is no blue without yellow and without orange.
 
 <br/>
 
-## 🌟 Stargazers over time
+## 🌟 Stargazers Over Time
 
 [![Stargazers over time](https://starchart.cc/Gogh-Co/Gogh.svg)](https://starchart.cc/Gogh-Co/Gogh)
