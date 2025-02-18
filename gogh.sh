@@ -366,6 +366,7 @@ declare -a THEMES=(
   'ura.sh'
   'urple.sh'
   'vag.sh'
+  'vaombe.sh'
   'vaughn.sh'
   'vibrant-ink.sh'
   'vs-code-dark.sh'
