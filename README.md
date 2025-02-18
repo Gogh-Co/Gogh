@@ -1,5 +1,5 @@
 <h1 align="center">
-  Gogh + Vaombe (Added)
+  Gogh
 </h1>
 
 <div align="center">
