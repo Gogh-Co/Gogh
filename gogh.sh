@@ -35,6 +35,8 @@ declare -a THEMES=(
   'afterglow.sh'
   'alien-blood.sh'
   'apprentice.sh'
+  'arc-dark.sh'
+  'arc-light.sh'
   'argonaut.sh'
   'arthur.sh'
   'astrodark.sh'
