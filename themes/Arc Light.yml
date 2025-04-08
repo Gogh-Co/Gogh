@@ -1,0 +1,27 @@
+---
+name:    'Arc Light'
+author:  'https://hesamrad.com'
+variant: 'Light'
+
+color_01: '#0D1117'    # Black (Host)
+color_02: '#C32424'    # Red (Syntax string)
+color_03: '#24C391'    # Green (Command)
+color_04: '#C3A924'    # Yellow (Command second)
+color_05: '#2455C3'    # Blue (Path)
+color_06: '#C224C3'    # Magenta (Syntax var)
+color_07: '#24BAC3'    # Cyan (Prompt)
+color_08: '#E8ECF2'    # White
+
+color_09: '#3B4D68'    # Bright Black
+color_10: '#BE2323'    # Bright Red (Command error)
+color_11: '#23BE8D'    # Bright Green (Exec)
+color_12: '#BEA423'    # Bright Yellow
+color_13: '#2351BE'    # Bright Blue (Folder)
+color_14: '#BE23BE'    # Bright Magenta
+color_15: '#23B6BE'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#E8ECF2'  # Background
+foreground: '#333333'  # Foreground (Text)
+
+cursor: '#00FF00'      # Cursor
