@@ -25982,6 +25982,485 @@
     }
   },
   {
+    "theme": "Monokai Pro Light",
+    "background": "#FEFAF9",
+    "results": [
+      {
+        "Color": "Foreground",
+        "Hex": "#29242A",
+        "Score": "AAA",
+        "Ratio": "14.7"
+      },
+      {
+        "Color": "color_01",
+        "Hex": "#FEFAF9",
+        "Score": "Fail",
+        "Ratio": "1.0"
+      },
+      {
+        "Color": "color_02",
+        "Hex": "#E14775",
+        "Score": "AA Large",
+        "Ratio": "3.8"
+      },
+      {
+        "Color": "color_03",
+        "Hex": "#269D69",
+        "Score": "AA Large",
+        "Ratio": "3.3"
+      },
+      {
+        "Color": "color_04",
+        "Hex": "#CC7A0A",
+        "Score": "AA Large",
+        "Ratio": "3.2"
+      },
+      {
+        "Color": "color_05",
+        "Hex": "#E16032",
+        "Score": "AA Large",
+        "Ratio": "3.4"
+      },
+      {
+        "Color": "color_06",
+        "Hex": "#7058BE",
+        "Score": "AA",
+        "Ratio": "5.3"
+      },
+      {
+        "Color": "color_07",
+        "Hex": "#1C8CA8",
+        "Score": "AA Large",
+        "Ratio": "3.8"
+      },
+      {
+        "Color": "color_08",
+        "Hex": "#29242A",
+        "Score": "AAA",
+        "Ratio": "14.7"
+      },
+      {
+        "Color": "color_09",
+        "Hex": "#6E6B6A",
+        "Score": "AA",
+        "Ratio": "5.1"
+      },
+      {
+        "Color": "color_10",
+        "Hex": "#E14775",
+        "Score": "AA Large",
+        "Ratio": "3.8"
+      },
+      {
+        "Color": "color_11",
+        "Hex": "#269D69",
+        "Score": "AA Large",
+        "Ratio": "3.3"
+      },
+      {
+        "Color": "color_12",
+        "Hex": "#CC7A0A",
+        "Score": "AA Large",
+        "Ratio": "3.2"
+      },
+      {
+        "Color": "color_13",
+        "Hex": "#E16032",
+        "Score": "AA Large",
+        "Ratio": "3.4"
+      },
+      {
+        "Color": "color_14",
+        "Hex": "#7058BE",
+        "Score": "AA",
+        "Ratio": "5.3"
+      },
+      {
+        "Color": "color_15",
+        "Hex": "#1C8CA8",
+        "Score": "AA Large",
+        "Ratio": "3.8"
+      },
+      {
+        "Color": "color_16",
+        "Hex": "#29242A",
+        "Score": "AAA",
+        "Ratio": "14.7"
+      },
+      {
+        "Color": "cursor",
+        "Hex": "#29242A",
+        "Score": "AAA",
+        "Ratio": "14.7"
+      }
+    ],
+    "scoreCounts": {
+      "AAA": 4,
+      "Fail": 1,
+      "AA Large": 10,
+      "AA": 3
+    }
+  },
+  {
+    "theme": "Monokai Pro Light Sun",
+    "background": "#FDF7F3",
+    "results": [
+      {
+        "Color": "Foreground",
+        "Hex": "#2C232E",
+        "Score": "AAA",
+        "Ratio": "14.3"
+      },
+      {
+        "Color": "color_01",
+        "Hex": "#FDF7F3",
+        "Score": "Fail",
+        "Ratio": "1.0"
+      },
+      {
+        "Color": "color_02",
+        "Hex": "#CE4770",
+        "Score": "AA Large",
+        "Ratio": "4.2"
+      },
+      {
+        "Color": "color_03",
+        "Hex": "#218871",
+        "Score": "AA Large",
+        "Ratio": "4.1"
+      },
+      {
+        "Color": "color_04",
+        "Hex": "#B16803",
+        "Score": "AA Large",
+        "Ratio": "4.1"
+      },
+      {
+        "Color": "color_05",
+        "Hex": "#D4572B",
+        "Score": "AA Large",
+        "Ratio": "3.8"
+      },
+      {
+        "Color": "color_06",
+        "Hex": "#6851A2",
+        "Score": "AA",
+        "Ratio": "6.0"
+      },
+      {
+        "Color": "color_07",
+        "Hex": "#2473B6",
+        "Score": "AA",
+        "Ratio": "4.7"
+      },
+      {
+        "Color": "color_08",
+        "Hex": "#2C232E",
+        "Score": "AAA",
+        "Ratio": "14.3"
+      },
+      {
+        "Color": "color_09",
+        "Hex": "#595451",
+        "Score": "AAA",
+        "Ratio": "7.0"
+      },
+      {
+        "Color": "color_10",
+        "Hex": "#CE4770",
+        "Score": "AA Large",
+        "Ratio": "4.2"
+      },
+      {
+        "Color": "color_11",
+        "Hex": "#218871",
+        "Score": "AA Large",
+        "Ratio": "4.1"
+      },
+      {
+        "Color": "color_12",
+        "Hex": "#B16803",
+        "Score": "AA Large",
+        "Ratio": "4.1"
+      },
+      {
+        "Color": "color_13",
+        "Hex": "#D4572B",
+        "Score": "AA Large",
+        "Ratio": "3.8"
+      },
+      {
+        "Color": "color_14",
+        "Hex": "#6851A2",
+        "Score": "AA",
+        "Ratio": "6.0"
+      },
+      {
+        "Color": "color_15",
+        "Hex": "#2473B6",
+        "Score": "AA",
+        "Ratio": "4.7"
+      },
+      {
+        "Color": "color_16",
+        "Hex": "#2C232E",
+        "Score": "AAA",
+        "Ratio": "14.3"
+      },
+      {
+        "Color": "cursor",
+        "Hex": "#2C232E",
+        "Score": "AAA",
+        "Ratio": "14.3"
+      }
+    ],
+    "scoreCounts": {
+      "AAA": 5,
+      "Fail": 1,
+      "AA Large": 8,
+      "AA": 4
+    }
+  },
+  {
+    "theme": "Monokai Pro Machine",
+    "background": "#273136",
+    "results": [
+      {
+        "Color": "Foreground",
+        "Hex": "#F2FFFC",
+        "Score": "AAA",
+        "Ratio": "13.0"
+      },
+      {
+        "Color": "color_01",
+        "Hex": "#273136",
+        "Score": "Fail",
+        "Ratio": "1.0"
+      },
+      {
+        "Color": "color_02",
+        "Hex": "#FF6D7E",
+        "Score": "AA",
+        "Ratio": "4.9"
+      },
+      {
+        "Color": "color_03",
+        "Hex": "#A2E57B",
+        "Score": "AAA",
+        "Ratio": "8.9"
+      },
+      {
+        "Color": "color_04",
+        "Hex": "#FFED72",
+        "Score": "AAA",
+        "Ratio": "11.2"
+      },
+      {
+        "Color": "color_05",
+        "Hex": "#FFB270",
+        "Score": "AAA",
+        "Ratio": "7.5"
+      },
+      {
+        "Color": "color_06",
+        "Hex": "#BAA0F8",
+        "Score": "AA",
+        "Ratio": "6.0"
+      },
+      {
+        "Color": "color_07",
+        "Hex": "#7CD5F1",
+        "Score": "AAA",
+        "Ratio": "8.0"
+      },
+      {
+        "Color": "color_08",
+        "Hex": "#F2FFFC",
+        "Score": "AAA",
+        "Ratio": "13.0"
+      },
+      {
+        "Color": "color_09",
+        "Hex": "#ADB1B4",
+        "Score": "AA",
+        "Ratio": "6.2"
+      },
+      {
+        "Color": "color_10",
+        "Hex": "#FF6D7E",
+        "Score": "AA",
+        "Ratio": "4.9"
+      },
+      {
+        "Color": "color_11",
+        "Hex": "#A2E57B",
+        "Score": "AAA",
+        "Ratio": "8.9"
+      },
+      {
+        "Color": "color_12",
+        "Hex": "#FFED72",
+        "Score": "AAA",
+        "Ratio": "11.2"
+      },
+      {
+        "Color": "color_13",
+        "Hex": "#FFB270",
+        "Score": "AAA",
+        "Ratio": "7.5"
+      },
+      {
+        "Color": "color_14",
+        "Hex": "#BAA0F8",
+        "Score": "AA",
+        "Ratio": "6.0"
+      },
+      {
+        "Color": "color_15",
+        "Hex": "#7CD5F1",
+        "Score": "AAA",
+        "Ratio": "8.0"
+      },
+      {
+        "Color": "color_16",
+        "Hex": "#F2FFFC",
+        "Score": "AAA",
+        "Ratio": "13.0"
+      },
+      {
+        "Color": "cursor",
+        "Hex": "#F2FFFC",
+        "Score": "AAA",
+        "Ratio": "13.0"
+      }
+    ],
+    "scoreCounts": {
+      "AAA": 12,
+      "Fail": 1,
+      "AA": 5
+    }
+  },
+  {
+    "theme": "Monokai Pro Ocatagon",
+    "background": "#3A3D4B",
+    "results": [
+      {
+        "Color": "Foreground",
+        "Hex": "#EAF2F1",
+        "Score": "AAA",
+        "Ratio": "9.5"
+      },
+      {
+        "Color": "color_01",
+        "Hex": "#3A3D4B",
+        "Score": "Fail",
+        "Ratio": "1.0"
+      },
+      {
+        "Color": "color_02",
+        "Hex": "#FF657A",
+        "Score": "AA Large",
+        "Ratio": "3.8"
+      },
+      {
+        "Color": "color_03",
+        "Hex": "#BAD761",
+        "Score": "AA",
+        "Ratio": "6.7"
+      },
+      {
+        "Color": "color_04",
+        "Hex": "#FFD76D",
+        "Score": "AAA",
+        "Ratio": "7.8"
+      },
+      {
+        "Color": "color_05",
+        "Hex": "#FF9B5E",
+        "Score": "AA",
+        "Ratio": "5.2"
+      },
+      {
+        "Color": "color_06",
+        "Hex": "#C39AC9",
+        "Score": "AA",
+        "Ratio": "4.5"
+      },
+      {
+        "Color": "color_07",
+        "Hex": "#9CD1BB",
+        "Score": "AA",
+        "Ratio": "6.3"
+      },
+      {
+        "Color": "color_08",
+        "Hex": "#EAF2F1",
+        "Score": "AAA",
+        "Ratio": "9.5"
+      },
+      {
+        "Color": "color_09",
+        "Hex": "#ADAEB4",
+        "Score": "AA",
+        "Ratio": "4.9"
+      },
+      {
+        "Color": "color_10",
+        "Hex": "#FF657A",
+        "Score": "AA Large",
+        "Ratio": "3.8"
+      },
+      {
+        "Color": "color_11",
+        "Hex": "#BAD761",
+        "Score": "AA",
+        "Ratio": "6.7"
+      },
+      {
+        "Color": "color_12",
+        "Hex": "#FFD76D",
+        "Score": "AAA",
+        "Ratio": "7.8"
+      },
+      {
+        "Color": "color_13",
+        "Hex": "#FF9B5E",
+        "Score": "AA",
+        "Ratio": "5.2"
+      },
+      {
+        "Color": "color_14",
+        "Hex": "#C39AC9",
+        "Score": "AA",
+        "Ratio": "4.5"
+      },
+      {
+        "Color": "color_15",
+        "Hex": "#9CD1BB",
+        "Score": "AA",
+        "Ratio": "6.3"
+      },
+      {
+        "Color": "color_16",
+        "Hex": "#EAF2F1",
+        "Score": "AAA",
+        "Ratio": "9.5"
+      },
+      {
+        "Color": "cursor",
+        "Hex": "#EAF2F1",
+        "Score": "AAA",
+        "Ratio": "9.5"
+      }
+    ],
+    "scoreCounts": {
+      "AAA": 6,
+      "Fail": 1,
+      "AA Large": 2,
+      "AA": 9
+    }
+  },
+  {
     "theme": "Monokai Pro Ristretto",
     "background": "#3E3838",
     "results": [
@@ -26099,6 +26578,126 @@
       "Fail": 2,
       "AA Large": 2,
       "AA": 4
+    }
+  },
+  {
+    "theme": "Monokai Pro Spectrum",
+    "background": "#363537",
+    "results": [
+      {
+        "Color": "Foreground",
+        "Hex": "#F7F1FF",
+        "Score": "AAA",
+        "Ratio": "11.0"
+      },
+      {
+        "Color": "color_01",
+        "Hex": "#363537",
+        "Score": "Fail",
+        "Ratio": "1.0"
+      },
+      {
+        "Color": "color_02",
+        "Hex": "#FC618D",
+        "Score": "AA Large",
+        "Ratio": "4.2"
+      },
+      {
+        "Color": "color_03",
+        "Hex": "#7BD88F",
+        "Score": "AAA",
+        "Ratio": "7.0"
+      },
+      {
+        "Color": "color_04",
+        "Hex": "#FCE566",
+        "Score": "AAA",
+        "Ratio": "9.6"
+      },
+      {
+        "Color": "color_05",
+        "Hex": "#FD9353",
+        "Score": "AA",
+        "Ratio": "5.5"
+      },
+      {
+        "Color": "color_06",
+        "Hex": "#948AE3",
+        "Score": "AA Large",
+        "Ratio": "4.1"
+      },
+      {
+        "Color": "color_07",
+        "Hex": "#5AD4E6",
+        "Score": "AA",
+        "Ratio": "7.0"
+      },
+      {
+        "Color": "color_08",
+        "Hex": "#F7F1FF",
+        "Score": "AAA",
+        "Ratio": "11.0"
+      },
+      {
+        "Color": "color_09",
+        "Hex": "#A1A1A1",
+        "Score": "AA",
+        "Ratio": "4.7"
+      },
+      {
+        "Color": "color_10",
+        "Hex": "#FC618D",
+        "Score": "AA Large",
+        "Ratio": "4.2"
+      },
+      {
+        "Color": "color_11",
+        "Hex": "#7BD88F",
+        "Score": "AAA",
+        "Ratio": "7.0"
+      },
+      {
+        "Color": "color_12",
+        "Hex": "#FCE566",
+        "Score": "AAA",
+        "Ratio": "9.6"
+      },
+      {
+        "Color": "color_13",
+        "Hex": "#FD9353",
+        "Score": "AA",
+        "Ratio": "5.5"
+      },
+      {
+        "Color": "color_14",
+        "Hex": "#948AE3",
+        "Score": "AA Large",
+        "Ratio": "4.1"
+      },
+      {
+        "Color": "color_15",
+        "Hex": "#5AD4E6",
+        "Score": "AA",
+        "Ratio": "7.0"
+      },
+      {
+        "Color": "color_16",
+        "Hex": "#F7F1FF",
+        "Score": "AAA",
+        "Ratio": "11.0"
+      },
+      {
+        "Color": "cursor",
+        "Hex": "#F7F1FF",
+        "Score": "AAA",
+        "Ratio": "11.0"
+      }
+    ],
+    "scoreCounts": {
+      "AAA": 8,
+      "Fail": 1,
+      "AA Large": 4,
+      "AA": 5
     }
   },
   {
