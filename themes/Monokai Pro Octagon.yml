@@ -1,7 +1,7 @@
 ---
 name: 'Monokai Pro Ocatagon'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
-variant: ''            # dark or light
+variant: 'dark'        # dark or light
 
 color_01: '#3A3D4B'    # Black (Host)
 color_02: '#FF657A'    # Red (Syntax string)
