@@ -1,0 +1,27 @@
+---
+name: 'Monokai Pro Light'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'light'       # dark or light
+
+color_01: '#FEFAF9'    # Black (Host)
+color_02: '#E14775'    # Red (Syntax string)
+color_03: '#269D69'    # Green (Command)
+color_04: '#CC7A0A'    # Yellow (Command second)
+color_05: '#E16032'    # Blue (Path)
+color_06: '#7058BE'    # Magenta (Syntax var)
+color_07: '#1C8CA8'    # Cyan (Prompt)
+color_08: '#29242A'    # White
+
+color_09: '#6E6B6A'    # Bright Black
+color_10: '#E14775'    # Bright Red (Command error)
+color_11: '#269D69'    # Bright Green (Exec)
+color_12: '#CC7A0A'    # Bright Yellow
+color_13: '#E16032'    # Bright Blue (Folder)
+color_14: '#7058BE'    # Bright Magenta
+color_15: '#1C8CA8'    # Bright Cyan
+color_16: '#29242A'    # Bright White
+
+background: '#FEFAF9'  # Background
+foreground: '#29242A'  # Foreground (Text)
+
+cursor: '#29242A'      # Cursor

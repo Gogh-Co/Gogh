@@ -1,0 +1,27 @@
+---
+name: 'Monokai Pro Machine'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'        # dark or light
+
+color_01: '#273136'    # Black (Host)
+color_02: '#FF6D7E'    # Red (Syntax string)
+color_03: '#A2E57B'    # Green (Command)
+color_04: '#FFED72'    # Yellow (Command second)
+color_05: '#FFB270'    # Blue (Path)
+color_06: '#BAA0F8'    # Magenta (Syntax var)
+color_07: '#7CD5F1'    # Cyan (Prompt)
+color_08: '#F2FFFC'    # White
+
+color_09: '#ADB1B4'    # Bright Black
+color_10: '#FF6D7E'    # Bright Red (Command error)
+color_11: '#A2E57B'    # Bright Green (Exec)
+color_12: '#FFED72'    # Bright Yellow
+color_13: '#FFB270'    # Bright Blue (Folder)
+color_14: '#BAA0F8'    # Bright Magenta
+color_15: '#7CD5F1'    # Bright Cyan
+color_16: '#F2FFFC'    # Bright White
+
+background: '#273136'  # Background
+foreground: '#F2FFFC'  # Foreground (Text)
+
+cursor: '#F2FFFC'      # Cursor

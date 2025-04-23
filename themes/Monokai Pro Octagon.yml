@@ -1,0 +1,27 @@
+---
+name: 'Monokai Pro Ocatagon'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'        # dark or light
+
+color_01: '#3A3D4B'    # Black (Host)
+color_02: '#FF657A'    # Red (Syntax string)
+color_03: '#BAD761'    # Green (Command)
+color_04: '#FFD76D'    # Yellow (Command second)
+color_05: '#FF9B5E'    # Blue (Path)
+color_06: '#C39AC9'    # Magenta (Syntax var)
+color_07: '#9CD1BB'    # Cyan (Prompt)
+color_08: '#EAF2F1'    # White
+
+color_09: '#ADAEB4'    # Bright Black
+color_10: '#FF657A'    # Bright Red (Command error)
+color_11: '#BAD761'    # Bright Green (Exec)
+color_12: '#FFD76D'    # Bright Yellow
+color_13: '#FF9B5E'    # Bright Blue (Folder)
+color_14: '#C39AC9'    # Bright Magenta
+color_15: '#9CD1BB'    # Bright Cyan
+color_16: '#EAF2F1'    # Bright White
+
+background: '#3A3D4B'  # Background
+foreground: '#EAF2F1'  # Foreground (Text)
+
+cursor: '#EAF2F1'      # Cursor
