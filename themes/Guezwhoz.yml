@@ -1,0 +1,26 @@
+name: 'Guezwhoz'
+author: 'Egor Lem (http://egorlem.com)'
+variant: 'dark'
+
+color_01: '#333333'    # Black (Host)
+color_02: '#E85181'    # Red (Syntax string)
+color_03: '#7AD694'    # Green (Command)
+color_04: '#B7D074'    # Yellow (Command second)
+color_05: '#5AA0D6'    # Blue (Path)
+color_06: '#9A90E0'    # Magenta (Syntax var)
+color_07: '#58D6CE'    # Cyan (Prompt)
+color_08: '#D9D9D9'    # White
+
+color_09: '#808080'    # Bright Black
+color_10: '#e85181'    # Bright Red (Command error)
+color_11: '#AFD7AF'    # Bright Green (Exec)
+color_12: '#d1ed85'    # Bright Yellow
+color_13: '#64B2ED'    # Bright Blue (Folder)
+color_14: '#A398ED'    # Bright Magenta
+color_15: '#61EDE4'    # Bright Cyan
+color_16: '#EDEDED'    # Bright White
+
+background: '#1d1d1d'  # Background
+foreground: '#d9d9d9'  # Foreground (Text)
+
+cursor: '#99d4b1'      # Cursor
