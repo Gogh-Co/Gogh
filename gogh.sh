@@ -183,6 +183,7 @@ declare -a THEMES=(
   'gruvbox-material-dark.sh'
   'gruvbox-material-light.sh'
   'gruvbox.sh'
+  'guezwhoz.sh'
   'hardcore.sh'
   'harper.sh'
   'hemisu-dark.sh'
