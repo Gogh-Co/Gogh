@@ -80,6 +80,8 @@ if [[ -z "${TERMINAL:-}" ]]; then
   OS="$(uname)"
   if [[ "$TERM" = "xterm-kitty" ]]; then
     TERMINAL="kitty"
+  elif [[ "$TERM_PROGRAM" = "WezTerm" ]]; then
+    TERMINAL="wezterm"
   elif [[ "$OS" = "Darwin" ]]; then
     TERMINAL=$TERM_PROGRAM
   elif [[ "${OS#CYGWIN}" != "${OS}" ]]; then
@@ -1132,6 +1134,49 @@ apply_termux() {
   fi
 }
 
+apply_wezterm() {
+  # |
+  # | Applying values on Wezterm using Dynamic Color Escape Sequences
+  # | ===========================================
+
+  prints "Applying Wezterm color theme using dynamic color escape sequences..."
+
+  # Build the color palette escape sequence
+  # Format: \033]4;0;color0;1;color1;...;15;color15\007
+  local palette_seq="\\033]4"
+  palette_seq="${palette_seq};0;${COLOR_01}"
+  palette_seq="${palette_seq};1;${COLOR_02}"
+  palette_seq="${palette_seq};2;${COLOR_03}"
+  palette_seq="${palette_seq};3;${COLOR_04}"
+  palette_seq="${palette_seq};4;${COLOR_05}"
+  palette_seq="${palette_seq};5;${COLOR_06}"
+  palette_seq="${palette_seq};6;${COLOR_07}"
+  palette_seq="${palette_seq};7;${COLOR_08}"
+  palette_seq="${palette_seq};8;${COLOR_09}"
+  palette_seq="${palette_seq};9;${COLOR_10}"
+  palette_seq="${palette_seq};10;${COLOR_11}"
+  palette_seq="${palette_seq};11;${COLOR_12}"
+  palette_seq="${palette_seq};12;${COLOR_13}"
+  palette_seq="${palette_seq};13;${COLOR_14}"
+  palette_seq="${palette_seq};14;${COLOR_15}"
+  palette_seq="${palette_seq};15;${COLOR_16}\\007"
+
+  # Apply the color palette
+  printf "${palette_seq}"
+
+  # Set foreground color (escape sequence 10)
+  printf "\\033]10;${FOREGROUND_COLOR}\\007"
+
+  # Set background color (escape sequence 11)
+  printf "\\033]11;${BACKGROUND_COLOR}\\007"
+
+  # Set cursor color (escape sequence 12)
+  printf "\\033]12;${CURSOR_COLOR}\\007"
+
+  prints "Done - Wezterm colors have been applied dynamically."
+  prints "Theme: ${PROFILE_NAME}"
+}
+
 [[ -n "${UUIDGEN}" ]] && PROFILE_SLUG="$(uuidgen)"
 
 case "${TERMINAL}" in
@@ -1248,6 +1293,10 @@ case "${TERMINAL}" in
     apply_termux
     ;;
 
+  wezterm )
+    apply_wezterm
+    ;;
+
   * )
     printserr "Unsupported terminal!"                         \
     ""                                                        \
@@ -1269,6 +1318,7 @@ case "${TERMINAL}" in
     "   linux (linux vt)"                                     \
     "   terminator"                                           \
     "   termux"                                               \
+    "   wezterm"                                              \
     ""                                                        \
     "If you believe you have received this message in error," \
     "try manually setting env \`TERMINAL' with the value above." \
