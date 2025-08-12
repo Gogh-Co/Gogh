@@ -3,26 +3,26 @@ name: 'Acme'
 author: 'plan9-for-vimspace (https://github.com/plan9-for-vimspace/acme-colors)'
 variant: 'light'
 
-color_01: '#101010'	# Black (Host)
-color_02: '#303030'	# Red (Syntax string)
-color_03: '#cccc7c'	# Green (Command)
-color_04: '#ffffca'	# Yellow (Command second)
-color_05: '#eaffff'	# Blue (Path)
-color_06: '#505050'	# Magenta (Syntax var)
-color_07: '#aeeeee'	# Cyan (Prompt)
-color_08: '#fcfcce'	# White
+color_01: '#101010'   # Black (Host)
+color_02: '#303030'   # Red (Syntax string)
+color_03: '#cccc7c'   # Green (Command)
+color_04: '#ffffca'   # Yellow (Command second)
+color_05: '#eaffff'   # Blue (Path)
+color_06: '#505050'   # Magenta (Syntax var)
+color_07: '#aeeeee'   # Cyan (Prompt)
+color_08: '#fcfcce'   # White
 
-color_09: '#101010'	# Bright Black
-color_10: '#303030'	# Bright Red (Command error)
-color_11: '#cccc7c'	# Bright Green (Exec)
-color_12: '#ffffca'	# Bright Yellow
-color_13: '#eaffff'	# Bright Blue (Folder)
-color_14: '#505050'	# Bright Magenta
-color_15: '#aeeeee'	# Bright Cyan
-color_16: '#fcfcce'	# Bright White
- 
-background: '#ffffea'	# Background
-foreground: '#000000'	# Foreground (Text)
+color_09: '#101010'   # Bright Black
+color_10: '#303030'   # Bright Red (Command error)
+color_11: '#cccc7c'   # Bright Green (Exec)
+color_12: '#ffffca'   # Bright Yellow
+color_13: '#eaffff'   # Bright Blue (Folder)
+color_14: '#505050'   # Bright Magenta
+color_15: '#aeeeee'   # Bright Cyan
+color_16: '#fcfcce'   # Bright White
 
-cursor: '#000000'	# Cursor
+background: '#ffffea' # Background
+foreground: '#000000' # Foreground (Text)
+
+cursor: '#000000'     # Cursor
 

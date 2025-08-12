@@ -27,9 +27,6 @@ for filename in os.listdir(folder_path):
         with open(file_path, "r") as f:
             content = f.read()
 
-        # Replace tabs with 4 spaces to avoid YAML parsing errors
-        content = content.replace("\t", "    ")
-
         # Load the cleaned YAML
         data = yaml.safe_load(content)
 
