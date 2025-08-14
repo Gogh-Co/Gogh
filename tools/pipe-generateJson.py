@@ -19,9 +19,6 @@ for filepath in source_path.glob("*.yml"):
     with open(filepath, "r") as f:
         content = f.read()
 
-    # Replace tabs with 4 spaces
-    content = content.replace("\t", "    ")
-
     # Load the corrected YAML file
     data = yaml.safe_load(content)
 
