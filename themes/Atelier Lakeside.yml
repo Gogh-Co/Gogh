@@ -3,21 +3,21 @@ name: 'Atelier Lakeside'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
 variant: ''            # dark or light
 
-color_01: '#D22D72'    # Black (Host)
+color_01: '#161B1D'    # Black (Host)
 color_02: '#D22D72'    # Red (Syntax string)
 color_03: '#568C3B'    # Green (Command)
 color_04: '#8A8A0F'    # Yellow (Command second)
 color_05: '#257FAD'    # Blue (Path)
-color_06: '#B72DD2'    # Magenta (Syntax var)
+color_06: '#6B6BB8'    # Magenta (Syntax var)
 color_07: '#2D8F6F'    # Cyan (Prompt)
-color_08: '#C1E4F6'    # White
+color_08: '#7EA2B4'    # White
 
 color_09: '#5A7B8C'    # Bright Black
 color_10: '#935C25'    # Bright Red (Command error)
 color_11: '#568C3B'    # Bright Green (Exec)
 color_12: '#8A8A0F'    # Bright Yellow
-color_13: '#6B6BB8'    # Bright Blue (Folder)
-color_14: '#B72DD2'    # Bright Magenta
+color_13: '#257FAD'    # Bright Blue (Folder)
+color_14: '#6B6BB8'    # Bright Magenta
 color_15: '#2D8F6F'    # Bright Cyan
 color_16: '#EBF8FF'    # Bright White
 

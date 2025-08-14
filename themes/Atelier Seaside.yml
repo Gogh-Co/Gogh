@@ -3,21 +3,21 @@ name: 'Atelier Seaside'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
 variant: ''            # dark or light
 
-color_01: '#E6193C'    # Black (Host)
+color_01: '#131513'    # Black (Host)
 color_02: '#E6193C'    # Red (Syntax string)
 color_03: '#29A329'    # Green (Command)
 color_04: '#98981B'    # Yellow (Command second)
 color_05: '#3D62F5'    # Blue (Path)
-color_06: '#E619C3'    # Magenta (Syntax var)
+color_06: '#AD2BEE'    # Magenta (Syntax var)
 color_07: '#1999B3'    # Cyan (Prompt)
-color_08: '#CFE8CF'    # White
+color_08: '#8CA68C'    # White
 
 color_09: '#687D68'    # Bright Black
 color_10: '#87711D'    # Bright Red (Command error)
 color_11: '#29A329'    # Bright Green (Exec)
 color_12: '#98981B'    # Bright Yellow
-color_13: '#AD2BEE'    # Bright Blue (Folder)
-color_14: '#E619C3'    # Bright Magenta
+color_13: '#3D62F5'    # Bright Blue (Folder)
+color_14: '#AD2BEE'    # Bright Magenta
 color_15: '#1999B3'    # Bright Cyan
 color_16: '#F4FBF4'    # Bright White
 

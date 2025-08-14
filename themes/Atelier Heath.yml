@@ -3,21 +3,21 @@ name: 'Atelier Heath'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
 variant: ''            # dark or light
 
-color_01: '#CA402B'    # Black (Host)
+color_01: '#1B181B'    # Black (Host)
 color_02: '#CA402B'    # Red (Syntax string)
 color_03: '#918B3B'    # Green (Command)
 color_04: '#BB8A35'    # Yellow (Command second)
 color_05: '#516AEC'    # Blue (Path)
-color_06: '#CC33CC'    # Magenta (Syntax var)
+color_06: '#7b59C0'    # Magenta (Syntax var)
 color_07: '#159393'    # Cyan (Prompt)
-color_08: '#D8CAD8'    # White
+color_08: '#AB9BAB'    # White
 
 color_09: '#776977'    # Bright Black
 color_10: '#A65926'    # Bright Red (Command error)
 color_11: '#918B3B'    # Bright Green (Exec)
 color_12: '#BB8A35'    # Bright Yellow
-color_13: '#7B59C0'    # Bright Blue (Folder)
-color_14: '#CC33CC'    # Bright Magenta
+color_13: '#516AEC'    # Bright Blue (Folder)
+color_14: '#7b59C0'    # Bright Magenta
 color_15: '#159393'    # Bright Cyan
 color_16: '#F7F3F7'    # Bright White
 

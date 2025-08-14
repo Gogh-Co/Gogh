@@ -3,21 +3,21 @@ name: 'Atelier Cave'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
 variant: ''            # dark or light
 
-color_01: '#BE4678'    # Black (Host)
+color_01: '#19171C'    # Black (Host)
 color_02: '#BE4678'    # Red (Syntax string)
 color_03: '#2A9292'    # Green (Command)
 color_04: '#A06E3B'    # Yellow (Command second)
 color_05: '#576DDB'    # Blue (Path)
-color_06: '#BF40BF'    # Magenta (Syntax var)
+color_06: '#955AE7'    # Magenta (Syntax var)
 color_07: '#398BC6'    # Cyan (Prompt)
-color_08: '#E2DFE7'    # White
+color_08: '#8B8792'    # White
 
 color_09: '#655F6D'    # Bright Black
 color_10: '#AA573C'    # Bright Red (Command error)
 color_11: '#2A9292'    # Bright Green (Exec)
 color_12: '#A06E3B'    # Bright Yellow
-color_13: '#955AE7'    # Bright Blue (Folder)
-color_14: '#BF40BF'    # Bright Magenta
+color_13: '#576DDB'    # Bright Blue (Folder)
+color_14: '#955AE7'    # Bright Magenta
 color_15: '#398BC6'    # Bright Cyan
 color_16: '#EFECF4'    # Bright White
 

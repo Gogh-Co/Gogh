@@ -3,21 +3,21 @@ name: 'Atelier Dune'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
 variant: ''            # dark or light
 
-color_01: '#D73737'    # Black (Host)
+color_01: '#20201D'    # Black (Host)
 color_02: '#D73737'    # Red (Syntax string)
 color_03: '#60AC39'    # Green (Command)
 color_04: '#AE9513'    # Yellow (Command second)
 color_05: '#6684E1'    # Blue (Path)
-color_06: '#D43552'    # Magenta (Syntax var)
+color_06: '#B854D4'    # Magenta (Syntax var)
 color_07: '#1FAD83'    # Cyan (Prompt)
-color_08: '#E8E4CF'    # White
+color_08: '#a6a28c'    # White
 
 color_09: '#7D7A68'    # Bright Black
 color_10: '#B65611'    # Bright Red (Command error)
 color_11: '#60AC39'    # Bright Green (Exec)
 color_12: '#AE9513'    # Bright Yellow
-color_13: '#B854D4'    # Bright Blue (Folder)
-color_14: '#D43552'    # Bright Magenta
+color_13: '#6684E1'    # Bright Blue (Folder)
+color_14: '#B854D4'    # Bright Magenta
 color_15: '#1FAD83'    # Bright Cyan
 color_16: '#FEFBEC'    # Bright White
 

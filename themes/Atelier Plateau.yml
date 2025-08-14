@@ -3,21 +3,21 @@ name: 'Atelier Plateau'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
 variant: ''            # dark or light
 
-color_01: '#CA4949'    # Black (Host)
+color_01: '#1B1818'    # Black (Host)
 color_02: '#CA4949'    # Red (Syntax string)
 color_03: '#4B8B8B'    # Green (Command)
 color_04: '#A06E3B'    # Yellow (Command second)
 color_05: '#7272CA'    # Blue (Path)
-color_06: '#BD5187'    # Magenta (Syntax var)
+color_06: '#8464C4'    # Magenta (Syntax var)
 color_07: '#5485B6'    # Cyan (Prompt)
-color_08: '#E7DFDF'    # White
+color_08: '#8A8585'    # White
 
 color_09: '#655D5D'    # Bright Black
 color_10: '#B45A3C'    # Bright Red (Command error)
 color_11: '#4B8B8B'    # Bright Green (Exec)
 color_12: '#A06E3B'    # Bright Yellow
-color_13: '#8464C4'    # Bright Blue (Folder)
-color_14: '#BD5187'    # Bright Magenta
+color_13: '#7272CA'    # Bright Blue (Folder)
+color_14: '#8464C4'    # Bright Magenta
 color_15: '#5485B6'    # Bright Cyan
 color_16: '#F4ECEC'    # Bright White
 
