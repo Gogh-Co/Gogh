@@ -1,6 +1,6 @@
 ---
 name: 'Atelier Estuary'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary)'
 variant: ''            # dark or light
 
 color_01: '#22221B'    # Black (Host)

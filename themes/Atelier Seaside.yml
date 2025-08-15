@@ -1,6 +1,6 @@
 ---
 name: 'Atelier Seaside'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside)'
 variant: ''            # dark or light
 
 color_01: '#131513'    # Black (Host)

@@ -1,6 +1,6 @@
 ---
 name: 'Atelier Sulphurpool'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool)'
 variant: ''            # dark or light
 
 color_01: '#202746'    # Black (Host)
