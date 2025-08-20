@@ -10,8 +10,6 @@
 :small_blue_diamond: <a href="http://Gogh-Co.github.io/Gogh"> Visit the Website </a> :small_blue_diamond:
 </div>
 
-[![Created Badge](https://badges.pufler.dev/created/Gogh-Co/Gogh)](https://badges.pufler.dev)
-
 ## Color Scheme Implementer for Terminals
 
 Gogh is a collection of color schemes for various terminal emulators, including Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4 Terminal. These schemes are designed to make your terminal more visually appealing and improve your productivity by providing a better contrast and color differentiation. (This fork of Gogh includes a color scheme named "Vaombe".)
@@ -472,4 +470,6 @@ There is no blue without yellow and without orange.
 
 ## 🌟 Stargazers Over Time
 
-[![Stargazers over time](https://starchart.cc/Gogh-Co/Gogh.svg)](https://starchart.cc/Gogh-Co/Gogh)
+[![Stargazers over time](https://starchart.cc/Gogh-Co/Gogh.svg?variant=adaptive)](https://starchart.cc/Gogh-Co/Gogh)
+
+                    
