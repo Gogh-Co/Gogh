@@ -193,19 +193,29 @@ Here are some terminals that Gogh is supported with:
 
 We have lots of themes in stock! Check them out [here](https://Gogh-Co.github.io/Gogh/)!
 
-- Themes in `json` format: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json
-- Themes in `json` min format: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes-min.json
-- Themes in `csv` format: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.csv
+- **json**: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json
+- **json min**: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes-min.json
+
+<br/>
+
+- **csv**: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.csv
+
 
 <br/>
 <br/>
 
 ## 👀 [WCAG](https://Gogh-Co.github.io/Gogh/wcag) - Accessibility Contrast
 
-  - https://gogh-co.github.io/Gogh/wcag
-  - RAW Data: https://raw.githubusercontent.com/Gogh-Co/Gogh/refs/heads/master/data/wcag.json
-  - RAW Data (Min): https://raw.githubusercontent.com/Gogh-Co/Gogh/refs/heads/master/data/wcag-min.json
-  - More information: https://webaim.org/resources/contrastchecker/
+- **Web**: https://gogh-co.github.io/Gogh/wcag
+
+<br/>
+
+- **wcag**: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/wcag.json
+- **wcag min**: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/wcag-min.json
+
+<br/>
+
+- More information: https://webaim.org/resources/contrastchecker/
 
 <br/>
 <br>
@@ -471,5 +481,3 @@ There is no blue without yellow and without orange.
 ## 🌟 Stargazers Over Time
 
 [![Stargazers over time](https://starchart.cc/Gogh-Co/Gogh.svg?variant=adaptive)](https://starchart.cc/Gogh-Co/Gogh)
-
-                    
