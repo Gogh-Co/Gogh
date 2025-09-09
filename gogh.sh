@@ -534,6 +534,17 @@ fi
 # |
 echo -e "\nThemes:\n"
 
+# Cross-platform function to format theme names
+format_theme_name() {
+  local name="$1"
+  # Remove .sh extension and any other extensions
+  name="${name%.*}"
+  # Replace hyphens with spaces
+  name="${name//-/ }"
+  # Capitalize first letter of each word using awk (cross-platform)
+  echo "$name" | awk '{for(i=1;i<=NF;i++) $i=toupper(substr($i,1,1)) substr($i,2)} 1'
+}
+
 # Column display of available themes
 # Note: /usr/bin/column uses tabs and does not support ANSI codes yet (merged but not released)
 MAXL=$(( $(printf "%s\n" "${THEMES[@]}" | wc -L) - 3 )) # Biggest theme name without the extension
@@ -546,12 +557,15 @@ while ((row < NROWS)); do
   while ((col < NCOLS)); do
     NUM=$((col*NROWS+row))
     NAME="${THEMES[$NUM]}"
-    [[ -n $NAME ]] && printf "  ( ${C4}%3d${CR} ) %-${MAXL}s" $((NUM+1)) "$NAME"
+    if [[ -n $NAME ]]; then
+      FORMATTED_NAME=$(format_theme_name "$NAME")
+      printf "  ( ${C4}%3d${CR} ) %-${MAXL}s" $((NUM+1)) "$FORMATTED_NAME"
+    fi
     ((col++))
   done
   echo
   ((row++))
-done | sed -e 's/\.\S*//g' -e 's/-/ /g' -e 's/\<\w\w/\u&/g' # Remove .sh, replace - with space, and capitalize
+done
 
 echo -e "  (${C4} ALL ${CR}) All themes"
 
