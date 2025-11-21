@@ -1,0 +1,27 @@
+---
+name: 'Vacme'
+author: 'newptcai'
+variant: 'light'
+
+color_01: '#424242'   # Black (Host)
+color_02: '#B85C57'   # Red (Syntax string)
+color_03: '#57864E'   # Green (Command)
+color_04: '#8F7634'   # Yellow (Command second)
+color_05: '#2A8DC5'   # Blue (Path)
+color_06: '#8888C7'   # Magenta (Syntax var)
+color_07: '#6AA7A8'   # Cyan (Prompt)
+color_08: '#FFFFEC'   # White
+
+color_09: '#999957'   # Bright Black
+color_10: '#E28C88'   # Bright Red (Command error)
+color_11: '#7AB877'   # Bright Green (Exec)
+color_12: '#9E9477'   # Bright Yellow
+color_13: '#7EC6EB'   # Bright Blue (Folder)
+color_14: '#A9ABDA'   # Bright Magenta
+color_15: '#7AD0D1'   # Bright Cyan
+color_16: '#D6D687'   # Bright White
+
+background: '#FFFFEC' # Background
+foreground: '#424242' # Foreground (Text)
+
+cursor: '#030093'     # Cursor
