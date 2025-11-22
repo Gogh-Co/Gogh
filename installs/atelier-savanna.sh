@@ -2,21 +2,21 @@
 
 export PROFILE_NAME="Atelier Savanna"
 
-export COLOR_01="#B16139"           # Black (Host)
+export COLOR_01="#171C19"           # Black (Host)
 export COLOR_02="#B16139"           # Red (Syntax string)
 export COLOR_03="#489963"           # Green (Command)
 export COLOR_04="#A07E3B"           # Yellow (Command second)
 export COLOR_05="#478C90"           # Blue (Path)
-export COLOR_06="#867469"           # Magenta (Syntax var)
+export COLOR_06="#55859B"           # Magenta (Syntax var)
 export COLOR_07="#1C9AA0"           # Cyan (Prompt)
-export COLOR_08="#DFE7E2"           # White
+export COLOR_08="#87928A"           # White
 
 export COLOR_09="#5F6D64"           # Bright Black
 export COLOR_10="#9F713C"           # Bright Red (Command error)
 export COLOR_11="#489963"           # Bright Green (Exec)
 export COLOR_12="#A07E3B"           # Bright Yellow
-export COLOR_13="#55859B"           # Bright Blue (Folder)
-export COLOR_14="#867469"           # Bright Magenta
+export COLOR_13="#478C90"           # Bright Blue (Folder)
+export COLOR_14="#55859B"           # Bright Magenta
 export COLOR_15="#1C9AA0"           # Bright Cyan
 export COLOR_16="#ECF4EE"           # Bright White
 

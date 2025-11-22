@@ -2,21 +2,21 @@
 
 export PROFILE_NAME="Atelier Estuary"
 
-export COLOR_01="#BA6236"           # Black (Host)
+export COLOR_01="#22221B"           # Black (Host)
 export COLOR_02="#BA6236"           # Red (Syntax string)
 export COLOR_03="#7D9726"           # Green (Command)
 export COLOR_04="#A5980D"           # Yellow (Command second)
 export COLOR_05="#36A166"           # Blue (Path)
-export COLOR_06="#9D6C7C"           # Magenta (Syntax var)
+export COLOR_06="#5F9182"           # Magenta (Syntax var)
 export COLOR_07="#5B9D48"           # Cyan (Prompt)
-export COLOR_08="#E7E6DF"           # White
+export COLOR_08="#929181"           # White
 
 export COLOR_09="#6C6B5A"           # Bright Black
 export COLOR_10="#AE7313"           # Bright Red (Command error)
 export COLOR_11="#7D9726"           # Bright Green (Exec)
 export COLOR_12="#A5980D"           # Bright Yellow
-export COLOR_13="#5F9182"           # Bright Blue (Folder)
-export COLOR_14="#9D6C7C"           # Bright Magenta
+export COLOR_13="#36A166"           # Bright Blue (Folder)
+export COLOR_14="#5F9182"           # Bright Magenta
 export COLOR_15="#5B9D48"           # Bright Cyan
 export COLOR_16="#F4F3EC"           # Bright White
 

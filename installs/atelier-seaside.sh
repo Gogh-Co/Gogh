@@ -2,21 +2,21 @@
 
 export PROFILE_NAME="Atelier Seaside"
 
-export COLOR_01="#E6193C"           # Black (Host)
+export COLOR_01="#131513"           # Black (Host)
 export COLOR_02="#E6193C"           # Red (Syntax string)
 export COLOR_03="#29A329"           # Green (Command)
 export COLOR_04="#98981B"           # Yellow (Command second)
 export COLOR_05="#3D62F5"           # Blue (Path)
-export COLOR_06="#E619C3"           # Magenta (Syntax var)
+export COLOR_06="#AD2BEE"           # Magenta (Syntax var)
 export COLOR_07="#1999B3"           # Cyan (Prompt)
-export COLOR_08="#CFE8CF"           # White
+export COLOR_08="#8CA68C"           # White
 
 export COLOR_09="#687D68"           # Bright Black
 export COLOR_10="#87711D"           # Bright Red (Command error)
 export COLOR_11="#29A329"           # Bright Green (Exec)
 export COLOR_12="#98981B"           # Bright Yellow
-export COLOR_13="#AD2BEE"           # Bright Blue (Folder)
-export COLOR_14="#E619C3"           # Bright Magenta
+export COLOR_13="#3D62F5"           # Bright Blue (Folder)
+export COLOR_14="#AD2BEE"           # Bright Magenta
 export COLOR_15="#1999B3"           # Bright Cyan
 export COLOR_16="#F4FBF4"           # Bright White
 

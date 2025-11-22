@@ -2,21 +2,21 @@
 
 export PROFILE_NAME="Atelier Forest"
 
-export COLOR_01="#F22C40"           # Black (Host)
+export COLOR_01="#1B1918"           # Black (Host)
 export COLOR_02="#F22C40"           # Red (Syntax string)
 export COLOR_03="#7B9726"           # Green (Command)
 export COLOR_04="#C38418"           # Yellow (Command second)
 export COLOR_05="#407EE7"           # Blue (Path)
-export COLOR_06="#C33FF3"           # Magenta (Syntax var)
+export COLOR_06="#6666EA"           # Magenta (Syntax var)
 export COLOR_07="#3D97B8"           # Cyan (Prompt)
-export COLOR_08="#E6E2E0"           # White
+export COLOR_08="#A8A19F"           # White
 
 export COLOR_09="#766E6B"           # Bright Black
 export COLOR_10="#DF5320"           # Bright Red (Command error)
 export COLOR_11="#7B9726"           # Bright Green (Exec)
 export COLOR_12="#C38418"           # Bright Yellow
-export COLOR_13="#6666EA"           # Bright Blue (Folder)
-export COLOR_14="#C33FF3"           # Bright Magenta
+export COLOR_13="#407EE7"           # Bright Blue (Folder)
+export COLOR_14="#6666EA"           # Bright Magenta
 export COLOR_15="#3D97B8"           # Bright Cyan
 export COLOR_16="#F1EFEE"           # Bright White
 

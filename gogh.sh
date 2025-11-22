@@ -373,6 +373,7 @@ declare -a THEMES=(
   'twilight.sh'
   'ura.sh'
   'urple.sh'
+  'vacme.sh'
   'vag.sh'
   'vaombe.sh'
   'vaughn.sh'

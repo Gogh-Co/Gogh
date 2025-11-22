@@ -2,21 +2,21 @@
 
 export PROFILE_NAME="Atelier Heath"
 
-export COLOR_01="#CA402B"           # Black (Host)
+export COLOR_01="#1B181B"           # Black (Host)
 export COLOR_02="#CA402B"           # Red (Syntax string)
 export COLOR_03="#918B3B"           # Green (Command)
 export COLOR_04="#BB8A35"           # Yellow (Command second)
 export COLOR_05="#516AEC"           # Blue (Path)
-export COLOR_06="#CC33CC"           # Magenta (Syntax var)
+export COLOR_06="#7b59C0"           # Magenta (Syntax var)
 export COLOR_07="#159393"           # Cyan (Prompt)
-export COLOR_08="#D8CAD8"           # White
+export COLOR_08="#AB9BAB"           # White
 
 export COLOR_09="#776977"           # Bright Black
 export COLOR_10="#A65926"           # Bright Red (Command error)
 export COLOR_11="#918B3B"           # Bright Green (Exec)
 export COLOR_12="#BB8A35"           # Bright Yellow
-export COLOR_13="#7B59C0"           # Bright Blue (Folder)
-export COLOR_14="#CC33CC"           # Bright Magenta
+export COLOR_13="#516AEC"           # Bright Blue (Folder)
+export COLOR_14="#7b59C0"           # Bright Magenta
 export COLOR_15="#159393"           # Bright Cyan
 export COLOR_16="#F7F3F7"           # Bright White
 

@@ -2,21 +2,21 @@
 
 export PROFILE_NAME="Atelier Plateau"
 
-export COLOR_01="#CA4949"           # Black (Host)
+export COLOR_01="#1B1818"           # Black (Host)
 export COLOR_02="#CA4949"           # Red (Syntax string)
 export COLOR_03="#4B8B8B"           # Green (Command)
 export COLOR_04="#A06E3B"           # Yellow (Command second)
 export COLOR_05="#7272CA"           # Blue (Path)
-export COLOR_06="#BD5187"           # Magenta (Syntax var)
+export COLOR_06="#8464C4"           # Magenta (Syntax var)
 export COLOR_07="#5485B6"           # Cyan (Prompt)
-export COLOR_08="#E7DFDF"           # White
+export COLOR_08="#8A8585"           # White
 
 export COLOR_09="#655D5D"           # Bright Black
 export COLOR_10="#B45A3C"           # Bright Red (Command error)
 export COLOR_11="#4B8B8B"           # Bright Green (Exec)
 export COLOR_12="#A06E3B"           # Bright Yellow
-export COLOR_13="#8464C4"           # Bright Blue (Folder)
-export COLOR_14="#BD5187"           # Bright Magenta
+export COLOR_13="#7272CA"           # Bright Blue (Folder)
+export COLOR_14="#8464C4"           # Bright Magenta
 export COLOR_15="#5485B6"           # Bright Cyan
 export COLOR_16="#F4ECEC"           # Bright White
 

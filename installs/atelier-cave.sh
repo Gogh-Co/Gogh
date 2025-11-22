@@ -2,21 +2,21 @@
 
 export PROFILE_NAME="Atelier Cave"
 
-export COLOR_01="#BE4678"           # Black (Host)
+export COLOR_01="#19171C"           # Black (Host)
 export COLOR_02="#BE4678"           # Red (Syntax string)
 export COLOR_03="#2A9292"           # Green (Command)
 export COLOR_04="#A06E3B"           # Yellow (Command second)
 export COLOR_05="#576DDB"           # Blue (Path)
-export COLOR_06="#BF40BF"           # Magenta (Syntax var)
+export COLOR_06="#955AE7"           # Magenta (Syntax var)
 export COLOR_07="#398BC6"           # Cyan (Prompt)
-export COLOR_08="#E2DFE7"           # White
+export COLOR_08="#8B8792"           # White
 
 export COLOR_09="#655F6D"           # Bright Black
 export COLOR_10="#AA573C"           # Bright Red (Command error)
 export COLOR_11="#2A9292"           # Bright Green (Exec)
 export COLOR_12="#A06E3B"           # Bright Yellow
-export COLOR_13="#955AE7"           # Bright Blue (Folder)
-export COLOR_14="#BF40BF"           # Bright Magenta
+export COLOR_13="#576DDB"           # Bright Blue (Folder)
+export COLOR_14="#955AE7"           # Bright Magenta
 export COLOR_15="#398BC6"           # Bright Cyan
 export COLOR_16="#EFECF4"           # Bright White
 

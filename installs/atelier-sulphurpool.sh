@@ -2,21 +2,21 @@
 
 export PROFILE_NAME="Atelier Sulphurpool"
 
-export COLOR_01="#C94922"           # Black (Host)
+export COLOR_01="#202746"           # Black (Host)
 export COLOR_02="#C94922"           # Red (Syntax string)
 export COLOR_03="#AC9739"           # Green (Command)
 export COLOR_04="#C08B30"           # Yellow (Command second)
 export COLOR_05="#3D8FD1"           # Blue (Path)
-export COLOR_06="#9C637A"           # Magenta (Syntax var)
+export COLOR_06="#6679CC"           # Magenta (Syntax var)
 export COLOR_07="#22A2C9"           # Cyan (Prompt)
-export COLOR_08="#DFE2F1"           # White
+export COLOR_08="#979DB4"           # White
 
 export COLOR_09="#6B7394"           # Bright Black
 export COLOR_10="#C76B29"           # Bright Red (Command error)
 export COLOR_11="#AC9739"           # Bright Green (Exec)
 export COLOR_12="#C08B30"           # Bright Yellow
-export COLOR_13="#6679CC"           # Bright Blue (Folder)
-export COLOR_14="#9C637A"           # Bright Magenta
+export COLOR_13="#3D8FD1"           # Bright Blue (Folder)
+export COLOR_14="#6679CC"           # Bright Magenta
 export COLOR_15="#22A2C9"           # Bright Cyan
 export COLOR_16="#F5F7FF"           # Bright White
 
