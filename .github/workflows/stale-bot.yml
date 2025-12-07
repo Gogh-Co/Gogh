@@ -37,8 +37,8 @@ jobs:
           stale-issue-label: "stale"
           stale-pr-label: "stale"
 
-          exempt-issue-labels: "*"
-          exempt-pr-labels: "*"
+          exempt-issue-labels: "bug,duplicate,enhancement,FYI - Docs,help-needed,inactive,Needs More Info,question,wontfix"
+          exempt-pr-labels: "bug,duplicate,enhancement,FYI - Docs,help-needed,inactive,Needs More Info,question,wontfix"
 
           exempt-all-milestones: true
           exempt-all-assignees: true
