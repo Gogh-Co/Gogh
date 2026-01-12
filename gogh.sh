@@ -360,6 +360,7 @@ declare -a THEMES=(
   'terminix-dark.sh'
   'thayer-bright.sh'
   'tin.sh'
+  'tiwahu-dark.sh'
   'tokyo-night-light.sh'
   'tokyo-night-storm.sh'
   'tokyo-night.sh'
