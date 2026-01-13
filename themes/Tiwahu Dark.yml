@@ -4,24 +4,24 @@ author: 'Tim Huber (http://www.tiwahu.com)'
 variant: 'dark'
 
 color_01: '#000000'    # Black (Host)
-color_02: '#CC0000'    # Red (Syntax string)
-color_03: '#00CC00'    # Green (Command)
-color_04: '#CC8800'    # Yellow (Command second)
-color_05: '#0088CC'    # Blue (Path)
-color_06: '#CC00CC'    # Magenta (Syntax var)
-color_07: '#00CCCC'    # Cyan (Prompt)
-color_08: '#CCCCCC'    # White
+color_02: '#AA0000'    # Red (Syntax string)
+color_03: '#008800'    # Green (Command)
+color_04: '#AAAA00'    # Yellow (Command second)
+color_05: '#0077AA'    # Blue (Path)
+color_06: '#880088'    # Magenta (Syntax var)
+color_07: '#00AA99'    # Cyan (Prompt)
+color_08: '#BBBBBB'    # White
 
-color_09: '#888888'    # Bright Black
+color_09: '#777777'    # Bright Black
 color_10: '#FF8888'    # Bright Red (Command error)
 color_11: '#88FF88'    # Bright Green (Exec)
-color_12: '#FFFF00'    # Bright Yellow
+color_12: '#FFFF66'    # Bright Yellow
 color_13: '#88CCFF'    # Bright Blue (Folder)
 color_14: '#FF88FF'    # Bright Magenta
-color_15: '#88FFFF'    # Bright Cyan
+color_15: '#88FFCC'    # Bright Cyan
 color_16: '#FFFFFF'    # Bright White
 
 background: '#181818'  # Background
-foreground: '#AAAAAA'  # Foreground (Text)
+foreground: '#DDDDDD'  # Foreground (Text)
 
-cursor: '#CFCFCF'      # Cursor
+cursor: '#888888'      # Cursor
