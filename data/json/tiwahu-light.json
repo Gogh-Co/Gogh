@@ -1,7 +1,7 @@
 {
-  "name": "Tiwahu Dark",
+  "name": "Tiwahu Light",
   "author": "Tim Huber (http://www.tiwahu.com)",
-  "variant": "dark",
+  "variant": "light",
   "color_01": "#000000",
   "color_02": "#AA0000",
   "color_03": "#008800",
@@ -18,8 +18,8 @@
   "color_14": "#FF88FF",
   "color_15": "#88FFCC",
   "color_16": "#FFFFFF",
-  "background": "#181818",
-  "foreground": "#DDDDDD",
+  "background": "#DDDDDD",
+  "foreground": "#181818",
   "cursor": "#888888",
-  "hash": "197943bfb28321459a6c50882c4f54bccdbf468740af41b0949b5b0bd8737d1d"
+  "hash": "273898b0ac06ad5110a9379b2a3e748ab618aafb94acd08df94fe2a145188ce6"
 }

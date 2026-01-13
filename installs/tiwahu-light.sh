@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PROFILE_NAME="Tiwahu Dark"
+export PROFILE_NAME="Tiwahu Light"
 
 export COLOR_01="#000000"           # Black (Host)
 export COLOR_02="#AA0000"           # Red (Syntax string)
@@ -20,8 +20,8 @@ export COLOR_14="#FF88FF"           # Bright Magenta
 export COLOR_15="#88FFCC"           # Bright Cyan
 export COLOR_16="#FFFFFF"           # Bright White
 
-export BACKGROUND_COLOR="#181818"   # Background
-export FOREGROUND_COLOR="#DDDDDD"   # Foreground (Text)
+export BACKGROUND_COLOR="#DDDDDD"   # Background
+export FOREGROUND_COLOR="#181818"   # Foreground (Text)
 
 export CURSOR_COLOR="#888888" # Cursor
 
