@@ -1,7 +1,7 @@
 ---
-name: 'Tiwahu Dark'
+name: 'Tiwahu Light'
 author: 'Tim Huber (http://www.tiwahu.com)'
-variant: 'dark'
+variant: 'light'
 
 color_01: '#000000'    # Black (Host)
 color_02: '#AA0000'    # Red (Syntax string)
@@ -21,7 +21,7 @@ color_14: '#FF88FF'    # Bright Magenta
 color_15: '#88FFCC'    # Bright Cyan
 color_16: '#FFFFFF'    # Bright White
 
-background: '#181818'  # Background
-foreground: '#DDDDDD'  # Foreground (Text)
+background: '#DDDDDD'  # Background
+foreground: '#181818'  # Foreground (Text)
 
 cursor: '#888888'      # Cursor
