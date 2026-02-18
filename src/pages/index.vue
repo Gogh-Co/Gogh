@@ -14,6 +14,16 @@ const filterBackgroundVisible = ref(false);
 const lightboxVisible = ref(false);
 const lightboxTheme = ref(null);
 
+useHead({
+    script: [
+        {
+            src: 'https://buttons.github.io/buttons.js',
+            async: true,
+            defer: true,
+        },
+    ],
+});
+
 function lightOrDark(color) {
     // Variables for red, green, blue values
     var r, g, b, hsp;
@@ -208,12 +218,12 @@ onUnmounted(() => {
                         Gogh is a collection of color schemes for various terminal emulators, including Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4 Terminal. These schemes are designed to make your terminal more visually appealing and improve your productivity by providing a better contrast and color differentiation.
                     </p>
 
-                    <div class=github-int>
+                    <div class="github-int">
                         <a class="github-button"
-                            href=https://github.com/Gogh-Co/Gogh
+                            href="https://github.com/Gogh-Co/Gogh"
                             data-color-scheme="no-preference: dark; light: light; dark: dark;"
-                            data-size=large
-                            aria-label="Star ntkme/github-buttons on GitHub">
+                            data-size="large"
+                            aria-label="Open Gogh-Co/Gogh on GitHub">
                             View
                         </a>
                         <!-- Place this tag where you want the button to render. -->
@@ -223,7 +233,7 @@ onUnmounted(() => {
                             data-icon="octicon-star"
                             data-size="large"
                             data-show-count="true"
-                            aria-label="Star ntkme/github-buttons on GitHub">
+                            aria-label="Star Gogh-Co/Gogh on GitHub">
                             Star
                         </a>
                     </div>
