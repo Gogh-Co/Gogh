@@ -1,0 +1,27 @@
+---
+name: '__NAME__'
+author: '__AUTHOR__'             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: '__VARIANT__'            # dark or light
+
+color_01: '__COLOR_01__'    # Black (Host)
+color_02: '__COLOR_02__'    # Red (Syntax string)
+color_03: '__COLOR_03__'    # Green (Command)
+color_04: '__COLOR_04__'    # Yellow (Command second)
+color_05: '__COLOR_05__'    # Blue (Path)
+color_06: '__COLOR_06__'    # Magenta (Syntax var)
+color_07: '__COLOR_07__'    # Cyan (Prompt)
+color_08: '__COLOR_08__'    # White
+
+color_09: '__COLOR_09__'    # Bright Black
+color_10: '__COLOR_10__'    # Bright Red (Command error)
+color_11: '__COLOR_11__'    # Bright Green (Exec)
+color_12: '__COLOR_12__'    # Bright Yellow
+color_13: '__COLOR_13__'    # Bright Blue (Folder)
+color_14: '__COLOR_14__'    # Bright Magenta
+color_15: '__COLOR_15__'    # Bright Cyan
+color_16: '__COLOR_16__'    # Bright White
+
+background: '__BACKGROUND__'  # Background
+foreground: '__FOREGROUND__'  # Foreground (Text)
+
+cursor: '__CURSOR__'      # Cursor
