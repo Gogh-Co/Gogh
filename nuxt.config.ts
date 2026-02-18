@@ -49,6 +49,7 @@ target: 'static',
   },
   modules: [
     '@morev/vue-transitions/nuxt',
+    'nuxt-color-picker',
   ],
 
 

@@ -27,11 +27,21 @@ const props = defineProps({
             color_16: '#000000',
         }),
     },
+    enableColorPicker: {
+        type: Boolean,
+        default: false,
+    },
 });
+
+const emit = defineEmits(['update-color']);
+
+function emitColor(key, value) {
+    emit('update-color', { key, value });
+}
 </script>
 
 <template>
-    <div class="terminal">
+    <div class="terminal" :class="{ 'terminal--picker': enableColorPicker }">
         <div class="bar">
             <div class="bar__title">
                 {{ theme.name }}
@@ -44,24 +54,214 @@ const props = defineProps({
         </div>
         <div class="body" :style="'background-color: ' + theme.background">
             <div class="body__bar body__bar--top">
-                <span :style="'background-color: ' + theme.color_01"></span>
-                <span :style="'background-color: ' + theme.color_02"></span>
-                <span :style="'background-color: ' + theme.color_03"></span>
-                <span :style="'background-color: ' + theme.color_04"></span>
-                <span :style="'background-color: ' + theme.color_05"></span>
-                <span :style="'background-color: ' + theme.color_06"></span>
-                <span :style="'background-color: ' + theme.color_07"></span>
-                <span :style="'background-color: ' + theme.color_08"></span>
+                <color-picker
+                    v-if="enableColorPicker"
+                    :model-value="theme.color_01"
+                    with-hex-input
+                    :with-colors-history="6"
+                    storage-key="terminal-color-01"
+                    @update:modelValue="emitColor('color_01', $event)"
+                    v-slot="{ show }"
+                >
+                    <span :style="'background-color: ' + theme.color_01" @click.stop.prevent="show($event)"></span>
+                </color-picker>
+                <span v-else :style="'background-color: ' + theme.color_01"></span>
+
+                <color-picker
+                    v-if="enableColorPicker"
+                    :model-value="theme.color_02"
+                    with-hex-input
+                    :with-colors-history="6"
+                    storage-key="terminal-color-02"
+                    @update:modelValue="emitColor('color_02', $event)"
+                    v-slot="{ show }"
+                >
+                    <span :style="'background-color: ' + theme.color_02" @click.stop.prevent="show($event)"></span>
+                </color-picker>
+                <span v-else :style="'background-color: ' + theme.color_02"></span>
+
+                <color-picker
+                    v-if="enableColorPicker"
+                    :model-value="theme.color_03"
+                    with-hex-input
+                    :with-colors-history="6"
+                    storage-key="terminal-color-03"
+                    @update:modelValue="emitColor('color_03', $event)"
+                    v-slot="{ show }"
+                >
+                    <span :style="'background-color: ' + theme.color_03" @click.stop.prevent="show($event)"></span>
+                </color-picker>
+                <span v-else :style="'background-color: ' + theme.color_03"></span>
+
+                <color-picker
+                    v-if="enableColorPicker"
+                    :model-value="theme.color_04"
+                    with-hex-input
+                    :with-colors-history="6"
+                    storage-key="terminal-color-04"
+                    @update:modelValue="emitColor('color_04', $event)"
+                    v-slot="{ show }"
+                >
+                    <span :style="'background-color: ' + theme.color_04" @click.stop.prevent="show($event)"></span>
+                </color-picker>
+                <span v-else :style="'background-color: ' + theme.color_04"></span>
+
+                <color-picker
+                    v-if="enableColorPicker"
+                    :model-value="theme.color_05"
+                    with-hex-input
+                    :with-colors-history="6"
+                    storage-key="terminal-color-05"
+                    @update:modelValue="emitColor('color_05', $event)"
+                    v-slot="{ show }"
+                >
+                    <span :style="'background-color: ' + theme.color_05" @click.stop.prevent="show($event)"></span>
+                </color-picker>
+                <span v-else :style="'background-color: ' + theme.color_05"></span>
+
+                <color-picker
+                    v-if="enableColorPicker"
+                    :model-value="theme.color_06"
+                    with-hex-input
+                    :with-colors-history="6"
+                    storage-key="terminal-color-06"
+                    @update:modelValue="emitColor('color_06', $event)"
+                    v-slot="{ show }"
+                >
+                    <span :style="'background-color: ' + theme.color_06" @click.stop.prevent="show($event)"></span>
+                </color-picker>
+                <span v-else :style="'background-color: ' + theme.color_06"></span>
+
+                <color-picker
+                    v-if="enableColorPicker"
+                    :model-value="theme.color_07"
+                    with-hex-input
+                    :with-colors-history="6"
+                    storage-key="terminal-color-07"
+                    @update:modelValue="emitColor('color_07', $event)"
+                    v-slot="{ show }"
+                >
+                    <span :style="'background-color: ' + theme.color_07" @click.stop.prevent="show($event)"></span>
+                </color-picker>
+                <span v-else :style="'background-color: ' + theme.color_07"></span>
+
+                <color-picker
+                    v-if="enableColorPicker"
+                    :model-value="theme.color_08"
+                    with-hex-input
+                    :with-colors-history="6"
+                    storage-key="terminal-color-08"
+                    @update:modelValue="emitColor('color_08', $event)"
+                    v-slot="{ show }"
+                >
+                    <span :style="'background-color: ' + theme.color_08" @click.stop.prevent="show($event)"></span>
+                </color-picker>
+                <span v-else :style="'background-color: ' + theme.color_08"></span>
             </div>
             <div class="body__bar body__bar--bottom">
-                <span :style="'background-color: ' + theme.color_09"></span>
-                <span :style="'background-color: ' + theme.color_10"></span>
-                <span :style="'background-color: ' + theme.color_11"></span>
-                <span :style="'background-color: ' + theme.color_12"></span>
-                <span :style="'background-color: ' + theme.color_13"></span>
-                <span :style="'background-color: ' + theme.color_14"></span>
-                <span :style="'background-color: ' + theme.color_15"></span>
-                <span :style="'background-color: ' + theme.color_16"></span>
+                <color-picker
+                    v-if="enableColorPicker"
+                    :model-value="theme.color_09"
+                    with-hex-input
+                    :with-colors-history="6"
+                    storage-key="terminal-color-09"
+                    @update:modelValue="emitColor('color_09', $event)"
+                    v-slot="{ show }"
+                >
+                    <span :style="'background-color: ' + theme.color_09" @click.stop.prevent="show($event)"></span>
+                </color-picker>
+                <span v-else :style="'background-color: ' + theme.color_09"></span>
+
+                <color-picker
+                    v-if="enableColorPicker"
+                    :model-value="theme.color_10"
+                    with-hex-input
+                    :with-colors-history="6"
+                    storage-key="terminal-color-10"
+                    @update:modelValue="emitColor('color_10', $event)"
+                    v-slot="{ show }"
+                >
+                    <span :style="'background-color: ' + theme.color_10" @click.stop.prevent="show($event)"></span>
+                </color-picker>
+                <span v-else :style="'background-color: ' + theme.color_10"></span>
+
+                <color-picker
+                    v-if="enableColorPicker"
+                    :model-value="theme.color_11"
+                    with-hex-input
+                    :with-colors-history="6"
+                    storage-key="terminal-color-11"
+                    @update:modelValue="emitColor('color_11', $event)"
+                    v-slot="{ show }"
+                >
+                    <span :style="'background-color: ' + theme.color_11" @click.stop.prevent="show($event)"></span>
+                </color-picker>
+                <span v-else :style="'background-color: ' + theme.color_11"></span>
+
+                <color-picker
+                    v-if="enableColorPicker"
+                    :model-value="theme.color_12"
+                    with-hex-input
+                    :with-colors-history="6"
+                    storage-key="terminal-color-12"
+                    @update:modelValue="emitColor('color_12', $event)"
+                    v-slot="{ show }"
+                >
+                    <span :style="'background-color: ' + theme.color_12" @click.stop.prevent="show($event)"></span>
+                </color-picker>
+                <span v-else :style="'background-color: ' + theme.color_12"></span>
+
+                <color-picker
+                    v-if="enableColorPicker"
+                    :model-value="theme.color_13"
+                    with-hex-input
+                    :with-colors-history="6"
+                    storage-key="terminal-color-13"
+                    @update:modelValue="emitColor('color_13', $event)"
+                    v-slot="{ show }"
+                >
+                    <span :style="'background-color: ' + theme.color_13" @click.stop.prevent="show($event)"></span>
+                </color-picker>
+                <span v-else :style="'background-color: ' + theme.color_13"></span>
+
+                <color-picker
+                    v-if="enableColorPicker"
+                    :model-value="theme.color_14"
+                    with-hex-input
+                    :with-colors-history="6"
+                    storage-key="terminal-color-14"
+                    @update:modelValue="emitColor('color_14', $event)"
+                    v-slot="{ show }"
+                >
+                    <span :style="'background-color: ' + theme.color_14" @click.stop.prevent="show($event)"></span>
+                </color-picker>
+                <span v-else :style="'background-color: ' + theme.color_14"></span>
+
+                <color-picker
+                    v-if="enableColorPicker"
+                    :model-value="theme.color_15"
+                    with-hex-input
+                    :with-colors-history="6"
+                    storage-key="terminal-color-15"
+                    @update:modelValue="emitColor('color_15', $event)"
+                    v-slot="{ show }"
+                >
+                    <span :style="'background-color: ' + theme.color_15" @click.stop.prevent="show($event)"></span>
+                </color-picker>
+                <span v-else :style="'background-color: ' + theme.color_15"></span>
+
+                <color-picker
+                    v-if="enableColorPicker"
+                    :model-value="theme.color_16"
+                    with-hex-input
+                    :with-colors-history="6"
+                    storage-key="terminal-color-16"
+                    @update:modelValue="emitColor('color_16', $event)"
+                    v-slot="{ show }"
+                >
+                    <span :style="'background-color: ' + theme.color_16" @click.stop.prevent="show($event)"></span>
+                </color-picker>
+                <span v-else :style="'background-color: ' + theme.color_16"></span>
             </div>
 
             <div class="row">

@@ -2,9 +2,12 @@
 import Terminal from '@/components/Terminal/Terminal.vue';
 import themeTemplate from '../../theme-template.yml?raw';
 
+const DEFAULT_NAME = 'My Theme';
+const DEFAULT_AUTHOR = 'Your Name (https://example.com)';
+
 const form = reactive({
-  name: 'My Theme',
-  author: 'Your Name (https://example.com)',
+  name: DEFAULT_NAME,
+  author: DEFAULT_AUTHOR,
   variant: 'dark',
   color_01: '#1f1f28',
   color_02: '#e46876',
@@ -30,6 +33,10 @@ const form = reactive({
 const colorKeys = Array.from({ length: 16 }, (_, i) =>
   `color_${String(i + 1).padStart(2, '0')}`
 );
+
+function normalizeColorField(key) {
+  form[key] = sanitizeHex(form[key]);
+}
 
 function sanitizeHex(value) {
   if (!value) {
@@ -91,7 +98,42 @@ const downloadFileName = computed(() => {
   return `${slug || 'my-theme'}.yml`;
 });
 
+const canDownload = computed(() => {
+  const name = form.name?.trim() || '';
+  const author = form.author?.trim() || '';
+
+  return (
+    Boolean(name) &&
+    Boolean(author) &&
+    name !== DEFAULT_NAME &&
+    author !== DEFAULT_AUTHOR
+  );
+});
+
+const showRequiredError = ref(false);
+
+const isNameInvalid = computed(() => {
+  const name = form.name?.trim() || '';
+  return !name || name === DEFAULT_NAME;
+});
+
+const isAuthorInvalid = computed(() => {
+  const author = form.author?.trim() || '';
+  return !author || author === DEFAULT_AUTHOR;
+});
+
+function clearRequiredError() {
+  showRequiredError.value = false;
+}
+
 function downloadTheme() {
+  if (!canDownload.value) {
+    showRequiredError.value = true;
+    return;
+  }
+
+  showRequiredError.value = false;
+
   const blob = new Blob([generatedTheme.value], { type: 'text/yaml;charset=utf-8' });
   const url = URL.createObjectURL(blob);
   const link = document.createElement('a');
@@ -99,6 +141,14 @@ function downloadTheme() {
   link.download = downloadFileName.value;
   link.click();
   URL.revokeObjectURL(url);
+}
+
+function onTerminalColorUpdate({ key, value }) {
+  if (!key || !(key in form)) {
+    return;
+  }
+
+  form[key] = sanitizeHex(value);
 }
 </script>
 
@@ -115,10 +165,28 @@ function downloadTheme() {
       <div class="row">
         <div class="col-md-12">
           <h2>Theme Generator</h2>
-          <p>Create a single YAML theme file using the root template.</p>
-          <p>
-            Template file:
-            <strong>theme-template.yml</strong>
+        </div>
+      </div>
+
+      <div class="row terminal-row">
+        <div class="col-md-12">
+          <Terminal
+            :theme="previewTheme"
+            :enable-color-picker="true"
+            @update-color="onTerminalColorUpdate"
+          />
+        </div>
+      </div>
+
+      <div class="row terminal-actions-row">
+        <div class="col-md-12">
+          <div class="terminal-actions">
+            <button class="btn" type="button" @click="downloadTheme">
+              Download YML
+            </button>
+          </div>
+          <p v-if="showRequiredError" class="required-note">
+            * Change Name and Author from the default values to download.
           </p>
         </div>
       </div>
@@ -130,12 +198,24 @@ function downloadTheme() {
 
             <div class="field-wrap">
               <label for="name">Name</label>
-              <input id="name" v-model="form.name" type="text">
+              <input
+                id="name"
+                v-model="form.name"
+                type="text"
+                :class="{ 'input-error': showRequiredError && isNameInvalid }"
+                @input="clearRequiredError"
+              >
             </div>
 
             <div class="field-wrap">
               <label for="author">Author</label>
-              <input id="author" v-model="form.author" type="text">
+              <input
+                id="author"
+                v-model="form.author"
+                type="text"
+                :class="{ 'input-error': showRequiredError && isAuthorInvalid }"
+                @input="clearRequiredError"
+              >
             </div>
 
             <div class="field-wrap">
@@ -149,37 +229,126 @@ function downloadTheme() {
             <div class="colors-grid">
               <div class="field-wrap" v-for="key in colorKeys" :key="key">
                 <label :for="key">{{ key }}</label>
-                <input :id="key" v-model="form[key]" type="text" placeholder="#RRGGBB">
+                <div class="color-input-wrap">
+                  <color-picker
+                    v-model="form[key]"
+                    :storage-key="`generator-${key}`"
+                    with-hex-input
+                    :with-colors-history="6"
+                    v-slot="{ show }"
+                  >
+                    <button
+                      class="picker-btn"
+                      type="button"
+                      :style="`background-color: ${sanitizeHex(form[key])}`"
+                      :aria-label="`Pick color for ${key}`"
+                      @click.stop.prevent="show($event)"
+                    ></button>
+                  </color-picker>
+                  <input
+                    :id="key"
+                    v-model="form[key]"
+                    type="text"
+                    placeholder="#RRGGBB"
+                    @blur="normalizeColorField(key)"
+                  >
+                </div>
               </div>
             </div>
 
             <div class="colors-grid colors-grid--meta">
               <div class="field-wrap">
                 <label for="background">background</label>
-                <input id="background" v-model="form.background" type="text" placeholder="#RRGGBB">
+                <div class="color-input-wrap">
+                  <color-picker
+                    v-model="form.background"
+                    storage-key="generator-background"
+                    with-hex-input
+                    :with-colors-history="6"
+                    v-slot="{ show }"
+                  >
+                    <button
+                      class="picker-btn"
+                      type="button"
+                      :style="`background-color: ${sanitizeHex(form.background)}`"
+                      aria-label="Pick background color"
+                      @click.stop.prevent="show($event)"
+                    ></button>
+                  </color-picker>
+                  <input
+                    id="background"
+                    v-model="form.background"
+                    type="text"
+                    placeholder="#RRGGBB"
+                    @blur="normalizeColorField('background')"
+                  >
+                </div>
               </div>
 
               <div class="field-wrap">
                 <label for="foreground">foreground</label>
-                <input id="foreground" v-model="form.foreground" type="text" placeholder="#RRGGBB">
+                <div class="color-input-wrap">
+                  <color-picker
+                    v-model="form.foreground"
+                    storage-key="generator-foreground"
+                    with-hex-input
+                    :with-colors-history="6"
+                    v-slot="{ show }"
+                  >
+                    <button
+                      class="picker-btn"
+                      type="button"
+                      :style="`background-color: ${sanitizeHex(form.foreground)}`"
+                      aria-label="Pick foreground color"
+                      @click.stop.prevent="show($event)"
+                    ></button>
+                  </color-picker>
+                  <input
+                    id="foreground"
+                    v-model="form.foreground"
+                    type="text"
+                    placeholder="#RRGGBB"
+                    @blur="normalizeColorField('foreground')"
+                  >
+                </div>
               </div>
 
               <div class="field-wrap">
                 <label for="cursor">cursor</label>
-                <input id="cursor" v-model="form.cursor" type="text" placeholder="#RRGGBB">
+                <div class="color-input-wrap">
+                  <color-picker
+                    v-model="form.cursor"
+                    storage-key="generator-cursor"
+                    with-hex-input
+                    :with-colors-history="6"
+                    v-slot="{ show }"
+                  >
+                    <button
+                      class="picker-btn"
+                      type="button"
+                      :style="`background-color: ${sanitizeHex(form.cursor)}`"
+                      aria-label="Pick cursor color"
+                      @click.stop.prevent="show($event)"
+                    ></button>
+                  </color-picker>
+                  <input
+                    id="cursor"
+                    v-model="form.cursor"
+                    type="text"
+                    placeholder="#RRGGBB"
+                    @blur="normalizeColorField('cursor')"
+                  >
+                </div>
               </div>
             </div>
 
             <div class="action-row">
-              <button class="btn" type="button" @click="downloadTheme">Download YML</button>
               <NuxtLink class="btn" to="/">Back to themes</NuxtLink>
             </div>
           </div>
         </div>
 
         <div class="col-md-6">
-          <Terminal :theme="previewTheme" />
-
           <div class="generator-card">
             <h3>Generated file preview</h3>
             <pre><code>{{ generatedTheme }}</code></pre>
@@ -193,7 +362,31 @@ function downloadTheme() {
 <style lang="scss" scoped>
 @use '@/sass/main.scss';
 
+.gogh-header {
+  background-color: #121f2a;
+}
+
 .generator-page {
+  .terminal-row {
+    margin-bottom: 10px;
+  }
+
+  .terminal-actions-row {
+    margin-bottom: 20px;
+  }
+
+  .terminal-actions {
+    display: flex;
+    justify-content: center;
+  }
+
+  .required-note {
+    margin: 10px 0 0;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #cc2b2b;
+  }
+
   .generator-card {
     margin: 0 0 30px;
     padding: 20px;
@@ -225,12 +418,37 @@ function downloadTheme() {
       color: #0d1926;
       font-size: 1.4rem;
     }
+
+    input.input-error {
+      border-color: #cc2b2b;
+      box-shadow: 0 0 0 1px rgba(204, 43, 43, 0.2);
+    }
   }
 
   .colors-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0 16px;
+  }
+
+  .color-input-wrap {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    .picker-btn {
+      width: 52px;
+      min-width: 52px;
+      height: 40px;
+      padding: 4px;
+      border: 1px solid #b2b2b2;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+
+      &:hover {
+        transform: scale(1.03);
+      }
+    }
   }
 
   .colors-grid--meta {
