@@ -1,45 +1,3 @@
-<script setup>
-
-const props = defineProps({
-    theme: {
-        type: Object,
-        required: true,
-        default: () => ({
-            name: 'Default Theme',
-            background: '#000000',
-            foreground: '#FFFFFF',
-            cursor: '#FFFFFF',
-            color_01: '#FF0000',
-            color_02: '#00FF00',
-            color_03: '#0000FF',
-            color_04: '#FFFF00',
-            color_05: '#FF00FF',
-            color_06: '#00FFFF',
-            color_07: '#FFFFFF',
-            color_08: '#000000',
-            color_09: '#FF0000',
-            color_10: '#00FF00',
-            color_11: '#0000FF',
-            color_12: '#FFFF00',
-            color_13: '#FF00FF',
-            color_14: '#00FFFF',
-            color_15: '#FFFFFF',
-            color_16: '#000000',
-        }),
-    },
-    enableColorPicker: {
-        type: Boolean,
-        default: false,
-    },
-});
-
-const emit = defineEmits(['update-color']);
-
-function emitColor(key, value) {
-    emit('update-color', { key, value });
-}
-</script>
-
 <template>
     <div class="terminal" :class="{ 'terminal--picker': enableColorPicker }">
         <div class="bar">
@@ -336,6 +294,48 @@ function emitColor(key, value) {
         </div>
     </div>
 </template>
+
+<script setup>
+
+const props = defineProps({
+    theme: {
+        type: Object,
+        required: true,
+        default: () => ({
+            name: 'Default Theme',
+            background: '#000000',
+            foreground: '#FFFFFF',
+            cursor: '#FFFFFF',
+            color_01: '#FF0000',
+            color_02: '#00FF00',
+            color_03: '#0000FF',
+            color_04: '#FFFF00',
+            color_05: '#FF00FF',
+            color_06: '#00FFFF',
+            color_07: '#FFFFFF',
+            color_08: '#000000',
+            color_09: '#FF0000',
+            color_10: '#00FF00',
+            color_11: '#0000FF',
+            color_12: '#FFFF00',
+            color_13: '#FF00FF',
+            color_14: '#00FFFF',
+            color_15: '#FFFFFF',
+            color_16: '#000000',
+        }),
+    },
+    enableColorPicker: {
+        type: Boolean,
+        default: false,
+    },
+});
+
+const emit = defineEmits(['update-color']);
+
+function emitColor(key, value) {
+    emit('update-color', { key, value });
+}
+</script>
 
 <style lang="scss">
 @use './Terminal.scss';

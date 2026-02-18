@@ -1,12 +1,3 @@
-<script setup>
-const props = defineProps({
-  backgroundColor: {
-    type: String,
-    default: '#121f2a',
-  },
-});
-</script>
-
 <template>
   <header class="gogh-header" :style="{ '--gogh-header-background': props.backgroundColor }">
     <h1>
@@ -15,6 +6,15 @@ const props = defineProps({
     </h1>
   </header>
 </template>
+
+<script setup>
+const props = defineProps({
+  backgroundColor: {
+    type: String,
+    default: '#121f2a',
+  },
+});
+</script>
 
 <style lang="scss" scoped>
 @use './Header.scss';

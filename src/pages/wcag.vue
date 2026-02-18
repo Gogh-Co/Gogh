@@ -1,39 +1,3 @@
-<script setup>
-import { ref, onMounted } from 'vue'
-import axios from 'axios'
-import Header from '@/components/Header/Header.vue'
-
-const data = ref([])
-
-onMounted(() => {
-  axios
-    .get(
-      'https://raw.githubusercontent.com/Gogh-Co/Gogh/refs/heads/master/data/wcag-min.json'
-    )
-    .then((response) => {
-      data.value = response.data
-    })
-    .catch((error) => {
-      console.error('Error fetching data:', error)
-    })
-})
-
-function sortedScoreCounts(scoreCounts) {
-  const order = ['AAA', 'AA', 'AA Large', 'Fail']
-  return order.map((label) => ({
-    label,
-    count: scoreCounts[label] || 0
-  }))
-}
-
-function formatColorName(colorName) {
-  if (colorName.startsWith('color_')) {
-    return `Color ${colorName.split('_')[1].replace(/^0/, '')}`
-  }
-  return colorName
-}
-</script>
-
 <template>
 
   <Header background-color="#0d1926" />
@@ -96,6 +60,42 @@ function formatColorName(colorName) {
     </div>
   </div>
 </template>
+
+<script setup>
+import { ref, onMounted } from 'vue'
+import axios from 'axios'
+import Header from '@/components/Header/Header.vue'
+
+const data = ref([])
+
+onMounted(() => {
+  axios
+    .get(
+      'https://raw.githubusercontent.com/Gogh-Co/Gogh/refs/heads/master/data/wcag-min.json'
+    )
+    .then((response) => {
+      data.value = response.data
+    })
+    .catch((error) => {
+      console.error('Error fetching data:', error)
+    })
+})
+
+function sortedScoreCounts(scoreCounts) {
+  const order = ['AAA', 'AA', 'AA Large', 'Fail']
+  return order.map((label) => ({
+    label,
+    count: scoreCounts[label] || 0
+  }))
+}
+
+function formatColorName(colorName) {
+  if (colorName.startsWith('color_')) {
+    return `Color ${colorName.split('_')[1].replace(/^0/, '')}`
+  }
+  return colorName
+}
+</script>
 
 <style lang="scss" scoped>
 @use '@/pages/wcsg.scss';

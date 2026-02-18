@@ -1,0 +1,110 @@
+@use '@/sass/main.scss';
+
+.generator-page {
+  .terminal-row {
+    margin-bottom: 10px;
+  }
+
+  .terminal-actions-row {
+    margin-bottom: 20px;
+  }
+
+  .terminal-actions {
+    display: flex;
+    justify-content: center;
+  }
+
+  .required-note {
+    margin: 10px 0 0;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #cc2b2b;
+  }
+
+  .generator-card {
+    margin: 0 0 30px;
+    padding: 20px;
+    border: 1px solid #d6d6d6;
+    background: #f8f8f8;
+  }
+
+  h3 {
+    margin-bottom: 16px;
+  }
+
+  .field-wrap {
+    margin: 0 0 14px;
+
+    label {
+      display: block;
+      margin: 0 0 6px;
+      font-size: 1.4rem;
+      font-weight: 700;
+      text-transform: lowercase;
+    }
+
+    input,
+    select {
+      width: 100%;
+      border: 1px solid #b2b2b2;
+      background: #fff;
+      padding: 10px;
+      color: #0d1926;
+      font-size: 1.4rem;
+    }
+
+    input.input-error {
+      border-color: #cc2b2b;
+      box-shadow: 0 0 0 1px rgba(204, 43, 43, 0.2);
+    }
+  }
+
+  .colors-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 16px;
+  }
+
+  .color-input-wrap {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    .picker-btn {
+      width: 52px;
+      min-width: 52px;
+      height: 40px;
+      padding: 4px;
+      border: 1px solid #b2b2b2;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+
+      &:hover {
+        transform: scale(1.03);
+      }
+    }
+  }
+
+  .colors-grid--meta {
+    margin-top: 10px;
+  }
+
+  .action-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  pre {
+    max-height: 540px;
+    overflow: auto;
+    margin: 0;
+    padding: 16px;
+    border: 1px solid #d6d6d6;
+    background: #f5f2f0;
+    color: #2f2f2f;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+}
