@@ -3,6 +3,7 @@ import chroma from 'chroma-js';
 import ClipboardJS from 'clipboard';
 
 import Terminal from '@/components/Terminal/Terminal.vue';
+import Header from '@/components/Header/Header.vue';
 
 const getUrl = 'https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json';
 
@@ -198,26 +199,13 @@ onUnmounted(() => {
             data-recalc-dims="1">
     </a>
 
-
-    <header class="gogh-header">
-        <h1>
-            <span> Gogh </span>
-            <img src="https://raw.githubusercontent.com/Gogh-Co/Gogh/master/.images/gogh/Gogh-logo-dark.png" alt="">
-        </h1>
-    </header>
+    <Header />
 
     <div class="gogh-content">
         <div class="container">
+
             <div class="row">
                 <div class="col-md-12">
-                    <h2>
-                        Color scheme for your terminal
-                    </h2>
-
-                    <p>
-                        Gogh is a collection of color schemes for various terminal emulators, including Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4 Terminal. These schemes are designed to make your terminal more visually appealing and improve your productivity by providing a better contrast and color differentiation.
-                    </p>
-
                     <div class="github-int">
                         <a class="github-button"
                             href="https://github.com/Gogh-Co/Gogh"
@@ -237,12 +225,29 @@ onUnmounted(() => {
                             Star
                         </a>
                     </div>
+                </div>
+            </div>
 
-                    <h3> Install </h3>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>
+                        Color scheme for your terminal
+                    </h2>
+
                     <p>
-                        Just copy and paste One line command.
+                        Gogh is a collection of color schemes for various terminal emulators, including Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4 Terminal. These schemes are designed to make your terminal more visually appealing and improve your productivity by providing a better contrast and color differentiation.
                     </p>
+                </div>
+            </div>
 
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="install-intro">
+                        <strong>Install: </strong>Just copy and paste One line command.
+                    </p>
+                </div>
+
+                <div class="col-md-6">
                     <div class="code-wrap">
                         <h4>Linux <span>(wget)</span></h4>
                         <div class="code-holder">
@@ -252,7 +257,9 @@ onUnmounted(() => {
                             </span>
                         </div>
                     </div>
+                </div>
 
+                <div class="col-md-6">
                     <div class="code-wrap">
                         <h4>Mac <span>(curl)</span></h4>
                         <div class="code-holder">
@@ -262,10 +269,11 @@ onUnmounted(() => {
                             </span>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
+
+
 
         <div class="container">
             <div class="row">
@@ -289,10 +297,7 @@ onUnmounted(() => {
                         </button>
                     </div>
                 </div>
-            </div>
 
-
-            <div class="row">
                 <div class="col-md-12">
                     <div class="filter-background" v-show="filterBackgroundVisible">
                             <template v-for="item in themeBackgrounds" :key="item">
@@ -307,8 +312,11 @@ onUnmounted(() => {
             </div>
         </div>
 
+
+        <br>
+
         <div class="container-fluid">
-            <div class="row justify-content-center">
+            <div class="row ">
                 <template v-for="theme in themes">
                     <div class="col-md-6 col-lg-6 col-xl-4"
                         v-show="filter === theme.category || filter === 'all' || filter === 'background' || filter === theme.background.toLowerCase()">
@@ -356,5 +364,6 @@ onUnmounted(() => {
 
 <style lang="scss" scoped>
 @use '@/sass/main.scss';
+@use '@/pages/index.scss';
 @use '@/pages/index-lightbox.scss';
 </style>

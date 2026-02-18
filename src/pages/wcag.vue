@@ -1,6 +1,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import axios from 'axios'
+import Header from '@/components/Header/Header.vue'
 
 const data = ref([])
 
@@ -35,12 +36,7 @@ function formatColorName(colorName) {
 
 <template>
 
-  <header class="gogh-header">
-    <h1>
-      <span> Gogh </span>
-      <img src="https://raw.githubusercontent.com/Gogh-Co/Gogh/master/.images/gogh/Gogh-logo-dark.png" alt="">
-    </h1>
-  </header>
+  <Header background-color="#0d1926" />
 
   <div class="container">
     <div class="row">

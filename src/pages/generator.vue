@@ -1,4 +1,5 @@
 <script setup>
+import Header from '@/components/Header/Header.vue';
 import Terminal from '@/components/Terminal/Terminal.vue';
 import themeTemplate from '../../theme-template.yml?raw';
 
@@ -153,12 +154,7 @@ function onTerminalColorUpdate({ key, value }) {
 </script>
 
 <template>
-  <header class="gogh-header">
-    <h1>
-      <span> Gogh </span>
-      <img src="https://raw.githubusercontent.com/Gogh-Co/Gogh/master/.images/gogh/Gogh-logo-dark.png" alt="">
-    </h1>
-  </header>
+  <Header />
 
   <div class="gogh-content">
     <div class="container generator-page">
@@ -361,10 +357,6 @@ function onTerminalColorUpdate({ key, value }) {
 
 <style lang="scss" scoped>
 @use '@/sass/main.scss';
-
-.gogh-header {
-  background-color: #121f2a;
-}
 
 .generator-page {
   .terminal-row {

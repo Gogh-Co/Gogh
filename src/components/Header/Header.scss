@@ -1,0 +1,26 @@
+.gogh-header {
+    display: flex;
+    background-color: var(--gogh-header-background, #121f2a);
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        width: 500px;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1;
+
+        span {
+            display: block;
+            overflow: hidden;
+            color: #fff;
+            text-indent: 100%;
+            white-space: nowrap;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
