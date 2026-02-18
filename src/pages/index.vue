@@ -4,6 +4,7 @@ import ClipboardJS from 'clipboard';
 
 import Terminal from '@/components/Terminal/Terminal.vue';
 import Header from '@/components/Header/Header.vue';
+import FilterButton from '@/components/Filters/FilterButton.vue';
 
 const getUrl = 'https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json';
 
@@ -279,22 +280,22 @@ onUnmounted(() => {
             <div class="row">
                 <div class="col-md-12">
                     <div class="filters">
-                        <button class="btn js-btn--filter" :class="{ active: filter === 'all' }"
+                        <FilterButton extra-class="js-btn--filter" :active="filter === 'all'"
                             @click="setFilter('all'); resetMenuSelected()">
                             All
-                        </button>
-                        <button class="btn js-btn--filter" :class="{ active: filter === 'light' }"
+                        </FilterButton>
+                        <FilterButton extra-class="js-btn--filter" :active="filter === 'light'"
                             @click="setFilter('light'); resetMenuSelected()">
                             Light Themes
-                        </button>
-                        <button class="btn js-btn--filter" :class="{ active: filter === 'dark' }"
+                        </FilterButton>
+                        <FilterButton extra-class="js-btn--filter" :active="filter === 'dark'"
                             @click="setFilter('dark'); resetMenuSelected()">
                             Dark Themes
-                        </button>
-                        <button class="btn" :class="{ active: selected === 'background' }"
+                        </FilterButton>
+                        <FilterButton :active="selected === 'background'"
                             @click="toggleFilterBackground();">
                             by Background
-                        </button>
+                        </FilterButton>
                     </div>
                 </div>
 
