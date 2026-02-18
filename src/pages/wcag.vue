@@ -38,7 +38,7 @@ function formatColorName(colorName) {
   <header class="gogh-header">
     <h1>
       <span> Gogh </span>
-      <img src="https://raw.githubusercontent.com/Gogh-Co/Gogh/master/images/gogh/Gogh-logo-dark.png" alt="">
+      <img src="https://raw.githubusercontent.com/Gogh-Co/Gogh/master/.images/gogh/Gogh-logo-dark.png" alt="">
     </h1>
   </header>
 

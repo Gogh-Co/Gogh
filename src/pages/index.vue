@@ -8,7 +8,7 @@ const getUrl = 'https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/theme
 
 const themes = ref([]);
 const filter = ref('all');
-const themeBackgrounds = ref(null);
+const themeBackgrounds = ref([]);
 const selected = ref(null);
 const filterBackgroundVisible = ref(false);
 
@@ -169,7 +169,7 @@ onMounted(async () => {
     <header class="gogh-header">
         <h1>
             <span> Gogh </span>
-            <img src="https://raw.githubusercontent.com/Gogh-Co/Gogh/master/images/gogh/Gogh-logo-dark.png" alt="">
+            <img src="https://raw.githubusercontent.com/Gogh-Co/Gogh/master/.images/gogh/Gogh-logo-dark.png" alt="">
         </h1>
     </header>
 
@@ -204,6 +204,11 @@ onMounted(async () => {
                             Star
                         </a>
                     </div>
+
+                    <p>
+                        Need a custom theme file?
+                        <NuxtLink class="btn" to="/generator">Open Theme Generator</NuxtLink>
+                    </p>
 
                     <h3> Install </h3>
                     <p>
@@ -261,17 +266,15 @@ onMounted(async () => {
 
             <div class="row">
                 <div class="col-md-12">
-                    <transition-expand>
-                        <div class="filter-background" v-show="filterBackgroundVisible">
-                            <template v-for="item in themeBackgrounds">
+                    <div class="filter-background" v-show="filterBackgroundVisible">
+                            <template v-for="item in themeBackgrounds" :key="item">
                                 <button class="btn btn--filter-bg" :class="{ active: filter === item.toLowerCase() }"
                                     :style="'background-color:' + item"
                                     @click="setFilter(item); toggleFilterBackground(false);">
                                     <span>{{ item.toLowerCase() }}</span>
                                 </button>
                             </template>
-                        </div>
-                    </transition-expand>
+                    </div>
                 </div>
             </div>
         </div>
