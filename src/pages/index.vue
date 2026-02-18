@@ -299,15 +299,19 @@ onUnmounted(() => {
                 </div>
 
                 <div class="col-md-12">
-                    <div class="filter-background" v-show="filterBackgroundVisible">
-                            <template v-for="item in themeBackgrounds" :key="item">
-                                <button class="btn btn--filter-bg" :class="{ active: filter === item.toLowerCase() }"
-                                    :style="'background-color:' + item"
-                                    @click="setFilter(item); toggleFilterBackground(false);">
-                                    <span>{{ item.toLowerCase() }}</span>
-                                </button>
-                            </template>
-                    </div>
+                    <Transition name="bg-filter">
+                        <div v-if="filterBackgroundVisible" class="filter-background-wrap">
+                            <div class="filter-background">
+                                <template v-for="item in themeBackgrounds" :key="item">
+                                    <button class="btn btn--filter-bg" :class="{ active: filter === item.toLowerCase() }"
+                                        :style="'background-color:' + item"
+                                        @click="setFilter(item); toggleFilterBackground(false);">
+                                        <span>{{ item.toLowerCase() }}</span>
+                                    </button>
+                                </template>
+                            </div>
+                        </div>
+                    </Transition>
                 </div>
             </div>
         </div>

@@ -200,6 +200,32 @@
     }
 }
 
+.filter-background-wrap {
+    overflow: hidden;
+    max-height: 1000px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.bg-filter-enter-active,
+.bg-filter-leave-active {
+    transition: max-height 0.35s ease, opacity 0.28s ease, transform 0.28s ease;
+}
+
+.bg-filter-enter-from,
+.bg-filter-leave-to {
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-8px);
+}
+
+.bg-filter-enter-to,
+.bg-filter-leave-from {
+    max-height: 1000px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
 /** * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ * ·······  Main Content * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ */
 .gogh-terminal {
     @include m1400 {
