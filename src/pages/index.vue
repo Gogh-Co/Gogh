@@ -368,7 +368,7 @@ onUnmounted(() => {
 
 
 
-<style lang="scss" scoped>
+<style lang="scss">
 @use '@/sass/main.scss';
 @use '@/pages/index.scss';
 @use '@/pages/index-lightbox.scss';
