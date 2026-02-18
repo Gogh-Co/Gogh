@@ -205,11 +205,6 @@ onMounted(async () => {
                         </a>
                     </div>
 
-                    <p>
-                        Need a custom theme file?
-                        <NuxtLink class="btn" to="/generator">Open Theme Generator</NuxtLink>
-                    </p>
-
                     <h3> Install </h3>
                     <p>
                         Just copy and paste One line command.
