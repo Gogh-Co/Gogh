@@ -11,6 +11,8 @@ const filter = ref('all');
 const themeBackgrounds = ref([]);
 const selected = ref(null);
 const filterBackgroundVisible = ref(false);
+const lightboxVisible = ref(false);
+const lightboxTheme = ref(null);
 
 function lightOrDark(color) {
     // Variables for red, green, blue values
@@ -141,6 +143,22 @@ function toggleFilterBackground(force) {
     }
 }
 
+function openThemeLightbox(theme) {
+    lightboxTheme.value = theme;
+    lightboxVisible.value = true;
+}
+
+function closeThemeLightbox() {
+    lightboxVisible.value = false;
+    lightboxTheme.value = null;
+}
+
+function onWindowKeydown(event) {
+    if (event.key === 'Escape' && lightboxVisible.value) {
+        closeThemeLightbox();
+    }
+}
+
 onMounted(async () => {
     const themesData = await fetchData();
     themes.value = themesData;
@@ -149,6 +167,11 @@ onMounted(async () => {
     });
     new ClipboardJS('.btn-copy')
     getBackgrounds();
+    window.addEventListener('keydown', onWindowKeydown);
+});
+
+onUnmounted(() => {
+    window.removeEventListener('keydown', onWindowKeydown);
 });
 </script>
 
@@ -279,9 +302,37 @@ onMounted(async () => {
                 <template v-for="theme in themes">
                     <div class="col-md-6 col-lg-6 col-xl-4"
                         v-show="filter === theme.category || filter === 'all' || filter === 'background' || filter === theme.background.toLowerCase()">
-                        <Terminal :theme="theme"></Terminal>
+                        <div
+                            class="terminal-preview"
+                            role="button"
+                            tabindex="0"
+                            @click="openThemeLightbox(theme)"
+                            @keydown.enter.prevent="openThemeLightbox(theme)"
+                            @keydown.space.prevent="openThemeLightbox(theme)"
+                        >
+                            <Terminal :theme="theme"></Terminal>
+                        </div>
                     </div>
                 </template>
+            </div>
+        </div>
+
+        <div
+            v-if="lightboxVisible && lightboxTheme"
+            class="terminal-lightbox"
+            @click.self="closeThemeLightbox"
+        >
+            <button
+                type="button"
+                class="terminal-lightbox__close"
+                aria-label="Close fullscreen preview"
+                @click="closeThemeLightbox"
+            >
+                ×
+            </button>
+
+            <div class="terminal-lightbox__content">
+                <Terminal :theme="lightboxTheme"></Terminal>
             </div>
         </div>
     </div>
@@ -295,4 +346,44 @@ onMounted(async () => {
 
 <style lang="scss" scoped>
 @use '@/sass/main.scss';
+
+.terminal-preview {
+    cursor: zoom-in;
+}
+
+.terminal-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background-color: rgba(5, 8, 12, 0.86);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.terminal-lightbox__content {
+    width: min(1200px, 100%);
+    max-height: 100%;
+    overflow: auto;
+}
+
+.terminal-lightbox__close {
+    position: absolute;
+    top: 14px;
+    right: 18px;
+    border: 0;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    width: 44px;
+    height: 44px;
+    font-size: 30px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.terminal-lightbox__close:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
 </style>
