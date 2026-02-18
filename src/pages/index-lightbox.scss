@@ -1,0 +1,39 @@
+.terminal-preview {
+    cursor: zoom-in;
+}
+
+.terminal-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background-color: rgba(5, 8, 12, 0.86);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.terminal-lightbox__content {
+    width: min(1200px, 100%);
+    max-height: 100%;
+    overflow: auto;
+}
+
+.terminal-lightbox__close {
+    position: absolute;
+    top: 14px;
+    right: 18px;
+    border: 0;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    width: 44px;
+    height: 44px;
+    font-size: 30px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.terminal-lightbox__close:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
