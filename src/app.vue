@@ -29,3 +29,7 @@ useHead({
     ],
 });
 </script>
+
+<style lang="scss">
+@use '@/app.scss';
+</style>

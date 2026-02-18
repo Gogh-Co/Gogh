@@ -94,19 +94,27 @@
                         <ButtonFilter extra-class="js-btn--filter" :active="filter === 'all'"
                             @click="setFilter('all'); resetMenuSelected()">
                             All
+
                         </ButtonFilter>
+
                         <ButtonFilter extra-class="js-btn--filter" :active="filter === 'light'"
                             @click="setFilter('light'); resetMenuSelected()">
                             Light Themes
                         </ButtonFilter>
+
                         <ButtonFilter extra-class="js-btn--filter" :active="filter === 'dark'"
                             @click="setFilter('dark'); resetMenuSelected()">
                             Dark Themes
                         </ButtonFilter>
+
                         <ButtonFilter :active="selected === 'background'"
                             @click="toggleFilterBackground();">
                             by Background
                         </ButtonFilter>
+
+                        <a href="./generator" class="btn">
+                            Generator
+                        </a>
                     </div>
                 </div>
 
@@ -316,8 +324,6 @@ function getBackgrounds() {
     const bgsSort = sortColors(bgsRGB);
     const bgsHEX = bgsSort.map(ele => chroma(ele).hex());
     themeBackgrounds.value = bgsHEX.reverse();
-    selected.value = 'background';
-    filter.value = 'background';
 }
 
 
@@ -368,8 +374,7 @@ onUnmounted(() => {
 
 
 
-<style lang="scss">
-@use '@/sass/main.scss';
+<style lang="scss" scoped>
 @use '@/pages/index.scss';
 @use '@/pages/index-lightbox.scss';
 </style>

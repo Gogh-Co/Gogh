@@ -5,6 +5,7 @@
 */
 
 :root {
+    font-size: 10px;
     --color-blue: #65d8ee;
     --color-green: #A6E22E;
     --color-yellow: #E6DB74;
@@ -69,7 +70,6 @@ $font_size_base: 1.6rem;
 body,
 html {
     height: 100%;
-    font-size: 10px;
 }
 
 body {
