@@ -112,9 +112,9 @@
                             by Background
                         </ButtonFilter>
 
-                        <a href="./generator" class="btn">
+                        <NuxtLink to="/generator" class="btn">
                             Generator
-                        </a>
+                        </NuxtLink>
                     </div>
                 </div>
 
