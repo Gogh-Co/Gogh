@@ -8,4 +8,4 @@ on:
 
 jobs:
   call:
-    uses: Gogh-Co/Gogh/.github/workflows/deploy-pages.yml@master
+    uses: Gogh-Co/Gogh/.github/workflows/gh-pages.yml@master
