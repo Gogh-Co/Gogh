@@ -112,11 +112,15 @@
                             by Background
                         </ButtonFilter>
 
-                        <Button to="/generator" extra-class="btn-bk">
+                        <Button
+                            href="/generator"
+                            extra-class="btn-bk">
                             Generator
                         </Button>
 
-                        <Button to="/wcsg" extra-class="btn-bk">
+                        <Button
+                            href="/wcsg"
+                            extra-class="btn-bk">
                             WCSG
                         </Button>
                     </div>

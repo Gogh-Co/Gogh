@@ -13,6 +13,7 @@
         class="btn"
         :class="[{ active }, extraClass]"
         :href="href || undefined"
+        target="_blank"
     >
         <slot />
     </a>
