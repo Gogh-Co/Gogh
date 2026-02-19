@@ -420,5 +420,4 @@ onUnmounted(() => {
 
 <style lang="scss" scoped>
 @use '@/pages/index.scss';
-@use '@/pages/index-lightbox.scss';
 </style>
