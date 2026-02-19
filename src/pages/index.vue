@@ -112,9 +112,13 @@
                             by Background
                         </ButtonFilter>
 
-                        <NuxtLink to="/generator" class="btn btn-bk">
+                        <Button to="/generator" extra-class="btn-bk">
                             Generator
-                        </NuxtLink>
+                        </Button>
+
+                        <Button to="/wcsg" extra-class="btn-bk">
+                            WCSG
+                        </Button>
                     </div>
                 </div>
 
@@ -192,6 +196,7 @@ import githubButtonsScript from '@/vendors/static/buttons.js?raw';
 import Terminal from '@/components/Terminal/Terminal.vue';
 import Header from '@/components/Header/Header.vue';
 import ButtonFilter from '@/components/Buttons/ButtonFilter.vue';
+import Button from '@/components/Buttons/Button.vue';
 
 const getUrl = '/api/themes';
 

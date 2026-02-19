@@ -1,21 +1,51 @@
+@use '@/sass/base' as *;
+
+.wcsg-page {
+    .row {
+        margin-bottom: 10px;
+    }
+}
+
+.wcsg-title-row {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    flex-wrap: wrap;
+
+    h2 {
+        margin-bottom: 0;
+    }
+}
+
+.wcsg-download-link {
+    color: #1998d6;
+    text-decoration: underline;
+    font-size: 1.3rem;
+
+    &:hover {
+        color: #0d1926;
+    }
+}
+
 .theme-wrap {
     padding: 20px 15px 5px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    border: 1px solid #cfd6dc;
+    border-radius: 0;
     text-align: left;
-    background-color: #fafafa;
+    background-color: #f7f7f7;
     margin-bottom: 30px;
 }
 
 .theme-header {
     font-size: 1.25em;
     margin-bottom: 10px;
-    color: #333;
+    color: #595647;
+    font-weight: 700;
 }
 
 .theme-background {
     font-size: 0.9em;
-    color: #666;
+    color: #595647;
     margin-top: 5px;
     font-style: italic;
 
@@ -37,13 +67,13 @@ table {
 th,
 td {
     padding: 2px 5px;
-    border: 1px solid #ddd;
+    border: 1px solid #d6dde3;
     text-align: center;
     font-size: 12px;
 }
 
 th {
-    background-color: #f4f4f4;
+    background-color: #edf2f6;
     font-weight: bold;
 }
 
@@ -55,13 +85,13 @@ th {
 
 .data-hex {
     text-align: center;
-    color: #555;
+    color: #595647;
 }
 
 .data-score {
     text-align: center;
     font-weight: bold;
-    color: #333;
+    color: #595647;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
@@ -73,7 +103,7 @@ th {
 
 .data-ratio {
     text-align: right;
-    color: #232323;
+    color: #595647;
     font-size: 13px;
 }
 

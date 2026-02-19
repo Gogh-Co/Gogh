@@ -1,6 +1,16 @@
 <template>
+    <NuxtLink
+        v-if="to"
+        class="btn"
+        :class="[{ active }, extraClass]"
+        :to="to"
+    >
+        <slot />
+    </NuxtLink>
+
     <a
-        class="btn gogh-btn"
+        v-else
+        class="btn"
         :class="[{ active }, extraClass]"
         :href="href || undefined"
     >
@@ -20,6 +30,10 @@ defineProps({
     },
     href: {
         type: String,
+        default: '',
+    },
+    to: {
+        type: [String, Object],
         default: '',
     },
 });

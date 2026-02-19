@@ -1,64 +1,82 @@
 <template>
 
-  <Header background-color="#0d1926" />
+    <Header />
 
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <h2>WCAG Color Data</h2>
-        <div v-if="data.length === 0">Loading data...</div>
-      </div>
-    </div>
-    <div class="row">
-      <template v-for="(theme, index) in data" :key="index">
-        <div class="col-sm-6 col-xl-4">
-          <div class="theme-wrap">
-            <div class="theme-header">{{ theme.theme }}</div>
-            <div class="theme-background">
-              Background: {{ theme.background }}
-              <div class="dot" :style="{ backgroundColor: theme.background }"></div>
+    <div class="gogh-content wcsg-page">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="wcsg-title-row">
+                        <h2>
+                            WCAG Color Data
+                        </h2>
+                        <a
+                            class="wcsg-download-link"
+                            href="https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/wcag-min.json"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            download data
+                        </a>
+                    </div>
+
+                    <div v-if="data.length === 0">
+                        Loading data...
+                    </div>
+                </div>
             </div>
 
-            <table>
-              <thead>
-                <tr>
-                  <th>Color</th>
-                  <th>Hex</th>
-                  <th>Score</th>
-                  <th>Ratio</th>
-                  <th></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr v-for="(result, idx) in theme.results" :key="idx">
-                  <td class="data-color">{{ formatColorName(result.Color) }}</td>
-                  <td class="data-hex">{{ result.Hex }}</td>
-                  <td class="data-score" :class="{ 'fail': result.Score === 'Fail' }">
+            <div class="row">
+                <template v-for="(theme, index) in data" :key="index">
+                    <div class="col-sm-6 col-xl-4">
+                    <div class="theme-wrap">
+                    <div class="theme-header">{{ theme.theme }}</div>
+                    <div class="theme-background">
+                    Background: {{ theme.background }}
+                    <div class="dot" :style="{ backgroundColor: theme.background }"></div>
+                    </div>
+
+                    <table>
+                    <thead>
+                    <tr>
+                    <th>Color</th>
+                    <th>Hex</th>
+                    <th>Score</th>
+                    <th>Ratio</th>
+                    <th></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr v-for="(result, idx) in theme.results" :key="idx">
+                    <td class="data-color">{{ formatColorName(result.Color) }}</td>
+                    <td class="data-hex">{{ result.Hex }}</td>
+                    <td class="data-score" :class="{ 'fail': result.Score === 'Fail' }">
                     {{ result.Score }}
-                  </td>
-                  <td class="data-ratio">{{ result.Ratio }}</td>
-                  <td :style="{ backgroundColor: theme.background }">
+                    </td>
+                    <td class="data-ratio">{{ result.Ratio }}</td>
+                    <td :style="{ backgroundColor: theme.background }">
                     <div class="dot" :style="{ backgroundColor: result.Hex }"></div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+                    </td>
+                    </tr>
+                    </tbody>
+                    </table>
 
-            <div class="score-counts">
-              <h3>
-                Score Counts:
-              </h3>
-              <ul>
-                  <li v-for="(score, index) in sortedScoreCounts(theme.scoreCounts)" :key="index">
+                    <div class="score-counts">
+                    <h3>
+                    Score Counts:
+                    </h3>
+                    <ul>
+                    <li v-for="(score, index) in sortedScoreCounts(theme.scoreCounts)" :key="index">
                     {{ score.label }}: <span>{{ score.count }}</span>
-                  </li>
-              </ul>
+                    </li>
+                    </ul>
+                    </div>
+                    </div>
+                    </div>
+                </template>
             </div>
-          </div>
         </div>
-      </template>
     </div>
-  </div>
 </template>
 
 <script setup>

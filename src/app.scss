@@ -13,50 +13,6 @@
 
 /**
 * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-* ·······  General
-* ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-*/
-.btn {
-    display: inline-block;
-    padding: 0.8rem 2.5rem 0.85rem;
-    outline: none;
-    border: 1px solid #0d1926;
-    border-radius: 0;
-    background-color: transparent;
-    color: #0d1926;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1.6rem;
-    cursor: pointer;
-    transition: all 0.3s ease;
-
-    @include m650 {
-        font-size: 1.4rem;
-        padding: 0.57rem 1.5rem 0.55rem;
-    }
-
-    @include m768 {
-        padding: 1.3rem 2.5rem 0.85rem;
-    }
-}
-
-.btn:hover {
-    background-color: #0d1926;
-    color: #ffffff;
-}
-
-.btn:active {
-    position: relative;
-    top: 1px;
-}
-
-.btn:focus {
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-/**
-* ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 * ·······  Content
 * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
