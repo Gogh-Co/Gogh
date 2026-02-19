@@ -60,6 +60,7 @@ type Model struct {
 	sp             spinner.Model
 	vp             viewport.Model
 	prepared       assets.Prepared
+	installLog     strings.Builder
 	status         string
 	lastErr        error
 	targetTerminal string
@@ -118,13 +119,16 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		m.ensureSelectedVisible()
 		return m, nil
 	case logMsg:
-		m.vp.SetContent(m.vp.View() + string(msg))
+		m.installLog.WriteString(string(msg))
+		m.vp.SetContent(m.installLog.String())
 		m.vp.GotoBottom()
 		return m, nil
 	case installDoneMsg:
 		if msg.err != nil {
 			m.lastErr = msg.err
 			m.status = "Install failed"
+			m.state = stateResult
+			return m, nil
 		} else {
 			m.lastErr = nil
 			if len(m.filtered) > 0 && m.selected < len(m.filtered) {
@@ -132,9 +136,9 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			} else {
 				m.status = "Installed"
 			}
+			// Close TUI immediately after successful install as requested.
+			return m, tea.Quit
 		}
-		m.state = stateResult
-		return m, nil
 	case tea.MouseMsg:
 		if m.state == stateInstalling {
 			var cmd tea.Cmd
@@ -195,6 +199,7 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 				return m, nil
 			}
 			m.state = stateInstalling
+			m.installLog.Reset()
 			m.vp.SetContent("")
 			m.status = "Installing " + m.filtered[m.selected].Name + " ..."
 			return m, tea.Batch(m.sp.Tick, m.installCmd(m.filtered[m.selected]))
@@ -263,7 +268,14 @@ func (m Model) View() string {
 		headerTitle += " " + m.styles.Subtle.Render("target: "+m.targetTerminal)
 	}
 
-	header := m.styles.HeaderBox.Width(max(24, m.width-8)).Render(headerTitle)
+	headerWidth := max(24, m.width-8)
+	palette := defaultPalette()
+	if theme, ok := m.currentSelectedTheme(); ok {
+		palette = getPalette(theme, m.prepared)
+	}
+	paletteBar := renderPaletteBar(palette, max(8, headerWidth-4))
+
+	header := m.styles.HeaderBox.Width(headerWidth).Render(headerTitle + "\n" + paletteBar)
 
 	search := m.styles.SearchLabel.Render("Search: ") + m.search.View()
 
@@ -289,6 +301,14 @@ func (m Model) View() string {
 		footer := m.styles.Footer.Render("↑↓/hjkl move • enter install • / search • esc clear • pgup/pgdn page • q quit")
 		return m.styles.Doc.Render(strings.Join([]string{header, search, "", panel, footer}, "\n"))
 	}
+}
+
+func (m Model) currentSelectedTheme() (assets.Theme, bool) {
+	if len(m.filtered) == 0 {
+		return assets.Theme{}, false
+	}
+	idx := min(max(0, m.selected), len(m.filtered)-1)
+	return m.filtered[idx], true
 }
 
 func (m *Model) applyFilter() {
@@ -490,6 +510,7 @@ func (m Model) installCmd(theme assets.Theme) tea.Cmd {
 			Stdin:       os.Stdin,
 			Env:         os.Environ(),
 			PrintHeader: true,
+			LogCommand:  true,
 		})
 		return installDoneMsg{err: err}
 	}
