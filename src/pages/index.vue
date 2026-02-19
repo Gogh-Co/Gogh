@@ -187,6 +187,7 @@
 <script setup>
 import chroma from 'chroma-js';
 import ClipboardJS from 'clipboard';
+import githubButtonsScript from '@/vendors/static/buttons.js?raw';
 
 import Terminal from '@/components/Terminal/Terminal.vue';
 import Header from '@/components/Header/Header.vue';
@@ -205,9 +206,9 @@ const lightboxTheme = ref(null);
 useHead({
     script: [
         {
-            src: 'https://buttons.github.io/buttons.js',
-            async: true,
-            defer: true,
+            key: 'github-buttons-inline',
+            innerHTML: githubButtonsScript,
+            tagPosition: 'bodyClose',
         },
     ],
 });
@@ -300,9 +301,7 @@ function sortColors(colors) {
 }
 
 async function fetchData() {
-    const data = await fetch(getUrl);
-    const themesData = await data.json();
-    return themesData;
+    return $fetch(getUrl);
 }
 
 function setFilter(f) {
@@ -317,12 +316,17 @@ function setBackground() {
 }
 
 function getBackgrounds() {
+    if (!Array.isArray(themes.value) || themes.value.length === 0) {
+        themeBackgrounds.value = [];
+        return;
+    }
+
     const bgs = themes.value.map(e => e.background);
     const bgsLowerCase = bgs.map(ele => ele.toLowerCase());
     const bgsUnique = [...new Set(bgsLowerCase)];
     const bgsRGB = bgsUnique.map(ele => chroma(ele).rgb());
     const bgsSort = sortColors(bgsRGB);
-    const bgsHEX = bgsSort.map(ele => chroma(ele).hex());
+    const bgsHEX = (bgsSort || []).map(ele => chroma(ele).hex());
     themeBackgrounds.value = bgsHEX.reverse();
 }
 
@@ -356,13 +360,25 @@ function onWindowKeydown(event) {
     }
 }
 
-onMounted(async () => {
-    const themesData = await fetchData();
-    themes.value = themesData;
-    themes.value.forEach((v) => {
-        v.category = lightOrDark(v.background);
-    });
-    new ClipboardJS('.btn-copy')
+const { data: themesData } = await useAsyncData('themes', () => fetchData(), {
+    default: () => [],
+});
+
+const rawThemes = Array.isArray(themesData.value)
+    ? themesData.value
+    : Array.isArray(themesData.value?.data)
+        ? themesData.value.data
+        : [];
+
+themes.value = rawThemes.map((theme) => ({
+    ...theme,
+    category: lightOrDark(theme.background),
+}));
+
+getBackgrounds();
+
+onMounted(() => {
+    new ClipboardJS('.btn-copy');
     getBackgrounds();
     window.addEventListener('keydown', onWindowKeydown);
 });

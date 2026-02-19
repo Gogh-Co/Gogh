@@ -1,6 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-target: 'static',
   app: {
     baseURL: '/Gogh/',
     head: {
@@ -16,28 +15,18 @@ target: 'static',
         { rel: 'author', href: 'humans.txt' },
         { rel: 'icon', type: 'image/png', sizes: '16x16', href: 'favicons/favicon.png' },
         { rel: 'icon', href: 'favicons/favicon.ico' },
-        { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
-        {
-          rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap',
-        },
-        {
-          rel: 'stylesheet',
-          href: 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css',
-        },
-        {
-          rel: 'stylesheet',
-          href: 'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.css',
-        },
-      ],
-      script: [
-        { src: 'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js', body: true },
-        { src: 'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js', body: true },
-        { src: 'ttps://buttons.github.io/buttons.js', body: true },
       ],
     },
   },
   srcDir: 'src/',
+  css: [
+    '@fontsource/roboto/300.css',
+    '@fontsource/roboto/400.css',
+    '@fontsource/roboto/700.css',
+    '@fontsource/roboto/900.css',
+    'bootstrap/dist/css/bootstrap.min.css',
+    'prismjs/themes/prism.css',
+  ],
   vite: {
     css: {
       preprocessorOptions: {
@@ -51,7 +40,9 @@ target: 'static',
     '@morev/vue-transitions/nuxt',
     'nuxt-color-picker',
   ],
-
+  plugins: [
+    '~/vendors/prism.client',
+  ],
 
   devtools: { enabled: true },
   compatibilityDate: '2024-04-03'

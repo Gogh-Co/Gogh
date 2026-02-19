@@ -10,12 +10,15 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@fontsource/roboto": "^5.2.9",
     "@morev/vue-transitions": "^3.0.5",
     "axios": "^1.7.7",
+    "bootstrap": "^5.3.8",
     "chroma-js": "^3.1.2",
     "clipboard": "^2.0.11",
     "nuxt": "^3.13.2",
     "nuxt-color-picker": "^1.2.8",
+    "prismjs": "^1.30.0",
     "sass": "^1.80.6",
     "vue": "latest",
     "vue-router": "latest"
