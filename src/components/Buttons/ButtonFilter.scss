@@ -2,11 +2,6 @@
 
 .filter-btn {
   position: relative;
-  margin: 0 0 20px 0;
-
-  @include m650 {
-    margin: 0 15px;
-  }
 
   &:hover {
     &::before {
@@ -61,32 +56,15 @@
   }
 }
 
+
 @keyframes anim-gogh-bg {
-  25% {
-    background-color: #FF0883;
-  }
-
-  37.5% {
-    background-color: #FF8308;
-  }
-
-  50% {
-    background-color: #0883FF;
-  }
-
-  62.5% {
-    background-color: #8308FF;
-  }
-
-  75% {
-    background-color: #3dba98;
-  }
-
-  87.5% {
-    background-color: #363636;
-  }
-
-  100% {
-    background-color: #47af32;
-  }
+  25%   { background-color: #FF0883; }
+  37.5% { background-color: #FF8308; }
+  50%   { background-color: #0883FF; }
+  62.5% { background-color: #8308FF; }
+  75%   { background-color: #3dba98; }
+  87.5% { background-color: #363636; }
+  100%  { background-color: #47af32; }
 }
+
+

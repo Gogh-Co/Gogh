@@ -14,15 +14,25 @@
     font-size: 1.6rem;
     cursor: pointer;
     transition: all 0.3s ease;
-    margin: 0 15px;
+    white-space: nowrap;
+    margin: 0 0 20px 0;
 
     @include m650 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         padding: 0.57rem 1.5rem 0.55rem;
+        margin: 0 3px;
     }
 
     @include m768 {
+        font-size: 1.2rem;
+        padding: 1rem 2.5rem 0.85rem;
+        margin: 0 5px;
+    }
+
+    @include m992 {
+        font-size: 1.4rem;
         padding: 1.3rem 2.5rem 0.85rem;
+        margin: 0 15px;
     }
 }
 

@@ -150,7 +150,7 @@
         <div class="container-fluid">
             <div class="row ">
                 <template v-for="theme in themes">
-                    <div class="col-md-6 col-lg-4 col-xl-4"
+                    <div class="col-12 col-md-6  col-xl-4"
                         v-show="filter === theme.category || filter === 'all' || filter === 'background' || filter === theme.background.toLowerCase()">
                         <div
                             class="terminal-preview"

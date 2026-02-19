@@ -108,6 +108,7 @@
         border: none;
         cursor: pointer;
         transition: all 0.3s ease, border-radius 0.9s ease;
+        border-radius: 0;
 
         span {
             position: absolute;
@@ -120,7 +121,7 @@
             color: #ffffff;
             text-align: center;
             text-transform: none;
-            font-size: 0.6rem;
+            font-size: 0.9rem;
             transition: all 0.3s ease;
         }
 
@@ -244,7 +245,7 @@
     position: fixed;
     inset: 0;
     z-index: 1000;
-    background-color: rgba(5, 8, 12, 0.92);
+    background-color: rgba(5, 8, 12, 0.86);
     display: flex;
     align-items: center;
     justify-content: center;
