@@ -64,9 +64,13 @@ bun run generate
 
 ## Project structure
 
-- `pages/index.vue`: main catalog and terminal previews
-- `components/Terminal/`: terminal preview component
-- `components/Header/`: top header/logo component
+This repository uses Nuxt's `app/` source directory layout.
+
+- `app/pages/index.vue`: main catalog and terminal previews
+- `app/components/Terminal/`: terminal preview component
+- `app/components/Header/`: top header/logo component
+- `app/assets/sass/`: shared styles, mixins, and base partials
+- `app/assets/static/prism.client.ts`: Prism highlighting plugin
 - `server/api/themes.get.ts`: server endpoint that fetches and decodes theme JSON from GitHub API
 
 ## Data source

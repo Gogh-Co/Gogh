@@ -2,6 +2,7 @@
 const devPort = Number(import.meta.env.NUXT_PORT || import.meta.env.PORT || 3000)
 
 export default defineNuxtConfig({
+  srcDir: 'app/',
   devServer: {
     host: 'localhost',
     port: devPort,
@@ -44,9 +45,8 @@ export default defineNuxtConfig({
     'nuxt-color-picker',
   ],
   plugins: [
-    '~/vendors/prism.client',
+    '~/assets/static/prism.client',
   ],
-
   devtools: { enabled: true },
   compatibilityDate: '2024-04-03'
 })

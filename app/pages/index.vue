@@ -195,7 +195,7 @@
 <script setup>
 import chroma from 'chroma-js';
 import ClipboardJS from 'clipboard';
-import githubButtonsScript from '@/vendors/static/buttons.js?raw';
+import githubButtonsScript from '@/assets/static/buttons.js?raw';
 
 import Terminal from '@/components/Terminal/Terminal.vue';
 import Header from '@/components/Header/Header.vue';

@@ -1,15 +1,5 @@
 <template>
-    <NuxtLink
-        v-if="to"
-        class="btn"
-        :class="[{ active }, extraClass]"
-        :to="to"
-    >
-        <slot />
-    </NuxtLink>
-
     <a
-        v-else
         class="btn"
         :class="[{ active }, extraClass]"
         :href="href || undefined"
