@@ -1,9 +1,11 @@
 <template>
   <header class="gogh-header" :style="{ '--gogh-header-background': props.backgroundColor }">
-    <h1>
-      <span> Gogh </span>
-      <img src="https://raw.githubusercontent.com/Gogh-Co/Gogh/master/.images/gogh/Gogh-logo-dark.png" alt="">
-    </h1>
+    <NuxtLink to="/" class="gogh-header__link" aria-label="Gogh">
+      <h1>
+        <span> Gogh </span>
+        <img src="https://raw.githubusercontent.com/Gogh-Co/Gogh/master/.images/gogh/Gogh-logo-dark.png" alt="">
+      </h1>
+    </NuxtLink>
   </header>
 </template>
 

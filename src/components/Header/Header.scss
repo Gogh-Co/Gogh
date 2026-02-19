@@ -4,6 +4,11 @@
     align-items: center;
     justify-content: center;
 
+    .gogh-header__link {
+        display: block;
+        text-decoration: none;
+    }
+
     h1 {
         width: 500px;
         text-align: center;

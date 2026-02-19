@@ -1,5 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+const devPort = Number(import.meta.env.NUXT_PORT || import.meta.env.PORT || 3000)
+
 export default defineNuxtConfig({
+  devServer: {
+    host: 'localhost',
+    port: devPort,
+  },
   app: {
     baseURL: '/Gogh/',
     head: {
@@ -19,15 +25,14 @@ export default defineNuxtConfig({
     },
   },
   srcDir: 'src/',
-  css: [
-    '@fontsource/roboto/300.css',
-    '@fontsource/roboto/400.css',
-    '@fontsource/roboto/700.css',
-    '@fontsource/roboto/900.css',
-    'bootstrap/dist/css/bootstrap.min.css',
-    'prismjs/themes/prism.css',
-  ],
   vite: {
+    server: {
+      hmr: {
+        host: 'localhost',
+        clientPort: devPort,
+        protocol: 'ws',
+      },
+    },
     css: {
       preprocessorOptions: {
         scss: {
@@ -37,7 +42,6 @@ export default defineNuxtConfig({
     }
   },
   modules: [
-    '@morev/vue-transitions/nuxt',
     'nuxt-color-picker',
   ],
   plugins: [

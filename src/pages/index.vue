@@ -112,7 +112,7 @@
                             by Background
                         </ButtonFilter>
 
-                        <NuxtLink to="/generator" class="btn">
+                        <NuxtLink to="/generator" class="btn btn-bk">
                             Generator
                         </NuxtLink>
                     </div>
@@ -142,7 +142,7 @@
         <div class="container-fluid">
             <div class="row ">
                 <template v-for="theme in themes">
-                    <div class="col-md-6 col-lg-6 col-xl-4"
+                    <div class="col-md-6 col-lg-4 col-xl-4"
                         v-show="filter === theme.category || filter === 'all' || filter === 'background' || filter === theme.background.toLowerCase()">
                         <div
                             class="terminal-preview"
@@ -193,7 +193,7 @@ import Terminal from '@/components/Terminal/Terminal.vue';
 import Header from '@/components/Header/Header.vue';
 import ButtonFilter from '@/components/Buttons/ButtonFilter.vue';
 
-const getUrl = 'https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json';
+const getUrl = '/api/themes';
 
 const themes = ref([]);
 const filter = ref('all');
@@ -300,8 +300,28 @@ function sortColors(colors) {
     return lastCluster;
 }
 
+function normalizeThemes(remoteThemes) {
+    if (Array.isArray(remoteThemes)) {
+        return remoteThemes;
+    }
+
+    if (Array.isArray(remoteThemes?.data)) {
+        return remoteThemes.data;
+    }
+
+    return [];
+}
+
 async function fetchData() {
-    return $fetch(getUrl);
+    try {
+        const remoteThemes = await $fetch(getUrl, {
+            timeout: 12000,
+        });
+
+        return normalizeThemes(remoteThemes);
+    } catch {
+        return [];
+    }
 }
 
 function setFilter(f) {
@@ -364,11 +384,7 @@ const { data: themesData } = await useAsyncData('themes', () => fetchData(), {
     default: () => [],
 });
 
-const rawThemes = Array.isArray(themesData.value)
-    ? themesData.value
-    : Array.isArray(themesData.value?.data)
-        ? themesData.value.data
-        : [];
+const rawThemes = normalizeThemes(themesData.value);
 
 themes.value = rawThemes.map((theme) => ({
     ...theme,
@@ -379,6 +395,17 @@ getBackgrounds();
 
 onMounted(() => {
     new ClipboardJS('.btn-copy');
+
+    if (!themes.value.length) {
+        fetchData().then((clientThemes) => {
+            themes.value = clientThemes.map((theme) => ({
+                ...theme,
+                category: lightOrDark(theme.background),
+            }));
+            getBackgrounds();
+        });
+    }
+
     getBackgrounds();
     window.addEventListener('keydown', onWindowKeydown);
 });
