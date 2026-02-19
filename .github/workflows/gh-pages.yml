@@ -1,0 +1,16 @@
+# ------------------------------------------------------------
+# Wrapper workflow
+# Triggered on pushes to the "website" branch
+# Calls the reusable deploy workflow from master/main
+# ------------------------------------------------------------
+name: "🚀 - Deploy to GitHub Pages (wrapper)"
+
+on:
+  push:
+    branches:
+      - website
+  workflow_dispatch:
+
+jobs:
+  call:
+    uses: Gogh-Co/Gogh/.github/workflows/deploy-pages.yml@master
