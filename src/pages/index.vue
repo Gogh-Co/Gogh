@@ -107,8 +107,8 @@
                             Dark Themes
                         </ButtonFilter>
 
-                        <ButtonFilter :active="selected === 'background'"
-                            @click="toggleFilterBackground();">
+                        <ButtonFilter :active="selected === 'background' || filter === 'background'"
+                            @click="setBackground(); toggleFilterBackground();">
                             by Background
                         </ButtonFilter>
 
@@ -332,6 +332,7 @@ function setFilter(f) {
 }
 
 function setBackground() {
+    selected.value = 'background';
     filter.value = 'background';
 }
 
