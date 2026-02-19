@@ -11,6 +11,8 @@
   .terminal-actions {
     display: flex;
     justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
   }
 
   .required-note {
@@ -47,7 +49,7 @@
       width: 100%;
       border: 1px solid #b2b2b2;
       background: #fff;
-      padding: 10px;
+      padding: 5px 10px;
       color: #0d1926;
       font-size: 1.4rem;
     }
@@ -58,9 +60,28 @@
     }
   }
 
-  .colors-grid {
+  .theme-meta-rows {
+    .field-wrap {
+      display: grid;
+      grid-template-columns: 120px minmax(0, 1fr);
+      align-items: center;
+      column-gap: 12px;
+
+      label {
+        margin: 0;
+      }
+    }
+  }
+
+  .colors-columns {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 16px;
+  }
+
+  .colors-grid {
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 0 16px;
   }
 
@@ -72,7 +93,7 @@
     .picker-btn {
       width: 52px;
       min-width: 52px;
-      height: 40px;
+      height: 30px;
       padding: 4px;
       border: 1px solid #b2b2b2;
       cursor: pointer;
@@ -86,6 +107,17 @@
 
   .colors-grid--meta {
     margin-top: 10px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  @media (max-width: 991px) {
+    .colors-columns {
+      grid-template-columns: 1fr;
+    }
+
+    .colors-grid--meta {
+      grid-template-columns: 1fr;
+    }
   }
 
   .action-row {

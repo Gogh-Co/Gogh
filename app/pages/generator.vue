@@ -22,9 +22,12 @@
             <div class="row terminal-actions-row">
                 <div class="col-md-12">
                     <div class="terminal-actions">
-                        <button class="btn" type="button" @click="downloadTheme">
+                        <Button class="btn" type="button" @click="downloadTheme">
                             Download YML
-                        </button>
+                        </Button>
+                        <Button class="btn" type="button" @click="resetTheme">
+                            Reset
+                        </Button>
                     </div>
                     <p v-if="showRequiredError" class="required-note">
                         * Change Name and Author from the default values to download.
@@ -37,62 +40,96 @@
                     <div class="generator-card">
                         <h3>Theme data</h3>
 
-                        <div class="field-wrap">
-                            <label for="name">Name</label>
-                            <input
-                                id="name"
-                                v-model="form.name"
-                                type="text"
-                                :class="{ 'input-error': showRequiredError && isNameInvalid }"
-                                @input="clearRequiredError"
-                            >
+                        <div class="theme-meta-rows">
+                            <div class="field-wrap">
+                                <label for="name">Name</label>
+                                <input
+                                    id="name"
+                                    v-model="form.name"
+                                    type="text"
+                                    :class="{ 'input-error': showRequiredError && isNameInvalid }"
+                                    @input="clearRequiredError"
+                                >
+                            </div>
+
+                            <div class="field-wrap">
+                                <label for="author">Author</label>
+                                <input
+                                    id="author"
+                                    v-model="form.author"
+                                    type="text"
+                                    :class="{ 'input-error': showRequiredError && isAuthorInvalid }"
+                                    @input="clearRequiredError"
+                                >
+                            </div>
+
+                            <div class="field-wrap">
+                                <label for="variant">Variant</label>
+                                <select id="variant" v-model="form.variant">
+                                    <option value="dark">dark</option>
+                                    <option value="light">light</option>
+                                </select>
+                            </div>
                         </div>
 
-                        <div class="field-wrap">
-                            <label for="author">Author</label>
-                            <input
-                                id="author"
-                                v-model="form.author"
-                                type="text"
-                                :class="{ 'input-error': showRequiredError && isAuthorInvalid }"
-                                @input="clearRequiredError"
-                            >
-                        </div>
+                        <div class="colors-columns">
+                            <div class="colors-grid">
+                                <div class="field-wrap" v-for="key in colorKeysLeft" :key="key">
+                                    <label :for="key">{{ key }}</label>
+                                    <div class="color-input-wrap">
+                                        <color-picker
+                                            v-model="form[key]"
+                                            :storage-key="`generator-${key}`"
+                                            with-hex-input
+                                            :with-colors-history="6"
+                                            v-slot="{ show }"
+                                        >
+                                            <button
+                                                class="picker-btn"
+                                                type="button"
+                                                :style="`background-color: ${sanitizeHex(form[key])}`"
+                                                :aria-label="`Pick color for ${key}`"
+                                                @click.stop.prevent="show($event)"
+                                            ></button>
+                                        </color-picker>
+                                        <input
+                                            :id="key"
+                                            v-model="form[key]"
+                                            type="text"
+                                            placeholder="#RRGGBB"
+                                            @blur="normalizeColorField(key)"
+                                        >
+                                    </div>
+                                </div>
+                            </div>
 
-                        <div class="field-wrap">
-                            <label for="variant">Variant</label>
-                            <select id="variant" v-model="form.variant">
-                                <option value="dark">dark</option>
-                                <option value="light">light</option>
-                            </select>
-                        </div>
-
-                        <div class="colors-grid">
-                            <div class="field-wrap" v-for="key in colorKeys" :key="key">
-                                <label :for="key">{{ key }}</label>
-                                <div class="color-input-wrap">
-                                    <color-picker
-                                        v-model="form[key]"
-                                        :storage-key="`generator-${key}`"
-                                        with-hex-input
-                                        :with-colors-history="6"
-                                        v-slot="{ show }"
-                                    >
-                                        <button
-                                            class="picker-btn"
-                                            type="button"
-                                            :style="`background-color: ${sanitizeHex(form[key])}`"
-                                            :aria-label="`Pick color for ${key}`"
-                                            @click.stop.prevent="show($event)"
-                                        ></button>
-                                    </color-picker>
-                                    <input
-                                        :id="key"
-                                        v-model="form[key]"
-                                        type="text"
-                                        placeholder="#RRGGBB"
-                                        @blur="normalizeColorField(key)"
-                                    >
+                            <div class="colors-grid">
+                                <div class="field-wrap" v-for="key in colorKeysRight" :key="key">
+                                    <label :for="key">{{ key }}</label>
+                                    <div class="color-input-wrap">
+                                        <color-picker
+                                            v-model="form[key]"
+                                            :storage-key="`generator-${key}`"
+                                            with-hex-input
+                                            :with-colors-history="6"
+                                            v-slot="{ show }"
+                                        >
+                                            <button
+                                                class="picker-btn"
+                                                type="button"
+                                                :style="`background-color: ${sanitizeHex(form[key])}`"
+                                                :aria-label="`Pick color for ${key}`"
+                                                @click.stop.prevent="show($event)"
+                                            ></button>
+                                        </color-picker>
+                                        <input
+                                            :id="key"
+                                            v-model="form[key]"
+                                            type="text"
+                                            placeholder="#RRGGBB"
+                                            @blur="normalizeColorField(key)"
+                                        >
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -184,7 +221,7 @@
                         </div>
 
                         <div class="action-row">
-                            <NuxtLink class="btn" to="/">Back to themes</NuxtLink>
+                            <Button class="btn" to="/">< Back to themes</Button>
                         </div>
                     </div>
                 </div>
@@ -204,11 +241,13 @@
 import Header from '@/components/Header/Header.vue';
 import Terminal from '@/components/Terminal/Terminal.vue';
 import themeTemplate from '../../theme-template.yml?raw';
+import Button from '@/components/Buttons/Button.vue';
 
 const DEFAULT_NAME = 'My Theme';
 const DEFAULT_AUTHOR = 'Your Name (https://example.com)';
+const GENERATOR_STORAGE_KEY = 'gogh-generator-form-v1';
 
-const form = reactive({
+const DEFAULT_FORM = {
   name: DEFAULT_NAME,
   author: DEFAULT_AUTHOR,
   variant: 'dark',
@@ -231,11 +270,17 @@ const form = reactive({
   background: '#1f1f28',
   foreground: '#dcd7ba',
   cursor: '#c8c093',
-});
+};
+
+const form = reactive({ ...DEFAULT_FORM });
 
 const colorKeys = Array.from({ length: 16 }, (_, i) =>
   `color_${String(i + 1).padStart(2, '0')}`
 );
+const persistedColorKeys = [...colorKeys, 'background', 'foreground', 'cursor'];
+
+const colorKeysLeft = computed(() => colorKeys.slice(0, 8));
+const colorKeysRight = computed(() => colorKeys.slice(8));
 
 function normalizeColorField(key) {
   form[key] = sanitizeHex(form[key]);
@@ -329,6 +374,15 @@ function clearRequiredError() {
   showRequiredError.value = false;
 }
 
+function resetTheme() {
+    Object.assign(form, DEFAULT_FORM);
+    showRequiredError.value = false;
+
+    if (process.client) {
+        localStorage.removeItem(GENERATOR_STORAGE_KEY);
+    }
+}
+
 function downloadTheme() {
   if (!canDownload.value) {
     showRequiredError.value = true;
@@ -353,6 +407,58 @@ function onTerminalColorUpdate({ key, value }) {
 
   form[key] = sanitizeHex(value);
 }
+
+onMounted(() => {
+    if (!process.client) {
+        return;
+    }
+
+    const saved = localStorage.getItem(GENERATOR_STORAGE_KEY);
+    if (!saved) {
+        return;
+    }
+
+    try {
+        const parsed = JSON.parse(saved);
+        if (!parsed || typeof parsed !== 'object') {
+            return;
+        }
+
+        form.name = typeof parsed.name === 'string' ? parsed.name : DEFAULT_FORM.name;
+        form.author = typeof parsed.author === 'string' ? parsed.author : DEFAULT_FORM.author;
+        form.variant = parsed.variant === 'light' ? 'light' : 'dark';
+
+        persistedColorKeys.forEach((key) => {
+            if (typeof parsed[key] === 'string') {
+                form[key] = sanitizeHex(parsed[key]);
+            }
+        });
+    } catch {
+        localStorage.removeItem(GENERATOR_STORAGE_KEY);
+    }
+});
+
+watch(
+    form,
+    () => {
+        if (!process.client) {
+            return;
+        }
+
+        const payload = {
+            name: form.name,
+            author: form.author,
+            variant: form.variant,
+        };
+
+        persistedColorKeys.forEach((key) => {
+            payload[key] = form[key];
+        });
+
+        localStorage.setItem(GENERATOR_STORAGE_KEY, JSON.stringify(payload));
+    },
+    { deep: true }
+);
 </script>
 
 <style lang="scss" scoped>
