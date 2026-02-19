@@ -50,6 +50,8 @@ type Model struct {
 	selected       int
 	scrollOffset   int
 	visibleRows    int
+	cols           int
+	colWidth       int
 	width          int
 	height         int
 	search         textinput.Model
@@ -80,6 +82,8 @@ func New(themes []assets.Theme, prepared assets.Prepared, cacheDir string) Model
 		selected:       0,
 		scrollOffset:   0,
 		visibleRows:    10,
+		cols:           1,
+		colWidth:       28,
 		search:         ti,
 		styles:         newStyles(),
 		state:          stateBrowse,
@@ -196,11 +200,19 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			return m, tea.Batch(m.sp.Tick, m.installCmd(m.filtered[m.selected]))
 		}
 
-		if key.Matches(msg, keys.Left, keys.Up) {
+		if key.Matches(msg, keys.Left) {
+			m.moveLeft()
+			return m, nil
+		}
+		if key.Matches(msg, keys.Right) {
+			m.moveRight()
+			return m, nil
+		}
+		if key.Matches(msg, keys.Up) {
 			m.moveUp()
 			return m, nil
 		}
-		if key.Matches(msg, keys.Right, keys.Down) {
+		if key.Matches(msg, keys.Down) {
 			m.moveDown()
 			return m, nil
 		}
@@ -314,23 +326,7 @@ func (m *Model) applyFilter() {
 	m.ensureSelectedVisible()
 }
 
-func (m Model) renderList() string {
-	if len(m.filtered) == 0 {
-		return m.styles.Subtle.Render("No themes match your search.")
-	}
-	lines := make([]string, 0, len(m.filtered))
-	for i, t := range m.filtered {
-		label := "  " + t.Name
-		if i == m.selected {
-			lines = append(lines, m.styles.ListSelected.Width(max(16, m.vp.Width-4)).Render("> "+t.Name))
-		} else {
-			lines = append(lines, m.styles.ListItem.Width(max(16, m.vp.Width-4)).Render(label))
-		}
-	}
-	return strings.Join(lines, "\n")
-}
-
-func (m *Model) moveUp() {
+func (m *Model) moveLeft() {
 	if len(m.filtered) == 0 {
 		return
 	}
@@ -340,7 +336,7 @@ func (m *Model) moveUp() {
 	m.ensureSelectedVisible()
 }
 
-func (m *Model) moveDown() {
+func (m *Model) moveRight() {
 	if len(m.filtered) == 0 {
 		return
 	}
@@ -350,15 +346,50 @@ func (m *Model) moveDown() {
 	m.ensureSelectedVisible()
 }
 
+func (m *Model) moveUp() {
+	if len(m.filtered) == 0 {
+		return
+	}
+	next := m.selected - m.cols
+	if next >= 0 {
+		m.selected = next
+	}
+	m.ensureSelectedVisible()
+}
+
+func (m *Model) moveDown() {
+	if len(m.filtered) == 0 {
+		return
+	}
+	row := m.selected / m.cols
+	col := m.selected % m.cols
+	nextRow := row + 1
+	if nextRow >= m.totalRows() {
+		return
+	}
+	next := nextRow*m.cols + col
+	if next >= len(m.filtered) {
+		next = len(m.filtered) - 1
+	}
+	m.selected = next
+	m.ensureSelectedVisible()
+}
+
 func (m *Model) pageMove(dir int) {
 	if len(m.filtered) == 0 {
 		return
 	}
 	delta := max(1, m.visibleRows)
+	row := m.selected / m.cols
+	col := m.selected % m.cols
 	if dir < 0 {
-		m.selected = max(0, m.selected-delta)
+		row = max(0, row-delta)
 	} else {
-		m.selected = min(len(m.filtered)-1, m.selected+delta)
+		row = min(m.totalRows()-1, row+delta)
+	}
+	m.selected = row*m.cols + col
+	if m.selected >= len(m.filtered) {
+		m.selected = len(m.filtered) - 1
 	}
 	m.ensureSelectedVisible()
 }
@@ -367,13 +398,17 @@ func (m *Model) resizeLayout() {
 	m.vp.Width = max(20, m.width-14)
 	m.vp.Height = max(5, m.height-13)
 	m.visibleRows = max(1, m.height-13)
+	bodyWidth := max(16, m.width-18)
+	minColWidth := 28
+	m.cols = max(1, bodyWidth/minColWidth)
+	m.colWidth = max(16, bodyWidth/m.cols)
 }
 
 func (m Model) maxBrowseOffset() int {
 	if len(m.filtered) == 0 {
 		return 0
 	}
-	return max(0, len(m.filtered)-m.visibleRows)
+	return max(0, m.totalRows()-m.visibleRows)
 }
 
 func (m *Model) ensureSelectedVisible() {
@@ -383,12 +418,13 @@ func (m *Model) ensureSelectedVisible() {
 		return
 	}
 	m.selected = max(0, min(m.selected, len(m.filtered)-1))
-	if m.selected < m.scrollOffset {
-		m.scrollOffset = m.selected
+	selectedRow := m.selected / m.cols
+	if selectedRow < m.scrollOffset {
+		m.scrollOffset = selectedRow
 	} else {
 		lastVisible := m.scrollOffset + m.visibleRows - 1
-		if m.selected > lastVisible {
-			m.scrollOffset = m.selected - m.visibleRows + 1
+		if selectedRow > lastVisible {
+			m.scrollOffset = selectedRow - m.visibleRows + 1
 		}
 	}
 	m.scrollOffset = max(0, min(m.scrollOffset, m.maxBrowseOffset()))
@@ -398,21 +434,51 @@ func (m Model) renderVisibleList() string {
 	if len(m.filtered) == 0 {
 		return m.styles.Subtle.Render("No themes match your search.")
 	}
-	start := max(0, min(m.scrollOffset, len(m.filtered)-1))
-	end := min(len(m.filtered), start+m.visibleRows)
-	lines := make([]string, 0, max(m.visibleRows, end-start))
-	rowWidth := max(16, m.width-18)
-	for i := start; i < end; i++ {
-		if i == m.selected {
-			lines = append(lines, m.styles.ListSelected.Width(rowWidth).Render("> "+m.filtered[i].Name))
-		} else {
-			lines = append(lines, m.styles.ListItem.Width(rowWidth).Render("  "+m.filtered[i].Name))
+	startRow := max(0, min(m.scrollOffset, m.totalRows()-1))
+	endRow := min(m.totalRows(), startRow+m.visibleRows)
+	lines := make([]string, 0, max(m.visibleRows, endRow-startRow))
+	for row := startRow; row < endRow; row++ {
+		cells := make([]string, 0, m.cols)
+		for col := 0; col < m.cols; col++ {
+			idx := row*m.cols + col
+			if idx >= len(m.filtered) {
+				cells = append(cells, lipgloss.NewStyle().Width(m.colWidth).Render(""))
+				continue
+			}
+			name := trimToWidth(m.filtered[idx].Name, m.colWidth-2)
+			if idx == m.selected {
+				cells = append(cells, m.styles.ListSelected.Width(m.colWidth).Render("> "+name))
+			} else {
+				cells = append(cells, m.styles.ListItem.Width(m.colWidth).Render("  "+name))
+			}
 		}
+		lines = append(lines, lipgloss.JoinHorizontal(lipgloss.Top, cells...))
 	}
 	for len(lines) < m.visibleRows {
 		lines = append(lines, "")
 	}
 	return strings.Join(lines, "\n")
+}
+
+func (m Model) totalRows() int {
+	if len(m.filtered) == 0 {
+		return 0
+	}
+	return (len(m.filtered) + m.cols - 1) / m.cols
+}
+
+func trimToWidth(s string, w int) string {
+	if w <= 0 {
+		return ""
+	}
+	r := []rune(s)
+	if len(r) <= w {
+		return s
+	}
+	if w == 1 {
+		return "…"
+	}
+	return string(r[:w-1]) + "…"
 }
 
 func (m Model) installCmd(theme assets.Theme) tea.Cmd {
