@@ -64,9 +64,9 @@ bun run generate
 
 ## Project structure
 
-- `src/pages/index.vue`: main catalog and terminal previews
-- `src/components/Terminal/`: terminal preview component
-- `src/components/Header/`: top header/logo component
+- `pages/index.vue`: main catalog and terminal previews
+- `components/Terminal/`: terminal preview component
+- `components/Header/`: top header/logo component
 - `server/api/themes.get.ts`: server endpoint that fetches and decodes theme JSON from GitHub API
 
 ## Data source

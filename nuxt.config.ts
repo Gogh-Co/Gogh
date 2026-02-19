@@ -24,7 +24,6 @@ export default defineNuxtConfig({
       ],
     },
   },
-  srcDir: 'src/',
   vite: {
     server: {
       hmr: {

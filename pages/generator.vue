@@ -203,7 +203,7 @@
 <script setup>
 import Header from '@/components/Header/Header.vue';
 import Terminal from '@/components/Terminal/Terminal.vue';
-import themeTemplate from '../../theme-template.yml?raw';
+import themeTemplate from '../theme-template.yml?raw';
 
 const DEFAULT_NAME = 'My Theme';
 const DEFAULT_AUTHOR = 'Your Name (https://example.com)';
