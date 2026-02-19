@@ -1,12 +1,33 @@
 <template>
-    <a
+    <NuxtLink
+        v-if="to"
         class="btn"
         :class="[{ active }, extraClass]"
-        :href="href || undefined"
-        target="_blank"
+        :to="to"
+        :target="target || undefined"
+    >
+        <slot />
+    </NuxtLink>
+
+    <a
+        v-else-if="href"
+        class="btn"
+        :class="[{ active }, extraClass]"
+        :href="href"
+        :target="target || undefined"
+        :rel="target === '_blank' ? 'noopener noreferrer' : undefined"
     >
         <slot />
     </a>
+
+    <button
+        v-else
+        type="button"
+        class="btn"
+        :class="[{ active }, extraClass]"
+    >
+        <slot />
+    </button>
 </template>
 
 <script setup>
@@ -25,6 +46,10 @@ defineProps({
     },
     to: {
         type: [String, Object],
+        default: '',
+    },
+    target: {
+        type: String,
         default: '',
     },
 });

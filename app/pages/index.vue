@@ -113,13 +113,15 @@
                         </ButtonFilter>
 
                         <Button
-                            href="/generator"
+                            to="/generator"
+                            target="_blank"
                             extra-class="btn-bk">
                             Generator
                         </Button>
 
                         <Button
-                            href="/wcsg"
+                            to="/wcsg"
+                            target="_blank"
                             extra-class="btn-bk">
                             WCSG
                         </Button>
