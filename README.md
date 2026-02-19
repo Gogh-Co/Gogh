@@ -1,5 +1,9 @@
 # Gogh CLI (offline, single binary)
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Gogh-Co/Gogh/master/.images/gogh/Gogh-logo-dark.png" alt="Gogh" width="100%">
+</div>
+
 Offline wrapper for Gogh themes, built as a single `gogh` binary.
 
 ## What it does
@@ -35,6 +39,27 @@ gogh apply "Dracula"
 gogh tui
 gogh
 ```
+
+## Download and run
+
+Download the `dist/gogh` artifact and run it:
+
+```bash
+curl -fL -o gogh "https://raw.githubusercontent.com/Gogh-Co/Gogh/main/cli/dist/gogh"
+chmod +x gogh
+./gogh tui
+
+# or
+./gogh apply "Dracula"
+```
+Run without build and without keeping the binary (temporary file):
+
+```bash
+curl -fL -o /tmp/gogh "https://raw.githubusercontent.com/Gogh-Co/Gogh/main/cli/dist/gogh" && \
+    chmod +x /tmp/gogh && \
+    /tmp/gogh apply "Dracula"
+```
+
 
 ## TUI (`gogh tui`)
 
