@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"io"
 	"os"
-	"os/exec"
-	"path/filepath"
 	"strconv"
 	"strings"
 
+	"github.com/Gogh-Co/Gogh/cli/internal/apply"
 	"github.com/Gogh-Co/Gogh/cli/internal/assets"
+	"github.com/Gogh-Co/Gogh/cli/internal/tui"
 )
 
 var version = "dev"
@@ -20,12 +20,14 @@ const usage = `Usage:
   gogh --version
   gogh --list
   gogh apply "Theme Name"
+	gogh tui
   gogh
 
 Commands:
   --version   Print CLI version
   --list      List available themes (offline)
   apply       Apply one theme by name or script slug
+	tui         Open interactive TUI theme browser
   (no args)   Interactive mode
 `
 
@@ -74,6 +76,10 @@ func main() {
 		fmt.Print(usage)
 	case "--list", "list":
 		printThemeList(catalog)
+	case "tui", "--tui":
+		if err := tui.Run(catalog, prepared, cacheDir); err != nil {
+			exitErr(err)
+		}
 	case "apply":
 		if len(args) < 2 {
 			exitErr(errors.New("apply requires a theme name, e.g. gogh apply \"Dracula\""))
@@ -141,35 +147,13 @@ func printThemeList(catalog []assets.Theme) {
 }
 
 func applyTheme(theme assets.Theme, prepared assets.Prepared) error {
-	scriptPath := filepath.Join(prepared.InstallsDir, theme.Script)
-	if _, err := os.Stat(scriptPath); err != nil {
-		return fmt.Errorf("theme script missing (%s): %w", theme.Script, err)
-	}
-
-	if !isNonInteractive() {
-		fmt.Printf("\nTheme: %s\n\n", theme.Name)
-	}
-
-	cmd := exec.Command("bash", scriptPath)
-	cmd.Stdin = os.Stdin
-	cmd.Stdout = os.Stdout
-	cmd.Stderr = os.Stderr
-	cmd.Dir = prepared.Root
-	cmd.Env = append(os.Environ(),
-		"GOGH_APPLY_SCRIPT="+prepared.ApplyColors,
-		"GOGH_ALACRITTY_SCRIPT="+prepared.ApplyAlacritty,
-		"GOGH_TERMINATOR_SCRIPT="+prepared.ApplyTerminator,
-	)
-
-	if err := cmd.Run(); err != nil {
-		return fmt.Errorf("apply %q failed: %w", theme.Name, err)
-	}
-	return nil
-}
-
-func isNonInteractive() bool {
-	_, ok := os.LookupEnv("GOGH_NONINTERACTIVE")
-	return ok
+	return apply.Run(theme, prepared, apply.Options{
+		Stdout:      os.Stdout,
+		Stderr:      os.Stderr,
+		Stdin:       os.Stdin,
+		Env:         os.Environ(),
+		PrintHeader: true,
+	})
 }
 
 func exitErr(err error) {
