@@ -183,8 +183,19 @@
                 ×
             </button>
 
+
+
             <div class="terminal-lightbox__content">
                 <Terminal :theme="lightboxTheme"></Terminal>
+
+                <div v-if="lightboxTheme" class="code-wrap terminal-lightbox__install">
+                    <div class="code-holder lightbox-code-holder">
+                        <pre><code class="language-bash" :id="getLightboxInstallCodeId(lightboxTheme)">{{ getLightboxInstallCommand(lightboxTheme) }}</code></pre>
+                        <span class="btn-copy" :data-clipboard-target="`#${getLightboxInstallCodeId(lightboxTheme)}`">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="#000" width="48" height="48"> <path d="M27.4,14.7l-6.1-6.1C21,8.2,20.5,8,20,8h-8c-1.1,0-2,0.9-2,2v18c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V16.1C28,15.6,27.8,15.1,27.4,14.7z M20,10l5.9,6H20V10z M12,28V10h6v6c0,1.1,0.9,2,2,2h6l0,10H12z"/> <path d="M6,18H4V4c0-1.1,0.9-2,2-2h14v2H6V18z"/> <rect width="32" height="32" fill="none"/> </svg>
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -197,6 +208,7 @@
 <script setup>
 import chroma from 'chroma-js';
 import ClipboardJS from 'clipboard';
+import Prism from 'prismjs';
 import githubButtonsScript from '@/assets/static/buttons.js?raw';
 
 import Terminal from '@/components/Terminal/Terminal.vue';
@@ -379,6 +391,12 @@ function toggleFilterBackground(force) {
 function openThemeLightbox(theme) {
     lightboxTheme.value = theme;
     lightboxVisible.value = true;
+
+    nextTick(() => {
+        requestAnimationFrame(() => {
+            Prism.highlightAll();
+        });
+    });
 }
 
 function closeThemeLightbox() {
@@ -390,6 +408,20 @@ function onWindowKeydown(event) {
     if (event.key === 'Escape' && lightboxVisible.value) {
         closeThemeLightbox();
     }
+}
+
+function getLightboxThemeName(theme) {
+    return (theme?.name || theme?.theme || 'Theme').replace(/\"/g, '\\"');
+}
+
+function getLightboxInstallCodeId(theme) {
+    const themeName = (theme?.name || theme?.theme || 'theme').toLowerCase();
+    const safeThemeName = themeName.replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    return `code-lightbox-${safeThemeName || 'theme'}`;
+}
+
+function getLightboxInstallCommand(theme) {
+    return `bash -c "$(wget -qO- https://git.io/vQgMr)" -- "${getLightboxThemeName(theme)}"`;
 }
 
 const { data: themesData } = await useAsyncData('themes', () => fetchData(), {

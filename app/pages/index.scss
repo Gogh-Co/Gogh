@@ -30,14 +30,6 @@
     position: relative;
     margin: 0 0 40px;
 
-    .language-bash {
-        padding: 0.8rem 0.8rem 1.5rem;
-
-        @include m450 {
-            padding: 1.5rem 1.2rem;
-        }
-    }
-
     .code-holder {
         position: relative;
 
@@ -47,7 +39,7 @@
             bottom: 0;
             display: inline-flex;
             padding: 5px 10px;
-            height: 100%;
+            height: 50px;
             background-color: #F5F2F0;
             cursor: pointer;
             transition: all 0.3s ease;
@@ -74,6 +66,8 @@
         }
     }
 }
+
+
 
 .github-int {
     margin: 0 0 25px;
@@ -245,7 +239,7 @@
     position: fixed;
     inset: 0;
     z-index: 1000;
-    background-color: rgba(5, 8, 12, 0.86);
+    background-color: rgba(5, 8, 12, 0.94);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -256,6 +250,45 @@
     width: min(1200px, 100%);
     max-height: 100%;
     overflow: auto;
+
+    .code-wrap {
+        margin-bottom: 30px;
+
+        .code-holder {
+            display: inline-block;
+        }
+    }
+
+    .terminal {
+        box-shadow: 2px 4px 20px rgba(27, 27, 27, 0.95);
+    }
+
+    .lightbox-code-holder {
+        text-align: center;
+        border: 1px solid rgb(95 95 95);
+
+        .language-bash {
+            padding: 1.3rem 4rem 0.8rem 2rem;
+            text-align: center;
+            background: rgba(0 0 0 / 0.2);
+            text-shadow: 0 1px black;
+        }
+
+        .btn-copy {
+            top: 16px;
+            right: 10px;
+            height: 30px;
+            background-color: black;
+
+            svg {
+                fill: #F7F6F5;
+            }
+        }
+    }
+}
+
+.terminal-lightbox__install {
+    text-align: center;
 }
 
 .terminal-lightbox__close {
