@@ -5,6 +5,67 @@
         margin-bottom: 16px;
     }
 
+    .gogh-banner-anim {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(8, minmax(0, 1fr));
+        width: min(360px, 100%);
+        height: 34px;
+        border: 4px solid #122230;
+        background: #122230;
+        overflow: hidden;
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+    }
+
+    .gogh-banner-anim__color {
+        position: relative;
+        display: block;
+        background: #122230;
+        overflow: hidden;
+    }
+
+    .gogh-banner-anim__color::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: var(--banner-color, #223847);
+        transform: scaleX(0);
+        transform-origin: left center;
+        animation: gogh-banner-fill 2.8s ease-in-out infinite;
+    }
+
+    .gogh-banner-anim__color--01 { --banner-color: #223847; }
+    .gogh-banner-anim__color--02 { --banner-color: #e74c3c; }
+    .gogh-banner-anim__color--03 { --banner-color: #2ecc71; }
+    .gogh-banner-anim__color--04 { --banner-color: #f4b942; }
+    .gogh-banner-anim__color--05 { --banner-color: #1d9bf0; }
+    .gogh-banner-anim__color--06 { --banner-color: #9b59b6; }
+    .gogh-banner-anim__color--07 { --banner-color: #1f8a80; }
+    .gogh-banner-anim__color--08 { --banner-color: #dfe4ea; }
+
+    .gogh-banner-anim__color--01::before { animation-delay: 0.00s; }
+    .gogh-banner-anim__color--02::before { animation-delay: 0.10s; }
+    .gogh-banner-anim__color--03::before { animation-delay: 0.20s; }
+    .gogh-banner-anim__color--04::before { animation-delay: 0.30s; }
+    .gogh-banner-anim__color--05::before { animation-delay: 0.40s; }
+    .gogh-banner-anim__color--06::before { animation-delay: 0.50s; }
+    .gogh-banner-anim__color--07::before { animation-delay: 0.60s; }
+    .gogh-banner-anim__color--08::before { animation-delay: 0.70s; }
+
+    .gogh-banner-anim__shine {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+            105deg,
+            transparent 32%,
+            rgba(255, 255, 255, 0.18) 48%,
+            transparent 64%
+        );
+        transform: translateX(-120%);
+        animation: gogh-banner-shine 3.2s ease-in-out infinite;
+        pointer-events: none;
+    }
+
     .stats-page__actions {
         display: flex;
         justify-content: flex-start;
@@ -38,6 +99,11 @@
     .stats-status--error {
         border-color: #e0b3b3;
         background: #f8ebeb;
+    }
+
+    .stats-status--loading {
+        font-size: 1.9rem;
+        font-weight: 700;
     }
 
     .stats-card {
@@ -322,6 +388,34 @@
                 font-size: 1.4rem;
             }
         }
+    }
+}
+
+@keyframes gogh-banner-fill {
+    0% {
+        transform: scaleX(0);
+    }
+
+    35% {
+        transform: scaleX(1);
+    }
+
+    70% {
+        transform: scaleX(1);
+    }
+
+    100% {
+        transform: scaleX(0);
+    }
+}
+
+@keyframes gogh-banner-shine {
+    0% {
+        transform: translateX(-120%);
+    }
+
+    100% {
+        transform: translateX(140%);
     }
 }
 
