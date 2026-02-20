@@ -125,6 +125,19 @@
                             extra-class="btn-bk">
                             WCSG
                         </Button>
+
+                        <div class="theme-search" role="search">
+                            <span class="theme-search__icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="m19.6 21l-6.3-6.3q-.75.6-1.725.95T9.5 16q-2.725 0-4.612-1.888T3 9.5t1.888-4.612T9.5 3t4.613 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l6.3 6.3zM9.5 14q1.875 0 3.188-1.312T14 9.5t-1.312-3.187T9.5 5T6.313 6.313T5 9.5t1.313 3.188T9.5 14"/></svg>
+                            </span>
+                            <input
+                                v-model.trim="searchQuery"
+                                class="theme-search__input"
+                                type="search"
+                                placeholder="Search theme by name"
+                                aria-label="Search theme by name"
+                            >
+                        </div>
                     </div>
                 </div>
 
@@ -153,7 +166,7 @@
             <div class="row ">
                 <template v-for="theme in themes">
                     <div class="col-12 col-md-6  col-xl-4"
-                        v-show="filter === theme.category || filter === 'all' || filter === 'background' || filter === theme.background.toLowerCase()">
+                        v-show="(filter === theme.category || filter === 'all' || filter === 'background' || filter === theme.background.toLowerCase()) && matchesThemeSearch(theme)">
                         <div
                             class="terminal-preview"
                             role="button"
@@ -225,6 +238,7 @@ const selected = ref(null);
 const filterBackgroundVisible = ref(false);
 const lightboxVisible = ref(false);
 const lightboxTheme = ref(null);
+const searchQuery = ref('');
 
 useHead({
     script: [
@@ -422,6 +436,20 @@ function getLightboxInstallCodeId(theme) {
 
 function getLightboxInstallCommand(theme) {
     return `bash -c "$(wget -qO- https://git.io/vQgMr)" -- "${getLightboxThemeName(theme)}"`;
+}
+
+function getThemeName(theme) {
+    return (theme?.name || theme?.theme || '').toString();
+}
+
+function matchesThemeSearch(theme) {
+    const normalizedSearch = searchQuery.value.trim().toLowerCase();
+
+    if (!normalizedSearch) {
+        return true;
+    }
+
+    return getThemeName(theme).toLowerCase().includes(normalizedSearch);
 }
 
 const { data: themesData } = await useAsyncData('themes', () => fetchData(), {
