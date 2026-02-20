@@ -3,9 +3,6 @@ const devPort = Number(import.meta.env.NUXT_PORT || import.meta.env.PORT || 3000
 
 export default defineNuxtConfig({
   srcDir: 'app/',
-  css: [
-    'prismjs/themes/prism.css',
-  ],
   devServer: {
     host: 'localhost',
     port: devPort,

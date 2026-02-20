@@ -1,16 +1,4 @@
 <template>
-    <a href=https://github.com/Gogh-Co/Gogh>
-        <img
-            loading="lazy"
-            width="149"
-            height="149"
-            style="position: absolute; top: 0; right: 0; border: 0;"
-            src="https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png"
-            class="attachment-full size-full"
-            alt="Fork me on GitHub"
-            data-recalc-dims="1">
-    </a>
-
     <Header />
 
     <div class="gogh-content">
@@ -242,15 +230,24 @@ const lightboxVisible = ref(false);
 const lightboxTheme = ref(null);
 const searchQuery = ref('');
 
-useHead({
-    script: [
-        {
-            key: 'github-buttons-inline',
-            innerHTML: githubButtonsScript,
-            tagPosition: 'bodyClose',
-        },
-    ],
-});
+function mountGithubButtons() {
+    if (typeof document === 'undefined') {
+        return;
+    }
+
+    const scriptId = 'github-buttons-inline';
+    const existingScript = document.getElementById(scriptId);
+
+    if (existingScript) {
+        return;
+    }
+
+    const script = document.createElement('script');
+    script.id = scriptId;
+    script.type = 'text/javascript';
+    script.text = githubButtonsScript;
+    document.body.appendChild(script);
+}
 
 function lightOrDark(color) {
     // Variables for red, green, blue values
@@ -468,6 +465,7 @@ themes.value = rawThemes.map((theme) => ({
 getBackgrounds();
 
 onMounted(() => {
+    mountGithubButtons();
     new ClipboardJS('.btn-copy');
 
     if (!themes.value.length) {
