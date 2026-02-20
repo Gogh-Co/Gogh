@@ -137,6 +137,13 @@
                             WCSG
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Remix Icon by Remix Design - https://github.com/Remix-Design/RemixIcon/blob/master/License --><path fill="currentColor" d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zm11-3v8h-2V6.413l-7.793 7.794l-1.414-1.414L17.585 5H13V3z"/></svg>
                         </Button>
+
+                        <Button
+                            to="/stats"
+                            extra-class="btn-bk">
+                            Stats
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M3 3h2v18H3zm16 7h2v11h-2zM8 13h2v8H8zm5-5h2v13h-2z"/></svg>
+                        </Button>
                     </div>
                 </div>
 

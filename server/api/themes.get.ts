@@ -23,7 +23,7 @@ export default defineEventHandler(async () => {
         const response = await fetch(githubThemeApiUrl, {
             signal: AbortSignal.timeout(12000),
             headers: {
-                Accept: 'application/vnd.github+json',
+                Accept: 'application/vnd.github.raw+json',
                 'User-Agent': 'gogh-website',
                 'X-GitHub-Api-Version': '2022-11-28',
             },
@@ -36,20 +36,7 @@ export default defineEventHandler(async () => {
             });
         }
 
-        const payload = (await response.json()) as {
-            content?: string;
-            encoding?: string;
-        };
-
-        if (!payload.content || payload.encoding !== 'base64') {
-            throw createError({
-                statusCode: 502,
-                statusMessage: 'Invalid GitHub API payload for themes file',
-            });
-        }
-
-        const fileContent = Buffer.from(payload.content, 'base64').toString('utf-8');
-        const remoteThemes = JSON.parse(fileContent) as unknown;
+        const remoteThemes = (await response.json()) as unknown;
         const normalized = normalizeThemes(remoteThemes);
 
         if (normalized.length > 0) {
