@@ -6,6 +6,8 @@
   <img src="https://raw.githubusercontent.com/Gogh-Co/Gogh/master/.images/gogh/Gogh-logo-dark.png" alt="Gogh" width="100%">
 </div>
 
+<br>
+
 <div align="center">
 :small_blue_diamond: <a href="http://Gogh-Co.github.io/Gogh"> Visit the Website </a> :small_blue_diamond:
 </div>
@@ -17,6 +19,13 @@ Gogh is a collection of color schemes for various terminal emulators, including 
 The inspiration for Gogh came from the clean and minimalistic design of Elementary OS, but the project has since grown to include a variety of unique and beautiful options. Not only does Gogh work on Linux systems, but it's also compatible with iTerm on macOS, providing a consistent and visually appealing experience across platforms.
 
 <br>
+
+<div align="center">
+This project is here for anyone to use, no expectations. <br>
+If you want to buy me a coffee voluntarily, you can use this link.
+
+[![☕ Buy me a coffee](https://img.shields.io/badge/%E2%98%95-Buy%20me%20a%20coffee-FFA500?style=for-the-badge&logo=buymeacoffee&logoColor=white)](https://paypal.me/mgldvd?country.x=CO&locale.x=es_XC)
+</div>
 
 <table>
 <tr>
@@ -469,7 +478,12 @@ I cannot claim to be the only author of this project. Without the help of the pe
 
 - Miguel D. Quintero - [Lanet.co](https://lanet.co)
 
-&nbsp;&nbsp;&nbsp;&nbsp; [💵 Invite me a coffee - paypal](https://paypal.me/mgldvd?country.x=CO&locale.x=es_XC)
+<div align="center">
+This project is here for anyone to use, no expectations. <br>
+If you want to buy me a coffee voluntarily, you can use this link.
+
+[![☕ Buy me a coffee](https://img.shields.io/badge/%E2%98%95-Buy%20me%20a%20coffee-FFA500?style=for-the-badge&logo=buymeacoffee&logoColor=white)](https://paypal.me/mgldvd?country.x=CO&locale.x=es_XC)
+</div>
 
 <br/>
 <br/>
