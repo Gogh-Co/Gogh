@@ -124,26 +124,6 @@
                                 </tbody>
                             </table>
 
-                            <div class="classification-filters" role="group" aria-label="Filter by light or dark background">
-                                <ButtonFilter
-                                    :active="backgroundFilter === 'all'"
-                                    @click="backgroundFilter = 'all'"
-                                >
-                                    All backgrounds
-                                </ButtonFilter>
-                                <ButtonFilter
-                                    :active="backgroundFilter === 'light'"
-                                    @click="backgroundFilter = 'light'"
-                                >
-                                    Light backgrounds
-                                </ButtonFilter>
-                                <ButtonFilter
-                                    :active="backgroundFilter === 'dark'"
-                                    @click="backgroundFilter = 'dark'"
-                                >
-                                    Dark backgrounds
-                                </ButtonFilter>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -212,33 +192,6 @@
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="stats-card">
-                            <h3>Duplicate names</h3>
-                            <ul v-if="duplicateNames.length" class="stats-dup-list">
-                                <li v-for="entry in duplicateNames" :key="entry.value">
-                                    <strong>{{ entry.value }}</strong>
-                                    <span>{{ entry.count }} themes</span>
-                                </li>
-                            </ul>
-                            <p v-else class="stats-empty">No duplicate names found.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="stats-card">
-                            <h3>Duplicate hashes</h3>
-                            <ul v-if="duplicateHashes.length" class="stats-dup-list">
-                                <li v-for="entry in duplicateHashes" :key="entry.value">
-                                    <strong>{{ entry.value }}</strong>
-                                    <span>{{ entry.count }} themes</span>
-                                </li>
-                            </ul>
-                            <p v-else class="stats-empty">No duplicate hashes found.</p>
                         </div>
                     </div>
                 </div>
@@ -379,6 +332,38 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="stats-card">
+                    <h3>All colors usage</h3>
+                    <p class="stats-note">
+                        Includes all color fields: color_01..color_16, background, foreground and cursor.
+                    </p>
+
+                    <div class="table-wrap" role="region" aria-label="All colors usage table" tabindex="0">
+                        <table class="stats-table stats-table--all-colors">
+                            <thead>
+                                <tr>
+                                    <th>Color</th>
+                                    <th>Hex</th>
+                                    <th>Total uses</th>
+                                    <th>Themes count</th>
+                                    <th>Themes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr v-for="entry in allColorUsage" :key="entry.value">
+                                    <td>
+                                        <span class="color-swatch" :style="{ backgroundColor: entry.value }"></span>
+                                    </td>
+                                    <td>{{ entry.value }}</td>
+                                    <td>{{ entry.count }}</td>
+                                    <td>{{ entry.themes.length }}</td>
+                                    <td class="themes-list-cell">{{ entry.themes.join(', ') }}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </template>
         </div>
 
@@ -450,9 +435,9 @@
 <script setup>
 import Header from '@/components/Header/Header.vue';
 import Button from '@/components/Buttons/Button.vue';
-import ButtonFilter from '@/components/Buttons/ButtonFilter.vue';
 
 const COLOR_KEYS = Array.from({ length: 16 }, (_, index) => `color_${String(index + 1).padStart(2, '0')}`);
+const ALL_COLOR_FIELDS = [...COLOR_KEYS, 'background', 'foreground', 'cursor'];
 
 const cachedThemes = useState('stats-themes-cache', () => null);
 const cachedUpdatedAt = useState('stats-themes-cache-updated', () => 0);
@@ -676,6 +661,40 @@ const duplicateHashThemeCount = computed(() => duplicateHashes.value.reduce((sum
 const topBackgroundColors = computed(() => topColorsBy(themes.value, ['background']));
 const topForegroundColors = computed(() => topColorsBy(themes.value, ['foreground']));
 const topPaletteColors = computed(() => topColorsBy(themes.value, COLOR_KEYS));
+const allColorUsage = computed(() => {
+    const usageMap = new Map();
+
+    themes.value.forEach((theme) => {
+        const themeName = theme.name || '(unnamed theme)';
+
+        ALL_COLOR_FIELDS.forEach((key) => {
+            const hex = normalizeHexColor(theme[key]);
+            if (!hex) {
+                return;
+            }
+
+            if (!usageMap.has(hex)) {
+                usageMap.set(hex, {
+                    value: hex,
+                    count: 0,
+                    themesSet: new Set(),
+                });
+            }
+
+            const entry = usageMap.get(hex);
+            entry.count += 1;
+            entry.themesSet.add(themeName);
+        });
+    });
+
+    return [...usageMap.values()]
+        .map((entry) => ({
+            value: entry.value,
+            count: entry.count,
+            themes: [...entry.themesSet].sort((a, b) => a.localeCompare(b)),
+        }))
+        .sort((a, b) => b.count - a.count || a.value.localeCompare(b.value));
+});
 
 const backgroundClassCounts = computed(() => {
     const light = themes.value.filter((theme) => theme.backgroundClass === 'light').length;

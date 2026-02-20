@@ -22,7 +22,7 @@
         flex-wrap: wrap;
         gap: 10px;
         margin: 0 0 20px;
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         color: #595647;
     }
 
@@ -32,7 +32,7 @@
         border: 1px solid #cfd6dc;
         background: #f7f7f7;
         color: #595647;
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
 
     .stats-status--error {
@@ -61,13 +61,13 @@
 
         li {
             margin: 0 0 6px;
-            font-size: 1.3rem;
+            font-size: 1.4rem;
         }
     }
 
     .stats-note {
         margin-bottom: 10px;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     .classification-filters {
@@ -86,7 +86,7 @@
         td {
             border: 1px solid #d6dde3;
             padding: 7px 8px;
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             color: #595647;
             vertical-align: middle;
         }
@@ -118,7 +118,7 @@
 
         li {
             margin: 0 0 8px;
-            font-size: 1.25rem;
+            font-size: 1.35rem;
 
             span {
                 margin-left: 8px;
@@ -129,7 +129,7 @@
 
     .stats-empty {
         margin: 0;
-        font-size: 1.25rem;
+        font-size: 1.35rem;
     }
 
     .table-filters {
@@ -150,7 +150,7 @@
             label {
                 display: block;
                 margin: 0 0 6px;
-                font-size: 1.3rem;
+                font-size: 1.4rem;
                 font-weight: 700;
             }
 
@@ -162,7 +162,7 @@
                 background: #ffffff;
                 color: #0d1926;
                 padding: 0 9px;
-                font-size: 1.3rem;
+                font-size: 1.4rem;
             }
 
             &.table-filter-field--search {
@@ -192,6 +192,16 @@
         }
     }
 
+    .stats-table--all-colors {
+        min-width: 980px;
+    }
+
+    .themes-list-cell {
+        min-width: 340px;
+        white-space: normal;
+        line-height: 1.5;
+    }
+
     .palette-preview {
         display: grid;
         grid-template-columns: repeat(8, 12px);
@@ -212,7 +222,7 @@
         flex-wrap: wrap;
 
         .table-footer__count {
-            font-size: 1.3rem;
+            font-size: 1.4rem;
             color: #595647;
         }
 
@@ -223,7 +233,7 @@
             flex-wrap: wrap;
 
             label {
-                font-size: 1.3rem;
+                font-size: 1.4rem;
                 font-weight: 700;
             }
 
@@ -232,7 +242,7 @@
                 border: 1px solid #b2b2b2;
                 background: #ffffff;
                 padding: 0 9px;
-                font-size: 1.3rem;
+                font-size: 1.4rem;
             }
         }
     }
@@ -282,7 +292,7 @@
 }
 
 .copy-message {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 700;
     color: #0d1926;
 }
