@@ -18,10 +18,25 @@
 
 .btn-bk {
     background-color: rgba(226 245 255 / 0.58);
+    position: relative;
+    padding-right: 4.2rem;
 
     &:hover {
         background-color: #0d1926;
         color: #ffffff;
+    }
+
+    svg {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        right: 11px;
+        top: 11px;
+        fill:gray;
+
+        path {
+            color: gray;
+        }
     }
 }
 
