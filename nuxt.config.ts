@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 const devPort = Number(import.meta.env.NUXT_PORT || import.meta.env.PORT || 3000)
+const enableDevtools = import.meta.env.NUXT_DEVTOOLS === 'true'
 
 export default defineNuxtConfig({
   srcDir: 'app/',
@@ -47,6 +48,6 @@ export default defineNuxtConfig({
   plugins: [
     '~/assets/static/prism.client',
   ],
-  devtools: { enabled: true },
+  devtools: { enabled: enableDevtools },
   compatibilityDate: '2024-04-03'
 })
