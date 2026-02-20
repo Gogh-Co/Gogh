@@ -9,7 +9,7 @@
 <br>
 
 <div align="center">
-:small_blue_diamond: <a href="http://Gogh-Co.github.io/Gogh"> Visit the Website </a> :small_blue_diamond:
+🔸🔸🔸 <a href="http://Gogh-Co.github.io/Gogh"> Visit the Website </a> 🔸🔸🔸
 </div>
 
 ## Color Scheme Implementer for Terminals
