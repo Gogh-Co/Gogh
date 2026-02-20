@@ -80,10 +80,19 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 
     @include m650 {
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    .btn {
+        width: 100%;
+
+        @include m650 {
+            width: auto;
+        }
     }
 }
 
@@ -92,18 +101,18 @@
     display: flex;
     align-items: center;
     align-self: center;
+    flex: 1 1 100%;
     width: 100%;
     max-width: 320px;
-    margin: 0 0 20px;
+    margin: 0;
 
     @include m650 {
-        width: auto;
-        min-width: 280px;
-        margin: 0 5px;
+        max-width: 420px;
     }
 
     @include m992 {
-        margin: 0 15px;
+        flex: 0 1 320px;
+        max-width: 320px;
     }
 
     &__icon {
@@ -115,8 +124,8 @@
         pointer-events: none;
 
         svg {
-            width: 18px;
-            height: 18px;
+            width: 26px;
+            height: 26px;
             fill: #0d1926;
             opacity: 0.8;
         }
@@ -151,7 +160,7 @@
         position: relative;
         padding: 0;
         width: 5%;
-        height: 40px;
+        height: 44px;
         border: none;
         cursor: pointer;
         transition: all 0.3s ease, border-radius 0.9s ease;
