@@ -35,48 +35,58 @@
                     <span>Total themes: <strong>{{ totalThemes }}</strong></span>
                 </div>
 
-                <div class="row">
+                <div class="row stats-summary-row">
                     <div class="col-md-6 col-lg-3">
-                        <div class="stats-card">
+                        <div class="stats-card summary-card h-100">
                             <h3>Total themes</h3>
                             <p class="stats-value">{{ totalThemes }}</p>
                         </div>
                     </div>
 
                     <div class="col-md-6 col-lg-3">
-                        <div class="stats-card">
+                        <div class="stats-card summary-card h-100">
                             <h3>Author coverage</h3>
-                            <ul class="stats-list">
-                                <li>With author: <strong>{{ authorCounts.present }}</strong></li>
-                                <li>Missing author: <strong>{{ authorCounts.missing }}</strong></li>
+                            <ul class="summary-list">
+                                <li>
+                                    <span>With author</span>
+                                    <strong class="summary-number">{{ authorCounts.present }}</strong>
+                                </li>
+                                <li>
+                                    <span>Missing author</span>
+                                    <strong class="summary-number">{{ authorCounts.missing }}</strong>
+                                </li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="col-md-6 col-lg-3">
-                        <div class="stats-card">
+                        <div class="stats-card summary-card h-100">
                             <h3>Name duplicates</h3>
-                            <ul class="stats-list">
-                                <li>Duplicate groups: <strong>{{ duplicateNames.length }}</strong></li>
-                                <li>Affected themes: <strong>{{ duplicateNameThemeCount }}</strong></li>
+                            <ul class="summary-list">
+                                <li>
+                                    <span>Duplicate groups</span>
+                                    <strong class="summary-number">{{ duplicateNames.length }}</strong>
+                                </li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="col-md-6 col-lg-3">
-                        <div class="stats-card">
+                        <div class="stats-card summary-card h-100">
                             <h3>Hash duplicates</h3>
-                            <ul class="stats-list">
-                                <li>Duplicate groups: <strong>{{ duplicateHashes.length }}</strong></li>
-                                <li>Affected themes: <strong>{{ duplicateHashThemeCount }}</strong></li>
+                            <ul class="summary-list">
+                                <li>
+                                    <span>Duplicate groups</span>
+                                    <strong class="summary-number">{{ duplicateHashes.length }}</strong>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row stats-secondary-row">
                     <div class="col-md-6">
-                        <div class="stats-card">
+                        <div class="stats-card h-100">
                             <h3>Variant counts</h3>
                             <table class="stats-table">
                                 <thead>
@@ -96,7 +106,7 @@
                     </div>
 
                     <div class="col-md-6">
-                        <div class="stats-card">
+                        <div class="stats-card h-100">
                             <h3>Background classification</h3>
                             <p class="stats-note">
                                 Rule: a background is considered <strong>light</strong> when relative luminance is
@@ -416,17 +426,84 @@
                             <th>Hash</th>
                             <td>{{ selectedTheme.hash || '—' }}</td>
                         </tr>
-                        <tr v-for="key in detailColorKeys" :key="key">
-                            <th>{{ key }}</th>
-                            <td>
-                                <span class="inline-color">
-                                    <span class="color-swatch" :style="{ backgroundColor: selectedTheme[key] || '#000000' }"></span>
-                                    {{ selectedTheme[key] || '—' }}
-                                </span>
-                            </td>
-                        </tr>
                     </tbody>
                 </table>
+
+                <div class="table-wrap" role="region" aria-label="Theme base colors" tabindex="0">
+                    <table class="stats-table stats-table--detail-meta-colors">
+                        <thead>
+                            <tr>
+                                <th>background</th>
+                                <th>foreground</th>
+                                <th>cursor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class="inline-color">
+                                        <span class="color-swatch" :style="{ backgroundColor: selectedTheme.background || '#000000' }"></span>
+                                        {{ selectedTheme.background || '—' }}
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="inline-color">
+                                        <span class="color-swatch" :style="{ backgroundColor: selectedTheme.foreground || '#000000' }"></span>
+                                        {{ selectedTheme.foreground || '—' }}
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="inline-color">
+                                        <span class="color-swatch" :style="{ backgroundColor: selectedTheme.cursor || '#000000' }"></span>
+                                        {{ selectedTheme.cursor || '—' }}
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="detail-colors-grid">
+                    <table class="stats-table stats-table--detail-colors">
+                        <thead>
+                            <tr>
+                                <th>Color</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr v-for="key in detailPaletteKeysLeft" :key="key">
+                                <th>{{ key }}</th>
+                                <td>
+                                    <span class="inline-color">
+                                        <span class="color-swatch" :style="{ backgroundColor: selectedTheme[key] || '#000000' }"></span>
+                                        {{ selectedTheme[key] || '—' }}
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table class="stats-table stats-table--detail-colors">
+                        <thead>
+                            <tr>
+                                <th>Color</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr v-for="key in detailPaletteKeysRight" :key="key">
+                                <th>{{ key }}</th>
+                                <td>
+                                    <span class="inline-color">
+                                        <span class="color-swatch" :style="{ backgroundColor: selectedTheme[key] || '#000000' }"></span>
+                                        {{ selectedTheme[key] || '—' }}
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
@@ -459,7 +536,8 @@ const selectedTheme = ref(null);
 const detailModalRef = ref(null);
 const copyMessage = ref('');
 
-const detailColorKeys = [...COLOR_KEYS, 'background', 'foreground', 'cursor'];
+const detailPaletteKeysLeft = COLOR_KEYS.slice(0, 8);
+const detailPaletteKeysRight = COLOR_KEYS.slice(8);
 
 function normalizeThemes(remoteThemes) {
     if (Array.isArray(remoteThemes)) {
@@ -654,9 +732,6 @@ const duplicateHashes = computed(() => duplicateEntriesBy(themes.value, (theme) 
 
 const duplicateNameValues = computed(() => new Set(duplicateNames.value.map((entry) => entry.value)));
 const duplicateHashValues = computed(() => new Set(duplicateHashes.value.map((entry) => entry.value)));
-
-const duplicateNameThemeCount = computed(() => duplicateNames.value.reduce((sum, entry) => sum + entry.count, 0));
-const duplicateHashThemeCount = computed(() => duplicateHashes.value.reduce((sum, entry) => sum + entry.count, 0));
 
 const topBackgroundColors = computed(() => topColorsBy(themes.value, ['background']));
 const topForegroundColors = computed(() => topColorsBy(themes.value, ['foreground']));

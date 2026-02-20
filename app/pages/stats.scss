@@ -47,6 +47,83 @@
         background-color: #f7f7f7;
     }
 
+    .stats-summary-row {
+        margin-bottom: 16px;
+
+        @include m768 {
+            margin-bottom: 24px;
+        }
+
+        > [class*='col-'] {
+            display: flex;
+        }
+    }
+
+    .stats-secondary-row {
+        margin-bottom: 16px;
+
+        @include m768 {
+            margin-bottom: 24px;
+        }
+
+        > [class*='col-'] {
+            display: flex;
+        }
+
+        .stats-card {
+            width: 100%;
+        }
+    }
+
+    .summary-card {
+        width: 100%;
+        min-height: 170px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h3 {
+            font-size: 3.3rem;
+            line-height: 1.05;
+            margin-bottom: 10px;
+
+            @include m768 {
+                font-size: 3.6rem;
+            }
+        }
+
+        .stats-value {
+            font-size: 5rem;
+            line-height: 0.95;
+        }
+    }
+
+    .summary-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 10px;
+            margin: 0 0 10px;
+            font-size: 1.6rem;
+            line-height: 1.2;
+        }
+    }
+
+    .summary-number {
+        display: inline-block;
+        min-width: 42px;
+        text-align: right;
+        font-size: 3.6rem;
+        line-height: 0.95;
+        font-weight: 900;
+        color: #0d1926;
+    }
+
     .stats-value {
         margin: 0;
         font-size: 2.8rem;
@@ -266,7 +343,7 @@
     position: relative;
     padding: 20px;
     border: 1px solid #5f5f5f;
-    background: #f5f2f0;
+    background: #ffffff;
     color: #595647;
 }
 
@@ -302,5 +379,35 @@
 
     th {
         width: 170px;
+    }
+}
+
+.stats-table--detail-meta-colors {
+    margin-top: 12px;
+    min-width: 640px;
+
+    th,
+    td {
+        text-align: left;
+    }
+}
+
+.detail-colors-grid {
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+
+    @include m768 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+    }
+}
+
+.stats-table--detail-colors {
+    margin-top: 0;
+
+    th {
+        width: 130px;
     }
 }
