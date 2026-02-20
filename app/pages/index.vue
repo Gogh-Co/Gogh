@@ -112,6 +112,19 @@
                             by Background
                         </ButtonFilter>
 
+                        <div class="theme-search" role="search">
+                            <span class="theme-search__icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="m19.6 21l-6.3-6.3q-.75.6-1.725.95T9.5 16q-2.725 0-4.612-1.888T3 9.5t1.888-4.612T9.5 3t4.613 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l6.3 6.3zM9.5 14q1.875 0 3.188-1.312T14 9.5t-1.312-3.187T9.5 5T6.313 6.313T5 9.5t1.313 3.188T9.5 14"/></svg>
+                            </span>
+                            <input
+                                v-model.trim="searchQuery"
+                                class="theme-search__input"
+                                type="search"
+                                placeholder="Search theme by name"
+                                aria-label="Search theme by name"
+                            >
+                        </div>
+
                         <Button
                             to="/generator"
                             target="_blank"
@@ -127,19 +140,6 @@
                             WCSG
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Remix Icon by Remix Design - https://github.com/Remix-Design/RemixIcon/blob/master/License --><path fill="currentColor" d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zm11-3v8h-2V6.413l-7.793 7.794l-1.414-1.414L17.585 5H13V3z"/></svg>
                         </Button>
-
-                        <div class="theme-search" role="search">
-                            <span class="theme-search__icon" aria-hidden="true">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="m19.6 21l-6.3-6.3q-.75.6-1.725.95T9.5 16q-2.725 0-4.612-1.888T3 9.5t1.888-4.612T9.5 3t4.613 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l6.3 6.3zM9.5 14q1.875 0 3.188-1.312T14 9.5t-1.312-3.187T9.5 5T6.313 6.313T5 9.5t1.313 3.188T9.5 14"/></svg>
-                            </span>
-                            <input
-                                v-model.trim="searchQuery"
-                                class="theme-search__input"
-                                type="search"
-                                placeholder="Search theme by name"
-                                aria-label="Search theme by name"
-                            >
-                        </div>
                     </div>
                 </div>
 
