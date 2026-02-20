@@ -6,6 +6,8 @@ bin/
 .venv/
 .devbox/
 .nuxt/
+.output/
+dist/
 
 .*.swp
 .stfolder
