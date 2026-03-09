@@ -496,7 +496,7 @@ remove_file_extension (){
 normalize_theme_selector() {
   echo "$1" \
     | tr '[:upper:]' '[:lower:]' \
-    | sed -e 's/\.sh$//' -e 's/[ _]/-/g' -e 's/--*/-/g' -e 's/^-//' -e 's/-$//'
+    | sed -e 's/\.sh$//' -e 's/[^[:alnum:]]\+/-/g' -e 's/--*/-/g' -e 's/^-//' -e 's/-$//'
 }
 
 
