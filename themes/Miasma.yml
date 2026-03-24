@@ -1,0 +1,27 @@
+---
+# Based on xero/miasma.nvim
+name: "Miasma"
+author: "Amir Ehsan (https://github.com/EhsanAhmadzadeh)"
+variant: "Dark"
+
+color_01: "#222222" # Black
+color_02: "#685742" # Red
+color_03: "#5f875f" # Green
+color_04: "#b36d43" # Yellow
+color_05: "#78824b" # Blue
+color_06: "#bb7744" # Magenta
+color_07: "#c9a554" # Cyan
+color_08: "#d7c483" # White
+
+color_09: "#666666" # Bright Black
+color_10: "#685742" # Bright Red
+color_11: "#5f875f" # Bright Green
+color_12: "#b36d43" # Bright Yellow
+color_13: "#78824b" # Bright Blue
+color_14: "#bb7744" # Bright Magenta
+color_15: "#c9a554" # Bright Cyan
+color_16: "#d7c483" # Bright White
+
+background: "#222222"
+foreground: "#c2c2b0"
+cursor: "#c2c2b0"
