@@ -1,7 +1,7 @@
 ---
 name: 'Blue Moon Light'
 author: 'kyazdani42 (https://github.com/kyazdani42/blue-moon)'
-variant: 'light'
+variant: 'dark'
 
 color_01: '#292d3e'   # Black (Host)
 color_02: '#d06179'   # Red (Syntax string)
