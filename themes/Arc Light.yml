@@ -1,7 +1,7 @@
 ---
 name:    'Arc Light'
 author:  'https://hesamrad.com'
-variant: 'Light'
+variant: 'light'
 
 color_01: '#0D1117'    # Black (Host)
 color_02: '#C32424'    # Red (Syntax string)
