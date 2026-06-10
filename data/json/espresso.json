@@ -1,7 +1,7 @@
 {
   "name": "Espresso",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#353535",
   "color_02": "#D25252",
   "color_03": "#A5C261",
@@ -21,5 +21,5 @@
   "background": "#323232",
   "foreground": "#FFFFFF",
   "cursor": "#FFFFFF",
-  "hash": "003f72b6bfcb075aa16d7b2fe0251ce3bc1bbeb1d6ea1fb2a136823f8e08b6e7"
+  "hash": "be4d92b7daf2a1daf60e67f9a7e3b074e83be18da965ce68295d409455a88b17"
 }

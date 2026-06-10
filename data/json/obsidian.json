@@ -1,7 +1,7 @@
 {
   "name": "Obsidian",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#A60001",
   "color_03": "#00BB00",
@@ -21,5 +21,5 @@
   "background": "#283033",
   "foreground": "#CDCDCD",
   "cursor": "#CDCDCD",
-  "hash": "dcb64876feb2c68c8eeb734b6245698e9ffed533b806c84fb6eadd7ae44c5494"
+  "hash": "d74abe9cfc047c884fffc43838b391c2a2ea33db5dc5157a58031350dc43bd26"
 }

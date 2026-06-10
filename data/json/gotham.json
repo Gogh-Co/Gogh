@@ -1,7 +1,7 @@
 {
   "name": "Gotham",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#0A0F14",
   "color_02": "#C33027",
   "color_03": "#26A98B",
@@ -21,5 +21,5 @@
   "background": "#0A0F14",
   "foreground": "#98D1CE",
   "cursor": "#98D1CE",
-  "hash": "b3fc1edf2a8f02abb29af13b8e75fc5559c6cdb7bc23ca5a6cae0681062516e9"
+  "hash": "a1385c63c364574d96fcff969a3d7cae3ebcbefe8a2cab65a9c3843e34d28634"
 }

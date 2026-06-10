@@ -1,7 +1,7 @@
 {
   "name": "Jackie Brown",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#2C1D16",
   "color_02": "#EF5734",
   "color_03": "#2BAF2B",
@@ -21,5 +21,5 @@
   "background": "#2C1D16",
   "foreground": "#FFCC2F",
   "cursor": "#FFCC2F",
-  "hash": "e57be50c8d961ee5e3cd60762253ddbeceb4014dc0ca1a9a5a4ada0f8bbe6e63"
+  "hash": "086387910be6a6b07fbd0eb6194a9f93c28533ce7490b51b49e4c8fcb9c7a068"
 }

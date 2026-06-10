@@ -1,7 +1,7 @@
 {
   "name": "Mona Lisa",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#351B0E",
   "color_02": "#9B291C",
   "color_03": "#636232",
@@ -21,5 +21,5 @@
   "background": "#120B0D",
   "foreground": "#F7D66A",
   "cursor": "#F7D66A",
-  "hash": "01ba3ab360622a3a633f484d5cf425e96ec22e1682ff0851ada99af5be43dad7"
+  "hash": "98875c164d575d9f8a845b83e57d90e8bdc5a8757072b48774f68120a6089c2b"
 }

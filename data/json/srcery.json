@@ -1,7 +1,7 @@
 {
   "name": "Srcery",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#1C1B19",
   "color_02": "#EF2F27",
   "color_03": "#519F50",
@@ -21,5 +21,5 @@
   "background": "#1C1B19",
   "foreground": "#FCE8C3",
   "cursor": "#FBB829",
-  "hash": "5a3a84334e8b22f4f626826e6870b23cb56fcda03f6a72c1ade5f6e0ca599f05"
+  "hash": "146ebd78ca714dd110aef9939d98204a8d8a127d778a1ad041e347c215013a44"
 }

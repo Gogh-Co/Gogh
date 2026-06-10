@@ -1,7 +1,7 @@
 {
   "name": "Kokuban",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#2E8744",
   "color_02": "#D84E4C",
   "color_03": "#95DA5A",
@@ -21,5 +21,5 @@
   "background": "#0D4A08",
   "foreground": "#D8E2D7",
   "cursor": "#D8E2D7",
-  "hash": "8d7fe162aa444cc4a28b0eaf1ec53be282f065a7b1d2e9e5293f15217742f9ce"
+  "hash": "040f6f596f3abf10c7e4c9c7cfeceeb4ec4226c963cf8f1bc152a84f13d068e3"
 }

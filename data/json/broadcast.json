@@ -1,7 +1,7 @@
 {
   "name": "Broadcast",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#DA4939",
   "color_03": "#519F50",
@@ -21,5 +21,5 @@
   "background": "#2B2B2B",
   "foreground": "#E6E1DC",
   "cursor": "#E6E1DC",
-  "hash": "05528891ce4354326e11af6ddc5703def484587ca557511c46621e2e24fc2a1f"
+  "hash": "fd38178a1ab5c3ff14908ede934356efdc3040d117673e1d3e6f3e18e0f05ce4"
 }

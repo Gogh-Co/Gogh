@@ -1,7 +1,7 @@
 {
   "name": "Ic Orange Ppl",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#C13900",
   "color_03": "#A4A900",
@@ -21,5 +21,5 @@
   "background": "#262626",
   "foreground": "#FFCB83",
   "cursor": "#FFCB83",
-  "hash": "1aa25c37313129a8791010ca5de510469d41ae5da4c6a9970f394a65ec5ad4f3"
+  "hash": "71c5d1a519516bea4139834b87cbe05027beaad7922380c7aaf749ee153edf1f"
 }

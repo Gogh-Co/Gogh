@@ -1,7 +1,7 @@
 {
   "name": "Neutron",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#23252B",
   "color_02": "#B54036",
   "color_03": "#5AB977",
@@ -21,5 +21,5 @@
   "background": "#1C1E22",
   "foreground": "#E6E8EF",
   "cursor": "#E6E8EF",
-  "hash": "be868c6f533404e860d5101e7d2d09c6f208267ea37630f8472321c7a49138a9"
+  "hash": "7f8ddafcbbdea9cc48b0d7f007871aa047cce6a2d603e54173f046f81e115457"
 }

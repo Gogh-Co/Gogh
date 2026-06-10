@@ -1,7 +1,7 @@
 {
   "name": "Elio",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#303030",
   "color_02": "#E1321A",
   "color_03": "#6AB017",
@@ -21,5 +21,5 @@
   "background": "#041A3B",
   "foreground": "#F2F2F2",
   "cursor": "#F2F2F2",
-  "hash": "548440eaf7543df245ec64e27858679ed52c6b672ba8279de6e0109d7d6feef5"
+  "hash": "457c13fcdaee6a49e65cb3a7de7b04678e33b5c695d0d94aec17cd5df2f324c4"
 }

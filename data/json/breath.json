@@ -1,7 +1,7 @@
 {
   "name": "Breath",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#1E2229",
   "color_02": "#ED1515",
   "color_03": "#44853A",
@@ -21,5 +21,5 @@
   "background": "#1E2229",
   "foreground": "#17A88B",
   "cursor": "#17A88B",
-  "hash": "08aaaa69e75435446f31a1c5ef5b47acafad010484332f4422b9e915faab78df"
+  "hash": "2937914510f50125cc8e634a1a00bfcde90bb08b8943c5ed437ca3d66adebaba"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Molokai",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#1B1D1E",
   "color_02": "#7325FA",
   "color_03": "#23E298",
@@ -21,5 +21,5 @@
   "background": "#1B1D1E",
   "foreground": "#BBBBBB",
   "cursor": "#BBBBBB",
-  "hash": "d16a097d7b3db24c930c35bb5bb356b8b9727609aded00daa56a31da089ce877"
+  "hash": "47182e4b1c37ffba7c0de1a3457fa108031cd348b518d421c687f469acd2bd54"
 }

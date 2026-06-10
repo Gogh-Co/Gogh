@@ -1,7 +1,7 @@
 {
   "name": "Lavandula",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#230046",
   "color_02": "#7D1625",
   "color_03": "#337E6F",
@@ -21,5 +21,5 @@
   "background": "#050014",
   "foreground": "#736E7D",
   "cursor": "#736E7D",
-  "hash": "19274bd870c724e74e57e940aa80c60ced82c617ba0816505d930c0b1b919ee8"
+  "hash": "dfb3b6186c27291fb0f48167f8d62cfda68eca1368f7b8ce501dfaa005690a63"
 }

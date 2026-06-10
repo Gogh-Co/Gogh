@@ -1,7 +1,7 @@
 {
   "name": "Base4Tone Classic Q",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#1d1d20",
   "color_02": "#d4359a",
   "color_03": "#4287f5",
@@ -21,5 +21,5 @@
   "background": "#1d1d20",
   "foreground": "#95949e",
   "cursor": "#67768e",
-  "hash": "807bc4a4185179bc624b1c18df6bbce90a7e1782e6e9d3ce9d9c61fd439866f1"
+  "hash": "a5606d35e2aaf8684bf533948b91ca811ecc1827231bdff1581bd42371a2e6af"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Dark Pastel",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FF5555",
   "color_03": "#55FF55",
@@ -21,5 +21,5 @@
   "background": "#000000",
   "foreground": "#FFFFFF",
   "cursor": "#FFFFFF",
-  "hash": "3e2beca737c8b5d9b188b1767a5aebcd062298d08501cac1ed75cef4f0668be5"
+  "hash": "c0135de73ae2c6d1860daefa6514e824644decd28e027fac6f17677584ce468e"
 }

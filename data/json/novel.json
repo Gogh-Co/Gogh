@@ -1,7 +1,7 @@
 {
   "name": "Novel",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#000000",
   "color_02": "#CC0000",
   "color_03": "#009600",
@@ -21,5 +21,5 @@
   "background": "#DFDBC3",
   "foreground": "#3B2322",
   "cursor": "#3B2322",
-  "hash": "b560cb9104f9e7875de3025f1ec600cc2499bf735fd5b7eeeb0750911715bc26"
+  "hash": "099930e10dee2e170d3d6e2d082408b978ce6e16e0a176dabe72876bc71a4c31"
 }

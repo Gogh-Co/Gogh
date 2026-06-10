@@ -1,7 +1,7 @@
 {
   "name": "Base2Tone Desert",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#292724",
   "color_02": "#816f4b",
   "color_03": "#ec9255",
@@ -21,5 +21,5 @@
   "background": "#292724",
   "foreground": "#ada594",
   "cursor": "#bc672f",
-  "hash": "9a26159e03d787926eb680f2031f7e952bb28bc0c633cd3c8a974f033b852b50"
+  "hash": "92f661e3ec93587a26f6c871309db4028ea8ab34b3e3a89983e6b7b47e103f3b"
 }

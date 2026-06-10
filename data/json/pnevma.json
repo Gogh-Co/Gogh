@@ -1,7 +1,7 @@
 {
   "name": "Pnevma",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#2F2E2D",
   "color_02": "#A36666",
   "color_03": "#90A57D",
@@ -21,5 +21,5 @@
   "background": "#1C1C1C",
   "foreground": "#D0D0D0",
   "cursor": "#D0D0D0",
-  "hash": "77dba329f2c858bd84922599813d1960a532b44449f2e3616357b0710736c2f6"
+  "hash": "553f71bbdd9ed23600578a67188b3d9d46da3073c88658e8b01beac81bb1ea73"
 }

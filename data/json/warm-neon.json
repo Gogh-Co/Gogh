@@ -1,7 +1,7 @@
 {
   "name": "Warm Neon",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#E24346",
   "color_03": "#39B13A",
@@ -21,5 +21,5 @@
   "background": "#404040",
   "foreground": "#AFDAB6",
   "cursor": "#AFDAB6",
-  "hash": "fbb5a94daf57f3e337a57ad07ec48de945d6201b276c4837b1ac7bc2907ae200"
+  "hash": "62565f6f3f64314d0adf539177b318e86736ad462b32258fd9031fc37f9ed06f"
 }

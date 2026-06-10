@@ -1,7 +1,7 @@
 {
   "name": "Base4Tone Modern N",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#1a2023",
   "color_02": "#d53975",
   "color_03": "#a48f04",
@@ -21,5 +21,5 @@
   "background": "#1a2023",
   "foreground": "#8a9da8",
   "cursor": "#85826f",
-  "hash": "b80c2711ae1af985995c8ef6e144713b14fbc635b4ed852bb2106359e81fb70e"
+  "hash": "373c6a4e8b12c2ff97daf91dfe61fd8254d54277e0332005f38b0454b6f0e164"
 }

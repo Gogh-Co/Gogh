@@ -1,7 +1,7 @@
 {
   "name": "Solarized Darcula",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#25292A",
   "color_02": "#F24840",
   "color_03": "#629655",
@@ -21,5 +21,5 @@
   "background": "#3D3F41",
   "foreground": "#D2D8D9",
   "cursor": "#D2D8D9",
-  "hash": "08b316c469d3c0036fffc5af4d11b89d7f884c5744654ae9a2635b29fbd39c91"
+  "hash": "d4d06d9a629fe6fede4cda3dd8f4cd4c3face4d018cbea60d6cde04d0e9d1fb2"
 }

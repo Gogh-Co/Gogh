@@ -1,7 +1,7 @@
 {
   "name": "Spacegray Eighties Dull",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#15171C",
   "color_02": "#B24A56",
   "color_03": "#92B477",
@@ -21,5 +21,5 @@
   "background": "#222222",
   "foreground": "#C9C6BC",
   "cursor": "#C9C6BC",
-  "hash": "4aa318f7ab17f5defd1bef7ab73fc0aff030d32a83413825f2b3ee8dfa5f9d0f"
+  "hash": "f10c7f413cd6a09b4d447afdbcccb370bc1f68e8d9a2e9bc1933ce24489e0757"
 }

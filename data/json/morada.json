@@ -1,7 +1,7 @@
 {
   "name": "Morada",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#040404",
   "color_02": "#0F49C4",
   "color_03": "#48B117",
@@ -21,5 +21,5 @@
   "background": "#211F46",
   "foreground": "#FFFFFF",
   "cursor": "#FFFFFF",
-  "hash": "df88d180aa3ae87f0945cf5332e7bdbbd5a17e37e75f7ac045d99e956c8ebf85"
+  "hash": "6244b5a4a5fd7fce0a789b8b36a6302408d778a3cd565c605e07f031517e486f"
 }

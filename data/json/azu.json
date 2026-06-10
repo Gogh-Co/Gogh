@@ -1,7 +1,7 @@
 {
   "name": "Azu",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#AC6D74",
   "color_03": "#74AC6D",
@@ -21,5 +21,5 @@
   "background": "#09111A",
   "foreground": "#D9E6F2",
   "cursor": "#D9E6F2",
-  "hash": "b87fe309b3d2309fb842f348f47f791b5cd33cb0a423e32499a616a530c08914"
+  "hash": "e6b820e3e06872d0b4ba3be882c05d4d2205d6a79865f82b9038d529729572c0"
 }

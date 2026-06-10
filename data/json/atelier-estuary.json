@@ -1,7 +1,7 @@
 {
   "name": "Atelier Estuary",
   "author": "Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary)",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#22221B",
   "color_02": "#BA6236",
   "color_03": "#7D9726",
@@ -21,5 +21,5 @@
   "background": "#22221B",
   "foreground": "#878573",
   "cursor": "#878573",
-  "hash": "f206ddeed26be490528656fd2f90db713acd5455dc9aa2b96d01b6d8721537ab"
+  "hash": "58fb88a40c304ad4e5e74ca06d46c18d430552863fe073ea40157ec75a8b985d"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Base4Tone Classic T",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#201d20",
   "color_02": "#ce672c",
   "color_03": "#9263e3",
@@ -21,5 +21,5 @@
   "background": "#201d20",
   "foreground": "#9d949e",
   "cursor": "#797481",
-  "hash": "b471866989b8841b963b19df40e95a7375e7a08c5ce18d8ba01d1d8c5ec681e0"
+  "hash": "62bc09823b9e64a9d2da9b737558fc5dd8ae5a19d4330d77bf06b8dff3ccbb58"
 }

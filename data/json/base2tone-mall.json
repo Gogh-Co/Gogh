@@ -1,7 +1,7 @@
 {
   "name": "Base2Tone Mall",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#1e1e1f",
   "color_02": "#a17efc",
   "color_03": "#75bfff",
@@ -21,5 +21,5 @@
   "background": "#1e1e1f",
   "foreground": "#97959d",
   "cursor": "#3692e2",
-  "hash": "edf851a62e04ddcb017d8b614eafcc1c3ff58878e7502431b5649b6b673afebb"
+  "hash": "085e5172cdf196f0bd89c5df6e0d9918c307792c061173535d5e51e2f68285e0"
 }

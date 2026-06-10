@@ -1,7 +1,7 @@
 {
   "name": "Breath Silverfox",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#1E2229",
   "color_02": "#ED1515",
   "color_03": "#44853A",
@@ -21,5 +21,5 @@
   "background": "#1E2229",
   "foreground": "#BBBBBB",
   "cursor": "#BBBBBB",
-  "hash": "15402c6d96e4c913c3981592dec0b314c922df2ba402b85036bb9aa46a6647d9"
+  "hash": "5340ad1740816fd8c4c0a9f69fcc650509db10b410d74df04f20b8e1f6c9fd7c"
 }

@@ -1,7 +1,7 @@
 {
   "name": "One Light",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#000000",
   "color_02": "#DA3E39",
   "color_03": "#41933E",
@@ -21,5 +21,5 @@
   "background": "#F8F8F8",
   "foreground": "#2A2B32",
   "cursor": "#2A2B32",
-  "hash": "df33484684487a569d46b337d3afa892fe1e239bf2e4e7ada6b28b364a5b9fa7"
+  "hash": "bc9d43404f914a8351dc0271114387c56bd70dd89818f22cfe3ff00f029c3046"
 }

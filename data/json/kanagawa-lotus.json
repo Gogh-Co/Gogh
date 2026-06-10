@@ -1,7 +1,7 @@
 {
   "name": "Kanagawa Lotus",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#1f1f28",
   "color_02": "#c84053",
   "color_03": "#6f894e",
@@ -21,5 +21,5 @@
   "background": "#f2ecbc",
   "foreground": "#545464",
   "cursor": "#43436c",
-  "hash": "5eac06fbfca735eabfe3c46e88263cc060f75bd84aabdaefc29fe1e7100896aa"
+  "hash": "660cff4e62492cc2fde545d48a61beafaf57e139b82d1d09322c5430ce85a490"
 }

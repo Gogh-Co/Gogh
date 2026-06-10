@@ -1,7 +1,7 @@
 {
   "name": "Website",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#183c44",
   "color_02": "#da4949",
   "color_03": "#bcca15",
@@ -21,5 +21,5 @@
   "background": "#132f35",
   "foreground": "#d1b890",
   "cursor": "#d1b890",
-  "hash": "4bec5150c03f19981a2cff7984d3134536fea684e8280166176adf3841fabbb3"
+  "hash": "f2755c9ae1b2960cfa78a00754898873973a826e0d8bc3c0cd759b6a34c4392c"
 }

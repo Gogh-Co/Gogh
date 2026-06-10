@@ -1,7 +1,7 @@
 {
   "name": "Mathias",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#E52222",
   "color_03": "#A6E32D",
@@ -21,5 +21,5 @@
   "background": "#000000",
   "foreground": "#BBBBBB",
   "cursor": "#BBBBBB",
-  "hash": "e19270a109bedbdcabd7a269b336faf0c202b979bb902740dee0d76272d408ba"
+  "hash": "d29e601a416efe634a672ec1cefcfdb1852710a393e9b5f2ed0700728e8e7440"
 }

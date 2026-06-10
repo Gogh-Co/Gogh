@@ -1,7 +1,7 @@
 {
   "name": "Hipster Green",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#B6214A",
   "color_03": "#00A600",
@@ -21,5 +21,5 @@
   "background": "#100B05",
   "foreground": "#84C138",
   "cursor": "#84C138",
-  "hash": "8dd488f58c5dea7d5026b6f4d2212c1f11add6af8c0dfc1f91aade2175e9ee6a"
+  "hash": "6b46c7f5c50bb7691f5425b67aecc3e5645235a5e91bc28e96385e72a70e5e20"
 }

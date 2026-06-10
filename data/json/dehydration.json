@@ -1,7 +1,7 @@
 {
   "name": "Dehydration",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#333333",
   "color_02": "#FF5555",
   "color_03": "#5FD38D",
@@ -21,5 +21,5 @@
   "background": "#333333",
   "foreground": "#CCCCCC",
   "cursor": "#CCCCCC",
-  "hash": "cfe367d45af338642e58523171f996d9538bef1357a83bf2a396866ffa0c95e8"
+  "hash": "f89dc4a38e4399fe6dbec705f266a98583210dc94b8e5c65cd5402de7c843075"
 }

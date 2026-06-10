@@ -1,7 +1,7 @@
 {
   "name": "Pro",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#990000",
   "color_03": "#00A600",
@@ -21,5 +21,5 @@
   "background": "#000000",
   "foreground": "#F2F2F2",
   "cursor": "#F2F2F2",
-  "hash": "01bc08e36947152241eab7d5fc28c1c5abb2c4d00c469c1cd802f8320eb296a7"
+  "hash": "2fe5c9bd2607bcfed770b9de76229e3e4c1b1c87eda8e1b3709e296a216b30f2"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Pixiefloss",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#2F2942",
   "color_02": "#FF857F",
   "color_03": "#48B685",
@@ -21,5 +21,5 @@
   "background": "#241F33",
   "foreground": "#D1CAE8",
   "cursor": "#D1CAE8",
-  "hash": "daf91b1aeeb34dedf4012705dfcee87d3f7d269dc4be827bde214f91ae411910"
+  "hash": "354848ae95897fc9bfe889f11f5fe3f0e3d190cfd18cc73900bf23304453af23"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Atom",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FD5FF1",
   "color_03": "#87C38A",
@@ -21,5 +21,5 @@
   "background": "#161719",
   "foreground": "#C5C8C6",
   "cursor": "#C5C8C6",
-  "hash": "0f7b1203801b39236f6a44bcba4d47c45e540c8f04386a9c09a9a47d4d90dad1"
+  "hash": "9a7088836d84f10ccdf4f5edca8ff1ad1058249990ac6340b2eba733df9f1044"
 }

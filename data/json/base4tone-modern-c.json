@@ -1,7 +1,7 @@
 {
   "name": "Base4Tone Modern C",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#221f1c",
   "color_02": "#5c6feb",
   "color_03": "#dd407c",
@@ -21,5 +21,5 @@
   "background": "#221f1c",
   "foreground": "#a39b8f",
   "cursor": "#817479",
-  "hash": "7a675694782d4fde1a4935479ff62788cb4541d26c5cf5d45fec6af1dde35d82"
+  "hash": "83c07561888ace2038fae406804a61c91350d0d4eed09e33e2dfeb7c8af28073"
 }

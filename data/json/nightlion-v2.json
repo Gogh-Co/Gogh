@@ -1,7 +1,7 @@
 {
   "name": "Nightlion V2",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#4C4C4C",
   "color_02": "#BB0000",
   "color_03": "#04F623",
@@ -21,5 +21,5 @@
   "background": "#171717",
   "foreground": "#BBBBBB",
   "cursor": "#BBBBBB",
-  "hash": "688d229cdd821483f89bd755979e69eaacde1cca5300ac917edcf4bcf89be02d"
+  "hash": "77eae15523685e8b6c130e4ea49cc781169c54113374b4b4128b8de4e8693591"
 }

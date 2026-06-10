@@ -1,7 +1,7 @@
 {
   "name": "Base4Tone Classic R",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#1e1d20",
   "color_02": "#d53975",
   "color_03": "#6577ec",
@@ -21,5 +21,5 @@
   "background": "#1e1d20",
   "foreground": "#98949e",
   "cursor": "#6f7285",
-  "hash": "203d79610c2fcca7c0438723897dec531f7baa2aae08f1f31040ada309d6129f"
+  "hash": "e6d93e2a705c56e42ee1e0a5c4e4e85deb4d1d2b25e094b4c429afbd4cc7dfdf"
 }

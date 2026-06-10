@@ -1,7 +1,7 @@
 {
   "name": "Miramare",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#242021",
   "color_02": "#e68183",
   "color_03": "#a7c080",
@@ -21,5 +21,5 @@
   "background": "#2a2426",
   "foreground": "#e6d6ac",
   "cursor": "#e6d6ac",
-  "hash": "d16846937e101153b67fa89ef204cc25e39f632407ab8aa54b3cb56906ec629d"
+  "hash": "f7d81fbf03102b3ec8a60857a6c7e7de7f59b712c9f1dc6e6d164864f1f5f0e9"
 }

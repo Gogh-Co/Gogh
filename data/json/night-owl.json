@@ -1,7 +1,7 @@
 {
   "name": "Night Owl",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#011627",
   "color_02": "#EF5350",
   "color_03": "#22DA6E",
@@ -21,5 +21,5 @@
   "background": "#011627",
   "foreground": "#D6DEEB",
   "cursor": "#D6DEEB",
-  "hash": "b78ff1ecf6f210469de9bccbc5b0a48ad2590742600994b1e3ed560a64e16422"
+  "hash": "ea0e3036ff1b1c4fb7a263d124b5df93c9c0909eafaa286b77e47d17245db2c5"
 }

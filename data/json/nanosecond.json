@@ -1,7 +1,7 @@
 {
   "name": "Nanosecond",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FF0000",
   "color_03": "#00AA00",
@@ -21,5 +21,5 @@
   "background": "#112233",
   "foreground": "#FAFAFA",
   "cursor": "#FAFAFA",
-  "hash": "0ca6d159dece4855255e749bcdd3412310263447fdd3c4c770df5b87b5ef362e"
+  "hash": "defbd47587a972546c090e322b16612828e38a417793b9811f7e76c2ac737020"
 }

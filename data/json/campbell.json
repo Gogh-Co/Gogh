@@ -1,7 +1,7 @@
 {
   "name": "Campbell",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#0C0C0C",
   "color_02": "#C50F1F",
   "color_03": "#13A10E",
@@ -21,5 +21,5 @@
   "background": "#0C0C0C",
   "foreground": "#CCCCCC",
   "cursor": "#FFFFFF",
-  "hash": "9d4a5ebb0ce264ab799114b5b6d30a5d312a2fe00e29210da17fd3ba26d8cde5"
+  "hash": "f821d197882cd438151e9cffe8bbf194187adee146aa451f33f9d8bf9de55827"
 }

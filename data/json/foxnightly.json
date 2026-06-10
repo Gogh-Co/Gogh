@@ -1,7 +1,7 @@
 {
   "name": "Foxnightly",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#2A2A2E",
   "color_02": "#B98EFF",
   "color_03": "#FF7DE9",
@@ -21,5 +21,5 @@
   "background": "#2A2A2E",
   "foreground": "#D7D7DB",
   "cursor": "#D7D7DB",
-  "hash": "7d725612fc82828c181886f40a1ee9e62e74ea6a60c9eab5fb199a4102de3d13"
+  "hash": "358190ee8227463c425ea06bcd5944ba84fe4042ff5ac9319fb594beca29b482"
 }

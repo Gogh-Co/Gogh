@@ -1,7 +1,7 @@
 {
   "name": "Omni",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#191622",
   "color_02": "#E96379",
   "color_03": "#67E480",
@@ -21,5 +21,5 @@
   "background": "#191622",
   "foreground": "#ABB2BF",
   "cursor": "#ABB2BF",
-  "hash": "d6de6f2f737362e625be968919e42451b09cc9cea5638f492bacfb7415334cef"
+  "hash": "36f926462bdcefe91f9d66e50888d4699dcc0bec34fb78dfed4a554988bfd005"
 }

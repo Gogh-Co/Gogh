@@ -1,7 +1,7 @@
 {
   "name": "Everforest Light Soft",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#5C6A72",
   "color_02": "#F85552",
   "color_03": "#8DA101",
@@ -21,5 +21,5 @@
   "background": "#F3EAD3",
   "foreground": "#5C6A72",
   "cursor": "#5C6A72",
-  "hash": "cbacf1f8207bb62c1afd5f2ef40f0d7eb3e795e69aa9424e427ac1f49493e020"
+  "hash": "9ca37d9b73bf9bd28a9825b81086e52299410819b5ba59e35273f401d7737af5"
 }

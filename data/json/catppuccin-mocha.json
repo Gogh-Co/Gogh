@@ -1,7 +1,7 @@
 {
   "name": "Catppuccin Mocha",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#45475A",
   "color_02": "#F38BA8",
   "color_03": "#A6E3A1",
@@ -21,5 +21,5 @@
   "background": "#1E1E2E",
   "foreground": "#CDD6F4",
   "cursor": "#CDD6F4",
-  "hash": "25fae93478db59fa405b004b027c05c565f0d28dd119ebfe102e5d9b4fd291da"
+  "hash": "b4577a934d5d78162af6cf66e087df3c92c05de7a112c3087c47be622695303d"
 }

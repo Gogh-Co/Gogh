@@ -1,7 +1,7 @@
 {
   "name": "Oceanic Next",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#121C21",
   "color_02": "#E44754",
   "color_03": "#89BD82",
@@ -21,5 +21,5 @@
   "background": "#121B21",
   "foreground": "#B3B8C3",
   "cursor": "#B3B8C3",
-  "hash": "5f6ccf51cb16876210d2d42258ae16b12267929455899d74f1384d2c8233cf15"
+  "hash": "dace87c93c54da040500c414bcd63ffd9470df4fad57c4bd8cc0034d83ddc6ca"
 }

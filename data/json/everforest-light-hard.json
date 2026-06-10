@@ -1,7 +1,7 @@
 {
   "name": "Everforest Light Hard",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#5C6A72",
   "color_02": "#F85552",
   "color_03": "#8DA101",
@@ -21,5 +21,5 @@
   "background": "#FFFBEF",
   "foreground": "#5C6A72",
   "cursor": "#5C6A72",
-  "hash": "46ec540cd14472fbc2e857eedea3cfa8611553f09cac4e81bfb5c6f0e8460e17"
+  "hash": "0ef06fc7ffb755e45ab42ce694af34309113196f7f5a24cb271e64c638d8a66f"
 }

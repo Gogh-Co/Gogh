@@ -1,7 +1,7 @@
 {
   "name": "Base4Tone Classic F",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#1f211c",
   "color_02": "#0b88d0",
   "color_03": "#a48f04",
@@ -21,5 +21,5 @@
   "background": "#1f211c",
   "foreground": "#9ba191",
   "cursor": "#85826f",
-  "hash": "a8b95defe3ee39e1d849afc87cae70500401e508a38366d1f20aef79736ee515"
+  "hash": "a50e4463f80ef25c6141928e648fde57e53d667dca1776b7b4dc4c0bc78aa8ff"
 }

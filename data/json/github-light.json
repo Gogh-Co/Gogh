@@ -1,7 +1,7 @@
 {
   "name": "Github Light",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#24292f",
   "color_02": "#cf222e",
   "color_03": "#1a7f37",
@@ -21,5 +21,5 @@
   "background": "#f6f8fa",
   "foreground": "#1f2328",
   "cursor": "#1f2328",
-  "hash": "a21d84f605749472b2473a9621f5b0a23a64acbbf4c9c313e4261752e73c3a64"
+  "hash": "595ee5f5aa1ed0fed051764d411097a28caa706e1940480974b8b7a544c92ff6"
 }

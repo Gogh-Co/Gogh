@@ -1,7 +1,7 @@
 {
   "name": "Predawn",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#F18260",
   "color_02": "#B51A20",
   "color_03": "#A6CC75",
@@ -21,5 +21,5 @@
   "background": "#282828",
   "foreground": "#F1F1F1",
   "cursor": "#F1F1F1",
-  "hash": "c87c6f55923f70e751fb0f537eeaf7b2fcaf4e3b6d2eb2d9fa8bc459adeebedc"
+  "hash": "1e68299fb759735e3179083035515cbcdeac3a7821b55c5bc8e43a7df76e038d"
 }

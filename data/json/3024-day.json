@@ -1,7 +1,7 @@
 {
   "name": "3024 Day",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#090300",
   "color_02": "#DB2D20",
   "color_03": "#01A252",
@@ -21,5 +21,5 @@
   "background": "#F7F7F7",
   "foreground": "#4A4543",
   "cursor": "#4A4543",
-  "hash": "bd77249fbed09b950664ad60f037964b937460a870636673ceece963d62c42be"
+  "hash": "e0881ab71e1e934b99810ae87bf04a3ea32c0c2a68e63895717c5cd6d4e0b651"
 }

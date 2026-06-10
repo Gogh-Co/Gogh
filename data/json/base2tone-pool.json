@@ -1,7 +1,7 @@
 {
   "name": "Base2Tone Pool",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#2a2433",
   "color_02": "#aa75f5",
   "color_03": "#f87972",
@@ -21,5 +21,5 @@
   "background": "#2a2433",
   "foreground": "#9a90a7",
   "cursor": "#cf504a",
-  "hash": "6403b5388b1a1741fd38d4a28f31f68bf45de8428facd3921dcb31550bb65d5c"
+  "hash": "525e47acb393893f1d6d936e8bde550bb6b926bd60338cc61f407058c2566570"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Pali",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#0A0A0A",
   "color_02": "#AB8F74",
   "color_03": "#74AB8F",
@@ -21,5 +21,5 @@
   "background": "#232E37",
   "foreground": "#D9E6F2",
   "cursor": "#D9E6F2",
-  "hash": "4f36edf9b31182acdd215eadf6387e8678612332abe2ebecfdda5cf86bdcf82b"
+  "hash": "6f9c551afc652eff2085753b2bc3cbd7c6320db88ce228c19b6030a330a28929"
 }

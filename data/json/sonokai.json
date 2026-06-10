@@ -1,7 +1,7 @@
 {
   "name": "Sonokai",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#2C2E34",
   "color_02": "#FC5D7C",
   "color_03": "#9ED072",
@@ -21,5 +21,5 @@
   "background": "#2C2E34",
   "foreground": "#E2E2E3",
   "cursor": "#E2E2E3",
-  "hash": "8db900d970937b93280fb4f9fe62c34fda2b3bcad216406a00ef50f86cb14eb3"
+  "hash": "89a4370c07f33ee7ca043abd2457c1667fe2809cdaf88a1380e4903b385e6eab"
 }

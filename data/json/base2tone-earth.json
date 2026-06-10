@@ -1,7 +1,7 @@
 {
   "name": "Base2Tone Earth",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#322d29",
   "color_02": "#816d5f",
   "color_03": "#d9b154",
@@ -21,5 +21,5 @@
   "background": "#322d29",
   "foreground": "#b5a9a1",
   "cursor": "#9c8349",
-  "hash": "e98fc580d655f829fd38d3c16e83a8a2251e35ad2b4828643fbabeb51ff37de5"
+  "hash": "abb7bdcced6d92372353a08a00ebd7ecfa7ed08124ed4950957004363df5af94"
 }

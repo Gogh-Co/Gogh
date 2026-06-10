@@ -1,7 +1,7 @@
 {
   "name": "Tender",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#1D1D1D",
   "color_02": "#C5152F",
   "color_03": "#C9D05C",
@@ -21,5 +21,5 @@
   "background": "#282828",
   "foreground": "#EEEEEE",
   "cursor": "#EEEEEE",
-  "hash": "a251dbe8f3c560a60c45c0258fc4d2079fa6cf4f7acc661e6ee9d73aa4ea51b4"
+  "hash": "cc483ace3f7603bf200dfa4f5edbb383579c33c3adb1cb6d847b2b0812cdc2ce"
 }

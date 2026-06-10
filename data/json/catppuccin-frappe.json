@@ -1,7 +1,7 @@
 {
   "name": "Catppuccin Frapp\u00e9",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#51576D",
   "color_02": "#E78284",
   "color_03": "#A6D189",
@@ -21,5 +21,5 @@
   "background": "#303446",
   "foreground": "#C6D0F5",
   "cursor": "#C6D0F5",
-  "hash": "03149631e32d7104e96fc91058761408e72edbda6a629d7671ec346bef7e7430"
+  "hash": "886a90538c29560f714dff08d1b37a499b8dc8136f82abd7ad6fe38266753162"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Ros\u00e9 Pine Moon",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#393552",
   "color_02": "#EB6F92",
   "color_03": "#9CCFD8",
@@ -21,5 +21,5 @@
   "background": "#232136",
   "foreground": "#E0DEF4",
   "cursor": "#E0DEF4",
-  "hash": "afdc51d26b9c8f10124377031718371945ba0c61bcba45e4bb9fc8bd6e6816ab"
+  "hash": "c1144d5153549eaf255fd4b8c745236271a95dafcd1f92b609cf48172f0a5ebe"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Base4Tone Classic O",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#1a1d23",
   "color_02": "#a24ad9",
   "color_03": "#0d9c89",
@@ -21,5 +21,5 @@
   "background": "#1a1d23",
   "foreground": "#8995a9",
   "cursor": "#6d8884",
-  "hash": "52fd82de3c1318d5a19c13b24040c7a3422b88ca5416b7c43f626374fea2b2ba"
+  "hash": "a3b71b4ef6395aea253651d9d4d15b7df2c6e29b3f2e87e2cae508417b901eca"
 }

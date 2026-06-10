@@ -1,7 +1,7 @@
 {
   "name": "Ros\u00e9 Pine",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#26233A",
   "color_02": "#EB6F92",
   "color_03": "#9CCFD8",
@@ -21,5 +21,5 @@
   "background": "#191724",
   "foreground": "#E0DEF4",
   "cursor": "#E0DEF4",
-  "hash": "8a0f3de725382058b6e8128652494368cab976f79b5f9ff1936436224829985c"
+  "hash": "dd229badfe651ceabb459e06c09f6a2582784bc19ed7dd6527a0c81d7f01b4b5"
 }

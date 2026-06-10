@@ -1,7 +1,7 @@
 {
   "name": "Frontend Galaxy",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#F9555F",
   "color_03": "#21B089",
@@ -21,5 +21,5 @@
   "background": "#1D2837",
   "foreground": "#FFFFFF",
   "cursor": "#FFFFFF",
-  "hash": "4f115d6ff32f06dce67268fbc499d3b39caf5470cceb4d10569068a1d3f3afcd"
+  "hash": "710aeb125262baa9890337fcd8b9d495a634ea396fd4467f5ffb9ab9c8cadb0d"
 }

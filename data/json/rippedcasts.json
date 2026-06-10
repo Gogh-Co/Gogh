@@ -1,7 +1,7 @@
 {
   "name": "Rippedcasts",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#CDAF95",
   "color_03": "#A8FF60",
@@ -21,5 +21,5 @@
   "background": "#2B2B2B",
   "foreground": "#FFFFFF",
   "cursor": "#FFFFFF",
-  "hash": "1c9e0117165057becd0368e04f7cc2ed2a68bd8a065cd46806910770c5724f80"
+  "hash": "65848306d15eb1ebf8e3fe69f56d80205f38eecf5f2ebf3ef4483239f959dd8e"
 }

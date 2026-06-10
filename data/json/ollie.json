@@ -1,7 +1,7 @@
 {
   "name": "Ollie",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#AC2E31",
   "color_03": "#31AC61",
@@ -21,5 +21,5 @@
   "background": "#222125",
   "foreground": "#8A8DAE",
   "cursor": "#8A8DAE",
-  "hash": "aee0ff0f8c6bdb02ae0f235ff0aaa41d058ff67164b1659478e0871d3337b530"
+  "hash": "6b35beb327a4c5c48db5da9ef39b2b5f64f4b327f292d6f8d265ba6aab2c819d"
 }

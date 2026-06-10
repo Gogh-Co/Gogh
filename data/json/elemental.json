@@ -1,7 +1,7 @@
 {
   "name": "Elemental",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#3C3C30",
   "color_02": "#98290F",
   "color_03": "#479A43",
@@ -21,5 +21,5 @@
   "background": "#22211D",
   "foreground": "#807A74",
   "cursor": "#807A74",
-  "hash": "6e5e77a77aeca2dd93674341574fa5534c1a8bcc107a1029ff1f8b515bb39039"
+  "hash": "32eb3defe069d8b09f49bc79fdcb8c07c502e4c9e57b5a41cd03f1c7a5bda388"
 }

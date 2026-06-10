@@ -1,7 +1,7 @@
 {
   "name": "Gooey",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000009",
   "color_02": "#BB4F6C",
   "color_03": "#72CCAE",
@@ -21,5 +21,5 @@
   "background": "#0D101B",
   "foreground": "#EBEEF9",
   "cursor": "#EBEEF9",
-  "hash": "aab139ba41ecacbbfce55b0d66ab816fa2c4dbd622414de7cd2e79983607e055"
+  "hash": "8414f4c16b48e6e7c8ae356fbda99d0f8a30976a80987cdba430b32c0909c213"
 }

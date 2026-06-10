@@ -1,7 +1,7 @@
 {
   "name": "Aci",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#363636",
   "color_02": "#FF0883",
   "color_03": "#83FF08",
@@ -21,5 +21,5 @@
   "background": "#0D1926",
   "foreground": "#B4E1FD",
   "cursor": "#B4E1FD",
-  "hash": "1f919e8283b414575c29a1fa3015c90bf5a1ca3f28fd634c98a8c1bcbc507d9c"
+  "hash": "1cedad028d1a484d3ccbbcf6cfe6eefb338e44ff71bc8b223c950f8d523555c3"
 }

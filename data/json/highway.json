@@ -1,7 +1,7 @@
 {
   "name": "Highway",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#D00E18",
   "color_03": "#138034",
@@ -21,5 +21,5 @@
   "background": "#222225",
   "foreground": "#EDEDED",
   "cursor": "#EDEDED",
-  "hash": "bb7dc7aca833a0f18036db836372a58235451d1b8bcc615c854496e745348b7b"
+  "hash": "5169c4931afe44239fbca73c7a86c9b61e8ef56b1daa22440cf7c3680bf0d8e9"
 }

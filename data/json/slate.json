@@ -1,7 +1,7 @@
 {
   "name": "Slate",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#222222",
   "color_02": "#E2A8BF",
   "color_03": "#81D778",
@@ -21,5 +21,5 @@
   "background": "#222222",
   "foreground": "#35B1D2",
   "cursor": "#35B1D2",
-  "hash": "477bcbaae9846d5314beb2e3d2520cef09b493bbc7e29f9d8a8d3bed40758ac3"
+  "hash": "3fc5e18af2fc55c65a7f7422b7763b3e1f898e0cfbac3d8f40778d185df536d8"
 }

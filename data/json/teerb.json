@@ -1,7 +1,7 @@
 {
   "name": "Teerb",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#1C1C1C",
   "color_02": "#D68686",
   "color_03": "#AED686",
@@ -21,5 +21,5 @@
   "background": "#262626",
   "foreground": "#D0D0D0",
   "cursor": "#D0D0D0",
-  "hash": "f4f0ed46e905f3bcd97f2e27b311575d683952814dbd3504cf5b14ba9673dc80"
+  "hash": "6da80481d793a04440c81c80d8733c978177bf564957caeee3100087691e7426"
 }

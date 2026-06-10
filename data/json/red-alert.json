@@ -1,7 +1,7 @@
 {
   "name": "Red Alert",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#D62E4E",
   "color_03": "#71BE6B",
@@ -21,5 +21,5 @@
   "background": "#762423",
   "foreground": "#FFFFFF",
   "cursor": "#FFFFFF",
-  "hash": "458b34b64623d76aa96e123e8bb672796250aea87905973439fffbff09537168"
+  "hash": "1b932ee4a063095c8a6b0ac380e49afcfbdd98d8c38ad97c68b7fe23e2be2ef4"
 }

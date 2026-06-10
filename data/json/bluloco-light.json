@@ -1,7 +1,7 @@
 {
   "name": "Bluloco Light",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#D5D6DD",
   "color_02": "#D52753",
   "color_03": "#23974A",
@@ -21,5 +21,5 @@
   "background": "#F9F9F9",
   "foreground": "#383A42",
   "cursor": "#383A42",
-  "hash": "a3ae8a3f65be1c1a85cb8d00a8df11e0a40a78aab64cc3437d66786bc7b1f4bd"
+  "hash": "f20082fe798872d3fbf54121da905014a958d73f770f31ed6e05d8b8bd8ddafe"
 }

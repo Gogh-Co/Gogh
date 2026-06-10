@@ -1,7 +1,7 @@
 {
   "name": "Synthwave Alpha",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#241B30",
   "color_02": "#9A0048",
   "color_03": "#00986C",
@@ -21,5 +21,5 @@
   "background": "#241B30",
   "foreground": "#F2F2E3",
   "cursor": "#F2F2E3",
-  "hash": "18923dea94f06e469476ee06c22d23fe7056faceb6b942d2d5bf4a780db4d23d"
+  "hash": "fbff479a1c0cb5c725dba413b148a676c0f29ad7e1e6c303a75a28123b707a1a"
 }

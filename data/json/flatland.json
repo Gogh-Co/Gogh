@@ -1,7 +1,7 @@
 {
   "name": "Flatland",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#1D1D19",
   "color_02": "#F18339",
   "color_03": "#9FD364",
@@ -21,5 +21,5 @@
   "background": "#1D1F21",
   "foreground": "#B8DBEF",
   "cursor": "#B8DBEF",
-  "hash": "db475c479bb7d15376f26374fb2e5187411091a37b43499b6e99513f81168ec9"
+  "hash": "56ccbc50b02a7a294093765e2b933badc2c772bd350a791f20192bfa57594bad"
 }

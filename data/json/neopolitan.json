@@ -1,7 +1,7 @@
 {
   "name": "Neopolitan",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#800000",
   "color_03": "#61CE3C",
@@ -21,5 +21,5 @@
   "background": "#271F19",
   "foreground": "#FFFFFF",
   "cursor": "#FFFFFF",
-  "hash": "c4ee42d678437d761000dc457927541f5c191e3d2d55fc3a5f18a1e26936a026"
+  "hash": "9c437d8f8f49b0336ca2132e42241f3ed536f8e086b0028321d85fa4e460312d"
 }

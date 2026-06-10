@@ -1,7 +1,7 @@
 {
   "name": "Vaughn",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#25234F",
   "color_02": "#705050",
   "color_03": "#60B48A",
@@ -21,5 +21,5 @@
   "background": "#25234F",
   "foreground": "#DCDCCC",
   "cursor": "#DCDCCC",
-  "hash": "c8e5b79b033f0d240e2dddb10114f55a2861c381ff3f2be01e6ed362086fc1c1"
+  "hash": "9308a04a5193b1bb49b2ee7f1c48fb91634bd6b7d3db5bad2326266255b69f28"
 }

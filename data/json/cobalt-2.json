@@ -1,7 +1,7 @@
 {
   "name": "Cobalt 2",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FF0000",
   "color_03": "#38DE21",
@@ -21,5 +21,5 @@
   "background": "#132738",
   "foreground": "#FFFFFF",
   "cursor": "#FFFFFF",
-  "hash": "b32bbeb489c7d8ea5d3d18f95dd67dc2a0dd58a7dcc8d361e745fcf667084f69"
+  "hash": "80115e7fc6a50a9c8b022850b700cb2129ea08cb64dbf51ba26cf0bc17628c63"
 }

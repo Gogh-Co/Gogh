@@ -1,7 +1,7 @@
 {
   "name": "Argonaut",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#232323",
   "color_02": "#FF000F",
   "color_03": "#8CE10B",
@@ -21,5 +21,5 @@
   "background": "#0E1019",
   "foreground": "#FFFAF4",
   "cursor": "#FFFAF4",
-  "hash": "38d41161f5a667147c96b76e5c5a503a4cb170cc7898ecff6bd9d37e4be1006b"
+  "hash": "91109bea4785263820c5a81a2e09f3696defe0ebf8c6ede5128ea36a01708727"
 }

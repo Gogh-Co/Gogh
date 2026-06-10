@@ -1,7 +1,7 @@
 {
   "name": "Arthur",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#3D352A",
   "color_02": "#CD5C5C",
   "color_03": "#86AF80",
@@ -21,5 +21,5 @@
   "background": "#1C1C1C",
   "foreground": "#DDEEDD",
   "cursor": "#DDEEDD",
-  "hash": "8e3d7915a678a300751d043a84d0d6c756db5a175d9c68d422399ec2de05433b"
+  "hash": "b3b0ea8840ef2c87faf89aaaa71f084208816b2f4ec6bd7abe2110f0e43c7406"
 }

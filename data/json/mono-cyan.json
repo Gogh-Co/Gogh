@@ -1,7 +1,7 @@
 {
   "name": "Mono Cyan",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#003340",
   "color_02": "#00CCFF",
   "color_03": "#00CCFF",
@@ -21,5 +21,5 @@
   "background": "#00222B",
   "foreground": "#00CCFF",
   "cursor": "#00CCFF",
-  "hash": "b138ee7a32a7832acb0771d8d4d8f2c5d4c16cb5fe9efdb64b32e1c80d01ffe2"
+  "hash": "d61bf2830b67e7b63cb98dad1e77f7dc999af10477d5852fa98a4a0bb1d5d615"
 }

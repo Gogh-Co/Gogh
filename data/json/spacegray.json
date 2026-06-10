@@ -1,7 +1,7 @@
 {
   "name": "Spacegray",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#B04B57",
   "color_03": "#87B379",
@@ -21,5 +21,5 @@
   "background": "#20242D",
   "foreground": "#B3B8C3",
   "cursor": "#B3B8C3",
-  "hash": "3eb315ba1c5fbd0fac3bb939705375b9d7bf404f6d56173ee896ddde6dd5f355"
+  "hash": "4cc7aac2dbd2bca43fa7179d5c336cca58ac99a133b4a368e45a0a1dff91ee35"
 }

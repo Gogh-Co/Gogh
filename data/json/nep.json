@@ -1,7 +1,7 @@
 {
   "name": "Nep",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#DD6F00",
   "color_03": "#00DD6F",
@@ -21,5 +21,5 @@
   "background": "#758480",
   "foreground": "#23476A",
   "cursor": "#23476A",
-  "hash": "ca13ad44f5549cc212ea2ef72b6037026d93182c4dec15a566028b64268a2993"
+  "hash": "d9d83a46d7b856069a00e25330bd4313de7c6a11ea0eadaa8a0b654a2b421dbe"
 }

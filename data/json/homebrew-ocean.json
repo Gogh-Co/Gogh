@@ -1,7 +1,7 @@
 {
   "name": "Homebrew Ocean",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#990000",
   "color_03": "#00A600",
@@ -21,5 +21,5 @@
   "background": "#224FBC",
   "foreground": "#FFFFFF",
   "cursor": "#FFFFFF",
-  "hash": "d308a5025336432b8aa35a6e301d3f86e020771a47e3370ec6ef3879ed77e1fc"
+  "hash": "dc19e0fab2f5eb7fc5fad46f6413bb7cbe07ad1e727a7dce9112ed7b9696ef38"
 }

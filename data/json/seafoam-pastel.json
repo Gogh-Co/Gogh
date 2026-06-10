@@ -1,7 +1,7 @@
 {
   "name": "Seafoam Pastel",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#757575",
   "color_02": "#825D4D",
   "color_03": "#728C62",
@@ -21,5 +21,5 @@
   "background": "#243435",
   "foreground": "#D4E7D4",
   "cursor": "#D4E7D4",
-  "hash": "e8ce738b83d2a8d8c5e316e81afd017c159ae8d393bb91e180041c1306cfd6e5"
+  "hash": "323ae59b5a6e2d010bfbfd943b3efcb8a4c58e5fc00626fb62e774adb04ea661"
 }

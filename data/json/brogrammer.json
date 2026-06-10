@@ -1,7 +1,7 @@
 {
   "name": "Brogrammer",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#1F1F1F",
   "color_02": "#F81118",
   "color_03": "#2DC55E",
@@ -21,5 +21,5 @@
   "background": "#131313",
   "foreground": "#D6DBE5",
   "cursor": "#D6DBE5",
-  "hash": "4629f418732a1fa2b1c3bf55b8774a7bc4c0b1d90f431ae467aa7971096e0947"
+  "hash": "86fbdfff811a49df7f352ee3925f5824499bf0dad2ecd07a9db85c280beb00ef"
 }

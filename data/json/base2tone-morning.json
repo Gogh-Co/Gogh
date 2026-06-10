@@ -1,7 +1,7 @@
 {
   "name": "Base2Tone Morning",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#232834",
   "color_02": "#1659df",
   "color_03": "#b29762",
@@ -21,5 +21,5 @@
   "background": "#232834",
   "foreground": "#8d95a5",
   "cursor": "#594212",
-  "hash": "ba7d6fdfe59fae5f937b2842373a79353f4bc26e7c53211819a89e71ee09e572"
+  "hash": "df8e8200183cf3128501968f7e430314fd56c1144d7f54b684b9bedaf98cf97a"
 }

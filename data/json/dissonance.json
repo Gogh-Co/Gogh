@@ -1,7 +1,7 @@
 {
   "name": "Dissonance",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#DC322F",
   "color_03": "#56DB3A",
@@ -21,5 +21,5 @@
   "background": "#000000",
   "foreground": "#FFFFFF",
   "cursor": "#DC322F",
-  "hash": "60bab71ccda3dd8acba880a0d44b248a5f953ed1cb49060dfec42ccb44a81f81"
+  "hash": "32c110efde447171933baf0c3c62286d8e86b1f918b50c2e6bb768aadc2a4f0c"
 }

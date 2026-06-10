@@ -1,7 +1,7 @@
 {
   "name": "Seoul256 Light",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#4e4e4e",
   "color_02": "#af5f5f",
   "color_03": "#5f885f",
@@ -21,5 +21,5 @@
   "background": "#dadada",
   "foreground": "#4e4e4e",
   "cursor": "#4e4e4e",
-  "hash": "1ce862d50a05f1323decdc11a6be0382a0c7ba60e4a9a785499615c1aa1cf00f"
+  "hash": "7f5952bef0cbecee73c1365d48a058550877ca90969683aee8028ca912ba4c97"
 }

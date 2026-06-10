@@ -1,7 +1,7 @@
 {
   "name": "Borland",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#4F4F4F",
   "color_02": "#FF6C60",
   "color_03": "#A8FF60",
@@ -21,5 +21,5 @@
   "background": "#0000A4",
   "foreground": "#FFFF4E",
   "cursor": "#FFFF4E",
-  "hash": "0ef36524d8fd115b2eaf1b50aeafc70d028c720f26186946396605da90f11031"
+  "hash": "4ba3621f86a92cf3cfe31c58585574194b2329875602387d997f7eb4f5e7daf9"
 }

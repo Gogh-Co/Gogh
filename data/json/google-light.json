@@ -1,7 +1,7 @@
 {
   "name": "Google Light",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#202124",
   "color_02": "#EA4335",
   "color_03": "#34A853",
@@ -21,5 +21,5 @@
   "background": "#FFFFFF",
   "foreground": "#5F6368",
   "cursor": "#5F6368",
-  "hash": "7bb6e3de385d87f04b1903af2496d04c41dca10a3701b5b4be7d2c936b622071"
+  "hash": "92bd453c21c2605522ad77bace2f9a5bd5a60a4ddc6f8b50764043bd44a7b158"
 }

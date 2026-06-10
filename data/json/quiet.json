@@ -1,7 +1,7 @@
 {
   "name": "Quiet",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#141414",
   "color_02": "#C16262",
   "color_03": "#49B685",
@@ -21,5 +21,5 @@
   "background": "#141414",
   "foreground": "#B9B9B9",
   "cursor": "#A0A0A0",
-  "hash": "e375468b6df0913d3c603b0304eff781ad6712d235757786aa35beaf9a56416d"
+  "hash": "ef46f4adafa08ae0036d000c41dfeb02ca1d470ad317776607b7d03a5e547149"
 }

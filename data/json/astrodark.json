@@ -1,7 +1,7 @@
 {
   "name": "Astrodark",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#111317",
   "color_02": "#F8747E",
   "color_03": "#75AD47",
@@ -21,5 +21,5 @@
   "background": "#1A1D23",
   "foreground": "#9B9FA9",
   "cursor": "#CACCD3",
-  "hash": "f9c0b0c4cd4e5952aaacbdbae8967e5ac6837c09babea6dd81db757676b52a4b"
+  "hash": "cd26a1a3ba836db42741e371edd4a5355a8a465cb06ccebb4d3adb00c3feae45"
 }

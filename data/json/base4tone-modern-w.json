@@ -1,7 +1,7 @@
 {
   "name": "Base4Tone Modern W",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#201d1e",
   "color_02": "#21a00d",
   "color_03": "#1398aa",
@@ -21,5 +21,5 @@
   "background": "#201d1e",
   "foreground": "#9e9498",
   "cursor": "#6a878a",
-  "hash": "5a894631d98334e3bfb0556d1b54676502c8a2d46605df8f4c4f34e674345fc2"
+  "hash": "e38b8ad41ae1054381e6f04add2c4eac639807db01815d11d591d3c407abfae0"
 }

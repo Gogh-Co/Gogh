@@ -1,7 +1,7 @@
 {
   "name": "Seti",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#323232",
   "color_02": "#C22832",
   "color_03": "#8EC43D",
@@ -21,5 +21,5 @@
   "background": "#111213",
   "foreground": "#CACECD",
   "cursor": "#CACECD",
-  "hash": "86158ac5dce66e173c56b750d57d3e7c8002bfd232e49cd3a76f5fc67956eb6a"
+  "hash": "f28dc79b668d0f5d3f934774ab49444425c873fd7b26a8aa6efb1af98ca0b906"
 }

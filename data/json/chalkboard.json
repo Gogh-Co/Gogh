@@ -1,7 +1,7 @@
 {
   "name": "Chalkboard",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#C37372",
   "color_03": "#72C373",
@@ -21,5 +21,5 @@
   "background": "#29262F",
   "foreground": "#D9E6F2",
   "cursor": "#D9E6F2",
-  "hash": "662a4df094f8673f2fcdbf4501cc9b6ea510228998e70f974500e17b7a54a1d7"
+  "hash": "e69bea701570f8db1b5d13abfd3a1478ea02a15210c5a3c1bb1f33c67a643840"
 }

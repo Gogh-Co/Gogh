@@ -1,7 +1,7 @@
 {
   "name": "Mono Red",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#401200",
   "color_02": "#FF3600",
   "color_03": "#FF3600",
@@ -21,5 +21,5 @@
   "background": "#2B0C00",
   "foreground": "#FF3600",
   "cursor": "#FF3600",
-  "hash": "9570c5bb32ed8332e240a71f8b25a13e9fb32f88bb44e0d065e963699ea59ab4"
+  "hash": "cb954b1ff6fa11df5e891213a28864297ea171aaca23b1a7c39bdea563337fab"
 }

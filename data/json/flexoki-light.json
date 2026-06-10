@@ -1,7 +1,7 @@
 {
   "name": "Flexoki Light",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#282726",
   "color_02": "#AF3029",
   "color_03": "#66800B",
@@ -21,5 +21,5 @@
   "background": "#FFFCF0",
   "foreground": "#100F0F",
   "cursor": "#100F0F",
-  "hash": "6fb9820a41e6f97d135e2b67d14e2110983ce20be6f5025273696b7bb6648fc7"
+  "hash": "1b62bf19de407a2265041e2375f7229f60c0ef57173d14c21a180cd21fbcf5ca"
 }

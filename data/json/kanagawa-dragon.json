@@ -1,7 +1,7 @@
 {
   "name": "Kanagawa Dragon",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#0D0C0C",
   "color_02": "#C4746E",
   "color_03": "#8A9A7B",
@@ -21,5 +21,5 @@
   "background": "#181616",
   "foreground": "#C5C9C5",
   "cursor": "#C8C093",
-  "hash": "32b161849d0d6414de34bf56fef740da9458f3aca128c8bf3a4227c86ce37b25"
+  "hash": "7600780fbf66722df38272823c456f6309d3ae76477fceada82744a51191130b"
 }

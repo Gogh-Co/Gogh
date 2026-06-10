@@ -1,7 +1,7 @@
 {
   "name": "Ciapre",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#181818",
   "color_02": "#810009",
   "color_03": "#48513B",
@@ -21,5 +21,5 @@
   "background": "#191C27",
   "foreground": "#AEA47A",
   "cursor": "#AEA47A",
-  "hash": "df2c6a42bbb89e27e2b8427ddf7ea5888d8d7caf2ba9371ed33169bc7fcc49eb"
+  "hash": "c570965b7350fb0afe2b188b20c4d0194740aa32200827efd0bff928275f76ad"
 }

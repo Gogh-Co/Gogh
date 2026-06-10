@@ -1,7 +1,7 @@
 {
   "name": "Tokyo Night",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#414868",
   "color_02": "#F7768E",
   "color_03": "#9ECE6A",
@@ -21,5 +21,5 @@
   "background": "#1A1B26",
   "foreground": "#C0CAF5",
   "cursor": "#C0CAF5",
-  "hash": "92d0c154a4b8018f67d97cdf1e3cb9a76a41f7d914a12901f9225b5bbf2dd531"
+  "hash": "4cf0a08c235bd460d36ecd31f2ea847bbe32a23dd0621d716ff0501e2ee6c2b3"
 }

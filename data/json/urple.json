@@ -1,7 +1,7 @@
 {
   "name": "Urple",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#B0425B",
   "color_03": "#37A415",
@@ -21,5 +21,5 @@
   "background": "#1B1B23",
   "foreground": "#877A9B",
   "cursor": "#877A9B",
-  "hash": "3585049d78a3a46cf1f6ed6a6992cf661c7b72e0ee5c30ffc5af341bacb92fd9"
+  "hash": "359fb6f8a83c32e9adf18171a0d09004aaa0539c21d43e8ccbd98e8c61b62a3a"
 }

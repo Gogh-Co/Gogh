@@ -1,7 +1,7 @@
 {
   "name": "Alien Blood",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#112616",
   "color_02": "#7F2B27",
   "color_03": "#2F7E25",
@@ -21,5 +21,5 @@
   "background": "#0F1610",
   "foreground": "#637D75",
   "cursor": "#637D75",
-  "hash": "15a06af86c367c5891c09563513500ac2dfe4414ea2fb9fd380b36d1e3d87b22"
+  "hash": "f3e5f6c374afdf9cbd01fc7a3952c01302bc56122e2035f32b787a210d3b9a5e"
 }

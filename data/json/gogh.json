@@ -1,7 +1,7 @@
 {
   "name": "Gogh",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#292D3E",
   "color_02": "#F07178",
   "color_03": "#62DE84",
@@ -21,5 +21,5 @@
   "background": "#292D3E",
   "foreground": "#BFC7D5",
   "cursor": "#BFC7D5",
-  "hash": "9d6bd14b23f61096d3f3c0f4ac6bde7eeff3c84b05a5d1c3d2881509bbba7e7f"
+  "hash": "ec8143ac8495f6e8577f10e922254cbd7883df4fd117ebd9833337fd5dc68bcf"
 }

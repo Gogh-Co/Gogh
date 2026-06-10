@@ -1,7 +1,7 @@
 {
   "name": "Neon Night",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#20242D",
   "color_02": "#FF8E8E",
   "color_03": "#7EFDD0",
@@ -21,5 +21,5 @@
   "background": "#20242D",
   "foreground": "#C7C8FF",
   "cursor": "#C7C8FF",
-  "hash": "351d9c071e037fc3d28e632d58ed4b89f9fe45ec6ad00e571b99e5a503659673"
+  "hash": "c06ce26da472824dc9e1d26e9b44af6c3e65eab7ccd716e50020562bf7bd9e3c"
 }

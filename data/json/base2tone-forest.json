@@ -1,7 +1,7 @@
 {
   "name": "Base2Tone Forest",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#2a2d2a",
   "color_02": "#5c705c",
   "color_03": "#bfd454",
@@ -21,5 +21,5 @@
   "background": "#2a2d2a",
   "foreground": "#a1b5a1",
   "cursor": "#818b4b",
-  "hash": "63cbf15e40e0e9d48243e6def0a9f9d36581947c85d129e66162b345a6619e51"
+  "hash": "cb3f9c0cea4da7d1123422f2ee81631872c443b15040b4c90a6a92c9d093c7d3"
 }

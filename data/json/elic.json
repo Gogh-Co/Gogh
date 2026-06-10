@@ -1,7 +1,7 @@
 {
   "name": "Elic",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#303030",
   "color_02": "#E1321A",
   "color_03": "#6AB017",
@@ -21,5 +21,5 @@
   "background": "#4A453E",
   "foreground": "#F2F2F2",
   "cursor": "#F2F2F2",
-  "hash": "e7cbe18665a798ad4b15952436fa0368b10dd0b9ef11bfc63ea606499fde0eb2"
+  "hash": "38b06434ea62359994af4d72323f6068cf8789ba6b8bce080b8a1d3a160e634a"
 }

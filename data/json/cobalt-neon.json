@@ -1,7 +1,7 @@
 {
   "name": "Cobalt Neon",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#142631",
   "color_02": "#FF2320",
   "color_03": "#3BA5FF",
@@ -21,5 +21,5 @@
   "background": "#142838",
   "foreground": "#8FF586",
   "cursor": "#8FF586",
-  "hash": "91bd13837e6e83890e07e5642f56dc3a703877f1b0b421fc775aa3ab1ce273b9"
+  "hash": "35904ee224cd50043fd9a29641882941de0f9e460a79a841b01a2d8087f8eb59"
 }

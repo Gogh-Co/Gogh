@@ -1,7 +1,7 @@
 {
   "name": "Wez",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#CC5555",
   "color_03": "#55CC55",
@@ -21,5 +21,5 @@
   "background": "#000000",
   "foreground": "#B3B3B3",
   "cursor": "#B3B3B3",
-  "hash": "5d75523e7fc1a8a66adce43140ed71774c0a1015ef5598ea3892d7bdee7f5960"
+  "hash": "7d739c67e88bae75741e8e3e7561c352904e58e869c2280fed128faf8988091f"
 }

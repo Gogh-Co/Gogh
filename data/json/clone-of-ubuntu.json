@@ -1,7 +1,7 @@
 {
   "name": "Clone Of Ubuntu",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#2E3436",
   "color_02": "#CC0000",
   "color_03": "#4E9A06",
@@ -21,5 +21,5 @@
   "background": "#300A24",
   "foreground": "#FFFFFF",
   "cursor": "#FFFFFF",
-  "hash": "a03a68e0e4c594463dee4c9b222579ea14073075f6df41a0ca39ac50a8647abc"
+  "hash": "e612228d614a0b0338e0de749ce24809199a196dc9e99cb76a9d56f29e330484"
 }

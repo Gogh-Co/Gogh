@@ -1,7 +1,7 @@
 {
   "name": "Sparky",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#212322",
   "color_02": "#FF585D",
   "color_03": "#78D64B",
@@ -21,5 +21,5 @@
   "background": "#072B31",
   "foreground": "#F4F5F0",
   "cursor": "#F4F5F0",
-  "hash": "8ed90156751b16b44c4eaecd5f6ac1cab200beab7156d4ba4153bedcec0804d2"
+  "hash": "6627717639764e6d6c956e7aeec1654b5641426832ee8677e7a6ffd823d4f9cd"
 }

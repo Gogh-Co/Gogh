@@ -1,7 +1,7 @@
 {
   "name": "Grape",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#2D283F",
   "color_02": "#ED2261",
   "color_03": "#1FA91B",
@@ -21,5 +21,5 @@
   "background": "#171423",
   "foreground": "#9F9FA1",
   "cursor": "#9F9FA1",
-  "hash": "742901dcd134cb788caaa4f37cd89ebaaf921fe6c25fc9395da196df1942e3e2"
+  "hash": "0a72ef136a1a569fe08868cef9838462110f34b4f9f1384f85af5e7cc1969684"
 }

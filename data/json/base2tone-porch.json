@@ -1,7 +1,7 @@
 {
   "name": "Base2Tone Porch",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#221e24",
   "color_02": "#9466a3",
   "color_03": "#f39b68",
@@ -21,5 +21,5 @@
   "background": "#221e24",
   "foreground": "#9f95a3",
   "cursor": "#c46731",
-  "hash": "27037c089cf309b4d6796eaeac059b518eddfa2a9efe65ebfddfaa72ef3a9e7a"
+  "hash": "b9b98b349013befa85deac3dc6b5a887ff03571c180ad8c24abd2cad25ff12aa"
 }

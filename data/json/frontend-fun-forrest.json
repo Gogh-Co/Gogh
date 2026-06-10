@@ -1,7 +1,7 @@
 {
   "name": "Frontend Fun Forrest",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#D6262B",
   "color_03": "#919C00",
@@ -21,5 +21,5 @@
   "background": "#251200",
   "foreground": "#DEC165",
   "cursor": "#DEC165",
-  "hash": "8a7fe1d2cb6d31fe5d4f146cddc315bc194974f2a29fc3e6bee32985d4006070"
+  "hash": "2b2973e3dbc51fc12e50af0124545ca84655d8ed047d40e1c72a10be2e8a3763"
 }

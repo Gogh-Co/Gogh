@@ -1,7 +1,7 @@
 {
   "name": "Jellybeans",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#929292",
   "color_02": "#E27373",
   "color_03": "#94B979",
@@ -21,5 +21,5 @@
   "background": "#121212",
   "foreground": "#DEDEDE",
   "cursor": "#DEDEDE",
-  "hash": "b91fe331499420c0c2bb1cdc27e1a3b4e4a15963c35d483e8963c6d3e3af0298"
+  "hash": "fdf9d40f783783081f57a9358e887968bfcc32fd51ed51df20d821399080b896"
 }

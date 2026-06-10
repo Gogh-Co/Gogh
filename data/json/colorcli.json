@@ -1,7 +1,7 @@
 {
   "name": "Colorcli",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#000000",
   "color_02": "#D70000",
   "color_03": "#5FAF00",
@@ -21,5 +21,5 @@
   "background": "#FFFFFF",
   "foreground": "#005F87",
   "cursor": "#005F87",
-  "hash": "67b8643865ee89d7d79f28322f4ef867a159ac111865ff36b031b8111541dea8"
+  "hash": "a350d4bfa79c0877b937329acd426ffc9bd58f58f0debe5df9a2e32b721813d3"
 }

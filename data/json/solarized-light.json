@@ -1,7 +1,7 @@
 {
   "name": "Solarized Light",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#EEE8D5",
   "color_02": "#DC322F",
   "color_03": "#859900",
@@ -21,5 +21,5 @@
   "background": "#FDF6E3",
   "foreground": "#657B83",
   "cursor": "#657B83",
-  "hash": "d7a591927afd84f6aa07f97ea2509c56b9724ff684ce98b0baed88230990ed88"
+  "hash": "d0f3615d03c419d5d2a02874dc81adbd14a5ba490fdb26dabac7d1054a8bb753"
 }

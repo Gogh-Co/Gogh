@@ -1,7 +1,7 @@
 {
   "name": "Ura",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#000000",
   "color_02": "#C21B6F",
   "color_03": "#6FC21B",
@@ -21,5 +21,5 @@
   "background": "#FEFFEE",
   "foreground": "#23476A",
   "cursor": "#23476A",
-  "hash": "d532a69c4756716dc173530380b21c07ca63dc19cf29d6d1b3ab0a1f72df12b7"
+  "hash": "af8f8e97b6b1b9866c23dbcaa954148f4861720f12577b7a46e81e7008c7326e"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Bim",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#2C2423",
   "color_02": "#F557A0",
   "color_03": "#A9EE55",
@@ -21,5 +21,5 @@
   "background": "#012849",
   "foreground": "#A9BED8",
   "cursor": "#A9BED8",
-  "hash": "be3d79f3597c9bd994573e98a95a25738517f5ef286e275db5823af33970d8b4"
+  "hash": "06d81f7bab830e63765a657b468c1c93fa569923b92099447b54129581a6301b"
 }

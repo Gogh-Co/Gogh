@@ -1,7 +1,7 @@
 {
   "name": "Fishtank",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#03073C",
   "color_02": "#C6004A",
   "color_03": "#ACF157",
@@ -21,5 +21,5 @@
   "background": "#232537",
   "foreground": "#ECF0FE",
   "cursor": "#ECF0FE",
-  "hash": "9e4f9c3976ba4a5d78b6909dc37d13f8c9d68ae24949c9cb06b03a62905cb290"
+  "hash": "7ce78a91a5d115850dec752e09e2b94d88c36e81d58dfdaf0b774e83d9eeacce"
 }

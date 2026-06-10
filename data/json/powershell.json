@@ -1,7 +1,7 @@
 {
   "name": "Powershell",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#7E0008",
   "color_03": "#098003",
@@ -21,5 +21,5 @@
   "background": "#052454",
   "foreground": "#F6F6F7",
   "cursor": "#F6F6F7",
-  "hash": "54c418f1c1976e9014c5af11acc84fc1340058c688eccd8c287bc6676cd6b10a"
+  "hash": "4534000fdec019e1bd5eba4a72ef3e3feb15a710aa81069f9443c727cb650d1d"
 }

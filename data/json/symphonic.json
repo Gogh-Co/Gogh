@@ -1,7 +1,7 @@
 {
   "name": "Symphonic",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#DC322F",
   "color_03": "#56DB3A",
@@ -21,5 +21,5 @@
   "background": "#000000",
   "foreground": "#FFFFFF",
   "cursor": "#FFFFFF",
-  "hash": "0c4606fc629ede7ff14512a2c14fe301956803088dc06858c70ef2c3ca9ea37b"
+  "hash": "adb324bcbf6f8a31f600781715ab2742fb8850d53cf1f83735f8845fbe8c8874"
 }

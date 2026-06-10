@@ -1,7 +1,7 @@
 {
   "name": "Birds Of Paradise",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#573D26",
   "color_02": "#BE2D26",
   "color_03": "#6BA18A",
@@ -21,5 +21,5 @@
   "background": "#2A1F1D",
   "foreground": "#E0DBB7",
   "cursor": "#E0DBB7",
-  "hash": "48abce2819f89b4f314bd57cd4d6e7d7f2c6c0e8d1f8c77fabba8dcbd0e95125"
+  "hash": "002634bc0f6f10f8887c85463175507fd86d143436cdb391320491551b62fe60"
 }

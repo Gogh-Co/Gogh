@@ -1,7 +1,7 @@
 {
   "name": "Snazzy",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#282A36",
   "color_02": "#FF5C57",
   "color_03": "#5AF78E",
@@ -21,5 +21,5 @@
   "background": "#282A36",
   "foreground": "#EFF0EB",
   "cursor": "#97979B",
-  "hash": "7b4f96abb73154422a747f917b04f9ca0fd95c963473d147d6594ee97ab34639"
+  "hash": "90c76ea94872249a1f3b4276f939f04e52619f9de1a17544ccf6653c302a3dd5"
 }

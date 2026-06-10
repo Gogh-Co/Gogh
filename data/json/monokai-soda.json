@@ -1,7 +1,7 @@
 {
   "name": "Monokai Soda",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#1A1A1A",
   "color_02": "#F4005F",
   "color_03": "#98E024",
@@ -21,5 +21,5 @@
   "background": "#1A1A1A",
   "foreground": "#C4C5B5",
   "cursor": "#C4C5B5",
-  "hash": "15a0db285314638fec6d0226b5d1f51ea284570c90abfbc3c8664a46a0100b0b"
+  "hash": "e6dab8ab6ef354fc0022d9330fa88f2476ee3d31e67a834564a819a0d83b6ae6"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Selenized White",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#ebebeb",
   "color_02": "#d6000c",
   "color_03": "#1d9700",
@@ -21,5 +21,5 @@
   "background": "#ffffff",
   "foreground": "#474747",
   "cursor": "#282828",
-  "hash": "38182205a4fbdef232d8401c5dee0014bce90a9ddaf626d4282b63d0db3aff8d"
+  "hash": "5b4f90f47759d5f982955ea9f148e8a867b209d866dcd40b6ced7e39fa1af8a2"
 }

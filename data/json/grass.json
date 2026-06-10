@@ -1,7 +1,7 @@
 {
   "name": "Grass",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#BB0000",
   "color_03": "#00BB00",
@@ -21,5 +21,5 @@
   "background": "#13773D",
   "foreground": "#FFF0A5",
   "cursor": "#FFF0A5",
-  "hash": "8ec5ffca21d6ca622277e72fb6fad7dfec1afb72945f00499e048ed62159312b"
+  "hash": "484311ae83dc7accfeb5dba05c70fa5a16ee8f167b6dcc9d6fbcd89dca2f3db5"
 }

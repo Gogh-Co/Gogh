@@ -1,7 +1,7 @@
 {
   "name": "Base2Tone Meadow",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#192834",
   "color_02": "#277fbe",
   "color_03": "#80bf40",
@@ -21,5 +21,5 @@
   "background": "#192834",
   "foreground": "#7b9eb7",
   "cursor": "#4d8217",
-  "hash": "6091341d86b0bea492ea6765daec00a40a83de26dcd75da38db94d558a773f71"
+  "hash": "160cfbf4a41a7e226c4f48ed46e788a6617dca1840d64215426e84214b9e4c9d"
 }

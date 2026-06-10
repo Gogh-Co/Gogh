@@ -1,7 +1,7 @@
 {
   "name": "Base2Tone Field",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#18201e",
   "color_02": "#0fbda0",
   "color_03": "#3be381",
@@ -21,5 +21,5 @@
   "background": "#18201e",
   "foreground": "#8ea4a0",
   "cursor": "#00943e",
-  "hash": "8266710835468b3ad0ae4b8ce9b807fc6c21d9b3e17c3d1bc4d80d438505ba6b"
+  "hash": "452314f5e9a62d5b6d2ef5edfced302e11e8bd043386449d64e8b5d7da4aea2c"
 }

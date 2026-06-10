@@ -1,7 +1,7 @@
 {
   "name": "Square",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#050505",
   "color_02": "#E9897C",
   "color_03": "#B6377D",
@@ -21,5 +21,5 @@
   "background": "#0A1E24",
   "foreground": "#A1A1A1",
   "cursor": "#A1A1A1",
-  "hash": "e048f2ef1c3b41f3c8b4f7cdfad379643d92ed604a6ae6bc27dec3e2f2243961"
+  "hash": "9cc4c414dec22ac337f1372e355d4c1fa817d97125fe8a24b1bf8df970cb1838"
 }

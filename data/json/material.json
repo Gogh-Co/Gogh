@@ -1,7 +1,7 @@
 {
   "name": "Material",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#073641",
   "color_02": "#EB606B",
   "color_03": "#C3E88D",
@@ -21,5 +21,5 @@
   "background": "#1E282C",
   "foreground": "#C3C7D1",
   "cursor": "#657B83",
-  "hash": "7ae55f2c5c0cb062fe0065d3318717a598bbd809a70dda7fe8428530e1762cde"
+  "hash": "4dfc934e1a602b11fa0b3b91a88ca6641917d44e6364a762681eed3bc5708c9a"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Blue Dolphin",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#292D3E",
   "color_02": "#FF8288",
   "color_03": "#B4E88D",
@@ -21,5 +21,5 @@
   "background": "#006984",
   "foreground": "#C5F2FF",
   "cursor": "#FFCC00",
-  "hash": "9e8506e8a748c0fb9621a0906ca3c8c90bbade60e57700f196c2ebcc4da0586f"
+  "hash": "bdf4f6fd400941905e984750c8f395e077ec9675cdb9f5bed70b90247ce0a60d"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Aura",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#110F18",
   "color_02": "#FF6767",
   "color_03": "#61FFCA",
@@ -21,5 +21,5 @@
   "background": "#15141B",
   "foreground": "#EDECEE",
   "cursor": "#EDECEE",
-  "hash": "532b19b1363c0fd4cdc37a9be7a066dd78bc51fd97664af0f40b177ba4b9bdf4"
+  "hash": "936ca96c2cf2eb3f50edf883f355d684ae589232134b8f293c5fe649cc564027"
 }

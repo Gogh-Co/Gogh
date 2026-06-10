@@ -1,7 +1,7 @@
 {
   "name": "Hemisu Light",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#777777",
   "color_02": "#FF0055",
   "color_03": "#739100",
@@ -21,5 +21,5 @@
   "background": "#EFEFEF",
   "foreground": "#444444",
   "cursor": "#FF0054",
-  "hash": "91fcc08cf3aafa36db14820e2da4c4e8b20249b53157cbc7bb54fbb07891543c"
+  "hash": "2d755ebe93203d9d7bb63843d87e8fb6ea88be6c0d43da6e365f10bdc4a37752"
 }

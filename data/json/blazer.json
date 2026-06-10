@@ -1,7 +1,7 @@
 {
   "name": "Blazer",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#B87A7A",
   "color_03": "#7AB87A",
@@ -21,5 +21,5 @@
   "background": "#0D1926",
   "foreground": "#D9E6F2",
   "cursor": "#D9E6F2",
-  "hash": "364a5a83283ab9e684bca9a342f7911dab81d92c3dae3931430fb45fae299410"
+  "hash": "f19e82c4972474f5be70ce01e5dc09ce9fc88f1b815d5e28bbb6a57e7e89437e"
 }

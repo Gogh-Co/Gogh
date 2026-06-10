@@ -1,7 +1,7 @@
 {
   "name": "Harper",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#010101",
   "color_02": "#F8B63F",
   "color_03": "#7FB5E1",
@@ -21,5 +21,5 @@
   "background": "#010101",
   "foreground": "#A8A49D",
   "cursor": "#A8A49D",
-  "hash": "07b7cc65ec447024236c5adf4c5882a91380c43ae0230ad518ebf0ed8ab39e93"
+  "hash": "a3a291728b7aaeffd0311064de6495d0e35cf9b0b6ef41ecc8274b635af37e5a"
 }

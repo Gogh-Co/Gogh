@@ -1,7 +1,7 @@
 {
   "name": "Soft Server",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#A2686A",
   "color_03": "#9AA56A",
@@ -21,5 +21,5 @@
   "background": "#242626",
   "foreground": "#99A3A2",
   "cursor": "#99A3A2",
-  "hash": "8f5d62ced634adb8b5f3e1b9e337cec6c8da909c4fb955f7a88b7a5dce1f693a"
+  "hash": "b183080ab2d87d20949ba4de5b6e749c57c33a8fa8be293a36e46655b3ab8fc7"
 }

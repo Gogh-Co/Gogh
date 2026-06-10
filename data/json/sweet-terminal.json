@@ -1,7 +1,7 @@
 {
   "name": "Sweet Terminal",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#3F3F54",
   "color_02": "#F60055",
   "color_03": "#06C993",
@@ -21,5 +21,5 @@
   "background": "#222235",
   "foreground": "#FFFFFF",
   "cursor": "#FFFFFF",
-  "hash": "482bda6e8a235ec088d3c69b1617b0d5f9194c72d9262d90fcf85f921e125e66"
+  "hash": "b2e7950faeb1ec3041d1e4198f5a5476c37a2305b5bbcd231a1b318aa06848f4"
 }

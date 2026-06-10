@@ -1,7 +1,7 @@
 {
   "name": "Vag",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#303030",
   "color_02": "#A87139",
   "color_03": "#39A871",
@@ -21,5 +21,5 @@
   "background": "#191F1D",
   "foreground": "#D9E6F2",
   "cursor": "#D9E6F2",
-  "hash": "78c0bc7630f5307d11785d470a7818bf9d9d2cb3ffbdea0c794d9e5e92fd9deb"
+  "hash": "c56065d8151657f8d9e417920454558e0ac8b19d7d8cb24bae8ef4646cd75b3c"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Horizon Bright",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#16161C",
   "color_02": "#DA103F",
   "color_03": "#1EB980",
@@ -21,5 +21,5 @@
   "background": "#FDF0ED",
   "foreground": "#1C1E26",
   "cursor": "#1C1E26",
-  "hash": "1e29123bfcbf1fc81e9ad9b97b623ecf27f2824512b2e19f9cb6aed8c7e0c75e"
+  "hash": "6cecda2d4b17a827cbe2655cbb13eeb2b797f8afc735537f969c9a87a9af4e95"
 }

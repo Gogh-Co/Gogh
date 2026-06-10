@@ -1,7 +1,7 @@
 {
   "name": "Later This Evening",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#2B2B2B",
   "color_02": "#D45A60",
   "color_03": "#AFBA67",
@@ -21,5 +21,5 @@
   "background": "#222222",
   "foreground": "#959595",
   "cursor": "#959595",
-  "hash": "d26f31afbefd34d2863c131567c954b16ec1d095cce559a506ffebb01a4ca0c9"
+  "hash": "004099a0cc1224a7e2811cb4c2847bac8092d84a981a97d6e2cb979bd4324ac2"
 }

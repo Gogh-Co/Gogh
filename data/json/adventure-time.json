@@ -1,7 +1,7 @@
 {
   "name": "Adventure Time",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#050404",
   "color_02": "#BD0013",
   "color_03": "#4AB118",
@@ -21,5 +21,5 @@
   "background": "#1F1D45",
   "foreground": "#F8DCC0",
   "cursor": "#F8DCC0",
-  "hash": "273eace091081bd7b49aa60beb31e2b0a72fcc22cf301db51292c7aa2c1c9767"
+  "hash": "dc959e9b6fde2511ef81736b8f14161f869226a85c476b29361292bdd93d9261"
 }

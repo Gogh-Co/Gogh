@@ -1,7 +1,7 @@
 {
   "name": "Base2Tone Drawbridge",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#1b1f32",
   "color_02": "#627af4",
   "color_03": "#67c9e4",
@@ -21,5 +21,5 @@
   "background": "#1b1f32",
   "foreground": "#9094a7",
   "cursor": "#289dbd",
-  "hash": "a4d7866cce20a870f26de4814842f8d308fcd5b82abdc5e82991ea96fb2bfde5"
+  "hash": "d21b3267f837ecbea1b60b21521ac9d3fabf3d676d68f9439cec8359dcef3a2e"
 }

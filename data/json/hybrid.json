@@ -1,7 +1,7 @@
 {
   "name": "Hybrid",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#282A2E",
   "color_02": "#A54242",
   "color_03": "#8C9440",
@@ -21,5 +21,5 @@
   "background": "#141414",
   "foreground": "#94A3A5",
   "cursor": "#94A3A5",
-  "hash": "72d421b0dda0857c38a9b0048a6b04d5f28d578918b406c5a78761b4e955b454"
+  "hash": "27f699da5e651c8a499c28edd9b0b44c67d2a1cb010ffb9bcbb510772acd780c"
 }

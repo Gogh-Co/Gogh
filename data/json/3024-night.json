@@ -1,7 +1,7 @@
 {
   "name": "3024 Night",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#090300",
   "color_02": "#DB2D20",
   "color_03": "#01A252",
@@ -21,5 +21,5 @@
   "background": "#090300",
   "foreground": "#A5A2A2",
   "cursor": "#A5A2A2",
-  "hash": "0861bba2c978bd6712a4ee4aa1c8e08b0276dd1197d2bbeacb3e2bb7470161a0"
+  "hash": "34cd8ebcb00ae6630358b68526ccc7bdedde6ea5984ec2eab804d0536c89a8a8"
 }

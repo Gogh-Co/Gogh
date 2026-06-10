@@ -1,7 +1,7 @@
 {
   "name": "Toy Chest",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#2C3F58",
   "color_02": "#BE2D26",
   "color_03": "#1A9172",
@@ -21,5 +21,5 @@
   "background": "#24364B",
   "foreground": "#31D07B",
   "cursor": "#31D07B",
-  "hash": "1263a93754d79f5bf8988396403981196c4eeebdb88eb1e4b88658b83dc0134c"
+  "hash": "211441ece80494709ed090208af91405b9e1317759f31707c63927db6fa6cdc4"
 }

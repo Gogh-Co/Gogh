@@ -1,7 +1,7 @@
 {
   "name": "Selenized Light",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#ece3cc",
   "color_02": "#d2212d",
   "color_03": "#489100",
@@ -21,5 +21,5 @@
   "background": "#fbf3db",
   "foreground": "#53676d",
   "cursor": "#3a4d53",
-  "hash": "fa8484cb85f80e5582e241b3e7326376af330af86fcb4784384dce74a34ca0ae"
+  "hash": "4913a260901070b7291a8195b0ea29db0d04dc5b2ac3152fb481cb47946fcefa"
 }

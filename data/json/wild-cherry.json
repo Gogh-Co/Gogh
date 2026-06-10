@@ -1,7 +1,7 @@
 {
   "name": "Wild Cherry",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000507",
   "color_02": "#D94085",
   "color_03": "#2AB250",
@@ -21,5 +21,5 @@
   "background": "#1F1726",
   "foreground": "#DAFAFF",
   "cursor": "#DAFAFF",
-  "hash": "cc8082ff3fc18e989c9f7e00888aa61a0b77213cc9bda5cad06e4c2a240f2cad"
+  "hash": "50faacdfe2fdca57aa85f65921e8ba8b2c44f3280a2703a5c92ad41aba9ef33a"
 }

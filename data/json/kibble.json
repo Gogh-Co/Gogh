@@ -1,7 +1,7 @@
 {
   "name": "Kibble",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#4D4D4D",
   "color_02": "#C70031",
   "color_03": "#29CF13",
@@ -21,5 +21,5 @@
   "background": "#0E100A",
   "foreground": "#F7F7F7",
   "cursor": "#F7F7F7",
-  "hash": "584c60a9fa693cbf2cd86374fb8d1db7acf3e01a6ca887efcc4162b1089be977"
+  "hash": "84090c643735f8913cd3fc9d2ebdd8f283f472ad7db2ac35e246a572e12d22d0"
 }

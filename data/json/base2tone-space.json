@@ -1,7 +1,7 @@
 {
   "name": "Base2Tone Space",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#24242e",
   "color_02": "#7676f4",
   "color_03": "#ec7336",
@@ -21,5 +21,5 @@
   "background": "#24242e",
   "foreground": "#a1a1b5",
   "cursor": "#b25424",
-  "hash": "83f1e1852dce5411517b79da16e4c721a5c568122a97226ed7d548e0730928a0"
+  "hash": "c7bf66c89ad2541af13d4a097fe8fd8cad368fe7400ba4663f6c92dfc3fb2765"
 }

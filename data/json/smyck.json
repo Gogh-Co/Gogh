@@ -1,7 +1,7 @@
 {
   "name": "Smyck",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#C75646",
   "color_03": "#8EB33B",
@@ -21,5 +21,5 @@
   "background": "#242424",
   "foreground": "#F7F7F7",
   "cursor": "#F7F7F7",
-  "hash": "aac036cd7015b0bfa7a4b6da30525994e47c074dad50733d8066d004e76d40d0"
+  "hash": "1135b2cda1f6743f1cb09fe537820c3bd52d4e3987c3674888426f8837c90036"
 }

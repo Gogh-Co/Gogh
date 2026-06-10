@@ -1,7 +1,7 @@
 {
   "name": "Base4Tone Classic C",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#221f1c",
   "color_02": "#049a61",
   "color_03": "#de5745",
@@ -21,5 +21,5 @@
   "background": "#221f1c",
   "foreground": "#a39b8f",
   "cursor": "#847371",
-  "hash": "0f68f890f4e6aaa2e8078f4433c20b7e60b6566e058a3b010f68545a812e46b4"
+  "hash": "447bcf49ac0d3a13ba8eef62c1ac6ae019112a5778d295cf9b407580de8baee2"
 }

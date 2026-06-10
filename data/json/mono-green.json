@@ -1,7 +1,7 @@
 {
   "name": "Mono Green",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#034000",
   "color_02": "#0BFF00",
   "color_03": "#0BFF00",
@@ -21,5 +21,5 @@
   "background": "#022B00",
   "foreground": "#0BFF00",
   "cursor": "#0BFF00",
-  "hash": "91629ab9fbe114f1c2fe7a7e140e91af7b82275186b7cdc9c0ad53c5fd96a8f1"
+  "hash": "14261daed15c737d5c528f0999952d15683b38484fb5bd78307fd00789869055"
 }

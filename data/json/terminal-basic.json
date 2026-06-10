@@ -1,7 +1,7 @@
 {
   "name": "Terminal Basic",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#000000",
   "color_02": "#990000",
   "color_03": "#00a600",
@@ -21,5 +21,5 @@
   "background": "#ffffff",
   "foreground": "#000000",
   "cursor": "#7f7f7f",
-  "hash": "c009f3dc5c69e04f3983b1c91d62d8a78957f34c7faa160cf9dba04dd5d9d464"
+  "hash": "88468ead76d991e236ef2fd456dec72215567f877e6086b742255b61a9154ec9"
 }

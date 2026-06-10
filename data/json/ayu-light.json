@@ -1,7 +1,7 @@
 {
   "name": "Ayu Light",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#575F66",
   "color_02": "#F51818",
   "color_03": "#86B300",
@@ -21,5 +21,5 @@
   "background": "#FAFAFA",
   "foreground": "#575F66",
   "cursor": "#FF9940",
-  "hash": "34d64fb782c08ecdc18842a9d751cb3dc0ed859b31ff4f1383b39442e11d8d7d"
+  "hash": "2c90afd5977a50ecfe22982cb75c2a480f9ad3727e965567870ad33a6c3d3b90"
 }

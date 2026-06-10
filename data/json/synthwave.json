@@ -1,7 +1,7 @@
 {
   "name": "Synthwave",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#011627",
   "color_02": "#FE4450",
   "color_03": "#72F1B8",
@@ -21,5 +21,5 @@
   "background": "#262335",
   "foreground": "#FFFFFF",
   "cursor": "#03EDF9",
-  "hash": "4f63611e46322781968a9991e0ed083eca8e7de2889c926268e8341dac5f846d"
+  "hash": "bab05c0af5435f78bd65d1e76f4d44e6931d64f81c13ebf710c3948786568b6e"
 }

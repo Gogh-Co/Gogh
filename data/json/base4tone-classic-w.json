@@ -1,7 +1,7 @@
 {
   "name": "Base4Tone Classic W",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#201d1e",
   "color_02": "#b87305",
   "color_03": "#ca45de",
@@ -21,5 +21,5 @@
   "background": "#201d1e",
   "foreground": "#9e9498",
   "cursor": "#7f7481",
-  "hash": "24d9a66a1a2c98b832bad1213c5e8beab06cfadd2b739cbf57f5e326c0fa6e0d"
+  "hash": "6f0fe2ee584ef505df442d9ca3e9a0184dfccdf669c4cd0f30eab7da12b66933"
 }

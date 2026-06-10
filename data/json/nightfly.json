@@ -1,7 +1,7 @@
 {
   "name": "Nightfly",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#1D3B53",
   "color_02": "#FC514E",
   "color_03": "#A1CD5E",
@@ -21,5 +21,5 @@
   "background": "#011627",
   "foreground": "#BDC1C6",
   "cursor": "#9CA1AA",
-  "hash": "f5a7fb7b45af2b602c38fc76247e62111efe85f297f713f3a147059a5a0e8c08"
+  "hash": "86b0fba8abddcb481ff3a4d734ab8f6cc8f171e651a5394a487420aa684fa63f"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Base2Tone Garden",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#1e1f1e",
   "color_02": "#3fac39",
   "color_03": "#db9257",
@@ -21,5 +21,5 @@
   "background": "#1e1f1e",
   "foreground": "#969c96",
   "cursor": "#bd5d0f",
-  "hash": "d17256183cb5a3ce91843c1da909c6c20e5b188ba6b0a27a523b27f86fd5fe32"
+  "hash": "dfbc01193242b70aa99f3ee288ce74f8fab630c3a87e960fba0177ca0d6f9250"
 }

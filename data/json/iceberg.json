@@ -1,7 +1,7 @@
 {
   "name": "Iceberg",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#161821",
   "color_02": "#e27878",
   "color_03": "#b4be82",
@@ -21,5 +21,5 @@
   "background": "#161821",
   "foreground": "#c6c8d1",
   "cursor": "#d2d4de",
-  "hash": "01f4ba5dc15e03afef2e2021a22c9bde1a76947cf258b029d00f3499283f01c0"
+  "hash": "dcffde4d69d07cd869a4d2e0f9297d5d538e693d75fd8f12af3176a2871c3d8a"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Breeze",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#232627",
   "color_02": "#ED1515",
   "color_03": "#11D116",
@@ -21,5 +21,5 @@
   "background": "#232627",
   "foreground": "#FCFCFC",
   "cursor": "#FCFCFC",
-  "hash": "286eea9c0a595769c51f94fa849c6117954595219329131c6cf327915ad98bf4"
+  "hash": "5ea235575404e7ebac1eaa47b7f83f3f00a278aad5e0b98ed8d70f8b86f8daca"
 }

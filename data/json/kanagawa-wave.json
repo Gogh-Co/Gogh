@@ -1,7 +1,7 @@
 {
   "name": "Kanagawa Wave",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#090618",
   "color_02": "#C34043",
   "color_03": "#76946A",
@@ -21,5 +21,5 @@
   "background": "#1F1F28",
   "foreground": "#DCD7BA",
   "cursor": "#DCD7BA",
-  "hash": "16f3fe0af3eb4d39faf4c10ddef2d12459d0090ffc369d985b92371673a3e578"
+  "hash": "8d374ba67d1e4fec27ea53185364e2dd26b4530a35188aa42dbe412a3fedfdd9"
 }

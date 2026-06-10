@@ -1,7 +1,7 @@
 {
   "name": "Everblush",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#232A2D",
   "color_02": "#E57474",
   "color_03": "#8CCF7E",
@@ -21,5 +21,5 @@
   "background": "#141B1E",
   "foreground": "#DADADA",
   "cursor": "#DADADA",
-  "hash": "aa8b75dffae56c5593bb00c5c698de9bd4882cae4780b7bdca96b28a1747c212"
+  "hash": "d79860b9c96956220dae4e4db9be8063d744b27c29802c25e09662e7d751d425"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Mar",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#000000",
   "color_02": "#B5407B",
   "color_03": "#7BB540",
@@ -21,5 +21,5 @@
   "background": "#FFFFFF",
   "foreground": "#23476A",
   "cursor": "#23476A",
-  "hash": "f6f079029bd4bbf262601921d740b4dc1d2dd95211bc3a168638b1cb648548d7"
+  "hash": "7bb4c467b42f418dd43bff522abf7b87cf41b430f2790ee1be1dde2b08ff96cf"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Sweet Eliverlara",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#282C34",
   "color_02": "#ED254E",
   "color_03": "#71F79F",
@@ -21,5 +21,5 @@
   "background": "#282C34",
   "foreground": "#C3C7D1",
   "cursor": "#C3C7D1",
-  "hash": "1ac7343f605689e606de997926293b31bb20b3f4d3ccd53716d2f28ca2722bf1"
+  "hash": "024ff643eb3fb6c0fced06efbdaa71671597d5aedb362e5d30ec5f336e965573"
 }

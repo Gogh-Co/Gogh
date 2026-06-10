@@ -1,7 +1,7 @@
 {
   "name": "Freya",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#073642",
   "color_02": "#DC322F",
   "color_03": "#859900",
@@ -21,5 +21,5 @@
   "background": "#252E32",
   "foreground": "#94A3A5",
   "cursor": "#839496",
-  "hash": "6a59ed502ef8e83b9c68b4f1da6b8f6d698dc2170644bc72d3e12f150d8bd680"
+  "hash": "89ede0c87032cb0c893dc9b7b5432f1d4f2606a89501c03c349fb0305004ae9e"
 }

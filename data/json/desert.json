@@ -1,7 +1,7 @@
 {
   "name": "Desert",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#4D4D4D",
   "color_02": "#FF2B2B",
   "color_03": "#98FB98",
@@ -21,5 +21,5 @@
   "background": "#333333",
   "foreground": "#FFFFFF",
   "cursor": "#FFFFFF",
-  "hash": "ec0070538e7959f61e5435f3b0e9b1891aa1bbf5ebdc8368e7c1bcdf2c2cb837"
+  "hash": "4d8fa9279d7f8215e1e5e251e8ae1a8ecca792920bb1696f01837c4c24daf856"
 }

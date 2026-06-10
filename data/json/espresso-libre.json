@@ -1,7 +1,7 @@
 {
   "name": "Espresso Libre",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#CC0000",
   "color_03": "#1A921C",
@@ -21,5 +21,5 @@
   "background": "#2A211C",
   "foreground": "#B8A898",
   "cursor": "#B8A898",
-  "hash": "363014edf722330bb04d26d9044ac6feb73d065de783a605718741de61e2cf1f"
+  "hash": "187cf3988f8d2218a904e6602face38a6c68ae4c28b6f951d7817f78520b21d4"
 }

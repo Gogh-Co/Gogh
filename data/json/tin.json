@@ -1,7 +1,7 @@
 {
   "name": "Tin",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#8D534E",
   "color_03": "#4E8D53",
@@ -21,5 +21,5 @@
   "background": "#2E2E35",
   "foreground": "#FFFFFF",
   "cursor": "#FFFFFF",
-  "hash": "55218242f3de3c01074bf453f6f7c294a3a6b94c946b65afe274a93f7fb91abc"
+  "hash": "fee625756db5cc7e6bbb863946e35601b0d9a8812664e401bbf5b0eb4a49048e"
 }

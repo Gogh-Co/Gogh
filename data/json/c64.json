@@ -1,7 +1,7 @@
 {
   "name": "C64",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#090300",
   "color_02": "#883932",
   "color_03": "#55A049",
@@ -21,5 +21,5 @@
   "background": "#40318D",
   "foreground": "#7869C4",
   "cursor": "#7869C4",
-  "hash": "b6e07e46ed1500920d85d18b9eb8ea23308a84fc5b22dbb0a4cec185242aa369"
+  "hash": "0f8d580cd9b9b1a075ff51e51e374685dfee4e46d53e363d570de62c4012c695"
 }

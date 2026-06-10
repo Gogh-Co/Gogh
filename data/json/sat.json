@@ -1,7 +1,7 @@
 {
   "name": "Sat",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#DD0007",
   "color_03": "#07DD00",
@@ -21,5 +21,5 @@
   "background": "#758480",
   "foreground": "#23476A",
   "cursor": "#23476A",
-  "hash": "262e817fe66c8a144105222de2f07b37a140eeff8e902d8a3986812c2bf21cd0"
+  "hash": "c8cbfd38e4fa9f3bd63db90b7998216978b861a4c396b4fc3a6ddb5fa6bf5341"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Paul Millr",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#2A2A2A",
   "color_02": "#FF0000",
   "color_03": "#79FF0F",
@@ -21,5 +21,5 @@
   "background": "#000000",
   "foreground": "#F2F2F2",
   "cursor": "#F2F2F2",
-  "hash": "5da38bdd3fae6f15483065d1fbfcd16f0c493832cf2c833a7a5eeca025e5bd45"
+  "hash": "573c9b9ee5bb8e48c7ebc6dec65261e2fa59afb57bb7424a3de9bc0f685dcfbf"
 }

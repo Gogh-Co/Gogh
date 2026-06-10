@@ -1,7 +1,7 @@
 {
   "name": "Clrs",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#000000",
   "color_02": "#F8282A",
   "color_03": "#328A5D",
@@ -21,5 +21,5 @@
   "background": "#FFFFFF",
   "foreground": "#262626",
   "cursor": "#262626",
-  "hash": "875a1c0ff67cc16a8419c4b4612b3ca52ad4179fcca7fd1a224a15947365ae3a"
+  "hash": "36aedbed394cf06d0da876a311aac221b97e3c6ccb9d0c8d24bdec9f72267cff"
 }

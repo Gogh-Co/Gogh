@@ -1,7 +1,7 @@
 {
   "name": "Chameleon",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#2C2C2C",
   "color_02": "#CC231C",
   "color_03": "#689D69",
@@ -21,5 +21,5 @@
   "background": "#2C2C2C",
   "foreground": "#DEDEDE",
   "cursor": "#DEDEDE",
-  "hash": "8b730a5ad65013ca13a9839d36ae83c5e15c4de929198b94fd1518e680d27065"
+  "hash": "2db718be23c2973563a60d49d5322527cc7451035a1cbbf4ac495c6fdb23d748"
 }

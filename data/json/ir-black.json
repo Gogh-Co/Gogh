@@ -1,7 +1,7 @@
 {
   "name": "Ir Black",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#4E4E4E",
   "color_02": "#FF6C60",
   "color_03": "#A8FF60",
@@ -21,5 +21,5 @@
   "background": "#000000",
   "foreground": "#EEEEEE",
   "cursor": "#FFA560",
-  "hash": "ab34433339fba70edf7aa0996c1f38d36da082026dbf22aea27808435c4dfc70"
+  "hash": "dd414b71f130ea5420a7d9f2c421aeb809a37d1b401da852ef973b99ce0a0681"
 }

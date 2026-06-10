@@ -1,7 +1,7 @@
 {
   "name": "Wombat",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FF615A",
   "color_03": "#B1E969",
@@ -21,5 +21,5 @@
   "background": "#171717",
   "foreground": "#DEDACF",
   "cursor": "#DEDACF",
-  "hash": "c5f0a5b17dfd556ce8ebb47996b3c9eb424ceb36f829434d1066b7d8970df213"
+  "hash": "6aecc7607ddeac1cb0a6a2d26be6529fe0c8867df82fd3cf7b699a7de7e376d4"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Flat",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#2C3E50",
   "color_02": "#C0392B",
   "color_03": "#27AE60",
@@ -21,5 +21,5 @@
   "background": "#1F2D3A",
   "foreground": "#1ABC9C",
   "cursor": "#1ABC9C",
-  "hash": "4f852e67b4cb48be9f84eae12b7b9e22e5f2ac7691e9e9485297372d5211fc8e"
+  "hash": "7d1c4cd841f80100f9da64e7c4d8b2185e9de24bdf30bea3948aa7305eeba5d5"
 }

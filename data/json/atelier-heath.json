@@ -1,7 +1,7 @@
 {
   "name": "Atelier Heath",
   "author": "Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath)",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#1B181B",
   "color_02": "#CA402B",
   "color_03": "#918B3B",
@@ -21,5 +21,5 @@
   "background": "#1B181B",
   "foreground": "#9E8F9E",
   "cursor": "#9E8F9E",
-  "hash": "daff19b72db06231e62fb1d7f493e0436a1ed3b38d912e8976cb17653ef7b0cb"
+  "hash": "1bc060def78331d884478e3c8c83577d0f4498586442e11368c4a411a2e459c4"
 }

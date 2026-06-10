@@ -1,7 +1,7 @@
 {
   "name": "Geohot",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#F9F5F5",
   "color_02": "#CC0000",
   "color_03": "#1F1E1F",
@@ -21,5 +21,5 @@
   "background": "#1F1E1F",
   "foreground": "#FFFFFF",
   "cursor": "#FFFFFF",
-  "hash": "b68253e74007adcade7c9a94c2d950354fe874867fb5b2be5901cc89c726d98f"
+  "hash": "8e66d830c23c1d8d6de878f17f6510919849c77ab9364915f6e9b4156b48e0a4"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Vibrant Ink",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#878787",
   "color_02": "#FF6600",
   "color_03": "#CCFF04",
@@ -21,5 +21,5 @@
   "background": "#000000",
   "foreground": "#FFFFFF",
   "cursor": "#FFFFFF",
-  "hash": "b21f2ec5bef1321de5cd01f60d7dfae0d56c2845736a83e3fc4e5ca27ec6cda4"
+  "hash": "2cc40ebd75ed8079da3c39d196d9c61d88efbbc5f0d594296e4524bf05dd0095"
 }

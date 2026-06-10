@@ -1,7 +1,7 @@
 {
   "name": "Liquid Carbon Transparent",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FF3030",
   "color_03": "#559A70",
@@ -21,5 +21,5 @@
   "background": "#000000",
   "foreground": "#AFC2C2",
   "cursor": "#AFC2C2",
-  "hash": "a2bd74e025439cae4cf9c05e0647f916668e5f7ed8b7a5b117fc2f0403788b19"
+  "hash": "b8d9a0704dc7f2a55447d667735c2842f1059b896d3743b25b12c6d638ee6ec8"
 }

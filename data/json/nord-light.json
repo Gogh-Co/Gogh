@@ -1,7 +1,7 @@
 {
   "name": "Nord Light",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#003B4E",
   "color_02": "#E64569",
   "color_03": "#069F5F",
@@ -21,5 +21,5 @@
   "background": "#EBEAF2",
   "foreground": "#004F7C",
   "cursor": "#439ECF",
-  "hash": "fa6c25774a861de854034777e4cee03c9123cb068f876bddc46bb37abb2592ae"
+  "hash": "21e7594036e60bb39a3e63e770b08693cc20345972bd6efc354436ff3c92edb9"
 }

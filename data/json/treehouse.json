@@ -1,7 +1,7 @@
 {
   "name": "Treehouse",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#321300",
   "color_02": "#B2270E",
   "color_03": "#44A900",
@@ -21,5 +21,5 @@
   "background": "#191919",
   "foreground": "#786B53",
   "cursor": "#786B53",
-  "hash": "34dc5acc2cabdb1239c2746dcde46ceb0a83dcf0b13b38ab8d1034c9130b0bf6"
+  "hash": "71b47aef32e1f0dca34d300fbe91950bb0f2941f7a92ef88f5a4ad7c848556bf"
 }

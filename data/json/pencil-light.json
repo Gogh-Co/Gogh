@@ -1,7 +1,7 @@
 {
   "name": "Pencil Light",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#212121",
   "color_02": "#C30771",
   "color_03": "#10A778",
@@ -21,5 +21,5 @@
   "background": "#F1F1F1",
   "foreground": "#424242",
   "cursor": "#424242",
-  "hash": "988960486458a3d26648058a653511f6d58506294c87e7e3113802ca55a00a40"
+  "hash": "787c5f767ee447484a7f602c5809f29c3129f3dc17e85db59a4f4b42b673aacd"
 }

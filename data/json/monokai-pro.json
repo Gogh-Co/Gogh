@@ -1,7 +1,7 @@
 {
   "name": "Monokai Pro",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#2D2A2E",
   "color_02": "#FF6188",
   "color_03": "#A9DC76",
@@ -21,5 +21,5 @@
   "background": "#2D2A2E",
   "foreground": "#FCFCFA",
   "cursor": "#FCFCFA",
-  "hash": "8652ec5eb0a0e0ed59964b9aa2949354ab3f8a0f417ed21872d3c52a754e2792"
+  "hash": "5d6bed2d5393d356b40ae940af70734bb90c8e087ac25b922d980e7c68099536"
 }

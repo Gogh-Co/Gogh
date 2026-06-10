@@ -1,7 +1,7 @@
 {
   "name": "Liquid Carbon",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FF3030",
   "color_03": "#559A70",
@@ -21,5 +21,5 @@
   "background": "#303030",
   "foreground": "#AFC2C2",
   "cursor": "#AFC2C2",
-  "hash": "e3e1da4b47a2ee2576e5f68a8ccdc1baf7d8f10ce95720ddeb79611cf4253769"
+  "hash": "222faa43466ce5fb72ed5d26141d9e66de6ea312674547f000d0264ffcd4ff04"
 }

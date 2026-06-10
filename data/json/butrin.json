@@ -1,7 +1,7 @@
 {
   "name": "Butrin",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#8C7E78",
   "color_02": "#E68A8A",
   "color_03": "#99CC99",
@@ -21,5 +21,5 @@
   "background": "#4B3B3C",
   "foreground": "#F2F2F2",
   "cursor": "#E39D93",
-  "hash": "1df99eb5a5bb3864d895033b43c50ddf520f4a2310e0c5f596f208030bf79523"
+  "hash": "526eaab3c1f2bc4abff4c81de0d252f940071536c4cad1f35efd6c9e6330cc19"
 }

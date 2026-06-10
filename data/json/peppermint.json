@@ -1,7 +1,7 @@
 {
   "name": "Peppermint",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#353535",
   "color_02": "#E64569",
   "color_03": "#89D287",
@@ -21,5 +21,5 @@
   "background": "#000000",
   "foreground": "#C7C7C7",
   "cursor": "#BBBBBB",
-  "hash": "fa41b8e4eed184790e111e8e92c60cdd898a90cd2bc55d7c08f7d2ab0b39f8fe"
+  "hash": "62c31aa916050261ec2f2fa0ed6d720a95dee359c98745354344931bc1454183"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Atelier Lakeside",
   "author": "Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside)",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#161B1D",
   "color_02": "#D22D72",
   "color_03": "#568C3B",
@@ -21,5 +21,5 @@
   "background": "#161B1D",
   "foreground": "#7195A8",
   "cursor": "#7195A8",
-  "hash": "903bd79205fb654cfb84dc2f7cd4654d35213d6de29383d19cf4c6873e7b0bf3"
+  "hash": "fc8627f7f047f5ce209313a5af6a872002cdf6888714c7abc64bb4bd7b941363"
 }

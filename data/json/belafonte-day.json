@@ -1,7 +1,7 @@
 {
   "name": "Belafonte Day",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#20111B",
   "color_02": "#BE100E",
   "color_03": "#858162",
@@ -21,5 +21,5 @@
   "background": "#D5CCBA",
   "foreground": "#45373C",
   "cursor": "#45373C",
-  "hash": "24a10a658de92125d958b2efab1ae2ae22ee96c40e5da6c3ac956e9e8fa4e475"
+  "hash": "193e9404db786b473e84346cb29042903dc25ef37cb21dd3e0a13a6fc7f8ed1f"
 }

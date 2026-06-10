@@ -1,7 +1,7 @@
 {
   "name": "Lunaria Light",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#3E3C3D",
   "color_02": "#783C1F",
   "color_03": "#497D46",
@@ -21,5 +21,5 @@
   "background": "#EBE4E1",
   "foreground": "#484646",
   "cursor": "#484646",
-  "hash": "9e4166f29601a1c257502abf0573e7a5651d9e2f987c42d20c461646a2ee9d4f"
+  "hash": "bf6777b9a5e068cc65c92d859c6d179bcdae62c32be1d9331bc2b7c62feeed4b"
 }

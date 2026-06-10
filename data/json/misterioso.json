@@ -1,7 +1,7 @@
 {
   "name": "Misterioso",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FF4242",
   "color_03": "#74AF68",
@@ -21,5 +21,5 @@
   "background": "#2D3743",
   "foreground": "#E1E1E0",
   "cursor": "#E1E1E0",
-  "hash": "fbdececd7eee7b1ff32af7ac2ee11bab90d29db036d16dc51c605f02b752645f"
+  "hash": "446fcdf1cf38c80b24dbbe42b51157b39b0ec664b4634c7f267b6d0a060fe255"
 }

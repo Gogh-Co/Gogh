@@ -1,7 +1,7 @@
 {
   "name": "Apprentice",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#1C1C1C",
   "color_02": "#AF5F5F",
   "color_03": "#5F875F",
@@ -21,5 +21,5 @@
   "background": "#262626",
   "foreground": "#BCBCBC",
   "cursor": "#BCBCBC",
-  "hash": "1dbf1d6c6a28e9877ee413bde7ecd969a4c9362de28fedf672d4ac180296cd40"
+  "hash": "db1d7254efd5fe3e325b16126e31cd55086234507a621d07f95c66c72ac8a452"
 }

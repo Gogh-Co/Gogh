@@ -1,7 +1,7 @@
 {
   "name": "Base2Tone Suburb",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#1e202f",
   "color_02": "#7586f5",
   "color_03": "#fb6fa9",
@@ -21,5 +21,5 @@
   "background": "#1e202f",
   "foreground": "#878ba6",
   "cursor": "#d14781",
-  "hash": "18408f1f26e4d46fbe335d879f8bc114850408a0d7beb3a9b5aa946f10cb343a"
+  "hash": "6d3cf5bb187ebe042c4f28bec31cac4918376d54e067f16e06739fd2cec7f499"
 }

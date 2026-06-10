@@ -1,7 +1,7 @@
 {
   "name": "One Half Black",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#282C34",
   "color_02": "#E06C75",
   "color_03": "#98C379",
@@ -21,5 +21,5 @@
   "background": "#000000",
   "foreground": "#DCDFE4",
   "cursor": "#DCDFE4",
-  "hash": "203d9d1944fa97e75cb33aff340c8268d5de542da2e67035755148f18c237d10"
+  "hash": "2285e1daf9fe3e81c0b8d4569796ff920b3748e35961aa83a031758f4d54423b"
 }

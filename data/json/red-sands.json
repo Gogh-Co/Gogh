@@ -1,7 +1,7 @@
 {
   "name": "Red Sands",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FF3F00",
   "color_03": "#00BB00",
@@ -21,5 +21,5 @@
   "background": "#7A251E",
   "foreground": "#D7C9A7",
   "cursor": "#D7C9A7",
-  "hash": "5d0861d34d80fb65b6a5d2770ee873d34ca13e77b9b8b5ed6378c959f6edd404"
+  "hash": "7477e2644c608e79e34e6c5ebf56b1dbfa44bfe6e9bb489c540fba134622768b"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Base2Tone Lake",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#192d34",
   "color_02": "#3e91ac",
   "color_03": "#cbbb4d",
@@ -21,5 +21,5 @@
   "background": "#192d34",
   "foreground": "#7ba8b7",
   "cursor": "#84740b",
-  "hash": "7db8208413062eb5b904ab49269a8873b673f6700b5d6d5a3f59624bf383f9b4"
+  "hash": "f248150346f82dc47455348f0b797cf1c0e19bcbce0d6e25806623de6f7d7478"
 }

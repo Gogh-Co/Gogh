@@ -1,7 +1,7 @@
 {
   "name": "Catppuccin Macchiato",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#494D64",
   "color_02": "#ED8796",
   "color_03": "#A6DA95",
@@ -21,5 +21,5 @@
   "background": "#24273A",
   "foreground": "#CAD3F5",
   "cursor": "#CAD3F5",
-  "hash": "5c359f10062e5e7cb5db5c75fba638ec3c756d2c425f5081845d36d50c175bf6"
+  "hash": "a9cbdfb1c7e8acaf5f02be7601d38f44c3ee9968af65d82b5dfcd9fa8a56625d"
 }

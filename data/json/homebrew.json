@@ -1,7 +1,7 @@
 {
   "name": "Homebrew",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#990000",
   "color_03": "#00A600",
@@ -21,5 +21,5 @@
   "background": "#000000",
   "foreground": "#00FF00",
   "cursor": "#00FF00",
-  "hash": "1a9633f12b95cf3acbac49603c0a3aa28729b651bd1f705c01dc1e81692d969b"
+  "hash": "581b77c94f0b87f3381de706029d13c4e0263e6f25a234b863c5413410b62bd1"
 }

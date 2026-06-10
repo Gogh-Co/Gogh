@@ -1,7 +1,7 @@
 {
   "name": "Summer Pop",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#666666",
   "color_02": "#FF1E8E",
   "color_03": "#8EFF1E",
@@ -21,5 +21,5 @@
   "background": "#272822",
   "foreground": "#FFFFFF",
   "cursor": "#FFFFFF",
-  "hash": "2f1b67f768170a7ef69d84a5082b3b41068dd72fce52be685e7e8ffc184d1dcc"
+  "hash": "accc9c446173ba487f88425498ffbcadf29f40c7e22bf3f5fd7e78a89eb5aabd"
 }

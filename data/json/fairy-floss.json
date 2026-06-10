@@ -1,7 +1,7 @@
 {
   "name": "Fairy Floss",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#42395D",
   "color_02": "#A8757B",
   "color_03": "#FF857F",
@@ -21,5 +21,5 @@
   "background": "#5A5475",
   "foreground": "#C2FFDF",
   "cursor": "#FFB8D1",
-  "hash": "d70c11d8f56eff40e626d61b09218ddf5201aa1056858d5015655fd3f98c4b22"
+  "hash": "1e5ac587532aa0d199b82710065dd2176e8aa440e0aded3b0c8a1a8ea8b41c46"
 }

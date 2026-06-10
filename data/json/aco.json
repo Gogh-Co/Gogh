@@ -1,7 +1,7 @@
 {
   "name": "Aco",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#3F3F3F",
   "color_02": "#FF0883",
   "color_03": "#83FF08",
@@ -21,5 +21,5 @@
   "background": "#1F1305",
   "foreground": "#B4E1FD",
   "cursor": "#B4E1FD",
-  "hash": "219b92d3099952d25254f7fc1bf51eccaff9342972557ee44b309dce3077970a"
+  "hash": "b97c16368902e9705b24293da062b850992f3cc1dbdadd7fd7aacab4d7fa8a66"
 }

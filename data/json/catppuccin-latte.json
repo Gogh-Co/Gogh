@@ -1,7 +1,7 @@
 {
   "name": "Catppuccin Latte",
   "author": "",
-  "variant": "",
+  "variant": "light",
   "color_01": "#5C5F77",
   "color_02": "#D20F39",
   "color_03": "#40A02B",
@@ -21,5 +21,5 @@
   "background": "#EFF1F5",
   "foreground": "#4C4F69",
   "cursor": "#4C4F69",
-  "hash": "fdf647cb8a1e77947ccf07d302abaa2c1206a8f915c38b747d8842e5caeae8ec"
+  "hash": "8eda1c75c620571a646ceb08af20ce91b8d00cf1a0e3d2e5cab2d504ce8f19e4"
 }

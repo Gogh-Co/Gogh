@@ -1,7 +1,7 @@
 {
   "name": "Spacegray Eighties",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#15171C",
   "color_02": "#EC5F67",
   "color_03": "#81A764",
@@ -21,5 +21,5 @@
   "background": "#222222",
   "foreground": "#BDBAAE",
   "cursor": "#BDBAAE",
-  "hash": "51fdf41bcc1f48944f56a8812c931532c85869c1b6c6a86fc1cfdb56670a6e08"
+  "hash": "94bb03045383057b01961e83619e622457e3af0d2f896ca136acbf5ef5395f2f"
 }

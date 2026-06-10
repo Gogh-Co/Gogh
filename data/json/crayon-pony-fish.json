@@ -1,7 +1,7 @@
 {
   "name": "Crayon Pony Fish",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#2B1B1D",
   "color_02": "#91002B",
   "color_03": "#579524",
@@ -21,5 +21,5 @@
   "background": "#150707",
   "foreground": "#68525A",
   "cursor": "#68525A",
-  "hash": "ac16f5fa0af197c7ba90736947b6434f4d214264b752e9db6190344993579158"
+  "hash": "062bd6d62bda9614aec156b185a84f7c787a08949add59e90641da1435181ad4"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Maia",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#232423",
   "color_02": "#BA2922",
   "color_03": "#7E807E",
@@ -21,5 +21,5 @@
   "background": "#31363B",
   "foreground": "#BDC3C7",
   "cursor": "#BDC3C7",
-  "hash": "e3b4160dd150a73eb2f6642b85387bff8532836c828fcd2f1f020e4824ff2f84"
+  "hash": "280285cae2bf5fdf372138b4654cec454fd1dca32da29f672741860fc0429215"
 }

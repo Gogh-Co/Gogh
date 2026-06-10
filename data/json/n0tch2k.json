@@ -1,7 +1,7 @@
 {
   "name": "N0Tch2K",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#383838",
   "color_02": "#A95551",
   "color_03": "#666666",
@@ -21,5 +21,5 @@
   "background": "#222222",
   "foreground": "#A0A0A0",
   "cursor": "#A0A0A0",
-  "hash": "425806f9784d57647a1ccce3ce2fa16e824b6ab2b1511cdc5f57ec66f6058e9a"
+  "hash": "0b1bf71795edaf07cc2d2c8e8ea2a5555030b01139408a8a145d3f2cf3c1d7df"
 }

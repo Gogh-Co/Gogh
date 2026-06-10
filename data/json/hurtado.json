@@ -1,7 +1,7 @@
 {
   "name": "Hurtado",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#575757",
   "color_02": "#FF1B00",
   "color_03": "#A5E055",
@@ -21,5 +21,5 @@
   "background": "#000000",
   "foreground": "#DBDBDB",
   "cursor": "#DBDBDB",
-  "hash": "53f897672ffd61ce6b3b3b331830d9a5946cb65a984a5bad1a676c11a674da8f"
+  "hash": "f97ba368c82f83a337900ad2191096e4e250e6b4ef073e7ca01fa4562dafae12"
 }

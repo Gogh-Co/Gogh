@@ -1,7 +1,7 @@
 {
   "name": "Dimmed Monokai",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#3A3D43",
   "color_02": "#BE3F48",
   "color_03": "#879A3B",
@@ -21,5 +21,5 @@
   "background": "#1F1F1F",
   "foreground": "#B9BCBA",
   "cursor": "#B9BCBA",
-  "hash": "8e62d572586836975ec7c42cf1265fbf1057d97e67b2e6ff20eab453f35836f3"
+  "hash": "7a0401567ef296d358c00c1332904b7f6838faa114274c5cee73065a78f3127c"
 }
