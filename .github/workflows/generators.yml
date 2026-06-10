@@ -56,7 +56,17 @@ jobs:
           total_files=$(find themes -type f | wc -l)
           echo "total_files=$total_files" >> $GITHUB_ENV
 
+      - name: 🏅 Check if release tag already exists
+        run: |
+          tag_name="v${{ env.total_files }}"
+          if git ls-remote --tags origin "refs/tags/${tag_name}" | grep -q "${tag_name}"; then
+            echo "tag_exists=true" >> $GITHUB_ENV
+          else
+            echo "tag_exists=false" >> $GITHUB_ENV
+          fi
+
       - name: 🏅 Create Release
+        if: env.tag_exists != 'true'
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
