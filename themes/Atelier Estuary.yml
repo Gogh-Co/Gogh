@@ -1,7 +1,7 @@
 ---
 name: 'Atelier Estuary'
 author: 'Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary)'
-variant: ''            # dark or light
+variant: 'dark'            # dark or light
 
 color_01: '#22221B'    # Black (Host)
 color_02: '#BA6236'    # Red (Syntax string)

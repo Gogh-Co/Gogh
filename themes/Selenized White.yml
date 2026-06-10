@@ -1,7 +1,7 @@
 ---
 name: 'Selenized White'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
-variant: ''            # dark or light
+variant: 'light'            # dark or light
 
 color_01: '#ebebeb'    # Black (Host)
 color_02: '#d6000c'    # Red (Syntax string)

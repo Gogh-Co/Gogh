@@ -1,7 +1,7 @@
 ---
 name: 'Atelier Dune'
 author: 'Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)'
-variant: ''            # dark or light
+variant: 'dark'            # dark or light
 
 color_01: '#20201D'    # Black (Host)
 color_02: '#D73737'    # Red (Syntax string)

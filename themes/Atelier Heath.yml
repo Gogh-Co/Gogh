@@ -1,7 +1,7 @@
 ---
 name: 'Atelier Heath'
 author: 'Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath)'
-variant: ''            # dark or light
+variant: 'dark'            # dark or light
 
 color_01: '#1B181B'    # Black (Host)
 color_02: '#CA402B'    # Red (Syntax string)

@@ -1,7 +1,7 @@
 ---
 name: 'Modus Operandi Tinted'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
-variant: ''            # dark or light
+variant: 'light'            # dark or light
 
 color_01: '#fbf7f0'    # Black (Host)
 color_02: '#a60000'    # Red (Syntax string)

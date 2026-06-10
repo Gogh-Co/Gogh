@@ -1,7 +1,7 @@
 ---
 name: 'Atelier Cave'
 author: 'Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave)'
-variant: ''            # dark or light
+variant: 'dark'            # dark or light
 
 color_01: '#19171C'    # Black (Host)
 color_02: '#BE4678'    # Red (Syntax string)

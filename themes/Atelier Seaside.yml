@@ -1,7 +1,7 @@
 ---
 name: 'Atelier Seaside'
 author: 'Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside)'
-variant: ''            # dark or light
+variant: 'dark'            # dark or light
 
 color_01: '#131513'    # Black (Host)
 color_02: '#E6193C'    # Red (Syntax string)

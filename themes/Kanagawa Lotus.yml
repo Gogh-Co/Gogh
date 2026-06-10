@@ -1,7 +1,7 @@
 ---
 name: 'Kanagawa Lotus'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
-variant: ''            # dark or light
+variant: 'light'            # dark or light
 
 color_01: '#1f1f28'    # Black (Host)
 color_02: '#c84053'    # Red (Syntax string)

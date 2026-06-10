@@ -1,7 +1,7 @@
 ---
 name: 'Atelier Plateau'
 author: 'Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau)'
-variant: ''            # dark or light
+variant: 'dark'            # dark or light
 
 color_01: '#1B1818'    # Black (Host)
 color_02: '#CA4949'    # Red (Syntax string)
