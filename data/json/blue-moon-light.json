@@ -1,7 +1,7 @@
 {
   "name": "Blue Moon Light",
   "author": "kyazdani42 (https://github.com/kyazdani42/blue-moon)",
-  "variant": "light",
+  "variant": "dark",
   "color_01": "#292d3e",
   "color_02": "#d06179",
   "color_03": "#d0e7d0",
@@ -21,5 +21,5 @@
   "background": "#32374d",
   "foreground": "#fbfbfb",
   "cursor": "#fbfbfb",
-  "hash": "ff15bd907071d94fa3aa58d81ed36a1ba8c1c725df2e4cdc4b55eb514088962a"
+  "hash": "2040a08e5b76c408fdfc69158a67c4d6e69ca3a0c8c903870a159d9257c28ceb"
 }
