@@ -1,7 +1,7 @@
 {
   "name": "Everforest Dark Hard",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#2E383C",
   "color_02": "#E67E80",
   "color_03": "#A7C080",
@@ -21,5 +21,5 @@
   "background": "#272E33",
   "foreground": "#D3C6AA",
   "cursor": "#D3C6AA",
-  "hash": "ef9d1f6ea1bf91bddc4e2a4b3376bfb24026eade7118678c4419355e6f09b1ad"
+  "hash": "ea1a336212e8194961d48a83cb393471d1caff4be3dfd2165209f398206063ba"
 }

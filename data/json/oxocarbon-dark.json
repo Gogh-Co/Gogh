@@ -1,7 +1,7 @@
 {
   "name": "Oxocarbon Dark",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#262626",
   "color_02": "#EE5396",
   "color_03": "#42BE65",
@@ -21,5 +21,5 @@
   "background": "#161616",
   "foreground": "#FFFFFF",
   "cursor": "#6F6F6F",
-  "hash": "f6ad57d5c6d4de5a3f4b8ccf890a97a893ea4713ecf1a71460a76da66f140bb2"
+  "hash": "447b609a861efc56b096af87225da03296e36d8c65d88e228a735104cccade68"
 }

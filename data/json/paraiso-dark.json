@@ -1,7 +1,7 @@
 {
   "name": "Paraiso Dark",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#2F1E2E",
   "color_02": "#EF6155",
   "color_03": "#48B685",
@@ -21,5 +21,5 @@
   "background": "#2F1E2E",
   "foreground": "#A39E9B",
   "cursor": "#A39E9B",
-  "hash": "e4f14cc2139f65400924ea792843eebb84b9c108181b261ebca1c0e87da27940"
+  "hash": "e02ff89e125bf1b20563c584f45f5bffa31771a24fe5daa1f6e1318e92a1abe3"
 }

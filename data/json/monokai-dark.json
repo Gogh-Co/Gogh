@@ -1,7 +1,7 @@
 {
   "name": "Monokai Dark",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#75715E",
   "color_02": "#F92672",
   "color_03": "#A6E22E",
@@ -21,5 +21,5 @@
   "background": "#272822",
   "foreground": "#F8F8F2",
   "cursor": "#F8F8F2",
-  "hash": "ecf4c697c41e26d0a56b18733b9fe6cf0356d9ef7f1303ecb4702883710320f5"
+  "hash": "6637d1559d22a01ab8508d753d607c4362602f7c112fcb6d37894968ab1e0711"
 }

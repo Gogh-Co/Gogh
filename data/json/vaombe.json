@@ -1,7 +1,7 @@
 {
   "name": "Vaombe",
   "author": "Daniel Perez (https://www.github.com/sysaloe)",
-  "variant": "Dark",
+  "variant": "dark",
   "color_01": "#111413",
   "color_02": "#8f3232",
   "color_03": "#3b5c3b",
@@ -21,5 +21,5 @@
   "background": "#010a08",
   "foreground": "#f5fffd",
   "cursor": "#9df5e2",
-  "hash": "459570cea9e0217ee64863c8622587796692885187e0b224a2d577ca0781ec84"
+  "hash": "00edeb85138240f6b926d793e5eb400a58aa770506590aaa9d6b877bfad24917"
 }

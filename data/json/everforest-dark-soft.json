@@ -1,7 +1,7 @@
 {
   "name": "Everforest Dark Soft",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#3A464C",
   "color_02": "#E67E80",
   "color_03": "#A7C080",
@@ -21,5 +21,5 @@
   "background": "#333C43",
   "foreground": "#D3C6AA",
   "cursor": "#D3C6AA",
-  "hash": "84a0a49c3418d527c391dbb6eaffc0f567abb71066a45f8e4f65e64d43513bca"
+  "hash": "8104f0a26698fc55d24bd2dde45df7826744fefa3827e81dac7ac658243de6f7"
 }

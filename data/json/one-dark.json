@@ -1,7 +1,7 @@
 {
   "name": "One Dark",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#E06C75",
   "color_03": "#98C379",
@@ -21,5 +21,5 @@
   "background": "#1E2127",
   "foreground": "#5C6370",
   "cursor": "#5C6370",
-  "hash": "f289744cb4e19c902480ec1efca7dc65feb098c8d3a2d3368063027162c028ca"
+  "hash": "80876446c732ee6e0edd587927f96274c71e276146b0bc5ce8443027450c3d7a"
 }

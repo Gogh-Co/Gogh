@@ -1,7 +1,7 @@
 {
   "name": "Google Dark",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#202124",
   "color_02": "#EA4335",
   "color_03": "#34A853",
@@ -21,5 +21,5 @@
   "background": "#202124",
   "foreground": "#E8EAED",
   "cursor": "#E8EAED",
-  "hash": "506e5804eac6bcae187383fd4768c2b026bc734b1d4107fcd1a69cfcaee9b31f"
+  "hash": "ce43e1f64fec7f9150d77401ebe8f11b508ecd340eb9ad155be861be0abdd96a"
 }

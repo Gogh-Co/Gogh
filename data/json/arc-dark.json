@@ -1,7 +1,7 @@
 {
   "name": "Arc Dark",
   "author": "https://hesamrad.com",
-  "variant": "Dark",
+  "variant": "dark",
   "color_01": "#0D1117",
   "color_02": "#C32424",
   "color_03": "#24C391",
@@ -21,5 +21,5 @@
   "background": "#0D1117",
   "foreground": "#9198A1",
   "cursor": "#00FF00",
-  "hash": "a64410dd4d92d943cfba4d4c182220613a9692c522c760a6f9435e0d948c39af"
+  "hash": "ecb062cba4992858dc1d0cd2bfa91976f6b5bb5e5f89406a2f4c84b91b338026"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Gruvbox Dark",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#282828",
   "color_02": "#CC241D",
   "color_03": "#98971A",
@@ -21,5 +21,5 @@
   "background": "#282828",
   "foreground": "#EBDBB2",
   "cursor": "#EBDBB2",
-  "hash": "95b37bba530d0f04eb659fdfdad5197d23ffe2f032a978805c11724d3845c139"
+  "hash": "12b2430266afabc534de0f188bef7819c4def673e404b3079a7665a1a7392378"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Selenized Dark",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#184956",
   "color_02": "#fa5750",
   "color_03": "#75b938",
@@ -21,5 +21,5 @@
   "background": "#103c48",
   "foreground": "#adbcbc",
   "cursor": "#cad8d9",
-  "hash": "66944c11a83d37f07bf42177936a33756a0cf528477744d9215be584dd6d7765"
+  "hash": "7c69e18dca2e882929b42bfbdfb8d922d9f3740a6c300bc28d900dba06fa1341"
 }

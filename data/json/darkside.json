@@ -1,7 +1,7 @@
 {
   "name": "Darkside",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#E8341C",
   "color_03": "#68C256",
@@ -21,5 +21,5 @@
   "background": "#222324",
   "foreground": "#BABABA",
   "cursor": "#BABABA",
-  "hash": "e46d221283d7b6d325c07a10ce28c30f1a1b07e86c8082ff52fb3c798253eb18"
+  "hash": "af42bd3fc0bd85a1a2f292300cbbe12aa4ee77ae26fb0ad751a747ba9a114a80"
 }

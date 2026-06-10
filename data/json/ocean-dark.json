@@ -1,7 +1,7 @@
 {
   "name": "Ocean Dark",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#4F4F4F",
   "color_02": "#AF4B57",
   "color_03": "#AFD383",
@@ -21,5 +21,5 @@
   "background": "#1C1F27",
   "foreground": "#979CAC",
   "cursor": "#979CAC",
-  "hash": "f1d5bdaed7f8bac55296bf32e3fd2898790bf1c0a18b29917e3d7c46f4f08f71"
+  "hash": "5f5cdf7e8016fe2e52003d55be5ea6708668fd00ce215e3b8848ec27415c7587"
 }

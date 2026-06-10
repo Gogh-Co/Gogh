@@ -1,7 +1,7 @@
 {
   "name": "Arc Light",
   "author": "https://hesamrad.com",
-  "variant": "Light",
+  "variant": "light",
   "color_01": "#0D1117",
   "color_02": "#C32424",
   "color_03": "#24C391",
@@ -21,5 +21,5 @@
   "background": "#E8ECF2",
   "foreground": "#333333",
   "cursor": "#00FF00",
-  "hash": "fc0fa92a1a7815696117a51815f2be600ca7cf41649d1fc5a5b1b289691a9778"
+  "hash": "83308f91bba601aae5f54dd9e9be8bde2661fe87765064dade976be97780c3ab"
 }

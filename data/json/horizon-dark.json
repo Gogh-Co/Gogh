@@ -1,7 +1,7 @@
 {
   "name": "Horizon Dark",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#16161C",
   "color_02": "#E95678",
   "color_03": "#29D398",
@@ -21,5 +21,5 @@
   "background": "#1C1E26",
   "foreground": "#FDF0ED",
   "cursor": "#FDF0ED",
-  "hash": "67050e41df2d3e977de6140c3cddf98066c9bc1b2dadba24ccfdd4a911922393"
+  "hash": "7d158f00e50a0730c4062c676a1b27c433fe4c3bdafb62b35303e946fee831fe"
 }

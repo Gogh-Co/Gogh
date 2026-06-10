@@ -227,7 +227,7 @@
   {
     "name": "Arc Dark",
     "author": "https://hesamrad.com",
-    "variant": "Dark",
+    "variant": "dark",
     "color_01": "#0D1117",
     "color_02": "#C32424",
     "color_03": "#24C391",
@@ -247,12 +247,12 @@
     "background": "#0D1117",
     "foreground": "#9198A1",
     "cursor": "#00FF00",
-    "hash": "a64410dd4d92d943cfba4d4c182220613a9692c522c760a6f9435e0d948c39af"
+    "hash": "ecb062cba4992858dc1d0cd2bfa91976f6b5bb5e5f89406a2f4c84b91b338026"
   },
   {
     "name": "Arc Light",
     "author": "https://hesamrad.com",
-    "variant": "Light",
+    "variant": "light",
     "color_01": "#0D1117",
     "color_02": "#C32424",
     "color_03": "#24C391",
@@ -272,7 +272,7 @@
     "background": "#E8ECF2",
     "foreground": "#333333",
     "cursor": "#00FF00",
-    "hash": "fc0fa92a1a7815696117a51815f2be600ca7cf41649d1fc5a5b1b289691a9778"
+    "hash": "83308f91bba601aae5f54dd9e9be8bde2661fe87765064dade976be97780c3ab"
   },
   {
     "name": "Argonaut",
@@ -2727,7 +2727,7 @@
   {
     "name": "Darkside",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#000000",
     "color_02": "#E8341C",
     "color_03": "#68C256",
@@ -2747,7 +2747,7 @@
     "background": "#222324",
     "foreground": "#BABABA",
     "cursor": "#BABABA",
-    "hash": "e46d221283d7b6d325c07a10ce28c30f1a1b07e86c8082ff52fb3c798253eb18"
+    "hash": "af42bd3fc0bd85a1a2f292300cbbe12aa4ee77ae26fb0ad751a747ba9a114a80"
   },
   {
     "name": "Dehydration",
@@ -3102,7 +3102,7 @@
   {
     "name": "Everforest Dark Hard",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#2E383C",
     "color_02": "#E67E80",
     "color_03": "#A7C080",
@@ -3122,12 +3122,12 @@
     "background": "#272E33",
     "foreground": "#D3C6AA",
     "cursor": "#D3C6AA",
-    "hash": "ef9d1f6ea1bf91bddc4e2a4b3376bfb24026eade7118678c4419355e6f09b1ad"
+    "hash": "ea1a336212e8194961d48a83cb393471d1caff4be3dfd2165209f398206063ba"
   },
   {
     "name": "Everforest Dark Medium",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#343F44",
     "color_02": "#E67E80",
     "color_03": "#A7C080",
@@ -3147,12 +3147,12 @@
     "background": "#2D353B",
     "foreground": "#D3C6AA",
     "cursor": "#D3C6AA",
-    "hash": "bf786cb5596774fef108ba49a29b6fd53584f053ea78ca2023a585cfdb9d0f92"
+    "hash": "e29af56ae85f42e26fe09cb05ab888d9be6f7e20ab572f6d13b7dbd8ecf42475"
   },
   {
     "name": "Everforest Dark Soft",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#3A464C",
     "color_02": "#E67E80",
     "color_03": "#A7C080",
@@ -3172,7 +3172,7 @@
     "background": "#333C43",
     "foreground": "#D3C6AA",
     "cursor": "#D3C6AA",
-    "hash": "84a0a49c3418d527c391dbb6eaffc0f567abb71066a45f8e4f65e64d43513bca"
+    "hash": "8104f0a26698fc55d24bd2dde45df7826744fefa3827e81dac7ac658243de6f7"
   },
   {
     "name": "Everforest Light Hard",
@@ -3277,7 +3277,7 @@
   {
     "name": "Fairy Floss Dark",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#42395D",
     "color_02": "#A8757B",
     "color_03": "#FF857F",
@@ -3297,7 +3297,7 @@
     "background": "#42395D",
     "foreground": "#C2FFDF",
     "cursor": "#FFB8D1",
-    "hash": "e959da5950a5d8c0587aca18edd70389162179608a374761d23ccc73b769c13e"
+    "hash": "52d71a6734eb78a8908fa1473d2a232aead5181cd726639756be5c93f4bf4bdc"
   },
   {
     "name": "Fishtank",
@@ -3402,7 +3402,7 @@
   {
     "name": "Flexoki Dark",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#282726",
     "color_02": "#AF3029",
     "color_03": "#66800B",
@@ -3422,7 +3422,7 @@
     "background": "#100F0F",
     "foreground": "#878580",
     "cursor": "#CECDC3",
-    "hash": "030471476a25876884d04b100e82f8e5476c57c6745999505c4ee3f79abcac06"
+    "hash": "9d60d74dbb0869b1f920ea9f054d13f8e50feb4e7880f3b38846f50e99abca7c"
   },
   {
     "name": "Flexoki Light",
@@ -3602,7 +3602,7 @@
   {
     "name": "Github Dark",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#000000",
     "color_02": "#F78166",
     "color_03": "#56D364",
@@ -3622,7 +3622,7 @@
     "background": "#101216",
     "foreground": "#8B949E",
     "cursor": "#C9D1D9",
-    "hash": "d75dd30bccb7a1fea7598bd03375ba6b108b20e819716f02cbb1f86032266f56"
+    "hash": "aba4b72eefb859e2ff4166809a63b1b18e91d6a5c5b731ec67c24cce37dee58a"
   },
   {
     "name": "Github Light",
@@ -3702,7 +3702,7 @@
   {
     "name": "Google Dark",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#202124",
     "color_02": "#EA4335",
     "color_03": "#34A853",
@@ -3722,7 +3722,7 @@
     "background": "#202124",
     "foreground": "#E8EAED",
     "cursor": "#E8EAED",
-    "hash": "506e5804eac6bcae187383fd4768c2b026bc734b1d4107fcd1a69cfcaee9b31f"
+    "hash": "ce43e1f64fec7f9150d77401ebe8f11b508ecd340eb9ad155be861be0abdd96a"
   },
   {
     "name": "Google Light",
@@ -3852,7 +3852,7 @@
   {
     "name": "Gruvbox Dark",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#282828",
     "color_02": "#CC241D",
     "color_03": "#98971A",
@@ -3872,12 +3872,12 @@
     "background": "#282828",
     "foreground": "#EBDBB2",
     "cursor": "#EBDBB2",
-    "hash": "95b37bba530d0f04eb659fdfdad5197d23ffe2f032a978805c11724d3845c139"
+    "hash": "12b2430266afabc534de0f188bef7819c4def673e404b3079a7665a1a7392378"
   },
   {
     "name": "Gruvbox Material Dark",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#3C3836",
     "color_02": "#EA6962",
     "color_03": "#A9B665",
@@ -3897,7 +3897,7 @@
     "background": "#282828",
     "foreground": "#D4BE98",
     "cursor": "#D4BE98",
-    "hash": "b4215026b0d70de8f2b8fab353cbd3ca84473942d88e9b03d582691d0907d037"
+    "hash": "1c7226b979b93b2bbc552665c218879d61a313ca3400fb07971e6f31045ece4e"
   },
   {
     "name": "Gruvbox Material Light",
@@ -4002,7 +4002,7 @@
   {
     "name": "Hemisu Dark",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#444444",
     "color_02": "#FF0054",
     "color_03": "#B1D630",
@@ -4022,7 +4022,7 @@
     "background": "#000000",
     "foreground": "#FFFFFF",
     "cursor": "#BAFFAA",
-    "hash": "05aece8e31f9d33e45bfbded758642246a252b8f96d05e11385168776f4085d9"
+    "hash": "a983879a82454eec927bb736cb3200b15b829a757e3fcc449384fb57c1f404a9"
   },
   {
     "name": "Hemisu Light",
@@ -4202,7 +4202,7 @@
   {
     "name": "Horizon Dark",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#16161C",
     "color_02": "#E95678",
     "color_03": "#29D398",
@@ -4222,7 +4222,7 @@
     "background": "#1C1E26",
     "foreground": "#FDF0ED",
     "cursor": "#FDF0ED",
-    "hash": "67050e41df2d3e977de6140c3cddf98066c9bc1b2dadba24ccfdd4a911922393"
+    "hash": "7d158f00e50a0730c4062c676a1b27c433fe4c3bdafb62b35303e946fee831fe"
   },
   {
     "name": "Hurtado",
@@ -4802,7 +4802,7 @@
   {
     "name": "Lunaria Dark",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#36464E",
     "color_02": "#846560",
     "color_03": "#809984",
@@ -4822,7 +4822,7 @@
     "background": "#36464E",
     "foreground": "#CACED8",
     "cursor": "#CACED8",
-    "hash": "b0f1c5950411a4dd3046df3330dd244c023b849916e950b4dc15e0a7da8d1df0"
+    "hash": "996b6564a628ecd50d99cf70f8bdf6682be355f911496f508e6309c5f26be4f4"
   },
   {
     "name": "Lunaria Eclipse",
@@ -5027,7 +5027,7 @@
   {
     "name": "Miasma",
     "author": "Amir Ehsan (https://github.com/EhsanAhmadzadeh)",
-    "variant": "Dark",
+    "variant": "dark",
     "color_01": "#222222",
     "color_02": "#685742",
     "color_03": "#5f875f",
@@ -5047,7 +5047,7 @@
     "background": "#222222",
     "foreground": "#c2c2b0",
     "cursor": "#c2c2b0",
-    "hash": "b2f9ff625989268efb1aff652fbfc54716c19c8987e928a38a1285ed1aaaf2c6"
+    "hash": "e500e3baa211aa3020e1fe2bc33449ceafdf4553b78645965541e65ea32f52c7"
   },
   {
     "name": "Minimalist Dark",
@@ -5427,7 +5427,7 @@
   {
     "name": "Monokai Dark",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#75715E",
     "color_02": "#F92672",
     "color_03": "#A6E22E",
@@ -5447,7 +5447,7 @@
     "background": "#272822",
     "foreground": "#F8F8F2",
     "cursor": "#F8F8F2",
-    "hash": "ecf4c697c41e26d0a56b18733b9fe6cf0356d9ef7f1303ecb4702883710320f5"
+    "hash": "6637d1559d22a01ab8508d753d607c4362602f7c112fcb6d37894968ab1e0711"
   },
   {
     "name": "Monokai Pro",
@@ -6077,7 +6077,7 @@
   {
     "name": "Ocean Dark",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#4F4F4F",
     "color_02": "#AF4B57",
     "color_03": "#AFD383",
@@ -6097,7 +6097,7 @@
     "background": "#1C1F27",
     "foreground": "#979CAC",
     "cursor": "#979CAC",
-    "hash": "f1d5bdaed7f8bac55296bf32e3fd2898790bf1c0a18b29917e3d7c46f4f08f71"
+    "hash": "5f5cdf7e8016fe2e52003d55be5ea6708668fd00ce215e3b8848ec27415c7587"
   },
   {
     "name": "Oceanic Next",
@@ -6177,7 +6177,7 @@
   {
     "name": "One Dark",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#000000",
     "color_02": "#E06C75",
     "color_03": "#98C379",
@@ -6197,7 +6197,7 @@
     "background": "#1E2127",
     "foreground": "#5C6370",
     "cursor": "#5C6370",
-    "hash": "f289744cb4e19c902480ec1efca7dc65feb098c8d3a2d3368063027162c028ca"
+    "hash": "80876446c732ee6e0edd587927f96274c71e276146b0bc5ce8443027450c3d7a"
   },
   {
     "name": "One Half Black",
@@ -6252,7 +6252,7 @@
   {
     "name": "Oxocarbon Dark",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#262626",
     "color_02": "#EE5396",
     "color_03": "#42BE65",
@@ -6272,7 +6272,7 @@
     "background": "#161616",
     "foreground": "#FFFFFF",
     "cursor": "#6F6F6F",
-    "hash": "f6ad57d5c6d4de5a3f4b8ccf890a97a893ea4713ecf1a71460a76da66f140bb2"
+    "hash": "447b609a861efc56b096af87225da03296e36d8c65d88e228a735104cccade68"
   },
   {
     "name": "Palenight",
@@ -6377,7 +6377,7 @@
   {
     "name": "Papercolor Dark",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#1C1C1C",
     "color_02": "#AF005F",
     "color_03": "#5FAF00",
@@ -6397,7 +6397,7 @@
     "background": "#1C1C1C",
     "foreground": "#D0D0D0",
     "cursor": "#D0D0D0",
-    "hash": "82827ee4b079de4edac3155aba0730cdd986e35ba56caf11ea3b68eae84f4232"
+    "hash": "ca0d3dc4cb840d19963d0248a2952e0127df98335138d7e1257afafc4fecf1a8"
   },
   {
     "name": "Papercolor Light",
@@ -6427,7 +6427,7 @@
   {
     "name": "Paraiso Dark",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#2F1E2E",
     "color_02": "#EF6155",
     "color_03": "#48B685",
@@ -6447,7 +6447,7 @@
     "background": "#2F1E2E",
     "foreground": "#A39E9B",
     "cursor": "#A39E9B",
-    "hash": "e4f14cc2139f65400924ea792843eebb84b9c108181b261ebca1c0e87da27940"
+    "hash": "e02ff89e125bf1b20563c584f45f5bffa31771a24fe5daa1f6e1318e92a1abe3"
   },
   {
     "name": "Paul Millr",
@@ -6477,7 +6477,7 @@
   {
     "name": "Pencil Dark",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#212121",
     "color_02": "#C30771",
     "color_03": "#10A778",
@@ -6497,7 +6497,7 @@
     "background": "#212121",
     "foreground": "#F1F1F1",
     "cursor": "#F1F1F1",
-    "hash": "81d8d9bae5ad7cec12fc998491380374981b6957215e4fe0c83b8d1996ed9bfb"
+    "hash": "9c823f683f0f5aaa44aecc939f1de94584dcf0c2b63d1e8d3621eb0cb7a8dd92"
   },
   {
     "name": "Pencil Light",
@@ -7027,7 +7027,7 @@
   {
     "name": "Selenized Dark",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#184956",
     "color_02": "#fa5750",
     "color_03": "#75b938",
@@ -7047,7 +7047,7 @@
     "background": "#103c48",
     "foreground": "#adbcbc",
     "cursor": "#cad8d9",
-    "hash": "66944c11a83d37f07bf42177936a33756a0cf528477744d9215be584dd6d7765"
+    "hash": "7c69e18dca2e882929b42bfbdfb8d922d9f3740a6c300bc28d900dba06fa1341"
   },
   {
     "name": "Selenized Light",
@@ -7352,7 +7352,7 @@
   {
     "name": "Solarized Dark",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#073642",
     "color_02": "#DC322F",
     "color_03": "#859900",
@@ -7372,12 +7372,12 @@
     "background": "#002B36",
     "foreground": "#839496",
     "cursor": "#839496",
-    "hash": "f76f6aab437396f3ee629faa9781d1a63cf4b8041e18a19321179e2d8009fa0d"
+    "hash": "867974895a81b9337ff99fd41a4960064905e360bfb74cb87a950cb314b9aa84"
   },
   {
     "name": "Solarized Dark Higher Contrast",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#002831",
     "color_02": "#D11C24",
     "color_03": "#6CBE6C",
@@ -7397,7 +7397,7 @@
     "background": "#001E27",
     "foreground": "#9CC2C3",
     "cursor": "#9CC2C3",
-    "hash": "555ec1c51af728e7d651d9944bc342c59af77bce986dbf16ba8877abb23b2fda"
+    "hash": "106b2f88986f11794108816e0ed4498e787807be7b82e7381607347c16b0cb7a"
   },
   {
     "name": "Solarized Light",
@@ -8302,7 +8302,7 @@
   {
     "name": "Terminix Dark",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#282A2E",
     "color_02": "#A54242",
     "color_03": "#A1B56C",
@@ -8322,7 +8322,7 @@
     "background": "#091116",
     "foreground": "#868A8C",
     "cursor": "#868A8C",
-    "hash": "1b9da2122161d3979278d069a21c51dbd769d08149975cbfdcd65a239065e4ea"
+    "hash": "7544f757adf84b8a69eac2fe490edcb537dadc167f2d811a0df05cbf9e4c4f49"
   },
   {
     "name": "Thayer Bright",
@@ -8802,7 +8802,7 @@
   {
     "name": "Vaombe",
     "author": "Daniel Perez (https://www.github.com/sysaloe)",
-    "variant": "Dark",
+    "variant": "dark",
     "color_01": "#111413",
     "color_02": "#8f3232",
     "color_03": "#3b5c3b",
@@ -8822,7 +8822,7 @@
     "background": "#010a08",
     "foreground": "#f5fffd",
     "cursor": "#9df5e2",
-    "hash": "459570cea9e0217ee64863c8622587796692885187e0b224a2d577ca0781ec84"
+    "hash": "00edeb85138240f6b926d793e5eb400a58aa770506590aaa9d6b877bfad24917"
   },
   {
     "name": "Vaughn",
@@ -8877,7 +8877,7 @@
   {
     "name": "Vs Code Dark+",
     "author": "",
-    "variant": "",
+    "variant": "dark",
     "color_01": "#6A787A",
     "color_02": "#E9653B",
     "color_03": "#39E9A8",
@@ -8897,7 +8897,7 @@
     "background": "#1E1E1E",
     "foreground": "#CCCCCC",
     "cursor": "#CCCCCC",
-    "hash": "e795c16ad4368b11ac8f3eb28ad2adfe464e676ad9cc9e9514d93c94b0a894ae"
+    "hash": "9111bfaa4ae3c3f9b769474f188725d8f63b8f861027c088e473119309c0c5b7"
   },
   {
     "name": "Vs Code Light+",

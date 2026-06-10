@@ -1,7 +1,7 @@
 {
   "name": "Papercolor Dark",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#1C1C1C",
   "color_02": "#AF005F",
   "color_03": "#5FAF00",
@@ -21,5 +21,5 @@
   "background": "#1C1C1C",
   "foreground": "#D0D0D0",
   "cursor": "#D0D0D0",
-  "hash": "82827ee4b079de4edac3155aba0730cdd986e35ba56caf11ea3b68eae84f4232"
+  "hash": "ca0d3dc4cb840d19963d0248a2952e0127df98335138d7e1257afafc4fecf1a8"
 }

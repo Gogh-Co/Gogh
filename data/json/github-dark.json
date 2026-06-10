@@ -1,7 +1,7 @@
 {
   "name": "Github Dark",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#000000",
   "color_02": "#F78166",
   "color_03": "#56D364",
@@ -21,5 +21,5 @@
   "background": "#101216",
   "foreground": "#8B949E",
   "cursor": "#C9D1D9",
-  "hash": "d75dd30bccb7a1fea7598bd03375ba6b108b20e819716f02cbb1f86032266f56"
+  "hash": "aba4b72eefb859e2ff4166809a63b1b18e91d6a5c5b731ec67c24cce37dee58a"
 }

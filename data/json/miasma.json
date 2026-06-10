@@ -1,7 +1,7 @@
 {
   "name": "Miasma",
   "author": "Amir Ehsan (https://github.com/EhsanAhmadzadeh)",
-  "variant": "Dark",
+  "variant": "dark",
   "color_01": "#222222",
   "color_02": "#685742",
   "color_03": "#5f875f",
@@ -21,5 +21,5 @@
   "background": "#222222",
   "foreground": "#c2c2b0",
   "cursor": "#c2c2b0",
-  "hash": "b2f9ff625989268efb1aff652fbfc54716c19c8987e928a38a1285ed1aaaf2c6"
+  "hash": "e500e3baa211aa3020e1fe2bc33449ceafdf4553b78645965541e65ea32f52c7"
 }

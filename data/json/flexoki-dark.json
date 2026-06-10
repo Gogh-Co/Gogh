@@ -1,7 +1,7 @@
 {
   "name": "Flexoki Dark",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#282726",
   "color_02": "#AF3029",
   "color_03": "#66800B",
@@ -21,5 +21,5 @@
   "background": "#100F0F",
   "foreground": "#878580",
   "cursor": "#CECDC3",
-  "hash": "030471476a25876884d04b100e82f8e5476c57c6745999505c4ee3f79abcac06"
+  "hash": "9d60d74dbb0869b1f920ea9f054d13f8e50feb4e7880f3b38846f50e99abca7c"
 }

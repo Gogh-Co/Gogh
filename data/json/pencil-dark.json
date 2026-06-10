@@ -1,7 +1,7 @@
 {
   "name": "Pencil Dark",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#212121",
   "color_02": "#C30771",
   "color_03": "#10A778",
@@ -21,5 +21,5 @@
   "background": "#212121",
   "foreground": "#F1F1F1",
   "cursor": "#F1F1F1",
-  "hash": "81d8d9bae5ad7cec12fc998491380374981b6957215e4fe0c83b8d1996ed9bfb"
+  "hash": "9c823f683f0f5aaa44aecc939f1de94584dcf0c2b63d1e8d3621eb0cb7a8dd92"
 }

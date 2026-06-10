@@ -1,7 +1,7 @@
 {
   "name": "Solarized Dark",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#073642",
   "color_02": "#DC322F",
   "color_03": "#859900",
@@ -21,5 +21,5 @@
   "background": "#002B36",
   "foreground": "#839496",
   "cursor": "#839496",
-  "hash": "f76f6aab437396f3ee629faa9781d1a63cf4b8041e18a19321179e2d8009fa0d"
+  "hash": "867974895a81b9337ff99fd41a4960064905e360bfb74cb87a950cb314b9aa84"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Everforest Dark Medium",
   "author": "",
-  "variant": "",
+  "variant": "dark",
   "color_01": "#343F44",
   "color_02": "#E67E80",
   "color_03": "#A7C080",
@@ -21,5 +21,5 @@
   "background": "#2D353B",
   "foreground": "#D3C6AA",
   "cursor": "#D3C6AA",
-  "hash": "bf786cb5596774fef108ba49a29b6fd53584f053ea78ca2023a585cfdb9d0f92"
+  "hash": "e29af56ae85f42e26fe09cb05ab888d9be6f7e20ab572f6d13b7dbd8ecf42475"
 }
