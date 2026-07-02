@@ -312,6 +312,7 @@ declare -a THEMES=(
   'selenized-white.sh'
   'seoul256-light.sh'
   'seoul256.sh'
+  'seoulism.sh'
   'seti.sh'
   'shaman.sh'
   'shel.sh'
