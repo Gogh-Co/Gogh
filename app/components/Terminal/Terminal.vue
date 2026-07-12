@@ -228,6 +228,62 @@
                 <span v-else :style="'background-color: ' + theme.color_16"></span>
             </div>
 
+            <div class="body__bar body__bar--theme">
+                <color-picker
+                    v-if="enableColorPicker"
+                    :model-value="theme.background"
+                    with-hex-input
+                    :with-colors-history="6"
+                    storage-key="terminal-background"
+                    @update:modelValue="emitColor('background', $event)"
+                    v-slot="{ show }"
+                >
+                    <button
+                        type="button"
+                        aria-label="Pick background color"
+                        data-tooltip="background"
+                        :style="'background-color: ' + theme.background"
+                        @click.stop.prevent="show($event)"
+                    ></button>
+                </color-picker>
+
+                <color-picker
+                    v-if="enableColorPicker"
+                    :model-value="theme.foreground"
+                    with-hex-input
+                    :with-colors-history="6"
+                    storage-key="terminal-foreground"
+                    @update:modelValue="emitColor('foreground', $event)"
+                    v-slot="{ show }"
+                >
+                    <button
+                        type="button"
+                        aria-label="Pick foreground color"
+                        data-tooltip="foreground"
+                        :style="'background-color: ' + theme.foreground"
+                        @click.stop.prevent="show($event)"
+                    ></button>
+                </color-picker>
+
+                <color-picker
+                    v-if="enableColorPicker"
+                    :model-value="theme.cursor"
+                    with-hex-input
+                    :with-colors-history="6"
+                    storage-key="terminal-cursor"
+                    @update:modelValue="emitColor('cursor', $event)"
+                    v-slot="{ show }"
+                >
+                    <button
+                        type="button"
+                        aria-label="Pick cursor color"
+                        data-tooltip="cursor"
+                        :style="'background-color: ' + theme.cursor"
+                        @click.stop.prevent="show($event)"
+                    ></button>
+                </color-picker>
+            </div>
+
             <div class="row">
                 <div class="col-sm-6 col-md-12 col-lg-6 col-xl-6">
                     <div class="body__txt">

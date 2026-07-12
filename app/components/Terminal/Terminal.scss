@@ -197,7 +197,30 @@
         }
 
         .body__bar--bottom {
-            margin: 0 0 30px;
+            margin: 0;
+        }
+
+        .body__bar--theme {
+            display: flex;
+            gap: 8px;
+            margin: 10px 0 30px;
+
+            > * {
+                width: 30px;
+                min-width: 30px;
+                height: 30px;
+                padding: 0;
+            }
+
+            > :not(span) > button {
+                display: block;
+                position: relative;
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                border: 0;
+                cursor: pointer;
+            }
         }
     }
 
@@ -221,6 +244,38 @@
                 border-color: #0d1926;
                 transform: scale(1.12);
                 box-shadow: 0 4px 10px rgba(13, 25, 38, 0.28);
+            }
+        }
+
+        .body__bar--theme {
+            > * > button::after {
+                position: absolute;
+                bottom: calc(100% + 8px);
+                left: 50%;
+                z-index: 3;
+                padding: 4px 7px;
+                border-radius: 3px;
+                background: #0d1926;
+                color: #fff;
+                content: attr(data-tooltip);
+                font-size: 1.1rem;
+                line-height: 1;
+                opacity: 0;
+                pointer-events: none;
+                transform: translate(-50%, 4px);
+                transition: opacity 0.16s ease, transform 0.16s ease;
+                white-space: nowrap;
+            }
+
+            > *:hover > button::after,
+            > * > button:focus-visible::after {
+                opacity: 1;
+                transform: translate(-50%, 0);
+            }
+
+            > * > button:focus-visible {
+                outline: 2px solid #0d1926;
+                outline-offset: 2px;
             }
         }
     }
