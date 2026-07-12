@@ -1,5 +1,11 @@
 <template>
-    <div class="terminal" :class="{ 'terminal--picker': enableColorPicker }">
+    <div
+        class="terminal"
+        :class="{
+            'terminal--picker': enableColorPicker,
+            'terminal--flat': flat,
+        }"
+    >
         <div class="bar">
             <div class="bar__title">
                 {{ theme.name }}
@@ -325,6 +331,10 @@ const props = defineProps({
         }),
     },
     enableColorPicker: {
+        type: Boolean,
+        default: false,
+    },
+    flat: {
         type: Boolean,
         default: false,
     },

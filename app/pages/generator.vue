@@ -1,7 +1,10 @@
 <template>
-    <Header />
+    <Header :background-color="siteBackgroundColor" />
 
-    <div class="gogh-content">
+    <div
+        class="gogh-content"
+        :style="{ '--site-background': siteBackgroundColor }"
+    >
         <div class="container generator-page">
             <div class="row">
                 <div class="col-md-12">
@@ -14,6 +17,7 @@
                     <Terminal
                         :theme="previewTheme"
                         :enable-color-picker="true"
+                        :flat="hasAdjustedSiteBackground"
                         @update-color="onTerminalColorUpdate"
                     />
                 </div>
@@ -21,13 +25,34 @@
 
             <div class="row terminal-actions-row">
                 <div class="col-md-12">
-                    <div class="terminal-actions">
+                    <div
+                        class="terminal-actions"
+                        :style="{
+                            '--generator-action-background': actionBackgroundColor,
+                            '--generator-action-foreground': actionForegroundColor,
+                        }"
+                    >
                         <Button class="btn" type="button" @click="downloadTheme">
                             Download YML
                         </Button>
                         <Button class="btn" type="button" @click="resetTheme">
                             Reset
                         </Button>
+                        <div class="site-background-control">
+                            <label for="site-background">Background</label>
+                            <span aria-hidden="true">Dark</span>
+                            <input
+                                id="site-background"
+                                v-model.number="siteBackgroundLightness"
+                                type="range"
+                                min="0"
+                                max="255"
+                                :aria-valuetext="siteBackgroundDescription"
+                                aria-label="Site background brightness, from dark to light"
+                                @input="hasAdjustedSiteBackground = true"
+                            >
+                            <span aria-hidden="true">Light</span>
+                        </div>
                     </div>
                     <p v-if="showRequiredError" class="required-note">
                         * Change Name and Author from the default values to download.
@@ -273,6 +298,21 @@ const DEFAULT_FORM = {
 };
 
 const form = reactive({ ...DEFAULT_FORM });
+const siteBackgroundLightness = ref(231);
+const hasAdjustedSiteBackground = ref(false);
+
+const siteBackgroundColor = computed(() => {
+    const value = Math.max(0, Math.min(255, siteBackgroundLightness.value));
+    return `rgb(${value}, ${value}, ${value})`;
+});
+
+const usesDarkBackground = computed(() => siteBackgroundLightness.value < 128);
+const actionBackgroundColor = computed(() => usesDarkBackground.value ? '#ffffff' : '#0d1926');
+const actionForegroundColor = computed(() => usesDarkBackground.value ? '#0d1926' : '#ffffff');
+const siteBackgroundDescription = computed(() => {
+    const percent = Math.round((siteBackgroundLightness.value / 255) * 100);
+    return `${percent}% light`;
+});
 
 const colorKeys = Array.from({ length: 16 }, (_, i) =>
   `color_${String(i + 1).padStart(2, '0')}`

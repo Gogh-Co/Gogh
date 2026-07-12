@@ -45,6 +45,11 @@
     margin: 0 0 50px;
     box-shadow: 5px 5px 11px #737373, -5px -5px 11px #b1b1b1;
     animation: slideIn ease 0.4s forwards;
+    transition: box-shadow 0.18s ease;
+
+    &.terminal--flat {
+        box-shadow: none;
+    }
 
     .btn--terminal {
         display: inline-block;

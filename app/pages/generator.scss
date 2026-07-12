@@ -15,6 +15,45 @@
     flex-wrap: wrap;
   }
 
+  .site-background-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 100%;
+    gap: 8px;
+    min-height: 34px;
+    padding: 0 10px;
+    border: 1px solid var(--generator-action-background, #0d1926);
+    background: transparent;
+    color: var(--generator-action-background, #0d1926);
+
+    label {
+      margin: 0;
+      color: inherit;
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+
+    span {
+      color: inherit;
+      font-size: 1.1rem;
+    }
+
+    input {
+      width: min(120px, 32vw);
+      accent-color: var(--generator-action-background, #0d1926);
+
+      &:focus-visible {
+        outline: 2px solid var(--generator-action-background, #0d1926);
+        outline-offset: 3px;
+      }
+    }
+
+    @media (min-width: 480px) {
+      flex-basis: auto;
+    }
+  }
+
   .required-note {
     margin: 10px 0 0;
     text-align: center;

@@ -3,6 +3,7 @@
     background-color: var(--gogh-header-background, #121f2a);
     align-items: center;
     justify-content: center;
+    transition: background-color 0.18s ease;
 
     .gogh-header__link {
         display: block;
