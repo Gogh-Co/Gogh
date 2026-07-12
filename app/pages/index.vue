@@ -186,7 +186,7 @@
                             @keydown.enter.prevent="openThemeLightbox(theme)"
                             @keydown.space.prevent="openThemeLightbox(theme)"
                         >
-                            <Terminal :theme="theme"></Terminal>
+                            <PreviewTerminal :theme="theme" />
                         </div>
                     </div>
                 </template>
@@ -210,7 +210,7 @@
 
 
             <div class="terminal-lightbox__content">
-                <Terminal :theme="lightboxTheme"></Terminal>
+                <PreviewTerminal :theme="lightboxTheme" />
 
                 <div v-if="lightboxTheme" class="code-wrap terminal-lightbox__install">
                     <div class="code-holder lightbox-code-holder">
@@ -235,7 +235,7 @@ import ClipboardJS from 'clipboard';
 import Prism from 'prismjs';
 import githubButtonsScript from '@/assets/static/buttons.js?raw';
 
-import Terminal from '@/components/Terminal/Terminal.vue';
+import PreviewTerminal from '@/components/Terminal/PreviewTerminal.vue';
 import Header from '@/components/Header/Header.vue';
 import ButtonFilter from '@/components/Buttons/ButtonFilter.vue';
 import Button from '@/components/Buttons/Button.vue';

@@ -5,6 +5,7 @@
             'terminal--picker': enableColorPicker,
             'terminal--flat': flat,
         }"
+        :style="{ '--terminal-picker-border': getContrastingBorderColor(theme.background) }"
     >
         <div class="bar">
             <div class="bar__title">
@@ -16,7 +17,12 @@
                 <span class="btn--terminal btn--close"></span>
             </div>
         </div>
-        <div class="body" :style="'background-color: ' + theme.background">
+        <div
+            class="body"
+            :style="{
+                backgroundColor: theme.background,
+            }"
+        >
             <div class="body__bar body__bar--top">
                 <color-picker
                     v-if="enableColorPicker"
@@ -228,9 +234,8 @@
                 <span v-else :style="'background-color: ' + theme.color_16"></span>
             </div>
 
-            <div class="body__bar body__bar--theme">
+            <div v-if="enableColorPicker" class="body__bar body__bar--theme">
                 <color-picker
-                    v-if="enableColorPicker"
                     :model-value="theme.background"
                     with-hex-input
                     :with-colors-history="6"
@@ -248,7 +253,6 @@
                 </color-picker>
 
                 <color-picker
-                    v-if="enableColorPicker"
                     :model-value="theme.foreground"
                     with-hex-input
                     :with-colors-history="6"
@@ -266,7 +270,6 @@
                 </color-picker>
 
                 <color-picker
-                    v-if="enableColorPicker"
                     :model-value="theme.cursor"
                     with-hex-input
                     :with-colors-history="6"
@@ -285,59 +288,27 @@
             </div>
 
             <div class="row">
-                <div class="col-sm-6 col-md-12 col-lg-6 col-xl-6">
+                <div
+                    v-for="column in colorKeyColumns"
+                    :key="column[0]"
+                    class="col-sm-6 col-md-12 col-lg-6 col-xl-6"
+                >
                     <div class="body__txt">
-                        <p :style="'color: ' + theme.color_01">
-                            <span> AaBbMmYyZz - {{ theme.color_01 }}</span>
-                        </p>
-                        <p :style="'color: ' + theme.color_02">
-                            <span> AaBbMmYyZz - {{ theme.color_02 }}</span>
-                        </p>
-                        <p :style="'color: ' + theme.color_03">
-                            <span> AaBbMmYyZz - {{ theme.color_03 }}</span>
-                        </p>
-                        <p :style="'color: ' + theme.color_04">
-                            <span> AaBbMmYyZz - {{ theme.color_04 }}</span>
-                        </p>
-                        <p :style="'color: ' + theme.color_05">
-                            <span> AaBbMmYyZz - {{ theme.color_05 }}</span>
-                        </p>
-                        <p :style="'color: ' + theme.color_06">
-                            <span> AaBbMmYyZz - {{ theme.color_06 }}</span>
-                        </p>
-                        <p :style="'color: ' + theme.color_07">
-                            <span> AaBbMmYyZz - {{ theme.color_07 }}</span>
-                        </p>
-                        <p :style="'color: ' + theme.color_08">
-                            <span> AaBbMmYyZz - {{ theme.color_08 }}</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-12 col-lg-6 col-xl-6">
-                    <div class="body__txt">
-                        <p :style="'color: ' + theme.color_09">
-                            <span> AaBbMmYyZz - {{ theme.color_09 }}</span>
-                        </p>
-                        <p :style="'color: ' + theme.color_10">
-                            <span> AaBbMmYyZz - {{ theme.color_10 }}</span>
-                        </p>
-                        <p :style="'color: ' + theme.color_11">
-                            <span> AaBbMmYyZz - {{ theme.color_11 }}</span>
-                        </p>
-                        <p :style="'color: ' + theme.color_12">
-                            <span> AaBbMmYyZz - {{ theme.color_12 }}</span>
-                        </p>
-                        <p :style="'color: ' + theme.color_13">
-                            <span> AaBbMmYyZz - {{ theme.color_13 }}</span>
-                        </p>
-                        <p :style="'color: ' + theme.color_14">
-                            <span> AaBbMmYyZz - {{ theme.color_14 }}</span>
-                        </p>
-                        <p :style="'color: ' + theme.color_15">
-                            <span> AaBbMmYyZz - {{ theme.color_15 }}</span>
-                        </p>
-                        <p :style="'color: ' + theme.color_16">
-                            <span> AaBbMmYyZz - {{ theme.color_16 }}</span>
+                        <p
+                            v-for="key in column"
+                            :key="key"
+                            :style="'color: ' + theme[key]"
+                        >
+                            <span>
+                                AaBbMmYyZz -
+                                <TerminalColorValue
+                                    v-if="enableColorPicker"
+                                    :color-key="key"
+                                    :value="theme[key]"
+                                    @update="emitColor(key, $event)"
+                                />
+                                <template v-else>{{ theme[key] }}</template>
+                            </span>
                         </p>
                     </div>
                 </div>
@@ -358,6 +329,12 @@
 </template>
 
 <script setup>
+import TerminalColorValue from './TerminalColorValue.vue';
+
+const colorKeys = Array.from({ length: 16 }, (_, index) =>
+    `color_${String(index + 1).padStart(2, '0')}`
+);
+const colorKeyColumns = [colorKeys.slice(0, 8), colorKeys.slice(8)];
 
 const props = defineProps({
     theme: {
@@ -397,6 +374,20 @@ const props = defineProps({
 });
 
 const emit = defineEmits(['update-color']);
+
+function getContrastingBorderColor(background) {
+    const hex = String(background || '').replace('#', '');
+    if (!/^[0-9a-fA-F]{6}$/.test(hex)) {
+        return '#ffffff';
+    }
+
+    const red = Number.parseInt(hex.slice(0, 2), 16);
+    const green = Number.parseInt(hex.slice(2, 4), 16);
+    const blue = Number.parseInt(hex.slice(4, 6), 16);
+    const perceivedBrightness = (red * 299 + green * 587 + blue * 114) / 1000;
+
+    return perceivedBrightness < 150 ? '#ffffff' : '#0d1926';
+}
 
 function emitColor(key, value) {
     emit('update-color', { key, value });

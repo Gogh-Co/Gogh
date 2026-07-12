@@ -14,9 +14,8 @@
 
             <div class="row terminal-row">
                 <div class="col-md-12">
-                    <Terminal
+                    <GeneratorTerminal
                         :theme="previewTheme"
-                        :enable-color-picker="true"
                         :flat="hasAdjustedSiteBackground"
                         @update-color="onTerminalColorUpdate"
                     />
@@ -52,6 +51,65 @@
                                 @input="hasAdjustedSiteBackground = true"
                             >
                             <span aria-hidden="true">Light</span>
+                        </div>
+                        <div class="theme-source-control" @focusout="onSourceFocusOut">
+                            <label for="theme-source-search">FROM:</label>
+                            <div class="theme-source-combobox">
+                                <input
+                                    id="theme-source-search"
+                                    v-model="sourceQuery"
+                                    type="search"
+                                    role="combobox"
+                                    aria-autocomplete="list"
+                                    aria-controls="theme-source-options"
+                                    :aria-expanded="sourceMenuOpen"
+                                    :aria-activedescendant="activeSourceOptionId"
+                                    autocomplete="off"
+                                    placeholder="Search themes"
+                                    @focus="openSourceMenu"
+                                    @input="onSourceInput"
+                                    @keydown.down.prevent="moveSourceOption(1)"
+                                    @keydown.up.prevent="moveSourceOption(-1)"
+                                    @keydown.enter.prevent="selectActiveSource"
+                                    @keydown.esc.prevent="closeSourceMenu"
+                                >
+                                <button
+                                    type="button"
+                                    class="theme-source-toggle"
+                                    aria-label="Toggle theme list"
+                                    :aria-expanded="sourceMenuOpen"
+                                    @click="toggleSourceMenu"
+                                >
+                                    <span aria-hidden="true">⌄</span>
+                                </button>
+                                <div
+                                    v-if="sourceMenuOpen"
+                                    id="theme-source-options"
+                                    class="theme-source-options"
+                                    role="listbox"
+                                >
+                                    <button
+                                        v-for="(theme, index) in filteredSourceThemes"
+                                        :id="`theme-source-option-${index}`"
+                                        :key="theme.name"
+                                        type="button"
+                                        role="option"
+                                        :aria-selected="theme.name === selectedSourceName"
+                                        :class="{ 'is-active': index === activeSourceIndex }"
+                                        @mousedown.prevent="selectSourceTheme(theme)"
+                                    >
+                                        <span
+                                            class="theme-source-swatch"
+                                            :style="{ backgroundColor: sanitizeHex(theme.background) }"
+                                            aria-hidden="true"
+                                        ></span>
+                                        {{ theme.name }}
+                                    </button>
+                                    <p v-if="!filteredSourceThemes.length" class="theme-source-empty">
+                                        No themes found
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <p v-if="showRequiredError" class="required-note">
@@ -264,40 +322,48 @@
 
 <script setup>
 import Header from '@/components/Header/Header.vue';
-import Terminal from '@/components/Terminal/Terminal.vue';
+import GeneratorTerminal from '@/components/Terminal/GeneratorTerminal.vue';
 import themeTemplate from '../../theme-template.yml?raw';
 import Button from '@/components/Buttons/Button.vue';
 
 const DEFAULT_NAME = 'My Theme';
 const DEFAULT_AUTHOR = 'Your Name (https://example.com)';
-const GENERATOR_STORAGE_KEY = 'gogh-generator-form-v1';
+const GENERATOR_STORAGE_KEY = 'gogh-generator-form-v2';
+const LEGACY_GENERATOR_STORAGE_KEY = 'gogh-generator-form-v1';
 
 const DEFAULT_FORM = {
   name: DEFAULT_NAME,
   author: DEFAULT_AUTHOR,
   variant: 'dark',
-  color_01: '#1f1f28',
-  color_02: '#e46876',
-  color_03: '#87a987',
-  color_04: '#e6c384',
-  color_05: '#7fb4ca',
-  color_06: '#957fb8',
-  color_07: '#7aa89f',
-  color_08: '#dcd7ba',
-  color_09: '#727169',
-  color_10: '#ff5d62',
-  color_11: '#98bb6c',
-  color_12: '#ffa066',
-  color_13: '#7fb4ca',
-  color_14: '#957fb8',
-  color_15: '#7aa89f',
-  color_16: '#c8c093',
-  background: '#1f1f28',
-  foreground: '#dcd7ba',
-  cursor: '#c8c093',
+  color_01: '#232323',
+  color_02: '#FF000F',
+  color_03: '#8CE10B',
+  color_04: '#FFB900',
+  color_05: '#008DF8',
+  color_06: '#6D43A6',
+  color_07: '#00D8EB',
+  color_08: '#FFFFFF',
+  color_09: '#444444',
+  color_10: '#FF2740',
+  color_11: '#ABE15B',
+  color_12: '#FFD242',
+  color_13: '#0092FF',
+  color_14: '#9A5FEB',
+  color_15: '#67FFF0',
+  color_16: '#FFFFFF',
+  background: '#0E1019',
+  foreground: '#FFFAF4',
+  cursor: '#FFFAF4',
 };
 
 const form = reactive({ ...DEFAULT_FORM });
+const { data: sourceThemesData } = await useFetch('/api/themes', {
+    default: () => [],
+});
+const sourceQuery = ref('Argonaut');
+const selectedSourceName = ref('Argonaut');
+const sourceMenuOpen = ref(false);
+const activeSourceIndex = ref(-1);
 const siteBackgroundLightness = ref(231);
 const hasAdjustedSiteBackground = ref(false);
 
@@ -318,6 +384,22 @@ const colorKeys = Array.from({ length: 16 }, (_, i) =>
   `color_${String(i + 1).padStart(2, '0')}`
 );
 const persistedColorKeys = [...colorKeys, 'background', 'foreground', 'cursor'];
+const sourceThemes = computed(() => Array.isArray(sourceThemesData.value) ? sourceThemesData.value : []);
+const filteredSourceThemes = computed(() => {
+    const query = sourceQuery.value.trim().toLocaleLowerCase();
+    if (!query || query === selectedSourceName.value.toLocaleLowerCase()) {
+        return sourceThemes.value;
+    }
+
+    return sourceThemes.value.filter((theme) =>
+        String(theme.name || '').toLocaleLowerCase().includes(query)
+    );
+});
+const activeSourceOptionId = computed(() =>
+    sourceMenuOpen.value && activeSourceIndex.value >= 0
+        ? `theme-source-option-${activeSourceIndex.value}`
+        : undefined
+);
 
 const colorKeysLeft = computed(() => colorKeys.slice(0, 8));
 const colorKeysRight = computed(() => colorKeys.slice(8));
@@ -414,8 +496,76 @@ function clearRequiredError() {
   showRequiredError.value = false;
 }
 
+function openSourceMenu() {
+    sourceMenuOpen.value = true;
+    activeSourceIndex.value = filteredSourceThemes.value.findIndex(
+        (theme) => theme.name === selectedSourceName.value
+    );
+}
+
+function closeSourceMenu() {
+    sourceMenuOpen.value = false;
+    activeSourceIndex.value = -1;
+}
+
+function toggleSourceMenu() {
+    if (sourceMenuOpen.value) {
+        closeSourceMenu();
+        return;
+    }
+
+    openSourceMenu();
+}
+
+function onSourceInput() {
+    sourceMenuOpen.value = true;
+    activeSourceIndex.value = filteredSourceThemes.value.length ? 0 : -1;
+}
+
+function moveSourceOption(direction) {
+    if (!sourceMenuOpen.value) {
+        openSourceMenu();
+    }
+
+    const count = filteredSourceThemes.value.length;
+    if (!count) {
+        activeSourceIndex.value = -1;
+        return;
+    }
+
+    activeSourceIndex.value = (activeSourceIndex.value + direction + count) % count;
+}
+
+function selectActiveSource() {
+    const theme = filteredSourceThemes.value[activeSourceIndex.value];
+    if (theme) {
+        selectSourceTheme(theme);
+    }
+}
+
+function selectSourceTheme(theme) {
+    persistedColorKeys.forEach((key) => {
+        form[key] = sanitizeHex(theme[key]);
+    });
+    form.variant = theme.variant === 'light' ? 'light' : 'dark';
+    selectedSourceName.value = theme.name;
+    sourceQuery.value = theme.name;
+    showRequiredError.value = false;
+    closeSourceMenu();
+}
+
+function onSourceFocusOut(event) {
+    if (!event.currentTarget.contains(event.relatedTarget)) {
+        closeSourceMenu();
+        sourceQuery.value = selectedSourceName.value;
+    }
+}
+
 function resetTheme() {
     Object.assign(form, DEFAULT_FORM);
+    selectedSourceName.value = 'Argonaut';
+    sourceQuery.value = 'Argonaut';
+    closeSourceMenu();
     showRequiredError.value = false;
 
     if (process.client) {
@@ -453,6 +603,7 @@ onMounted(() => {
         return;
     }
 
+    localStorage.removeItem(LEGACY_GENERATOR_STORAGE_KEY);
     const saved = localStorage.getItem(GENERATOR_STORAGE_KEY);
     if (!saved) {
         return;

@@ -54,6 +54,115 @@
     }
   }
 
+  .theme-source-control {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 100%;
+    gap: 8px;
+    min-height: 34px;
+    color: var(--generator-action-background, #0d1926);
+
+    label {
+      margin: 0;
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+
+    @media (min-width: 768px) {
+      flex-basis: auto;
+    }
+  }
+
+  .theme-source-combobox {
+    position: relative;
+    width: min(240px, 64vw);
+
+    > input {
+      width: 100%;
+      height: 34px;
+      padding: 5px 34px 5px 10px;
+      border: 1px solid var(--generator-action-background, #0d1926);
+      border-radius: 0;
+      outline: none;
+      background: transparent;
+      color: inherit;
+      font-size: 1.3rem;
+
+      &::-webkit-search-cancel-button {
+        display: none;
+      }
+
+      &:focus-visible {
+        box-shadow: 0 0 0 2px color-mix(in srgb, var(--generator-action-background, #0d1926) 30%, transparent);
+      }
+    }
+  }
+
+  .theme-source-toggle {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: 0;
+    border-left: 1px solid var(--generator-action-background, #0d1926);
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+    font-size: 1.8rem;
+    line-height: 1;
+  }
+
+  .theme-source-options {
+    position: absolute;
+    top: calc(100% + 5px);
+    right: 0;
+    left: 0;
+    z-index: 20;
+    max-height: 260px;
+    overflow-y: auto;
+    border: 1px solid #b2b2b2;
+    background: #fff;
+    box-shadow: 0 10px 24px rgba(13, 25, 38, 0.2);
+
+    > button {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      width: 100%;
+      padding: 8px 10px;
+      border: 0;
+      background: #fff;
+      color: #0d1926;
+      text-align: left;
+      cursor: pointer;
+      font-size: 1.3rem;
+
+      &:hover,
+      &.is-active,
+      &[aria-selected='true'] {
+        background: #e8edf1;
+      }
+    }
+  }
+
+  .theme-source-swatch {
+    width: 16px;
+    min-width: 16px;
+    height: 16px;
+    border: 1px solid #88939c;
+  }
+
+  .theme-source-empty {
+    margin: 0;
+    padding: 10px;
+    color: #595647;
+    font-size: 1.3rem;
+  }
+
   .required-note {
     margin: 10px 0 0;
     text-align: center;
