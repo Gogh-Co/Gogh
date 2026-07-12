@@ -27,6 +27,19 @@ export default defineNuxtConfig({
     },
   },
   vite: {
+    build: {
+      modulePreload: {
+        polyfill: false,
+      },
+    },
+    optimizeDeps: {
+      include: [
+        'chroma-js',
+        'clipboard',
+        'prismjs',
+        'prismjs/components/prism-bash',
+      ],
+    },
     server: {
       hmr: {
         host: 'localhost',

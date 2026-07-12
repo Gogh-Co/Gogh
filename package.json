@@ -10,17 +10,17 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@fontsource/roboto": "^5.2.9",
+    "@fontsource/roboto": "^5.2.10",
     "@morev/vue-transitions": "^3.0.5",
-    "axios": "^1.13.5",
+    "axios": "^1.18.1",
     "bootstrap": "^5.3.8",
     "chroma-js": "^3.2.0",
     "clipboard": "^2.0.11",
-    "nuxt": "^4.3.1",
+    "nuxt": "^4.4.8",
     "nuxt-color-picker": "^1.2.8",
     "prismjs": "^1.30.0",
-    "sass": "^1.97.3",
-    "vue": "^3.5.28",
-    "vue-router": "^4.6.4"
+    "sass": "^1.101.0",
+    "vue": "^3.5.39",
+    "vue-router": "^5.1.0"
   }
 }
