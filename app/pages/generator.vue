@@ -328,8 +328,6 @@ import Button from '@/components/Buttons/Button.vue';
 
 const DEFAULT_NAME = 'My Theme';
 const DEFAULT_AUTHOR = 'Your Name (https://example.com)';
-const GENERATOR_STORAGE_KEY = 'gogh-generator-form-v2';
-const LEGACY_GENERATOR_STORAGE_KEY = 'gogh-generator-form-v1';
 
 const DEFAULT_FORM = {
   name: DEFAULT_NAME,
@@ -567,10 +565,6 @@ function resetTheme() {
     sourceQuery.value = 'Argonaut';
     closeSourceMenu();
     showRequiredError.value = false;
-
-    if (process.client) {
-        localStorage.removeItem(GENERATOR_STORAGE_KEY);
-    }
 }
 
 function downloadTheme() {
@@ -599,57 +593,9 @@ function onTerminalColorUpdate({ key, value }) {
 }
 
 onMounted(() => {
-    if (!process.client) {
-        return;
-    }
-
-    localStorage.removeItem(LEGACY_GENERATOR_STORAGE_KEY);
-    const saved = localStorage.getItem(GENERATOR_STORAGE_KEY);
-    if (!saved) {
-        return;
-    }
-
-    try {
-        const parsed = JSON.parse(saved);
-        if (!parsed || typeof parsed !== 'object') {
-            return;
-        }
-
-        form.name = typeof parsed.name === 'string' ? parsed.name : DEFAULT_FORM.name;
-        form.author = typeof parsed.author === 'string' ? parsed.author : DEFAULT_FORM.author;
-        form.variant = parsed.variant === 'light' ? 'light' : 'dark';
-
-        persistedColorKeys.forEach((key) => {
-            if (typeof parsed[key] === 'string') {
-                form[key] = sanitizeHex(parsed[key]);
-            }
-        });
-    } catch {
-        localStorage.removeItem(GENERATOR_STORAGE_KEY);
-    }
+    localStorage.removeItem('gogh-generator-form-v1');
+    localStorage.removeItem('gogh-generator-form-v2');
 });
-
-watch(
-    form,
-    () => {
-        if (!process.client) {
-            return;
-        }
-
-        const payload = {
-            name: form.name,
-            author: form.author,
-            variant: form.variant,
-        };
-
-        persistedColorKeys.forEach((key) => {
-            payload[key] = form[key];
-        });
-
-        localStorage.setItem(GENERATOR_STORAGE_KEY, JSON.stringify(payload));
-    },
-    { deep: true }
-);
 </script>
 
 <style lang="scss" scoped>
