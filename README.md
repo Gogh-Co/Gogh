@@ -190,6 +190,7 @@ Here are some terminals that Gogh is supported with:
 - Mate - [Web](https://github.com/mate-desktop/mate-terminal)
 - Mintty - [Web](https://mintty.github.io/)
 - Pantheon / Elementary - [Web](https://github.com/elementary/terminal)
+- st+ - [Web](https://github.com/vishnu350/st)
 - Tilix - [Web](https://gnunn1.github.io/tilix-web/)
 - Wezterm - [Web](https://wezterm.org/)
 - XFCE4 - [Web](https://docs.xfce.org/apps/terminal/start)
