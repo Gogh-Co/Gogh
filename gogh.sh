@@ -33,6 +33,7 @@ declare -a THEMES=(
   'aco.sh'
   'adventure-time.sh'
   'afterglow.sh'
+  'agave.sh'
   'alien-blood.sh'
   'apprentice.sh'
   'arc-dark.sh'
