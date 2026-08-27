@@ -1,0 +1,26 @@
+---
+name: 'Vaporwave Control Room'
+author: 'Alex Bachlej (https://alexbachlej.com)'
+variant: 'Light'
+
+color_01: '#393552'
+color_02: '#EB6F92'
+color_03: '#70EAFF'
+color_04: '#F6C177'
+color_05: '#3A8EB1'
+color_06: '#C4A7E7'
+color_07: '#EA9A97'
+color_08: '#E0DEF4'
+
+color_09: '#6E6A86'
+color_10: '#EB6F92'
+color_11: '#50FA7B'
+color_12: '#F6C177'
+color_13: '#73EAFF'
+color_14: '#C4A7E7'
+color_15: '#EA9A97'
+color_16: '#E0DEF4'
+
+background: '#EB64B9'
+foreground: '#F5F4FD'
+cursor: '#E0DEF4'

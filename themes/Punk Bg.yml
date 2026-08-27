@@ -1,0 +1,26 @@
+---
+name: 'Punk Bg'
+author: 'Alex Bachlej (https://alexbachlej.com)'
+variant: 'Dark'
+
+color_01: '#2E3436'
+color_02: '#FD3057'
+color_03: '#970230'
+color_04: '#C4A000'
+color_05: '#3465A4'
+color_06: '#510A34'
+color_07: '#076A7F'
+color_08: '#D3D7CF'
+
+color_09: '#555753'
+color_10: '#AD0B44'
+color_11: '#F63D5C'
+color_12: '#FCE94F'
+color_13: '#66BABC'
+color_14: '#921E65'
+color_15: '#51AAC8'
+color_16: '#EEEEEC'
+
+background: '#0E051F'
+foreground: '#B8E5EA'
+cursor: '#3F0A29'
