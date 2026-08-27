@@ -42747,9 +42747,9 @@
       },
       {
         "Color": "color_02",
-        "Hex": "#EB6F92",
+        "Hex": "#B50134",
         "Score": "Fail",
-        "Ratio": "1.0"
+        "Ratio": "2.3"
       },
       {
         "Color": "color_03",
@@ -42759,9 +42759,9 @@
       },
       {
         "Color": "color_04",
-        "Hex": "#F6C177",
-        "Score": "Fail",
-        "Ratio": "1.8"
+        "Hex": "#000000",
+        "Score": "AAA",
+        "Ratio": "7.1"
       },
       {
         "Color": "color_05",
@@ -42777,15 +42777,15 @@
       },
       {
         "Color": "color_07",
-        "Hex": "#EA9A97",
+        "Hex": "#9E4242",
         "Score": "Fail",
-        "Ratio": "1.4"
+        "Ratio": "2.1"
       },
       {
         "Color": "color_08",
-        "Hex": "#E0DEF4",
+        "Hex": "#8F85F1",
         "Score": "Fail",
-        "Ratio": "2.3"
+        "Ratio": "1.0"
       },
       {
         "Color": "color_09",
@@ -42795,9 +42795,9 @@
       },
       {
         "Color": "color_10",
-        "Hex": "#EB6F92",
+        "Hex": "#743C3C",
         "Score": "Fail",
-        "Ratio": "1.0"
+        "Ratio": "2.9"
       },
       {
         "Color": "color_11",
@@ -42807,9 +42807,9 @@
       },
       {
         "Color": "color_12",
-        "Hex": "#F6C177",
-        "Score": "Fail",
-        "Ratio": "1.8"
+        "Hex": "#000000",
+        "Score": "AAA",
+        "Ratio": "7.1"
       },
       {
         "Color": "color_13",
@@ -42825,15 +42825,15 @@
       },
       {
         "Color": "color_15",
-        "Hex": "#EA9A97",
+        "Hex": "#8B2F2F",
         "Score": "Fail",
-        "Ratio": "1.4"
+        "Ratio": "2.8"
       },
       {
         "Color": "color_16",
-        "Hex": "#E0DEF4",
+        "Hex": "#9990FB",
         "Score": "Fail",
-        "Ratio": "2.3"
+        "Ratio": "1.1"
       },
       {
         "Color": "cursor",
@@ -42843,8 +42843,9 @@
       }
     ],
     "scoreCounts": {
-      "Fail": 17,
-      "AA Large": 1
+      "Fail": 15,
+      "AA Large": 1,
+      "AAA": 2
     }
   },
   {

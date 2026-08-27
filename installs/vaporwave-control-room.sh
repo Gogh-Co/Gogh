@@ -3,22 +3,22 @@
 export PROFILE_NAME="Vaporwave Control Room"
 
 export COLOR_01="#393552"           # Black (Host)
-export COLOR_02="#EB6F92"           # Red (Syntax string)
+export COLOR_02="#B50134"           # Red (Syntax string)
 export COLOR_03="#70EAFF"           # Green (Command)
-export COLOR_04="#F6C177"           # Yellow (Command second)
+export COLOR_04="#000000"           # Yellow (Command second)
 export COLOR_05="#3A8EB1"           # Blue (Path)
 export COLOR_06="#C4A7E7"           # Magenta (Syntax var)
-export COLOR_07="#EA9A97"           # Cyan (Prompt)
-export COLOR_08="#E0DEF4"           # White
+export COLOR_07="#9E4242"           # Cyan (Prompt)
+export COLOR_08="#8F85F1"           # White
 
 export COLOR_09="#6E6A86"           # Bright Black
-export COLOR_10="#EB6F92"           # Bright Red (Command error)
+export COLOR_10="#743C3C"           # Bright Red (Command error)
 export COLOR_11="#50FA7B"           # Bright Green (Exec)
-export COLOR_12="#F6C177"           # Bright Yellow
+export COLOR_12="#000000"           # Bright Yellow
 export COLOR_13="#73EAFF"           # Bright Blue (Folder)
 export COLOR_14="#C4A7E7"           # Bright Magenta
-export COLOR_15="#EA9A97"           # Bright Cyan
-export COLOR_16="#E0DEF4"           # Bright White
+export COLOR_15="#8B2F2F"           # Bright Cyan
+export COLOR_16="#9990FB"           # Bright White
 
 export BACKGROUND_COLOR="#EB64B9"   # Background
 export FOREGROUND_COLOR="#F5F4FD"   # Foreground (Text)
