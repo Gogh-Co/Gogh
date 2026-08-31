@@ -512,4 +512,4 @@ There is no blue without yellow and without orange.
 
 ## 🌟 Stargazers Over Time
 
-[![Stargazers over time](https://starchart.cc/Gogh-Co/Gogh.svg?variant=adaptive)](https://starchart.cc/Gogh-Co/Gogh)
+[![Star History Chart](https://api.star-history.com/svg?repos=Gogh-Co/Gogh&type=Date)](https://star-history.com/#Gogh-Co/Gogh&Date)
