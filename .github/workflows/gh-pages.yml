@@ -4,9 +4,8 @@ name: "🚀 - Deploy to GitHub Pages (branch website)"
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main/website
+  release:
+    types: [published]
 
 jobs:
   build:
