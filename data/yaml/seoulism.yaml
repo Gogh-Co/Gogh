@@ -1,0 +1,23 @@
+name: Seoulism
+author: Lee Yunjin (https://oborona.zip)
+variant: dark
+color_01: '#101114'
+color_02: '#E94536'
+color_03: '#22D2B5'
+color_04: '#FF9F3E'
+color_05: '#2D5CE6'
+color_06: '#9C5CEB'
+color_07: '#2C9DD6'
+color_08: '#E0E0DC'
+color_09: '#242630'
+color_10: '#EE6962'
+color_11: '#53DCBA'
+color_12: '#FFC068'
+color_13: '#5B80EC'
+color_14: '#C680EF'
+color_15: '#5AB3DF'
+color_16: '#E7E7E4'
+background: '#101114'
+foreground: '#ECECE9'
+cursor: '#ECECE9'
+hash: 00659853abd0905d97cce495a4d0f35f851d4e1091acf6d790c606bdb78e9eae

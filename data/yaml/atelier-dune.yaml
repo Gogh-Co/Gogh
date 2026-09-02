@@ -1,0 +1,23 @@
+name: Atelier Dune
+author: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)
+variant: dark
+color_01: '#20201D'
+color_02: '#D73737'
+color_03: '#60AC39'
+color_04: '#AE9513'
+color_05: '#6684E1'
+color_06: '#B854D4'
+color_07: '#1FAD83'
+color_08: '#a6a28c'
+color_09: '#7D7A68'
+color_10: '#B65611'
+color_11: '#60AC39'
+color_12: '#AE9513'
+color_13: '#6684E1'
+color_14: '#B854D4'
+color_15: '#1FAD83'
+color_16: '#FEFBEC'
+background: '#20201D'
+foreground: '#999580'
+cursor: '#999580'
+hash: 9f7ea087cb54e926a06bcaeb2560812bce0b7c9f2471dab2226d93167d638617

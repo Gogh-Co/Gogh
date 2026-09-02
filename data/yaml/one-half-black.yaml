@@ -1,0 +1,23 @@
+name: One Half Black
+author: ''
+variant: dark
+color_01: '#282C34'
+color_02: '#E06C75'
+color_03: '#98C379'
+color_04: '#E5C07B'
+color_05: '#61AFEF'
+color_06: '#C678DD'
+color_07: '#56B6C2'
+color_08: '#DCDFE4'
+color_09: '#282C34'
+color_10: '#E06C75'
+color_11: '#98C379'
+color_12: '#E5C07B'
+color_13: '#61AFEF'
+color_14: '#C678DD'
+color_15: '#56B6C2'
+color_16: '#DCDFE4'
+background: '#000000'
+foreground: '#DCDFE4'
+cursor: '#DCDFE4'
+hash: 2285e1daf9fe3e81c0b8d4569796ff920b3748e35961aa83a031758f4d54423b

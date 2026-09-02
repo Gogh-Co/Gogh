@@ -1,0 +1,23 @@
+name: Belafonte Night
+author: ''
+variant: dark
+color_01: '#20111B'
+color_02: '#BE100E'
+color_03: '#858162'
+color_04: '#EAA549'
+color_05: '#426A79'
+color_06: '#97522C'
+color_07: '#989A9C'
+color_08: '#968C83'
+color_09: '#5E5252'
+color_10: '#BE100E'
+color_11: '#858162'
+color_12: '#EAA549'
+color_13: '#426A79'
+color_14: '#97522C'
+color_15: '#989A9C'
+color_16: '#D5CCBA'
+background: '#20111B'
+foreground: '#968C83'
+cursor: '#968C83'
+hash: 741b7d56478a912043499d9fa4e01ec8b696827359ef9c6f3cd636ce573cb39f

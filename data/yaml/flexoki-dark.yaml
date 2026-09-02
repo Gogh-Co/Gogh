@@ -1,0 +1,23 @@
+name: Flexoki Dark
+author: ''
+variant: dark
+color_01: '#282726'
+color_02: '#AF3029'
+color_03: '#66800B'
+color_04: '#AD8301'
+color_05: '#205EA6'
+color_06: '#A02F6F'
+color_07: '#24837B'
+color_08: '#E6E4D9'
+color_09: '#343331'
+color_10: '#D14D41'
+color_11: '#879A39'
+color_12: '#D0A215'
+color_13: '#4385BE'
+color_14: '#CE5D97'
+color_15: '#3AA99F'
+color_16: '#FFFCF0'
+background: '#100F0F'
+foreground: '#878580'
+cursor: '#CECDC3'
+hash: 9d60d74dbb0869b1f920ea9f054d13f8e50feb4e7880f3b38846f50e99abca7c

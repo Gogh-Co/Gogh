@@ -1,0 +1,23 @@
+name: Liquid Carbon Transparent
+author: ''
+variant: dark
+color_01: '#000000'
+color_02: '#FF3030'
+color_03: '#559A70'
+color_04: '#CCAC00'
+color_05: '#0099CC'
+color_06: '#CC69C8'
+color_07: '#7AC4CC'
+color_08: '#BCCCCC'
+color_09: '#000000'
+color_10: '#FF3030'
+color_11: '#559A70'
+color_12: '#CCAC00'
+color_13: '#0099CC'
+color_14: '#CC69C8'
+color_15: '#7AC4CC'
+color_16: '#BCCCCC'
+background: '#000000'
+foreground: '#AFC2C2'
+cursor: '#AFC2C2'
+hash: b8d9a0704dc7f2a55447d667735c2842f1059b896d3743b25b12c6d638ee6ec8

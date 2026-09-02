@@ -1,0 +1,23 @@
+name: Mona Lisa
+author: ''
+variant: dark
+color_01: '#351B0E'
+color_02: '#9B291C'
+color_03: '#636232'
+color_04: '#C36E28'
+color_05: '#515C5D'
+color_06: '#9B1D29'
+color_07: '#588056'
+color_08: '#F7D75C'
+color_09: '#874228'
+color_10: '#FF4331'
+color_11: '#B4B264'
+color_12: '#FF9566'
+color_13: '#9EB2B4'
+color_14: '#FF5B6A'
+color_15: '#8ACD8F'
+color_16: '#FFE598'
+background: '#120B0D'
+foreground: '#F7D66A'
+cursor: '#F7D66A'
+hash: 98875c164d575d9f8a845b83e57d90e8bdc5a8757072b48774f68120a6089c2b

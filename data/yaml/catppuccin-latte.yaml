@@ -1,0 +1,23 @@
+name: Catppuccin Latte
+author: ''
+variant: light
+color_01: '#5C5F77'
+color_02: '#D20F39'
+color_03: '#40A02B'
+color_04: '#DF8E1D'
+color_05: '#1E66F5'
+color_06: '#EA76CB'
+color_07: '#179299'
+color_08: '#ACB0BE'
+color_09: '#6C6F85'
+color_10: '#D20F39'
+color_11: '#40A02B'
+color_12: '#DF8E1D'
+color_13: '#1E66F5'
+color_14: '#EA76CB'
+color_15: '#179299'
+color_16: '#BCC0CC'
+background: '#EFF1F5'
+foreground: '#4C4F69'
+cursor: '#4C4F69'
+hash: 8eda1c75c620571a646ceb08af20ce91b8d00cf1a0e3d2e5cab2d504ce8f19e4

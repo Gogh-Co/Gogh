@@ -1,0 +1,23 @@
+name: Lunaria Dark
+author: ''
+variant: dark
+color_01: '#36464E'
+color_02: '#846560'
+color_03: '#809984'
+color_04: '#A79A79'
+color_05: '#555673'
+color_06: '#866C83'
+color_07: '#7E98B4'
+color_08: '#CACED8'
+color_09: '#404F56'
+color_10: '#BB928B'
+color_11: '#BFDCC2'
+color_12: '#F1DFB6'
+color_13: '#777798'
+color_14: '#BF9DB9'
+color_15: '#BDDCFF'
+color_16: '#DFE2ED'
+background: '#36464E'
+foreground: '#CACED8'
+cursor: '#CACED8'
+hash: 996b6564a628ecd50d99cf70f8bdf6682be355f911496f508e6309c5f26be4f4

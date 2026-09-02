@@ -1,0 +1,23 @@
+name: Frontend Galaxy
+author: ''
+variant: dark
+color_01: '#000000'
+color_02: '#F9555F'
+color_03: '#21B089'
+color_04: '#FEF02A'
+color_05: '#589DF6'
+color_06: '#944D95'
+color_07: '#1F9EE7'
+color_08: '#BBBBBB'
+color_09: '#555555'
+color_10: '#FA8C8F'
+color_11: '#35BB9A'
+color_12: '#FFFF55'
+color_13: '#589DF6'
+color_14: '#E75699'
+color_15: '#3979BC'
+color_16: '#FFFFFF'
+background: '#1D2837'
+foreground: '#FFFFFF'
+cursor: '#FFFFFF'
+hash: 710aeb125262baa9890337fcd8b9d495a634ea396fd4467f5ffb9ab9c8cadb0d

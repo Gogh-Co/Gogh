@@ -1,0 +1,23 @@
+name: Kanagawa Wave
+author: ''
+variant: dark
+color_01: '#090618'
+color_02: '#C34043'
+color_03: '#76946A'
+color_04: '#C0A36E'
+color_05: '#7E9CD8'
+color_06: '#957FB8'
+color_07: '#6A9589'
+color_08: '#C8C093'
+color_09: '#727169'
+color_10: '#E82424'
+color_11: '#98BB6C'
+color_12: '#E6C384'
+color_13: '#7FB4CA'
+color_14: '#938AA9'
+color_15: '#7AA89F'
+color_16: '#DCD7BA'
+background: '#1F1F28'
+foreground: '#DCD7BA'
+cursor: '#DCD7BA'
+hash: 8d374ba67d1e4fec27ea53185364e2dd26b4530a35188aa42dbe412a3fedfdd9

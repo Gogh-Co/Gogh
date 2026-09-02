@@ -1,0 +1,23 @@
+name: Breath Light
+author: ''
+variant: light
+color_01: '#E8E8E8'
+color_02: '#ED1515'
+color_03: '#C0392B'
+color_04: '#F67400'
+color_05: '#1D99F3'
+color_06: '#9B59B6'
+color_07: '#1ABC9C'
+color_08: '#FCFCFC'
+color_09: '#7F8C8D'
+color_10: '#C0392B'
+color_11: '#55A649'
+color_12: '#FDBC4B'
+color_13: '#3DAEE9'
+color_14: '#8E44AD'
+color_15: '#16A085'
+color_16: '#FFFFFF'
+background: '#E8E8E8'
+foreground: '#292F34'
+cursor: '#292F34'
+hash: 25841ca0b884f17e6828f958b902886588d989a99dde8e53e86738a445a19d09

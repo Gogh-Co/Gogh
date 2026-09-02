@@ -1,0 +1,23 @@
+name: Crayon Pony Fish
+author: ''
+variant: dark
+color_01: '#2B1B1D'
+color_02: '#91002B'
+color_03: '#579524'
+color_04: '#AB311B'
+color_05: '#8C87B0'
+color_06: '#692F50'
+color_07: '#E8A866'
+color_08: '#68525A'
+color_09: '#3D2B2E'
+color_10: '#C5255D'
+color_11: '#8DFF57'
+color_12: '#C8381D'
+color_13: '#CFC9FF'
+color_14: '#FC6CBA'
+color_15: '#FFCEAF'
+color_16: '#B0949D'
+background: '#150707'
+foreground: '#68525A'
+cursor: '#68525A'
+hash: 062bd6d62bda9614aec156b185a84f7c787a08949add59e90641da1435181ad4

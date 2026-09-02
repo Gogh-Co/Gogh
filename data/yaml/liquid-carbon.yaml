@@ -1,0 +1,23 @@
+name: Liquid Carbon
+author: ''
+variant: dark
+color_01: '#000000'
+color_02: '#FF3030'
+color_03: '#559A70'
+color_04: '#CCAC00'
+color_05: '#0099CC'
+color_06: '#CC69C8'
+color_07: '#7AC4CC'
+color_08: '#BCCCCC'
+color_09: '#000000'
+color_10: '#FF3030'
+color_11: '#559A70'
+color_12: '#CCAC00'
+color_13: '#0099CC'
+color_14: '#CC69C8'
+color_15: '#7AC4CC'
+color_16: '#BCCCCC'
+background: '#303030'
+foreground: '#AFC2C2'
+cursor: '#AFC2C2'
+hash: 222faa43466ce5fb72ed5d26141d9e66de6ea312674547f000d0264ffcd4ff04

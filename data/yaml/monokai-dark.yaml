@@ -1,0 +1,23 @@
+name: Monokai Dark
+author: ''
+variant: dark
+color_01: '#75715E'
+color_02: '#F92672'
+color_03: '#A6E22E'
+color_04: '#F4BF75'
+color_05: '#66D9EF'
+color_06: '#AE81FF'
+color_07: '#2AA198'
+color_08: '#F9F8F5'
+color_09: '#272822'
+color_10: '#F92672'
+color_11: '#A6E22E'
+color_12: '#F4BF75'
+color_13: '#66D9EF'
+color_14: '#AE81FF'
+color_15: '#2AA198'
+color_16: '#F8F8F2'
+background: '#272822'
+foreground: '#F8F8F2'
+cursor: '#F8F8F2'
+hash: 6637d1559d22a01ab8508d753d607c4362602f7c112fcb6d37894968ab1e0711

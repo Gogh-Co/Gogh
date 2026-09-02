@@ -1,0 +1,23 @@
+name: One Light
+author: ''
+variant: light
+color_01: '#000000'
+color_02: '#DA3E39'
+color_03: '#41933E'
+color_04: '#855504'
+color_05: '#315EEE'
+color_06: '#930092'
+color_07: '#0E6FAD'
+color_08: '#8E8F96'
+color_09: '#2A2B32'
+color_10: '#DA3E39'
+color_11: '#41933E'
+color_12: '#855504'
+color_13: '#315EEE'
+color_14: '#930092'
+color_15: '#0E6FAD'
+color_16: '#FFFEFE'
+background: '#F8F8F8'
+foreground: '#2A2B32'
+cursor: '#2A2B32'
+hash: bc9d43404f914a8351dc0271114387c56bd70dd89818f22cfe3ff00f029c3046

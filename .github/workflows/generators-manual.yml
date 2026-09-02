@@ -38,6 +38,12 @@ jobs:
       - name: 🏅 Generate CSV
         run: python tools/pipe-generateCsv.py
 
+      - name: 🏅 Generate YAML
+        run: python tools/pipe-generateYaml.py
+
+      - name: 🏅 Generate YAML files
+        run: python tools/pipe-generateYamlFiles.py
+
       - name: 🏅 Generate installers
         run: python tools/pipe-generateShFiles.py
 

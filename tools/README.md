@@ -20,17 +20,23 @@ Run the scripts in this order:
 4. `pipe-generateCsv.py`
    - Exports `data/themes.json` to `data/themes.csv`.
 
-5. `pipe-generateShFiles.py`
+5. `pipe-generateYaml.py`
+   - Exports `data/themes.json` to `data/themes.yaml`.
+
+6. `pipe-generateYamlFiles.py`
+   - Splits `data/themes.json` into one file per theme in `data/yaml/`.
+
+7. `pipe-generateShFiles.py`
    - Creates install scripts in `installs/` from `themes/*.yml`.
 
-6. `pipe-updateThemes.py`
+8. `pipe-updateThemes.py`
    - Updates the `THEMES` array in `gogh.sh`.
 
-7. `pipe.py`
+9. `pipe.py`
    - Writes the run timestamp to `tools/run.txt`.
 
-8. `pipe-generateWcag.js`
-   - Generates accessibility reports: `data/wcag.json` and `data/wcag-min.json`.
+10. `pipe-generateWcag.js`
+    - Generates accessibility reports: `data/wcag.json` and `data/wcag-min.json`.
 
 ## Other files
 

@@ -1,0 +1,23 @@
+name: Base2Tone Desert
+author: ''
+variant: dark
+color_01: '#292724'
+color_02: '#816f4b'
+color_03: '#ec9255'
+color_04: '#ffb380'
+color_05: '#957e50'
+color_06: '#ec9255'
+color_07: '#ac8e53'
+color_08: '#ada594'
+color_09: '#7e7767'
+color_10: '#f29d63'
+color_11: '#3d3a34'
+color_12: '#615c51'
+color_13: '#908774'
+color_14: '#ddcba6'
+color_15: '#e58748'
+color_16: '#f2ead9'
+background: '#292724'
+foreground: '#ada594'
+cursor: '#bc672f'
+hash: 92f661e3ec93587a26f6c871309db4028ea8ab34b3e3a89983e6b7b47e103f3b

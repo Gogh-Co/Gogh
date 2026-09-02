@@ -1,0 +1,23 @@
+name: Oxocarbon Dark
+author: ''
+variant: dark
+color_01: '#262626'
+color_02: '#EE5396'
+color_03: '#42BE65'
+color_04: '#FFE97B'
+color_05: '#33B1FF'
+color_06: '#FF7EB6'
+color_07: '#3DDBD9'
+color_08: '#DDE1E6'
+color_09: '#393939'
+color_10: '#EE5396'
+color_11: '#42BE65'
+color_12: '#FFE97B'
+color_13: '#33B1FF'
+color_14: '#FF7EB6'
+color_15: '#3DDBD9'
+color_16: '#FFFFFF'
+background: '#161616'
+foreground: '#FFFFFF'
+cursor: '#6F6F6F'
+hash: 447b609a861efc56b096af87225da03296e36d8c65d88e228a735104cccade68

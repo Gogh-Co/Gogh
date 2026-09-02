@@ -1,0 +1,23 @@
+name: Tiwahu Light
+author: Tim Huber (http://www.tiwahu.com)
+variant: light
+color_01: '#000000'
+color_02: '#AA0000'
+color_03: '#008800'
+color_04: '#AAAA00'
+color_05: '#0077AA'
+color_06: '#880088'
+color_07: '#00AA99'
+color_08: '#BBBBBB'
+color_09: '#777777'
+color_10: '#FF8888'
+color_11: '#88FF88'
+color_12: '#FFFF66'
+color_13: '#88CCFF'
+color_14: '#FF88FF'
+color_15: '#88FFCC'
+color_16: '#FFFFFF'
+background: '#DDDDDD'
+foreground: '#181818'
+cursor: '#888888'
+hash: 273898b0ac06ad5110a9379b2a3e748ab618aafb94acd08df94fe2a145188ce6

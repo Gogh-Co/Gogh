@@ -1,0 +1,23 @@
+name: Breath Silverfox
+author: ''
+variant: dark
+color_01: '#1E2229'
+color_02: '#ED1515'
+color_03: '#44853A'
+color_04: '#F67400'
+color_05: '#1D99F3'
+color_06: '#9B59B6'
+color_07: '#1ABC9C'
+color_08: '#FCFCFC'
+color_09: '#7F8C8D'
+color_10: '#C0392B'
+color_11: '#55A649'
+color_12: '#FDBC4B'
+color_13: '#3DAEE9'
+color_14: '#8E44AD'
+color_15: '#16A085'
+color_16: '#FFFFFF'
+background: '#1E2229'
+foreground: '#BBBBBB'
+cursor: '#BBBBBB'
+hash: 5340ad1740816fd8c4c0a9f69fcc650509db10b410d74df04f20b8e1f6c9fd7c

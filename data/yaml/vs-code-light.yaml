@@ -1,0 +1,23 @@
+name: Vs Code Light+
+author: ''
+variant: light
+color_01: '#020202'
+color_02: '#CD3232'
+color_03: '#00BC00'
+color_04: '#A5A900'
+color_05: '#0752A8'
+color_06: '#BC05BC'
+color_07: '#0598BC'
+color_08: '#343434'
+color_09: '#5E5E5E'
+color_10: '#CD3333'
+color_11: '#1BCE1A'
+color_12: '#ADBB5B'
+color_13: '#0752A8'
+color_14: '#C451CE'
+color_15: '#52A8C7'
+color_16: '#A6A3A6'
+background: '#F9F9F9'
+foreground: '#020202'
+cursor: '#020202'
+hash: 25ee2aabd98c66a07708af651cbb68fe27317a64c7700ecf06d0b6636b128b54

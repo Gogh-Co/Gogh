@@ -1,0 +1,23 @@
+name: Seoul256 Light
+author: ''
+variant: light
+color_01: '#4e4e4e'
+color_02: '#af5f5f'
+color_03: '#5f885f'
+color_04: '#af8760'
+color_05: '#5f87ae'
+color_06: '#875f87'
+color_07: '#5f8787'
+color_08: '#e4e4e4'
+color_09: '#3a3a3a'
+color_10: '#870100'
+color_11: '#005f00'
+color_12: '#d8865f'
+color_13: '#0087af'
+color_14: '#87025f'
+color_15: '#008787'
+color_16: '#eeeeee'
+background: '#dadada'
+foreground: '#4e4e4e'
+cursor: '#4e4e4e'
+hash: 7f5952bef0cbecee73c1365d48a058550877ca90969683aee8028ca912ba4c97

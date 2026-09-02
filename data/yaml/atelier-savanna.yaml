@@ -1,0 +1,23 @@
+name: Atelier Savanna
+author: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna)
+variant: dark
+color_01: '#171C19'
+color_02: '#B16139'
+color_03: '#489963'
+color_04: '#A07E3B'
+color_05: '#478C90'
+color_06: '#55859B'
+color_07: '#1C9AA0'
+color_08: '#87928A'
+color_09: '#5F6D64'
+color_10: '#9F713C'
+color_11: '#489963'
+color_12: '#A07E3B'
+color_13: '#478C90'
+color_14: '#55859B'
+color_15: '#1C9AA0'
+color_16: '#ECF4EE'
+background: '#171C19'
+foreground: '#78877D'
+cursor: '#78877D'
+hash: 48a1fb678399a4dc37fd79fd091b39fb1e7c196421f83b990a10de61809b0d0f

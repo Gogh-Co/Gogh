@@ -1,0 +1,23 @@
+name: Selenized Black
+author: ''
+variant: dark
+color_01: '#252525'
+color_02: '#ed4a46'
+color_03: '#70b433'
+color_04: '#dbb32d'
+color_05: '#368aeb'
+color_06: '#eb6eb7'
+color_07: '#3fc5b7'
+color_08: '#777777'
+color_09: '#3b3b3b'
+color_10: '#ff5e56'
+color_11: '#83c746'
+color_12: '#efc541'
+color_13: '#4f9cfe'
+color_14: '#ff81ca'
+color_15: '#56d8c9'
+color_16: '#dedede'
+background: '#181818'
+foreground: '#b9b9b9'
+cursor: '#dedede'
+hash: 5ab24128e7b387aabf04309ea55987f607dc1183f9a0047f61e309d1c4bfdb55

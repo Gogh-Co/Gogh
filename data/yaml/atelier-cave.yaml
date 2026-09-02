@@ -1,0 +1,23 @@
+name: Atelier Cave
+author: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave)
+variant: dark
+color_01: '#19171C'
+color_02: '#BE4678'
+color_03: '#2A9292'
+color_04: '#A06E3B'
+color_05: '#576DDB'
+color_06: '#955AE7'
+color_07: '#398BC6'
+color_08: '#8B8792'
+color_09: '#655F6D'
+color_10: '#AA573C'
+color_11: '#2A9292'
+color_12: '#A06E3B'
+color_13: '#576DDB'
+color_14: '#955AE7'
+color_15: '#398BC6'
+color_16: '#EFECF4'
+background: '#19171C'
+foreground: '#7E7887'
+cursor: '#7E7887'
+hash: 9956cb9c3c3a2335ec99b03a2b216132bdf39c8f63160a5b8c70f5369c6aa984

@@ -1,0 +1,23 @@
+name: Frontend Fun Forrest
+author: ''
+variant: dark
+color_01: '#000000'
+color_02: '#D6262B'
+color_03: '#919C00'
+color_04: '#BE8A13'
+color_05: '#4699A3'
+color_06: '#8D4331'
+color_07: '#DA8213'
+color_08: '#DDC265'
+color_09: '#7F6A55'
+color_10: '#E55A1C'
+color_11: '#BFC65A'
+color_12: '#FFCB1B'
+color_13: '#7CC9CF'
+color_14: '#D26349'
+color_15: '#E6A96B'
+color_16: '#FFEAA3'
+background: '#251200'
+foreground: '#DEC165'
+cursor: '#DEC165'
+hash: 2b2973e3dbc51fc12e50af0124545ca84655d8ed047d40e1c72a10be2e8a3763

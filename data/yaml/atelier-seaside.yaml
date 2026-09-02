@@ -1,0 +1,23 @@
+name: Atelier Seaside
+author: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside)
+variant: dark
+color_01: '#131513'
+color_02: '#E6193C'
+color_03: '#29A329'
+color_04: '#98981B'
+color_05: '#3D62F5'
+color_06: '#AD2BEE'
+color_07: '#1999B3'
+color_08: '#8CA68C'
+color_09: '#687D68'
+color_10: '#87711D'
+color_11: '#29A329'
+color_12: '#98981B'
+color_13: '#3D62F5'
+color_14: '#AD2BEE'
+color_15: '#1999B3'
+color_16: '#F4FBF4'
+background: '#131513'
+foreground: '#809980'
+cursor: '#809980'
+hash: dd1a50fb71c0f7fef685752a8a58f5b084929b8438805bfeedd888f1e1ea7c37

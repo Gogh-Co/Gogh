@@ -1,0 +1,23 @@
+name: Base4Tone Classic O
+author: ''
+variant: dark
+color_01: '#1a1d23'
+color_02: '#a24ad9'
+color_03: '#0d9c89'
+color_04: '#1ed2ba'
+color_05: '#74a8fb'
+color_06: '#9488f2'
+color_07: '#1bbba6'
+color_08: '#e7eaee'
+color_09: '#07090d'
+color_10: '#c27eed'
+color_11: '#2fdac3'
+color_12: '#93ece0'
+color_13: '#c7dcff'
+color_14: '#aba1f7'
+color_15: '#c2d9ff'
+color_16: '#f6f7f9'
+background: '#1a1d23'
+foreground: '#8995a9'
+cursor: '#6d8884'
+hash: a3b71b4ef6395aea253651d9d4d15b7df2c6e29b3f2e87e2cae508417b901eca

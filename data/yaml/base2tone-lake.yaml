@@ -1,0 +1,23 @@
+name: Base2Tone Lake
+author: ''
+variant: dark
+color_01: '#192d34'
+color_02: '#3e91ac'
+color_03: '#cbbb4d'
+color_04: '#ffeb66'
+color_05: '#499fbc'
+color_06: '#cbbb4d'
+color_07: '#62b1cb'
+color_08: '#7ba8b7'
+color_09: '#3d6876'
+color_10: '#d6c65c'
+color_11: '#223c44'
+color_12: '#335966'
+color_13: '#467686'
+color_14: '#a5d8e9'
+color_15: '#c4b031'
+color_16: '#e1f7ff'
+background: '#192d34'
+foreground: '#7ba8b7'
+cursor: '#84740b'
+hash: f248150346f82dc47455348f0b797cf1c0e19bcbce0d6e25806623de6f7d7478

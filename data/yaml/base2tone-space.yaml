@@ -1,0 +1,23 @@
+name: Base2Tone Space
+author: ''
+variant: dark
+color_01: '#24242e'
+color_02: '#7676f4'
+color_03: '#ec7336'
+color_04: '#fe8c52'
+color_05: '#767693'
+color_06: '#ec7336'
+color_07: '#8a8aad'
+color_08: '#a1a1b5'
+color_09: '#5b5b76'
+color_10: '#f37b3f'
+color_11: '#333342'
+color_12: '#515167'
+color_13: '#737391'
+color_14: '#cecee3'
+color_15: '#e66e33'
+color_16: '#ebebff'
+background: '#24242e'
+foreground: '#a1a1b5'
+cursor: '#b25424'
+hash: c7bf66c89ad2541af13d4a097fe8fd8cad368fe7400ba4663f6c92dfc3fb2765

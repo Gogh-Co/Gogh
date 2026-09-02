@@ -1,0 +1,23 @@
+name: Hemisu Dark
+author: ''
+variant: dark
+color_01: '#444444'
+color_02: '#FF0054'
+color_03: '#B1D630'
+color_04: '#9D895E'
+color_05: '#67BEE3'
+color_06: '#B576BC'
+color_07: '#569A9F'
+color_08: '#EDEDED'
+color_09: '#777777'
+color_10: '#D65E75'
+color_11: '#BAFFAA'
+color_12: '#ECE1C8'
+color_13: '#9FD3E5'
+color_14: '#DEB3DF'
+color_15: '#B6E0E5'
+color_16: '#FFFFFF'
+background: '#000000'
+foreground: '#FFFFFF'
+cursor: '#BAFFAA'
+hash: a983879a82454eec927bb736cb3200b15b829a757e3fcc449384fb57c1f404a9

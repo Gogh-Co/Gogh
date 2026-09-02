@@ -1,0 +1,23 @@
+name: Tokyo Night Light
+author: ''
+variant: light
+color_01: '#0F0F14'
+color_02: '#8C4351'
+color_03: '#485E30'
+color_04: '#8F5E15'
+color_05: '#34548A'
+color_06: '#5A4A78'
+color_07: '#0F4B6E'
+color_08: '#343B58'
+color_09: '#9699A3'
+color_10: '#8C4351'
+color_11: '#485E30'
+color_12: '#8F5E15'
+color_13: '#34548A'
+color_14: '#5A4A78'
+color_15: '#0F4B6E'
+color_16: '#343B58'
+background: '#D5D6DB'
+foreground: '#565A6E'
+cursor: '#565A6E'
+hash: b7ce24233898e95e735e66de0f3f1c2f09d7a15ff070d2114d44bbf15d557a0e

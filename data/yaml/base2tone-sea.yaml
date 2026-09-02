@@ -1,0 +1,23 @@
+name: Base2Tone Sea
+author: ''
+variant: dark
+color_01: '#1d262f'
+color_02: '#34659d'
+color_03: '#0fc78a'
+color_04: '#47ebb4'
+color_05: '#57718e'
+color_06: '#0fc78a'
+color_07: '#6e9bcf'
+color_08: '#a1aab5'
+color_09: '#4a5f78'
+color_10: '#14e19d'
+color_11: '#27323f'
+color_12: '#405368'
+color_13: '#738191'
+color_14: '#afd4fe'
+color_15: '#0db57d'
+color_16: '#ebf4ff'
+background: '#1d262f'
+foreground: '#a1aab5'
+cursor: '#067953'
+hash: ffa78bc63a41988a49935a832e999df72fc82bc7dbc55fd49ef0265db125ca1b
