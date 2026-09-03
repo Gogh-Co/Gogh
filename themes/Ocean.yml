@@ -1,7 +1,7 @@
 ---
-name: 'Homebrew Light'
+name: 'Ocean'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
-variant: 'light'            # dark or light
+variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)
 color_02: '#990000'    # Red (Syntax string)
@@ -21,7 +21,7 @@ color_14: '#E500E5'    # Bright Magenta
 color_15: '#00E5E5'    # Bright Cyan
 color_16: '#E5E5E5'    # Bright White
 
-background: '#FFFFFF'  # Background
-foreground: '#000000'  # Foreground (Text)
+background: '#224FBC'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
 
-cursor: '#000000'      # Cursor
+cursor: '#FFFFFF'      # Cursor
