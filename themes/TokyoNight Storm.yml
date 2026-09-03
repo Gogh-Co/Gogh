@@ -1,9 +1,9 @@
 ---
-name: 'Tokyo Night'
+name: 'TokyoNight Storm'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
 variant: 'dark'            # dark or light
 
-color_01: '#15161E'    # Black (Host)
+color_01: '#1D202F'    # Black (Host)
 color_02: '#F7768E'    # Red (Syntax string)
 color_03: '#9ECE6A'    # Green (Command)
 color_04: '#E0AF68'    # Yellow (Command second)
@@ -21,7 +21,7 @@ color_14: '#BB9AF7'    # Bright Magenta
 color_15: '#7DCFFF'    # Bright Cyan
 color_16: '#C0CAF5'    # Bright White
 
-background: '#1A1B26'  # Background
+background: '#24283B'  # Background
 foreground: '#C0CAF5'  # Foreground (Text)
 
 cursor: '#C0CAF5'      # Cursor
