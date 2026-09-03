@@ -1,0 +1,23 @@
+name: Horizon Bright Lost
+author: ''
+variant: light
+color_01: '#16161C'
+color_02: '#DA103F'
+color_03: '#1EB980'
+color_04: '#F6661E'
+color_05: '#26BBD9'
+color_06: '#EE64AE'
+color_07: '#1D8991'
+color_08: '#FADAD1'
+color_09: '#1A1C23'
+color_10: '#F43E5C'
+color_11: '#07DA8C'
+color_12: '#F77D26'
+color_13: '#3FC6DE'
+color_14: '#F075B7'
+color_15: '#1EAEAE'
+color_16: '#FDF0ED'
+background: '#FDF0ED'
+foreground: '#1C1E26'
+cursor: '#1C1E26'
+hash: c38f01bb25fb3d6a567fe924982b10fa17aa267ef236ce3aa8b8f11f11e63eb7

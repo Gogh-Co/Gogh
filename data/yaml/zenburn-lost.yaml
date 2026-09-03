@@ -1,0 +1,23 @@
+name: Zenburn Lost
+author: ''
+variant: dark
+color_01: '#333333'
+color_02: '#cc9393'
+color_03: '#efef87'
+color_04: '#ffd7a7'
+color_05: '#c3bf97'
+color_06: '#bca3a3'
+color_07: '#93b3a3'
+color_08: '#f0efd0'
+color_09: '#757575'
+color_10: '#dfaf87'
+color_11: '#ffff87'
+color_12: '#ffcfaf'
+color_13: '#d7d7af'
+color_14: '#d7afaf'
+color_15: '#93bea3'
+color_16: '#dcdccc'
+background: '#3a3a3a'
+foreground: '#dcdccc'
+cursor: '#dcdccc'
+hash: 47091ec6ca6c449cede4296faf7745071d230625d66dd3e17be2ed6df0cd72a2

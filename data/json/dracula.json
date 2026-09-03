@@ -1,6 +1,6 @@
 {
   "name": "Dracula",
-  "author": "Dracula (https://draculatheme.com)",
+  "author": "Dracula (https://draculatheme.com/)",
   "variant": "dark",
   "color_01": "#21222C",
   "color_02": "#FF5555",
@@ -21,5 +21,5 @@
   "background": "#282A36",
   "foreground": "#F8F8F2",
   "cursor": "#F8F8F2",
-  "hash": "22e4aaf2436bcc4f348da502a5cb49275041775e7e073784c51e160c854c9a2f"
+  "hash": "f819d56a3f104b708d1a6f0d173153d3fba86a082c7d75034224c8f2dfd9b8f9"
 }

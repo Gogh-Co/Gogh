@@ -1,0 +1,23 @@
+name: Molokai Lost
+author: ''
+variant: dark
+color_01: '#1B1D1E'
+color_02: '#7325FA'
+color_03: '#23E298'
+color_04: '#60D4DF'
+color_05: '#D08010'
+color_06: '#FF0087'
+color_07: '#D0A843'
+color_08: '#BBBBBB'
+color_09: '#555555'
+color_10: '#9D66F6'
+color_11: '#5FE0B1'
+color_12: '#6DF2FF'
+color_13: '#FFAF00'
+color_14: '#FF87AF'
+color_15: '#FFCE51'
+color_16: '#FFFFFF'
+background: '#1B1D1E'
+foreground: '#BBBBBB'
+cursor: '#BBBBBB'
+hash: f3a15b2ed99af568d2c71b3cb2edcd13faa980e3fccd9b273d88733cf58d237f
