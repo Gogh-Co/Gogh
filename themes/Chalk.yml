@@ -3,25 +3,25 @@ name: 'Chalk'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
 variant: 'dark'            # dark or light
 
-color_01: '#646464'    # Black (Host)
-color_02: '#F58E8E'    # Red (Syntax string)
-color_03: '#A9D3AB'    # Green (Command)
-color_04: '#FED37E'    # Yellow (Command second)
-color_05: '#7AABD4'    # Blue (Path)
-color_06: '#D6ADD5'    # Magenta (Syntax var)
-color_07: '#79D4D5'    # Cyan (Prompt)
-color_08: '#D4D4D4'    # White
+color_01: '#7D8B8F'    # Black (Host)
+color_02: '#B23A52'    # Red (Syntax string)
+color_03: '#789B6A'    # Green (Command)
+color_04: '#B9AC4A'    # Yellow (Command second)
+color_05: '#2A7FAC'    # Blue (Path)
+color_06: '#BD4F5A'    # Magenta (Syntax var)
+color_07: '#44A799'    # Cyan (Prompt)
+color_08: '#D2D8D9'    # White
 
-color_09: '#646464'    # Bright Black
-color_10: '#F58E8E'    # Bright Red (Command error)
-color_11: '#A9D3AB'    # Bright Green (Exec)
-color_12: '#FED37E'    # Bright Yellow
-color_13: '#7AABD4'    # Bright Blue (Folder)
-color_14: '#D6ADD5'    # Bright Magenta
-color_15: '#79D4D5'    # Bright Cyan
-color_16: '#D4D4D4'    # Bright White
+color_09: '#888888'    # Bright Black
+color_10: '#F24840'    # Bright Red (Command error)
+color_11: '#80C470'    # Bright Green (Exec)
+color_12: '#FFEB62'    # Bright Yellow
+color_13: '#4196FF'    # Bright Blue (Folder)
+color_14: '#FC5275'    # Bright Magenta
+color_15: '#53CDBD'    # Bright Cyan
+color_16: '#D2D8D9'    # Bright White
 
-background: '#2D2D2D'  # Background
-foreground: '#D4D4D4'  # Foreground (Text)
+background: '#2B2D2E'  # Background
+foreground: '#D2D8D9'  # Foreground (Text)
 
-cursor: '#D4D4D4'      # Cursor
+cursor: '#708284'      # Cursor

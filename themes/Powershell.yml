@@ -4,10 +4,10 @@ author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)
-color_02: '#7E0008'    # Red (Syntax string)
+color_02: '#981A22'    # Red (Syntax string)
 color_03: '#098003'    # Green (Command)
 color_04: '#C4A000'    # Yellow (Command second)
-color_05: '#010083'    # Blue (Path)
+color_05: '#4140C3'    # Blue (Path)
 color_06: '#D33682'    # Magenta (Syntax var)
 color_07: '#0E807F'    # Cyan (Prompt)
 color_08: '#7F7C7F'    # White

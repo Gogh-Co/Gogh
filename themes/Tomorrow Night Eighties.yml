@@ -3,16 +3,16 @@ name: 'Tomorrow Night Eighties'
 author: 'Chris Kempson (http://chriskempson.com)'             # 'AUTHOR NAME (http://WEBSITE.com)'
 variant: 'dark'            # dark or light
 
-color_01: '#393939'    # Black (Host)
+color_01: '#000000'    # Black (Host)
 color_02: '#F2777A'    # Red (Syntax string)
 color_03: '#99CC99'    # Green (Command)
 color_04: '#FFCC66'    # Yellow (Command second)
 color_05: '#6699CC'    # Blue (Path)
 color_06: '#CC99CC'    # Magenta (Syntax var)
 color_07: '#66CCCC'    # Cyan (Prompt)
-color_08: '#CCCCCC'    # White
+color_08: '#FFFFFF'    # White
 
-color_09: '#999999'    # Bright Black
+color_09: '#000000'    # Bright Black
 color_10: '#F2777A'    # Bright Red (Command error)
 color_11: '#99CC99'    # Bright Green (Exec)
 color_12: '#FFCC66'    # Bright Yellow

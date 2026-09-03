@@ -12,7 +12,7 @@ color_06: '#A277FF'    # Magenta (Syntax var)
 color_07: '#61FFCA'    # Cyan (Prompt)
 color_08: '#EDECEE'    # White
 
-color_09: '#6D6D6D'    # Bright Black
+color_09: '#4D4D4D'    # Bright Black
 color_10: '#FFCA85'    # Bright Red (Command error)
 color_11: '#A277FF'    # Bright Green (Exec)
 color_12: '#FFCA85'    # Bright Yellow
@@ -24,4 +24,4 @@ color_16: '#EDECEE'    # Bright White
 background: '#15141B'  # Background
 foreground: '#EDECEE'  # Foreground (Text)
 
-cursor: '#EDECEE'      # Cursor
+cursor: '#A277FF'      # Cursor

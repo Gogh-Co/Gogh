@@ -3,25 +3,25 @@ name: 'Oceanic Next'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
 variant: 'dark'            # dark or light
 
-color_01: '#121C21'    # Black (Host)
-color_02: '#E44754'    # Red (Syntax string)
-color_03: '#89BD82'    # Green (Command)
-color_04: '#F7BD51'    # Yellow (Command second)
-color_05: '#5486C0'    # Blue (Path)
-color_06: '#B77EB8'    # Magenta (Syntax var)
-color_07: '#50A5A4'    # Cyan (Prompt)
+color_01: '#1B2B34'    # Black (Host)
+color_02: '#DB686B'    # Red (Syntax string)
+color_03: '#A2C699'    # Green (Command)
+color_04: '#F2CA73'    # Yellow (Command second)
+color_05: '#7198C8'    # Blue (Path)
+color_06: '#BD96C2'    # Magenta (Syntax var)
+color_07: '#74B1B2'    # Cyan (Prompt)
 color_08: '#FFFFFF'    # White
 
-color_09: '#52606B'    # Bright Black
-color_10: '#E44754'    # Bright Red (Command error)
-color_11: '#89BD82'    # Bright Green (Exec)
-color_12: '#F7BD51'    # Bright Yellow
-color_13: '#5486C0'    # Bright Blue (Folder)
-color_14: '#B77EB8'    # Bright Magenta
-color_15: '#50A5A4'    # Bright Cyan
+color_09: '#68737D'    # Bright Black
+color_10: '#DB686B'    # Bright Red (Command error)
+color_11: '#A2C699'    # Bright Green (Exec)
+color_12: '#F2CA73'    # Bright Yellow
+color_13: '#7198C8'    # Bright Blue (Folder)
+color_14: '#BD96C2'    # Bright Magenta
+color_15: '#74B1B2'    # Bright Cyan
 color_16: '#FFFFFF'    # Bright White
 
-background: '#121B21'  # Background
-foreground: '#B3B8C3'  # Foreground (Text)
+background: '#1B2B34'  # Background
+foreground: '#C1C5CD'  # Foreground (Text)
 
-cursor: '#B3B8C3'      # Cursor
+cursor: '#C1C5CD'      # Cursor

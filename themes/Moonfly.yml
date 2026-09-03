@@ -15,7 +15,7 @@ color_08: '#C6C6C6'    # White
 color_09: '#949494'    # Bright Black
 color_10: '#FF5189'    # Bright Red (Command error)
 color_11: '#36C692'    # Bright Green (Exec)
-color_12: '#C2C292'    # Bright Yellow
+color_12: '#C6C684'    # Bright Yellow
 color_13: '#74B2FF'    # Bright Blue (Folder)
 color_14: '#AE81FF'    # Bright Magenta
 color_15: '#85DC85'    # Bright Cyan

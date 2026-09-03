@@ -1,7 +1,7 @@
 ---
 name: 'Spring'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
-variant: 'dark'            # dark or light
+variant: 'light'            # dark or light
 
 color_01: '#000000'    # Black (Host)
 color_02: '#FF4D83'    # Red (Syntax string)
@@ -21,7 +21,7 @@ color_14: '#8959A8'    # Bright Magenta
 color_15: '#3E999F'    # Bright Cyan
 color_16: '#FFFFFF'    # Bright White
 
-background: '#0A1E24'  # Background
-foreground: '#ECF0C1'  # Foreground (Text)
+background: '#FFFFFF'  # Background
+foreground: '#4D4D4C'  # Foreground (Text)
 
-cursor: '#ECF0C1'      # Cursor
+cursor: '#4D4D4C'      # Cursor

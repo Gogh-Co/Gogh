@@ -3,7 +3,7 @@ name: 'Tokyo Night'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
 variant: 'dark'            # dark or light
 
-color_01: '#414868'    # Black (Host)
+color_01: '#15161E'    # Black (Host)
 color_02: '#F7768E'    # Red (Syntax string)
 color_03: '#9ECE6A'    # Green (Command)
 color_04: '#E0AF68'    # Yellow (Command second)

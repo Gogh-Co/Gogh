@@ -3,16 +3,16 @@ name: 'Tomorrow Night'
 author: 'Chris Kempson (http://chriskempson.com)'             # 'AUTHOR NAME (http://WEBSITE.com)'
 variant: 'dark'            # dark or light
 
-color_01: '#282A2E'    # Black (Host)
+color_01: '#000000'    # Black (Host)
 color_02: '#CC6666'    # Red (Syntax string)
 color_03: '#B5BD68'    # Green (Command)
 color_04: '#F0C674'    # Yellow (Command second)
 color_05: '#81A2BE'    # Blue (Path)
 color_06: '#B294BB'    # Magenta (Syntax var)
 color_07: '#8ABEB7'    # Cyan (Prompt)
-color_08: '#C5C8C6'    # White
+color_08: '#FFFFFF'    # White
 
-color_09: '#969896'    # Bright Black
+color_09: '#000000'    # Bright Black
 color_10: '#CC6666'    # Bright Red (Command error)
 color_11: '#B5BD68'    # Bright Green (Exec)
 color_12: '#F0C674'    # Bright Yellow

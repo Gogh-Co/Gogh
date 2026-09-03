@@ -3,25 +3,25 @@ name: 'Snazzy'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
 variant: 'dark'            # dark or light
 
-color_01: '#282A36'    # Black (Host)
-color_02: '#FF5C57'    # Red (Syntax string)
-color_03: '#5AF78E'    # Green (Command)
-color_04: '#F3F99D'    # Yellow (Command second)
-color_05: '#57C7FF'    # Blue (Path)
-color_06: '#FF6AC1'    # Magenta (Syntax var)
-color_07: '#9AEDFE'    # Cyan (Prompt)
-color_08: '#F1F1F0'    # White
+color_01: '#000000'    # Black (Host)
+color_02: '#FC4346'    # Red (Syntax string)
+color_03: '#50FB7C'    # Green (Command)
+color_04: '#F0FB8C'    # Yellow (Command second)
+color_05: '#49BAFF'    # Blue (Path)
+color_06: '#FC4CB4'    # Magenta (Syntax var)
+color_07: '#8BE9FE'    # Cyan (Prompt)
+color_08: '#EDEDEC'    # White
 
-color_09: '#686868'    # Bright Black
-color_10: '#FF5C57'    # Bright Red (Command error)
-color_11: '#5AF78E'    # Bright Green (Exec)
-color_12: '#F3F99D'    # Bright Yellow
-color_13: '#57C7FF'    # Bright Blue (Folder)
-color_14: '#FF6AC1'    # Bright Magenta
-color_15: '#9AEDFE'    # Bright Cyan
-color_16: '#EFF0EB'    # Bright White
+color_09: '#555555'    # Bright Black
+color_10: '#FC4346'    # Bright Red (Command error)
+color_11: '#50FB7C'    # Bright Green (Exec)
+color_12: '#F0FB8C'    # Bright Yellow
+color_13: '#49BAFF'    # Bright Blue (Folder)
+color_14: '#FC4CB4'    # Bright Magenta
+color_15: '#8BE9FE'    # Bright Cyan
+color_16: '#EDEDEC'    # Bright White
 
-background: '#282A36'  # Background
-foreground: '#EFF0EB'  # Foreground (Text)
+background: '#1E1F29'  # Background
+foreground: '#EBECE6'  # Foreground (Text)
 
-cursor: '#97979B'      # Cursor
+cursor: '#E4E4E4'      # Cursor

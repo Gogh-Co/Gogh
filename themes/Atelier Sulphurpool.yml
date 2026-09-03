@@ -14,14 +14,14 @@ color_08: '#979DB4'    # White
 
 color_09: '#6B7394'    # Bright Black
 color_10: '#C76B29'    # Bright Red (Command error)
-color_11: '#AC9739'    # Bright Green (Exec)
-color_12: '#C08B30'    # Bright Yellow
-color_13: '#3D8FD1'    # Bright Blue (Folder)
-color_14: '#6679CC'    # Bright Magenta
-color_15: '#22A2C9'    # Bright Cyan
+color_11: '#293256'    # Bright Green (Exec)
+color_12: '#5E6687'    # Bright Yellow
+color_13: '#898EA4'    # Bright Blue (Folder)
+color_14: '#DFE2F1'    # Bright Magenta
+color_15: '#9C637A'    # Bright Cyan
 color_16: '#F5F7FF'    # Bright White
 
 background: '#202746'  # Background
-foreground: '#898EA4'  # Foreground (Text)
+foreground: '#979DB4'  # Foreground (Text)
 
-cursor: '#898EA4'      # Cursor
+cursor: '#979DB4'      # Cursor

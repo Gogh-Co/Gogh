@@ -4,7 +4,7 @@ author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
 variant: 'dark'            # dark or light
 
 color_01: '#241B30'    # Black (Host)
-color_02: '#9A0048'    # Red (Syntax string)
+color_02: '#E60A70'    # Red (Syntax string)
 color_03: '#00986C'    # Green (Command)
 color_04: '#ADAD3E'    # Yellow (Command second)
 color_05: '#6E29AD'    # Blue (Path)

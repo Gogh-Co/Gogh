@@ -4,24 +4,24 @@ author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)
-color_02: '#C75646'    # Red (Syntax string)
-color_03: '#8EB33B'    # Green (Command)
-color_04: '#D0B03C'    # Yellow (Command second)
-color_05: '#72B3CC'    # Blue (Path)
-color_06: '#C8A0D1'    # Magenta (Syntax var)
-color_07: '#218693'    # Cyan (Prompt)
-color_08: '#B0B0B0'    # White
+color_02: '#B84131'    # Red (Syntax string)
+color_03: '#7DA900'    # Green (Command)
+color_04: '#C4A500'    # Yellow (Command second)
+color_05: '#62A3C4'    # Blue (Path)
+color_06: '#BA8ACC'    # Magenta (Syntax var)
+color_07: '#207383'    # Cyan (Prompt)
+color_08: '#A1A1A1'    # White
 
-color_09: '#5D5D5D'    # Bright Black
-color_10: '#E09690'    # Bright Red (Command error)
-color_11: '#CDEE69'    # Bright Green (Exec)
-color_12: '#FFE377'    # Bright Yellow
-color_13: '#9CD9F0'    # Bright Blue (Folder)
-color_14: '#FBB1F9'    # Bright Magenta
-color_15: '#77DFD8'    # Bright Cyan
+color_09: '#7A7A7A'    # Bright Black
+color_10: '#D6837C'    # Bright Red (Command error)
+color_11: '#C4F137'    # Bright Green (Exec)
+color_12: '#FEE14D'    # Bright Yellow
+color_13: '#8DCFF0'    # Bright Blue (Folder)
+color_14: '#F79AFF'    # Bright Magenta
+color_15: '#6AD9CF'    # Bright Cyan
 color_16: '#F7F7F7'    # Bright White
 
-background: '#242424'  # Background
+background: '#1B1B1B'  # Background
 foreground: '#F7F7F7'  # Foreground (Text)
 
-cursor: '#F7F7F7'      # Cursor
+cursor: '#BBBBBB'      # Cursor

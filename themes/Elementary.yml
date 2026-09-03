@@ -3,25 +3,25 @@ name: 'Elementary'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
 variant: 'dark'            # dark or light
 
-color_01: '#303030'    # Black (Host)
-color_02: '#E1321A'    # Red (Syntax string)
-color_03: '#6AB017'    # Green (Command)
-color_04: '#FFC005'    # Yellow (Command second)
-color_05: '#004F9E'    # Blue (Path)
-color_06: '#EC0048'    # Magenta (Syntax var)
-color_07: '#2AA7E7'    # Cyan (Prompt)
-color_08: '#F2F2F2'    # White
+color_01: '#242424'    # Black (Host)
+color_02: '#D71C15'    # Red (Syntax string)
+color_03: '#5AA513'    # Green (Command)
+color_04: '#FDB40C'    # Yellow (Command second)
+color_05: '#063B8C'    # Blue (Path)
+color_06: '#E40038'    # Magenta (Syntax var)
+color_07: '#2595E1'    # Cyan (Prompt)
+color_08: '#EFEFEF'    # White
 
-color_09: '#5D5D5D'    # Bright Black
-color_10: '#FF361E'    # Bright Red (Command error)
-color_11: '#7BC91F'    # Bright Green (Exec)
-color_12: '#FFD00A'    # Bright Yellow
-color_13: '#0071FF'    # Bright Blue (Folder)
-color_14: '#FF1D62'    # Bright Magenta
-color_15: '#4BB8FD'    # Bright Cyan
-color_16: '#A020F0'    # Bright White
+color_09: '#4B4B4B'    # Bright Black
+color_10: '#FC1C18'    # Bright Red (Command error)
+color_11: '#6BC219'    # Bright Green (Exec)
+color_12: '#FEC80E'    # Bright Yellow
+color_13: '#0955FF'    # Bright Blue (Folder)
+color_14: '#FB0050'    # Bright Magenta
+color_15: '#3EA8FC'    # Bright Cyan
+color_16: '#8C00EC'    # Bright White
 
-background: '#101010'  # Background
-foreground: '#F2F2F2'  # Foreground (Text)
+background: '#181818'  # Background
+foreground: '#EFEFEF'  # Foreground (Text)
 
-cursor: '#F2F2F2'      # Cursor
+cursor: '#BBBBBB'      # Cursor

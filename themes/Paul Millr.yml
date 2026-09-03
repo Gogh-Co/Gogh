@@ -6,7 +6,7 @@ variant: 'dark'            # dark or light
 color_01: '#2A2A2A'    # Black (Host)
 color_02: '#FF0000'    # Red (Syntax string)
 color_03: '#79FF0F'    # Green (Command)
-color_04: '#D3BF00'    # Yellow (Command second)
+color_04: '#E7BF00'    # Yellow (Command second)
 color_05: '#396BD7'    # Blue (Path)
 color_06: '#B449BE'    # Magenta (Syntax var)
 color_07: '#66CCFF'    # Cyan (Prompt)
@@ -24,4 +24,4 @@ color_16: '#FFFFFF'    # Bright White
 background: '#000000'  # Background
 foreground: '#F2F2F2'  # Foreground (Text)
 
-cursor: '#F2F2F2'      # Cursor
+cursor: '#4D4D4D'      # Cursor
