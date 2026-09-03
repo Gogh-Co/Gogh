@@ -27,28 +27,28 @@ jobs:
         run: python -m pip install -r requirements.txt --root-user-action=ignore
 
       - name: 🏅 Generate themes JSON
-        run: python tools/pipe-generateJson.py
+        run: python tools/generate/01_generate_themes_json.py
 
       - name: 🏅 Generate JSON files
-        run: python tools/pipe-generateJsonFiles.py
+        run: python tools/generate/02_split_themes_json.py
 
       - name: 🏅 Generate TXT files
-        run: python tools/pipe-generateTxtFiles.py
+        run: python tools/generate/03_split_themes_txt.py
 
       - name: 🏅 Generate CSV
-        run: python tools/pipe-generateCsv.py
+        run: python tools/generate/04_generate_themes_csv.py
 
       - name: 🏅 Generate YAML
-        run: python tools/pipe-generateYaml.py
+        run: python tools/generate/05_generate_themes_yaml.py
 
       - name: 🏅 Generate YAML files
-        run: python tools/pipe-generateYamlFiles.py
+        run: python tools/generate/06_split_themes_yaml.py
 
       - name: 🏅 Generate installers
-        run: python tools/pipe-generateShFiles.py
+        run: python tools/generate/07_generate_install_scripts.py
 
       - name: 🏅 Update themes in Gogh file
-        run: python tools/pipe-updateThemes.py
+        run: python tools/generate/08_update_gogh_sh_theme_list.py
 
       - name: 🏅 Set up Deno
         uses: denoland/setup-deno@v2
@@ -56,4 +56,4 @@ jobs:
           deno-version: v2.x
 
       - name: 🏅 Generate WCAG reports
-        run: deno run --allow-all tools/pipe-generateWcag.js
+        run: deno run --allow-all tools/generate/10_generate_wcag_report.js

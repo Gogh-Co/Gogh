@@ -3,7 +3,7 @@
 # requests that touch themes/**, so a theme PR can't quietly drag in
 # changes to tools/, data/, or anywhere else in the repo.
 #
-# Usage: python tools/validate-pr.py <changed-files-list-path>
+# Usage: python tools/validate/validate_pr.py <changed-files-list-path>
 # Reads the PR title from the PR_TITLE environment variable.
 
 import os
@@ -37,7 +37,7 @@ def check_scope(changed_files):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python tools/validate-pr.py <changed-files-list-path>")
+        print("Usage: python tools/validate/validate_pr.py <changed-files-list-path>")
         sys.exit(2)
 
     with open(sys.argv[1]) as f:

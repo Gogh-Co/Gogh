@@ -1,3 +1,4 @@
+# Step 4 of the generate/ pipeline.
 # Export theme data from data/themes.json to data/themes.csv.
 # Uses keys from the first JSON object as CSV headers.
 

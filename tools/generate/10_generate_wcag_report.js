@@ -1,3 +1,7 @@
+// Step 10 of the generate/ pipeline.
+// Generate WCAG contrast reports (data/wcag.json, data/wcag-min.json) from
+// data/themes.json. Run with Deno: deno run --allow-all tools/generate/10_generate_wcag_report.js
+
 import { ratio, score } from 'npm:wcag-color';
 import fs from 'node:fs';
 

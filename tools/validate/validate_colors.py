@@ -8,7 +8,8 @@ from pathlib import Path
 
 import yaml
 
-from theme_hash import COLOR_FIELDS
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from lib.theme_common import COLOR_FIELDS
 
 CHECK_FIELDS = COLOR_FIELDS + ["background", "foreground", "cursor"]
 HEX_RE = re.compile(r"^#[0-9A-Fa-f]{6}$")

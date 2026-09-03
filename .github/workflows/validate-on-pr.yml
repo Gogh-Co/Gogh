@@ -25,7 +25,7 @@ jobs:
         run: pip install -r requirements.txt --root-user-action=ignore
 
       - name: 🏅 Validate color values are uppercase
-        run: python tools/validate-colors.py
+        run: python tools/validate/validate_colors.py
 
       - name: 🏅 List changed files
         run: |
@@ -35,4 +35,4 @@ jobs:
       - name: 🏅 Validate PR title and scope (themes/ only)
         env:
           PR_TITLE: ${{ github.event.pull_request.title }}
-        run: python tools/validate-pr.py /tmp/changed_files.txt
+        run: python tools/validate/validate_pr.py /tmp/changed_files.txt

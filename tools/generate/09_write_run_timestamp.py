@@ -1,5 +1,8 @@
+# Step 9 of the generate/ pipeline.
 # Write a pipeline run timestamp marker to tools/run.txt.
 # Used as a simple record of the last generator execution time.
+# Path is relative to the repo root (not this script's own directory), so
+# run.txt stays at tools/run.txt regardless of which generate/ step writes it.
 
 from datetime import datetime
 from pathlib import Path

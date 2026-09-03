@@ -1,5 +1,13 @@
+# Step 7 of the generate/ pipeline.
 # Generate install shell scripts in installs/ from YAML themes in themes/.
 # Creates one script per theme and applies executable file permissions.
+#
+# NOTE: unlike the split_themes_* steps, this reads themes/*.yml directly
+# (not data/themes.json) and its own slugify regex/collision handling below
+# is intentionally left as-is rather than switched to
+# lib.theme_common.slugify_theme_name() — that function's output can differ
+# for names with underscores, and this one feeds public installer filenames
+# (installs/<slug>.sh), so unifying it is a separate, deliberate change.
 
 from unidecode import unidecode
 import json

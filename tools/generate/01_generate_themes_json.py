@@ -1,11 +1,14 @@
+# Step 1 of the generate/ pipeline.
 # Build data/themes.json from YAML theme files in themes/.
 # Also writes a minified data/themes-min.json and includes a content hash.
 
 import json
+import sys
 from pathlib import Path
 import yaml
 
-from theme_hash import hash_palette, hash_background
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from lib.theme_common import build_ordered_theme, hash_palette, hash_background
 
 source_path = Path("./themes")
 dest_path = Path("./data/themes.json")
@@ -30,37 +33,10 @@ for filepath in source_path.glob("*.yml"):
     # only if a palette color changes.
     # hash_bg: the background alone, so two themes with an identical palette
     # but a different background can still be told apart.
-    hash_hex = hash_palette(data)
-    hash_bg_hex = hash_background(data)
+    data["hash"] = hash_palette(data)
+    data["hash_bg"] = hash_background(data)
 
-    # Build the theme dictionary in the required order
-    theme = {
-        "name": data.get("name", ""),
-        "author": data.get("author", ""),
-        "variant": data.get("variant", ""),
-        "color_01": data.get("color_01", ""),
-        "color_02": data.get("color_02", ""),
-        "color_03": data.get("color_03", ""),
-        "color_04": data.get("color_04", ""),
-        "color_05": data.get("color_05", ""),
-        "color_06": data.get("color_06", ""),
-        "color_07": data.get("color_07", ""),
-        "color_08": data.get("color_08", ""),
-        "color_09": data.get("color_09", ""),
-        "color_10": data.get("color_10", ""),
-        "color_11": data.get("color_11", ""),
-        "color_12": data.get("color_12", ""),
-        "color_13": data.get("color_13", ""),
-        "color_14": data.get("color_14", ""),
-        "color_15": data.get("color_15", ""),
-        "color_16": data.get("color_16", ""),
-        "background": data.get("background", ""),
-        "foreground": data.get("foreground", ""),
-        "cursor": data.get("cursor", ""),
-        "hash": hash_hex,
-        "hash_bg": hash_bg_hex
-    }
-    themes.append(theme)
+    themes.append(build_ordered_theme(data))
 
 # Sort themes by name
 themes.sort(key=lambda x: x["name"])

@@ -1,3 +1,4 @@
+# Step 5 of the generate/ pipeline.
 # Export theme data from data/themes.json to data/themes.yaml.
 # Preserves the key order used in the JSON source for each theme entry.
 

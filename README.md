@@ -231,7 +231,7 @@ Every theme in `themes.json` carries two SHA-256 fields, so palette and backgrou
 - `hash` — the theme's **16 ANSI colors only**, independent of `name`, `author`, `variant`, `background`, `foreground`, or `cursor` (those are cosmetic).
 - `hash_bg` — the theme's `background` value only.
 
-**How they're computed** (`tools/theme_hash.py`, used by `tools/pipe-generateJson.py`):
+**How they're computed** (`tools/lib/theme_common.py`, used by `tools/generate/01_generate_themes_json.py`):
 
 - `hash`: concatenate `color_01` → `color_16` hex values as-is, no separators, then SHA-256 the result.
 - `hash_bg`: SHA-256 of the `background` hex value on its own.

@@ -1,5 +1,13 @@
+# Step 8 of the generate/ pipeline.
 # Refresh the THEMES array in gogh.sh using names from data/themes.json.
 # Produces sorted and de-duplicated .sh entries.
+#
+# NOTE: this uses its own slugify regex (line below) rather than
+# lib.theme_common.slugify_theme_name(), and de-dupes via set() with no
+# collision suffix — two theme names that slug to the same string silently
+# collapse to one gogh.sh entry. Left as-is here (same behavior as before
+# this reorg); fixing it is a separate, deliberate change since it changes
+# what ships in gogh.sh's public THEMES list.
 
 import json
 import re
