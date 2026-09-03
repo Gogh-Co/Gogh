@@ -25,11 +25,18 @@ for filepath in source_path.glob("*.yml"):
     # Load the corrected YAML file
     data = yaml.safe_load(content)
 
-    # Concatenate all values into a single string to generate a hash
-    values = ''.join(str(value) for value in data.values())
+    # Hash only the colors (not name/author/variant), so it changes only if a color changes
+    color_fields = [
+        "color_01", "color_02", "color_03", "color_04",
+        "color_05", "color_06", "color_07", "color_08",
+        "color_09", "color_10", "color_11", "color_12",
+        "color_13", "color_14", "color_15", "color_16",
+        "background", "foreground", "cursor",
+    ]
+    colors = ''.join(str(data.get(field, "")).strip() for field in color_fields)
 
     # Generate SHA-256 hash
-    hash_hex = hashlib.sha256(values.encode()).hexdigest()
+    hash_hex = hashlib.sha256(colors.encode()).hexdigest()
 
     # Build the theme dictionary in the required order
     theme = {

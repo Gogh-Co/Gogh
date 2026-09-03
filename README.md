@@ -25,6 +25,7 @@ This project is here for anyone to use, no expectations. <br>
 If you want to buy me a coffee voluntarily, you can use this link.
 
 [![☕ Buy me a coffee](https://img.shields.io/badge/%E2%98%95-Buy%20me%20a%20coffee-FFA500?style=for-the-badge&logo=buymeacoffee&logoColor=white)](https://paypal.me/mgldvd?country.x=CO&locale.x=es_XC)
+
 </div>
 
 <table>
@@ -112,13 +113,15 @@ bash -c "$(curl -sLo- https://git.io/vQgMr)"
 <br/>
 <br/>
 
-
 ## ⚙️ Install (Non-Interactive Mode)
+
 Two ways:
+
 * Clone the repository.
 * Download the only required files. (Bare Minimum!)
 
 ### Clone Repository
+
 ```bash
 # Clone the repo into "$HOME/src/gogh"
 mkdir -p "$HOME/src"
@@ -142,6 +145,7 @@ cd installs
 ```
 
 ### Download the only required files. (Bare Minimum!)
+
 ```bash
 # Download apply script
 wget https://github.com/Gogh-Co/Gogh/raw/master/apply-colors.sh
@@ -177,6 +181,7 @@ GOGH_APPLY_SCRIPT=/path/to/file/apply-colors.sh bash ./selenized-dark.sh
 <br/>
 
 ## 💻 Terminal Support
+
 Here are some terminals that Gogh is supported with:
 
 - Alacritty - [Web](https://github.com/alacritty/alacritty)
@@ -211,8 +216,28 @@ We have lots of themes in stock! Check them out [here](https://Gogh-Co.github.io
 
 - **csv**: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.csv
 
-
 <br/>
+
+### 🔑 Color Hash
+
+Every theme in `themes.json` carries a `hash`: a SHA-256 of the theme's **colors only**, independent of `name`, `author`, or `variant`.
+
+**How it's computed** (`tools/pipe-generateJson.py`):
+
+1. `color_01` → `color_16`, then `background`, `foreground`, `cursor`, in that order.
+2. Concatenate their hex values as-is, no separators.
+3. SHA-256 the result.
+
+Example — `Solarized Dark.yml`:
+
+```
+#002831#D11C24#738A05#A57706#2176C7#C61C6F#259286#EAE3CB#001E27#BD3613#475B62#536870#708284#5956BA#819090#FCF4DC#001E27#708284#708284
+↓ SHA-256
+081af99e3ecdefa9d5ccc3baeda27a77d6b98b8430e230014dce0612d35d927e
+```
+
+It only changes if a color changes — metadata edits don't touch it.
+
 <br/>
 
 ## 👀 [WCAG](https://Gogh-Co.github.io/Gogh/wcag) - Accessibility Contrast
@@ -277,8 +302,8 @@ dconf reset -f /org/gnome/terminal/legacy/profiles:/
 ```bash
 sudo apt install uuid-runtime
 ```
-- Run the Gogh script.
 
+- Run the Gogh script.
 
 ### 🔹 Elementary OS
 
@@ -298,6 +323,7 @@ source .bashrc
 <br>
 
 ## 🖼️ Create your Own Theme!
+
 Good news! Now, creating themes are easier than ever.
 
 All you need to do is to create a YAML format file, following the example of the other files in the `themes` folder.
@@ -305,8 +331,8 @@ All you need to do is to create a YAML format file, following the example of the
 Some rules to keep in mind:
 
 - The file name should match the name of the theme. For example:
-    - **Filename**: `Solarized Dark.yml`
-    - **Inside the .yml file**: `name: 'Solarized Dark'`
+  - **Filename**: `Solarized Dark.yml`
+  - **Inside the .yml file**: `name: 'Solarized Dark'`
 - Use title case for all words by capitalizing their first letter.
 - Ensure that the contrast is sufficient for good legibility.
 
@@ -314,6 +340,7 @@ Some rules to keep in mind:
 **Thank you for collaborating!**
 
 ### Theme ".yml" template
+
 If you indeed use this, replace the HEX values with your own ones.
 
 ```yml
@@ -485,6 +512,7 @@ This project is here for anyone to use, no expectations. <br>
 If you want to buy me a coffee voluntarily, you can use this link.
 
 [![☕ Buy me a coffee](https://img.shields.io/badge/%E2%98%95-Buy%20me%20a%20coffee-FFA500?style=for-the-badge&logo=buymeacoffee&logoColor=white)](https://paypal.me/mgldvd?country.x=CO&locale.x=es_XC)
+
 </div>
 
 <br/>
