@@ -4,24 +4,24 @@ author: 'Protesilaos Stavrou (https://protesilaos.com)'             # 'AUTHOR NA
 variant: 'light'            # dark or light
 
 color_01: '#464340'    # Black (Host)
-color_02: '#c81000'    # Red (Syntax string)
+color_02: '#C81000'    # Red (Syntax string)
 color_03: '#107410'    # Green (Command)
 color_04: '#806000'    # Yellow (Command second)
-color_05: '#385dc4'    # Blue (Path)
-color_06: '#b63052'    # Magenta (Syntax var)
+color_05: '#385DC4'    # Blue (Path)
+color_06: '#B63052'    # Magenta (Syntax var)
 color_07: '#007070'    # Cyan (Prompt)
-color_08: '#e7e3d7'    # White
+color_08: '#E7E3D7'    # White
 
-color_09: '#68607d'    # Bright Black
-color_10: '#b24000'    # Bright Red (Command error)
+color_09: '#68607D'    # Bright Black
+color_10: '#B24000'    # Bright Red (Command error)
 color_11: '#427040'    # Bright Green (Exec)
-color_12: '#6f6600'    # Bright Yellow
-color_13: '#0f64c4'    # Bright Blue (Folder)
-color_14: '#8050a7'    # Bright Magenta
-color_15: '#336c87'    # Bright Cyan
-color_16: '#f8f2e5'    # Bright White
+color_12: '#6F6600'    # Bright Yellow
+color_13: '#0F64C4'    # Bright Blue (Folder)
+color_14: '#8050A7'    # Bright Magenta
+color_15: '#336C87'    # Bright Cyan
+color_16: '#F8F2E5'    # Bright White
 
-background: '#f8f2e5'  # Background
+background: '#F8F2E5'  # Background
 foreground: '#464340'  # Foreground (Text)
 
 cursor: '#464340'      # Cursor

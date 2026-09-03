@@ -10,7 +10,7 @@ color_04: '#AE9513'    # Yellow (Command second)
 color_05: '#6684E1'    # Blue (Path)
 color_06: '#B854D4'    # Magenta (Syntax var)
 color_07: '#1FAD83'    # Cyan (Prompt)
-color_08: '#a6a28c'    # White
+color_08: '#A6A28C'    # White
 
 color_09: '#7D7A68'    # Bright Black
 color_10: '#B65611'    # Bright Red (Command error)

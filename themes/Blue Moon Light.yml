@@ -3,26 +3,26 @@ name: 'Blue Moon Light'
 author: 'kyazdani42 (https://github.com/kyazdani42/blue-moon)'
 variant: 'dark'
 
-color_01: '#292d3e'   # Black (Host)
-color_02: '#d06179'   # Red (Syntax string)
-color_03: '#d0e7d0'   # Green (Command)
-color_04: '#cfcfbf'   # Yellow (Command second)
-color_05: '#959dcb'   # Blue (Path)
-color_06: '#a9a3db'   # Magenta (Syntax var)
-color_07: '#89bbdd'   # Cyan (Prompt)
-color_08: '#ffffff'   # White
+color_01: '#292D3E'   # Black (Host)
+color_02: '#D06179'   # Red (Syntax string)
+color_03: '#D0E7D0'   # Green (Command)
+color_04: '#CFCFBF'   # Yellow (Command second)
+color_05: '#959DCB'   # Blue (Path)
+color_06: '#A9A3DB'   # Magenta (Syntax var)
+color_07: '#89BBDD'   # Cyan (Prompt)
+color_08: '#FFFFFF'   # White
 
-color_09: '#292d3e'   # Bright Black
-color_10: '#d06179'   # Bright Red (Command error)
-color_11: '#d0e7d0'   # Bright Green (Exec)
-color_12: '#cfcfbf'   # Bright Yellow
-color_13: '#959dcb'   # Bright Blue (Folder)
-color_14: '#a9a3db'   # Bright Magenta
-color_15: '#89bbdd'   # Bright Cyan
-color_16: '#ffffff'   # Bright White
+color_09: '#292D3E'   # Bright Black
+color_10: '#D06179'   # Bright Red (Command error)
+color_11: '#D0E7D0'   # Bright Green (Exec)
+color_12: '#CFCFBF'   # Bright Yellow
+color_13: '#959DCB'   # Bright Blue (Folder)
+color_14: '#A9A3DB'   # Bright Magenta
+color_15: '#89BBDD'   # Bright Cyan
+color_16: '#FFFFFF'   # Bright White
 
-background: '#32374d' # Background
-foreground: '#fbfbfb' # Foreground (Text)
+background: '#32374D' # Background
+foreground: '#FBFBFB' # Foreground (Text)
 
-cursor: '#fbfbfb'     # Cursor
+cursor: '#FBFBFB'     # Cursor
 

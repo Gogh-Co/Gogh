@@ -3,25 +3,25 @@ name: 'Base4Tone Classic O'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
 variant: 'dark'            # dark or light
 
-color_01: '#1a1d23'    # Black (Host)
-color_02: '#a24ad9'    # Red (Syntax string)
-color_03: '#0d9c89'    # Green (Command)
-color_04: '#1ed2ba'    # Yellow (Command second)
-color_05: '#74a8fb'    # Blue (Path)
-color_06: '#9488f2'    # Magenta (Syntax var)
-color_07: '#1bbba6'    # Cyan (Prompt)
-color_08: '#e7eaee'    # White
+color_01: '#1A1D23'    # Black (Host)
+color_02: '#A24AD9'    # Red (Syntax string)
+color_03: '#0D9C89'    # Green (Command)
+color_04: '#1ED2BA'    # Yellow (Command second)
+color_05: '#74A8FB'    # Blue (Path)
+color_06: '#9488F2'    # Magenta (Syntax var)
+color_07: '#1BBBA6'    # Cyan (Prompt)
+color_08: '#E7EAEE'    # White
 
-color_09: '#07090d'    # Bright Black
-color_10: '#c27eed'    # Bright Red (Command error)
-color_11: '#2fdac3'    # Bright Green (Exec)
-color_12: '#93ece0'    # Bright Yellow
-color_13: '#c7dcff'    # Bright Blue (Folder)
-color_14: '#aba1f7'    # Bright Magenta
-color_15: '#c2d9ff'    # Bright Cyan
-color_16: '#f6f7f9'    # Bright White
+color_09: '#07090D'    # Bright Black
+color_10: '#C27EED'    # Bright Red (Command error)
+color_11: '#2FDAC3'    # Bright Green (Exec)
+color_12: '#93ECE0'    # Bright Yellow
+color_13: '#C7DCFF'    # Bright Blue (Folder)
+color_14: '#ABA1F7'    # Bright Magenta
+color_15: '#C2D9FF'    # Bright Cyan
+color_16: '#F6F7F9'    # Bright White
 
-background: '#1a1d23'  # Background
-foreground: '#8995a9'  # Foreground (Text)
+background: '#1A1D23'  # Background
+foreground: '#8995A9'  # Foreground (Text)
 
-cursor: '#6d8884'      # Cursor
+cursor: '#6D8884'      # Cursor

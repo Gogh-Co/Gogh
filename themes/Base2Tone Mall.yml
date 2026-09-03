@@ -3,25 +3,25 @@ name: 'Base2Tone Mall'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
 variant: 'dark'            # dark or light
 
-color_01: '#1e1e1f'    # Black (Host)
-color_02: '#a17efc'    # Red (Syntax string)
-color_03: '#75bfff'    # Green (Command)
-color_04: '#b3dbff'    # Yellow (Command second)
-color_05: '#b294ff'    # Blue (Path)
-color_06: '#75bfff'    # Magenta (Syntax var)
-color_07: '#c5adff'    # Cyan (Prompt)
-color_08: '#97959d'    # White
+color_01: '#1E1E1F'    # Black (Host)
+color_02: '#A17EFC'    # Red (Syntax string)
+color_03: '#75BFFF'    # Green (Command)
+color_04: '#B3DBFF'    # Yellow (Command second)
+color_05: '#B294FF'    # Blue (Path)
+color_06: '#75BFFF'    # Magenta (Syntax var)
+color_07: '#C5ADFF'    # Cyan (Prompt)
+color_08: '#97959D'    # White
 
-color_09: '#5e5c60'    # Bright Black
-color_10: '#8ac8ff'    # Bright Red (Command error)
-color_11: '#2b2b2c'    # Bright Green (Exec)
+color_09: '#5E5C60'    # Bright Black
+color_10: '#8AC8FF'    # Bright Red (Command error)
+color_11: '#2B2B2C'    # Bright Green (Exec)
 color_12: '#515053'    # Bright Yellow
-color_13: '#6a686e'    # Bright Blue (Folder)
-color_14: '#e5dbff'    # Bright Magenta
-color_15: '#69b5f7'    # Bright Cyan
-color_16: '#f4f0ff'    # Bright White
+color_13: '#6A686E'    # Bright Blue (Folder)
+color_14: '#E5DBFF'    # Bright Magenta
+color_15: '#69B5F7'    # Bright Cyan
+color_16: '#F4F0FF'    # Bright White
 
-background: '#1e1e1f'  # Background
-foreground: '#97959d'  # Foreground (Text)
+background: '#1E1E1F'  # Background
+foreground: '#97959D'  # Foreground (Text)
 
-cursor: '#3692e2'      # Cursor
+cursor: '#3692E2'      # Cursor

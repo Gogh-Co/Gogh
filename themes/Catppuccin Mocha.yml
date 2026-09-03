@@ -1,6 +1,6 @@
 ---
 name: 'Catppuccin Mocha'
-author: 'Catppuccin (https://github.com/orgs/catppuccin/people)'
+author: 'Catppuccin (https://github.com/catppuccin)'
 variant: 'dark'            # dark or light
 
 color_01: '#45475A'    # Black (Host)
@@ -10,16 +10,16 @@ color_04: '#F9E2AF'    # Yellow (Command second)
 color_05: '#89B4FA'    # Blue (Path)
 color_06: '#F5C2E7'    # Magenta (Syntax var)
 color_07: '#94E2D5'    # Cyan (Prompt)
-color_08: '#BAC2DE'    # White
+color_08: '#A6ADC8'    # White
 
 color_09: '#585B70'    # Bright Black
-color_10: '#F7AEC2'    # Bright Red (Command error)
-color_11: '#C2ECBF'    # Bright Green (Exec)
-color_12: '#FCD682'    # Bright Yellow
-color_13: '#AECCFC'    # Bright Blue (Folder)
-color_14: '#F398DA'    # Bright Magenta
-color_15: '#B1EAE1'    # Bright Cyan
-color_16: '#A6ADC8'    # Bright White
+color_10: '#F37799'    # Bright Red (Command error)
+color_11: '#89D88B'    # Bright Green (Exec)
+color_12: '#EBD391'    # Bright Yellow
+color_13: '#74A8FC'    # Bright Blue (Folder)
+color_14: '#F2AEDE'    # Bright Magenta
+color_15: '#6BD7CA'    # Bright Cyan
+color_16: '#BAC2DE'    # Bright White
 
 background: '#1E1E2E'  # Background
 foreground: '#CDD6F4'  # Foreground (Text)

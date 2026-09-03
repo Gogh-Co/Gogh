@@ -1,6 +1,6 @@
 ---
 name: 'Catppuccin Frappe'
-author: 'Catppuccin (https://github.com/orgs/catppuccin/people)'
+author: 'Catppuccin (https://github.com/catppuccin)'
 variant: 'dark'            # dark or light
 
 color_01: '#51576D'    # Black (Host)
@@ -10,16 +10,16 @@ color_04: '#E5C890'    # Yellow (Command second)
 color_05: '#8CAAEE'    # Blue (Path)
 color_06: '#F4B8E4'    # Magenta (Syntax var)
 color_07: '#81C8BE'    # Cyan (Prompt)
-color_08: '#B5BFE2'    # White
+color_08: '#A5ADCE'    # White
 
 color_09: '#626880'    # Bright Black
-color_10: '#EDA0A2'    # Bright Red (Command error)
-color_11: '#B9DBA2'    # Bright Green (Exec)
-color_12: '#ECD7AE'    # Bright Yellow
-color_13: '#ADC2F3'    # Bright Blue (Folder)
-color_14: '#F38ED8'    # Bright Magenta
-color_15: '#98D2CA'    # Bright Cyan
-color_16: '#A5ADCE'    # Bright White
+color_10: '#E67172'    # Bright Red (Command error)
+color_11: '#8EC772'    # Bright Green (Exec)
+color_12: '#D9BA73'    # Bright Yellow
+color_13: '#7B9EF0'    # Bright Blue (Folder)
+color_14: '#F2A4DB'    # Bright Magenta
+color_15: '#5ABFB5'    # Bright Cyan
+color_16: '#B5BFE2'    # Bright White
 
 background: '#303446'  # Background
 foreground: '#C6D0F5'  # Foreground (Text)

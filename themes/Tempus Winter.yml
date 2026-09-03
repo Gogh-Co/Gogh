@@ -4,24 +4,24 @@ author: 'Protesilaos Stavrou (https://protesilaos.com)'             # 'AUTHOR NA
 variant: 'dark'            # dark or light
 
 color_01: '#202427'    # Black (Host)
-color_02: '#ed6e5a'    # Red (Syntax string)
-color_03: '#4aa920'    # Green (Command)
-color_04: '#9a9921'    # Yellow (Command second)
-color_05: '#7b91df'    # Blue (Path)
-color_06: '#d17e80'    # Magenta (Syntax var)
-color_07: '#4fa394'    # Cyan (Prompt)
-color_08: '#91959b'    # White
+color_02: '#ED6E5A'    # Red (Syntax string)
+color_03: '#4AA920'    # Green (Command)
+color_04: '#9A9921'    # Yellow (Command second)
+color_05: '#7B91DF'    # Blue (Path)
+color_06: '#D17E80'    # Magenta (Syntax var)
+color_07: '#4FA394'    # Cyan (Prompt)
+color_08: '#91959B'    # White
 
-color_09: '#2a2e38'    # Bright Black
-color_10: '#de7b28'    # Bright Red (Command error)
-color_11: '#00ab5f'    # Bright Green (Exec)
-color_12: '#af9155'    # Bright Yellow
-color_13: '#329fcb'    # Bright Blue (Folder)
-color_14: '#ca77c5'    # Bright Magenta
-color_15: '#1ba6a4'    # Bright Cyan
-color_16: '#8da3b8'    # Bright White
+color_09: '#2A2E38'    # Bright Black
+color_10: '#DE7B28'    # Bright Red (Command error)
+color_11: '#00AB5F'    # Bright Green (Exec)
+color_12: '#AF9155'    # Bright Yellow
+color_13: '#329FCB'    # Bright Blue (Folder)
+color_14: '#CA77C5'    # Bright Magenta
+color_15: '#1BA6A4'    # Bright Cyan
+color_16: '#8DA3B8'    # Bright White
 
 background: '#202427'  # Background
-foreground: '#8da3b8'  # Foreground (Text)
+foreground: '#8DA3B8'  # Foreground (Text)
 
-cursor: '#8da3b8'      # Cursor
+cursor: '#8DA3B8'      # Cursor
