@@ -479,7 +479,7 @@ declare -a THEMES=(
   'monokai-pro-light-sun.sh'
   'monokai-pro-light.sh'
   'monokai-pro-machine.sh'
-  'monokai-pro-ocatagon.sh'
+  'monokai-pro-octagon.sh'
   'monokai-pro-ristretto.sh'
   'monokai-pro-spectrum.sh'
   'monokai-pro.sh'

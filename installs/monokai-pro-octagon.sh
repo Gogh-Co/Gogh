@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PROFILE_NAME="Monokai Pro Ocatagon"
+export PROFILE_NAME="Monokai Pro Octagon"
 
 export COLOR_01="#282A3A"           # Black (Host)
 export COLOR_02="#FF657A"           # Red (Syntax string)
