@@ -321,8 +321,8 @@
     "color_16": "#F6F5FB",
     "background": "#1F1D45",
     "foreground": "#F8DCC0",
-    "cursor": "#F8DCC0",
-    "hash": "dc959e9b6fde2511ef81736b8f14161f869226a85c476b29361292bdd93d9261"
+    "cursor": "#EFBF38",
+    "hash": "b4a9061f8f28144c645d13d0277924c0ea635adac0bd36d91e6c7a7b17954401"
   },
   {
     "name": "Adwaita",
@@ -521,8 +521,8 @@
     "color_16": "#73FA91",
     "background": "#0F1610",
     "foreground": "#637D75",
-    "cursor": "#637D75",
-    "hash": "f3e5f6c374afdf9cbd01fc7a3952c01302bc56122e2035f32b787a210d3b9a5e"
+    "cursor": "#73FA91",
+    "hash": "e7a68c1387e3079aa000ad84926f256349b30eeb072a3ff9ea70a24ba11db454"
   },
   {
     "name": "Amber CRT Retro",
@@ -796,8 +796,8 @@
     "color_16": "#FFFFFF",
     "background": "#0E1019",
     "foreground": "#FFFAF4",
-    "cursor": "#FFFAF4",
-    "hash": "91109bea4785263820c5a81a2e09f3696defe0ebf8c6ede5128ea36a01708727"
+    "cursor": "#FF0018",
+    "hash": "1d5ead7869176701b80e690ab2cc5c7b8e683effe0e336c87ee6e798509094a3"
   },
   {
     "name": "Arthur",
@@ -821,8 +821,8 @@
     "color_16": "#DDCCBB",
     "background": "#1C1C1C",
     "foreground": "#DDEEDD",
-    "cursor": "#DDEEDD",
-    "hash": "b3b0ea8840ef2c87faf89aaaa71f084208816b2f4ec6bd7abe2110f0e43c7406"
+    "cursor": "#E2BBEF",
+    "hash": "92820528c001970f0a88b5c1b894de2737dc2dd426a87175514950a2902b4900"
   },
   {
     "name": "Astrodark",
@@ -1146,8 +1146,8 @@
     "color_16": "#E0E0E0",
     "background": "#161719",
     "foreground": "#C5C8C6",
-    "cursor": "#C5C8C6",
-    "hash": "9a7088836d84f10ccdf4f5edca8ff1ad1058249990ac6340b2eba733df9f1044"
+    "cursor": "#D0D0D0",
+    "hash": "8a6ea7155d53e6d82b54a747bdda140dfcff7bf01407294360760eb101dab854"
   },
   {
     "name": "Atom One Dark",
@@ -2571,8 +2571,8 @@
     "color_16": "#FFF9D5",
     "background": "#2A1F1D",
     "foreground": "#E0DBB7",
-    "cursor": "#E0DBB7",
-    "hash": "002634bc0f6f10f8887c85463175507fd86d143436cdb391320491551b62fe60"
+    "cursor": "#573D26",
+    "hash": "9bc9f88f5c63a532fb1b71a7cec8ae178d24fa9addc48aedddf1b462df1061bc"
   },
   {
     "name": "Black Metal",
@@ -3096,8 +3096,8 @@
     "color_16": "#FFFFFF",
     "background": "#0000A4",
     "foreground": "#FFFF4E",
-    "cursor": "#FFFF4E",
-    "hash": "4ba3621f86a92cf3cfe31c58585574194b2329875602387d997f7eb4f5e7daf9"
+    "cursor": "#FFA560",
+    "hash": "bd2267039430839548dc6d5674cf4f018dc309dd4c1b0b7f797d42f9e1c01eb7"
   },
   {
     "name": "Box",
@@ -3321,8 +3321,8 @@
     "color_16": "#FFFFFF",
     "background": "#2B2B2B",
     "foreground": "#E6E1DC",
-    "cursor": "#E6E1DC",
-    "hash": "fd38178a1ab5c3ff14908ede934356efdc3040d117673e1d3e6f3e18e0f05ce4"
+    "cursor": "#FFFFFF",
+    "hash": "3152116de787c468f4c207b4aa741f7267a91b14a134e2d7b40cc40c3122301e"
   },
   {
     "name": "Brogrammer",
@@ -3346,8 +3346,8 @@
     "color_16": "#FFFFFF",
     "background": "#131313",
     "foreground": "#D6DBE5",
-    "cursor": "#D6DBE5",
-    "hash": "86fbdfff811a49df7f352ee3925f5824499bf0dad2ecd07a9db85c280beb00ef"
+    "cursor": "#B9B9B9",
+    "hash": "3545c81d0a3c23adf8bb0b95aed92cd2be201a6b787f622f74ee23e1a978480f"
   },
   {
     "name": "Builtin Dark",
@@ -3571,8 +3571,8 @@
     "color_16": "#EEEEEC",
     "background": "#FFFFFF",
     "foreground": "#262626",
-    "cursor": "#262626",
-    "hash": "fec3e4fc747c0bc564df0063ae53313df41ee7ff2ebd82f42bdd5ed4635de663"
+    "cursor": "#6FD3FC",
+    "hash": "0217317dd409d920d0a2ca5c9dbd41bdc1903c03b36c42621f46530e65690344"
   },
   {
     "name": "CRT Amber",
@@ -3971,8 +3971,8 @@
     "color_16": "#F4F4F4",
     "background": "#191C27",
     "foreground": "#AEA47A",
-    "cursor": "#AEA47A",
-    "hash": "c570965b7350fb0afe2b188b20c4d0194740aa32200827efd0bff928275f76ad"
+    "cursor": "#92805B",
+    "hash": "bcc09d56e21b92d6a10206a10b01e2733cca100d7258d2d7f31bd280a39145fa"
   },
   {
     "name": "Citrus Ink",
@@ -4221,8 +4221,8 @@
     "color_16": "#8FF586",
     "background": "#142838",
     "foreground": "#8FF586",
-    "cursor": "#8FF586",
-    "hash": "35904ee224cd50043fd9a29641882941de0f9e460a79a841b01a2d8087f8eb59"
+    "cursor": "#C4206F",
+    "hash": "90ef768a2e6af57dcc2ed1c53dcaab9c841e26a94b9c900e6062de336027ee2d"
   },
   {
     "name": "Cobalt Next",
@@ -4321,8 +4321,8 @@
     "color_16": "#FFFFFF",
     "background": "#132738",
     "foreground": "#FFFFFF",
-    "cursor": "#FFFFFF",
-    "hash": "ec39bd567709c6761f0b721a91eb188baddbfcdff01767f0b08da93adb4078c9"
+    "cursor": "#F0CC09",
+    "hash": "8aca6ae6552a4ab0aecf1a8adaa3bc985abdf072ed0e0ba633bd912978f7cb86"
   },
   {
     "name": "Coffee Theme",
@@ -4646,8 +4646,8 @@
     "color_16": "#FFFFFF",
     "background": "#000000",
     "foreground": "#FFFFFF",
-    "cursor": "#FFFFFF",
-    "hash": "c0135de73ae2c6d1860daefa6514e824644decd28e027fac6f17677584ce468e"
+    "cursor": "#BBBBBB",
+    "hash": "e7bc2f755c79c74bc107b6bbfcc8cb159e7e2b0582e47d4bee5ca748e4061a44"
   },
   {
     "name": "Dark+",
@@ -4746,8 +4746,8 @@
     "color_16": "#BABABA",
     "background": "#222324",
     "foreground": "#BABABA",
-    "cursor": "#BABABA",
-    "hash": "af42bd3fc0bd85a1a2f292300cbbe12aa4ee77ae26fb0ad751a747ba9a114a80"
+    "cursor": "#BBBBBB",
+    "hash": "683d239ba958f2e681ae952f59a574530e0e1688785892c8daa595f51ce54f13"
   },
   {
     "name": "Dawnfox",
@@ -4896,8 +4896,8 @@
     "color_16": "#FFFFFF",
     "background": "#333333",
     "foreground": "#FFFFFF",
-    "cursor": "#FFFFFF",
-    "hash": "4d8fa9279d7f8215e1e5e251e8ae1a8ecca792920bb1696f01837c4c24daf856"
+    "cursor": "#00FF00",
+    "hash": "9d1aaece25845719c5e96b144f91ccd355ee880354753dbdd19ae509eb637e0c"
   },
   {
     "name": "Detuned",
@@ -4971,8 +4971,8 @@
     "color_16": "#FDFFB9",
     "background": "#1F1F1F",
     "foreground": "#B9BCBA",
-    "cursor": "#B9BCBA",
-    "hash": "7a0401567ef296d358c00c1332904b7f6838faa114274c5cee73065a78f3127c"
+    "cursor": "#F83E19",
+    "hash": "48d17ab6c91797769a16096294fbb7c449fb70fc17590d79a71e45828d02c285"
   },
   {
     "name": "Dissonance",
@@ -5371,8 +5371,8 @@
     "color_16": "#F6F7EC",
     "background": "#292520",
     "foreground": "#E5C7A9",
-    "cursor": "#E5C7A9",
-    "hash": "0cec02de6fe43c707a91f35ab848533ecb128b92d5c375dde49cef5ee1821cfa"
+    "cursor": "#F6F7EC",
+    "hash": "5caf50dfbe54c493e255cc09e4846648e3f474eea79eadb6b9555a16d9623080"
   },
   {
     "name": "Eclipse",
@@ -5496,8 +5496,8 @@
     "color_16": "#FFF1E9",
     "background": "#22211D",
     "foreground": "#807A74",
-    "cursor": "#807A74",
-    "hash": "32eb3defe069d8b09f49bc79fdcb8c07c502e4c9e57b5a41cd03f1c7a5bda388"
+    "cursor": "#FACB80",
+    "hash": "4af66920d092c8bab92b1cffde5ac2034447bf419ae8b559d8bd71b9f31cfbe0"
   },
   {
     "name": "Elementary",
@@ -5671,8 +5671,8 @@
     "color_16": "#FFFFFF",
     "background": "#323232",
     "foreground": "#FFFFFF",
-    "cursor": "#FFFFFF",
-    "hash": "be4d92b7daf2a1daf60e67f9a7e3b074e83be18da965ce68295d409455a88b17"
+    "cursor": "#D6D6D6",
+    "hash": "7e79f33d66dc028640c86aef1e56c5566c58e118af0281d5b5a2dd3a0d84e893"
   },
   {
     "name": "Espresso Libre",
@@ -5696,8 +5696,8 @@
     "color_16": "#EEEEEC",
     "background": "#2A211C",
     "foreground": "#B8A898",
-    "cursor": "#B8A898",
-    "hash": "187cf3988f8d2218a904e6602face38a6c68ae4c28b6f951d7817f78520b21d4"
+    "cursor": "#FFFFFF",
+    "hash": "de719691f0cd274f56ae2ac3af30d52cf018a5efaec18f71c425e921eb46f6f0"
   },
   {
     "name": "Everblush",
@@ -6171,8 +6171,8 @@
     "color_16": "#F6FFEC",
     "background": "#232537",
     "foreground": "#ECF0FE",
-    "cursor": "#ECF0FE",
-    "hash": "c8c88f57b2da545808d06b1830b72ac0643a6f420ba50d4188bdfea11889fb65"
+    "cursor": "#FECD5E",
+    "hash": "5f96b7139e7470a09fb1dddcc8f82e2419f1f67680b107d4a88854c5dd27976d"
   },
   {
     "name": "Flat",
@@ -6246,8 +6246,8 @@
     "color_16": "#FFFFFF",
     "background": "#1D1F21",
     "foreground": "#B8DBEF",
-    "cursor": "#B8DBEF",
-    "hash": "56ccbc50b02a7a294093765e2b933badc2c772bd350a791f20192bfa57594bad"
+    "cursor": "#708284",
+    "hash": "6357c106e5dbb99d4587732993c1fa67ea5ada8c3b5df468e7adb6802141bb23"
   },
   {
     "name": "Flexoki Dark",
@@ -6471,8 +6471,8 @@
     "color_16": "#8C735B",
     "background": "#1B1C1D",
     "foreground": "#ADADAD",
-    "cursor": "#ADADAD",
-    "hash": "224ad61b5a0a5e332b1a7317d2325782f79cd20f45d278b1ad5f913f383f3fba"
+    "cursor": "#CDCDCD",
+    "hash": "ef2f6f802fdfdcaa5db0093e9fb96ce962577098a43a7ee24b72572e0f42647c"
   },
   {
     "name": "Frostbyte",
@@ -6521,8 +6521,8 @@
     "color_16": "#FFEAA3",
     "background": "#251200",
     "foreground": "#DEC165",
-    "cursor": "#DEC165",
-    "hash": "68c34422d147e9e879567db9159705a59645dc3c376ab9f927937f20724b787f"
+    "cursor": "#E5591C",
+    "hash": "2c8d38daff126990310576b529a8e00b80ac4d2f19b3cbf4e6eeeab83a1e7c72"
   },
   {
     "name": "Galaxy",
@@ -6546,8 +6546,8 @@
     "color_16": "#FFFFFF",
     "background": "#1D2837",
     "foreground": "#FFFFFF",
-    "cursor": "#FFFFFF",
-    "hash": "1cefa163fd95578b0c124c3555ca5b5f4deb57c90ae5cf806ff527f84d5d9697"
+    "cursor": "#BBBBBB",
+    "hash": "ef151a8557e16918cf217bf0ea0791f373b7d9f1b5a1174cb7e70be2a9ae062f"
   },
   {
     "name": "Galizur",
@@ -7171,8 +7171,8 @@
     "color_16": "#A288F7",
     "background": "#171423",
     "foreground": "#9F9FA1",
-    "cursor": "#9F9FA1",
-    "hash": "0a72ef136a1a569fe08868cef9838462110f34b4f9f1384f85af5e7cc1969684"
+    "cursor": "#A288F7",
+    "hash": "ae916c68ee254e53f069696f7b1acee1b16f14389e929c27af727bfad0deb3fd"
   },
   {
     "name": "Graphite",
@@ -7221,8 +7221,8 @@
     "color_16": "#FFFFFF",
     "background": "#13773D",
     "foreground": "#FFF0A5",
-    "cursor": "#FFF0A5",
-    "hash": "484311ae83dc7accfeb5dba05c70fa5a16ee8f167b6dcc9d6fbcd89dca2f3db5"
+    "cursor": "#8C2800",
+    "hash": "9d4996f2bfe916d912202f1b3f98fd7feeb5932b1431ba1305b39df381f50ad0"
   },
   {
     "name": "Green Phosphor CRT",
@@ -7671,8 +7671,8 @@
     "color_16": "#F8F8F2",
     "background": "#121212",
     "foreground": "#A0A0A0",
-    "cursor": "#A0A0A0",
-    "hash": "662719a418ad3883dc7b331a0fa12e5c4537927bcdc96d50fc686736f0fecc4a"
+    "cursor": "#BBBBBB",
+    "hash": "88a243603707d97737e7bb40b37c17f9f59e5bc1efb4fc09dca7c4648e0b6573"
   },
   {
     "name": "Harper",
@@ -7846,8 +7846,8 @@
     "color_16": "#FFFFFF",
     "background": "#222225",
     "foreground": "#EDEDED",
-    "cursor": "#EDEDED",
-    "hash": "5169c4931afe44239fbca73c7a86c9b61e8ef56b1daa22440cf7c3680bf0d8e9"
+    "cursor": "#E0D9B9",
+    "hash": "debd92271aecf3d8dc3af0f7d0f169d9823321bde689641165d60fa93960663b"
   },
   {
     "name": "Hipster Green",
@@ -7871,8 +7871,8 @@
     "color_16": "#E5E5E5",
     "background": "#100B05",
     "foreground": "#84C138",
-    "cursor": "#84C138",
-    "hash": "6b46c7f5c50bb7691f5425b67aecc3e5645235a5e91bc28e96385e72a70e5e20"
+    "cursor": "#23FF18",
+    "hash": "a2db737d25c7c44a1fce16059514d747999ac160618aa3179bdeb150554620d0"
   },
   {
     "name": "Hivacruz",
@@ -7921,8 +7921,8 @@
     "color_16": "#E5E5E5",
     "background": "#000000",
     "foreground": "#00FF00",
-    "cursor": "#00FF00",
-    "hash": "581b77c94f0b87f3381de706029d13c4e0263e6f25a234b863c5413410b62bd1"
+    "cursor": "#23FF18",
+    "hash": "cedd30e03b4f3a96b5392361d21cd4dbf1d2d866c8b2d9a08dcde99bb7ce65b5"
   },
   {
     "name": "Hopscotch",
@@ -8121,8 +8121,8 @@
     "color_16": "#DBDBDB",
     "background": "#000000",
     "foreground": "#DBDBDB",
-    "cursor": "#DBDBDB",
-    "hash": "f97ba368c82f83a337900ad2191096e4e250e6b4ef073e7ca01fa4562dafae12"
+    "cursor": "#BBBBBB",
+    "hash": "88f4a923d62bc6ec3a73f1cfeab9d96d73d2db634743475d2a559875afe07b85"
   },
   {
     "name": "Hybrid",
@@ -8246,8 +8246,8 @@
     "color_16": "#FAFAFF",
     "background": "#262626",
     "foreground": "#FFCB83",
-    "cursor": "#FFCB83",
-    "hash": "59846698266444b81dbf78c2579c6cede26df749d4c730bb05afd7cc36ebdb75"
+    "cursor": "#FC531D",
+    "hash": "e6560354f8372bf9d1cb384e71d1399958978001f8f9d860888bacd2f4bee4b3"
   },
   {
     "name": "IR Black",
@@ -8496,8 +8496,8 @@
     "color_16": "#FFFFFF",
     "background": "#323232",
     "foreground": "#FFFFFF",
-    "cursor": "#FFFFFF",
-    "hash": "0f09bf33e10a1890f8b4156bf4351e76f0e00db2081417c98a4e21359140d09b"
+    "cursor": "#D6D6D6",
+    "hash": "351c78c9f80edc2f11ae16c178d18b98b945ef02e307dcf3380f9090d094fabb"
   },
   {
     "name": "Jackie Brown",
@@ -8521,8 +8521,8 @@
     "color_16": "#E5E5E5",
     "background": "#2C1D16",
     "foreground": "#FFCC2F",
-    "cursor": "#FFCC2F",
-    "hash": "086387910be6a6b07fbd0eb6194a9f93c28533ce7490b51b49e4c8fcb9c7a068"
+    "cursor": "#23FF18",
+    "hash": "816bc509f01e2a3cfaf8483fff3a3d38a0ea536d2da22d6cbad6ad4a479f71b1"
   },
   {
     "name": "Japanesque",
@@ -8546,8 +8546,8 @@
     "color_16": "#B2B5AE",
     "background": "#1E1E1E",
     "foreground": "#F7F6EC",
-    "cursor": "#F7F6EC",
-    "hash": "71667129202253483e5f1529357190666f65e147626a56f1e164149be5421f62"
+    "cursor": "#EDCF4F",
+    "hash": "6b44af9c69802eee1857576bc37eb46fad7460ad2d7ef42984e71db26682b6c1"
   },
   {
     "name": "Jellybeans",
@@ -8571,8 +8571,8 @@
     "color_16": "#FFFFFF",
     "background": "#121212",
     "foreground": "#DEDEDE",
-    "cursor": "#DEDEDE",
-    "hash": "fdf9d40f783783081f57a9358e887968bfcc32fd51ed51df20d821399080b896"
+    "cursor": "#FFA560",
+    "hash": "2a7535e86bb6736f4533d1f5875533890c918850ab8d2ef5e026eac956bd520b"
   },
   {
     "name": "JetBrains Darcula",
@@ -9171,8 +9171,8 @@
     "color_16": "#FFFFFF",
     "background": "#0E100A",
     "foreground": "#F7F7F7",
-    "cursor": "#F7F7F7",
-    "hash": "84090c643735f8913cd3fc9d2ebdd8f283f472ad7db2ac35e246a572e12d22d0"
+    "cursor": "#9FDA9C",
+    "hash": "37e6bcaa67e487e09c6b5bda126c5b1686726bff87453c4ee93956a3a9fdb3f4"
   },
   {
     "name": "Kitty Default",
@@ -9446,8 +9446,8 @@
     "color_16": "#C1C2C2",
     "background": "#222222",
     "foreground": "#959595",
-    "cursor": "#959595",
-    "hash": "004099a0cc1224a7e2811cb4c2847bac8092d84a981a97d6e2cb979bd4324ac2"
+    "cursor": "#424242",
+    "hash": "460a08e43c83b99ed88031f33d0de3071500c06f1436c8916a92557560502a18"
   },
   {
     "name": "Lavandula",
@@ -9471,8 +9471,8 @@
     "color_16": "#8C91FA",
     "background": "#050014",
     "foreground": "#736E7D",
-    "cursor": "#736E7D",
-    "hash": "dfb3b6186c27291fb0f48167f8d62cfda68eca1368f7b8ce501dfaa005690a63"
+    "cursor": "#8C91FA",
+    "hash": "f410a8a03d79851abfeb36b166f731195bf3048cc884746b28aaa86abc4e9115"
   },
   {
     "name": "Letterpress",
@@ -9546,8 +9546,8 @@
     "color_16": "#BCCCCC",
     "background": "#303030",
     "foreground": "#AFC2C2",
-    "cursor": "#AFC2C2",
-    "hash": "222faa43466ce5fb72ed5d26141d9e66de6ea312674547f000d0264ffcd4ff04"
+    "cursor": "#FFFFFF",
+    "hash": "f632296cb744a4c220bc878c6600b46b2b3a7c9810924eb1b1d2c2d061113275"
   },
   {
     "name": "Liquid Carbon Transparent",
@@ -9571,8 +9571,8 @@
     "color_16": "#BCCCCC",
     "background": "#000000",
     "foreground": "#AFC2C2",
-    "cursor": "#AFC2C2",
-    "hash": "b8d9a0704dc7f2a55447d667735c2842f1059b896d3743b25b12c6d638ee6ec8"
+    "cursor": "#FFFFFF",
+    "hash": "7787955bf911c936927223420a2f14be2c047d45975d026ba82ea3b07b7d9e3f"
   },
   {
     "name": "London Bonfire Night",
@@ -9821,8 +9821,8 @@
     "color_16": "#E5E5E5",
     "background": "#FEF49C",
     "foreground": "#000000",
-    "cursor": "#000000",
-    "hash": "1359a408fbd22048ee77ee872932be7f12a351da8f52226b7d81eb8cd1720f03"
+    "cursor": "#7F7F7F",
+    "hash": "5184ee4e5944f730c9efbe08ed8490f3ff0a275cafb21fc8f9c4fe2996f3a0a4"
   },
   {
     "name": "Mar",
@@ -10121,8 +10121,8 @@
     "color_16": "#FED698",
     "background": "#1D1908",
     "foreground": "#CAC296",
-    "cursor": "#CAC296",
-    "hash": "d45ca361019c81b5ec7213edb5f75f74ba0661cc8305edc41c251a14ef680782"
+    "cursor": "#D3BA30",
+    "hash": "825f224d4eb9f4845cc20b3810c4d7dfcd39c3dd7590bce754f066a269d5fa61"
   },
   {
     "name": "Melange Dark",
@@ -10446,8 +10446,8 @@
     "color_16": "#FFFFFF",
     "background": "#2D3743",
     "foreground": "#E1E1E0",
-    "cursor": "#E1E1E0",
-    "hash": "446fcdf1cf38c80b24dbbe42b51157b39b0ec664b4634c7f267b6d0a060fe255"
+    "cursor": "#000000",
+    "hash": "d040a8d98d5a210c4137f237d2470f4f602fdbf57dce0192ae904126776a80f7"
   },
   {
     "name": "Modus Operandi",
@@ -10696,8 +10696,8 @@
     "color_16": "#FFE598",
     "background": "#120B0D",
     "foreground": "#F7D66A",
-    "cursor": "#F7D66A",
-    "hash": "98875c164d575d9f8a845b83e57d90e8bdc5a8757072b48774f68120a6089c2b"
+    "cursor": "#C46C32",
+    "hash": "eacc373b9ed5777cefae909270bc427147f3c6d03ab4a06da6ce5b74a6a46081"
   },
   {
     "name": "Mono Amber",
@@ -11121,8 +11121,8 @@
     "color_16": "#F6F6EF",
     "background": "#1A1A1A",
     "foreground": "#C4C5B5",
-    "cursor": "#C4C5B5",
-    "hash": "e6dab8ab6ef354fc0022d9330fa88f2476ee3d31e67a834564a819a0d83b6ae6"
+    "cursor": "#F6F7EC",
+    "hash": "686b053db7f6aa705656329358969b30696a4c9fe34b190faf1df6442e09d2e9"
   },
   {
     "name": "Monokai SublimeText",
@@ -11321,8 +11321,8 @@
     "color_16": "#D8C8BB",
     "background": "#222222",
     "foreground": "#A0A0A0",
-    "cursor": "#A0A0A0",
-    "hash": "0b1bf71795edaf07cc2d2c8e8ea2a5555030b01139408a8a145d3f2cf3c1d7df"
+    "cursor": "#AA9175",
+    "hash": "f573b8391eee3c86b7ed2f0e59e1c9ff8adf6321c332c5e2bd98795ce4a53315"
   },
   {
     "name": "Nachtschicht",
@@ -11596,8 +11596,8 @@
     "color_16": "#EBEDF2",
     "background": "#1C1E22",
     "foreground": "#E6E8EF",
-    "cursor": "#E6E8EF",
-    "hash": "7f8ddafcbbdea9cc48b0d7f007871aa047cce6a2d603e54173f046f81e115457"
+    "cursor": "#F6F7EC",
+    "hash": "fe9278f207ac0b0527fcba088a13444a1f775f7793c3c22774c7a4a7329d41df"
   },
   {
     "name": "Night Lion V1",
@@ -11671,8 +11671,8 @@
     "color_16": "#FFFFFF",
     "background": "#011627",
     "foreground": "#D6DEEB",
-    "cursor": "#D6DEEB",
-    "hash": "ea0e3036ff1b1c4fb7a263d124b5df93c9c0909eafaa286b77e47d17245db2c5"
+    "cursor": "#7E57C2",
+    "hash": "4db2944a161d39f86331b10d8384dcca42dbc96494bebc39d4fb09efef634201"
   },
   {
     "name": "Night Owlish Light",
@@ -12171,8 +12171,8 @@
     "color_16": "#ECEFF4",
     "background": "#2E3440",
     "foreground": "#D8DEE9",
-    "cursor": "#D8DEE9",
-    "hash": "dad9498892151bd292a7a17cba40315943a16a02c36f345f7345d84aa935b45c"
+    "cursor": "#ECEFF4",
+    "hash": "713f7f1a7739dca50a436d636cd3dc4b23d164a5b79881e277532f1c27cc657c"
   },
   {
     "name": "Nord Light",
@@ -12271,8 +12271,8 @@
     "color_16": "#FFFFFF",
     "background": "#DFDBC3",
     "foreground": "#3B2322",
-    "cursor": "#3B2322",
-    "hash": "099930e10dee2e170d3d6e2d082408b978ce6e16e0a176dabe72876bc71a4c31"
+    "cursor": "#73635A",
+    "hash": "acdeab725c4e8eebb96f8e1d8bda6966afb5ed980c05308f0d35f2bea651a801"
   },
   {
     "name": "Nvim Dark",
@@ -12346,8 +12346,8 @@
     "color_16": "#FFFFFF",
     "background": "#283033",
     "foreground": "#CDCDCD",
-    "cursor": "#CDCDCD",
-    "hash": "d74abe9cfc047c884fffc43838b391c2a2ea33db5dc5157a58031350dc43bd26"
+    "cursor": "#C0CAD0",
+    "hash": "bbcf3f25f28398705290e834a4897cc1362229d4b4a07a0598a4209b9a89f36e"
   },
   {
     "name": "Ocean",
@@ -12371,8 +12371,8 @@
     "color_16": "#E5E5E5",
     "background": "#224FBC",
     "foreground": "#FFFFFF",
-    "cursor": "#FFFFFF",
-    "hash": "514acbadfea92553c7f10c4b48f073e792080291815f1d6aca2894b1d940d122"
+    "cursor": "#7F7F7F",
+    "hash": "020b53108c30abb2af5871fde33d6d43527e625647586e116c480c9aa7818565"
   },
   {
     "name": "Ocean Dark",
@@ -12471,8 +12471,8 @@
     "color_16": "#5B6EA7",
     "background": "#222125",
     "foreground": "#8A8DAE",
-    "cursor": "#8A8DAE",
-    "hash": "6b35beb327a4c5c48db5da9ef39b2b5f64f4b327f292d6f8d265ba6aab2c819d"
+    "cursor": "#5B6EA7",
+    "hash": "00717e7677091930b51addb9b9e53c3068a4a4393c65b2501cc8aea2303d69bb"
   },
   {
     "name": "Omni",
@@ -13396,8 +13396,8 @@
     "color_16": "#F1F1F1",
     "background": "#212121",
     "foreground": "#F1F1F1",
-    "cursor": "#F1F1F1",
-    "hash": "9c823f683f0f5aaa44aecc939f1de94584dcf0c2b63d1e8d3621eb0cb7a8dd92"
+    "cursor": "#20BBFC",
+    "hash": "6b865b62512f6aaa3861107eb89ca23c59f4b9297a4fe305215ad817f156973e"
   },
   {
     "name": "Pencil Light",
@@ -13421,8 +13421,8 @@
     "color_16": "#F1F1F1",
     "background": "#F1F1F1",
     "foreground": "#424242",
-    "cursor": "#424242",
-    "hash": "787c5f767ee447484a7f602c5809f29c3129f3dc17e85db59a4f4b42b673aacd"
+    "cursor": "#20BBFC",
+    "hash": "ffb92bf2ba846559c37b3daa4f3ad60a6d7dc355ab01105940ba50f72b17e9c6"
   },
   {
     "name": "Peppermint",
@@ -13596,8 +13596,8 @@
     "color_16": "#EFEFEF",
     "background": "#1C1C1C",
     "foreground": "#D0D0D0",
-    "cursor": "#D0D0D0",
-    "hash": "553f71bbdd9ed23600578a67188b3d9d46da3073c88658e8b01beac81bb1ea73"
+    "cursor": "#E4C9AF",
+    "hash": "568cea8ee26434e4bd84724e243b23172b799bca9564f736cf3460f870497f75"
   },
   {
     "name": "Poimandres",
@@ -13871,8 +13871,8 @@
     "color_16": "#E5E5E5",
     "background": "#000000",
     "foreground": "#F2F2F2",
-    "cursor": "#F2F2F2",
-    "hash": "2fe5c9bd2607bcfed770b9de76229e3e4c1b1c87eda8e1b3709e296a216b30f2"
+    "cursor": "#4D4D4D",
+    "hash": "80f34e759631193cea80089eab38ccb362533431e34b4cd168622f24116b6124"
   },
   {
     "name": "Pro Light",
@@ -14296,8 +14296,8 @@
     "color_16": "#FFFFFF",
     "background": "#7A251E",
     "foreground": "#D7C9A7",
-    "cursor": "#D7C9A7",
-    "hash": "7477e2644c608e79e34e6c5ebf56b1dbfa44bfe6e9bb489c540fba134622768b"
+    "cursor": "#FFFFFF",
+    "hash": "a61d45fc3bbc2d1a72e56b4f058378f91cba05ae9890b002c6c3a444c8766fb3"
   },
   {
     "name": "Relaxed",
@@ -14396,8 +14396,8 @@
     "color_16": "#E5E5E5",
     "background": "#2B2B2B",
     "foreground": "#FFFFFF",
-    "cursor": "#FFFFFF",
-    "hash": "65848306d15eb1ebf8e3fe69f56d80205f38eecf5f2ebf3ef4483239f959dd8e"
+    "cursor": "#7F7F7F",
+    "hash": "8de714f4b33edf7078a1a873dac251f279ee25a0b9dd81fc7d6caee3e3ed1a2c"
   },
   {
     "name": "Rose Pine",
@@ -14521,8 +14521,8 @@
     "color_16": "#9E8CBD",
     "background": "#100815",
     "foreground": "#514968",
-    "cursor": "#514968",
-    "hash": "bdcf5e71cdb5752039fdd07f80ac79e9326b3b03fb400b3b49f2fe9f1e0b767f"
+    "cursor": "#524966",
+    "hash": "06d99254004b493e4d3008cc742b8e11d5eb3c7cd17d6cc90986a885b53e08e7"
   },
   {
     "name": "Ryuuko",
@@ -14746,8 +14746,8 @@
     "color_16": "#FEE4CE",
     "background": "#09141B",
     "foreground": "#DEB88D",
-    "cursor": "#DEB88D",
-    "hash": "a58aeb454fd8903ba5f00067f2f083baf79277ec334d30aa438ad85e485e40df"
+    "cursor": "#FCA02F",
+    "hash": "438107f66af5c7ff6c6d7495db74e7381a511565b32bb74eeb9f7cb13355894b"
   },
   {
     "name": "Seafoam Pastel",
@@ -14771,8 +14771,8 @@
     "color_16": "#E0E0E0",
     "background": "#243435",
     "foreground": "#D4E7D4",
-    "cursor": "#D4E7D4",
-    "hash": "323ae59b5a6e2d010bfbfd943b3efcb8a4c58e5fc00626fb62e774adb04ea661"
+    "cursor": "#57647A",
+    "hash": "a8ee4a15c37a995a0cb6b62f025c27fccbe6180e81e08ffd9fbfe86d9eb85536"
   },
   {
     "name": "SeedFlip Abyss",
@@ -15621,8 +15621,8 @@
     "color_16": "#FFFFFF",
     "background": "#111213",
     "foreground": "#CACECD",
-    "cursor": "#CACECD",
-    "hash": "f28dc79b668d0f5d3f934774ab49444425c873fd7b26a8aa6efb1af98ca0b906"
+    "cursor": "#E3BF21",
+    "hash": "69f6f8d3286d6738f99a33945219a8e888490e773693b97f6f6d7c9844252273"
   },
   {
     "name": "Shades Of Purple",
@@ -15671,8 +15671,8 @@
     "color_16": "#58FBD6",
     "background": "#001015",
     "foreground": "#405555",
-    "cursor": "#405555",
-    "hash": "7ea4a8e920c53cca6ff51874bd1289f46898af4c2c614e168776b641a997b6f8"
+    "cursor": "#4AFCD6",
+    "hash": "379fd27d2a8d72330c4c2cef646b701322a52491a041b652f36459f3d5402ce9"
   },
   {
     "name": "Shel",
@@ -15746,8 +15746,8 @@
     "color_16": "#E0E0E0",
     "background": "#222222",
     "foreground": "#35B1D2",
-    "cursor": "#35B1D2",
-    "hash": "3fc5e18af2fc55c65a7f7422b7763b3e1f898e0cfbac3d8f40778d185df536d8"
+    "cursor": "#87D3C4",
+    "hash": "a65a9d29c17af8df16c3e629c615736d923d8be2aafa63918a594138b4d5e010"
   },
   {
     "name": "Sleepy Hollow",
@@ -15871,8 +15871,8 @@
     "color_16": "#D2E0DE",
     "background": "#242626",
     "foreground": "#99A3A2",
-    "cursor": "#99A3A2",
-    "hash": "b183080ab2d87d20949ba4de5b6e749c57c33a8fa8be293a36e46655b3ab8fc7"
+    "cursor": "#D2E0DE",
+    "hash": "34e2494b8db030d8aa3c5859dff4d7d98d030ddc22beb74abcbc79f6966c92fd"
   },
   {
     "name": "Solarized Darcula",
@@ -15896,8 +15896,8 @@
     "color_16": "#D2D8D9",
     "background": "#3D3F41",
     "foreground": "#D2D8D9",
-    "cursor": "#D2D8D9",
-    "hash": "d4d06d9a629fe6fede4cda3dd8f4cd4c3face4d018cbea60d6cde04d0e9d1fb2"
+    "cursor": "#708284",
+    "hash": "61d44a41659d2216b089cef373ee999183afcb29119c0e44a8acc1a0ab9e39c9"
   },
   {
     "name": "Solarized Dark",
@@ -15946,8 +15946,8 @@
     "color_16": "#FCF4DC",
     "background": "#001E27",
     "foreground": "#9CC2C3",
-    "cursor": "#9CC2C3",
-    "hash": "106b2f88986f11794108816e0ed4498e787807be7b82e7381607347c16b0cb7a"
+    "cursor": "#F34B00",
+    "hash": "872df35839fd970ebc61fd849fdaa39b4b40cb57a6eaa79dbb34c56279911769"
   },
   {
     "name": "Solarized Dark Patched",
@@ -16071,8 +16071,8 @@
     "color_16": "#FEFFF1",
     "background": "#0A1E24",
     "foreground": "#ECF0C1",
-    "cursor": "#ECF0C1",
-    "hash": "4e9539e882eda853a13e35de94915695108dfba09c90e24e874adac28ff8212f"
+    "cursor": "#708284",
+    "hash": "400df8aea1904336fe52eb1d524df6fefc9faa5b0d3370833e06613cba24a5dd"
   },
   {
     "name": "Spacegray",
@@ -16146,8 +16146,8 @@
     "color_16": "#FFFFFF",
     "background": "#222222",
     "foreground": "#BDBAAE",
-    "cursor": "#BDBAAE",
-    "hash": "94bb03045383057b01961e83619e622457e3af0d2f896ca136acbf5ef5395f2f"
+    "cursor": "#BBBBBB",
+    "hash": "b487d92c3ba5daf995c3de73416ec70725acbafc7307381b7d0d9d9a663cd916"
   },
   {
     "name": "Spacegray Eighties Dull",
@@ -16171,8 +16171,8 @@
     "color_16": "#FFFFFF",
     "background": "#222222",
     "foreground": "#C9C6BC",
-    "cursor": "#C9C6BC",
-    "hash": "f10c7f413cd6a09b4d447afdbcccb370bc1f68e8d9a2e9bc1933ce24489e0757"
+    "cursor": "#BBBBBB",
+    "hash": "8aa6800169e074b4cf145443582e16cca64104dc54b579a5f4e39cc817beace9"
   },
   {
     "name": "Sparky",
@@ -16546,8 +16546,8 @@
     "color_16": "#FFFFFF",
     "background": "#1A1818",
     "foreground": "#C9C9C9",
-    "cursor": "#C9C9C9",
-    "hash": "a02e2f5135f90e01f9738759ea34d7e9388b19d0358a707f89ceb5f1447dac69"
+    "cursor": "#FFFFFF",
+    "hash": "26eb4fe236e2d1c267d6624f9a3b26c2cb9cb7e27854e911ac5ea049342239ff"
   },
   {
     "name": "Sunset Drive",
@@ -16646,8 +16646,8 @@
     "color_16": "#FFFFFF",
     "background": "#000000",
     "foreground": "#FFFFFF",
-    "cursor": "#FFFFFF",
-    "hash": "10749b50c809b4e0bf0e525fbf2c01e9b644618ba5987843553bcf568043c12f"
+    "cursor": "#DC322F",
+    "hash": "6fa64c9b82caa23c65990ef611ffe2d8e2831b0a99c2fc7819cb26b4974bcf05"
   },
   {
     "name": "Synthwave",
@@ -16821,8 +16821,8 @@
     "color_16": "#EFEFEF",
     "background": "#262626",
     "foreground": "#D0D0D0",
-    "cursor": "#D0D0D0",
-    "hash": "6da80481d793a04440c81c80d8733c978177bf564957caeee3100087691e7426"
+    "cursor": "#E4C9AF",
+    "hash": "38121d02ecb18b28f92be43f744a39372087c0856e20248e7e291aae4ab2aef0"
   },
   {
     "name": "Tempus Autumn",
@@ -17396,8 +17396,8 @@
     "color_16": "#F8F8F2",
     "background": "#1B1D1E",
     "foreground": "#F8F8F8",
-    "cursor": "#F8F8F8",
-    "hash": "493265d352315b4a5935c4e865dbe6c7e1c32b02b934f20088fa9d565892e6dc"
+    "cursor": "#FC971F",
+    "hash": "af57f9cff0b638af97c883443ff88ca45b8d880597c5b059208127e7cbfc535b"
   },
   {
     "name": "The Hulk",
@@ -17921,8 +17921,8 @@
     "color_16": "#D5D5D5",
     "background": "#24364B",
     "foreground": "#31D07B",
-    "cursor": "#31D07B",
-    "hash": "211441ece80494709ed090208af91405b9e1317759f31707c63927db6fa6cdc4"
+    "cursor": "#D5D5D5",
+    "hash": "1aa5a2466a42a0deee2856b573cba127f55cb392d1bc566fd8bc6344fee72a30"
   },
   {
     "name": "Trapped in Amber",
@@ -17971,8 +17971,8 @@
     "color_16": "#FFC800",
     "background": "#191919",
     "foreground": "#786B53",
-    "cursor": "#786B53",
-    "hash": "71b47aef32e1f0dca34d300fbe91950bb0f2941f7a92ef88f5a4ad7c848556bf"
+    "cursor": "#FAC814",
+    "hash": "e53e93dc042d57594c37e3900021ab7b6dbc65e3eec4d5a07f7d9474f37b9c0b"
   },
   {
     "name": "Twilight",
@@ -17996,8 +17996,8 @@
     "color_16": "#FFFFD4",
     "background": "#141414",
     "foreground": "#FFFFD4",
-    "cursor": "#FFFFD4",
-    "hash": "d09549e31782c49dd0bb6849c198e4aeeeb8080534ccf9eac4aef0b3156de96e"
+    "cursor": "#FFFFFF",
+    "hash": "1b78b4e36eee8fe218015b66c1132f41b8ab0aa5908a5b00de7593cb3ca8a0b2"
   },
   {
     "name": "Ubuntu",
@@ -18171,8 +18171,8 @@
     "color_16": "#BFA3FF",
     "background": "#1B1B23",
     "foreground": "#877A9B",
-    "cursor": "#877A9B",
-    "hash": "359fb6f8a83c32e9adf18171a0d09004aaa0539c21d43e8ccbd98e8c61b62a3a"
+    "cursor": "#A063EB",
+    "hash": "9c66adb91ec613e60c003e0247f145251106d426eb6dccdd068d492a91342611"
   },
   {
     "name": "Vacme",
@@ -18346,8 +18346,8 @@
     "color_16": "#FFFFFF",
     "background": "#25234F",
     "foreground": "#DCDCCC",
-    "cursor": "#DCDCCC",
-    "hash": "9308a04a5193b1bb49b2ee7f1c48fb91634bd6b7d3db5bad2326266255b69f28"
+    "cursor": "#FF5555",
+    "hash": "964468381495b4aa77b5124971da87bcb477625d29710adc83cd9c42ef65540b"
   },
   {
     "name": "Velvet Court",
@@ -18696,8 +18696,8 @@
     "color_16": "#D8C8BB",
     "background": "#404040",
     "foreground": "#AFDAB6",
-    "cursor": "#AFDAB6",
-    "hash": "62565f6f3f64314d0adf539177b318e86736ad462b32258fd9031fc37f9ed06f"
+    "cursor": "#30FF24",
+    "hash": "c8c92b975808f745b30436fd6406183192c24ebb61297b9596c94baed3bf2df9"
   },
   {
     "name": "Website",
@@ -18746,8 +18746,8 @@
     "color_16": "#FFFFFF",
     "background": "#000000",
     "foreground": "#B3B3B3",
-    "cursor": "#B3B3B3",
-    "hash": "7d739c67e88bae75741e8e3e7561c352904e58e869c2280fed128faf8988091f"
+    "cursor": "#53AE71",
+    "hash": "1bca7097607bca9950e90f65cf0161a56ee8be41789361c4d25c2944056b69b0"
   },
   {
     "name": "Whimsy",
@@ -18796,8 +18796,8 @@
     "color_16": "#E4838D",
     "background": "#1F1726",
     "foreground": "#DAFAFF",
-    "cursor": "#DAFAFF",
-    "hash": "50faacdfe2fdca57aa85f65921e8ba8b2c44f3280a2703a5c92ad41aba9ef33a"
+    "cursor": "#DD00FF",
+    "hash": "0ad2abbad4f4b9fe3ebe6e987a12a395363e0697decdd068989d2e2df17f5ac5"
   },
   {
     "name": "Wilmersdorf",
@@ -18846,8 +18846,8 @@
     "color_16": "#FFFFFF",
     "background": "#171717",
     "foreground": "#DEDACF",
-    "cursor": "#DEDACF",
-    "hash": "6aecc7607ddeac1cb0a6a2d26be6529fe0c8867df82fd3cf7b699a7de7e376d4"
+    "cursor": "#BBBBBB",
+    "hash": "178eb9a8cfb853f00afa2530658a293b1df57d6aa2409245ca01bc02ad0e84fe"
   },
   {
     "name": "Wryan",
@@ -18871,8 +18871,8 @@
     "color_16": "#C0C0C0",
     "background": "#101010",
     "foreground": "#999993",
-    "cursor": "#999993",
-    "hash": "6a64d89430e7ecf06cfc35ddc61fbbbfe79e4950458a86c9960de0070b528ac9"
+    "cursor": "#9E9ECB",
+    "hash": "c8a518181e021c3e8c0cfa5d291f4409bc87da741020ef0d248d8bd3795c0a73"
   },
   {
     "name": "Wzoreck",

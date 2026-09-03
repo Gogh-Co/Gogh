@@ -1543,9 +1543,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#F8DCC0",
+        "Hex": "#EFBF38",
         "Score": "AAA",
-        "Ratio": "12.1"
+        "Ratio": "9.2"
       }
     ],
     "scoreCounts": {
@@ -2500,16 +2500,16 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#637D75",
-        "Score": "AA Large",
-        "Ratio": "4.1"
+        "Hex": "#73FA91",
+        "Score": "AAA",
+        "Ratio": "13.8"
       }
     ],
     "scoreCounts": {
-      "AA Large": 8,
+      "AA Large": 7,
       "Fail": 4,
       "AA": 2,
-      "AAA": 4
+      "AAA": 5
     }
   },
   {
@@ -3819,15 +3819,15 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#FFFAF4",
-        "Score": "AAA",
-        "Ratio": "18.3"
+        "Hex": "#FF0018",
+        "Score": "AA",
+        "Ratio": "4.8"
       }
     ],
     "scoreCounts": {
-      "AAA": 10,
+      "AAA": 9,
       "Fail": 3,
-      "AA": 5
+      "AA": 6
     }
   },
   {
@@ -3938,9 +3938,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#DDEEDD",
+        "Hex": "#E2BBEF",
         "Score": "AAA",
-        "Ratio": "14.1"
+        "Ratio": "10.2"
       }
     ],
     "scoreCounts": {
@@ -5497,9 +5497,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#C5C8C6",
+        "Hex": "#D0D0D0",
         "Score": "AAA",
-        "Ratio": "10.6"
+        "Ratio": "11.6"
       }
     ],
     "scoreCounts": {
@@ -12330,14 +12330,14 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#E0DBB7",
-        "Score": "AAA",
-        "Ratio": "11.4"
+        "Hex": "#573D26",
+        "Score": "Fail",
+        "Ratio": "1.6"
       }
     ],
     "scoreCounts": {
-      "AAA": 10,
-      "Fail": 2,
+      "AAA": 9,
+      "Fail": 3,
       "AA": 3,
       "AA Large": 3
     }
@@ -14842,9 +14842,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#FFFF4E",
+        "Hex": "#FFA560",
         "Score": "AAA",
-        "Ratio": "12.8"
+        "Ratio": "7.0"
       }
     ],
     "scoreCounts": {
@@ -15921,9 +15921,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#E6E1DC",
+        "Hex": "#FFFFFF",
         "Score": "AAA",
-        "Ratio": "10.9"
+        "Ratio": "14.2"
       }
     ],
     "scoreCounts": {
@@ -16041,9 +16041,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#D6DBE5",
+        "Hex": "#B9B9B9",
         "Score": "AAA",
-        "Ratio": "13.4"
+        "Ratio": "9.5"
       }
     ],
     "scoreCounts": {
@@ -17120,15 +17120,15 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#262626",
-        "Score": "AAA",
-        "Ratio": "15.1"
+        "Hex": "#6FD3FC",
+        "Score": "Fail",
+        "Ratio": "1.7"
       }
     ],
     "scoreCounts": {
-      "AAA": 4,
+      "AAA": 3,
       "AA Large": 5,
-      "Fail": 7,
+      "Fail": 8,
       "AA": 2
     }
   },
@@ -19032,15 +19032,15 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#AEA47A",
-        "Score": "AA",
-        "Ratio": "6.8"
+        "Hex": "#92805B",
+        "Score": "AA Large",
+        "Ratio": "4.4"
       }
     ],
     "scoreCounts": {
-      "AA": 6,
+      "AA": 5,
       "Fail": 7,
-      "AA Large": 2,
+      "AA Large": 3,
       "AAA": 3
     }
   },
@@ -20230,14 +20230,14 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#8FF586",
-        "Score": "AAA",
-        "Ratio": "11.2"
+        "Hex": "#C4206F",
+        "Score": "Fail",
+        "Ratio": "2.7"
       }
     ],
     "scoreCounts": {
-      "AAA": 9,
-      "Fail": 3,
+      "AAA": 8,
+      "Fail": 4,
       "AA Large": 4,
       "AA": 2
     }
@@ -20709,9 +20709,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#FFFFFF",
+        "Hex": "#F0CC09",
         "Score": "AAA",
-        "Ratio": "15.3"
+        "Ratio": "9.7"
       }
     ],
     "scoreCounts": {
@@ -22264,9 +22264,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#FFFFFF",
+        "Hex": "#BBBBBB",
         "Score": "AAA",
-        "Ratio": "21.0"
+        "Ratio": "10.9"
       }
     ],
     "scoreCounts": {
@@ -22744,9 +22744,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#BABABA",
+        "Hex": "#BBBBBB",
         "Score": "AAA",
-        "Ratio": "8.1"
+        "Ratio": "8.2"
       }
     ],
     "scoreCounts": {
@@ -23462,9 +23462,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#FFFFFF",
+        "Hex": "#00FF00",
         "Score": "AAA",
-        "Ratio": "12.6"
+        "Ratio": "9.2"
       }
     ],
     "scoreCounts": {
@@ -23822,15 +23822,15 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#B9BCBA",
-        "Score": "AAA",
-        "Ratio": "8.6"
+        "Hex": "#F83E19",
+        "Score": "AA Large",
+        "Ratio": "4.5"
       }
     ],
     "scoreCounts": {
-      "AAA": 4,
+      "AAA": 3,
       "Fail": 3,
-      "AA Large": 7,
+      "AA Large": 8,
       "AA": 4
     }
   },
@@ -25737,9 +25737,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#E5C7A9",
+        "Hex": "#F6F7EC",
         "Score": "AAA",
-        "Ratio": "9.5"
+        "Ratio": "14.1"
       }
     ],
     "scoreCounts": {
@@ -26337,16 +26337,16 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#807A74",
-        "Score": "AA Large",
-        "Ratio": "3.8"
+        "Hex": "#FACB80",
+        "Score": "AAA",
+        "Ratio": "10.7"
       }
     ],
     "scoreCounts": {
-      "AA Large": 7,
+      "AA Large": 6,
       "Fail": 4,
       "AA": 3,
-      "AAA": 4
+      "AAA": 5
     }
   },
   {
@@ -27177,9 +27177,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#FFFFFF",
+        "Hex": "#D6D6D6",
         "Score": "AAA",
-        "Ratio": "12.8"
+        "Ratio": "8.8"
       }
     ],
     "scoreCounts": {
@@ -27297,16 +27297,16 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#B8A898",
-        "Score": "AA",
-        "Ratio": "6.8"
+        "Hex": "#FFFFFF",
+        "Score": "AAA",
+        "Ratio": "15.8"
       }
     ],
     "scoreCounts": {
-      "AA": 4,
+      "AA": 3,
       "Fail": 3,
       "AA Large": 5,
-      "AAA": 6
+      "AAA": 7
     }
   },
   {
@@ -29567,9 +29567,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#ECF0FE",
+        "Hex": "#FECD5E",
         "Score": "AAA",
-        "Ratio": "13.3"
+        "Ratio": "10.1"
       }
     ],
     "scoreCounts": {
@@ -29926,16 +29926,16 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#B8DBEF",
-        "Score": "AAA",
-        "Ratio": "11.3"
+        "Hex": "#708284",
+        "Score": "AA Large",
+        "Ratio": "4.1"
       }
     ],
     "scoreCounts": {
-      "AAA": 9,
+      "AAA": 8,
       "Fail": 4,
       "AA": 2,
-      "AA Large": 3
+      "AA Large": 4
     }
   },
   {
@@ -31004,9 +31004,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#ADADAD",
+        "Hex": "#CDCDCD",
         "Score": "AAA",
-        "Ratio": "7.6"
+        "Ratio": "10.7"
       }
     ],
     "scoreCounts": {
@@ -31244,16 +31244,16 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#DEC165",
-        "Score": "AAA",
-        "Ratio": "10.2"
+        "Hex": "#E5591C",
+        "Score": "AA",
+        "Ratio": "5.0"
       }
     ],
     "scoreCounts": {
-      "AAA": 8,
+      "AAA": 7,
       "Fail": 2,
       "AA Large": 2,
-      "AA": 6
+      "AA": 7
     }
   },
   {
@@ -31364,9 +31364,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#FFFFFF",
+        "Hex": "#BBBBBB",
         "Score": "AAA",
-        "Ratio": "14.9"
+        "Ratio": "7.8"
       }
     ],
     "scoreCounts": {
@@ -34354,9 +34354,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#9F9FA1",
+        "Hex": "#A288F7",
         "Score": "AA",
-        "Ratio": "6.8"
+        "Ratio": "6.4"
       }
     ],
     "scoreCounts": {
@@ -34594,15 +34594,15 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#FFF0A5",
-        "Score": "AA",
-        "Ratio": "4.9"
+        "Hex": "#8C2800",
+        "Score": "Fail",
+        "Ratio": "1.5"
       }
     ],
     "scoreCounts": {
-      "AA": 4,
+      "AA": 3,
       "AA Large": 1,
-      "Fail": 13
+      "Fail": 14
     }
   },
   {
@@ -36747,9 +36747,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#A0A0A0",
+        "Hex": "#BBBBBB",
         "Score": "AAA",
-        "Ratio": "7.2"
+        "Ratio": "9.8"
       }
     ],
     "scoreCounts": {
@@ -37585,9 +37585,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#EDEDED",
+        "Hex": "#E0D9B9",
         "Score": "AAA",
-        "Ratio": "13.6"
+        "Ratio": "11.2"
       }
     ],
     "scoreCounts": {
@@ -37705,9 +37705,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#84C138",
+        "Hex": "#23FF18",
         "Score": "AAA",
-        "Ratio": "9.0"
+        "Ratio": "14.3"
       }
     ],
     "scoreCounts": {
@@ -37945,9 +37945,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#00FF00",
+        "Hex": "#23FF18",
         "Score": "AAA",
-        "Ratio": "15.3"
+        "Ratio": "15.4"
       }
     ],
     "scoreCounts": {
@@ -38901,9 +38901,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#DBDBDB",
+        "Hex": "#BBBBBB",
         "Score": "AAA",
-        "Ratio": "15.2"
+        "Ratio": "10.9"
       }
     ],
     "scoreCounts": {
@@ -39501,15 +39501,15 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#FFCB83",
-        "Score": "AAA",
-        "Ratio": "10.2"
+        "Hex": "#FC531D",
+        "Score": "AA",
+        "Ratio": "4.6"
       }
     ],
     "scoreCounts": {
-      "AAA": 7,
+      "AAA": 6,
       "Fail": 3,
-      "AA": 7,
+      "AA": 8,
       "AA Large": 1
     }
   },
@@ -40698,9 +40698,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#FFFFFF",
+        "Hex": "#D6D6D6",
         "Score": "AAA",
-        "Ratio": "12.8"
+        "Ratio": "8.8"
       }
     ],
     "scoreCounts": {
@@ -40818,9 +40818,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#FFCC2F",
+        "Hex": "#23FF18",
         "Score": "AAA",
-        "Ratio": "10.8"
+        "Ratio": "11.9"
       }
     ],
     "scoreCounts": {
@@ -40938,9 +40938,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#F7F6EC",
+        "Hex": "#EDCF4F",
         "Score": "AAA",
-        "Ratio": "15.4"
+        "Ratio": "10.8"
       }
     ],
     "scoreCounts": {
@@ -41058,9 +41058,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#DEDEDE",
+        "Hex": "#FFA560",
         "Score": "AAA",
-        "Ratio": "13.9"
+        "Ratio": "9.6"
       }
     ],
     "scoreCounts": {
@@ -43925,9 +43925,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#F7F7F7",
+        "Hex": "#9FDA9C",
         "Score": "AAA",
-        "Ratio": "17.9"
+        "Ratio": "11.8"
       }
     ],
     "scoreCounts": {
@@ -45242,14 +45242,14 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#959595",
-        "Score": "AA",
-        "Ratio": "5.3"
+        "Hex": "#424242",
+        "Score": "Fail",
+        "Ratio": "1.6"
       }
     ],
     "scoreCounts": {
-      "AA": 4,
-      "Fail": 3,
+      "AA": 3,
+      "Fail": 4,
       "AA Large": 3,
       "AAA": 8
     }
@@ -45362,16 +45362,16 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#736E7D",
-        "Score": "AA Large",
-        "Ratio": "4.2"
+        "Hex": "#8C91FA",
+        "Score": "AAA",
+        "Ratio": "7.4"
       }
     ],
     "scoreCounts": {
-      "AA Large": 6,
+      "AA Large": 5,
       "Fail": 5,
       "AA": 3,
-      "AAA": 4
+      "AAA": 5
     }
   },
   {
@@ -45721,9 +45721,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#AFC2C2",
+        "Hex": "#FFFFFF",
         "Score": "AAA",
-        "Ratio": "7.1"
+        "Ratio": "13.2"
       }
     ],
     "scoreCounts": {
@@ -45841,9 +45841,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#AFC2C2",
+        "Hex": "#FFFFFF",
         "Score": "AAA",
-        "Ratio": "11.3"
+        "Ratio": "21.0"
       }
     ],
     "scoreCounts": {
@@ -47038,16 +47038,16 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#000000",
-        "Score": "AAA",
-        "Ratio": "18.6"
+        "Hex": "#7F7F7F",
+        "Score": "AA Large",
+        "Ratio": "3.5"
       }
     ],
     "scoreCounts": {
-      "AAA": 5,
+      "AAA": 4,
       "AA": 3,
       "Fail": 8,
-      "AA Large": 2
+      "AA Large": 3
     }
   },
   {
@@ -48475,9 +48475,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#CAC296",
+        "Hex": "#D3BA30",
         "Score": "AAA",
-        "Ratio": "9.8"
+        "Ratio": "9.1"
       }
     ],
     "scoreCounts": {
@@ -50027,14 +50027,14 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#E1E1E0",
-        "Score": "AAA",
-        "Ratio": "9.2"
+        "Hex": "#000000",
+        "Score": "Fail",
+        "Ratio": "1.7"
       }
     ],
     "scoreCounts": {
-      "AAA": 6,
-      "Fail": 3,
+      "AAA": 5,
+      "Fail": 4,
       "AA Large": 4,
       "AA": 5
     }
@@ -51216,16 +51216,16 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#F7D66A",
-        "Score": "AAA",
-        "Ratio": "13.7"
+        "Hex": "#C46C32",
+        "Score": "AA",
+        "Ratio": "5.1"
       }
     ],
     "scoreCounts": {
-      "AAA": 8,
+      "AAA": 7,
       "Fail": 5,
       "AA Large": 2,
-      "AA": 3
+      "AA": 4
     }
   },
   {
@@ -53239,9 +53239,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#C4C5B5",
+        "Hex": "#F6F7EC",
         "Score": "AAA",
-        "Ratio": "9.9"
+        "Ratio": "16.1"
       }
     ],
     "scoreCounts": {
@@ -54192,9 +54192,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#A0A0A0",
+        "Hex": "#AA9175",
         "Score": "AA",
-        "Ratio": "6.1"
+        "Ratio": "5.3"
       }
     ],
     "scoreCounts": {
@@ -55507,9 +55507,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#E6E8EF",
+        "Hex": "#F6F7EC",
         "Score": "AAA",
-        "Ratio": "13.6"
+        "Ratio": "15.4"
       }
     ],
     "scoreCounts": {
@@ -55866,15 +55866,16 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#D6DEEB",
-        "Score": "AAA",
-        "Ratio": "13.5"
+        "Hex": "#7E57C2",
+        "Score": "AA Large",
+        "Ratio": "3.5"
       }
     ],
     "scoreCounts": {
-      "AAA": 14,
+      "AAA": 13,
       "Fail": 2,
-      "AA": 2
+      "AA": 2,
+      "AA Large": 1
     }
   },
   {
@@ -58257,9 +58258,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#D8DEE9",
+        "Hex": "#ECEFF4",
         "Score": "AAA",
-        "Ratio": "9.3"
+        "Ratio": "10.8"
       }
     ],
     "scoreCounts": {
@@ -58737,14 +58738,14 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#3B2322",
-        "Score": "AAA",
-        "Ratio": "10.4"
+        "Hex": "#73635A",
+        "Score": "AA Large",
+        "Ratio": "4.1"
       }
     ],
     "scoreCounts": {
-      "AAA": 5,
-      "AA Large": 4,
+      "AAA": 4,
+      "AA Large": 5,
       "Fail": 9
     }
   },
@@ -59095,9 +59096,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#CDCDCD",
+        "Hex": "#C0CAD0",
         "Score": "AAA",
-        "Ratio": "8.5"
+        "Ratio": "8.1"
       }
     ],
     "scoreCounts": {
@@ -59215,14 +59216,14 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#FFFFFF",
-        "Score": "AAA",
-        "Ratio": "7.2"
+        "Hex": "#7F7F7F",
+        "Score": "Fail",
+        "Ratio": "1.8"
       }
     ],
     "scoreCounts": {
-      "AAA": 2,
-      "Fail": 11,
+      "AAA": 1,
+      "Fail": 12,
       "AA Large": 2,
       "AA": 3
     }
@@ -59695,16 +59696,16 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#8A8DAE",
-        "Score": "AA",
-        "Ratio": "5.0"
+        "Hex": "#5B6EA7",
+        "Score": "AA Large",
+        "Ratio": "3.2"
       }
     ],
     "scoreCounts": {
-      "AA": 9,
+      "AA": 8,
       "Fail": 5,
       "AAA": 3,
-      "AA Large": 1
+      "AA Large": 2
     }
   },
   {
@@ -64119,9 +64120,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#F1F1F1",
+        "Hex": "#20BBFC",
         "Score": "AAA",
-        "Ratio": "14.3"
+        "Ratio": "7.3"
       }
     ],
     "scoreCounts": {
@@ -64239,15 +64240,15 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#424242",
-        "Score": "AAA",
-        "Ratio": "8.9"
+        "Hex": "#20BBFC",
+        "Score": "Fail",
+        "Ratio": "1.9"
       }
     ],
     "scoreCounts": {
-      "AAA": 5,
+      "AAA": 4,
       "AA": 2,
-      "Fail": 9,
+      "Fail": 10,
       "AA Large": 2
     }
   },
@@ -65077,9 +65078,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#D0D0D0",
+        "Hex": "#E4C9AF",
         "Score": "AAA",
-        "Ratio": "11.1"
+        "Ratio": "10.8"
       }
     ],
     "scoreCounts": {
@@ -66391,14 +66392,14 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#F2F2F2",
-        "Score": "AAA",
-        "Ratio": "18.8"
+        "Hex": "#4D4D4D",
+        "Score": "Fail",
+        "Ratio": "2.5"
       }
     ],
     "scoreCounts": {
-      "AAA": 8,
-      "Fail": 4,
+      "AAA": 7,
+      "Fail": 5,
       "AA": 3,
       "AA Large": 3
     }
@@ -68426,16 +68427,16 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#D7C9A7",
-        "Score": "AA",
-        "Ratio": "6.1"
+        "Hex": "#FFFFFF",
+        "Score": "AAA",
+        "Ratio": "9.9"
       }
     ],
     "scoreCounts": {
-      "AA": 5,
+      "AA": 4,
       "Fail": 7,
       "AA Large": 4,
-      "AAA": 2
+      "AAA": 3
     }
   },
   {
@@ -68904,16 +68905,16 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#FFFFFF",
-        "Score": "AAA",
-        "Ratio": "14.2"
+        "Hex": "#7F7F7F",
+        "Score": "AA Large",
+        "Ratio": "3.5"
       }
     ],
     "scoreCounts": {
-      "AAA": 8,
+      "AAA": 7,
       "Fail": 3,
       "AA": 6,
-      "AA Large": 1
+      "AA Large": 2
     }
   },
   {
@@ -69502,9 +69503,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#514968",
+        "Hex": "#524966",
         "Score": "Fail",
-        "Ratio": "2.3"
+        "Ratio": "2.4"
       }
     ],
     "scoreCounts": {
@@ -70578,9 +70579,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#DEB88D",
+        "Hex": "#FCA02F",
         "Score": "AAA",
-        "Ratio": "10.1"
+        "Ratio": "9.1"
       }
     ],
     "scoreCounts": {
@@ -70698,14 +70699,14 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#D4E7D4",
-        "Score": "AAA",
-        "Ratio": "10.0"
+        "Hex": "#57647A",
+        "Score": "Fail",
+        "Ratio": "2.2"
       }
     ],
     "scoreCounts": {
-      "AAA": 7,
-      "Fail": 4,
+      "AAA": 6,
+      "Fail": 5,
       "AA Large": 3,
       "AA": 4
     }
@@ -74766,9 +74767,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#CACECD",
+        "Hex": "#E3BF21",
         "Score": "AAA",
-        "Ratio": "11.8"
+        "Ratio": "10.5"
       }
     ],
     "scoreCounts": {
@@ -75005,16 +75006,16 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#405555",
-        "Score": "Fail",
-        "Ratio": "2.4"
+        "Hex": "#4AFCD6",
+        "Score": "AAA",
+        "Ratio": "14.9"
       }
     ],
     "scoreCounts": {
-      "Fail": 6,
+      "Fail": 5,
       "AA Large": 2,
       "AA": 5,
-      "AAA": 5
+      "AAA": 6
     }
   },
   {
@@ -75365,15 +75366,15 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#35B1D2",
-        "Score": "AA",
-        "Ratio": "6.3"
+        "Hex": "#87D3C4",
+        "Score": "AAA",
+        "Ratio": "9.2"
       }
     ],
     "scoreCounts": {
-      "AA": 5,
+      "AA": 4,
       "Fail": 2,
-      "AAA": 11
+      "AAA": 12
     }
   },
   {
@@ -75962,16 +75963,16 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#99A3A2",
-        "Score": "AA",
-        "Ratio": "5.9"
+        "Hex": "#D2E0DE",
+        "Score": "AAA",
+        "Ratio": "11.2"
       }
     ],
     "scoreCounts": {
-      "AA": 7,
+      "AA": 6,
       "Fail": 2,
       "AA Large": 5,
-      "AAA": 4
+      "AAA": 5
     }
   },
   {
@@ -76082,14 +76083,14 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#D2D8D9",
-        "Score": "AAA",
-        "Ratio": "7.3"
+        "Hex": "#708284",
+        "Score": "Fail",
+        "Ratio": "2.6"
       }
     ],
     "scoreCounts": {
-      "AAA": 4,
-      "Fail": 10,
+      "AAA": 3,
+      "Fail": 11,
       "AA Large": 4
     }
   },
@@ -76321,16 +76322,16 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#9CC2C3",
-        "Score": "AAA",
-        "Ratio": "9.0"
+        "Hex": "#F34B00",
+        "Score": "AA",
+        "Ratio": "4.8"
       }
     ],
     "scoreCounts": {
-      "AAA": 6,
+      "AAA": 5,
       "Fail": 2,
       "AA Large": 5,
-      "AA": 5
+      "AA": 6
     }
   },
   {
@@ -76919,15 +76920,16 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#ECF0C1",
-        "Score": "AAA",
-        "Ratio": "14.5"
+        "Hex": "#708284",
+        "Score": "AA Large",
+        "Ratio": "4.3"
       }
     ],
     "scoreCounts": {
-      "AAA": 9,
+      "AAA": 8,
       "Fail": 3,
-      "AA": 6
+      "AA": 6,
+      "AA Large": 1
     }
   },
   {
@@ -77277,9 +77279,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#BDBAAE",
+        "Hex": "#BBBBBB",
         "Score": "AAA",
-        "Ratio": "8.2"
+        "Ratio": "8.3"
       }
     ],
     "scoreCounts": {
@@ -77397,9 +77399,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#C9C6BC",
+        "Hex": "#BBBBBB",
         "Score": "AAA",
-        "Ratio": "9.3"
+        "Ratio": "8.3"
       }
     ],
     "scoreCounts": {
@@ -79192,9 +79194,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#C9C9C9",
+        "Hex": "#FFFFFF",
         "Score": "AAA",
-        "Ratio": "10.7"
+        "Ratio": "17.7"
       }
     ],
     "scoreCounts": {
@@ -79671,15 +79673,15 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#FFFFFF",
-        "Score": "AAA",
-        "Ratio": "21.0"
+        "Hex": "#DC322F",
+        "Score": "AA",
+        "Ratio": "4.5"
       }
     ],
     "scoreCounts": {
-      "AAA": 10,
+      "AAA": 9,
       "Fail": 2,
-      "AA": 4,
+      "AA": 5,
       "AA Large": 2
     }
   },
@@ -80507,9 +80509,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#D0D0D0",
+        "Hex": "#E4C9AF",
         "Score": "AAA",
-        "Ratio": "9.8"
+        "Ratio": "9.6"
       }
     ],
     "scoreCounts": {
@@ -83237,9 +83239,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#F8F8F8",
+        "Hex": "#FC971F",
         "Score": "AAA",
-        "Ratio": "15.9"
+        "Ratio": "7.7"
       }
     ],
     "scoreCounts": {
@@ -85745,16 +85747,16 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#31D07B",
-        "Score": "AA",
-        "Ratio": "6.1"
+        "Hex": "#D5D5D5",
+        "Score": "AAA",
+        "Ratio": "8.4"
       }
     ],
     "scoreCounts": {
-      "AA": 6,
+      "AA": 5,
       "Fail": 5,
       "AA Large": 5,
-      "AAA": 2
+      "AAA": 3
     }
   },
   {
@@ -85984,16 +85986,16 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#786B53",
-        "Score": "AA Large",
-        "Ratio": "3.4"
+        "Hex": "#FAC814",
+        "Score": "AAA",
+        "Ratio": "11.2"
       }
     ],
     "scoreCounts": {
-      "AA Large": 5,
+      "AA Large": 4,
       "Fail": 4,
       "AA": 5,
-      "AAA": 4
+      "AAA": 5
     }
   },
   {
@@ -86104,9 +86106,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#FFFFD4",
+        "Hex": "#FFFFFF",
         "Score": "AAA",
-        "Ratio": "18.0"
+        "Ratio": "18.4"
       }
     ],
     "scoreCounts": {
@@ -86941,9 +86943,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#877A9B",
+        "Hex": "#A063EB",
         "Score": "AA Large",
-        "Ratio": "4.3"
+        "Ratio": "4.5"
       }
     ],
     "scoreCounts": {
@@ -87778,15 +87780,15 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#DCDCCC",
-        "Score": "AAA",
-        "Ratio": "10.6"
+        "Hex": "#FF5555",
+        "Score": "AA",
+        "Ratio": "4.7"
       }
     ],
     "scoreCounts": {
-      "AAA": 7,
+      "AAA": 6,
       "Fail": 4,
-      "AA": 5,
+      "AA": 6,
       "AA Large": 2
     }
   },
@@ -89455,16 +89457,16 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#AFDAB6",
-        "Score": "AA",
-        "Ratio": "6.7"
+        "Hex": "#30FF24",
+        "Score": "AAA",
+        "Ratio": "7.6"
       }
     ],
     "scoreCounts": {
-      "AA": 7,
+      "AA": 6,
       "Fail": 3,
       "AA Large": 5,
-      "AAA": 3
+      "AAA": 4
     }
   },
   {
@@ -89695,9 +89697,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#B3B3B3",
+        "Hex": "#53AE71",
         "Score": "AAA",
-        "Ratio": "10.0"
+        "Ratio": "7.7"
       }
     ],
     "scoreCounts": {
@@ -89934,16 +89936,16 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#DAFAFF",
-        "Score": "AAA",
-        "Ratio": "15.8"
+        "Hex": "#DD00FF",
+        "Score": "AA",
+        "Ratio": "4.6"
       }
     ],
     "scoreCounts": {
-      "AAA": 9,
+      "AAA": 8,
       "Fail": 1,
       "AA Large": 3,
-      "AA": 5
+      "AA": 6
     }
   },
   {
@@ -90174,9 +90176,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#DEDACF",
+        "Hex": "#BBBBBB",
         "Score": "AAA",
-        "Ratio": "12.8"
+        "Ratio": "9.3"
       }
     ],
     "scoreCounts": {
@@ -90293,16 +90295,16 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#999993",
-        "Score": "AA",
-        "Ratio": "6.6"
+        "Hex": "#9E9ECB",
+        "Score": "AAA",
+        "Ratio": "7.4"
       }
     ],
     "scoreCounts": {
-      "AA": 6,
+      "AA": 5,
       "Fail": 5,
       "AA Large": 5,
-      "AAA": 2
+      "AAA": 3
     }
   },
   {

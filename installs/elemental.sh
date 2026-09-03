@@ -23,7 +23,7 @@ export COLOR_16="#FFF1E9"           # Bright White
 export BACKGROUND_COLOR="#22211D"   # Background
 export FOREGROUND_COLOR="#807A74"   # Foreground (Text)
 
-export CURSOR_COLOR="#807A74" # Cursor
+export CURSOR_COLOR="#FACB80" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then
