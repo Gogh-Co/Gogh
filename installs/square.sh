@@ -20,10 +20,10 @@ export COLOR_14="#AD7FA8"           # Bright Magenta
 export COLOR_15="#D7D9FC"           # Bright Cyan
 export COLOR_16="#E2E2E2"           # Bright White
 
-export BACKGROUND_COLOR="#0A1E24"   # Background
-export FOREGROUND_COLOR="#A1A1A1"   # Foreground (Text)
+export BACKGROUND_COLOR="#1A1A1A"   # Background
+export FOREGROUND_COLOR="#ACACAB"   # Foreground (Text)
 
-export CURSOR_COLOR="#A1A1A1" # Cursor
+export CURSOR_COLOR="#FCFBCC" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then

@@ -2,16 +2,16 @@
 
 export PROFILE_NAME="Tomorrow Night Eighties"
 
-export COLOR_01="#393939"           # Black (Host)
+export COLOR_01="#000000"           # Black (Host)
 export COLOR_02="#F2777A"           # Red (Syntax string)
 export COLOR_03="#99CC99"           # Green (Command)
 export COLOR_04="#FFCC66"           # Yellow (Command second)
 export COLOR_05="#6699CC"           # Blue (Path)
 export COLOR_06="#CC99CC"           # Magenta (Syntax var)
 export COLOR_07="#66CCCC"           # Cyan (Prompt)
-export COLOR_08="#CCCCCC"           # White
+export COLOR_08="#FFFFFF"           # White
 
-export COLOR_09="#999999"           # Bright Black
+export COLOR_09="#000000"           # Bright Black
 export COLOR_10="#F2777A"           # Bright Red (Command error)
 export COLOR_11="#99CC99"           # Bright Green (Exec)
 export COLOR_12="#FFCC66"           # Bright Yellow

@@ -3,27 +3,27 @@
 export PROFILE_NAME="Horizon Bright"
 
 export COLOR_01="#16161C"           # Black (Host)
-export COLOR_02="#DA103F"           # Red (Syntax string)
-export COLOR_03="#1EB980"           # Green (Command)
-export COLOR_04="#F6661E"           # Yellow (Command second)
+export COLOR_02="#E95678"           # Red (Syntax string)
+export COLOR_03="#29D398"           # Green (Command)
+export COLOR_04="#FAB795"           # Yellow (Command second)
 export COLOR_05="#26BBD9"           # Blue (Path)
 export COLOR_06="#EE64AE"           # Magenta (Syntax var)
-export COLOR_07="#1D8991"           # Cyan (Prompt)
-export COLOR_08="#FADAD1"           # White
+export COLOR_07="#59E3E3"           # Cyan (Prompt)
+export COLOR_08="#FDF0ED"           # White
 
 export COLOR_09="#1A1C23"           # Bright Black
-export COLOR_10="#F43E5C"           # Bright Red (Command error)
-export COLOR_11="#07DA8C"           # Bright Green (Exec)
-export COLOR_12="#F77D26"           # Bright Yellow
+export COLOR_10="#EC6A88"           # Bright Red (Command error)
+export COLOR_11="#3FDAA4"           # Bright Green (Exec)
+export COLOR_12="#FBC3A7"           # Bright Yellow
 export COLOR_13="#3FC6DE"           # Bright Blue (Folder)
 export COLOR_14="#F075B7"           # Bright Magenta
-export COLOR_15="#1EAEAE"           # Bright Cyan
-export COLOR_16="#FDF0ED"           # Bright White
+export COLOR_15="#6BE6E6"           # Bright Cyan
+export COLOR_16="#FFF3F0"           # Bright White
 
-export BACKGROUND_COLOR="#FDF0ED"   # Background
-export FOREGROUND_COLOR="#1C1E26"   # Foreground (Text)
+export BACKGROUND_COLOR="#FBF0EE"   # Background
+export FOREGROUND_COLOR="#16161C"   # Foreground (Text)
 
-export CURSOR_COLOR="#1C1E26" # Cursor
+export CURSOR_COLOR="#F2D0C5" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then

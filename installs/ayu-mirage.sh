@@ -2,26 +2,26 @@
 
 export PROFILE_NAME="Ayu Mirage"
 
-export COLOR_01="#1F2430"           # Black (Host)
-export COLOR_02="#FF3333"           # Red (Syntax string)
-export COLOR_03="#BAE67E"           # Green (Command)
-export COLOR_04="#FFA759"           # Yellow (Command second)
-export COLOR_05="#73D0FF"           # Blue (Path)
-export COLOR_06="#D4BFFF"           # Magenta (Syntax var)
-export COLOR_07="#95E6CB"           # Cyan (Prompt)
-export COLOR_08="#CBCCC6"           # White
+export COLOR_01="#171B24"           # Black (Host)
+export COLOR_02="#ED8274"           # Red (Syntax string)
+export COLOR_03="#87D96C"           # Green (Command)
+export COLOR_04="#FACC6E"           # Yellow (Command second)
+export COLOR_05="#6DCBFA"           # Blue (Path)
+export COLOR_06="#DABAFA"           # Magenta (Syntax var)
+export COLOR_07="#90E1C6"           # Cyan (Prompt)
+export COLOR_08="#C7C7C7"           # White
 
-export COLOR_09="#707A8C"           # Bright Black
-export COLOR_10="#FF3333"           # Bright Red (Command error)
-export COLOR_11="#BAE67E"           # Bright Green (Exec)
-export COLOR_12="#FFA759"           # Bright Yellow
+export COLOR_09="#686868"           # Bright Black
+export COLOR_10="#F28779"           # Bright Red (Command error)
+export COLOR_11="#D5FF80"           # Bright Green (Exec)
+export COLOR_12="#FFD173"           # Bright Yellow
 export COLOR_13="#73D0FF"           # Bright Blue (Folder)
-export COLOR_14="#D4BFFF"           # Bright Magenta
+export COLOR_14="#DFBFFF"           # Bright Magenta
 export COLOR_15="#95E6CB"           # Bright Cyan
-export COLOR_16="#CBCCC6"           # Bright White
+export COLOR_16="#FFFFFF"           # Bright White
 
 export BACKGROUND_COLOR="#1F2430"   # Background
-export FOREGROUND_COLOR="#CBCCC6"   # Foreground (Text)
+export FOREGROUND_COLOR="#CCCAC2"   # Foreground (Text)
 
 export CURSOR_COLOR="#FFCC66" # Cursor
 

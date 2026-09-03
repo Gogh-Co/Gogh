@@ -719,13 +719,13 @@
   },
   {
     "theme": "Afterglow",
-    "background": "#222222",
+    "background": "#212121",
     "results": [
       {
         "Color": "Foreground",
         "Hex": "#D0D0D0",
         "Score": "AAA",
-        "Ratio": "10.3"
+        "Ratio": "10.4"
       },
       {
         "Color": "color_01",
@@ -735,27 +735,27 @@
       },
       {
         "Color": "color_02",
-        "Hex": "#A53C23",
+        "Hex": "#AC4142",
         "Score": "Fail",
-        "Ratio": "2.5"
+        "Ratio": "2.8"
       },
       {
         "Color": "color_03",
-        "Hex": "#7B9246",
+        "Hex": "#7E8E50",
         "Score": "AA",
-        "Ratio": "4.6"
+        "Ratio": "4.5"
       },
       {
         "Color": "color_04",
-        "Hex": "#D3A04D",
-        "Score": "AA",
-        "Ratio": "6.8"
+        "Hex": "#E5B567",
+        "Score": "AAA",
+        "Ratio": "8.5"
       },
       {
         "Color": "color_05",
         "Hex": "#6C99BB",
         "Score": "AA",
-        "Ratio": "5.2"
+        "Ratio": "5.3"
       },
       {
         "Color": "color_06",
@@ -767,13 +767,13 @@
         "Color": "color_07",
         "Hex": "#7DD6CF",
         "Score": "AAA",
-        "Ratio": "9.4"
+        "Ratio": "9.5"
       },
       {
         "Color": "color_08",
         "Hex": "#D0D0D0",
         "Score": "AAA",
-        "Ratio": "10.3"
+        "Ratio": "10.4"
       },
       {
         "Color": "color_09",
@@ -783,27 +783,27 @@
       },
       {
         "Color": "color_10",
-        "Hex": "#A53C23",
+        "Hex": "#AC4142",
         "Score": "Fail",
-        "Ratio": "2.5"
+        "Ratio": "2.8"
       },
       {
         "Color": "color_11",
-        "Hex": "#7B9246",
+        "Hex": "#7E8E50",
         "Score": "AA",
-        "Ratio": "4.6"
+        "Ratio": "4.5"
       },
       {
         "Color": "color_12",
-        "Hex": "#D3A04D",
-        "Score": "AA",
-        "Ratio": "6.8"
+        "Hex": "#E5B567",
+        "Score": "AAA",
+        "Ratio": "8.5"
       },
       {
         "Color": "color_13",
-        "Hex": "#547C99",
-        "Score": "AA Large",
-        "Ratio": "3.6"
+        "Hex": "#6C99BB",
+        "Score": "AA",
+        "Ratio": "5.3"
       },
       {
         "Color": "color_14",
@@ -815,26 +815,25 @@
         "Color": "color_15",
         "Hex": "#7DD6CF",
         "Score": "AAA",
-        "Ratio": "9.4"
+        "Ratio": "9.5"
       },
       {
         "Color": "color_16",
         "Hex": "#F5F5F5",
         "Score": "AAA",
-        "Ratio": "14.6"
+        "Ratio": "14.8"
       },
       {
         "Color": "cursor",
         "Hex": "#D0D0D0",
         "Score": "AAA",
-        "Ratio": "10.3"
+        "Ratio": "10.4"
       }
     ],
     "scoreCounts": {
-      "AAA": 6,
+      "AAA": 8,
       "Fail": 6,
-      "AA": 5,
-      "AA Large": 1
+      "AA": 4
     }
   },
   {
@@ -2881,9 +2880,9 @@
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#898EA4",
-        "Score": "AA Large",
-        "Ratio": "4.5"
+        "Hex": "#979DB4",
+        "Score": "AA",
+        "Ratio": "5.4"
       },
       {
         "Color": "color_01",
@@ -2947,33 +2946,33 @@
       },
       {
         "Color": "color_11",
-        "Hex": "#AC9739",
-        "Score": "AA",
-        "Ratio": "5.0"
+        "Hex": "#293256",
+        "Score": "Fail",
+        "Ratio": "1.2"
       },
       {
         "Color": "color_12",
-        "Hex": "#C08B30",
-        "Score": "AA",
-        "Ratio": "4.8"
+        "Hex": "#5E6687",
+        "Score": "Fail",
+        "Ratio": "2.6"
       },
       {
         "Color": "color_13",
-        "Hex": "#3D8FD1",
+        "Hex": "#898EA4",
         "Score": "AA Large",
-        "Ratio": "4.2"
+        "Ratio": "4.5"
       },
       {
         "Color": "color_14",
-        "Hex": "#6679CC",
-        "Score": "AA Large",
-        "Ratio": "3.6"
+        "Hex": "#DFE2F1",
+        "Score": "AAA",
+        "Ratio": "11.3"
       },
       {
         "Color": "color_15",
-        "Hex": "#22A2C9",
-        "Score": "AA",
-        "Ratio": "4.9"
+        "Hex": "#9C637A",
+        "Score": "AA Large",
+        "Ratio": "3.1"
       },
       {
         "Color": "color_16",
@@ -2983,16 +2982,16 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#898EA4",
-        "Score": "AA Large",
-        "Ratio": "4.5"
+        "Hex": "#979DB4",
+        "Score": "AA",
+        "Ratio": "5.4"
       }
     ],
     "scoreCounts": {
-      "AA Large": 9,
-      "Fail": 1,
-      "AA": 7,
-      "AAA": 1
+      "AA": 6,
+      "Fail": 3,
+      "AA Large": 7,
+      "AAA": 2
     }
   },
   {
@@ -3174,9 +3173,9 @@
       },
       {
         "Color": "color_09",
-        "Hex": "#6D6D6D",
-        "Score": "AA Large",
-        "Ratio": "3.5"
+        "Hex": "#4D4D4D",
+        "Score": "Fail",
+        "Ratio": "2.2"
       },
       {
         "Color": "color_10",
@@ -3222,16 +3221,15 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#EDECEE",
-        "Score": "AAA",
-        "Ratio": "15.5"
+        "Hex": "#A277FF",
+        "Score": "AA",
+        "Ratio": "5.8"
       }
     ],
     "scoreCounts": {
-      "AAA": 10,
-      "Fail": 1,
-      "AA": 6,
-      "AA Large": 1
+      "AAA": 9,
+      "Fail": 2,
+      "AA": 7
     }
   },
   {
@@ -3474,73 +3472,73 @@
   },
   {
     "theme": "Ayu Light",
-    "background": "#FAFAFA",
+    "background": "#F8F9FA",
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#575F66",
+        "Hex": "#5C6166",
         "Score": "AA",
-        "Ratio": "6.2"
+        "Ratio": "5.9"
       },
       {
         "Color": "color_01",
-        "Hex": "#575F66",
-        "Score": "AA",
-        "Ratio": "6.2"
+        "Hex": "#000000",
+        "Score": "AAA",
+        "Ratio": "19.9"
       },
       {
         "Color": "color_02",
-        "Hex": "#F51818",
-        "Score": "AA Large",
-        "Ratio": "4.0"
+        "Hex": "#EA6C6D",
+        "Score": "Fail",
+        "Ratio": "2.9"
       },
       {
         "Color": "color_03",
-        "Hex": "#86B300",
-        "Score": "Fail",
-        "Ratio": "2.4"
-      },
-      {
-        "Color": "color_04",
-        "Hex": "#F2AE49",
-        "Score": "Fail",
-        "Ratio": "1.8"
-      },
-      {
-        "Color": "color_05",
-        "Hex": "#399EE6",
-        "Score": "Fail",
-        "Ratio": "2.8"
-      },
-      {
-        "Color": "color_06",
-        "Hex": "#A37ACC",
-        "Score": "AA Large",
-        "Ratio": "3.2"
-      },
-      {
-        "Color": "color_07",
-        "Hex": "#4CBF99",
+        "Hex": "#6CBF43",
         "Score": "Fail",
         "Ratio": "2.2"
       },
       {
-        "Color": "color_08",
-        "Hex": "#FAFAFA",
+        "Color": "color_04",
+        "Hex": "#ECA944",
         "Score": "Fail",
-        "Ratio": "1.0"
+        "Ratio": "1.9"
+      },
+      {
+        "Color": "color_05",
+        "Hex": "#3199E1",
+        "Score": "Fail",
+        "Ratio": "2.9"
+      },
+      {
+        "Color": "color_06",
+        "Hex": "#9E75C7",
+        "Score": "AA Large",
+        "Ratio": "3.4"
+      },
+      {
+        "Color": "color_07",
+        "Hex": "#46BA94",
+        "Score": "Fail",
+        "Ratio": "2.3"
+      },
+      {
+        "Color": "color_08",
+        "Hex": "#BABABA",
+        "Score": "Fail",
+        "Ratio": "1.8"
       },
       {
         "Color": "color_09",
-        "Hex": "#8A9199",
-        "Score": "AA Large",
-        "Ratio": "3.0"
+        "Hex": "#686868",
+        "Score": "AA",
+        "Ratio": "5.3"
       },
       {
         "Color": "color_10",
-        "Hex": "#F51818",
-        "Score": "AA Large",
-        "Ratio": "4.0"
+        "Hex": "#F07171",
+        "Score": "Fail",
+        "Ratio": "2.7"
       },
       {
         "Color": "color_11",
@@ -3574,21 +3572,22 @@
       },
       {
         "Color": "color_16",
-        "Hex": "#FAFAFA",
+        "Hex": "#D1D1D1",
         "Score": "Fail",
-        "Ratio": "1.0"
+        "Ratio": "1.4"
       },
       {
         "Color": "cursor",
-        "Hex": "#FF9940",
+        "Hex": "#FFAA33",
         "Score": "Fail",
-        "Ratio": "2.0"
+        "Ratio": "1.8"
       }
     ],
     "scoreCounts": {
       "AA": 2,
-      "AA Large": 5,
-      "Fail": 11
+      "AAA": 1,
+      "Fail": 13,
+      "AA Large": 2
     }
   },
   {
@@ -3597,81 +3596,81 @@
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#CBCCC6",
-        "Score": "AAA",
-        "Ratio": "9.6"
-      },
-      {
-        "Color": "color_01",
-        "Hex": "#1F2430",
-        "Score": "Fail",
-        "Ratio": "1.0"
-      },
-      {
-        "Color": "color_02",
-        "Hex": "#FF3333",
-        "Score": "AA Large",
-        "Ratio": "4.3"
-      },
-      {
-        "Color": "color_03",
-        "Hex": "#BAE67E",
-        "Score": "AAA",
-        "Ratio": "10.9"
-      },
-      {
-        "Color": "color_04",
-        "Hex": "#FFA759",
-        "Score": "AAA",
-        "Ratio": "8.1"
-      },
-      {
-        "Color": "color_05",
-        "Hex": "#73D0FF",
-        "Score": "AAA",
-        "Ratio": "9.0"
-      },
-      {
-        "Color": "color_06",
-        "Hex": "#D4BFFF",
+        "Hex": "#CCCAC2",
         "Score": "AAA",
         "Ratio": "9.4"
       },
       {
-        "Color": "color_07",
-        "Hex": "#95E6CB",
+        "Color": "color_01",
+        "Hex": "#171B24",
+        "Score": "Fail",
+        "Ratio": "1.1"
+      },
+      {
+        "Color": "color_02",
+        "Hex": "#ED8274",
+        "Score": "AA",
+        "Ratio": "6.0"
+      },
+      {
+        "Color": "color_03",
+        "Hex": "#87D96C",
         "Score": "AAA",
-        "Ratio": "10.7"
+        "Ratio": "9.0"
+      },
+      {
+        "Color": "color_04",
+        "Hex": "#FACC6E",
+        "Score": "AAA",
+        "Ratio": "10.3"
+      },
+      {
+        "Color": "color_05",
+        "Hex": "#6DCBFA",
+        "Score": "AAA",
+        "Ratio": "8.6"
+      },
+      {
+        "Color": "color_06",
+        "Hex": "#DABAFA",
+        "Score": "AAA",
+        "Ratio": "9.2"
+      },
+      {
+        "Color": "color_07",
+        "Hex": "#90E1C6",
+        "Score": "AAA",
+        "Ratio": "10.2"
       },
       {
         "Color": "color_08",
-        "Hex": "#CBCCC6",
+        "Hex": "#C7C7C7",
         "Score": "AAA",
-        "Ratio": "9.6"
+        "Ratio": "9.2"
       },
       {
         "Color": "color_09",
-        "Hex": "#707A8C",
-        "Score": "AA Large",
-        "Ratio": "3.6"
+        "Hex": "#686868",
+        "Score": "Fail",
+        "Ratio": "2.8"
       },
       {
         "Color": "color_10",
-        "Hex": "#FF3333",
-        "Score": "AA Large",
-        "Ratio": "4.3"
+        "Hex": "#F28779",
+        "Score": "AA",
+        "Ratio": "6.3"
       },
       {
         "Color": "color_11",
-        "Hex": "#BAE67E",
+        "Hex": "#D5FF80",
         "Score": "AAA",
-        "Ratio": "10.9"
+        "Ratio": "13.6"
       },
       {
         "Color": "color_12",
-        "Hex": "#FFA759",
+        "Hex": "#FFD173",
         "Score": "AAA",
-        "Ratio": "8.1"
+        "Ratio": "10.8"
       },
       {
         "Color": "color_13",
@@ -3681,9 +3680,9 @@
       },
       {
         "Color": "color_14",
-        "Hex": "#D4BFFF",
+        "Hex": "#DFBFFF",
         "Score": "AAA",
-        "Ratio": "9.4"
+        "Ratio": "9.6"
       },
       {
         "Color": "color_15",
@@ -3693,9 +3692,9 @@
       },
       {
         "Color": "color_16",
-        "Hex": "#CBCCC6",
+        "Hex": "#FFFFFF",
         "Score": "AAA",
-        "Ratio": "9.6"
+        "Ratio": "15.5"
       },
       {
         "Color": "cursor",
@@ -3706,8 +3705,8 @@
     ],
     "scoreCounts": {
       "AAA": 14,
-      "Fail": 1,
-      "AA Large": 3
+      "Fail": 2,
+      "AA": 2
     }
   },
   {
@@ -9475,15 +9474,15 @@
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#383A42",
+        "Hex": "#373A41",
         "Score": "AAA",
         "Ratio": "10.8"
       },
       {
         "Color": "color_01",
-        "Hex": "#D5D6DD",
-        "Score": "Fail",
-        "Ratio": "1.4"
+        "Hex": "#373A41",
+        "Score": "AAA",
+        "Ratio": "10.8"
       },
       {
         "Color": "color_02",
@@ -9523,15 +9522,15 @@
       },
       {
         "Color": "color_08",
-        "Hex": "#000000",
-        "Score": "AAA",
-        "Ratio": "19.9"
+        "Hex": "#BABBC2",
+        "Score": "Fail",
+        "Ratio": "1.8"
       },
       {
         "Color": "color_09",
-        "Hex": "#E4E5ED",
-        "Score": "Fail",
-        "Ratio": "1.2"
+        "Hex": "#676A77",
+        "Score": "AA",
+        "Ratio": "5.1"
       },
       {
         "Color": "color_10",
@@ -9571,22 +9570,22 @@
       },
       {
         "Color": "color_16",
-        "Hex": "#26272D",
-        "Score": "AAA",
-        "Ratio": "14.1"
+        "Hex": "#D3D3D3",
+        "Score": "Fail",
+        "Ratio": "1.4"
       },
       {
         "Color": "cursor",
-        "Hex": "#383A42",
-        "Score": "AAA",
-        "Ratio": "10.8"
+        "Hex": "#F32759",
+        "Score": "AA Large",
+        "Ratio": "3.8"
       }
     ],
     "scoreCounts": {
-      "AAA": 4,
-      "Fail": 5,
-      "AA": 4,
-      "AA Large": 5
+      "AAA": 2,
+      "AA": 5,
+      "AA Large": 6,
+      "Fail": 5
     }
   },
   {
@@ -9883,9 +9882,9 @@
       },
       {
         "Color": "color_08",
-        "Hex": "#D4C3B7",
+        "Hex": "#BAA99D",
         "Score": "Fail",
-        "Ratio": "1.4"
+        "Ratio": "1.9"
       },
       {
         "Color": "color_09",
@@ -10431,122 +10430,122 @@
   },
   {
     "theme": "Breeze",
-    "background": "#232627",
+    "background": "#31363B",
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#FCFCFC",
+        "Hex": "#EFF0F1",
         "Score": "AAA",
-        "Ratio": "14.8"
+        "Ratio": "10.7"
       },
       {
         "Color": "color_01",
-        "Hex": "#232627",
+        "Hex": "#31363B",
         "Score": "Fail",
         "Ratio": "1.0"
       },
       {
         "Color": "color_02",
         "Hex": "#ED1515",
-        "Score": "AA Large",
-        "Ratio": "3.4"
+        "Score": "Fail",
+        "Ratio": "2.7"
       },
       {
         "Color": "color_03",
         "Hex": "#11D116",
-        "Score": "AAA",
-        "Ratio": "7.4"
+        "Score": "AA",
+        "Ratio": "5.9"
       },
       {
         "Color": "color_04",
         "Hex": "#F67400",
-        "Score": "AA",
-        "Ratio": "5.4"
+        "Score": "AA Large",
+        "Ratio": "4.3"
       },
       {
         "Color": "color_05",
         "Hex": "#1D99F3",
-        "Score": "AA",
-        "Ratio": "5.0"
+        "Score": "AA Large",
+        "Ratio": "4.0"
       },
       {
         "Color": "color_06",
         "Hex": "#9B59B6",
-        "Score": "AA Large",
-        "Ratio": "3.3"
+        "Score": "Fail",
+        "Ratio": "2.6"
       },
       {
         "Color": "color_07",
         "Hex": "#1ABC9C",
         "Score": "AA",
-        "Ratio": "6.3"
+        "Ratio": "5.1"
       },
       {
         "Color": "color_08",
-        "Hex": "#FCFCFC",
+        "Hex": "#EFF0F1",
         "Score": "AAA",
-        "Ratio": "14.8"
+        "Ratio": "10.7"
       },
       {
         "Color": "color_09",
         "Hex": "#7F8C8D",
         "Score": "AA Large",
-        "Ratio": "4.4"
+        "Ratio": "3.5"
       },
       {
         "Color": "color_10",
         "Hex": "#C0392B",
         "Score": "Fail",
-        "Ratio": "2.8"
+        "Ratio": "2.2"
       },
       {
         "Color": "color_11",
         "Hex": "#1CDC9A",
-        "Score": "AAA",
-        "Ratio": "8.5"
+        "Score": "AA",
+        "Ratio": "6.8"
       },
       {
         "Color": "color_12",
         "Hex": "#FDBC4B",
         "Score": "AAA",
-        "Ratio": "9.1"
+        "Ratio": "7.2"
       },
       {
         "Color": "color_13",
         "Hex": "#3DAEE9",
         "Score": "AA",
-        "Ratio": "6.1"
+        "Ratio": "4.9"
       },
       {
         "Color": "color_14",
         "Hex": "#8E44AD",
         "Score": "Fail",
-        "Ratio": "2.6"
+        "Ratio": "2.1"
       },
       {
         "Color": "color_15",
         "Hex": "#16A085",
-        "Score": "AA",
-        "Ratio": "4.7"
+        "Score": "AA Large",
+        "Ratio": "3.7"
       },
       {
         "Color": "color_16",
-        "Hex": "#FFFFFF",
+        "Hex": "#FCFCFC",
         "Score": "AAA",
-        "Ratio": "15.2"
+        "Ratio": "11.9"
       },
       {
         "Color": "cursor",
-        "Hex": "#FCFCFC",
+        "Hex": "#EFF0F1",
         "Score": "AAA",
-        "Ratio": "14.8"
+        "Ratio": "10.7"
       }
     ],
     "scoreCounts": {
-      "AAA": 7,
-      "Fail": 3,
-      "AA Large": 3,
-      "AA": 5
+      "AAA": 5,
+      "Fail": 5,
+      "AA": 4,
+      "AA Large": 4
     }
   },
   {
@@ -11335,39 +11334,39 @@
       },
       {
         "Color": "color_10",
-        "Hex": "#E78284",
+        "Hex": "#EDA0A2",
         "Score": "AA",
-        "Ratio": "4.7"
+        "Ratio": "6.0"
       },
       {
         "Color": "color_11",
-        "Hex": "#A6D189",
+        "Hex": "#B9DBA2",
         "Score": "AAA",
-        "Ratio": "7.1"
+        "Ratio": "8.0"
       },
       {
         "Color": "color_12",
-        "Hex": "#E5C890",
+        "Hex": "#ECD7AE",
         "Score": "AAA",
-        "Ratio": "7.6"
+        "Ratio": "8.7"
       },
       {
         "Color": "color_13",
-        "Hex": "#8CAAEE",
+        "Hex": "#ADC2F3",
         "Score": "AA",
-        "Ratio": "5.3"
+        "Ratio": "6.9"
       },
       {
         "Color": "color_14",
-        "Hex": "#F4B8E4",
-        "Score": "AAA",
-        "Ratio": "7.5"
+        "Hex": "#F38ED8",
+        "Score": "AA",
+        "Ratio": "5.7"
       },
       {
         "Color": "color_15",
-        "Hex": "#81C8BE",
-        "Score": "AA",
-        "Ratio": "6.4"
+        "Hex": "#98D2CA",
+        "Score": "AAA",
+        "Ratio": "7.3"
       },
       {
         "Color": "color_16",
@@ -11377,9 +11376,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#C6D0F5",
+        "Hex": "#F2D5CF",
         "Score": "AAA",
-        "Ratio": "8.1"
+        "Ratio": "8.9"
       }
     ],
     "scoreCounts": {
@@ -11400,9 +11399,9 @@
       },
       {
         "Color": "color_01",
-        "Hex": "#5C5F77",
-        "Score": "AA",
-        "Ratio": "5.5"
+        "Hex": "#BCC0CC",
+        "Score": "Fail",
+        "Ratio": "1.6"
       },
       {
         "Color": "color_02",
@@ -11442,69 +11441,69 @@
       },
       {
         "Color": "color_08",
+        "Hex": "#5C5F77",
+        "Score": "AA",
+        "Ratio": "5.5"
+      },
+      {
+        "Color": "color_09",
         "Hex": "#ACB0BE",
         "Score": "Fail",
         "Ratio": "1.9"
       },
       {
-        "Color": "color_09",
+        "Color": "color_10",
+        "Hex": "#E7103F",
+        "Score": "AA Large",
+        "Ratio": "4.1"
+      },
+      {
+        "Color": "color_11",
+        "Hex": "#46B02F",
+        "Score": "Fail",
+        "Ratio": "2.5"
+      },
+      {
+        "Color": "color_12",
+        "Hex": "#E49931",
+        "Score": "Fail",
+        "Ratio": "2.1"
+      },
+      {
+        "Color": "color_13",
+        "Hex": "#3878F6",
+        "Score": "AA Large",
+        "Ratio": "3.6"
+      },
+      {
+        "Color": "color_14",
+        "Hex": "#EF95D7",
+        "Score": "Fail",
+        "Ratio": "1.9"
+      },
+      {
+        "Color": "color_15",
+        "Hex": "#19A1A8",
+        "Score": "Fail",
+        "Ratio": "2.8"
+      },
+      {
+        "Color": "color_16",
         "Hex": "#6C6F85",
         "Score": "AA Large",
         "Ratio": "4.4"
       },
       {
-        "Color": "color_10",
-        "Hex": "#D20F39",
-        "Score": "AA",
-        "Ratio": "4.8"
-      },
-      {
-        "Color": "color_11",
-        "Hex": "#40A02B",
-        "Score": "Fail",
-        "Ratio": "3.0"
-      },
-      {
-        "Color": "color_12",
-        "Hex": "#DF8E1D",
-        "Score": "Fail",
-        "Ratio": "2.3"
-      },
-      {
-        "Color": "color_13",
-        "Hex": "#1E66F5",
-        "Score": "AA Large",
-        "Ratio": "4.3"
-      },
-      {
-        "Color": "color_14",
-        "Hex": "#EA76CB",
-        "Score": "Fail",
-        "Ratio": "2.3"
-      },
-      {
-        "Color": "color_15",
-        "Hex": "#179299",
-        "Score": "AA Large",
-        "Ratio": "3.3"
-      },
-      {
-        "Color": "color_16",
-        "Hex": "#BCC0CC",
-        "Score": "Fail",
-        "Ratio": "1.6"
-      },
-      {
         "Color": "cursor",
-        "Hex": "#4C4F69",
-        "Score": "AAA",
-        "Ratio": "7.1"
+        "Hex": "#DC8A78",
+        "Score": "Fail",
+        "Ratio": "2.3"
       }
     ],
     "scoreCounts": {
-      "AAA": 2,
-      "AA": 3,
-      "Fail": 8,
+      "AAA": 1,
+      "Fail": 10,
+      "AA": 2,
       "AA Large": 5
     }
   },
@@ -11574,39 +11573,39 @@
       },
       {
         "Color": "color_10",
-        "Hex": "#ED8796",
-        "Score": "AA",
-        "Ratio": "6.0"
+        "Hex": "#F2A7B2",
+        "Score": "AAA",
+        "Ratio": "7.7"
       },
       {
         "Color": "color_11",
-        "Hex": "#A6DA95",
+        "Hex": "#BDE3B0",
         "Score": "AAA",
-        "Ratio": "9.2"
+        "Ratio": "10.4"
       },
       {
         "Color": "color_12",
-        "Hex": "#EED49F",
+        "Hex": "#F4E3C1",
         "Score": "AAA",
-        "Ratio": "10.2"
+        "Ratio": "11.6"
       },
       {
         "Color": "color_13",
-        "Hex": "#8AADF4",
-        "Score": "AA",
-        "Ratio": "6.6"
+        "Hex": "#ADC5F7",
+        "Score": "AAA",
+        "Ratio": "8.5"
       },
       {
         "Color": "color_14",
-        "Hex": "#F5BDE6",
+        "Hex": "#F493DA",
         "Score": "AAA",
-        "Ratio": "9.3"
+        "Ratio": "7.0"
       },
       {
         "Color": "color_15",
-        "Hex": "#8BD5CA",
+        "Hex": "#A5DED6",
         "Score": "AAA",
-        "Ratio": "8.7"
+        "Ratio": "9.8"
       },
       {
         "Color": "color_16",
@@ -11616,15 +11615,15 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#CAD3F5",
+        "Hex": "#F4DBD6",
         "Score": "AAA",
-        "Ratio": "9.9"
+        "Ratio": "11.2"
       }
     ],
     "scoreCounts": {
-      "AAA": 11,
+      "AAA": 13,
       "Fail": 2,
-      "AA": 5
+      "AA": 3
     }
   },
   {
@@ -11693,39 +11692,39 @@
       },
       {
         "Color": "color_10",
-        "Hex": "#F38BA8",
+        "Hex": "#F7AEC2",
         "Score": "AAA",
-        "Ratio": "7.1"
+        "Ratio": "9.2"
       },
       {
         "Color": "color_11",
-        "Hex": "#A6E3A1",
+        "Hex": "#C2ECBF",
         "Score": "AAA",
-        "Ratio": "11.0"
+        "Ratio": "12.5"
       },
       {
         "Color": "color_12",
-        "Hex": "#F9E2AF",
+        "Hex": "#FCD682",
         "Score": "AAA",
-        "Ratio": "12.9"
+        "Ratio": "11.8"
       },
       {
         "Color": "color_13",
-        "Hex": "#89B4FA",
+        "Hex": "#AECCFC",
         "Score": "AAA",
-        "Ratio": "7.8"
+        "Ratio": "10.0"
       },
       {
         "Color": "color_14",
-        "Hex": "#F5C2E7",
+        "Hex": "#F398DA",
         "Score": "AAA",
-        "Ratio": "10.7"
+        "Ratio": "8.1"
       },
       {
         "Color": "color_15",
-        "Hex": "#94E2D5",
+        "Hex": "#B1EAE1",
         "Score": "AAA",
-        "Ratio": "11.0"
+        "Ratio": "12.3"
       },
       {
         "Color": "color_16",
@@ -11735,9 +11734,9 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#CDD6F4",
+        "Hex": "#F5E0DC",
         "Score": "AAA",
-        "Ratio": "11.3"
+        "Ratio": "12.9"
       }
     ],
     "scoreCounts": {
@@ -11747,119 +11746,120 @@
   },
   {
     "theme": "Chalk",
-    "background": "#2D2D2D",
+    "background": "#2B2D2E",
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#D4D4D4",
+        "Hex": "#D2D8D9",
         "Score": "AAA",
-        "Ratio": "9.3"
+        "Ratio": "9.6"
       },
       {
         "Color": "color_01",
-        "Hex": "#646464",
-        "Score": "Fail",
-        "Ratio": "2.3"
+        "Hex": "#7D8B8F",
+        "Score": "AA Large",
+        "Ratio": "3.9"
       },
       {
         "Color": "color_02",
-        "Hex": "#F58E8E",
-        "Score": "AA",
-        "Ratio": "6.0"
+        "Hex": "#B23A52",
+        "Score": "Fail",
+        "Ratio": "2.4"
       },
       {
         "Color": "color_03",
-        "Hex": "#A9D3AB",
-        "Score": "AAA",
-        "Ratio": "8.3"
+        "Hex": "#789B6A",
+        "Score": "AA Large",
+        "Ratio": "4.4"
       },
       {
         "Color": "color_04",
-        "Hex": "#FED37E",
-        "Score": "AAA",
-        "Ratio": "9.7"
-      },
-      {
-        "Color": "color_05",
-        "Hex": "#7AABD4",
-        "Score": "AA",
-        "Ratio": "5.6"
-      },
-      {
-        "Color": "color_06",
-        "Hex": "#D6ADD5",
-        "Score": "AAA",
-        "Ratio": "7.1"
-      },
-      {
-        "Color": "color_07",
-        "Hex": "#79D4D5",
-        "Score": "AAA",
-        "Ratio": "8.0"
-      },
-      {
-        "Color": "color_08",
-        "Hex": "#D4D4D4",
-        "Score": "AAA",
-        "Ratio": "9.3"
-      },
-      {
-        "Color": "color_09",
-        "Hex": "#646464",
-        "Score": "Fail",
-        "Ratio": "2.3"
-      },
-      {
-        "Color": "color_10",
-        "Hex": "#F58E8E",
+        "Hex": "#B9AC4A",
         "Score": "AA",
         "Ratio": "6.0"
       },
       {
-        "Color": "color_11",
-        "Hex": "#A9D3AB",
+        "Color": "color_05",
+        "Hex": "#2A7FAC",
+        "Score": "AA Large",
+        "Ratio": "3.1"
+      },
+      {
+        "Color": "color_06",
+        "Hex": "#BD4F5A",
+        "Score": "Fail",
+        "Ratio": "2.9"
+      },
+      {
+        "Color": "color_07",
+        "Hex": "#44A799",
+        "Score": "AA",
+        "Ratio": "4.8"
+      },
+      {
+        "Color": "color_08",
+        "Hex": "#D2D8D9",
         "Score": "AAA",
-        "Ratio": "8.3"
+        "Ratio": "9.6"
+      },
+      {
+        "Color": "color_09",
+        "Hex": "#888888",
+        "Score": "AA Large",
+        "Ratio": "3.9"
+      },
+      {
+        "Color": "color_10",
+        "Hex": "#F24840",
+        "Score": "AA Large",
+        "Ratio": "3.8"
+      },
+      {
+        "Color": "color_11",
+        "Hex": "#80C470",
+        "Score": "AA",
+        "Ratio": "6.6"
       },
       {
         "Color": "color_12",
-        "Hex": "#FED37E",
+        "Hex": "#FFEB62",
         "Score": "AAA",
-        "Ratio": "9.7"
+        "Ratio": "11.4"
       },
       {
         "Color": "color_13",
-        "Hex": "#7AABD4",
+        "Hex": "#4196FF",
         "Score": "AA",
-        "Ratio": "5.6"
+        "Ratio": "4.6"
       },
       {
         "Color": "color_14",
-        "Hex": "#D6ADD5",
+        "Hex": "#FC5275",
+        "Score": "AA Large",
+        "Ratio": "4.3"
+      },
+      {
+        "Color": "color_15",
+        "Hex": "#53CDBD",
         "Score": "AAA",
         "Ratio": "7.1"
       },
       {
-        "Color": "color_15",
-        "Hex": "#79D4D5",
-        "Score": "AAA",
-        "Ratio": "8.0"
-      },
-      {
         "Color": "color_16",
-        "Hex": "#D4D4D4",
+        "Hex": "#D2D8D9",
         "Score": "AAA",
-        "Ratio": "9.3"
+        "Ratio": "9.6"
       },
       {
         "Color": "cursor",
-        "Hex": "#D4D4D4",
-        "Score": "AAA",
-        "Ratio": "9.3"
+        "Hex": "#708284",
+        "Score": "AA Large",
+        "Ratio": "3.4"
       }
     ],
     "scoreCounts": {
-      "AAA": 12,
+      "AAA": 5,
+      "AA Large": 7,
       "Fail": 2,
       "AA": 4
     }
@@ -13786,121 +13786,121 @@
   },
   {
     "theme": "Doom One",
-    "background": "#21242b",
+    "background": "#282C34",
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#5b6268",
-        "Score": "Fail",
-        "Ratio": "2.5"
+        "Hex": "#BBC2CF",
+        "Score": "AAA",
+        "Ratio": "7.8"
       },
       {
         "Color": "color_01",
-        "Hex": "#1b2229",
+        "Hex": "#000000",
         "Score": "Fail",
-        "Ratio": "1.0"
+        "Ratio": "1.5"
       },
       {
         "Color": "color_02",
-        "Hex": "#ff6c6b",
+        "Hex": "#FF6C6B",
         "Score": "AA",
-        "Ratio": "5.6"
+        "Ratio": "5.1"
       },
       {
         "Color": "color_03",
-        "Hex": "#98be65",
-        "Score": "AAA",
-        "Ratio": "7.3"
-      },
-      {
-        "Color": "color_04",
-        "Hex": "#ecbe7b",
-        "Score": "AAA",
-        "Ratio": "9.0"
-      },
-      {
-        "Color": "color_05",
-        "Hex": "#2257a0",
-        "Score": "Fail",
-        "Ratio": "2.2"
-      },
-      {
-        "Color": "color_06",
-        "Hex": "#a9a1e1",
+        "Hex": "#98BE65",
         "Score": "AA",
         "Ratio": "6.6"
       },
       {
+        "Color": "color_04",
+        "Hex": "#ECBE7B",
+        "Score": "AAA",
+        "Ratio": "8.1"
+      },
+      {
+        "Color": "color_05",
+        "Hex": "#A9A1E1",
+        "Score": "AA",
+        "Ratio": "5.9"
+      },
+      {
+        "Color": "color_06",
+        "Hex": "#C678DD",
+        "Score": "AA",
+        "Ratio": "4.8"
+      },
+      {
         "Color": "color_07",
-        "Hex": "#5699af",
+        "Hex": "#51AFEF",
+        "Score": "AA",
+        "Ratio": "5.8"
+      },
+      {
+        "Color": "color_08",
+        "Hex": "#BBC2CF",
+        "Score": "AAA",
+        "Ratio": "7.8"
+      },
+      {
+        "Color": "color_09",
+        "Hex": "#000000",
+        "Score": "Fail",
+        "Ratio": "1.5"
+      },
+      {
+        "Color": "color_10",
+        "Hex": "#FF6655",
         "Score": "AA",
         "Ratio": "4.9"
       },
       {
-        "Color": "color_08",
-        "Hex": "#5b6268",
-        "Score": "Fail",
-        "Ratio": "2.5"
-      },
-      {
-        "Color": "color_09",
-        "Hex": "#3f444a",
-        "Score": "Fail",
-        "Ratio": "1.6"
-      },
-      {
-        "Color": "color_10",
-        "Hex": "#da8548",
-        "Score": "AA",
-        "Ratio": "5.5"
-      },
-      {
         "Color": "color_11",
-        "Hex": "#4db5bd",
+        "Hex": "#99BB66",
         "Score": "AA",
         "Ratio": "6.4"
       },
       {
         "Color": "color_12",
-        "Hex": "#ecbe7b",
+        "Hex": "#ECBE7B",
         "Score": "AAA",
-        "Ratio": "9.0"
+        "Ratio": "8.1"
       },
       {
         "Color": "color_13",
-        "Hex": "#51afef",
+        "Hex": "#A9A1E1",
         "Score": "AA",
-        "Ratio": "6.5"
+        "Ratio": "5.9"
       },
       {
         "Color": "color_14",
-        "Hex": "#c678dd",
+        "Hex": "#C678DD",
         "Score": "AA",
-        "Ratio": "5.3"
+        "Ratio": "4.8"
       },
       {
         "Color": "color_15",
-        "Hex": "#46d9ff",
-        "Score": "AAA",
-        "Ratio": "9.3"
+        "Hex": "#51AFEF",
+        "Score": "AA",
+        "Ratio": "5.8"
       },
       {
         "Color": "color_16",
-        "Hex": "#bbc2cf",
+        "Hex": "#BFBFBF",
         "Score": "AAA",
-        "Ratio": "8.7"
+        "Ratio": "7.6"
       },
       {
         "Color": "cursor",
-        "Hex": "#5b6268",
-        "Score": "Fail",
-        "Ratio": "2.5"
+        "Hex": "#51AFEF",
+        "Score": "AA",
+        "Ratio": "5.8"
       }
     ],
     "scoreCounts": {
-      "Fail": 6,
-      "AA": 7,
-      "AAA": 5
+      "AAA": 5,
+      "Fail": 2,
+      "AA": 11
     }
   },
   {
@@ -13915,45 +13915,45 @@
       },
       {
         "Color": "color_01",
-        "Hex": "#262626",
+        "Hex": "#21222C",
         "Score": "Fail",
         "Ratio": "1.1"
       },
       {
         "Color": "color_02",
-        "Hex": "#E64747",
-        "Score": "AA Large",
-        "Ratio": "3.6"
+        "Hex": "#FF5555",
+        "Score": "AA",
+        "Ratio": "4.5"
       },
       {
         "Color": "color_03",
-        "Hex": "#42E66C",
+        "Hex": "#50FA7B",
         "Score": "AAA",
-        "Ratio": "8.7"
+        "Ratio": "10.4"
       },
       {
         "Color": "color_04",
-        "Hex": "#E4F34A",
+        "Hex": "#F1FA8C",
         "Score": "AAA",
-        "Ratio": "11.7"
+        "Ratio": "12.7"
       },
       {
         "Color": "color_05",
-        "Hex": "#9B6BDF",
-        "Score": "AA Large",
-        "Ratio": "3.8"
+        "Hex": "#BD93F9",
+        "Score": "AA",
+        "Ratio": "5.9"
       },
       {
         "Color": "color_06",
-        "Hex": "#E356A7",
-        "Score": "AA Large",
-        "Ratio": "4.2"
+        "Hex": "#FF79C6",
+        "Score": "AA",
+        "Ratio": "6.0"
       },
       {
         "Color": "color_07",
-        "Hex": "#75D7EC",
+        "Hex": "#8BE9FD",
         "Score": "AAA",
-        "Ratio": "8.6"
+        "Ratio": "10.3"
       },
       {
         "Color": "color_08",
@@ -13963,51 +13963,51 @@
       },
       {
         "Color": "color_09",
-        "Hex": "#7A7A7A",
+        "Hex": "#6272A4",
         "Score": "AA Large",
-        "Ratio": "3.3"
+        "Ratio": "3.0"
       },
       {
         "Color": "color_10",
-        "Hex": "#FF5555",
+        "Hex": "#FF6E6E",
         "Score": "AA",
-        "Ratio": "4.5"
+        "Ratio": "5.2"
       },
       {
         "Color": "color_11",
-        "Hex": "#50FA7B",
+        "Hex": "#69FF94",
         "Score": "AAA",
-        "Ratio": "10.4"
+        "Ratio": "11.1"
       },
       {
         "Color": "color_12",
-        "Hex": "#F1FA8C",
+        "Hex": "#FFFFA5",
         "Score": "AAA",
-        "Ratio": "12.7"
+        "Ratio": "13.6"
       },
       {
         "Color": "color_13",
-        "Hex": "#BD93F9",
-        "Score": "AA",
-        "Ratio": "5.9"
+        "Hex": "#D6ACFF",
+        "Score": "AAA",
+        "Ratio": "7.6"
       },
       {
         "Color": "color_14",
-        "Hex": "#FF79C6",
-        "Score": "AA",
-        "Ratio": "6.0"
+        "Hex": "#FF92DF",
+        "Score": "AAA",
+        "Ratio": "7.1"
       },
       {
         "Color": "color_15",
-        "Hex": "#8BE9FD",
+        "Hex": "#A4FFFF",
         "Score": "AAA",
-        "Ratio": "10.3"
+        "Ratio": "12.4"
       },
       {
         "Color": "color_16",
-        "Hex": "#F9F9FB",
+        "Hex": "#FFFFFF",
         "Score": "AAA",
-        "Ratio": "13.5"
+        "Ratio": "14.2"
       },
       {
         "Color": "cursor",
@@ -14017,10 +14017,10 @@
       }
     ],
     "scoreCounts": {
-      "AAA": 10,
+      "AAA": 12,
       "Fail": 1,
-      "AA Large": 4,
-      "AA": 3
+      "AA": 4,
+      "AA Large": 1
     }
   },
   {
@@ -14265,122 +14265,122 @@
   },
   {
     "theme": "Elementary",
-    "background": "#101010",
+    "background": "#181818",
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#F2F2F2",
+        "Hex": "#EFEFEF",
         "Score": "AAA",
-        "Ratio": "17.0"
+        "Ratio": "15.4"
       },
       {
         "Color": "color_01",
-        "Hex": "#303030",
+        "Hex": "#242424",
         "Score": "Fail",
-        "Ratio": "1.4"
+        "Ratio": "1.1"
       },
       {
         "Color": "color_02",
-        "Hex": "#E1321A",
+        "Hex": "#D71C15",
         "Score": "AA Large",
-        "Ratio": "4.2"
+        "Ratio": "3.4"
       },
       {
         "Color": "color_03",
-        "Hex": "#6AB017",
-        "Score": "AAA",
-        "Ratio": "7.1"
+        "Hex": "#5AA513",
+        "Score": "AA",
+        "Ratio": "5.8"
       },
       {
         "Color": "color_04",
-        "Hex": "#FFC005",
+        "Hex": "#FDB40C",
         "Score": "AAA",
-        "Ratio": "11.6"
+        "Ratio": "9.9"
       },
       {
         "Color": "color_05",
-        "Hex": "#004F9E",
+        "Hex": "#063B8C",
         "Score": "Fail",
-        "Ratio": "2.4"
+        "Ratio": "1.7"
       },
       {
         "Color": "color_06",
-        "Hex": "#EC0048",
+        "Hex": "#E40038",
         "Score": "AA Large",
-        "Ratio": "4.2"
+        "Ratio": "3.7"
       },
       {
         "Color": "color_07",
-        "Hex": "#2AA7E7",
-        "Score": "AAA",
-        "Ratio": "7.0"
+        "Hex": "#2595E1",
+        "Score": "AA",
+        "Ratio": "5.5"
       },
       {
         "Color": "color_08",
-        "Hex": "#F2F2F2",
+        "Hex": "#EFEFEF",
         "Score": "AAA",
-        "Ratio": "17.0"
+        "Ratio": "15.4"
       },
       {
         "Color": "color_09",
-        "Hex": "#5D5D5D",
+        "Hex": "#4B4B4B",
         "Score": "Fail",
-        "Ratio": "2.9"
+        "Ratio": "2.0"
       },
       {
         "Color": "color_10",
-        "Hex": "#FF361E",
+        "Hex": "#FC1C18",
         "Score": "AA",
-        "Ratio": "5.3"
+        "Ratio": "4.5"
       },
       {
         "Color": "color_11",
-        "Hex": "#7BC91F",
+        "Hex": "#6BC219",
         "Score": "AAA",
-        "Ratio": "9.3"
+        "Ratio": "7.9"
       },
       {
         "Color": "color_12",
-        "Hex": "#FFD00A",
+        "Hex": "#FEC80E",
         "Score": "AAA",
-        "Ratio": "12.9"
+        "Ratio": "11.4"
       },
       {
         "Color": "color_13",
-        "Hex": "#0071FF",
+        "Hex": "#0955FF",
         "Score": "AA Large",
-        "Ratio": "4.3"
+        "Ratio": "3.2"
       },
       {
         "Color": "color_14",
-        "Hex": "#FF1D62",
-        "Score": "AA",
-        "Ratio": "5.1"
+        "Hex": "#FB0050",
+        "Score": "AA Large",
+        "Ratio": "4.4"
       },
       {
         "Color": "color_15",
-        "Hex": "#4BB8FD",
-        "Score": "AAA",
-        "Ratio": "8.7"
+        "Hex": "#3EA8FC",
+        "Score": "AA",
+        "Ratio": "6.9"
       },
       {
         "Color": "color_16",
-        "Hex": "#A020F0",
-        "Score": "AA Large",
-        "Ratio": "3.6"
+        "Hex": "#8C00EC",
+        "Score": "Fail",
+        "Ratio": "2.8"
       },
       {
         "Color": "cursor",
-        "Hex": "#F2F2F2",
+        "Hex": "#BBBBBB",
         "Score": "AAA",
-        "Ratio": "17.0"
+        "Ratio": "9.3"
       }
     ],
     "scoreCounts": {
-      "AAA": 9,
-      "Fail": 3,
+      "AAA": 6,
+      "Fail": 4,
       "AA Large": 4,
-      "AA": 2
+      "AA": 4
     }
   },
   {
@@ -14984,122 +14984,121 @@
   },
   {
     "theme": "Everforest Dark Hard",
-    "background": "#272E33",
+    "background": "#1E2326",
     "results": [
       {
         "Color": "Foreground",
         "Hex": "#D3C6AA",
         "Score": "AAA",
-        "Ratio": "8.2"
+        "Ratio": "9.4"
       },
       {
         "Color": "color_01",
-        "Hex": "#2E383C",
-        "Score": "Fail",
-        "Ratio": "1.1"
+        "Hex": "#7A8478",
+        "Score": "AA Large",
+        "Ratio": "4.1"
       },
       {
         "Color": "color_02",
         "Hex": "#E67E80",
         "Score": "AA",
-        "Ratio": "5.0"
+        "Ratio": "5.8"
       },
       {
         "Color": "color_03",
         "Hex": "#A7C080",
-        "Score": "AA",
-        "Ratio": "6.9"
+        "Score": "AAA",
+        "Ratio": "7.9"
       },
       {
         "Color": "color_04",
         "Hex": "#DBBC7F",
         "Score": "AAA",
-        "Ratio": "7.5"
+        "Ratio": "8.7"
       },
       {
         "Color": "color_05",
         "Hex": "#7FBBB3",
-        "Score": "AA",
-        "Ratio": "6.3"
+        "Score": "AAA",
+        "Ratio": "7.3"
       },
       {
         "Color": "color_06",
         "Hex": "#D699B6",
         "Score": "AA",
-        "Ratio": "6.0"
+        "Ratio": "6.9"
       },
       {
         "Color": "color_07",
         "Hex": "#83C092",
-        "Score": "AA",
-        "Ratio": "6.5"
+        "Score": "AAA",
+        "Ratio": "7.5"
       },
       {
         "Color": "color_08",
-        "Hex": "#D3C6AA",
+        "Hex": "#F2EFDF",
         "Score": "AAA",
-        "Ratio": "8.2"
+        "Ratio": "13.7"
       },
       {
         "Color": "color_09",
-        "Hex": "#5C6A72",
-        "Score": "Fail",
-        "Ratio": "2.5"
+        "Hex": "#A6B0A0",
+        "Score": "AAA",
+        "Ratio": "7.1"
       },
       {
         "Color": "color_10",
         "Hex": "#F85552",
-        "Score": "AA Large",
-        "Ratio": "4.2"
+        "Score": "AA",
+        "Ratio": "4.8"
       },
       {
         "Color": "color_11",
         "Hex": "#8DA101",
         "Score": "AA",
-        "Ratio": "4.7"
+        "Ratio": "5.5"
       },
       {
         "Color": "color_12",
         "Hex": "#DFA000",
         "Score": "AA",
-        "Ratio": "6.0"
+        "Ratio": "6.9"
       },
       {
         "Color": "color_13",
         "Hex": "#3A94C5",
-        "Score": "AA Large",
-        "Ratio": "4.1"
+        "Score": "AA",
+        "Ratio": "4.7"
       },
       {
         "Color": "color_14",
         "Hex": "#DF69BA",
         "Score": "AA",
-        "Ratio": "4.5"
+        "Ratio": "5.2"
       },
       {
         "Color": "color_15",
         "Hex": "#35A77C",
         "Score": "AA",
-        "Ratio": "4.6"
+        "Ratio": "5.3"
       },
       {
         "Color": "color_16",
-        "Hex": "#DFDDC8",
+        "Hex": "#FFFBEF",
         "Score": "AAA",
-        "Ratio": "10.0"
+        "Ratio": "15.3"
       },
       {
         "Color": "cursor",
-        "Hex": "#D3C6AA",
-        "Score": "AAA",
-        "Ratio": "8.2"
+        "Hex": "#E69875",
+        "Score": "AA",
+        "Ratio": "6.9"
       }
     ],
     "scoreCounts": {
-      "AAA": 5,
-      "Fail": 2,
-      "AA": 9,
-      "AA Large": 2
+      "AAA": 8,
+      "AA Large": 1,
+      "AA": 9
     }
   },
   {
@@ -15224,242 +15223,240 @@
   },
   {
     "theme": "Everforest Dark Soft",
-    "background": "#333C43",
+    "background": "#293136",
     "results": [
       {
         "Color": "Foreground",
         "Hex": "#D3C6AA",
-        "Score": "AA",
-        "Ratio": "6.7"
+        "Score": "AAA",
+        "Ratio": "7.8"
       },
       {
         "Color": "color_01",
-        "Hex": "#3A464C",
-        "Score": "Fail",
-        "Ratio": "1.2"
-      },
-      {
-        "Color": "color_02",
-        "Hex": "#E67E80",
-        "Score": "AA Large",
-        "Ratio": "4.1"
-      },
-      {
-        "Color": "color_03",
-        "Hex": "#A7C080",
-        "Score": "AA",
-        "Ratio": "5.6"
-      },
-      {
-        "Color": "color_04",
-        "Hex": "#DBBC7F",
-        "Score": "AA",
-        "Ratio": "6.2"
-      },
-      {
-        "Color": "color_05",
-        "Hex": "#7FBBB3",
-        "Score": "AA",
-        "Ratio": "5.2"
-      },
-      {
-        "Color": "color_06",
-        "Hex": "#D699B6",
-        "Score": "AA",
-        "Ratio": "4.9"
-      },
-      {
-        "Color": "color_07",
-        "Hex": "#83C092",
-        "Score": "AA",
-        "Ratio": "5.3"
-      },
-      {
-        "Color": "color_08",
-        "Hex": "#D3C6AA",
-        "Score": "AA",
-        "Ratio": "6.7"
-      },
-      {
-        "Color": "color_09",
-        "Hex": "#5C6A72",
-        "Score": "Fail",
-        "Ratio": "2.0"
-      },
-      {
-        "Color": "color_10",
-        "Hex": "#F85552",
+        "Hex": "#7A8478",
         "Score": "AA Large",
         "Ratio": "3.4"
       },
       {
+        "Color": "color_02",
+        "Hex": "#E67E80",
+        "Score": "AA",
+        "Ratio": "4.8"
+      },
+      {
+        "Color": "color_03",
+        "Hex": "#A7C080",
+        "Score": "AA",
+        "Ratio": "6.6"
+      },
+      {
+        "Color": "color_04",
+        "Hex": "#DBBC7F",
+        "Score": "AAA",
+        "Ratio": "7.3"
+      },
+      {
+        "Color": "color_05",
+        "Hex": "#7FBBB3",
+        "Score": "AA",
+        "Ratio": "6.1"
+      },
+      {
+        "Color": "color_06",
+        "Hex": "#D699B6",
+        "Score": "AA",
+        "Ratio": "5.7"
+      },
+      {
+        "Color": "color_07",
+        "Hex": "#83C092",
+        "Score": "AA",
+        "Ratio": "6.3"
+      },
+      {
+        "Color": "color_08",
+        "Hex": "#F2EFDF",
+        "Score": "AAA",
+        "Ratio": "11.5"
+      },
+      {
+        "Color": "color_09",
+        "Hex": "#A6B0A0",
+        "Score": "AA",
+        "Ratio": "5.9"
+      },
+      {
+        "Color": "color_10",
+        "Hex": "#F85552",
+        "Score": "AA Large",
+        "Ratio": "4.0"
+      },
+      {
         "Color": "color_11",
         "Hex": "#8DA101",
-        "Score": "AA Large",
-        "Ratio": "3.9"
+        "Score": "AA",
+        "Ratio": "4.6"
       },
       {
         "Color": "color_12",
         "Hex": "#DFA000",
         "Score": "AA",
-        "Ratio": "4.9"
+        "Ratio": "5.8"
       },
       {
         "Color": "color_13",
         "Hex": "#3A94C5",
         "Score": "AA Large",
-        "Ratio": "3.3"
+        "Ratio": "3.9"
       },
       {
         "Color": "color_14",
         "Hex": "#DF69BA",
         "Score": "AA Large",
-        "Ratio": "3.7"
+        "Ratio": "4.3"
       },
       {
         "Color": "color_15",
         "Hex": "#35A77C",
         "Score": "AA Large",
-        "Ratio": "3.7"
+        "Ratio": "4.4"
       },
       {
         "Color": "color_16",
-        "Hex": "#DFDDC8",
+        "Hex": "#FFFBEF",
         "Score": "AAA",
-        "Ratio": "8.2"
+        "Ratio": "12.8"
       },
       {
         "Color": "cursor",
-        "Hex": "#D3C6AA",
+        "Hex": "#E69875",
         "Score": "AA",
-        "Ratio": "6.7"
+        "Ratio": "5.7"
       }
     ],
     "scoreCounts": {
-      "AA": 9,
-      "Fail": 2,
-      "AA Large": 6,
-      "AAA": 1
+      "AAA": 4,
+      "AA Large": 5,
+      "AA": 9
     }
   },
   {
     "theme": "Everforest Light Hard",
-    "background": "#FFFBEF",
+    "background": "#F2EFDF",
     "results": [
       {
         "Color": "Foreground",
         "Hex": "#5C6A72",
         "Score": "AA",
-        "Ratio": "5.4"
+        "Ratio": "4.8"
       },
       {
         "Color": "color_01",
-        "Hex": "#5C6A72",
-        "Score": "AA",
-        "Ratio": "5.4"
+        "Hex": "#7A8478",
+        "Score": "AA Large",
+        "Ratio": "3.4"
       },
       {
         "Color": "color_02",
-        "Hex": "#F85552",
-        "Score": "AA Large",
-        "Ratio": "3.2"
+        "Hex": "#E67E80",
+        "Score": "Fail",
+        "Ratio": "2.4"
       },
       {
         "Color": "color_03",
-        "Hex": "#8DA101",
+        "Hex": "#A7C080",
         "Score": "Fail",
-        "Ratio": "2.8"
+        "Ratio": "1.7"
       },
       {
         "Color": "color_04",
-        "Hex": "#DFA000",
-        "Score": "Fail",
-        "Ratio": "2.2"
-      },
-      {
-        "Color": "color_05",
-        "Hex": "#3A94C5",
-        "Score": "AA Large",
-        "Ratio": "3.3"
-      },
-      {
-        "Color": "color_06",
-        "Hex": "#DF69BA",
-        "Score": "Fail",
-        "Ratio": "3.0"
-      },
-      {
-        "Color": "color_07",
-        "Hex": "#35A77C",
-        "Score": "Fail",
-        "Ratio": "2.9"
-      },
-      {
-        "Color": "color_08",
-        "Hex": "#DFDDC8",
-        "Score": "Fail",
-        "Ratio": "1.3"
-      },
-      {
-        "Color": "color_09",
-        "Hex": "#2E383C",
-        "Score": "AAA",
-        "Ratio": "11.6"
-      },
-      {
-        "Color": "color_10",
-        "Hex": "#E67E80",
-        "Score": "Fail",
-        "Ratio": "2.6"
-      },
-      {
-        "Color": "color_11",
-        "Hex": "#A7C080",
-        "Score": "Fail",
-        "Ratio": "1.9"
-      },
-      {
-        "Color": "color_12",
         "Hex": "#DBBC7F",
-        "Score": "Fail",
-        "Ratio": "1.8"
-      },
-      {
-        "Color": "color_13",
-        "Hex": "#7FBBB3",
-        "Score": "Fail",
-        "Ratio": "2.1"
-      },
-      {
-        "Color": "color_14",
-        "Hex": "#D699B6",
-        "Score": "Fail",
-        "Ratio": "2.2"
-      },
-      {
-        "Color": "color_15",
-        "Hex": "#83C092",
-        "Score": "Fail",
-        "Ratio": "2.0"
-      },
-      {
-        "Color": "color_16",
-        "Hex": "#D3C6AA",
         "Score": "Fail",
         "Ratio": "1.6"
       },
       {
+        "Color": "color_05",
+        "Hex": "#7FBBB3",
+        "Score": "Fail",
+        "Ratio": "1.9"
+      },
+      {
+        "Color": "color_06",
+        "Hex": "#D699B6",
+        "Score": "Fail",
+        "Ratio": "2.0"
+      },
+      {
+        "Color": "color_07",
+        "Hex": "#83C092",
+        "Score": "Fail",
+        "Ratio": "1.8"
+      },
+      {
+        "Color": "color_08",
+        "Hex": "#F2EFDF",
+        "Score": "Fail",
+        "Ratio": "1.0"
+      },
+      {
+        "Color": "color_09",
+        "Hex": "#A6B0A0",
+        "Score": "Fail",
+        "Ratio": "1.9"
+      },
+      {
+        "Color": "color_10",
+        "Hex": "#F85552",
+        "Score": "Fail",
+        "Ratio": "2.8"
+      },
+      {
+        "Color": "color_11",
+        "Hex": "#8DA101",
+        "Score": "Fail",
+        "Ratio": "2.5"
+      },
+      {
+        "Color": "color_12",
+        "Hex": "#DFA000",
+        "Score": "Fail",
+        "Ratio": "2.0"
+      },
+      {
+        "Color": "color_13",
+        "Hex": "#3A94C5",
+        "Score": "Fail",
+        "Ratio": "2.9"
+      },
+      {
+        "Color": "color_14",
+        "Hex": "#DF69BA",
+        "Score": "Fail",
+        "Ratio": "2.6"
+      },
+      {
+        "Color": "color_15",
+        "Hex": "#35A77C",
+        "Score": "Fail",
+        "Ratio": "2.6"
+      },
+      {
+        "Color": "color_16",
+        "Hex": "#FFFBEF",
+        "Score": "Fail",
+        "Ratio": "1.1"
+      },
+      {
         "Color": "cursor",
-        "Hex": "#5C6A72",
-        "Score": "AA",
-        "Ratio": "5.4"
+        "Hex": "#F57D26",
+        "Score": "Fail",
+        "Ratio": "2.3"
       }
     ],
     "scoreCounts": {
-      "AA": 3,
-      "AA Large": 2,
-      "Fail": 12,
-      "AAA": 1
+      "AA": 1,
+      "AA Large": 1,
+      "Fail": 16
     }
   },
   {
@@ -15584,121 +15581,120 @@
   },
   {
     "theme": "Everforest Light Soft",
-    "background": "#F3EAD3",
+    "background": "#E5DFC5",
     "results": [
       {
         "Color": "Foreground",
         "Hex": "#5C6A72",
-        "Score": "AA",
-        "Ratio": "4.7"
+        "Score": "AA Large",
+        "Ratio": "4.2"
       },
       {
         "Color": "color_01",
-        "Hex": "#5C6A72",
-        "Score": "AA",
-        "Ratio": "4.7"
+        "Hex": "#7A8478",
+        "Score": "Fail",
+        "Ratio": "2.9"
       },
       {
         "Color": "color_02",
-        "Hex": "#F85552",
+        "Hex": "#E67E80",
         "Score": "Fail",
-        "Ratio": "2.7"
+        "Ratio": "2.0"
       },
       {
         "Color": "color_03",
-        "Hex": "#8DA101",
-        "Score": "Fail",
-        "Ratio": "2.4"
-      },
-      {
-        "Color": "color_04",
-        "Hex": "#DFA000",
-        "Score": "Fail",
-        "Ratio": "1.9"
-      },
-      {
-        "Color": "color_05",
-        "Hex": "#3A94C5",
-        "Score": "Fail",
-        "Ratio": "2.8"
-      },
-      {
-        "Color": "color_06",
-        "Hex": "#DF69BA",
-        "Score": "Fail",
-        "Ratio": "2.5"
-      },
-      {
-        "Color": "color_07",
-        "Hex": "#35A77C",
-        "Score": "Fail",
-        "Ratio": "2.5"
-      },
-      {
-        "Color": "color_08",
-        "Hex": "#DFDDC8",
-        "Score": "Fail",
-        "Ratio": "1.1"
-      },
-      {
-        "Color": "color_09",
-        "Hex": "#3A464C",
-        "Score": "AAA",
-        "Ratio": "8.1"
-      },
-      {
-        "Color": "color_10",
-        "Hex": "#E67E80",
-        "Score": "Fail",
-        "Ratio": "2.3"
-      },
-      {
-        "Color": "color_11",
         "Hex": "#A7C080",
-        "Score": "Fail",
-        "Ratio": "1.7"
-      },
-      {
-        "Color": "color_12",
-        "Hex": "#DBBC7F",
         "Score": "Fail",
         "Ratio": "1.5"
       },
       {
-        "Color": "color_13",
-        "Hex": "#7FBBB3",
-        "Score": "Fail",
-        "Ratio": "1.8"
-      },
-      {
-        "Color": "color_14",
-        "Hex": "#D699B6",
-        "Score": "Fail",
-        "Ratio": "1.9"
-      },
-      {
-        "Color": "color_15",
-        "Hex": "#83C092",
-        "Score": "Fail",
-        "Ratio": "1.8"
-      },
-      {
-        "Color": "color_16",
-        "Hex": "#D3C6AA",
+        "Color": "color_04",
+        "Hex": "#DBBC7F",
         "Score": "Fail",
         "Ratio": "1.4"
       },
       {
+        "Color": "color_05",
+        "Hex": "#7FBBB3",
+        "Score": "Fail",
+        "Ratio": "1.6"
+      },
+      {
+        "Color": "color_06",
+        "Hex": "#D699B6",
+        "Score": "Fail",
+        "Ratio": "1.7"
+      },
+      {
+        "Color": "color_07",
+        "Hex": "#83C092",
+        "Score": "Fail",
+        "Ratio": "1.6"
+      },
+      {
+        "Color": "color_08",
+        "Hex": "#F2EFDF",
+        "Score": "Fail",
+        "Ratio": "1.2"
+      },
+      {
+        "Color": "color_09",
+        "Hex": "#A6B0A0",
+        "Score": "Fail",
+        "Ratio": "1.7"
+      },
+      {
+        "Color": "color_10",
+        "Hex": "#F85552",
+        "Score": "Fail",
+        "Ratio": "2.5"
+      },
+      {
+        "Color": "color_11",
+        "Hex": "#8DA101",
+        "Score": "Fail",
+        "Ratio": "2.2"
+      },
+      {
+        "Color": "color_12",
+        "Hex": "#DFA000",
+        "Score": "Fail",
+        "Ratio": "1.7"
+      },
+      {
+        "Color": "color_13",
+        "Hex": "#3A94C5",
+        "Score": "Fail",
+        "Ratio": "2.5"
+      },
+      {
+        "Color": "color_14",
+        "Hex": "#DF69BA",
+        "Score": "Fail",
+        "Ratio": "2.3"
+      },
+      {
+        "Color": "color_15",
+        "Hex": "#35A77C",
+        "Score": "Fail",
+        "Ratio": "2.3"
+      },
+      {
+        "Color": "color_16",
+        "Hex": "#FFFBEF",
+        "Score": "Fail",
+        "Ratio": "1.3"
+      },
+      {
         "Color": "cursor",
-        "Hex": "#5C6A72",
-        "Score": "AA",
-        "Ratio": "4.7"
+        "Hex": "#F57D26",
+        "Score": "Fail",
+        "Ratio": "2.0"
       }
     ],
     "scoreCounts": {
-      "AA": 3,
-      "Fail": 14,
-      "AAA": 1
+      "AA Large": 1,
+      "Fail": 17
     }
   },
   {
@@ -15707,27 +15703,27 @@
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#C2FFDF",
+        "Hex": "#F8F8F2",
         "Score": "AA",
-        "Ratio": "6.3"
+        "Ratio": "6.7"
       },
       {
         "Color": "color_01",
-        "Hex": "#42395D",
+        "Hex": "#040303",
         "Score": "Fail",
-        "Ratio": "1.5"
+        "Ratio": "2.9"
       },
       {
         "Color": "color_02",
-        "Hex": "#A8757B",
+        "Hex": "#F92672",
         "Score": "Fail",
         "Ratio": "1.9"
       },
       {
         "Color": "color_03",
-        "Hex": "#FF857F",
-        "Score": "AA Large",
-        "Ratio": "3.0"
+        "Hex": "#C2FFDF",
+        "Score": "AA",
+        "Ratio": "6.3"
       },
       {
         "Color": "color_04",
@@ -15737,69 +15733,69 @@
       },
       {
         "Color": "color_05",
-        "Hex": "#AE81FF",
-        "Score": "Fail",
-        "Ratio": "2.5"
-      },
-      {
-        "Color": "color_06",
-        "Hex": "#716799",
-        "Score": "Fail",
-        "Ratio": "1.4"
-      },
-      {
-        "Color": "color_07",
         "Hex": "#C2FFDF",
         "Score": "AA",
         "Ratio": "6.3"
       },
       {
-        "Color": "color_08",
-        "Hex": "#F8F8F2",
-        "Score": "AA",
-        "Ratio": "6.7"
-      },
-      {
-        "Color": "color_09",
-        "Hex": "#75507B",
-        "Score": "Fail",
-        "Ratio": "1.1"
-      },
-      {
-        "Color": "color_10",
+        "Color": "color_06",
         "Hex": "#FFB8D1",
         "Score": "AA Large",
         "Ratio": "4.4"
       },
       {
-        "Color": "color_11",
-        "Hex": "#F1568E",
-        "Score": "Fail",
-        "Ratio": "2.2"
-      },
-      {
-        "Color": "color_12",
-        "Hex": "#D5A425",
-        "Score": "AA Large",
-        "Ratio": "3.1"
-      },
-      {
-        "Color": "color_13",
+        "Color": "color_07",
         "Hex": "#C5A3FF",
         "Score": "AA Large",
         "Ratio": "3.4"
       },
       {
-        "Color": "color_14",
-        "Hex": "#8077A8",
+        "Color": "color_08",
+        "Hex": "#F8F8F0",
+        "Score": "AA",
+        "Ratio": "6.7"
+      },
+      {
+        "Color": "color_09",
+        "Hex": "#6090CB",
         "Score": "Fail",
-        "Ratio": "1.7"
+        "Ratio": "2.1"
+      },
+      {
+        "Color": "color_10",
+        "Hex": "#FF857F",
+        "Score": "AA Large",
+        "Ratio": "3.0"
+      },
+      {
+        "Color": "color_11",
+        "Hex": "#C2FFDF",
+        "Score": "AA",
+        "Ratio": "6.3"
+      },
+      {
+        "Color": "color_12",
+        "Hex": "#FFEA00",
+        "Score": "AA",
+        "Ratio": "5.8"
+      },
+      {
+        "Color": "color_13",
+        "Hex": "#C2FFDF",
+        "Score": "AA",
+        "Ratio": "6.3"
+      },
+      {
+        "Color": "color_14",
+        "Hex": "#FFB8D1",
+        "Score": "AA Large",
+        "Ratio": "4.4"
       },
       {
         "Color": "color_15",
-        "Hex": "#C2FFFF",
-        "Score": "AA",
-        "Ratio": "6.4"
+        "Hex": "#C5A3FF",
+        "Score": "AA Large",
+        "Ratio": "3.4"
       },
       {
         "Color": "color_16",
@@ -15809,14 +15805,14 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#FFB8D1",
-        "Score": "AA Large",
-        "Ratio": "4.4"
+        "Hex": "#F8F8F0",
+        "Score": "AA",
+        "Ratio": "6.7"
       }
     ],
     "scoreCounts": {
-      "AA": 5,
-      "Fail": 7,
+      "AA": 9,
+      "Fail": 3,
       "AA Large": 6
     }
   },
@@ -16061,122 +16057,122 @@
   },
   {
     "theme": "Flat",
-    "background": "#1F2D3A",
+    "background": "#002240",
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#1ABC9C",
-        "Score": "AA",
-        "Ratio": "5.8"
+        "Hex": "#2CC55D",
+        "Score": "AAA",
+        "Ratio": "7.1"
       },
       {
         "Color": "color_01",
-        "Hex": "#2C3E50",
+        "Hex": "#222D3F",
         "Score": "Fail",
-        "Ratio": "1.3"
+        "Ratio": "1.2"
       },
       {
         "Color": "color_02",
-        "Hex": "#C0392B",
+        "Hex": "#A82320",
         "Score": "Fail",
-        "Ratio": "2.6"
+        "Ratio": "2.3"
       },
       {
         "Color": "color_03",
-        "Hex": "#27AE60",
+        "Hex": "#32A548",
         "Score": "AA",
-        "Ratio": "4.9"
+        "Ratio": "5.1"
       },
       {
         "Color": "color_04",
-        "Hex": "#F39C12",
+        "Hex": "#E58D11",
         "Score": "AA",
-        "Ratio": "6.4"
+        "Ratio": "6.3"
       },
       {
         "Color": "color_05",
-        "Hex": "#2980B9",
-        "Score": "AA Large",
-        "Ratio": "3.3"
+        "Hex": "#3167AC",
+        "Score": "Fail",
+        "Ratio": "2.8"
       },
       {
         "Color": "color_06",
-        "Hex": "#8E44AD",
+        "Hex": "#781AA0",
         "Score": "Fail",
-        "Ratio": "2.4"
+        "Ratio": "1.9"
       },
       {
         "Color": "color_07",
-        "Hex": "#16A085",
+        "Hex": "#2C9370",
         "Score": "AA Large",
-        "Ratio": "4.3"
+        "Ratio": "4.2"
       },
       {
         "Color": "color_08",
-        "Hex": "#BDC3C7",
+        "Hex": "#B0B6BA",
         "Score": "AAA",
         "Ratio": "7.9"
       },
       {
         "Color": "color_09",
-        "Hex": "#34495E",
+        "Hex": "#212C3C",
         "Score": "Fail",
-        "Ratio": "1.5"
+        "Ratio": "1.1"
       },
       {
         "Color": "color_10",
-        "Hex": "#E74C3C",
+        "Hex": "#D4312E",
         "Score": "AA Large",
-        "Ratio": "3.7"
+        "Ratio": "3.3"
       },
       {
         "Color": "color_11",
-        "Hex": "#2ECC71",
-        "Score": "AA",
-        "Ratio": "6.7"
+        "Hex": "#2D9440",
+        "Score": "AA Large",
+        "Ratio": "4.2"
       },
       {
         "Color": "color_12",
-        "Hex": "#F1C40F",
+        "Hex": "#E5BE0C",
         "Score": "AAA",
-        "Ratio": "8.5"
+        "Ratio": "9.0"
       },
       {
         "Color": "color_13",
-        "Hex": "#3498DB",
+        "Hex": "#3C7DD2",
         "Score": "AA Large",
-        "Ratio": "4.5"
+        "Ratio": "3.9"
       },
       {
         "Color": "color_14",
-        "Hex": "#9B59B6",
-        "Score": "AA Large",
-        "Ratio": "3.0"
+        "Hex": "#8230A7",
+        "Score": "Fail",
+        "Ratio": "2.3"
       },
       {
         "Color": "color_15",
-        "Hex": "#2AA198",
-        "Score": "AA Large",
-        "Ratio": "4.5"
+        "Hex": "#35B387",
+        "Score": "AA",
+        "Ratio": "6.1"
       },
       {
         "Color": "color_16",
-        "Hex": "#ECF0F1",
+        "Hex": "#E7ECED",
         "Score": "AAA",
-        "Ratio": "12.2"
+        "Ratio": "13.5"
       },
       {
         "Color": "cursor",
-        "Hex": "#1ABC9C",
-        "Score": "AA",
-        "Ratio": "5.8"
+        "Hex": "#E5BE0C",
+        "Score": "AAA",
+        "Ratio": "9.0"
       }
     ],
     "scoreCounts": {
-      "AA": 5,
-      "Fail": 4,
-      "AA Large": 6,
-      "AAA": 3
+      "AAA": 5,
+      "Fail": 6,
+      "AA": 3,
+      "AA Large": 4
     }
   },
   {
@@ -16425,105 +16421,105 @@
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#878580",
-        "Score": "AA",
-        "Ratio": "5.2"
+        "Hex": "#CECDC3",
+        "Score": "AAA",
+        "Ratio": "12.0"
       },
       {
         "Color": "color_01",
-        "Hex": "#282726",
+        "Hex": "#100F0F",
         "Score": "Fail",
-        "Ratio": "1.3"
+        "Ratio": "1.0"
       },
       {
         "Color": "color_02",
-        "Hex": "#AF3029",
-        "Score": "Fail",
-        "Ratio": "3.0"
-      },
-      {
-        "Color": "color_03",
-        "Hex": "#66800B",
-        "Score": "AA Large",
-        "Ratio": "4.2"
-      },
-      {
-        "Color": "color_04",
-        "Hex": "#AD8301",
-        "Score": "AA",
-        "Ratio": "5.5"
-      },
-      {
-        "Color": "color_05",
-        "Hex": "#205EA6",
-        "Score": "Fail",
-        "Ratio": "2.9"
-      },
-      {
-        "Color": "color_06",
-        "Hex": "#A02F6F",
-        "Score": "Fail",
-        "Ratio": "2.9"
-      },
-      {
-        "Color": "color_07",
-        "Hex": "#24837B",
-        "Score": "AA Large",
-        "Ratio": "4.2"
-      },
-      {
-        "Color": "color_08",
-        "Hex": "#E6E4D9",
-        "Score": "AAA",
-        "Ratio": "15.0"
-      },
-      {
-        "Color": "color_09",
-        "Hex": "#343331",
-        "Score": "Fail",
-        "Ratio": "1.5"
-      },
-      {
-        "Color": "color_10",
         "Hex": "#D14D41",
         "Score": "AA Large",
         "Ratio": "4.4"
       },
       {
-        "Color": "color_11",
+        "Color": "color_03",
         "Hex": "#879A39",
         "Score": "AA",
         "Ratio": "6.1"
       },
       {
-        "Color": "color_12",
+        "Color": "color_04",
         "Hex": "#D0A215",
         "Score": "AAA",
         "Ratio": "8.1"
       },
       {
-        "Color": "color_13",
+        "Color": "color_05",
         "Hex": "#4385BE",
         "Score": "AA",
         "Ratio": "4.9"
       },
       {
-        "Color": "color_14",
+        "Color": "color_06",
         "Hex": "#CE5D97",
         "Score": "AA",
         "Ratio": "5.1"
       },
       {
-        "Color": "color_15",
+        "Color": "color_07",
         "Hex": "#3AA99F",
         "Score": "AA",
         "Ratio": "6.7"
       },
       {
+        "Color": "color_08",
+        "Hex": "#878580",
+        "Score": "AA",
+        "Ratio": "5.2"
+      },
+      {
+        "Color": "color_09",
+        "Hex": "#575653",
+        "Score": "Fail",
+        "Ratio": "2.6"
+      },
+      {
+        "Color": "color_10",
+        "Hex": "#AF3029",
+        "Score": "Fail",
+        "Ratio": "3.0"
+      },
+      {
+        "Color": "color_11",
+        "Hex": "#66800B",
+        "Score": "AA Large",
+        "Ratio": "4.2"
+      },
+      {
+        "Color": "color_12",
+        "Hex": "#AD8301",
+        "Score": "AA",
+        "Ratio": "5.5"
+      },
+      {
+        "Color": "color_13",
+        "Hex": "#205EA6",
+        "Score": "Fail",
+        "Ratio": "2.9"
+      },
+      {
+        "Color": "color_14",
+        "Hex": "#A02F6F",
+        "Score": "Fail",
+        "Ratio": "2.9"
+      },
+      {
+        "Color": "color_15",
+        "Hex": "#24837B",
+        "Score": "AA Large",
+        "Ratio": "4.2"
+      },
+      {
         "Color": "color_16",
-        "Hex": "#FFFCF0",
+        "Hex": "#CECDC3",
         "Score": "AAA",
-        "Ratio": "18.6"
+        "Ratio": "12.0"
       },
       {
         "Color": "cursor",
@@ -16533,10 +16529,10 @@
       }
     ],
     "scoreCounts": {
-      "AA": 6,
+      "AAA": 4,
       "Fail": 5,
       "AA Large": 3,
-      "AAA": 4
+      "AA": 6
     }
   },
   {
@@ -16551,9 +16547,9 @@
       },
       {
         "Color": "color_01",
-        "Hex": "#282726",
+        "Hex": "#100F0F",
         "Score": "AAA",
-        "Ratio": "14.5"
+        "Ratio": "18.6"
       },
       {
         "Color": "color_02",
@@ -16593,15 +16589,15 @@
       },
       {
         "Color": "color_08",
-        "Hex": "#878580",
-        "Score": "AA Large",
-        "Ratio": "3.6"
+        "Hex": "#6F6E69",
+        "Score": "AA",
+        "Ratio": "5.0"
       },
       {
         "Color": "color_09",
-        "Hex": "#1C1B1A",
-        "Score": "AAA",
-        "Ratio": "16.7"
+        "Hex": "#B7B5AC",
+        "Score": "Fail",
+        "Ratio": "2.0"
       },
       {
         "Color": "color_10",
@@ -16641,9 +16637,9 @@
       },
       {
         "Color": "color_16",
-        "Hex": "#6F6E69",
-        "Score": "AA",
-        "Ratio": "5.0"
+        "Hex": "#CECDC3",
+        "Score": "Fail",
+        "Ratio": "1.6"
       },
       {
         "Color": "cursor",
@@ -16653,10 +16649,10 @@
       }
     ],
     "scoreCounts": {
-      "AAA": 4,
+      "AAA": 3,
       "AA": 4,
-      "AA Large": 8,
-      "Fail": 2
+      "AA Large": 7,
+      "Fail": 4
     }
   },
   {
@@ -18708,9 +18704,9 @@
       },
       {
         "Color": "color_01",
-        "Hex": "#3C3836",
+        "Hex": "#282828",
         "Score": "Fail",
-        "Ratio": "1.3"
+        "Ratio": "1.0"
       },
       {
         "Color": "color_02",
@@ -18756,9 +18752,9 @@
       },
       {
         "Color": "color_09",
-        "Hex": "#3C3836",
-        "Score": "Fail",
-        "Ratio": "1.3"
+        "Hex": "#7C6F64",
+        "Score": "AA Large",
+        "Ratio": "3.0"
       },
       {
         "Color": "color_10",
@@ -18798,9 +18794,9 @@
       },
       {
         "Color": "color_16",
-        "Hex": "#D4BE98",
+        "Hex": "#DDC7A1",
         "Score": "AAA",
-        "Ratio": "8.2"
+        "Ratio": "9.0"
       },
       {
         "Color": "cursor",
@@ -18811,8 +18807,9 @@
     ],
     "scoreCounts": {
       "AAA": 4,
-      "Fail": 2,
-      "AA": 12
+      "Fail": 1,
+      "AA": 12,
+      "AA Large": 1
     }
   },
   {
@@ -18827,9 +18824,9 @@
       },
       {
         "Color": "color_01",
-        "Hex": "#F2E5BC",
+        "Hex": "#FBF1C7",
         "Score": "Fail",
-        "Ratio": "1.1"
+        "Ratio": "1.0"
       },
       {
         "Color": "color_02",
@@ -18875,9 +18872,9 @@
       },
       {
         "Color": "color_09",
-        "Hex": "#F2E5BC",
+        "Hex": "#A89984",
         "Score": "Fail",
-        "Ratio": "1.1"
+        "Ratio": "2.5"
       },
       {
         "Color": "color_10",
@@ -18917,9 +18914,9 @@
       },
       {
         "Color": "color_16",
-        "Hex": "#654735",
+        "Hex": "#4F3829",
         "Score": "AAA",
-        "Ratio": "7.4"
+        "Ratio": "9.6"
       },
       {
         "Color": "cursor",
@@ -19895,37 +19892,37 @@
   },
   {
     "theme": "Horizon Bright",
-    "background": "#FDF0ED",
+    "background": "#FBF0EE",
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#1C1E26",
+        "Hex": "#16161C",
         "Score": "AAA",
-        "Ratio": "14.9"
+        "Ratio": "16.1"
       },
       {
         "Color": "color_01",
         "Hex": "#16161C",
         "Score": "AAA",
-        "Ratio": "16.2"
+        "Ratio": "16.1"
       },
       {
         "Color": "color_02",
-        "Hex": "#DA103F",
-        "Score": "AA",
-        "Ratio": "4.6"
+        "Hex": "#E95678",
+        "Score": "AA Large",
+        "Ratio": "3.1"
       },
       {
         "Color": "color_03",
-        "Hex": "#1EB980",
+        "Hex": "#29D398",
         "Score": "Fail",
-        "Ratio": "2.3"
+        "Ratio": "1.7"
       },
       {
         "Color": "color_04",
-        "Hex": "#F6661E",
+        "Hex": "#FAB795",
         "Score": "Fail",
-        "Ratio": "2.8"
+        "Ratio": "1.5"
       },
       {
         "Color": "color_05",
@@ -19941,39 +19938,39 @@
       },
       {
         "Color": "color_07",
-        "Hex": "#1D8991",
-        "Score": "AA Large",
-        "Ratio": "3.7"
+        "Hex": "#59E3E3",
+        "Score": "Fail",
+        "Ratio": "1.4"
       },
       {
         "Color": "color_08",
-        "Hex": "#FADAD1",
+        "Hex": "#FDF0ED",
         "Score": "Fail",
-        "Ratio": "1.2"
+        "Ratio": "1.0"
       },
       {
         "Color": "color_09",
         "Hex": "#1A1C23",
         "Score": "AAA",
-        "Ratio": "15.3"
+        "Ratio": "15.2"
       },
       {
         "Color": "color_10",
-        "Hex": "#F43E5C",
-        "Score": "AA Large",
-        "Ratio": "3.3"
+        "Hex": "#EC6A88",
+        "Score": "Fail",
+        "Ratio": "2.7"
       },
       {
         "Color": "color_11",
-        "Hex": "#07DA8C",
+        "Hex": "#3FDAA4",
         "Score": "Fail",
         "Ratio": "1.6"
       },
       {
         "Color": "color_12",
-        "Hex": "#F77D26",
+        "Hex": "#FBC3A7",
         "Score": "Fail",
-        "Ratio": "2.4"
+        "Ratio": "1.4"
       },
       {
         "Color": "color_13",
@@ -19989,28 +19986,27 @@
       },
       {
         "Color": "color_15",
-        "Hex": "#1EAEAE",
+        "Hex": "#6BE6E6",
         "Score": "Fail",
-        "Ratio": "2.4"
+        "Ratio": "1.3"
       },
       {
         "Color": "color_16",
-        "Hex": "#FDF0ED",
+        "Hex": "#FFF3F0",
         "Score": "Fail",
         "Ratio": "1.0"
       },
       {
         "Color": "cursor",
-        "Hex": "#1C1E26",
-        "Score": "AAA",
-        "Ratio": "14.9"
+        "Hex": "#F2D0C5",
+        "Score": "Fail",
+        "Ratio": "1.3"
       }
     ],
     "scoreCounts": {
-      "AAA": 4,
-      "AA": 1,
-      "Fail": 11,
-      "AA Large": 2
+      "AAA": 3,
+      "AA Large": 1,
+      "Fail": 14
     }
   },
   {
@@ -20254,122 +20250,122 @@
   },
   {
     "theme": "Hybrid",
-    "background": "#141414",
+    "background": "#161719",
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#94A3A5",
+        "Hex": "#B7BCBA",
         "Score": "AAA",
-        "Ratio": "7.0"
+        "Ratio": "9.3"
       },
       {
         "Color": "color_01",
-        "Hex": "#282A2E",
+        "Hex": "#2A2E33",
         "Score": "Fail",
         "Ratio": "1.3"
       },
       {
         "Color": "color_02",
-        "Hex": "#A54242",
+        "Hex": "#B84D51",
         "Score": "AA Large",
-        "Ratio": "3.0"
+        "Ratio": "3.6"
       },
       {
         "Color": "color_03",
-        "Hex": "#8C9440",
-        "Score": "AA",
-        "Ratio": "5.6"
+        "Hex": "#B3BF5A",
+        "Score": "AAA",
+        "Ratio": "9.0"
       },
       {
         "Color": "color_04",
-        "Hex": "#DE935F",
+        "Hex": "#E4B55E",
         "Score": "AAA",
-        "Ratio": "7.4"
+        "Ratio": "9.5"
       },
       {
         "Color": "color_05",
-        "Hex": "#5F819D",
-        "Score": "AA Large",
-        "Ratio": "4.5"
+        "Hex": "#6E90B0",
+        "Score": "AA",
+        "Ratio": "5.4"
       },
       {
         "Color": "color_06",
-        "Hex": "#85678F",
+        "Hex": "#A17EAC",
+        "Score": "AA",
+        "Ratio": "5.2"
+      },
+      {
+        "Color": "color_07",
+        "Hex": "#7FBFB4",
+        "Score": "AAA",
+        "Ratio": "8.6"
+      },
+      {
+        "Color": "color_08",
+        "Hex": "#B5B9B6",
+        "Score": "AAA",
+        "Ratio": "9.0"
+      },
+      {
+        "Color": "color_09",
+        "Hex": "#1D1F22",
+        "Score": "Fail",
+        "Ratio": "1.1"
+      },
+      {
+        "Color": "color_10",
+        "Hex": "#8D2E32",
+        "Score": "Fail",
+        "Ratio": "2.2"
+      },
+      {
+        "Color": "color_11",
+        "Hex": "#798431",
+        "Score": "AA Large",
+        "Ratio": "4.4"
+      },
+      {
+        "Color": "color_12",
+        "Hex": "#E58A50",
+        "Score": "AA",
+        "Ratio": "6.9"
+      },
+      {
+        "Color": "color_13",
+        "Hex": "#4B6B88",
+        "Score": "AA Large",
+        "Ratio": "3.2"
+      },
+      {
+        "Color": "color_14",
+        "Hex": "#6E5079",
+        "Score": "Fail",
+        "Ratio": "2.6"
+      },
+      {
+        "Color": "color_15",
+        "Hex": "#4D7B74",
         "Score": "AA Large",
         "Ratio": "3.8"
       },
       {
-        "Color": "color_07",
-        "Hex": "#5E8D87",
-        "Score": "AA",
-        "Ratio": "4.9"
-      },
-      {
-        "Color": "color_08",
-        "Hex": "#969896",
-        "Score": "AA",
-        "Ratio": "6.3"
-      },
-      {
-        "Color": "color_09",
-        "Hex": "#373B41",
-        "Score": "Fail",
-        "Ratio": "1.6"
-      },
-      {
-        "Color": "color_10",
-        "Hex": "#CC6666",
-        "Score": "AA",
-        "Ratio": "5.0"
-      },
-      {
-        "Color": "color_11",
-        "Hex": "#B5BD68",
-        "Score": "AAA",
-        "Ratio": "9.2"
-      },
-      {
-        "Color": "color_12",
-        "Hex": "#F0C674",
-        "Score": "AAA",
-        "Ratio": "11.4"
-      },
-      {
-        "Color": "color_13",
-        "Hex": "#81A2BE",
-        "Score": "AA",
-        "Ratio": "6.9"
-      },
-      {
-        "Color": "color_14",
-        "Hex": "#B294BB",
-        "Score": "AA",
-        "Ratio": "6.9"
-      },
-      {
-        "Color": "color_15",
-        "Hex": "#8ABEB7",
-        "Score": "AAA",
-        "Ratio": "8.9"
-      },
-      {
         "Color": "color_16",
-        "Hex": "#C5C8C6",
-        "Score": "AAA",
-        "Ratio": "10.9"
+        "Hex": "#5A626A",
+        "Score": "Fail",
+        "Ratio": "2.9"
       },
       {
         "Color": "cursor",
-        "Hex": "#94A3A5",
+        "Hex": "#B7BCBA",
         "Score": "AAA",
-        "Ratio": "7.0"
+        "Ratio": "9.3"
       }
     ],
     "scoreCounts": {
-      "AAA": 7,
-      "Fail": 2,
-      "AA Large": 3,
-      "AA": 6
+      "AAA": 6,
+      "Fail": 5,
+      "AA Large": 4,
+      "AA": 3
     }
   },
   {
@@ -20613,121 +20609,122 @@
   },
   {
     "theme": "Ic Green Ppl",
-    "background": "#3A3D3F",
+    "background": "#2C2C2C",
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#D9EFD3",
+        "Hex": "#E0F1DC",
         "Score": "AAA",
-        "Ratio": "9.0"
+        "Ratio": "11.8"
       },
       {
         "Color": "color_01",
-        "Hex": "#1F1F1F",
+        "Hex": "#014401",
         "Score": "Fail",
-        "Ratio": "1.5"
+        "Ratio": "1.2"
       },
       {
         "Color": "color_02",
-        "Hex": "#FB002A",
-        "Score": "Fail",
-        "Ratio": "2.7"
+        "Hex": "#FF2736",
+        "Score": "AA Large",
+        "Ratio": "3.7"
       },
       {
         "Color": "color_03",
-        "Hex": "#339C24",
+        "Hex": "#41A638",
         "Score": "AA Large",
-        "Ratio": "3.1"
+        "Ratio": "4.5"
       },
       {
         "Color": "color_04",
-        "Hex": "#659B25",
-        "Score": "AA Large",
-        "Ratio": "3.3"
+        "Hex": "#76A831",
+        "Score": "AA",
+        "Ratio": "4.9"
       },
       {
         "Color": "color_05",
-        "Hex": "#149B45",
-        "Score": "AA Large",
-        "Ratio": "3.0"
+        "Hex": "#2EC3B9",
+        "Score": "AA",
+        "Ratio": "6.4"
       },
       {
         "Color": "color_06",
-        "Hex": "#53B82C",
-        "Score": "AA Large",
-        "Ratio": "4.3"
+        "Hex": "#50A096",
+        "Score": "AA",
+        "Ratio": "4.5"
       },
       {
         "Color": "color_07",
-        "Hex": "#2CB868",
+        "Hex": "#3CA078",
         "Score": "AA Large",
         "Ratio": "4.3"
       },
       {
         "Color": "color_08",
-        "Hex": "#E0FFEF",
+        "Hex": "#E6FEF2",
         "Score": "AAA",
-        "Ratio": "10.3"
+        "Ratio": "13.2"
       },
       {
         "Color": "color_09",
-        "Hex": "#032710",
+        "Hex": "#035C03",
         "Score": "Fail",
-        "Ratio": "1.5"
+        "Ratio": "1.7"
       },
       {
         "Color": "color_10",
-        "Hex": "#A7FF3F",
+        "Hex": "#B4FA5C",
         "Score": "AAA",
-        "Ratio": "8.9"
+        "Ratio": "11.2"
       },
       {
         "Color": "color_11",
-        "Hex": "#9FFF6D",
+        "Hex": "#AEFB86",
         "Score": "AAA",
-        "Ratio": "8.9"
+        "Ratio": "11.3"
       },
       {
         "Color": "color_12",
-        "Hex": "#D2FF6D",
+        "Hex": "#DAFA87",
         "Score": "AAA",
-        "Ratio": "9.5"
+        "Ratio": "12.0"
       },
       {
         "Color": "color_13",
-        "Hex": "#72FFB5",
+        "Hex": "#2EFAEB",
         "Score": "AAA",
-        "Ratio": "8.7"
+        "Ratio": "10.6"
       },
       {
         "Color": "color_14",
-        "Hex": "#50FF3E",
+        "Hex": "#50FAFA",
         "Score": "AAA",
-        "Ratio": "8.2"
+        "Ratio": "10.9"
       },
       {
         "Color": "color_15",
-        "Hex": "#22FF71",
+        "Hex": "#3CFAC8",
         "Score": "AAA",
-        "Ratio": "8.1"
+        "Ratio": "10.4"
       },
       {
         "Color": "color_16",
-        "Hex": "#DAEFD0",
+        "Hex": "#E0F1DC",
         "Score": "AAA",
-        "Ratio": "9.0"
+        "Ratio": "11.8"
       },
       {
         "Color": "cursor",
-        "Hex": "#D9EFD3",
+        "Hex": "#47FA6B",
         "Score": "AAA",
-        "Ratio": "9.0"
+        "Ratio": "10.1"
       }
     ],
     "scoreCounts": {
       "AAA": 10,
-      "Fail": 3,
-      "AA Large": 5
+      "Fail": 2,
+      "AA Large": 3,
+      "AA": 3
     }
   },
   {
@@ -21096,21 +21093,21 @@
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#EEEEEE",
+        "Hex": "#F1F1F1",
         "Score": "AAA",
-        "Ratio": "18.1"
+        "Ratio": "18.6"
       },
       {
         "Color": "color_01",
-        "Hex": "#4E4E4E",
+        "Hex": "#4F4F4F",
         "Score": "Fail",
-        "Ratio": "2.5"
+        "Ratio": "2.6"
       },
       {
         "Color": "color_02",
-        "Hex": "#FF6C60",
+        "Hex": "#FA6C60",
         "Score": "AAA",
-        "Ratio": "7.6"
+        "Ratio": "7.4"
       },
       {
         "Color": "color_03",
@@ -21120,21 +21117,21 @@
       },
       {
         "Color": "color_04",
-        "Hex": "#FFFFB6",
+        "Hex": "#FFFEB7",
         "Score": "AAA",
-        "Ratio": "20.2"
+        "Ratio": "20.1"
       },
       {
         "Color": "color_05",
-        "Hex": "#69CBFE",
+        "Hex": "#96CAFE",
         "Score": "AAA",
-        "Ratio": "11.6"
+        "Ratio": "12.2"
       },
       {
         "Color": "color_06",
-        "Hex": "#FF73FD",
+        "Hex": "#FA73FD",
         "Score": "AAA",
-        "Ratio": "9.1"
+        "Ratio": "8.9"
       },
       {
         "Color": "color_07",
@@ -21144,51 +21141,51 @@
       },
       {
         "Color": "color_08",
-        "Hex": "#EEEEEE",
+        "Hex": "#EFEDEF",
         "Score": "AAA",
-        "Ratio": "18.1"
+        "Ratio": "18.0"
       },
       {
         "Color": "color_09",
-        "Hex": "#7C7C7C",
+        "Hex": "#7B7B7B",
         "Score": "AA",
         "Ratio": "5.0"
       },
       {
         "Color": "color_10",
-        "Hex": "#FFB6B0",
+        "Hex": "#FCB6B0",
         "Score": "AAA",
-        "Ratio": "12.6"
+        "Ratio": "12.5"
       },
       {
         "Color": "color_11",
-        "Hex": "#CEFFAC",
+        "Hex": "#CFFFAB",
         "Score": "AAA",
-        "Ratio": "18.5"
+        "Ratio": "18.6"
       },
       {
         "Color": "color_12",
-        "Hex": "#FFFFCB",
+        "Hex": "#FFFFCC",
         "Score": "AAA",
         "Ratio": "20.4"
       },
       {
         "Color": "color_13",
-        "Hex": "#B5DCFE",
+        "Hex": "#B5DCFF",
         "Score": "AAA",
-        "Ratio": "14.6"
+        "Ratio": "14.7"
       },
       {
         "Color": "color_14",
-        "Hex": "#FF9CFE",
+        "Hex": "#FB9CFE",
         "Score": "AAA",
-        "Ratio": "11.4"
+        "Ratio": "11.3"
       },
       {
         "Color": "color_15",
-        "Hex": "#DFDFFE",
+        "Hex": "#E0E0FE",
         "Score": "AAA",
-        "Ratio": "16.1"
+        "Ratio": "16.3"
       },
       {
         "Color": "color_16",
@@ -21198,15 +21195,15 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#FFA560",
-        "Score": "AAA",
-        "Ratio": "10.8"
+        "Hex": "#808080",
+        "Score": "AA",
+        "Ratio": "5.3"
       }
     ],
     "scoreCounts": {
-      "AAA": 16,
+      "AAA": 15,
       "Fail": 1,
-      "AA": 1
+      "AA": 2
     }
   },
   {
@@ -23606,122 +23603,122 @@
   },
   {
     "theme": "Material",
-    "background": "#1E282C",
+    "background": "#EAEAEA",
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#C3C7D1",
+        "Hex": "#232322",
         "Score": "AAA",
-        "Ratio": "8.9"
+        "Ratio": "13.1"
       },
       {
         "Color": "color_01",
-        "Hex": "#073641",
-        "Score": "Fail",
-        "Ratio": "1.2"
+        "Hex": "#212121",
+        "Score": "AAA",
+        "Ratio": "13.4"
       },
       {
         "Color": "color_02",
-        "Hex": "#EB606B",
+        "Hex": "#B7141F",
         "Score": "AA",
-        "Ratio": "4.6"
+        "Ratio": "5.6"
       },
       {
         "Color": "color_03",
-        "Hex": "#C3E88D",
-        "Score": "AAA",
-        "Ratio": "10.9"
+        "Hex": "#457B24",
+        "Score": "AA Large",
+        "Ratio": "4.3"
       },
       {
         "Color": "color_04",
-        "Hex": "#F7EB95",
-        "Score": "AAA",
-        "Ratio": "12.4"
+        "Hex": "#F6981E",
+        "Score": "Fail",
+        "Ratio": "1.9"
       },
       {
         "Color": "color_05",
-        "Hex": "#80CBC3",
-        "Score": "AAA",
-        "Ratio": "8.1"
+        "Hex": "#134EB2",
+        "Score": "AA",
+        "Ratio": "6.3"
       },
       {
         "Color": "color_06",
-        "Hex": "#FF2490",
-        "Score": "AA Large",
-        "Ratio": "4.2"
+        "Hex": "#560088",
+        "Score": "AAA",
+        "Ratio": "10.0"
       },
       {
         "Color": "color_07",
-        "Hex": "#AEDDFF",
-        "Score": "AAA",
-        "Ratio": "10.5"
+        "Hex": "#0E717C",
+        "Score": "AA",
+        "Ratio": "4.8"
       },
       {
         "Color": "color_08",
-        "Hex": "#FFFFFF",
-        "Score": "AAA",
-        "Ratio": "15.1"
+        "Hex": "#EFEFEF",
+        "Score": "Fail",
+        "Ratio": "1.1"
       },
       {
         "Color": "color_09",
-        "Hex": "#002B36",
+        "Hex": "#424242",
+        "Score": "AAA",
+        "Ratio": "8.3"
+      },
+      {
+        "Color": "color_10",
+        "Hex": "#E83B3F",
+        "Score": "AA Large",
+        "Ratio": "3.4"
+      },
+      {
+        "Color": "color_11",
+        "Hex": "#7ABA3A",
+        "Score": "Fail",
+        "Ratio": "2.0"
+      },
+      {
+        "Color": "color_12",
+        "Hex": "#FFEA2E",
         "Score": "Fail",
         "Ratio": "1.0"
       },
       {
-        "Color": "color_10",
-        "Hex": "#EB606B",
-        "Score": "AA",
-        "Ratio": "4.6"
-      },
-      {
-        "Color": "color_11",
-        "Hex": "#C3E88D",
-        "Score": "AAA",
-        "Ratio": "10.9"
-      },
-      {
-        "Color": "color_12",
-        "Hex": "#F7EB95",
-        "Score": "AAA",
-        "Ratio": "12.4"
-      },
-      {
         "Color": "color_13",
-        "Hex": "#7DC6BF",
-        "Score": "AAA",
-        "Ratio": "7.7"
+        "Hex": "#54A4F3",
+        "Score": "Fail",
+        "Ratio": "2.2"
       },
       {
         "Color": "color_14",
-        "Hex": "#6C71C3",
+        "Hex": "#AA4DBC",
         "Score": "AA Large",
-        "Ratio": "3.4"
+        "Ratio": "3.9"
       },
       {
         "Color": "color_15",
-        "Hex": "#34434D",
+        "Hex": "#26BBD1",
         "Score": "Fail",
-        "Ratio": "1.5"
+        "Ratio": "1.9"
       },
       {
         "Color": "color_16",
-        "Hex": "#FFFFFF",
-        "Score": "AAA",
-        "Ratio": "15.1"
+        "Hex": "#D9D9D9",
+        "Score": "Fail",
+        "Ratio": "1.2"
       },
       {
         "Color": "cursor",
-        "Hex": "#657B83",
-        "Score": "AA Large",
-        "Ratio": "3.4"
+        "Hex": "#16AFCA",
+        "Score": "Fail",
+        "Ratio": "2.2"
       }
     ],
     "scoreCounts": {
-      "AAA": 10,
-      "Fail": 3,
-      "AA": 2,
-      "AA Large": 3
+      "AAA": 4,
+      "AA": 3,
+      "AA Large": 3,
+      "Fail": 8
     }
   },
   {
@@ -23970,15 +23967,15 @@
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#c2c2b0",
+        "Hex": "#C2C2B0",
         "Score": "AAA",
         "Ratio": "8.8"
       },
       {
         "Color": "color_01",
-        "Hex": "#222222",
+        "Hex": "#000000",
         "Score": "Fail",
-        "Ratio": "1.0"
+        "Ratio": "1.3"
       },
       {
         "Color": "color_02",
@@ -23988,37 +23985,37 @@
       },
       {
         "Color": "color_03",
-        "Hex": "#5f875f",
+        "Hex": "#5F875F",
         "Score": "AA Large",
         "Ratio": "3.9"
       },
       {
         "Color": "color_04",
-        "Hex": "#b36d43",
+        "Hex": "#B36D43",
         "Score": "AA Large",
         "Ratio": "3.9"
       },
       {
         "Color": "color_05",
-        "Hex": "#78824b",
+        "Hex": "#78824B",
         "Score": "AA Large",
         "Ratio": "3.9"
       },
       {
         "Color": "color_06",
-        "Hex": "#bb7744",
+        "Hex": "#BB7744",
         "Score": "AA Large",
         "Ratio": "4.4"
       },
       {
         "Color": "color_07",
-        "Hex": "#c9a554",
+        "Hex": "#C9A554",
         "Score": "AA",
         "Ratio": "6.8"
       },
       {
         "Color": "color_08",
-        "Hex": "#d7c483",
+        "Hex": "#D7C483",
         "Score": "AAA",
         "Ratio": "9.2"
       },
@@ -24036,45 +24033,45 @@
       },
       {
         "Color": "color_11",
-        "Hex": "#5f875f",
+        "Hex": "#5F875F",
         "Score": "AA Large",
         "Ratio": "3.9"
       },
       {
         "Color": "color_12",
-        "Hex": "#b36d43",
+        "Hex": "#B36D43",
         "Score": "AA Large",
         "Ratio": "3.9"
       },
       {
         "Color": "color_13",
-        "Hex": "#78824b",
+        "Hex": "#78824B",
         "Score": "AA Large",
         "Ratio": "3.9"
       },
       {
         "Color": "color_14",
-        "Hex": "#bb7744",
+        "Hex": "#BB7744",
         "Score": "AA Large",
         "Ratio": "4.4"
       },
       {
         "Color": "color_15",
-        "Hex": "#c9a554",
+        "Hex": "#C9A554",
         "Score": "AA",
         "Ratio": "6.8"
       },
       {
         "Color": "color_16",
-        "Hex": "#d7c483",
+        "Hex": "#D7C483",
         "Score": "AAA",
         "Ratio": "9.2"
       },
       {
         "Color": "cursor",
-        "Hex": "#c2c2b0",
+        "Hex": "#C7C7C7",
         "Score": "AAA",
-        "Ratio": "8.8"
+        "Ratio": "9.4"
       }
     ],
     "scoreCounts": {
@@ -24445,7 +24442,7 @@
   },
   {
     "theme": "Modus Operandi",
-    "background": "#ffffff",
+    "background": "#FFFFFF",
     "results": [
       {
         "Color": "Foreground",
@@ -24455,13 +24452,13 @@
       },
       {
         "Color": "color_01",
-        "Hex": "#ffffff",
-        "Score": "Fail",
-        "Ratio": "1.0"
+        "Hex": "#000000",
+        "Score": "AAA",
+        "Ratio": "21.0"
       },
       {
         "Color": "color_02",
-        "Hex": "#a60000",
+        "Hex": "#A60000",
         "Score": "AAA",
         "Ratio": "8.0"
       },
@@ -24473,13 +24470,13 @@
       },
       {
         "Color": "color_04",
-        "Hex": "#6f5500",
+        "Hex": "#6F5500",
         "Score": "AAA",
         "Ratio": "7.1"
       },
       {
         "Color": "color_05",
-        "Hex": "#0031a9",
+        "Hex": "#0031A9",
         "Score": "AAA",
         "Ratio": "10.4"
       },
@@ -24491,57 +24488,57 @@
       },
       {
         "Color": "color_07",
-        "Hex": "#005e8b",
+        "Hex": "#005E8B",
         "Score": "AAA",
         "Ratio": "7.1"
       },
       {
         "Color": "color_08",
-        "Hex": "#000000",
-        "Score": "AAA",
-        "Ratio": "21.0"
+        "Hex": "#A6A6A6",
+        "Score": "Fail",
+        "Ratio": "2.4"
       },
       {
         "Color": "color_09",
-        "Hex": "#f2f2f2",
-        "Score": "Fail",
-        "Ratio": "1.1"
+        "Hex": "#595959",
+        "Score": "AAA",
+        "Ratio": "7.0"
       },
       {
         "Color": "color_10",
-        "Hex": "#d00000",
-        "Score": "AA",
-        "Ratio": "5.7"
+        "Hex": "#972500",
+        "Score": "AAA",
+        "Ratio": "8.1"
       },
       {
         "Color": "color_11",
-        "Hex": "#008900",
-        "Score": "AA",
-        "Ratio": "4.6"
+        "Hex": "#00663F",
+        "Score": "AAA",
+        "Ratio": "7.1"
       },
       {
         "Color": "color_12",
-        "Hex": "#808000",
-        "Score": "AA Large",
-        "Ratio": "4.2"
+        "Hex": "#884900",
+        "Score": "AAA",
+        "Ratio": "7.0"
       },
       {
         "Color": "color_13",
-        "Hex": "#0000ff",
+        "Hex": "#3548CF",
         "Score": "AAA",
-        "Ratio": "8.6"
+        "Ratio": "7.0"
       },
       {
         "Color": "color_14",
-        "Hex": "#dd22dd",
-        "Score": "AA Large",
-        "Ratio": "3.9"
+        "Hex": "#531AB6",
+        "Score": "AAA",
+        "Ratio": "9.6"
       },
       {
         "Color": "color_15",
-        "Hex": "#008899",
-        "Score": "AA Large",
-        "Ratio": "4.2"
+        "Hex": "#005F5F",
+        "Score": "AAA",
+        "Ratio": "7.5"
       },
       {
         "Color": "color_16",
@@ -24557,15 +24554,13 @@
       }
     ],
     "scoreCounts": {
-      "AAA": 11,
-      "Fail": 2,
-      "AA": 2,
-      "AA Large": 3
+      "AAA": 17,
+      "Fail": 1
     }
   },
   {
     "theme": "Modus Operandi Tinted",
-    "background": "#fbf7f0",
+    "background": "#FBF7F0",
     "results": [
       {
         "Color": "Foreground",
@@ -24575,13 +24570,13 @@
       },
       {
         "Color": "color_01",
-        "Hex": "#fbf7f0",
-        "Score": "Fail",
-        "Ratio": "1.0"
+        "Hex": "#000000",
+        "Score": "AAA",
+        "Ratio": "19.7"
       },
       {
         "Color": "color_02",
-        "Hex": "#a60000",
+        "Hex": "#A60000",
         "Score": "AAA",
         "Ratio": "7.5"
       },
@@ -24593,13 +24588,13 @@
       },
       {
         "Color": "color_04",
-        "Hex": "#6f5500",
+        "Hex": "#6F5500",
         "Score": "AA",
         "Ratio": "6.6"
       },
       {
         "Color": "color_05",
-        "Hex": "#0031a9",
+        "Hex": "#0031A9",
         "Score": "AAA",
         "Ratio": "9.8"
       },
@@ -24611,57 +24606,57 @@
       },
       {
         "Color": "color_07",
-        "Hex": "#005e8b",
+        "Hex": "#005E8B",
         "Score": "AA",
         "Ratio": "6.6"
       },
       {
         "Color": "color_08",
-        "Hex": "#000000",
-        "Score": "AAA",
-        "Ratio": "19.7"
+        "Hex": "#A6A6A6",
+        "Score": "Fail",
+        "Ratio": "2.3"
       },
       {
         "Color": "color_09",
-        "Hex": "#efe9dd",
-        "Score": "Fail",
-        "Ratio": "1.1"
+        "Hex": "#595959",
+        "Score": "AA",
+        "Ratio": "6.6"
       },
       {
         "Color": "color_10",
-        "Hex": "#d00000",
-        "Score": "AA",
-        "Ratio": "5.3"
+        "Hex": "#972500",
+        "Score": "AAA",
+        "Ratio": "7.6"
       },
       {
         "Color": "color_11",
-        "Hex": "#008900",
-        "Score": "AA Large",
-        "Ratio": "4.3"
+        "Hex": "#00663F",
+        "Score": "AA",
+        "Ratio": "6.6"
       },
       {
         "Color": "color_12",
-        "Hex": "#808000",
-        "Score": "AA Large",
-        "Ratio": "3.9"
+        "Hex": "#884900",
+        "Score": "AA",
+        "Ratio": "6.6"
       },
       {
         "Color": "color_13",
-        "Hex": "#0000ff",
-        "Score": "AAA",
-        "Ratio": "8.1"
+        "Hex": "#3548CF",
+        "Score": "AA",
+        "Ratio": "6.6"
       },
       {
         "Color": "color_14",
-        "Hex": "#dd22dd",
-        "Score": "AA Large",
-        "Ratio": "3.7"
+        "Hex": "#531AB6",
+        "Score": "AAA",
+        "Ratio": "9.0"
       },
       {
         "Color": "color_15",
-        "Hex": "#008899",
-        "Score": "AA Large",
-        "Ratio": "4.0"
+        "Hex": "#005F5F",
+        "Score": "AAA",
+        "Ratio": "7.0"
       },
       {
         "Color": "color_16",
@@ -24671,16 +24666,15 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#000000",
-        "Score": "AAA",
-        "Ratio": "19.7"
+        "Hex": "#D00000",
+        "Score": "AA",
+        "Ratio": "5.3"
       }
     ],
     "scoreCounts": {
-      "AAA": 7,
-      "Fail": 2,
-      "AA": 5,
-      "AA Large": 4
+      "AAA": 8,
+      "AA": 9,
+      "Fail": 1
     }
   },
   {
@@ -24689,7 +24683,7 @@
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#ffffff",
+        "Hex": "#FFFFFF",
         "Score": "AAA",
         "Ratio": "21.0"
       },
@@ -24701,343 +24695,344 @@
       },
       {
         "Color": "color_02",
-        "Hex": "#ff5f59",
+        "Hex": "#FF5F59",
         "Score": "AAA",
         "Ratio": "7.0"
       },
       {
         "Color": "color_03",
-        "Hex": "#44bc44",
+        "Hex": "#44BC44",
         "Score": "AAA",
         "Ratio": "8.5"
       },
       {
         "Color": "color_04",
-        "Hex": "#d0bc00",
+        "Hex": "#D0BC00",
         "Score": "AAA",
         "Ratio": "10.9"
       },
       {
         "Color": "color_05",
-        "Hex": "#2fafff",
+        "Hex": "#2FAFFF",
         "Score": "AAA",
         "Ratio": "8.7"
       },
       {
         "Color": "color_06",
-        "Hex": "#feacd0",
+        "Hex": "#FEACD0",
         "Score": "AAA",
         "Ratio": "12.0"
       },
       {
         "Color": "color_07",
-        "Hex": "#00d3d0",
+        "Hex": "#00D3D0",
         "Score": "AAA",
         "Ratio": "11.2"
       },
       {
         "Color": "color_08",
-        "Hex": "#ffffff",
-        "Score": "AAA",
-        "Ratio": "21.0"
-      },
-      {
-        "Color": "color_09",
-        "Hex": "#1e1e1e",
-        "Score": "Fail",
-        "Ratio": "1.3"
-      },
-      {
-        "Color": "color_10",
-        "Hex": "#ff5f5f",
-        "Score": "AAA",
-        "Ratio": "7.0"
-      },
-      {
-        "Color": "color_11",
-        "Hex": "#44df44",
-        "Score": "AAA",
-        "Ratio": "11.9"
-      },
-      {
-        "Color": "color_12",
-        "Hex": "#efef00",
-        "Score": "AAA",
-        "Ratio": "17.0"
-      },
-      {
-        "Color": "color_13",
-        "Hex": "#338fff",
-        "Score": "AA",
-        "Ratio": "6.5"
-      },
-      {
-        "Color": "color_14",
-        "Hex": "#ff66ff",
+        "Hex": "#A6A6A6",
         "Score": "AAA",
         "Ratio": "8.6"
       },
       {
-        "Color": "color_15",
-        "Hex": "#00eff0",
-        "Score": "AAA",
-        "Ratio": "14.6"
-      },
-      {
-        "Color": "color_16",
-        "Hex": "#989898",
-        "Score": "AAA",
-        "Ratio": "7.3"
-      },
-      {
-        "Color": "cursor",
-        "Hex": "#ffffff",
-        "Score": "AAA",
-        "Ratio": "21.0"
-      }
-    ],
-    "scoreCounts": {
-      "AAA": 15,
-      "Fail": 2,
-      "AA": 1
-    }
-  },
-  {
-    "theme": "Modus Vivendi Tinted",
-    "background": "#0d0e1c",
-    "results": [
-      {
-        "Color": "Foreground",
-        "Hex": "#ffffff",
-        "Score": "AAA",
-        "Ratio": "19.1"
-      },
-      {
-        "Color": "color_01",
-        "Hex": "#0d0e1c",
-        "Score": "Fail",
-        "Ratio": "1.0"
-      },
-      {
-        "Color": "color_02",
-        "Hex": "#ff5f59",
-        "Score": "AA",
-        "Ratio": "6.4"
-      },
-      {
-        "Color": "color_03",
-        "Hex": "#44bc44",
-        "Score": "AAA",
-        "Ratio": "7.8"
-      },
-      {
-        "Color": "color_04",
-        "Hex": "#d0bc00",
-        "Score": "AAA",
-        "Ratio": "9.9"
-      },
-      {
-        "Color": "color_05",
-        "Hex": "#2fafff",
-        "Score": "AAA",
-        "Ratio": "7.9"
-      },
-      {
-        "Color": "color_06",
-        "Hex": "#feacd0",
-        "Score": "AAA",
-        "Ratio": "11.0"
-      },
-      {
-        "Color": "color_07",
-        "Hex": "#00d3d0",
-        "Score": "AAA",
-        "Ratio": "10.2"
-      },
-      {
-        "Color": "color_08",
-        "Hex": "#ffffff",
-        "Score": "AAA",
-        "Ratio": "19.1"
-      },
-      {
         "Color": "color_09",
-        "Hex": "#1d2235",
-        "Score": "Fail",
-        "Ratio": "1.2"
+        "Hex": "#595959",
+        "Score": "AA Large",
+        "Ratio": "3.0"
       },
       {
         "Color": "color_10",
-        "Hex": "#ff5f5f",
-        "Score": "AA",
-        "Ratio": "6.4"
-      },
-      {
-        "Color": "color_11",
-        "Hex": "#44df44",
-        "Score": "AAA",
-        "Ratio": "10.8"
-      },
-      {
-        "Color": "color_12",
-        "Hex": "#efef00",
-        "Score": "AAA",
-        "Ratio": "15.5"
-      },
-      {
-        "Color": "color_13",
-        "Hex": "#338fff",
-        "Score": "AA",
-        "Ratio": "5.9"
-      },
-      {
-        "Color": "color_14",
-        "Hex": "#ff66ff",
-        "Score": "AAA",
-        "Ratio": "7.8"
-      },
-      {
-        "Color": "color_15",
-        "Hex": "#00eff0",
-        "Score": "AAA",
-        "Ratio": "13.3"
-      },
-      {
-        "Color": "color_16",
-        "Hex": "#989898",
-        "Score": "AA",
-        "Ratio": "6.6"
-      },
-      {
-        "Color": "cursor",
-        "Hex": "#ffffff",
-        "Score": "AAA",
-        "Ratio": "19.1"
-      }
-    ],
-    "scoreCounts": {
-      "AAA": 12,
-      "Fail": 2,
-      "AA": 4
-    }
-  },
-  {
-    "theme": "Molokai",
-    "background": "#1B1D1E",
-    "results": [
-      {
-        "Color": "Foreground",
-        "Hex": "#BBBBBB",
+        "Hex": "#FF7F9F",
         "Score": "AAA",
         "Ratio": "8.8"
       },
       {
-        "Color": "color_01",
-        "Hex": "#1B1D1E",
-        "Score": "Fail",
-        "Ratio": "1.0"
-      },
-      {
-        "Color": "color_02",
-        "Hex": "#7325FA",
-        "Score": "Fail",
-        "Ratio": "2.7"
-      },
-      {
-        "Color": "color_03",
-        "Hex": "#23E298",
-        "Score": "AAA",
-        "Ratio": "10.0"
-      },
-      {
-        "Color": "color_04",
-        "Hex": "#60D4DF",
-        "Score": "AAA",
-        "Ratio": "9.7"
-      },
-      {
-        "Color": "color_05",
-        "Hex": "#D08010",
-        "Score": "AA",
-        "Ratio": "5.5"
-      },
-      {
-        "Color": "color_06",
-        "Hex": "#FF0087",
-        "Score": "AA",
-        "Ratio": "4.5"
-      },
-      {
-        "Color": "color_07",
-        "Hex": "#D0A843",
-        "Score": "AAA",
-        "Ratio": "7.5"
-      },
-      {
-        "Color": "color_08",
-        "Hex": "#BBBBBB",
+        "Color": "color_11",
+        "Hex": "#00C06F",
         "Score": "AAA",
         "Ratio": "8.8"
       },
       {
-        "Color": "color_09",
-        "Hex": "#555555",
-        "Score": "Fail",
-        "Ratio": "2.3"
-      },
-      {
-        "Color": "color_10",
-        "Hex": "#9D66F6",
-        "Score": "AA",
-        "Ratio": "4.6"
-      },
-      {
-        "Color": "color_11",
-        "Hex": "#5FE0B1",
-        "Score": "AAA",
-        "Ratio": "10.3"
-      },
-      {
         "Color": "color_12",
-        "Hex": "#6DF2FF",
+        "Hex": "#FEC43F",
         "Score": "AAA",
-        "Ratio": "12.7"
+        "Ratio": "13.2"
       },
       {
         "Color": "color_13",
-        "Hex": "#FFAF00",
+        "Hex": "#79A8FF",
         "Score": "AAA",
-        "Ratio": "9.2"
+        "Ratio": "8.9"
       },
       {
         "Color": "color_14",
-        "Hex": "#FF87AF",
+        "Hex": "#B6A0FF",
         "Score": "AAA",
-        "Ratio": "7.5"
+        "Ratio": "9.5"
       },
       {
         "Color": "color_15",
-        "Hex": "#FFCE51",
+        "Hex": "#6AE4B9",
         "Score": "AAA",
-        "Ratio": "11.4"
+        "Ratio": "13.4"
       },
       {
         "Color": "color_16",
         "Hex": "#FFFFFF",
         "Score": "AAA",
-        "Ratio": "16.9"
+        "Ratio": "21.0"
+      },
+      {
+        "Color": "cursor",
+        "Hex": "#FFFFFF",
+        "Score": "AAA",
+        "Ratio": "21.0"
+      }
+    ],
+    "scoreCounts": {
+      "AAA": 16,
+      "Fail": 1,
+      "AA Large": 1
+    }
+  },
+  {
+    "theme": "Modus Vivendi Tinted",
+    "background": "#0D0E1C",
+    "results": [
+      {
+        "Color": "Foreground",
+        "Hex": "#FFFFFF",
+        "Score": "AAA",
+        "Ratio": "19.1"
+      },
+      {
+        "Color": "color_01",
+        "Hex": "#0D0E1C",
+        "Score": "Fail",
+        "Ratio": "1.0"
+      },
+      {
+        "Color": "color_02",
+        "Hex": "#FF5F59",
+        "Score": "AA",
+        "Ratio": "6.4"
+      },
+      {
+        "Color": "color_03",
+        "Hex": "#44BC44",
+        "Score": "AAA",
+        "Ratio": "7.8"
+      },
+      {
+        "Color": "color_04",
+        "Hex": "#D0BC00",
+        "Score": "AAA",
+        "Ratio": "9.9"
+      },
+      {
+        "Color": "color_05",
+        "Hex": "#2FAFFF",
+        "Score": "AAA",
+        "Ratio": "7.9"
+      },
+      {
+        "Color": "color_06",
+        "Hex": "#FEACD0",
+        "Score": "AAA",
+        "Ratio": "11.0"
+      },
+      {
+        "Color": "color_07",
+        "Hex": "#00D3D0",
+        "Score": "AAA",
+        "Ratio": "10.2"
+      },
+      {
+        "Color": "color_08",
+        "Hex": "#A6A6A6",
+        "Score": "AAA",
+        "Ratio": "7.9"
+      },
+      {
+        "Color": "color_09",
+        "Hex": "#595959",
+        "Score": "Fail",
+        "Ratio": "2.7"
+      },
+      {
+        "Color": "color_10",
+        "Hex": "#FF6B55",
+        "Score": "AA",
+        "Ratio": "6.8"
+      },
+      {
+        "Color": "color_11",
+        "Hex": "#00C06F",
+        "Score": "AAA",
+        "Ratio": "8.0"
+      },
+      {
+        "Color": "color_12",
+        "Hex": "#FEC43F",
+        "Score": "AAA",
+        "Ratio": "12.0"
+      },
+      {
+        "Color": "color_13",
+        "Hex": "#79A8FF",
+        "Score": "AAA",
+        "Ratio": "8.1"
+      },
+      {
+        "Color": "color_14",
+        "Hex": "#B6A0FF",
+        "Score": "AAA",
+        "Ratio": "8.6"
+      },
+      {
+        "Color": "color_15",
+        "Hex": "#6AE4B9",
+        "Score": "AAA",
+        "Ratio": "12.2"
+      },
+      {
+        "Color": "color_16",
+        "Hex": "#FFFFFF",
+        "Score": "AAA",
+        "Ratio": "19.1"
+      },
+      {
+        "Color": "cursor",
+        "Hex": "#FF66FF",
+        "Score": "AAA",
+        "Ratio": "7.8"
+      }
+    ],
+    "scoreCounts": {
+      "AAA": 14,
+      "Fail": 2,
+      "AA": 2
+    }
+  },
+  {
+    "theme": "Molokai",
+    "background": "#121212",
+    "results": [
+      {
+        "Color": "Foreground",
+        "Hex": "#BBBBBB",
+        "Score": "AAA",
+        "Ratio": "9.8"
+      },
+      {
+        "Color": "color_01",
+        "Hex": "#121212",
+        "Score": "Fail",
+        "Ratio": "1.0"
+      },
+      {
+        "Color": "color_02",
+        "Hex": "#FA2573",
+        "Score": "AA",
+        "Ratio": "5.0"
+      },
+      {
+        "Color": "color_03",
+        "Hex": "#98E123",
+        "Score": "AAA",
+        "Ratio": "11.7"
+      },
+      {
+        "Color": "color_04",
+        "Hex": "#DFD460",
+        "Score": "AAA",
+        "Ratio": "12.2"
+      },
+      {
+        "Color": "color_05",
+        "Hex": "#1080D0",
+        "Score": "AA Large",
+        "Ratio": "4.5"
+      },
+      {
+        "Color": "color_06",
+        "Hex": "#8700FF",
+        "Score": "AA Large",
+        "Ratio": "3.1"
+      },
+      {
+        "Color": "color_07",
+        "Hex": "#43A8D0",
+        "Score": "AA",
+        "Ratio": "6.9"
+      },
+      {
+        "Color": "color_08",
+        "Hex": "#BBBBBB",
+        "Score": "AAA",
+        "Ratio": "9.8"
+      },
+      {
+        "Color": "color_09",
+        "Hex": "#555555",
+        "Score": "Fail",
+        "Ratio": "2.5"
+      },
+      {
+        "Color": "color_10",
+        "Hex": "#F6669D",
+        "Score": "AA",
+        "Ratio": "6.5"
+      },
+      {
+        "Color": "color_11",
+        "Hex": "#B1E05F",
+        "Score": "AAA",
+        "Ratio": "12.2"
+      },
+      {
+        "Color": "color_12",
+        "Hex": "#FFF26D",
+        "Score": "AAA",
+        "Ratio": "16.2"
+      },
+      {
+        "Color": "color_13",
+        "Hex": "#00AFFF",
+        "Score": "AAA",
+        "Ratio": "7.7"
+      },
+      {
+        "Color": "color_14",
+        "Hex": "#AF87FF",
+        "Score": "AA",
+        "Ratio": "6.9"
+      },
+      {
+        "Color": "color_15",
+        "Hex": "#51CEFF",
+        "Score": "AAA",
+        "Ratio": "10.4"
+      },
+      {
+        "Color": "color_16",
+        "Hex": "#FFFFFF",
+        "Score": "AAA",
+        "Ratio": "18.7"
       },
       {
         "Color": "cursor",
         "Hex": "#BBBBBB",
         "Score": "AAA",
-        "Ratio": "8.8"
+        "Ratio": "9.8"
       }
     ],
     "scoreCounts": {
-      "AAA": 12,
-      "Fail": 3,
-      "AA": 3
+      "AAA": 10,
+      "Fail": 2,
+      "AA": 4,
+      "AA Large": 2
     }
   },
   {
@@ -26048,9 +26043,9 @@
       },
       {
         "Color": "color_09",
-        "Hex": "#908E8F",
-        "Score": "AA Large",
-        "Ratio": "4.3"
+        "Hex": "#727072",
+        "Score": "Fail",
+        "Ratio": "2.9"
       },
       {
         "Color": "color_10",
@@ -26096,31 +26091,30 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#FCFCFA",
+        "Hex": "#C1C0C0",
         "Score": "AAA",
-        "Ratio": "13.8"
+        "Ratio": "7.8"
       }
     ],
     "scoreCounts": {
       "AAA": 10,
-      "Fail": 1,
-      "AA": 6,
-      "AA Large": 1
+      "Fail": 2,
+      "AA": 6
     }
   },
   {
     "theme": "Monokai Pro Light",
-    "background": "#FEFAF9",
+    "background": "#FAF4F2",
     "results": [
       {
         "Color": "Foreground",
         "Hex": "#29242A",
         "Score": "AAA",
-        "Ratio": "14.7"
+        "Ratio": "14.0"
       },
       {
         "Color": "color_01",
-        "Hex": "#FEFAF9",
+        "Hex": "#FAF4F2",
         "Score": "Fail",
         "Ratio": "1.0"
       },
@@ -26128,119 +26122,119 @@
         "Color": "color_02",
         "Hex": "#E14775",
         "Score": "AA Large",
-        "Ratio": "3.8"
+        "Ratio": "3.6"
       },
       {
         "Color": "color_03",
         "Hex": "#269D69",
         "Score": "AA Large",
-        "Ratio": "3.3"
+        "Ratio": "3.2"
       },
       {
         "Color": "color_04",
         "Hex": "#CC7A0A",
         "Score": "AA Large",
-        "Ratio": "3.2"
+        "Ratio": "3.0"
       },
       {
         "Color": "color_05",
         "Hex": "#E16032",
         "Score": "AA Large",
-        "Ratio": "3.4"
+        "Ratio": "3.3"
       },
       {
         "Color": "color_06",
         "Hex": "#7058BE",
         "Score": "AA",
-        "Ratio": "5.3"
+        "Ratio": "5.0"
       },
       {
         "Color": "color_07",
         "Hex": "#1C8CA8",
         "Score": "AA Large",
-        "Ratio": "3.8"
+        "Ratio": "3.6"
       },
       {
         "Color": "color_08",
         "Hex": "#29242A",
         "Score": "AAA",
-        "Ratio": "14.7"
+        "Ratio": "14.0"
       },
       {
         "Color": "color_09",
-        "Hex": "#6E6B6A",
-        "Score": "AA",
-        "Ratio": "5.1"
+        "Hex": "#A59FA0",
+        "Score": "Fail",
+        "Ratio": "2.4"
       },
       {
         "Color": "color_10",
         "Hex": "#E14775",
         "Score": "AA Large",
-        "Ratio": "3.8"
+        "Ratio": "3.6"
       },
       {
         "Color": "color_11",
         "Hex": "#269D69",
         "Score": "AA Large",
-        "Ratio": "3.3"
+        "Ratio": "3.2"
       },
       {
         "Color": "color_12",
         "Hex": "#CC7A0A",
         "Score": "AA Large",
-        "Ratio": "3.2"
+        "Ratio": "3.0"
       },
       {
         "Color": "color_13",
         "Hex": "#E16032",
         "Score": "AA Large",
-        "Ratio": "3.4"
+        "Ratio": "3.3"
       },
       {
         "Color": "color_14",
         "Hex": "#7058BE",
         "Score": "AA",
-        "Ratio": "5.3"
+        "Ratio": "5.0"
       },
       {
         "Color": "color_15",
         "Hex": "#1C8CA8",
         "Score": "AA Large",
-        "Ratio": "3.8"
+        "Ratio": "3.6"
       },
       {
         "Color": "color_16",
         "Hex": "#29242A",
         "Score": "AAA",
-        "Ratio": "14.7"
+        "Ratio": "14.0"
       },
       {
         "Color": "cursor",
-        "Hex": "#29242A",
-        "Score": "AAA",
-        "Ratio": "14.7"
+        "Hex": "#706B6E",
+        "Score": "AA",
+        "Ratio": "4.8"
       }
     ],
     "scoreCounts": {
-      "AAA": 4,
-      "Fail": 1,
+      "AAA": 3,
+      "Fail": 2,
       "AA Large": 10,
       "AA": 3
     }
   },
   {
     "theme": "Monokai Pro Light Sun",
-    "background": "#FDF7F3",
+    "background": "#F8EFE7",
     "results": [
       {
         "Color": "Foreground",
         "Hex": "#2C232E",
         "Score": "AAA",
-        "Ratio": "14.3"
+        "Ratio": "13.3"
       },
       {
         "Color": "color_01",
-        "Hex": "#FDF7F3",
+        "Hex": "#F8EFE7",
         "Score": "Fail",
         "Ratio": "1.0"
       },
@@ -26248,104 +26242,104 @@
         "Color": "color_02",
         "Hex": "#CE4770",
         "Score": "AA Large",
-        "Ratio": "4.2"
+        "Ratio": "3.9"
       },
       {
         "Color": "color_03",
         "Hex": "#218871",
         "Score": "AA Large",
-        "Ratio": "4.1"
+        "Ratio": "3.8"
       },
       {
         "Color": "color_04",
         "Hex": "#B16803",
         "Score": "AA Large",
-        "Ratio": "4.1"
+        "Ratio": "3.8"
       },
       {
         "Color": "color_05",
         "Hex": "#D4572B",
         "Score": "AA Large",
-        "Ratio": "3.8"
+        "Ratio": "3.6"
       },
       {
         "Color": "color_06",
         "Hex": "#6851A2",
         "Score": "AA",
-        "Ratio": "6.0"
+        "Ratio": "5.6"
       },
       {
         "Color": "color_07",
         "Hex": "#2473B6",
-        "Score": "AA",
-        "Ratio": "4.7"
+        "Score": "AA Large",
+        "Ratio": "4.4"
       },
       {
         "Color": "color_08",
         "Hex": "#2C232E",
         "Score": "AAA",
-        "Ratio": "14.3"
+        "Ratio": "13.3"
       },
       {
         "Color": "color_09",
-        "Hex": "#595451",
-        "Score": "AAA",
-        "Ratio": "7.0"
+        "Hex": "#A59C9C",
+        "Score": "Fail",
+        "Ratio": "2.4"
       },
       {
         "Color": "color_10",
         "Hex": "#CE4770",
         "Score": "AA Large",
-        "Ratio": "4.2"
+        "Ratio": "3.9"
       },
       {
         "Color": "color_11",
         "Hex": "#218871",
         "Score": "AA Large",
-        "Ratio": "4.1"
+        "Ratio": "3.8"
       },
       {
         "Color": "color_12",
         "Hex": "#B16803",
         "Score": "AA Large",
-        "Ratio": "4.1"
+        "Ratio": "3.8"
       },
       {
         "Color": "color_13",
         "Hex": "#D4572B",
         "Score": "AA Large",
-        "Ratio": "3.8"
+        "Ratio": "3.6"
       },
       {
         "Color": "color_14",
         "Hex": "#6851A2",
         "Score": "AA",
-        "Ratio": "6.0"
+        "Ratio": "5.6"
       },
       {
         "Color": "color_15",
         "Hex": "#2473B6",
-        "Score": "AA",
-        "Ratio": "4.7"
+        "Score": "AA Large",
+        "Ratio": "4.4"
       },
       {
         "Color": "color_16",
         "Hex": "#2C232E",
         "Score": "AAA",
-        "Ratio": "14.3"
+        "Ratio": "13.3"
       },
       {
         "Color": "cursor",
-        "Hex": "#2C232E",
-        "Score": "AAA",
-        "Ratio": "14.3"
+        "Hex": "#72696D",
+        "Score": "AA",
+        "Ratio": "4.7"
       }
     ],
     "scoreCounts": {
-      "AAA": 5,
-      "Fail": 1,
-      "AA Large": 8,
-      "AA": 4
+      "AAA": 3,
+      "Fail": 2,
+      "AA Large": 10,
+      "AA": 3
     }
   },
   {
@@ -26408,9 +26402,9 @@
       },
       {
         "Color": "color_09",
-        "Hex": "#ADB1B4",
-        "Score": "AA",
-        "Ratio": "6.2"
+        "Hex": "#6B7678",
+        "Score": "Fail",
+        "Ratio": "2.8"
       },
       {
         "Color": "color_10",
@@ -26456,375 +26450,372 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#F2FFFC",
+        "Hex": "#B8C4C3",
         "Score": "AAA",
-        "Ratio": "13.0"
+        "Ratio": "7.4"
       }
     ],
     "scoreCounts": {
       "AAA": 12,
-      "Fail": 1,
-      "AA": 5
+      "Fail": 2,
+      "AA": 4
     }
   },
   {
     "theme": "Monokai Pro Ocatagon",
-    "background": "#3A3D4B",
+    "background": "#282A3A",
     "results": [
       {
         "Color": "Foreground",
         "Hex": "#EAF2F1",
         "Score": "AAA",
-        "Ratio": "9.5"
+        "Ratio": "12.5"
       },
       {
         "Color": "color_01",
-        "Hex": "#3A3D4B",
+        "Hex": "#282A3A",
         "Score": "Fail",
         "Ratio": "1.0"
       },
       {
         "Color": "color_02",
         "Hex": "#FF657A",
-        "Score": "AA Large",
-        "Ratio": "3.8"
+        "Score": "AA",
+        "Ratio": "5.0"
       },
       {
         "Color": "color_03",
         "Hex": "#BAD761",
-        "Score": "AA",
-        "Ratio": "6.7"
+        "Score": "AAA",
+        "Ratio": "8.8"
       },
       {
         "Color": "color_04",
         "Hex": "#FFD76D",
         "Score": "AAA",
-        "Ratio": "7.8"
+        "Ratio": "10.3"
       },
       {
         "Color": "color_05",
         "Hex": "#FF9B5E",
         "Score": "AA",
-        "Ratio": "5.2"
+        "Ratio": "6.8"
       },
       {
         "Color": "color_06",
         "Hex": "#C39AC9",
         "Score": "AA",
-        "Ratio": "4.5"
+        "Ratio": "5.9"
       },
       {
         "Color": "color_07",
         "Hex": "#9CD1BB",
-        "Score": "AA",
-        "Ratio": "6.3"
+        "Score": "AAA",
+        "Ratio": "8.3"
       },
       {
         "Color": "color_08",
         "Hex": "#EAF2F1",
         "Score": "AAA",
-        "Ratio": "9.5"
+        "Ratio": "12.5"
       },
       {
         "Color": "color_09",
-        "Hex": "#ADAEB4",
-        "Score": "AA",
-        "Ratio": "4.9"
+        "Hex": "#696D77",
+        "Score": "Fail",
+        "Ratio": "2.7"
       },
       {
         "Color": "color_10",
         "Hex": "#FF657A",
-        "Score": "AA Large",
-        "Ratio": "3.8"
+        "Score": "AA",
+        "Ratio": "5.0"
       },
       {
         "Color": "color_11",
         "Hex": "#BAD761",
-        "Score": "AA",
-        "Ratio": "6.7"
+        "Score": "AAA",
+        "Ratio": "8.8"
       },
       {
         "Color": "color_12",
         "Hex": "#FFD76D",
         "Score": "AAA",
-        "Ratio": "7.8"
+        "Ratio": "10.3"
       },
       {
         "Color": "color_13",
         "Hex": "#FF9B5E",
         "Score": "AA",
-        "Ratio": "5.2"
+        "Ratio": "6.8"
       },
       {
         "Color": "color_14",
         "Hex": "#C39AC9",
         "Score": "AA",
-        "Ratio": "4.5"
+        "Ratio": "5.9"
       },
       {
         "Color": "color_15",
         "Hex": "#9CD1BB",
-        "Score": "AA",
-        "Ratio": "6.3"
+        "Score": "AAA",
+        "Ratio": "8.3"
       },
       {
         "Color": "color_16",
         "Hex": "#EAF2F1",
         "Score": "AAA",
-        "Ratio": "9.5"
+        "Ratio": "12.5"
       },
       {
         "Color": "cursor",
-        "Hex": "#EAF2F1",
+        "Hex": "#B2B9BD",
         "Score": "AAA",
-        "Ratio": "9.5"
-      }
-    ],
-    "scoreCounts": {
-      "AAA": 6,
-      "Fail": 1,
-      "AA Large": 2,
-      "AA": 9
-    }
-  },
-  {
-    "theme": "Monokai Pro Ristretto",
-    "background": "#3E3838",
-    "results": [
-      {
-        "Color": "Foreground",
-        "Hex": "#FBF2F3",
-        "Score": "AAA",
-        "Ratio": "10.4"
-      },
-      {
-        "Color": "color_01",
-        "Hex": "#3E3838",
-        "Score": "Fail",
-        "Ratio": "1.0"
-      },
-      {
-        "Color": "color_02",
-        "Hex": "#DF7484",
-        "Score": "AA Large",
-        "Ratio": "3.8"
-      },
-      {
-        "Color": "color_03",
-        "Hex": "#BBD87E",
-        "Score": "AAA",
-        "Ratio": "7.2"
-      },
-      {
-        "Color": "color_04",
-        "Hex": "#EDCE73",
-        "Score": "AAA",
-        "Ratio": "7.5"
-      },
-      {
-        "Color": "color_05",
-        "Hex": "#DC9373",
-        "Score": "AA",
-        "Ratio": "4.6"
-      },
-      {
-        "Color": "color_06",
-        "Hex": "#A9AAE9",
-        "Score": "AA",
-        "Ratio": "5.3"
-      },
-      {
-        "Color": "color_07",
-        "Hex": "#A4D7CC",
-        "Score": "AAA",
-        "Ratio": "7.2"
-      },
-      {
-        "Color": "color_08",
-        "Hex": "#FBF2F3",
-        "Score": "AAA",
-        "Ratio": "10.4"
-      },
-      {
-        "Color": "color_09",
-        "Hex": "#70696A",
-        "Score": "Fail",
-        "Ratio": "2.1"
-      },
-      {
-        "Color": "color_10",
-        "Hex": "#DF7484",
-        "Score": "AA Large",
-        "Ratio": "3.8"
-      },
-      {
-        "Color": "color_11",
-        "Hex": "#BBD87E",
-        "Score": "AAA",
-        "Ratio": "7.2"
-      },
-      {
-        "Color": "color_12",
-        "Hex": "#EDCE73",
-        "Score": "AAA",
-        "Ratio": "7.5"
-      },
-      {
-        "Color": "color_13",
-        "Hex": "#DC9373",
-        "Score": "AA",
-        "Ratio": "4.6"
-      },
-      {
-        "Color": "color_14",
-        "Hex": "#A9AAE9",
-        "Score": "AA",
-        "Ratio": "5.3"
-      },
-      {
-        "Color": "color_15",
-        "Hex": "#A4D7CC",
-        "Score": "AAA",
-        "Ratio": "7.2"
-      },
-      {
-        "Color": "color_16",
-        "Hex": "#FBF2F3",
-        "Score": "AAA",
-        "Ratio": "10.4"
-      },
-      {
-        "Color": "cursor",
-        "Hex": "#FBF2F3",
-        "Score": "AAA",
-        "Ratio": "10.4"
+        "Ratio": "7.1"
       }
     ],
     "scoreCounts": {
       "AAA": 10,
       "Fail": 2,
-      "AA Large": 2,
-      "AA": 4
+      "AA": 6
+    }
+  },
+  {
+    "theme": "Monokai Pro Ristretto",
+    "background": "#2C2525",
+    "results": [
+      {
+        "Color": "Foreground",
+        "Hex": "#FFF1F3",
+        "Score": "AAA",
+        "Ratio": "13.7"
+      },
+      {
+        "Color": "color_01",
+        "Hex": "#2C2525",
+        "Score": "Fail",
+        "Ratio": "1.0"
+      },
+      {
+        "Color": "color_02",
+        "Hex": "#FD6883",
+        "Score": "AA",
+        "Ratio": "5.3"
+      },
+      {
+        "Color": "color_03",
+        "Hex": "#ADDA78",
+        "Score": "AAA",
+        "Ratio": "9.3"
+      },
+      {
+        "Color": "color_04",
+        "Hex": "#F9CC6C",
+        "Score": "AAA",
+        "Ratio": "9.9"
+      },
+      {
+        "Color": "color_05",
+        "Hex": "#F38D70",
+        "Score": "AA",
+        "Ratio": "6.3"
+      },
+      {
+        "Color": "color_06",
+        "Hex": "#A8A9EB",
+        "Score": "AA",
+        "Ratio": "6.8"
+      },
+      {
+        "Color": "color_07",
+        "Hex": "#85DACC",
+        "Score": "AAA",
+        "Ratio": "9.2"
+      },
+      {
+        "Color": "color_08",
+        "Hex": "#FFF1F3",
+        "Score": "AAA",
+        "Ratio": "13.7"
+      },
+      {
+        "Color": "color_09",
+        "Hex": "#72696A",
+        "Score": "Fail",
+        "Ratio": "2.8"
+      },
+      {
+        "Color": "color_10",
+        "Hex": "#FD6883",
+        "Score": "AA",
+        "Ratio": "5.3"
+      },
+      {
+        "Color": "color_11",
+        "Hex": "#ADDA78",
+        "Score": "AAA",
+        "Ratio": "9.3"
+      },
+      {
+        "Color": "color_12",
+        "Hex": "#F9CC6C",
+        "Score": "AAA",
+        "Ratio": "9.9"
+      },
+      {
+        "Color": "color_13",
+        "Hex": "#F38D70",
+        "Score": "AA",
+        "Ratio": "6.3"
+      },
+      {
+        "Color": "color_14",
+        "Hex": "#A8A9EB",
+        "Score": "AA",
+        "Ratio": "6.8"
+      },
+      {
+        "Color": "color_15",
+        "Hex": "#85DACC",
+        "Score": "AAA",
+        "Ratio": "9.2"
+      },
+      {
+        "Color": "color_16",
+        "Hex": "#FFF1F3",
+        "Score": "AAA",
+        "Ratio": "13.7"
+      },
+      {
+        "Color": "cursor",
+        "Hex": "#C3B7B8",
+        "Score": "AAA",
+        "Ratio": "7.7"
+      }
+    ],
+    "scoreCounts": {
+      "AAA": 10,
+      "Fail": 2,
+      "AA": 6
     }
   },
   {
     "theme": "Monokai Pro Spectrum",
-    "background": "#363537",
+    "background": "#222222",
     "results": [
       {
         "Color": "Foreground",
         "Hex": "#F7F1FF",
         "Score": "AAA",
-        "Ratio": "11.0"
+        "Ratio": "14.4"
       },
       {
         "Color": "color_01",
-        "Hex": "#363537",
+        "Hex": "#222222",
         "Score": "Fail",
         "Ratio": "1.0"
       },
       {
         "Color": "color_02",
         "Hex": "#FC618D",
-        "Score": "AA Large",
-        "Ratio": "4.2"
+        "Score": "AA",
+        "Ratio": "5.5"
       },
       {
         "Color": "color_03",
         "Hex": "#7BD88F",
         "Score": "AAA",
-        "Ratio": "7.0"
+        "Ratio": "9.1"
       },
       {
         "Color": "color_04",
         "Hex": "#FCE566",
         "Score": "AAA",
-        "Ratio": "9.6"
+        "Ratio": "12.5"
       },
       {
         "Color": "color_05",
         "Hex": "#FD9353",
-        "Score": "AA",
-        "Ratio": "5.5"
+        "Score": "AAA",
+        "Ratio": "7.2"
       },
       {
         "Color": "color_06",
         "Hex": "#948AE3",
-        "Score": "AA Large",
-        "Ratio": "4.1"
+        "Score": "AA",
+        "Ratio": "5.3"
       },
       {
         "Color": "color_07",
         "Hex": "#5AD4E6",
-        "Score": "AA",
-        "Ratio": "7.0"
+        "Score": "AAA",
+        "Ratio": "9.1"
       },
       {
         "Color": "color_08",
         "Hex": "#F7F1FF",
         "Score": "AAA",
-        "Ratio": "11.0"
+        "Ratio": "14.4"
       },
       {
         "Color": "color_09",
-        "Hex": "#A1A1A1",
-        "Score": "AA",
-        "Ratio": "4.7"
+        "Hex": "#69676C",
+        "Score": "Fail",
+        "Ratio": "2.9"
       },
       {
         "Color": "color_10",
         "Hex": "#FC618D",
-        "Score": "AA Large",
-        "Ratio": "4.2"
+        "Score": "AA",
+        "Ratio": "5.5"
       },
       {
         "Color": "color_11",
         "Hex": "#7BD88F",
         "Score": "AAA",
-        "Ratio": "7.0"
+        "Ratio": "9.1"
       },
       {
         "Color": "color_12",
         "Hex": "#FCE566",
         "Score": "AAA",
-        "Ratio": "9.6"
+        "Ratio": "12.5"
       },
       {
         "Color": "color_13",
         "Hex": "#FD9353",
-        "Score": "AA",
-        "Ratio": "5.5"
+        "Score": "AAA",
+        "Ratio": "7.2"
       },
       {
         "Color": "color_14",
         "Hex": "#948AE3",
-        "Score": "AA Large",
-        "Ratio": "4.1"
+        "Score": "AA",
+        "Ratio": "5.3"
       },
       {
         "Color": "color_15",
         "Hex": "#5AD4E6",
-        "Score": "AA",
-        "Ratio": "7.0"
+        "Score": "AAA",
+        "Ratio": "9.1"
       },
       {
         "Color": "color_16",
         "Hex": "#F7F1FF",
         "Score": "AAA",
-        "Ratio": "11.0"
+        "Ratio": "14.4"
       },
       {
         "Color": "cursor",
-        "Hex": "#F7F1FF",
+        "Hex": "#BAB6C0",
         "Score": "AAA",
-        "Ratio": "11.0"
+        "Ratio": "8.0"
       }
     ],
     "scoreCounts": {
-      "AAA": 8,
-      "Fail": 1,
-      "AA Large": 4,
-      "AA": 5
+      "AAA": 12,
+      "Fail": 2,
+      "AA": 4
     }
   },
   {
@@ -27025,9 +27016,9 @@
       },
       {
         "Color": "color_12",
-        "Hex": "#C2C292",
+        "Hex": "#C6C684",
         "Score": "AAA",
-        "Ratio": "10.9"
+        "Ratio": "11.3"
       },
       {
         "Color": "color_13",
@@ -28622,121 +28613,122 @@
   },
   {
     "theme": "Nord Light",
-    "background": "#EBEAF2",
+    "background": "#E5E9F0",
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#004F7C",
+        "Hex": "#414858",
         "Score": "AAA",
-        "Ratio": "7.3"
+        "Ratio": "7.5"
       },
       {
         "Color": "color_01",
-        "Hex": "#003B4E",
+        "Hex": "#3B4252",
         "Score": "AAA",
-        "Ratio": "10.1"
+        "Ratio": "8.3"
       },
       {
         "Color": "color_02",
-        "Hex": "#E64569",
+        "Hex": "#BF616A",
         "Score": "AA Large",
-        "Ratio": "3.2"
+        "Ratio": "3.4"
       },
       {
         "Color": "color_03",
-        "Hex": "#069F5F",
+        "Hex": "#A3BE8C",
         "Score": "Fail",
-        "Ratio": "2.9"
+        "Ratio": "1.7"
       },
       {
         "Color": "color_04",
-        "Hex": "#DAB752",
-        "Score": "Fail",
-        "Ratio": "1.6"
-      },
-      {
-        "Color": "color_05",
-        "Hex": "#439ECF",
-        "Score": "Fail",
-        "Ratio": "2.5"
-      },
-      {
-        "Color": "color_06",
-        "Hex": "#D961DC",
-        "Score": "Fail",
-        "Ratio": "2.6"
-      },
-      {
-        "Color": "color_07",
-        "Hex": "#00B1BE",
-        "Score": "Fail",
-        "Ratio": "2.2"
-      },
-      {
-        "Color": "color_08",
-        "Hex": "#B3B3B3",
-        "Score": "Fail",
-        "Ratio": "1.8"
-      },
-      {
-        "Color": "color_09",
-        "Hex": "#3E89A1",
-        "Score": "AA Large",
-        "Ratio": "3.3"
-      },
-      {
-        "Color": "color_10",
-        "Hex": "#E4859A",
-        "Score": "Fail",
-        "Ratio": "2.2"
-      },
-      {
-        "Color": "color_11",
-        "Hex": "#A2CCA1",
-        "Score": "Fail",
-        "Ratio": "1.5"
-      },
-      {
-        "Color": "color_12",
-        "Hex": "#E1E387",
-        "Score": "Fail",
-        "Ratio": "1.1"
-      },
-      {
-        "Color": "color_13",
-        "Hex": "#6FBBE2",
-        "Score": "Fail",
-        "Ratio": "1.8"
-      },
-      {
-        "Color": "color_14",
-        "Hex": "#E586E7",
-        "Score": "Fail",
-        "Ratio": "2.0"
-      },
-      {
-        "Color": "color_15",
-        "Hex": "#96DCDA",
+        "Hex": "#EBCB8B",
         "Score": "Fail",
         "Ratio": "1.3"
       },
       {
+        "Color": "color_05",
+        "Hex": "#81A1C1",
+        "Score": "Fail",
+        "Ratio": "2.2"
+      },
+      {
+        "Color": "color_06",
+        "Hex": "#B48EAD",
+        "Score": "Fail",
+        "Ratio": "2.3"
+      },
+      {
+        "Color": "color_07",
+        "Hex": "#88C0D0",
+        "Score": "Fail",
+        "Ratio": "1.6"
+      },
+      {
+        "Color": "color_08",
+        "Hex": "#D8DEE9",
+        "Score": "Fail",
+        "Ratio": "1.1"
+      },
+      {
+        "Color": "color_09",
+        "Hex": "#4C566A",
+        "Score": "AA",
+        "Ratio": "6.1"
+      },
+      {
+        "Color": "color_10",
+        "Hex": "#BF616A",
+        "Score": "AA Large",
+        "Ratio": "3.4"
+      },
+      {
+        "Color": "color_11",
+        "Hex": "#A3BE8C",
+        "Score": "Fail",
+        "Ratio": "1.7"
+      },
+      {
+        "Color": "color_12",
+        "Hex": "#EBCB8B",
+        "Score": "Fail",
+        "Ratio": "1.3"
+      },
+      {
+        "Color": "color_13",
+        "Hex": "#81A1C1",
+        "Score": "Fail",
+        "Ratio": "2.2"
+      },
+      {
+        "Color": "color_14",
+        "Hex": "#B48EAD",
+        "Score": "Fail",
+        "Ratio": "2.3"
+      },
+      {
+        "Color": "color_15",
+        "Hex": "#8FBCBB",
+        "Score": "Fail",
+        "Ratio": "1.7"
+      },
+      {
         "Color": "color_16",
-        "Hex": "#DEDEDE",
+        "Hex": "#ECEFF4",
         "Score": "Fail",
         "Ratio": "1.1"
       },
       {
         "Color": "cursor",
-        "Hex": "#439ECF",
+        "Hex": "#88C0D0",
         "Score": "Fail",
-        "Ratio": "2.5"
+        "Ratio": "1.6"
       }
     ],
     "scoreCounts": {
       "AAA": 2,
       "AA Large": 2,
-      "Fail": 14
+      "Fail": 13,
+      "AA": 1
     }
   },
   {
@@ -29220,53 +29212,53 @@
   },
   {
     "theme": "Oceanic Next",
-    "background": "#121B21",
+    "background": "#1B2B34",
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#B3B8C3",
+        "Hex": "#C1C5CD",
         "Score": "AAA",
-        "Ratio": "8.8"
+        "Ratio": "8.4"
       },
       {
         "Color": "color_01",
-        "Hex": "#121C21",
+        "Hex": "#1B2B34",
         "Score": "Fail",
         "Ratio": "1.0"
       },
       {
         "Color": "color_02",
-        "Hex": "#E44754",
+        "Hex": "#DB686B",
         "Score": "AA Large",
-        "Ratio": "4.4"
+        "Ratio": "4.3"
       },
       {
         "Color": "color_03",
-        "Hex": "#89BD82",
+        "Hex": "#A2C699",
         "Score": "AAA",
-        "Ratio": "8.0"
+        "Ratio": "7.7"
       },
       {
         "Color": "color_04",
-        "Hex": "#F7BD51",
+        "Hex": "#F2CA73",
         "Score": "AAA",
-        "Ratio": "10.3"
+        "Ratio": "9.3"
       },
       {
         "Color": "color_05",
-        "Hex": "#5486C0",
+        "Hex": "#7198C8",
         "Score": "AA",
-        "Ratio": "4.6"
+        "Ratio": "4.9"
       },
       {
         "Color": "color_06",
-        "Hex": "#B77EB8",
+        "Hex": "#BD96C2",
         "Score": "AA",
-        "Ratio": "5.5"
+        "Ratio": "5.8"
       },
       {
         "Color": "color_07",
-        "Hex": "#50A5A4",
+        "Hex": "#74B1B2",
         "Score": "AA",
         "Ratio": "6.0"
       },
@@ -29274,47 +29266,47 @@
         "Color": "color_08",
         "Hex": "#FFFFFF",
         "Score": "AAA",
-        "Ratio": "17.4"
+        "Ratio": "14.6"
       },
       {
         "Color": "color_09",
-        "Hex": "#52606B",
-        "Score": "Fail",
-        "Ratio": "2.7"
+        "Hex": "#68737D",
+        "Score": "AA Large",
+        "Ratio": "3.0"
       },
       {
         "Color": "color_10",
-        "Hex": "#E44754",
+        "Hex": "#DB686B",
         "Score": "AA Large",
-        "Ratio": "4.4"
+        "Ratio": "4.3"
       },
       {
         "Color": "color_11",
-        "Hex": "#89BD82",
+        "Hex": "#A2C699",
         "Score": "AAA",
-        "Ratio": "8.0"
+        "Ratio": "7.7"
       },
       {
         "Color": "color_12",
-        "Hex": "#F7BD51",
+        "Hex": "#F2CA73",
         "Score": "AAA",
-        "Ratio": "10.3"
+        "Ratio": "9.3"
       },
       {
         "Color": "color_13",
-        "Hex": "#5486C0",
+        "Hex": "#7198C8",
         "Score": "AA",
-        "Ratio": "4.6"
+        "Ratio": "4.9"
       },
       {
         "Color": "color_14",
-        "Hex": "#B77EB8",
+        "Hex": "#BD96C2",
         "Score": "AA",
-        "Ratio": "5.5"
+        "Ratio": "5.8"
       },
       {
         "Color": "color_15",
-        "Hex": "#50A5A4",
+        "Hex": "#74B1B2",
         "Score": "AA",
         "Ratio": "6.0"
       },
@@ -29322,19 +29314,19 @@
         "Color": "color_16",
         "Hex": "#FFFFFF",
         "Score": "AAA",
-        "Ratio": "17.4"
+        "Ratio": "14.6"
       },
       {
         "Color": "cursor",
-        "Hex": "#B3B8C3",
+        "Hex": "#C1C5CD",
         "Score": "AAA",
-        "Ratio": "8.8"
+        "Ratio": "8.4"
       }
     ],
     "scoreCounts": {
       "AAA": 8,
-      "Fail": 2,
-      "AA Large": 2,
+      "Fail": 1,
+      "AA Large": 3,
       "AA": 6
     }
   },
@@ -30925,9 +30917,9 @@
       },
       {
         "Color": "color_04",
-        "Hex": "#D3BF00",
+        "Hex": "#E7BF00",
         "Score": "AAA",
-        "Ratio": "11.2"
+        "Ratio": "11.8"
       },
       {
         "Color": "color_05",
@@ -31003,14 +30995,14 @@
       },
       {
         "Color": "cursor",
-        "Hex": "#F2F2F2",
-        "Score": "AAA",
-        "Ratio": "18.8"
+        "Hex": "#4D4D4D",
+        "Score": "Fail",
+        "Ratio": "2.5"
       }
     ],
     "scoreCounts": {
-      "AAA": 12,
-      "Fail": 1,
+      "AAA": 11,
+      "Fail": 2,
       "AA": 3,
       "AA Large": 2
     }
@@ -31261,9 +31253,9 @@
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#C7C7C7",
+        "Hex": "#C8C8C8",
         "Score": "AAA",
-        "Ratio": "12.4"
+        "Ratio": "12.6"
       },
       {
         "Color": "color_01",
@@ -31273,9 +31265,9 @@
       },
       {
         "Color": "color_02",
-        "Hex": "#E64569",
+        "Hex": "#E74669",
         "Score": "AA",
-        "Ratio": "5.4"
+        "Ratio": "5.5"
       },
       {
         "Color": "color_03",
@@ -31285,33 +31277,33 @@
       },
       {
         "Color": "color_04",
-        "Hex": "#DAB752",
+        "Hex": "#DAB853",
         "Score": "AAA",
-        "Ratio": "10.9"
+        "Ratio": "11.0"
       },
       {
         "Color": "color_05",
-        "Hex": "#439ECF",
+        "Hex": "#449FD0",
         "Score": "AAA",
-        "Ratio": "7.0"
+        "Ratio": "7.1"
       },
       {
         "Color": "color_06",
-        "Hex": "#D961DC",
+        "Hex": "#DA62DC",
         "Score": "AA",
-        "Ratio": "6.7"
+        "Ratio": "6.8"
       },
       {
         "Color": "color_07",
-        "Hex": "#64AAAF",
+        "Hex": "#65AAAF",
         "Score": "AAA",
         "Ratio": "7.9"
       },
       {
         "Color": "color_08",
-        "Hex": "#B3B3B3",
+        "Hex": "#B4B4B4",
         "Score": "AAA",
-        "Ratio": "10.0"
+        "Ratio": "10.1"
       },
       {
         "Color": "color_09",
@@ -31321,27 +31313,27 @@
       },
       {
         "Color": "color_10",
-        "Hex": "#E4859A",
+        "Hex": "#E4859B",
         "Score": "AAA",
         "Ratio": "8.1"
       },
       {
         "Color": "color_11",
-        "Hex": "#A2CCA1",
+        "Hex": "#A3CCA2",
         "Score": "AAA",
         "Ratio": "11.7"
       },
       {
         "Color": "color_12",
-        "Hex": "#E1E387",
+        "Hex": "#E1E487",
         "Score": "AAA",
-        "Ratio": "15.5"
+        "Ratio": "15.7"
       },
       {
         "Color": "color_13",
-        "Hex": "#6FBBE2",
+        "Hex": "#6FBCE2",
         "Score": "AAA",
-        "Ratio": "9.9"
+        "Ratio": "10.0"
       },
       {
         "Color": "color_14",
@@ -31351,15 +31343,15 @@
       },
       {
         "Color": "color_15",
-        "Hex": "#96DCDA",
+        "Hex": "#96DCDB",
         "Score": "AAA",
         "Ratio": "13.6"
       },
       {
         "Color": "color_16",
-        "Hex": "#DEDEDE",
+        "Hex": "#DFDFDF",
         "Score": "AAA",
-        "Ratio": "15.6"
+        "Ratio": "15.8"
       },
       {
         "Color": "cursor",
@@ -31631,9 +31623,9 @@
       },
       {
         "Color": "color_02",
-        "Hex": "#7E0008",
+        "Hex": "#981A22",
         "Score": "Fail",
-        "Ratio": "1.4"
+        "Ratio": "1.8"
       },
       {
         "Color": "color_03",
@@ -31649,9 +31641,9 @@
       },
       {
         "Color": "color_05",
-        "Hex": "#010083",
+        "Hex": "#4140C3",
         "Score": "Fail",
-        "Ratio": "1.0"
+        "Ratio": "2.0"
       },
       {
         "Color": "color_06",
@@ -32957,9 +32949,9 @@
       },
       {
         "Color": "color_03",
-        "Hex": "#9CCFD8",
-        "Score": "AAA",
-        "Ratio": "10.4"
+        "Hex": "#31748F",
+        "Score": "AA Large",
+        "Ratio": "3.4"
       },
       {
         "Color": "color_04",
@@ -32969,9 +32961,9 @@
       },
       {
         "Color": "color_05",
-        "Hex": "#31748F",
-        "Score": "AA Large",
-        "Ratio": "3.4"
+        "Hex": "#9CCFD8",
+        "Score": "AAA",
+        "Ratio": "10.4"
       },
       {
         "Color": "color_06",
@@ -33005,9 +32997,9 @@
       },
       {
         "Color": "color_11",
-        "Hex": "#9CCFD8",
-        "Score": "AAA",
-        "Ratio": "10.4"
+        "Hex": "#31748F",
+        "Score": "AA Large",
+        "Ratio": "3.4"
       },
       {
         "Color": "color_12",
@@ -33017,9 +33009,9 @@
       },
       {
         "Color": "color_13",
-        "Hex": "#31748F",
-        "Score": "AA Large",
-        "Ratio": "3.4"
+        "Hex": "#9CCFD8",
+        "Score": "AAA",
+        "Ratio": "10.4"
       },
       {
         "Color": "color_14",
@@ -33077,9 +33069,9 @@
       },
       {
         "Color": "color_03",
-        "Hex": "#56949F",
-        "Score": "AA Large",
-        "Ratio": "3.1"
+        "Hex": "#286983",
+        "Score": "AA",
+        "Ratio": "5.6"
       },
       {
         "Color": "color_04",
@@ -33089,9 +33081,9 @@
       },
       {
         "Color": "color_05",
-        "Hex": "#286983",
-        "Score": "AA",
-        "Ratio": "5.6"
+        "Hex": "#56949F",
+        "Score": "AA Large",
+        "Ratio": "3.1"
       },
       {
         "Color": "color_06",
@@ -33125,9 +33117,9 @@
       },
       {
         "Color": "color_11",
-        "Hex": "#56949F",
-        "Score": "AA Large",
-        "Ratio": "3.1"
+        "Hex": "#286983",
+        "Score": "AA",
+        "Ratio": "5.6"
       },
       {
         "Color": "color_12",
@@ -33137,9 +33129,9 @@
       },
       {
         "Color": "color_13",
-        "Hex": "#286983",
-        "Score": "AA",
-        "Ratio": "5.6"
+        "Hex": "#56949F",
+        "Score": "AA Large",
+        "Ratio": "3.1"
       },
       {
         "Color": "color_14",
@@ -33196,9 +33188,9 @@
       },
       {
         "Color": "color_03",
-        "Hex": "#9CCFD8",
-        "Score": "AAA",
-        "Ratio": "9.2"
+        "Hex": "#3E8FB0",
+        "Score": "AA Large",
+        "Ratio": "4.3"
       },
       {
         "Color": "color_04",
@@ -33208,9 +33200,9 @@
       },
       {
         "Color": "color_05",
-        "Hex": "#3E8FB0",
-        "Score": "AA Large",
-        "Ratio": "4.3"
+        "Hex": "#9CCFD8",
+        "Score": "AAA",
+        "Ratio": "9.2"
       },
       {
         "Color": "color_06",
@@ -33244,9 +33236,9 @@
       },
       {
         "Color": "color_11",
-        "Hex": "#9CCFD8",
-        "Score": "AAA",
-        "Ratio": "9.2"
+        "Hex": "#3E8FB0",
+        "Score": "AA Large",
+        "Ratio": "4.3"
       },
       {
         "Color": "color_12",
@@ -33256,9 +33248,9 @@
       },
       {
         "Color": "color_13",
-        "Hex": "#3E8FB0",
-        "Score": "AA Large",
-        "Ratio": "4.3"
+        "Hex": "#9CCFD8",
+        "Score": "AAA",
+        "Ratio": "9.2"
       },
       {
         "Color": "color_14",
@@ -33777,7 +33769,7 @@
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#b9b9b9",
+        "Hex": "#B9B9B9",
         "Score": "AAA",
         "Ratio": "9.1"
       },
@@ -33789,115 +33781,115 @@
       },
       {
         "Color": "color_02",
-        "Hex": "#ed4a46",
+        "Hex": "#ED4A46",
         "Score": "AA",
         "Ratio": "4.8"
       },
       {
         "Color": "color_03",
-        "Hex": "#70b433",
+        "Hex": "#70B433",
         "Score": "AA",
         "Ratio": "7.0"
       },
       {
         "Color": "color_04",
-        "Hex": "#dbb32d",
+        "Hex": "#DBB32D",
         "Score": "AAA",
         "Ratio": "8.9"
       },
       {
         "Color": "color_05",
-        "Hex": "#368aeb",
+        "Hex": "#368AEB",
         "Score": "AA",
         "Ratio": "5.1"
       },
       {
         "Color": "color_06",
-        "Hex": "#eb6eb7",
+        "Hex": "#EB6EB7",
         "Score": "AA",
         "Ratio": "6.3"
       },
       {
         "Color": "color_07",
-        "Hex": "#3fc5b7",
+        "Hex": "#3FC5B7",
         "Score": "AAA",
         "Ratio": "8.4"
       },
       {
         "Color": "color_08",
+        "Hex": "#B9B9B9",
+        "Score": "AAA",
+        "Ratio": "9.1"
+      },
+      {
+        "Color": "color_09",
         "Hex": "#777777",
         "Score": "AA Large",
         "Ratio": "4.0"
       },
       {
-        "Color": "color_09",
-        "Hex": "#3b3b3b",
-        "Score": "Fail",
-        "Ratio": "1.6"
-      },
-      {
         "Color": "color_10",
-        "Hex": "#ff5e56",
+        "Hex": "#FF5E56",
         "Score": "AA",
         "Ratio": "5.9"
       },
       {
         "Color": "color_11",
-        "Hex": "#83c746",
+        "Hex": "#83C746",
         "Score": "AAA",
         "Ratio": "8.6"
       },
       {
         "Color": "color_12",
-        "Hex": "#efc541",
+        "Hex": "#EFC541",
         "Score": "AAA",
         "Ratio": "10.8"
       },
       {
         "Color": "color_13",
-        "Hex": "#4f9cfe",
+        "Hex": "#4F9CFE",
         "Score": "AA",
         "Ratio": "6.4"
       },
       {
         "Color": "color_14",
-        "Hex": "#ff81ca",
+        "Hex": "#FF81CA",
         "Score": "AAA",
         "Ratio": "7.8"
       },
       {
         "Color": "color_15",
-        "Hex": "#56d8c9",
+        "Hex": "#56D8C9",
         "Score": "AAA",
         "Ratio": "10.2"
       },
       {
         "Color": "color_16",
-        "Hex": "#dedede",
+        "Hex": "#DEDEDE",
         "Score": "AAA",
         "Ratio": "13.2"
       },
       {
         "Color": "cursor",
-        "Hex": "#dedede",
-        "Score": "AAA",
-        "Ratio": "13.2"
+        "Hex": "#777777",
+        "Score": "AA Large",
+        "Ratio": "4.0"
       }
     ],
     "scoreCounts": {
       "AAA": 9,
-      "Fail": 2,
+      "Fail": 1,
       "AA": 6,
-      "AA Large": 1
+      "AA Large": 2
     }
   },
   {
     "theme": "Selenized Dark",
-    "background": "#103c48",
+    "background": "#103C48",
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#adbcbc",
+        "Hex": "#ADBCBC",
         "Score": "AA",
         "Ratio": "6.1"
       },
@@ -33909,127 +33901,127 @@
       },
       {
         "Color": "color_02",
-        "Hex": "#fa5750",
+        "Hex": "#FA5750",
         "Score": "AA Large",
         "Ratio": "3.7"
       },
       {
         "Color": "color_03",
-        "Hex": "#75b938",
+        "Hex": "#75B938",
         "Score": "AA",
         "Ratio": "5.0"
       },
       {
         "Color": "color_04",
-        "Hex": "#dbb32d",
+        "Hex": "#DBB32D",
         "Score": "AA",
         "Ratio": "6.0"
       },
       {
         "Color": "color_05",
-        "Hex": "#4695f7",
+        "Hex": "#4695F7",
         "Score": "AA Large",
         "Ratio": "3.9"
       },
       {
         "Color": "color_06",
-        "Hex": "#f275be",
+        "Hex": "#F275BE",
         "Score": "AA",
         "Ratio": "4.6"
       },
       {
         "Color": "color_07",
-        "Hex": "#41c7b9",
+        "Hex": "#41C7B9",
         "Score": "AA",
         "Ratio": "5.7"
       },
       {
         "Color": "color_08",
-        "Hex": "#72898f",
+        "Hex": "#ADBCBC",
+        "Score": "AA",
+        "Ratio": "6.1"
+      },
+      {
+        "Color": "color_09",
+        "Hex": "#72898F",
         "Score": "AA Large",
         "Ratio": "3.2"
       },
       {
-        "Color": "color_09",
-        "Hex": "#2d5b69",
-        "Score": "Fail",
-        "Ratio": "1.6"
-      },
-      {
         "Color": "color_10",
-        "Hex": "#ff665c",
+        "Hex": "#FF665C",
         "Score": "AA Large",
         "Ratio": "4.2"
       },
       {
         "Color": "color_11",
-        "Hex": "#84c747",
+        "Hex": "#84C747",
         "Score": "AA",
         "Ratio": "5.8"
       },
       {
         "Color": "color_12",
-        "Hex": "#ebc13d",
+        "Hex": "#EBC13D",
         "Score": "AA",
         "Ratio": "6.9"
       },
       {
         "Color": "color_13",
-        "Hex": "#58a3ff",
+        "Hex": "#58A3FF",
         "Score": "AA",
         "Ratio": "4.6"
       },
       {
         "Color": "color_14",
-        "Hex": "#ff84cd",
+        "Hex": "#FF84CD",
         "Score": "AA",
         "Ratio": "5.3"
       },
       {
         "Color": "color_15",
-        "Hex": "#53d6c7",
+        "Hex": "#53D6C7",
         "Score": "AA",
         "Ratio": "6.7"
       },
       {
         "Color": "color_16",
-        "Hex": "#cad8d9",
+        "Hex": "#CAD8D9",
         "Score": "AAA",
         "Ratio": "8.1"
       },
       {
         "Color": "cursor",
-        "Hex": "#cad8d9",
-        "Score": "AAA",
-        "Ratio": "8.1"
+        "Hex": "#ADBCBC",
+        "Score": "AA",
+        "Ratio": "6.1"
       }
     ],
     "scoreCounts": {
-      "AA": 10,
-      "Fail": 2,
+      "AA": 12,
+      "Fail": 1,
       "AA Large": 4,
-      "AAA": 2
+      "AAA": 1
     }
   },
   {
     "theme": "Selenized Light",
-    "background": "#fbf3db",
+    "background": "#FBF3DB",
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#53676d",
+        "Hex": "#53676D",
         "Score": "AA",
         "Ratio": "5.4"
       },
       {
         "Color": "color_01",
-        "Hex": "#ece3cc",
+        "Hex": "#ECE3CC",
         "Score": "Fail",
         "Ratio": "1.1"
       },
       {
         "Color": "color_02",
-        "Hex": "#d2212d",
+        "Hex": "#D2212D",
         "Score": "AA",
         "Ratio": "4.7"
       },
@@ -34041,94 +34033,94 @@
       },
       {
         "Color": "color_04",
-        "Hex": "#ad8900",
+        "Hex": "#AD8900",
         "Score": "Fail",
         "Ratio": "3.0"
       },
       {
         "Color": "color_05",
-        "Hex": "#0072d4",
+        "Hex": "#0072D4",
         "Score": "AA Large",
         "Ratio": "4.3"
       },
       {
         "Color": "color_06",
-        "Hex": "#ca4898",
+        "Hex": "#CA4898",
         "Score": "AA Large",
         "Ratio": "3.9"
       },
       {
         "Color": "color_07",
-        "Hex": "#009c8f",
+        "Hex": "#009C8F",
         "Score": "AA Large",
         "Ratio": "3.1"
       },
       {
         "Color": "color_08",
+        "Hex": "#53676D",
+        "Score": "AA",
+        "Ratio": "5.4"
+      },
+      {
+        "Color": "color_09",
         "Hex": "#909995",
         "Score": "Fail",
         "Ratio": "2.6"
       },
       {
-        "Color": "color_09",
-        "Hex": "#d5cdb6",
-        "Score": "Fail",
-        "Ratio": "1.4"
-      },
-      {
         "Color": "color_10",
-        "Hex": "#cc1729",
+        "Hex": "#CC1729",
         "Score": "AA",
         "Ratio": "5.1"
       },
       {
         "Color": "color_11",
-        "Hex": "#428b00",
+        "Hex": "#428B00",
         "Score": "AA Large",
         "Ratio": "3.9"
       },
       {
         "Color": "color_12",
-        "Hex": "#a78300",
+        "Hex": "#A78300",
         "Score": "AA Large",
         "Ratio": "3.2"
       },
       {
         "Color": "color_13",
-        "Hex": "#006dce",
+        "Hex": "#006DCE",
         "Score": "AA",
         "Ratio": "4.6"
       },
       {
         "Color": "color_14",
-        "Hex": "#c44392",
+        "Hex": "#C44392",
         "Score": "AA Large",
         "Ratio": "4.2"
       },
       {
         "Color": "color_15",
-        "Hex": "#00978a",
+        "Hex": "#00978A",
         "Score": "AA Large",
         "Ratio": "3.3"
       },
       {
         "Color": "color_16",
-        "Hex": "#3a4d53",
+        "Hex": "#3A4D53",
         "Score": "AAA",
         "Ratio": "8.0"
       },
       {
         "Color": "cursor",
-        "Hex": "#3a4d53",
-        "Score": "AAA",
-        "Ratio": "8.0"
+        "Hex": "#53676D",
+        "Score": "AA",
+        "Ratio": "5.4"
       }
     ],
     "scoreCounts": {
-      "AA": 4,
-      "Fail": 4,
+      "AA": 6,
+      "Fail": 3,
       "AA Large": 8,
-      "AAA": 2
+      "AAA": 1
     }
   },
   {
@@ -35092,241 +35084,241 @@
   },
   {
     "theme": "Smyck",
-    "background": "#242424",
+    "background": "#1B1B1B",
     "results": [
       {
         "Color": "Foreground",
         "Hex": "#F7F7F7",
         "Score": "AAA",
-        "Ratio": "14.5"
+        "Ratio": "16.1"
       },
       {
         "Color": "color_01",
         "Hex": "#000000",
         "Score": "Fail",
-        "Ratio": "1.4"
+        "Ratio": "1.2"
       },
       {
         "Color": "color_02",
-        "Hex": "#C75646",
+        "Hex": "#B84131",
         "Score": "AA Large",
-        "Ratio": "3.6"
+        "Ratio": "3.1"
       },
       {
         "Color": "color_03",
-        "Hex": "#8EB33B",
+        "Hex": "#7DA900",
         "Score": "AA",
-        "Ratio": "6.4"
+        "Ratio": "6.2"
       },
       {
         "Color": "color_04",
-        "Hex": "#D0B03C",
-        "Score": "AAA",
-        "Ratio": "7.4"
-      },
-      {
-        "Color": "color_05",
-        "Hex": "#72B3CC",
-        "Score": "AA",
-        "Ratio": "6.7"
-      },
-      {
-        "Color": "color_06",
-        "Hex": "#C8A0D1",
-        "Score": "AA",
-        "Ratio": "7.0"
-      },
-      {
-        "Color": "color_07",
-        "Hex": "#218693",
-        "Score": "AA Large",
-        "Ratio": "3.6"
-      },
-      {
-        "Color": "color_08",
-        "Hex": "#B0B0B0",
+        "Hex": "#C4A500",
         "Score": "AAA",
         "Ratio": "7.2"
       },
       {
+        "Color": "color_05",
+        "Hex": "#62A3C4",
+        "Score": "AA",
+        "Ratio": "6.2"
+      },
+      {
+        "Color": "color_06",
+        "Hex": "#BA8ACC",
+        "Score": "AA",
+        "Ratio": "6.2"
+      },
+      {
+        "Color": "color_07",
+        "Hex": "#207383",
+        "Score": "AA Large",
+        "Ratio": "3.1"
+      },
+      {
+        "Color": "color_08",
+        "Hex": "#A1A1A1",
+        "Score": "AA",
+        "Ratio": "6.7"
+      },
+      {
         "Color": "color_09",
-        "Hex": "#5D5D5D",
-        "Score": "Fail",
-        "Ratio": "2.4"
+        "Hex": "#7A7A7A",
+        "Score": "AA Large",
+        "Ratio": "4.0"
       },
       {
         "Color": "color_10",
-        "Hex": "#E09690",
+        "Hex": "#D6837C",
         "Score": "AA",
-        "Ratio": "6.6"
+        "Ratio": "6.1"
       },
       {
         "Color": "color_11",
-        "Hex": "#CDEE69",
+        "Hex": "#C4F137",
         "Score": "AAA",
-        "Ratio": "11.8"
+        "Ratio": "13.1"
       },
       {
         "Color": "color_12",
-        "Hex": "#FFE377",
+        "Hex": "#FEE14D",
         "Score": "AAA",
-        "Ratio": "12.2"
+        "Ratio": "13.2"
       },
       {
         "Color": "color_13",
-        "Hex": "#9CD9F0",
+        "Hex": "#8DCFF0",
         "Score": "AAA",
         "Ratio": "10.1"
       },
       {
         "Color": "color_14",
-        "Hex": "#FBB1F9",
+        "Hex": "#F79AFF",
         "Score": "AAA",
-        "Ratio": "9.4"
+        "Ratio": "9.0"
       },
       {
         "Color": "color_15",
-        "Hex": "#77DFD8",
+        "Hex": "#6AD9CF",
         "Score": "AAA",
-        "Ratio": "9.8"
+        "Ratio": "10.2"
       },
       {
         "Color": "color_16",
         "Hex": "#F7F7F7",
         "Score": "AAA",
-        "Ratio": "14.5"
+        "Ratio": "16.1"
       },
       {
         "Color": "cursor",
-        "Hex": "#F7F7F7",
+        "Hex": "#BBBBBB",
         "Score": "AAA",
-        "Ratio": "14.5"
+        "Ratio": "9.0"
       }
     ],
     "scoreCounts": {
-      "AAA": 10,
-      "Fail": 2,
-      "AA Large": 2,
-      "AA": 4
+      "AAA": 9,
+      "Fail": 1,
+      "AA Large": 3,
+      "AA": 5
     }
   },
   {
     "theme": "Snazzy",
-    "background": "#282A36",
+    "background": "#1E1F29",
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#EFF0EB",
+        "Hex": "#EBECE6",
         "Score": "AAA",
-        "Ratio": "12.4"
+        "Ratio": "13.8"
       },
       {
         "Color": "color_01",
-        "Hex": "#282A36",
+        "Hex": "#000000",
         "Score": "Fail",
-        "Ratio": "1.0"
+        "Ratio": "1.3"
       },
       {
         "Color": "color_02",
-        "Hex": "#FF5C57",
+        "Hex": "#FC4346",
         "Score": "AA",
         "Ratio": "4.7"
       },
       {
         "Color": "color_03",
-        "Hex": "#5AF78E",
+        "Hex": "#50FB7C",
         "Score": "AAA",
-        "Ratio": "10.3"
+        "Ratio": "12.0"
       },
       {
         "Color": "color_04",
-        "Hex": "#F3F99D",
+        "Hex": "#F0FB8C",
         "Score": "AAA",
-        "Ratio": "12.8"
+        "Ratio": "14.7"
       },
       {
         "Color": "color_05",
-        "Hex": "#57C7FF",
+        "Hex": "#49BAFF",
         "Score": "AAA",
-        "Ratio": "7.5"
+        "Ratio": "7.6"
       },
       {
         "Color": "color_06",
-        "Hex": "#FF6AC1",
+        "Hex": "#FC4CB4",
         "Score": "AA",
-        "Ratio": "5.5"
+        "Ratio": "5.3"
       },
       {
         "Color": "color_07",
-        "Hex": "#9AEDFE",
+        "Hex": "#8BE9FE",
         "Score": "AAA",
-        "Ratio": "10.8"
+        "Ratio": "11.8"
       },
       {
         "Color": "color_08",
-        "Hex": "#F1F1F0",
+        "Hex": "#EDEDEC",
         "Score": "AAA",
-        "Ratio": "12.6"
+        "Ratio": "14.0"
       },
       {
         "Color": "color_09",
-        "Hex": "#686868",
+        "Hex": "#555555",
         "Score": "Fail",
-        "Ratio": "2.6"
+        "Ratio": "2.2"
       },
       {
         "Color": "color_10",
-        "Hex": "#FF5C57",
+        "Hex": "#FC4346",
         "Score": "AA",
         "Ratio": "4.7"
       },
       {
         "Color": "color_11",
-        "Hex": "#5AF78E",
+        "Hex": "#50FB7C",
         "Score": "AAA",
-        "Ratio": "10.3"
+        "Ratio": "12.0"
       },
       {
         "Color": "color_12",
-        "Hex": "#F3F99D",
+        "Hex": "#F0FB8C",
         "Score": "AAA",
-        "Ratio": "12.8"
+        "Ratio": "14.7"
       },
       {
         "Color": "color_13",
-        "Hex": "#57C7FF",
+        "Hex": "#49BAFF",
         "Score": "AAA",
-        "Ratio": "7.5"
+        "Ratio": "7.6"
       },
       {
         "Color": "color_14",
-        "Hex": "#FF6AC1",
+        "Hex": "#FC4CB4",
         "Score": "AA",
-        "Ratio": "5.5"
+        "Ratio": "5.3"
       },
       {
         "Color": "color_15",
-        "Hex": "#9AEDFE",
+        "Hex": "#8BE9FE",
         "Score": "AAA",
-        "Ratio": "10.8"
+        "Ratio": "11.8"
       },
       {
         "Color": "color_16",
-        "Hex": "#EFF0EB",
+        "Hex": "#EDEDEC",
         "Score": "AAA",
-        "Ratio": "12.4"
+        "Ratio": "14.0"
       },
       {
         "Color": "cursor",
-        "Hex": "#97979B",
-        "Score": "AA",
-        "Ratio": "4.9"
+        "Hex": "#E4E4E4",
+        "Score": "AAA",
+        "Ratio": "12.9"
       }
     ],
     "scoreCounts": {
-      "AAA": 11,
+      "AAA": 12,
       "Fail": 2,
-      "AA": 5
+      "AA": 4
     }
   },
   {
@@ -35939,9 +35931,9 @@
       },
       {
         "Color": "color_01",
-        "Hex": "#2C2E34",
+        "Hex": "#181819",
         "Score": "Fail",
-        "Ratio": "1.0"
+        "Ratio": "1.3"
       },
       {
         "Color": "color_02",
@@ -35963,9 +35955,9 @@
       },
       {
         "Color": "color_05",
-        "Hex": "#F39660",
-        "Score": "AA",
-        "Ratio": "6.0"
+        "Hex": "#76CCE0",
+        "Score": "AAA",
+        "Ratio": "7.4"
       },
       {
         "Color": "color_06",
@@ -35975,9 +35967,9 @@
       },
       {
         "Color": "color_07",
-        "Hex": "#76CCE0",
-        "Score": "AAA",
-        "Ratio": "7.4"
+        "Hex": "#F39660",
+        "Score": "AA",
+        "Ratio": "6.0"
       },
       {
         "Color": "color_08",
@@ -36011,9 +36003,9 @@
       },
       {
         "Color": "color_13",
-        "Hex": "#F39660",
-        "Score": "AA",
-        "Ratio": "6.0"
+        "Hex": "#76CCE0",
+        "Score": "AAA",
+        "Ratio": "7.4"
       },
       {
         "Color": "color_14",
@@ -36023,9 +36015,9 @@
       },
       {
         "Color": "color_15",
-        "Hex": "#76CCE0",
-        "Score": "AAA",
-        "Ratio": "7.4"
+        "Hex": "#F39660",
+        "Score": "AA",
+        "Ratio": "6.0"
       },
       {
         "Color": "color_16",
@@ -36647,133 +36639,133 @@
   },
   {
     "theme": "Spring",
-    "background": "#0A1E24",
+    "background": "#FFFFFF",
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#ECF0C1",
+        "Hex": "#4D4D4C",
         "Score": "AAA",
-        "Ratio": "14.5"
+        "Ratio": "8.5"
       },
       {
         "Color": "color_01",
         "Hex": "#000000",
-        "Score": "Fail",
-        "Ratio": "1.2"
+        "Score": "AAA",
+        "Ratio": "21.0"
       },
       {
         "Color": "color_02",
         "Hex": "#FF4D83",
-        "Score": "AA",
-        "Ratio": "5.4"
+        "Score": "AA Large",
+        "Ratio": "3.2"
       },
       {
         "Color": "color_03",
         "Hex": "#1F8C3B",
         "Score": "AA Large",
-        "Ratio": "4.0"
+        "Ratio": "4.3"
       },
       {
         "Color": "color_04",
         "Hex": "#1FC95B",
-        "Score": "AAA",
-        "Ratio": "7.8"
+        "Score": "Fail",
+        "Ratio": "2.2"
       },
       {
         "Color": "color_05",
         "Hex": "#1DD3EE",
-        "Score": "AAA",
-        "Ratio": "9.5"
+        "Score": "Fail",
+        "Ratio": "1.8"
       },
       {
         "Color": "color_06",
         "Hex": "#8959A8",
-        "Score": "AA Large",
-        "Ratio": "3.3"
+        "Score": "AA",
+        "Ratio": "5.2"
       },
       {
         "Color": "color_07",
         "Hex": "#3E999F",
-        "Score": "AA",
-        "Ratio": "5.1"
+        "Score": "AA Large",
+        "Ratio": "3.4"
       },
       {
         "Color": "color_08",
         "Hex": "#FFFFFF",
-        "Score": "AAA",
-        "Ratio": "17.2"
+        "Score": "Fail",
+        "Ratio": "1.0"
       },
       {
         "Color": "color_09",
         "Hex": "#000000",
-        "Score": "Fail",
-        "Ratio": "1.2"
+        "Score": "AAA",
+        "Ratio": "21.0"
       },
       {
         "Color": "color_10",
         "Hex": "#FF0021",
         "Score": "AA Large",
-        "Ratio": "4.3"
+        "Ratio": "4.0"
       },
       {
         "Color": "color_11",
         "Hex": "#1FC231",
-        "Score": "AAA",
-        "Ratio": "7.2"
+        "Score": "Fail",
+        "Ratio": "2.4"
       },
       {
         "Color": "color_12",
         "Hex": "#D5B807",
-        "Score": "AAA",
-        "Ratio": "8.7"
+        "Score": "Fail",
+        "Ratio": "2.0"
       },
       {
         "Color": "color_13",
         "Hex": "#15A9FD",
-        "Score": "AA",
-        "Ratio": "6.6"
+        "Score": "Fail",
+        "Ratio": "2.6"
       },
       {
         "Color": "color_14",
         "Hex": "#8959A8",
-        "Score": "AA Large",
-        "Ratio": "3.3"
+        "Score": "AA",
+        "Ratio": "5.2"
       },
       {
         "Color": "color_15",
         "Hex": "#3E999F",
-        "Score": "AA",
-        "Ratio": "5.1"
+        "Score": "AA Large",
+        "Ratio": "3.4"
       },
       {
         "Color": "color_16",
         "Hex": "#FFFFFF",
-        "Score": "AAA",
-        "Ratio": "17.2"
+        "Score": "Fail",
+        "Ratio": "1.0"
       },
       {
         "Color": "cursor",
-        "Hex": "#ECF0C1",
+        "Hex": "#4D4D4C",
         "Score": "AAA",
-        "Ratio": "14.5"
+        "Ratio": "8.5"
       }
     ],
     "scoreCounts": {
-      "AAA": 8,
-      "Fail": 2,
-      "AA": 4,
-      "AA Large": 4
+      "AAA": 4,
+      "AA Large": 5,
+      "Fail": 7,
+      "AA": 2
     }
   },
   {
     "theme": "Square",
-    "background": "#0A1E24",
+    "background": "#1A1A1A",
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#A1A1A1",
-        "Score": "AA",
-        "Ratio": "6.6"
+        "Hex": "#ACACAB",
+        "Score": "AAA",
+        "Ratio": "7.7"
       },
       {
         "Color": "color_01",
@@ -36785,25 +36777,25 @@
         "Color": "color_02",
         "Hex": "#E9897C",
         "Score": "AA",
-        "Ratio": "6.8"
+        "Ratio": "6.9"
       },
       {
         "Color": "color_03",
         "Hex": "#B6377D",
         "Score": "AA Large",
-        "Ratio": "3.1"
+        "Ratio": "3.2"
       },
       {
         "Color": "color_04",
         "Hex": "#ECEBBE",
         "Score": "AAA",
-        "Ratio": "14.1"
+        "Ratio": "14.3"
       },
       {
         "Color": "color_05",
         "Hex": "#A9CDEB",
         "Score": "AAA",
-        "Ratio": "10.3"
+        "Ratio": "10.5"
       },
       {
         "Color": "color_06",
@@ -36815,13 +36807,13 @@
         "Color": "color_07",
         "Hex": "#C9CAEC",
         "Score": "AAA",
-        "Ratio": "10.7"
+        "Ratio": "10.9"
       },
       {
         "Color": "color_08",
         "Hex": "#F2F2F2",
         "Score": "AAA",
-        "Ratio": "15.3"
+        "Ratio": "15.6"
       },
       {
         "Color": "color_09",
@@ -36833,56 +36825,56 @@
         "Color": "color_10",
         "Hex": "#F99286",
         "Score": "AAA",
-        "Ratio": "7.8"
+        "Ratio": "7.9"
       },
       {
         "Color": "color_11",
         "Hex": "#C3F786",
         "Score": "AAA",
-        "Ratio": "13.9"
+        "Ratio": "14.1"
       },
       {
         "Color": "color_12",
         "Hex": "#FCFBCC",
         "Score": "AAA",
-        "Ratio": "16.2"
+        "Ratio": "16.4"
       },
       {
         "Color": "color_13",
         "Hex": "#B6DEFB",
         "Score": "AAA",
-        "Ratio": "12.1"
+        "Ratio": "12.3"
       },
       {
         "Color": "color_14",
         "Hex": "#AD7FA8",
         "Score": "AA",
-        "Ratio": "5.2"
+        "Ratio": "5.3"
       },
       {
         "Color": "color_15",
         "Hex": "#D7D9FC",
         "Score": "AAA",
-        "Ratio": "12.4"
+        "Ratio": "12.6"
       },
       {
         "Color": "color_16",
         "Hex": "#E2E2E2",
         "Score": "AAA",
-        "Ratio": "13.2"
+        "Ratio": "13.4"
       },
       {
         "Color": "cursor",
-        "Hex": "#A1A1A1",
-        "Score": "AA",
-        "Ratio": "6.6"
+        "Hex": "#FCFBCC",
+        "Score": "AAA",
+        "Ratio": "16.4"
       }
     ],
     "scoreCounts": {
-      "AA": 4,
+      "AAA": 12,
       "Fail": 3,
-      "AA Large": 1,
-      "AAA": 10
+      "AA": 2,
+      "AA Large": 1
     }
   },
   {
@@ -37607,122 +37599,121 @@
   },
   {
     "theme": "Synthwave",
-    "background": "#262335",
+    "background": "#000000",
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#FFFFFF",
+        "Hex": "#DAD9C7",
         "Score": "AAA",
-        "Ratio": "15.3"
+        "Ratio": "14.7"
       },
       {
         "Color": "color_01",
-        "Hex": "#011627",
+        "Hex": "#000000",
         "Score": "Fail",
-        "Ratio": "1.2"
+        "Ratio": "1.0"
       },
       {
         "Color": "color_02",
-        "Hex": "#FE4450",
-        "Score": "AA Large",
-        "Ratio": "4.5"
+        "Hex": "#F6188F",
+        "Score": "AA",
+        "Ratio": "5.5"
       },
       {
         "Color": "color_03",
-        "Hex": "#72F1B8",
+        "Hex": "#1EBB2B",
         "Score": "AAA",
-        "Ratio": "10.9"
+        "Ratio": "8.2"
       },
       {
         "Color": "color_04",
-        "Hex": "#FEDE5D",
+        "Hex": "#FDF834",
         "Score": "AAA",
-        "Ratio": "11.5"
+        "Ratio": "18.6"
       },
       {
         "Color": "color_05",
-        "Hex": "#03EDF9",
-        "Score": "AAA",
-        "Ratio": "10.5"
+        "Hex": "#2186EC",
+        "Score": "AA",
+        "Ratio": "5.7"
       },
       {
         "Color": "color_06",
-        "Hex": "#FF7EDB",
+        "Hex": "#F85A21",
         "Score": "AA",
-        "Ratio": "6.7"
+        "Ratio": "6.5"
       },
       {
         "Color": "color_07",
-        "Hex": "#03EDF9",
+        "Hex": "#12C3E2",
         "Score": "AAA",
-        "Ratio": "10.5"
+        "Ratio": "9.9"
       },
       {
         "Color": "color_08",
         "Hex": "#FFFFFF",
         "Score": "AAA",
-        "Ratio": "15.3"
+        "Ratio": "21.0"
       },
       {
         "Color": "color_09",
-        "Hex": "#575656",
-        "Score": "Fail",
-        "Ratio": "2.1"
+        "Hex": "#7F7094",
+        "Score": "AA",
+        "Ratio": "4.7"
       },
       {
         "Color": "color_10",
-        "Hex": "#FE4450",
-        "Score": "AA Large",
-        "Ratio": "4.5"
+        "Hex": "#F841A0",
+        "Score": "AA",
+        "Ratio": "6.3"
       },
       {
         "Color": "color_11",
-        "Hex": "#72F1B8",
+        "Hex": "#25C141",
         "Score": "AAA",
-        "Ratio": "10.9"
+        "Ratio": "8.8"
       },
       {
         "Color": "color_12",
-        "Hex": "#FEDE5D",
+        "Hex": "#FDF454",
         "Score": "AAA",
-        "Ratio": "11.5"
+        "Ratio": "18.2"
       },
       {
         "Color": "color_13",
-        "Hex": "#03EDF9",
+        "Hex": "#2F9DED",
         "Score": "AAA",
-        "Ratio": "10.5"
+        "Ratio": "7.2"
       },
       {
         "Color": "color_14",
-        "Hex": "#FF7EDB",
-        "Score": "AA",
-        "Ratio": "6.7"
+        "Hex": "#F97137",
+        "Score": "AAA",
+        "Ratio": "7.5"
       },
       {
         "Color": "color_15",
-        "Hex": "#03EDF9",
+        "Hex": "#19CDE6",
         "Score": "AAA",
-        "Ratio": "10.5"
+        "Ratio": "10.9"
       },
       {
         "Color": "color_16",
         "Hex": "#FFFFFF",
         "Score": "AAA",
-        "Ratio": "15.3"
+        "Ratio": "21.0"
       },
       {
         "Color": "cursor",
-        "Hex": "#03EDF9",
+        "Hex": "#19CDE6",
         "Score": "AAA",
-        "Ratio": "10.5"
+        "Ratio": "10.9"
       }
     ],
     "scoreCounts": {
       "AAA": 12,
-      "Fail": 2,
-      "AA Large": 2,
-      "AA": 2
+      "Fail": 1,
+      "AA": 5
     }
   },
   {
@@ -37743,9 +37734,9 @@
       },
       {
         "Color": "color_02",
-        "Hex": "#9A0048",
-        "Score": "Fail",
-        "Ratio": "1.9"
+        "Hex": "#E60A70",
+        "Score": "AA Large",
+        "Ratio": "3.6"
       },
       {
         "Color": "color_03",
@@ -37840,8 +37831,8 @@
     ],
     "scoreCounts": {
       "AAA": 7,
-      "Fail": 4,
-      "AA Large": 4,
+      "Fail": 3,
+      "AA Large": 5,
       "AA": 3
     }
   },
@@ -40708,9 +40699,9 @@
       },
       {
         "Color": "color_01",
-        "Hex": "#414868",
+        "Hex": "#15161E",
         "Score": "Fail",
-        "Ratio": "1.9"
+        "Ratio": "1.1"
       },
       {
         "Color": "color_02",
@@ -40947,9 +40938,9 @@
       },
       {
         "Color": "color_01",
-        "Hex": "#414868",
+        "Hex": "#1D202F",
         "Score": "Fail",
-        "Ratio": "1.6"
+        "Ratio": "1.1"
       },
       {
         "Color": "color_02",
@@ -40989,9 +40980,9 @@
       },
       {
         "Color": "color_08",
-        "Hex": "#C0CAF5",
-        "Score": "AAA",
-        "Ratio": "9.0"
+        "Hex": "#A9B1D6",
+        "Score": "AA",
+        "Ratio": "6.9"
       },
       {
         "Color": "color_09",
@@ -41049,9 +41040,9 @@
       }
     ],
     "scoreCounts": {
-      "AAA": 10,
+      "AAA": 9,
       "Fail": 2,
-      "AA": 6
+      "AA": 7
     }
   },
   {
@@ -41066,9 +41057,9 @@
       },
       {
         "Color": "color_01",
-        "Hex": "#E0E0E0",
-        "Score": "Fail",
-        "Ratio": "1.3"
+        "Hex": "#000000",
+        "Score": "AAA",
+        "Ratio": "21.0"
       },
       {
         "Color": "color_02",
@@ -41108,15 +41099,15 @@
       },
       {
         "Color": "color_08",
-        "Hex": "#4D4D4C",
-        "Score": "AAA",
-        "Ratio": "8.5"
+        "Hex": "#FFFFFF",
+        "Score": "Fail",
+        "Ratio": "1.0"
       },
       {
         "Color": "color_09",
-        "Hex": "#8E908C",
-        "Score": "AA Large",
-        "Ratio": "3.2"
+        "Hex": "#000000",
+        "Score": "AAA",
+        "Ratio": "21.0"
       },
       {
         "Color": "color_10",
@@ -41156,9 +41147,9 @@
       },
       {
         "Color": "color_16",
-        "Hex": "#1D1F21",
-        "Score": "AAA",
-        "Ratio": "16.5"
+        "Hex": "#FFFFFF",
+        "Score": "Fail",
+        "Ratio": "1.0"
       },
       {
         "Color": "cursor",
@@ -41169,9 +41160,9 @@
     ],
     "scoreCounts": {
       "AAA": 4,
-      "Fail": 3,
       "AA": 6,
-      "AA Large": 5
+      "AA Large": 4,
+      "Fail": 4
     }
   },
   {
@@ -41186,9 +41177,9 @@
       },
       {
         "Color": "color_01",
-        "Hex": "#282A2E",
+        "Hex": "#000000",
         "Score": "Fail",
-        "Ratio": "1.1"
+        "Ratio": "1.3"
       },
       {
         "Color": "color_02",
@@ -41228,15 +41219,15 @@
       },
       {
         "Color": "color_08",
-        "Hex": "#C5C8C6",
+        "Hex": "#FFFFFF",
         "Score": "AAA",
-        "Ratio": "9.8"
+        "Ratio": "16.5"
       },
       {
         "Color": "color_09",
-        "Hex": "#969896",
-        "Score": "AA",
-        "Ratio": "5.7"
+        "Hex": "#000000",
+        "Score": "Fail",
+        "Ratio": "1.3"
       },
       {
         "Color": "color_10",
@@ -41289,9 +41280,9 @@
     ],
     "scoreCounts": {
       "AAA": 10,
-      "Fail": 1,
+      "Fail": 2,
       "AA Large": 2,
-      "AA": 5
+      "AA": 4
     }
   },
   {
@@ -41306,9 +41297,9 @@
       },
       {
         "Color": "color_01",
-        "Hex": "#00346E",
+        "Hex": "#000000",
         "Score": "Fail",
-        "Ratio": "1.3"
+        "Ratio": "1.4"
       },
       {
         "Color": "color_02",
@@ -41354,9 +41345,9 @@
       },
       {
         "Color": "color_09",
-        "Hex": "#7285B7",
-        "Score": "AA Large",
-        "Ratio": "4.2"
+        "Hex": "#000000",
+        "Score": "Fail",
+        "Ratio": "1.4"
       },
       {
         "Color": "color_10",
@@ -41409,8 +41400,7 @@
     ],
     "scoreCounts": {
       "AAA": 16,
-      "Fail": 1,
-      "AA Large": 1
+      "Fail": 2
     }
   },
   {
@@ -41425,9 +41415,9 @@
       },
       {
         "Color": "color_01",
-        "Hex": "#2A2A2A",
+        "Hex": "#000000",
         "Score": "Fail",
-        "Ratio": "1.5"
+        "Ratio": "1.0"
       },
       {
         "Color": "color_02",
@@ -41467,15 +41457,15 @@
       },
       {
         "Color": "color_08",
-        "Hex": "#EAEAEA",
+        "Hex": "#FFFFFF",
         "Score": "AAA",
-        "Ratio": "17.5"
+        "Ratio": "21.0"
       },
       {
         "Color": "color_09",
-        "Hex": "#969896",
-        "Score": "AAA",
-        "Ratio": "7.2"
+        "Hex": "#000000",
+        "Score": "Fail",
+        "Ratio": "1.0"
       },
       {
         "Color": "color_10",
@@ -41527,8 +41517,8 @@
       }
     ],
     "scoreCounts": {
-      "AAA": 15,
-      "Fail": 1,
+      "AAA": 14,
+      "Fail": 2,
       "AA": 2
     }
   },
@@ -41544,9 +41534,9 @@
       },
       {
         "Color": "color_01",
-        "Hex": "#393939",
+        "Hex": "#000000",
         "Score": "Fail",
-        "Ratio": "1.2"
+        "Ratio": "1.5"
       },
       {
         "Color": "color_02",
@@ -41586,15 +41576,15 @@
       },
       {
         "Color": "color_08",
-        "Hex": "#CCCCCC",
+        "Hex": "#FFFFFF",
         "Score": "AAA",
-        "Ratio": "8.6"
+        "Ratio": "13.8"
       },
       {
         "Color": "color_09",
-        "Hex": "#999999",
-        "Score": "AA",
-        "Ratio": "4.8"
+        "Hex": "#000000",
+        "Score": "Fail",
+        "Ratio": "1.5"
       },
       {
         "Color": "color_10",
@@ -41647,8 +41637,8 @@
     ],
     "scoreCounts": {
       "AAA": 10,
-      "Fail": 1,
-      "AA": 7
+      "Fail": 2,
+      "AA": 6
     }
   },
   {
@@ -44048,121 +44038,121 @@
   },
   {
     "theme": "Zenburn",
-    "background": "#3a3a3a",
+    "background": "#3F3F3F",
     "results": [
       {
         "Color": "Foreground",
-        "Hex": "#dcdccc",
+        "Hex": "#DCDCCC",
         "Score": "AAA",
-        "Ratio": "8.2"
+        "Ratio": "7.6"
       },
       {
         "Color": "color_01",
-        "Hex": "#333333",
+        "Hex": "#4D4D4D",
         "Score": "Fail",
-        "Ratio": "1.1"
+        "Ratio": "1.3"
       },
       {
         "Color": "color_02",
-        "Hex": "#cc9393",
-        "Score": "AA Large",
-        "Ratio": "4.4"
+        "Hex": "#705050",
+        "Score": "Fail",
+        "Ratio": "1.5"
       },
       {
         "Color": "color_03",
-        "Hex": "#efef87",
-        "Score": "AAA",
-        "Ratio": "9.4"
+        "Hex": "#60B48A",
+        "Score": "AA Large",
+        "Ratio": "4.2"
       },
       {
         "Color": "color_04",
-        "Hex": "#ffd7a7",
-        "Score": "AAA",
-        "Ratio": "8.4"
-      },
-      {
-        "Color": "color_05",
-        "Hex": "#c3bf97",
-        "Score": "AA",
-        "Ratio": "6.1"
-      },
-      {
-        "Color": "color_06",
-        "Hex": "#bca3a3",
-        "Score": "AA",
-        "Ratio": "4.8"
-      },
-      {
-        "Color": "color_07",
-        "Hex": "#93b3a3",
-        "Score": "AA",
-        "Ratio": "5.0"
-      },
-      {
-        "Color": "color_08",
-        "Hex": "#f0efd0",
-        "Score": "AAA",
-        "Ratio": "9.7"
-      },
-      {
-        "Color": "color_09",
-        "Hex": "#757575",
-        "Score": "Fail",
-        "Ratio": "2.5"
-      },
-      {
-        "Color": "color_10",
-        "Hex": "#dfaf87",
-        "Score": "AA",
-        "Ratio": "5.8"
-      },
-      {
-        "Color": "color_11",
-        "Hex": "#ffff87",
-        "Score": "AAA",
-        "Ratio": "10.8"
-      },
-      {
-        "Color": "color_12",
-        "Hex": "#ffcfaf",
+        "Hex": "#F0DFAF",
         "Score": "AAA",
         "Ratio": "8.0"
       },
       {
-        "Color": "color_13",
-        "Hex": "#d7d7af",
-        "Score": "AAA",
-        "Ratio": "7.7"
+        "Color": "color_05",
+        "Hex": "#506070",
+        "Score": "Fail",
+        "Ratio": "1.6"
       },
       {
-        "Color": "color_14",
-        "Hex": "#d7afaf",
+        "Color": "color_06",
+        "Hex": "#DC8CC3",
+        "Score": "AA Large",
+        "Ratio": "4.3"
+      },
+      {
+        "Color": "color_07",
+        "Hex": "#8CD0D3",
         "Score": "AA",
-        "Ratio": "5.8"
+        "Ratio": "6.1"
       },
       {
-        "Color": "color_15",
-        "Hex": "#93bea3",
+        "Color": "color_08",
+        "Hex": "#DCDCCC",
+        "Score": "AAA",
+        "Ratio": "7.6"
+      },
+      {
+        "Color": "color_09",
+        "Hex": "#709080",
+        "Score": "AA Large",
+        "Ratio": "3.0"
+      },
+      {
+        "Color": "color_10",
+        "Hex": "#DCA3A3",
+        "Score": "AA",
+        "Ratio": "4.9"
+      },
+      {
+        "Color": "color_11",
+        "Hex": "#C3BF9F",
+        "Score": "AA",
+        "Ratio": "5.7"
+      },
+      {
+        "Color": "color_12",
+        "Hex": "#E0CF9F",
+        "Score": "AA",
+        "Ratio": "6.8"
+      },
+      {
+        "Color": "color_13",
+        "Hex": "#94BFF3",
         "Score": "AA",
         "Ratio": "5.5"
       },
       {
-        "Color": "color_16",
-        "Hex": "#dcdccc",
+        "Color": "color_14",
+        "Hex": "#EC93D3",
+        "Score": "AA",
+        "Ratio": "4.8"
+      },
+      {
+        "Color": "color_15",
+        "Hex": "#93E0E3",
         "Score": "AAA",
-        "Ratio": "8.2"
+        "Ratio": "7.0"
+      },
+      {
+        "Color": "color_16",
+        "Hex": "#FFFFFF",
+        "Score": "AAA",
+        "Ratio": "10.5"
       },
       {
         "Color": "cursor",
-        "Hex": "#dcdccc",
-        "Score": "AAA",
-        "Ratio": "8.2"
+        "Hex": "#73635A",
+        "Score": "Fail",
+        "Ratio": "1.8"
       }
     ],
     "scoreCounts": {
-      "AAA": 9,
-      "Fail": 2,
-      "AA Large": 1,
+      "AAA": 5,
+      "Fail": 4,
+      "AA Large": 3,
       "AA": 6
     }
   }

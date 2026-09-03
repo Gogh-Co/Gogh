@@ -2,14 +2,14 @@
 
 export PROFILE_NAME="Tokyo Night Storm"
 
-export COLOR_01="#414868"           # Black (Host)
+export COLOR_01="#1D202F"           # Black (Host)
 export COLOR_02="#F7768E"           # Red (Syntax string)
 export COLOR_03="#9ECE6A"           # Green (Command)
 export COLOR_04="#E0AF68"           # Yellow (Command second)
 export COLOR_05="#7AA2F7"           # Blue (Path)
 export COLOR_06="#BB9AF7"           # Magenta (Syntax var)
 export COLOR_07="#7DCFFF"           # Cyan (Prompt)
-export COLOR_08="#C0CAF5"           # White
+export COLOR_08="#A9B1D6"           # White
 
 export COLOR_09="#414868"           # Bright Black
 export COLOR_10="#F7768E"           # Bright Red (Command error)

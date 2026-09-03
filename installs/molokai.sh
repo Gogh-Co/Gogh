@@ -2,25 +2,25 @@
 
 export PROFILE_NAME="Molokai"
 
-export COLOR_01="#1B1D1E"           # Black (Host)
-export COLOR_02="#7325FA"           # Red (Syntax string)
-export COLOR_03="#23E298"           # Green (Command)
-export COLOR_04="#60D4DF"           # Yellow (Command second)
-export COLOR_05="#D08010"           # Blue (Path)
-export COLOR_06="#FF0087"           # Magenta (Syntax var)
-export COLOR_07="#D0A843"           # Cyan (Prompt)
+export COLOR_01="#121212"           # Black (Host)
+export COLOR_02="#FA2573"           # Red (Syntax string)
+export COLOR_03="#98E123"           # Green (Command)
+export COLOR_04="#DFD460"           # Yellow (Command second)
+export COLOR_05="#1080D0"           # Blue (Path)
+export COLOR_06="#8700FF"           # Magenta (Syntax var)
+export COLOR_07="#43A8D0"           # Cyan (Prompt)
 export COLOR_08="#BBBBBB"           # White
 
 export COLOR_09="#555555"           # Bright Black
-export COLOR_10="#9D66F6"           # Bright Red (Command error)
-export COLOR_11="#5FE0B1"           # Bright Green (Exec)
-export COLOR_12="#6DF2FF"           # Bright Yellow
-export COLOR_13="#FFAF00"           # Bright Blue (Folder)
-export COLOR_14="#FF87AF"           # Bright Magenta
-export COLOR_15="#FFCE51"           # Bright Cyan
+export COLOR_10="#F6669D"           # Bright Red (Command error)
+export COLOR_11="#B1E05F"           # Bright Green (Exec)
+export COLOR_12="#FFF26D"           # Bright Yellow
+export COLOR_13="#00AFFF"           # Bright Blue (Folder)
+export COLOR_14="#AF87FF"           # Bright Magenta
+export COLOR_15="#51CEFF"           # Bright Cyan
 export COLOR_16="#FFFFFF"           # Bright White
 
-export BACKGROUND_COLOR="#1B1D1E"   # Background
+export BACKGROUND_COLOR="#121212"   # Background
 export FOREGROUND_COLOR="#BBBBBB"   # Foreground (Text)
 
 export CURSOR_COLOR="#BBBBBB" # Cursor

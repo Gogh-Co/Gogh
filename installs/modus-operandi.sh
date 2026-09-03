@@ -2,25 +2,25 @@
 
 export PROFILE_NAME="Modus Operandi"
 
-export COLOR_01="#ffffff"           # Black (Host)
-export COLOR_02="#a60000"           # Red (Syntax string)
+export COLOR_01="#000000"           # Black (Host)
+export COLOR_02="#A60000"           # Red (Syntax string)
 export COLOR_03="#006800"           # Green (Command)
-export COLOR_04="#6f5500"           # Yellow (Command second)
-export COLOR_05="#0031a9"           # Blue (Path)
+export COLOR_04="#6F5500"           # Yellow (Command second)
+export COLOR_05="#0031A9"           # Blue (Path)
 export COLOR_06="#721045"           # Magenta (Syntax var)
-export COLOR_07="#005e8b"           # Cyan (Prompt)
-export COLOR_08="#000000"           # White
+export COLOR_07="#005E8B"           # Cyan (Prompt)
+export COLOR_08="#A6A6A6"           # White
 
-export COLOR_09="#f2f2f2"           # Bright Black
-export COLOR_10="#d00000"           # Bright Red (Command error)
-export COLOR_11="#008900"           # Bright Green (Exec)
-export COLOR_12="#808000"           # Bright Yellow
-export COLOR_13="#0000ff"           # Bright Blue (Folder)
-export COLOR_14="#dd22dd"           # Bright Magenta
-export COLOR_15="#008899"           # Bright Cyan
+export COLOR_09="#595959"           # Bright Black
+export COLOR_10="#972500"           # Bright Red (Command error)
+export COLOR_11="#00663F"           # Bright Green (Exec)
+export COLOR_12="#884900"           # Bright Yellow
+export COLOR_13="#3548CF"           # Bright Blue (Folder)
+export COLOR_14="#531AB6"           # Bright Magenta
+export COLOR_15="#005F5F"           # Bright Cyan
 export COLOR_16="#595959"           # Bright White
 
-export BACKGROUND_COLOR="#ffffff"   # Background
+export BACKGROUND_COLOR="#FFFFFF"   # Background
 export FOREGROUND_COLOR="#000000"   # Foreground (Text)
 
 export CURSOR_COLOR="#000000" # Cursor

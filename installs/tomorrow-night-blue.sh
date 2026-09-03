@@ -2,7 +2,7 @@
 
 export PROFILE_NAME="Tomorrow Night Blue"
 
-export COLOR_01="#00346E"           # Black (Host)
+export COLOR_01="#000000"           # Black (Host)
 export COLOR_02="#FF9DA4"           # Red (Syntax string)
 export COLOR_03="#D1F1A9"           # Green (Command)
 export COLOR_04="#FFEEAD"           # Yellow (Command second)
@@ -11,7 +11,7 @@ export COLOR_06="#EBBBFF"           # Magenta (Syntax var)
 export COLOR_07="#99FFFF"           # Cyan (Prompt)
 export COLOR_08="#FFFFFF"           # White
 
-export COLOR_09="#7285B7"           # Bright Black
+export COLOR_09="#000000"           # Bright Black
 export COLOR_10="#FF9DA4"           # Bright Red (Command error)
 export COLOR_11="#D1F1A9"           # Bright Green (Exec)
 export COLOR_12="#FFEEAD"           # Bright Yellow

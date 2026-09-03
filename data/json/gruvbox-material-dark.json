@@ -2,7 +2,7 @@
   "name": "Gruvbox Material Dark",
   "author": "",
   "variant": "dark",
-  "color_01": "#3C3836",
+  "color_01": "#282828",
   "color_02": "#EA6962",
   "color_03": "#A9B665",
   "color_04": "#D8A657",
@@ -10,16 +10,16 @@
   "color_06": "#D3869B",
   "color_07": "#89B482",
   "color_08": "#D4BE98",
-  "color_09": "#3C3836",
+  "color_09": "#7C6F64",
   "color_10": "#EA6962",
   "color_11": "#A9B665",
   "color_12": "#D8A657",
   "color_13": "#7DAEA3",
   "color_14": "#D3869B",
   "color_15": "#89B482",
-  "color_16": "#D4BE98",
+  "color_16": "#DDC7A1",
   "background": "#282828",
   "foreground": "#D4BE98",
   "cursor": "#D4BE98",
-  "hash": "1c7226b979b93b2bbc552665c218879d61a313ca3400fb07971e6f31045ece4e"
+  "hash": "21929037d1819b98c516f873eaae88d63901e8db1b004a3e4e70ed7d80a41e83"
 }

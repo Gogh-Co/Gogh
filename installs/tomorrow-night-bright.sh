@@ -2,16 +2,16 @@
 
 export PROFILE_NAME="Tomorrow Night Bright"
 
-export COLOR_01="#2A2A2A"           # Black (Host)
+export COLOR_01="#000000"           # Black (Host)
 export COLOR_02="#D54E53"           # Red (Syntax string)
 export COLOR_03="#B9CA4A"           # Green (Command)
 export COLOR_04="#E7C547"           # Yellow (Command second)
 export COLOR_05="#7AA6DA"           # Blue (Path)
 export COLOR_06="#C397D8"           # Magenta (Syntax var)
 export COLOR_07="#70C0B1"           # Cyan (Prompt)
-export COLOR_08="#EAEAEA"           # White
+export COLOR_08="#FFFFFF"           # White
 
-export COLOR_09="#969896"           # Bright Black
+export COLOR_09="#000000"           # Bright Black
 export COLOR_10="#D54E53"           # Bright Red (Command error)
 export COLOR_11="#B9CA4A"           # Bright Green (Exec)
 export COLOR_12="#E7C547"           # Bright Yellow

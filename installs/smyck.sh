@@ -3,27 +3,27 @@
 export PROFILE_NAME="Smyck"
 
 export COLOR_01="#000000"           # Black (Host)
-export COLOR_02="#C75646"           # Red (Syntax string)
-export COLOR_03="#8EB33B"           # Green (Command)
-export COLOR_04="#D0B03C"           # Yellow (Command second)
-export COLOR_05="#72B3CC"           # Blue (Path)
-export COLOR_06="#C8A0D1"           # Magenta (Syntax var)
-export COLOR_07="#218693"           # Cyan (Prompt)
-export COLOR_08="#B0B0B0"           # White
+export COLOR_02="#B84131"           # Red (Syntax string)
+export COLOR_03="#7DA900"           # Green (Command)
+export COLOR_04="#C4A500"           # Yellow (Command second)
+export COLOR_05="#62A3C4"           # Blue (Path)
+export COLOR_06="#BA8ACC"           # Magenta (Syntax var)
+export COLOR_07="#207383"           # Cyan (Prompt)
+export COLOR_08="#A1A1A1"           # White
 
-export COLOR_09="#5D5D5D"           # Bright Black
-export COLOR_10="#E09690"           # Bright Red (Command error)
-export COLOR_11="#CDEE69"           # Bright Green (Exec)
-export COLOR_12="#FFE377"           # Bright Yellow
-export COLOR_13="#9CD9F0"           # Bright Blue (Folder)
-export COLOR_14="#FBB1F9"           # Bright Magenta
-export COLOR_15="#77DFD8"           # Bright Cyan
+export COLOR_09="#7A7A7A"           # Bright Black
+export COLOR_10="#D6837C"           # Bright Red (Command error)
+export COLOR_11="#C4F137"           # Bright Green (Exec)
+export COLOR_12="#FEE14D"           # Bright Yellow
+export COLOR_13="#8DCFF0"           # Bright Blue (Folder)
+export COLOR_14="#F79AFF"           # Bright Magenta
+export COLOR_15="#6AD9CF"           # Bright Cyan
 export COLOR_16="#F7F7F7"           # Bright White
 
-export BACKGROUND_COLOR="#242424"   # Background
+export BACKGROUND_COLOR="#1B1B1B"   # Background
 export FOREGROUND_COLOR="#F7F7F7"   # Foreground (Text)
 
-export CURSOR_COLOR="#F7F7F7" # Cursor
+export CURSOR_COLOR="#BBBBBB" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then

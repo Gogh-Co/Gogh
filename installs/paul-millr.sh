@@ -5,7 +5,7 @@ export PROFILE_NAME="Paul Millr"
 export COLOR_01="#2A2A2A"           # Black (Host)
 export COLOR_02="#FF0000"           # Red (Syntax string)
 export COLOR_03="#79FF0F"           # Green (Command)
-export COLOR_04="#D3BF00"           # Yellow (Command second)
+export COLOR_04="#E7BF00"           # Yellow (Command second)
 export COLOR_05="#396BD7"           # Blue (Path)
 export COLOR_06="#B449BE"           # Magenta (Syntax var)
 export COLOR_07="#66CCFF"           # Cyan (Prompt)
@@ -23,7 +23,7 @@ export COLOR_16="#FFFFFF"           # Bright White
 export BACKGROUND_COLOR="#000000"   # Background
 export FOREGROUND_COLOR="#F2F2F2"   # Foreground (Text)
 
-export CURSOR_COLOR="#F2F2F2" # Cursor
+export CURSOR_COLOR="#4D4D4D" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then

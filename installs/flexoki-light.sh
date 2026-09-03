@@ -2,23 +2,23 @@
 
 export PROFILE_NAME="Flexoki Light"
 
-export COLOR_01="#282726"           # Black (Host)
+export COLOR_01="#100F0F"           # Black (Host)
 export COLOR_02="#AF3029"           # Red (Syntax string)
 export COLOR_03="#66800B"           # Green (Command)
 export COLOR_04="#AD8301"           # Yellow (Command second)
 export COLOR_05="#205EA6"           # Blue (Path)
 export COLOR_06="#A02F6F"           # Magenta (Syntax var)
 export COLOR_07="#24837B"           # Cyan (Prompt)
-export COLOR_08="#878580"           # White
+export COLOR_08="#6F6E69"           # White
 
-export COLOR_09="#1C1B1A"           # Bright Black
+export COLOR_09="#B7B5AC"           # Bright Black
 export COLOR_10="#D14D41"           # Bright Red (Command error)
 export COLOR_11="#879A39"           # Bright Green (Exec)
 export COLOR_12="#D0A215"           # Bright Yellow
 export COLOR_13="#4385BE"           # Bright Blue (Folder)
 export COLOR_14="#CE5D97"           # Bright Magenta
 export COLOR_15="#3AA99F"           # Bright Cyan
-export COLOR_16="#6F6E69"           # Bright White
+export COLOR_16="#CECDC3"           # Bright White
 
 export BACKGROUND_COLOR="#FFFCF0"   # Background
 export FOREGROUND_COLOR="#100F0F"   # Foreground (Text)

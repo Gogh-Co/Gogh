@@ -2,7 +2,7 @@
   "name": "Gruvbox Material Light",
   "author": "",
   "variant": "light",
-  "color_01": "#F2E5BC",
+  "color_01": "#FBF1C7",
   "color_02": "#C14A4A",
   "color_03": "#6C782E",
   "color_04": "#B47109",
@@ -10,16 +10,16 @@
   "color_06": "#945E80",
   "color_07": "#4C7A5D",
   "color_08": "#654735",
-  "color_09": "#F2E5BC",
+  "color_09": "#A89984",
   "color_10": "#C14A4A",
   "color_11": "#6C782E",
   "color_12": "#B47109",
   "color_13": "#45707A",
   "color_14": "#945E80",
   "color_15": "#4C7A5D",
-  "color_16": "#654735",
+  "color_16": "#4F3829",
   "background": "#FBF1C7",
   "foreground": "#654735",
   "cursor": "#654735",
-  "hash": "8be5eed530928a746f36e2bf33c3073b7034dd3c428a27a081c7e1eda5579228"
+  "hash": "428acda8f63805a2e0393dd83e2a2284cfb863aba8b762820a962f5129d3e20c"
 }

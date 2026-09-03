@@ -2,7 +2,7 @@
 
 export PROFILE_NAME="Monokai Pro Light Sun"
 
-export COLOR_01="#FDF7F3"           # Black (Host)
+export COLOR_01="#F8EFE7"           # Black (Host)
 export COLOR_02="#CE4770"           # Red (Syntax string)
 export COLOR_03="#218871"           # Green (Command)
 export COLOR_04="#B16803"           # Yellow (Command second)
@@ -11,7 +11,7 @@ export COLOR_06="#6851A2"           # Magenta (Syntax var)
 export COLOR_07="#2473B6"           # Cyan (Prompt)
 export COLOR_08="#2C232E"           # White
 
-export COLOR_09="#595451"           # Bright Black
+export COLOR_09="#A59C9C"           # Bright Black
 export COLOR_10="#CE4770"           # Bright Red (Command error)
 export COLOR_11="#218871"           # Bright Green (Exec)
 export COLOR_12="#B16803"           # Bright Yellow
@@ -20,10 +20,10 @@ export COLOR_14="#6851A2"           # Bright Magenta
 export COLOR_15="#2473B6"           # Bright Cyan
 export COLOR_16="#2C232E"           # Bright White
 
-export BACKGROUND_COLOR="#FDF7F3"   # Background
+export BACKGROUND_COLOR="#F8EFE7"   # Background
 export FOREGROUND_COLOR="#2C232E"   # Foreground (Text)
 
-export CURSOR_COLOR="#2C232E" # Cursor
+export CURSOR_COLOR="#72696D" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then

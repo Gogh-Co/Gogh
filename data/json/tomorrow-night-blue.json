@@ -2,7 +2,7 @@
   "name": "Tomorrow Night Blue",
   "author": "Chris Kempson (http://chriskempson.com)",
   "variant": "dark",
-  "color_01": "#00346E",
+  "color_01": "#000000",
   "color_02": "#FF9DA4",
   "color_03": "#D1F1A9",
   "color_04": "#FFEEAD",
@@ -10,7 +10,7 @@
   "color_06": "#EBBBFF",
   "color_07": "#99FFFF",
   "color_08": "#FFFFFF",
-  "color_09": "#7285B7",
+  "color_09": "#000000",
   "color_10": "#FF9DA4",
   "color_11": "#D1F1A9",
   "color_12": "#FFEEAD",
@@ -21,5 +21,5 @@
   "background": "#002451",
   "foreground": "#FFFFFF",
   "cursor": "#FFFFFF",
-  "hash": "cc58ab0564de5c86bb1168a3cb573ad59020a64b4cc2cc4aae7903520aba60b0"
+  "hash": "433c6f08a3ca4a2a5040eca08560be31b26b9add02f5bb58de421cd336f6edc9"
 }
