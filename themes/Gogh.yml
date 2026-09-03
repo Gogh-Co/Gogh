@@ -1,27 +1,27 @@
 ---
 name: 'Gogh'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'Gogh (https://github.com/Gogh-Co/Gogh)'
 variant: 'dark'            # dark or light
 
-color_01: '#292D3E'    # Black (Host)
-color_02: '#F07178'    # Red (Syntax string)
-color_03: '#62DE84'    # Green (Command)
-color_04: '#FFCB6B'    # Yellow (Command second)
-color_05: '#75A1FF'    # Blue (Path)
-color_06: '#F580FF'    # Magenta (Syntax var)
-color_07: '#60BAEC'    # Cyan (Prompt)
-color_08: '#ABB2BF'    # White
+color_01: '#243342'    # Black (Host)
+color_02: '#C54133'    # Red (Syntax string)
+color_03: '#27AE60'    # Green (Command)
+color_04: '#EDB20A'    # Yellow (Command second)
+color_05: '#2479D0'    # Blue (Path)
+color_06: '#7D3EA0'    # Magenta (Syntax var)
+color_07: '#1D8579'    # Cyan (Prompt)
+color_08: '#C9CCCD'    # White
 
-color_09: '#959DCB'    # Bright Black
-color_10: '#F07178'    # Bright Red (Command error)
-color_11: '#C3E88D'    # Bright Green (Exec)
-color_12: '#FF5572'    # Bright Yellow
-color_13: '#82AAFF'    # Bright Blue (Folder)
-color_14: '#FFCB6B'    # Bright Magenta
-color_15: '#676E95'    # Bright Cyan
-color_16: '#FFFEFE'    # Bright White
+color_09: '#34495E'    # Bright Black
+color_10: '#E74C3C'    # Bright Red (Command error)
+color_11: '#2ECC71'    # Bright Green (Exec)
+color_12: '#F1C40F'    # Bright Yellow
+color_13: '#3498DB'    # Bright Blue (Folder)
+color_14: '#9B59B6'    # Bright Magenta
+color_15: '#2AA198'    # Bright Cyan
+color_16: '#ECF0F1'    # Bright White
 
 background: '#292D3E'  # Background
-foreground: '#BFC7D5'  # Foreground (Text)
+foreground: '#ECF0F1'  # Foreground (Text)
 
-cursor: '#BFC7D5'      # Cursor
+cursor: '#ECF0F1'      # Cursor
