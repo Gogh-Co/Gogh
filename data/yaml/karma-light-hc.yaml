@@ -1,0 +1,23 @@
+name: Karma Light HC
+author: Sreetam Das (https://github.com/sreetamdas)
+variant: light
+color_01: '#000000'
+color_02: '#C01650'
+color_03: '#1A6E1C'
+color_04: '#9C6800'
+color_05: '#2F5E9E'
+color_06: '#4D2D9A'
+color_07: '#2F5E9E'
+color_08: '#2E2C30'
+color_09: '#999999'
+color_10: '#C01650'
+color_11: '#1A6E1C'
+color_12: '#9C6800'
+color_13: '#2F5E9E'
+color_14: '#4D2D9A'
+color_15: '#2F5E9E'
+color_16: '#0A0E14'
+background: '#FFFFFF'
+foreground: '#000000'
+cursor: '#4D2D9A'
+hash: 55de5f028ea72cabf46aa1819d70ef115fe34da64a54b514aa0edf3ebde18ffd

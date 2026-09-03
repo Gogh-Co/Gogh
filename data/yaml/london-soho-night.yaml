@@ -1,0 +1,23 @@
+name: London Soho Night
+author: Scott Matthews (https://github.com/scottmatthews7)
+variant: dark
+color_01: '#2A221A'
+color_02: '#D4574A'
+color_03: '#8FAE5E'
+color_04: '#E8B04A'
+color_05: '#6A8FB5'
+color_06: '#D96AA5'
+color_07: '#9AB8A8'
+color_08: '#EBE0C8'
+color_09: '#6B5A48'
+color_10: '#E87765'
+color_11: '#AAC874'
+color_12: '#F4C560'
+color_13: '#88A8C8'
+color_14: '#ED85B8'
+color_15: '#B8CEBD'
+color_16: '#F8EED2'
+background: '#1A1612'
+foreground: '#EBE0C8'
+cursor: '#FF5DB1'
+hash: 7ebdfea2e014040b9378c980a4a21375abf48eeadc3d9d5c44c4ae38c921529a

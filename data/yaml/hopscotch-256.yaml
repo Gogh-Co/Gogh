@@ -1,0 +1,23 @@
+name: Hopscotch.256
+author: Jan T. Sott (https://github.com/idleberg/Hopscotch)
+variant: dark
+color_01: '#322931'
+color_02: '#DD464C'
+color_03: '#8FC13E'
+color_04: '#FDCC59'
+color_05: '#1290BF'
+color_06: '#C85E7C'
+color_07: '#149B93'
+color_08: '#B9B5B8'
+color_09: '#797379'
+color_10: '#DD464C'
+color_11: '#8FC13E'
+color_12: '#FDCC59'
+color_13: '#1290BF'
+color_14: '#C85E7C'
+color_15: '#149B93'
+color_16: '#FFFFFF'
+background: '#322931'
+foreground: '#B9B5B8'
+cursor: '#B9B5B8'
+hash: 604fa353cea7950c41cd7622b90ee9cfeda0f58df1591f37c6eecc412bfe55e1

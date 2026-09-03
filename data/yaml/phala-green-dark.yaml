@@ -1,0 +1,23 @@
+name: Phala Green Dark
+author: h4x3rotab (https://github.com/h4x3rotab)
+variant: dark
+color_01: '#000000'
+color_02: '#9D2814'
+color_03: '#4AAE31'
+color_04: '#A9A733'
+color_05: '#0C23B8'
+color_06: '#B23BBA'
+color_07: '#4BB1BD'
+color_08: '#CBCBCB'
+color_09: '#797979'
+color_10: '#DA3B20'
+color_11: '#5DD83F'
+color_12: '#E9E74A'
+color_13: '#1432F5'
+color_14: '#DA4BE3'
+color_15: '#64E5E8'
+color_16: '#EAEAEA'
+background: '#000000'
+foreground: '#CDFA50'
+cursor: '#CDFA50'
+hash: 4a3aa3225becdf4fe1559d3d28f4a92b8fea227ce384c41aae1f39d67b17bef7

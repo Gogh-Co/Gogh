@@ -1,0 +1,23 @@
+name: Django
+author: Jannis Leidel (https://code.djangoproject.com/wiki/TextMate)
+variant: dark
+color_01: '#000000'
+color_02: '#FD6209'
+color_03: '#41A83E'
+color_04: '#FFE862'
+color_05: '#245032'
+color_06: '#F8F8F8'
+color_07: '#9DF39F'
+color_08: '#FFFFFF'
+color_09: '#323232'
+color_10: '#FF943B'
+color_11: '#73DA70'
+color_12: '#FFFF94'
+color_13: '#568264'
+color_14: '#FFFFFF'
+color_15: '#CFFFD1'
+color_16: '#FFFFFF'
+background: '#0B2F20'
+foreground: '#F8F8F8'
+cursor: '#336442'
+hash: a083e61bb82cc5a96fcc7a41874a71df806b05a9d140a38c5a74160b13e094d1

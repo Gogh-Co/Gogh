@@ -1,0 +1,23 @@
+name: Spacegray Bright
+author: nicksay (https://github.com/nicksay)
+variant: dark
+color_01: '#080808'
+color_02: '#BC5553'
+color_03: '#A0B56C'
+color_04: '#F6C987'
+color_05: '#7BAEC1'
+color_06: '#B98AAE'
+color_07: '#85C9B8'
+color_08: '#D8D8D8'
+color_09: '#626262'
+color_10: '#BC5553'
+color_11: '#A0B56C'
+color_12: '#F6C987'
+color_13: '#7BAEC1'
+color_14: '#B98AAE'
+color_15: '#85C9B8'
+color_16: '#F7F7F7'
+background: '#2A2E3A'
+foreground: '#F3F3F3'
+cursor: '#C6C6C6'
+hash: 12314a5a2ac0bf915abcaac3c6ff891d55e4b8af417b8dcaef8c1c977f2f0b32

@@ -1,0 +1,23 @@
+name: Karma Light
+author: Sreetam Das (https://github.com/sreetamdas)
+variant: light
+color_01: '#0A0E14'
+color_02: '#FC618D'
+color_03: '#2D972F'
+color_04: '#EEAE11'
+color_05: '#5688C7'
+color_06: '#6F42C1'
+color_07: '#5688C7'
+color_08: '#525053'
+color_09: '#999999'
+color_10: '#FC618D'
+color_11: '#2D972F'
+color_12: '#FFAA33'
+color_13: '#5688C7'
+color_14: '#A86EFD'
+color_15: '#5688C7'
+color_16: '#0A0E14'
+background: '#FFFFFF'
+foreground: '#0A0E14'
+cursor: '#A86EFD'
+hash: f5a7463108008f188708073e71a46c1260976bbbd5005076a6d429e37053bf32

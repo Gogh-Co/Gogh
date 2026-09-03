@@ -1,0 +1,23 @@
+name: Terafox
+author: EdenEast (https://github.com/edeneast/nightfox.nvim)
+variant: dark
+color_01: '#2F3239'
+color_02: '#E85C51'
+color_03: '#7AA4A1'
+color_04: '#FDA47F'
+color_05: '#5A93AA'
+color_06: '#AD5C7C'
+color_07: '#A1CDD8'
+color_08: '#EBEBEB'
+color_09: '#4E5157'
+color_10: '#EB746B'
+color_11: '#8EB2AF'
+color_12: '#FDB292'
+color_13: '#73A3B7'
+color_14: '#B97490'
+color_15: '#AFD4DE'
+color_16: '#EEEEEE'
+background: '#152528'
+foreground: '#E6EAEA'
+cursor: '#E6EAEA'
+hash: 3668ec1728e47f91f607ff8cf771d1174c087b333e543405a3ecb088362491c9

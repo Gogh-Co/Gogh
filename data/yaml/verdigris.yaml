@@ -1,0 +1,23 @@
+name: Verdigris
+author: PoshPalette (https://github.com/livlign/posh-palette)
+variant: dark
+color_01: '#221C12'
+color_02: '#D9604F'
+color_03: '#A8B86A'
+color_04: '#D9A441'
+color_05: '#5FBFB0'
+color_06: '#B98FB0'
+color_07: '#8FD6B0'
+color_08: '#BFB29A'
+color_09: '#6E6450'
+color_10: '#D9604F'
+color_11: '#A8B86A'
+color_12: '#C97A45'
+color_13: '#5FBFB0'
+color_14: '#B98FB0'
+color_15: '#8FD6B0'
+color_16: '#E8DCC6'
+background: '#14110B'
+foreground: '#E8DCC6'
+cursor: '#CE8B45'
+hash: 74d98140ff4ccc1fce27785f8b3597cb735b42a05e04789b6588acefa99ae51e

@@ -1,0 +1,23 @@
+name: traffic
+author: dkeg (https://github.com/dkeg/crayolo)
+variant: dark
+color_01: '#292D31'
+color_02: '#8A5249'
+color_03: '#667269'
+color_04: '#C1A088'
+color_05: '#535E66'
+color_06: '#6E605E'
+color_07: '#606E7C'
+color_08: '#CBBAAA'
+color_09: '#434A50'
+color_10: '#8A5249'
+color_11: '#667270'
+color_12: '#C1A088'
+color_13: '#535E66'
+color_14: '#6E605E'
+color_15: '#606E7C'
+color_16: '#DACFC3'
+background: '#282C30'
+foreground: '#CBBAAA'
+cursor: '#CBBAAA'
+hash: f04b141d5ba044903b8d0e955732829620ee662fb98b869dffed585a0da65c57

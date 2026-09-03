@@ -1,0 +1,23 @@
+name: Terminal Basic Dark
+author: ''
+variant: dark
+color_01: '#000000'
+color_02: '#C65339'
+color_03: '#6AC44B'
+color_04: '#B8B74A'
+color_05: '#6444ED'
+color_06: '#D357DB'
+color_07: '#69C1CF'
+color_08: '#D1D1D1'
+color_09: '#909090'
+color_10: '#EB5A3A'
+color_11: '#77EA51'
+color_12: '#EFEF53'
+color_13: '#D09AF9'
+color_14: '#EB5AF7'
+color_15: '#78F1F2'
+color_16: '#EDEDED'
+background: '#1D1E1D'
+foreground: '#FFFFFF'
+cursor: '#9D9D9D'
+hash: 5f5e218d80a8fc03a7ae9bf2b6937a5176697c14827907b4e59b5f9f6ee05538

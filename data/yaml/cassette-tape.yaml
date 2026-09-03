@@ -1,0 +1,23 @@
+name: Cassette Tape
+author: theebest.com (https://www.theebest.com)
+variant: light
+color_01: '#514339'
+color_02: '#B91C1C'
+color_03: '#3F6212'
+color_04: '#BE123C'
+color_05: '#7C2D12'
+color_06: '#0F766E'
+color_07: '#B45309'
+color_08: '#6B4F3F'
+color_09: '#C4B39A'
+color_10: '#941616'
+color_11: '#324E0E'
+color_12: '#9C0F31'
+color_13: '#63240E'
+color_14: '#0C5E58'
+color_15: '#904207'
+color_16: '#2B1B12'
+background: '#FFF7ED'
+foreground: '#2B1B12'
+cursor: '#2B1B12'
+hash: 2840ca04ddf54b0b07b971063276bf061f26d4fc6e3ce7b828305e3bdbc98c30

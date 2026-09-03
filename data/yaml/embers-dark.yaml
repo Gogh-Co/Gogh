@@ -1,0 +1,23 @@
+name: Embers Dark
+author: plyght (https://peril.lol)
+variant: dark
+color_01: '#16130F'
+color_02: '#826D57'
+color_03: '#57826D'
+color_04: '#6D8257'
+color_05: '#6D5782'
+color_06: '#82576D'
+color_07: '#576D82'
+color_08: '#A39A90'
+color_09: '#5A5047'
+color_10: '#828257'
+color_11: '#2C2620'
+color_12: '#433B32'
+color_13: '#8A8075'
+color_14: '#BEB6AE'
+color_15: '#825757'
+color_16: '#DBD6D1'
+background: '#16130F'
+foreground: '#A39A90'
+cursor: '#A39A90'
+hash: e359d6dbbcedab8633d68f57ba67843407ef9197d0ca2091655b80fcbae39b1b

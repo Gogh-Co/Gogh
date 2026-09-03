@@ -1,0 +1,23 @@
+name: Green Phosphor CRT
+author: PoshPalette (https://github.com/livlign/posh-palette)
+variant: dark
+color_01: '#002200'
+color_02: '#00AA00'
+color_03: '#33FF33'
+color_04: '#66FF66'
+color_05: '#00CC44'
+color_06: '#00FF88'
+color_07: '#66FFAA'
+color_08: '#B6FFB6'
+color_09: '#0A5A0A'
+color_10: '#19CC19'
+color_11: '#66FF66'
+color_12: '#99FF99'
+color_13: '#33FF77'
+color_14: '#66FFAA'
+color_15: '#99FFCC'
+color_16: '#E6FFE6'
+background: '#0B0F0B'
+foreground: '#33FF33'
+cursor: '#33FF33'
+hash: d98195b6a05ef862c58bc1f24e386f450c84140e936018859677383187667d49

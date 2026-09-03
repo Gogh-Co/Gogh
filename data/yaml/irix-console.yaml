@@ -1,0 +1,23 @@
+name: IRIX Console
+author: Skeeve (https://github.com/Skeeve)
+variant: dark
+color_01: '#1A1919'
+color_02: '#D42426'
+color_03: '#37A327'
+color_04: '#C29D28'
+color_05: '#0739E2'
+color_06: '#911F9C'
+color_07: '#4497DF'
+color_08: '#CCCCCC'
+color_09: '#767676'
+color_10: '#F34F59'
+color_11: '#45C731'
+color_12: '#F9F2A7'
+color_13: '#4079FF'
+color_14: '#C31BA2'
+color_15: '#6ED7D7'
+color_16: '#F2F2F2'
+background: '#0C0C0C'
+foreground: '#F2F2F2'
+cursor: '#C7C7C7'
+hash: da9db064a85eb67ba1e20fbee389aa71dad57f2e8de0f52be548e59abc08ee83

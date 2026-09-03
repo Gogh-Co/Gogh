@@ -1,0 +1,23 @@
+name: Farmhouse Dark
+author: mattly (https://github.com/mattly)
+variant: dark
+color_01: '#1D2027'
+color_02: '#BA0004'
+color_03: '#549D00'
+color_04: '#C87300'
+color_05: '#0049E6'
+color_06: '#9F1B61'
+color_07: '#1FB65C'
+color_08: '#E8E4E1'
+color_09: '#394047'
+color_10: '#EB0009'
+color_11: '#7AC100'
+color_12: '#EA9A00'
+color_13: '#006EFE'
+color_14: '#BF3B7F'
+color_15: '#19E062'
+color_16: '#F4EEF0'
+background: '#1D2027'
+foreground: '#E8E4E1'
+cursor: '#006EFE'
+hash: 2269c1556e4c005205e40de531194eb7d99202f4ade7fcf7348f5d25c076a9db

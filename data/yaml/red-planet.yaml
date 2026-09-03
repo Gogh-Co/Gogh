@@ -1,0 +1,23 @@
+name: Red Planet
+author: ibrokemypie (https://github.com/ibrokemypie)
+variant: dark
+color_01: '#202020'
+color_02: '#8C3432'
+color_03: '#728271'
+color_04: '#E8BF6A'
+color_05: '#69819E'
+color_06: '#896492'
+color_07: '#5B8390'
+color_08: '#B9AA99'
+color_09: '#676767'
+color_10: '#B55242'
+color_11: '#869985'
+color_12: '#EBEB91'
+color_13: '#60827E'
+color_14: '#DE4974'
+color_15: '#38ADD8'
+color_16: '#D6BFB8'
+background: '#222222'
+foreground: '#C2B790'
+cursor: '#C2B790'
+hash: 5c0018d4033ac9bdd4aecfb31a63312118bf914f5cbbf9a34603a980f1e64311

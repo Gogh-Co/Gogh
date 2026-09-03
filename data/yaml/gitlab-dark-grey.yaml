@@ -1,0 +1,23 @@
+name: GitLab Dark Grey
+author: Antonio Camargo (https://github.com/apcamargo)
+variant: dark
+color_01: '#000000'
+color_02: '#F57F6C'
+color_03: '#52B87A'
+color_04: '#D99530'
+color_05: '#7FB6ED'
+color_06: '#F88AAF'
+color_07: '#32C5D2'
+color_08: '#FFFFFF'
+color_09: '#666666'
+color_10: '#FCB5AA'
+color_11: '#91D4A8'
+color_12: '#E9BE74'
+color_13: '#498DD1'
+color_14: '#FCACC5'
+color_15: '#5EDEE3'
+color_16: '#FFFFFF'
+background: '#222222'
+foreground: '#FFFFFF'
+cursor: '#FFFFFF'
+hash: b8924b8ca3e966b367ef448123779ff98ef7ca7254bc09c4aa808e64b7b03327

@@ -1,0 +1,23 @@
+name: Sequoia Retro Light
+author: Michael Andreuzza (https://github.com/michael-andreuzza)
+variant: light
+color_01: '#D4D5DC'
+color_02: '#5F7982'
+color_03: '#4A704E'
+color_04: '#BF5238'
+color_05: '#456A82'
+color_06: '#C99730'
+color_07: '#8A6539'
+color_08: '#282930'
+color_09: '#42434E'
+color_10: '#C99730'
+color_11: '#4A704E'
+color_12: '#BF5238'
+color_13: '#456A82'
+color_14: '#5F7982'
+color_15: '#8A6539'
+color_16: '#282930'
+background: '#EDEEF2'
+foreground: '#282930'
+cursor: '#565760'
+hash: dd4e04d9d7d6c97df1c855e0cb954d4b94c2b4e8101af572b9c576995b4458eb

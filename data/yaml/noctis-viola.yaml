@@ -1,0 +1,23 @@
+name: Noctis Viola
+author: Liviu Schera (https://github.com/liviuschera)
+variant: dark
+color_01: '#362F3D'
+color_02: '#E66533'
+color_03: '#49E9A6'
+color_04: '#E4B781'
+color_05: '#49ACE9'
+color_06: '#DF769B'
+color_07: '#49D6E9'
+color_08: '#BFAFCF'
+color_09: '#594E65'
+color_10: '#E97749'
+color_11: '#60EBB1'
+color_12: '#E69533'
+color_13: '#60B6EB'
+color_14: '#E798B3'
+color_15: '#60DBEB'
+color_16: '#CCBFD9'
+background: '#30243D'
+foreground: '#CCBFD9'
+cursor: '#CCBFD9'
+hash: b2753b3584386a5edc855307d637ae2bd4ad5f1e11ee865272a17f80a46c00e4

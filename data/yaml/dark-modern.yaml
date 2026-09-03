@@ -1,0 +1,23 @@
+name: Dark Modern
+author: zasdaym (https://github.com/zasdaym)
+variant: dark
+color_01: '#272727'
+color_02: '#F74949'
+color_03: '#2EA043'
+color_04: '#9E6A03'
+color_05: '#0078D4'
+color_06: '#D01273'
+color_07: '#1DB4D6'
+color_08: '#CCCCCC'
+color_09: '#5D5D5D'
+color_10: '#DC5452'
+color_11: '#23D18B'
+color_12: '#F5F543'
+color_13: '#3B8EEA'
+color_14: '#D670D6'
+color_15: '#29B8DB'
+color_16: '#E5E5E5'
+background: '#1F1F1F'
+foreground: '#CCCCCC'
+cursor: '#FFFFFF'
+hash: 2eb3f60b0883f741f6d5a6c49147e594cf6a24163e96bc89e6e0796a9844cb79

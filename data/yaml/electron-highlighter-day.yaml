@@ -1,0 +1,23 @@
+name: Electron Highlighter Day
+author: mikemcbride (https://github.com/mikemcbride)
+variant: light
+color_01: '#C2C6D4'
+color_02: '#F52A65'
+color_03: '#10A877'
+color_04: '#DF8E1D'
+color_05: '#366FF0'
+color_06: '#8B4FE0'
+color_07: '#0A9FBF'
+color_08: '#59647E'
+color_09: '#7B88A8'
+color_10: '#F52A65'
+color_11: '#10A877'
+color_12: '#DF8E1D'
+color_13: '#366FF0'
+color_14: '#8B4FE0'
+color_15: '#0A9FBF'
+color_16: '#2F3B54'
+background: '#EEF0F5'
+foreground: '#2F3B54'
+cursor: '#2F3B54'
+hash: 0a28cf6e29118c6f8073e7d3cfa11eb0a0d5b383bc924f43facbfb2514d26f61

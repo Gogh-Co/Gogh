@@ -1,0 +1,23 @@
+name: Dayfox
+author: EdenEast (https://github.com/edeneast/nightfox.nvim)
+variant: light
+color_01: '#352C24'
+color_02: '#A5222F'
+color_03: '#396847'
+color_04: '#AC5402'
+color_05: '#2848A9'
+color_06: '#6E33CE'
+color_07: '#287980'
+color_08: '#F2E9E1'
+color_09: '#534C45'
+color_10: '#B3434E'
+color_11: '#577F63'
+color_12: '#B86E28'
+color_13: '#4863B6'
+color_14: '#8452D5'
+color_15: '#488D93'
+color_16: '#F4ECE6'
+background: '#F6F2EE'
+foreground: '#3D2B5A'
+cursor: '#3D2B5A'
+hash: c0b3b0e5ab8c62156385f6b7dce864961c834daa1a40dd87ddb6b4052f7ae166

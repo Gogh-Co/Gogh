@@ -1,0 +1,23 @@
+name: Sandstone Ink
+author: ''
+variant: light
+color_01: '#002B36'
+color_02: '#CF2522'
+color_03: '#4B7000'
+color_04: '#906800'
+color_05: '#0D6FA8'
+color_06: '#B5006E'
+color_07: '#00756D'
+color_08: '#6E6855'
+color_09: '#2B3D45'
+color_10: '#B33000'
+color_11: '#536868'
+color_12: '#566C6C'
+color_13: '#5C6F6F'
+color_14: '#5F64B7'
+color_15: '#5F6E6E'
+color_16: '#FDF6E3'
+background: '#FDF6E3'
+foreground: '#2B3D45'
+cursor: '#2B3D45'
+hash: 9fee34ff6849f3a582579aa5f2ea01ca560031da358f47593b39039b5308858c

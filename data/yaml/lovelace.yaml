@@ -1,0 +1,23 @@
+name: Lovelace
+author: nalanbar (https://github.com/nalanbar)
+variant: dark
+color_01: '#282A36'
+color_02: '#F37F97'
+color_03: '#5ADECD'
+color_04: '#F2A272'
+color_05: '#8897F4'
+color_06: '#C574DD'
+color_07: '#79E6F3'
+color_08: '#FDFDFD'
+color_09: '#414458'
+color_10: '#FF4971'
+color_11: '#18E3C8'
+color_12: '#FF8037'
+color_13: '#556FFF'
+color_14: '#B043D1'
+color_15: '#3FDCEE'
+color_16: '#BEBEC1'
+background: '#1D1F28'
+foreground: '#FDFDFD'
+cursor: '#C574DD'
+hash: 32809ab876fb1bf80924a6caa00d78a7e5f3fdec5a34ce522254269dfa93562c

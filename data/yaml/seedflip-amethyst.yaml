@@ -1,0 +1,23 @@
+name: SeedFlip Amethyst
+author: ''
+variant: light
+color_01: '#D7D1CB'
+color_02: '#BD0F0F'
+color_03: '#0FBD49'
+color_04: '#BDA00F'
+color_05: '#0F58BD'
+color_06: '#BD0FBD'
+color_07: '#0FBDBD'
+color_08: '#0E0519'
+color_09: '#B5ABA0'
+color_10: '#EE2B2B'
+color_11: '#12D452'
+color_12: '#D4B312'
+color_13: '#2B7CEE'
+color_14: '#EE2BEE'
+color_15: '#05C8C8'
+color_16: '#1A0A2E'
+background: '#F8F7F6'
+foreground: '#1A0A2E'
+cursor: '#635BFF'
+hash: 150f9e4349e174d4c5ca51e2fc8795154df7a2b563ad1ea546c3fb1d00ca6572

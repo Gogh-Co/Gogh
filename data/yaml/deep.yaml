@@ -1,0 +1,23 @@
+name: Deep
+author: ADoyle (https://github.com/adoyle-h)
+variant: dark
+color_01: '#000000'
+color_02: '#D70005'
+color_03: '#1CD915'
+color_04: '#D9BD26'
+color_05: '#5665FF'
+color_06: '#B052DA'
+color_07: '#50D2DA'
+color_08: '#E0E0E0'
+color_09: '#535353'
+color_10: '#FB0007'
+color_11: '#22FF18'
+color_12: '#FEDC2B'
+color_13: '#9FA9FF'
+color_14: '#E09AFF'
+color_15: '#8DF9FF'
+color_16: '#FFFFFF'
+background: '#090909'
+foreground: '#CDCDCD'
+cursor: '#D0D0D0'
+hash: beb51825d4cc75b0871cdf7f9e18b0b39b893e3301d438b1007d49c54b9b5065

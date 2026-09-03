@@ -1,0 +1,23 @@
+name: SeedFlip Ultraviolet
+author: ''
+variant: dark
+color_01: '#05000A'
+color_02: '#F04242'
+color_03: '#42F07C'
+color_04: '#F0D342'
+color_05: '#428BF0'
+color_06: '#F042F0'
+color_07: '#42F0F0'
+color_08: '#F6F3FB'
+color_09: '#5B2687'
+color_10: '#F58989'
+color_11: '#89F5AD'
+color_12: '#F5E389'
+color_13: '#89B6F5'
+color_14: '#F589F5'
+color_15: '#89F5F5'
+color_16: '#FFFFFF'
+background: '#0B0014'
+foreground: '#E8E0F5'
+cursor: '#C77DFF'
+hash: e5ca855dd913056a6829d7939fc174c985abda628dee2140375d51cdc6c3c525

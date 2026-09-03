@@ -1,0 +1,23 @@
+name: Aurora
+author: fcsmJS (https://github.com/fcsmJS/iTerm2-Color-Schemes)
+variant: dark
+color_01: '#23262E'
+color_02: '#F0266F'
+color_03: '#8FD46D'
+color_04: '#FFE66D'
+color_05: '#0321D7'
+color_06: '#EE5D43'
+color_07: '#03D6B8'
+color_08: '#C74DED'
+color_09: '#292E38'
+color_10: '#F92672'
+color_11: '#8FD46D'
+color_12: '#FFE66D'
+color_13: '#03D6B8'
+color_14: '#EE5D43'
+color_15: '#03D6B8'
+color_16: '#C74DED'
+background: '#23262E'
+foreground: '#FFCA28'
+cursor: '#EE5D43'
+hash: 20ca19da1a68c955c2a5ac9d28a9bbca1547a5cf2c1c8e3fb229adb719f94715

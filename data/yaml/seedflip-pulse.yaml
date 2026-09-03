@@ -1,0 +1,23 @@
+name: SeedFlip Pulse
+author: ''
+variant: dark
+color_01: '#0D0D0D'
+color_02: '#E34F4F'
+color_03: '#4FE380'
+color_04: '#E3CB4F'
+color_05: '#4F8DE3'
+color_06: '#E34FE3'
+color_07: '#4FE3E3'
+color_08: '#FFFFFF'
+color_09: '#454545'
+color_10: '#EE9191'
+color_11: '#91EEB0'
+color_12: '#EEDE91'
+color_13: '#91B8EE'
+color_14: '#EE91EE'
+color_15: '#91EEEE'
+color_16: '#FFFFFF'
+background: '#121212'
+foreground: '#FFFFFF'
+cursor: '#1DB954'
+hash: 4a7573c7586a4af8f8f7576530866d7667c8aa557a41bd71dbe146f0b53d919b

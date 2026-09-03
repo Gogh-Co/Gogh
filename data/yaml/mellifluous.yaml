@@ -1,0 +1,23 @@
+name: Mellifluous
+author: rektdeckard (https://github.com/rektdeckard)
+variant: dark
+color_01: '#1A1A1A'
+color_02: '#D29393'
+color_03: '#B3B393'
+color_04: '#CBAA89'
+color_05: '#A8A1BE'
+color_06: '#B39FB0'
+color_07: '#C0AF8C'
+color_08: '#DADADA'
+color_09: '#5B5B5B'
+color_10: '#C95954'
+color_11: '#828040'
+color_12: '#A6794C'
+color_13: '#5A6599'
+color_14: '#9C6995'
+color_15: '#74A39E'
+color_16: '#FFFFFF'
+background: '#1A1A1A'
+foreground: '#DADADA'
+cursor: '#BFAD9E'
+hash: 02f2865b951cf5236bdce37bd6927b42cce30fa51d79b33f8c40de6d8cb7bb44

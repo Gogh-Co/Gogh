@@ -1,0 +1,23 @@
+name: Neon
+author: phosphorcube (https://github.com/phosphorcube/iTerm2-Color-Schemes)
+variant: dark
+color_01: '#000000'
+color_02: '#FF3045'
+color_03: '#5FFA74'
+color_04: '#FFFC7E'
+color_05: '#0208CB'
+color_06: '#F924E7'
+color_07: '#00FFFC'
+color_08: '#C7C7C7'
+color_09: '#686868'
+color_10: '#FF5A5A'
+color_11: '#75FF88'
+color_12: '#FFFD96'
+color_13: '#3C40CB'
+color_14: '#F15BE5'
+color_15: '#88FFFE'
+color_16: '#FFFFFF'
+background: '#14161A'
+foreground: '#00FFFC'
+cursor: '#C7C7C7'
+hash: b99bcd394f63cbb31830d75b957f462770a2397e51f02bf44aa57c44fac097d1

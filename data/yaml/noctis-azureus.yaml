@@ -1,0 +1,23 @@
+name: Noctis Azureus
+author: Liviu Schera (https://github.com/liviuschera)
+variant: dark
+color_01: '#28353E'
+color_02: '#E66533'
+color_03: '#49E9A6'
+color_04: '#E4B781'
+color_05: '#49ACE9'
+color_06: '#DF769B'
+color_07: '#49D6E9'
+color_08: '#AEC3D0'
+color_09: '#475E6C'
+color_10: '#E97749'
+color_11: '#60EBB1'
+color_12: '#E69533'
+color_13: '#60B6EB'
+color_14: '#E798B3'
+color_15: '#60DBEB'
+color_16: '#BECFDA'
+background: '#07273B'
+foreground: '#BECFDA'
+cursor: '#BECFDA'
+hash: c3c5e9d1387a0b7034f4fa64ef6ce2e57201a37a8616002bbf19a7d992be2b44

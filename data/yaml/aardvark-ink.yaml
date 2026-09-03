@@ -1,0 +1,23 @@
+name: Aardvark Ink
+author: joshka (https://github.com/joshka)
+variant: dark
+color_01: '#222734'
+color_02: '#C26265'
+color_03: '#52AA60'
+color_04: '#AD9B49'
+color_05: '#487FD4'
+color_06: '#AF5BD1'
+color_07: '#269D9A'
+color_08: '#5A6377'
+color_09: '#3A4152'
+color_10: '#E48383'
+color_11: '#75CF84'
+color_12: '#C7B461'
+color_13: '#76A8F2'
+color_14: '#D58BF0'
+color_15: '#52C4C0'
+color_16: '#DFE5EE'
+background: '#0F141F'
+foreground: '#B4BCCA'
+cursor: '#B4BCCA'
+hash: 117b68891346e9d5ccecf0eb9721c1a7f77aede0fcb3f73a0852428ba7e3fca6

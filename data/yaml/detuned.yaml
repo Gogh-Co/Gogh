@@ -1,0 +1,23 @@
+name: Detuned
+author: akx (https://github.com/akx)
+variant: dark
+color_01: '#171717'
+color_02: '#EA5386'
+color_03: '#B3E153'
+color_04: '#E4DA81'
+color_05: '#4192D3'
+color_06: '#8F3EF6'
+color_07: '#6CB4D5'
+color_08: '#C7C7C7'
+color_09: '#686868'
+color_10: '#EA86AC'
+color_11: '#C5E280'
+color_12: '#FDF38F'
+color_13: '#55BBF9'
+color_14: '#B9A0F9'
+color_15: '#7FD4FB'
+color_16: '#FFFFFF'
+background: '#000000'
+foreground: '#C7C7C7'
+cursor: '#C7C7C7'
+hash: b4ce255f2d18a42c6c25d09ac1ed5d1ab650e1bae4cb29879ee5a2caec489f7c

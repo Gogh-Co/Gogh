@@ -1,0 +1,23 @@
+name: One Half Light
+author: sonph (https://github.com/sonph)
+variant: light
+color_01: '#383A42'
+color_02: '#E45649'
+color_03: '#50A14F'
+color_04: '#C18401'
+color_05: '#0184BC'
+color_06: '#A626A4'
+color_07: '#0997B3'
+color_08: '#FAFAFA'
+color_09: '#4F525E'
+color_10: '#E06C75'
+color_11: '#98C379'
+color_12: '#E5C07B'
+color_13: '#61AFEF'
+color_14: '#C678DD'
+color_15: '#56B6C2'
+color_16: '#FFFFFF'
+background: '#FAFAFA'
+foreground: '#383A42'
+cursor: '#BFCEFF'
+hash: cc11836bf888b7c7b0b24a983922fa927dbc82517c96eabfbd4db63ca745e479

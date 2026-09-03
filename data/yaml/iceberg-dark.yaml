@@ -1,0 +1,23 @@
+name: Iceberg Dark
+author: cocopon (https://github.com/cocopon/iceberg.vim)
+variant: dark
+color_01: '#1E2132'
+color_02: '#E27878'
+color_03: '#B4BE82'
+color_04: '#E2A478'
+color_05: '#84A0C6'
+color_06: '#A093C7'
+color_07: '#89B8C2'
+color_08: '#C6C8D1'
+color_09: '#6B7089'
+color_10: '#E98989'
+color_11: '#C0CA8E'
+color_12: '#E9B189'
+color_13: '#91ACD1'
+color_14: '#ADA0D3'
+color_15: '#95C4CE'
+color_16: '#D2D4DE'
+background: '#161821'
+foreground: '#C6C8D1'
+cursor: '#C6C8D1'
+hash: bd258dc328134044ac37989ce20e4c8a7933c6ff50013bb528f60f35ca161cdd

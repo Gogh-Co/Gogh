@@ -1,0 +1,23 @@
+name: Amber CRT Retro
+author: PoshPalette (https://github.com/livlign/posh-palette)
+variant: dark
+color_01: '#2A1E00'
+color_02: '#FF6A00'
+color_03: '#FFB000'
+color_04: '#FFC742'
+color_05: '#FF8C00'
+color_06: '#FFA033'
+color_07: '#FFD27F'
+color_08: '#FFD9A0'
+color_09: '#6A4E00'
+color_10: '#FF8A1E'
+color_11: '#FFC742'
+color_12: '#FFE08A'
+color_13: '#FFAB3D'
+color_14: '#FFC266'
+color_15: '#FFE3B0'
+color_16: '#FFF0D6'
+background: '#1A1200'
+foreground: '#FFB000'
+cursor: '#FFB000'
+hash: 6e35bc5af44695aea6539b293ac78f9c2d91e098dcae696a68a6e8247d268708

@@ -1,0 +1,23 @@
+name: Adventure
+author: hongzimao (https://github.com/hongzimao/iTerm2-Color-Schemes)
+variant: dark
+color_01: '#040404'
+color_02: '#D84A33'
+color_03: '#5DA602'
+color_04: '#EEBB6E'
+color_05: '#417AB3'
+color_06: '#E5C499'
+color_07: '#BDCFE5'
+color_08: '#DBDED8'
+color_09: '#685656'
+color_10: '#D76B42'
+color_11: '#99B52C'
+color_12: '#FFB670'
+color_13: '#97D7EF'
+color_14: '#AA7900'
+color_15: '#BDCFE5'
+color_16: '#E4D5C7'
+background: '#040404'
+foreground: '#FEFFFF'
+cursor: '#FEFFFF'
+hash: a2a6b8b3cd800e02d8b6c3560f196179538c1ad0c8850711307bc62a56285352

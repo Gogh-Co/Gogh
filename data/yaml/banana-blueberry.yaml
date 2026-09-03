@@ -1,0 +1,23 @@
+name: Banana Blueberry
+author: ''
+variant: dark
+color_01: '#17141F'
+color_02: '#FF6B7F'
+color_03: '#00BD9C'
+color_04: '#E6C62F'
+color_05: '#22E8DF'
+color_06: '#DC396A'
+color_07: '#56B6C2'
+color_08: '#F1F1F1'
+color_09: '#495162'
+color_10: '#FE9EA1'
+color_11: '#98C379'
+color_12: '#F9E46B'
+color_13: '#91FFF4'
+color_14: '#DA70D6'
+color_15: '#BCF3FF'
+color_16: '#FFFFFF'
+background: '#191323'
+foreground: '#CCCCCC'
+cursor: '#E07D13'
+hash: c1d090b5587f0a7ab8462638d7ffbe6ed352e8540bedb3311b49d6109b88e6e4

@@ -1,0 +1,23 @@
+name: Cursor Dark
+author: ''
+variant: dark
+color_01: '#242424'
+color_02: '#FC6B83'
+color_03: '#3FA266'
+color_04: '#D2943E'
+color_05: '#81A1C1'
+color_06: '#B48EAD'
+color_07: '#88C0D0'
+color_08: '#E4E4E4'
+color_09: '#4A4A4A'
+color_10: '#FC6B83'
+color_11: '#70B489'
+color_12: '#F1B467'
+color_13: '#87A6C4'
+color_14: '#B48EAD'
+color_15: '#88C0D0'
+color_16: '#E4E4E4'
+background: '#141414'
+foreground: '#D4D4D4'
+cursor: '#D4D4D4'
+hash: fa108e064f13866b567577f02f834b34cea5d0a60a5fa059e149c0a2ec0622eb

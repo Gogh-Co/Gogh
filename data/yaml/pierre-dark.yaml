@@ -1,0 +1,23 @@
+name: Pierre Dark
+author: ''
+variant: dark
+color_01: '#141415'
+color_02: '#FF2E3F'
+color_03: '#0DBE4E'
+color_04: '#FFCA00'
+color_05: '#009FFF'
+color_06: '#C635E4'
+color_07: '#08C0EF'
+color_08: '#C6C6C8'
+color_09: '#6C6C71'
+color_10: '#FF6762'
+color_11: '#5ECC71'
+color_12: '#FFD452'
+color_13: '#69B1FF'
+color_14: '#D568EA'
+color_15: '#68CDF2'
+color_16: '#FBFBFB'
+background: '#070707'
+foreground: '#FBFBFB'
+cursor: '#009FFF'
+hash: 4c57277e539ecbd28cc0ee91727316919e11b33e1a81aece5db93f6f17da040b

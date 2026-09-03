@@ -1,0 +1,23 @@
+name: Atom One Light
+author: iamstarkov (https://github.com/iamstarkov)
+variant: light
+color_01: '#000000'
+color_02: '#DE3E35'
+color_03: '#3F953A'
+color_04: '#D2B67C'
+color_05: '#2F5AF3'
+color_06: '#950095'
+color_07: '#3F953A'
+color_08: '#BBBBBB'
+color_09: '#000000'
+color_10: '#DE3E35'
+color_11: '#3F953A'
+color_12: '#D2B67C'
+color_13: '#2F5AF3'
+color_14: '#A00095'
+color_15: '#3F953A'
+color_16: '#FFFFFF'
+background: '#F9F9F9'
+foreground: '#2A2C33'
+cursor: '#BBBBBB'
+hash: 167be67d78cbaeb2090bf02b84fe5e06125cd1ea53a0eff7066ce2f2b61d20e2

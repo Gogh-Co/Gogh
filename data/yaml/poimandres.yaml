@@ -1,0 +1,23 @@
+name: Poimandres
+author: drcmda (https://github.com/drcmda/poimandres-theme)
+variant: dark
+color_01: '#1A1E28'
+color_02: '#D0679D'
+color_03: '#5DE4C7'
+color_04: '#FFFAC2'
+color_05: '#89DDFF'
+color_06: '#FCC5E9'
+color_07: '#ADD7FF'
+color_08: '#FFFFFF'
+color_09: '#A6ACCD'
+color_10: '#D0679D'
+color_11: '#5DE4C7'
+color_12: '#FFFAC2'
+color_13: '#ADD7FF'
+color_14: '#FAE4FC'
+color_15: '#89DDFF'
+color_16: '#FFFFFF'
+background: '#1A1E28'
+foreground: '#A6ACCD'
+cursor: '#FFFFFF'
+hash: 68b55c86d482101676f1b93d264896381c852bee78557675923b59dc63e95e13

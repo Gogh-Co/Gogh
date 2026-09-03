@@ -1,0 +1,23 @@
+name: Apple Classic
+author: Brian Meyer (https://github.com/CodeMonkeyBrian)
+variant: dark
+color_01: '#000000'
+color_02: '#C91B00'
+color_03: '#00C200'
+color_04: '#C7C400'
+color_05: '#0225C7'
+color_06: '#CA30C7'
+color_07: '#00C5C7'
+color_08: '#C7C7C7'
+color_09: '#686868'
+color_10: '#FF6E67'
+color_11: '#5FFA68'
+color_12: '#FFFC67'
+color_13: '#6871FF'
+color_14: '#FF77FF'
+color_15: '#60FDFF'
+color_16: '#FFFFFF'
+background: '#2C2B2B'
+foreground: '#D5A200'
+cursor: '#C7C7C7'
+hash: d4b38505d8afa0133dd558c5a3d113436d13353b0eeae6267592a08b41cd88cf

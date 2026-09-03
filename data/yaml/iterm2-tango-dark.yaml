@@ -1,0 +1,23 @@
+name: iTerm2 Tango Dark
+author: ''
+variant: dark
+color_01: '#000000'
+color_02: '#D81E00'
+color_03: '#5EA702'
+color_04: '#CFAE00'
+color_05: '#427AB3'
+color_06: '#89658E'
+color_07: '#00A7AA'
+color_08: '#DBDED8'
+color_09: '#686A66'
+color_10: '#F54235'
+color_11: '#99E343'
+color_12: '#FDEB61'
+color_13: '#84B0D8'
+color_14: '#BC94B7'
+color_15: '#37E6E8'
+color_16: '#F1F1F0'
+background: '#000000'
+foreground: '#FFFFFF'
+cursor: '#FFFFFF'
+hash: 50e84b802439756b999c8dd979f0f547ca596af32c27f237734974957ab0043f

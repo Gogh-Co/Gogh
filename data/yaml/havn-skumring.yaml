@@ -1,0 +1,23 @@
+name: Havn Skumring
+author: ''
+variant: dark
+color_01: '#262C45'
+color_02: '#D96048'
+color_03: '#7CAB7F'
+color_04: '#EEB64E'
+color_05: '#5D6BEF'
+color_06: '#7A729A'
+color_07: '#CA8CBE'
+color_08: '#DDE0ED'
+color_09: '#212840'
+color_10: '#C47768'
+color_11: '#8F9D90'
+color_12: '#E4C693'
+color_13: '#5D85C6'
+color_14: '#967DE7'
+color_15: '#C57EB3'
+color_16: '#FDF6E3'
+background: '#121521'
+foreground: '#D7DBEA'
+cursor: '#40786F'
+hash: f0b59cc654d8a95a353c609658b43fd5b93aacfa172a178ab66087277f03e4dc

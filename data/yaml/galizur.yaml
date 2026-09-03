@@ -1,0 +1,23 @@
+name: Galizur
+author: Raziel Anarki (https://github.com/razielanarki)
+variant: dark
+color_01: '#223344'
+color_02: '#AA1122'
+color_03: '#33AA11'
+color_04: '#CCAA22'
+color_05: '#2255CC'
+color_06: '#7755AA'
+color_07: '#22BBDD'
+color_08: '#8899AA'
+color_09: '#556677'
+color_10: '#FF1133'
+color_11: '#33FF11'
+color_12: '#FFDD33'
+color_13: '#3377FF'
+color_14: '#AA77FF'
+color_15: '#33DDFF'
+color_16: '#BBCCDD'
+background: '#071317'
+foreground: '#DDEEFF'
+cursor: '#DDEEFF'
+hash: ab5bd9c144080dc0b228e7bf37ed152c7a84d5ad933510d1a879e54a62aedfab

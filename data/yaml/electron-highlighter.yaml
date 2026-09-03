@@ -1,0 +1,23 @@
+name: Electron Highlighter
+author: mikemcbride (https://github.com/mikemcbride)
+variant: dark
+color_01: '#15161E'
+color_02: '#F7768E'
+color_03: '#58FFC7'
+color_04: '#FFECB8'
+color_05: '#82AAFF'
+color_06: '#D2A6EF'
+color_07: '#5CE1FF'
+color_08: '#7586B3'
+color_09: '#4E5B88'
+color_10: '#F7768E'
+color_11: '#58FFC7'
+color_12: '#FFECB8'
+color_13: '#82AAFF'
+color_14: '#D2A6EF'
+color_15: '#5CE1FF'
+color_16: '#C5CDE0'
+background: '#24283B'
+foreground: '#A8B5D1'
+cursor: '#A8B5D1'
+hash: b2abc4851a104a06025bfb86d1ad3bfb11823f594d3723c9e0939d5ccd8cb4f6

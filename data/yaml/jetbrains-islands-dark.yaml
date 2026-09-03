@@ -1,0 +1,23 @@
+name: JetBrains Islands Dark
+author: ch1re (https://github.com/bbeny123)
+variant: dark
+color_01: '#191A1C'
+color_02: '#F75464'
+color_03: '#6AAB73'
+color_04: '#CF8E6D'
+color_05: '#56A8F5'
+color_06: '#C77DBB'
+color_07: '#2AACB8'
+color_08: '#BCBEC4'
+color_09: '#7A7E85'
+color_10: '#F57E84'
+color_11: '#6DB083'
+color_12: '#F0AC81'
+color_13: '#548AF7'
+color_14: '#B189F5'
+color_15: '#16BAAC'
+color_16: '#FFFFFF'
+background: '#191A1C'
+foreground: '#BCBEC4'
+cursor: '#CED0D6'
+hash: 6e57170a1c1be0d1e43c16dc22f70c7252432aa64e7857f586daa0a21352285c

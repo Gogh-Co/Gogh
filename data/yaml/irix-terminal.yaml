@@ -1,0 +1,23 @@
+name: IRIX Terminal
+author: Skeeve (https://github.com/Skeeve)
+variant: dark
+color_01: '#1A1919'
+color_02: '#FF2B1E'
+color_03: '#57FF3D'
+color_04: '#FFFF44'
+color_05: '#0004FF'
+color_06: '#FF2CFF'
+color_07: '#56FFFF'
+color_08: '#FFFFFF'
+color_09: '#FFFF44'
+color_10: '#FFFF44'
+color_11: '#FFFF44'
+color_12: '#FFFC72'
+color_13: '#FFFF44'
+color_14: '#FFFF44'
+color_15: '#FFFF44'
+color_16: '#FFFF44'
+background: '#000043'
+foreground: '#F2F2F2'
+cursor: '#C7C7C7'
+hash: db06b4800e9c5d2ddd0cb925a364c77e8c91b0d7a1de48bc2cd3813420047947

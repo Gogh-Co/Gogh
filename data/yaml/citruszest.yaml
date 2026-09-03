@@ -1,0 +1,23 @@
+name: Citruszest
+author: zootedb0t (https://github.com/zootedb0t)
+variant: dark
+color_01: '#404040'
+color_02: '#FF5454'
+color_03: '#00CC7A'
+color_04: '#FFD400'
+color_05: '#00BFFF'
+color_06: '#FF90FE'
+color_07: '#48D1CC'
+color_08: '#BFBFBF'
+color_09: '#808080'
+color_10: '#FF1A75'
+color_11: '#1AFFA3'
+color_12: '#FFFF00'
+color_13: '#33CFFF'
+color_14: '#FFB2FE'
+color_15: '#00FFF2'
+color_16: '#F9F9F9'
+background: '#121212'
+foreground: '#BFBFBF'
+cursor: '#666666'
+hash: 712d7ff4aec936450a819fba2bfc8db8c3f1bc51049aa181f0b8a7e2b59a6418

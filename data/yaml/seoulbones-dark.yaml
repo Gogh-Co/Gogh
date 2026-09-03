@@ -1,0 +1,23 @@
+name: Seoulbones Dark
+author: ''
+variant: dark
+color_01: '#4B4B4B'
+color_02: '#E388A3'
+color_03: '#98BD99'
+color_04: '#FFDF9B'
+color_05: '#97BDDE'
+color_06: '#A5A6C5'
+color_07: '#6FBDBE'
+color_08: '#DDDDDD'
+color_09: '#6C6465'
+color_10: '#EB99B1'
+color_11: '#8FCD92'
+color_12: '#FFE5B3'
+color_13: '#A2C8E9'
+color_14: '#B2B3DA'
+color_15: '#6BCACB'
+color_16: '#A8A8A8'
+background: '#4B4B4B'
+foreground: '#DDDDDD'
+cursor: '#E2E2E2'
+hash: 1e60f4c692d0e9bb9f8b1017298d2d2f651a0b0a1732734174a40fc0270d7ab2

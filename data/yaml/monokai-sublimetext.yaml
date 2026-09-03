@@ -1,0 +1,23 @@
+name: Monokai SublimeText
+author: Howar31 (https://github.com/howar31/monokai-sublimetext)
+variant: dark
+color_01: '#333333'
+color_02: '#C4265E'
+color_03: '#86B42B'
+color_04: '#B3B42B'
+color_05: '#6A7EC8'
+color_06: '#8C6BC8'
+color_07: '#56ADBC'
+color_08: '#E3E3DD'
+color_09: '#666666'
+color_10: '#F92672'
+color_11: '#A6E22E'
+color_12: '#E2E22E'
+color_13: '#819AFF'
+color_14: '#AE81FF'
+color_15: '#66D9EF'
+color_16: '#F8F8F2'
+background: '#272822'
+foreground: '#F8F8F2'
+cursor: '#F8F8F0'
+hash: 83a693e3e3b2453a72e89562a8bd1ab21e3a2085fd7709ff3b99e8f4e6354001

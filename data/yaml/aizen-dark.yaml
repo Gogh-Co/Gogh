@@ -1,0 +1,23 @@
+name: Aizen Dark
+author: ''
+variant: dark
+color_01: '#1A1A1A'
+color_02: '#F08898'
+color_03: '#A4E09C'
+color_04: '#F5DEA4'
+color_05: '#84B4F8'
+color_06: '#C8A2F4'
+color_07: '#90DCD0'
+color_08: '#D0D6F0'
+color_09: '#444444'
+color_10: '#F08898'
+color_11: '#A4E09C'
+color_12: '#F5DEA4'
+color_13: '#84B4F8'
+color_14: '#C8A2F4'
+color_15: '#90DCD0'
+color_16: '#FFFFFF'
+background: '#1A1A1A'
+foreground: '#D0D6F0'
+cursor: '#F8B080'
+hash: ef492c52857524b94bb5ddd667aed158d8ec17bbbc41a948a473236424562614

@@ -1,0 +1,23 @@
+name: Monospace Dark
+author: conventoangelo (https://github.com/conventoangelo)
+variant: dark
+color_01: '#738295'
+color_02: '#F76769'
+color_03: '#17B877'
+color_04: '#FFA23E'
+color_05: '#708FFF'
+color_06: '#A87FFB'
+color_07: '#25A6E9'
+color_08: '#A4AFBD'
+color_09: '#8B98A9'
+color_10: '#FC8F8E'
+color_11: '#66CE98'
+color_12: '#FFC26E'
+color_13: '#A2B6FF'
+color_14: '#C8AAFF'
+color_15: '#71C2EE'
+color_16: '#FAFBFE'
+background: '#10151D'
+foreground: '#A4AFBD'
+cursor: '#C8AAFF'
+hash: 1c52f9ee60f77da5fc0a375fac56228d4631eb0183e41579b4dd0ff207c94959

@@ -1,0 +1,23 @@
+name: Zenburned
+author: Zenburn (http://sunaku.github.io/zenburn-terminal-color-scheme.html)
+variant: dark
+color_01: '#404040'
+color_02: '#E3716E'
+color_03: '#819B69'
+color_04: '#B77E64'
+color_05: '#6099C0'
+color_06: '#B279A7'
+color_07: '#66A5AD'
+color_08: '#F0E4CF'
+color_09: '#625A5B'
+color_10: '#EC8685'
+color_11: '#8BAE68'
+color_12: '#D68C67'
+color_13: '#61ABDA'
+color_14: '#CF86C1'
+color_15: '#65B8C1'
+color_16: '#C0AB86'
+background: '#404040'
+foreground: '#F0E4CF'
+cursor: '#F3EADB'
+hash: 67535fa6e634119b83fc8ec075f579fe47caacb40f5e466a2eb7616d95f7deec

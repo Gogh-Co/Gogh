@@ -1,0 +1,23 @@
+name: Piatto Light
+author: kovv (https://github.com/kovv)
+variant: light
+color_01: '#414141'
+color_02: '#B23771'
+color_03: '#66781E'
+color_04: '#CD6F34'
+color_05: '#3C5EA8'
+color_06: '#A454B2'
+color_07: '#66781E'
+color_08: '#FFFFFF'
+color_09: '#3F3F3F'
+color_10: '#DB3365'
+color_11: '#829429'
+color_12: '#CD6F34'
+color_13: '#3C5EA8'
+color_14: '#A454B2'
+color_15: '#829429'
+color_16: '#F2F2F2'
+background: '#FFFFFF'
+foreground: '#414141'
+cursor: '#5E77C8'
+hash: a3050a2116f74b28a74b56c43233f7d77cb5496c01433cacacdf66568c20acd9

@@ -1,0 +1,23 @@
+name: Neobones Dark
+author: ''
+variant: dark
+color_01: '#0F191F'
+color_02: '#DE6E7C'
+color_03: '#90FF6B'
+color_04: '#B77E64'
+color_05: '#8190D4'
+color_06: '#B279A7'
+color_07: '#66A5AD'
+color_08: '#C6D5CF'
+color_09: '#263945'
+color_10: '#E8838F'
+color_11: '#A0FF85'
+color_12: '#D68C67'
+color_13: '#92A0E2'
+color_14: '#CF86C1'
+color_15: '#65B8C1'
+color_16: '#98A39E'
+background: '#0F191F'
+foreground: '#C6D5CF'
+cursor: '#CEDDD7'
+hash: cc9b0043b45a80ddd843da6a52b467ae29b85325dc8e112c3758ce9d049ae34b

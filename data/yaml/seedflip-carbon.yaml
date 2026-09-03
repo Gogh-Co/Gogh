@@ -1,0 +1,23 @@
+name: SeedFlip Carbon
+author: ''
+variant: light
+color_01: '#D4D4D4'
+color_02: '#993333'
+color_03: '#339955'
+color_04: '#998833'
+color_05: '#335D99'
+color_06: '#993399'
+color_07: '#339999'
+color_08: '#000000'
+color_09: '#AEAEAE'
+color_10: '#C65353'
+color_11: '#53C679'
+color_12: '#C6B353'
+color_13: '#5383C6'
+color_14: '#C653C6'
+color_15: '#53C6C6'
+color_16: '#000000'
+background: '#FAFAFA'
+foreground: '#000000'
+cursor: '#000000'
+hash: e773bff954261243197050bf57d9029872658f5880ec9c486917fb4a173361e3

@@ -1,0 +1,23 @@
+name: Tearout
+author: leobeosab (https://github.com/leobeosab)
+variant: dark
+color_01: '#685742'
+color_02: '#CC967B'
+color_03: '#97976D'
+color_04: '#6C9861'
+color_05: '#B5955E'
+color_06: '#C9A554'
+color_07: '#D7C483'
+color_08: '#B5955E'
+color_09: '#75644F'
+color_10: '#CC967B'
+color_11: '#97976D'
+color_12: '#6C9861'
+color_13: '#B5955E'
+color_14: '#C9A554'
+color_15: '#D7C483'
+color_16: '#B5955E'
+background: '#34392D'
+foreground: '#F4D2AE'
+cursor: '#D7C483'
+hash: 13ef925c2df9c3aa8d2283a1fbd7d32e6b0c9491ca6f7169ffa887b7c314151e

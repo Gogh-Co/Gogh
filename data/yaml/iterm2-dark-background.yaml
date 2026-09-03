@@ -1,0 +1,23 @@
+name: iTerm2 Dark Background
+author: ''
+variant: dark
+color_01: '#000000'
+color_02: '#C91B00'
+color_03: '#00C200'
+color_04: '#C7C400'
+color_05: '#0225C7'
+color_06: '#CA30C7'
+color_07: '#00C5C7'
+color_08: '#C7C7C7'
+color_09: '#686868'
+color_10: '#FF6E67'
+color_11: '#5FFA68'
+color_12: '#FFFC67'
+color_13: '#6871FF'
+color_14: '#FF77FF'
+color_15: '#60FDFF'
+color_16: '#FFFFFF'
+background: '#000000'
+foreground: '#C7C7C7'
+cursor: '#C7C7C7'
+hash: 05fa48dc5f2e137682af55dc2768ec14c10d9962aae55f846966fd0b12a919ed

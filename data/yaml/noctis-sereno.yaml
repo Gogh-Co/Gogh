@@ -1,0 +1,23 @@
+name: Noctis Sereno
+author: Liviu Schera (https://github.com/liviuschera)
+variant: dark
+color_01: '#324A4D'
+color_02: '#E66533'
+color_03: '#49E9A6'
+color_04: '#E4B781'
+color_05: '#49ACE9'
+color_06: '#DF769B'
+color_07: '#49D6E9'
+color_08: '#B2CACD'
+color_09: '#47686C'
+color_10: '#E97749'
+color_11: '#60EBB1'
+color_12: '#E69533'
+color_13: '#60B6EB'
+color_14: '#E798B3'
+color_15: '#60DBEB'
+color_16: '#C1D4D7'
+background: '#062E32'
+foreground: '#B2CACD'
+cursor: '#B2CACD'
+hash: c50c8b38e9f36c9c99a3f709301765b69a95d6e7d1358243d5fb2e681f936e03

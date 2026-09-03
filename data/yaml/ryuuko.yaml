@@ -1,0 +1,23 @@
+name: Ryuuko
+author: dylanaraps (https://github.com/dylanaraps)
+variant: dark
+color_01: '#2C3941'
+color_02: '#865F5B'
+color_03: '#66907D'
+color_04: '#B1A990'
+color_05: '#6A8E95'
+color_06: '#B18A73'
+color_07: '#88B2AC'
+color_08: '#ECECEC'
+color_09: '#5D7079'
+color_10: '#865F5B'
+color_11: '#66907D'
+color_12: '#B1A990'
+color_13: '#6A8E95'
+color_14: '#B18A73'
+color_15: '#88B2AC'
+color_16: '#ECECEC'
+background: '#2C3941'
+foreground: '#ECECEC'
+cursor: '#ECECEC'
+hash: ee12a0817038e0c6da34dd4d0be68501f3786d4e96a00a6d17c1247374ab0767

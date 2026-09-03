@@ -1,0 +1,23 @@
+name: TokyoNight Moon
+author: folke (https://github.com/folke/tokyonight.nvim)
+variant: dark
+color_01: '#1B1D2B'
+color_02: '#FF757F'
+color_03: '#C3E88D'
+color_04: '#FFC777'
+color_05: '#82AAFF'
+color_06: '#C099FF'
+color_07: '#86E1FC'
+color_08: '#828BB8'
+color_09: '#444A73'
+color_10: '#FF757F'
+color_11: '#C3E88D'
+color_12: '#FFC777'
+color_13: '#82AAFF'
+color_14: '#C099FF'
+color_15: '#86E1FC'
+color_16: '#C8D3F5'
+background: '#222436'
+foreground: '#C8D3F5'
+cursor: '#C8D3F5'
+hash: 31285fbe38e9508a64fd860c0e63335477e40e2261fa8793891b95c93791f201

@@ -1,0 +1,23 @@
+name: Melange Dark
+author: savq (https://github.com/savq)
+variant: dark
+color_01: '#34302C'
+color_02: '#BD8183'
+color_03: '#78997A'
+color_04: '#E49B5D'
+color_05: '#7F91B2'
+color_06: '#B380B0'
+color_07: '#7B9695'
+color_08: '#C1A78E'
+color_09: '#867462'
+color_10: '#D47766'
+color_11: '#85B695'
+color_12: '#EBC06D'
+color_13: '#A3A9CE'
+color_14: '#CF9BC2'
+color_15: '#89B3B6'
+color_16: '#ECE1D7'
+background: '#292522'
+foreground: '#ECE1D7'
+cursor: '#ECE1D7'
+hash: 48fba9dc62cf0b14f57df4edf8d57afae48c52dfada3f5d7d00c74bfdf1822ed

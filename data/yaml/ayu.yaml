@@ -1,0 +1,23 @@
+name: Ayu
+author: alebcay (https://github.com/alebcay)
+variant: dark
+color_01: '#11151C'
+color_02: '#EA6C73'
+color_03: '#7FD962'
+color_04: '#F9AF4F'
+color_05: '#53BDFA'
+color_06: '#CDA1FA'
+color_07: '#90E1C6'
+color_08: '#C7C7C7'
+color_09: '#686868'
+color_10: '#F07178'
+color_11: '#AAD94C'
+color_12: '#FFB454'
+color_13: '#59C2FF'
+color_14: '#D2A6FF'
+color_15: '#95E6CB'
+color_16: '#FFFFFF'
+background: '#0B0E14'
+foreground: '#BFBDB6'
+cursor: '#E6B450'
+hash: 72bcd76e88ebeb46edf2b6b36c4bba4cde3123c42aa3d3d26ff8cc049938e18c

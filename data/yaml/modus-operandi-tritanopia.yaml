@@ -1,0 +1,23 @@
+name: Modus Operandi Tritanopia
+author: Protesilaos Stavrou (https://github.com/protesilaos)
+variant: light
+color_01: '#000000'
+color_02: '#A60000'
+color_03: '#006800'
+color_04: '#695500'
+color_05: '#0031A9'
+color_06: '#721045'
+color_07: '#005E8B'
+color_08: '#A6A6A6'
+color_09: '#595959'
+color_10: '#B21100'
+color_11: '#00663F'
+color_12: '#973300'
+color_13: '#3548CF'
+color_14: '#531AB6'
+color_15: '#005F5F'
+color_16: '#595959'
+background: '#FFFFFF'
+foreground: '#000000'
+cursor: '#000000'
+hash: 778ea30d4fcc65a720ce21a40711783e8f94e503edbb0f7c7d93bc0b12c81ea7

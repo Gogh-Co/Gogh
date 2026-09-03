@@ -1,0 +1,23 @@
+name: Rouge 2
+author: Josef Aidt (https://github.com/josefaidt/rouge-theme)
+variant: dark
+color_01: '#5D5D6B'
+color_02: '#C6797E'
+color_03: '#969E92'
+color_04: '#DBCDAB'
+color_05: '#6E94B9'
+color_06: '#4C4E78'
+color_07: '#8AB6C1'
+color_08: '#E8E8EA'
+color_09: '#616274'
+color_10: '#C6797E'
+color_11: '#E6DCC4'
+color_12: '#E6DCC4'
+color_13: '#98B3CD'
+color_14: '#8283A1'
+color_15: '#ABCBD3'
+color_16: '#E8E8EA'
+background: '#17182B'
+foreground: '#A2A3AA'
+cursor: '#969E92'
+hash: 72fa5058a264eb0fb44599bf3de04c9eb63ceadd14ba4a5d9d55bdf2258a105f
