@@ -1,0 +1,27 @@
+---
+name: 'Pyrokai Light'
+author: 'Patrick Serrano (https://patrickserrano.com)'
+variant: 'light'            # dark or light
+
+color_01: '#242120'    # Black (Host)
+color_02: '#B84963'    # Red (Syntax string)
+color_03: '#568413'    # Green (Command)
+color_04: '#8E7100'    # Yellow (Command second)
+color_05: '#0979C4'    # Blue (Path)
+color_06: '#B44A74'    # Magenta (Syntax var)
+color_07: '#008490'    # Cyan (Prompt)
+color_08: '#B4AFAD'    # White
+
+color_09: '#807C7A'    # Bright Black
+color_10: '#943C50'    # Bright Red (Command error)
+color_11: '#456A13'    # Bright Green (Exec)
+color_12: '#735A00'    # Bright Yellow
+color_13: '#0F619D'    # Bright Blue (Folder)
+color_14: '#913C5D'    # Bright Magenta
+color_15: '#006A74'    # Bright Cyan
+color_16: '#FAF6F5'    # Bright White
+
+background: '#FAF6F5'  # Background
+foreground: '#242120'  # Foreground (Text)
+
+cursor: '#B65318'      # Cursor

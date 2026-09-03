@@ -1,0 +1,23 @@
+name: Patina
+author: PoshPalette (https://github.com/livlign/posh-palette)
+variant: dark
+color_01: '#16201C'
+color_02: '#D9603F'
+color_03: '#9FC08C'
+color_04: '#C8A24A'
+color_05: '#5FC9B0'
+color_06: '#D7B45A'
+color_07: '#7FD0C0'
+color_08: '#DCE5DE'
+color_09: '#5C7068'
+color_10: '#DF785C'
+color_11: '#ABC89A'
+color_12: '#D98E5A'
+color_13: '#5FC9B0'
+color_14: '#E0C36A'
+color_15: '#8ED6C8'
+color_16: '#FFFFFF'
+background: '#0E1613'
+foreground: '#DCE5DE'
+cursor: '#E0C36A'
+hash: 52846b9f25467cfcc808200a41e051424491ed8ce32cdeca6693e0dc6190e705

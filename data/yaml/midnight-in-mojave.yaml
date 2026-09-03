@@ -1,0 +1,23 @@
+name: Midnight In Mojave
+author: OberstKrueger (https://github.com/oberstkrueger)
+variant: dark
+color_01: '#1E1E1E'
+color_02: '#FF453A'
+color_03: '#32D74B'
+color_04: '#FFD60A'
+color_05: '#0A84FF'
+color_06: '#BF5AF2'
+color_07: '#5AC8FA'
+color_08: '#FFFFFF'
+color_09: '#1E1E1E'
+color_10: '#FF453A'
+color_11: '#32D74B'
+color_12: '#FFD60A'
+color_13: '#0A84FF'
+color_14: '#BF5AF2'
+color_15: '#5AC8FA'
+color_16: '#FFFFFF'
+background: '#1E1E1E'
+foreground: '#FFFFFF'
+cursor: '#32D74B'
+hash: 47751d32059b88baae6e41500efa5b905c4bf24104b6968a07aedb3c393a1401

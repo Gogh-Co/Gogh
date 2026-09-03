@@ -1,0 +1,27 @@
+---
+name: 'Vercel'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#FC0036'    # Red (Syntax string)
+color_03: '#29A948'    # Green (Command)
+color_04: '#FFAE00'    # Yellow (Command second)
+color_05: '#006AFF'    # Blue (Path)
+color_06: '#F32882'    # Magenta (Syntax var)
+color_07: '#00AC96'    # Cyan (Prompt)
+color_08: '#FEFFFF'    # White
+
+color_09: '#A8A8A8'    # Bright Black
+color_10: '#FF8080'    # Bright Red (Command error)
+color_11: '#4BE15D'    # Bright Green (Exec)
+color_12: '#FFAE00'    # Bright Yellow
+color_13: '#49AEFF'    # Bright Blue (Folder)
+color_14: '#F97EA8'    # Bright Magenta
+color_15: '#00E4C4'    # Bright Cyan
+color_16: '#FEFEFE'    # Bright White
+
+background: '#101010'  # Background
+foreground: '#FAFAFA'  # Foreground (Text)
+
+cursor: '#F32882'      # Cursor

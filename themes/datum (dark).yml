@@ -1,0 +1,27 @@
+---
+name: 'datum (dark)'
+author: 'w0zro (https://github.com/w0zro)'
+variant: 'dark'            # dark or light
+
+color_01: '#2B2F35'    # Black (Host)
+color_02: '#FE9864'    # Red (Syntax string)
+color_03: '#54DCAA'    # Green (Command)
+color_04: '#E8DF69'    # Yellow (Command second)
+color_05: '#69B9F7'    # Blue (Path)
+color_06: '#FA94CD'    # Magenta (Syntax var)
+color_07: '#6AE5EC'    # Cyan (Prompt)
+color_08: '#DBE0E8'    # White
+
+color_09: '#8F98A3'    # Bright Black
+color_10: '#F8BD5F'    # Bright Red (Command error)
+color_11: '#54DCAA'    # Bright Green (Exec)
+color_12: '#FCDCAD'    # Bright Yellow
+color_13: '#B2DAFB'    # Bright Blue (Folder)
+color_14: '#F5B9D9'    # Bright Magenta
+color_15: '#A5F5F9'    # Bright Cyan
+color_16: '#EEF2F7'    # Bright White
+
+background: '#0F1318'  # Background
+foreground: '#DBE0E8'  # Foreground (Text)
+
+cursor: '#FA94CD'      # Cursor

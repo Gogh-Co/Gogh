@@ -1,0 +1,23 @@
+name: Sequoia Moonlight Dark
+author: Michael Andreuzza (https://github.com/michael-andreuzza)
+variant: dark
+color_01: '#131317'
+color_02: '#F58EE0'
+color_03: '#8EB6F5'
+color_04: '#9898A6'
+color_05: '#C58FFF'
+color_06: '#FDFDFE'
+color_07: '#FFBB88'
+color_08: '#868690'
+color_09: '#575861'
+color_10: '#F58EE0'
+color_11: '#8EB6F5'
+color_12: '#9898A6'
+color_13: '#C58FFF'
+color_14: '#FDFDFE'
+color_15: '#FFBB88'
+color_16: '#868690'
+background: '#0F1014'
+foreground: '#868690'
+cursor: '#43444D'
+hash: 5fd9f696083fb2f8704cf88b8137aaaa6d53e6c5db523c5a8c39fe89340ba852

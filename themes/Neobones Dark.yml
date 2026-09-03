@@ -1,0 +1,27 @@
+---
+name: 'Neobones Dark'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#0F191F'    # Black (Host)
+color_02: '#DE6E7C'    # Red (Syntax string)
+color_03: '#90FF6B'    # Green (Command)
+color_04: '#B77E64'    # Yellow (Command second)
+color_05: '#8190D4'    # Blue (Path)
+color_06: '#B279A7'    # Magenta (Syntax var)
+color_07: '#66A5AD'    # Cyan (Prompt)
+color_08: '#C6D5CF'    # White
+
+color_09: '#263945'    # Bright Black
+color_10: '#E8838F'    # Bright Red (Command error)
+color_11: '#A0FF85'    # Bright Green (Exec)
+color_12: '#D68C67'    # Bright Yellow
+color_13: '#92A0E2'    # Bright Blue (Folder)
+color_14: '#CF86C1'    # Bright Magenta
+color_15: '#65B8C1'    # Bright Cyan
+color_16: '#98A39E'    # Bright White
+
+background: '#0F191F'  # Background
+foreground: '#C6D5CF'  # Foreground (Text)
+
+cursor: '#CEDDD7'      # Cursor

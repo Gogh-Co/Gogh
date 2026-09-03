@@ -1,0 +1,27 @@
+---
+name: 'Doom Peacock'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#1C1F24'    # Black (Host)
+color_02: '#CB4B16'    # Red (Syntax string)
+color_03: '#26A6A6'    # Green (Command)
+color_04: '#BCD42A'    # Yellow (Command second)
+color_05: '#2A6CC6'    # Blue (Path)
+color_06: '#A9A1E1'    # Magenta (Syntax var)
+color_07: '#5699AF'    # Cyan (Prompt)
+color_08: '#EDE0CE'    # White
+
+color_09: '#2B2A27'    # Bright Black
+color_10: '#FF5D38'    # Bright Red (Command error)
+color_11: '#98BE65'    # Bright Green (Exec)
+color_12: '#E6F972'    # Bright Yellow
+color_13: '#51AFEF'    # Bright Blue (Folder)
+color_14: '#C678DD'    # Bright Magenta
+color_15: '#46D9FF'    # Bright Cyan
+color_16: '#DFDFDF'    # Bright White
+
+background: '#2B2A27'  # Background
+foreground: '#EDE0CE'  # Foreground (Text)
+
+cursor: '#9C9C9D'      # Cursor

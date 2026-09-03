@@ -1,0 +1,23 @@
+name: Floraverse
+author: papayakitty (http://floraverse.com/)
+variant: dark
+color_01: '#08002E'
+color_02: '#64002C'
+color_03: '#5D731A'
+color_04: '#CD751C'
+color_05: '#1D6DA1'
+color_06: '#B7077E'
+color_07: '#42A38C'
+color_08: '#F3E0B8'
+color_09: '#331E4D'
+color_10: '#D02063'
+color_11: '#B4CE59'
+color_12: '#FAC357'
+color_13: '#40A4CF'
+color_14: '#F12AAE'
+color_15: '#62CAA8'
+color_16: '#FFF5DB'
+background: '#0E0D15'
+foreground: '#DBD1B9'
+cursor: '#BBBBBB'
+hash: f6381a4f4b673bc1f9ac35f8cb992b9aa89130b2a5a86e07b2bb7b2d287a0d3d

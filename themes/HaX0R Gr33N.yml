@@ -1,0 +1,27 @@
+---
+name: 'HaX0R Gr33N'
+author: 'Pratik (https://github.com/pratikmullick)'
+variant: 'dark'            # dark or light
+
+color_01: '#001F0B'    # Black (Host)
+color_02: '#15D00D'    # Red (Syntax string)
+color_03: '#15D00D'    # Green (Command)
+color_04: '#15D00D'    # Yellow (Command second)
+color_05: '#15D00D'    # Blue (Path)
+color_06: '#15D00D'    # Magenta (Syntax var)
+color_07: '#15D00D'    # Cyan (Prompt)
+color_08: '#FAFAFA'    # White
+
+color_09: '#001510'    # Bright Black
+color_10: '#19E20E'    # Bright Red (Command error)
+color_11: '#19E20E'    # Bright Green (Exec)
+color_12: '#19E20E'    # Bright Yellow
+color_13: '#19E20E'    # Bright Blue (Folder)
+color_14: '#19E20E'    # Bright Magenta
+color_15: '#19E20E'    # Bright Cyan
+color_16: '#FEFEFE'    # Bright White
+
+background: '#020F01'  # Background
+foreground: '#16B10E'  # Foreground (Text)
+
+cursor: '#15D00D'      # Cursor

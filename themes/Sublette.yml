@@ -1,0 +1,27 @@
+---
+name: 'Sublette'
+author: 'sublee (https://github.com/sublee)'
+variant: 'dark'            # dark or light
+
+color_01: '#253045'    # Black (Host)
+color_02: '#EE5577'    # Red (Syntax string)
+color_03: '#55EE77'    # Green (Command)
+color_04: '#FFDD88'    # Yellow (Command second)
+color_05: '#5588FF'    # Blue (Path)
+color_06: '#FF77CC'    # Magenta (Syntax var)
+color_07: '#44EEEE'    # Cyan (Prompt)
+color_08: '#F5F5DA'    # White
+
+color_09: '#405570'    # Bright Black
+color_10: '#EE6655'    # Bright Red (Command error)
+color_11: '#99EE77'    # Bright Green (Exec)
+color_12: '#FFFF77'    # Bright Yellow
+color_13: '#77BBFF'    # Bright Blue (Folder)
+color_14: '#AA88FF'    # Bright Magenta
+color_15: '#55FFBB'    # Bright Cyan
+color_16: '#FFFFEE'    # Bright White
+
+background: '#202535'  # Background
+foreground: '#CCCED0'  # Foreground (Text)
+
+cursor: '#CCCED0'      # Cursor

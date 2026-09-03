@@ -1,0 +1,27 @@
+---
+name: 'Tomorrow Night Burns'
+author: 'ashwinv11 (https://github.com/ashwinv11/)'
+variant: 'dark'            # dark or light
+
+color_01: '#252525'    # Black (Host)
+color_02: '#832E31'    # Red (Syntax string)
+color_03: '#A63C40'    # Green (Command)
+color_04: '#D3494E'    # Yellow (Command second)
+color_05: '#FC595F'    # Blue (Path)
+color_06: '#DF9395'    # Magenta (Syntax var)
+color_07: '#BA8586'    # Cyan (Prompt)
+color_08: '#F5F5F5'    # White
+
+color_09: '#5D6F71'    # Bright Black
+color_10: '#832E31'    # Bright Red (Command error)
+color_11: '#A63C40'    # Bright Green (Exec)
+color_12: '#D2494E'    # Bright Yellow
+color_13: '#FC595F'    # Bright Blue (Folder)
+color_14: '#DF9395'    # Bright Magenta
+color_15: '#BA8586'    # Bright Cyan
+color_16: '#F5F5F5'    # Bright White
+
+background: '#151515'  # Background
+foreground: '#A1B0B8'  # Foreground (Text)
+
+cursor: '#FF443E'      # Cursor

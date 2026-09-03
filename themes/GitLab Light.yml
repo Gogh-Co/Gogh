@@ -1,0 +1,27 @@
+---
+name: 'GitLab Light'
+author: 'Antonio Camargo (https://github.com/apcamargo)'
+variant: 'light'            # dark or light
+
+color_01: '#303030'    # Black (Host)
+color_02: '#A31700'    # Red (Syntax string)
+color_03: '#0A7F3D'    # Green (Command)
+color_04: '#AF551D'    # Yellow (Command second)
+color_05: '#006CD8'    # Blue (Path)
+color_06: '#583CAC'    # Magenta (Syntax var)
+color_07: '#00798A'    # Cyan (Prompt)
+color_08: '#303030'    # White
+
+color_09: '#303030'    # Bright Black
+color_10: '#A31700'    # Bright Red (Command error)
+color_11: '#0A7F3D'    # Bright Green (Exec)
+color_12: '#AF551D'    # Bright Yellow
+color_13: '#006CD8'    # Bright Blue (Folder)
+color_14: '#583CAC'    # Bright Magenta
+color_15: '#00798A'    # Bright Cyan
+color_16: '#303030'    # Bright White
+
+background: '#FAFAFF'  # Background
+foreground: '#303030'  # Foreground (Text)
+
+cursor: '#303030'      # Cursor

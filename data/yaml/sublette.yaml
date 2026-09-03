@@ -1,0 +1,23 @@
+name: Sublette
+author: sublee (https://github.com/sublee)
+variant: dark
+color_01: '#253045'
+color_02: '#EE5577'
+color_03: '#55EE77'
+color_04: '#FFDD88'
+color_05: '#5588FF'
+color_06: '#FF77CC'
+color_07: '#44EEEE'
+color_08: '#F5F5DA'
+color_09: '#405570'
+color_10: '#EE6655'
+color_11: '#99EE77'
+color_12: '#FFFF77'
+color_13: '#77BBFF'
+color_14: '#AA88FF'
+color_15: '#55FFBB'
+color_16: '#FFFFEE'
+background: '#202535'
+foreground: '#CCCED0'
+cursor: '#CCCED0'
+hash: b8d03994149508b8d380810275e1c9efa1d087d678f8427bd4b0fa1d23114e4b

@@ -1,0 +1,27 @@
+---
+name: 'Firewatch'
+author: 'Sebastian Szturo (https://github.com/SebastianSzturo)'
+variant: 'dark'            # dark or light
+
+color_01: '#585F6D'    # Black (Host)
+color_02: '#D95360'    # Red (Syntax string)
+color_03: '#5AB977'    # Green (Command)
+color_04: '#DFB563'    # Yellow (Command second)
+color_05: '#4D89C4'    # Blue (Path)
+color_06: '#D55119'    # Magenta (Syntax var)
+color_07: '#44A8B6'    # Cyan (Prompt)
+color_08: '#E6E5FF'    # White
+
+color_09: '#585F6D'    # Bright Black
+color_10: '#D95360'    # Bright Red (Command error)
+color_11: '#5AB977'    # Bright Green (Exec)
+color_12: '#DFB563'    # Bright Yellow
+color_13: '#4C89C5'    # Bright Blue (Folder)
+color_14: '#D55119'    # Bright Magenta
+color_15: '#44A8B6'    # Bright Cyan
+color_16: '#E6E5FF'    # Bright White
+
+background: '#1E2027'  # Background
+foreground: '#9BA2B2'  # Foreground (Text)
+
+cursor: '#F6F7EC'      # Cursor

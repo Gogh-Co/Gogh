@@ -1,0 +1,27 @@
+---
+name: 'Trapped in Amber'
+author: 'mattjoyce (https://github.com/mattjoyce/trapped-in-amber)'
+variant: 'dark'            # dark or light
+
+color_01: '#4A3220'    # Black (Host)
+color_02: '#E05C1C'    # Red (Syntax string)
+color_03: '#7A9C4A'    # Green (Command)
+color_04: '#F0A020'    # Yellow (Command second)
+color_05: '#4A7EC9'    # Blue (Path)
+color_06: '#C95A8C'    # Magenta (Syntax var)
+color_07: '#7A9EA8'    # Cyan (Prompt)
+color_08: '#FFD9A0'    # White
+
+color_09: '#5A4A3A'    # Bright Black
+color_10: '#FF7832'    # Bright Red (Command error)
+color_11: '#A8C46B'    # Bright Green (Exec)
+color_12: '#FFD700'    # Bright Yellow
+color_13: '#6B9FFF'    # Bright Blue (Folder)
+color_14: '#FF7FA8'    # Bright Magenta
+color_15: '#A5C2CC'    # Bright Cyan
+color_16: '#FFF5E0'    # Bright White
+
+background: '#0A1017'  # Background
+foreground: '#F0A020'  # Foreground (Text)
+
+cursor: '#FFC940'      # Cursor

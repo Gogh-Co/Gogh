@@ -1,0 +1,27 @@
+---
+name: 'Ryuuko'
+author: 'dylanaraps (https://github.com/dylanaraps)'
+variant: 'dark'            # dark or light
+
+color_01: '#2C3941'    # Black (Host)
+color_02: '#865F5B'    # Red (Syntax string)
+color_03: '#66907D'    # Green (Command)
+color_04: '#B1A990'    # Yellow (Command second)
+color_05: '#6A8E95'    # Blue (Path)
+color_06: '#B18A73'    # Magenta (Syntax var)
+color_07: '#88B2AC'    # Cyan (Prompt)
+color_08: '#ECECEC'    # White
+
+color_09: '#5D7079'    # Bright Black
+color_10: '#865F5B'    # Bright Red (Command error)
+color_11: '#66907D'    # Bright Green (Exec)
+color_12: '#B1A990'    # Bright Yellow
+color_13: '#6A8E95'    # Bright Blue (Folder)
+color_14: '#B18A73'    # Bright Magenta
+color_15: '#88B2AC'    # Bright Cyan
+color_16: '#ECECEC'    # Bright White
+
+background: '#2C3941'  # Background
+foreground: '#ECECEC'  # Foreground (Text)
+
+cursor: '#ECECEC'      # Cursor

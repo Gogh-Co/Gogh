@@ -1,0 +1,27 @@
+---
+name: 'Ayu'
+author: 'alebcay (https://github.com/alebcay)'
+variant: 'dark'            # dark or light
+
+color_01: '#11151C'    # Black (Host)
+color_02: '#EA6C73'    # Red (Syntax string)
+color_03: '#7FD962'    # Green (Command)
+color_04: '#F9AF4F'    # Yellow (Command second)
+color_05: '#53BDFA'    # Blue (Path)
+color_06: '#CDA1FA'    # Magenta (Syntax var)
+color_07: '#90E1C6'    # Cyan (Prompt)
+color_08: '#C7C7C7'    # White
+
+color_09: '#686868'    # Bright Black
+color_10: '#F07178'    # Bright Red (Command error)
+color_11: '#AAD94C'    # Bright Green (Exec)
+color_12: '#FFB454'    # Bright Yellow
+color_13: '#59C2FF'    # Bright Blue (Folder)
+color_14: '#D2A6FF'    # Bright Magenta
+color_15: '#95E6CB'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#0B0E14'  # Background
+foreground: '#BFBDB6'  # Foreground (Text)
+
+cursor: '#E6B450'      # Cursor

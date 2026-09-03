@@ -1,0 +1,23 @@
+name: Violet Dark
+author: ashfinal (https://github.com/ashfinal/vim-colors-violet)
+variant: dark
+color_01: '#56595C'
+color_02: '#C94C22'
+color_03: '#85981C'
+color_04: '#B4881D'
+color_05: '#2E8BCE'
+color_06: '#D13A82'
+color_07: '#32A198'
+color_08: '#C9C6BD'
+color_09: '#45484B'
+color_10: '#BD3613'
+color_11: '#738A04'
+color_12: '#A57705'
+color_13: '#2176C7'
+color_14: '#C61C6F'
+color_15: '#259286'
+color_16: '#C9C6BD'
+background: '#1C1D1F'
+foreground: '#708284'
+cursor: '#708284'
+hash: 23084ca153a9031213ae4b50d9dcf16169d544c43d6963fd60c6535526a77588

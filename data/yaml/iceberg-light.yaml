@@ -1,0 +1,23 @@
+name: Iceberg Light
+author: cocopon (https://github.com/cocopon/iceberg.vim)
+variant: light
+color_01: '#DCDFE7'
+color_02: '#CC517A'
+color_03: '#668E3D'
+color_04: '#C57339'
+color_05: '#2D539E'
+color_06: '#7759B4'
+color_07: '#3F83A6'
+color_08: '#33374C'
+color_09: '#8389A3'
+color_10: '#CC3768'
+color_11: '#598030'
+color_12: '#B6662D'
+color_13: '#22478E'
+color_14: '#6845AD'
+color_15: '#327698'
+color_16: '#262A3F'
+background: '#E8E9EC'
+foreground: '#33374C'
+cursor: '#33374C'
+hash: cf45336a7461eba3265681716a970f107f2051ff6518c4ed27dc4db8d6c2dfcd

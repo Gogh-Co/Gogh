@@ -1,0 +1,27 @@
+---
+name: 'Aizen Light'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'light'            # dark or light
+
+color_01: '#F0F2F6'    # Black (Host)
+color_02: '#D00C36'    # Red (Syntax string)
+color_03: '#3E9E28'    # Green (Command)
+color_04: '#DD8C1A'    # Yellow (Command second)
+color_05: '#1C64F2'    # Blue (Path)
+color_06: '#8636EC'    # Magenta (Syntax var)
+color_07: '#159096'    # Cyan (Prompt)
+color_08: '#4A4D66'    # White
+
+color_09: '#ADB2BC'    # Bright Black
+color_10: '#D00C36'    # Bright Red (Command error)
+color_11: '#3E9E28'    # Bright Green (Exec)
+color_12: '#DD8C1A'    # Bright Yellow
+color_13: '#1C64F2'    # Bright Blue (Folder)
+color_14: '#8636EC'    # Bright Magenta
+color_15: '#159096'    # Bright Cyan
+color_16: '#4A4D66'    # Bright White
+
+background: '#F0F2F6'  # Background
+foreground: '#4A4D66'  # Foreground (Text)
+
+cursor: '#FC6008'      # Cursor

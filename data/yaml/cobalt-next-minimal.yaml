@@ -1,0 +1,23 @@
+name: Cobalt Next Minimal
+author: davidleininger (https://github.com/davidleininger/cobaltnext-vscode)
+variant: dark
+color_01: '#343D46'
+color_02: '#ED6F7D'
+color_03: '#99C794'
+color_04: '#FAC863'
+color_05: '#5A9BCF'
+color_06: '#C5A5C5'
+color_07: '#5FB3B3'
+color_08: '#D8DEE9'
+color_09: '#65737E'
+color_10: '#D6838C'
+color_11: '#C1DCBE'
+color_12: '#FFDE9B'
+color_13: '#8ABEE7'
+color_14: '#EDCDED'
+color_15: '#9BE2E2'
+color_16: '#FFFFFF'
+background: '#0F1C23'
+foreground: '#D8DEE9'
+cursor: '#5FB3B3'
+hash: f42d8861b0d6298d2609918133774c725a91ca46cefc7b2bb5423b9d3e3ee59e

@@ -1,0 +1,27 @@
+---
+name: 'Banana Blueberry'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#17141F'    # Black (Host)
+color_02: '#FF6B7F'    # Red (Syntax string)
+color_03: '#00BD9C'    # Green (Command)
+color_04: '#E6C62F'    # Yellow (Command second)
+color_05: '#22E8DF'    # Blue (Path)
+color_06: '#DC396A'    # Magenta (Syntax var)
+color_07: '#56B6C2'    # Cyan (Prompt)
+color_08: '#F1F1F1'    # White
+
+color_09: '#495162'    # Bright Black
+color_10: '#FE9EA1'    # Bright Red (Command error)
+color_11: '#98C379'    # Bright Green (Exec)
+color_12: '#F9E46B'    # Bright Yellow
+color_13: '#91FFF4'    # Bright Blue (Folder)
+color_14: '#DA70D6'    # Bright Magenta
+color_15: '#BCF3FF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#191323'  # Background
+foreground: '#CCCCCC'  # Foreground (Text)
+
+cursor: '#E07D13'      # Cursor

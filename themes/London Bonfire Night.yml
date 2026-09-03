@@ -1,0 +1,27 @@
+---
+name: 'London Bonfire Night'
+author: 'Scott Matthews (https://github.com/scottmatthews7)'
+variant: 'dark'            # dark or light
+
+color_01: '#1A1418'    # Black (Host)
+color_02: '#D65A3A'    # Red (Syntax string)
+color_03: '#6A8A4A'    # Green (Command)
+color_04: '#E8B048'    # Yellow (Command second)
+color_05: '#5A7AB8'    # Blue (Path)
+color_06: '#D76AA8'    # Magenta (Syntax var)
+color_07: '#88A8C8'    # Cyan (Prompt)
+color_08: '#E8E0C8'    # White
+
+color_09: '#44403C'    # Bright Black
+color_10: '#EC7654'    # Bright Red (Command error)
+color_11: '#88A868'    # Bright Green (Exec)
+color_12: '#F5C25C'    # Bright Yellow
+color_13: '#7A96D0'    # Bright Blue (Folder)
+color_14: '#ED85BC'    # Bright Magenta
+color_15: '#A0BCD6'    # Bright Cyan
+color_16: '#FDF6DF'    # Bright White
+
+background: '#0E0C0E'  # Background
+foreground: '#E8E0C8'  # Foreground (Text)
+
+cursor: '#E85AA8'      # Cursor

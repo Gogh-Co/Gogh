@@ -1,0 +1,27 @@
+---
+name: 'Forest Blue'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#333333'    # Black (Host)
+color_02: '#F8818E'    # Red (Syntax string)
+color_03: '#92D3A2'    # Green (Command)
+color_04: '#1A8E63'    # Yellow (Command second)
+color_05: '#8ED0CE'    # Blue (Path)
+color_06: '#5E468C'    # Magenta (Syntax var)
+color_07: '#31658C'    # Cyan (Prompt)
+color_08: '#E2D8CD'    # White
+
+color_09: '#3D3D3D'    # Bright Black
+color_10: '#FB3D66'    # Bright Red (Command error)
+color_11: '#6BB48D'    # Bright Green (Exec)
+color_12: '#30C85A'    # Bright Yellow
+color_13: '#39A7A2'    # Bright Blue (Folder)
+color_14: '#7E62B3'    # Bright Magenta
+color_15: '#6096BF'    # Bright Cyan
+color_16: '#E2D8CD'    # Bright White
+
+background: '#051519'  # Background
+foreground: '#E2D8CD'  # Foreground (Text)
+
+cursor: '#9E9ECB'      # Cursor

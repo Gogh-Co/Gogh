@@ -1,0 +1,27 @@
+---
+name: 'Floraverse'
+author: 'papayakitty (http://floraverse.com/)'
+variant: 'dark'            # dark or light
+
+color_01: '#08002E'    # Black (Host)
+color_02: '#64002C'    # Red (Syntax string)
+color_03: '#5D731A'    # Green (Command)
+color_04: '#CD751C'    # Yellow (Command second)
+color_05: '#1D6DA1'    # Blue (Path)
+color_06: '#B7077E'    # Magenta (Syntax var)
+color_07: '#42A38C'    # Cyan (Prompt)
+color_08: '#F3E0B8'    # White
+
+color_09: '#331E4D'    # Bright Black
+color_10: '#D02063'    # Bright Red (Command error)
+color_11: '#B4CE59'    # Bright Green (Exec)
+color_12: '#FAC357'    # Bright Yellow
+color_13: '#40A4CF'    # Bright Blue (Folder)
+color_14: '#F12AAE'    # Bright Magenta
+color_15: '#62CAA8'    # Bright Cyan
+color_16: '#FFF5DB'    # Bright White
+
+background: '#0E0D15'  # Background
+foreground: '#DBD1B9'  # Foreground (Text)
+
+cursor: '#BBBBBB'      # Cursor

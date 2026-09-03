@@ -1,0 +1,27 @@
+---
+name: 'branch'
+author: 'dkeg (https://github.com/dkeg/crayolo)'
+variant: 'dark'            # dark or light
+
+color_01: '#32251D'    # Black (Host)
+color_02: '#B55C38'    # Red (Syntax string)
+color_03: '#99A667'    # Green (Command)
+color_04: '#CA9D64'    # Yellow (Command second)
+color_05: '#528C8B'    # Blue (Path)
+color_06: '#BA8161'    # Magenta (Syntax var)
+color_07: '#6F9990'    # Cyan (Prompt)
+color_08: '#CDC1AC'    # White
+
+color_09: '#544A46'    # Bright Black
+color_10: '#B55C38'    # Bright Red (Command error)
+color_11: '#99A667'    # Bright Green (Exec)
+color_12: '#CA9D64'    # Bright Yellow
+color_13: '#528C8B'    # Bright Blue (Folder)
+color_14: '#BA8161'    # Bright Magenta
+color_15: '#6F9990'    # Bright Cyan
+color_16: '#CDC1AC'    # Bright White
+
+background: '#30231B'  # Background
+foreground: '#CDC1AC'  # Foreground (Text)
+
+cursor: '#CDC1AC'      # Cursor

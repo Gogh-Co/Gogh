@@ -1,0 +1,27 @@
+---
+name: 'Whimsy'
+author: 'Rod (https://github.com/rod)'
+variant: 'dark'            # dark or light
+
+color_01: '#535178'    # Black (Host)
+color_02: '#EF6487'    # Red (Syntax string)
+color_03: '#5ECA89'    # Green (Command)
+color_04: '#FDD877'    # Yellow (Command second)
+color_05: '#65AEF7'    # Blue (Path)
+color_06: '#AA7FF0'    # Magenta (Syntax var)
+color_07: '#43C1BE'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#535178'    # Bright Black
+color_10: '#EF6487'    # Bright Red (Command error)
+color_11: '#5ECA89'    # Bright Green (Exec)
+color_12: '#FDD877'    # Bright Yellow
+color_13: '#65AEF7'    # Bright Blue (Folder)
+color_14: '#AA7FF0'    # Bright Magenta
+color_15: '#43C1BE'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#29283B'  # Background
+foreground: '#B3B0D6'  # Foreground (Text)
+
+cursor: '#B3B0D6'      # Cursor

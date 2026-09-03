@@ -1,0 +1,23 @@
+name: Xcode WWDC
+author: lunacookies (https://github.com/lunacookies/vim-colors-xcode)
+variant: dark
+color_01: '#494D5C'
+color_02: '#BB383A'
+color_03: '#94C66E'
+color_04: '#D28E5D'
+color_05: '#8884C5'
+color_06: '#B73999'
+color_07: '#00ABA4'
+color_08: '#E7E8EB'
+color_09: '#7F869E'
+color_10: '#BB383A'
+color_11: '#94C66E'
+color_12: '#D28E5D'
+color_13: '#8884C5'
+color_14: '#B73999'
+color_15: '#00ABA4'
+color_16: '#E7E8EB'
+background: '#292C36'
+foreground: '#E7E8EB'
+cursor: '#E7E8EB'
+hash: d987720cbcdde50102bdf0defc8203858c4f03f177da4d09dfa947ea70b07c16

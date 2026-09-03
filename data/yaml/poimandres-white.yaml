@@ -1,0 +1,23 @@
+name: Poimandres White
+author: drcmda (https://github.com/drcmda/poimandres-theme)
+variant: light
+color_01: '#FEFEFF'
+color_02: '#FF2090'
+color_03: '#01DAB2'
+color_04: '#E5BA4E'
+color_05: '#8ABACD'
+color_06: '#EB8394'
+color_07: '#8ABACD'
+color_08: '#000000'
+color_09: '#969CBD'
+color_10: '#FF2090'
+color_11: '#01DAB2'
+color_12: '#E5BA4E'
+color_13: '#0EBFFF'
+color_14: '#EB8394'
+color_15: '#0EBFFF'
+color_16: '#000000'
+background: '#FEFEFF'
+foreground: '#969CBD'
+cursor: '#969CBD'
+hash: a6a9ff153581931a2e070974aca632d078320d1c4cc71217df7c885c9548f158

@@ -1,0 +1,27 @@
+---
+name: 'owl'
+author: 'dkeg (https://github.com/dkeg/crayolo)'
+variant: 'dark'            # dark or light
+
+color_01: '#302C2C'    # Black (Host)
+color_02: '#5A5A5A'    # Red (Syntax string)
+color_03: '#989898'    # Green (Command)
+color_04: '#CACACA'    # Yellow (Command second)
+color_05: '#656565'    # Blue (Path)
+color_06: '#B1B1B1'    # Magenta (Syntax var)
+color_07: '#7F7F7F'    # Cyan (Prompt)
+color_08: '#DEDEDE'    # White
+
+color_09: '#5D595B'    # Bright Black
+color_10: '#DA5B2C'    # Bright Red (Command error)
+color_11: '#989898'    # Bright Green (Exec)
+color_12: '#CACACA'    # Bright Yellow
+color_13: '#656565'    # Bright Blue (Folder)
+color_14: '#B1B1B1'    # Bright Magenta
+color_15: '#7F7F7F'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#2F2B2C'  # Background
+foreground: '#DEDEDE'  # Foreground (Text)
+
+cursor: '#DEDEDE'      # Cursor

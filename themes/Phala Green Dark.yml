@@ -1,0 +1,27 @@
+---
+name: 'Phala Green Dark'
+author: 'h4x3rotab (https://github.com/h4x3rotab)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#9D2814'    # Red (Syntax string)
+color_03: '#4AAE31'    # Green (Command)
+color_04: '#A9A733'    # Yellow (Command second)
+color_05: '#0C23B8'    # Blue (Path)
+color_06: '#B23BBA'    # Magenta (Syntax var)
+color_07: '#4BB1BD'    # Cyan (Prompt)
+color_08: '#CBCBCB'    # White
+
+color_09: '#797979'    # Bright Black
+color_10: '#DA3B20'    # Bright Red (Command error)
+color_11: '#5DD83F'    # Bright Green (Exec)
+color_12: '#E9E74A'    # Bright Yellow
+color_13: '#1432F5'    # Bright Blue (Folder)
+color_14: '#DA4BE3'    # Bright Magenta
+color_15: '#64E5E8'    # Bright Cyan
+color_16: '#EAEAEA'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#CDFA50'  # Foreground (Text)
+
+cursor: '#CDFA50'      # Cursor

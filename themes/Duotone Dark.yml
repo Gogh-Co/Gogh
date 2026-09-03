@@ -1,0 +1,27 @@
+---
+name: 'Duotone Dark'
+author: 'chibicode (http://chibicode.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#1F1D27'    # Black (Host)
+color_02: '#D9393E'    # Red (Syntax string)
+color_03: '#2DCD73'    # Green (Command)
+color_04: '#D9B76E'    # Yellow (Command second)
+color_05: '#FFC284'    # Blue (Path)
+color_06: '#DE8D40'    # Magenta (Syntax var)
+color_07: '#2488FF'    # Cyan (Prompt)
+color_08: '#B7A1FF'    # White
+
+color_09: '#353147'    # Bright Black
+color_10: '#D9393E'    # Bright Red (Command error)
+color_11: '#2DCD73'    # Bright Green (Exec)
+color_12: '#D9B76E'    # Bright Yellow
+color_13: '#FFC284'    # Bright Blue (Folder)
+color_14: '#DE8D40'    # Bright Magenta
+color_15: '#2488FF'    # Bright Cyan
+color_16: '#EAE5FF'    # Bright White
+
+background: '#1F1D27'  # Background
+foreground: '#B7A1FF'  # Foreground (Text)
+
+cursor: '#FF9839'      # Cursor

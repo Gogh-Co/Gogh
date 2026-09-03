@@ -1,0 +1,27 @@
+---
+name: 'Monospace Dark'
+author: 'conventoangelo (https://github.com/conventoangelo)'
+variant: 'dark'            # dark or light
+
+color_01: '#738295'    # Black (Host)
+color_02: '#F76769'    # Red (Syntax string)
+color_03: '#17B877'    # Green (Command)
+color_04: '#FFA23E'    # Yellow (Command second)
+color_05: '#708FFF'    # Blue (Path)
+color_06: '#A87FFB'    # Magenta (Syntax var)
+color_07: '#25A6E9'    # Cyan (Prompt)
+color_08: '#A4AFBD'    # White
+
+color_09: '#8B98A9'    # Bright Black
+color_10: '#FC8F8E'    # Bright Red (Command error)
+color_11: '#66CE98'    # Bright Green (Exec)
+color_12: '#FFC26E'    # Bright Yellow
+color_13: '#A2B6FF'    # Bright Blue (Folder)
+color_14: '#C8AAFF'    # Bright Magenta
+color_15: '#71C2EE'    # Bright Cyan
+color_16: '#FAFBFE'    # Bright White
+
+background: '#10151D'  # Background
+foreground: '#A4AFBD'  # Foreground (Text)
+
+cursor: '#C8AAFF'      # Cursor

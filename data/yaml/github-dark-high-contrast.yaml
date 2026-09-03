@@ -1,0 +1,23 @@
+name: GitHub Dark High Contrast
+author: Antonio Camargo (https://github.com/apcamargo)
+variant: dark
+color_01: '#7A828E'
+color_02: '#FF9492'
+color_03: '#26CD4D'
+color_04: '#F0B72F'
+color_05: '#71B7FF'
+color_06: '#CB9EFF'
+color_07: '#39C5CF'
+color_08: '#D9DEE3'
+color_09: '#9EA7B3'
+color_10: '#FFB1AF'
+color_11: '#4AE168'
+color_12: '#F7C843'
+color_13: '#91CBFF'
+color_14: '#DBB7FF'
+color_15: '#56D4DD'
+color_16: '#FFFFFF'
+background: '#0A0C10'
+foreground: '#F0F3F6'
+cursor: '#71B7FF'
+hash: 105394601d037257dc3ccb36d5f17a42dea7a99dc4e954a081463977ea9232ce

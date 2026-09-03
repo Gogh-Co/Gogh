@@ -1,0 +1,27 @@
+---
+name: 'Horizon'
+author: 'Antonio Camargo (https://github.com/apcamargo)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#E95678'    # Red (Syntax string)
+color_03: '#29D398'    # Green (Command)
+color_04: '#FAB795'    # Yellow (Command second)
+color_05: '#26BBD9'    # Blue (Path)
+color_06: '#EE64AC'    # Magenta (Syntax var)
+color_07: '#59E1E3'    # Cyan (Prompt)
+color_08: '#E5E5E5'    # White
+
+color_09: '#666666'    # Bright Black
+color_10: '#EC6A88'    # Bright Red (Command error)
+color_11: '#3FDAA4'    # Bright Green (Exec)
+color_12: '#FBC3A7'    # Bright Yellow
+color_13: '#3FC4DE'    # Bright Blue (Folder)
+color_14: '#F075B5'    # Bright Magenta
+color_15: '#6BE4E6'    # Bright Cyan
+color_16: '#E5E5E5'    # Bright White
+
+background: '#1C1E26'  # Background
+foreground: '#D5D8DA'  # Foreground (Text)
+
+cursor: '#6C6F93'      # Cursor

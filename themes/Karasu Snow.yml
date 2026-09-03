@@ -1,0 +1,27 @@
+---
+name: 'Karasu Snow'
+author: 'scozu (https://github.com/scozu)'
+variant: 'light'            # dark or light
+
+color_01: '#0A0A0A'    # Black (Host)
+color_02: '#B84755'    # Red (Syntax string)
+color_03: '#3F7E4A'    # Green (Command)
+color_04: '#8A6A1F'    # Yellow (Command second)
+color_05: '#2E5E9B'    # Blue (Path)
+color_06: '#6C4BB8'    # Magenta (Syntax var)
+color_07: '#2D7E7A'    # Cyan (Prompt)
+color_08: '#F5F5F5'    # White
+
+color_09: '#404040'    # Bright Black
+color_10: '#D93C3C'    # Bright Red (Command error)
+color_11: '#2F9150'    # Bright Green (Exec)
+color_12: '#9A7A1D'    # Bright Yellow
+color_13: '#2B72C7'    # Bright Blue (Folder)
+color_14: '#7B59D6'    # Bright Magenta
+color_15: '#1F968F'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#FAFAFA'  # Background
+foreground: '#292524'  # Foreground (Text)
+
+cursor: '#0A0A0A'      # Cursor

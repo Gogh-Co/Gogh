@@ -1,0 +1,27 @@
+---
+name: 'Purple Rain'
+author: 'msorre2 (https://github.com/msorre2)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#FF260E'    # Red (Syntax string)
+color_03: '#9BE205'    # Green (Command)
+color_04: '#FFC400'    # Yellow (Command second)
+color_05: '#00A2FA'    # Blue (Path)
+color_06: '#815BB5'    # Magenta (Syntax var)
+color_07: '#00DEEF'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#565656'    # Bright Black
+color_10: '#FF4250'    # Bright Red (Command error)
+color_11: '#B8E36E'    # Bright Green (Exec)
+color_12: '#FFD852'    # Bright Yellow
+color_13: '#00A6FF'    # Bright Blue (Folder)
+color_14: '#AC7BF0'    # Bright Magenta
+color_15: '#74FDF3'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#21084A'  # Background
+foreground: '#FFFBF6'  # Foreground (Text)
+
+cursor: '#FF271D'      # Cursor

@@ -1,0 +1,23 @@
+name: Nachtschicht
+author: notgabriels-sys (https://github.com/notgabriels-sys)
+variant: dark
+color_01: '#0E1012'
+color_02: '#E5484D'
+color_03: '#33D17A'
+color_04: '#E3B341'
+color_05: '#4D7CFE'
+color_06: '#C86AD8'
+color_07: '#3FC8B0'
+color_08: '#C9CFD6'
+color_09: '#9DA4AF'
+color_10: '#EF8F92'
+color_11: '#76E0A5'
+color_12: '#EDCF88'
+color_13: '#9EB8FE'
+color_14: '#E0ABE9'
+color_15: '#7EDACA'
+color_16: '#E8EAED'
+background: '#17191D'
+foreground: '#E8EAED'
+cursor: '#E3B341'
+hash: baba968719658a620433983d8f266025a50a3ee3a9b56f93462c829cea5e680f

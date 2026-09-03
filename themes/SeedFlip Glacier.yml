@@ -1,0 +1,27 @@
+---
+name: 'SeedFlip Glacier'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'light'            # dark or light
+
+color_01: '#C2D4E5'    # Black (Host)
+color_02: '#BD0F0F'    # Red (Syntax string)
+color_03: '#0FBD49'    # Green (Command)
+color_04: '#BDA00F'    # Yellow (Command second)
+color_05: '#0F58BD'    # Blue (Path)
+color_06: '#BD0FBD'    # Magenta (Syntax var)
+color_07: '#0FBDBD'    # Cyan (Prompt)
+color_08: '#080D17'    # White
+
+color_09: '#8DADCE'    # Bright Black
+color_10: '#EE2B2B'    # Bright Red (Command error)
+color_11: '#12D452'    # Bright Green (Exec)
+color_12: '#D4B312'    # Bright Yellow
+color_13: '#2B7CEE'    # Bright Blue (Folder)
+color_14: '#EE2BEE'    # Bright Magenta
+color_15: '#12D4D4'    # Bright Cyan
+color_16: '#0F172A'    # Bright White
+
+background: '#F8FAFC'  # Background
+foreground: '#0F172A'  # Foreground (Text)
+
+cursor: '#0EA5E9'      # Cursor

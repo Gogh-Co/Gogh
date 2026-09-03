@@ -1,0 +1,27 @@
+---
+name: 'Patina Moss'
+author: 'PoshPalette (https://github.com/livlign/posh-palette)'
+variant: 'dark'            # dark or light
+
+color_01: '#33362E'    # Black (Host)
+color_02: '#C07878'    # Red (Syntax string)
+color_03: '#5BA886'    # Green (Command)
+color_04: '#D4BF6E'    # Yellow (Command second)
+color_05: '#65A8B5'    # Blue (Path)
+color_06: '#C08A7D'    # Magenta (Syntax var)
+color_07: '#63A8A6'    # Cyan (Prompt)
+color_08: '#DBD7CA'    # White
+
+color_09: '#585B51'    # Bright Black
+color_10: '#C07878'    # Bright Red (Command error)
+color_11: '#5BA886'    # Bright Green (Exec)
+color_12: '#D4BF6E'    # Bright Yellow
+color_13: '#65A8B5'    # Bright Blue (Folder)
+color_14: '#C08A7D'    # Bright Magenta
+color_15: '#63A8A6'    # Bright Cyan
+color_16: '#DBD7CA'    # Bright White
+
+background: '#20231F'  # Background
+foreground: '#DBD7CA'  # Foreground (Text)
+
+cursor: '#DBD7CA'      # Cursor

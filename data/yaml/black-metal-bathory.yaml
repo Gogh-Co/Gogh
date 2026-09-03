@@ -1,0 +1,23 @@
+name: Black Metal (Bathory)
+author: nooneknows (https://github.com/nooneknowspeter)
+variant: dark
+color_01: '#000000'
+color_02: '#5F8787'
+color_03: '#FBCB97'
+color_04: '#E78A53'
+color_05: '#888888'
+color_06: '#999999'
+color_07: '#AAAAAA'
+color_08: '#C1C1C1'
+color_09: '#404040'
+color_10: '#5F8787'
+color_11: '#FBCB97'
+color_12: '#E78A53'
+color_13: '#888888'
+color_14: '#999999'
+color_15: '#AAAAAA'
+color_16: '#C1C1C1'
+background: '#000000'
+foreground: '#C1C1C1'
+cursor: '#C1C1C1'
+hash: 47d3237e497481c8afa515efea7b5d72d11e3fdcceeeb5dea382791154809ccd

@@ -1,0 +1,23 @@
+name: Elegant
+author: lukgri (https://github.com/lukgri)
+variant: dark
+color_01: '#0C1221'
+color_02: '#EA335B'
+color_03: '#95CA9A'
+color_04: '#F7CD94'
+color_05: '#93AADD'
+color_06: '#BF94E5'
+color_07: '#8CCAEC'
+color_08: '#FFFFFF'
+color_09: '#575656'
+color_10: '#EA335B'
+color_11: '#95CA9A'
+color_12: '#F7CD94'
+color_13: '#93AADD'
+color_14: '#BF94E5'
+color_15: '#5FAAE9'
+color_16: '#FFFFFF'
+background: '#292B31'
+foreground: '#CFD2D6'
+cursor: '#55BBF9'
+hash: 0d835db940f74b35f8a8afeaec017b6bf47c9cffa71451d7467521ecb5c86886

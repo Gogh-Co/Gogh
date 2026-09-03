@@ -1,0 +1,27 @@
+---
+name: 'Citruszest'
+author: 'zootedb0t (https://github.com/zootedb0t)'
+variant: 'dark'            # dark or light
+
+color_01: '#404040'    # Black (Host)
+color_02: '#FF5454'    # Red (Syntax string)
+color_03: '#00CC7A'    # Green (Command)
+color_04: '#FFD400'    # Yellow (Command second)
+color_05: '#00BFFF'    # Blue (Path)
+color_06: '#FF90FE'    # Magenta (Syntax var)
+color_07: '#48D1CC'    # Cyan (Prompt)
+color_08: '#BFBFBF'    # White
+
+color_09: '#808080'    # Bright Black
+color_10: '#FF1A75'    # Bright Red (Command error)
+color_11: '#1AFFA3'    # Bright Green (Exec)
+color_12: '#FFFF00'    # Bright Yellow
+color_13: '#33CFFF'    # Bright Blue (Folder)
+color_14: '#FFB2FE'    # Bright Magenta
+color_15: '#00FFF2'    # Bright Cyan
+color_16: '#F9F9F9'    # Bright White
+
+background: '#121212'  # Background
+foreground: '#BFBFBF'  # Foreground (Text)
+
+cursor: '#666666'      # Cursor

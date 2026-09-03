@@ -1,0 +1,23 @@
+name: Cursor Light
+author: ''
+variant: light
+color_01: '#252525'
+color_02: '#CF2D56'
+color_03: '#1F8A65'
+color_04: '#A16900'
+color_05: '#3C7CAB'
+color_06: '#B8448B'
+color_07: '#4C7F8C'
+color_08: '#AFAFAF'
+color_09: '#5C5C5C'
+color_10: '#E75E78'
+color_11: '#55A583'
+color_12: '#C08532'
+color_13: '#6299C3'
+color_14: '#D06BA6'
+color_15: '#6F9BA6'
+color_16: '#FFFFFF'
+background: '#F3F3F3'
+foreground: '#252525'
+cursor: '#252525'
+hash: 75a5ec52f946f72c624e56d4a046c37f66f9f7a36740d9dbc1863a05eff29669

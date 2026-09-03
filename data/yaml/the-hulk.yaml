@@ -1,0 +1,23 @@
+name: The Hulk
+author: pyrophos (https://github.com/pyrophos)
+variant: dark
+color_01: '#1B1D1E'
+color_02: '#269D1B'
+color_03: '#13CE30'
+color_04: '#63E457'
+color_05: '#2525F5'
+color_06: '#641F74'
+color_07: '#378CA9'
+color_08: '#D9D8D1'
+color_09: '#505354'
+color_10: '#8DFF2A'
+color_11: '#48FF77'
+color_12: '#3AFE16'
+color_13: '#506B95'
+color_14: '#72589D'
+color_15: '#4085A6'
+color_16: '#E5E6E1'
+background: '#1B1D1E'
+foreground: '#B5B5B5'
+cursor: '#16B61B'
+hash: e29b3cd320ce4f26ae384e0141f1918829af3e6e337159600dba5bccf87c11e5

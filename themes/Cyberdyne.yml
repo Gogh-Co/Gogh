@@ -1,0 +1,27 @@
+---
+name: 'Cyberdyne'
+author: 'ReagentX (https://github.com/ReagentX)'
+variant: 'dark'            # dark or light
+
+color_01: '#080808'    # Black (Host)
+color_02: '#FF8373'    # Red (Syntax string)
+color_03: '#00C172'    # Green (Command)
+color_04: '#D2A700'    # Yellow (Command second)
+color_05: '#0071CF'    # Blue (Path)
+color_06: '#FF90FE'    # Magenta (Syntax var)
+color_07: '#6BFFDD'    # Cyan (Prompt)
+color_08: '#F1F1F1'    # White
+
+color_09: '#2E2E2E'    # Bright Black
+color_10: '#FFC4BE'    # Bright Red (Command error)
+color_11: '#D6FCBA'    # Bright Green (Exec)
+color_12: '#FFFED5'    # Bright Yellow
+color_13: '#C2E3FF'    # Bright Blue (Folder)
+color_14: '#FFB2FE'    # Bright Magenta
+color_15: '#E6E7FE'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#151144'  # Background
+foreground: '#00FF92'  # Foreground (Text)
+
+cursor: '#00FF9C'      # Cursor

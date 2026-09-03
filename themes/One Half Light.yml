@@ -1,0 +1,27 @@
+---
+name: 'One Half Light'
+author: 'sonph (https://github.com/sonph)'
+variant: 'light'            # dark or light
+
+color_01: '#383A42'    # Black (Host)
+color_02: '#E45649'    # Red (Syntax string)
+color_03: '#50A14F'    # Green (Command)
+color_04: '#C18401'    # Yellow (Command second)
+color_05: '#0184BC'    # Blue (Path)
+color_06: '#A626A4'    # Magenta (Syntax var)
+color_07: '#0997B3'    # Cyan (Prompt)
+color_08: '#FAFAFA'    # White
+
+color_09: '#4F525E'    # Bright Black
+color_10: '#E06C75'    # Bright Red (Command error)
+color_11: '#98C379'    # Bright Green (Exec)
+color_12: '#E5C07B'    # Bright Yellow
+color_13: '#61AFEF'    # Bright Blue (Folder)
+color_14: '#C678DD'    # Bright Magenta
+color_15: '#56B6C2'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#FAFAFA'  # Background
+foreground: '#383A42'  # Foreground (Text)
+
+cursor: '#BFCEFF'      # Cursor

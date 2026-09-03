@@ -1,0 +1,27 @@
+---
+name: 'IRIX Terminal'
+author: 'Skeeve (https://github.com/Skeeve)'
+variant: 'dark'            # dark or light
+
+color_01: '#1A1919'    # Black (Host)
+color_02: '#FF2B1E'    # Red (Syntax string)
+color_03: '#57FF3D'    # Green (Command)
+color_04: '#FFFF44'    # Yellow (Command second)
+color_05: '#0004FF'    # Blue (Path)
+color_06: '#FF2CFF'    # Magenta (Syntax var)
+color_07: '#56FFFF'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#FFFF44'    # Bright Black
+color_10: '#FFFF44'    # Bright Red (Command error)
+color_11: '#FFFF44'    # Bright Green (Exec)
+color_12: '#FFFC72'    # Bright Yellow
+color_13: '#FFFF44'    # Bright Blue (Folder)
+color_14: '#FFFF44'    # Bright Magenta
+color_15: '#FFFF44'    # Bright Cyan
+color_16: '#FFFF44'    # Bright White
+
+background: '#000043'  # Background
+foreground: '#F2F2F2'  # Foreground (Text)
+
+cursor: '#C7C7C7'      # Cursor

@@ -1,0 +1,27 @@
+---
+name: 'Calamity'
+author: 'Pustur (https://github.com/Pustur)'
+variant: 'dark'            # dark or light
+
+color_01: '#2F2833'    # Black (Host)
+color_02: '#FC644D'    # Red (Syntax string)
+color_03: '#A5F69C'    # Green (Command)
+color_04: '#E9D7A5'    # Yellow (Command second)
+color_05: '#3B79C7'    # Blue (Path)
+color_06: '#F92672'    # Magenta (Syntax var)
+color_07: '#74D3DE'    # Cyan (Prompt)
+color_08: '#D5CED9'    # White
+
+color_09: '#7E6C88'    # Bright Black
+color_10: '#FC644D'    # Bright Red (Command error)
+color_11: '#A5F69C'    # Bright Green (Exec)
+color_12: '#E9D7A5'    # Bright Yellow
+color_13: '#3B79C7'    # Bright Blue (Folder)
+color_14: '#F92672'    # Bright Magenta
+color_15: '#74D3DE'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#2F2833'  # Background
+foreground: '#D5CED9'  # Foreground (Text)
+
+cursor: '#D5CED9'      # Cursor

@@ -1,0 +1,23 @@
+name: Shades Of Purple
+author: fr3fou (https://github.com/fr3fou)
+variant: dark
+color_01: '#000000'
+color_02: '#D90429'
+color_03: '#3AD900'
+color_04: '#FFE700'
+color_05: '#6943FF'
+color_06: '#FF2C70'
+color_07: '#00C5C7'
+color_08: '#C7C7C7'
+color_09: '#686868'
+color_10: '#F92A1C'
+color_11: '#43D426'
+color_12: '#F1D000'
+color_13: '#6871FF'
+color_14: '#FF77FF'
+color_15: '#79E8FB'
+color_16: '#FFFFFF'
+background: '#1E1D40'
+foreground: '#FFFFFF'
+cursor: '#FAD000'
+hash: 97fd277bd119b559fef787b7fc3c156e04e30eff3f958b630c1bec32b5e1ab7e

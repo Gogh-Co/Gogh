@@ -1,0 +1,23 @@
+name: Noctis Uva
+author: Liviu Schera (https://github.com/liviuschera)
+variant: dark
+color_01: '#302F3D'
+color_02: '#E66533'
+color_03: '#49E9A6'
+color_04: '#E4B781'
+color_05: '#49ACE9'
+color_06: '#DF769B'
+color_07: '#49D6E9'
+color_08: '#B6B3CC'
+color_09: '#504E65'
+color_10: '#E97749'
+color_11: '#60EBB1'
+color_12: '#E69533'
+color_13: '#60B6EB'
+color_14: '#E798B3'
+color_15: '#60DBEB'
+color_16: '#C5C2D6'
+background: '#292640'
+foreground: '#C5C2D6'
+cursor: '#C5C2D6'
+hash: f70fcdcc49226eabd6a9093101f75625f210209ac29554a58091ffe373f1122d

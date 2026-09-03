@@ -1,0 +1,23 @@
+name: CRT Amber
+author: theebest.com (https://www.theebest.com)
+variant: dark
+color_01: '#4C422F'
+color_02: '#EF4444'
+color_03: '#84CC16'
+color_04: '#FDE68A'
+color_05: '#C084FC'
+color_06: '#F97316'
+color_07: '#F59E0B'
+color_08: '#D8A657'
+color_09: '#544435'
+color_10: '#F26969'
+color_11: '#9DD645'
+color_12: '#FDEB9F'
+color_13: '#CD9DFD'
+color_14: '#FA8F45'
+color_15: '#F7B13C'
+color_16: '#FFF3C4'
+background: '#1A1005'
+foreground: '#FFF3C4'
+cursor: '#FFF3C4'
+hash: 6e247a871b0e713d55d118e5ad51362559c71aedce7041942e27ebbe00198cbc

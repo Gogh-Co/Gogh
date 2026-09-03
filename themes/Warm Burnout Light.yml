@@ -1,0 +1,27 @@
+---
+name: 'Warm Burnout Light'
+author: 'Felipe Lima (https://github.com/felipefdl)'
+variant: 'light'            # dark or light
+
+color_01: '#3A3630'    # Black (Host)
+color_02: '#B82820'    # Red (Syntax string)
+color_03: '#2D6A14'    # Green (Command)
+color_04: '#8A6000'    # Yellow (Command second)
+color_05: '#2060A0'    # Blue (Path)
+color_06: '#8A3090'    # Magenta (Syntax var)
+color_07: '#146858'    # Cyan (Prompt)
+color_08: '#C0B8AA'    # White
+
+color_09: '#686868'    # Bright Black
+color_10: '#C83028'    # Bright Red (Command error)
+color_11: '#3A7A20'    # Bright Green (Exec)
+color_12: '#9A7008'    # Bright Yellow
+color_13: '#2870B0'    # Bright Blue (Folder)
+color_14: '#9A38A0'    # Bright Magenta
+color_15: '#208870'    # Bright Cyan
+color_16: '#FAF6F0'    # Bright White
+
+background: '#F5EDE0'  # Background
+foreground: '#3A3630'  # Foreground (Text)
+
+cursor: '#8A6600'      # Cursor

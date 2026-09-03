@@ -1,0 +1,27 @@
+---
+name: 'Mellow'
+author: 'kvrohit (https://github.com/kvrohit)'
+variant: 'dark'            # dark or light
+
+color_01: '#27272A'    # Black (Host)
+color_02: '#F5A191'    # Red (Syntax string)
+color_03: '#90B99F'    # Green (Command)
+color_04: '#E6B99D'    # Yellow (Command second)
+color_05: '#ACA1CF'    # Blue (Path)
+color_06: '#E29ECA'    # Magenta (Syntax var)
+color_07: '#EA83A5'    # Cyan (Prompt)
+color_08: '#C1C0D4'    # White
+
+color_09: '#353539'    # Bright Black
+color_10: '#FFAE9F'    # Bright Red (Command error)
+color_11: '#9DC6AC'    # Bright Green (Exec)
+color_12: '#F0C5A9'    # Bright Yellow
+color_13: '#B9AEDA'    # Bright Blue (Folder)
+color_14: '#ECAAD6'    # Bright Magenta
+color_15: '#F591B2'    # Bright Cyan
+color_16: '#CAC9DD'    # Bright White
+
+background: '#161617'  # Background
+foreground: '#C9C7CD'  # Foreground (Text)
+
+cursor: '#CAC9DD'      # Cursor

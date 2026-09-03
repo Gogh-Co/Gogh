@@ -1,0 +1,27 @@
+---
+name: 'Neon'
+author: 'phosphorcube (https://github.com/phosphorcube/iTerm2-Color-Schemes)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#FF3045'    # Red (Syntax string)
+color_03: '#5FFA74'    # Green (Command)
+color_04: '#FFFC7E'    # Yellow (Command second)
+color_05: '#0208CB'    # Blue (Path)
+color_06: '#F924E7'    # Magenta (Syntax var)
+color_07: '#00FFFC'    # Cyan (Prompt)
+color_08: '#C7C7C7'    # White
+
+color_09: '#686868'    # Bright Black
+color_10: '#FF5A5A'    # Bright Red (Command error)
+color_11: '#75FF88'    # Bright Green (Exec)
+color_12: '#FFFD96'    # Bright Yellow
+color_13: '#3C40CB'    # Bright Blue (Folder)
+color_14: '#F15BE5'    # Bright Magenta
+color_15: '#88FFFE'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#14161A'  # Background
+foreground: '#00FFFC'  # Foreground (Text)
+
+cursor: '#C7C7C7'      # Cursor

@@ -1,0 +1,27 @@
+---
+name: 'Letterpress'
+author: 'PoshPalette (https://github.com/livlign/posh-palette)'
+variant: 'light'            # dark or light
+
+color_01: '#3A352C'    # Black (Host)
+color_02: '#B0202A'    # Red (Syntax string)
+color_03: '#506B24'    # Green (Command)
+color_04: '#8A5E0A'    # Yellow (Command second)
+color_05: '#2A5C8A'    # Blue (Path)
+color_06: '#6E4B2E'    # Magenta (Syntax var)
+color_07: '#176B5F'    # Cyan (Prompt)
+color_08: '#AEABA4'    # White
+
+color_09: '#8E886F'    # Bright Black
+color_10: '#B0202A'    # Bright Red (Command error)
+color_11: '#506B24'    # Bright Green (Exec)
+color_12: '#8A4FA0'    # Bright Yellow
+color_13: '#2A5C8A'    # Bright Blue (Folder)
+color_14: '#176B5F'    # Bright Magenta
+color_15: '#176B5F'    # Bright Cyan
+color_16: '#3A352C'    # Bright White
+
+background: '#F3ECDF'  # Background
+foreground: '#3A352C'  # Foreground (Text)
+
+cursor: '#2A5C8A'      # Cursor

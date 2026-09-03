@@ -1,0 +1,27 @@
+---
+name: 'Tearout'
+author: 'leobeosab (https://github.com/leobeosab)'
+variant: 'dark'            # dark or light
+
+color_01: '#685742'    # Black (Host)
+color_02: '#CC967B'    # Red (Syntax string)
+color_03: '#97976D'    # Green (Command)
+color_04: '#6C9861'    # Yellow (Command second)
+color_05: '#B5955E'    # Blue (Path)
+color_06: '#C9A554'    # Magenta (Syntax var)
+color_07: '#D7C483'    # Cyan (Prompt)
+color_08: '#B5955E'    # White
+
+color_09: '#75644F'    # Bright Black
+color_10: '#CC967B'    # Bright Red (Command error)
+color_11: '#97976D'    # Bright Green (Exec)
+color_12: '#6C9861'    # Bright Yellow
+color_13: '#B5955E'    # Bright Blue (Folder)
+color_14: '#C9A554'    # Bright Magenta
+color_15: '#D7C483'    # Bright Cyan
+color_16: '#B5955E'    # Bright White
+
+background: '#34392D'  # Background
+foreground: '#F4D2AE'  # Foreground (Text)
+
+cursor: '#D7C483'      # Cursor

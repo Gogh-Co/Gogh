@@ -1,0 +1,23 @@
+name: Daybreak
+author: PoshPalette (https://github.com/livlign/posh-palette)
+variant: light
+color_01: '#44413B'
+color_02: '#AF2817'
+color_03: '#3C6A12'
+color_04: '#795900'
+color_05: '#186875'
+color_06: '#754193'
+color_07: '#006A62'
+color_08: '#6E6B62'
+color_09: '#8C8579'
+color_10: '#C03A27'
+color_11: '#538625'
+color_12: '#9A4C1F'
+color_13: '#207887'
+color_14: '#8552A3'
+color_15: '#087A71'
+color_16: '#2E2C27'
+background: '#F3EFE8'
+foreground: '#44413B'
+cursor: '#A25327'
+hash: 01adc8108b6e3dfbad972cc66467fee91a4d0fd925117a088477b13e8bbb6990

@@ -1,0 +1,27 @@
+---
+name: 'Sequoia Moonlight Light'
+author: 'Michael Andreuzza (https://github.com/michael-andreuzza)'
+variant: 'light'            # dark or light
+
+color_01: '#D4D5DC'    # Black (Host)
+color_02: '#C94DA8'    # Red (Syntax string)
+color_03: '#4A85D4'    # Green (Command)
+color_04: '#6A6A78'    # Yellow (Command second)
+color_05: '#9A5FD9'    # Blue (Path)
+color_06: '#282930'    # Magenta (Syntax var)
+color_07: '#D9884A'    # Cyan (Prompt)
+color_08: '#282930'    # White
+
+color_09: '#42434E'    # Bright Black
+color_10: '#C94DA8'    # Bright Red (Command error)
+color_11: '#4A85D4'    # Bright Green (Exec)
+color_12: '#6A6A78'    # Bright Yellow
+color_13: '#9A5FD9'    # Bright Blue (Folder)
+color_14: '#282930'    # Bright Magenta
+color_15: '#D9884A'    # Bright Cyan
+color_16: '#282930'    # Bright White
+
+background: '#EDEEF2'  # Background
+foreground: '#282930'  # Foreground (Text)
+
+cursor: '#565760'      # Cursor

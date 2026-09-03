@@ -1,0 +1,23 @@
+name: Glacier
+author: bahlo (https://github.com/bahlo/iterm-colors)
+variant: dark
+color_01: '#2E343C'
+color_02: '#BD0F2F'
+color_03: '#35A770'
+color_04: '#FB9435'
+color_05: '#1F5872'
+color_06: '#BD2523'
+color_07: '#778397'
+color_08: '#FFFFFF'
+color_09: '#404A55'
+color_10: '#BD0F2F'
+color_11: '#49E998'
+color_12: '#FDDF6E'
+color_13: '#2A8BC1'
+color_14: '#EA4727'
+color_15: '#A0B6D3'
+color_16: '#FFFFFF'
+background: '#0C1115'
+foreground: '#FFFFFF'
+cursor: '#6C6C6C'
+hash: 75d304e2084d421e6edd9204224ed1f2faaf1b26c48e605482b23d66892e1614

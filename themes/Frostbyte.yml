@@ -1,0 +1,27 @@
+---
+name: 'Frostbyte'
+author: 'PoshPalette (https://github.com/livlign/posh-palette)'
+variant: 'light'            # dark or light
+
+color_01: '#283645'    # Black (Host)
+color_02: '#C2384F'    # Red (Syntax string)
+color_03: '#2E7A56'    # Green (Command)
+color_04: '#876010'    # Yellow (Command second)
+color_05: '#1A66BE'    # Blue (Path)
+color_06: '#5552CC'    # Magenta (Syntax var)
+color_07: '#1A7E9E'    # Cyan (Prompt)
+color_08: '#586878'    # White
+
+color_09: '#93A4B6'    # Bright Black
+color_10: '#C2384F'    # Bright Red (Command error)
+color_11: '#2E7A56'    # Bright Green (Exec)
+color_12: '#9A5220'    # Bright Yellow
+color_13: '#1A66BE'    # Bright Blue (Folder)
+color_14: '#5552CC'    # Bright Magenta
+color_15: '#1A7E9E'    # Bright Cyan
+color_16: '#283645'    # Bright White
+
+background: '#EEF5FC'  # Background
+foreground: '#283645'  # Foreground (Text)
+
+cursor: '#1F73CC'      # Cursor

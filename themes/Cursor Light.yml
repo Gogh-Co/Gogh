@@ -1,0 +1,27 @@
+---
+name: 'Cursor Light'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'light'            # dark or light
+
+color_01: '#252525'    # Black (Host)
+color_02: '#CF2D56'    # Red (Syntax string)
+color_03: '#1F8A65'    # Green (Command)
+color_04: '#A16900'    # Yellow (Command second)
+color_05: '#3C7CAB'    # Blue (Path)
+color_06: '#B8448B'    # Magenta (Syntax var)
+color_07: '#4C7F8C'    # Cyan (Prompt)
+color_08: '#AFAFAF'    # White
+
+color_09: '#5C5C5C'    # Bright Black
+color_10: '#E75E78'    # Bright Red (Command error)
+color_11: '#55A583'    # Bright Green (Exec)
+color_12: '#C08532'    # Bright Yellow
+color_13: '#6299C3'    # Bright Blue (Folder)
+color_14: '#D06BA6'    # Bright Magenta
+color_15: '#6F9BA6'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#F3F3F3'  # Background
+foreground: '#252525'  # Foreground (Text)
+
+cursor: '#252525'      # Cursor

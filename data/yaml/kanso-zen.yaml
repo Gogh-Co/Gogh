@@ -1,0 +1,23 @@
+name: Kanso Zen
+author: webhooked (https://github.com/webhooked)
+variant: dark
+color_01: '#0D0C0C'
+color_02: '#C4746E'
+color_03: '#8A9A7B'
+color_04: '#C4B28A'
+color_05: '#8BA4B0'
+color_06: '#A292A3'
+color_07: '#8EA4A2'
+color_08: '#C8C093'
+color_09: '#A4A7A4'
+color_10: '#E46876'
+color_11: '#87A987'
+color_12: '#E6C384'
+color_13: '#7FB4CA'
+color_14: '#938AA9'
+color_15: '#7AA89F'
+color_16: '#C5C9C7'
+background: '#090E13'
+foreground: '#C5C9C7'
+cursor: '#C5C9C7'
+hash: c9da1389fbcdb9dceb783b642e0a49315a3e15bba129b2781efc34ca05bfc3df

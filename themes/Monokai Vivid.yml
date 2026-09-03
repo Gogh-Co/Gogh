@@ -1,0 +1,27 @@
+---
+name: 'Monokai Vivid'
+author: 'vitalymak (https://github.com/vitalymak/iTerm2-Color-Schemes)'
+variant: 'dark'            # dark or light
+
+color_01: '#121212'    # Black (Host)
+color_02: '#FA2934'    # Red (Syntax string)
+color_03: '#98E123'    # Green (Command)
+color_04: '#FFF30A'    # Yellow (Command second)
+color_05: '#0443FF'    # Blue (Path)
+color_06: '#F800F8'    # Magenta (Syntax var)
+color_07: '#01B6ED'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#838383'    # Bright Black
+color_10: '#F6669D'    # Bright Red (Command error)
+color_11: '#B1E05F'    # Bright Green (Exec)
+color_12: '#FFF26D'    # Bright Yellow
+color_13: '#0443FF'    # Bright Blue (Folder)
+color_14: '#F200F6'    # Bright Magenta
+color_15: '#51CEFF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#121212'  # Background
+foreground: '#F9F9F9'  # Foreground (Text)
+
+cursor: '#FB0007'      # Cursor

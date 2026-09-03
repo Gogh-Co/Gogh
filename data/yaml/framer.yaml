@@ -1,0 +1,23 @@
+name: Framer
+author: markogresak (https://github.com/markogresak)
+variant: dark
+color_01: '#141414'
+color_02: '#FF5555'
+color_03: '#98EC65'
+color_04: '#FFCC33'
+color_05: '#00AAFF'
+color_06: '#AA88FF'
+color_07: '#88DDFF'
+color_08: '#CCCCCC'
+color_09: '#414141'
+color_10: '#FF8888'
+color_11: '#B6F292'
+color_12: '#FFD966'
+color_13: '#33BBFF'
+color_14: '#CEBBFF'
+color_15: '#BBECFF'
+color_16: '#FFFFFF'
+background: '#111111'
+foreground: '#777777'
+cursor: '#FCDC08'
+hash: 24306f317cb12ab6525f3d6a2c89a966490e2cb14c279390caf3cc17ee28639b

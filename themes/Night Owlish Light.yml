@@ -1,0 +1,27 @@
+---
+name: 'Night Owlish Light'
+author: 'praveenpuglia (https://github.com/praveenpuglia)'
+variant: 'light'            # dark or light
+
+color_01: '#011627'    # Black (Host)
+color_02: '#D3423E'    # Red (Syntax string)
+color_03: '#2AA298'    # Green (Command)
+color_04: '#DAAA01'    # Yellow (Command second)
+color_05: '#4876D6'    # Blue (Path)
+color_06: '#403F53'    # Magenta (Syntax var)
+color_07: '#08916A'    # Cyan (Prompt)
+color_08: '#7A8181'    # White
+
+color_09: '#7A8181'    # Bright Black
+color_10: '#F76E6E'    # Bright Red (Command error)
+color_11: '#49D0C5'    # Bright Green (Exec)
+color_12: '#DAC26B'    # Bright Yellow
+color_13: '#5CA7E4'    # Bright Blue (Folder)
+color_14: '#697098'    # Bright Magenta
+color_15: '#00C990'    # Bright Cyan
+color_16: '#989FB1'    # Bright White
+
+background: '#FFFFFF'  # Background
+foreground: '#403F53'  # Foreground (Text)
+
+cursor: '#403F53'      # Cursor

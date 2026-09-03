@@ -1,0 +1,23 @@
+name: Emerald Synth
+author: ''
+variant: dark
+color_01: '#0A0118'
+color_02: '#FF2A6D'
+color_03: '#00E67E'
+color_04: '#FFCC66'
+color_05: '#8B9CF7'
+color_06: '#FF79C6'
+color_07: '#4DD0E1'
+color_08: '#F0E6FF'
+color_09: '#6A5585'
+color_10: '#FF5C8A'
+color_11: '#40FFDD'
+color_12: '#FFE099'
+color_13: '#B0B8FC'
+color_14: '#FF9ED0'
+color_15: '#7EE0EC'
+color_16: '#FFFFFF'
+background: '#0D0221'
+foreground: '#00FFCC'
+cursor: '#FF79C6'
+hash: 938399a19af53b9cb7439f2defac71e251a1480dc01f303b90d97d0020b14b9b

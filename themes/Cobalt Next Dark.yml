@@ -1,0 +1,27 @@
+---
+name: 'Cobalt Next Dark'
+author: 'davidleininger (https://github.com/davidleininger/cobaltnext-vscode)'
+variant: 'dark'            # dark or light
+
+color_01: '#282F36'    # Black (Host)
+color_02: '#E6576A'    # Red (Syntax string)
+color_03: '#99C794'    # Green (Command)
+color_04: '#FAC863'    # Yellow (Command second)
+color_05: '#5A9BCF'    # Blue (Path)
+color_06: '#C5A5C5'    # Magenta (Syntax var)
+color_07: '#5FB3B3'    # Cyan (Prompt)
+color_08: '#D8DEE9'    # White
+
+color_09: '#65737E'    # Bright Black
+color_10: '#D6838C'    # Bright Red (Command error)
+color_11: '#C1DCBE'    # Bright Green (Exec)
+color_12: '#FFDE9B'    # Bright Yellow
+color_13: '#8ABEE7'    # Bright Blue (Folder)
+color_14: '#EDCDED'    # Bright Magenta
+color_15: '#9BE2E2'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#0F1C23'  # Background
+foreground: '#D8DEE9'  # Foreground (Text)
+
+cursor: '#FAC863'      # Cursor

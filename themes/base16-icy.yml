@@ -1,0 +1,27 @@
+---
+name: 'base16-icy'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#021012'    # Black (Host)
+color_02: '#16C2D9'    # Red (Syntax string)
+color_03: '#4DD0E1'    # Green (Command)
+color_04: '#80DEEA'    # Yellow (Command second)
+color_05: '#00BCD4'    # Blue (Path)
+color_06: '#00ADC1'    # Magenta (Syntax var)
+color_07: '#26C6D6'    # Cyan (Prompt)
+color_08: '#095B67'    # White
+
+color_09: '#052E34'    # Bright Black
+color_10: '#B3EBF2'    # Bright Red (Command error)
+color_11: '#4DD0E1'    # Bright Green (Exec)
+color_12: '#80DEEA'    # Bright Yellow
+color_13: '#00BCD4'    # Bright Blue (Folder)
+color_14: '#00ADC1'    # Bright Magenta
+color_15: '#26C6D6'    # Bright Cyan
+color_16: '#0C7C7C'    # Bright White
+
+background: '#021012'  # Background
+foreground: '#095B67'  # Foreground (Text)
+
+cursor: '#16C2D9'      # Cursor

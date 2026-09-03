@@ -1,0 +1,23 @@
+name: iTerm2 Tango Light
+author: ''
+variant: light
+color_01: '#000000'
+color_02: '#D81E00'
+color_03: '#5EA702'
+color_04: '#CFAE00'
+color_05: '#427AB3'
+color_06: '#89658E'
+color_07: '#00A7AA'
+color_08: '#DBDED8'
+color_09: '#686A66'
+color_10: '#F54235'
+color_11: '#99E343'
+color_12: '#FDEB61'
+color_13: '#84B0D8'
+color_14: '#BC94B7'
+color_15: '#37E6E8'
+color_16: '#F1F1F0'
+background: '#FFFFFF'
+foreground: '#000000'
+cursor: '#000000'
+hash: e84371ca2c0c2a5b1952dd536713bf8c7142fbf68490daf8b3e4f6d8b9501eb4

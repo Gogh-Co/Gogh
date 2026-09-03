@@ -1,0 +1,27 @@
+---
+name: 'Violite'
+author: 'Link (https://github.com/4c696e6b)'
+variant: 'dark'            # dark or light
+
+color_01: '#241C36'    # Black (Host)
+color_02: '#EC7979'    # Red (Syntax string)
+color_03: '#79ECB3'    # Green (Command)
+color_04: '#ECE279'    # Yellow (Command second)
+color_05: '#A979EC'    # Blue (Path)
+color_06: '#EC79EC'    # Magenta (Syntax var)
+color_07: '#79ECEC'    # Cyan (Prompt)
+color_08: '#EEF4F6'    # White
+
+color_09: '#56447A'    # Bright Black
+color_10: '#EF8F8F'    # Bright Red (Command error)
+color_11: '#9FEFBF'    # Bright Green (Exec)
+color_12: '#EFE78F'    # Bright Yellow
+color_13: '#B78FEF'    # Bright Blue (Folder)
+color_14: '#EF8FCF'    # Bright Magenta
+color_15: '#9FEFEF'    # Bright Cyan
+color_16: '#F8FAFC'    # Bright White
+
+background: '#241C36'  # Background
+foreground: '#EEF4F6'  # Foreground (Text)
+
+cursor: '#EEF4F6'      # Cursor

@@ -1,0 +1,23 @@
+name: Forest Blue
+author: ''
+variant: dark
+color_01: '#333333'
+color_02: '#F8818E'
+color_03: '#92D3A2'
+color_04: '#1A8E63'
+color_05: '#8ED0CE'
+color_06: '#5E468C'
+color_07: '#31658C'
+color_08: '#E2D8CD'
+color_09: '#3D3D3D'
+color_10: '#FB3D66'
+color_11: '#6BB48D'
+color_12: '#30C85A'
+color_13: '#39A7A2'
+color_14: '#7E62B3'
+color_15: '#6096BF'
+color_16: '#E2D8CD'
+background: '#051519'
+foreground: '#E2D8CD'
+cursor: '#9E9ECB'
+hash: 062e726e70fc28b7b310a3e85166f060f8a792a1e078d6435d5c78bca0b1d2da

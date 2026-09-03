@@ -1,0 +1,23 @@
+name: Adwaita Dark
+author: cnavajas (https://github.com/cnavajas)
+variant: dark
+color_01: '#241F31'
+color_02: '#C01C28'
+color_03: '#2EC27E'
+color_04: '#F5C211'
+color_05: '#1E78E4'
+color_06: '#9841BB'
+color_07: '#0AB9DC'
+color_08: '#C0BFBC'
+color_09: '#5E5C64'
+color_10: '#ED333B'
+color_11: '#57E389'
+color_12: '#F8E45C'
+color_13: '#51A1FF'
+color_14: '#C061CB'
+color_15: '#4FD2FD'
+color_16: '#F6F5F4'
+background: '#1C1C1F'
+foreground: '#FFFFFF'
+cursor: '#FFFFFF'
+hash: 190ec94bbbfc0b0bca00e71f5aa558c5a4ba5f0d9ba2575d0cf16324f53151a6

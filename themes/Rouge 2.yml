@@ -1,0 +1,27 @@
+---
+name: 'Rouge 2'
+author: 'Josef Aidt (https://github.com/josefaidt/rouge-theme)'
+variant: 'dark'            # dark or light
+
+color_01: '#5D5D6B'    # Black (Host)
+color_02: '#C6797E'    # Red (Syntax string)
+color_03: '#969E92'    # Green (Command)
+color_04: '#DBCDAB'    # Yellow (Command second)
+color_05: '#6E94B9'    # Blue (Path)
+color_06: '#4C4E78'    # Magenta (Syntax var)
+color_07: '#8AB6C1'    # Cyan (Prompt)
+color_08: '#E8E8EA'    # White
+
+color_09: '#616274'    # Bright Black
+color_10: '#C6797E'    # Bright Red (Command error)
+color_11: '#E6DCC4'    # Bright Green (Exec)
+color_12: '#E6DCC4'    # Bright Yellow
+color_13: '#98B3CD'    # Bright Blue (Folder)
+color_14: '#8283A1'    # Bright Magenta
+color_15: '#ABCBD3'    # Bright Cyan
+color_16: '#E8E8EA'    # Bright White
+
+background: '#17182B'  # Background
+foreground: '#A2A3AA'  # Foreground (Text)
+
+cursor: '#969E92'      # Cursor

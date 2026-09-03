@@ -1,0 +1,27 @@
+---
+name: 'Zenbones Dark'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#1C1917'    # Black (Host)
+color_02: '#DE6E7C'    # Red (Syntax string)
+color_03: '#819B69'    # Green (Command)
+color_04: '#B77E64'    # Yellow (Command second)
+color_05: '#6099C0'    # Blue (Path)
+color_06: '#B279A7'    # Magenta (Syntax var)
+color_07: '#66A5AD'    # Cyan (Prompt)
+color_08: '#B4BDC3'    # White
+
+color_09: '#403833'    # Bright Black
+color_10: '#E8838F'    # Bright Red (Command error)
+color_11: '#8BAE68'    # Bright Green (Exec)
+color_12: '#D68C67'    # Bright Yellow
+color_13: '#61ABDA'    # Bright Blue (Folder)
+color_14: '#CF86C1'    # Bright Magenta
+color_15: '#65B8C1'    # Bright Cyan
+color_16: '#888F94'    # Bright White
+
+background: '#1C1917'  # Background
+foreground: '#B4BDC3'  # Foreground (Text)
+
+cursor: '#C4CACF'      # Cursor

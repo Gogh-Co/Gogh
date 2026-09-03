@@ -1,0 +1,23 @@
+name: Karasu Snow
+author: scozu (https://github.com/scozu)
+variant: light
+color_01: '#0A0A0A'
+color_02: '#B84755'
+color_03: '#3F7E4A'
+color_04: '#8A6A1F'
+color_05: '#2E5E9B'
+color_06: '#6C4BB8'
+color_07: '#2D7E7A'
+color_08: '#F5F5F5'
+color_09: '#404040'
+color_10: '#D93C3C'
+color_11: '#2F9150'
+color_12: '#9A7A1D'
+color_13: '#2B72C7'
+color_14: '#7B59D6'
+color_15: '#1F968F'
+color_16: '#FFFFFF'
+background: '#FAFAFA'
+foreground: '#292524'
+cursor: '#0A0A0A'
+hash: 60f6cbfd4c1e9bf79fbd81e9bdfe11f0ca13f6c550f5b2761fd2921bf5f9d2a6

@@ -1,0 +1,23 @@
+name: Letterpress
+author: PoshPalette (https://github.com/livlign/posh-palette)
+variant: light
+color_01: '#3A352C'
+color_02: '#B0202A'
+color_03: '#506B24'
+color_04: '#8A5E0A'
+color_05: '#2A5C8A'
+color_06: '#6E4B2E'
+color_07: '#176B5F'
+color_08: '#AEABA4'
+color_09: '#8E886F'
+color_10: '#B0202A'
+color_11: '#506B24'
+color_12: '#8A4FA0'
+color_13: '#2A5C8A'
+color_14: '#176B5F'
+color_15: '#176B5F'
+color_16: '#3A352C'
+background: '#F3ECDF'
+foreground: '#3A352C'
+cursor: '#2A5C8A'
+hash: ce2dd1fb07e154551ec72097cadae469dd91267b4484a77da25c4c11e4e0a764

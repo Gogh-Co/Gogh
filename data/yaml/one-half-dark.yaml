@@ -1,0 +1,23 @@
+name: One Half Dark
+author: sonph (https://github.com/sonph)
+variant: dark
+color_01: '#282C34'
+color_02: '#E06C75'
+color_03: '#98C379'
+color_04: '#E5C07B'
+color_05: '#61AFEF'
+color_06: '#C678DD'
+color_07: '#56B6C2'
+color_08: '#DCDFE4'
+color_09: '#5D677A'
+color_10: '#E06C75'
+color_11: '#98C379'
+color_12: '#E5C07B'
+color_13: '#61AFEF'
+color_14: '#C678DD'
+color_15: '#56B6C2'
+color_16: '#DCDFE4'
+background: '#282C34'
+foreground: '#DCDFE4'
+cursor: '#A3B3CC'
+hash: 3b2426c0acebf9a3b189fb1ec4b0074630a4df74a8b19d43f004cd2d168c7d3f

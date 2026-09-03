@@ -1,0 +1,27 @@
+---
+name: 'Seoulbones Dark'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#4B4B4B'    # Black (Host)
+color_02: '#E388A3'    # Red (Syntax string)
+color_03: '#98BD99'    # Green (Command)
+color_04: '#FFDF9B'    # Yellow (Command second)
+color_05: '#97BDDE'    # Blue (Path)
+color_06: '#A5A6C5'    # Magenta (Syntax var)
+color_07: '#6FBDBE'    # Cyan (Prompt)
+color_08: '#DDDDDD'    # White
+
+color_09: '#6C6465'    # Bright Black
+color_10: '#EB99B1'    # Bright Red (Command error)
+color_11: '#8FCD92'    # Bright Green (Exec)
+color_12: '#FFE5B3'    # Bright Yellow
+color_13: '#A2C8E9'    # Bright Blue (Folder)
+color_14: '#B2B3DA'    # Bright Magenta
+color_15: '#6BCACB'    # Bright Cyan
+color_16: '#A8A8A8'    # Bright White
+
+background: '#4B4B4B'  # Background
+foreground: '#DDDDDD'  # Foreground (Text)
+
+cursor: '#E2E2E2'      # Cursor

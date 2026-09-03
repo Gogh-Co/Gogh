@@ -1,0 +1,23 @@
+name: Oxide
+author: jakmaz (https://github.com/jakmaz)
+variant: dark
+color_01: '#262626'
+color_02: '#ED756E'
+color_03: '#5BB661'
+color_04: '#C39900'
+color_05: '#3BA6F5'
+color_06: '#968FF7'
+color_07: '#00BAAA'
+color_08: '#CECECE'
+color_09: '#8F8F8F'
+color_10: '#FF9890'
+color_11: '#7BD77F'
+color_12: '#E3B831'
+color_13: '#6FC6FF'
+color_14: '#B5B2FF'
+color_15: '#00DCCA'
+color_16: '#DEDEDE'
+background: '#161616'
+foreground: '#CECECE'
+cursor: '#CECECE'
+hash: 88652139907a3e7d4342d8636dfd2110dadeded91ea9101fcb033e86db08996a

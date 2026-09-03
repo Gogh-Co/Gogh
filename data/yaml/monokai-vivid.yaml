@@ -1,0 +1,23 @@
+name: Monokai Vivid
+author: vitalymak (https://github.com/vitalymak/iTerm2-Color-Schemes)
+variant: dark
+color_01: '#121212'
+color_02: '#FA2934'
+color_03: '#98E123'
+color_04: '#FFF30A'
+color_05: '#0443FF'
+color_06: '#F800F8'
+color_07: '#01B6ED'
+color_08: '#FFFFFF'
+color_09: '#838383'
+color_10: '#F6669D'
+color_11: '#B1E05F'
+color_12: '#FFF26D'
+color_13: '#0443FF'
+color_14: '#F200F6'
+color_15: '#51CEFF'
+color_16: '#FFFFFF'
+background: '#121212'
+foreground: '#F9F9F9'
+cursor: '#FB0007'
+hash: e80f4ef2e42193c5ec2b07d45cf509ba42459f98c9dd1fd563cd51b348d564c5

@@ -1,0 +1,23 @@
+name: Sequoia Monochrome Light
+author: Michael Andreuzza (https://github.com/michael-andreuzza)
+variant: light
+color_01: '#D4D5DC'
+color_02: '#525666'
+color_03: '#2E3038'
+color_04: '#50535E'
+color_05: '#5F6370'
+color_06: '#25262D'
+color_07: '#454752'
+color_08: '#282930'
+color_09: '#42434E'
+color_10: '#525666'
+color_11: '#2E3038'
+color_12: '#50535E'
+color_13: '#5F6370'
+color_14: '#25262D'
+color_15: '#454752'
+color_16: '#282930'
+background: '#EDEEF2'
+foreground: '#282930'
+cursor: '#565760'
+hash: 60865699ced22326d1c5a713aeb2d54083952facb494f9cf918ced9a9ebb3fb5

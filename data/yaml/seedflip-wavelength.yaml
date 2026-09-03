@@ -1,0 +1,23 @@
+name: SeedFlip Wavelength
+author: ''
+variant: dark
+color_01: '#090C10'
+color_02: '#D55D5D'
+color_03: '#5DD585'
+color_04: '#D5C15D'
+color_05: '#5D8FD5'
+color_06: '#D55DD5'
+color_07: '#5DD5D5'
+color_08: '#F7F9FB'
+color_09: '#364255'
+color_10: '#E59A9A'
+color_11: '#9AE5B3'
+color_12: '#E5D89A'
+color_13: '#9AB9E5'
+color_14: '#E59AE5'
+color_15: '#9AE5E5'
+color_16: '#FFFFFF'
+background: '#0D1117'
+foreground: '#E6EDF3'
+cursor: '#238636'
+hash: 5386a445760ca814917768c4a67a4706b3ee5f8a36eb30c64475b414f32e74d8

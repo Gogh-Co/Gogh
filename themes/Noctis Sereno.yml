@@ -1,0 +1,27 @@
+---
+name: 'Noctis Sereno'
+author: 'Liviu Schera (https://github.com/liviuschera)'
+variant: 'dark'            # dark or light
+
+color_01: '#324A4D'    # Black (Host)
+color_02: '#E66533'    # Red (Syntax string)
+color_03: '#49E9A6'    # Green (Command)
+color_04: '#E4B781'    # Yellow (Command second)
+color_05: '#49ACE9'    # Blue (Path)
+color_06: '#DF769B'    # Magenta (Syntax var)
+color_07: '#49D6E9'    # Cyan (Prompt)
+color_08: '#B2CACD'    # White
+
+color_09: '#47686C'    # Bright Black
+color_10: '#E97749'    # Bright Red (Command error)
+color_11: '#60EBB1'    # Bright Green (Exec)
+color_12: '#E69533'    # Bright Yellow
+color_13: '#60B6EB'    # Bright Blue (Folder)
+color_14: '#E798B3'    # Bright Magenta
+color_15: '#60DBEB'    # Bright Cyan
+color_16: '#C1D4D7'    # Bright White
+
+background: '#062E32'  # Background
+foreground: '#B2CACD'  # Foreground (Text)
+
+cursor: '#B2CACD'      # Cursor

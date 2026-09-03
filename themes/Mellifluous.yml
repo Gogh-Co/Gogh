@@ -1,0 +1,27 @@
+---
+name: 'Mellifluous'
+author: 'rektdeckard (https://github.com/rektdeckard)'
+variant: 'dark'            # dark or light
+
+color_01: '#1A1A1A'    # Black (Host)
+color_02: '#D29393'    # Red (Syntax string)
+color_03: '#B3B393'    # Green (Command)
+color_04: '#CBAA89'    # Yellow (Command second)
+color_05: '#A8A1BE'    # Blue (Path)
+color_06: '#B39FB0'    # Magenta (Syntax var)
+color_07: '#C0AF8C'    # Cyan (Prompt)
+color_08: '#DADADA'    # White
+
+color_09: '#5B5B5B'    # Bright Black
+color_10: '#C95954'    # Bright Red (Command error)
+color_11: '#828040'    # Bright Green (Exec)
+color_12: '#A6794C'    # Bright Yellow
+color_13: '#5A6599'    # Bright Blue (Folder)
+color_14: '#9C6995'    # Bright Magenta
+color_15: '#74A39E'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#1A1A1A'  # Background
+foreground: '#DADADA'  # Foreground (Text)
+
+cursor: '#BFAD9E'      # Cursor

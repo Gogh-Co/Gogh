@@ -1,0 +1,27 @@
+---
+name: 'Y2K Chrome'
+author: 'theebest.com (https://www.theebest.com)'
+variant: 'light'            # dark or light
+
+color_01: '#383F4F'    # Black (Host)
+color_02: '#DC2626'    # Red (Syntax string)
+color_03: '#15803D'    # Green (Command)
+color_04: '#0891B2'    # Yellow (Command second)
+color_05: '#F97316'    # Blue (Path)
+color_06: '#7C3AED'    # Magenta (Syntax var)
+color_07: '#2563EB'    # Cyan (Prompt)
+color_08: '#475569'    # White
+
+color_09: '#A3B1C4'    # Bright Black
+color_10: '#B01E1E'    # Bright Red (Command error)
+color_11: '#116631'    # Bright Green (Exec)
+color_12: '#077792'    # Bright Yellow
+color_13: '#C75C12'    # Bright Blue (Folder)
+color_14: '#632EBE'    # Bright Magenta
+color_15: '#1E4FBC'    # Bright Cyan
+color_16: '#0F172A'    # Bright White
+
+background: '#F1F5F9'  # Background
+foreground: '#0F172A'  # Foreground (Text)
+
+cursor: '#0F172A'      # Cursor

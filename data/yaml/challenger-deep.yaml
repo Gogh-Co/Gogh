@@ -1,0 +1,23 @@
+name: Challenger Deep
+author: eendroroy (https://github.com/eendroroy)
+variant: dark
+color_01: '#141228'
+color_02: '#FF5458'
+color_03: '#62D196'
+color_04: '#FFB378'
+color_05: '#65B2FF'
+color_06: '#906CFF'
+color_07: '#63F2F1'
+color_08: '#A6B3CC'
+color_09: '#565575'
+color_10: '#FF8080'
+color_11: '#95FFA4'
+color_12: '#FFE9AA'
+color_13: '#91DDFF'
+color_14: '#C991E1'
+color_15: '#AAFFE4'
+color_16: '#CBE3E7'
+background: '#1E1C31'
+foreground: '#CBE1E7'
+cursor: '#FBFCFC'
+hash: 8097eeb8d88c0368e60ef70683e29a849b4014557d8506a9778a06f497d4056b

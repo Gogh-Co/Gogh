@@ -1,0 +1,27 @@
+---
+name: 'Firefly Traditional'
+author: 'Seunghun Thomas Lee (https://github.com/stlee42)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#C23720'    # Red (Syntax string)
+color_03: '#33BC26'    # Green (Command)
+color_04: '#AFAD24'    # Yellow (Command second)
+color_05: '#5A63FF'    # Blue (Path)
+color_06: '#D53AD2'    # Magenta (Syntax var)
+color_07: '#33BBC7'    # Cyan (Prompt)
+color_08: '#CCCCCC'    # White
+
+color_09: '#828282'    # Bright Black
+color_10: '#FF3B1E'    # Bright Red (Command error)
+color_11: '#2EE720'    # Bright Green (Exec)
+color_12: '#ECEC16'    # Bright Yellow
+color_13: '#838DFF'    # Bright Blue (Folder)
+color_14: '#FF5CFE'    # Bright Magenta
+color_15: '#29F0F0'    # Bright Cyan
+color_16: '#EBEBEB'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#F5F5F5'  # Foreground (Text)
+
+cursor: '#00F900'      # Cursor

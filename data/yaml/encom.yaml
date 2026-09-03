@@ -1,0 +1,23 @@
+name: ENCOM
+author: Josh Braun (http://wideaperture.net)
+variant: dark
+color_01: '#000000'
+color_02: '#9F0000'
+color_03: '#008B00'
+color_04: '#FFD000'
+color_05: '#0081FF'
+color_06: '#BC00CA'
+color_07: '#008B8B'
+color_08: '#BBBBBB'
+color_09: '#555555'
+color_10: '#FF0000'
+color_11: '#00EE00'
+color_12: '#FFFF00'
+color_13: '#0000FF'
+color_14: '#FF00FF'
+color_15: '#00CDCD'
+color_16: '#FFFFFF'
+background: '#000000'
+foreground: '#00A595'
+cursor: '#BBBBBB'
+hash: 9942125bf7351fae737887bb01c9e77109ff2056f4beaf0996fd0211827de229

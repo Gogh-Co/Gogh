@@ -1,0 +1,27 @@
+---
+name: 'Jubi'
+author: 'Julia Tretel (https://github.com/jutretel)'
+variant: 'dark'            # dark or light
+
+color_01: '#3B3750'    # Black (Host)
+color_02: '#CF7B98'    # Red (Syntax string)
+color_03: '#90A94B'    # Green (Command)
+color_04: '#6EBFC0'    # Yellow (Command second)
+color_05: '#576EA6'    # Blue (Path)
+color_06: '#BC4F68'    # Magenta (Syntax var)
+color_07: '#75A7D2'    # Cyan (Prompt)
+color_08: '#C3D3DE'    # White
+
+color_09: '#A874CE'    # Bright Black
+color_10: '#DE90AB'    # Bright Red (Command error)
+color_11: '#BCDD61'    # Bright Green (Exec)
+color_12: '#87E9EA'    # Bright Yellow
+color_13: '#8C9FCD'    # Bright Blue (Folder)
+color_14: '#E16C87'    # Bright Magenta
+color_15: '#B7C9EF'    # Bright Cyan
+color_16: '#D5E5F1'    # Bright White
+
+background: '#262B33'  # Background
+foreground: '#C3D3DE'  # Foreground (Text)
+
+cursor: '#C3D3DE'      # Cursor

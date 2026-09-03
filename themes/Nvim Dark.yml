@@ -1,0 +1,27 @@
+---
+name: 'Nvim Dark'
+author: 'slavamak (https://github.com/slavamak)'
+variant: 'dark'            # dark or light
+
+color_01: '#07080D'    # Black (Host)
+color_02: '#FFC0B9'    # Red (Syntax string)
+color_03: '#B3F6C0'    # Green (Command)
+color_04: '#FCE094'    # Yellow (Command second)
+color_05: '#A6DBFF'    # Blue (Path)
+color_06: '#FFCAFF'    # Magenta (Syntax var)
+color_07: '#8CF8F7'    # Cyan (Prompt)
+color_08: '#EEF1F8'    # White
+
+color_09: '#4F5258'    # Bright Black
+color_10: '#FFC0B9'    # Bright Red (Command error)
+color_11: '#B3F6C0'    # Bright Green (Exec)
+color_12: '#FCE094'    # Bright Yellow
+color_13: '#A6DBFF'    # Bright Blue (Folder)
+color_14: '#FFCAFF'    # Bright Magenta
+color_15: '#8CF8F7'    # Bright Cyan
+color_16: '#EEF1F8'    # Bright White
+
+background: '#14161B'  # Background
+foreground: '#E0E2EA'  # Foreground (Text)
+
+cursor: '#9B9EA4'      # Cursor

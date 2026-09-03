@@ -1,0 +1,27 @@
+---
+name: 'Coffee Theme'
+author: 'cbitterfield (https://github.com/cbitterfield)'
+variant: 'light'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#C91B00'    # Red (Syntax string)
+color_03: '#00C200'    # Green (Command)
+color_04: '#C7C400'    # Yellow (Command second)
+color_05: '#0225C7'    # Blue (Path)
+color_06: '#CA30C7'    # Magenta (Syntax var)
+color_07: '#00C5C7'    # Cyan (Prompt)
+color_08: '#C7C7C7'    # White
+
+color_09: '#686868'    # Bright Black
+color_10: '#FF6E67'    # Bright Red (Command error)
+color_11: '#5FFA68'    # Bright Green (Exec)
+color_12: '#FFFC67'    # Bright Yellow
+color_13: '#6871FF'    # Bright Blue (Folder)
+color_14: '#FF77FF'    # Bright Magenta
+color_15: '#60FDFF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#F5DEB3'  # Background
+foreground: '#000000'  # Foreground (Text)
+
+cursor: '#C7C7C7'      # Cursor

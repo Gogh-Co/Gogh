@@ -1,0 +1,23 @@
+name: TokyoNight Day
+author: folke (https://github.com/folke/tokyonight.nvim)
+variant: light
+color_01: '#E9E9ED'
+color_02: '#F52A65'
+color_03: '#587539'
+color_04: '#8C6C3E'
+color_05: '#2E7DE9'
+color_06: '#9854F1'
+color_07: '#007197'
+color_08: '#6172B0'
+color_09: '#A1A6C5'
+color_10: '#F52A65'
+color_11: '#587539'
+color_12: '#8C6C3E'
+color_13: '#2E7DE9'
+color_14: '#9854F1'
+color_15: '#007197'
+color_16: '#3760BF'
+background: '#E1E2E7'
+foreground: '#3760BF'
+cursor: '#3760BF'
+hash: ba3e57f9760b236b236329c5ee6a99ff9139df44303a268a405ca4bbfc0fbc76

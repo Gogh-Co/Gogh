@@ -1,0 +1,27 @@
+---
+name: 'Oxocarbon'
+author: 'Nyoom Engineering (https://github.com/nyoom-engineering)'
+variant: 'dark'            # dark or light
+
+color_01: '#161616'    # Black (Host)
+color_02: '#3DDBD9'    # Red (Syntax string)
+color_03: '#33B1FF'    # Green (Command)
+color_04: '#EE5396'    # Yellow (Command second)
+color_05: '#42BE65'    # Blue (Path)
+color_06: '#BE95FF'    # Magenta (Syntax var)
+color_07: '#FF7EB6'    # Cyan (Prompt)
+color_08: '#F2F4F8'    # White
+
+color_09: '#585858'    # Bright Black
+color_10: '#3DDBD9'    # Bright Red (Command error)
+color_11: '#33B1FF'    # Bright Green (Exec)
+color_12: '#EE5396'    # Bright Yellow
+color_13: '#42BE65'    # Bright Blue (Folder)
+color_14: '#BE95FF'    # Bright Magenta
+color_15: '#FF7EB6'    # Bright Cyan
+color_16: '#F2F4F8'    # Bright White
+
+background: '#161616'  # Background
+foreground: '#F2F4F8'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

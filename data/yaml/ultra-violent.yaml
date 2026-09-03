@@ -1,0 +1,23 @@
+name: Ultra Violent
+author: ''
+variant: dark
+color_01: '#242728'
+color_02: '#FF0090'
+color_03: '#B6FF00'
+color_04: '#FFF727'
+color_05: '#47E0FB'
+color_06: '#D731FF'
+color_07: '#0EFFBB'
+color_08: '#E1E1E1'
+color_09: '#636667'
+color_10: '#FB58B4'
+color_11: '#DEFF8C'
+color_12: '#EBE087'
+color_13: '#7FECFF'
+color_14: '#E681FF'
+color_15: '#69FCD3'
+color_16: '#F9F9F5'
+background: '#242728'
+foreground: '#C1C1C1'
+cursor: '#C1C1C1'
+hash: a5982276fbbee4210b779839998594719a30e7bdecb4b8aacad367e1cf0b9f2d

@@ -1,0 +1,27 @@
+---
+name: 'Vague'
+author: 'vague2k (https://github.com/vague2k)'
+variant: 'dark'            # dark or light
+
+color_01: '#252530'    # Black (Host)
+color_02: '#D8647E'    # Red (Syntax string)
+color_03: '#7FA563'    # Green (Command)
+color_04: '#F3BE7C'    # Yellow (Command second)
+color_05: '#6E94B2'    # Blue (Path)
+color_06: '#BB9DBD'    # Magenta (Syntax var)
+color_07: '#AEAED1'    # Cyan (Prompt)
+color_08: '#CDCDCD'    # White
+
+color_09: '#606079'    # Bright Black
+color_10: '#E08398'    # Bright Red (Command error)
+color_11: '#99B782'    # Bright Green (Exec)
+color_12: '#F5CB96'    # Bright Yellow
+color_13: '#8BA9C1'    # Bright Blue (Folder)
+color_14: '#C9B1CA'    # Bright Magenta
+color_15: '#BEBEDA'    # Bright Cyan
+color_16: '#D7D7D7'    # Bright White
+
+background: '#141415'  # Background
+foreground: '#CDCDCD'  # Foreground (Text)
+
+cursor: '#CDCDCD'      # Cursor

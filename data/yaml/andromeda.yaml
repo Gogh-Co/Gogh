@@ -1,0 +1,23 @@
+name: Andromeda
+author: memije (https://github.com/memije)
+variant: dark
+color_01: '#000000'
+color_02: '#CD3131'
+color_03: '#05BC79'
+color_04: '#E5E512'
+color_05: '#2472C8'
+color_06: '#BC3FBC'
+color_07: '#0FA8CD'
+color_08: '#E5E5E5'
+color_09: '#666666'
+color_10: '#CD3131'
+color_11: '#05BC79'
+color_12: '#E5E512'
+color_13: '#2472C8'
+color_14: '#BC3FBC'
+color_15: '#0FA8CD'
+color_16: '#E5E5E5'
+background: '#262A33'
+foreground: '#E5E5E5'
+cursor: '#F8F8F0'
+hash: f51eb8ea4f23fd4aba9bc4edf736bbb04814c7becc67583ffbadae1381d925ea

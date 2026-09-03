@@ -1,0 +1,23 @@
+name: Zenbones Dark
+author: ''
+variant: dark
+color_01: '#1C1917'
+color_02: '#DE6E7C'
+color_03: '#819B69'
+color_04: '#B77E64'
+color_05: '#6099C0'
+color_06: '#B279A7'
+color_07: '#66A5AD'
+color_08: '#B4BDC3'
+color_09: '#403833'
+color_10: '#E8838F'
+color_11: '#8BAE68'
+color_12: '#D68C67'
+color_13: '#61ABDA'
+color_14: '#CF86C1'
+color_15: '#65B8C1'
+color_16: '#888F94'
+background: '#1C1917'
+foreground: '#B4BDC3'
+cursor: '#C4CACF'
+hash: 0d359ce59b7e8457092839a9b487c0f6711aaa8cc37be7a0d9346f962b5fb234

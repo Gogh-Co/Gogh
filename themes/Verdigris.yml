@@ -1,0 +1,27 @@
+---
+name: 'Verdigris'
+author: 'PoshPalette (https://github.com/livlign/posh-palette)'
+variant: 'dark'            # dark or light
+
+color_01: '#221C12'    # Black (Host)
+color_02: '#D9604F'    # Red (Syntax string)
+color_03: '#A8B86A'    # Green (Command)
+color_04: '#D9A441'    # Yellow (Command second)
+color_05: '#5FBFB0'    # Blue (Path)
+color_06: '#B98FB0'    # Magenta (Syntax var)
+color_07: '#8FD6B0'    # Cyan (Prompt)
+color_08: '#BFB29A'    # White
+
+color_09: '#6E6450'    # Bright Black
+color_10: '#D9604F'    # Bright Red (Command error)
+color_11: '#A8B86A'    # Bright Green (Exec)
+color_12: '#C97A45'    # Bright Yellow
+color_13: '#5FBFB0'    # Bright Blue (Folder)
+color_14: '#B98FB0'    # Bright Magenta
+color_15: '#8FD6B0'    # Bright Cyan
+color_16: '#E8DCC6'    # Bright White
+
+background: '#14110B'  # Background
+foreground: '#E8DCC6'  # Foreground (Text)
+
+cursor: '#CE8B45'      # Cursor

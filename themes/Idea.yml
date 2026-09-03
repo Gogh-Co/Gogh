@@ -1,0 +1,27 @@
+---
+name: 'Idea'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#ADADAD'    # Black (Host)
+color_02: '#FC5256'    # Red (Syntax string)
+color_03: '#98B61C'    # Green (Command)
+color_04: '#CCB444'    # Yellow (Command second)
+color_05: '#437EE7'    # Blue (Path)
+color_06: '#9D74B0'    # Magenta (Syntax var)
+color_07: '#248887'    # Cyan (Prompt)
+color_08: '#181818'    # White
+
+color_09: '#FFFFFF'    # Bright Black
+color_10: '#FC7072'    # Bright Red (Command error)
+color_11: '#98B61C'    # Bright Green (Exec)
+color_12: '#FFFF0B'    # Bright Yellow
+color_13: '#6C9CED'    # Bright Blue (Folder)
+color_14: '#FC7EFF'    # Bright Magenta
+color_15: '#248887'    # Bright Cyan
+color_16: '#181818'    # Bright White
+
+background: '#202020'  # Background
+foreground: '#ADADAD'  # Foreground (Text)
+
+cursor: '#BBBBBB'      # Cursor

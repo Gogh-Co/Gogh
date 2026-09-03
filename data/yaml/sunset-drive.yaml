@@ -1,0 +1,23 @@
+name: Sunset Drive
+author: tahayvr (https://github.com/tahayvr)
+variant: dark
+color_01: '#0A0A12'
+color_02: '#FF3366'
+color_03: '#00F59B'
+color_04: '#FFEA00'
+color_05: '#33A1FF'
+color_06: '#FF66F6'
+color_07: '#3CFFED'
+color_08: '#EDEDFE'
+color_09: '#181824'
+color_10: '#FF9A8F'
+color_11: '#57F8BD'
+color_12: '#FFFF80'
+color_13: '#5A9EFF'
+color_14: '#FF99FF'
+color_15: '#80FFFF'
+color_16: '#F8F8FF'
+background: '#0F0F19'
+foreground: '#EDEDFD'
+cursor: '#EDEDFD'
+hash: 70effe5570bcc0b72a245b221d7508b78312f4d57922b96d808864f308d8611b

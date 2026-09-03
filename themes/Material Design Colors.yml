@@ -1,0 +1,27 @@
+---
+name: 'Material Design Colors'
+author: 'MartinSeeler (https://www.martinseeler.com/iterm2-material-design)'
+variant: 'dark'            # dark or light
+
+color_01: '#435B67'    # Black (Host)
+color_02: '#FC3841'    # Red (Syntax string)
+color_03: '#5CF19E'    # Green (Command)
+color_04: '#FED032'    # Yellow (Command second)
+color_05: '#37B6FF'    # Blue (Path)
+color_06: '#FC226E'    # Magenta (Syntax var)
+color_07: '#59FFD1'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#A1B0B8'    # Bright Black
+color_10: '#FC746D'    # Bright Red (Command error)
+color_11: '#ADF7BE'    # Bright Green (Exec)
+color_12: '#FEE16C'    # Bright Yellow
+color_13: '#70CFFF'    # Bright Blue (Folder)
+color_14: '#FC669B'    # Bright Magenta
+color_15: '#9AFFE6'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#1D262A'  # Background
+foreground: '#E7EBED'  # Foreground (Text)
+
+cursor: '#EAEAEA'      # Cursor

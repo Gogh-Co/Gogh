@@ -1,0 +1,27 @@
+---
+name: 'Synthwave Everything'
+author: 'smithbm2316 (https://github.com/smithbm2316)'
+variant: 'dark'            # dark or light
+
+color_01: '#FEFEFE'    # Black (Host)
+color_02: '#F97E72'    # Red (Syntax string)
+color_03: '#72F1B8'    # Green (Command)
+color_04: '#FEDE5D'    # Yellow (Command second)
+color_05: '#6D77B3'    # Blue (Path)
+color_06: '#C792EA'    # Magenta (Syntax var)
+color_07: '#F772E0'    # Cyan (Prompt)
+color_08: '#FEFEFE'    # White
+
+color_09: '#FEFEFE'    # Bright Black
+color_10: '#F88414'    # Bright Red (Command error)
+color_11: '#72F1B8'    # Bright Green (Exec)
+color_12: '#FFF951'    # Bright Yellow
+color_13: '#36F9F6'    # Bright Blue (Folder)
+color_14: '#E1ACFF'    # Bright Magenta
+color_15: '#F92AAD'    # Bright Cyan
+color_16: '#FEFEFE'    # Bright White
+
+background: '#2A2139'  # Background
+foreground: '#F0EFF1'  # Foreground (Text)
+
+cursor: '#72F1B8'      # Cursor

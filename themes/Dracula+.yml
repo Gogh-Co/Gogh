@@ -1,0 +1,27 @@
+---
+name: 'Dracula+'
+author: 'zenorocha (https://github.com/zenorocha/dracula-theme)'
+variant: 'dark'            # dark or light
+
+color_01: '#21222C'    # Black (Host)
+color_02: '#FF5555'    # Red (Syntax string)
+color_03: '#50FA7B'    # Green (Command)
+color_04: '#FFCB6B'    # Yellow (Command second)
+color_05: '#82AAFF'    # Blue (Path)
+color_06: '#C792EA'    # Magenta (Syntax var)
+color_07: '#8BE9FD'    # Cyan (Prompt)
+color_08: '#F8F8F2'    # White
+
+color_09: '#545454'    # Bright Black
+color_10: '#FF6E6E'    # Bright Red (Command error)
+color_11: '#69FF94'    # Bright Green (Exec)
+color_12: '#FFCB6B'    # Bright Yellow
+color_13: '#D6ACFF'    # Bright Blue (Folder)
+color_14: '#FF92DF'    # Bright Magenta
+color_15: '#A4FFFF'    # Bright Cyan
+color_16: '#F8F8F2'    # Bright White
+
+background: '#212121'  # Background
+foreground: '#F8F8F2'  # Foreground (Text)
+
+cursor: '#ECEFF4'      # Cursor

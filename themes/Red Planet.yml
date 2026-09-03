@@ -1,0 +1,27 @@
+---
+name: 'Red Planet'
+author: 'ibrokemypie (https://github.com/ibrokemypie)'
+variant: 'dark'            # dark or light
+
+color_01: '#202020'    # Black (Host)
+color_02: '#8C3432'    # Red (Syntax string)
+color_03: '#728271'    # Green (Command)
+color_04: '#E8BF6A'    # Yellow (Command second)
+color_05: '#69819E'    # Blue (Path)
+color_06: '#896492'    # Magenta (Syntax var)
+color_07: '#5B8390'    # Cyan (Prompt)
+color_08: '#B9AA99'    # White
+
+color_09: '#676767'    # Bright Black
+color_10: '#B55242'    # Bright Red (Command error)
+color_11: '#869985'    # Bright Green (Exec)
+color_12: '#EBEB91'    # Bright Yellow
+color_13: '#60827E'    # Bright Blue (Folder)
+color_14: '#DE4974'    # Bright Magenta
+color_15: '#38ADD8'    # Bright Cyan
+color_16: '#D6BFB8'    # Bright White
+
+background: '#222222'  # Background
+foreground: '#C2B790'  # Foreground (Text)
+
+cursor: '#C2B790'      # Cursor

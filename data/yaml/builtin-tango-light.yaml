@@ -1,0 +1,23 @@
+name: Builtin Tango Light
+author: ''
+variant: light
+color_01: '#000000'
+color_02: '#CC0000'
+color_03: '#4E9A06'
+color_04: '#C4A000'
+color_05: '#3465A4'
+color_06: '#75507B'
+color_07: '#06989A'
+color_08: '#D3D7CF'
+color_09: '#555753'
+color_10: '#EF2929'
+color_11: '#8AE234'
+color_12: '#FCE94F'
+color_13: '#729FCF'
+color_14: '#AD7FA8'
+color_15: '#34E2E2'
+color_16: '#EEEEEC'
+background: '#FFFFFF'
+foreground: '#000000'
+cursor: '#000000'
+hash: 1b564ef57749a604726adb250cc3b988f93e1183a635e4cde003b2a0a3e9f264

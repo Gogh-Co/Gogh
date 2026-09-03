@@ -1,0 +1,23 @@
+name: IBM 5153 CGA
+author: Jesse Miller (https://jmiller.com/)
+variant: dark
+color_01: '#141414'
+color_02: '#D03333'
+color_03: '#1BD01B'
+color_04: '#D08C1B'
+color_05: '#1B1BD0'
+color_06: '#D01BD0'
+color_07: '#1BD0D0'
+color_08: '#CECECE'
+color_09: '#4E4E4E'
+color_10: '#DC4E4E'
+color_11: '#4EDC4E'
+color_12: '#F3F34E'
+color_13: '#4E4EDC'
+color_14: '#F34EF3'
+color_15: '#4EF3F3'
+color_16: '#FFFFFF'
+background: '#141414'
+foreground: '#CECECE'
+cursor: '#CECECE'
+hash: 7d8047a7d9fcef4adcabceb4191316a9760d56492096c199654471a25e255d99

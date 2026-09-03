@@ -1,0 +1,27 @@
+---
+name: 'IRIX Console'
+author: 'Skeeve (https://github.com/Skeeve)'
+variant: 'dark'            # dark or light
+
+color_01: '#1A1919'    # Black (Host)
+color_02: '#D42426'    # Red (Syntax string)
+color_03: '#37A327'    # Green (Command)
+color_04: '#C29D28'    # Yellow (Command second)
+color_05: '#0739E2'    # Blue (Path)
+color_06: '#911F9C'    # Magenta (Syntax var)
+color_07: '#4497DF'    # Cyan (Prompt)
+color_08: '#CCCCCC'    # White
+
+color_09: '#767676'    # Bright Black
+color_10: '#F34F59'    # Bright Red (Command error)
+color_11: '#45C731'    # Bright Green (Exec)
+color_12: '#F9F2A7'    # Bright Yellow
+color_13: '#4079FF'    # Bright Blue (Folder)
+color_14: '#C31BA2'    # Bright Magenta
+color_15: '#6ED7D7'    # Bright Cyan
+color_16: '#F2F2F2'    # Bright White
+
+background: '#0C0C0C'  # Background
+foreground: '#F2F2F2'  # Foreground (Text)
+
+cursor: '#C7C7C7'      # Cursor

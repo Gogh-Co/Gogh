@@ -1,0 +1,23 @@
+name: Pyrokai
+author: Patrick Serrano (https://patrickserrano.com)
+variant: dark
+color_01: '#242120'
+color_02: '#EC6785'
+color_03: '#75AD2F'
+color_04: '#BB9500'
+color_05: '#2AA0F9'
+color_06: '#E76899'
+color_07: '#00AEBD'
+color_08: '#B4AFAD'
+color_09: '#807C7A'
+color_10: '#FA8099'
+color_11: '#8BBF53'
+color_12: '#D0A70E'
+color_13: '#5BB3FF'
+color_14: '#F681AC'
+color_15: '#00C3D3'
+color_16: '#FAF6F5'
+background: '#151312'
+foreground: '#FAF6F5'
+cursor: '#EA7332'
+hash: 73b8f2c6867353717849a596cb039fbd23bd9448fa2893e891616f4c201afd0a

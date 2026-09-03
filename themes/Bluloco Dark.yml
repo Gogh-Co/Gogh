@@ -1,0 +1,27 @@
+---
+name: 'Bluloco Dark'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#41444D'    # Black (Host)
+color_02: '#FC2F52'    # Red (Syntax string)
+color_03: '#25A45C'    # Green (Command)
+color_04: '#FF936A'    # Yellow (Command second)
+color_05: '#3476FF'    # Blue (Path)
+color_06: '#7A82DA'    # Magenta (Syntax var)
+color_07: '#4483AA'    # Cyan (Prompt)
+color_08: '#CDD4E0'    # White
+
+color_09: '#8F9AAE'    # Bright Black
+color_10: '#FF6480'    # Bright Red (Command error)
+color_11: '#3FC56B'    # Bright Green (Exec)
+color_12: '#F9C859'    # Bright Yellow
+color_13: '#10B1FE'    # Bright Blue (Folder)
+color_14: '#FF78F8'    # Bright Magenta
+color_15: '#5FB9BC'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#282C34'  # Background
+foreground: '#B9C0CB'  # Foreground (Text)
+
+cursor: '#FFCC00'      # Cursor

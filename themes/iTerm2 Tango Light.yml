@@ -1,0 +1,27 @@
+---
+name: 'iTerm2 Tango Light'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'light'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#D81E00'    # Red (Syntax string)
+color_03: '#5EA702'    # Green (Command)
+color_04: '#CFAE00'    # Yellow (Command second)
+color_05: '#427AB3'    # Blue (Path)
+color_06: '#89658E'    # Magenta (Syntax var)
+color_07: '#00A7AA'    # Cyan (Prompt)
+color_08: '#DBDED8'    # White
+
+color_09: '#686A66'    # Bright Black
+color_10: '#F54235'    # Bright Red (Command error)
+color_11: '#99E343'    # Bright Green (Exec)
+color_12: '#FDEB61'    # Bright Yellow
+color_13: '#84B0D8'    # Bright Blue (Folder)
+color_14: '#BC94B7'    # Bright Magenta
+color_15: '#37E6E8'    # Bright Cyan
+color_16: '#F1F1F0'    # Bright White
+
+background: '#FFFFFF'  # Background
+foreground: '#000000'  # Foreground (Text)
+
+cursor: '#000000'      # Cursor

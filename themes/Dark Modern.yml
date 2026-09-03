@@ -1,0 +1,27 @@
+---
+name: 'Dark Modern'
+author: 'zasdaym (https://github.com/zasdaym)'
+variant: 'dark'            # dark or light
+
+color_01: '#272727'    # Black (Host)
+color_02: '#F74949'    # Red (Syntax string)
+color_03: '#2EA043'    # Green (Command)
+color_04: '#9E6A03'    # Yellow (Command second)
+color_05: '#0078D4'    # Blue (Path)
+color_06: '#D01273'    # Magenta (Syntax var)
+color_07: '#1DB4D6'    # Cyan (Prompt)
+color_08: '#CCCCCC'    # White
+
+color_09: '#5D5D5D'    # Bright Black
+color_10: '#DC5452'    # Bright Red (Command error)
+color_11: '#23D18B'    # Bright Green (Exec)
+color_12: '#F5F543'    # Bright Yellow
+color_13: '#3B8EEA'    # Bright Blue (Folder)
+color_14: '#D670D6'    # Bright Magenta
+color_15: '#29B8DB'    # Bright Cyan
+color_16: '#E5E5E5'    # Bright White
+
+background: '#1F1F1F'  # Background
+foreground: '#CCCCCC'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

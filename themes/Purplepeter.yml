@@ -1,0 +1,27 @@
+---
+name: 'Purplepeter'
+author: 'DeChamp (https://github.com/dechamp)'
+variant: 'dark'            # dark or light
+
+color_01: '#0A0520'    # Black (Host)
+color_02: '#FF796D'    # Red (Syntax string)
+color_03: '#99B481'    # Green (Command)
+color_04: '#EFDFAC'    # Yellow (Command second)
+color_05: '#66D9EF'    # Blue (Path)
+color_06: '#E78FCD'    # Magenta (Syntax var)
+color_07: '#BA8CFF'    # Cyan (Prompt)
+color_08: '#FFBA81'    # White
+
+color_09: '#100B23'    # Bright Black
+color_10: '#F99F92'    # Bright Red (Command error)
+color_11: '#B4BE8F'    # Bright Green (Exec)
+color_12: '#F2E9BF'    # Bright Yellow
+color_13: '#79DAED'    # Bright Blue (Folder)
+color_14: '#BA91D4'    # Bright Magenta
+color_15: '#A0A0D6'    # Bright Cyan
+color_16: '#B9AED3'    # Bright White
+
+background: '#2A1A4A'  # Background
+foreground: '#ECE7FA'  # Foreground (Text)
+
+cursor: '#C7C7C7'      # Cursor

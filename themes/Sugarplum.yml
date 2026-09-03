@@ -1,0 +1,27 @@
+---
+name: 'Sugarplum'
+author: 'lemonlime0x3C33 (https://github.com/lemonlime0x3C33/iTerm2-Color-Schemes-Sugarplum)'
+variant: 'dark'            # dark or light
+
+color_01: '#111147'    # Black (Host)
+color_02: '#5CA8DC'    # Red (Syntax string)
+color_03: '#53B397'    # Green (Command)
+color_04: '#249A84'    # Yellow (Command second)
+color_05: '#DB7DDD'    # Blue (Path)
+color_06: '#D0BEEE'    # Magenta (Syntax var)
+color_07: '#F9F3F9'    # Cyan (Prompt)
+color_08: '#A175D4'    # White
+
+color_09: '#111147'    # Bright Black
+color_10: '#5CB5DC'    # Bright Red (Command error)
+color_11: '#52DEB5'    # Bright Green (Exec)
+color_12: '#01F5C7'    # Bright Yellow
+color_13: '#FA5DFD'    # Bright Blue (Folder)
+color_14: '#C6A5FD'    # Bright Magenta
+color_15: '#FFFFFF'    # Bright Cyan
+color_16: '#B577FD'    # Bright White
+
+background: '#111147'  # Background
+foreground: '#DB7DDD'  # Foreground (Text)
+
+cursor: '#53B397'      # Cursor

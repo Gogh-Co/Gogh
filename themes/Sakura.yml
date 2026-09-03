@@ -1,0 +1,27 @@
+---
+name: 'Sakura'
+author: '0xN0ri (https://github.com/0xN0ri)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#D52370'    # Red (Syntax string)
+color_03: '#41AF1A'    # Green (Command)
+color_04: '#BC7053'    # Yellow (Command second)
+color_05: '#6964AB'    # Blue (Path)
+color_06: '#C71FBF'    # Magenta (Syntax var)
+color_07: '#939393'    # Cyan (Prompt)
+color_08: '#998EAC'    # White
+
+color_09: '#786D69'    # Bright Black
+color_10: '#F41D99'    # Bright Red (Command error)
+color_11: '#22E529'    # Bright Green (Exec)
+color_12: '#F59574'    # Bright Yellow
+color_13: '#9892F1'    # Bright Blue (Folder)
+color_14: '#E90CDD'    # Bright Magenta
+color_15: '#EEEEEE'    # Bright Cyan
+color_16: '#CBB6FF'    # Bright White
+
+background: '#18131E'  # Background
+foreground: '#DD7BDC'  # Foreground (Text)
+
+cursor: '#FF65FD'      # Cursor

@@ -1,0 +1,27 @@
+---
+name: 'Alabaster'
+author: 'mkaschenko (https://github.com/mkaschenko)'
+variant: 'light'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#AA3731'    # Red (Syntax string)
+color_03: '#448C27'    # Green (Command)
+color_04: '#CB9000'    # Yellow (Command second)
+color_05: '#325CC0'    # Blue (Path)
+color_06: '#7A3E9D'    # Magenta (Syntax var)
+color_07: '#0083B2'    # Cyan (Prompt)
+color_08: '#F7F7F7'    # White
+
+color_09: '#777777'    # Bright Black
+color_10: '#F05050'    # Bright Red (Command error)
+color_11: '#60CB00'    # Bright Green (Exec)
+color_12: '#FFBC5D'    # Bright Yellow
+color_13: '#007ACC'    # Bright Blue (Folder)
+color_14: '#E64CE6'    # Bright Magenta
+color_15: '#00AACB'    # Bright Cyan
+color_16: '#F7F7F7'    # Bright White
+
+background: '#F7F7F7'  # Background
+foreground: '#000000'  # Foreground (Text)
+
+cursor: '#007ACC'      # Cursor

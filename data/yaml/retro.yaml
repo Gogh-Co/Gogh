@@ -1,0 +1,23 @@
+name: Retro
+author: Rob Latour (https://github.com/roblatour)
+variant: dark
+color_01: '#13A10E'
+color_02: '#13A10E'
+color_03: '#13A10E'
+color_04: '#13A10E'
+color_05: '#13A10E'
+color_06: '#13A10E'
+color_07: '#13A10E'
+color_08: '#13A10E'
+color_09: '#16BA10'
+color_10: '#16BA10'
+color_11: '#16BA10'
+color_12: '#16BA10'
+color_13: '#16BA10'
+color_14: '#16BA10'
+color_15: '#16BA10'
+color_16: '#16BA10'
+background: '#000000'
+foreground: '#13A10E'
+cursor: '#13A10E'
+hash: 9dd794ec75e34a9dd11f6af21287e39ea4af7f973bd5fc4e2fa22230927a8920

@@ -1,0 +1,27 @@
+---
+name: 'novmbr'
+author: 'dkeg (https://github.com/dkeg/crayolo)'
+variant: 'dark'            # dark or light
+
+color_01: '#282A2E'    # Black (Host)
+color_02: '#97673D'    # Red (Syntax string)
+color_03: '#A0AC68'    # Green (Command)
+color_04: '#C6A869'    # Yellow (Command second)
+color_05: '#457B7B'    # Blue (Path)
+color_06: '#AE8B72'    # Magenta (Syntax var)
+color_07: '#5E867F'    # Cyan (Prompt)
+color_08: '#C4B9AD'    # White
+
+color_09: '#4E423B'    # Bright Black
+color_10: '#97673D'    # Bright Red (Command error)
+color_11: '#A0AC68'    # Bright Green (Exec)
+color_12: '#C6A869'    # Bright Yellow
+color_13: '#457B7B'    # Bright Blue (Folder)
+color_14: '#AE8B72'    # Bright Magenta
+color_15: '#5E867F'    # Bright Cyan
+color_16: '#C4B9AD'    # Bright White
+
+background: '#231D1A'  # Background
+foreground: '#C4B9AD'  # Foreground (Text)
+
+cursor: '#C4B9AD'      # Cursor

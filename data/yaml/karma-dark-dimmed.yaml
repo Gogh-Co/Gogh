@@ -1,0 +1,23 @@
+name: Karma Dark Dimmed
+author: Sreetam Das (https://github.com/sreetamdas)
+variant: dark
+color_01: '#14181F'
+color_02: '#E87691'
+color_03: '#82C891'
+color_04: '#EBD870'
+color_05: '#6CC4D2'
+color_06: '#A892D4'
+color_07: '#6CC4D2'
+color_08: '#A8A4AE'
+color_09: '#5C5A5F'
+color_10: '#E8869C'
+color_11: '#98CEA4'
+color_12: '#EBD870'
+color_13: '#80C8D2'
+color_14: '#B6A4D6'
+color_15: '#80C8D2'
+color_16: '#E2DEF0'
+background: '#14181F'
+foreground: '#E2DEF0'
+cursor: '#EBD870'
+hash: 086ef3eb347664630bf964ff22e9373740bae1f7172951d0194b08afefb94044

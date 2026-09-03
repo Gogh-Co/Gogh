@@ -1,0 +1,27 @@
+---
+name: 'Forge Ember'
+author: 'PoshPalette (https://github.com/livlign/posh-palette)'
+variant: 'dark'            # dark or light
+
+color_01: '#241810'    # Black (Host)
+color_02: '#FF4733'    # Red (Syntax string)
+color_03: '#C4C24A'    # Green (Command)
+color_04: '#FFB347'    # Yellow (Command second)
+color_05: '#F0A24F'    # Blue (Path)
+color_06: '#FF6A4D'    # Magenta (Syntax var)
+color_07: '#FFD27A'    # Cyan (Prompt)
+color_08: '#E6D2B6'    # White
+
+color_09: '#7A6248'    # Bright Black
+color_10: '#FF4733'    # Bright Red (Command error)
+color_11: '#C4C24A'    # Bright Green (Exec)
+color_12: '#FF7A2D'    # Bright Yellow
+color_13: '#F0A24F'    # Bright Blue (Folder)
+color_14: '#FF6A4D'    # Bright Magenta
+color_15: '#FFD27A'    # Bright Cyan
+color_16: '#F4E2C8'    # Bright White
+
+background: '#140C07'  # Background
+foreground: '#F4E2C8'  # Foreground (Text)
+
+cursor: '#FF6A1F'      # Cursor

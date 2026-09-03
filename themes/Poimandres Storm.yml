@@ -1,0 +1,27 @@
+---
+name: 'Poimandres Storm'
+author: 'drcmda (https://github.com/drcmda/poimandres-theme)'
+variant: 'dark'            # dark or light
+
+color_01: '#252B37'    # Black (Host)
+color_02: '#D0679D'    # Red (Syntax string)
+color_03: '#5DE4C7'    # Green (Command)
+color_04: '#FFFAC2'    # Yellow (Command second)
+color_05: '#89DDFF'    # Blue (Path)
+color_06: '#F087BD'    # Magenta (Syntax var)
+color_07: '#89DDFF'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#A6ACCD'    # Bright Black
+color_10: '#D0679D'    # Bright Red (Command error)
+color_11: '#5DE4C7'    # Bright Green (Exec)
+color_12: '#FFFAC2'    # Bright Yellow
+color_13: '#ADD7FF'    # Bright Blue (Folder)
+color_14: '#F087BD'    # Bright Magenta
+color_15: '#ADD7FF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#252B37'  # Background
+foreground: '#A6ACCD'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

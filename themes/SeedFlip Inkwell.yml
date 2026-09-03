@@ -1,0 +1,27 @@
+---
+name: 'SeedFlip Inkwell'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#050505'    # Black (Host)
+color_02: '#CC6666'    # Red (Syntax string)
+color_03: '#66CC88'    # Green (Command)
+color_04: '#CCBB66'    # Yellow (Command second)
+color_05: '#6690CC'    # Blue (Path)
+color_06: '#CC66CC'    # Magenta (Syntax var)
+color_07: '#66CCCC'    # Cyan (Prompt)
+color_08: '#F3F1EE'    # White
+
+color_09: '#3D3D3D'    # Bright Black
+color_10: '#DF9F9F'    # Bright Red (Command error)
+color_11: '#9FDFB5'    # Bright Green (Exec)
+color_12: '#DFD49F'    # Bright Yellow
+color_13: '#9FBADF'    # Bright Blue (Folder)
+color_14: '#DF9FDF'    # Bright Magenta
+color_15: '#9FDFDF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#0A0A0A'  # Background
+foreground: '#E8E4DF'  # Foreground (Text)
+
+cursor: '#C8B8A0'      # Cursor

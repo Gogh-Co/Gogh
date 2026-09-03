@@ -1,0 +1,23 @@
+name: Noctis Lux
+author: Liviu Schera (https://github.com/liviuschera)
+variant: light
+color_01: '#003B42'
+color_02: '#E34E1C'
+color_03: '#00B368'
+color_04: '#F49725'
+color_05: '#0094F0'
+color_06: '#FF5792'
+color_07: '#00BDD6'
+color_08: '#8CA6A6'
+color_09: '#004D57'
+color_10: '#FF4000'
+color_11: '#00D17A'
+color_12: '#FF8C00'
+color_13: '#0FA3FF'
+color_14: '#FF6B9F'
+color_15: '#00CBE6'
+color_16: '#BBC3C4'
+background: '#FEF8EC'
+foreground: '#005661'
+cursor: '#005661'
+hash: 8bc407afecf97626f8c29971d00a57bed69775e80bfcd24f0bd7a1ec21743ebb

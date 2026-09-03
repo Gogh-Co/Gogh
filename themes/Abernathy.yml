@@ -1,0 +1,27 @@
+---
+name: 'Abernathy'
+author: 'barish (https://instagram.com/barish)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#CD0000'    # Red (Syntax string)
+color_03: '#00CD00'    # Green (Command)
+color_04: '#CDCD00'    # Yellow (Command second)
+color_05: '#1093F5'    # Blue (Path)
+color_06: '#CD00CD'    # Magenta (Syntax var)
+color_07: '#00CDCD'    # Cyan (Prompt)
+color_08: '#FAEBD7'    # White
+
+color_09: '#404040'    # Bright Black
+color_10: '#FF0000'    # Bright Red (Command error)
+color_11: '#00FF00'    # Bright Green (Exec)
+color_12: '#FFFF00'    # Bright Yellow
+color_13: '#11B5F6'    # Bright Blue (Folder)
+color_14: '#FF00FF'    # Bright Magenta
+color_15: '#00FFFF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#111416'  # Background
+foreground: '#EEEEEC'  # Foreground (Text)
+
+cursor: '#BBBBBB'      # Cursor

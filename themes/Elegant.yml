@@ -1,0 +1,27 @@
+---
+name: 'Elegant'
+author: 'lukgri (https://github.com/lukgri)'
+variant: 'dark'            # dark or light
+
+color_01: '#0C1221'    # Black (Host)
+color_02: '#EA335B'    # Red (Syntax string)
+color_03: '#95CA9A'    # Green (Command)
+color_04: '#F7CD94'    # Yellow (Command second)
+color_05: '#93AADD'    # Blue (Path)
+color_06: '#BF94E5'    # Magenta (Syntax var)
+color_07: '#8CCAEC'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#575656'    # Bright Black
+color_10: '#EA335B'    # Bright Red (Command error)
+color_11: '#95CA9A'    # Bright Green (Exec)
+color_12: '#F7CD94'    # Bright Yellow
+color_13: '#93AADD'    # Bright Blue (Folder)
+color_14: '#BF94E5'    # Bright Magenta
+color_15: '#5FAAE9'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#292B31'  # Background
+foreground: '#CFD2D6'  # Foreground (Text)
+
+cursor: '#55BBF9'      # Cursor

@@ -1,0 +1,27 @@
+---
+name: 'Deep'
+author: 'ADoyle (https://github.com/adoyle-h)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#D70005'    # Red (Syntax string)
+color_03: '#1CD915'    # Green (Command)
+color_04: '#D9BD26'    # Yellow (Command second)
+color_05: '#5665FF'    # Blue (Path)
+color_06: '#B052DA'    # Magenta (Syntax var)
+color_07: '#50D2DA'    # Cyan (Prompt)
+color_08: '#E0E0E0'    # White
+
+color_09: '#535353'    # Bright Black
+color_10: '#FB0007'    # Bright Red (Command error)
+color_11: '#22FF18'    # Bright Green (Exec)
+color_12: '#FEDC2B'    # Bright Yellow
+color_13: '#9FA9FF'    # Bright Blue (Folder)
+color_14: '#E09AFF'    # Bright Magenta
+color_15: '#8DF9FF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#090909'  # Background
+foreground: '#CDCDCD'  # Foreground (Text)
+
+cursor: '#D0D0D0'      # Cursor

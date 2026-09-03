@@ -1,0 +1,27 @@
+---
+name: 'Arcoiris'
+author: 'some random guy (https://github.com/indyandie)'
+variant: 'dark'            # dark or light
+
+color_01: '#333333'    # Black (Host)
+color_02: '#DA2700'    # Red (Syntax string)
+color_03: '#12C258'    # Green (Command)
+color_04: '#FFC656'    # Yellow (Command second)
+color_05: '#518BFC'    # Blue (Path)
+color_06: '#E37BD9'    # Magenta (Syntax var)
+color_07: '#63FAD5'    # Cyan (Prompt)
+color_08: '#BAB2B2'    # White
+
+color_09: '#777777'    # Bright Black
+color_10: '#FFB9B9'    # Bright Red (Command error)
+color_11: '#E3F6AA'    # Bright Green (Exec)
+color_12: '#FFDDAA'    # Bright Yellow
+color_13: '#B3E8F3'    # Bright Blue (Folder)
+color_14: '#CBBAF9'    # Bright Magenta
+color_15: '#BCFFC7'    # Bright Cyan
+color_16: '#EFEFEF'    # Bright White
+
+background: '#201F1E'  # Background
+foreground: '#EEE4D9'  # Foreground (Text)
+
+cursor: '#7A1C1C'      # Cursor

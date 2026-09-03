@@ -1,0 +1,27 @@
+---
+name: 'Adventure'
+author: 'hongzimao (https://github.com/hongzimao/iTerm2-Color-Schemes)'
+variant: 'dark'            # dark or light
+
+color_01: '#040404'    # Black (Host)
+color_02: '#D84A33'    # Red (Syntax string)
+color_03: '#5DA602'    # Green (Command)
+color_04: '#EEBB6E'    # Yellow (Command second)
+color_05: '#417AB3'    # Blue (Path)
+color_06: '#E5C499'    # Magenta (Syntax var)
+color_07: '#BDCFE5'    # Cyan (Prompt)
+color_08: '#DBDED8'    # White
+
+color_09: '#685656'    # Bright Black
+color_10: '#D76B42'    # Bright Red (Command error)
+color_11: '#99B52C'    # Bright Green (Exec)
+color_12: '#FFB670'    # Bright Yellow
+color_13: '#97D7EF'    # Bright Blue (Folder)
+color_14: '#AA7900'    # Bright Magenta
+color_15: '#BDCFE5'    # Bright Cyan
+color_16: '#E4D5C7'    # Bright White
+
+background: '#040404'  # Background
+foreground: '#FEFFFF'  # Foreground (Text)
+
+cursor: '#FEFFFF'      # Cursor

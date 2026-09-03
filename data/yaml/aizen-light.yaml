@@ -1,0 +1,23 @@
+name: Aizen Light
+author: ''
+variant: light
+color_01: '#F0F2F6'
+color_02: '#D00C36'
+color_03: '#3E9E28'
+color_04: '#DD8C1A'
+color_05: '#1C64F2'
+color_06: '#8636EC'
+color_07: '#159096'
+color_08: '#4A4D66'
+color_09: '#ADB2BC'
+color_10: '#D00C36'
+color_11: '#3E9E28'
+color_12: '#DD8C1A'
+color_13: '#1C64F2'
+color_14: '#8636EC'
+color_15: '#159096'
+color_16: '#4A4D66'
+background: '#F0F2F6'
+foreground: '#4A4D66'
+cursor: '#FC6008'
+hash: b25c64e7d38f5b42ec2d401041a904dc42dfa562205df575890edf039f2a0df3

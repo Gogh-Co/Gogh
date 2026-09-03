@@ -1,0 +1,23 @@
+name: iTerm2 Pastel Dark Background
+author: ''
+variant: dark
+color_01: '#626262'
+color_02: '#FF8373'
+color_03: '#B4FB73'
+color_04: '#FFFDC3'
+color_05: '#A5D5FE'
+color_06: '#FF90FE'
+color_07: '#D1D1FE'
+color_08: '#F1F1F1'
+color_09: '#8F8F8F'
+color_10: '#FFC4BE'
+color_11: '#D6FCBA'
+color_12: '#FFFED5'
+color_13: '#C2E3FF'
+color_14: '#FFB2FE'
+color_15: '#E6E6FE'
+color_16: '#FFFFFF'
+background: '#000000'
+foreground: '#C7C7C7'
+cursor: '#FFB473'
+hash: 8727460b2bd06f6f07e64d2daca47b1728db0b6953f66d8f305c428f5be521cd

@@ -1,0 +1,27 @@
+---
+name: 'Shades Of Purple'
+author: 'fr3fou (https://github.com/fr3fou)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#D90429'    # Red (Syntax string)
+color_03: '#3AD900'    # Green (Command)
+color_04: '#FFE700'    # Yellow (Command second)
+color_05: '#6943FF'    # Blue (Path)
+color_06: '#FF2C70'    # Magenta (Syntax var)
+color_07: '#00C5C7'    # Cyan (Prompt)
+color_08: '#C7C7C7'    # White
+
+color_09: '#686868'    # Bright Black
+color_10: '#F92A1C'    # Bright Red (Command error)
+color_11: '#43D426'    # Bright Green (Exec)
+color_12: '#F1D000'    # Bright Yellow
+color_13: '#6871FF'    # Bright Blue (Folder)
+color_14: '#FF77FF'    # Bright Magenta
+color_15: '#79E8FB'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#1E1D40'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FAD000'      # Cursor

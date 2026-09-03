@@ -1,0 +1,27 @@
+---
+name: 'Galizur'
+author: 'Raziel Anarki (https://github.com/razielanarki)'
+variant: 'dark'            # dark or light
+
+color_01: '#223344'    # Black (Host)
+color_02: '#AA1122'    # Red (Syntax string)
+color_03: '#33AA11'    # Green (Command)
+color_04: '#CCAA22'    # Yellow (Command second)
+color_05: '#2255CC'    # Blue (Path)
+color_06: '#7755AA'    # Magenta (Syntax var)
+color_07: '#22BBDD'    # Cyan (Prompt)
+color_08: '#8899AA'    # White
+
+color_09: '#556677'    # Bright Black
+color_10: '#FF1133'    # Bright Red (Command error)
+color_11: '#33FF11'    # Bright Green (Exec)
+color_12: '#FFDD33'    # Bright Yellow
+color_13: '#3377FF'    # Bright Blue (Folder)
+color_14: '#AA77FF'    # Bright Magenta
+color_15: '#33DDFF'    # Bright Cyan
+color_16: '#BBCCDD'    # Bright White
+
+background: '#071317'  # Background
+foreground: '#DDEEFF'  # Foreground (Text)
+
+cursor: '#DDEEFF'      # Cursor

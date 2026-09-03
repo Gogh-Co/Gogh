@@ -1,0 +1,23 @@
+name: SeedFlip Voltage
+author: ''
+variant: dark
+color_01: '#050505'
+color_02: '#F04242'
+color_03: '#42F07C'
+color_04: '#F0D342'
+color_05: '#428BF0'
+color_06: '#F042F0'
+color_07: '#42F0F0'
+color_08: '#FDFDFD'
+color_09: '#3D3D3D'
+color_10: '#F58989'
+color_11: '#89F5AD'
+color_12: '#F5E389'
+color_13: '#89B6F5'
+color_14: '#F589F5'
+color_15: '#89F5F5'
+color_16: '#FFFFFF'
+background: '#0A0A0A'
+foreground: '#F0F0F0'
+cursor: '#A6FF00'
+hash: b69767bd3d350d5c202e980c0f6ecd64cb2a2cff276c7076bccbfedfb1ac6464

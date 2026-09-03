@@ -1,0 +1,27 @@
+---
+name: 'Sumi Linen'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'light'            # dark or light
+
+color_01: '#3A342C'    # Black (Host)
+color_02: '#B83830'    # Red (Syntax string)
+color_03: '#2E8050'    # Green (Command)
+color_04: '#A87820'    # Yellow (Command second)
+color_05: '#3060A0'    # Blue (Path)
+color_06: '#704890'    # Magenta (Syntax var)
+color_07: '#18786C'    # Cyan (Prompt)
+color_08: '#5A5448'    # White
+
+color_09: '#6A6458'    # Bright Black
+color_10: '#C84840'    # Bright Red (Command error)
+color_11: '#3A9868'    # Bright Green (Exec)
+color_12: '#C09030'    # Bright Yellow
+color_13: '#4080C0'    # Bright Blue (Folder)
+color_14: '#8858A8'    # Bright Magenta
+color_15: '#28A090'    # Bright Cyan
+color_16: '#14100C'    # Bright White
+
+background: '#E6DFD0'  # Background
+foreground: '#1C1814'  # Foreground (Text)
+
+cursor: '#18786C'      # Cursor

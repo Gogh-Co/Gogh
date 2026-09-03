@@ -1,0 +1,23 @@
+name: Midnight Arcade
+author: theebest.com (https://www.theebest.com)
+variant: dark
+color_01: '#3F4550'
+color_02: '#FB7185'
+color_03: '#22C55E'
+color_04: '#FBBF24'
+color_05: '#60A5FA'
+color_06: '#E879F9'
+color_07: '#22D3EE'
+color_08: '#B6C2D5'
+color_09: '#3D4452'
+color_10: '#FC8D9D'
+color_11: '#4ED17E'
+color_12: '#FCCB4B'
+color_13: '#80B7FB'
+color_14: '#ED94FA'
+color_15: '#4EDCF1'
+color_16: '#F8FAFC'
+background: '#0B1220'
+foreground: '#F8FAFC'
+cursor: '#F8FAFC'
+hash: 44e490f229f910906c9d96dbdc081a1514c5251205dfbf53b1f237677048be07

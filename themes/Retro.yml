@@ -1,0 +1,27 @@
+---
+name: 'Retro'
+author: 'Rob Latour (https://github.com/roblatour)'
+variant: 'dark'            # dark or light
+
+color_01: '#13A10E'    # Black (Host)
+color_02: '#13A10E'    # Red (Syntax string)
+color_03: '#13A10E'    # Green (Command)
+color_04: '#13A10E'    # Yellow (Command second)
+color_05: '#13A10E'    # Blue (Path)
+color_06: '#13A10E'    # Magenta (Syntax var)
+color_07: '#13A10E'    # Cyan (Prompt)
+color_08: '#13A10E'    # White
+
+color_09: '#16BA10'    # Bright Black
+color_10: '#16BA10'    # Bright Red (Command error)
+color_11: '#16BA10'    # Bright Green (Exec)
+color_12: '#16BA10'    # Bright Yellow
+color_13: '#16BA10'    # Bright Blue (Folder)
+color_14: '#16BA10'    # Bright Magenta
+color_15: '#16BA10'    # Bright Cyan
+color_16: '#16BA10'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#13A10E'  # Foreground (Text)
+
+cursor: '#13A10E'      # Cursor

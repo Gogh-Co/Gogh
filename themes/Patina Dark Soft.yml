@@ -1,0 +1,27 @@
+---
+name: 'Patina Dark Soft'
+author: 'lmarkmann (https://github.com/lmarkmann)'
+variant: 'dark'            # dark or light
+
+color_01: '#2E2E2E'    # Black (Host)
+color_02: '#CB7676'    # Red (Syntax string)
+color_03: '#549C7D'    # Green (Command)
+color_04: '#E6CC77'    # Yellow (Command second)
+color_05: '#6DB3C2'    # Blue (Path)
+color_06: '#C98A7D'    # Magenta (Syntax var)
+color_07: '#5DA9A7'    # Cyan (Prompt)
+color_08: '#DBD7CA'    # White
+
+color_09: '#585858'    # Bright Black
+color_10: '#CB7676'    # Bright Red (Command error)
+color_11: '#549C7D'    # Bright Green (Exec)
+color_12: '#E6CC77'    # Bright Yellow
+color_13: '#6DB3C2'    # Bright Blue (Folder)
+color_14: '#C98A7D'    # Bright Magenta
+color_15: '#5DA9A7'    # Bright Cyan
+color_16: '#DBD7CA'    # Bright White
+
+background: '#1A1A1A'  # Background
+foreground: '#DBD7CA'  # Foreground (Text)
+
+cursor: '#DBD7CA'      # Cursor

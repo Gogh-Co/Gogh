@@ -1,0 +1,23 @@
+name: Purplepeter
+author: DeChamp (https://github.com/dechamp)
+variant: dark
+color_01: '#0A0520'
+color_02: '#FF796D'
+color_03: '#99B481'
+color_04: '#EFDFAC'
+color_05: '#66D9EF'
+color_06: '#E78FCD'
+color_07: '#BA8CFF'
+color_08: '#FFBA81'
+color_09: '#100B23'
+color_10: '#F99F92'
+color_11: '#B4BE8F'
+color_12: '#F2E9BF'
+color_13: '#79DAED'
+color_14: '#BA91D4'
+color_15: '#A0A0D6'
+color_16: '#B9AED3'
+background: '#2A1A4A'
+foreground: '#ECE7FA'
+cursor: '#C7C7C7'
+hash: b5065c95fb8d94162553ebb5339f602c2ef19fd8d6a771141fcd90bc0f8f3707

@@ -1,0 +1,27 @@
+---
+name: 'Green Phosphor CRT'
+author: 'PoshPalette (https://github.com/livlign/posh-palette)'
+variant: 'dark'            # dark or light
+
+color_01: '#002200'    # Black (Host)
+color_02: '#00AA00'    # Red (Syntax string)
+color_03: '#33FF33'    # Green (Command)
+color_04: '#66FF66'    # Yellow (Command second)
+color_05: '#00CC44'    # Blue (Path)
+color_06: '#00FF88'    # Magenta (Syntax var)
+color_07: '#66FFAA'    # Cyan (Prompt)
+color_08: '#B6FFB6'    # White
+
+color_09: '#0A5A0A'    # Bright Black
+color_10: '#19CC19'    # Bright Red (Command error)
+color_11: '#66FF66'    # Bright Green (Exec)
+color_12: '#99FF99'    # Bright Yellow
+color_13: '#33FF77'    # Bright Blue (Folder)
+color_14: '#66FFAA'    # Bright Magenta
+color_15: '#99FFCC'    # Bright Cyan
+color_16: '#E6FFE6'    # Bright White
+
+background: '#0B0F0B'  # Background
+foreground: '#33FF33'  # Foreground (Text)
+
+cursor: '#33FF33'      # Cursor

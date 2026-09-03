@@ -1,0 +1,23 @@
+name: Karasu Night
+author: scozu (https://github.com/scozu)
+variant: dark
+color_01: '#0A0A0A'
+color_02: '#E06C75'
+color_03: '#8FBF7A'
+color_04: '#D4B86A'
+color_05: '#7AA2C8'
+color_06: '#B4A1D8'
+color_07: '#76B7B2'
+color_08: '#F5F5F5'
+color_09: '#44403C'
+color_10: '#FF5C5C'
+color_11: '#A6D189'
+color_12: '#E8D07D'
+color_13: '#8CB4E2'
+color_14: '#C7B3EE'
+color_15: '#8AD4CE'
+color_16: '#E7E5E4'
+background: '#0A0A0A'
+foreground: '#E7E5E4'
+cursor: '#F5F5F5'
+hash: c06f3d8587f85e6474b902ad8ef8b95f1e5ca1d241226b011a98534f52680b9f

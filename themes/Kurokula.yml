@@ -1,0 +1,27 @@
+---
+name: 'Kurokula'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#333333'    # Black (Host)
+color_02: '#B66056'    # Red (Syntax string)
+color_03: '#85B1A9'    # Green (Command)
+color_04: '#DBBB43'    # Yellow (Command second)
+color_05: '#6890D7'    # Blue (Path)
+color_06: '#887AA3'    # Magenta (Syntax var)
+color_07: '#837369'    # Cyan (Prompt)
+color_08: '#DDD0C4'    # White
+
+color_09: '#515151'    # Bright Black
+color_10: '#FFC663'    # Bright Red (Command error)
+color_11: '#C1FFAE'    # Bright Green (Exec)
+color_12: '#FFF700'    # Bright Yellow
+color_13: '#A1D9FF'    # Bright Blue (Folder)
+color_14: '#A994FF'    # Bright Magenta
+color_15: '#F9CFB9'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#141515'  # Background
+foreground: '#DDD0C4'  # Foreground (Text)
+
+cursor: '#702420'      # Cursor

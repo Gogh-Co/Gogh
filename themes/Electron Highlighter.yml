@@ -1,0 +1,27 @@
+---
+name: 'Electron Highlighter'
+author: 'mikemcbride (https://github.com/mikemcbride)'
+variant: 'dark'            # dark or light
+
+color_01: '#15161E'    # Black (Host)
+color_02: '#F7768E'    # Red (Syntax string)
+color_03: '#58FFC7'    # Green (Command)
+color_04: '#FFECB8'    # Yellow (Command second)
+color_05: '#82AAFF'    # Blue (Path)
+color_06: '#D2A6EF'    # Magenta (Syntax var)
+color_07: '#5CE1FF'    # Cyan (Prompt)
+color_08: '#7586B3'    # White
+
+color_09: '#4E5B88'    # Bright Black
+color_10: '#F7768E'    # Bright Red (Command error)
+color_11: '#58FFC7'    # Bright Green (Exec)
+color_12: '#FFECB8'    # Bright Yellow
+color_13: '#82AAFF'    # Bright Blue (Folder)
+color_14: '#D2A6EF'    # Bright Magenta
+color_15: '#5CE1FF'    # Bright Cyan
+color_16: '#C5CDE0'    # Bright White
+
+background: '#24283B'  # Background
+foreground: '#A8B5D1'  # Foreground (Text)
+
+cursor: '#A8B5D1'      # Cursor

@@ -1,0 +1,23 @@
+name: Wilmersdorf
+author: sayeefm0 (https://github.com/sayeefm0/iterm2-wilmersdorf)
+variant: dark
+color_01: '#34373E'
+color_02: '#E06383'
+color_03: '#7EBEBD'
+color_04: '#CCCCCC'
+color_05: '#A6C1E0'
+color_06: '#E1C1EE'
+color_07: '#5B94AB'
+color_08: '#ABABAB'
+color_09: '#434750'
+color_10: '#FA7193'
+color_11: '#8FD7D6'
+color_12: '#D1DFFF'
+color_13: '#B2CFF0'
+color_14: '#EFCCFD'
+color_15: '#69ABC5'
+color_16: '#D3D3D3'
+background: '#282B33'
+foreground: '#C6C6C6'
+cursor: '#7EBEBD'
+hash: f982be5f708eaef7a93cde54150bf6b4379d9f62147fb582dd9565daebab5140

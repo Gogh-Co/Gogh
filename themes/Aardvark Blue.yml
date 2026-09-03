@@ -1,0 +1,27 @@
+---
+name: 'Aardvark Blue'
+author: 'joshka (https://github.com/joshka)'
+variant: 'dark'            # dark or light
+
+color_01: '#191919'    # Black (Host)
+color_02: '#AA342E'    # Red (Syntax string)
+color_03: '#4B8C0F'    # Green (Command)
+color_04: '#DBBA00'    # Yellow (Command second)
+color_05: '#1370D3'    # Blue (Path)
+color_06: '#C43AC3'    # Magenta (Syntax var)
+color_07: '#008EB0'    # Cyan (Prompt)
+color_08: '#BEBEBE'    # White
+
+color_09: '#454545'    # Bright Black
+color_10: '#F05B50'    # Bright Red (Command error)
+color_11: '#95DC55'    # Bright Green (Exec)
+color_12: '#FFE763'    # Bright Yellow
+color_13: '#60A4EC'    # Bright Blue (Folder)
+color_14: '#E26BE2'    # Bright Magenta
+color_15: '#60B6CB'    # Bright Cyan
+color_16: '#F7F7F7'    # Bright White
+
+background: '#102040'  # Background
+foreground: '#DDDDDD'  # Foreground (Text)
+
+cursor: '#007ACC'      # Cursor

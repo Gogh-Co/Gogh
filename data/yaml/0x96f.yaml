@@ -1,0 +1,23 @@
+name: '0x96f'
+author: Filip (https://github.com/filipjanevski)
+variant: dark
+color_01: '#262427'
+color_02: '#FF7272'
+color_03: '#BCDF59'
+color_04: '#FFCA58'
+color_05: '#49CAE4'
+color_06: '#A093E2'
+color_07: '#AEE8F4'
+color_08: '#FCFCFA'
+color_09: '#545452'
+color_10: '#FF8787'
+color_11: '#C6E472'
+color_12: '#FFD271'
+color_13: '#64D2E8'
+color_14: '#AEA3E6'
+color_15: '#BAEBF6'
+color_16: '#FCFCFA'
+background: '#262427'
+foreground: '#FCFCFA'
+cursor: '#FCFCFA'
+hash: a2da5210bf7399ccf458a429b837958eee7f758b520d579db001c0ec68d06b77

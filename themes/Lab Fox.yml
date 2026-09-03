@@ -1,0 +1,27 @@
+---
+name: 'Lab Fox'
+author: 'theatlasroom (https://github.com/theatlasroom)'
+variant: 'dark'            # dark or light
+
+color_01: '#2E2E2E'    # Black (Host)
+color_02: '#FC6D26'    # Red (Syntax string)
+color_03: '#3EB383'    # Green (Command)
+color_04: '#FCA121'    # Yellow (Command second)
+color_05: '#DB3B21'    # Blue (Path)
+color_06: '#380D75'    # Magenta (Syntax var)
+color_07: '#6E49CB'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#464646'    # Bright Black
+color_10: '#FF6517'    # Bright Red (Command error)
+color_11: '#53EAA8'    # Bright Green (Exec)
+color_12: '#FCA013'    # Bright Yellow
+color_13: '#DB501F'    # Bright Blue (Folder)
+color_14: '#441090'    # Bright Magenta
+color_15: '#7D53E7'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#2E2E2E'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#7F7F7F'      # Cursor

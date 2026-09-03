@@ -1,0 +1,23 @@
+name: Porcelain
+author: PoshPalette (https://github.com/livlign/posh-palette)
+variant: light
+color_01: '#2A2E37'
+color_02: '#C60018'
+color_03: '#157424'
+color_04: '#855700'
+color_05: '#004CC8'
+color_06: '#761BC3'
+color_07: '#006873'
+color_08: '#5A6170'
+color_09: '#828896'
+color_10: '#D60027'
+color_11: '#1B842D'
+color_12: '#AF2700'
+color_13: '#005BDB'
+color_14: '#862AD2'
+color_15: '#007F8F'
+color_16: '#1B1E25'
+background: '#FBFBFD'
+foreground: '#2A2E37'
+cursor: '#0054D1'
+hash: eae5598f07b9bcc5b3defd1566214a069d74b1efdac2878a28b061f7f515c0a9

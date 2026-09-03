@@ -1,0 +1,23 @@
+name: Warm Burnout Light
+author: Felipe Lima (https://github.com/felipefdl)
+variant: light
+color_01: '#3A3630'
+color_02: '#B82820'
+color_03: '#2D6A14'
+color_04: '#8A6000'
+color_05: '#2060A0'
+color_06: '#8A3090'
+color_07: '#146858'
+color_08: '#C0B8AA'
+color_09: '#686868'
+color_10: '#C83028'
+color_11: '#3A7A20'
+color_12: '#9A7008'
+color_13: '#2870B0'
+color_14: '#9A38A0'
+color_15: '#208870'
+color_16: '#FAF6F0'
+background: '#F5EDE0'
+foreground: '#3A3630'
+cursor: '#8A6600'
+hash: f2479d14f82431bd62b6872dcebb2f9288acdb44fa337de92e2303412067b9f2

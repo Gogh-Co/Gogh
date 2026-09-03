@@ -1,0 +1,23 @@
+name: Niji
+author: some dude (https://github.com/indyandie)
+variant: dark
+color_01: '#333333'
+color_02: '#D23E08'
+color_03: '#54CA74'
+color_04: '#FFF700'
+color_05: '#2AB9FF'
+color_06: '#FF50DA'
+color_07: '#1EF9F5'
+color_08: '#DDD0C4'
+color_09: '#515151'
+color_10: '#FFB7B7'
+color_11: '#C1FFAE'
+color_12: '#FCFFB8'
+color_13: '#8EFFF3'
+color_14: '#FFA2ED'
+color_15: '#BCFFC7'
+color_16: '#FFFFFF'
+background: '#141515'
+foreground: '#FFFFFF'
+cursor: '#FFC663'
+hash: 8aef4698d4046344b43fd8dd53ea5d3a2c6df3b00132557cc8760b7f94099c7c

@@ -1,0 +1,27 @@
+---
+name: 'Graphite'
+author: 'PoshPalette (https://github.com/livlign/posh-palette)'
+variant: 'dark'            # dark or light
+
+color_01: '#15171A'    # Black (Host)
+color_02: '#E58888'    # Red (Syntax string)
+color_03: '#A7C59F'    # Green (Command)
+color_04: '#CEC59D'    # Yellow (Command second)
+color_05: '#8DB4D0'    # Blue (Path)
+color_06: '#BAABCB'    # Magenta (Syntax var)
+color_07: '#A8C6D4'    # Cyan (Prompt)
+color_08: '#B4B9C0'    # White
+
+color_09: '#7E8590'    # Bright Black
+color_10: '#F19F9F'    # Bright Red (Command error)
+color_11: '#B9D5B1'    # Bright Green (Exec)
+color_12: '#CFBA97'    # Bright Yellow
+color_13: '#A5C6DE'    # Bright Blue (Folder)
+color_14: '#CCBEDD'    # Bright Magenta
+color_15: '#BCD6E2'    # Bright Cyan
+color_16: '#ECEFF3'    # Bright White
+
+background: '#1C1E22'  # Background
+foreground: '#D2D6DC'  # Foreground (Text)
+
+cursor: '#C4CEDB'      # Cursor

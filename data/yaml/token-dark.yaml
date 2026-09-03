@@ -1,0 +1,23 @@
+name: Token Dark
+author: Thorsten Rhau (https://github.com/ThorstenRhau)
+variant: dark
+color_01: '#1D1D1C'
+color_02: '#C67777'
+color_03: '#7DA47A'
+color_04: '#C4A855'
+color_05: '#7B9EBD'
+color_06: '#A68BBF'
+color_07: '#6BA8A8'
+color_08: '#D4CFC6'
+color_09: '#5A5955'
+color_10: '#D97757'
+color_11: '#98BF95'
+color_12: '#C4956A'
+color_13: '#96B8D3'
+color_14: '#BEA5D4'
+color_15: '#88C0C0'
+color_16: '#E8E4DC'
+background: '#262624'
+foreground: '#E8E4DC'
+cursor: '#E8E4DC'
+hash: ba4868d0d5a6fd61da4f78982d131fcac2090a8a68fa87d3347eb242b9ae1b46

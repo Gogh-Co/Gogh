@@ -1,0 +1,27 @@
+---
+name: 'Kanagawabones'
+author: 'rebelot (https://github.com/rebelot)'
+variant: 'dark'            # dark or light
+
+color_01: '#1F1F28'    # Black (Host)
+color_02: '#E46A78'    # Red (Syntax string)
+color_03: '#98BC6D'    # Green (Command)
+color_04: '#E5C283'    # Yellow (Command second)
+color_05: '#7EB3C9'    # Blue (Path)
+color_06: '#957FB8'    # Magenta (Syntax var)
+color_07: '#7EB3C9'    # Cyan (Prompt)
+color_08: '#DDD8BB'    # White
+
+color_09: '#3C3C51'    # Bright Black
+color_10: '#EC818C'    # Bright Red (Command error)
+color_11: '#9EC967'    # Bright Green (Exec)
+color_12: '#F1C982'    # Bright Yellow
+color_13: '#7BC2DF'    # Bright Blue (Folder)
+color_14: '#A98FD2'    # Bright Magenta
+color_15: '#7BC2DF'    # Bright Cyan
+color_16: '#A8A48D'    # Bright White
+
+background: '#1F1F28'  # Background
+foreground: '#DDD8BB'  # Foreground (Text)
+
+cursor: '#E6E0C2'      # Cursor

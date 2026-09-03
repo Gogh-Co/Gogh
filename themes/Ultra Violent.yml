@@ -1,0 +1,27 @@
+---
+name: 'Ultra Violent'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#242728'    # Black (Host)
+color_02: '#FF0090'    # Red (Syntax string)
+color_03: '#B6FF00'    # Green (Command)
+color_04: '#FFF727'    # Yellow (Command second)
+color_05: '#47E0FB'    # Blue (Path)
+color_06: '#D731FF'    # Magenta (Syntax var)
+color_07: '#0EFFBB'    # Cyan (Prompt)
+color_08: '#E1E1E1'    # White
+
+color_09: '#636667'    # Bright Black
+color_10: '#FB58B4'    # Bright Red (Command error)
+color_11: '#DEFF8C'    # Bright Green (Exec)
+color_12: '#EBE087'    # Bright Yellow
+color_13: '#7FECFF'    # Bright Blue (Folder)
+color_14: '#E681FF'    # Bright Magenta
+color_15: '#69FCD3'    # Bright Cyan
+color_16: '#F9F9F5'    # Bright White
+
+background: '#242728'  # Background
+foreground: '#C1C1C1'  # Foreground (Text)
+
+cursor: '#C1C1C1'      # Cursor

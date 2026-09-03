@@ -1,0 +1,23 @@
+name: Night Owlish Light
+author: praveenpuglia (https://github.com/praveenpuglia)
+variant: light
+color_01: '#011627'
+color_02: '#D3423E'
+color_03: '#2AA298'
+color_04: '#DAAA01'
+color_05: '#4876D6'
+color_06: '#403F53'
+color_07: '#08916A'
+color_08: '#7A8181'
+color_09: '#7A8181'
+color_10: '#F76E6E'
+color_11: '#49D0C5'
+color_12: '#DAC26B'
+color_13: '#5CA7E4'
+color_14: '#697098'
+color_15: '#00C990'
+color_16: '#989FB1'
+background: '#FFFFFF'
+foreground: '#403F53'
+cursor: '#403F53'
+hash: ac507eaea219407dd292bd1ed003edfa8266e56747d5c572619a95ad92504769

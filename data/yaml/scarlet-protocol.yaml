@@ -1,0 +1,23 @@
+name: Scarlet Protocol
+author: ReagentX (https://github.com/ReagentX)
+variant: dark
+color_01: '#101116'
+color_02: '#FF0051'
+color_03: '#00DC84'
+color_04: '#FAF945'
+color_05: '#0271B6'
+color_06: '#CA30C7'
+color_07: '#00C5C7'
+color_08: '#C7C7C7'
+color_09: '#686868'
+color_10: '#FF6E67'
+color_11: '#5FFA68'
+color_12: '#FFFC67'
+color_13: '#6871FF'
+color_14: '#BD35EC'
+color_15: '#60FDFF'
+color_16: '#FFFFFF'
+background: '#1C153D'
+foreground: '#E41951'
+cursor: '#76FF9F'
+hash: f4d68f2caa2b15b0f25002bc6f3ab1e192ce0524ad47b0ba6b73d75c81a8d670

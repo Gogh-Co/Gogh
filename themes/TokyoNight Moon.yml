@@ -1,0 +1,27 @@
+---
+name: 'TokyoNight Moon'
+author: 'folke (https://github.com/folke/tokyonight.nvim)'
+variant: 'dark'            # dark or light
+
+color_01: '#1B1D2B'    # Black (Host)
+color_02: '#FF757F'    # Red (Syntax string)
+color_03: '#C3E88D'    # Green (Command)
+color_04: '#FFC777'    # Yellow (Command second)
+color_05: '#82AAFF'    # Blue (Path)
+color_06: '#C099FF'    # Magenta (Syntax var)
+color_07: '#86E1FC'    # Cyan (Prompt)
+color_08: '#828BB8'    # White
+
+color_09: '#444A73'    # Bright Black
+color_10: '#FF757F'    # Bright Red (Command error)
+color_11: '#C3E88D'    # Bright Green (Exec)
+color_12: '#FFC777'    # Bright Yellow
+color_13: '#82AAFF'    # Bright Blue (Folder)
+color_14: '#C099FF'    # Bright Magenta
+color_15: '#86E1FC'    # Bright Cyan
+color_16: '#C8D3F5'    # Bright White
+
+background: '#222436'  # Background
+foreground: '#C8D3F5'  # Foreground (Text)
+
+cursor: '#C8D3F5'      # Cursor

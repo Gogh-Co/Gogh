@@ -1,0 +1,27 @@
+---
+name: 'iTerm2 Default'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#C91B00'    # Red (Syntax string)
+color_03: '#00C200'    # Green (Command)
+color_04: '#C7C400'    # Yellow (Command second)
+color_05: '#2225C4'    # Blue (Path)
+color_06: '#CA30C7'    # Magenta (Syntax var)
+color_07: '#00C5C7'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#686868'    # Bright Black
+color_10: '#FF6E67'    # Bright Red (Command error)
+color_11: '#5FFA68'    # Bright Green (Exec)
+color_12: '#FFFC67'    # Bright Yellow
+color_13: '#6871FF'    # Bright Blue (Folder)
+color_14: '#FF77FF'    # Bright Magenta
+color_15: '#60FDFF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#E5E5E5'      # Cursor

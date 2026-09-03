@@ -1,0 +1,23 @@
+name: Dalton Dark
+author: ''
+variant: dark
+color_01: '#282828'
+color_02: '#D85050'
+color_03: '#5B914E'
+color_04: '#C4C40C'
+color_05: '#7AA2F7'
+color_06: '#A050D0'
+color_07: '#56717F'
+color_08: '#B8B8B8'
+color_09: '#494949'
+color_10: '#F07068'
+color_11: '#88B97D'
+color_12: '#EDED02'
+color_13: '#97B1F1'
+color_14: '#C070F0'
+color_15: '#6691A7'
+color_16: '#D8D8D8'
+background: '#1B1B1B'
+foreground: '#C8C9CC'
+cursor: '#9A9A9A'
+hash: 5dadee2735b4f76ee3e9571b852cfd76f557fa2ab020b0bd6a34f0170a7dc0b8

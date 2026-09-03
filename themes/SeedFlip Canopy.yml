@@ -1,0 +1,27 @@
+---
+name: 'SeedFlip Canopy'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#0B110F'    # Black (Host)
+color_02: '#D65C5C'    # Red (Syntax string)
+color_03: '#5CD685'    # Green (Command)
+color_04: '#D6C25C'    # Yellow (Command second)
+color_05: '#5C8FD6'    # Blue (Path)
+color_06: '#D65CD6'    # Magenta (Syntax var)
+color_07: '#5CD6D6'    # Cyan (Prompt)
+color_08: '#FAFAFA'    # White
+
+color_09: '#2D453C'    # Bright Black
+color_10: '#E69999'    # Bright Red (Command error)
+color_11: '#99E6B2'    # Bright Green (Exec)
+color_12: '#E6D999'    # Bright Yellow
+color_13: '#99B9E6'    # Bright Blue (Folder)
+color_14: '#E699E6'    # Bright Magenta
+color_15: '#99E6E6'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#0F1714'  # Background
+foreground: '#EDEDED'  # Foreground (Text)
+
+cursor: '#3ECF8E'      # Cursor

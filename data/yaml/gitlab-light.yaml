@@ -1,0 +1,23 @@
+name: GitLab Light
+author: Antonio Camargo (https://github.com/apcamargo)
+variant: light
+color_01: '#303030'
+color_02: '#A31700'
+color_03: '#0A7F3D'
+color_04: '#AF551D'
+color_05: '#006CD8'
+color_06: '#583CAC'
+color_07: '#00798A'
+color_08: '#303030'
+color_09: '#303030'
+color_10: '#A31700'
+color_11: '#0A7F3D'
+color_12: '#AF551D'
+color_13: '#006CD8'
+color_14: '#583CAC'
+color_15: '#00798A'
+color_16: '#303030'
+background: '#FAFAFF'
+foreground: '#303030'
+cursor: '#303030'
+hash: d7c7c76a24248f5429cce0a138d7e2baa2ff0568b8d9256e97f742c1cb82a910

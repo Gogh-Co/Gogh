@@ -1,0 +1,27 @@
+---
+name: 'ENCOM'
+author: 'Josh Braun (http://wideaperture.net)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#9F0000'    # Red (Syntax string)
+color_03: '#008B00'    # Green (Command)
+color_04: '#FFD000'    # Yellow (Command second)
+color_05: '#0081FF'    # Blue (Path)
+color_06: '#BC00CA'    # Magenta (Syntax var)
+color_07: '#008B8B'    # Cyan (Prompt)
+color_08: '#BBBBBB'    # White
+
+color_09: '#555555'    # Bright Black
+color_10: '#FF0000'    # Bright Red (Command error)
+color_11: '#00EE00'    # Bright Green (Exec)
+color_12: '#FFFF00'    # Bright Yellow
+color_13: '#0000FF'    # Bright Blue (Folder)
+color_14: '#FF00FF'    # Bright Magenta
+color_15: '#00CDCD'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#00A595'  # Foreground (Text)
+
+cursor: '#BBBBBB'      # Cursor

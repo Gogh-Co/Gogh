@@ -1,0 +1,23 @@
+name: datum (dark)
+author: w0zro (https://github.com/w0zro)
+variant: dark
+color_01: '#2B2F35'
+color_02: '#FE9864'
+color_03: '#54DCAA'
+color_04: '#E8DF69'
+color_05: '#69B9F7'
+color_06: '#FA94CD'
+color_07: '#6AE5EC'
+color_08: '#DBE0E8'
+color_09: '#8F98A3'
+color_10: '#F8BD5F'
+color_11: '#54DCAA'
+color_12: '#FCDCAD'
+color_13: '#B2DAFB'
+color_14: '#F5B9D9'
+color_15: '#A5F5F9'
+color_16: '#EEF2F7'
+background: '#0F1318'
+foreground: '#DBE0E8'
+cursor: '#FA94CD'
+hash: 39aeeaaa0465342b6d0bdf5949665f940a7149df5071f27c230ca19fb62453db

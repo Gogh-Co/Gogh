@@ -1,0 +1,27 @@
+---
+name: 'Hot Dog Stand (Mustard)'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'light'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#EA3323'    # Red (Syntax string)
+color_03: '#EA3323'    # Green (Command)
+color_04: '#EA3323'    # Yellow (Command second)
+color_05: '#000000'    # Blue (Path)
+color_06: '#EA3323'    # Magenta (Syntax var)
+color_07: '#000000'    # Cyan (Prompt)
+color_08: '#B9B9B9'    # White
+
+color_09: '#000000'    # Bright Black
+color_10: '#EA3323'    # Bright Red (Command error)
+color_11: '#EA3323'    # Bright Green (Exec)
+color_12: '#EA3323'    # Bright Yellow
+color_13: '#000000'    # Bright Blue (Folder)
+color_14: '#EA3323'    # Bright Magenta
+color_15: '#000000'    # Bright Cyan
+color_16: '#C6C6C6'    # Bright White
+
+background: '#FFFF54'  # Background
+foreground: '#000000'  # Foreground (Text)
+
+cursor: '#EA3323'      # Cursor

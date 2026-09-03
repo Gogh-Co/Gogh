@@ -1,0 +1,23 @@
+name: Patina Moss
+author: PoshPalette (https://github.com/livlign/posh-palette)
+variant: dark
+color_01: '#33362E'
+color_02: '#C07878'
+color_03: '#5BA886'
+color_04: '#D4BF6E'
+color_05: '#65A8B5'
+color_06: '#C08A7D'
+color_07: '#63A8A6'
+color_08: '#DBD7CA'
+color_09: '#585B51'
+color_10: '#C07878'
+color_11: '#5BA886'
+color_12: '#D4BF6E'
+color_13: '#65A8B5'
+color_14: '#C08A7D'
+color_15: '#63A8A6'
+color_16: '#DBD7CA'
+background: '#20231F'
+foreground: '#DBD7CA'
+cursor: '#DBD7CA'
+hash: 8d24ac25a82e210ba0459bb4b30ff482cc2cc57e95f68b201e1abc0a695a8492

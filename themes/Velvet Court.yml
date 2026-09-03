@@ -1,0 +1,27 @@
+---
+name: 'Velvet Court'
+author: 'PoshPalette (https://github.com/livlign/posh-palette)'
+variant: 'dark'            # dark or light
+
+color_01: '#2F1629'    # Black (Host)
+color_02: '#EE5C82'    # Red (Syntax string)
+color_03: '#9AD08A'    # Green (Command)
+color_04: '#F0C44E'    # Yellow (Command second)
+color_05: '#B392E8'    # Blue (Path)
+color_06: '#D087E0'    # Magenta (Syntax var)
+color_07: '#6FD0C8'    # Cyan (Prompt)
+color_08: '#E2C8D8'    # White
+
+color_09: '#836075'    # Bright Black
+color_10: '#EE5C82'    # Bright Red (Command error)
+color_11: '#9AD08A'    # Bright Green (Exec)
+color_12: '#E8964F'    # Bright Yellow
+color_13: '#B392E8'    # Bright Blue (Folder)
+color_14: '#D087E0'    # Bright Magenta
+color_15: '#6FD0C8'    # Bright Cyan
+color_16: '#F2DCEA'    # Bright White
+
+background: '#1F0E1C'  # Background
+foreground: '#F2DCEA'  # Foreground (Text)
+
+cursor: '#F0C44E'      # Cursor

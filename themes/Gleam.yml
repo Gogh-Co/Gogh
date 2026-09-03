@@ -1,0 +1,27 @@
+---
+name: 'Gleam'
+author: 'trag1c (https://github.com/trag1c)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#F44747'    # Red (Syntax string)
+color_03: '#AADD8B'    # Green (Command)
+color_04: '#FFD596'    # Yellow (Command second)
+color_05: '#6796E6'    # Blue (Path)
+color_06: '#FE7AB2'    # Magenta (Syntax var)
+color_07: '#B181EC'    # Cyan (Prompt)
+color_08: '#F7F7F7'    # White
+
+color_09: '#808080'    # Bright Black
+color_10: '#FF4A4A'    # Bright Red (Command error)
+color_11: '#C8FFA7'    # Bright Green (Exec)
+color_12: '#FDFFAB'    # Bright Yellow
+color_13: '#9CE7FF'    # Bright Blue (Folder)
+color_14: '#FFAFF3'    # Bright Magenta
+color_15: '#D9BAFF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#292D3E'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

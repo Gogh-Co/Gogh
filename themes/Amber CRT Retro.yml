@@ -1,0 +1,27 @@
+---
+name: 'Amber CRT Retro'
+author: 'PoshPalette (https://github.com/livlign/posh-palette)'
+variant: 'dark'            # dark or light
+
+color_01: '#2A1E00'    # Black (Host)
+color_02: '#FF6A00'    # Red (Syntax string)
+color_03: '#FFB000'    # Green (Command)
+color_04: '#FFC742'    # Yellow (Command second)
+color_05: '#FF8C00'    # Blue (Path)
+color_06: '#FFA033'    # Magenta (Syntax var)
+color_07: '#FFD27F'    # Cyan (Prompt)
+color_08: '#FFD9A0'    # White
+
+color_09: '#6A4E00'    # Bright Black
+color_10: '#FF8A1E'    # Bright Red (Command error)
+color_11: '#FFC742'    # Bright Green (Exec)
+color_12: '#FFE08A'    # Bright Yellow
+color_13: '#FFAB3D'    # Bright Blue (Folder)
+color_14: '#FFC266'    # Bright Magenta
+color_15: '#FFE3B0'    # Bright Cyan
+color_16: '#FFF0D6'    # Bright White
+
+background: '#1A1200'  # Background
+foreground: '#FFB000'  # Foreground (Text)
+
+cursor: '#FFB000'      # Cursor

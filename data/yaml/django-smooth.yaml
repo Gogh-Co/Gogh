@@ -1,0 +1,23 @@
+name: Django Smooth
+author: Jannis Leidel (https://code.djangoproject.com/wiki/TextMate)
+variant: dark
+color_01: '#000000'
+color_02: '#FD6209'
+color_03: '#41A83E'
+color_04: '#FFE862'
+color_05: '#989898'
+color_06: '#F8F8F8'
+color_07: '#9DF39F'
+color_08: '#E8E8E7'
+color_09: '#323232'
+color_10: '#FF943B'
+color_11: '#73DA70'
+color_12: '#FFFF94'
+color_13: '#CACACA'
+color_14: '#FFFFFF'
+color_15: '#CFFFD1'
+color_16: '#FFFFFF'
+background: '#245032'
+foreground: '#F8F8F8'
+cursor: '#336442'
+hash: 9d3611f10736112d20bf51e4b13622a3307bcb9cb85fd99e5b55007f73afcd3a

@@ -1,0 +1,27 @@
+---
+name: 'Pierre Light'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'light'            # dark or light
+
+color_01: '#1F1F21'    # Black (Host)
+color_02: '#D52C36'    # Red (Syntax string)
+color_03: '#1D8138'    # Green (Command)
+color_04: '#AC8816'    # Yellow (Command second)
+color_05: '#216CAB'    # Blue (Path)
+color_06: '#A631BE'    # Magenta (Syntax var)
+color_07: '#2182A1'    # Cyan (Prompt)
+color_08: '#79797F'    # White
+
+color_09: '#8E8E95'    # Bright Black
+color_10: '#FF2E3F'    # Bright Red (Command error)
+color_11: '#0DBE4E'    # Bright Green (Exec)
+color_12: '#D5A910'    # Bright Yellow
+color_13: '#009FFF'    # Bright Blue (Folder)
+color_14: '#C635E4'    # Bright Magenta
+color_15: '#08C0EF'    # Bright Cyan
+color_16: '#DBDBDD'    # Bright White
+
+background: '#FFFFFF'  # Background
+foreground: '#070707'  # Foreground (Text)
+
+cursor: '#009FFF'      # Cursor

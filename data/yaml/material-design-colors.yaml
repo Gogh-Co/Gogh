@@ -1,0 +1,23 @@
+name: Material Design Colors
+author: MartinSeeler (https://www.martinseeler.com/iterm2-material-design)
+variant: dark
+color_01: '#435B67'
+color_02: '#FC3841'
+color_03: '#5CF19E'
+color_04: '#FED032'
+color_05: '#37B6FF'
+color_06: '#FC226E'
+color_07: '#59FFD1'
+color_08: '#FFFFFF'
+color_09: '#A1B0B8'
+color_10: '#FC746D'
+color_11: '#ADF7BE'
+color_12: '#FEE16C'
+color_13: '#70CFFF'
+color_14: '#FC669B'
+color_15: '#9AFFE6'
+color_16: '#FFFFFF'
+background: '#1D262A'
+foreground: '#E7EBED'
+cursor: '#EAEAEA'
+hash: 53694fb3aace5987494985d46a8a96d1cc49fe9025e4861218878dd82e653f80

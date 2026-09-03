@@ -1,0 +1,27 @@
+---
+name: 'Emerald Synth'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#0A0118'    # Black (Host)
+color_02: '#FF2A6D'    # Red (Syntax string)
+color_03: '#00E67E'    # Green (Command)
+color_04: '#FFCC66'    # Yellow (Command second)
+color_05: '#8B9CF7'    # Blue (Path)
+color_06: '#FF79C6'    # Magenta (Syntax var)
+color_07: '#4DD0E1'    # Cyan (Prompt)
+color_08: '#F0E6FF'    # White
+
+color_09: '#6A5585'    # Bright Black
+color_10: '#FF5C8A'    # Bright Red (Command error)
+color_11: '#40FFDD'    # Bright Green (Exec)
+color_12: '#FFE099'    # Bright Yellow
+color_13: '#B0B8FC'    # Bright Blue (Folder)
+color_14: '#FF9ED0'    # Bright Magenta
+color_15: '#7EE0EC'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#0D0221'  # Background
+foreground: '#00FFCC'  # Foreground (Text)
+
+cursor: '#FF79C6'      # Cursor

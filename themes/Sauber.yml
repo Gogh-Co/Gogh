@@ -1,0 +1,27 @@
+---
+name: 'Sauber'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'light'            # dark or light
+
+color_01: '#15191E'    # Black (Host)
+color_02: '#A74532'    # Red (Syntax string)
+color_03: '#57BF38'    # Green (Command)
+color_04: '#C7C43F'    # Yellow (Command second)
+color_05: '#2E43C0'    # Blue (Path)
+color_06: '#B149B8'    # Magenta (Syntax var)
+color_07: '#59C2C6'    # Cyan (Prompt)
+color_08: '#C7C7C7'    # White
+
+color_09: '#686868'    # Bright Black
+color_10: '#D07E78'    # Bright Red (Command error)
+color_11: '#82E498'    # Bright Green (Exec)
+color_12: '#EAE24A'    # Bright Yellow
+color_13: '#A7ABED'    # Bright Blue (Folder)
+color_14: '#D483DC'    # Bright Magenta
+color_15: '#3D898E'    # Bright Cyan
+color_16: '#9F8133'    # Bright White
+
+background: '#F0FEE8'  # Background
+foreground: '#2244ED'  # Foreground (Text)
+
+cursor: '#000000'      # Cursor

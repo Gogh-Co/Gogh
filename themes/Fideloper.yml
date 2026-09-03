@@ -1,0 +1,27 @@
+---
+name: 'Fideloper'
+author: 'Fideloper (http://fideloper.com/)'
+variant: 'dark'            # dark or light
+
+color_01: '#292F33'    # Black (Host)
+color_02: '#CB1E2D'    # Red (Syntax string)
+color_03: '#EDB8AC'    # Green (Command)
+color_04: '#B7AB9B'    # Yellow (Command second)
+color_05: '#2E78C2'    # Blue (Path)
+color_06: '#C0236F'    # Magenta (Syntax var)
+color_07: '#309186'    # Cyan (Prompt)
+color_08: '#EAE3CE'    # White
+
+color_09: '#092028'    # Bright Black
+color_10: '#D4605A'    # Bright Red (Command error)
+color_11: '#D4605A'    # Bright Green (Exec)
+color_12: '#A86671'    # Bright Yellow
+color_13: '#7C85C4'    # Bright Blue (Folder)
+color_14: '#5C5DB2'    # Bright Magenta
+color_15: '#819090'    # Bright Cyan
+color_16: '#FCF4DF'    # Bright White
+
+background: '#292F33'  # Background
+foreground: '#DBDAE0'  # Foreground (Text)
+
+cursor: '#D4605A'      # Cursor

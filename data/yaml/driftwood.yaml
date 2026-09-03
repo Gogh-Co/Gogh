@@ -1,0 +1,23 @@
+name: Driftwood
+author: PoshPalette (https://github.com/livlign/posh-palette)
+variant: dark
+color_01: '#211D19'
+color_02: '#E77467'
+color_03: '#AAB971'
+color_04: '#E1B869'
+color_05: '#78B3B5'
+color_06: '#C9A0BD'
+color_07: '#A5C4B1'
+color_08: '#C2B7A6'
+color_09: '#9A8E7C'
+color_10: '#F38F7E'
+color_11: '#BECC8A'
+color_12: '#E39962'
+color_13: '#92C6C7'
+color_14: '#DAB6D1'
+color_15: '#BBD6C3'
+color_16: '#F2EADB'
+background: '#2A2622'
+foreground: '#E6DDD0'
+cursor: '#DFB666'
+hash: d102ef0e74989f1effc027509fce13a4446166a01f3060b7327aaff2096079ff

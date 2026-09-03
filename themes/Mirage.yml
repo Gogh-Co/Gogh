@@ -1,0 +1,27 @@
+---
+name: 'Mirage'
+author: 'Tristan Remy (https://github.com/tristanremy/mirage)'
+variant: 'dark'            # dark or light
+
+color_01: '#011627'    # Black (Host)
+color_02: '#FF9999'    # Red (Syntax string)
+color_03: '#85CC95'    # Green (Command)
+color_04: '#FFD700'    # Yellow (Command second)
+color_05: '#7FB5FF'    # Blue (Path)
+color_06: '#DDB3FF'    # Magenta (Syntax var)
+color_07: '#21C7A8'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#575656'    # Bright Black
+color_10: '#FF9999'    # Bright Red (Command error)
+color_11: '#85CC95'    # Bright Green (Exec)
+color_12: '#FFD700'    # Bright Yellow
+color_13: '#7FB5FF'    # Bright Blue (Folder)
+color_14: '#DDB3FF'    # Bright Magenta
+color_15: '#85CC95'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#1B2738'  # Background
+foreground: '#A6B2C0'  # Foreground (Text)
+
+cursor: '#DDB3FF'      # Cursor

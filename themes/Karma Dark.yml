@@ -1,0 +1,27 @@
+---
+name: 'Karma Dark'
+author: 'Sreetam Das (https://github.com/sreetamdas)'
+variant: 'dark'            # dark or light
+
+color_01: '#0A0E14'    # Black (Host)
+color_02: '#FC618D'    # Red (Syntax string)
+color_03: '#7BD88F'    # Green (Command)
+color_04: '#FCE566'    # Yellow (Command second)
+color_05: '#5AD4E6'    # Blue (Path)
+color_06: '#AF98E6'    # Magenta (Syntax var)
+color_07: '#5AD4E6'    # Cyan (Prompt)
+color_08: '#BAB6C0'    # White
+
+color_09: '#69676C'    # Bright Black
+color_10: '#FF7BA0'    # Bright Red (Command error)
+color_11: '#9CE3AB'    # Bright Green (Exec)
+color_12: '#FCE566'    # Bright Yellow
+color_13: '#7FE0EE'    # Bright Blue (Folder)
+color_14: '#C3B0F0'    # Bright Magenta
+color_15: '#7FE0EE'    # Bright Cyan
+color_16: '#F7F1FF'    # Bright White
+
+background: '#0A0E14'  # Background
+foreground: '#F7F1FF'  # Foreground (Text)
+
+cursor: '#FCE566'      # Cursor

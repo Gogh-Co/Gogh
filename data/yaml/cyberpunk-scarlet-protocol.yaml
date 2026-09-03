@@ -1,0 +1,23 @@
+name: Cyberpunk Scarlet Protocol
+author: garrettmroberts (https://github.com/garrettmroberts)
+variant: dark
+color_01: '#101116'
+color_02: '#EA3356'
+color_03: '#64D98C'
+color_04: '#FAF968'
+color_05: '#306FB1'
+color_06: '#BA3EC1'
+color_07: '#59C2C6'
+color_08: '#C7C7C7'
+color_09: '#686868'
+color_10: '#ED776D'
+color_11: '#8DF77A'
+color_12: '#FEFC7F'
+color_13: '#6A71F6'
+color_14: '#AE40E4'
+color_15: '#8EFAFD'
+color_16: '#FFFFFF'
+background: '#101116'
+foreground: '#D13554'
+cursor: '#9BFCA8'
+hash: 2b3cc40c6c5199ca35cf3b1f73822c4c435191ecf618ca14989f828b5be201ff

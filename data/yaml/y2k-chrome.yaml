@@ -1,0 +1,23 @@
+name: Y2K Chrome
+author: theebest.com (https://www.theebest.com)
+variant: light
+color_01: '#383F4F'
+color_02: '#DC2626'
+color_03: '#15803D'
+color_04: '#0891B2'
+color_05: '#F97316'
+color_06: '#7C3AED'
+color_07: '#2563EB'
+color_08: '#475569'
+color_09: '#A3B1C4'
+color_10: '#B01E1E'
+color_11: '#116631'
+color_12: '#077792'
+color_13: '#C75C12'
+color_14: '#632EBE'
+color_15: '#1E4FBC'
+color_16: '#0F172A'
+background: '#F1F5F9'
+foreground: '#0F172A'
+cursor: '#0F172A'
+hash: 6bdc800809caf0f84346d0d4114c1c4059200db79f3123cb29e0e0a6e2bd9470
