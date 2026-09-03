@@ -18,6 +18,12 @@ Gogh is a collection of color schemes for various terminal emulators, including 
 
 The inspiration for Gogh came from the clean and minimalistic design of Elementary OS, but the project has since grown to include a variety of unique and beautiful options. Not only does Gogh work on Linux systems, but it's also compatible with iTerm on macOS, providing a consistent and visually appealing experience across platforms.
 
+##### Run:
+
+```bash
+bash -c "$(curl -sLo- https://git.io/vQgMr)"
+```
+
 <br>
 
 <div align="center">
