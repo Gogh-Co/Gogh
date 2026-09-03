@@ -1,6 +1,8 @@
 ---
 name: 'Clear Light'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'light'            # dark or light
 
 color_01: '#2D3840'    # Black (Host)

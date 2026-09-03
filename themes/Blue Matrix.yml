@@ -1,6 +1,8 @@
 ---
 name: 'Blue Matrix'
 author: 'ReagentX (https://github.com/ReagentX)'
+author_name: 'ReagentX'
+author_url: 'https://github.com/ReagentX'
 variant: 'dark'            # dark or light
 
 color_01: '#101116'    # Black (Host)

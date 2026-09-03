@@ -1,6 +1,8 @@
 ---
 name: 'Midnight In Mojave'
 author: 'OberstKrueger (https://github.com/oberstkrueger)'
+author_name: 'OberstKrueger'
+author_url: 'https://github.com/oberstkrueger'
 variant: 'dark'            # dark or light
 
 color_01: '#1E1E1E'    # Black (Host)

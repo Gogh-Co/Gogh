@@ -1,6 +1,8 @@
 ---
 name: 'Ayu'
 author: 'alebcay (https://github.com/alebcay)'
+author_name: 'alebcay'
+author_url: 'https://github.com/alebcay'
 variant: 'dark'            # dark or light
 
 color_01: '#11151C'    # Black (Host)

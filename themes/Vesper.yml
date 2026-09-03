@@ -1,6 +1,8 @@
 ---
 name: 'Vesper'
 author: 'raunofreiberg (https://github.com/raunofreiberg)'
+author_name: 'raunofreiberg'
+author_url: 'https://github.com/raunofreiberg'
 variant: 'dark'            # dark or light
 
 color_01: '#101010'    # Black (Host)

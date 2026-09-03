@@ -1,6 +1,8 @@
 ---
 name: 'Monokai Pro Light Sun'
 author: 'Monokai (https://monokai.com/)'
+author_name: 'Monokai'
+author_url: 'https://monokai.com/'
 variant: 'light'       # dark or light
 
 color_01: '#F8EFE7'    # Black (Host)

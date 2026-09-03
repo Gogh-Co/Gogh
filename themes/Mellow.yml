@@ -1,6 +1,8 @@
 ---
 name: 'Mellow'
 author: 'kvrohit (https://github.com/kvrohit)'
+author_name: 'kvrohit'
+author_url: 'https://github.com/kvrohit'
 variant: 'dark'            # dark or light
 
 color_01: '#27272A'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'Wombat'
 author: 'djoyner (https://github.com/djoyner/iTerm2-wombat)'
+author_name: 'djoyner'
+author_url: 'https://github.com/djoyner/iTerm2-wombat'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

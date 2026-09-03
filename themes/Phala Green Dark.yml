@@ -1,6 +1,8 @@
 ---
 name: 'Phala Green Dark'
 author: 'h4x3rotab (https://github.com/h4x3rotab)'
+author_name: 'h4x3rotab'
+author_url: 'https://github.com/h4x3rotab'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'Brogrammer'
 author: 'bahlo (https://github.com/bahlo/iterm-colors)'
+author_name: 'bahlo'
+author_url: 'https://github.com/bahlo/iterm-colors'
 variant: 'dark'            # dark or light
 
 color_01: '#1F1F1F'    # Black (Host)

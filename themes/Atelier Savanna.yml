@@ -1,6 +1,8 @@
 ---
 name: 'Atelier Savanna'
 author: 'Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna)'
+author_name: 'Bram de Haan'
+author_url: 'http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna'
 variant: 'dark'            # dark or light
 
 color_01: '#171C19'    # Black (Host)

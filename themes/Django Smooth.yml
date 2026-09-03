@@ -1,6 +1,8 @@
 ---
 name: 'Django Smooth'
 author: 'Jannis Leidel (https://code.djangoproject.com/wiki/TextMate)'
+author_name: 'Jannis Leidel'
+author_url: 'https://code.djangoproject.com/wiki/TextMate'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

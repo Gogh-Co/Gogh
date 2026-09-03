@@ -1,6 +1,8 @@
 ---
 name: 'HaX0R Gr33N'
 author: 'Pratik (https://github.com/pratikmullick)'
+author_name: 'Pratik'
+author_url: 'https://github.com/pratikmullick'
 variant: 'dark'            # dark or light
 
 color_01: '#001F0B'    # Black (Host)

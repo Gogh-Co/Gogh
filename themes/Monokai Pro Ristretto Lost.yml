@@ -1,6 +1,8 @@
 ---
 name: 'Monokai Pro Ristretto Lost'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'dark'        # dark or light
 
 color_01: '#3E3838'    # Black (Host)

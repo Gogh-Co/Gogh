@@ -1,6 +1,8 @@
 ---
 name: 'Aizen Light'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'light'            # dark or light
 
 color_01: '#F0F2F6'    # Black (Host)

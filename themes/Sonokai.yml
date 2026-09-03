@@ -1,6 +1,8 @@
 ---
 name: 'Sonokai'
 author: 'sainnhe (https://github.com/sainnhe/sonokai)'
+author_name: 'sainnhe'
+author_url: 'https://github.com/sainnhe/sonokai'
 variant: 'dark'            # dark or light
 
 color_01: '#181819'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'Claude Dark'
 author: 'techfitmaster (https://github.com/techfitmaster/ghostty-claude-theme)'
+author_name: 'techfitmaster'
+author_url: 'https://github.com/techfitmaster/ghostty-claude-theme'
 variant: 'dark'            # dark or light
 
 color_01: '#888681'    # Black (Host)

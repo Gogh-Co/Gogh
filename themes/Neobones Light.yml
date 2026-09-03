@@ -1,6 +1,8 @@
 ---
 name: 'Neobones Light'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'light'            # dark or light
 
 color_01: '#E5EDE6'    # Black (Host)

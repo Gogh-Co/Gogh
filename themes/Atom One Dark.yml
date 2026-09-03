@@ -1,6 +1,8 @@
 ---
 name: 'Atom One Dark'
 author: 'zasdaym (https://github.com/zasdaym)'
+author_name: 'zasdaym'
+author_url: 'https://github.com/zasdaym'
 variant: 'dark'            # dark or light
 
 color_01: '#21252B'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'Firewatch'
 author: 'Sebastian Szturo (https://github.com/SebastianSzturo)'
+author_name: 'Sebastian Szturo'
+author_url: 'https://github.com/SebastianSzturo'
 variant: 'dark'            # dark or light
 
 color_01: '#585F6D'    # Black (Host)

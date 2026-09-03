@@ -1,6 +1,8 @@
 ---
 name: 'Sauber'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'light'            # dark or light
 
 color_01: '#15191E'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'Kanagawabones'
 author: 'rebelot (https://github.com/rebelot)'
+author_name: 'rebelot'
+author_url: 'https://github.com/rebelot'
 variant: 'dark'            # dark or light
 
 color_01: '#1F1F28'    # Black (Host)

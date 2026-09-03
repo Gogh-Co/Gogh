@@ -1,6 +1,8 @@
 ---
 name: 'Squintless'
 author: 'Sameer Zahir (https://github.com/sameerzahir97-cloud)'
+author_name: 'Sameer Zahir'
+author_url: 'https://github.com/sameerzahir97-cloud'
 variant: 'light'            # dark or light
 
 color_01: '#F2E5BC'    # Black (Host)

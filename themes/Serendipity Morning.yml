@@ -1,6 +1,8 @@
 ---
 name: 'Serendipity Morning'
 author: 'Michael Andreuzza (https://github.com/michael-andreuzza)'
+author_name: 'Michael Andreuzza'
+author_url: 'https://github.com/michael-andreuzza'
 variant: 'light'            # dark or light
 
 color_01: '#CCD0DC'    # Black (Host)

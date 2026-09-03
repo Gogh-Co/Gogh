@@ -1,6 +1,8 @@
 ---
 name: 'Hopscotch.256'
 author: 'Jan T. Sott (https://github.com/idleberg/Hopscotch)'
+author_name: 'Jan T. Sott'
+author_url: 'https://github.com/idleberg/Hopscotch'
 variant: 'dark'            # dark or light
 
 color_01: '#322931'    # Black (Host)

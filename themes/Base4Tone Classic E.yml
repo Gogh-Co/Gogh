@@ -1,6 +1,8 @@
 ---
 name: 'Base4Tone Classic E'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'dark'            # dark or light
 
 color_01: '#21211C'    # Black (Host)

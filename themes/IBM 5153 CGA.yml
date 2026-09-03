@@ -1,6 +1,8 @@
 ---
 name: 'IBM 5153 CGA'
 author: 'Jesse Miller (https://jmiller.com/)'
+author_name: 'Jesse Miller'
+author_url: 'https://jmiller.com/'
 variant: 'dark'            # dark or light
 
 color_01: '#141414'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'Material Ocean'
 author: 'fr3fou (https://github.com/fr3fou)'
+author_name: 'fr3fou'
+author_url: 'https://github.com/fr3fou'
 variant: 'dark'            # dark or light
 
 color_01: '#546E7A'    # Black (Host)

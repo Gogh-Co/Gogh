@@ -1,6 +1,8 @@
 ---
 name: 'Misterioso'
 author: 'flooose (https://github.com/flooose/misterioso-iterm2)'
+author_name: 'flooose'
+author_url: 'https://github.com/flooose/misterioso-iterm2'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'Blue Dolphin'
 author: 'vimiomori (https://github.com/vimiomori)'
+author_name: 'vimiomori'
+author_url: 'https://github.com/vimiomori'
 variant: 'dark'            # dark or light
 
 color_01: '#292D3E'    # Black (Host)

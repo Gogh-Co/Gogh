@@ -1,6 +1,8 @@
 ---
 name: 'Royal'
 author: 'zdj (https://github.com/zdj/themes/tree/master/iterm2)'
+author_name: 'zdj'
+author_url: 'https://github.com/zdj/themes/tree/master/iterm2'
 variant: 'dark'            # dark or light
 
 color_01: '#241F2B'    # Black (Host)

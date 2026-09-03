@@ -1,6 +1,8 @@
 ---
 name: 'Kanso Mist'
 author: 'webhooked (https://github.com/webhooked)'
+author_name: 'webhooked'
+author_url: 'https://github.com/webhooked'
 variant: 'dark'            # dark or light
 
 color_01: '#22262D'    # Black (Host)

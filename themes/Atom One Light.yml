@@ -1,6 +1,8 @@
 ---
 name: 'Atom One Light'
 author: 'iamstarkov (https://github.com/iamstarkov)'
+author_name: 'iamstarkov'
+author_url: 'https://github.com/iamstarkov'
 variant: 'light'            # dark or light
 
 color_01: '#000000'    # Black (Host)

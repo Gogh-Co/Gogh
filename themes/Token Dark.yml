@@ -1,6 +1,8 @@
 ---
 name: 'Token Dark'
 author: 'Thorsten Rhau (https://github.com/ThorstenRhau)'
+author_name: 'Thorsten Rhau'
+author_url: 'https://github.com/ThorstenRhau'
 variant: 'dark'            # dark or light
 
 color_01: '#1D1D1C'    # Black (Host)

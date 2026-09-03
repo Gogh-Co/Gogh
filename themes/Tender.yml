@@ -1,6 +1,8 @@
 ---
 name: 'Tender'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'dark'            # dark or light
 
 color_01: '#1D1D1D'    # Black (Host)

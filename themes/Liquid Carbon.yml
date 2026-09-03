@@ -1,6 +1,8 @@
 ---
 name: 'Liquid Carbon'
 author: 'markcho (https://github.com/markcho/iTerm2_LiquidCarbon)'
+author_name: 'markcho'
+author_url: 'https://github.com/markcho/iTerm2_LiquidCarbon'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

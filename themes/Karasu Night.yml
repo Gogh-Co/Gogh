@@ -1,6 +1,8 @@
 ---
 name: 'Karasu Night'
 author: 'scozu (https://github.com/scozu)'
+author_name: 'scozu'
+author_url: 'https://github.com/scozu'
 variant: 'dark'            # dark or light
 
 color_01: '#0A0A0A'    # Black (Host)

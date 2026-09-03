@@ -1,6 +1,8 @@
 ---
 name: 'Jackie Brown'
 author: 'Unkulunkulu (https://github.com/Unkulunkulu)'
+author_name: 'Unkulunkulu'
+author_url: 'https://github.com/Unkulunkulu'
 variant: 'dark'            # dark or light
 
 color_01: '#2C1D16'    # Black (Host)

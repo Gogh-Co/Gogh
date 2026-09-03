@@ -1,6 +1,8 @@
 ---
 name: 'Unikitty'
 author: 'jakebathman (https://github.com/jakebathman)'
+author_name: 'jakebathman'
+author_url: 'https://github.com/jakebathman'
 variant: 'light'            # dark or light
 
 color_01: '#0C0C0C'    # Black (Host)

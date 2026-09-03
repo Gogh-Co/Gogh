@@ -1,6 +1,8 @@
 ---
 name: 'Flat Remix'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'dark'            # dark or light
 
 color_01: '#1F2229'    # Black (Host)

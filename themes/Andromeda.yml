@@ -1,6 +1,8 @@
 ---
 name: 'Andromeda'
 author: 'memije (https://github.com/memije)'
+author_name: 'memije'
+author_url: 'https://github.com/memije'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

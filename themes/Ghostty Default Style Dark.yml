@@ -1,6 +1,8 @@
 ---
 name: 'Ghostty Default Style Dark'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'dark'            # dark or light
 
 color_01: '#1D1F21'    # Black (Host)

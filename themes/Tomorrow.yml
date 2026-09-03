@@ -1,6 +1,8 @@
 ---
 name: 'Tomorrow'
 author: 'Chris Kempson (http://chriskempson.com)'             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: 'Chris Kempson'
+author_url: 'http://chriskempson.com'
 variant: 'light'            # dark or light
 
 color_01: '#000000'    # Black (Host)

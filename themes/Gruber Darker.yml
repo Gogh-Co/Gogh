@@ -1,6 +1,8 @@
 ---
 name: 'Gruber Darker'
 author: 'Alexey Kutepov (https://github.com/rexim)'
+author_name: 'Alexey Kutepov'
+author_url: 'https://github.com/rexim'
 variant: 'dark'            # dark or light
 
 color_01: '#181818'    # Black (Host)

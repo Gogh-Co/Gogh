@@ -1,6 +1,8 @@
 ---
 name: 'Spacegray Eighties Dull'
 author: 'mhkeller (https://github.com/mhkeller/spacegray-eighties-iterm)'
+author_name: 'mhkeller'
+author_url: 'https://github.com/mhkeller/spacegray-eighties-iterm'
 variant: 'dark'            # dark or light
 
 color_01: '#15171C'    # Black (Host)

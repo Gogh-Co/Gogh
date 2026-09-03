@@ -1,6 +1,8 @@
 ---
 name: 'London Soho Night'
 author: 'Scott Matthews (https://github.com/scottmatthews7)'
+author_name: 'Scott Matthews'
+author_url: 'https://github.com/scottmatthews7'
 variant: 'dark'            # dark or light
 
 color_01: '#2A221A'    # Black (Host)

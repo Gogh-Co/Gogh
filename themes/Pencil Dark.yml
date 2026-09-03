@@ -1,6 +1,8 @@
 ---
 name: 'Pencil Dark'
 author: 'mattly (https://github.com/mattly/iterm-colors-pencil)'
+author_name: 'mattly'
+author_url: 'https://github.com/mattly/iterm-colors-pencil'
 variant: 'dark'            # dark or light
 
 color_01: '#212121'    # Black (Host)

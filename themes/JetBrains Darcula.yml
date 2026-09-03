@@ -1,6 +1,8 @@
 ---
 name: 'JetBrains Darcula'
 author: 'vitstr (https://github.com/vitstr)'
+author_name: 'vitstr'
+author_url: 'https://github.com/vitstr'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

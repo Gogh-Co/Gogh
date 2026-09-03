@@ -1,6 +1,8 @@
 ---
 name: 'Catppuccin Mocha'
 author: 'Catppuccin (https://github.com/catppuccin)'
+author_name: 'Catppuccin'
+author_url: 'https://github.com/catppuccin'
 variant: 'dark'            # dark or light
 
 color_01: '#45475A'    # Black (Host)

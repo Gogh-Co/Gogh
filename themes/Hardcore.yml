@@ -1,6 +1,8 @@
 ---
 name: 'Hardcore'
 author: 'hardcore (https://github.com/hardcore/iTerm-colors)'
+author_name: 'hardcore'
+author_url: 'https://github.com/hardcore/iTerm-colors'
 variant: 'dark'            # dark or light
 
 color_01: '#1B1D1E'    # Black (Host)

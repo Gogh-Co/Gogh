@@ -1,6 +1,8 @@
 ---
 name: 'Synthwave'
 author: 'brettstil (https://github.com/brettstil/)'
+author_name: 'brettstil'
+author_url: 'https://github.com/brettstil/'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

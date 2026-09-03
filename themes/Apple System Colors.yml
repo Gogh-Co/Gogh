@@ -1,6 +1,8 @@
 ---
 name: 'Apple System Colors'
 author: 'Jeremy Bahadirli (https://github.com/jeremybahadirli)'
+author_name: 'Jeremy Bahadirli'
+author_url: 'https://github.com/jeremybahadirli'
 variant: 'dark'            # dark or light
 
 color_01: '#1A1A1A'    # Black (Host)

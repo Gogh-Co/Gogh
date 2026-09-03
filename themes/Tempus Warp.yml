@@ -1,6 +1,8 @@
 ---
 name: 'Tempus Warp'
 author: 'Protesilaos Stavrou (https://protesilaos.com)'             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: 'Protesilaos Stavrou'
+author_url: 'https://protesilaos.com'
 variant: 'dark'            # dark or light
 
 color_01: '#001514'    # Black (Host)

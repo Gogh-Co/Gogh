@@ -1,6 +1,8 @@
 ---
 name: 'Ayaka'
 author: 'Ruhannn (https://github.com/ruhannn)'     # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: 'Ruhannn'
+author_url: 'https://github.com/ruhannn'
 variant: 'dark'            # dark or light
 
 color_01: '#36283D'    # Black (Host)

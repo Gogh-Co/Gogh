@@ -1,6 +1,8 @@
 ---
 name: 'Nord Light Lost'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'light'            # dark or light
 
 color_01: '#003B4E'    # Black (Host)

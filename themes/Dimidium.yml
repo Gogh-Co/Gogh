@@ -1,6 +1,8 @@
 ---
 name: 'Dimidium'
 author: 'dofuuz (https://github.com/dofuuz/dimidium)'
+author_name: 'dofuuz'
+author_url: 'https://github.com/dofuuz/dimidium'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

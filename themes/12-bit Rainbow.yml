@@ -1,6 +1,8 @@
 ---
 name: '12-bit Rainbow'
 author: 'xxxserxxx (https://github.com/xxxserxxx)'
+author_name: 'xxxserxxx'
+author_url: 'https://github.com/xxxserxxx'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'base16-icy'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'dark'            # dark or light
 
 color_01: '#021012'    # Black (Host)

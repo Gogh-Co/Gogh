@@ -1,6 +1,8 @@
 ---
 name: 'Flat'
 author: 'ahmetsulek (https://github.com/ahmetsulek/flat-terminal)'
+author_name: 'ahmetsulek'
+author_url: 'https://github.com/ahmetsulek/flat-terminal'
 variant: 'dark'            # dark or light
 
 color_01: '#222D3F'    # Black (Host)

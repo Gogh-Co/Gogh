@@ -1,6 +1,8 @@
 ---
 name: 'Warm Burnout Dark'
 author: 'Felipe Lima (https://github.com/felipefdl)'
+author_name: 'Felipe Lima'
+author_url: 'https://github.com/felipefdl'
 variant: 'dark'            # dark or light
 
 color_01: '#23211B'    # Black (Host)

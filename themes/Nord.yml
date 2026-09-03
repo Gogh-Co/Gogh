@@ -1,6 +1,8 @@
 ---
 name: 'Nord'
 author: 'Arctic Ice Studio (https://www.nordtheme.com/)'
+author_name: 'Arctic Ice Studio'
+author_url: 'https://www.nordtheme.com/'
 variant: 'dark'            # dark or light
 
 color_01: '#3B4252'    # Black (Host)

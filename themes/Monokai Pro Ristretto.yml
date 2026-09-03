@@ -1,6 +1,8 @@
 ---
 name: 'Monokai Pro Ristretto'
 author: 'Monokai (https://monokai.com/)'
+author_name: 'Monokai'
+author_url: 'https://monokai.com/'
 variant: 'dark'        # dark or light
 
 color_01: '#2C2525'    # Black (Host)

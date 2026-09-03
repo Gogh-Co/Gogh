@@ -1,6 +1,8 @@
 ---
 name: 'Noctis'
 author: 'Liviu Schera (https://github.com/liviuschera)'
+author_name: 'Liviu Schera'
+author_url: 'https://github.com/liviuschera'
 variant: 'dark'            # dark or light
 
 color_01: '#324A4D'    # Black (Host)

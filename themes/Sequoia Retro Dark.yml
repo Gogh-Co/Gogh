@@ -1,6 +1,8 @@
 ---
 name: 'Sequoia Retro Dark'
 author: 'Michael Andreuzza (https://github.com/michael-andreuzza)'
+author_name: 'Michael Andreuzza'
+author_url: 'https://github.com/michael-andreuzza'
 variant: 'dark'            # dark or light
 
 color_01: '#131317'    # Black (Host)

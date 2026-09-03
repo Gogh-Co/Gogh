@@ -1,6 +1,8 @@
 ---
 name: 'Firefly Traditional'
 author: 'Seunghun Thomas Lee (https://github.com/stlee42)'
+author_name: 'Seunghun Thomas Lee'
+author_url: 'https://github.com/stlee42'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

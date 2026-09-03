@@ -1,6 +1,8 @@
 ---
 name: 'Nachtschicht'
 author: 'notgabriels-sys (https://github.com/notgabriels-sys)'
+author_name: 'notgabriels-sys'
+author_url: 'https://github.com/notgabriels-sys'
 variant: 'dark'            # dark or light
 
 color_01: '#0E1012'    # Black (Host)

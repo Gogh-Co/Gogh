@@ -1,6 +1,8 @@
 ---
 name: 'Teerb'
 author: 'Teerb (https://gist.github.com/teerb/1360453)'
+author_name: 'Teerb'
+author_url: 'https://gist.github.com/teerb/1360453'
 variant: 'dark'            # dark or light
 
 color_01: '#1C1C1C'    # Black (Host)

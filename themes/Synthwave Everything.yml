@@ -1,6 +1,8 @@
 ---
 name: 'Synthwave Everything'
 author: 'smithbm2316 (https://github.com/smithbm2316)'
+author_name: 'smithbm2316'
+author_url: 'https://github.com/smithbm2316'
 variant: 'dark'            # dark or light
 
 color_01: '#FEFEFE'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'Blue Moon'
 author: 'kyazdani42 (https://github.com/kyazdani42/blue-moon)'
+author_name: 'kyazdani42'
+author_url: 'https://github.com/kyazdani42/blue-moon'
 variant: 'dark'
 
 color_01: '#353B52'   # Black (Host)

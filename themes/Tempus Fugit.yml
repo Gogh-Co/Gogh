@@ -1,6 +1,8 @@
 ---
 name: 'Tempus Fugit'
 author: 'Protesilaos Stavrou (https://protesilaos.com)'             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: 'Protesilaos Stavrou'
+author_url: 'https://protesilaos.com'
 variant: 'light'            # dark or light
 
 color_01: '#4D595F'    # Black (Host)

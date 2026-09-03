@@ -1,6 +1,8 @@
 ---
 name: 'Seoulbones Light'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'light'            # dark or light
 
 color_01: '#E2E2E2'    # Black (Host)

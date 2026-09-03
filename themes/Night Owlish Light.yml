@@ -1,6 +1,8 @@
 ---
 name: 'Night Owlish Light'
 author: 'praveenpuglia (https://github.com/praveenpuglia)'
+author_name: 'praveenpuglia'
+author_url: 'https://github.com/praveenpuglia'
 variant: 'light'            # dark or light
 
 color_01: '#011627'    # Black (Host)

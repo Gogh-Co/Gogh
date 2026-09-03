@@ -1,6 +1,8 @@
 ---
 name: 'Piatto Light'
 author: 'kovv (https://github.com/kovv)'
+author_name: 'kovv'
+author_url: 'https://github.com/kovv'
 variant: 'light'            # dark or light
 
 color_01: '#414141'    # Black (Host)

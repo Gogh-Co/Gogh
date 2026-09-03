@@ -1,6 +1,8 @@
 ---
 name: 'Toy Chest'
 author: 'zdj (https://github.com/zdj/themes/tree/master/iterm2)'
+author_name: 'zdj'
+author_url: 'https://github.com/zdj/themes/tree/master/iterm2'
 variant: 'dark'            # dark or light
 
 color_01: '#2C3F58'    # Black (Host)

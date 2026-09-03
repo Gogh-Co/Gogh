@@ -1,6 +1,8 @@
 ---
 name: 'Ayu Mirage'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'dark'            # dark or light
 
 color_01: '#171B24'    # Black (Host)

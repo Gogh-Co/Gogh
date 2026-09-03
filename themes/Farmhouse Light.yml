@@ -1,6 +1,8 @@
 ---
 name: 'Farmhouse Light'
 author: 'mattly (https://github.com/mattly)'
+author_name: 'mattly'
+author_url: 'https://github.com/mattly'
 variant: 'light'            # dark or light
 
 color_01: '#1D2027'    # Black (Host)

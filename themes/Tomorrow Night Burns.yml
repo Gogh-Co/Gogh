@@ -1,6 +1,8 @@
 ---
 name: 'Tomorrow Night Burns'
 author: 'ashwinv11 (https://github.com/ashwinv11/)'
+author_name: 'ashwinv11'
+author_url: 'https://github.com/ashwinv11/'
 variant: 'dark'            # dark or light
 
 color_01: '#252525'    # Black (Host)

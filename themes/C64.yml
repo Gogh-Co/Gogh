@@ -1,6 +1,8 @@
 ---
 name: 'C64'
 author: 'idleberg (https://github.com/idleberg)'
+author_name: 'idleberg'
+author_url: 'https://github.com/idleberg'
 variant: 'dark'            # dark or light
 
 color_01: '#090300'    # Black (Host)

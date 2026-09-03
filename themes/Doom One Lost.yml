@@ -1,6 +1,8 @@
 ---
 name: 'Doom One Lost'
 author: 'Henrik Lissner'  # 'Henrik Lissner (https://github.com/hlissner)'
+author_name: 'Henrik Lissner'
+author_url: 'https://github.com/hlissner'
 variant: 'dark'           # dark or light
 
 color_01: '#1B2229'       # Black (Host)

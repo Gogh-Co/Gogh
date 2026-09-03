@@ -1,6 +1,8 @@
 ---
 name: 'Detuned'
 author: 'akx (https://github.com/akx)'
+author_name: 'akx'
+author_url: 'https://github.com/akx'
 variant: 'dark'            # dark or light
 
 color_01: '#171717'    # Black (Host)

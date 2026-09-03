@@ -1,6 +1,8 @@
 ---
 name: 'Espresso Libre'
 author: 'jurgemaister (https://github.com/jurgemaister/Espresso-Libre)'
+author_name: 'jurgemaister'
+author_url: 'https://github.com/jurgemaister/Espresso-Libre'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

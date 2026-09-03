@@ -1,6 +1,8 @@
 ---
 name: 'Neutron'
 author: 'Ch4s3 (https://github.com/Ch4s3/iTerm2-Neutron)'
+author_name: 'Ch4s3'
+author_url: 'https://github.com/Ch4s3/iTerm2-Neutron'
 variant: 'dark'            # dark or light
 
 color_01: '#23252B'    # Black (Host)

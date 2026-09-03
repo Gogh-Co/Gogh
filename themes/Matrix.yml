@@ -1,6 +1,8 @@
 ---
 name: 'Matrix'
 author: 'Jim Xu (https://github.com/i3d)'
+author_name: 'Jim Xu'
+author_url: 'https://github.com/i3d'
 variant: 'dark'            # dark or light
 
 color_01: '#0F191C'    # Black (Host)

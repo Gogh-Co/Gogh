@@ -1,6 +1,8 @@
 ---
 name: 'Cyberpunk'
 author: 'Murderlon (https://github.com/Murderlon/cyberpunk-iterm)'
+author_name: 'Murderlon'
+author_url: 'https://github.com/Murderlon/cyberpunk-iterm'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

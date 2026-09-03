@@ -1,6 +1,8 @@
 ---
 name: 'Django Reborn Again'
 author: 'christopherscott (https://github.com/christopherscott/django-reborn)'
+author_name: 'christopherscott'
+author_url: 'https://github.com/christopherscott/django-reborn'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'Breeze'
 author: 'KDE (https://kde.org)'
+author_name: 'KDE'
+author_url: 'https://kde.org'
 variant: 'dark'            # dark or light
 
 color_01: '#31363B'    # Black (Host)

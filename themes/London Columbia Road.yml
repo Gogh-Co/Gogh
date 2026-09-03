@@ -1,6 +1,8 @@
 ---
 name: 'London Columbia Road'
 author: 'Scott Matthews (https://github.com/scottmatthews7)'
+author_name: 'Scott Matthews'
+author_url: 'https://github.com/scottmatthews7'
 variant: 'light'            # dark or light
 
 color_01: '#2A2520'    # Black (Host)

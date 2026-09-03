@@ -1,6 +1,8 @@
 ---
 name: 'Desert'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'dark'            # dark or light
 
 color_01: '#4D4D4D'    # Black (Host)

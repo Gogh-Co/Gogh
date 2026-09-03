@@ -1,6 +1,8 @@
 ---
 name: 'Lovelace'
 author: 'nalanbar (https://github.com/nalanbar)'
+author_name: 'nalanbar'
+author_url: 'https://github.com/nalanbar'
 variant: 'dark'            # dark or light
 
 color_01: '#282A36'    # Black (Host)

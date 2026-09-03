@@ -1,6 +1,8 @@
 ---
 name: 'Neon'
 author: 'phosphorcube (https://github.com/phosphorcube/iTerm2-Color-Schemes)'
+author_name: 'phosphorcube'
+author_url: 'https://github.com/phosphorcube/iTerm2-Color-Schemes'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

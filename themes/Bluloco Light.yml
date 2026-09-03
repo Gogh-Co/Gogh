@@ -1,6 +1,8 @@
 ---
 name: 'Bluloco Light'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'light'            # dark or light
 
 color_01: '#373A41'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'Cassette Tape'
 author: 'theebest.com (https://www.theebest.com)'
+author_name: 'theebest.com'
+author_url: 'https://www.theebest.com'
 variant: 'light'            # dark or light
 
 color_01: '#514339'    # Black (Host)

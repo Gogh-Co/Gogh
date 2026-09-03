@@ -1,6 +1,8 @@
 ---
 name: 'SeedFlip Glacier'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'light'            # dark or light
 
 color_01: '#C2D4E5'    # Black (Host)

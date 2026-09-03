@@ -1,6 +1,8 @@
 ---
 name: 'Embers Dark'
 author: 'plyght (https://peril.lol)'
+author_name: 'plyght'
+author_url: 'https://peril.lol'
 variant: 'dark'            # dark or light
 
 color_01: '#16130F'    # Black (Host)

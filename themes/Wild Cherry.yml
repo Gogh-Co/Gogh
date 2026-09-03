@@ -1,6 +1,8 @@
 ---
 name: 'Wild Cherry'
 author: 'mashaal (https://github.com/mashaal/wild-cherry)'
+author_name: 'mashaal'
+author_url: 'https://github.com/mashaal/wild-cherry'
 variant: 'dark'            # dark or light
 
 color_01: '#000507'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'SeedFlip Carbon'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'light'            # dark or light
 
 color_01: '#D4D4D4'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'Purplepeter'
 author: 'DeChamp (https://github.com/dechamp)'
+author_name: 'DeChamp'
+author_url: 'https://github.com/dechamp'
 variant: 'dark'            # dark or light
 
 color_01: '#0A0520'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'Heeler'
 author: 'tacolegs2004 (https://github.com/tacolegs2004)'
+author_name: 'tacolegs2004'
+author_url: 'https://github.com/tacolegs2004'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

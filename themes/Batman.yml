@@ -1,6 +1,8 @@
 ---
 name: 'Batman'
 author: 'pyrophos (https://github.com/pyrophos)'
+author_name: 'pyrophos'
+author_url: 'https://github.com/pyrophos'
 variant: 'dark'            # dark or light
 
 color_01: '#1B1D1E'    # Black (Host)

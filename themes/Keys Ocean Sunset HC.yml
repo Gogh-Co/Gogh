@@ -1,6 +1,8 @@
 ---
 name: 'Keys Ocean Sunset HC'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'dark'            # dark or light
 
 color_01: '#7A92A8'    # Black (Host)

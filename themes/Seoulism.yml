@@ -1,6 +1,8 @@
 ---
 name: 'Seoulism'
 author: 'Lee Yunjin (https://oborona.zip)'             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: 'Lee Yunjin'
+author_url: 'https://oborona.zip'
 variant: 'dark'            # dark or light
 
 color_01: '#101114'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'Violet Dark'
 author: 'ashfinal (https://github.com/ashfinal/vim-colors-violet)'
+author_name: 'ashfinal'
+author_url: 'https://github.com/ashfinal/vim-colors-violet'
 variant: 'dark'            # dark or light
 
 color_01: '#56595C'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'Firefox Dev'
 author: 'Or3stis (https://github.com/Or3stis)'
+author_name: 'Or3stis'
+author_url: 'https://github.com/Or3stis'
 variant: 'dark'            # dark or light
 
 color_01: '#002831'    # Black (Host)

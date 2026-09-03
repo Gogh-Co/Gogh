@@ -1,6 +1,8 @@
 ---
 name: 'Electron Highlighter Day'
 author: 'mikemcbride (https://github.com/mikemcbride)'
+author_name: 'mikemcbride'
+author_url: 'https://github.com/mikemcbride'
 variant: 'light'            # dark or light
 
 color_01: '#C2C6D4'    # Black (Host)

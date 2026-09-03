@@ -1,6 +1,8 @@
 ---
 name: 'Elegant'
 author: 'lukgri (https://github.com/lukgri)'
+author_name: 'lukgri'
+author_url: 'https://github.com/lukgri'
 variant: 'dark'            # dark or light
 
 color_01: '#0C1221'    # Black (Host)

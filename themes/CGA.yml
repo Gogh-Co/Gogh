@@ -1,6 +1,8 @@
 ---
 name: 'CGA'
 author: 'jdhmtl (https://github.com/jdhmtl)'
+author_name: 'jdhmtl'
+author_url: 'https://github.com/jdhmtl'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

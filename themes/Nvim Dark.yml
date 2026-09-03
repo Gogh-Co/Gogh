@@ -1,6 +1,8 @@
 ---
 name: 'Nvim Dark'
 author: 'slavamak (https://github.com/slavamak)'
+author_name: 'slavamak'
+author_url: 'https://github.com/slavamak'
 variant: 'dark'            # dark or light
 
 color_01: '#07080D'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'Night Owl'
 author: 'zasdaym (https://github.com/zasdaym)'
+author_name: 'zasdaym'
+author_url: 'https://github.com/zasdaym'
 variant: 'dark'            # dark or light
 
 color_01: '#011627'    # Black (Host)

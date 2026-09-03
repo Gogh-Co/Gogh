@@ -1,6 +1,8 @@
 ---
 name: 'One Dark Two'
 author: 'beatreichenbach (https://github.com/beatreichenbach/one-dark-two)'
+author_name: 'beatreichenbach'
+author_url: 'https://github.com/beatreichenbach/one-dark-two'
 variant: 'dark'            # dark or light
 
 color_01: '#1D1F23'    # Black (Host)

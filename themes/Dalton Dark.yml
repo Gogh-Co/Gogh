@@ -1,6 +1,8 @@
 ---
 name: 'Dalton Dark'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'dark'            # dark or light
 
 color_01: '#282828'    # Black (Host)

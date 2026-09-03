@@ -1,6 +1,8 @@
 ---
 name: 'iTerm2 Pastel Dark Background'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'dark'            # dark or light
 
 color_01: '#626262'    # Black (Host)

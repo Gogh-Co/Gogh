@@ -1,6 +1,8 @@
 ---
 name: 'Retro'
 author: 'Rob Latour (https://github.com/roblatour)'
+author_name: 'Rob Latour'
+author_url: 'https://github.com/roblatour'
 variant: 'dark'            # dark or light
 
 color_01: '#13A10E'    # Black (Host)

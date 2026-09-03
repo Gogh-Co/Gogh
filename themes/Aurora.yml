@@ -1,6 +1,8 @@
 ---
 name: 'Aurora'
 author: 'fcsmJS (https://github.com/fcsmJS/iTerm2-Color-Schemes)'
+author_name: 'fcsmJS'
+author_url: 'https://github.com/fcsmJS/iTerm2-Color-Schemes'
 variant: 'dark'            # dark or light
 
 color_01: '#23262E'    # Black (Host)

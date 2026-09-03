@@ -1,6 +1,8 @@
 ---
 name: 'Alien Blood'
 author: 'zdj (https://github.com/zdj/themes/tree/master/iterm2)'
+author_name: 'zdj'
+author_url: 'https://github.com/zdj/themes/tree/master/iterm2'
 variant: 'dark'            # dark or light
 
 color_01: '#112616'    # Black (Host)

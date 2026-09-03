@@ -1,6 +1,8 @@
 ---
 name: 'Everforest Light Soft'
 author: 'eskultety (https://github.com/eskultety)'
+author_name: 'eskultety'
+author_url: 'https://github.com/eskultety'
 variant: 'light'            # dark or light
 
 color_01: '#7A8478'    # Black (Host)

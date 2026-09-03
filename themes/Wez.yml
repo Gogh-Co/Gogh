@@ -1,6 +1,8 @@
 ---
 name: 'Wez'
 author: 'wez (https://gist.github.com/wez/850268/)'
+author_name: 'wez'
+author_url: 'https://gist.github.com/wez/850268/'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

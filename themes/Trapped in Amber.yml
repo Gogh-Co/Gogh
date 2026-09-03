@@ -1,6 +1,8 @@
 ---
 name: 'Trapped in Amber'
 author: 'mattjoyce (https://github.com/mattjoyce/trapped-in-amber)'
+author_name: 'mattjoyce'
+author_url: 'https://github.com/mattjoyce/trapped-in-amber'
 variant: 'dark'            # dark or light
 
 color_01: '#4A3220'    # Black (Host)

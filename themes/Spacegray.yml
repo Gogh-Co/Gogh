@@ -1,6 +1,8 @@
 ---
 name: 'Spacegray'
 author: 'ryentzer (https://github.com/ryentzer/SpaceGray-iTerm)'
+author_name: 'ryentzer'
+author_url: 'https://github.com/ryentzer/SpaceGray-iTerm'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

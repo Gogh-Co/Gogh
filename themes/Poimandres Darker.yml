@@ -1,6 +1,8 @@
 ---
 name: 'Poimandres Darker'
 author: 'drcmda (https://github.com/drcmda/poimandres-theme)'
+author_name: 'drcmda'
+author_url: 'https://github.com/drcmda/poimandres-theme'
 variant: 'dark'            # dark or light
 
 color_01: '#16161E'    # Black (Host)

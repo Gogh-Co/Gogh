@@ -1,6 +1,8 @@
 ---
 name: 'Gogh'
 author: 'Gogh (https://github.com/Gogh-Co/Gogh)'
+author_name: 'Gogh'
+author_url: 'https://github.com/Gogh-Co/Gogh'
 variant: 'dark'            # dark or light
 
 color_01: '#243342'    # Black (Host)

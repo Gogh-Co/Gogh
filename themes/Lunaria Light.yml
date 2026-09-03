@@ -1,6 +1,8 @@
 ---
 name: 'Lunaria Light'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'light'            # dark or light
 
 color_01: '#3E3C3D'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'Solarized Osaka Night'
 author: 'craftzdog (https://github.com/craftzdog/solarized-osaka.nvim)'
+author_name: 'craftzdog'
+author_url: 'https://github.com/craftzdog/solarized-osaka.nvim'
 variant: 'dark'            # dark or light
 
 color_01: '#15161D'    # Black (Host)

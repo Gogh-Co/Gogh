@@ -1,6 +1,8 @@
 ---
 name: 'Catppuccin Frappe'
 author: 'Catppuccin (https://github.com/catppuccin)'
+author_name: 'Catppuccin'
+author_url: 'https://github.com/catppuccin'
 variant: 'dark'            # dark or light
 
 color_01: '#51576D'    # Black (Host)

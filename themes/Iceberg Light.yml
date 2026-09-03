@@ -1,6 +1,8 @@
 ---
 name: 'Iceberg Light'
 author: 'cocopon (https://github.com/cocopon/iceberg.vim)'
+author_name: 'cocopon'
+author_url: 'https://github.com/cocopon/iceberg.vim'
 variant: 'light'            # dark or light
 
 color_01: '#DCDFE7'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'Neon Purple'
 author: 'imcarvalho (https://github.com/imcarvalho/neonpurple)'
+author_name: 'imcarvalho'
+author_url: 'https://github.com/imcarvalho/neonpurple'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

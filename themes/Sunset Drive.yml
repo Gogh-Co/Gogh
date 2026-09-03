@@ -1,6 +1,8 @@
 ---
 name: 'Sunset Drive'
 author: 'tahayvr (https://github.com/tahayvr)'
+author_name: 'tahayvr'
+author_url: 'https://github.com/tahayvr'
 variant: 'dark'            # dark or light
 
 color_01: '#0A0A12'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'Paul Millr'
 author: 'paulmillr (https://github.com/paulmillr/dotfiles/tree/master/terminal)'
+author_name: 'paulmillr'
+author_url: 'https://github.com/paulmillr/dotfiles/tree/master/terminal'
 variant: 'dark'            # dark or light
 
 color_01: '#2A2A2A'    # Black (Host)

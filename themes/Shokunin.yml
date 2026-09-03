@@ -1,6 +1,8 @@
 ---
 name: 'Shokunin'
 author: 'Maksim Burtsev (https://github.com/Maksim-Burtsev)'
+author_name: 'Maksim Burtsev'
+author_url: 'https://github.com/Maksim-Burtsev'
 variant: 'light'            # dark or light
 
 color_01: '#303841'    # Black (Host)

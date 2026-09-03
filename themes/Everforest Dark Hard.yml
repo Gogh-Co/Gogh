@@ -1,6 +1,8 @@
 ---
 name: 'Everforest Dark Hard'
 author: 'NicolasGB (https://github.com/NicolasGB)'
+author_name: 'NicolasGB'
+author_url: 'https://github.com/NicolasGB'
 variant: 'dark'            # dark or light
 
 color_01: '#7A8478'    # Black (Host)

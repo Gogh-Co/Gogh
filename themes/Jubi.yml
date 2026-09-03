@@ -1,6 +1,8 @@
 ---
 name: 'Jubi'
 author: 'Julia Tretel (https://github.com/jutretel)'
+author_name: 'Julia Tretel'
+author_url: 'https://github.com/jutretel'
 variant: 'dark'            # dark or light
 
 color_01: '#3B3750'    # Black (Host)

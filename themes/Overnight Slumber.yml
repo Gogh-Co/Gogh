@@ -1,6 +1,8 @@
 ---
 name: 'Overnight Slumber'
 author: 'Cristian Velasquez Ramos (https://github.com/cevr/overnight)'
+author_name: 'Cristian Velasquez Ramos'
+author_url: 'https://github.com/cevr/overnight'
 variant: 'dark'            # dark or light
 
 color_01: '#0A1222'    # Black (Host)

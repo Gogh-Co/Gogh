@@ -1,6 +1,8 @@
 ---
 name: 'Flexoki Light'
 author: 'kepano (https://stephango.com/flexoki)'
+author_name: 'kepano'
+author_url: 'https://stephango.com/flexoki'
 variant: 'light'            # dark or light
 
 color_01: '#100F0F'    # Black (Host)

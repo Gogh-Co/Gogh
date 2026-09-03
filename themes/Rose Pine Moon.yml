@@ -1,6 +1,8 @@
 ---
 name: 'Rose Pine Moon'
 author: 'Rosé Pine (https://github.com/orgs/rose-pine/people)'
+author_name: 'Rosé Pine'
+author_url: 'https://github.com/orgs/rose-pine/people'
 variant: 'dark'            # dark or light
 
 color_01: '#393552'    # Black (Host)

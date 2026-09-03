@@ -1,6 +1,8 @@
 ---
 name: 'ENCOM'
 author: 'Josh Braun (http://wideaperture.net)'
+author_name: 'Josh Braun'
+author_url: 'http://wideaperture.net'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

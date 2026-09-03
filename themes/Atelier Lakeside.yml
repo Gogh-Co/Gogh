@@ -1,6 +1,8 @@
 ---
 name: 'Atelier Lakeside'
 author: 'Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside)'
+author_name: 'Bram de Haan'
+author_url: 'http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside'
 variant: 'dark'            # dark or light
 
 color_01: '#161B1D'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'Afterglow'
 author: 'yabatadesign (https://github.com/YabataDesign/afterglow-itermcolors)'
+author_name: 'yabatadesign'
+author_url: 'https://github.com/YabataDesign/afterglow-itermcolors'
 variant: 'dark'            # dark or light
 
 color_01: '#151515'    # Black (Host)

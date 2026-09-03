@@ -1,6 +1,8 @@
 ---
 name: 'Terafox'
 author: 'EdenEast (https://github.com/edeneast/nightfox.nvim)'
+author_name: 'EdenEast'
+author_url: 'https://github.com/edeneast/nightfox.nvim'
 variant: 'dark'            # dark or light
 
 color_01: '#2F3239'    # Black (Host)

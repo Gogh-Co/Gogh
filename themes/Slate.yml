@@ -1,6 +1,8 @@
 ---
 name: 'Slate'
 author: 'deneshshan (https://github.com/deneshshan)'
+author_name: 'deneshshan'
+author_url: 'https://github.com/deneshshan'
 variant: 'dark'            # dark or light
 
 color_01: '#222222'    # Black (Host)

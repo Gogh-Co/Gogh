@@ -1,6 +1,8 @@
 ---
 name: 'Black Metal (Khold)'
 author: 'nooneknows (https://github.com/nooneknowspeter)'
+author_name: 'nooneknows'
+author_url: 'https://github.com/nooneknowspeter'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

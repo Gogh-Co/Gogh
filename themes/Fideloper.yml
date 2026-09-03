@@ -1,6 +1,8 @@
 ---
 name: 'Fideloper'
 author: 'Fideloper (http://fideloper.com/)'
+author_name: 'Fideloper'
+author_url: 'http://fideloper.com/'
 variant: 'dark'            # dark or light
 
 color_01: '#292F33'    # Black (Host)

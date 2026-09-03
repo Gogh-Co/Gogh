@@ -1,6 +1,8 @@
 ---
 name: 'Vaporwave Sunset'
 author: 'theebest.com (https://www.theebest.com)'
+author_name: 'theebest.com'
+author_url: 'https://www.theebest.com'
 variant: 'dark'            # dark or light
 
 color_01: '#4B3D53'    # Black (Host)

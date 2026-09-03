@@ -1,6 +1,8 @@
 ---
 name: 'Atlas Ragnarok'
 author: 'Atlas Kaisar (https://github.com/AyoubTadlaoui)'
+author_name: 'Atlas Kaisar'
+author_url: 'https://github.com/AyoubTadlaoui'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

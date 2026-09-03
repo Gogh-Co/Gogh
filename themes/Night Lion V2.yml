@@ -1,6 +1,8 @@
 ---
 name: 'Night Lion V2'
 author: 'Curvve Media (http://www.curvve.com/blog/category/themes/)'
+author_name: 'Curvve Media'
+author_url: 'http://www.curvve.com/blog/category/themes/'
 variant: 'dark'            # dark or light
 
 color_01: '#4C4C4C'    # Black (Host)

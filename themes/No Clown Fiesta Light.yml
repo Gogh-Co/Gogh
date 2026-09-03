@@ -1,6 +1,8 @@
 ---
 name: 'No Clown Fiesta Light'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'light'            # dark or light
 
 color_01: '#D6D6D6'    # Black (Host)

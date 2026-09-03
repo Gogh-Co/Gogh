@@ -1,6 +1,8 @@
 ---
 name: 'Under The Sea'
 author: 'peterpme (https://github.com/peterpme)'
+author_name: 'peterpme'
+author_url: 'https://github.com/peterpme'
 variant: 'dark'            # dark or light
 
 color_01: '#022026'    # Black (Host)

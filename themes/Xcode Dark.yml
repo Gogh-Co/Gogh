@@ -1,6 +1,8 @@
 ---
 name: 'Xcode Dark'
 author: 'lunacookies (https://github.com/lunacookies/vim-colors-xcode)'
+author_name: 'lunacookies'
+author_url: 'https://github.com/lunacookies/vim-colors-xcode'
 variant: 'dark'            # dark or light
 
 color_01: '#414453'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'Aardvark Ink'
 author: 'joshka (https://github.com/joshka)'
+author_name: 'joshka'
+author_url: 'https://github.com/joshka'
 variant: 'dark'            # dark or light
 
 color_01: '#222734'    # Black (Host)

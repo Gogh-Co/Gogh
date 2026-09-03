@@ -1,6 +1,8 @@
 ---
 name: 'GitHub Dark Default'
 author: 'Antonio Camargo (https://github.com/apcamargo)'
+author_name: 'Antonio Camargo'
+author_url: 'https://github.com/apcamargo'
 variant: 'dark'            # dark or light
 
 color_01: '#484F58'    # Black (Host)

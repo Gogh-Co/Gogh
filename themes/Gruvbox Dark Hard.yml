@@ -1,6 +1,8 @@
 ---
 name: 'Gruvbox Dark Hard'
 author: 'morhetz (https://github.com/morhetz)'
+author_name: 'morhetz'
+author_url: 'https://github.com/morhetz'
 variant: 'dark'            # dark or light
 
 color_01: '#1D2021'    # Black (Host)

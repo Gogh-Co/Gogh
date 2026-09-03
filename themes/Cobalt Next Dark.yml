@@ -1,6 +1,8 @@
 ---
 name: 'Cobalt Next Dark'
 author: 'davidleininger (https://github.com/davidleininger/cobaltnext-vscode)'
+author_name: 'davidleininger'
+author_url: 'https://github.com/davidleininger/cobaltnext-vscode'
 variant: 'dark'            # dark or light
 
 color_01: '#282F36'    # Black (Host)

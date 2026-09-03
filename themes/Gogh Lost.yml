@@ -1,6 +1,8 @@
 ---
 name: 'Gogh Lost'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'dark'            # dark or light
 
 color_01: '#292D3E'    # Black (Host)

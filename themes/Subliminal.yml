@@ -1,6 +1,8 @@
 ---
 name: 'Subliminal'
 author: 'gdsrosa (https://github.com/gdsrosa/subliminal-itermcolors)'
+author_name: 'gdsrosa'
+author_url: 'https://github.com/gdsrosa/subliminal-itermcolors'
 variant: 'dark'            # dark or light
 
 color_01: '#7F7F7F'    # Black (Host)

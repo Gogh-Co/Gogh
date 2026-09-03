@@ -1,6 +1,8 @@
 ---
 name: 'Acid Lime'
 author: 'PoshPalette (https://github.com/livlign/posh-palette)'
+author_name: 'PoshPalette'
+author_url: 'https://github.com/livlign/posh-palette'
 variant: 'dark'            # dark or light
 
 color_01: '#131D0C'    # Black (Host)

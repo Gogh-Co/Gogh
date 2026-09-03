@@ -1,6 +1,8 @@
 ---
 name: 'Selenized Black'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'dark'            # dark or light
 
 color_01: '#252525'    # Black (Host)

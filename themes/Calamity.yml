@@ -1,6 +1,8 @@
 ---
 name: 'Calamity'
 author: 'Pustur (https://github.com/Pustur)'
+author_name: 'Pustur'
+author_url: 'https://github.com/Pustur'
 variant: 'dark'            # dark or light
 
 color_01: '#2F2833'    # Black (Host)

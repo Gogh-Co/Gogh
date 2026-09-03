@@ -1,6 +1,8 @@
 ---
 name: 'One Half Dark'
 author: 'sonph (https://github.com/sonph)'
+author_name: 'sonph'
+author_url: 'https://github.com/sonph'
 variant: 'dark'            # dark or light
 
 color_01: '#282C34'    # Black (Host)

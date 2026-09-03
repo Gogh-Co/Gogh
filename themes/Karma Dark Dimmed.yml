@@ -1,6 +1,8 @@
 ---
 name: 'Karma Dark Dimmed'
 author: 'Sreetam Das (https://github.com/sreetamdas)'
+author_name: 'Sreetam Das'
+author_url: 'https://github.com/sreetamdas'
 variant: 'dark'            # dark or light
 
 color_01: '#14181F'    # Black (Host)

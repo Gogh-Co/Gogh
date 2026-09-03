@@ -1,6 +1,8 @@
 ---
 name: 'Moonwalk'
 author: 'Jian (https://github.com/thejian)'
+author_name: 'Jian'
+author_url: 'https://github.com/thejian'
 variant: 'light'            # dark or light
 
 color_01: '#080808'    # Black (Host)

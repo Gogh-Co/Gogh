@@ -1,6 +1,8 @@
 ---
 name: 'Warm Neon'
 author: 'firewut (https://github.com/firewut)'
+author_name: 'firewut'
+author_url: 'https://github.com/firewut'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

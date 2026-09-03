@@ -1,6 +1,8 @@
 ---
 name: 'Chester'
 author: 'KH (https://github.com/spectralkh)'
+author_name: 'KH'
+author_url: 'https://github.com/spectralkh'
 variant: 'dark'            # dark or light
 
 color_01: '#080200'    # Black (Host)

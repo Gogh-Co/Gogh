@@ -1,6 +1,8 @@
 ---
 name: 'Broadcast'
 author: 'vinkla (https://github.com/vinkla/broadcast-theme)'
+author_name: 'vinkla'
+author_url: 'https://github.com/vinkla/broadcast-theme'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

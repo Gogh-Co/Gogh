@@ -1,6 +1,8 @@
 ---
 name: 'Ardoise'
 author: 'JeffreyCA (https://github.com/JeffreyCA)'
+author_name: 'JeffreyCA'
+author_url: 'https://github.com/JeffreyCA'
 variant: 'dark'            # dark or light
 
 color_01: '#2C2C2C'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'Atelier Forest'
 author: 'Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest)'
+author_name: 'Bram de Haan'
+author_url: 'http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest'
 variant: 'dark'            # dark or light
 
 color_01: '#1B1918'    # Black (Host)

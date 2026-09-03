@@ -1,6 +1,8 @@
 ---
 name: 'Melange Light'
 author: 'savq (https://github.com/savq)'
+author_name: 'savq'
+author_url: 'https://github.com/savq'
 variant: 'light'            # dark or light
 
 color_01: '#E9E1DB'    # Black (Host)

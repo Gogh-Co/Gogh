@@ -1,6 +1,8 @@
 ---
 name: 'Fahrenheit'
 author: 'jonascarpay (https://github.com/jonascarpay)'
+author_name: 'jonascarpay'
+author_url: 'https://github.com/jonascarpay'
 variant: 'dark'            # dark or light
 
 color_01: '#1D1D1D'    # Black (Host)

@@ -1,6 +1,8 @@
 ---
 name: 'Twilight'
 author: 'stefri (https://gist.github.com/stefri/1183140)'
+author_name: 'stefri'
+author_url: 'https://gist.github.com/stefri/1183140'
 variant: 'dark'            # dark or light
 
 color_01: '#141414'    # Black (Host)

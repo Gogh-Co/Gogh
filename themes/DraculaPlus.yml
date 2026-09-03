@@ -1,6 +1,8 @@
 ---
 name: 'DraculaPlus'
 author: 'zenorocha (https://github.com/zenorocha/dracula-theme)'
+author_name: 'zenorocha'
+author_url: 'https://github.com/zenorocha/dracula-theme'
 variant: 'dark'            # dark or light
 
 color_01: '#21222C'    # Black (Host)

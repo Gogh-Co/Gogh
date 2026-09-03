@@ -1,6 +1,8 @@
 ---
 name: 'Floraverse'
 author: 'papayakitty (http://floraverse.com/)'
+author_name: 'papayakitty'
+author_url: 'http://floraverse.com/'
 variant: 'dark'            # dark or light
 
 color_01: '#08002E'    # Black (Host)

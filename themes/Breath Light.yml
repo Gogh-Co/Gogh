@@ -1,6 +1,8 @@
 ---
 name: 'Breath Light'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'light'            # dark or light
 
 color_01: '#E8E8E8'    # Black (Host)

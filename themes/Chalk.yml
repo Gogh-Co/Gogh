@@ -1,6 +1,8 @@
 ---
 name: 'Chalk'
 author: 'achalv (https://github.com/achalv/chalk)'
+author_name: 'achalv'
+author_url: 'https://github.com/achalv/chalk'
 variant: 'dark'            # dark or light
 
 color_01: '#7D8B8F'    # Black (Host)

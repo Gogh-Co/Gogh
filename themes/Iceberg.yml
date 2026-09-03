@@ -1,6 +1,8 @@
 ---
 name: 'Iceberg'
 author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: ''
+author_url: ''
 variant: 'dark'            # dark or light
 
 color_01: '#161821'    # Black (Host)

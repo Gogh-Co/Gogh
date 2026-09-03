@@ -1,6 +1,8 @@
 ---
 name: 'Dracula Lost'
 author: 'Dracula (https://draculatheme.com)'
+author_name: 'Dracula'
+author_url: 'https://draculatheme.com'
 variant: 'dark'            # dark or light
 
 color_01: '#262626'    # Black (Host)

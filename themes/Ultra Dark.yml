@@ -1,6 +1,8 @@
 ---
 name: 'Ultra Dark'
 author: 'Kasper (https://github.com/Kasper-Liu)'
+author_name: 'Kasper'
+author_url: 'https://github.com/Kasper-Liu'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

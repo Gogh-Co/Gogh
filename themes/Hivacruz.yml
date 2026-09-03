@@ -1,6 +1,8 @@
 ---
 name: 'Hivacruz'
 author: 'Yann Defretin (https://github.com/kinoute/hivacruz-itermcolors)'
+author_name: 'Yann Defretin'
+author_url: 'https://github.com/kinoute/hivacruz-itermcolors'
 variant: 'dark'            # dark or light
 
 color_01: '#202746'    # Black (Host)

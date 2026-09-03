@@ -1,6 +1,8 @@
 ---
 name: 'Sakura'
 author: '0xN0ri (https://github.com/0xN0ri)'
+author_name: '0xN0ri'
+author_url: 'https://github.com/0xN0ri'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

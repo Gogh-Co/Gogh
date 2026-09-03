@@ -1,6 +1,8 @@
 ---
 name: 'Kanso Pearl'
 author: 'webhooked (https://github.com/webhooked)'
+author_name: 'webhooked'
+author_url: 'https://github.com/webhooked'
 variant: 'light'            # dark or light
 
 color_01: '#22262D'    # Black (Host)

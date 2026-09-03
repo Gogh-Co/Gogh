@@ -1,6 +1,8 @@
 ---
 name: 'Gruvbox Material'
 author: 'sainnhe (https://github.com/sainnhe)'
+author_name: 'sainnhe'
+author_url: 'https://github.com/sainnhe'
 variant: 'dark'            # dark or light
 
 color_01: '#141617'    # Black (Host)

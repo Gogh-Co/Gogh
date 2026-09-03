@@ -1,6 +1,8 @@
 ---
 name: 'Alabaster'
 author: 'mkaschenko (https://github.com/mkaschenko)'
+author_name: 'mkaschenko'
+author_url: 'https://github.com/mkaschenko'
 variant: 'light'            # dark or light
 
 color_01: '#000000'    # Black (Host)

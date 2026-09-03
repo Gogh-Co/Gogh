@@ -1,6 +1,8 @@
 ---
 name: 'Pale Night Hc'
 author: 'Mattia Astorino (https://github.com/equinusocio)'
+author_name: 'Mattia Astorino'
+author_url: 'https://github.com/equinusocio'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

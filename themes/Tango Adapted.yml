@@ -1,6 +1,8 @@
 ---
 name: 'Tango Adapted'
 author: 'crowsonkb (https://github.com/crowsonkb)'
+author_name: 'crowsonkb'
+author_url: 'https://github.com/crowsonkb'
 variant: 'light'            # dark or light
 
 color_01: '#000000'    # Black (Host)

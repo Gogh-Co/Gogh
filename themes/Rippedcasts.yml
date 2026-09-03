@@ -1,6 +1,8 @@
 ---
 name: 'Rippedcasts'
 author: 'mdw123 (https://github.com/mdw123/rippedcasts)'
+author_name: 'mdw123'
+author_url: 'https://github.com/mdw123/rippedcasts'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)
