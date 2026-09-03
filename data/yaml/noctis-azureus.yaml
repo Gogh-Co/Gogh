@@ -20,4 +20,5 @@ color_16: '#BECFDA'
 background: '#07273B'
 foreground: '#BECFDA'
 cursor: '#BECFDA'
-hash: 5735127d0e2453c571f3f6a98f54ff5d42fc1e88f7046da12681b914f8e254ab
+hash: a05a5e9ea2d29d6f2e5880913a46dd23fb877ebca508548a94f0dad9f6c418af
+hash_bg: 56b2903e8d05656b3b26cfa556c15a1089061137ebcb20bbdd8a82f965c7dcc5

@@ -2,9 +2,10 @@
 # Also writes a minified data/themes-min.json and includes a content hash.
 
 import json
-import hashlib
 from pathlib import Path
 import yaml
+
+from theme_hash import hash_palette, hash_background
 
 source_path = Path("./themes")
 dest_path = Path("./data/themes.json")
@@ -25,18 +26,12 @@ for filepath in source_path.glob("*.yml"):
     # Load the corrected YAML file
     data = yaml.safe_load(content)
 
-    # Hash only the colors (not name/author/variant), so it changes only if a color changes
-    color_fields = [
-        "color_01", "color_02", "color_03", "color_04",
-        "color_05", "color_06", "color_07", "color_08",
-        "color_09", "color_10", "color_11", "color_12",
-        "color_13", "color_14", "color_15", "color_16",
-        "background", "foreground", "cursor",
-    ]
-    colors = ''.join(str(data.get(field, "")).strip() for field in color_fields)
-
-    # Generate SHA-256 hash
-    hash_hex = hashlib.sha256(colors.encode()).hexdigest()
+    # hash: only the 16 ANSI colors (cosmetic fields excluded), so it changes
+    # only if a palette color changes.
+    # hash_bg: the background alone, so two themes with an identical palette
+    # but a different background can still be told apart.
+    hash_hex = hash_palette(data)
+    hash_bg_hex = hash_background(data)
 
     # Build the theme dictionary in the required order
     theme = {
@@ -62,7 +57,8 @@ for filepath in source_path.glob("*.yml"):
         "background": data.get("background", ""),
         "foreground": data.get("foreground", ""),
         "cursor": data.get("cursor", ""),
-        "hash": hash_hex
+        "hash": hash_hex,
+        "hash_bg": hash_bg_hex
     }
     themes.append(theme)
 

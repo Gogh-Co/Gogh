@@ -20,4 +20,5 @@ color_16: '#FFEAA3'
 background: '#251200'
 foreground: '#DEC165'
 cursor: '#E5591C'
-hash: 8176d29f81d7d9fbc16fd1477fd1d6ba0a6bb3b55d548b3ac0523afde7c29d4f
+hash: 66ad3cab91484aa7acf1946c2a94b4c288bac3a70d19aa0334b0e8507d62333e
+hash_bg: 6e39123c51aaee3d84934ffb03abc015e526c9eec382e1657a715a72b229ee33

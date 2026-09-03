@@ -55,7 +55,8 @@ for theme in themes:
         "background": theme.get("background", ""),
         "foreground": theme.get("foreground", ""),
         "cursor": theme.get("cursor", ""),
-        "hash": theme.get("hash", "")
+        "hash": theme.get("hash", ""),
+        "hash_bg": theme.get("hash_bg", "")
     }
     with open(filename, 'w') as f:
         json.dump(ordered_theme, f, indent=2)
