@@ -1,0 +1,27 @@
+---
+name: 'Monokai Classic'
+author: 'Monokai (https://monokai.com/)'
+variant: 'dark'            # dark or light
+
+color_01: '#272822'    # Black (Host)
+color_02: '#F92672'    # Red (Syntax string)
+color_03: '#A6E22E'    # Green (Command)
+color_04: '#E6DB74'    # Yellow (Command second)
+color_05: '#FD971F'    # Blue (Path)
+color_06: '#AE81FF'    # Magenta (Syntax var)
+color_07: '#66D9EF'    # Cyan (Prompt)
+color_08: '#FDFFF1'    # White
+
+color_09: '#6E7066'    # Bright Black
+color_10: '#F92672'    # Bright Red (Command error)
+color_11: '#A6E22E'    # Bright Green (Exec)
+color_12: '#E6DB74'    # Bright Yellow
+color_13: '#FD971F'    # Bright Blue (Folder)
+color_14: '#AE81FF'    # Bright Magenta
+color_15: '#66D9EF'    # Bright Cyan
+color_16: '#FDFFF1'    # Bright White
+
+background: '#272822'  # Background
+foreground: '#FDFFF1'  # Foreground (Text)
+
+cursor: '#C0C1B5'      # Cursor

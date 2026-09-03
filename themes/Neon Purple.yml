@@ -1,0 +1,27 @@
+---
+name: 'Neon Purple'
+author: 'imcarvalho (https://github.com/imcarvalho/neonpurple)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#CD0D76'    # Red (Syntax string)
+color_03: '#03EBA5'    # Green (Command)
+color_04: '#FFFA6A'    # Yellow (Command second)
+color_05: '#00BFFF'    # Blue (Path)
+color_06: '#FF00E0'    # Magenta (Syntax var)
+color_07: '#9AA5ED'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#A8FCFF'    # Bright Black
+color_10: '#FF0DA5'    # Bright Red (Command error)
+color_11: '#00FFB6'    # Bright Green (Exec)
+color_12: '#FFF787'    # Bright Yellow
+color_13: '#1BCCFD'    # Bright Blue (Folder)
+color_14: '#FF00F8'    # Bright Magenta
+color_15: '#A6B6FF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#291B47'  # Background
+foreground: '#E5E5E5'  # Foreground (Text)
+
+cursor: '#21F6BC'      # Cursor

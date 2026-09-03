@@ -1,0 +1,27 @@
+---
+name: 'Squirrelsong Dark'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#352A21'    # Black (Host)
+color_02: '#AC493E'    # Red (Syntax string)
+color_03: '#558240'    # Green (Command)
+color_04: '#CEB250'    # Yellow (Command second)
+color_05: '#5993C2'    # Blue (Path)
+color_06: '#7F61B3'    # Magenta (Syntax var)
+color_07: '#4F9593'    # Cyan (Prompt)
+color_08: '#CFBAA5'    # White
+
+color_09: '#6B503C'    # Bright Black
+color_10: '#CE574A'    # Bright Red (Command error)
+color_11: '#719955'    # Bright Green (Exec)
+color_12: '#E2C358'    # Bright Yellow
+color_13: '#63A2D6'    # Bright Blue (Folder)
+color_14: '#9672D4'    # Bright Magenta
+color_15: '#72AAA8'    # Bright Cyan
+color_16: '#EDD5BE'    # Bright White
+
+background: '#352A21'  # Background
+foreground: '#AD9C8B'  # Foreground (Text)
+
+cursor: '#AD9C8B'      # Cursor

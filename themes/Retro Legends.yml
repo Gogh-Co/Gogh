@@ -1,0 +1,27 @@
+---
+name: 'Retro Legends'
+author: 'VeteranBV (https://github.com/VeteranBV)'
+variant: 'dark'            # dark or light
+
+color_01: '#262626'    # Black (Host)
+color_02: '#DE5454'    # Red (Syntax string)
+color_03: '#45EB45'    # Green (Command)
+color_04: '#F7BF2B'    # Yellow (Command second)
+color_05: '#4066F2'    # Blue (Path)
+color_06: '#BF4CF2'    # Magenta (Syntax var)
+color_07: '#40D9E6'    # Cyan (Prompt)
+color_08: '#BFE6BF'    # White
+
+color_09: '#4C594C'    # Bright Black
+color_10: '#FF6666'    # Bright Red (Command error)
+color_11: '#59FF59'    # Bright Green (Exec)
+color_12: '#FFD933'    # Bright Yellow
+color_13: '#4C80FF'    # Bright Blue (Folder)
+color_14: '#E666FF'    # Bright Magenta
+color_15: '#59E6FF'    # Bright Cyan
+color_16: '#F2FFF2'    # Bright White
+
+background: '#0D0D0D'  # Background
+foreground: '#45EB45'  # Foreground (Text)
+
+cursor: '#45EB45'      # Cursor

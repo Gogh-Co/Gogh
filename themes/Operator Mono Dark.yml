@@ -1,0 +1,27 @@
+---
+name: 'Operator Mono Dark'
+author: 'dreamyguy (https://github.com/dreamyguy/iterm-theme-operator-mono-dark)'
+variant: 'dark'            # dark or light
+
+color_01: '#5A5A5A'    # Black (Host)
+color_02: '#CA372D'    # Red (Syntax string)
+color_03: '#4D7B3A'    # Green (Command)
+color_04: '#D4D697'    # Yellow (Command second)
+color_05: '#4387CF'    # Blue (Path)
+color_06: '#B86CB4'    # Magenta (Syntax var)
+color_07: '#72D5C6'    # Cyan (Prompt)
+color_08: '#CED4CD'    # White
+
+color_09: '#9A9B99'    # Bright Black
+color_10: '#C37D62'    # Bright Red (Command error)
+color_11: '#83D0A2'    # Bright Green (Exec)
+color_12: '#FDFDC5'    # Bright Yellow
+color_13: '#89D3F6'    # Bright Blue (Folder)
+color_14: '#FF2C7A'    # Bright Magenta
+color_15: '#82EADA'    # Bright Cyan
+color_16: '#FDFDF6'    # Bright White
+
+background: '#191919'  # Background
+foreground: '#C3CAC2'  # Foreground (Text)
+
+cursor: '#FCDC08'      # Cursor

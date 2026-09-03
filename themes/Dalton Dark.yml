@@ -1,0 +1,27 @@
+---
+name: 'Dalton Dark'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#282828'    # Black (Host)
+color_02: '#D85050'    # Red (Syntax string)
+color_03: '#5B914E'    # Green (Command)
+color_04: '#C4C40C'    # Yellow (Command second)
+color_05: '#7AA2F7'    # Blue (Path)
+color_06: '#A050D0'    # Magenta (Syntax var)
+color_07: '#56717F'    # Cyan (Prompt)
+color_08: '#B8B8B8'    # White
+
+color_09: '#494949'    # Bright Black
+color_10: '#F07068'    # Bright Red (Command error)
+color_11: '#88B97D'    # Bright Green (Exec)
+color_12: '#EDED02'    # Bright Yellow
+color_13: '#97B1F1'    # Bright Blue (Folder)
+color_14: '#C070F0'    # Bright Magenta
+color_15: '#6691A7'    # Bright Cyan
+color_16: '#D8D8D8'    # Bright White
+
+background: '#1B1B1B'  # Background
+foreground: '#C8C9CC'  # Foreground (Text)
+
+cursor: '#9A9A9A'      # Cursor

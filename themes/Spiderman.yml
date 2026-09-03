@@ -1,0 +1,27 @@
+---
+name: 'Spiderman'
+author: 'pyrophos (https://github.com/pyrophos)'
+variant: 'dark'            # dark or light
+
+color_01: '#1B1D1E'    # Black (Host)
+color_02: '#E60813'    # Red (Syntax string)
+color_03: '#E22928'    # Green (Command)
+color_04: '#E24756'    # Yellow (Command second)
+color_05: '#2C3FFF'    # Blue (Path)
+color_06: '#2435DB'    # Magenta (Syntax var)
+color_07: '#3256FF'    # Cyan (Prompt)
+color_08: '#FFFEF6'    # White
+
+color_09: '#505354'    # Bright Black
+color_10: '#FF0325'    # Bright Red (Command error)
+color_11: '#FF3338'    # Bright Green (Exec)
+color_12: '#FE3A35'    # Bright Yellow
+color_13: '#1D50FF'    # Bright Blue (Folder)
+color_14: '#747CFF'    # Bright Magenta
+color_15: '#6184FF'    # Bright Cyan
+color_16: '#FFFFF9'    # Bright White
+
+background: '#1B1D1E'  # Background
+foreground: '#E3E3E3'  # Foreground (Text)
+
+cursor: '#2C3FFF'      # Cursor

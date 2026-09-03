@@ -1,0 +1,27 @@
+---
+name: 'Sleepy Hollow'
+author: 'zdj (https://github.com/zdj/themes/tree/master/iterm2)'
+variant: 'dark'            # dark or light
+
+color_01: '#572100'    # Black (Host)
+color_02: '#BA3934'    # Red (Syntax string)
+color_03: '#91773F'    # Green (Command)
+color_04: '#B55600'    # Yellow (Command second)
+color_05: '#5F63B4'    # Blue (Path)
+color_06: '#A17C7B'    # Magenta (Syntax var)
+color_07: '#8FAEA9'    # Cyan (Prompt)
+color_08: '#AF9A91'    # White
+
+color_09: '#4E4B61'    # Bright Black
+color_10: '#D9443F'    # Bright Red (Command error)
+color_11: '#D6B04E'    # Bright Green (Exec)
+color_12: '#F66813'    # Bright Yellow
+color_13: '#8086EF'    # Bright Blue (Folder)
+color_14: '#E2C2BB'    # Bright Magenta
+color_15: '#A4DCE7'    # Bright Cyan
+color_16: '#D2C7A9'    # Bright White
+
+background: '#121214'  # Background
+foreground: '#AF9A91'  # Foreground (Text)
+
+cursor: '#AF9A91'      # Cursor

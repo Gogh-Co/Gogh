@@ -1,0 +1,27 @@
+---
+name: 'Xcode Dark hc'
+author: 'lunacookies (https://github.com/lunacookies/vim-colors-xcode)'
+variant: 'dark'            # dark or light
+
+color_01: '#43454B'    # Black (Host)
+color_02: '#FF8A7A'    # Red (Syntax string)
+color_03: '#83C9BC'    # Green (Command)
+color_04: '#D9C668'    # Yellow (Command second)
+color_05: '#4EC4E6'    # Blue (Path)
+color_06: '#FF85B8'    # Magenta (Syntax var)
+color_07: '#CDA1FF'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#838991'    # Bright Black
+color_10: '#FF8A7A'    # Bright Red (Command error)
+color_11: '#B1FAEB'    # Bright Green (Exec)
+color_12: '#FFA14F'    # Bright Yellow
+color_13: '#6BDFFF'    # Bright Blue (Folder)
+color_14: '#FF85B8'    # Bright Magenta
+color_15: '#E5CFFF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#1F1F24'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

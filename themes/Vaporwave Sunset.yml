@@ -1,0 +1,27 @@
+---
+name: 'Vaporwave Sunset'
+author: 'theebest.com (https://www.theebest.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#4B3D53'    # Black (Host)
+color_02: '#FB7185'    # Red (Syntax string)
+color_03: '#2DD4BF'    # Green (Command)
+color_04: '#FB923C'    # Yellow (Command second)
+color_05: '#A78BFA'    # Blue (Path)
+color_06: '#22D3EE'    # Magenta (Syntax var)
+color_07: '#FF4FD8'    # Cyan (Prompt)
+color_08: '#F0ABFC'    # White
+
+color_09: '#563F6E'    # Bright Black
+color_10: '#FC8D9D'    # Bright Red (Command error)
+color_11: '#57DDCC'    # Bright Green (Exec)
+color_12: '#FCA65F'    # Bright Yellow
+color_13: '#B9A2FB'    # Bright Blue (Folder)
+color_14: '#4EDCF1'    # Bright Magenta
+color_15: '#FF72E0'    # Bright Cyan
+color_16: '#FFF7ED'    # Bright White
+
+background: '#180827'  # Background
+foreground: '#FFF7ED'  # Foreground (Text)
+
+cursor: '#FFF7ED'      # Cursor

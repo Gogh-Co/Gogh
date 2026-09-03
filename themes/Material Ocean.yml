@@ -1,0 +1,27 @@
+---
+name: 'Material Ocean'
+author: 'fr3fou (https://github.com/fr3fou)'
+variant: 'dark'            # dark or light
+
+color_01: '#546E7A'    # Black (Host)
+color_02: '#FF5370'    # Red (Syntax string)
+color_03: '#C3E88D'    # Green (Command)
+color_04: '#FFCB6B'    # Yellow (Command second)
+color_05: '#82AAFF'    # Blue (Path)
+color_06: '#C792EA'    # Magenta (Syntax var)
+color_07: '#89DDFF'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#546E7A'    # Bright Black
+color_10: '#FF5370'    # Bright Red (Command error)
+color_11: '#C3E88D'    # Bright Green (Exec)
+color_12: '#FFCB6B'    # Bright Yellow
+color_13: '#82AAFF'    # Bright Blue (Folder)
+color_14: '#C792EA'    # Bright Magenta
+color_15: '#89DDFF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#0F111A'  # Background
+foreground: '#8F93A2'  # Foreground (Text)
+
+cursor: '#FFCC00'      # Cursor

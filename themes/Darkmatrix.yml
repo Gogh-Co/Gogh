@@ -1,0 +1,27 @@
+---
+name: 'Darkmatrix'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#091013'    # Black (Host)
+color_02: '#006536'    # Red (Syntax string)
+color_03: '#6FA64C'    # Green (Command)
+color_04: '#7E8000'    # Yellow (Command second)
+color_05: '#2C9A84'    # Blue (Path)
+color_06: '#452D53'    # Magenta (Syntax var)
+color_07: '#114D53'    # Cyan (Prompt)
+color_08: '#006536'    # White
+
+color_09: '#333333'    # Bright Black
+color_10: '#00733D'    # Bright Red (Command error)
+color_11: '#90D762'    # Bright Green (Exec)
+color_12: '#E2E500'    # Bright Yellow
+color_13: '#46D8B8'    # Bright Blue (Folder)
+color_14: '#4A3059'    # Bright Magenta
+color_15: '#12545A'    # Bright Cyan
+color_16: '#006536'    # Bright White
+
+background: '#070C0E'  # Background
+foreground: '#3E5715'  # Foreground (Text)
+
+cursor: '#9FA86E'      # Cursor

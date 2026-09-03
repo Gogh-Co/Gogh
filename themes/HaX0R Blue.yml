@@ -1,0 +1,27 @@
+---
+name: 'HaX0R Blue'
+author: 'Pratik (https://github.com/pratikmullick)'
+variant: 'dark'            # dark or light
+
+color_01: '#010921'    # Black (Host)
+color_02: '#10B6FF'    # Red (Syntax string)
+color_03: '#10B6FF'    # Green (Command)
+color_04: '#10B6FF'    # Yellow (Command second)
+color_05: '#10B6FF'    # Blue (Path)
+color_06: '#10B6FF'    # Magenta (Syntax var)
+color_07: '#10B6FF'    # Cyan (Prompt)
+color_08: '#FAFAFA'    # White
+
+color_09: '#080117'    # Bright Black
+color_10: '#00B3F7'    # Bright Red (Command error)
+color_11: '#00B3F7'    # Bright Green (Exec)
+color_12: '#00B3F7'    # Bright Yellow
+color_13: '#00B3F7'    # Bright Blue (Folder)
+color_14: '#00B3F7'    # Bright Magenta
+color_15: '#00B3F7'    # Bright Cyan
+color_16: '#FEFEFE'    # Bright White
+
+background: '#010515'  # Background
+foreground: '#11B7FF'  # Foreground (Text)
+
+cursor: '#10B6FF'      # Cursor

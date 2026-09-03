@@ -1,0 +1,27 @@
+---
+name: 'Poimandres Darker'
+author: 'drcmda (https://github.com/drcmda/poimandres-theme)'
+variant: 'dark'            # dark or light
+
+color_01: '#16161E'    # Black (Host)
+color_02: '#D0679D'    # Red (Syntax string)
+color_03: '#5DE4C7'    # Green (Command)
+color_04: '#FFFAC2'    # Yellow (Command second)
+color_05: '#89DDFF'    # Blue (Path)
+color_06: '#FCC5E9'    # Magenta (Syntax var)
+color_07: '#ADD7FF'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#A6ACCD'    # Bright Black
+color_10: '#D0679D'    # Bright Red (Command error)
+color_11: '#5DE4C7'    # Bright Green (Exec)
+color_12: '#FFFAC2'    # Bright Yellow
+color_13: '#ADD7FF'    # Bright Blue (Folder)
+color_14: '#FAE4FC'    # Bright Magenta
+color_15: '#89DDFF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#16161E'  # Background
+foreground: '#A6ACCD'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

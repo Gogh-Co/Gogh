@@ -1,0 +1,27 @@
+---
+name: 'Noctis Hibernus'
+author: 'Liviu Schera (https://github.com/liviuschera)'
+variant: 'light'            # dark or light
+
+color_01: '#003B42'    # Black (Host)
+color_02: '#E34E1C'    # Red (Syntax string)
+color_03: '#00B368'    # Green (Command)
+color_04: '#F49725'    # Yellow (Command second)
+color_05: '#0094F0'    # Blue (Path)
+color_06: '#FF5792'    # Magenta (Syntax var)
+color_07: '#00BDD6'    # Cyan (Prompt)
+color_08: '#8CA6A6'    # White
+
+color_09: '#004D57'    # Bright Black
+color_10: '#FF4000'    # Bright Red (Command error)
+color_11: '#00D17A'    # Bright Green (Exec)
+color_12: '#FF8C00'    # Bright Yellow
+color_13: '#0FA3FF'    # Bright Blue (Folder)
+color_14: '#FF6B9F'    # Bright Magenta
+color_15: '#00CBE6'    # Bright Cyan
+color_16: '#BBC3C4'    # Bright White
+
+background: '#F4F6F6'  # Background
+foreground: '#005661'  # Foreground (Text)
+
+cursor: '#005661'      # Cursor

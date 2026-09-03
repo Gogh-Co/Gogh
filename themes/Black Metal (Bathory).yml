@@ -1,0 +1,27 @@
+---
+name: 'Black Metal (Bathory)'
+author: 'nooneknows (https://github.com/nooneknowspeter)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#5F8787'    # Red (Syntax string)
+color_03: '#FBCB97'    # Green (Command)
+color_04: '#E78A53'    # Yellow (Command second)
+color_05: '#888888'    # Blue (Path)
+color_06: '#999999'    # Magenta (Syntax var)
+color_07: '#AAAAAA'    # Cyan (Prompt)
+color_08: '#C1C1C1'    # White
+
+color_09: '#404040'    # Bright Black
+color_10: '#5F8787'    # Bright Red (Command error)
+color_11: '#FBCB97'    # Bright Green (Exec)
+color_12: '#E78A53'    # Bright Yellow
+color_13: '#888888'    # Bright Blue (Folder)
+color_14: '#999999'    # Bright Magenta
+color_15: '#AAAAAA'    # Bright Cyan
+color_16: '#C1C1C1'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#C1C1C1'  # Foreground (Text)
+
+cursor: '#C1C1C1'      # Cursor

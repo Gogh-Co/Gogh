@@ -1,0 +1,27 @@
+---
+name: 'Hopscotch.256'
+author: 'Jan T. Sott (https://github.com/idleberg/Hopscotch)'
+variant: 'dark'            # dark or light
+
+color_01: '#322931'    # Black (Host)
+color_02: '#DD464C'    # Red (Syntax string)
+color_03: '#8FC13E'    # Green (Command)
+color_04: '#FDCC59'    # Yellow (Command second)
+color_05: '#1290BF'    # Blue (Path)
+color_06: '#C85E7C'    # Magenta (Syntax var)
+color_07: '#149B93'    # Cyan (Prompt)
+color_08: '#B9B5B8'    # White
+
+color_09: '#797379'    # Bright Black
+color_10: '#DD464C'    # Bright Red (Command error)
+color_11: '#8FC13E'    # Bright Green (Exec)
+color_12: '#FDCC59'    # Bright Yellow
+color_13: '#1290BF'    # Bright Blue (Folder)
+color_14: '#C85E7C'    # Bright Magenta
+color_15: '#149B93'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#322931'  # Background
+foreground: '#B9B5B8'  # Foreground (Text)
+
+cursor: '#B9B5B8'      # Cursor

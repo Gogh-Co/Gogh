@@ -1,0 +1,27 @@
+---
+name: 'Miami Heat'
+author: 'PoshPalette (https://github.com/livlign/posh-palette)'
+variant: 'dark'            # dark or light
+
+color_01: '#2A1A4A'    # Black (Host)
+color_02: '#FF3D7F'    # Red (Syntax string)
+color_03: '#2EE6B6'    # Green (Command)
+color_04: '#FFCB52'    # Yellow (Command second)
+color_05: '#29B6FF'    # Blue (Path)
+color_06: '#B86BFF'    # Magenta (Syntax var)
+color_07: '#18E0FF'    # Cyan (Prompt)
+color_08: '#E6D4FF'    # White
+
+color_09: '#5E5388'    # Bright Black
+color_10: '#FF2E97'    # Bright Red (Command error)
+color_11: '#2EE6B6'    # Bright Green (Exec)
+color_12: '#FF7847'    # Bright Yellow
+color_13: '#29B6FF'    # Bright Blue (Folder)
+color_14: '#B86BFF'    # Bright Magenta
+color_15: '#18E0FF'    # Bright Cyan
+color_16: '#FCE7FF'    # Bright White
+
+background: '#120B2E'  # Background
+foreground: '#FCE7FF'  # Foreground (Text)
+
+cursor: '#FF2E97'      # Cursor

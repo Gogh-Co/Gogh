@@ -1,0 +1,27 @@
+---
+name: 'Sandstone Warm'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'light'            # dark or light
+
+color_01: '#2E2010'    # Black (Host)
+color_02: '#CF2522'    # Red (Syntax string)
+color_03: '#5D7B00'    # Green (Command)
+color_04: '#865E00'    # Yellow (Command second)
+color_05: '#0D6EB2'    # Blue (Path)
+color_06: '#B52D6E'    # Magenta (Syntax var)
+color_07: '#037A71'    # Cyan (Prompt)
+color_08: '#756C51'    # White
+
+color_09: '#5C4A2A'    # Bright Black
+color_10: '#C04010'    # Bright Red (Command error)
+color_11: '#7F6648'    # Bright Green (Exec)
+color_12: '#7D6646'    # Bright Yellow
+color_13: '#5C6F6F'    # Bright Blue (Folder)
+color_14: '#5F64B7'    # Bright Magenta
+color_15: '#5F6E6E'    # Bright Cyan
+color_16: '#FDF6E3'    # Bright White
+
+background: '#FDF6E3'  # Background
+foreground: '#3E3220'  # Foreground (Text)
+
+cursor: '#3E3220'      # Cursor

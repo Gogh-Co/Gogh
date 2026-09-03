@@ -1,0 +1,27 @@
+---
+name: 'Cutie Pro'
+author: 'jezzy (https://github.com/jezzy-ultra)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#F56E7F'    # Red (Syntax string)
+color_03: '#BEC975'    # Green (Command)
+color_04: '#F58669'    # Yellow (Command second)
+color_05: '#42D9C5'    # Blue (Path)
+color_06: '#D286B7'    # Magenta (Syntax var)
+color_07: '#37CB8A'    # Cyan (Prompt)
+color_08: '#D5C3C3'    # White
+
+color_09: '#88847F'    # Bright Black
+color_10: '#E5A1A3'    # Bright Red (Command error)
+color_11: '#E8D6A7'    # Bright Green (Exec)
+color_12: '#F1BB79'    # Bright Yellow
+color_13: '#80C5DE'    # Bright Blue (Folder)
+color_14: '#B294BB'    # Bright Magenta
+color_15: '#9DCCBB'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#181818'  # Background
+foreground: '#D5D0C9'  # Foreground (Text)
+
+cursor: '#EFC4CD'      # Cursor

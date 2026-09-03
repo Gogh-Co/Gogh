@@ -1,0 +1,27 @@
+---
+name: 'Tango Adapted'
+author: 'crowsonkb (https://github.com/crowsonkb)'
+variant: 'light'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#FF0000'    # Red (Syntax string)
+color_03: '#59D600'    # Green (Command)
+color_04: '#F0CB00'    # Yellow (Command second)
+color_05: '#00A2FF'    # Blue (Path)
+color_06: '#C17ECC'    # Magenta (Syntax var)
+color_07: '#00D0D6'    # Cyan (Prompt)
+color_08: '#E6EBE1'    # White
+
+color_09: '#8F928B'    # Bright Black
+color_10: '#FF0013'    # Bright Red (Command error)
+color_11: '#93FF00'    # Bright Green (Exec)
+color_12: '#FFF121'    # Bright Yellow
+color_13: '#88C9FF'    # Bright Blue (Folder)
+color_14: '#E9A7E1'    # Bright Magenta
+color_15: '#00FEFF'    # Bright Cyan
+color_16: '#F6F6F4'    # Bright White
+
+background: '#FFFFFF'  # Background
+foreground: '#000000'  # Foreground (Text)
+
+cursor: '#000000'      # Cursor

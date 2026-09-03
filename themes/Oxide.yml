@@ -1,0 +1,27 @@
+---
+name: 'Oxide'
+author: 'jakmaz (https://github.com/jakmaz)'
+variant: 'dark'            # dark or light
+
+color_01: '#262626'    # Black (Host)
+color_02: '#ED756E'    # Red (Syntax string)
+color_03: '#5BB661'    # Green (Command)
+color_04: '#C39900'    # Yellow (Command second)
+color_05: '#3BA6F5'    # Blue (Path)
+color_06: '#968FF7'    # Magenta (Syntax var)
+color_07: '#00BAAA'    # Cyan (Prompt)
+color_08: '#CECECE'    # White
+
+color_09: '#8F8F8F'    # Bright Black
+color_10: '#FF9890'    # Bright Red (Command error)
+color_11: '#7BD77F'    # Bright Green (Exec)
+color_12: '#E3B831'    # Bright Yellow
+color_13: '#6FC6FF'    # Bright Blue (Folder)
+color_14: '#B5B2FF'    # Bright Magenta
+color_15: '#00DCCA'    # Bright Cyan
+color_16: '#DEDEDE'    # Bright White
+
+background: '#161616'  # Background
+foreground: '#CECECE'  # Foreground (Text)
+
+cursor: '#CECECE'      # Cursor

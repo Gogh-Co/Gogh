@@ -1,0 +1,27 @@
+---
+name: 'Detuned'
+author: 'akx (https://github.com/akx)'
+variant: 'dark'            # dark or light
+
+color_01: '#171717'    # Black (Host)
+color_02: '#EA5386'    # Red (Syntax string)
+color_03: '#B3E153'    # Green (Command)
+color_04: '#E4DA81'    # Yellow (Command second)
+color_05: '#4192D3'    # Blue (Path)
+color_06: '#8F3EF6'    # Magenta (Syntax var)
+color_07: '#6CB4D5'    # Cyan (Prompt)
+color_08: '#C7C7C7'    # White
+
+color_09: '#686868'    # Bright Black
+color_10: '#EA86AC'    # Bright Red (Command error)
+color_11: '#C5E280'    # Bright Green (Exec)
+color_12: '#FDF38F'    # Bright Yellow
+color_13: '#55BBF9'    # Bright Blue (Folder)
+color_14: '#B9A0F9'    # Bright Magenta
+color_15: '#7FD4FB'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#C7C7C7'  # Foreground (Text)
+
+cursor: '#C7C7C7'      # Cursor

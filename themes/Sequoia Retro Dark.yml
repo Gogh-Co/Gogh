@@ -1,0 +1,27 @@
+---
+name: 'Sequoia Retro Dark'
+author: 'Michael Andreuzza (https://github.com/michael-andreuzza)'
+variant: 'dark'            # dark or light
+
+color_01: '#131317'    # Black (Host)
+color_02: '#829FA7'    # Red (Syntax string)
+color_03: '#648F68'    # Green (Command)
+color_04: '#DA674B'    # Yellow (Command second)
+color_05: '#5C87A4'    # Blue (Path)
+color_06: '#E8B246'    # Magenta (Syntax var)
+color_07: '#A27E57'    # Cyan (Prompt)
+color_08: '#868690'    # White
+
+color_09: '#575861'    # Bright Black
+color_10: '#E8B246'    # Bright Red (Command error)
+color_11: '#648F68'    # Bright Green (Exec)
+color_12: '#DA674B'    # Bright Yellow
+color_13: '#5C87A4'    # Bright Blue (Folder)
+color_14: '#829FA7'    # Bright Magenta
+color_15: '#A27E57'    # Bright Cyan
+color_16: '#868690'    # Bright White
+
+background: '#0F1014'  # Background
+foreground: '#868690'  # Foreground (Text)
+
+cursor: '#43444D'      # Cursor

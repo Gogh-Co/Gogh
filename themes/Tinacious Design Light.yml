@@ -1,0 +1,27 @@
+---
+name: 'Tinacious Design Light'
+author: 'Tina Holly (https://tinaciousdesign.com)'
+variant: 'light'            # dark or light
+
+color_01: '#1D1D26'    # Black (Host)
+color_02: '#FF3399'    # Red (Syntax string)
+color_03: '#00D364'    # Green (Command)
+color_04: '#FFCC66'    # Yellow (Command second)
+color_05: '#00CBFF'    # Blue (Path)
+color_06: '#CC66FF'    # Magenta (Syntax var)
+color_07: '#00CECA'    # Cyan (Prompt)
+color_08: '#CBCBF0'    # White
+
+color_09: '#636667'    # Bright Black
+color_10: '#FF2F92'    # Bright Red (Command error)
+color_11: '#00D364'    # Bright Green (Exec)
+color_12: '#FFD479'    # Bright Yellow
+color_13: '#00CBFF'    # Bright Blue (Folder)
+color_14: '#D783FF'    # Bright Magenta
+color_15: '#00D5D4'    # Bright Cyan
+color_16: '#D5D6F3'    # Bright White
+
+background: '#F8F8FF'  # Background
+foreground: '#1D1D26'  # Foreground (Text)
+
+cursor: '#CBCBF0'      # Cursor

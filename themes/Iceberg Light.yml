@@ -1,0 +1,27 @@
+---
+name: 'Iceberg Light'
+author: 'cocopon (https://github.com/cocopon/iceberg.vim)'
+variant: 'light'            # dark or light
+
+color_01: '#DCDFE7'    # Black (Host)
+color_02: '#CC517A'    # Red (Syntax string)
+color_03: '#668E3D'    # Green (Command)
+color_04: '#C57339'    # Yellow (Command second)
+color_05: '#2D539E'    # Blue (Path)
+color_06: '#7759B4'    # Magenta (Syntax var)
+color_07: '#3F83A6'    # Cyan (Prompt)
+color_08: '#33374C'    # White
+
+color_09: '#8389A3'    # Bright Black
+color_10: '#CC3768'    # Bright Red (Command error)
+color_11: '#598030'    # Bright Green (Exec)
+color_12: '#B6662D'    # Bright Yellow
+color_13: '#22478E'    # Bright Blue (Folder)
+color_14: '#6845AD'    # Bright Magenta
+color_15: '#327698'    # Bright Cyan
+color_16: '#262A3F'    # Bright White
+
+background: '#E8E9EC'  # Background
+foreground: '#33374C'  # Foreground (Text)
+
+cursor: '#33374C'      # Cursor

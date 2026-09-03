@@ -1,0 +1,27 @@
+---
+name: 'Sunset Drive'
+author: 'tahayvr (https://github.com/tahayvr)'
+variant: 'dark'            # dark or light
+
+color_01: '#0A0A12'    # Black (Host)
+color_02: '#FF3366'    # Red (Syntax string)
+color_03: '#00F59B'    # Green (Command)
+color_04: '#FFEA00'    # Yellow (Command second)
+color_05: '#33A1FF'    # Blue (Path)
+color_06: '#FF66F6'    # Magenta (Syntax var)
+color_07: '#3CFFED'    # Cyan (Prompt)
+color_08: '#EDEDFE'    # White
+
+color_09: '#181824'    # Bright Black
+color_10: '#FF9A8F'    # Bright Red (Command error)
+color_11: '#57F8BD'    # Bright Green (Exec)
+color_12: '#FFFF80'    # Bright Yellow
+color_13: '#5A9EFF'    # Bright Blue (Folder)
+color_14: '#FF99FF'    # Bright Magenta
+color_15: '#80FFFF'    # Bright Cyan
+color_16: '#F8F8FF'    # Bright White
+
+background: '#0F0F19'  # Background
+foreground: '#EDEDFD'  # Foreground (Text)
+
+cursor: '#EDEDFD'      # Cursor

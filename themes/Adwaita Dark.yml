@@ -1,0 +1,27 @@
+---
+name: 'Adwaita Dark'
+author: 'cnavajas (https://github.com/cnavajas)'
+variant: 'dark'            # dark or light
+
+color_01: '#241F31'    # Black (Host)
+color_02: '#C01C28'    # Red (Syntax string)
+color_03: '#2EC27E'    # Green (Command)
+color_04: '#F5C211'    # Yellow (Command second)
+color_05: '#1E78E4'    # Blue (Path)
+color_06: '#9841BB'    # Magenta (Syntax var)
+color_07: '#0AB9DC'    # Cyan (Prompt)
+color_08: '#C0BFBC'    # White
+
+color_09: '#5E5C64'    # Bright Black
+color_10: '#ED333B'    # Bright Red (Command error)
+color_11: '#57E389'    # Bright Green (Exec)
+color_12: '#F8E45C'    # Bright Yellow
+color_13: '#51A1FF'    # Bright Blue (Folder)
+color_14: '#C061CB'    # Bright Magenta
+color_15: '#4FD2FD'    # Bright Cyan
+color_16: '#F6F5F4'    # Bright White
+
+background: '#1C1C1F'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

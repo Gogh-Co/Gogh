@@ -1,0 +1,27 @@
+---
+name: 'Framer'
+author: 'markogresak (https://github.com/markogresak)'
+variant: 'dark'            # dark or light
+
+color_01: '#141414'    # Black (Host)
+color_02: '#FF5555'    # Red (Syntax string)
+color_03: '#98EC65'    # Green (Command)
+color_04: '#FFCC33'    # Yellow (Command second)
+color_05: '#00AAFF'    # Blue (Path)
+color_06: '#AA88FF'    # Magenta (Syntax var)
+color_07: '#88DDFF'    # Cyan (Prompt)
+color_08: '#CCCCCC'    # White
+
+color_09: '#414141'    # Bright Black
+color_10: '#FF8888'    # Bright Red (Command error)
+color_11: '#B6F292'    # Bright Green (Exec)
+color_12: '#FFD966'    # Bright Yellow
+color_13: '#33BBFF'    # Bright Blue (Folder)
+color_14: '#CEBBFF'    # Bright Magenta
+color_15: '#BBECFF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#111111'  # Background
+foreground: '#777777'  # Foreground (Text)
+
+cursor: '#FCDC08'      # Cursor

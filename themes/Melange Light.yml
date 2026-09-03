@@ -1,0 +1,27 @@
+---
+name: 'Melange Light'
+author: 'savq (https://github.com/savq)'
+variant: 'light'            # dark or light
+
+color_01: '#E9E1DB'    # Black (Host)
+color_02: '#C77B8B'    # Red (Syntax string)
+color_03: '#6E9B72'    # Green (Command)
+color_04: '#BC5C00'    # Yellow (Command second)
+color_05: '#7892BD'    # Blue (Path)
+color_06: '#BE79BB'    # Magenta (Syntax var)
+color_07: '#739797'    # Cyan (Prompt)
+color_08: '#7D6658'    # White
+
+color_09: '#A98A78'    # Bright Black
+color_10: '#BF0021'    # Bright Red (Command error)
+color_11: '#3A684A'    # Bright Green (Exec)
+color_12: '#A06D00'    # Bright Yellow
+color_13: '#465AA4'    # Bright Blue (Folder)
+color_14: '#904180'    # Bright Magenta
+color_15: '#3D6568'    # Bright Cyan
+color_16: '#54433A'    # Bright White
+
+background: '#F1F1F1'  # Background
+foreground: '#54433A'  # Foreground (Text)
+
+cursor: '#54433A'      # Cursor

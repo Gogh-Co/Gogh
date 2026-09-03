@@ -1,0 +1,27 @@
+---
+name: 'Serendipity Sunset'
+author: 'Michael Andreuzza (https://github.com/michael-andreuzza)'
+variant: 'dark'            # dark or light
+
+color_01: '#363847'    # Black (Host)
+color_02: '#D1918F'    # Red (Syntax string)
+color_03: '#709BBD'    # Green (Command)
+color_04: '#A392DC'    # Yellow (Command second)
+color_05: '#A0B6E8'    # Blue (Path)
+color_06: '#AAC9D4'    # Magenta (Syntax var)
+color_07: '#D6B4B4'    # Cyan (Prompt)
+color_08: '#DEE0EF'    # White
+
+color_09: '#6B6D7C'    # Bright Black
+color_10: '#D1918F'    # Bright Red (Command error)
+color_11: '#709BBD'    # Bright Green (Exec)
+color_12: '#A392DC'    # Bright Yellow
+color_13: '#A0B6E8'    # Bright Blue (Folder)
+color_14: '#AAC9D4'    # Bright Magenta
+color_15: '#D6B4B4'    # Bright Cyan
+color_16: '#DEE0EF'    # Bright White
+
+background: '#202231'  # Background
+foreground: '#DEE0EF'  # Foreground (Text)
+
+cursor: '#8D8F9E'      # Cursor

@@ -1,0 +1,27 @@
+---
+name: 'Ghostty Default Style Dark'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#1D1F21'    # Black (Host)
+color_02: '#BF6B69'    # Red (Syntax string)
+color_03: '#B7BD73'    # Green (Command)
+color_04: '#E9C880'    # Yellow (Command second)
+color_05: '#88A1BB'    # Blue (Path)
+color_06: '#AD95B8'    # Magenta (Syntax var)
+color_07: '#95BDB7'    # Cyan (Prompt)
+color_08: '#C5C8C6'    # White
+
+color_09: '#666666'    # Bright Black
+color_10: '#C55757'    # Bright Red (Command error)
+color_11: '#BCC95F'    # Bright Green (Exec)
+color_12: '#E1C65E'    # Bright Yellow
+color_13: '#83A5D6'    # Bright Blue (Folder)
+color_14: '#BC99D4'    # Bright Magenta
+color_15: '#83BEB1'    # Bright Cyan
+color_16: '#EAEAEA'    # Bright White
+
+background: '#292C33'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

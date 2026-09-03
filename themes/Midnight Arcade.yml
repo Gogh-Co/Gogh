@@ -1,0 +1,27 @@
+---
+name: 'Midnight Arcade'
+author: 'theebest.com (https://www.theebest.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#3F4550'    # Black (Host)
+color_02: '#FB7185'    # Red (Syntax string)
+color_03: '#22C55E'    # Green (Command)
+color_04: '#FBBF24'    # Yellow (Command second)
+color_05: '#60A5FA'    # Blue (Path)
+color_06: '#E879F9'    # Magenta (Syntax var)
+color_07: '#22D3EE'    # Cyan (Prompt)
+color_08: '#B6C2D5'    # White
+
+color_09: '#3D4452'    # Bright Black
+color_10: '#FC8D9D'    # Bright Red (Command error)
+color_11: '#4ED17E'    # Bright Green (Exec)
+color_12: '#FCCB4B'    # Bright Yellow
+color_13: '#80B7FB'    # Bright Blue (Folder)
+color_14: '#ED94FA'    # Bright Magenta
+color_15: '#4EDCF1'    # Bright Cyan
+color_16: '#F8FAFC'    # Bright White
+
+background: '#0B1220'  # Background
+foreground: '#F8FAFC'  # Foreground (Text)
+
+cursor: '#F8FAFC'      # Cursor

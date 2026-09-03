@@ -1,0 +1,27 @@
+---
+name: 'Cyberpunk'
+author: 'Murderlon (https://github.com/Murderlon/cyberpunk-iterm)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#FF7092'    # Red (Syntax string)
+color_03: '#00FBAC'    # Green (Command)
+color_04: '#FFFA6A'    # Yellow (Command second)
+color_05: '#00BFFF'    # Blue (Path)
+color_06: '#DF95FF'    # Magenta (Syntax var)
+color_07: '#86CBFE'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#000000'    # Bright Black
+color_10: '#FF8AA4'    # Bright Red (Command error)
+color_11: '#21F6BC'    # Bright Green (Exec)
+color_12: '#FFF787'    # Bright Yellow
+color_13: '#1BCCFD'    # Bright Blue (Folder)
+color_14: '#E6AEFE'    # Bright Magenta
+color_15: '#99D6FC'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#332A57'  # Background
+foreground: '#E5E5E5'  # Foreground (Text)
+
+cursor: '#21F6BC'      # Cursor

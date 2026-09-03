@@ -1,0 +1,27 @@
+---
+name: 'Carbonfox'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#282828'    # Black (Host)
+color_02: '#EE5396'    # Red (Syntax string)
+color_03: '#25BE6A'    # Green (Command)
+color_04: '#08BDBA'    # Yellow (Command second)
+color_05: '#78A9FF'    # Blue (Path)
+color_06: '#BE95FF'    # Magenta (Syntax var)
+color_07: '#33B1FF'    # Cyan (Prompt)
+color_08: '#DFDFE0'    # White
+
+color_09: '#484848'    # Bright Black
+color_10: '#F16DA6'    # Bright Red (Command error)
+color_11: '#46C880'    # Bright Green (Exec)
+color_12: '#2DC7C4'    # Bright Yellow
+color_13: '#8CB6FF'    # Bright Blue (Folder)
+color_14: '#C8A5FF'    # Bright Magenta
+color_15: '#52BDFF'    # Bright Cyan
+color_16: '#E4E4E5'    # Bright White
+
+background: '#161616'  # Background
+foreground: '#F2F4F8'  # Foreground (Text)
+
+cursor: '#F2F4F8'      # Cursor

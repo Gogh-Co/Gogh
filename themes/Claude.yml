@@ -1,0 +1,27 @@
+---
+name: 'Claude'
+author: 'techfitmaster (https://github.com/techfitmaster/ghostty-claude-theme)'
+variant: 'light'            # dark or light
+
+color_01: '#C15F3C'    # Black (Host)
+color_02: '#788C5D'    # Red (Syntax string)
+color_03: '#B16803'    # Green (Command)
+color_04: '#6A9BCC'    # Yellow (Command second)
+color_05: '#8B6CB0'    # Blue (Path)
+color_06: '#2E8B8B'    # Magenta (Syntax var)
+color_07: '#B5B3A9'    # Cyan (Prompt)
+color_08: '#3D3D3C'    # White
+
+color_09: '#D97757'    # Bright Black
+color_10: '#8FA86B'    # Bright Red (Command error)
+color_11: '#D4952B'    # Bright Green (Exec)
+color_12: '#7BAFD4'    # Bright Yellow
+color_13: '#A080C8'    # Bright Blue (Folder)
+color_14: '#4EAAAA'    # Bright Magenta
+color_15: '#BAB9B5'    # Bright Cyan
+color_16: '#141413'    # Bright White
+
+background: '#FAF9F5'  # Background
+foreground: '#141413'  # Foreground (Text)
+
+cursor: '#D97757'      # Cursor

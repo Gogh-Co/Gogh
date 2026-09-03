@@ -1,0 +1,27 @@
+---
+name: 'Aurora'
+author: 'fcsmJS (https://github.com/fcsmJS/iTerm2-Color-Schemes)'
+variant: 'dark'            # dark or light
+
+color_01: '#23262E'    # Black (Host)
+color_02: '#F0266F'    # Red (Syntax string)
+color_03: '#8FD46D'    # Green (Command)
+color_04: '#FFE66D'    # Yellow (Command second)
+color_05: '#0321D7'    # Blue (Path)
+color_06: '#EE5D43'    # Magenta (Syntax var)
+color_07: '#03D6B8'    # Cyan (Prompt)
+color_08: '#C74DED'    # White
+
+color_09: '#292E38'    # Bright Black
+color_10: '#F92672'    # Bright Red (Command error)
+color_11: '#8FD46D'    # Bright Green (Exec)
+color_12: '#FFE66D'    # Bright Yellow
+color_13: '#03D6B8'    # Bright Blue (Folder)
+color_14: '#EE5D43'    # Bright Magenta
+color_15: '#03D6B8'    # Bright Cyan
+color_16: '#C74DED'    # Bright White
+
+background: '#23262E'  # Background
+foreground: '#FFCA28'  # Foreground (Text)
+
+cursor: '#EE5D43'      # Cursor

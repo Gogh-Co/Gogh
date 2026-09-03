@@ -1,0 +1,27 @@
+---
+name: 'Subliminal'
+author: 'gdsrosa (https://github.com/gdsrosa/subliminal-itermcolors)'
+variant: 'dark'            # dark or light
+
+color_01: '#7F7F7F'    # Black (Host)
+color_02: '#E15A60'    # Red (Syntax string)
+color_03: '#A9CFA4'    # Green (Command)
+color_04: '#FFE2A9'    # Yellow (Command second)
+color_05: '#6699CC'    # Blue (Path)
+color_06: '#F1A5AB'    # Magenta (Syntax var)
+color_07: '#5FB3B3'    # Cyan (Prompt)
+color_08: '#D4D4D4'    # White
+
+color_09: '#7F7F7F'    # Bright Black
+color_10: '#E15A60'    # Bright Red (Command error)
+color_11: '#A9CFA4'    # Bright Green (Exec)
+color_12: '#FFE2A9'    # Bright Yellow
+color_13: '#6699CC'    # Bright Blue (Folder)
+color_14: '#F1A5AB'    # Bright Magenta
+color_15: '#5FB3B3'    # Bright Cyan
+color_16: '#D4D4D4'    # Bright White
+
+background: '#282C35'  # Background
+foreground: '#D4D4D4'  # Foreground (Text)
+
+cursor: '#C7C7C7'      # Cursor

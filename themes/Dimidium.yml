@@ -1,0 +1,27 @@
+---
+name: 'Dimidium'
+author: 'dofuuz (https://github.com/dofuuz/dimidium)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#CF494C'    # Red (Syntax string)
+color_03: '#60B442'    # Green (Command)
+color_04: '#DB9C11'    # Yellow (Command second)
+color_05: '#0575D8'    # Blue (Path)
+color_06: '#AF5ED2'    # Magenta (Syntax var)
+color_07: '#1DB6BB'    # Cyan (Prompt)
+color_08: '#BAB7B6'    # White
+
+color_09: '#817E7E'    # Bright Black
+color_10: '#FF643B'    # Bright Red (Command error)
+color_11: '#37E57B'    # Bright Green (Exec)
+color_12: '#FCCD1A'    # Bright Yellow
+color_13: '#688DFD'    # Bright Blue (Folder)
+color_14: '#ED6FE9'    # Bright Magenta
+color_15: '#32E0FB'    # Bright Cyan
+color_16: '#DEE3E4'    # Bright White
+
+background: '#141414'  # Background
+foreground: '#BAB7B6'  # Foreground (Text)
+
+cursor: '#37E57B'      # Cursor

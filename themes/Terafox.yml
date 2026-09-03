@@ -1,0 +1,27 @@
+---
+name: 'Terafox'
+author: 'EdenEast (https://github.com/edeneast/nightfox.nvim)'
+variant: 'dark'            # dark or light
+
+color_01: '#2F3239'    # Black (Host)
+color_02: '#E85C51'    # Red (Syntax string)
+color_03: '#7AA4A1'    # Green (Command)
+color_04: '#FDA47F'    # Yellow (Command second)
+color_05: '#5A93AA'    # Blue (Path)
+color_06: '#AD5C7C'    # Magenta (Syntax var)
+color_07: '#A1CDD8'    # Cyan (Prompt)
+color_08: '#EBEBEB'    # White
+
+color_09: '#4E5157'    # Bright Black
+color_10: '#EB746B'    # Bright Red (Command error)
+color_11: '#8EB2AF'    # Bright Green (Exec)
+color_12: '#FDB292'    # Bright Yellow
+color_13: '#73A3B7'    # Bright Blue (Folder)
+color_14: '#B97490'    # Bright Magenta
+color_15: '#AFD4DE'    # Bright Cyan
+color_16: '#EEEEEE'    # Bright White
+
+background: '#152528'  # Background
+foreground: '#E6EAEA'  # Foreground (Text)
+
+cursor: '#E6EAEA'      # Cursor

@@ -1,0 +1,27 @@
+---
+name: 'Grey Green'
+author: 'lee (https://github.com/yg66)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#FE1414'    # Red (Syntax string)
+color_03: '#74FF00'    # Green (Command)
+color_04: '#F1FF01'    # Yellow (Command second)
+color_05: '#00DEFF'    # Blue (Path)
+color_06: '#FF00F0'    # Magenta (Syntax var)
+color_07: '#00FFBC'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#666666'    # Bright Black
+color_10: '#FF3939'    # Bright Red (Command error)
+color_11: '#00FF44'    # Bright Green (Exec)
+color_12: '#FFD100'    # Bright Yellow
+color_13: '#00AFFF'    # Bright Blue (Folder)
+color_14: '#FF008A'    # Bright Magenta
+color_15: '#00FFD3'    # Bright Cyan
+color_16: '#F5ECEC'    # Bright White
+
+background: '#002A1A'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFF400'      # Cursor

@@ -1,0 +1,27 @@
+---
+name: 'Nocturnal Winter'
+author: 'Shriram Balaji (https://github.com/Shriram-Balaji)'
+variant: 'dark'            # dark or light
+
+color_01: '#4D4D4D'    # Black (Host)
+color_02: '#F12D52'    # Red (Syntax string)
+color_03: '#09CD7E'    # Green (Command)
+color_04: '#F5F17A'    # Yellow (Command second)
+color_05: '#3182E0'    # Blue (Path)
+color_06: '#FF2B6D'    # Magenta (Syntax var)
+color_07: '#09C87A'    # Cyan (Prompt)
+color_08: '#FCFCFC'    # White
+
+color_09: '#808080'    # Bright Black
+color_10: '#F16D86'    # Bright Red (Command error)
+color_11: '#0AE78D'    # Bright Green (Exec)
+color_12: '#FFFC67'    # Bright Yellow
+color_13: '#6096FF'    # Bright Blue (Folder)
+color_14: '#FF78A2'    # Bright Magenta
+color_15: '#0AE78D'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#0D0D17'  # Background
+foreground: '#E6E5E5'  # Foreground (Text)
+
+cursor: '#E6E5E5'      # Cursor

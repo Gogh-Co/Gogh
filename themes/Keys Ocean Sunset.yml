@@ -1,0 +1,27 @@
+---
+name: 'Keys Ocean Sunset'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#101927'    # Black (Host)
+color_02: '#E85A52'    # Red (Syntax string)
+color_03: '#4A9A72'    # Green (Command)
+color_04: '#E89A2E'    # Yellow (Command second)
+color_05: '#5288B8'    # Blue (Path)
+color_06: '#BC5090'    # Magenta (Syntax var)
+color_07: '#5EC8C8'    # Cyan (Prompt)
+color_08: '#A5B5D5'    # White
+
+color_09: '#344658'    # Bright Black
+color_10: '#FC9077'    # Bright Red (Command error)
+color_11: '#62C48E'    # Bright Green (Exec)
+color_12: '#FFCB9A'    # Bright Yellow
+color_13: '#5A8FD4'    # Bright Blue (Folder)
+color_14: '#FDBFDE'    # Bright Magenta
+color_15: '#7ED4E0'    # Bright Cyan
+color_16: '#FFF5BE'    # Bright White
+
+background: '#0A1018'  # Background
+foreground: '#B8C8DC'  # Foreground (Text)
+
+cursor: '#FC9077'      # Cursor

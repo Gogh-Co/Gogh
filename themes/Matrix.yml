@@ -1,0 +1,27 @@
+---
+name: 'Matrix'
+author: 'Jim Xu (https://github.com/i3d)'
+variant: 'dark'            # dark or light
+
+color_01: '#0F191C'    # Black (Host)
+color_02: '#23755A'    # Red (Syntax string)
+color_03: '#82D967'    # Green (Command)
+color_04: '#FFD700'    # Yellow (Command second)
+color_05: '#3F5242'    # Blue (Path)
+color_06: '#409931'    # Magenta (Syntax var)
+color_07: '#50B45A'    # Cyan (Prompt)
+color_08: '#507350'    # White
+
+color_09: '#688060'    # Bright Black
+color_10: '#2FC079'    # Bright Red (Command error)
+color_11: '#90D762'    # Bright Green (Exec)
+color_12: '#FAFF00'    # Bright Yellow
+color_13: '#4F7E7E'    # Bright Blue (Folder)
+color_14: '#11FF25'    # Bright Magenta
+color_15: '#C1FF8A'    # Bright Cyan
+color_16: '#678C61'    # Bright White
+
+background: '#0F191C'  # Background
+foreground: '#426644'  # Foreground (Text)
+
+cursor: '#384545'      # Cursor

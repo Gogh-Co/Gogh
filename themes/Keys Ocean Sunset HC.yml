@@ -1,0 +1,27 @@
+---
+name: 'Keys Ocean Sunset HC'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#7A92A8'    # Black (Host)
+color_02: '#FF6361'    # Red (Syntax string)
+color_03: '#4AD68A'    # Green (Command)
+color_04: '#FFA600'    # Yellow (Command second)
+color_05: '#6AA8F0'    # Blue (Path)
+color_06: '#DE72B0'    # Magenta (Syntax var)
+color_07: '#5EDEE8'    # Cyan (Prompt)
+color_08: '#C8D8EC'    # White
+
+color_09: '#8AA0B8'    # Bright Black
+color_10: '#FF8578'    # Bright Red (Command error)
+color_11: '#72F0A8'    # Bright Green (Exec)
+color_12: '#FFD380'    # Bright Yellow
+color_13: '#88C4FF'    # Bright Blue (Folder)
+color_14: '#F0A8D8'    # Bright Magenta
+color_15: '#88F0F8'    # Bright Cyan
+color_16: '#FFF5BE'    # Bright White
+
+background: '#060910'  # Background
+foreground: '#F0F4FA'  # Foreground (Text)
+
+cursor: '#FF8531'      # Cursor

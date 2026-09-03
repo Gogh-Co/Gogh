@@ -1,0 +1,27 @@
+---
+name: 'Aardvark Ink'
+author: 'joshka (https://github.com/joshka)'
+variant: 'dark'            # dark or light
+
+color_01: '#222734'    # Black (Host)
+color_02: '#C26265'    # Red (Syntax string)
+color_03: '#52AA60'    # Green (Command)
+color_04: '#AD9B49'    # Yellow (Command second)
+color_05: '#487FD4'    # Blue (Path)
+color_06: '#AF5BD1'    # Magenta (Syntax var)
+color_07: '#269D9A'    # Cyan (Prompt)
+color_08: '#5A6377'    # White
+
+color_09: '#3A4152'    # Bright Black
+color_10: '#E48383'    # Bright Red (Command error)
+color_11: '#75CF84'    # Bright Green (Exec)
+color_12: '#C7B461'    # Bright Yellow
+color_13: '#76A8F2'    # Bright Blue (Folder)
+color_14: '#D58BF0'    # Bright Magenta
+color_15: '#52C4C0'    # Bright Cyan
+color_16: '#DFE5EE'    # Bright White
+
+background: '#0F141F'  # Background
+foreground: '#B4BCCA'  # Foreground (Text)
+
+cursor: '#B4BCCA'      # Cursor

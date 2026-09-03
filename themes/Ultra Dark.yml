@@ -1,0 +1,27 @@
+---
+name: 'Ultra Dark'
+author: 'Kasper (https://github.com/Kasper-Liu)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#F07178'    # Red (Syntax string)
+color_03: '#C3E88D'    # Green (Command)
+color_04: '#FFCB6B'    # Yellow (Command second)
+color_05: '#82AAFF'    # Blue (Path)
+color_06: '#C792EA'    # Magenta (Syntax var)
+color_07: '#89DDFF'    # Cyan (Prompt)
+color_08: '#CCCCCC'    # White
+
+color_09: '#333333'    # Bright Black
+color_10: '#F6A9AE'    # Bright Red (Command error)
+color_11: '#DBF1BA'    # Bright Green (Exec)
+color_12: '#FFDFA6'    # Bright Yellow
+color_13: '#B4CCFF'    # Bright Blue (Folder)
+color_14: '#DDBDF2'    # Bright Magenta
+color_15: '#B8EAFF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FEFEFE'      # Cursor

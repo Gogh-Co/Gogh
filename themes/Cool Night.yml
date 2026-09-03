@@ -1,0 +1,27 @@
+---
+name: 'Cool Night'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#0B3B61'    # Black (Host)
+color_02: '#FF3A3A'    # Red (Syntax string)
+color_03: '#52FFD0'    # Green (Command)
+color_04: '#FFF383'    # Yellow (Command second)
+color_05: '#1376F9'    # Blue (Path)
+color_06: '#C792EA'    # Magenta (Syntax var)
+color_07: '#FF5ED4'    # Cyan (Prompt)
+color_08: '#16FDA2'    # White
+
+color_09: '#63686D'    # Bright Black
+color_10: '#FF54B0'    # Bright Red (Command error)
+color_11: '#74FFD8'    # Bright Green (Exec)
+color_12: '#FCF5AE'    # Bright Yellow
+color_13: '#388EFF'    # Bright Blue (Folder)
+color_14: '#AE81FF'    # Bright Magenta
+color_15: '#FF6AD7'    # Bright Cyan
+color_16: '#60FBBF'    # Bright White
+
+background: '#010C18'  # Background
+foreground: '#ECDEF4'  # Foreground (Text)
+
+cursor: '#38FF9D'      # Cursor

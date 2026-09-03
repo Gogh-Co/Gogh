@@ -1,0 +1,27 @@
+---
+name: 'Dot Gov'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#191919'    # Black (Host)
+color_02: '#BF091D'    # Red (Syntax string)
+color_03: '#3D9751'    # Green (Command)
+color_04: '#F6BB34'    # Yellow (Command second)
+color_05: '#17B2E0'    # Blue (Path)
+color_06: '#7830B0'    # Magenta (Syntax var)
+color_07: '#8BD2ED'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#191919'    # Bright Black
+color_10: '#BF091D'    # Bright Red (Command error)
+color_11: '#3D9751'    # Bright Green (Exec)
+color_12: '#F6BB34'    # Bright Yellow
+color_13: '#17B2E0'    # Bright Blue (Folder)
+color_14: '#7830B0'    # Bright Magenta
+color_15: '#8BD2ED'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#262C35'  # Background
+foreground: '#EBEBEB'  # Foreground (Text)
+
+cursor: '#D9002F'      # Cursor

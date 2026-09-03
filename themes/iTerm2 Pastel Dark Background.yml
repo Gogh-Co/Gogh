@@ -1,0 +1,27 @@
+---
+name: 'iTerm2 Pastel Dark Background'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#626262'    # Black (Host)
+color_02: '#FF8373'    # Red (Syntax string)
+color_03: '#B4FB73'    # Green (Command)
+color_04: '#FFFDC3'    # Yellow (Command second)
+color_05: '#A5D5FE'    # Blue (Path)
+color_06: '#FF90FE'    # Magenta (Syntax var)
+color_07: '#D1D1FE'    # Cyan (Prompt)
+color_08: '#F1F1F1'    # White
+
+color_09: '#8F8F8F'    # Bright Black
+color_10: '#FFC4BE'    # Bright Red (Command error)
+color_11: '#D6FCBA'    # Bright Green (Exec)
+color_12: '#FFFED5'    # Bright Yellow
+color_13: '#C2E3FF'    # Bright Blue (Folder)
+color_14: '#FFB2FE'    # Bright Magenta
+color_15: '#E6E6FE'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#C7C7C7'  # Foreground (Text)
+
+cursor: '#FFB473'      # Cursor

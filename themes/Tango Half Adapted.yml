@@ -1,0 +1,27 @@
+---
+name: 'Tango Half Adapted'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'light'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#FF0000'    # Red (Syntax string)
+color_03: '#4CC300'    # Green (Command)
+color_04: '#E2C000'    # Yellow (Command second)
+color_05: '#008EF6'    # Blue (Path)
+color_06: '#A96CB3'    # Magenta (Syntax var)
+color_07: '#00BDC3'    # Cyan (Prompt)
+color_08: '#E0E5DB'    # White
+
+color_09: '#797D76'    # Bright Black
+color_10: '#FF0013'    # Bright Red (Command error)
+color_11: '#8AF600'    # Bright Green (Exec)
+color_12: '#FFEC00'    # Bright Yellow
+color_13: '#76BFFF'    # Bright Blue (Folder)
+color_14: '#D898D1'    # Bright Magenta
+color_15: '#00F6FA'    # Bright Cyan
+color_16: '#F4F4F2'    # Bright White
+
+background: '#FFFFFF'  # Background
+foreground: '#000000'  # Foreground (Text)
+
+cursor: '#000000'      # Cursor

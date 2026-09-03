@@ -1,0 +1,27 @@
+---
+name: 'Embark'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#1E1C31'    # Black (Host)
+color_02: '#F0719B'    # Red (Syntax string)
+color_03: '#A1EFD3'    # Green (Command)
+color_04: '#FFE9AA'    # Yellow (Command second)
+color_05: '#57C7FF'    # Blue (Path)
+color_06: '#C792EA'    # Magenta (Syntax var)
+color_07: '#87DFEB'    # Cyan (Prompt)
+color_08: '#F8F8F2'    # White
+
+color_09: '#585273'    # Bright Black
+color_10: '#F02E6E'    # Bright Red (Command error)
+color_11: '#2CE592'    # Bright Green (Exec)
+color_12: '#FFB378'    # Bright Yellow
+color_13: '#1DA0E2'    # Bright Blue (Folder)
+color_14: '#A742EA'    # Bright Magenta
+color_15: '#63F2F1'    # Bright Cyan
+color_16: '#A6B3CC'    # Bright White
+
+background: '#1E1C31'  # Background
+foreground: '#EEFFFF'  # Foreground (Text)
+
+cursor: '#A1EFD3'      # Cursor

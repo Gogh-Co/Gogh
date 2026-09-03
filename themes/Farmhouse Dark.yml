@@ -1,0 +1,27 @@
+---
+name: 'Farmhouse Dark'
+author: 'mattly (https://github.com/mattly)'
+variant: 'dark'            # dark or light
+
+color_01: '#1D2027'    # Black (Host)
+color_02: '#BA0004'    # Red (Syntax string)
+color_03: '#549D00'    # Green (Command)
+color_04: '#C87300'    # Yellow (Command second)
+color_05: '#0049E6'    # Blue (Path)
+color_06: '#9F1B61'    # Magenta (Syntax var)
+color_07: '#1FB65C'    # Cyan (Prompt)
+color_08: '#E8E4E1'    # White
+
+color_09: '#394047'    # Bright Black
+color_10: '#EB0009'    # Bright Red (Command error)
+color_11: '#7AC100'    # Bright Green (Exec)
+color_12: '#EA9A00'    # Bright Yellow
+color_13: '#006EFE'    # Bright Blue (Folder)
+color_14: '#BF3B7F'    # Bright Magenta
+color_15: '#19E062'    # Bright Cyan
+color_16: '#F4EEF0'    # Bright White
+
+background: '#1D2027'  # Background
+foreground: '#E8E4E1'  # Foreground (Text)
+
+cursor: '#006EFE'      # Cursor

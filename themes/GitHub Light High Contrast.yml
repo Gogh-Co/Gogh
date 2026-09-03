@@ -1,0 +1,27 @@
+---
+name: 'GitHub Light High Contrast'
+author: 'Antonio Camargo (https://github.com/apcamargo)'
+variant: 'light'            # dark or light
+
+color_01: '#0E1116'    # Black (Host)
+color_02: '#A0111F'    # Red (Syntax string)
+color_03: '#024C1A'    # Green (Command)
+color_04: '#3F2200'    # Yellow (Command second)
+color_05: '#0349B4'    # Blue (Path)
+color_06: '#622CBC'    # Magenta (Syntax var)
+color_07: '#1B7C83'    # Cyan (Prompt)
+color_08: '#66707B'    # White
+
+color_09: '#4B535D'    # Bright Black
+color_10: '#86061D'    # Bright Red (Command error)
+color_11: '#055D20'    # Bright Green (Exec)
+color_12: '#4E2C00'    # Bright Yellow
+color_13: '#1168E3'    # Bright Blue (Folder)
+color_14: '#844AE7'    # Bright Magenta
+color_15: '#3192AA'    # Bright Cyan
+color_16: '#88929D'    # Bright White
+
+background: '#FFFFFF'  # Background
+foreground: '#0E1116'  # Foreground (Text)
+
+cursor: '#0349B4'      # Cursor

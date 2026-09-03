@@ -1,0 +1,27 @@
+---
+name: 'One Double Light'
+author: 'pamburus (https://github.com/pamburus/one-double)'
+variant: 'light'            # dark or light
+
+color_01: '#464B57'    # Black (Host)
+color_02: '#E45649'    # Red (Syntax string)
+color_03: '#50A14F'    # Green (Command)
+color_04: '#C18401'    # Yellow (Command second)
+color_05: '#0184BC'    # Blue (Path)
+color_06: '#A626A4'    # Magenta (Syntax var)
+color_07: '#0997B3'    # Cyan (Prompt)
+color_08: '#E8D9D9'    # White
+
+color_09: '#0F131E'    # Bright Black
+color_10: '#F24C2D'    # Bright Red (Command error)
+color_11: '#3DB637'    # Bright Green (Exec)
+color_12: '#E09D00'    # Bright Yellow
+color_13: '#2E63D6'    # Bright Blue (Folder)
+color_14: '#D21FD1'    # Bright Magenta
+color_15: '#06B1D8'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#FAFAFA'  # Background
+foreground: '#383A42'  # Foreground (Text)
+
+cursor: '#1A1A1A'      # Cursor

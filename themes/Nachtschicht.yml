@@ -1,0 +1,27 @@
+---
+name: 'Nachtschicht'
+author: 'notgabriels-sys (https://github.com/notgabriels-sys)'
+variant: 'dark'            # dark or light
+
+color_01: '#0E1012'    # Black (Host)
+color_02: '#E5484D'    # Red (Syntax string)
+color_03: '#33D17A'    # Green (Command)
+color_04: '#E3B341'    # Yellow (Command second)
+color_05: '#4D7CFE'    # Blue (Path)
+color_06: '#C86AD8'    # Magenta (Syntax var)
+color_07: '#3FC8B0'    # Cyan (Prompt)
+color_08: '#C9CFD6'    # White
+
+color_09: '#9DA4AF'    # Bright Black
+color_10: '#EF8F92'    # Bright Red (Command error)
+color_11: '#76E0A5'    # Bright Green (Exec)
+color_12: '#EDCF88'    # Bright Yellow
+color_13: '#9EB8FE'    # Bright Blue (Folder)
+color_14: '#E0ABE9'    # Bright Magenta
+color_15: '#7EDACA'    # Bright Cyan
+color_16: '#E8EAED'    # Bright White
+
+background: '#17191D'  # Background
+foreground: '#E8EAED'  # Foreground (Text)
+
+cursor: '#E3B341'      # Cursor

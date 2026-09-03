@@ -1,0 +1,27 @@
+---
+name: 'Karma Light Dimmed'
+author: 'Sreetam Das (https://github.com/sreetamdas)'
+variant: 'light'            # dark or light
+
+color_01: '#1C1F24'    # Black (Host)
+color_02: '#E07A90'    # Red (Syntax string)
+color_03: '#4A9A4C'    # Green (Command)
+color_04: '#D49A26'    # Yellow (Command second)
+color_05: '#6688B8'    # Blue (Path)
+color_06: '#7C5AB0'    # Magenta (Syntax var)
+color_07: '#6688B8'    # Cyan (Prompt)
+color_08: '#5A5860'    # White
+
+color_09: '#999999'    # Bright Black
+color_10: '#E07A90'    # Bright Red (Command error)
+color_11: '#4A9A4C'    # Bright Green (Exec)
+color_12: '#E0A040'    # Bright Yellow
+color_13: '#6688B8'    # Bright Blue (Folder)
+color_14: '#9676D0'    # Bright Magenta
+color_15: '#6688B8'    # Bright Cyan
+color_16: '#1C1F24'    # Bright White
+
+background: '#F5F3F7'  # Background
+foreground: '#1C1F24'  # Foreground (Text)
+
+cursor: '#9676D0'      # Cursor

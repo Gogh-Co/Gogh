@@ -1,0 +1,27 @@
+---
+name: 'Dark+'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#CD3131'    # Red (Syntax string)
+color_03: '#0DBC79'    # Green (Command)
+color_04: '#E5E510'    # Yellow (Command second)
+color_05: '#2472C8'    # Blue (Path)
+color_06: '#BC3FBC'    # Magenta (Syntax var)
+color_07: '#11A8CD'    # Cyan (Prompt)
+color_08: '#E5E5E5'    # White
+
+color_09: '#666666'    # Bright Black
+color_10: '#F14C4C'    # Bright Red (Command error)
+color_11: '#23D18B'    # Bright Green (Exec)
+color_12: '#F5F543'    # Bright Yellow
+color_13: '#3B8EEA'    # Bright Blue (Folder)
+color_14: '#D670D6'    # Bright Magenta
+color_15: '#29B8DB'    # Bright Cyan
+color_16: '#E5E5E5'    # Bright White
+
+background: '#1E1E1E'  # Background
+foreground: '#CCCCCC'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

@@ -1,0 +1,27 @@
+---
+name: 'No Clown Fiesta'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#151515'    # Black (Host)
+color_02: '#B46958'    # Red (Syntax string)
+color_03: '#90A959'    # Green (Command)
+color_04: '#F4BF75'    # Yellow (Command second)
+color_05: '#BAD7FF'    # Blue (Path)
+color_06: '#AA759F'    # Magenta (Syntax var)
+color_07: '#88AFA2'    # Cyan (Prompt)
+color_08: '#E1E1E1'    # White
+
+color_09: '#727272'    # Bright Black
+color_10: '#7E97AB'    # Bright Red (Command error)
+color_11: '#90A959'    # Bright Green (Exec)
+color_12: '#F4BF75'    # Bright Yellow
+color_13: '#BAD7FF'    # Bright Blue (Folder)
+color_14: '#AA759F'    # Bright Magenta
+color_15: '#88AFA2'    # Bright Cyan
+color_16: '#AFAFAF'    # Bright White
+
+background: '#101010'  # Background
+foreground: '#E0E1E4'  # Foreground (Text)
+
+cursor: '#E0E1E4'      # Cursor

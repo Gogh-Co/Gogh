@@ -1,0 +1,27 @@
+---
+name: 'Outrun Electric'
+author: 'samrap (https://github.com/samrap/outrun-theme-vscode)'
+variant: 'dark'            # dark or light
+
+color_01: '#131033'    # Black (Host)
+color_02: '#E61F44'    # Red (Syntax string)
+color_03: '#A7DA1E'    # Green (Command)
+color_04: '#FFD400'    # Yellow (Command second)
+color_05: '#1EA8FC'    # Blue (Path)
+color_06: '#FF2AFC'    # Magenta (Syntax var)
+color_07: '#42C6FF'    # Cyan (Prompt)
+color_08: '#F2F3F7'    # White
+
+color_09: '#546A90'    # Bright Black
+color_10: '#EF6D85'    # Bright Red (Command error)
+color_11: '#C6E76D'    # Bright Green (Exec)
+color_12: '#FFE359'    # Bright Yellow
+color_13: '#6DC6FD'    # Bright Blue (Folder)
+color_14: '#DF85FF'    # Bright Magenta
+color_15: '#84DAFF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#0C0A20'  # Background
+foreground: '#F2F3F7'  # Foreground (Text)
+
+cursor: '#FF2AFC'      # Cursor

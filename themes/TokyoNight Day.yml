@@ -1,0 +1,27 @@
+---
+name: 'TokyoNight Day'
+author: 'folke (https://github.com/folke/tokyonight.nvim)'
+variant: 'light'            # dark or light
+
+color_01: '#E9E9ED'    # Black (Host)
+color_02: '#F52A65'    # Red (Syntax string)
+color_03: '#587539'    # Green (Command)
+color_04: '#8C6C3E'    # Yellow (Command second)
+color_05: '#2E7DE9'    # Blue (Path)
+color_06: '#9854F1'    # Magenta (Syntax var)
+color_07: '#007197'    # Cyan (Prompt)
+color_08: '#6172B0'    # White
+
+color_09: '#A1A6C5'    # Bright Black
+color_10: '#F52A65'    # Bright Red (Command error)
+color_11: '#587539'    # Bright Green (Exec)
+color_12: '#8C6C3E'    # Bright Yellow
+color_13: '#2E7DE9'    # Bright Blue (Folder)
+color_14: '#9854F1'    # Bright Magenta
+color_15: '#007197'    # Bright Cyan
+color_16: '#3760BF'    # Bright White
+
+background: '#E1E2E7'  # Background
+foreground: '#3760BF'  # Foreground (Text)
+
+cursor: '#3760BF'      # Cursor

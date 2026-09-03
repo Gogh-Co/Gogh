@@ -1,0 +1,27 @@
+---
+name: 'Prism'
+author: 'PoshPalette (https://github.com/livlign/posh-palette)'
+variant: 'dark'            # dark or light
+
+color_01: '#060C18'    # Black (Host)
+color_02: '#FF7192'    # Red (Syntax string)
+color_03: '#71E0B0'    # Green (Command)
+color_04: '#FAD77C'    # Yellow (Command second)
+color_05: '#47B3FF'    # Blue (Path)
+color_06: '#9DA9FF'    # Magenta (Syntax var)
+color_07: '#31DCF2'    # Cyan (Prompt)
+color_08: '#B6C4DC'    # White
+
+color_09: '#5E6F90'    # Bright Black
+color_10: '#FF96AD'    # Bright Red (Command error)
+color_11: '#93ECC7'    # Bright Green (Exec)
+color_12: '#FCA76D'    # Bright Yellow
+color_13: '#77CAFF'    # Bright Blue (Folder)
+color_14: '#B8C1FF'    # Bright Magenta
+color_15: '#6CEAFB'    # Bright Cyan
+color_16: '#EAF1FB'    # Bright White
+
+background: '#0B1326'  # Background
+foreground: '#D7E3F4'  # Foreground (Text)
+
+cursor: '#56D5FF'      # Cursor

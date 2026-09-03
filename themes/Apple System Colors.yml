@@ -1,0 +1,27 @@
+---
+name: 'Apple System Colors'
+author: 'Jeremy Bahadirli (https://github.com/jeremybahadirli)'
+variant: 'dark'            # dark or light
+
+color_01: '#1A1A1A'    # Black (Host)
+color_02: '#CC372E'    # Red (Syntax string)
+color_03: '#26A439'    # Green (Command)
+color_04: '#CDAC08'    # Yellow (Command second)
+color_05: '#0869CB'    # Blue (Path)
+color_06: '#9647BF'    # Magenta (Syntax var)
+color_07: '#479EC2'    # Cyan (Prompt)
+color_08: '#98989D'    # White
+
+color_09: '#464646'    # Bright Black
+color_10: '#FF453A'    # Bright Red (Command error)
+color_11: '#32D74B'    # Bright Green (Exec)
+color_12: '#FFD60A'    # Bright Yellow
+color_13: '#0A84FF'    # Bright Blue (Folder)
+color_14: '#BF5AF2'    # Bright Magenta
+color_15: '#76D6FF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#1E1E1E'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#98989D'      # Cursor

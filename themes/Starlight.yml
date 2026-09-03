@@ -1,0 +1,27 @@
+---
+name: 'Starlight'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#242424'    # Black (Host)
+color_02: '#E2425D'    # Red (Syntax string)
+color_03: '#66B238'    # Green (Command)
+color_04: '#DEC541'    # Yellow (Command second)
+color_05: '#54AAD0'    # Blue (Path)
+color_06: '#E8B2F8'    # Magenta (Syntax var)
+color_07: '#5ABF9B'    # Cyan (Prompt)
+color_08: '#E6E6E6'    # White
+
+color_09: '#616161'    # Bright Black
+color_10: '#EC5B58'    # Bright Red (Command error)
+color_11: '#6BD162'    # Bright Green (Exec)
+color_12: '#E9E85C'    # Bright Yellow
+color_13: '#78C3F3'    # Bright Blue (Folder)
+color_14: '#F2AFEE'    # Bright Magenta
+color_15: '#6ADCC5'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#242424'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

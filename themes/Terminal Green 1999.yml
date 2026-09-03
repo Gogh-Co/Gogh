@@ -1,0 +1,27 @@
+---
+name: 'Terminal Green 1999'
+author: 'theebest.com (https://www.theebest.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#32463A'    # Black (Host)
+color_02: '#FF5C7A'    # Red (Syntax string)
+color_03: '#22C55E'    # Green (Command)
+color_04: '#00D26A'    # Yellow (Command second)
+color_05: '#7DD3FC'    # Blue (Path)
+color_06: '#9DFF57'    # Magenta (Syntax var)
+color_07: '#39FF88'    # Cyan (Prompt)
+color_08: '#8FD6A9'    # White
+
+color_09: '#274335'    # Bright Black
+color_10: '#FF7D95'    # Bright Red (Command error)
+color_11: '#4ED17E'    # Bright Green (Exec)
+color_12: '#2EDA85'    # Bright Yellow
+color_13: '#97DCFD'    # Bright Blue (Folder)
+color_14: '#B1FF79'    # Bright Magenta
+color_15: '#61FFA0'    # Bright Cyan
+color_16: '#D8FFE6'    # Bright White
+
+background: '#03120A'  # Background
+foreground: '#D8FFE6'  # Foreground (Text)
+
+cursor: '#D8FFE6'      # Cursor

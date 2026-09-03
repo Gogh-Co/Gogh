@@ -1,0 +1,27 @@
+---
+name: 'Sequoia Monochrome Dark'
+author: 'Michael Andreuzza (https://github.com/michael-andreuzza)'
+variant: 'dark'            # dark or light
+
+color_01: '#131317'    # Black (Host)
+color_02: '#999EB2'    # Red (Syntax string)
+color_03: '#626983'    # Green (Command)
+color_04: '#D3D5DE'    # Yellow (Command second)
+color_05: '#7C829D'    # Blue (Path)
+color_06: '#E2E4ED'    # Magenta (Syntax var)
+color_07: '#B6BAC8'    # Cyan (Prompt)
+color_08: '#868690'    # White
+
+color_09: '#575861'    # Bright Black
+color_10: '#999EB2'    # Bright Red (Command error)
+color_11: '#626983'    # Bright Green (Exec)
+color_12: '#D3D5DE'    # Bright Yellow
+color_13: '#7C829D'    # Bright Blue (Folder)
+color_14: '#E2E4ED'    # Bright Magenta
+color_15: '#B6BAC8'    # Bright Cyan
+color_16: '#868690'    # Bright White
+
+background: '#0F1014'  # Background
+foreground: '#868690'  # Foreground (Text)
+
+cursor: '#43444D'      # Cursor

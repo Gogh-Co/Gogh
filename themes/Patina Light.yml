@@ -1,0 +1,27 @@
+---
+name: 'Patina Light'
+author: 'PoshPalette (https://github.com/livlign/posh-palette)'
+variant: 'light'            # dark or light
+
+color_01: '#2E2A24'    # Black (Host)
+color_02: '#9B3B3B'    # Red (Syntax string)
+color_03: '#34644C'    # Green (Command)
+color_04: '#6E5817'    # Yellow (Command second)
+color_05: '#2F626F'    # Blue (Path)
+color_06: '#7A4F47'    # Magenta (Syntax var)
+color_07: '#2E6260'    # Cyan (Prompt)
+color_08: '#5A5248'    # White
+
+color_09: '#625A51'    # Bright Black
+color_10: '#833333'    # Bright Red (Command error)
+color_11: '#2D5839'    # Bright Green (Exec)
+color_12: '#634E14'    # Bright Yellow
+color_13: '#2C5660'    # Bright Blue (Folder)
+color_14: '#6D463E'    # Bright Magenta
+color_15: '#285654'    # Bright Cyan
+color_16: '#393A34'    # Bright White
+
+background: '#DDD7C4'  # Background
+foreground: '#2E2A24'  # Foreground (Text)
+
+cursor: '#2E2A24'      # Cursor

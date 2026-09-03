@@ -1,0 +1,27 @@
+---
+name: 'No Clown Fiesta Light'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'light'            # dark or light
+
+color_01: '#D6D6D6'    # Black (Host)
+color_02: '#874E42'    # Red (Syntax string)
+color_03: '#677940'    # Green (Command)
+color_04: '#B89058'    # Yellow (Command second)
+color_05: '#8BA1BF'    # Blue (Path)
+color_06: '#AA759F'    # Magenta (Syntax var)
+color_07: '#3E5F66'    # Cyan (Prompt)
+color_08: '#151515'    # White
+
+color_09: '#2B2B2B'    # Bright Black
+color_10: '#637786'    # Bright Red (Command error)
+color_11: '#677940'    # Bright Green (Exec)
+color_12: '#B89058'    # Bright Yellow
+color_13: '#93A2AB'    # Bright Blue (Folder)
+color_14: '#AA759F'    # Bright Magenta
+color_15: '#99AB93'    # Bright Cyan
+color_16: '#373737'    # Bright White
+
+background: '#E1E1E1'  # Background
+foreground: '#151515'  # Foreground (Text)
+
+cursor: '#151515'      # Cursor

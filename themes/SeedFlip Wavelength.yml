@@ -1,0 +1,27 @@
+---
+name: 'SeedFlip Wavelength'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#090C10'    # Black (Host)
+color_02: '#D55D5D'    # Red (Syntax string)
+color_03: '#5DD585'    # Green (Command)
+color_04: '#D5C15D'    # Yellow (Command second)
+color_05: '#5D8FD5'    # Blue (Path)
+color_06: '#D55DD5'    # Magenta (Syntax var)
+color_07: '#5DD5D5'    # Cyan (Prompt)
+color_08: '#F7F9FB'    # White
+
+color_09: '#364255'    # Bright Black
+color_10: '#E59A9A'    # Bright Red (Command error)
+color_11: '#9AE5B3'    # Bright Green (Exec)
+color_12: '#E5D89A'    # Bright Yellow
+color_13: '#9AB9E5'    # Bright Blue (Folder)
+color_14: '#E59AE5'    # Bright Magenta
+color_15: '#9AE5E5'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#0D1117'  # Background
+foreground: '#E6EDF3'  # Foreground (Text)
+
+cursor: '#238636'      # Cursor

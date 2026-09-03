@@ -1,0 +1,27 @@
+---
+name: 'Noctis Minimus'
+author: 'Liviu Schera (https://github.com/liviuschera)'
+variant: 'dark'            # dark or light
+
+color_01: '#182A35'    # Black (Host)
+color_02: '#C08872'    # Red (Syntax string)
+color_03: '#72C09F'    # Green (Command)
+color_04: '#C8A984'    # Yellow (Command second)
+color_05: '#6196B8'    # Blue (Path)
+color_06: '#C28097'    # Magenta (Syntax var)
+color_07: '#72B7C0'    # Cyan (Prompt)
+color_08: '#C5CDD3'    # White
+
+color_09: '#425866'    # Bright Black
+color_10: '#CA8468'    # Bright Red (Command error)
+color_11: '#84C8AB'    # Bright Green (Exec)
+color_12: '#D1AA7B'    # Bright Yellow
+color_13: '#68A4CA'    # Bright Blue (Folder)
+color_14: '#C88DA2'    # Bright Magenta
+color_15: '#84C0C8'    # Bright Cyan
+color_16: '#C5D1D3'    # Bright White
+
+background: '#1B2932'  # Background
+foreground: '#C5CDD3'  # Foreground (Text)
+
+cursor: '#C5CDD3'      # Cursor

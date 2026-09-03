@@ -1,0 +1,27 @@
+---
+name: 'GitHub Dark Dimmed'
+author: 'Antonio Camargo (https://github.com/apcamargo)'
+variant: 'dark'            # dark or light
+
+color_01: '#545D68'    # Black (Host)
+color_02: '#F47067'    # Red (Syntax string)
+color_03: '#57AB5A'    # Green (Command)
+color_04: '#C69026'    # Yellow (Command second)
+color_05: '#539BF5'    # Blue (Path)
+color_06: '#B083F0'    # Magenta (Syntax var)
+color_07: '#39C5CF'    # Cyan (Prompt)
+color_08: '#909DAB'    # White
+
+color_09: '#636E7B'    # Bright Black
+color_10: '#FF938A'    # Bright Red (Command error)
+color_11: '#6BC46D'    # Bright Green (Exec)
+color_12: '#DAAA3F'    # Bright Yellow
+color_13: '#6CB6FF'    # Bright Blue (Folder)
+color_14: '#DCBDFB'    # Bright Magenta
+color_15: '#56D4DD'    # Bright Cyan
+color_16: '#CDD9E5'    # Bright White
+
+background: '#22272E'  # Background
+foreground: '#ADBAC7'  # Foreground (Text)
+
+cursor: '#539BF5'      # Cursor

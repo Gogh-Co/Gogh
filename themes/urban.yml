@@ -1,0 +1,27 @@
+---
+name: 'urban'
+author: 'dkeg (https://github.com/dkeg/crayolo)'
+variant: 'dark'            # dark or light
+
+color_01: '#32303A'    # Black (Host)
+color_02: '#7E444F'    # Red (Syntax string)
+color_03: '#7A9256'    # Green (Command)
+color_04: '#A78560'    # Yellow (Command second)
+color_05: '#5F5770'    # Blue (Path)
+color_06: '#704156'    # Magenta (Syntax var)
+color_07: '#534856'    # Cyan (Prompt)
+color_08: '#BCA89C'    # White
+
+color_09: '#4E4B57'    # Bright Black
+color_10: '#7E444F'    # Bright Red (Command error)
+color_11: '#7A9256'    # Bright Green (Exec)
+color_12: '#A78560'    # Bright Yellow
+color_13: '#5F5770'    # Bright Blue (Folder)
+color_14: '#704156'    # Bright Magenta
+color_15: '#534856'    # Bright Cyan
+color_16: '#BCA89C'    # Bright White
+
+background: '#302E38'  # Background
+foreground: '#BCA89C'  # Foreground (Text)
+
+cursor: '#BCA89C'      # Cursor

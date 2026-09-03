@@ -1,0 +1,27 @@
+---
+name: 'Cassette Tape'
+author: 'theebest.com (https://www.theebest.com)'
+variant: 'light'            # dark or light
+
+color_01: '#514339'    # Black (Host)
+color_02: '#B91C1C'    # Red (Syntax string)
+color_03: '#3F6212'    # Green (Command)
+color_04: '#BE123C'    # Yellow (Command second)
+color_05: '#7C2D12'    # Blue (Path)
+color_06: '#0F766E'    # Magenta (Syntax var)
+color_07: '#B45309'    # Cyan (Prompt)
+color_08: '#6B4F3F'    # White
+
+color_09: '#C4B39A'    # Bright Black
+color_10: '#941616'    # Bright Red (Command error)
+color_11: '#324E0E'    # Bright Green (Exec)
+color_12: '#9C0F31'    # Bright Yellow
+color_13: '#63240E'    # Bright Blue (Folder)
+color_14: '#0C5E58'    # Bright Magenta
+color_15: '#904207'    # Bright Cyan
+color_16: '#2B1B12'    # Bright White
+
+background: '#FFF7ED'  # Background
+foreground: '#2B1B12'  # Foreground (Text)
+
+cursor: '#2B1B12'      # Cursor

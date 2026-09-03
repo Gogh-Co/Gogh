@@ -1,0 +1,27 @@
+---
+name: 'Unikitty'
+author: 'jakebathman (https://github.com/jakebathman)'
+variant: 'light'            # dark or light
+
+color_01: '#0C0C0C'    # Black (Host)
+color_02: '#A80F20'    # Red (Syntax string)
+color_03: '#BAFC8B'    # Green (Command)
+color_04: '#EEDF4B'    # Yellow (Command second)
+color_05: '#145FCD'    # Blue (Path)
+color_06: '#FF36A2'    # Magenta (Syntax var)
+color_07: '#6BD1BC'    # Cyan (Prompt)
+color_08: '#E2D7E1'    # White
+
+color_09: '#434343'    # Bright Black
+color_10: '#D91329'    # Bright Red (Command error)
+color_11: '#D3FFAF'    # Bright Green (Exec)
+color_12: '#FFEF50'    # Bright Yellow
+color_13: '#0075EA'    # Bright Blue (Folder)
+color_14: '#FDD5E5'    # Bright Magenta
+color_15: '#79ECD5'    # Bright Cyan
+color_16: '#FFF3FE'    # Bright White
+
+background: '#FF8CD9'  # Background
+foreground: '#0B0B0B'  # Foreground (Text)
+
+cursor: '#BAFC8B'      # Cursor

@@ -1,0 +1,27 @@
+---
+name: 'Gruvbox Material'
+author: 'sainnhe (https://github.com/sainnhe)'
+variant: 'dark'            # dark or light
+
+color_01: '#141617'    # Black (Host)
+color_02: '#EA6926'    # Red (Syntax string)
+color_03: '#C1D041'    # Green (Command)
+color_04: '#EECF75'    # Yellow (Command second)
+color_05: '#6DA3EC'    # Blue (Path)
+color_06: '#FD9BC1'    # Magenta (Syntax var)
+color_07: '#FE9D6E'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#4C4C4C'    # Bright Black
+color_10: '#D3573B'    # Bright Red (Command error)
+color_11: '#C1D041'    # Bright Green (Exec)
+color_12: '#EECF75'    # Bright Yellow
+color_13: '#2C86FF'    # Bright Blue (Folder)
+color_14: '#FD9BC1'    # Bright Magenta
+color_15: '#92A5DF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#1D2021'  # Background
+foreground: '#D4BE98'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

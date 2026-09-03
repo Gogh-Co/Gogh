@@ -1,0 +1,27 @@
+---
+name: 'Karma Dark HC'
+author: 'Sreetam Das (https://github.com/sreetamdas)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#FF5C87'    # Red (Syntax string)
+color_03: '#80E598'    # Green (Command)
+color_04: '#FCE566'    # Yellow (Command second)
+color_05: '#61DCEB'    # Blue (Path)
+color_06: '#B9A3EE'    # Magenta (Syntax var)
+color_07: '#61DCEB'    # Cyan (Prompt)
+color_08: '#D6D2DB'    # White
+
+color_09: '#69676C'    # Bright Black
+color_10: '#FF8AAB'    # Bright Red (Command error)
+color_11: '#A3E9B1'    # Bright Green (Exec)
+color_12: '#FFF080'    # Bright Yellow
+color_13: '#87E5F1'    # Bright Blue (Folder)
+color_14: '#CAB6F4'    # Bright Magenta
+color_15: '#87E5F1'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FCE566'      # Cursor

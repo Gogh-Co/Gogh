@@ -1,0 +1,27 @@
+---
+name: 'Glacier'
+author: 'bahlo (https://github.com/bahlo/iterm-colors)'
+variant: 'dark'            # dark or light
+
+color_01: '#2E343C'    # Black (Host)
+color_02: '#BD0F2F'    # Red (Syntax string)
+color_03: '#35A770'    # Green (Command)
+color_04: '#FB9435'    # Yellow (Command second)
+color_05: '#1F5872'    # Blue (Path)
+color_06: '#BD2523'    # Magenta (Syntax var)
+color_07: '#778397'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#404A55'    # Bright Black
+color_10: '#BD0F2F'    # Bright Red (Command error)
+color_11: '#49E998'    # Bright Green (Exec)
+color_12: '#FDDF6E'    # Bright Yellow
+color_13: '#2A8BC1'    # Bright Blue (Folder)
+color_14: '#EA4727'    # Bright Magenta
+color_15: '#A0B6D3'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#0C1115'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#6C6C6C'      # Cursor

@@ -1,0 +1,27 @@
+---
+name: 'Eclipse'
+author: 'PoshPalette (https://github.com/livlign/posh-palette)'
+variant: 'dark'            # dark or light
+
+color_01: '#0A0D12'    # Black (Host)
+color_02: '#FF6366'    # Red (Syntax string)
+color_03: '#85DF5E'    # Green (Command)
+color_04: '#F1C655'    # Yellow (Command second)
+color_05: '#5FB9FF'    # Blue (Path)
+color_06: '#CEA5FF'    # Magenta (Syntax var)
+color_07: '#3ADDC4'    # Cyan (Prompt)
+color_08: '#B7C0CE'    # White
+
+color_09: '#5C6675'    # Bright Black
+color_10: '#FF8688'    # Bright Red (Command error)
+color_11: '#A0EC7E'    # Bright Green (Exec)
+color_12: '#FAD77C'    # Bright Yellow
+color_13: '#84CCFF'    # Bright Blue (Folder)
+color_14: '#DDBFFF'    # Bright Magenta
+color_15: '#68EAD3'    # Bright Cyan
+color_16: '#F4F8FD'    # Bright White
+
+background: '#0E1116'  # Background
+foreground: '#DCE3ED'  # Foreground (Text)
+
+cursor: '#F6C45F'      # Cursor

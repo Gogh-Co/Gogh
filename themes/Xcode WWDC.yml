@@ -1,0 +1,27 @@
+---
+name: 'Xcode WWDC'
+author: 'lunacookies (https://github.com/lunacookies/vim-colors-xcode)'
+variant: 'dark'            # dark or light
+
+color_01: '#494D5C'    # Black (Host)
+color_02: '#BB383A'    # Red (Syntax string)
+color_03: '#94C66E'    # Green (Command)
+color_04: '#D28E5D'    # Yellow (Command second)
+color_05: '#8884C5'    # Blue (Path)
+color_06: '#B73999'    # Magenta (Syntax var)
+color_07: '#00ABA4'    # Cyan (Prompt)
+color_08: '#E7E8EB'    # White
+
+color_09: '#7F869E'    # Bright Black
+color_10: '#BB383A'    # Bright Red (Command error)
+color_11: '#94C66E'    # Bright Green (Exec)
+color_12: '#D28E5D'    # Bright Yellow
+color_13: '#8884C5'    # Bright Blue (Folder)
+color_14: '#B73999'    # Bright Magenta
+color_15: '#00ABA4'    # Bright Cyan
+color_16: '#E7E8EB'    # Bright White
+
+background: '#292C36'  # Background
+foreground: '#E7E8EB'  # Foreground (Text)
+
+cursor: '#E7E8EB'      # Cursor

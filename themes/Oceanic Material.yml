@@ -1,0 +1,27 @@
+---
+name: 'Oceanic Material'
+author: 'rahulpatel (https://github.com/rahulpatel)'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#EE2B2A'    # Red (Syntax string)
+color_03: '#40A33F'    # Green (Command)
+color_04: '#FFEA2E'    # Yellow (Command second)
+color_05: '#1E80F0'    # Blue (Path)
+color_06: '#8800A0'    # Magenta (Syntax var)
+color_07: '#16AFCA'    # Cyan (Prompt)
+color_08: '#A4A4A4'    # White
+
+color_09: '#777777'    # Bright Black
+color_10: '#DC5C60'    # Bright Red (Command error)
+color_11: '#70BE71'    # Bright Green (Exec)
+color_12: '#FFF163'    # Bright Yellow
+color_13: '#54A4F3'    # Bright Blue (Folder)
+color_14: '#AA4DBC'    # Bright Magenta
+color_15: '#42C7DA'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#1C262B'  # Background
+foreground: '#C2C8D7'  # Foreground (Text)
+
+cursor: '#B3B8C3'      # Cursor

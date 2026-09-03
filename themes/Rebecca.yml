@@ -1,0 +1,27 @@
+---
+name: 'Rebecca'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#12131E'    # Black (Host)
+color_02: '#DD7755'    # Red (Syntax string)
+color_03: '#04DBB5'    # Green (Command)
+color_04: '#F2E7B7'    # Yellow (Command second)
+color_05: '#7AA5FF'    # Blue (Path)
+color_06: '#BF9CF9'    # Magenta (Syntax var)
+color_07: '#56D3C2'    # Cyan (Prompt)
+color_08: '#E4E3E9'    # White
+
+color_09: '#666699'    # Bright Black
+color_10: '#FF92CD'    # Bright Red (Command error)
+color_11: '#01EAC0'    # Bright Green (Exec)
+color_12: '#FFFCA8'    # Bright Yellow
+color_13: '#69C0FA'    # Bright Blue (Folder)
+color_14: '#C17FF8'    # Bright Magenta
+color_15: '#8BFDE1'    # Bright Cyan
+color_16: '#F4F2F9'    # Bright White
+
+background: '#292A44'  # Background
+foreground: '#E8E6ED'  # Foreground (Text)
+
+cursor: '#B89BF9'      # Cursor

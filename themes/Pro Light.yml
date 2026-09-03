@@ -1,0 +1,27 @@
+---
+name: 'Pro Light'
+author: 'crowsonkb (https://github.com/crowsonkb)'
+variant: 'light'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#E5492B'    # Red (Syntax string)
+color_03: '#50D148'    # Green (Command)
+color_04: '#C6C440'    # Yellow (Command second)
+color_05: '#3B75FF'    # Blue (Path)
+color_06: '#ED66E8'    # Magenta (Syntax var)
+color_07: '#4ED2DE'    # Cyan (Prompt)
+color_08: '#DCDCDC'    # White
+
+color_09: '#9F9F9F'    # Bright Black
+color_10: '#FF6640'    # Bright Red (Command error)
+color_11: '#61EF57'    # Bright Green (Exec)
+color_12: '#F2F156'    # Bright Yellow
+color_13: '#0082FF'    # Bright Blue (Folder)
+color_14: '#FF7EFF'    # Bright Magenta
+color_15: '#61F7F8'    # Bright Cyan
+color_16: '#F2F2F2'    # Bright White
+
+background: '#FFFFFF'  # Background
+foreground: '#191919'  # Foreground (Text)
+
+cursor: '#4D4D4D'      # Cursor

@@ -1,0 +1,27 @@
+---
+name: 'Mesila One'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#111418'    # Black (Host)
+color_02: '#918680'    # Red (Syntax string)
+color_03: '#79C6FA'    # Green (Command)
+color_04: '#E2B5AB'    # Yellow (Command second)
+color_05: '#D9C2FB'    # Blue (Path)
+color_06: '#7B70B5'    # Magenta (Syntax var)
+color_07: '#79C6FA'    # Cyan (Prompt)
+color_08: '#ECF9E5'    # White
+
+color_09: '#7B70B5'    # Bright Black
+color_10: '#918680'    # Bright Red (Command error)
+color_11: '#79C6FA'    # Bright Green (Exec)
+color_12: '#E2B5AB'    # Bright Yellow
+color_13: '#D9C2FB'    # Bright Blue (Folder)
+color_14: '#7B70B5'    # Bright Magenta
+color_15: '#79C6FA'    # Bright Cyan
+color_16: '#ECF9E5'    # Bright White
+
+background: '#1C1F23'  # Background
+foreground: '#ECF9E5'  # Foreground (Text)
+
+cursor: '#79C6FA'      # Cursor

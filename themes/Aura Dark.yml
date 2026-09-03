@@ -1,0 +1,27 @@
+---
+name: 'Aura Dark'
+author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+variant: 'dark'            # dark or light
+
+color_01: '#15141B'    # Black (Host)
+color_02: '#FF6767'    # Red (Syntax string)
+color_03: '#61FFCA'    # Green (Command)
+color_04: '#FFCA85'    # Yellow (Command second)
+color_05: '#A277FF'    # Blue (Path)
+color_06: '#61FFCA'    # Magenta (Syntax var)
+color_07: '#A277FF'    # Cyan (Prompt)
+color_08: '#CDCCCE'    # White
+
+color_09: '#464646'    # Bright Black
+color_10: '#FFCA85'    # Bright Red (Command error)
+color_11: '#A277FF'    # Bright Green (Exec)
+color_12: '#FFCA85'    # Bright Yellow
+color_13: '#A277FF'    # Bright Blue (Folder)
+color_14: '#61FFCA'    # Bright Magenta
+color_15: '#61FFCA'    # Bright Cyan
+color_16: '#EDECEE'    # Bright White
+
+background: '#15141B'  # Background
+foreground: '#CDCCCE'  # Foreground (Text)
+
+cursor: '#A277FF'      # Cursor
