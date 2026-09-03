@@ -3264,7 +3264,7 @@
   foreground: '#ADADAD'
   cursor: '#ADADAD'
   hash: ecad697192ff922f15f8c1f1fb3f53b37744f02034bfe9adaa86e957bba3c75a
-- name: Frontend Fun Forrest
+- name: Fun Forrest
   author: ''
   variant: dark
   color_01: '#000000'
@@ -3286,8 +3286,8 @@
   background: '#251200'
   foreground: '#DEC165'
   cursor: '#DEC165'
-  hash: 2b2973e3dbc51fc12e50af0124545ca84655d8ed047d40e1c72a10be2e8a3763
-- name: Frontend Galaxy
+  hash: 68c34422d147e9e879567db9159705a59645dc3c376ab9f927937f20724b787f
+- name: Galaxy
   author: ''
   variant: dark
   color_01: '#000000'
@@ -3309,7 +3309,7 @@
   background: '#1D2837'
   foreground: '#FFFFFF'
   cursor: '#FFFFFF'
-  hash: 710aeb125262baa9890337fcd8b9d495a634ea396fd4467f5ffb9ab9c8cadb0d
+  hash: 1cefa163fd95578b0c124c3555ca5b5f4deb57c90ae5cf806ff527f84d5d9697
 - name: Geohot
   author: ''
   variant: dark
@@ -3540,29 +3540,6 @@
   foreground: '#FFF0A5'
   cursor: '#FFF0A5'
   hash: 484311ae83dc7accfeb5dba05c70fa5a16ee8f167b6dcc9d6fbcd89dca2f3db5
-- name: Gruvbox
-  author: ''
-  variant: light
-  color_01: '#FBF1C7'
-  color_02: '#CC241D'
-  color_03: '#98971A'
-  color_04: '#D79921'
-  color_05: '#458588'
-  color_06: '#B16286'
-  color_07: '#689D6A'
-  color_08: '#7C6F64'
-  color_09: '#928374'
-  color_10: '#9D0006'
-  color_11: '#79740E'
-  color_12: '#B57614'
-  color_13: '#076678'
-  color_14: '#8F3F71'
-  color_15: '#427B58'
-  color_16: '#3C3836'
-  background: '#FBF1C7'
-  foreground: '#3C3836'
-  cursor: '#3C3836'
-  hash: 2bcf54372169ab690a7a2dc0b5f88c9f9945aa1c2927704fa2db4777de045b8b
 - name: Gruvbox Dark
   author: ''
   variant: dark
@@ -3586,6 +3563,29 @@
   foreground: '#EBDBB2'
   cursor: '#EBDBB2'
   hash: 12b2430266afabc534de0f188bef7819c4def673e404b3079a7665a1a7392378
+- name: Gruvbox Light
+  author: ''
+  variant: light
+  color_01: '#FBF1C7'
+  color_02: '#CC241D'
+  color_03: '#98971A'
+  color_04: '#D79921'
+  color_05: '#458588'
+  color_06: '#B16286'
+  color_07: '#689D6A'
+  color_08: '#7C6F64'
+  color_09: '#928374'
+  color_10: '#9D0006'
+  color_11: '#79740E'
+  color_12: '#B57614'
+  color_13: '#076678'
+  color_14: '#8F3F71'
+  color_15: '#427B58'
+  color_16: '#3C3836'
+  background: '#FBF1C7'
+  foreground: '#3C3836'
+  cursor: '#3C3836'
+  hash: 554805e627b69a53467897e5b15717e75b11b08b123c61612e4937fdcbf2a9d6
 - name: Gruvbox Material Dark
   author: ''
   variant: dark
@@ -3816,52 +3816,6 @@
   foreground: '#00FF00'
   cursor: '#00FF00'
   hash: 581b77c94f0b87f3381de706029d13c4e0263e6f25a234b863c5413410b62bd1
-- name: Homebrew Light
-  author: ''
-  variant: light
-  color_01: '#000000'
-  color_02: '#990000'
-  color_03: '#00A600'
-  color_04: '#999900'
-  color_05: '#0000B2'
-  color_06: '#B200B2'
-  color_07: '#00A6B2'
-  color_08: '#BFBFBF'
-  color_09: '#666666'
-  color_10: '#E50000'
-  color_11: '#00D900'
-  color_12: '#E5E500'
-  color_13: '#0000FF'
-  color_14: '#E500E5'
-  color_15: '#00E5E5'
-  color_16: '#E5E5E5'
-  background: '#FFFFFF'
-  foreground: '#000000'
-  cursor: '#000000'
-  hash: 58b16e881125e30d999c5acc658e1e31667896855ca361ff3c4f692c166d3091
-- name: Homebrew Ocean
-  author: ''
-  variant: dark
-  color_01: '#000000'
-  color_02: '#990000'
-  color_03: '#00A600'
-  color_04: '#999900'
-  color_05: '#0000B2'
-  color_06: '#B200B2'
-  color_07: '#00A6B2'
-  color_08: '#BFBFBF'
-  color_09: '#666666'
-  color_10: '#E50000'
-  color_11: '#00D900'
-  color_12: '#E5E500'
-  color_13: '#0000FF'
-  color_14: '#E500E5'
-  color_15: '#00E5E5'
-  color_16: '#E5E5E5'
-  background: '#224FBC'
-  foreground: '#FFFFFF'
-  cursor: '#FFFFFF'
-  hash: dc19e0fab2f5eb7fc5fad46f6413bb7cbe07ad1e727a7dce9112ed7b9696ef38
 - name: Horizon Bright
   author: ''
   variant: light
@@ -5610,6 +5564,29 @@
   foreground: '#CDCDCD'
   cursor: '#CDCDCD'
   hash: d74abe9cfc047c884fffc43838b391c2a2ea33db5dc5157a58031350dc43bd26
+- name: Ocean
+  author: ''
+  variant: dark
+  color_01: '#000000'
+  color_02: '#990000'
+  color_03: '#00A600'
+  color_04: '#999900'
+  color_05: '#0000B2'
+  color_06: '#B200B2'
+  color_07: '#00A6B2'
+  color_08: '#BFBFBF'
+  color_09: '#666666'
+  color_10: '#E50000'
+  color_11: '#00D900'
+  color_12: '#E5E500'
+  color_13: '#0000FF'
+  color_14: '#E500E5'
+  color_15: '#00E5E5'
+  color_16: '#E5E5E5'
+  background: '#224FBC'
+  foreground: '#FFFFFF'
+  cursor: '#FFFFFF'
+  hash: 514acbadfea92553c7f10c4b48f073e792080291815f1d6aca2894b1d940d122
 - name: Ocean Dark
   author: ''
   variant: dark
@@ -7220,7 +7197,7 @@
   foreground: '#FFFFFF'
   cursor: '#FFFFFF'
   hash: b2e7950faeb1ec3041d1e4198f5a5476c37a2305b5bbcd231a1b318aa06848f4
-- name: Symphonic
+- name: Symfonic
   author: ''
   variant: dark
   color_01: '#000000'
@@ -7242,7 +7219,7 @@
   background: '#000000'
   foreground: '#FFFFFF'
   cursor: '#FFFFFF'
-  hash: adb324bcbf6f8a31f600781715ab2742fb8850d53cf1f83735f8845fbe8c8874
+  hash: 10749b50c809b4e0bf0e525fbf2c01e9b644618ba5987843553bcf568043c12f
 - name: Synthwave
   author: ''
   variant: dark

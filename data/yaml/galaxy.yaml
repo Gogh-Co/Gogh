@@ -1,4 +1,4 @@
-name: Frontend Galaxy
+name: Galaxy
 author: ''
 variant: dark
 color_01: '#000000'
@@ -20,4 +20,4 @@ color_16: '#FFFFFF'
 background: '#1D2837'
 foreground: '#FFFFFF'
 cursor: '#FFFFFF'
-hash: 710aeb125262baa9890337fcd8b9d495a634ea396fd4467f5ffb9ab9c8cadb0d
+hash: 1cefa163fd95578b0c124c3555ca5b5f4deb57c90ae5cf806ff527f84d5d9697

@@ -1,6 +1,6 @@
-name: Homebrew Light
+name: Ocean
 author: ''
-variant: light
+variant: dark
 color_01: '#000000'
 color_02: '#990000'
 color_03: '#00A600'
@@ -17,7 +17,7 @@ color_13: '#0000FF'
 color_14: '#E500E5'
 color_15: '#00E5E5'
 color_16: '#E5E5E5'
-background: '#FFFFFF'
-foreground: '#000000'
-cursor: '#000000'
-hash: 58b16e881125e30d999c5acc658e1e31667896855ca361ff3c4f692c166d3091
+background: '#224FBC'
+foreground: '#FFFFFF'
+cursor: '#FFFFFF'
+hash: 514acbadfea92553c7f10c4b48f073e792080291815f1d6aca2894b1d940d122
