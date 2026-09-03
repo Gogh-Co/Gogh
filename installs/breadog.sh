@@ -9,7 +9,7 @@ export COLOR_04="#8B4C00"           # Yellow (Command second)
 export COLOR_05="#005CB4"           # Blue (Path)
 export COLOR_06="#9B0097"           # Magenta (Syntax var)
 export COLOR_07="#006A78"           # Cyan (Prompt)
-export COLOR_08="#D4C3B7"           # White
+export COLOR_08="#BAA99D"           # White
 
 export COLOR_09="#514337"           # Bright Black
 export COLOR_10="#DE1100"           # Bright Red (Command error)

@@ -3,7 +3,7 @@
 export PROFILE_NAME="Synthwave Alpha"
 
 export COLOR_01="#241B30"           # Black (Host)
-export COLOR_02="#9A0048"           # Red (Syntax string)
+export COLOR_02="#E60A70"           # Red (Syntax string)
 export COLOR_03="#00986C"           # Green (Command)
 export COLOR_04="#ADAD3E"           # Yellow (Command second)
 export COLOR_05="#6E29AD"           # Blue (Path)

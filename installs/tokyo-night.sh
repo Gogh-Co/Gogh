@@ -2,7 +2,7 @@
 
 export PROFILE_NAME="Tokyo Night"
 
-export COLOR_01="#414868"           # Black (Host)
+export COLOR_01="#15161E"           # Black (Host)
 export COLOR_02="#F7768E"           # Red (Syntax string)
 export COLOR_03="#9ECE6A"           # Green (Command)
 export COLOR_04="#E0AF68"           # Yellow (Command second)

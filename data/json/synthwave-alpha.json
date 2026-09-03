@@ -3,7 +3,7 @@
   "author": "",
   "variant": "dark",
   "color_01": "#241B30",
-  "color_02": "#9A0048",
+  "color_02": "#E60A70",
   "color_03": "#00986C",
   "color_04": "#ADAD3E",
   "color_05": "#6E29AD",
@@ -21,5 +21,5 @@
   "background": "#241B30",
   "foreground": "#F2F2E3",
   "cursor": "#F2F2E3",
-  "hash": "fbff479a1c0cb5c725dba413b148a676c0f29ad7e1e6c303a75a28123b707a1a"
+  "hash": "873e4f6a7c28cb8fc471a37fed8e9a552e0c3e366507ff4c755581e8a952f8bc"
 }

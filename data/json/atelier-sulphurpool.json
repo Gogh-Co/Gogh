@@ -12,14 +12,14 @@
   "color_08": "#979DB4",
   "color_09": "#6B7394",
   "color_10": "#C76B29",
-  "color_11": "#AC9739",
-  "color_12": "#C08B30",
-  "color_13": "#3D8FD1",
-  "color_14": "#6679CC",
-  "color_15": "#22A2C9",
+  "color_11": "#293256",
+  "color_12": "#5E6687",
+  "color_13": "#898EA4",
+  "color_14": "#DFE2F1",
+  "color_15": "#9C637A",
   "color_16": "#F5F7FF",
   "background": "#202746",
-  "foreground": "#898EA4",
-  "cursor": "#898EA4",
-  "hash": "53bb210d4aacc2e70dd7f313fae582ed4180760048715b15733e811eabd652b4"
+  "foreground": "#979DB4",
+  "cursor": "#979DB4",
+  "hash": "71827e9cae6219c85cd9a6e1549f65e5bece9904201d9306f408a5d111b2f5d3"
 }

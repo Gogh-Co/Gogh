@@ -13,17 +13,17 @@ export COLOR_08="#979DB4"           # White
 
 export COLOR_09="#6B7394"           # Bright Black
 export COLOR_10="#C76B29"           # Bright Red (Command error)
-export COLOR_11="#AC9739"           # Bright Green (Exec)
-export COLOR_12="#C08B30"           # Bright Yellow
-export COLOR_13="#3D8FD1"           # Bright Blue (Folder)
-export COLOR_14="#6679CC"           # Bright Magenta
-export COLOR_15="#22A2C9"           # Bright Cyan
+export COLOR_11="#293256"           # Bright Green (Exec)
+export COLOR_12="#5E6687"           # Bright Yellow
+export COLOR_13="#898EA4"           # Bright Blue (Folder)
+export COLOR_14="#DFE2F1"           # Bright Magenta
+export COLOR_15="#9C637A"           # Bright Cyan
 export COLOR_16="#F5F7FF"           # Bright White
 
 export BACKGROUND_COLOR="#202746"   # Background
-export FOREGROUND_COLOR="#898EA4"   # Foreground (Text)
+export FOREGROUND_COLOR="#979DB4"   # Foreground (Text)
 
-export CURSOR_COLOR="#898EA4" # Cursor
+export CURSOR_COLOR="#979DB4" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then

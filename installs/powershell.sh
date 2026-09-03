@@ -3,10 +3,10 @@
 export PROFILE_NAME="Powershell"
 
 export COLOR_01="#000000"           # Black (Host)
-export COLOR_02="#7E0008"           # Red (Syntax string)
+export COLOR_02="#981A22"           # Red (Syntax string)
 export COLOR_03="#098003"           # Green (Command)
 export COLOR_04="#C4A000"           # Yellow (Command second)
-export COLOR_05="#010083"           # Blue (Path)
+export COLOR_05="#4140C3"           # Blue (Path)
 export COLOR_06="#D33682"           # Magenta (Syntax var)
 export COLOR_07="#0E807F"           # Cyan (Prompt)
 export COLOR_08="#7F7C7F"           # White

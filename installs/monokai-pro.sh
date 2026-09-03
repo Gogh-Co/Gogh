@@ -11,7 +11,7 @@ export COLOR_06="#AB9DF2"           # Magenta (Syntax var)
 export COLOR_07="#78DCE8"           # Cyan (Prompt)
 export COLOR_08="#FCFCFA"           # White
 
-export COLOR_09="#908E8F"           # Bright Black
+export COLOR_09="#727072"           # Bright Black
 export COLOR_10="#FF6188"           # Bright Red (Command error)
 export COLOR_11="#A9DC76"           # Bright Green (Exec)
 export COLOR_12="#FFD866"           # Bright Yellow
@@ -23,7 +23,7 @@ export COLOR_16="#FCFCFA"           # Bright White
 export BACKGROUND_COLOR="#2D2A2E"   # Background
 export FOREGROUND_COLOR="#FCFCFA"   # Foreground (Text)
 
-export CURSOR_COLOR="#FCFCFA" # Cursor
+export CURSOR_COLOR="#C1C0C0" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then

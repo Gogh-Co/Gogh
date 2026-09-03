@@ -4,18 +4,18 @@ export PROFILE_NAME="Rosé Pine"
 
 export COLOR_01="#26233A"           # Black (Host)
 export COLOR_02="#EB6F92"           # Red (Syntax string)
-export COLOR_03="#9CCFD8"           # Green (Command)
+export COLOR_03="#31748F"           # Green (Command)
 export COLOR_04="#F6C177"           # Yellow (Command second)
-export COLOR_05="#31748F"           # Blue (Path)
+export COLOR_05="#9CCFD8"           # Blue (Path)
 export COLOR_06="#C4A7E7"           # Magenta (Syntax var)
 export COLOR_07="#EBBCBA"           # Cyan (Prompt)
 export COLOR_08="#E0DEF4"           # White
 
 export COLOR_09="#6E6A86"           # Bright Black
 export COLOR_10="#EB6F92"           # Bright Red (Command error)
-export COLOR_11="#9CCFD8"           # Bright Green (Exec)
+export COLOR_11="#31748F"           # Bright Green (Exec)
 export COLOR_12="#F6C177"           # Bright Yellow
-export COLOR_13="#31748F"           # Bright Blue (Folder)
+export COLOR_13="#9CCFD8"           # Bright Blue (Folder)
 export COLOR_14="#C4A7E7"           # Bright Magenta
 export COLOR_15="#EBBCBA"           # Bright Cyan
 export COLOR_16="#E0DEF4"           # Bright White

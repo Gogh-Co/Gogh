@@ -17,7 +17,7 @@ color_13: '#B6DEFB'
 color_14: '#AD7FA8'
 color_15: '#D7D9FC'
 color_16: '#E2E2E2'
-background: '#0A1E24'
-foreground: '#A1A1A1'
-cursor: '#A1A1A1'
-hash: 9cc4c414dec22ac337f1372e355d4c1fa817d97125fe8a24b1bf8df970cb1838
+background: '#1A1A1A'
+foreground: '#ACACAB'
+cursor: '#FCFBCC'
+hash: 99b1f370d9736b65e5769d2ab7377ad80ecd71f9d1f1127ff454aca3982b4720

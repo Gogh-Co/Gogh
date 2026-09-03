@@ -5,7 +5,7 @@
   "color_01": "#2A2A2A",
   "color_02": "#FF0000",
   "color_03": "#79FF0F",
-  "color_04": "#D3BF00",
+  "color_04": "#E7BF00",
   "color_05": "#396BD7",
   "color_06": "#B449BE",
   "color_07": "#66CCFF",
@@ -20,6 +20,6 @@
   "color_16": "#FFFFFF",
   "background": "#000000",
   "foreground": "#F2F2F2",
-  "cursor": "#F2F2F2",
-  "hash": "573c9b9ee5bb8e48c7ebc6dec65261e2fa59afb57bb7424a3de9bc0f685dcfbf"
+  "cursor": "#4D4D4D",
+  "hash": "2e2f093e9941e72a7d07ee92b544cb2df5293c9c1acaaee7e067ce467a3f4b02"
 }

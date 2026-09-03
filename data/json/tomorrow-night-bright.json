@@ -2,15 +2,15 @@
   "name": "Tomorrow Night Bright",
   "author": "Chris Kempson (http://chriskempson.com)",
   "variant": "dark",
-  "color_01": "#2A2A2A",
+  "color_01": "#000000",
   "color_02": "#D54E53",
   "color_03": "#B9CA4A",
   "color_04": "#E7C547",
   "color_05": "#7AA6DA",
   "color_06": "#C397D8",
   "color_07": "#70C0B1",
-  "color_08": "#EAEAEA",
-  "color_09": "#969896",
+  "color_08": "#FFFFFF",
+  "color_09": "#000000",
   "color_10": "#D54E53",
   "color_11": "#B9CA4A",
   "color_12": "#E7C547",
@@ -21,5 +21,5 @@
   "background": "#000000",
   "foreground": "#EAEAEA",
   "cursor": "#EAEAEA",
-  "hash": "7ff815925f3733af70258ddbef98f262ca82e85c90ba674673ae48ffdb71d99e"
+  "hash": "4f89e94107485dfce57208652b9343197cdbd34a849b85c37946afb9b099895c"
 }

@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Synthwave"
 
-export COLOR_01="#011627"           # Black (Host)
-export COLOR_02="#FE4450"           # Red (Syntax string)
-export COLOR_03="#72F1B8"           # Green (Command)
-export COLOR_04="#FEDE5D"           # Yellow (Command second)
-export COLOR_05="#03EDF9"           # Blue (Path)
-export COLOR_06="#FF7EDB"           # Magenta (Syntax var)
-export COLOR_07="#03EDF9"           # Cyan (Prompt)
+export COLOR_01="#000000"           # Black (Host)
+export COLOR_02="#F6188F"           # Red (Syntax string)
+export COLOR_03="#1EBB2B"           # Green (Command)
+export COLOR_04="#FDF834"           # Yellow (Command second)
+export COLOR_05="#2186EC"           # Blue (Path)
+export COLOR_06="#F85A21"           # Magenta (Syntax var)
+export COLOR_07="#12C3E2"           # Cyan (Prompt)
 export COLOR_08="#FFFFFF"           # White
 
-export COLOR_09="#575656"           # Bright Black
-export COLOR_10="#FE4450"           # Bright Red (Command error)
-export COLOR_11="#72F1B8"           # Bright Green (Exec)
-export COLOR_12="#FEDE5D"           # Bright Yellow
-export COLOR_13="#03EDF9"           # Bright Blue (Folder)
-export COLOR_14="#FF7EDB"           # Bright Magenta
-export COLOR_15="#03EDF9"           # Bright Cyan
+export COLOR_09="#7F7094"           # Bright Black
+export COLOR_10="#F841A0"           # Bright Red (Command error)
+export COLOR_11="#25C141"           # Bright Green (Exec)
+export COLOR_12="#FDF454"           # Bright Yellow
+export COLOR_13="#2F9DED"           # Bright Blue (Folder)
+export COLOR_14="#F97137"           # Bright Magenta
+export COLOR_15="#19CDE6"           # Bright Cyan
 export COLOR_16="#FFFFFF"           # Bright White
 
-export BACKGROUND_COLOR="#262335"   # Background
-export FOREGROUND_COLOR="#FFFFFF"   # Foreground (Text)
+export BACKGROUND_COLOR="#000000"   # Background
+export FOREGROUND_COLOR="#DAD9C7"   # Foreground (Text)
 
-export CURSOR_COLOR="#03EDF9" # Cursor
+export CURSOR_COLOR="#19CDE6" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then

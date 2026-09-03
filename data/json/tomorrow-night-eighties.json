@@ -2,15 +2,15 @@
   "name": "Tomorrow Night Eighties",
   "author": "Chris Kempson (http://chriskempson.com)",
   "variant": "dark",
-  "color_01": "#393939",
+  "color_01": "#000000",
   "color_02": "#F2777A",
   "color_03": "#99CC99",
   "color_04": "#FFCC66",
   "color_05": "#6699CC",
   "color_06": "#CC99CC",
   "color_07": "#66CCCC",
-  "color_08": "#CCCCCC",
-  "color_09": "#999999",
+  "color_08": "#FFFFFF",
+  "color_09": "#000000",
   "color_10": "#F2777A",
   "color_11": "#99CC99",
   "color_12": "#FFCC66",
@@ -21,5 +21,5 @@
   "background": "#2D2D2D",
   "foreground": "#CCCCCC",
   "cursor": "#CCCCCC",
-  "hash": "1df5443d722d33e91cc9a21e6414ae8f059fd24efde606dabc5dda740167a97d"
+  "hash": "783c4a265c29188b3487b3487407f632117aec4610d1269e4c504e312bc50fd0"
 }

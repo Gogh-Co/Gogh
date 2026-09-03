@@ -2,7 +2,7 @@
 
 export PROFILE_NAME="Monokai Pro Ocatagon"
 
-export COLOR_01="#3A3D4B"           # Black (Host)
+export COLOR_01="#282A3A"           # Black (Host)
 export COLOR_02="#FF657A"           # Red (Syntax string)
 export COLOR_03="#BAD761"           # Green (Command)
 export COLOR_04="#FFD76D"           # Yellow (Command second)
@@ -11,7 +11,7 @@ export COLOR_06="#C39AC9"           # Magenta (Syntax var)
 export COLOR_07="#9CD1BB"           # Cyan (Prompt)
 export COLOR_08="#EAF2F1"           # White
 
-export COLOR_09="#ADAEB4"           # Bright Black
+export COLOR_09="#696D77"           # Bright Black
 export COLOR_10="#FF657A"           # Bright Red (Command error)
 export COLOR_11="#BAD761"           # Bright Green (Exec)
 export COLOR_12="#FFD76D"           # Bright Yellow
@@ -20,10 +20,10 @@ export COLOR_14="#C39AC9"           # Bright Magenta
 export COLOR_15="#9CD1BB"           # Bright Cyan
 export COLOR_16="#EAF2F1"           # Bright White
 
-export BACKGROUND_COLOR="#3A3D4B"   # Background
+export BACKGROUND_COLOR="#282A3A"   # Background
 export FOREGROUND_COLOR="#EAF2F1"   # Foreground (Text)
 
-export CURSOR_COLOR="#EAF2F1" # Cursor
+export CURSOR_COLOR="#B2B9BD" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then
