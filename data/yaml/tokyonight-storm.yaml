@@ -1,4 +1,4 @@
-name: Tokyo Night Storm
+name: TokyoNight Storm
 author: ''
 variant: dark
 color_01: '#1D202F'
@@ -20,4 +20,4 @@ color_16: '#C0CAF5'
 background: '#24283B'
 foreground: '#C0CAF5'
 cursor: '#C0CAF5'
-hash: 6edc0a97fef394971847a19cf02ab516495aadd103531788bd1f2057171fcd7c
+hash: b689392d7baddf05b92a3e105c63f1413d615b766a5b36ffe465cc81714f389e

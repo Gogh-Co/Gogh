@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PROFILE_NAME="Frontend Delight"
+export PROFILE_NAME="Front End Delight"
 
 export COLOR_01="#242526"           # Black (Host)
 export COLOR_02="#F8511B"           # Red (Syntax string)

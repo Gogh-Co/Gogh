@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PROFILE_NAME="Fishtank"
+export PROFILE_NAME="Fish Tank"
 
 export COLOR_01="#03073C"           # Black (Host)
 export COLOR_02="#C6004A"           # Red (Syntax string)

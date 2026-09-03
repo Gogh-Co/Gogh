@@ -1,8 +1,8 @@
 {
-  "name": "Tokyo Night",
+  "name": "TokyoNight Storm",
   "author": "",
   "variant": "dark",
-  "color_01": "#15161E",
+  "color_01": "#1D202F",
   "color_02": "#F7768E",
   "color_03": "#9ECE6A",
   "color_04": "#E0AF68",
@@ -18,8 +18,8 @@
   "color_14": "#BB9AF7",
   "color_15": "#7DCFFF",
   "color_16": "#C0CAF5",
-  "background": "#1A1B26",
+  "background": "#24283B",
   "foreground": "#C0CAF5",
   "cursor": "#C0CAF5",
-  "hash": "4aba4f05393be55e64ea629f3c19664edff2b439e16838272e7a70dd1d1801af"
+  "hash": "b689392d7baddf05b92a3e105c63f1413d615b766a5b36ffe465cc81714f389e"
 }

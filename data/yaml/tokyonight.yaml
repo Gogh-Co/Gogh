@@ -1,4 +1,4 @@
-name: Tokyo Night
+name: TokyoNight
 author: ''
 variant: dark
 color_01: '#15161E'
@@ -20,4 +20,4 @@ color_16: '#C0CAF5'
 background: '#1A1B26'
 foreground: '#C0CAF5'
 cursor: '#C0CAF5'
-hash: 4aba4f05393be55e64ea629f3c19664edff2b439e16838272e7a70dd1d1801af
+hash: 4e0f26630ab2ea55918e704bede1ffa04f0bcfa88cf699fa5ef2642ae96969e2

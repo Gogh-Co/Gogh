@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PROFILE_NAME="Ic Green Ppl"
+export PROFILE_NAME="IC Green PPL"
 
 export COLOR_01="#014401"           # Black (Host)
 export COLOR_02="#FF2736"           # Red (Syntax string)

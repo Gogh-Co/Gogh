@@ -1,5 +1,5 @@
 {
-  "name": "Fishtank",
+  "name": "Fish Tank",
   "author": "",
   "variant": "dark",
   "color_01": "#03073C",
@@ -21,5 +21,5 @@
   "background": "#232537",
   "foreground": "#ECF0FE",
   "cursor": "#ECF0FE",
-  "hash": "7ce78a91a5d115850dec752e09e2b94d88c36e81d58dfdaf0b774e83d9eeacce"
+  "hash": "c8c88f57b2da545808d06b1830b72ac0643a6f420ba50d4188bdfea11889fb65"
 }

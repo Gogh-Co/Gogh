@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PROFILE_NAME="Rosé Pine Dawn"
+export PROFILE_NAME="Rose Pine Dawn"
 
 export COLOR_01="#F2E9E1"           # Black (Host)
 export COLOR_02="#B4637A"           # Red (Syntax string)

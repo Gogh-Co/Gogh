@@ -1,4 +1,4 @@
-name: Cobalt 2
+name: Cobalt2
 author: ''
 variant: dark
 color_01: '#000000'
@@ -20,4 +20,4 @@ color_16: '#FFFFFF'
 background: '#132738'
 foreground: '#FFFFFF'
 cursor: '#FFFFFF'
-hash: 80115e7fc6a50a9c8b022850b700cb2129ea08cb64dbf51ba26cf0bc17628c63
+hash: ec39bd567709c6761f0b721a91eb188baddbfcdff01767f0b08da93adb4078c9

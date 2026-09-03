@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PROFILE_NAME="Nightlion V1"
+export PROFILE_NAME="Night Lion V1"
 
 export COLOR_01="#4C4C4C"           # Black (Host)
 export COLOR_02="#BB0000"           # Red (Syntax string)

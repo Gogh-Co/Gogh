@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PROFILE_NAME="Tokyo Night Storm"
+export PROFILE_NAME="TokyoNight Storm"
 
 export COLOR_01="#1D202F"           # Black (Host)
 export COLOR_02="#F7768E"           # Red (Syntax string)

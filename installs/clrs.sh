@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PROFILE_NAME="Clrs"
+export PROFILE_NAME="CLRS"
 
 export COLOR_01="#000000"           # Black (Host)
 export COLOR_02="#F8282A"           # Red (Syntax string)

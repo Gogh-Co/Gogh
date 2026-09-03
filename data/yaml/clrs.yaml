@@ -1,4 +1,4 @@
-name: Clrs
+name: CLRS
 author: ''
 variant: light
 color_01: '#000000'
@@ -20,4 +20,4 @@ color_16: '#EEEEEC'
 background: '#FFFFFF'
 foreground: '#262626'
 cursor: '#262626'
-hash: 36aedbed394cf06d0da876a311aac221b97e3c6ccb9d0c8d24bdec9f72267cff
+hash: fec3e4fc747c0bc564df0063ae53313df41ee7ff2ebd82f42bdd5ed4635de663
