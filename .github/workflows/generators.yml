@@ -89,9 +89,12 @@ jobs:
         env:
           GIT_AUTHOR_NAME: github-actions[bot]
           GIT_AUTHOR_EMAIL: github-actions[bot]@github.com
+          TRIGGER_MESSAGE: ${{ github.event.head_commit.message || 'manual workflow run' }}
+          TRIGGER_SHA: ${{ github.sha }}
         run: |
           git config user.name github-actions[bot]
           git config user.email github-actions[bot]@github.com
           git add .
-          git commit -m "Gogh 🤖"
+          SUBJECT=$(printf '%s\n' "$TRIGGER_MESSAGE" | head -n1)
+          git commit -m "chore(data) 🤖 : regenerate for \"${SUBJECT}\"" -m "Source commit: ${TRIGGER_SHA:0:7}"
           git push
