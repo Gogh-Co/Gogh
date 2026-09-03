@@ -24,4 +24,4 @@ color_16: '#ECEFF4'    # Bright White
 background: '#2E3440'  # Background
 foreground: '#D8DEE9'  # Foreground (Text)
 
-cursor: '#D8DEE9'      # Cursor
+cursor: '#ECEFF4'      # Cursor
