@@ -4599,7 +4599,7 @@
   cursor: '#CAC296'
   hash: d45ca361019c81b5ec7213edb5f75f74ba0661cc8305edc41c251a14ef680782
 - name: Miasma
-  author: Amir Ehsan (https://github.com/EhsanAhmadzadeh)
+  author: xero (https://github.com/xero)
   variant: dark
   color_01: '#000000'
   color_02: '#685742'
@@ -4620,7 +4620,7 @@
   background: '#222222'
   foreground: '#C2C2B0'
   cursor: '#C7C7C7'
-  hash: 3f15b2c69ca0d8c43fe9e44513c8ad6c0b9700b1df0ebed8b216f2c632676d46
+  hash: dbf203bc7793b4fa42bc4d0afbdeee3325257ed4c91db66f0ddcc5a47fd50b68
 - name: Minimalist Dark
   author: Gabriel Soares (https://github.com/Gabrielsoac)
   variant: dark
