@@ -347,6 +347,15 @@ Some rules to keep in mind:
   - **Inside the .yml file**: `name: 'Solarized Dark'`
 - Use title case for all words by capitalizing their first letter.
 - Ensure that the contrast is sufficient for good legibility.
+- All hex color values must be **uppercase** (`#FF0000`, not `#ff0000`).
+
+### Pull Request checklist
+
+Theme PRs are checked automatically by CI (`✅ - Validate PR`) whenever they touch `themes/**`. To pass:
+
+- **Title**: start it with `theme:`, e.g. `theme: Add Solarized Midnight`.
+- **Scope**: only add or edit files under `themes/` — no changes anywhere else in the repo (`data/`, `tools/`, `installs/`, `gogh.sh`, etc. are all generated automatically by CI once your PR is merged, so you don't need to touch them).
+- **Colors**: every hex value uppercase, as above.
 
 ***Now, you can send your Pull Request***
 **Thank you for collaborating!**
