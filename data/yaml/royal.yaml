@@ -1,5 +1,5 @@
 name: Royal
-author: ''
+author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
 variant: dark
 color_01: '#241F2B'
 color_02: '#91284C'
@@ -20,4 +20,4 @@ color_16: '#9E8CBD'
 background: '#100815'
 foreground: '#514968'
 cursor: '#524966'
-hash: 06d99254004b493e4d3008cc742b8e11d5eb3c7cd17d6cc90986a885b53e08e7
+hash: 38831fcd98abbbe074530fe7a2101e1e80be47494348d637a8cbcc9687bbbbfd

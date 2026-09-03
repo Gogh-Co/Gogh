@@ -1,5 +1,5 @@
 name: Everforest Dark Hard
-author: ''
+author: NicolasGB (https://github.com/NicolasGB)
 variant: dark
 color_01: '#7A8478'
 color_02: '#E67E80'
@@ -20,4 +20,4 @@ color_16: '#FFFBEF'
 background: '#1E2326'
 foreground: '#D3C6AA'
 cursor: '#E69875'
-hash: d854ab50c4a0a3d7140862e213f96a01e17653c352b16766747165e73def3c52
+hash: a1a32679096525d0b396fc9e0f790ee8115774cc3674ae4c74059a782d74e983

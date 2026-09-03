@@ -1,5 +1,5 @@
 name: Fairyfloss
-author: ''
+author: rebecabordini (https://github.com/rebecabordini)
 variant: dark
 color_01: '#040303'
 color_02: '#F92672'
@@ -20,4 +20,4 @@ color_16: '#F8F8F0'
 background: '#5A5475'
 foreground: '#F8F8F2'
 cursor: '#F8F8F0'
-hash: 51d6e930d85942f1c05c4234e7e251b28c96287da83670410413afbc67ab5419
+hash: 0fc142bb6760ee9162937bafaf0797dfd1443b01455d13fd8c786435e0c79ba3

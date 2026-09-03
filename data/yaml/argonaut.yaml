@@ -1,5 +1,5 @@
 name: Argonaut
-author: ''
+author: effkay (https://github.com/effkay/iTerm-argonaut)
 variant: dark
 color_01: '#232323'
 color_02: '#FF000F'
@@ -20,4 +20,4 @@ color_16: '#FFFFFF'
 background: '#0E1019'
 foreground: '#FFFAF4'
 cursor: '#FF0018'
-hash: 1d5ead7869176701b80e690ab2cc5c7b8e683effe0e336c87ee6e798509094a3
+hash: c73ce0017c6a9661cee0b49ac1b3b1589d9db63471cdf118e96e2d8df94d2fe8

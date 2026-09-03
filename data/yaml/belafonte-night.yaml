@@ -1,5 +1,5 @@
 name: Belafonte Night
-author: ''
+author: idleberg (https://github.com/idleberg)
 variant: dark
 color_01: '#20111B'
 color_02: '#BE100E'
@@ -20,4 +20,4 @@ color_16: '#D5CCBA'
 background: '#20111B'
 foreground: '#968C83'
 cursor: '#968C83'
-hash: 741b7d56478a912043499d9fa4e01ec8b696827359ef9c6f3cd636ce573cb39f
+hash: 3b4220cf90881bf2ed31db91c56a955787769428b9fb6df9213071f322fa6bd7

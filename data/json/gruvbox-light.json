@@ -1,6 +1,6 @@
 {
   "name": "Gruvbox Light",
-  "author": "",
+  "author": "morhetz (https://github.com/morhetz)",
   "variant": "light",
   "color_01": "#FBF1C7",
   "color_02": "#CC241D",
@@ -21,5 +21,5 @@
   "background": "#FBF1C7",
   "foreground": "#3C3836",
   "cursor": "#3C3836",
-  "hash": "554805e627b69a53467897e5b15717e75b11b08b123c61612e4937fdcbf2a9d6"
+  "hash": "b32a031dc7e562bd9dbc4ec617794ec6d87f696a10e03e3c72cf698f9ca615a2"
 }

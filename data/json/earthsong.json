@@ -1,6 +1,6 @@
 {
   "name": "Earthsong",
-  "author": "",
+  "author": "zdj (https://github.com/zdj/themes/tree/master/iterm2)",
   "variant": "dark",
   "color_01": "#121418",
   "color_02": "#C94234",
@@ -21,5 +21,5 @@
   "background": "#292520",
   "foreground": "#E5C7A9",
   "cursor": "#F6F7EC",
-  "hash": "5caf50dfbe54c493e255cc09e4846648e3f474eea79eadb6b9555a16d9623080"
+  "hash": "122996795ccbc2e4a8355be4d8cbe7c24a9ca91ce0ea0d2e735b891c4ad99e6a"
 }

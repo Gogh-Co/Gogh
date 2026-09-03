@@ -1,5 +1,5 @@
 name: Gruvbox Material Light
-author: ''
+author: sainnhe (https://github.com/sainnhe)
 variant: light
 color_01: '#FBF1C7'
 color_02: '#C14A4A'
@@ -20,4 +20,4 @@ color_16: '#4F3829'
 background: '#FBF1C7'
 foreground: '#654735'
 cursor: '#654735'
-hash: 428acda8f63805a2e0393dd83e2a2284cfb863aba8b762820a962f5129d3e20c
+hash: 6de7ff8bb1d5271cffe4becd70351b8ee8f89b6dff6b29d324b09675c8a06139

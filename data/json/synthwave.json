@@ -1,6 +1,6 @@
 {
   "name": "Synthwave",
-  "author": "",
+  "author": "brettstil (https://github.com/brettstil/)",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#F6188F",
@@ -21,5 +21,5 @@
   "background": "#000000",
   "foreground": "#DAD9C7",
   "cursor": "#19CDE6",
-  "hash": "de28f3cc2fc25916f76cc1805b87e88cd20ff81755c7998e6f3b8e6c4f733d07"
+  "hash": "45975e8da643bde028a8e5560adbdd17a9160a3162efe6253e976feb60530258"
 }

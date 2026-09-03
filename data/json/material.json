@@ -1,6 +1,6 @@
 {
   "name": "Material",
-  "author": "",
+  "author": "stoeffel (https://github.com/stoeffel/material-iterm)",
   "variant": "light",
   "color_01": "#212121",
   "color_02": "#B7141F",
@@ -21,5 +21,5 @@
   "background": "#EAEAEA",
   "foreground": "#232322",
   "cursor": "#16AFCA",
-  "hash": "8f20f13b9f4738aa87bfd6d84230c17b4f4e1447d3334389c426846b1464ab9b"
+  "hash": "85ca79e4a86fa7023cc0d264fcf740603e35d10a6801b54c0325094fb8d69b6b"
 }

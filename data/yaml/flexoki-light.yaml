@@ -1,5 +1,5 @@
 name: Flexoki Light
-author: ''
+author: kepano (https://stephango.com/flexoki)
 variant: light
 color_01: '#100F0F'
 color_02: '#AF3029'
@@ -20,4 +20,4 @@ color_16: '#CECDC3'
 background: '#FFFCF0'
 foreground: '#100F0F'
 cursor: '#100F0F'
-hash: ac1a84d56bd7b0f780b1639ca8e3a23dc2f52170df2232a7653515495d4c9051
+hash: f80d89df6fd77897d3e9ba39250d6a78356c97111f7b3d207a12924b7a8a8b6a

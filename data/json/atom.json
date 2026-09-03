@@ -1,6 +1,6 @@
 {
   "name": "Atom",
-  "author": "",
+  "author": "bahlo (https://github.com/bahlo/iterm-colors)",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FD5FF1",
@@ -21,5 +21,5 @@
   "background": "#161719",
   "foreground": "#C5C8C6",
   "cursor": "#D0D0D0",
-  "hash": "8a6ea7155d53e6d82b54a747bdda140dfcff7bf01407294360760eb101dab854"
+  "hash": "484ea984fdb74bac16364f0027013568629d2b55085bc1e97acf15e2a11e11ee"
 }

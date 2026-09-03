@@ -1,5 +1,5 @@
 name: Fun Forrest
-author: ''
+author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
 variant: dark
 color_01: '#000000'
 color_02: '#D6262B'
@@ -20,4 +20,4 @@ color_16: '#FFEAA3'
 background: '#251200'
 foreground: '#DEC165'
 cursor: '#E5591C'
-hash: 2c8d38daff126990310576b529a8e00b80ac4d2f19b3cbf4e6eeeab83a1e7c72
+hash: dbbd7549dddd81f5b5b01a7e50d31ffd2dd4511478ee8b00f1998212db874748

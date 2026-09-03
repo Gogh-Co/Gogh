@@ -1,5 +1,5 @@
 name: Sea Shells
-author: ''
+author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
 variant: dark
 color_01: '#17384C'
 color_02: '#D15123'
@@ -20,4 +20,4 @@ color_16: '#FEE4CE'
 background: '#09141B'
 foreground: '#DEB88D'
 cursor: '#FCA02F'
-hash: 438107f66af5c7ff6c6d7495db74e7381a511565b32bb74eeb9f7cb13355894b
+hash: 218e06f08c1ad10314b4d488b6f6f24bf9aedc1c76897b2dce777a8e314cb605

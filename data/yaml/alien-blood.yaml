@@ -1,5 +1,5 @@
 name: Alien Blood
-author: ''
+author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
 variant: dark
 color_01: '#112616'
 color_02: '#7F2B27'
@@ -20,4 +20,4 @@ color_16: '#73FA91'
 background: '#0F1610'
 foreground: '#637D75'
 cursor: '#73FA91'
-hash: e7a68c1387e3079aa000ad84926f256349b30eeb072a3ff9ea70a24ba11db454
+hash: a4f6dcd6919022f9a76a933213ee716523a138739961cede3b8a4db3f1d33846

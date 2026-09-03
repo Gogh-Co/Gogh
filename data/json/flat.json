@@ -1,6 +1,6 @@
 {
   "name": "Flat",
-  "author": "",
+  "author": "ahmetsulek (https://github.com/ahmetsulek/flat-terminal)",
   "variant": "dark",
   "color_01": "#222D3F",
   "color_02": "#A82320",
@@ -21,5 +21,5 @@
   "background": "#002240",
   "foreground": "#2CC55D",
   "cursor": "#E5BE0C",
-  "hash": "b14d6f39096e93478d8677926101aa9ff30ca9fb001d2c169ca1c3cd15e8f8e0"
+  "hash": "303b900239c2f15d825954e39dddac0fb8d4653d6b889208fae33155fc959a1e"
 }

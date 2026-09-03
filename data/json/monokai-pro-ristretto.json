@@ -1,6 +1,6 @@
 {
   "name": "Monokai Pro Ristretto",
-  "author": "",
+  "author": "Monokai (https://monokai.com/)",
   "variant": "dark",
   "color_01": "#2C2525",
   "color_02": "#FD6883",
@@ -21,5 +21,5 @@
   "background": "#2C2525",
   "foreground": "#FFF1F3",
   "cursor": "#C3B7B8",
-  "hash": "f66a88e620c0a468c87d6badc4d6fbe816854ecf6d8fe19fa075e28190f68a89"
+  "hash": "b626cd24eb312d3df4018f97031cab4491c0b95869e6a5253ef5e278b6a3dfa9"
 }

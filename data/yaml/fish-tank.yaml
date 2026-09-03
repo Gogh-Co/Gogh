@@ -1,5 +1,5 @@
 name: Fish Tank
-author: ''
+author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
 variant: dark
 color_01: '#03073C'
 color_02: '#C6004A'
@@ -20,4 +20,4 @@ color_16: '#F6FFEC'
 background: '#232537'
 foreground: '#ECF0FE'
 cursor: '#FECD5E'
-hash: 5f96b7139e7470a09fb1dddcc8f82e2419f1f67680b107d4a88854c5dd27976d
+hash: dfec2a3494d554c27c759439317b7e199932b86afd77f061846f45a89ce50a8a

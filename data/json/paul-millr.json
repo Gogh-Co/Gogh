@@ -1,6 +1,6 @@
 {
   "name": "Paul Millr",
-  "author": "",
+  "author": "paulmillr (https://github.com/paulmillr/dotfiles/tree/master/terminal)",
   "variant": "dark",
   "color_01": "#2A2A2A",
   "color_02": "#FF0000",
@@ -21,5 +21,5 @@
   "background": "#000000",
   "foreground": "#F2F2F2",
   "cursor": "#4D4D4D",
-  "hash": "2e2f093e9941e72a7d07ee92b544cb2df5293c9c1acaaee7e067ce467a3f4b02"
+  "hash": "70562409f5e913c8b766f4d72789ece133648fdf9ced0f0f440b70a8b90a4d94"
 }

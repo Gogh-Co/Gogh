@@ -1,5 +1,5 @@
 name: Monokai Pro
-author: ''
+author: Monokai (https://monokai.com/)
 variant: dark
 color_01: '#2D2A2E'
 color_02: '#FF6188'
@@ -20,4 +20,4 @@ color_16: '#FCFCFA'
 background: '#2D2A2E'
 foreground: '#FCFCFA'
 cursor: '#C1C0C0'
-hash: 8d4bd6f6a5a6ec0fbb0141403064b1537ed7bcb99b348d743fba3c38554bf46c
+hash: d7533c07d98e579f13a608c59b1f69f886b245775bd0a33556af791a0afcf293

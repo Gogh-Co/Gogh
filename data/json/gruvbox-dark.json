@@ -1,6 +1,6 @@
 {
   "name": "Gruvbox Dark",
-  "author": "",
+  "author": "morhetz (https://github.com/morhetz)",
   "variant": "dark",
   "color_01": "#282828",
   "color_02": "#CC241D",
@@ -21,5 +21,5 @@
   "background": "#282828",
   "foreground": "#EBDBB2",
   "cursor": "#EBDBB2",
-  "hash": "12b2430266afabc534de0f188bef7819c4def673e404b3079a7665a1a7392378"
+  "hash": "13cf19593f16d60ea879e814a38d0b303fb2d092f2331aea05b7e52ccb4551f9"
 }

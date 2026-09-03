@@ -1,5 +1,5 @@
 name: Rippedcasts
-author: ''
+author: mdw123 (https://github.com/mdw123/rippedcasts)
 variant: dark
 color_01: '#000000'
 color_02: '#CDAF95'
@@ -20,4 +20,4 @@ color_16: '#E5E5E5'
 background: '#2B2B2B'
 foreground: '#FFFFFF'
 cursor: '#7F7F7F'
-hash: 8de714f4b33edf7078a1a873dac251f279ee25a0b9dd81fc7d6caee3e3ed1a2c
+hash: a52b1f9d5274a0917f84ae66339116ca53d277edc7aaa390931ccc3f6376d494

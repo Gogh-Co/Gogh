@@ -1,5 +1,5 @@
 name: Wryan
-author: ''
+author: baskerville (https://github.com/baskerville/iTerm-2-Color-Themes)
 variant: dark
 color_01: '#333333'
 color_02: '#8C4665'
@@ -20,4 +20,4 @@ color_16: '#C0C0C0'
 background: '#101010'
 foreground: '#999993'
 cursor: '#9E9ECB'
-hash: c8a518181e021c3e8c0cfa5d291f4409bc87da741020ef0d248d8bd3795c0a73
+hash: f0a10dd378926470fde14c92dd0d991c7506d749abb26133fdc6edda27d5325f

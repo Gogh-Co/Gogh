@@ -1,5 +1,5 @@
 name: Twilight
-author: ''
+author: stefri (https://gist.github.com/stefri/1183140)
 variant: dark
 color_01: '#141414'
 color_02: '#C06D44'
@@ -20,4 +20,4 @@ color_16: '#FFFFD4'
 background: '#141414'
 foreground: '#FFFFD4'
 cursor: '#FFFFFF'
-hash: 1b78b4e36eee8fe218015b66c1132f41b8ab0aa5908a5b00de7593cb3ca8a0b2
+hash: f25b7568fbed91df6336c103aebb3db8c0d82f989cd8cbc93024a23b174b38e4

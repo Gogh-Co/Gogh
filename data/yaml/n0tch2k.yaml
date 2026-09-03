@@ -1,5 +1,5 @@
 name: N0Tch2K
-author: ''
+author: baskerville (https://github.com/baskerville/iTerm-2-Color-Themes)
 variant: dark
 color_01: '#383838'
 color_02: '#A95551'
@@ -20,4 +20,4 @@ color_16: '#D8C8BB'
 background: '#222222'
 foreground: '#A0A0A0'
 cursor: '#AA9175'
-hash: f573b8391eee3c86b7ed2f0e59e1c9ff8adf6321c332c5e2bd98795ce4a53315
+hash: e771d55f9bcdd6f1e1512d9c342486d05e6368281b4bad9ff40f5c77fe717074

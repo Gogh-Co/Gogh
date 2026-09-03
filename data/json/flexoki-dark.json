@@ -1,6 +1,6 @@
 {
   "name": "Flexoki Dark",
-  "author": "",
+  "author": "kepano (https://stephango.com/flexoki)",
   "variant": "dark",
   "color_01": "#100F0F",
   "color_02": "#D14D41",
@@ -21,5 +21,5 @@
   "background": "#100F0F",
   "foreground": "#CECDC3",
   "cursor": "#CECDC3",
-  "hash": "d0a48e3d675090c2a2912895880cff8c7c5e412f093d4bb43046a613d7a92f46"
+  "hash": "25b01457c11e5273be9476e71a697fb94697b455590132f18e6d96bb4a12f762"
 }

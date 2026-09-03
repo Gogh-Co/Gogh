@@ -1,5 +1,5 @@
 name: Wild Cherry
-author: ''
+author: mashaal (https://github.com/mashaal/wild-cherry)
 variant: dark
 color_01: '#000507'
 color_02: '#D94085'
@@ -20,4 +20,4 @@ color_16: '#E4838D'
 background: '#1F1726'
 foreground: '#DAFAFF'
 cursor: '#DD00FF'
-hash: 0ad2abbad4f4b9fe3ebe6e987a12a395363e0697decdd068989d2e2df17f5ac5
+hash: 9376e30cfeda411edab07b27e598884960cfc5bb5c65fa4af7bca56f0fa55cab

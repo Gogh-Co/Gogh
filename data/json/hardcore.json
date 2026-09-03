@@ -1,6 +1,6 @@
 {
   "name": "Hardcore",
-  "author": "",
+  "author": "hardcore (https://github.com/hardcore/iTerm-colors)",
   "variant": "dark",
   "color_01": "#1B1D1E",
   "color_02": "#F92672",
@@ -21,5 +21,5 @@
   "background": "#121212",
   "foreground": "#A0A0A0",
   "cursor": "#BBBBBB",
-  "hash": "88a243603707d97737e7bb40b37c17f9f59e5bc1efb4fc09dca7c4648e0b6573"
+  "hash": "50632d573e2be10da6b124a6dac944fb0ebaa64bac601c76858b6bfbd411e6d3"
 }

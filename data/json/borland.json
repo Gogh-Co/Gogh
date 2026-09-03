@@ -1,6 +1,6 @@
 {
   "name": "Borland",
-  "author": "",
+  "author": "delip (https://gist.github.com/delip/9e16c606d9331d69d681)",
   "variant": "dark",
   "color_01": "#4F4F4F",
   "color_02": "#FF6C60",
@@ -21,5 +21,5 @@
   "background": "#0000A4",
   "foreground": "#FFFF4E",
   "cursor": "#FFA560",
-  "hash": "bd2267039430839548dc6d5674cf4f018dc309dd4c1b0b7f797d42f9e1c01eb7"
+  "hash": "5fe19c76388d659839ea92285e76329354078e187b6803763d86317d55fb9242"
 }

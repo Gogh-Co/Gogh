@@ -1,5 +1,5 @@
 name: Sundried
-author: ''
+author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
 variant: dark
 color_01: '#302B2A'
 color_02: '#A7463D'
@@ -20,4 +20,4 @@ color_16: '#FFFFFF'
 background: '#1A1818'
 foreground: '#C9C9C9'
 cursor: '#FFFFFF'
-hash: 26eb4fe236e2d1c267d6624f9a3b26c2cb9cb7e27854e911ac5ea049342239ff
+hash: 4effd0950151dcb4c654eb56fc6dc02f0e7407741da101dd126444fe08412b9c

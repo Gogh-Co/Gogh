@@ -1,5 +1,5 @@
 name: Monokai Pro Light Sun
-author: ''
+author: Monokai (https://monokai.com/)
 variant: light
 color_01: '#F8EFE7'
 color_02: '#CE4770'
@@ -20,4 +20,4 @@ color_16: '#2C232E'
 background: '#F8EFE7'
 foreground: '#2C232E'
 cursor: '#72696D'
-hash: 8d26bbafc74cdffa605a844ebbe66bdd9139add7b5f1665c3ecb33d6c75cab0e
+hash: 29d2997f51ec4421526bef4fe1c3a9785dfbeb98c3725baec66bfc5908eb8d52

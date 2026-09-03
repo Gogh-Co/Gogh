@@ -1,5 +1,5 @@
 name: Aura
-author: ''
+author: daltonmenezes (https://github.com/daltonmenezes)
 variant: dark
 color_01: '#110F18'
 color_02: '#FF6767'
@@ -20,4 +20,4 @@ color_16: '#EDECEE'
 background: '#15141B'
 foreground: '#EDECEE'
 cursor: '#A277FF'
-hash: 3dd079e5942d498bcb161b63af5208eb5ee72a501ad43f61c4fd31995dd660af
+hash: c1041c75bd114769f6cf23d4db75b61a8ca84b523fa055529c94f549da6c85fd

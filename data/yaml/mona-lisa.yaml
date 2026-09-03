@@ -1,5 +1,5 @@
 name: Mona Lisa
-author: ''
+author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
 variant: dark
 color_01: '#351B0E'
 color_02: '#9B291C'
@@ -20,4 +20,4 @@ color_16: '#FFE598'
 background: '#120B0D'
 foreground: '#F7D66A'
 cursor: '#C46C32'
-hash: eacc373b9ed5777cefae909270bc427147f3c6d03ab4a06da6ce5b74a6a46081
+hash: 4da15ffab9168c0ac318bc2ed7fc0ee42aaf575ff9fe2c71ad539071d2871c35

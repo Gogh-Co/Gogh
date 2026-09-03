@@ -1,6 +1,6 @@
 {
   "name": "Everblush",
-  "author": "",
+  "author": "Mangeshrex (https://github.com/Mangeshrex)",
   "variant": "dark",
   "color_01": "#232A2D",
   "color_02": "#E57474",
@@ -21,5 +21,5 @@
   "background": "#141B1E",
   "foreground": "#DADADA",
   "cursor": "#DADADA",
-  "hash": "d79860b9c96956220dae4e4db9be8063d744b27c29802c25e09662e7d751d425"
+  "hash": "2cd2fe4728e0148bf3736c4a6f3e8f68015c46aa946ea50e5bea8474005e4849"
 }

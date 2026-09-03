@@ -1,6 +1,6 @@
 {
   "name": "Liquid Carbon Transparent",
-  "author": "",
+  "author": "markcho (https://github.com/markcho/iTerm2_LiquidCarbon)",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FF3030",
@@ -21,5 +21,5 @@
   "background": "#000000",
   "foreground": "#AFC2C2",
   "cursor": "#FFFFFF",
-  "hash": "7787955bf911c936927223420a2f14be2c047d45975d026ba82ea3b07b7d9e3f"
+  "hash": "92bb61c63dbdbcc8a273c0fa84969301c3387bd0dc3b09bf6769f004958f0b1b"
 }

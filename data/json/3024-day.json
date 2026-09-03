@@ -1,6 +1,6 @@
 {
   "name": "3024 Day",
-  "author": "",
+  "author": "0x3024 (https://github.com/0x3024)",
   "variant": "light",
   "color_01": "#090300",
   "color_02": "#DB2D20",
@@ -21,5 +21,5 @@
   "background": "#F7F7F7",
   "foreground": "#4A4543",
   "cursor": "#4A4543",
-  "hash": "e0881ab71e1e934b99810ae87bf04a3ea32c0c2a68e63895717c5cd6d4e0b651"
+  "hash": "fa9c72fd21fbf85171babfb3a1a3bc30c860aa71b4e82b4a4a52fa02924e984c"
 }

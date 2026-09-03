@@ -1,6 +1,6 @@
 {
   "name": "Belafonte Day",
-  "author": "",
+  "author": "idleberg (https://github.com/idleberg)",
   "variant": "light",
   "color_01": "#20111B",
   "color_02": "#BE100E",
@@ -21,5 +21,5 @@
   "background": "#D5CCBA",
   "foreground": "#45373C",
   "cursor": "#45373C",
-  "hash": "193e9404db786b473e84346cb29042903dc25ef37cb21dd3e0a13a6fc7f8ed1f"
+  "hash": "de88e0da2ba3eb36203c3f6ee56754e2edbbbd3d3074c511571a954073d6d17e"
 }

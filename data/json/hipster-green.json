@@ -1,6 +1,6 @@
 {
   "name": "Hipster Green",
-  "author": "",
+  "author": "Unkulunkulu (https://github.com/Unkulunkulu)",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#B6214A",
@@ -21,5 +21,5 @@
   "background": "#100B05",
   "foreground": "#84C138",
   "cursor": "#23FF18",
-  "hash": "a2db737d25c7c44a1fce16059514d747999ac160618aa3179bdeb150554620d0"
+  "hash": "db1e8c08a92e42510a872fd9b63977f52f8dd09b39f38b902a69ee8c1ccb992c"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Darkside",
-  "author": "",
+  "author": "bahlo (https://github.com/bahlo/iterm-colors)",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#E8341C",
@@ -21,5 +21,5 @@
   "background": "#222324",
   "foreground": "#BABABA",
   "cursor": "#BBBBBB",
-  "hash": "683d239ba958f2e681ae952f59a574530e0e1688785892c8daa595f51ce54f13"
+  "hash": "381f6ee96ea2941c6c823b8fac68331587f058506df1fd094c35de88a9a7d726"
 }

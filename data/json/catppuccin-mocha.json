@@ -1,6 +1,6 @@
 {
   "name": "Catppuccin Mocha",
-  "author": "",
+  "author": "Catppuccin (https://github.com/orgs/catppuccin/people)",
   "variant": "dark",
   "color_01": "#45475A",
   "color_02": "#F38BA8",
@@ -21,5 +21,5 @@
   "background": "#1E1E2E",
   "foreground": "#CDD6F4",
   "cursor": "#F5E0DC",
-  "hash": "e0156ee1b2446265f22dd110178f5a85bef48c09c82197da7cacdff451b4225d"
+  "hash": "ffa2b924a39954fd5af8990bf842bb1dd3f4a25a9def6861a0c38fdfeec5fc82"
 }

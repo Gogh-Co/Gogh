@@ -1,5 +1,5 @@
 name: Neutron
-author: ''
+author: Ch4s3 (https://github.com/Ch4s3/iTerm2-Neutron)
 variant: dark
 color_01: '#23252B'
 color_02: '#B54036'
@@ -20,4 +20,4 @@ color_16: '#EBEDF2'
 background: '#1C1E22'
 foreground: '#E6E8EF'
 cursor: '#F6F7EC'
-hash: fe9278f207ac0b0527fcba088a13444a1f775f7793c3c22774c7a4a7329d41df
+hash: e9ce4023956fb88b7e853ffd30d3eeb10b3a154d362b31ef1d2f27dd195dfde2

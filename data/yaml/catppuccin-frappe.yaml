@@ -1,5 +1,5 @@
 name: Catppuccin Frappe
-author: ''
+author: Catppuccin (https://github.com/orgs/catppuccin/people)
 variant: dark
 color_01: '#51576D'
 color_02: '#E78284'
@@ -20,4 +20,4 @@ color_16: '#A5ADCE'
 background: '#303446'
 foreground: '#C6D0F5'
 cursor: '#F2D5CF'
-hash: 86a8c56dec12c7ebf9b7df869b645bd21011377ce625a5fe664cd64e38b2cf4a
+hash: 00f79be3f12111c1c04664d9826ee357d5fe9ff090cd5d56f447dd261447fa70

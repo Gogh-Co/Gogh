@@ -1,6 +1,6 @@
 {
   "name": "Paraiso Dark",
-  "author": "",
+  "author": "idleberg (https://github.com/idleberg)",
   "variant": "dark",
   "color_01": "#2F1E2E",
   "color_02": "#EF6155",
@@ -21,5 +21,5 @@
   "background": "#2F1E2E",
   "foreground": "#A39E9B",
   "cursor": "#A39E9B",
-  "hash": "e02ff89e125bf1b20563c584f45f5bffa31771a24fe5daa1f6e1318e92a1abe3"
+  "hash": "d9fa80ac9c7b9756c966beaf83514ebb630937536a81dbf64ebfe48b1ce3dee0"
 }

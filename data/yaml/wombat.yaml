@@ -1,5 +1,5 @@
 name: Wombat
-author: ''
+author: djoyner (https://github.com/djoyner/iTerm2-wombat)
 variant: dark
 color_01: '#000000'
 color_02: '#FF615A'
@@ -20,4 +20,4 @@ color_16: '#FFFFFF'
 background: '#171717'
 foreground: '#DEDACF'
 cursor: '#BBBBBB'
-hash: 178eb9a8cfb853f00afa2530658a293b1df57d6aa2409245ca01bc02ad0e84fe
+hash: 283398b1cd1d20d66c8ba40b4ec53340ac2f3e138a682c4cfe3bbfe9740de36c

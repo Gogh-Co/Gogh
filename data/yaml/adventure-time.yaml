@@ -1,5 +1,5 @@
 name: Adventure Time
-author: ''
+author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
 variant: dark
 color_01: '#050404'
 color_02: '#BD0013'
@@ -20,4 +20,4 @@ color_16: '#F6F5FB'
 background: '#1F1D45'
 foreground: '#F8DCC0'
 cursor: '#EFBF38'
-hash: b4a9061f8f28144c645d13d0277924c0ea635adac0bd36d91e6c7a7b17954401
+hash: 310a6257342d5b224926688a67d6688813e5a29f5890e23938161730b0322dda

@@ -1,5 +1,5 @@
 name: Oceanic Next
-author: ''
+author: mhartington (https://github.com/mhartington/oceanic-next-iterm)
 variant: dark
 color_01: '#1B2B34'
 color_02: '#DB686B'
@@ -20,4 +20,4 @@ color_16: '#FFFFFF'
 background: '#1B2B34'
 foreground: '#C1C5CD'
 cursor: '#C1C5CD'
-hash: ee1bde6ea5033bff0c1d1429516c64845457db0bb27238cff26d4237eae4945a
+hash: 1cb08dee359d54a70ad326510662ed5db988ad58c2e975e62b08661ce4e6a6b7

@@ -1,5 +1,5 @@
 name: Pnevma
-author: ''
+author: baskerville (https://github.com/baskerville/iTerm-2-Color-Themes)
 variant: dark
 color_01: '#2F2E2D'
 color_02: '#A36666'
@@ -20,4 +20,4 @@ color_16: '#EFEFEF'
 background: '#1C1C1C'
 foreground: '#D0D0D0'
 cursor: '#E4C9AF'
-hash: 568cea8ee26434e4bd84724e243b23172b799bca9564f736cf3460f870497f75
+hash: c1b6836c86c17667f8a02fd474fd82ea294edd13f143021daeb92a15766fccf4

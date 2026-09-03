@@ -1,5 +1,5 @@
 name: Seti
-author: ''
+author: jesseweed (https://github.com/jesseweed/seti-syntax/)
 variant: dark
 color_01: '#323232'
 color_02: '#C22832'
@@ -20,4 +20,4 @@ color_16: '#FFFFFF'
 background: '#111213'
 foreground: '#CACECD'
 cursor: '#E3BF21'
-hash: 69f6f8d3286d6738f99a33945219a8e888490e773693b97f6f6d7c9844252273
+hash: f9c872163a81c69a4352aa9705fb03a55ba66cf1607aff210d303afc364f3f4c

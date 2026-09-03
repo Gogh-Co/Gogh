@@ -1,5 +1,5 @@
 name: Vibrant Ink
-author: ''
+author: asanghi (https://github.com/asanghi/vibrantinklion)
 variant: dark
 color_01: '#878787'
 color_02: '#FF6600'
@@ -20,4 +20,4 @@ color_16: '#E5E5E5'
 background: '#000000'
 foreground: '#FFFFFF'
 cursor: '#FFFFFF'
-hash: 2cc40ebd75ed8079da3c39d196d9c61d88efbbc5f0d594296e4524bf05dd0095
+hash: 8149a19c37975b5435dbc204d0db25224face4cea3da73ad23f13e0ffce48a4f

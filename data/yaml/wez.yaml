@@ -1,5 +1,5 @@
 name: Wez
-author: ''
+author: wez (https://gist.github.com/wez/850268/)
 variant: dark
 color_01: '#000000'
 color_02: '#CC5555'
@@ -20,4 +20,4 @@ color_16: '#FFFFFF'
 background: '#000000'
 foreground: '#B3B3B3'
 cursor: '#53AE71'
-hash: 1bca7097607bca9950e90f65cf0161a56ee8be41789361c4d25c2944056b69b0
+hash: ca27d1b3b62489eb96f7466e7c519f874b0e6fbd0168e93fac1ce879f05462b3

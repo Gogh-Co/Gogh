@@ -1,6 +1,6 @@
 {
   "name": "Misterioso",
-  "author": "",
+  "author": "flooose (https://github.com/flooose/misterioso-iterm2)",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FF4242",
@@ -21,5 +21,5 @@
   "background": "#2D3743",
   "foreground": "#E1E1E0",
   "cursor": "#000000",
-  "hash": "d040a8d98d5a210c4137f237d2470f4f602fdbf57dce0192ae904126776a80f7"
+  "hash": "138b1bbe4a8fe6ad18ffd10ad0714cd22e03746feaba161a0f34264c1fd82d6a"
 }

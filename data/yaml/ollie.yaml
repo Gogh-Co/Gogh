@@ -1,5 +1,5 @@
 name: Ollie
-author: ''
+author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
 variant: dark
 color_01: '#000000'
 color_02: '#AC2E31'
@@ -20,4 +20,4 @@ color_16: '#5B6EA7'
 background: '#222125'
 foreground: '#8A8DAE'
 cursor: '#5B6EA7'
-hash: 00717e7677091930b51addb9b9e53c3068a4a4393c65b2501cc8aea2303d69bb
+hash: 38c664932c3e8f12346f39b058c86defa0340db00d17aa0944e693dd57c89653

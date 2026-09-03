@@ -1,5 +1,5 @@
 name: Toy Chest
-author: ''
+author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
 variant: dark
 color_01: '#2C3F58'
 color_02: '#BE2D26'
@@ -20,4 +20,4 @@ color_16: '#D5D5D5'
 background: '#24364B'
 foreground: '#31D07B'
 cursor: '#D5D5D5'
-hash: 1aa5a2466a42a0deee2856b573cba127f55cb392d1bc566fd8bc6344fee72a30
+hash: 4cdbbcdce81c6fc7404cc8aa546a53197be1057d452be7d7a135aea2a449b2c4

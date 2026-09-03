@@ -1,5 +1,5 @@
 name: Horizon Bright
-author: ''
+author: Antonio Camargo (https://github.com/apcamargo)
 variant: light
 color_01: '#16161C'
 color_02: '#E95678'
@@ -20,4 +20,4 @@ color_16: '#FFF3F0'
 background: '#FBF0EE'
 foreground: '#16161C'
 cursor: '#F2D0C5'
-hash: a7d8550bfeeeb78fa66b14debd310138d3901f6399e19b8b925c13e062fb85f1
+hash: 63541952ef7cc851b1aa18b6eb906399f04a74c421a35f2ff7d1f956b6acdf54

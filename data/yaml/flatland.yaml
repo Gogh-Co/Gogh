@@ -1,5 +1,5 @@
 name: Flatland
-author: ''
+author: realchaseadams (http://www.snip2code.com/Snippet/148193/Flatland-color-scheme-for-iTerm2)
 variant: dark
 color_01: '#1D1D19'
 color_02: '#F18339'
@@ -20,4 +20,4 @@ color_16: '#FFFFFF'
 background: '#1D1F21'
 foreground: '#B8DBEF'
 cursor: '#708284'
-hash: 6357c106e5dbb99d4587732993c1fa67ea5ada8c3b5df468e7adb6802141bb23
+hash: b945326dc247a6b9af91db22760b3d25b5c10875a91a36d6764227f5e5c62b61

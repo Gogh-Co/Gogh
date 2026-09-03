@@ -1,5 +1,5 @@
 name: Cobalt2
-author: ''
+author: wesbos (https://github.com/wesbos/Cobalt2-iterm)
 variant: dark
 color_01: '#000000'
 color_02: '#FF0000'
@@ -20,4 +20,4 @@ color_16: '#FFFFFF'
 background: '#132738'
 foreground: '#FFFFFF'
 cursor: '#F0CC09'
-hash: 8aca6ae6552a4ab0aecf1a8adaa3bc985abdf072ed0e0ba633bd912978f7cb86
+hash: 8db493a50ec8404f83fe9ef848a01224ec51f7b2ba415b9685ddc9c80738781f

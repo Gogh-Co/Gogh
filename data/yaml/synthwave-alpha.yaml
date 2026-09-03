@@ -1,5 +1,5 @@
 name: Synthwave Alpha
-author: ''
+author: vikpe (https://github.com/vikpe)
 variant: dark
 color_01: '#241B30'
 color_02: '#E60A70'
@@ -20,4 +20,4 @@ color_16: '#F2F2E3'
 background: '#241B30'
 foreground: '#F2F2E3'
 cursor: '#F2F2E3'
-hash: 873e4f6a7c28cb8fc471a37fed8e9a552e0c3e366507ff4c755581e8a952f8bc
+hash: a85f33d894b4a3cb807ec3313ebcdcb8c294af76bd1ad21d2ab5e870dc197105

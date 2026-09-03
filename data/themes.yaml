@@ -45,7 +45,7 @@
   cursor: '#E0D000'
   hash: 5122c831537f74904cc7fcf873823285237a3dea000a83632fef83427b009f79
 - name: 3024 Day
-  author: ''
+  author: 0x3024 (https://github.com/0x3024)
   variant: light
   color_01: '#090300'
   color_02: '#DB2D20'
@@ -66,9 +66,9 @@
   background: '#F7F7F7'
   foreground: '#4A4543'
   cursor: '#4A4543'
-  hash: e0881ab71e1e934b99810ae87bf04a3ea32c0c2a68e63895717c5cd6d4e0b651
+  hash: fa9c72fd21fbf85171babfb3a1a3bc30c860aa71b4e82b4a4a52fa02924e984c
 - name: 3024 Night
-  author: ''
+  author: 0x3024 (https://github.com/0x3024)
   variant: dark
   color_01: '#090300'
   color_02: '#DB2D20'
@@ -89,7 +89,7 @@
   background: '#090300'
   foreground: '#A5A2A2'
   cursor: '#A5A2A2'
-  hash: 34cd8ebcb00ae6630358b68526ccc7bdedde6ea5984ec2eab804d0536c89a8a8
+  hash: 6692a4dbceb0859a45d6486925a1e9818fa341d6295a203be9d982946465d0a7
 - name: Aardvark Blue
   author: joshka (https://github.com/joshka)
   variant: dark
@@ -275,7 +275,7 @@
   cursor: '#FEFFFF'
   hash: a2a6b8b3cd800e02d8b6c3560f196179538c1ad0c8850711307bc62a56285352
 - name: Adventure Time
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#050404'
   color_02: '#BD0013'
@@ -296,7 +296,7 @@
   background: '#1F1D45'
   foreground: '#F8DCC0'
   cursor: '#EFBF38'
-  hash: b4a9061f8f28144c645d13d0277924c0ea635adac0bd36d91e6c7a7b17954401
+  hash: 310a6257342d5b224926688a67d6688813e5a29f5890e23938161730b0322dda
 - name: Adwaita
   author: cnavajas (https://github.com/cnavajas)
   variant: light
@@ -344,7 +344,7 @@
   cursor: '#FFFFFF'
   hash: 190ec94bbbfc0b0bca00e71f5aa558c5a4ba5f0d9ba2575d0cf16324f53151a6
 - name: Afterglow
-  author: ''
+  author: yabatadesign (https://github.com/YabataDesign/afterglow-itermcolors)
   variant: dark
   color_01: '#151515'
   color_02: '#AC4142'
@@ -365,7 +365,7 @@
   background: '#212121'
   foreground: '#D0D0D0'
   cursor: '#D0D0D0'
-  hash: 567ee80d2be73493b99ba47d1b5d7afd99847d3399c98a9a215490e2e51d9c23
+  hash: 97d10a4bc7017e682f24e1cbcf2afcb56d0485e092f6ff9ee8a8463fcc1049bd
 - name: Agave
   author: ''
   variant: dark
@@ -459,7 +459,7 @@
   cursor: '#007ACC'
   hash: 085d82d30b096e2162bbecc0fc1100fd04399dfaa1a67077b083aceb71e042e6
 - name: Alien Blood
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#112616'
   color_02: '#7F2B27'
@@ -480,7 +480,7 @@
   background: '#0F1610'
   foreground: '#637D75'
   cursor: '#73FA91'
-  hash: e7a68c1387e3079aa000ad84926f256349b30eeb072a3ff9ea70a24ba11db454
+  hash: a4f6dcd6919022f9a76a933213ee716523a138739961cede3b8a4db3f1d33846
 - name: Amber CRT Retro
   author: PoshPalette (https://github.com/livlign/posh-palette)
   variant: dark
@@ -712,7 +712,7 @@
   cursor: '#F7F7F7'
   hash: 62cf027dbb362c00cf4b6d421a92c469730d74505984e1d2b1f664040592ee52
 - name: Argonaut
-  author: ''
+  author: effkay (https://github.com/effkay/iTerm-argonaut)
   variant: dark
   color_01: '#232323'
   color_02: '#FF000F'
@@ -733,9 +733,9 @@
   background: '#0E1019'
   foreground: '#FFFAF4'
   cursor: '#FF0018'
-  hash: 1d5ead7869176701b80e690ab2cc5c7b8e683effe0e336c87ee6e798509094a3
+  hash: c73ce0017c6a9661cee0b49ac1b3b1589d9db63471cdf118e96e2d8df94d2fe8
 - name: Arthur
-  author: ''
+  author: baskerville (https://github.com/baskerville/iTerm-2-Color-Themes)
   variant: dark
   color_01: '#3D352A'
   color_02: '#CD5C5C'
@@ -756,7 +756,7 @@
   background: '#1C1C1C'
   foreground: '#DDEEDD'
   cursor: '#E2BBEF'
-  hash: 92820528c001970f0a88b5c1b894de2737dc2dd426a87175514950a2902b4900
+  hash: 01a5db6897850943fbaf20cb5ef016705607a9880340f4a0ecf9336cd346e119
 - name: Astrodark
   author: ''
   variant: dark
@@ -1034,7 +1034,7 @@
   cursor: '#3B82F6'
   hash: 53d6fbd76656395cd5dbfebcd4347acfa42c81c3268ebe69821f52614fea70be
 - name: Atom
-  author: ''
+  author: bahlo (https://github.com/bahlo/iterm-colors)
   variant: dark
   color_01: '#000000'
   color_02: '#FD5FF1'
@@ -1055,7 +1055,7 @@
   background: '#161719'
   foreground: '#C5C8C6'
   cursor: '#D0D0D0'
-  hash: 8a6ea7155d53e6d82b54a747bdda140dfcff7bf01407294360760eb101dab854
+  hash: 484ea984fdb74bac16364f0027013568629d2b55085bc1e97acf15e2a11e11ee
 - name: Atom One Dark
   author: zasdaym (https://github.com/zasdaym)
   variant: dark
@@ -1126,7 +1126,7 @@
   cursor: '#AE3F84'
   hash: 8b530f1ab30f652d747b64290415ecce5a6e86e71600377c6a57115adebb74c6
 - name: Aura
-  author: ''
+  author: daltonmenezes (https://github.com/daltonmenezes)
   variant: dark
   color_01: '#110F18'
   color_02: '#FF6767'
@@ -1147,7 +1147,7 @@
   background: '#15141B'
   foreground: '#EDECEE'
   cursor: '#A277FF'
-  hash: 3dd079e5942d498bcb161b63af5208eb5ee72a501ad43f61c4fd31995dd660af
+  hash: c1041c75bd114769f6cf23d4db75b61a8ca84b523fa055529c94f549da6c85fd
 - name: Aura Dark
   author: ''
   variant: dark
@@ -1264,7 +1264,7 @@
   cursor: '#E6B450'
   hash: 7b78ea71eebc2bfcce9f0926130d27e2dec2a574a93748c34c8ffcea951551f1
 - name: Ayu Light
-  author: ''
+  author: alebcay (https://github.com/alebcay)
   variant: light
   color_01: '#000000'
   color_02: '#EA6C6D'
@@ -1285,7 +1285,7 @@
   background: '#F8F9FA'
   foreground: '#5C6166'
   cursor: '#FFAA33'
-  hash: 8916887c9fedbed603054a76e69acf82a9aba5b5095c0ac44c69bdf426a24147
+  hash: 12eaa5e8a1b59cf21e2604485824d4f41b0e5c08541380172259f9925b8efdd9
 - name: Ayu Mirage
   author: ''
   variant: dark
@@ -2276,7 +2276,7 @@
   cursor: '#FCEF0C'
   hash: 352e741932ac27ce023fb21984ddae2e93bfff4937cbfddc7814200962628dc1
 - name: Belafonte Day
-  author: ''
+  author: idleberg (https://github.com/idleberg)
   variant: light
   color_01: '#20111B'
   color_02: '#BE100E'
@@ -2297,9 +2297,9 @@
   background: '#D5CCBA'
   foreground: '#45373C'
   cursor: '#45373C'
-  hash: 193e9404db786b473e84346cb29042903dc25ef37cb21dd3e0a13a6fc7f8ed1f
+  hash: de88e0da2ba3eb36203c3f6ee56754e2edbbbd3d3074c511571a954073d6d17e
 - name: Belafonte Night
-  author: ''
+  author: idleberg (https://github.com/idleberg)
   variant: dark
   color_01: '#20111B'
   color_02: '#BE100E'
@@ -2320,7 +2320,7 @@
   background: '#20111B'
   foreground: '#968C83'
   cursor: '#968C83'
-  hash: 741b7d56478a912043499d9fa4e01ec8b696827359ef9c6f3cd636ce573cb39f
+  hash: 3b4220cf90881bf2ed31db91c56a955787769428b9fb6df9213071f322fa6bd7
 - name: Bim
   author: ''
   variant: dark
@@ -2345,7 +2345,7 @@
   cursor: '#A9BED8'
   hash: 06d81f7bab830e63765a657b468c1c93fa569923b92099447b54129581a6301b
 - name: Birds Of Paradise
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#573D26'
   color_02: '#BE2D26'
@@ -2366,7 +2366,7 @@
   background: '#2A1F1D'
   foreground: '#E0DBB7'
   cursor: '#573D26'
-  hash: 9bc9f88f5c63a532fb1b71a7cec8ae178d24fa9addc48aedddf1b462df1061bc
+  hash: 6827ba426f55f100dd0be579628db36d985824d6899535ba3f76554879490a76
 - name: Black Metal
   author: nooneknows (https://github.com/nooneknowspeter)
   variant: dark
@@ -2667,7 +2667,7 @@
   cursor: '#FCFAD6'
   hash: 03763b653ddcb9e303b3c4f625a59692c0d92fe6f27e030b0ccd768e548781f1
 - name: Blue Dolphin
-  author: ''
+  author: vimiomori (https://github.com/vimiomori)
   variant: dark
   color_01: '#292D3E'
   color_02: '#FF8288'
@@ -2688,7 +2688,7 @@
   background: '#006984'
   foreground: '#C5F2FF'
   cursor: '#FFCC00'
-  hash: bdf4f6fd400941905e984750c8f395e077ec9675cdb9f5bed70b90247ce0a60d
+  hash: 052bb930b387993d304c25f42f758c29b1c87e10564c2731a263da34dc3a9bdf
 - name: Blue Matrix
   author: ReagentX (https://github.com/ReagentX)
   variant: dark
@@ -2828,7 +2828,7 @@
   cursor: '#383A42'
   hash: 4ba1535ecb473aea8cd43ef19a4b1e68cc8ed84541bbb08b17185fcff7aac4df
 - name: Borland
-  author: ''
+  author: delip (https://gist.github.com/delip/9e16c606d9331d69d681)
   variant: dark
   color_01: '#4F4F4F'
   color_02: '#FF6C60'
@@ -2849,7 +2849,7 @@
   background: '#0000A4'
   foreground: '#FFFF4E'
   cursor: '#FFA560'
-  hash: bd2267039430839548dc6d5674cf4f018dc309dd4c1b0b7f797d42f9e1c01eb7
+  hash: 5fe19c76388d659839ea92285e76329354078e187b6803763d86317d55fb9242
 - name: Box
   author: D3vil0p3r (https://github.com/D3vil0p3r)
   variant: dark
@@ -2874,7 +2874,7 @@
   cursor: '#9FEF00'
   hash: 9fe626da67d24acbcd572794bd577fef505892679582de59b6ce1d8a321b1189
 - name: Breadog
-  author: ''
+  author: Ruby Klover (https://gitlab.com/warningnonpotablewater/breadog)
   variant: light
   color_01: '#362C24'
   color_02: '#B10B00'
@@ -2895,7 +2895,7 @@
   background: '#F1EBE6'
   foreground: '#362C24'
   cursor: '#362C24'
-  hash: 72e7acfcd0c13cd5516dc825381d1a98b687f0c7854c12f3e558aef8b18101bf
+  hash: 8b57e1c413517a9ca26ece1fa32a96d7c9ad60f2d4e97dd49e07cac56ad28287
 - name: Breath
   author: ''
   variant: dark
@@ -2989,7 +2989,7 @@
   cursor: '#BBBBBB'
   hash: 5340ad1740816fd8c4c0a9f69fcc650509db10b410d74df04f20b8e1f6c9fd7c
 - name: Breeze
-  author: ''
+  author: KDE (https://kde.org)
   variant: dark
   color_01: '#31363B'
   color_02: '#ED1515'
@@ -3010,7 +3010,7 @@
   background: '#31363B'
   foreground: '#EFF0F1'
   cursor: '#EFF0F1'
-  hash: 350eb36c48c53390c3547b0cbcb818545022de1dcade30d2a935420aeb788a2e
+  hash: d83cb3a256b74d7e4b1232cf95f2fad2886d1cfa2065faa96f55306088d1ec39
 - name: Bright Lights
   author: tw15egan (https://github.com/tw15egan)
   variant: dark
@@ -3035,7 +3035,7 @@
   cursor: '#F34B00'
   hash: 271aa622de3fa5bfb2fc01e486fd3b87ab8044b0ebe32b98210d97d437d23bfa
 - name: Broadcast
-  author: ''
+  author: vinkla (https://github.com/vinkla/broadcast-theme)
   variant: dark
   color_01: '#000000'
   color_02: '#DA4939'
@@ -3056,9 +3056,9 @@
   background: '#2B2B2B'
   foreground: '#E6E1DC'
   cursor: '#FFFFFF'
-  hash: 3152116de787c468f4c207b4aa741f7267a91b14a134e2d7b40cc40c3122301e
+  hash: 6c358df11d4355a04ad0b99c4361601e94232394d8dc6003410d0a744715dba0
 - name: Brogrammer
-  author: ''
+  author: bahlo (https://github.com/bahlo/iterm-colors)
   variant: dark
   color_01: '#1F1F1F'
   color_02: '#F81118'
@@ -3079,7 +3079,7 @@
   background: '#131313'
   foreground: '#D6DBE5'
   cursor: '#B9B9B9'
-  hash: 3545c81d0a3c23adf8bb0b95aed92cd2be201a6b787f622f74ee23e1a978480f
+  hash: e48456a9cdd0429148269f6449f5b2b1667b9e6ed685dc3881d90ed488782a60
 - name: Builtin Dark
   author: ''
   variant: dark
@@ -3219,7 +3219,7 @@
   cursor: '#E39D93'
   hash: 526eaab3c1f2bc4abff4c81de0d252f940071536c4cad1f35efd6c9e6330cc19
 - name: C64
-  author: ''
+  author: idleberg (https://github.com/idleberg)
   variant: dark
   color_01: '#090300'
   color_02: '#883932'
@@ -3240,7 +3240,7 @@
   background: '#40318D'
   foreground: '#7869C4'
   cursor: '#7869C4'
-  hash: 0f8d580cd9b9b1a075ff51e51e374685dfee4e46d53e363d570de62c4012c695
+  hash: b8274f80f4d55a2734894343ba9c1bb0f423fb9c7b10ceba4d6c1b86b009e699
 - name: CGA
   author: jdhmtl (https://github.com/jdhmtl)
   variant: dark
@@ -3265,7 +3265,7 @@
   cursor: '#B8B8B8'
   hash: af2461afb574200087c83ada9c4219673164f883a1297df4e754596bf7234bec
 - name: CLRS
-  author: ''
+  author: jasonlong (https://github.com/jasonlong/iterm-clrs)
   variant: light
   color_01: '#000000'
   color_02: '#F8282A'
@@ -3286,7 +3286,7 @@
   background: '#FFFFFF'
   foreground: '#262626'
   cursor: '#6FD3FC'
-  hash: 0217317dd409d920d0a2ca5c9dbd41bdc1903c03b36c42621f46530e65690344
+  hash: 972123bdbceae67a63ce6294fb58c320be9171560caf8657bf3474d7a8bd4be8
 - name: CRT Amber
   author: theebest.com (https://www.theebest.com)
   variant: dark
@@ -3426,7 +3426,7 @@
   cursor: '#2B1B12'
   hash: 2840ca04ddf54b0b07b971063276bf061f26d4fc6e3ce7b828305e3bdbc98c30
 - name: Catppuccin Frappe
-  author: ''
+  author: Catppuccin (https://github.com/orgs/catppuccin/people)
   variant: dark
   color_01: '#51576D'
   color_02: '#E78284'
@@ -3447,9 +3447,9 @@
   background: '#303446'
   foreground: '#C6D0F5'
   cursor: '#F2D5CF'
-  hash: 86a8c56dec12c7ebf9b7df869b645bd21011377ce625a5fe664cd64e38b2cf4a
+  hash: 00f79be3f12111c1c04664d9826ee357d5fe9ff090cd5d56f447dd261447fa70
 - name: Catppuccin Latte
-  author: ''
+  author: Catppuccin (https://github.com/orgs/catppuccin/people)
   variant: light
   color_01: '#BCC0CC'
   color_02: '#D20F39'
@@ -3470,9 +3470,9 @@
   background: '#EFF1F5'
   foreground: '#4C4F69'
   cursor: '#DC8A78'
-  hash: 6ac25ebb97dfed5586dbe503db6d5312893fd7872235b3a1b636a8514e48455e
+  hash: c293b8d6295eb86490ca35308f75d8b6d24b5a9fdde9e460005e567603ef8dd8
 - name: Catppuccin Macchiato
-  author: ''
+  author: Catppuccin (https://github.com/orgs/catppuccin/people)
   variant: dark
   color_01: '#494D64'
   color_02: '#ED8796'
@@ -3493,9 +3493,9 @@
   background: '#24273A'
   foreground: '#CAD3F5'
   cursor: '#F4DBD6'
-  hash: 68b1935047c0ac96734a7e02fae7b4c7966f32bcd31cdae36c56ff888c9b9eb8
+  hash: a81e060897e87e75772f847cc25bd94b254812ecc22416159a3be5246fd8ea6f
 - name: Catppuccin Mocha
-  author: ''
+  author: Catppuccin (https://github.com/orgs/catppuccin/people)
   variant: dark
   color_01: '#45475A'
   color_02: '#F38BA8'
@@ -3516,9 +3516,9 @@
   background: '#1E1E2E'
   foreground: '#CDD6F4'
   cursor: '#F5E0DC'
-  hash: e0156ee1b2446265f22dd110178f5a85bef48c09c82197da7cacdff451b4225d
+  hash: ffa2b924a39954fd5af8990bf842bb1dd3f4a25a9def6861a0c38fdfeec5fc82
 - name: Chalk
-  author: ''
+  author: achalv (https://github.com/achalv/chalk)
   variant: dark
   color_01: '#7D8B8F'
   color_02: '#B23A52'
@@ -3539,7 +3539,7 @@
   background: '#2B2D2E'
   foreground: '#D2D8D9'
   cursor: '#708284'
-  hash: 325ca8bcf15a0d69aac0b674fb9d00ca23505b74633284e02e1a146a46d128d8
+  hash: 3cab4dfd3fedb45e38dd06ff5a5fa7518ec8fa0c3997d711bf4539b82666aacb
 - name: Chalkboard
   author: ''
   variant: dark
@@ -3633,7 +3633,7 @@
   cursor: '#B4B1B1'
   hash: eca3d6261c0162c6305739cde81ede585f432c96ea260c2c756f905fc1b5cd78
 - name: Ciapre
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#181818'
   color_02: '#810009'
@@ -3654,7 +3654,7 @@
   background: '#191C27'
   foreground: '#AEA47A'
   cursor: '#92805B'
-  hash: bcc09d56e21b92d6a10206a10b01e2733cca100d7258d2d7f31bd280a39145fa
+  hash: 47e2286d7c36b6e9ef215e3b21c9554516b155b858d246a6079d8bce8af28a61
 - name: Citrus Ink
   author: PoshPalette (https://github.com/livlign/posh-palette)
   variant: dark
@@ -3863,7 +3863,7 @@
   cursor: '#FFFFFF'
   hash: e612228d614a0b0338e0de749ce24809199a196dc9e99cb76a9d56f29e330484
 - name: Cobalt Neon
-  author: ''
+  author: vazquez (https://github.com/vazquez/cobalt-neon-iterm)
   variant: dark
   color_01: '#142631'
   color_02: '#FF2320'
@@ -3884,7 +3884,7 @@
   background: '#142838'
   foreground: '#8FF586'
   cursor: '#C4206F'
-  hash: 90ef768a2e6af57dcc2ed1c53dcaab9c841e26a94b9c900e6062de336027ee2d
+  hash: d4b4fdfa4080adc69d93c892c21f9c85033ca98c5e692cfdd4fa4f14058640ce
 - name: Cobalt Next
   author: davidleininger (https://github.com/davidleininger/cobaltnext-vscode)
   variant: dark
@@ -3955,7 +3955,7 @@
   cursor: '#5FB3B3'
   hash: f42d8861b0d6298d2609918133774c725a91ca46cefc7b2bb5423b9d3e3ee59e
 - name: Cobalt2
-  author: ''
+  author: wesbos (https://github.com/wesbos/Cobalt2-iterm)
   variant: dark
   color_01: '#000000'
   color_02: '#FF0000'
@@ -3976,7 +3976,7 @@
   background: '#132738'
   foreground: '#FFFFFF'
   cursor: '#F0CC09'
-  hash: 8aca6ae6552a4ab0aecf1a8adaa3bc985abdf072ed0e0ba633bd912978f7cb86
+  hash: 8db493a50ec8404f83fe9ef848a01224ec51f7b2ba415b9685ddc9c80738781f
 - name: Coffee Theme
   author: cbitterfield (https://github.com/cbitterfield)
   variant: light
@@ -4047,7 +4047,7 @@
   cursor: '#38FF9D'
   hash: 61bcbe81d1c13da970eddaf73b32783b0c4023d6d6170c3abd2f434071731624
 - name: Crayon Pony Fish
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#2B1B1D'
   color_02: '#91002B'
@@ -4068,7 +4068,7 @@
   background: '#150707'
   foreground: '#68525A'
   cursor: '#68525A'
-  hash: 062bd6d62bda9614aec156b185a84f7c787a08949add59e90641da1435181ad4
+  hash: cd2930963bb9620cc00cc843455b09702eb793c68d8666667e1a26904c6271ff
 - name: Cursor Dark
   author: ''
   variant: dark
@@ -4346,7 +4346,7 @@
   cursor: '#9FA86E'
   hash: df4e0ecece54c2b6894c8eba8269bb70ead99cddd6d57a0a6191c7e3e5fb998b
 - name: Darkside
-  author: ''
+  author: bahlo (https://github.com/bahlo/iterm-colors)
   variant: dark
   color_01: '#000000'
   color_02: '#E8341C'
@@ -4367,7 +4367,7 @@
   background: '#222324'
   foreground: '#BABABA'
   cursor: '#BBBBBB'
-  hash: 683d239ba958f2e681ae952f59a574530e0e1688785892c8daa595f51ce54f13
+  hash: 381f6ee96ea2941c6c823b8fac68331587f058506df1fd094c35de88a9a7d726
 - name: Dawnfox
   author: ''
   variant: light
@@ -4553,7 +4553,7 @@
   cursor: '#37E57B'
   hash: b69a81c542804cb01cb6797b0dd019aeb7afcc04b27fe663ec18d94004444262
 - name: Dimmed Monokai
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#3A3D43'
   color_02: '#BE3F48'
@@ -4574,7 +4574,7 @@
   background: '#1F1F1F'
   foreground: '#B9BCBA'
   cursor: '#F83E19'
-  hash: 48d17ab6c91797769a16096294fbb7c449fb70fc17590d79a71e45828d02c285
+  hash: 15173796a2ecd4aae580429aa2b5697f983c182dd36b40456dcc7f9afc3e5b70
 - name: Dissonance
   author: ''
   variant: dark
@@ -4921,7 +4921,7 @@
   cursor: '#BBBBBB'
   hash: 9942125bf7351fae737887bb01c9e77109ff2056f4beaf0996fd0211827de229
 - name: Earthsong
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#121418'
   color_02: '#C94234'
@@ -4942,7 +4942,7 @@
   background: '#292520'
   foreground: '#E5C7A9'
   cursor: '#F6F7EC'
-  hash: 5caf50dfbe54c493e255cc09e4846648e3f474eea79eadb6b9555a16d9623080
+  hash: 122996795ccbc2e4a8355be4d8cbe7c24a9ca91ce0ea0d2e735b891c4ad99e6a
 - name: Eclipse
   author: PoshPalette (https://github.com/livlign/posh-palette)
   variant: dark
@@ -5036,7 +5036,7 @@
   cursor: '#55BBF9'
   hash: 0d835db940f74b35f8a8afeaec017b6bf47c9cffa71451d7467521ecb5c86886
 - name: Elemental
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#3C3C30'
   color_02: '#98290F'
@@ -5057,7 +5057,7 @@
   background: '#22211D'
   foreground: '#807A74'
   cursor: '#FACB80'
-  hash: 4af66920d092c8bab92b1cffde5ac2034447bf419ae8b559d8bd71b9f31cfbe0
+  hash: 82cd0f6c93c7481abcaf90cb2d8aca4c70d2612c0fc64050e822c136b3600e6e
 - name: Elementary
   author: ''
   variant: dark
@@ -5220,7 +5220,7 @@
   cursor: '#D6D6D6'
   hash: 7e79f33d66dc028640c86aef1e56c5566c58e118af0281d5b5a2dd3a0d84e893
 - name: Espresso Libre
-  author: ''
+  author: jurgemaister (https://github.com/jurgemaister/Espresso-Libre)
   variant: dark
   color_01: '#000000'
   color_02: '#CC0000'
@@ -5241,9 +5241,9 @@
   background: '#2A211C'
   foreground: '#B8A898'
   cursor: '#FFFFFF'
-  hash: de719691f0cd274f56ae2ac3af30d52cf018a5efaec18f71c425e921eb46f6f0
+  hash: 2c528dd53033ae4a0a5d85b434e89b0648a3548be23b7bbce3769bf698642cad
 - name: Everblush
-  author: ''
+  author: Mangeshrex (https://github.com/Mangeshrex)
   variant: dark
   color_01: '#232A2D'
   color_02: '#E57474'
@@ -5264,9 +5264,9 @@
   background: '#141B1E'
   foreground: '#DADADA'
   cursor: '#DADADA'
-  hash: d79860b9c96956220dae4e4db9be8063d744b27c29802c25e09662e7d751d425
+  hash: 2cd2fe4728e0148bf3736c4a6f3e8f68015c46aa946ea50e5bea8474005e4849
 - name: Everforest Dark Hard
-  author: ''
+  author: NicolasGB (https://github.com/NicolasGB)
   variant: dark
   color_01: '#7A8478'
   color_02: '#E67E80'
@@ -5287,7 +5287,7 @@
   background: '#1E2326'
   foreground: '#D3C6AA'
   cursor: '#E69875'
-  hash: d854ab50c4a0a3d7140862e213f96a01e17653c352b16766747165e73def3c52
+  hash: a1a32679096525d0b396fc9e0f790ee8115774cc3674ae4c74059a782d74e983
 - name: Everforest Dark Med
   author: eskultety (https://github.com/eskultety)
   variant: dark
@@ -5335,7 +5335,7 @@
   cursor: '#D3C6AA'
   hash: e29af56ae85f42e26fe09cb05ab888d9be6f7e20ab572f6d13b7dbd8ecf42475
 - name: Everforest Dark Soft
-  author: ''
+  author: eskultety (https://github.com/eskultety)
   variant: dark
   color_01: '#7A8478'
   color_02: '#E67E80'
@@ -5356,9 +5356,9 @@
   background: '#293136'
   foreground: '#D3C6AA'
   cursor: '#E69875'
-  hash: d7fa941200d47cc3a118ca469bcbd603ea836c3e177b43e54880b1280f8ea018
+  hash: 0432a0cbbd51d10191c8a8d281a7d44e97b3ede16977bb5c6ab1bec6feee52a6
 - name: Everforest Light Hard
-  author: ''
+  author: eskultety (https://github.com/eskultety)
   variant: light
   color_01: '#7A8478'
   color_02: '#E67E80'
@@ -5379,7 +5379,7 @@
   background: '#F2EFDF'
   foreground: '#5C6A72'
   cursor: '#F57D26'
-  hash: 5e2848934cfaec42ed199eff2be8f6648b38c9fd3c847547c77b5321054dd620
+  hash: 73e44b11fcfaf2aa3b3fecdf7bbcf28e1e4d0e8610c4e79efe0223f233c37256
 - name: Everforest Light Med
   author: robertjkeller (https://github.com/robertjkeller)
   variant: light
@@ -5427,7 +5427,7 @@
   cursor: '#5C6A72'
   hash: ee6dcbdf70198b0d5106fef9e0a1e79253936bda4934e8ad177aa21888689be6
 - name: Everforest Light Soft
-  author: ''
+  author: eskultety (https://github.com/eskultety)
   variant: light
   color_01: '#7A8478'
   color_02: '#E67E80'
@@ -5448,7 +5448,7 @@
   background: '#E5DFC5'
   foreground: '#5C6A72'
   cursor: '#F57D26'
-  hash: 032239e0d796137548db054d1fdf8b6c1618f9889c94ab418416da62d1778ed6
+  hash: 252755b71a826865bcc38ed1b8932b5cfd4776f9ba0ecac0279016778496087e
 - name: Fahrenheit
   author: jonascarpay (https://github.com/jonascarpay)
   variant: dark
@@ -5496,7 +5496,7 @@
   cursor: '#FFB8D1'
   hash: 52d71a6734eb78a8908fa1473d2a232aead5181cd726639756be5c93f4bf4bdc
 - name: Fairyfloss
-  author: ''
+  author: rebecabordini (https://github.com/rebecabordini)
   variant: dark
   color_01: '#040303'
   color_02: '#F92672'
@@ -5517,7 +5517,7 @@
   background: '#5A5475'
   foreground: '#F8F8F2'
   cursor: '#F8F8F0'
-  hash: 51d6e930d85942f1c05c4234e7e251b28c96287da83670410413afbc67ab5419
+  hash: 0fc142bb6760ee9162937bafaf0797dfd1443b01455d13fd8c786435e0c79ba3
 - name: Farmhouse Dark
   author: mattly (https://github.com/mattly)
   variant: dark
@@ -5657,7 +5657,7 @@
   cursor: '#F6F7EC'
   hash: 49101481f5b7e6498e7efad23c6b373b9c174f220771e30a92f7daef5c679f50
 - name: Fish Tank
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#03073C'
   color_02: '#C6004A'
@@ -5678,9 +5678,9 @@
   background: '#232537'
   foreground: '#ECF0FE'
   cursor: '#FECD5E'
-  hash: 5f96b7139e7470a09fb1dddcc8f82e2419f1f67680b107d4a88854c5dd27976d
+  hash: dfec2a3494d554c27c759439317b7e199932b86afd77f061846f45a89ce50a8a
 - name: Flat
-  author: ''
+  author: ahmetsulek (https://github.com/ahmetsulek/flat-terminal)
   variant: dark
   color_01: '#222D3F'
   color_02: '#A82320'
@@ -5701,7 +5701,7 @@
   background: '#002240'
   foreground: '#2CC55D'
   cursor: '#E5BE0C'
-  hash: b14d6f39096e93478d8677926101aa9ff30ca9fb001d2c169ca1c3cd15e8f8e0
+  hash: 303b900239c2f15d825954e39dddac0fb8d4653d6b889208fae33155fc959a1e
 - name: Flat Remix
   author: ''
   variant: dark
@@ -5726,7 +5726,7 @@
   cursor: '#FFFFFF'
   hash: ace6635738283f415cd75421f1305fa30218d6d77117b05da973bf543c2662fb
 - name: Flatland
-  author: ''
+  author: realchaseadams (http://www.snip2code.com/Snippet/148193/Flatland-color-scheme-for-iTerm2)
   variant: dark
   color_01: '#1D1D19'
   color_02: '#F18339'
@@ -5747,9 +5747,9 @@
   background: '#1D1F21'
   foreground: '#B8DBEF'
   cursor: '#708284'
-  hash: 6357c106e5dbb99d4587732993c1fa67ea5ada8c3b5df468e7adb6802141bb23
+  hash: b945326dc247a6b9af91db22760b3d25b5c10875a91a36d6764227f5e5c62b61
 - name: Flexoki Dark
-  author: ''
+  author: kepano (https://stephango.com/flexoki)
   variant: dark
   color_01: '#100F0F'
   color_02: '#D14D41'
@@ -5770,9 +5770,9 @@
   background: '#100F0F'
   foreground: '#CECDC3'
   cursor: '#CECDC3'
-  hash: d0a48e3d675090c2a2912895880cff8c7c5e412f093d4bb43046a613d7a92f46
+  hash: 25b01457c11e5273be9476e71a697fb94697b455590132f18e6d96bb4a12f762
 - name: Flexoki Light
-  author: ''
+  author: kepano (https://stephango.com/flexoki)
   variant: light
   color_01: '#100F0F'
   color_02: '#AF3029'
@@ -5793,7 +5793,7 @@
   background: '#FFFCF0'
   foreground: '#100F0F'
   cursor: '#100F0F'
-  hash: ac1a84d56bd7b0f780b1639ca8e3a23dc2f52170df2232a7653515495d4c9051
+  hash: f80d89df6fd77897d3e9ba39250d6a78356c97111f7b3d207a12924b7a8a8b6a
 - name: Floraverse
   author: papayakitty (http://floraverse.com/)
   variant: dark
@@ -5933,7 +5933,7 @@
   cursor: '#839496'
   hash: 89ede0c87032cb0c893dc9b7b5432f1d4f2606a89501c03c349fb0305004ae9e
 - name: Front End Delight
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#242526'
   color_02: '#F8511B'
@@ -5954,7 +5954,7 @@
   background: '#1B1C1D'
   foreground: '#ADADAD'
   cursor: '#CDCDCD'
-  hash: ef2f6f802fdfdcaa5db0093e9fb96ce962577098a43a7ee24b72572e0f42647c
+  hash: f5f676d68984ad5b5f253790e010f39ef6e5d974c4fa38eb4e9f8e37b341b05a
 - name: Frostbyte
   author: PoshPalette (https://github.com/livlign/posh-palette)
   variant: light
@@ -5979,7 +5979,7 @@
   cursor: '#1F73CC'
   hash: dab19722985065b714773f476dcfeaad4aee69e7d343de504411b620a12576b0
 - name: Fun Forrest
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#000000'
   color_02: '#D6262B'
@@ -6000,9 +6000,9 @@
   background: '#251200'
   foreground: '#DEC165'
   cursor: '#E5591C'
-  hash: 2c8d38daff126990310576b529a8e00b80ac4d2f19b3cbf4e6eeeab83a1e7c72
+  hash: dbbd7549dddd81f5b5b01a7e50d31ffd2dd4511478ee8b00f1998212db874748
 - name: Galaxy
-  author: ''
+  author: jglovier (https://github.com/jglovier/galaxy-theme-iterm)
   variant: dark
   color_01: '#000000'
   color_02: '#F9555F'
@@ -6023,7 +6023,7 @@
   background: '#1D2837'
   foreground: '#FFFFFF'
   cursor: '#BBBBBB'
-  hash: ef151a8557e16918cf217bf0ea0791f373b7d9f1b5a1174cb7e70be2a9ae062f
+  hash: dd7c2ce8a02756ae415e12963e8162d2d7ca12ba73bcdb8989b764cb23b88785
 - name: Galizur
   author: Raziel Anarki (https://github.com/razielanarki)
   variant: dark
@@ -6117,7 +6117,7 @@
   cursor: '#3F3F3F'
   hash: b6b6e32fb83bcd3d086de2bb32b4e2aa9dba186ca0dad44ff39b24cce053ae12
 - name: GitHub Dark
-  author: ''
+  author: Al Duncanson (https://github.com/alDuncanson)
   variant: dark
   color_01: '#000000'
   color_02: '#F78166'
@@ -6138,7 +6138,7 @@
   background: '#101216'
   foreground: '#8B949E'
   cursor: '#C9D1D9'
-  hash: b6c504122bf5009fbcdea458f425c4a8ae660334d5b2bea0ef4d86a012550e33
+  hash: fa8cf4270829fad1367a7d4bc00df93ca706f4cb24f9418068c45383defbf9b5
 - name: GitHub Dark Colorblind
   author: Antonio Camargo (https://github.com/apcamargo)
   variant: dark
@@ -6577,7 +6577,7 @@
   cursor: '#98D1CE'
   hash: a1385c63c364574d96fcff969a3d7cae3ebcbefe8a2cab65a9c3843e34d28634
 - name: Grape
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#2D283F'
   color_02: '#ED2261'
@@ -6598,7 +6598,7 @@
   background: '#171423'
   foreground: '#9F9FA1'
   cursor: '#A288F7'
-  hash: ae916c68ee254e53f069696f7b1acee1b16f14389e929c27af727bfad0deb3fd
+  hash: cd2be66e5a64e205ece3effddf7bc371c5432b0cf2228c8276d583fbab6ee7de
 - name: Graphite
   author: PoshPalette (https://github.com/livlign/posh-palette)
   variant: dark
@@ -6761,7 +6761,7 @@
   cursor: '#FFDD33'
   hash: 166b53075dfb074c10bdcf5a20482b16f0abab06c9549f685df2ab0e33b0ae40
 - name: Gruvbox Dark
-  author: ''
+  author: morhetz (https://github.com/morhetz)
   variant: dark
   color_01: '#282828'
   color_02: '#CC241D'
@@ -6782,7 +6782,7 @@
   background: '#282828'
   foreground: '#EBDBB2'
   cursor: '#EBDBB2'
-  hash: 12b2430266afabc534de0f188bef7819c4def673e404b3079a7665a1a7392378
+  hash: 13cf19593f16d60ea879e814a38d0b303fb2d092f2331aea05b7e52ccb4551f9
 - name: Gruvbox Dark Hard
   author: morhetz (https://github.com/morhetz)
   variant: dark
@@ -6807,7 +6807,7 @@
   cursor: '#EBDBB2'
   hash: 1ac8bb19690a0a94d83d28d4f40a6d43a998975dd65d3d0bd38a2fb2864c6e53
 - name: Gruvbox Light
-  author: ''
+  author: morhetz (https://github.com/morhetz)
   variant: light
   color_01: '#FBF1C7'
   color_02: '#CC241D'
@@ -6828,7 +6828,7 @@
   background: '#FBF1C7'
   foreground: '#3C3836'
   cursor: '#3C3836'
-  hash: 554805e627b69a53467897e5b15717e75b11b08b123c61612e4937fdcbf2a9d6
+  hash: b32a031dc7e562bd9dbc4ec617794ec6d87f696a10e03e3c72cf698f9ca615a2
 - name: Gruvbox Light Hard
   author: morhetz (https://github.com/morhetz)
   variant: light
@@ -6876,7 +6876,7 @@
   cursor: '#FFFFFF'
   hash: b05ebd82ffb9302bc85a08370c5331d4504b4c9442e9edf630e1aa9e61946437
 - name: Gruvbox Material Dark
-  author: ''
+  author: sainnhe (https://github.com/sainnhe)
   variant: dark
   color_01: '#282828'
   color_02: '#EA6962'
@@ -6897,9 +6897,9 @@
   background: '#282828'
   foreground: '#D4BE98'
   cursor: '#D4BE98'
-  hash: 21929037d1819b98c516f873eaae88d63901e8db1b004a3e4e70ed7d80a41e83
+  hash: a92914627d27b5f5da1ba0562798f973b624b7e2ffe43cca0284d1e287510591
 - name: Gruvbox Material Light
-  author: ''
+  author: sainnhe (https://github.com/sainnhe)
   variant: light
   color_01: '#FBF1C7'
   color_02: '#C14A4A'
@@ -6920,7 +6920,7 @@
   background: '#FBF1C7'
   foreground: '#654735'
   cursor: '#654735'
-  hash: 428acda8f63805a2e0393dd83e2a2284cfb863aba8b762820a962f5129d3e20c
+  hash: 6de7ff8bb1d5271cffe4becd70351b8ee8f89b6dff6b29d324b09675c8a06139
 - name: Guezwhoz
   author: Egor Lem (http://egorlem.com)
   variant: dark
@@ -7037,7 +7037,7 @@
   cursor: '#C9C9C9'
   hash: 3340c3966a9c5cf24f3a854ac6bd79e7bec5342797114bd83d2b689f618e4be5
 - name: Hardcore
-  author: ''
+  author: hardcore (https://github.com/hardcore/iTerm-colors)
   variant: dark
   color_01: '#1B1D1E'
   color_02: '#F92672'
@@ -7058,9 +7058,9 @@
   background: '#121212'
   foreground: '#A0A0A0'
   cursor: '#BBBBBB'
-  hash: 88a243603707d97737e7bb40b37c17f9f59e5bc1efb4fc09dca7c4648e0b6573
+  hash: 50632d573e2be10da6b124a6dac944fb0ebaa64bac601c76858b6bfbd411e6d3
 - name: Harper
-  author: ''
+  author: idleberg (https://github.com/idleberg/Harper-iTerm2)
   variant: dark
   color_01: '#010101'
   color_02: '#F8B63F'
@@ -7081,7 +7081,7 @@
   background: '#010101'
   foreground: '#A8A49D'
   cursor: '#A8A49D'
-  hash: a3a291728b7aaeffd0311064de6495d0e35cf9b0b6ef41ecc8274b635af37e5a
+  hash: 134270f458363a58acc25fff1ca6dfda5ae20dc866aa73d1cd0ffb08d109230b
 - name: Havn Daggry
   author: ''
   variant: light
@@ -7198,7 +7198,7 @@
   cursor: '#FF0054'
   hash: 2d755ebe93203d9d7bb63843d87e8fb6ea88be6c0d43da6e365f10bdc4a37752
 - name: Highway
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#000000'
   color_02: '#D00E18'
@@ -7219,9 +7219,9 @@
   background: '#222225'
   foreground: '#EDEDED'
   cursor: '#E0D9B9'
-  hash: debd92271aecf3d8dc3af0f7d0f169d9823321bde689641165d60fa93960663b
+  hash: 8cd73e61f95d0cb6c5b984df843f4fb1cd5cadb62543954b5ec1efc78a6cb38e
 - name: Hipster Green
-  author: ''
+  author: Unkulunkulu (https://github.com/Unkulunkulu)
   variant: dark
   color_01: '#000000'
   color_02: '#B6214A'
@@ -7242,7 +7242,7 @@
   background: '#100B05'
   foreground: '#84C138'
   cursor: '#23FF18'
-  hash: a2db737d25c7c44a1fce16059514d747999ac160618aa3179bdeb150554620d0
+  hash: db1e8c08a92e42510a872fd9b63977f52f8dd09b39f38b902a69ee8c1ccb992c
 - name: Hivacruz
   author: Yann Defretin (https://github.com/kinoute/hivacruz-itermcolors)
   variant: dark
@@ -7359,7 +7359,7 @@
   cursor: '#6C6F93'
   hash: 718869fb7ad1c924eca376bc24aec49ee0ba15bee9fec55782b254b16c51d5d5
 - name: Horizon Bright
-  author: ''
+  author: Antonio Camargo (https://github.com/apcamargo)
   variant: light
   color_01: '#16161C'
   color_02: '#E95678'
@@ -7380,7 +7380,7 @@
   background: '#FBF0EE'
   foreground: '#16161C'
   cursor: '#F2D0C5'
-  hash: a7d8550bfeeeb78fa66b14debd310138d3901f6399e19b8b925c13e062fb85f1
+  hash: 63541952ef7cc851b1aa18b6eb906399f04a74c421a35f2ff7d1f956b6acdf54
 - name: Horizon Dark
   author: ''
   variant: dark
@@ -7543,7 +7543,7 @@
   cursor: '#C4C4C4'
   hash: 6381e410c6aad2366a111a0a4d7f19c9762ff4eacb69fa874a15d85220a911b9
 - name: IC Green PPL
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#014401'
   color_02: '#FF2736'
@@ -7564,9 +7564,9 @@
   background: '#2C2C2C'
   foreground: '#E0F1DC'
   cursor: '#47FA6B'
-  hash: b9d60dd44903e228dd0e590a88586c0bb46131d8b924d4bda10cf99046a28c04
+  hash: 47724caed9c0bb288079f09888a6618da1f49989a7db51801e253f0206347894
 - name: IC Orange PPL
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#000000'
   color_02: '#C13900'
@@ -7587,7 +7587,7 @@
   background: '#262626'
   foreground: '#FFCB83'
   cursor: '#FC531D'
-  hash: e6560354f8372bf9d1cb384e71d1399958978001f8f9d860888bacd2f4bee4b3
+  hash: 7fc524f06e57bd155bde625df7240758cad7f8b4b45703239b92fc772c8aea29
 - name: IR Black
   author: ''
   variant: dark
@@ -7819,7 +7819,7 @@
   cursor: '#D6D6D6'
   hash: 351c78c9f80edc2f11ae16c178d18b98b945ef02e307dcf3380f9090d094fabb
 - name: Jackie Brown
-  author: ''
+  author: Unkulunkulu (https://github.com/Unkulunkulu)
   variant: dark
   color_01: '#2C1D16'
   color_02: '#EF5734'
@@ -7840,9 +7840,9 @@
   background: '#2C1D16'
   foreground: '#FFCC2F'
   cursor: '#23FF18'
-  hash: 816bc509f01e2a3cfaf8483fff3a3d38a0ea536d2da22d6cbad6ad4a479f71b1
+  hash: 5f281d5e72f54bb11cb32a4c84571acc9e5781bc82e4088046dfc1dfb568e919
 - name: Japanesque
-  author: ''
+  author: aereal (https://github.com/aereal/dotfiles/blob/master/colors/Japanesque/Japanesque.itermcolors)
   variant: dark
   color_01: '#343935'
   color_02: '#CF3F61'
@@ -7863,9 +7863,9 @@
   background: '#1E1E1E'
   foreground: '#F7F6EC'
   cursor: '#EDCF4F'
-  hash: 6b44af9c69802eee1857576bc37eb46fad7460ad2d7ef42984e71db26682b6c1
+  hash: d354f9092d6e177fcf94e942e561054f6f5c3aa4786bfa0f46a05a035a8f806e
 - name: Jellybeans
-  author: ''
+  author: qtpi (https://github.com/qtpi/Jellybeans.itermcolors)
   variant: dark
   color_01: '#929292'
   color_02: '#E27373'
@@ -7886,7 +7886,7 @@
   background: '#121212'
   foreground: '#DEDEDE'
   cursor: '#FFA560'
-  hash: 2a7535e86bb6736f4533d1f5875533890c918850ab8d2ef5e026eac956bd520b
+  hash: afdeaaa2a09f1e8ffe97c51d32512886981ae4a6c7f17bc34e71c1ff308b4602
 - name: JetBrains Darcula
   author: vitstr (https://github.com/vitstr)
   variant: dark
@@ -8003,7 +8003,7 @@
   cursor: '#23476A'
   hash: 869b2838a43ff682530801cbf8a1b02b028533b52bed9f9f59501393e238a8ea
 - name: Kanagawa Dragon
-  author: ''
+  author: rebelot (https://github.com/rebelot)
   variant: dark
   color_01: '#0D0C0C'
   color_02: '#C4746E'
@@ -8024,9 +8024,9 @@
   background: '#181616'
   foreground: '#C5C9C5'
   cursor: '#C8C093'
-  hash: 7600780fbf66722df38272823c456f6309d3ae76477fceada82744a51191130b
+  hash: 26e0689f1326e21871150a817dcd0681a26ee96f1b056078ab851a589d854a22
 - name: Kanagawa Lotus
-  author: ''
+  author: rebelot (https://github.com/rebelot)
   variant: light
   color_01: '#1f1f28'
   color_02: '#c84053'
@@ -8047,9 +8047,9 @@
   background: '#f2ecbc'
   foreground: '#545464'
   cursor: '#43436c'
-  hash: 660cff4e62492cc2fde545d48a61beafaf57e139b82d1d09322c5430ce85a490
+  hash: b579067f3d668cb9ee7c944250d7d8fce48cd4c222cf1735367a8723d6973c3a
 - name: Kanagawa Wave
-  author: ''
+  author: rebelot (https://github.com/rebelot)
   variant: dark
   color_01: '#090618'
   color_02: '#C34043'
@@ -8070,7 +8070,7 @@
   background: '#1F1F28'
   foreground: '#DCD7BA'
   cursor: '#DCD7BA'
-  hash: 8d374ba67d1e4fec27ea53185364e2dd26b4530a35188aa42dbe412a3fedfdd9
+  hash: 90bad8dc54729fb58d4c3d4206601bdff8c474878612f4fcf5f3dc219b7cdb3a
 - name: Kanagawabones
   author: rebelot (https://github.com/rebelot)
   variant: dark
@@ -8670,7 +8670,7 @@
   cursor: '#C7C7C7'
   hash: 6be9ca54ebd120fb9f7804b858fe1c4386e198a3077527feea550b7818898cfc
 - name: Later This Evening
-  author: ''
+  author: vilhalmer (https://github.com/vilhalmer/System/tree/master/terminal-themes)
   variant: dark
   color_01: '#2B2B2B'
   color_02: '#D45A60'
@@ -8691,9 +8691,9 @@
   background: '#222222'
   foreground: '#959595'
   cursor: '#424242'
-  hash: 460a08e43c83b99ed88031f33d0de3071500c06f1436c8916a92557560502a18
+  hash: 958ba19370e51f3ddbe7a464b730d853a9cca06094d7dc43d64314916a12e1d0
 - name: Lavandula
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#230046'
   color_02: '#7D1625'
@@ -8714,7 +8714,7 @@
   background: '#050014'
   foreground: '#736E7D'
   cursor: '#8C91FA'
-  hash: f410a8a03d79851abfeb36b166f731195bf3048cc884746b28aaa86abc4e9115
+  hash: d5a79136f194e7227abc23ca98f45463da74363e544deba81071073624d1285e
 - name: Letterpress
   author: PoshPalette (https://github.com/livlign/posh-palette)
   variant: light
@@ -8762,7 +8762,7 @@
   cursor: '#403F53'
   hash: d7a269030723f075eb8ce6c17914ff19bd2221a597e709f820d3b2ac372da3b3
 - name: Liquid Carbon
-  author: ''
+  author: markcho (https://github.com/markcho/iTerm2_LiquidCarbon)
   variant: dark
   color_01: '#000000'
   color_02: '#FF3030'
@@ -8783,9 +8783,9 @@
   background: '#303030'
   foreground: '#AFC2C2'
   cursor: '#FFFFFF'
-  hash: f632296cb744a4c220bc878c6600b46b2b3a7c9810924eb1b1d2c2d061113275
+  hash: 6e1d0a6022a88ea5e6b544697224792c6c6d123592af1957713f492c78e8c1d7
 - name: Liquid Carbon Transparent
-  author: ''
+  author: markcho (https://github.com/markcho/iTerm2_LiquidCarbon)
   variant: dark
   color_01: '#000000'
   color_02: '#FF3030'
@@ -8806,7 +8806,7 @@
   background: '#000000'
   foreground: '#AFC2C2'
   cursor: '#FFFFFF'
-  hash: 7787955bf911c936927223420a2f14be2c047d45975d026ba82ea3b07b7d9e3f
+  hash: 92bb61c63dbdbcc8a273c0fa84969301c3387bd0dc3b09bf6769f004958f0b1b
 - name: London Bonfire Night
   author: Scott Matthews (https://github.com/scottmatthews7)
   variant: dark
@@ -9107,7 +9107,7 @@
   cursor: '#4E8C2E'
   hash: eb4637209aa0bc4bd4ea0d569b49aa3a8b699c5a16e8edd38d37cf72dd645091
 - name: Material
-  author: ''
+  author: stoeffel (https://github.com/stoeffel/material-iterm)
   variant: light
   color_01: '#212121'
   color_02: '#B7141F'
@@ -9128,7 +9128,7 @@
   background: '#EAEAEA'
   foreground: '#232322'
   cursor: '#16AFCA'
-  hash: 8f20f13b9f4738aa87bfd6d84230c17b4f4e1447d3334389c426846b1464ab9b
+  hash: 85ca79e4a86fa7023cc0d264fcf740603e35d10a6801b54c0325094fb8d69b6b
 - name: Material Dark
   author: stoeffel (https://github.com/stoeffel/material-iterm)
   variant: dark
@@ -9222,7 +9222,7 @@
   cursor: '#FFCC00'
   hash: c3c37c0b35c83ac79c7cab05a00f99a5240a116018feeb11884ec0fb67ae8e15
 - name: Mathias
-  author: ''
+  author: mathiasbynens (https://github.com/mathiasbynens/dotfiles)
   variant: dark
   color_01: '#000000'
   color_02: '#E52222'
@@ -9243,7 +9243,7 @@
   background: '#000000'
   foreground: '#BBBBBB'
   cursor: '#BBBBBB'
-  hash: d29e601a416efe634a672ec1cefcfdb1852710a393e9b5f2ed0700728e8e7440
+  hash: 82546f22344a87ec0bd246562f77f599ec7f3f481e734f51df3051ca2258a386
 - name: Matrix
   author: Jim Xu (https://github.com/i3d)
   variant: dark
@@ -9291,7 +9291,7 @@
   cursor: '#EAEAEA'
   hash: 56344d7534c13b11cbd85ae63db07cdac4b16045a18d395e4dbe2b3ee2838de6
 - name: Medallion
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#000000'
   color_02: '#B64C00'
@@ -9312,7 +9312,7 @@
   background: '#1D1908'
   foreground: '#CAC296'
   cursor: '#D3BA30'
-  hash: 825f224d4eb9f4845cc20b3810c4d7dfcd39c3dd7590bce754f066a269d5fa61
+  hash: f2d042c0825f5a136ae4b39d57342ef70c838260c62e8d78ab5ea709c5953672
 - name: Melange Dark
   author: savq (https://github.com/savq)
   variant: dark
@@ -9590,7 +9590,7 @@
   cursor: '#e6d6ac'
   hash: f7d81fbf03102b3ec8a60857a6c7e7de7f59b712c9f1dc6e6d164864f1f5f0e9
 - name: Misterioso
-  author: ''
+  author: flooose (https://github.com/flooose/misterioso-iterm2)
   variant: dark
   color_01: '#000000'
   color_02: '#FF4242'
@@ -9611,7 +9611,7 @@
   background: '#2D3743'
   foreground: '#E1E1E0'
   cursor: '#000000'
-  hash: d040a8d98d5a210c4137f237d2470f4f602fdbf57dce0192ae904126776a80f7
+  hash: 138b1bbe4a8fe6ad18ffd10ad0714cd22e03746feaba161a0f34264c1fd82d6a
 - name: Modus Operandi
   author: ''
   variant: light
@@ -9820,7 +9820,7 @@
   cursor: '#BBBBBB'
   hash: 4dab75455a8cce59299ebc268977332ce53f5396f6d9caff3239524cc0a4f1bb
 - name: Mona Lisa
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#351B0E'
   color_02: '#9B291C'
@@ -9841,7 +9841,7 @@
   background: '#120B0D'
   foreground: '#F7D66A'
   cursor: '#C46C32'
-  hash: eacc373b9ed5777cefae909270bc427147f3c6d03ab4a06da6ce5b74a6a46081
+  hash: 4da15ffab9168c0ac318bc2ed7fc0ee42aaf575ff9fe2c71ad539071d2871c35
 - name: Mono Amber
   author: ''
   variant: dark
@@ -10027,7 +10027,7 @@
   cursor: '#F8F8F2'
   hash: 6637d1559d22a01ab8508d753d607c4362602f7c112fcb6d37894968ab1e0711
 - name: Monokai Pro
-  author: ''
+  author: Monokai (https://monokai.com/)
   variant: dark
   color_01: '#2D2A2E'
   color_02: '#FF6188'
@@ -10048,9 +10048,9 @@
   background: '#2D2A2E'
   foreground: '#FCFCFA'
   cursor: '#C1C0C0'
-  hash: 8d4bd6f6a5a6ec0fbb0141403064b1537ed7bcb99b348d743fba3c38554bf46c
+  hash: d7533c07d98e579f13a608c59b1f69f886b245775bd0a33556af791a0afcf293
 - name: Monokai Pro Light
-  author: ''
+  author: Monokai (https://monokai.com/)
   variant: light
   color_01: '#FAF4F2'
   color_02: '#E14775'
@@ -10071,9 +10071,9 @@
   background: '#FAF4F2'
   foreground: '#29242A'
   cursor: '#706B6E'
-  hash: 8b59a52f8b1c7e079ab0c1a791c1f58a1d960c4d1d5393c7ddeebe0ee30195ee
+  hash: a3025df597aaf87effb4694c7b31f7bbca39068bda757c92a1834a053c5de458
 - name: Monokai Pro Light Sun
-  author: ''
+  author: Monokai (https://monokai.com/)
   variant: light
   color_01: '#F8EFE7'
   color_02: '#CE4770'
@@ -10094,9 +10094,9 @@
   background: '#F8EFE7'
   foreground: '#2C232E'
   cursor: '#72696D'
-  hash: 8d26bbafc74cdffa605a844ebbe66bdd9139add7b5f1665c3ecb33d6c75cab0e
+  hash: 29d2997f51ec4421526bef4fe1c3a9785dfbeb98c3725baec66bfc5908eb8d52
 - name: Monokai Pro Machine
-  author: ''
+  author: Monokai (https://monokai.com/)
   variant: dark
   color_01: '#273136'
   color_02: '#FF6D7E'
@@ -10117,7 +10117,7 @@
   background: '#273136'
   foreground: '#F2FFFC'
   cursor: '#B8C4C3'
-  hash: c9b14b81a23519395523d0ede113d1a924b1b9f33934ed4cb9e22243c74e302e
+  hash: 3798359bf4743320e673e5090d0a2c2f3cf3126e95605dbb9c035be992a4bf63
 - name: Monokai Pro Ocatagon
   author: ''
   variant: dark
@@ -10142,7 +10142,7 @@
   cursor: '#B2B9BD'
   hash: e7e17923142fa9ebb96eeae0ab50e49fe76c67b6b2c0e178b32b8751e5cf8c65
 - name: Monokai Pro Ristretto
-  author: ''
+  author: Monokai (https://monokai.com/)
   variant: dark
   color_01: '#2C2525'
   color_02: '#FD6883'
@@ -10163,9 +10163,9 @@
   background: '#2C2525'
   foreground: '#FFF1F3'
   cursor: '#C3B7B8'
-  hash: f66a88e620c0a468c87d6badc4d6fbe816854ecf6d8fe19fa075e28190f68a89
+  hash: b626cd24eb312d3df4018f97031cab4491c0b95869e6a5253ef5e278b6a3dfa9
 - name: Monokai Pro Spectrum
-  author: ''
+  author: Monokai (https://monokai.com/)
   variant: dark
   color_01: '#222222'
   color_02: '#FC618D'
@@ -10186,7 +10186,7 @@
   background: '#222222'
   foreground: '#F7F1FF'
   cursor: '#BAB6C0'
-  hash: 37f4ca6d22ce10922ee2e92e02fc5afa51fc68213b233a27a972df27e64851d2
+  hash: 54c1987cd81ee4f3d5c9b5041110287ec397e0e78dba3d7b8b103fb0f4308a66
 - name: Monokai Remastered
   author: Monokai (https://monokai.com/)
   variant: dark
@@ -10326,7 +10326,7 @@
   cursor: '#6F4CDE'
   hash: 4365cf02478f8a700d06b954c0ef59e7ee17968eecfb0f5e49dffcbd46dea59b
 - name: Moonfly
-  author: ''
+  author: bluz71 (https://github.com/bluz71/vim-moonfly-colors)
   variant: dark
   color_01: '#323437'
   color_02: '#FF5454'
@@ -10347,7 +10347,7 @@
   background: '#080808'
   foreground: '#BDBDBD'
   cursor: '#9E9E9E'
-  hash: 7db80b8e1e65df6dba5965d93666d5167fdcbbeb7f90709a7d20c0933bf54d48
+  hash: b60c45e33c8f842daa504511e92b597fa302947738b6d573c191c6c9321d8d20
 - name: Moonwalk
   author: Jian (https://github.com/thejian)
   variant: light
@@ -10395,7 +10395,7 @@
   cursor: '#FFFFFF'
   hash: 6244b5a4a5fd7fce0a789b8b36a6302408d778a3cd565c605e07f031517e486f
 - name: N0Tch2K
-  author: ''
+  author: baskerville (https://github.com/baskerville/iTerm-2-Color-Themes)
   variant: dark
   color_01: '#383838'
   color_02: '#A95551'
@@ -10416,7 +10416,7 @@
   background: '#222222'
   foreground: '#A0A0A0'
   cursor: '#AA9175'
-  hash: f573b8391eee3c86b7ed2f0e59e1c9ff8adf6321c332c5e2bd98795ce4a53315
+  hash: e771d55f9bcdd6f1e1512d9c342486d05e6368281b4bad9ff40f5c77fe717074
 - name: Nachtschicht
   author: notgabriels-sys (https://github.com/notgabriels-sys)
   variant: dark
@@ -10602,7 +10602,7 @@
   cursor: '#21F6BC'
   hash: f1d810288d42b64c3d3b676efee6ed1e4aa0086e7db9143accf584c4830509a3
 - name: Neopolitan
-  author: ''
+  author: daytonn (https://github.com/daytonn/iTerm2-Color-Schemes)
   variant: dark
   color_01: '#000000'
   color_02: '#800000'
@@ -10623,7 +10623,7 @@
   background: '#271F19'
   foreground: '#FFFFFF'
   cursor: '#FFFFFF'
-  hash: 9c437d8f8f49b0336ca2132e42241f3ed536f8e086b0028321d85fa4e460312d
+  hash: 51efb5fe00d04c28136cc7ae2669425ba6466c2d50e337929d92e680ee00b992
 - name: Nep
   author: ''
   variant: dark
@@ -10648,7 +10648,7 @@
   cursor: '#23476A'
   hash: d9d83a46d7b856069a00e25330bd4313de7c6a11ea0eadaa8a0b654a2b421dbe
 - name: Neutron
-  author: ''
+  author: Ch4s3 (https://github.com/Ch4s3/iTerm2-Neutron)
   variant: dark
   color_01: '#23252B'
   color_02: '#B54036'
@@ -10669,9 +10669,9 @@
   background: '#1C1E22'
   foreground: '#E6E8EF'
   cursor: '#F6F7EC'
-  hash: fe9278f207ac0b0527fcba088a13444a1f775f7793c3c22774c7a4a7329d41df
+  hash: e9ce4023956fb88b7e853ffd30d3eeb10b3a154d362b31ef1d2f27dd195dfde2
 - name: Night Lion V1
-  author: ''
+  author: Curvve Media (http://www.curvve.com/blog/category/themes/)
   variant: dark
   color_01: '#4C4C4C'
   color_02: '#BB0000'
@@ -10692,9 +10692,9 @@
   background: '#000000'
   foreground: '#BBBBBB'
   cursor: '#BBBBBB'
-  hash: 6fb85d25640f1f5d03c39dfde62b5d7840b0b3d2a54f371b5c99ed9b69660fe4
+  hash: 66d4a061ce2e451a88e0add9fa57cedc2a5bb3e113c171288057cc2ffd4cbec7
 - name: Night Lion V2
-  author: ''
+  author: Curvve Media (http://www.curvve.com/blog/category/themes/)
   variant: dark
   color_01: '#4C4C4C'
   color_02: '#BB0000'
@@ -10715,9 +10715,9 @@
   background: '#171717'
   foreground: '#BBBBBB'
   cursor: '#BBBBBB'
-  hash: f2a5011a8008651f817dd5df320e71d2ba0dfdd90bf2b93c8d13b2b6320c6247
+  hash: bc8e8bdc7e11fd38c05893189f36bbd1d2d4426eb034ac2c89e712ef8d48cb05
 - name: Night Owl
-  author: ''
+  author: zasdaym (https://github.com/zasdaym)
   variant: dark
   color_01: '#011627'
   color_02: '#EF5350'
@@ -10738,7 +10738,7 @@
   background: '#011627'
   foreground: '#D6DEEB'
   cursor: '#7E57C2'
-  hash: 4db2944a161d39f86331b10d8384dcca42dbc96494bebc39d4fb09efef634201
+  hash: d08847ff86aa6eb1005b60c7ddc49300d7b1f6a8452a37eb3e3658a75d5beba6
 - name: Night Owlish Light
   author: praveenpuglia (https://github.com/praveenpuglia)
   variant: light
@@ -11177,7 +11177,7 @@
   cursor: '#E6E5E5'
   hash: 4cbaaead0c1316345ef8fbbf6ebbad3c40fe33bcb07e6f711ac13c09c3bbb070
 - name: Nord
-  author: ''
+  author: Arctic Ice Studio (https://www.nordtheme.com/)
   variant: dark
   color_01: '#3B4252'
   color_02: '#BF616A'
@@ -11198,9 +11198,9 @@
   background: '#2E3440'
   foreground: '#D8DEE9'
   cursor: '#ECEFF4'
-  hash: 713f7f1a7739dca50a436d636cd3dc4b23d164a5b79881e277532f1c27cc657c
+  hash: 92b63d64654aefbceb769010e05428240482952a59c64cdaf431f36504c76705
 - name: Nord Light
-  author: ''
+  author: Arctic Ice Studio (https://www.nordtheme.com/)
   variant: light
   color_01: '#3B4252'
   color_02: '#BF616A'
@@ -11221,7 +11221,7 @@
   background: '#E5E9F0'
   foreground: '#414858'
   cursor: '#88C0D0'
-  hash: 9b82321806970ccf34680495bc43e7065f6a7056a1ac3385b67bb3400f090751
+  hash: c609c0238262e63fa5c843c8e3ff82e4771de2b69d832c3e64b75c4488904eb7
 - name: Nord Wave
   author: Antonio Camargo (https://github.com/apcamargo)
   variant: dark
@@ -11430,7 +11430,7 @@
   cursor: '#B3B8C3'
   hash: 4192f2791c6b0ace5575ed2e2b43f7f955fde0e373d7c2d8a23e5b82dc1fd333
 - name: Oceanic Next
-  author: ''
+  author: mhartington (https://github.com/mhartington/oceanic-next-iterm)
   variant: dark
   color_01: '#1B2B34'
   color_02: '#DB686B'
@@ -11451,9 +11451,9 @@
   background: '#1B2B34'
   foreground: '#C1C5CD'
   cursor: '#C1C5CD'
-  hash: ee1bde6ea5033bff0c1d1429516c64845457db0bb27238cff26d4237eae4945a
+  hash: 1cb08dee359d54a70ad326510662ed5db988ad58c2e975e62b08661ce4e6a6b7
 - name: Ollie
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#000000'
   color_02: '#AC2E31'
@@ -11474,7 +11474,7 @@
   background: '#222125'
   foreground: '#8A8DAE'
   cursor: '#5B6EA7'
-  hash: 00717e7677091930b51addb9b9e53c3068a4a4393c65b2501cc8aea2303d69bb
+  hash: 38c664932c3e8f12346f39b058c86defa0340db00d17aa0944e693dd57c89653
 - name: Omni
   author: ''
   variant: dark
@@ -12097,7 +12097,7 @@
   cursor: '#444444'
   hash: 8b9848ebb0c3a1555d5ba76edaf8648acd9e9591a3bd7c5c4ae3fdf79879bf07
 - name: Paraiso Dark
-  author: ''
+  author: idleberg (https://github.com/idleberg)
   variant: dark
   color_01: '#2F1E2E'
   color_02: '#EF6155'
@@ -12118,7 +12118,7 @@
   background: '#2F1E2E'
   foreground: '#A39E9B'
   cursor: '#A39E9B'
-  hash: e02ff89e125bf1b20563c584f45f5bffa31771a24fe5daa1f6e1318e92a1abe3
+  hash: d9fa80ac9c7b9756c966beaf83514ebb630937536a81dbf64ebfe48b1ce3dee0
 - name: Patina
   author: PoshPalette (https://github.com/livlign/posh-palette)
   variant: dark
@@ -12281,7 +12281,7 @@
   cursor: '#2E2A24'
   hash: cded8d3d20fae9ca97c818f8bcfe711d2a65ff572d0b0cfd41fa9ad0aaefbc0d
 - name: Paul Millr
-  author: ''
+  author: paulmillr (https://github.com/paulmillr/dotfiles/tree/master/terminal)
   variant: dark
   color_01: '#2A2A2A'
   color_02: '#FF0000'
@@ -12302,9 +12302,9 @@
   background: '#000000'
   foreground: '#F2F2F2'
   cursor: '#4D4D4D'
-  hash: 2e2f093e9941e72a7d07ee92b544cb2df5293c9c1acaaee7e067ce467a3f4b02
+  hash: 70562409f5e913c8b766f4d72789ece133648fdf9ced0f0f440b70a8b90a4d94
 - name: Pencil Dark
-  author: ''
+  author: mattly (https://github.com/mattly/iterm-colors-pencil)
   variant: dark
   color_01: '#212121'
   color_02: '#C30771'
@@ -12325,9 +12325,9 @@
   background: '#212121'
   foreground: '#F1F1F1'
   cursor: '#20BBFC'
-  hash: 6b865b62512f6aaa3861107eb89ca23c59f4b9297a4fe305215ad817f156973e
+  hash: 714c849f67686de249aa89b7adaf2d3995d79e9fe6aae4d3896a0a725b5cc758
 - name: Pencil Light
-  author: ''
+  author: mattly (https://github.com/mattly/iterm-colors-pencil)
   variant: light
   color_01: '#212121'
   color_02: '#C30771'
@@ -12348,9 +12348,9 @@
   background: '#F1F1F1'
   foreground: '#424242'
   cursor: '#20BBFC'
-  hash: ffb92bf2ba846559c37b3daa4f3ad60a6d7dc355ab01105940ba50f72b17e9c6
+  hash: 991f5b93ce20a2dc0520bd24ffbe44270751ad38e26fbd88cd4074d38a7a9dba
 - name: Peppermint
-  author: ''
+  author: Noah Frederick (https://noahfrederick.com/log/lion-terminal-theme-peppermint)
   variant: dark
   color_01: '#353535'
   color_02: '#E74669'
@@ -12371,7 +12371,7 @@
   background: '#000000'
   foreground: '#C8C8C8'
   cursor: '#BBBBBB'
-  hash: e083c2bbe8d2adf60b1fff3e267c93a1f508969fa8abfab74799b2731396e340
+  hash: 3ff40dab0ffc68305ae3d0ff5693daa56d8f321dd53fe6e90236c6a3ca7410c8
 - name: Phala Green Dark
   author: h4x3rotab (https://github.com/h4x3rotab)
   variant: dark
@@ -12488,7 +12488,7 @@
   cursor: '#D1CAE8'
   hash: 354848ae95897fc9bfe889f11f5fe3f0e3d190cfd18cc73900bf23304453af23
 - name: Pnevma
-  author: ''
+  author: baskerville (https://github.com/baskerville/iTerm-2-Color-Themes)
   variant: dark
   color_01: '#2F2E2D'
   color_02: '#A36666'
@@ -12509,7 +12509,7 @@
   background: '#1C1C1C'
   foreground: '#D0D0D0'
   cursor: '#E4C9AF'
-  hash: 568cea8ee26434e4bd84724e243b23172b799bca9564f736cf3460f870497f75
+  hash: c1b6836c86c17667f8a02fd474fd82ea294edd13f143021daeb92a15766fccf4
 - name: Poimandres
   author: drcmda (https://github.com/drcmda/poimandres-theme)
   variant: dark
@@ -13224,7 +13224,7 @@
   cursor: '#45EB45'
   hash: 2ed061e9bc93d1a4124817c6e89a44b6d7b4b6b7577d2017a5aa9efc83d724e7
 - name: Rippedcasts
-  author: ''
+  author: mdw123 (https://github.com/mdw123/rippedcasts)
   variant: dark
   color_01: '#000000'
   color_02: '#CDAF95'
@@ -13245,9 +13245,9 @@
   background: '#2B2B2B'
   foreground: '#FFFFFF'
   cursor: '#7F7F7F'
-  hash: 8de714f4b33edf7078a1a873dac251f279ee25a0b9dd81fc7d6caee3e3ed1a2c
+  hash: a52b1f9d5274a0917f84ae66339116ca53d277edc7aaa390931ccc3f6376d494
 - name: Rose Pine
-  author: ''
+  author: Rosé Pine (https://github.com/orgs/rose-pine/people)
   variant: dark
   color_01: '#26233A'
   color_02: '#EB6F92'
@@ -13268,9 +13268,9 @@
   background: '#191724'
   foreground: '#E0DEF4'
   cursor: '#E0DEF4'
-  hash: cb5b6e3ac9768454a267498f73c1e6cc220a794af962b7e8802ccb979905a258
+  hash: a00881559442053a1d9e9631d485a145057bad5ba820d7859e4b13f177124131
 - name: Rose Pine Dawn
-  author: ''
+  author: Rosé Pine (https://github.com/orgs/rose-pine/people)
   variant: light
   color_01: '#F2E9E1'
   color_02: '#B4637A'
@@ -13291,9 +13291,9 @@
   background: '#FAF4ED'
   foreground: '#575279'
   cursor: '#575279'
-  hash: ca5ad5c328f5fedd922c38375cbf58dbc6d52c81d37a9033ac698d222e8bfa8d
+  hash: a95bc00d1d4751e5c2b70dd443b358897685d5491450ce88b3ace9593089e947
 - name: Rose Pine Moon
-  author: ''
+  author: Rosé Pine (https://github.com/orgs/rose-pine/people)
   variant: dark
   color_01: '#393552'
   color_02: '#EB6F92'
@@ -13314,7 +13314,7 @@
   background: '#232136'
   foreground: '#E0DEF4'
   cursor: '#E0DEF4'
-  hash: 5dd8c86ee6c0aaae74058822afbe5aa2c55a7a53c5892a1f25d0e0cda8107236
+  hash: 6f7024c90267e3883932787732076fb59cdbf81fe998ac3e969621d65ed5b02e
 - name: Rouge 2
   author: Josef Aidt (https://github.com/josefaidt/rouge-theme)
   variant: dark
@@ -13339,7 +13339,7 @@
   cursor: '#969E92'
   hash: 72fa5058a264eb0fb44599bf3de04c9eb63ceadd14ba4a5d9d55bdf2258a105f
 - name: Royal
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#241F2B'
   color_02: '#91284C'
@@ -13360,7 +13360,7 @@
   background: '#100815'
   foreground: '#514968'
   cursor: '#524966'
-  hash: 06d99254004b493e4d3008cc742b8e11d5eb3c7cd17d6cc90986a885b53e08e7
+  hash: 38831fcd98abbbe074530fe7a2101e1e80be47494348d637a8cbcc9687bbbbfd
 - name: Ryuuko
   author: dylanaraps (https://github.com/dylanaraps)
   variant: dark
@@ -13546,7 +13546,7 @@
   cursor: '#76FF9F'
   hash: f4d68f2caa2b15b0f25002bc6f3ab1e192ce0524ad47b0ba6b73d75c81a8d670
 - name: Sea Shells
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#17384C'
   color_02: '#D15123'
@@ -13567,7 +13567,7 @@
   background: '#09141B'
   foreground: '#DEB88D'
   cursor: '#FCA02F'
-  hash: 438107f66af5c7ff6c6d7495db74e7381a511565b32bb74eeb9f7cb13355894b
+  hash: 218e06f08c1ad10314b4d488b6f6f24bf9aedc1c76897b2dce777a8e314cb605
 - name: Seafoam Pastel
   author: ''
   variant: dark
@@ -13960,7 +13960,7 @@
   cursor: '#777777'
   hash: 74576f0d4ee81611c89615427f969a29a6876c7aae178ae1fb623bb606e2ed35
 - name: Selenized Dark
-  author: ''
+  author: jan-warchol (https://github.com/jan-warchol)
   variant: dark
   color_01: '#184956'
   color_02: '#FA5750'
@@ -13981,7 +13981,7 @@
   background: '#103C48'
   foreground: '#ADBCBC'
   cursor: '#ADBCBC'
-  hash: 1e05b380162858c8a3de6b9f1eb062181fe17a97d6b1ab59250213c0f57fafcf
+  hash: ca226e32aeeed98856f1a0174e2f5ce37775d73d1690e71b36693c6239d4b563
 - name: Selenized Light
   author: ''
   variant: light
@@ -14351,7 +14351,7 @@
   cursor: '#8D8F9E'
   hash: 4433a1ae7c315cac31e5719aedeb08efc0bd4e7e1fcf93dd76e83206983b766c
 - name: Seti
-  author: ''
+  author: jesseweed (https://github.com/jesseweed/seti-syntax/)
   variant: dark
   color_01: '#323232'
   color_02: '#C22832'
@@ -14372,7 +14372,7 @@
   background: '#111213'
   foreground: '#CACECD'
   cursor: '#E3BF21'
-  hash: 69f6f8d3286d6738f99a33945219a8e888490e773693b97f6f6d7c9844252273
+  hash: f9c872163a81c69a4352aa9705fb03a55ba66cf1607aff210d303afc364f3f4c
 - name: Shades Of Purple
   author: fr3fou (https://github.com/fr3fou)
   variant: dark
@@ -14397,7 +14397,7 @@
   cursor: '#FAD000'
   hash: 97fd277bd119b559fef787b7fc3c156e04e30eff3f958b630c1bec32b5e1ab7e
 - name: Shaman
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#012026'
   color_02: '#B2302D'
@@ -14418,7 +14418,7 @@
   background: '#001015'
   foreground: '#405555'
   cursor: '#4AFCD6'
-  hash: 379fd27d2a8d72330c4c2cef646b701322a52491a041b652f36459f3d5402ce9
+  hash: 92b231ed245234dee32a473e1c9661af2283ef443342955d6b257c1ab7e8933c
 - name: Shel
   author: ''
   variant: dark
@@ -14466,7 +14466,7 @@
   cursor: '#3A3E44'
   hash: 0e61b379e23422492d1dd170e3e81f2e645fc56d54ac8e163a1362e190b307ee
 - name: Slate
-  author: ''
+  author: deneshshan (https://github.com/deneshshan)
   variant: dark
   color_01: '#222222'
   color_02: '#E2A8BF'
@@ -14487,7 +14487,7 @@
   background: '#222222'
   foreground: '#35B1D2'
   cursor: '#87D3C4'
-  hash: a65a9d29c17af8df16c3e629c615736d923d8be2aafa63918a594138b4d5e010
+  hash: beb8d953ca99a8db3f06d4c1e49044560f4c67d757b1f5d5f47ae9abb0832f49
 - name: Sleepy Hollow
   author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
@@ -14581,7 +14581,7 @@
   cursor: '#EAEAEA'
   hash: a700c209c9030f12d7d1171df460b900530e61832ad064de77c765900f477ef2
 - name: Soft Server
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#000000'
   color_02: '#A2686A'
@@ -14602,9 +14602,9 @@
   background: '#242626'
   foreground: '#99A3A2'
   cursor: '#D2E0DE'
-  hash: 34e2494b8db030d8aa3c5859dff4d7d98d030ddc22beb74abcbc79f6966c92fd
+  hash: 79a7da09347133583cc86c07f9cc9c8e78d9610fedb540d9bf646f9f3208da72
 - name: Solarized Darcula
-  author: ''
+  author: '@rickhanlonii (https://github.com/rickhanlonii)'
   variant: dark
   color_01: '#25292A'
   color_02: '#F24840'
@@ -14625,7 +14625,7 @@
   background: '#3D3F41'
   foreground: '#D2D8D9'
   cursor: '#708284'
-  hash: 61d44a41659d2216b089cef373ee999183afcb29119c0e44a8acc1a0ab9e39c9
+  hash: e382002f3bd0efdfe497c40cc164a01d5ea7ee2fa666a229d1be859102ad7a75
 - name: Solarized Dark
   author: ''
   variant: dark
@@ -14742,7 +14742,7 @@
   cursor: '#C2CAF1'
   hash: d2d822775a25fde9849454404b3ae37e9f9a58b8ca55c7967629dbf7f0ee8628
 - name: Sonokai
-  author: ''
+  author: sainnhe (https://github.com/sainnhe/sonokai)
   variant: dark
   color_01: '#181819'
   color_02: '#FC5D7C'
@@ -14763,9 +14763,9 @@
   background: '#2C2E34'
   foreground: '#E2E2E3'
   cursor: '#E2E2E3'
-  hash: d80935491cdaa121a760a0775e007adbdd8dd8311b8dad322a8d81ffd837b152
+  hash: 72a5abab8696eaca353d9df059f97df0081ac0df474ba09623d2f995ee49d25d
 - name: Spacedust
-  author: ''
+  author: mhallendal (https://github.com/mhallendal/spacedust-theme)
   variant: dark
   color_01: '#6E5346'
   color_02: '#E35B00'
@@ -14786,9 +14786,9 @@
   background: '#0A1E24'
   foreground: '#ECF0C1'
   cursor: '#708284'
-  hash: 400df8aea1904336fe52eb1d524df6fefc9faa5b0d3370833e06613cba24a5dd
+  hash: dfe45a2401e2b9d44f8c3363a693fa21cedd7d99d1566966fa8b7486d5acac9c
 - name: Spacegray
-  author: ''
+  author: ryentzer (https://github.com/ryentzer/SpaceGray-iTerm)
   variant: dark
   color_01: '#000000'
   color_02: '#B04B57'
@@ -14809,7 +14809,7 @@
   background: '#20242D'
   foreground: '#B3B8C3'
   cursor: '#B3B8C3'
-  hash: 4cc7aac2dbd2bca43fa7179d5c336cca58ac99a133b4a368e45a0a1dff91ee35
+  hash: 30e21e528b5b950915c8e30e3c9fbb755b191a9c0728e1fc1a144fffbc41c630
 - name: Spacegray Bright
   author: nicksay (https://github.com/nicksay)
   variant: dark
@@ -14834,7 +14834,7 @@
   cursor: '#C6C6C6'
   hash: 12314a5a2ac0bf915abcaac3c6ff891d55e4b8af417b8dcaef8c1c977f2f0b32
 - name: Spacegray Eighties
-  author: ''
+  author: mhkeller (https://github.com/mhkeller/spacegray-eighties-iterm)
   variant: dark
   color_01: '#15171C'
   color_02: '#EC5F67'
@@ -14855,9 +14855,9 @@
   background: '#222222'
   foreground: '#BDBAAE'
   cursor: '#BBBBBB'
-  hash: b487d92c3ba5daf995c3de73416ec70725acbafc7307381b7d0d9d9a663cd916
+  hash: 2d37d0203b6317e2cd24c209d700da73d7f13a3e9a37e5ddc9df17e7a14578b2
 - name: Spacegray Eighties Dull
-  author: ''
+  author: mhkeller (https://github.com/mhkeller/spacegray-eighties-iterm)
   variant: dark
   color_01: '#15171C'
   color_02: '#B24A56'
@@ -14878,7 +14878,7 @@
   background: '#222222'
   foreground: '#C9C6BC'
   cursor: '#BBBBBB'
-  hash: 8aa6800169e074b4cf145443582e16cca64104dc54b579a5f4e39cc817beace9
+  hash: b5954d404b9a2f2a0b297102703dd2e7b74451819b8b07c509df6033bd19c392
 - name: Sparky
   author: ''
   variant: dark
@@ -14949,7 +14949,7 @@
   cursor: '#4D4D4C'
   hash: 1cc0a2f4f336707f0ac67292bd34616d35535a511a19739ceb8e8333f9797800
 - name: Square
-  author: ''
+  author: baskerville (https://github.com/baskerville/iTerm-2-Color-Themes)
   variant: dark
   color_01: '#050505'
   color_02: '#E9897C'
@@ -14970,7 +14970,7 @@
   background: '#1A1A1A'
   foreground: '#ACACAB'
   cursor: '#FCFBCC'
-  hash: 99b1f370d9736b65e5769d2ab7377ad80ecd71f9d1f1127ff454aca3982b4720
+  hash: d080eae97fd620ac5d6848bfdc6cf945a3f3fc126db08e0503057f1ae6606d4e
 - name: Squintless
   author: Sameer Zahir (https://github.com/sameerzahir97-cloud)
   variant: light
@@ -15202,7 +15202,7 @@
   cursor: '#FFFFFF'
   hash: accc9c446173ba487f88425498ffbcadf29f40c7e22bf3f5fd7e78a89eb5aabd
 - name: Sundried
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#302B2A'
   color_02: '#A7463D'
@@ -15223,7 +15223,7 @@
   background: '#1A1818'
   foreground: '#C9C9C9'
   cursor: '#FFFFFF'
-  hash: 26eb4fe236e2d1c267d6624f9a3b26c2cb9cb7e27854e911ac5ea049342239ff
+  hash: 4effd0950151dcb4c654eb56fc6dc02f0e7407741da101dd126444fe08412b9c
 - name: Sunset Drive
   author: tahayvr (https://github.com/tahayvr)
   variant: dark
@@ -15317,7 +15317,7 @@
   cursor: '#DC322F'
   hash: 6fa64c9b82caa23c65990ef611ffe2d8e2831b0a99c2fc7819cb26b4974bcf05
 - name: Synthwave
-  author: ''
+  author: brettstil (https://github.com/brettstil/)
   variant: dark
   color_01: '#000000'
   color_02: '#F6188F'
@@ -15338,9 +15338,9 @@
   background: '#000000'
   foreground: '#DAD9C7'
   cursor: '#19CDE6'
-  hash: de28f3cc2fc25916f76cc1805b87e88cd20ff81755c7998e6f3b8e6c4f733d07
+  hash: 45975e8da643bde028a8e5560adbdd17a9160a3162efe6253e976feb60530258
 - name: Synthwave Alpha
-  author: ''
+  author: vikpe (https://github.com/vikpe)
   variant: dark
   color_01: '#241B30'
   color_02: '#E60A70'
@@ -15361,7 +15361,7 @@
   background: '#241B30'
   foreground: '#F2F2E3'
   cursor: '#F2F2E3'
-  hash: 873e4f6a7c28cb8fc471a37fed8e9a552e0c3e366507ff4c755581e8a952f8bc
+  hash: a85f33d894b4a3cb807ec3313ebcdcb8c294af76bd1ad21d2ab5e870dc197105
 - name: Synthwave Everything
   author: smithbm2316 (https://github.com/smithbm2316)
   variant: dark
@@ -15455,7 +15455,7 @@
   cursor: '#D7C483'
   hash: 13ef925c2df9c3aa8d2283a1fbd7d32e6b0c9491ca6f7169ffa887b7c314151e
 - name: Teerb
-  author: ''
+  author: Teerb (https://gist.github.com/teerb/1360453)
   variant: dark
   color_01: '#1C1C1C'
   color_02: '#D68686'
@@ -15476,7 +15476,7 @@
   background: '#262626'
   foreground: '#D0D0D0'
   cursor: '#E4C9AF'
-  hash: 38121d02ecb18b28f92be43f744a39372087c0856e20248e7e291aae4ab2aef0
+  hash: c8aea3ffd56af7a4018f8b06752e3c831d38a8b25bc9e02b1a612f9615325f66
 - name: Tempus Autumn
   author: Protesilaos Stavrou (https://protesilaos.com)
   variant: dark
@@ -16214,7 +16214,7 @@
   cursor: '#565A6E'
   hash: b7ce24233898e95e735e66de0f3f1c2f09d7a15ff070d2114d44bbf15d557a0e
 - name: TokyoNight
-  author: ''
+  author: folke (https://github.com/folke/tokyonight.nvim)
   variant: dark
   color_01: '#15161E'
   color_02: '#F7768E'
@@ -16235,7 +16235,7 @@
   background: '#1A1B26'
   foreground: '#C0CAF5'
   cursor: '#C0CAF5'
-  hash: 4e0f26630ab2ea55918e704bede1ffa04f0bcfa88cf699fa5ef2642ae96969e2
+  hash: b89969730666d44b87543f64b02914e2da36c1daf2e30460f0034473858b2310
 - name: TokyoNight Day
   author: folke (https://github.com/folke/tokyonight.nvim)
   variant: light
@@ -16306,7 +16306,7 @@
   cursor: '#C0CAF5'
   hash: 4e6aed87d531e2f135b5bb06d263e751c2a4b14a171c28ed1d1722584035b5d3
 - name: TokyoNight Storm
-  author: ''
+  author: folke (https://github.com/folke/tokyonight.nvim)
   variant: dark
   color_01: '#1D202F'
   color_02: '#F7768E'
@@ -16327,7 +16327,7 @@
   background: '#24283B'
   foreground: '#C0CAF5'
   cursor: '#C0CAF5'
-  hash: b689392d7baddf05b92a3e105c63f1413d615b766a5b36ffe465cc81714f389e
+  hash: 0b03b1426eb6296b3550c1a6fc67444a1c5f035db1ae9f0c7c5468004b5ae0ca
 - name: Tomorrow
   author: Chris Kempson (http://chriskempson.com)
   variant: light
@@ -16467,7 +16467,7 @@
   cursor: '#CCCCCC'
   hash: 783c4a265c29188b3487b3487407f632117aec4610d1269e4c504e312bc50fd0
 - name: Toy Chest
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#2C3F58'
   color_02: '#BE2D26'
@@ -16488,7 +16488,7 @@
   background: '#24364B'
   foreground: '#31D07B'
   cursor: '#D5D5D5'
-  hash: 1aa5a2466a42a0deee2856b573cba127f55cb392d1bc566fd8bc6344fee72a30
+  hash: 4cdbbcdce81c6fc7404cc8aa546a53197be1057d452be7d7a135aea2a449b2c4
 - name: Trapped in Amber
   author: mattjoyce (https://github.com/mattjoyce/trapped-in-amber)
   variant: dark
@@ -16513,7 +16513,7 @@
   cursor: '#FFC940'
   hash: e91f7e9225a55727b35d6ec58abbedf01891a41be0a020104df35f10c6434597
 - name: Treehouse
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#321300'
   color_02: '#B2270E'
@@ -16534,9 +16534,9 @@
   background: '#191919'
   foreground: '#786B53'
   cursor: '#FAC814'
-  hash: e53e93dc042d57594c37e3900021ab7b6dbc65e3eec4d5a07f7d9474f37b9c0b
+  hash: ebf5e30bebc8560adaf17ddf518ac657e33a08f257efdb473e4d5960d38f2a5a
 - name: Twilight
-  author: ''
+  author: stefri (https://gist.github.com/stefri/1183140)
   variant: dark
   color_01: '#141414'
   color_02: '#C06D44'
@@ -16557,7 +16557,7 @@
   background: '#141414'
   foreground: '#FFFFD4'
   cursor: '#FFFFFF'
-  hash: 1b78b4e36eee8fe218015b66c1132f41b8ab0aa5908a5b00de7593cb3ca8a0b2
+  hash: f25b7568fbed91df6336c103aebb3db8c0d82f989cd8cbc93024a23b174b38e4
 - name: Ubuntu
   author: Maximus (http://superuser.com/questions/497240/ubuntu-purple-terminal-colors-in-conemu)
   variant: dark
@@ -16697,7 +16697,7 @@
   cursor: '#23476A'
   hash: af8f8e97b6b1b9866c23dbcaa954148f4861720f12577b7a46e81e7008c7326e
 - name: Urple
-  author: ''
+  author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
   variant: dark
   color_01: '#000000'
   color_02: '#B0425B'
@@ -16718,7 +16718,7 @@
   background: '#1B1B23'
   foreground: '#877A9B'
   cursor: '#A063EB'
-  hash: 9c66adb91ec613e60c003e0247f145251106d426eb6dccdd068d492a91342611
+  hash: c31037a90b11e5a9f9a81d02202d2f4c84b8dcb1204ed3e080f5093726bcc93f
 - name: Vacme
   author: newptcai
   variant: light
@@ -16973,7 +16973,7 @@
   cursor: '#ACB1AB'
   hash: c99cfae54f80bb728a5c8bb21c5eedc208fb34e4cd008e758028078308234fb1
 - name: Vibrant Ink
-  author: ''
+  author: asanghi (https://github.com/asanghi/vibrantinklion)
   variant: dark
   color_01: '#878787'
   color_02: '#FF6600'
@@ -16994,7 +16994,7 @@
   background: '#000000'
   foreground: '#FFFFFF'
   cursor: '#FFFFFF'
-  hash: 2cc40ebd75ed8079da3c39d196d9c61d88efbbc5f0d594296e4524bf05dd0095
+  hash: 8149a19c37975b5435dbc204d0db25224face4cea3da73ad23f13e0ffce48a4f
 - name: Vimbones
   author: ''
   variant: light
@@ -17180,7 +17180,7 @@
   cursor: '#8A6600'
   hash: f2479d14f82431bd62b6872dcebb2f9288acdb44fa337de92e2303412067b9f2
 - name: Warm Neon
-  author: ''
+  author: firewut (https://github.com/firewut)
   variant: dark
   color_01: '#000000'
   color_02: '#E24346'
@@ -17201,7 +17201,7 @@
   background: '#404040'
   foreground: '#AFDAB6'
   cursor: '#30FF24'
-  hash: c8c92b975808f745b30436fd6406183192c24ebb61297b9596c94baed3bf2df9
+  hash: d8d1300c272412aa0d734bfd2ff985b95f604141a6b26f1f9599eaf64a4fe657
 - name: Website
   author: ''
   variant: dark
@@ -17226,7 +17226,7 @@
   cursor: '#d1b890'
   hash: f2755c9ae1b2960cfa78a00754898873973a826e0d8bc3c0cd759b6a34c4392c
 - name: Wez
-  author: ''
+  author: wez (https://gist.github.com/wez/850268/)
   variant: dark
   color_01: '#000000'
   color_02: '#CC5555'
@@ -17247,7 +17247,7 @@
   background: '#000000'
   foreground: '#B3B3B3'
   cursor: '#53AE71'
-  hash: 1bca7097607bca9950e90f65cf0161a56ee8be41789361c4d25c2944056b69b0
+  hash: ca27d1b3b62489eb96f7466e7c519f874b0e6fbd0168e93fac1ce879f05462b3
 - name: Whimsy
   author: Rod (https://github.com/rod)
   variant: dark
@@ -17272,7 +17272,7 @@
   cursor: '#B3B0D6'
   hash: 47128636cdcb7669c13e59c7ac8b8916284990c2e7b3d4f98fd5a5fe569102c9
 - name: Wild Cherry
-  author: ''
+  author: mashaal (https://github.com/mashaal/wild-cherry)
   variant: dark
   color_01: '#000507'
   color_02: '#D94085'
@@ -17293,7 +17293,7 @@
   background: '#1F1726'
   foreground: '#DAFAFF'
   cursor: '#DD00FF'
-  hash: 0ad2abbad4f4b9fe3ebe6e987a12a395363e0697decdd068989d2e2df17f5ac5
+  hash: 9376e30cfeda411edab07b27e598884960cfc5bb5c65fa4af7bca56f0fa55cab
 - name: Wilmersdorf
   author: sayeefm0 (https://github.com/sayeefm0/iterm2-wilmersdorf)
   variant: dark
@@ -17318,7 +17318,7 @@
   cursor: '#7EBEBD'
   hash: f982be5f708eaef7a93cde54150bf6b4379d9f62147fb582dd9565daebab5140
 - name: Wombat
-  author: ''
+  author: djoyner (https://github.com/djoyner/iTerm2-wombat)
   variant: dark
   color_01: '#000000'
   color_02: '#FF615A'
@@ -17339,9 +17339,9 @@
   background: '#171717'
   foreground: '#DEDACF'
   cursor: '#BBBBBB'
-  hash: 178eb9a8cfb853f00afa2530658a293b1df57d6aa2409245ca01bc02ad0e84fe
+  hash: 283398b1cd1d20d66c8ba40b4ec53340ac2f3e138a682c4cfe3bbfe9740de36c
 - name: Wryan
-  author: ''
+  author: baskerville (https://github.com/baskerville/iTerm-2-Color-Themes)
   variant: dark
   color_01: '#333333'
   color_02: '#8C4665'
@@ -17362,7 +17362,7 @@
   background: '#101010'
   foreground: '#999993'
   cursor: '#9E9ECB'
-  hash: c8a518181e021c3e8c0cfa5d291f4409bc87da741020ef0d248d8bd3795c0a73
+  hash: f0a10dd378926470fde14c92dd0d991c7506d749abb26133fdc6edda27d5325f
 - name: Wzoreck
   author: ''
   variant: dark

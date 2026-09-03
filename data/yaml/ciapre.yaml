@@ -1,5 +1,5 @@
 name: Ciapre
-author: ''
+author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
 variant: dark
 color_01: '#181818'
 color_02: '#810009'
@@ -20,4 +20,4 @@ color_16: '#F4F4F4'
 background: '#191C27'
 foreground: '#AEA47A'
 cursor: '#92805B'
-hash: bcc09d56e21b92d6a10206a10b01e2733cca100d7258d2d7f31bd280a39145fa
+hash: 47e2286d7c36b6e9ef215e3b21c9554516b155b858d246a6079d8bce8af28a61

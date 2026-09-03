@@ -1,6 +1,6 @@
 {
   "name": "3024 Night",
-  "author": "",
+  "author": "0x3024 (https://github.com/0x3024)",
   "variant": "dark",
   "color_01": "#090300",
   "color_02": "#DB2D20",
@@ -21,5 +21,5 @@
   "background": "#090300",
   "foreground": "#A5A2A2",
   "cursor": "#A5A2A2",
-  "hash": "34cd8ebcb00ae6630358b68526ccc7bdedde6ea5984ec2eab804d0536c89a8a8"
+  "hash": "6692a4dbceb0859a45d6486925a1e9818fa341d6295a203be9d982946465d0a7"
 }

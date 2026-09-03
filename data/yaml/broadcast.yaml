@@ -1,5 +1,5 @@
 name: Broadcast
-author: ''
+author: vinkla (https://github.com/vinkla/broadcast-theme)
 variant: dark
 color_01: '#000000'
 color_02: '#DA4939'
@@ -20,4 +20,4 @@ color_16: '#FFFFFF'
 background: '#2B2B2B'
 foreground: '#E6E1DC'
 cursor: '#FFFFFF'
-hash: 3152116de787c468f4c207b4aa741f7267a91b14a134e2d7b40cc40c3122301e
+hash: 6c358df11d4355a04ad0b99c4361601e94232394d8dc6003410d0a744715dba0

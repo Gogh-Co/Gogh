@@ -1,5 +1,5 @@
 name: Monokai Pro Spectrum
-author: ''
+author: Monokai (https://monokai.com/)
 variant: dark
 color_01: '#222222'
 color_02: '#FC618D'
@@ -20,4 +20,4 @@ color_16: '#F7F1FF'
 background: '#222222'
 foreground: '#F7F1FF'
 cursor: '#BAB6C0'
-hash: 37f4ca6d22ce10922ee2e92e02fc5afa51fc68213b233a27a972df27e64851d2
+hash: 54c1987cd81ee4f3d5c9b5041110287ec397e0e78dba3d7b8b103fb0f4308a66

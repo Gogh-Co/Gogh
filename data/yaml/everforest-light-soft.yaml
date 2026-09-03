@@ -1,5 +1,5 @@
 name: Everforest Light Soft
-author: ''
+author: eskultety (https://github.com/eskultety)
 variant: light
 color_01: '#7A8478'
 color_02: '#E67E80'
@@ -20,4 +20,4 @@ color_16: '#FFFBEF'
 background: '#E5DFC5'
 foreground: '#5C6A72'
 cursor: '#F57D26'
-hash: 032239e0d796137548db054d1fdf8b6c1618f9889c94ab418416da62d1778ed6
+hash: 252755b71a826865bcc38ed1b8932b5cfd4776f9ba0ecac0279016778496087e

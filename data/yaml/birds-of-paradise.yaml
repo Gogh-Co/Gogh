@@ -1,5 +1,5 @@
 name: Birds Of Paradise
-author: ''
+author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
 variant: dark
 color_01: '#573D26'
 color_02: '#BE2D26'
@@ -20,4 +20,4 @@ color_16: '#FFF9D5'
 background: '#2A1F1D'
 foreground: '#E0DBB7'
 cursor: '#573D26'
-hash: 9bc9f88f5c63a532fb1b71a7cec8ae178d24fa9addc48aedddf1b462df1061bc
+hash: 6827ba426f55f100dd0be579628db36d985824d6899535ba3f76554879490a76

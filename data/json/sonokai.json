@@ -1,6 +1,6 @@
 {
   "name": "Sonokai",
-  "author": "",
+  "author": "sainnhe (https://github.com/sainnhe/sonokai)",
   "variant": "dark",
   "color_01": "#181819",
   "color_02": "#FC5D7C",
@@ -21,5 +21,5 @@
   "background": "#2C2E34",
   "foreground": "#E2E2E3",
   "cursor": "#E2E2E3",
-  "hash": "d80935491cdaa121a760a0775e007adbdd8dd8311b8dad322a8d81ffd837b152"
+  "hash": "72a5abab8696eaca353d9df059f97df0081ac0df474ba09623d2f995ee49d25d"
 }

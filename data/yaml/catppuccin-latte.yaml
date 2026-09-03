@@ -1,5 +1,5 @@
 name: Catppuccin Latte
-author: ''
+author: Catppuccin (https://github.com/orgs/catppuccin/people)
 variant: light
 color_01: '#BCC0CC'
 color_02: '#D20F39'
@@ -20,4 +20,4 @@ color_16: '#6C6F85'
 background: '#EFF1F5'
 foreground: '#4C4F69'
 cursor: '#DC8A78'
-hash: 6ac25ebb97dfed5586dbe503db6d5312893fd7872235b3a1b636a8514e48455e
+hash: c293b8d6295eb86490ca35308f75d8b6d24b5a9fdde9e460005e567603ef8dd8

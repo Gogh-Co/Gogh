@@ -1,5 +1,5 @@
 name: Everforest Dark Soft
-author: ''
+author: eskultety (https://github.com/eskultety)
 variant: dark
 color_01: '#7A8478'
 color_02: '#E67E80'
@@ -20,4 +20,4 @@ color_16: '#FFFBEF'
 background: '#293136'
 foreground: '#D3C6AA'
 cursor: '#E69875'
-hash: d7fa941200d47cc3a118ca469bcbd603ea836c3e177b43e54880b1280f8ea018
+hash: 0432a0cbbd51d10191c8a8d281a7d44e97b3ede16977bb5c6ab1bec6feee52a6

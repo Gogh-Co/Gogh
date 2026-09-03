@@ -1,5 +1,5 @@
 name: IC Green PPL
-author: ''
+author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
 variant: dark
 color_01: '#014401'
 color_02: '#FF2736'
@@ -20,4 +20,4 @@ color_16: '#E0F1DC'
 background: '#2C2C2C'
 foreground: '#E0F1DC'
 cursor: '#47FA6B'
-hash: b9d60dd44903e228dd0e590a88586c0bb46131d8b924d4bda10cf99046a28c04
+hash: 47724caed9c0bb288079f09888a6618da1f49989a7db51801e253f0206347894

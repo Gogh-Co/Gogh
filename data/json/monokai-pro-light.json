@@ -1,6 +1,6 @@
 {
   "name": "Monokai Pro Light",
-  "author": "",
+  "author": "Monokai (https://monokai.com/)",
   "variant": "light",
   "color_01": "#FAF4F2",
   "color_02": "#E14775",
@@ -21,5 +21,5 @@
   "background": "#FAF4F2",
   "foreground": "#29242A",
   "cursor": "#706B6E",
-  "hash": "8b59a52f8b1c7e079ab0c1a791c1f58a1d960c4d1d5393c7ddeebe0ee30195ee"
+  "hash": "a3025df597aaf87effb4694c7b31f7bbca39068bda757c92a1834a053c5de458"
 }

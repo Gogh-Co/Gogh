@@ -1,5 +1,5 @@
 name: Arthur
-author: ''
+author: baskerville (https://github.com/baskerville/iTerm-2-Color-Themes)
 variant: dark
 color_01: '#3D352A'
 color_02: '#CD5C5C'
@@ -20,4 +20,4 @@ color_16: '#DDCCBB'
 background: '#1C1C1C'
 foreground: '#DDEEDD'
 cursor: '#E2BBEF'
-hash: 92820528c001970f0a88b5c1b894de2737dc2dd426a87175514950a2902b4900
+hash: 01a5db6897850943fbaf20cb5ef016705607a9880340f4a0ecf9336cd346e119

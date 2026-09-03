@@ -1,5 +1,5 @@
 name: Medallion
-author: ''
+author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
 variant: dark
 color_01: '#000000'
 color_02: '#B64C00'
@@ -20,4 +20,4 @@ color_16: '#FED698'
 background: '#1D1908'
 foreground: '#CAC296'
 cursor: '#D3BA30'
-hash: 825f224d4eb9f4845cc20b3810c4d7dfcd39c3dd7590bce754f066a269d5fa61
+hash: f2d042c0825f5a136ae4b39d57342ef70c838260c62e8d78ab5ea709c5953672

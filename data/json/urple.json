@@ -1,6 +1,6 @@
 {
   "name": "Urple",
-  "author": "",
+  "author": "zdj (https://github.com/zdj/themes/tree/master/iterm2)",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#B0425B",
@@ -21,5 +21,5 @@
   "background": "#1B1B23",
   "foreground": "#877A9B",
   "cursor": "#A063EB",
-  "hash": "9c66adb91ec613e60c003e0247f145251106d426eb6dccdd068d492a91342611"
+  "hash": "c31037a90b11e5a9f9a81d02202d2f4c84b8dcb1204ed3e080f5093726bcc93f"
 }

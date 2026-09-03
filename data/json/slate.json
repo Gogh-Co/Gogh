@@ -1,6 +1,6 @@
 {
   "name": "Slate",
-  "author": "",
+  "author": "deneshshan (https://github.com/deneshshan)",
   "variant": "dark",
   "color_01": "#222222",
   "color_02": "#E2A8BF",
@@ -21,5 +21,5 @@
   "background": "#222222",
   "foreground": "#35B1D2",
   "cursor": "#87D3C4",
-  "hash": "a65a9d29c17af8df16c3e629c615736d923d8be2aafa63918a594138b4d5e010"
+  "hash": "beb8d953ca99a8db3f06d4c1e49044560f4c67d757b1f5d5f47ae9abb0832f49"
 }

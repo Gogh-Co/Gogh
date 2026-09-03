@@ -1,5 +1,5 @@
 name: Nord
-author: ''
+author: Arctic Ice Studio (https://www.nordtheme.com/)
 variant: dark
 color_01: '#3B4252'
 color_02: '#BF616A'
@@ -20,4 +20,4 @@ color_16: '#ECEFF4'
 background: '#2E3440'
 foreground: '#D8DEE9'
 cursor: '#ECEFF4'
-hash: 713f7f1a7739dca50a436d636cd3dc4b23d164a5b79881e277532f1c27cc657c
+hash: 92b63d64654aefbceb769010e05428240482952a59c64cdaf431f36504c76705

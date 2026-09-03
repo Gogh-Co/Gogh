@@ -1,5 +1,5 @@
 name: Espresso Libre
-author: ''
+author: jurgemaister (https://github.com/jurgemaister/Espresso-Libre)
 variant: dark
 color_01: '#000000'
 color_02: '#CC0000'
@@ -20,4 +20,4 @@ color_16: '#EEEEEC'
 background: '#2A211C'
 foreground: '#B8A898'
 cursor: '#FFFFFF'
-hash: de719691f0cd274f56ae2ac3af30d52cf018a5efaec18f71c425e921eb46f6f0
+hash: 2c528dd53033ae4a0a5d85b434e89b0648a3548be23b7bbce3769bf698642cad

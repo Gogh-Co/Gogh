@@ -1,5 +1,5 @@
 name: Nord Light
-author: ''
+author: Arctic Ice Studio (https://www.nordtheme.com/)
 variant: light
 color_01: '#3B4252'
 color_02: '#BF616A'
@@ -20,4 +20,4 @@ color_16: '#ECEFF4'
 background: '#E5E9F0'
 foreground: '#414858'
 cursor: '#88C0D0'
-hash: 9b82321806970ccf34680495bc43e7065f6a7056a1ac3385b67bb3400f090751
+hash: c609c0238262e63fa5c843c8e3ff82e4771de2b69d832c3e64b75c4488904eb7

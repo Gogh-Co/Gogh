@@ -1,5 +1,5 @@
 name: Highway
-author: ''
+author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
 variant: dark
 color_01: '#000000'
 color_02: '#D00E18'
@@ -20,4 +20,4 @@ color_16: '#FFFFFF'
 background: '#222225'
 foreground: '#EDEDED'
 cursor: '#E0D9B9'
-hash: debd92271aecf3d8dc3af0f7d0f169d9823321bde689641165d60fa93960663b
+hash: 8cd73e61f95d0cb6c5b984df843f4fb1cd5cadb62543954b5ec1efc78a6cb38e

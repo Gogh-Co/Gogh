@@ -1,6 +1,6 @@
 {
   "name": "Spacegray",
-  "author": "",
+  "author": "ryentzer (https://github.com/ryentzer/SpaceGray-iTerm)",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#B04B57",
@@ -21,5 +21,5 @@
   "background": "#20242D",
   "foreground": "#B3B8C3",
   "cursor": "#B3B8C3",
-  "hash": "4cc7aac2dbd2bca43fa7179d5c336cca58ac99a133b4a368e45a0a1dff91ee35"
+  "hash": "30e21e528b5b950915c8e30e3c9fbb755b191a9c0728e1fc1a144fffbc41c630"
 }

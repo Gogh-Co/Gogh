@@ -1,6 +1,6 @@
 {
   "name": "Lavandula",
-  "author": "",
+  "author": "zdj (https://github.com/zdj/themes/tree/master/iterm2)",
   "variant": "dark",
   "color_01": "#230046",
   "color_02": "#7D1625",
@@ -21,5 +21,5 @@
   "background": "#050014",
   "foreground": "#736E7D",
   "cursor": "#8C91FA",
-  "hash": "f410a8a03d79851abfeb36b166f731195bf3048cc884746b28aaa86abc4e9115"
+  "hash": "d5a79136f194e7227abc23ca98f45463da74363e544deba81071073624d1285e"
 }

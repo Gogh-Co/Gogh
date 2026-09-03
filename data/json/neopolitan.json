@@ -1,6 +1,6 @@
 {
   "name": "Neopolitan",
-  "author": "",
+  "author": "daytonn (https://github.com/daytonn/iTerm2-Color-Schemes)",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#800000",
@@ -21,5 +21,5 @@
   "background": "#271F19",
   "foreground": "#FFFFFF",
   "cursor": "#FFFFFF",
-  "hash": "9c437d8f8f49b0336ca2132e42241f3ed536f8e086b0028321d85fa4e460312d"
+  "hash": "51efb5fe00d04c28136cc7ae2669425ba6466c2d50e337929d92e680ee00b992"
 }

@@ -1,5 +1,5 @@
 name: Dimmed Monokai
-author: ''
+author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
 variant: dark
 color_01: '#3A3D43'
 color_02: '#BE3F48'
@@ -20,4 +20,4 @@ color_16: '#FDFFB9'
 background: '#1F1F1F'
 foreground: '#B9BCBA'
 cursor: '#F83E19'
-hash: 48d17ab6c91797769a16096294fbb7c449fb70fc17590d79a71e45828d02c285
+hash: 15173796a2ecd4aae580429aa2b5697f983c182dd36b40456dcc7f9afc3e5b70

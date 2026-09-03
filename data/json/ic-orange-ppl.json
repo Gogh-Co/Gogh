@@ -1,6 +1,6 @@
 {
   "name": "IC Orange PPL",
-  "author": "",
+  "author": "zdj (https://github.com/zdj/themes/tree/master/iterm2)",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#C13900",
@@ -21,5 +21,5 @@
   "background": "#262626",
   "foreground": "#FFCB83",
   "cursor": "#FC531D",
-  "hash": "e6560354f8372bf9d1cb384e71d1399958978001f8f9d860888bacd2f4bee4b3"
+  "hash": "7fc524f06e57bd155bde625df7240758cad7f8b4b45703239b92fc772c8aea29"
 }

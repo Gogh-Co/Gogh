@@ -1,5 +1,5 @@
 name: Ayu Light
-author: ''
+author: alebcay (https://github.com/alebcay)
 variant: light
 color_01: '#000000'
 color_02: '#EA6C6D'
@@ -20,4 +20,4 @@ color_16: '#D1D1D1'
 background: '#F8F9FA'
 foreground: '#5C6166'
 cursor: '#FFAA33'
-hash: 8916887c9fedbed603054a76e69acf82a9aba5b5095c0ac44c69bdf426a24147
+hash: 12eaa5e8a1b59cf21e2604485824d4f41b0e5c08541380172259f9925b8efdd9

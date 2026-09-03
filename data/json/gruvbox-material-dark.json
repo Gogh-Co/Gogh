@@ -1,6 +1,6 @@
 {
   "name": "Gruvbox Material Dark",
-  "author": "",
+  "author": "sainnhe (https://github.com/sainnhe)",
   "variant": "dark",
   "color_01": "#282828",
   "color_02": "#EA6962",
@@ -21,5 +21,5 @@
   "background": "#282828",
   "foreground": "#D4BE98",
   "cursor": "#D4BE98",
-  "hash": "21929037d1819b98c516f873eaae88d63901e8db1b004a3e4e70ed7d80a41e83"
+  "hash": "a92914627d27b5f5da1ba0562798f973b624b7e2ffe43cca0284d1e287510591"
 }

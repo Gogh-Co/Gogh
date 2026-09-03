@@ -1,6 +1,6 @@
 {
   "name": "TokyoNight Storm",
-  "author": "",
+  "author": "folke (https://github.com/folke/tokyonight.nvim)",
   "variant": "dark",
   "color_01": "#1D202F",
   "color_02": "#F7768E",
@@ -21,5 +21,5 @@
   "background": "#24283B",
   "foreground": "#C0CAF5",
   "cursor": "#C0CAF5",
-  "hash": "b689392d7baddf05b92a3e105c63f1413d615b766a5b36ffe465cc81714f389e"
+  "hash": "0b03b1426eb6296b3550c1a6fc67444a1c5f035db1ae9f0c7c5468004b5ae0ca"
 }

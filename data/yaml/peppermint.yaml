@@ -1,5 +1,5 @@
 name: Peppermint
-author: ''
+author: Noah Frederick (https://noahfrederick.com/log/lion-terminal-theme-peppermint)
 variant: dark
 color_01: '#353535'
 color_02: '#E74669'
@@ -20,4 +20,4 @@ color_16: '#DFDFDF'
 background: '#000000'
 foreground: '#C8C8C8'
 cursor: '#BBBBBB'
-hash: e083c2bbe8d2adf60b1fff3e267c93a1f508969fa8abfab74799b2731396e340
+hash: 3ff40dab0ffc68305ae3d0ff5693daa56d8f321dd53fe6e90236c6a3ca7410c8

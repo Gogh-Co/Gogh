@@ -1,6 +1,6 @@
 {
   "name": "Warm Neon",
-  "author": "",
+  "author": "firewut (https://github.com/firewut)",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#E24346",
@@ -21,5 +21,5 @@
   "background": "#404040",
   "foreground": "#AFDAB6",
   "cursor": "#30FF24",
-  "hash": "c8c92b975808f745b30436fd6406183192c24ebb61297b9596c94baed3bf2df9"
+  "hash": "d8d1300c272412aa0d734bfd2ff985b95f604141a6b26f1f9599eaf64a4fe657"
 }

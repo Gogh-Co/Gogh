@@ -1,5 +1,5 @@
 name: Kanagawa Wave
-author: ''
+author: rebelot (https://github.com/rebelot)
 variant: dark
 color_01: '#090618'
 color_02: '#C34043'
@@ -20,4 +20,4 @@ color_16: '#DCD7BA'
 background: '#1F1F28'
 foreground: '#DCD7BA'
 cursor: '#DCD7BA'
-hash: 8d374ba67d1e4fec27ea53185364e2dd26b4530a35188aa42dbe412a3fedfdd9
+hash: 90bad8dc54729fb58d4c3d4206601bdff8c474878612f4fcf5f3dc219b7cdb3a

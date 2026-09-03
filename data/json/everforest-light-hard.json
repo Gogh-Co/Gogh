@@ -1,6 +1,6 @@
 {
   "name": "Everforest Light Hard",
-  "author": "",
+  "author": "eskultety (https://github.com/eskultety)",
   "variant": "light",
   "color_01": "#7A8478",
   "color_02": "#E67E80",
@@ -21,5 +21,5 @@
   "background": "#F2EFDF",
   "foreground": "#5C6A72",
   "cursor": "#F57D26",
-  "hash": "5e2848934cfaec42ed199eff2be8f6648b38c9fd3c847547c77b5321054dd620"
+  "hash": "73e44b11fcfaf2aa3b3fecdf7bbcf28e1e4d0e8610c4e79efe0223f233c37256"
 }

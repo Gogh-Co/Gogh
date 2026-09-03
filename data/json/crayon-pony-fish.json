@@ -1,6 +1,6 @@
 {
   "name": "Crayon Pony Fish",
-  "author": "",
+  "author": "zdj (https://github.com/zdj/themes/tree/master/iterm2)",
   "variant": "dark",
   "color_01": "#2B1B1D",
   "color_02": "#91002B",
@@ -21,5 +21,5 @@
   "background": "#150707",
   "foreground": "#68525A",
   "cursor": "#68525A",
-  "hash": "062bd6d62bda9614aec156b185a84f7c787a08949add59e90641da1435181ad4"
+  "hash": "cd2930963bb9620cc00cc843455b09702eb793c68d8666667e1a26904c6271ff"
 }

@@ -1,5 +1,5 @@
 name: Pencil Light
-author: ''
+author: mattly (https://github.com/mattly/iterm-colors-pencil)
 variant: light
 color_01: '#212121'
 color_02: '#C30771'
@@ -20,4 +20,4 @@ color_16: '#F1F1F1'
 background: '#F1F1F1'
 foreground: '#424242'
 cursor: '#20BBFC'
-hash: ffb92bf2ba846559c37b3daa4f3ad60a6d7dc355ab01105940ba50f72b17e9c6
+hash: 991f5b93ce20a2dc0520bd24ffbe44270751ad38e26fbd88cd4074d38a7a9dba

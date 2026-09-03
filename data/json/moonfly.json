@@ -1,6 +1,6 @@
 {
   "name": "Moonfly",
-  "author": "",
+  "author": "bluz71 (https://github.com/bluz71/vim-moonfly-colors)",
   "variant": "dark",
   "color_01": "#323437",
   "color_02": "#FF5454",
@@ -21,5 +21,5 @@
   "background": "#080808",
   "foreground": "#BDBDBD",
   "cursor": "#9E9E9E",
-  "hash": "7db80b8e1e65df6dba5965d93666d5167fdcbbeb7f90709a7d20c0933bf54d48"
+  "hash": "b60c45e33c8f842daa504511e92b597fa302947738b6d573c191c6c9321d8d20"
 }

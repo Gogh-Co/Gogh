@@ -1,6 +1,6 @@
 {
   "name": "Afterglow",
-  "author": "",
+  "author": "yabatadesign (https://github.com/YabataDesign/afterglow-itermcolors)",
   "variant": "dark",
   "color_01": "#151515",
   "color_02": "#AC4142",
@@ -21,5 +21,5 @@
   "background": "#212121",
   "foreground": "#D0D0D0",
   "cursor": "#D0D0D0",
-  "hash": "567ee80d2be73493b99ba47d1b5d7afd99847d3399c98a9a215490e2e51d9c23"
+  "hash": "97d10a4bc7017e682f24e1cbcf2afcb56d0485e092f6ff9ee8a8463fcc1049bd"
 }

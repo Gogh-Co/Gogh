@@ -1,5 +1,5 @@
 name: Elemental
-author: ''
+author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
 variant: dark
 color_01: '#3C3C30'
 color_02: '#98290F'
@@ -20,4 +20,4 @@ color_16: '#FFF1E9'
 background: '#22211D'
 foreground: '#807A74'
 cursor: '#FACB80'
-hash: 4af66920d092c8bab92b1cffde5ac2034447bf419ae8b559d8bd71b9f31cfbe0
+hash: 82cd0f6c93c7481abcaf90cb2d8aca4c70d2612c0fc64050e822c136b3600e6e

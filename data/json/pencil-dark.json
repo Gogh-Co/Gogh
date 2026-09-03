@@ -1,6 +1,6 @@
 {
   "name": "Pencil Dark",
-  "author": "",
+  "author": "mattly (https://github.com/mattly/iterm-colors-pencil)",
   "variant": "dark",
   "color_01": "#212121",
   "color_02": "#C30771",
@@ -21,5 +21,5 @@
   "background": "#212121",
   "foreground": "#F1F1F1",
   "cursor": "#20BBFC",
-  "hash": "6b865b62512f6aaa3861107eb89ca23c59f4b9297a4fe305215ad817f156973e"
+  "hash": "714c849f67686de249aa89b7adaf2d3995d79e9fe6aae4d3896a0a725b5cc758"
 }

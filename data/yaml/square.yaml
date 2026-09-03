@@ -1,5 +1,5 @@
 name: Square
-author: ''
+author: baskerville (https://github.com/baskerville/iTerm-2-Color-Themes)
 variant: dark
 color_01: '#050505'
 color_02: '#E9897C'
@@ -20,4 +20,4 @@ color_16: '#E2E2E2'
 background: '#1A1A1A'
 foreground: '#ACACAB'
 cursor: '#FCFBCC'
-hash: 99b1f370d9736b65e5769d2ab7377ad80ecd71f9d1f1127ff454aca3982b4720
+hash: d080eae97fd620ac5d6848bfdc6cf945a3f3fc126db08e0503057f1ae6606d4e

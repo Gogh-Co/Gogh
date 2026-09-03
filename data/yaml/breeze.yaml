@@ -1,5 +1,5 @@
 name: Breeze
-author: ''
+author: KDE (https://kde.org)
 variant: dark
 color_01: '#31363B'
 color_02: '#ED1515'
@@ -20,4 +20,4 @@ color_16: '#FCFCFC'
 background: '#31363B'
 foreground: '#EFF0F1'
 cursor: '#EFF0F1'
-hash: 350eb36c48c53390c3547b0cbcb818545022de1dcade30d2a935420aeb788a2e
+hash: d83cb3a256b74d7e4b1232cf95f2fad2886d1cfa2065faa96f55306088d1ec39

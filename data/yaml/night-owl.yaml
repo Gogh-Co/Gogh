@@ -1,5 +1,5 @@
 name: Night Owl
-author: ''
+author: zasdaym (https://github.com/zasdaym)
 variant: dark
 color_01: '#011627'
 color_02: '#EF5350'
@@ -20,4 +20,4 @@ color_16: '#FFFFFF'
 background: '#011627'
 foreground: '#D6DEEB'
 cursor: '#7E57C2'
-hash: 4db2944a161d39f86331b10d8384dcca42dbc96494bebc39d4fb09efef634201
+hash: d08847ff86aa6eb1005b60c7ddc49300d7b1f6a8452a37eb3e3658a75d5beba6

@@ -1,5 +1,5 @@
 name: GitHub Dark
-author: ''
+author: Al Duncanson (https://github.com/alDuncanson)
 variant: dark
 color_01: '#000000'
 color_02: '#F78166'
@@ -20,4 +20,4 @@ color_16: '#FFFFFF'
 background: '#101216'
 foreground: '#8B949E'
 cursor: '#C9D1D9'
-hash: b6c504122bf5009fbcdea458f425c4a8ae660334d5b2bea0ef4d86a012550e33
+hash: fa8cf4270829fad1367a7d4bc00df93ca706f4cb24f9418068c45383defbf9b5

@@ -1,6 +1,6 @@
 {
   "name": "Catppuccin Macchiato",
-  "author": "",
+  "author": "Catppuccin (https://github.com/orgs/catppuccin/people)",
   "variant": "dark",
   "color_01": "#494D64",
   "color_02": "#ED8796",
@@ -21,5 +21,5 @@
   "background": "#24273A",
   "foreground": "#CAD3F5",
   "cursor": "#F4DBD6",
-  "hash": "68b1935047c0ac96734a7e02fae7b4c7966f32bcd31cdae36c56ff888c9b9eb8"
+  "hash": "a81e060897e87e75772f847cc25bd94b254812ecc22416159a3be5246fd8ea6f"
 }

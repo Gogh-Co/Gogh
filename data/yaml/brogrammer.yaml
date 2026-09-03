@@ -1,5 +1,5 @@
 name: Brogrammer
-author: ''
+author: bahlo (https://github.com/bahlo/iterm-colors)
 variant: dark
 color_01: '#1F1F1F'
 color_02: '#F81118'
@@ -20,4 +20,4 @@ color_16: '#FFFFFF'
 background: '#131313'
 foreground: '#D6DBE5'
 cursor: '#B9B9B9'
-hash: 3545c81d0a3c23adf8bb0b95aed92cd2be201a6b787f622f74ee23e1a978480f
+hash: e48456a9cdd0429148269f6449f5b2b1667b9e6ed685dc3881d90ed488782a60

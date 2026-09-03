@@ -1,6 +1,6 @@
 {
   "name": "Later This Evening",
-  "author": "",
+  "author": "vilhalmer (https://github.com/vilhalmer/System/tree/master/terminal-themes)",
   "variant": "dark",
   "color_01": "#2B2B2B",
   "color_02": "#D45A60",
@@ -21,5 +21,5 @@
   "background": "#222222",
   "foreground": "#959595",
   "cursor": "#424242",
-  "hash": "460a08e43c83b99ed88031f33d0de3071500c06f1436c8916a92557560502a18"
+  "hash": "958ba19370e51f3ddbe7a464b730d853a9cca06094d7dc43d64314916a12e1d0"
 }
