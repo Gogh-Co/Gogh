@@ -1,6 +1,6 @@
 ---
 name: 'Oceanic Next'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'mhartington (https://github.com/mhartington/oceanic-next-iterm)'
 variant: 'dark'            # dark or light
 
 color_01: '#1B2B34'    # Black (Host)

@@ -1,6 +1,6 @@
 ---
 name: 'Espresso Libre'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'jurgemaister (https://github.com/jurgemaister/Espresso-Libre)'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

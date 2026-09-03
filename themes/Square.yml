@@ -1,6 +1,6 @@
 ---
 name: 'Square'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'baskerville (https://github.com/baskerville/iTerm-2-Color-Themes)'
 variant: 'dark'            # dark or light
 
 color_01: '#050505'    # Black (Host)

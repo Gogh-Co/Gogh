@@ -1,6 +1,6 @@
 ---
 name: 'Synthwave'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'brettstil (https://github.com/brettstil/)'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

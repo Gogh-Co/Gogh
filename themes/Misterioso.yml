@@ -1,6 +1,6 @@
 ---
 name: 'Misterioso'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'flooose (https://github.com/flooose/misterioso-iterm2)'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

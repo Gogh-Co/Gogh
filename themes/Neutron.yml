@@ -1,6 +1,6 @@
 ---
 name: 'Neutron'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'Ch4s3 (https://github.com/Ch4s3/iTerm2-Neutron)'
 variant: 'dark'            # dark or light
 
 color_01: '#23252B'    # Black (Host)

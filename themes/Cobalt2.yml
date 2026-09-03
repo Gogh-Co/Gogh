@@ -1,6 +1,6 @@
 ---
 name: 'Cobalt2'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'wesbos (https://github.com/wesbos/Cobalt2-iterm)'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

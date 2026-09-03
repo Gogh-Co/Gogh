@@ -1,6 +1,6 @@
 ---
 name: 'Breadog'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'Ruby Klover (https://gitlab.com/warningnonpotablewater/breadog)'
 variant: 'light'            # dark or light
 
 color_01: '#362C24'    # Black (Host)

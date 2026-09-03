@@ -1,6 +1,6 @@
 ---
 name: 'Pencil Dark'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'mattly (https://github.com/mattly/iterm-colors-pencil)'
 variant: 'dark'            # dark or light
 
 color_01: '#212121'    # Black (Host)

@@ -1,6 +1,6 @@
 ---
 name: 'Jellybeans'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'qtpi (https://github.com/qtpi/Jellybeans.itermcolors)'
 variant: 'dark'            # dark or light
 
 color_01: '#929292'    # Black (Host)

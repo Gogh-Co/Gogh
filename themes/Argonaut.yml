@@ -1,6 +1,6 @@
 ---
 name: 'Argonaut'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'effkay (https://github.com/effkay/iTerm-argonaut)'
 variant: 'dark'            # dark or light
 
 color_01: '#232323'    # Black (Host)

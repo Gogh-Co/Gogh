@@ -1,6 +1,6 @@
 ---
 name: 'Material'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'stoeffel (https://github.com/stoeffel/material-iterm)'
 variant: 'light'            # dark or light
 
 color_01: '#212121'    # Black (Host)

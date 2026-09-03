@@ -1,6 +1,6 @@
 ---
 name: 'Catppuccin Macchiato'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'Catppuccin (https://github.com/orgs/catppuccin/people)'
 variant: 'dark'            # dark or light
 
 color_01: '#494D64'    # Black (Host)

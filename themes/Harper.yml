@@ -1,6 +1,6 @@
 ---
 name: 'Harper'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'idleberg (https://github.com/idleberg/Harper-iTerm2)'
 variant: 'dark'            # dark or light
 
 color_01: '#010101'    # Black (Host)

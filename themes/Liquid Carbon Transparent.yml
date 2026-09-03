@@ -1,6 +1,6 @@
 ---
 name: 'Liquid Carbon Transparent'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'markcho (https://github.com/markcho/iTerm2_LiquidCarbon)'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

@@ -1,6 +1,6 @@
 ---
 name: 'Moonfly'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'bluz71 (https://github.com/bluz71/vim-moonfly-colors)'
 variant: 'dark'            # dark or light
 
 color_01: '#323437'    # Black (Host)

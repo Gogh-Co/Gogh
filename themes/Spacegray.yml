@@ -1,6 +1,6 @@
 ---
 name: 'Spacegray'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'ryentzer (https://github.com/ryentzer/SpaceGray-iTerm)'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

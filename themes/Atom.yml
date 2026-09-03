@@ -1,6 +1,6 @@
 ---
 name: 'Atom'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'bahlo (https://github.com/bahlo/iterm-colors)'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

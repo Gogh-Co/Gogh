@@ -1,6 +1,6 @@
 ---
 name: 'Earthsong'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'zdj (https://github.com/zdj/themes/tree/master/iterm2)'
 variant: 'dark'            # dark or light
 
 color_01: '#121418'    # Black (Host)

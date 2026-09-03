@@ -1,6 +1,6 @@
 ---
 name: 'IC Green PPL'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'zdj (https://github.com/zdj/themes/tree/master/iterm2)'
 variant: 'dark'            # dark or light
 
 color_01: '#014401'    # Black (Host)

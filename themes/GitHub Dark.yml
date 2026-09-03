@@ -1,6 +1,6 @@
 ---
 name: 'GitHub Dark'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'Al Duncanson (https://github.com/alDuncanson)'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

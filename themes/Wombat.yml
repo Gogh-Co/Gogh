@@ -1,6 +1,6 @@
 ---
 name: 'Wombat'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'djoyner (https://github.com/djoyner/iTerm2-wombat)'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

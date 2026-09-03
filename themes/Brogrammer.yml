@@ -1,6 +1,6 @@
 ---
 name: 'Brogrammer'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'bahlo (https://github.com/bahlo/iterm-colors)'
 variant: 'dark'            # dark or light
 
 color_01: '#1F1F1F'    # Black (Host)

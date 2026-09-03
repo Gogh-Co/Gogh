@@ -1,6 +1,6 @@
 ---
 name: 'Spacedust'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'mhallendal (https://github.com/mhallendal/spacedust-theme)'
 variant: 'dark'            # dark or light
 
 color_01: '#6E5346'    # Black (Host)

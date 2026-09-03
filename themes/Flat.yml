@@ -1,6 +1,6 @@
 ---
 name: 'Flat'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'ahmetsulek (https://github.com/ahmetsulek/flat-terminal)'
 variant: 'dark'            # dark or light
 
 color_01: '#222D3F'    # Black (Host)

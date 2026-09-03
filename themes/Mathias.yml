@@ -1,6 +1,6 @@
 ---
 name: 'Mathias'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'mathiasbynens (https://github.com/mathiasbynens/dotfiles)'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

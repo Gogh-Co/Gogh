@@ -1,6 +1,6 @@
 ---
 name: 'CLRS'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'jasonlong (https://github.com/jasonlong/iterm-clrs)'
 variant: 'light'            # dark or light
 
 color_01: '#000000'    # Black (Host)

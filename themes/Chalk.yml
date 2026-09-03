@@ -1,6 +1,6 @@
 ---
 name: 'Chalk'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'achalv (https://github.com/achalv/chalk)'
 variant: 'dark'            # dark or light
 
 color_01: '#7D8B8F'    # Black (Host)

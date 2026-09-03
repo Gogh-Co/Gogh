@@ -1,6 +1,6 @@
 ---
 name: 'Neopolitan'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'daytonn (https://github.com/daytonn/iTerm2-Color-Schemes)'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

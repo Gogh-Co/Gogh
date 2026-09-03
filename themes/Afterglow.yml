@@ -1,6 +1,6 @@
 ---
 name: 'Afterglow'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'yabatadesign (https://github.com/YabataDesign/afterglow-itermcolors)'
 variant: 'dark'            # dark or light
 
 color_01: '#151515'    # Black (Host)

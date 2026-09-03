@@ -1,6 +1,6 @@
 ---
 name: 'Rippedcasts'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'mdw123 (https://github.com/mdw123/rippedcasts)'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

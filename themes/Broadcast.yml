@@ -1,6 +1,6 @@
 ---
 name: 'Broadcast'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'vinkla (https://github.com/vinkla/broadcast-theme)'
 variant: 'dark'            # dark or light
 
 color_01: '#000000'    # Black (Host)

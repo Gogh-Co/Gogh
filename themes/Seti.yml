@@ -1,6 +1,6 @@
 ---
 name: 'Seti'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'jesseweed (https://github.com/jesseweed/seti-syntax/)'
 variant: 'dark'            # dark or light
 
 color_01: '#323232'    # Black (Host)

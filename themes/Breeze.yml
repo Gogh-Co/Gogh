@@ -1,6 +1,6 @@
 ---
 name: 'Breeze'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'KDE (https://kde.org)'
 variant: 'dark'            # dark or light
 
 color_01: '#31363B'    # Black (Host)

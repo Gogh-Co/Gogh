@@ -1,6 +1,6 @@
 ---
 name: 'Horizon Bright'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'Antonio Camargo (https://github.com/apcamargo)'
 variant: 'light'            # dark or light
 
 color_01: '#16161C'    # Black (Host)

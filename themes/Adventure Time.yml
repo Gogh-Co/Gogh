@@ -1,6 +1,6 @@
 ---
 name: 'Adventure Time'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'zdj (https://github.com/zdj/themes/tree/master/iterm2)'
 variant: 'dark'            # dark or light
 
 color_01: '#050404'    # Black (Host)

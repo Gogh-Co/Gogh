@@ -1,6 +1,6 @@
 ---
 name: 'Paul Millr'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'paulmillr (https://github.com/paulmillr/dotfiles/tree/master/terminal)'
 variant: 'dark'            # dark or light
 
 color_01: '#2A2A2A'    # Black (Host)

@@ -1,6 +1,6 @@
 ---
 name: 'TokyoNight'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'folke (https://github.com/folke/tokyonight.nvim)'
 variant: 'dark'            # dark or light
 
 color_01: '#15161E'    # Black (Host)

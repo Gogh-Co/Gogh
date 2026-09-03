@@ -1,6 +1,6 @@
 ---
 name: 'Paraiso Dark'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
+author: 'idleberg (https://github.com/idleberg)'
 variant: 'dark'            # dark or light
 
 color_01: '#2F1E2E'    # Black (Host)
