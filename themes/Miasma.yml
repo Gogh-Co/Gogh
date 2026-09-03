@@ -1,7 +1,7 @@
 ---
 # Based on xero/miasma.nvim
 name: 'Miasma'
-author: 'Amir Ehsan (https://github.com/EhsanAhmadzadeh)'
+author: 'xero (https://github.com/xero)'
 variant: 'dark'
 
 color_01: '#000000' # Black
