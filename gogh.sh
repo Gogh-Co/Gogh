@@ -682,7 +682,9 @@ if [[ -z "${TERMINAL:-}" ]]; then
   # | Check for the terminal name (depening on os)
   # | ===========================================
   OS="$(uname)"
-  if [[ "$OS" = "Darwin" ]]; then
+  if [[ "$TERM" = "xterm-ghostty" ]] || [[ "$TERM_PROGRAM" = "ghostty" ]]; then
+    TERMINAL="ghostty"
+  elif [[ "$OS" = "Darwin" ]]; then
     TERMINAL=$TERM_PROGRAM
   elif [[ "${OS#CYGWIN}" != "${OS}" ]]; then
     TERMINAL="mintty"

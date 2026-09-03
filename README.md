@@ -182,6 +182,7 @@ Here are some terminals that Gogh is supported with:
 - Alacritty - [Web](https://github.com/alacritty/alacritty)
 - Cygwin - [Web](https://www.cygwin.com/)
 - Foot - [Web](https://codeberg.org/dnkl/foot)
+- Ghostty - [Web](https://ghostty.org/)
 - Gnome - [Web](https://help.gnome.org/users/gnome-terminal/stable/)
 - Guake - [Web](http://guake-project.org/)
 - iTerm - [Web](https://iterm2.com/)
