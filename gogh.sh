@@ -323,6 +323,7 @@ declare -a THEMES=(
   'glacier.sh'
   'gleam-classic.sh'
   'gleam.sh'
+  'gogh-lost.sh'
   'gogh.sh'
   'gooey.sh'
   'google-dark.sh'

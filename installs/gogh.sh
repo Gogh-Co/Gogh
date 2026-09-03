@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Gogh"
 
-export COLOR_01="#292D3E"           # Black (Host)
-export COLOR_02="#F07178"           # Red (Syntax string)
-export COLOR_03="#62DE84"           # Green (Command)
-export COLOR_04="#FFCB6B"           # Yellow (Command second)
-export COLOR_05="#75A1FF"           # Blue (Path)
-export COLOR_06="#F580FF"           # Magenta (Syntax var)
-export COLOR_07="#60BAEC"           # Cyan (Prompt)
-export COLOR_08="#ABB2BF"           # White
+export COLOR_01="#243342"           # Black (Host)
+export COLOR_02="#C54133"           # Red (Syntax string)
+export COLOR_03="#27AE60"           # Green (Command)
+export COLOR_04="#EDB20A"           # Yellow (Command second)
+export COLOR_05="#2479D0"           # Blue (Path)
+export COLOR_06="#7D3EA0"           # Magenta (Syntax var)
+export COLOR_07="#1D8579"           # Cyan (Prompt)
+export COLOR_08="#C9CCCD"           # White
 
-export COLOR_09="#959DCB"           # Bright Black
-export COLOR_10="#F07178"           # Bright Red (Command error)
-export COLOR_11="#C3E88D"           # Bright Green (Exec)
-export COLOR_12="#FF5572"           # Bright Yellow
-export COLOR_13="#82AAFF"           # Bright Blue (Folder)
-export COLOR_14="#FFCB6B"           # Bright Magenta
-export COLOR_15="#676E95"           # Bright Cyan
-export COLOR_16="#FFFEFE"           # Bright White
+export COLOR_09="#34495E"           # Bright Black
+export COLOR_10="#E74C3C"           # Bright Red (Command error)
+export COLOR_11="#2ECC71"           # Bright Green (Exec)
+export COLOR_12="#F1C40F"           # Bright Yellow
+export COLOR_13="#3498DB"           # Bright Blue (Folder)
+export COLOR_14="#9B59B6"           # Bright Magenta
+export COLOR_15="#2AA198"           # Bright Cyan
+export COLOR_16="#ECF0F1"           # Bright White
 
 export BACKGROUND_COLOR="#292D3E"   # Background
-export FOREGROUND_COLOR="#BFC7D5"   # Foreground (Text)
+export FOREGROUND_COLOR="#ECF0F1"   # Foreground (Text)
 
-export CURSOR_COLOR="#BFC7D5" # Cursor
+export CURSOR_COLOR="#ECF0F1" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then

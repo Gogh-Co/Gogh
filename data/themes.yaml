@@ -6715,6 +6715,29 @@
   cursor: '#FFFFFF'
   hash: 325be1dadbf1d82954de766eba5e66f1811c142c934fe7698a471d6df161868b
 - name: Gogh
+  author: Gogh (https://github.com/Gogh-Co/Gogh)
+  variant: dark
+  color_01: '#243342'
+  color_02: '#C54133'
+  color_03: '#27AE60'
+  color_04: '#EDB20A'
+  color_05: '#2479D0'
+  color_06: '#7D3EA0'
+  color_07: '#1D8579'
+  color_08: '#C9CCCD'
+  color_09: '#34495E'
+  color_10: '#E74C3C'
+  color_11: '#2ECC71'
+  color_12: '#F1C40F'
+  color_13: '#3498DB'
+  color_14: '#9B59B6'
+  color_15: '#2AA198'
+  color_16: '#ECF0F1'
+  background: '#292D3E'
+  foreground: '#ECF0F1'
+  cursor: '#ECF0F1'
+  hash: 22696e0788a09c87735f949bc7224074bd43a0eda35651070b0d6c05dc60fa68
+- name: Gogh Lost
   author: ''
   variant: dark
   color_01: '#292D3E'
