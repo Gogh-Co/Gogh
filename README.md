@@ -351,7 +351,7 @@ Some rules to keep in mind:
 
 ### Pull Request checklist
 
-Theme PRs are checked automatically by CI (`✅ - Validate PR`) whenever they touch `themes/**`. To pass:
+Theme PRs are checked automatically by CI (`✅ - Validate PR`) whenever they touch `themes/**` — or `data/`, `installs/`, `gogh.sh`, `tools/run.txt` directly, which also fails the check below. To pass:
 
 - **Title**: start it with `theme:`, e.g. `theme: Add Solarized Midnight`.
 - **Scope**: only add or edit files under `themes/` — no changes anywhere else in the repo (`data/`, `tools/`, `installs/`, `gogh.sh`, etc. are all generated automatically by CI once your PR is merged, so you don't need to touch them).

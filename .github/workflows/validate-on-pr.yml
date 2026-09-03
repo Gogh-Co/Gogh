@@ -6,6 +6,14 @@ on:
   pull_request:
     paths:
       - 'themes/**'
+      # also catch a PR that touches CI-generated output directly, without
+      # touching themes/** at all -- the scope check below rejects that.
+      # Safe from the bot's own regenerate-and-push commit: generate-on-push.yml
+      # only runs on pushes to master, never on an open PR's branch.
+      - 'data/**'
+      - 'installs/**'
+      - 'gogh.sh'
+      - 'tools/run.txt'
 
 jobs:
   validate-colors:

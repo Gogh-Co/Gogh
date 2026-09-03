@@ -5,6 +5,7 @@ name: "🛠️ - Run Generators"
 on:
   workflow_dispatch:
   push:
+    branches: ['master']
     paths:
       - 'themes/**'
 

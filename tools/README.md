@@ -1,80 +1,65 @@
 # Tools
 
-Scripts are grouped by which GitHub Actions workflow runs them. The folder
-name and the workflow filename share the same prefix on purpose:
-
-| Folder | Workflow(s) | Trigger |
+| Folder | Files | Run with |
 |---|---|---|
-| [`generate/`](#generate) | `generate-on-push.yml`, `generate-manual.yml` | push to `themes/**`, or manual dispatch |
-| [`validate/`](#validate) | `validate-on-pr.yml` | pull request touching `themes/**` |
-| [`lib/`](#lib) | — (imported by the two above, not run directly) | — |
-| [`legacy/`](#legacy) | — (not run by any workflow) | — |
+| [`generate/`](#generate) | `01_generate_themes_json.py` … `10_generate_wcag_report.js` | `./tools/generate-run_local.sh`, or CI (`generate-on-push.yml`, `generate-manual.yml`) |
+| [`validate/`](#validate) | `validate_colors.py`, `validate_pr.py` | CI only (`validate-on-pr.yml`) |
+| [`lib/`](#lib) | `theme_common.py` | imported, not run directly |
+| [`legacy/`](#legacy) | `fortmat.py`, `generate.sh` | not run by anything |
+| [`git-hooks/`](#git-hooks) | `pre-commit` | `git commit`, once enabled |
 
 ## `generate/`
 
-A strict, ordered pipeline — each step reads what the previous one wrote, so
-the filename prefix (`01`..`10`) **is** the execution order. Run from the
-repo root:
+Run in this order — the number prefix is the order:
 
-1. `01_generate_themes_json.py` — reads `themes/*.yml` → writes `data/themes.json` and `data/themes-min.json` (adds the `hash`/`hash_bg` fields).
-2. `02_split_themes_json.py` — `data/themes.json` → one file per theme in `data/json/`.
-3. `03_split_themes_txt.py` — `data/themes.json` → one 16-line ANSI palette per theme in `data/txt/`.
-4. `04_generate_themes_csv.py` — `data/themes.json` → `data/themes.csv`.
-5. `05_generate_themes_yaml.py` — `data/themes.json` → `data/themes.yaml`.
-6. `06_split_themes_yaml.py` — `data/themes.json` → one file per theme in `data/yaml/`.
-7. `07_generate_install_scripts.py` — reads `themes/*.yml` directly (not `data/themes.json`) → one install script per theme in `installs/`.
-8. `08_update_gogh_sh_theme_list.py` — `data/themes.json` → refreshes the `THEMES` array in `gogh.sh`.
-9. `09_write_run_timestamp.py` — writes the pipeline run time to `tools/run.txt`.
-10. `10_generate_wcag_report.js` — `data/themes.json` → `data/wcag.json` and `data/wcag-min.json` (run with Deno: `deno run --allow-all tools/generate/10_generate_wcag_report.js`).
+| # | File | Reads | Writes |
+|---|---|---|---|
+| 1 | `01_generate_themes_json.py` | `themes/*.yml` | `data/themes.json`, `data/themes-min.json` |
+| 2 | `02_split_themes_json.py` | `data/themes.json` | `data/json/<theme>.json` |
+| 3 | `03_split_themes_txt.py` | `data/themes.json` | `data/txt/<theme>.txt` |
+| 4 | `04_generate_themes_csv.py` | `data/themes.json` | `data/themes.csv` |
+| 5 | `05_generate_themes_yaml.py` | `data/themes.json` | `data/themes.yaml` |
+| 6 | `06_split_themes_yaml.py` | `data/themes.json` | `data/yaml/<theme>.yaml` |
+| 7 | `07_generate_install_scripts.py` | `themes/*.yml` | `installs/<theme>.sh` |
+| 8 | `08_update_gogh_sh_theme_list.py` | `data/themes.json` | `THEMES` array in `gogh.sh` |
+| 9 | `09_write_run_timestamp.py` | — | `tools/run.txt` |
+| 10 | `10_generate_wcag_report.js` | `data/themes.json` | `data/wcag.json`, `data/wcag-min.json` |
 
-This exact sequence is what CI runs on every push to `themes/**`
-(`.github/workflows/generate-on-push.yml`), after which it tags a release and
-commits the regenerated output back to `master`. `generate-manual.yml` runs
-the same steps on demand (`workflow_dispatch`), without the release/commit
-steps.
+Run one script: `python tools/generate/01_generate_themes_json.py` (steps 1-9), `deno run --allow-all tools/generate/10_generate_wcag_report.js` (step 10).
 
-Steps 1-9 are plain scripts, executed directly (`python tools/generate/NN_....py`) —
-not imported as a package — so numeric prefixes are fine even though they're
-not valid Python module names.
+Run all 10 locally: `./tools/generate-run_local.sh` (uses `uv run --with-requirements requirements.txt`, no venv to set up).
 
-**Known inconsistency, left as-is on purpose:** steps 2, 3 and 6 slug a theme
-name to a filename via `lib.theme_common.slugify_theme_name()` (with a
-`-1`, `-2`... suffix on collision). Steps 7 and 8 predate that helper and use
-their own, slightly different slug logic with no collision suffix — see the
-`NOTE` comment at the top of each file. Unifying them would change public
-install-script filenames and `gogh.sh`'s `THEMES` list, so it's deliberately
-out of scope here.
+Run by CI: `.github/workflows/generate-on-push.yml` (push to `master`), `.github/workflows/generate-manual.yml` (`workflow_dispatch`).
 
 ## `validate/`
 
-Two independent checks, run in CI on every PR that touches `themes/**`
-(`.github/workflows/validate-on-pr.yml`). Order between them doesn't matter,
-so — unlike `generate/` — they're not numbered:
+| File | Checks |
+|---|---|
+| `validate_colors.py` | every theme's hex color values are uppercase |
+| `validate_pr.py` | PR title starts with `theme:`; every changed file is under `themes/` |
 
-- `validate_colors.py` — every theme's hex color values must be uppercase.
-- `validate_pr.py` — the PR title must start with `theme:` and every changed file must live under `themes/`.
+Run one script: `python tools/validate/validate_colors.py`, `python tools/validate/validate_pr.py <changed-files-list-path>`.
+
+Run by CI: `.github/workflows/validate-on-pr.yml`.
 
 ## `lib/`
 
-- `theme_common.py` — shared by both `generate/` and `validate/`: the SHA-256
-  hashing used for `hash`/`hash_bg`, the canonical theme field order
-  (`build_ordered_theme`), and the theme-name-to-filename slug logic
-  (`slugify_theme_name`, `unique_path`) used by the per-theme file generators.
-
-Scripts in `generate/` and `validate/` import it with a small `sys.path`
-shim at the top of each file (`sys.path.insert(0, .../tools)` then
-`from lib.theme_common import ...`), since they're executed directly rather
-than as part of a Python package.
+- `theme_common.py` — imported by `generate/` and `validate/`: `hash_palette`/`hash_background` (color hashing), `build_ordered_theme` (canonical field order), `slugify_theme_name`/`unique_path` (theme name → filename).
 
 ## `legacy/`
 
-Not invoked by any workflow, kept for reference only:
+- `fortmat.py` — old-format YAML theme converter.
+- `generate.sh` — old shell-based generator, pre-dates the Python/JS pipeline.
 
-- `fortmat.py` — converts old-format YAML themes from `themes_old/` (that
-  directory no longer exists in this repo, so this script can't currently run).
-- `generate.sh` — legacy shell generator from before the Python/JS pipeline;
-  expects the old `themes/*.sh` format and a `gh-pages/` output path, neither
-  of which matches the current `themes/*.yml` + `data/` layout.
+## `git-hooks/`
+
+- `pre-commit` — blocks `git commit` if the commit touches `data/`, `installs/`, `gogh.sh`, or `tools/run.txt`.
+
+Enable once per clone:
+
+```bash
+git config core.hooksPath tools/git-hooks
+```
 
 ## Other files
 
