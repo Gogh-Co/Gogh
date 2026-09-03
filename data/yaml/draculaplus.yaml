@@ -1,4 +1,4 @@
-name: Dracula+
+name: DraculaPlus
 author: zenorocha (https://github.com/zenorocha/dracula-theme)
 variant: dark
 color_01: '#21222C'
@@ -20,4 +20,4 @@ color_16: '#F8F8F2'
 background: '#212121'
 foreground: '#F8F8F2'
 cursor: '#ECEFF4'
-hash: aeb025b7250f3546bce36af32ade6761fdb066ba8ed4f98632dafba56beed7ae
+hash: 12014d3a642b6b25b457b893c5c045d55e2027767aa867593331879ed255a5f6

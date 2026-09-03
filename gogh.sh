@@ -239,6 +239,7 @@ declare -a THEMES=(
   'doom-peacock.sh'
   'dot-gov.sh'
   'dracula.sh'
+  'draculaplus.sh'
   'driftwood.sh'
   'duckbones.sh'
   'duotone-dark.sh'

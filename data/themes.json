@@ -5200,7 +5200,7 @@
     "hash": "22e4aaf2436bcc4f348da502a5cb49275041775e7e073784c51e160c854c9a2f"
   },
   {
-    "name": "Dracula+",
+    "name": "DraculaPlus",
     "author": "zenorocha (https://github.com/zenorocha/dracula-theme)",
     "variant": "dark",
     "color_01": "#21222C",
@@ -5222,7 +5222,7 @@
     "background": "#212121",
     "foreground": "#F8F8F2",
     "cursor": "#ECEFF4",
-    "hash": "aeb025b7250f3546bce36af32ade6761fdb066ba8ed4f98632dafba56beed7ae"
+    "hash": "12014d3a642b6b25b457b893c5c045d55e2027767aa867593331879ed255a5f6"
   },
   {
     "name": "Driftwood",
