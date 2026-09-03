@@ -2,23 +2,23 @@
 
 export PROFILE_NAME="Catppuccin Latte"
 
-export COLOR_01="#BCC0CC"           # Black (Host)
+export COLOR_01="#5C5F77"           # Black (Host)
 export COLOR_02="#D20F39"           # Red (Syntax string)
 export COLOR_03="#40A02B"           # Green (Command)
 export COLOR_04="#DF8E1D"           # Yellow (Command second)
 export COLOR_05="#1E66F5"           # Blue (Path)
 export COLOR_06="#EA76CB"           # Magenta (Syntax var)
 export COLOR_07="#179299"           # Cyan (Prompt)
-export COLOR_08="#5C5F77"           # White
+export COLOR_08="#ACB0BE"           # White
 
-export COLOR_09="#ACB0BE"           # Bright Black
-export COLOR_10="#E7103F"           # Bright Red (Command error)
-export COLOR_11="#46B02F"           # Bright Green (Exec)
-export COLOR_12="#E49931"           # Bright Yellow
-export COLOR_13="#3878F6"           # Bright Blue (Folder)
-export COLOR_14="#EF95D7"           # Bright Magenta
-export COLOR_15="#19A1A8"           # Bright Cyan
-export COLOR_16="#6C6F85"           # Bright White
+export COLOR_09="#6C6F85"           # Bright Black
+export COLOR_10="#DE293E"           # Bright Red (Command error)
+export COLOR_11="#49AF3D"           # Bright Green (Exec)
+export COLOR_12="#EEA02D"           # Bright Yellow
+export COLOR_13="#456EFF"           # Bright Blue (Folder)
+export COLOR_14="#FE85D8"           # Bright Magenta
+export COLOR_15="#2D9FA8"           # Bright Cyan
+export COLOR_16="#BCC0CC"           # Bright White
 
 export BACKGROUND_COLOR="#EFF1F5"   # Background
 export FOREGROUND_COLOR="#4C4F69"   # Foreground (Text)

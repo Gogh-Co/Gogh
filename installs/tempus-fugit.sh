@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Tempus Fugit"
 
-export COLOR_01="#4d595f"           # Black (Host)
-export COLOR_02="#c61a14"           # Red (Syntax string)
+export COLOR_01="#4D595F"           # Black (Host)
+export COLOR_02="#C61A14"           # Red (Syntax string)
 export COLOR_03="#357200"           # Green (Command)
-export COLOR_04="#825e00"           # Yellow (Command second)
-export COLOR_05="#1666b0"           # Blue (Path)
-export COLOR_06="#a83884"           # Magenta (Syntax var)
+export COLOR_04="#825E00"           # Yellow (Command second)
+export COLOR_05="#1666B0"           # Blue (Path)
+export COLOR_06="#A83884"           # Magenta (Syntax var)
 export COLOR_07="#007072"           # Cyan (Prompt)
-export COLOR_08="#efe6e4"           # White
+export COLOR_08="#EFE6E4"           # White
 
 export COLOR_09="#796271"           # Bright Black
-export COLOR_10="#b93f1a"           # Bright Red (Command error)
+export COLOR_10="#B93F1A"           # Bright Red (Command error)
 export COLOR_11="#437520"           # Bright Green (Exec)
 export COLOR_12="#985900"           # Bright Yellow
-export COLOR_13="#485adf"           # Bright Blue (Folder)
-export COLOR_14="#a234c0"           # Bright Magenta
-export COLOR_15="#00756a"           # Bright Cyan
-export COLOR_16="#fff5f3"           # Bright White
+export COLOR_13="#485ADF"           # Bright Blue (Folder)
+export COLOR_14="#A234C0"           # Bright Magenta
+export COLOR_15="#00756A"           # Bright Cyan
+export COLOR_16="#FFF5F3"           # Bright White
 
-export BACKGROUND_COLOR="#fff5f3"   # Background
-export FOREGROUND_COLOR="#4d595f"   # Foreground (Text)
+export BACKGROUND_COLOR="#FFF5F3"   # Background
+export FOREGROUND_COLOR="#4D595F"   # Foreground (Text)
 
-export CURSOR_COLOR="#4d595f" # Cursor
+export CURSOR_COLOR="#4D595F" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then

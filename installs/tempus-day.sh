@@ -3,24 +3,24 @@
 export PROFILE_NAME="Tempus Day"
 
 export COLOR_01="#464340"           # Black (Host)
-export COLOR_02="#c81000"           # Red (Syntax string)
+export COLOR_02="#C81000"           # Red (Syntax string)
 export COLOR_03="#107410"           # Green (Command)
 export COLOR_04="#806000"           # Yellow (Command second)
-export COLOR_05="#385dc4"           # Blue (Path)
-export COLOR_06="#b63052"           # Magenta (Syntax var)
+export COLOR_05="#385DC4"           # Blue (Path)
+export COLOR_06="#B63052"           # Magenta (Syntax var)
 export COLOR_07="#007070"           # Cyan (Prompt)
-export COLOR_08="#e7e3d7"           # White
+export COLOR_08="#E7E3D7"           # White
 
-export COLOR_09="#68607d"           # Bright Black
-export COLOR_10="#b24000"           # Bright Red (Command error)
+export COLOR_09="#68607D"           # Bright Black
+export COLOR_10="#B24000"           # Bright Red (Command error)
 export COLOR_11="#427040"           # Bright Green (Exec)
-export COLOR_12="#6f6600"           # Bright Yellow
-export COLOR_13="#0f64c4"           # Bright Blue (Folder)
-export COLOR_14="#8050a7"           # Bright Magenta
-export COLOR_15="#336c87"           # Bright Cyan
-export COLOR_16="#f8f2e5"           # Bright White
+export COLOR_12="#6F6600"           # Bright Yellow
+export COLOR_13="#0F64C4"           # Bright Blue (Folder)
+export COLOR_14="#8050A7"           # Bright Magenta
+export COLOR_15="#336C87"           # Bright Cyan
+export COLOR_16="#F8F2E5"           # Bright White
 
-export BACKGROUND_COLOR="#f8f2e5"   # Background
+export BACKGROUND_COLOR="#F8F2E5"   # Background
 export FOREGROUND_COLOR="#464340"   # Foreground (Text)
 
 export CURSOR_COLOR="#464340" # Cursor

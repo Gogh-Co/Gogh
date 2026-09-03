@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Tempus Rift"
 
-export COLOR_01="#162c22"           # Black (Host)
-export COLOR_02="#c19904"           # Red (Syntax string)
-export COLOR_03="#34b534"           # Green (Command)
-export COLOR_04="#7fad00"           # Yellow (Command second)
-export COLOR_05="#30aeb0"           # Blue (Path)
-export COLOR_06="#c8954c"           # Magenta (Syntax var)
-export COLOR_07="#5fad8f"           # Cyan (Prompt)
-export COLOR_08="#ab9aa9"           # White
+export COLOR_01="#162C22"           # Black (Host)
+export COLOR_02="#C19904"           # Red (Syntax string)
+export COLOR_03="#34B534"           # Green (Command)
+export COLOR_04="#7FAD00"           # Yellow (Command second)
+export COLOR_05="#30AEB0"           # Blue (Path)
+export COLOR_06="#C8954C"           # Magenta (Syntax var)
+export COLOR_07="#5FAD8F"           # Cyan (Prompt)
+export COLOR_08="#AB9AA9"           # White
 
 export COLOR_09="#283431"           # Bright Black
-export COLOR_10="#d2a634"           # Bright Red (Command error)
-export COLOR_11="#6ac134"           # Bright Green (Exec)
-export COLOR_12="#82bd00"           # Bright Yellow
-export COLOR_13="#56bdad"           # Bright Blue (Folder)
-export COLOR_14="#cca0ba"           # Bright Magenta
-export COLOR_15="#10c480"           # Bright Cyan
-export COLOR_16="#bbbcbc"           # Bright White
+export COLOR_10="#D2A634"           # Bright Red (Command error)
+export COLOR_11="#6AC134"           # Bright Green (Exec)
+export COLOR_12="#82BD00"           # Bright Yellow
+export COLOR_13="#56BDAD"           # Bright Blue (Folder)
+export COLOR_14="#CCA0BA"           # Bright Magenta
+export COLOR_15="#10C480"           # Bright Cyan
+export COLOR_16="#BBBCBC"           # Bright White
 
-export BACKGROUND_COLOR="#162c22"   # Background
-export FOREGROUND_COLOR="#bbbcbc"   # Foreground (Text)
+export BACKGROUND_COLOR="#162C22"   # Background
+export FOREGROUND_COLOR="#BBBCBC"   # Foreground (Text)
 
-export CURSOR_COLOR="#bbbcbc" # Cursor
+export CURSOR_COLOR="#BBBCBC" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then

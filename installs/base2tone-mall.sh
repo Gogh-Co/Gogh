@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Base2Tone Mall"
 
-export COLOR_01="#1e1e1f"           # Black (Host)
-export COLOR_02="#a17efc"           # Red (Syntax string)
-export COLOR_03="#75bfff"           # Green (Command)
-export COLOR_04="#b3dbff"           # Yellow (Command second)
-export COLOR_05="#b294ff"           # Blue (Path)
-export COLOR_06="#75bfff"           # Magenta (Syntax var)
-export COLOR_07="#c5adff"           # Cyan (Prompt)
-export COLOR_08="#97959d"           # White
+export COLOR_01="#1E1E1F"           # Black (Host)
+export COLOR_02="#A17EFC"           # Red (Syntax string)
+export COLOR_03="#75BFFF"           # Green (Command)
+export COLOR_04="#B3DBFF"           # Yellow (Command second)
+export COLOR_05="#B294FF"           # Blue (Path)
+export COLOR_06="#75BFFF"           # Magenta (Syntax var)
+export COLOR_07="#C5ADFF"           # Cyan (Prompt)
+export COLOR_08="#97959D"           # White
 
-export COLOR_09="#5e5c60"           # Bright Black
-export COLOR_10="#8ac8ff"           # Bright Red (Command error)
-export COLOR_11="#2b2b2c"           # Bright Green (Exec)
+export COLOR_09="#5E5C60"           # Bright Black
+export COLOR_10="#8AC8FF"           # Bright Red (Command error)
+export COLOR_11="#2B2B2C"           # Bright Green (Exec)
 export COLOR_12="#515053"           # Bright Yellow
-export COLOR_13="#6a686e"           # Bright Blue (Folder)
-export COLOR_14="#e5dbff"           # Bright Magenta
-export COLOR_15="#69b5f7"           # Bright Cyan
-export COLOR_16="#f4f0ff"           # Bright White
+export COLOR_13="#6A686E"           # Bright Blue (Folder)
+export COLOR_14="#E5DBFF"           # Bright Magenta
+export COLOR_15="#69B5F7"           # Bright Cyan
+export COLOR_16="#F4F0FF"           # Bright White
 
-export BACKGROUND_COLOR="#1e1e1f"   # Background
-export FOREGROUND_COLOR="#97959d"   # Foreground (Text)
+export BACKGROUND_COLOR="#1E1E1F"   # Background
+export FOREGROUND_COLOR="#97959D"   # Foreground (Text)
 
-export CURSOR_COLOR="#3692e2" # Cursor
+export CURSOR_COLOR="#3692E2" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then

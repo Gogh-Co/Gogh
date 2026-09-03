@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Kanagawa Lotus"
 
-export COLOR_01="#1f1f28"           # Black (Host)
-export COLOR_02="#c84053"           # Red (Syntax string)
-export COLOR_03="#6f894e"           # Green (Command)
-export COLOR_04="#77713f"           # Yellow (Command second)
-export COLOR_05="#4d699b"           # Blue (Path)
-export COLOR_06="#b35b79"           # Magenta (Syntax var)
-export COLOR_07="#597b75"           # Cyan (Prompt)
+export COLOR_01="#1F1F28"           # Black (Host)
+export COLOR_02="#C84053"           # Red (Syntax string)
+export COLOR_03="#6F894E"           # Green (Command)
+export COLOR_04="#77713F"           # Yellow (Command second)
+export COLOR_05="#4D699B"           # Blue (Path)
+export COLOR_06="#B35B79"           # Magenta (Syntax var)
+export COLOR_07="#597B75"           # Cyan (Prompt)
 export COLOR_08="#545464"           # White
 
-export COLOR_09="#8a8980"           # Bright Black
-export COLOR_10="#d7474b"           # Bright Red (Command error)
-export COLOR_11="#6e915f"           # Bright Green (Exec)
-export COLOR_12="#836f4a"           # Bright Yellow
-export COLOR_13="#6693bf"           # Bright Blue (Folder)
-export COLOR_14="#624c83"           # Bright Magenta
-export COLOR_15="#5e857a"           # Bright Cyan
-export COLOR_16="#43436c"           # Bright White
+export COLOR_09="#8A8980"           # Bright Black
+export COLOR_10="#D7474B"           # Bright Red (Command error)
+export COLOR_11="#6E915F"           # Bright Green (Exec)
+export COLOR_12="#836F4A"           # Bright Yellow
+export COLOR_13="#6693BF"           # Bright Blue (Folder)
+export COLOR_14="#624C83"           # Bright Magenta
+export COLOR_15="#5E857A"           # Bright Cyan
+export COLOR_16="#43436C"           # Bright White
 
-export BACKGROUND_COLOR="#f2ecbc"   # Background
+export BACKGROUND_COLOR="#F2ECBC"   # Background
 export FOREGROUND_COLOR="#545464"   # Foreground (Text)
 
-export CURSOR_COLOR="#43436c" # Cursor
+export CURSOR_COLOR="#43436C" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then

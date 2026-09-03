@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Base2Tone Porch"
 
-export COLOR_01="#221e24"           # Black (Host)
-export COLOR_02="#9466a3"           # Red (Syntax string)
-export COLOR_03="#f39b68"           # Green (Command)
-export COLOR_04="#ffc29e"           # Yellow (Command second)
-export COLOR_05="#a77cb6"           # Blue (Path)
-export COLOR_06="#f39b68"           # Magenta (Syntax var)
-export COLOR_07="#ba95c6"           # Cyan (Prompt)
-export COLOR_08="#9f95a3"           # White
+export COLOR_01="#221E24"           # Black (Host)
+export COLOR_02="#9466A3"           # Red (Syntax string)
+export COLOR_03="#F39B68"           # Green (Command)
+export COLOR_04="#FFC29E"           # Yellow (Command second)
+export COLOR_05="#A77CB6"           # Blue (Path)
+export COLOR_06="#F39B68"           # Magenta (Syntax var)
+export COLOR_07="#BA95C6"           # Cyan (Prompt)
+export COLOR_08="#9F95A3"           # White
 
-export COLOR_09="#645a68"           # Bright Black
-export COLOR_10="#f8aa7c"           # Bright Red (Command error)
-export COLOR_11="#302a32"           # Bright Green (Exec)
-export COLOR_12="#574e5a"           # Bright Yellow
+export COLOR_09="#645A68"           # Bright Black
+export COLOR_10="#F8AA7C"           # Bright Red (Command error)
+export COLOR_11="#302A32"           # Bright Green (Exec)
+export COLOR_12="#574E5A"           # Bright Yellow
 export COLOR_13="#716774"           # Bright Blue (Folder)
-export COLOR_14="#dfcbe6"           # Bright Magenta
-export COLOR_15="#ec8d55"           # Bright Cyan
-export COLOR_16="#f2e3f7"           # Bright White
+export COLOR_14="#DFCBE6"           # Bright Magenta
+export COLOR_15="#EC8D55"           # Bright Cyan
+export COLOR_16="#F2E3F7"           # Bright White
 
-export BACKGROUND_COLOR="#221e24"   # Background
-export FOREGROUND_COLOR="#9f95a3"   # Foreground (Text)
+export BACKGROUND_COLOR="#221E24"   # Background
+export FOREGROUND_COLOR="#9F95A3"   # Foreground (Text)
 
-export CURSOR_COLOR="#c46731" # Cursor
+export CURSOR_COLOR="#C46731" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then

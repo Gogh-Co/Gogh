@@ -4,23 +4,23 @@ export PROFILE_NAME="Acme"
 
 export COLOR_01="#101010"           # Black (Host)
 export COLOR_02="#303030"           # Red (Syntax string)
-export COLOR_03="#cccc7c"           # Green (Command)
-export COLOR_04="#ffffca"           # Yellow (Command second)
-export COLOR_05="#eaffff"           # Blue (Path)
+export COLOR_03="#CCCC7C"           # Green (Command)
+export COLOR_04="#FFFFCA"           # Yellow (Command second)
+export COLOR_05="#EAFFFF"           # Blue (Path)
 export COLOR_06="#505050"           # Magenta (Syntax var)
-export COLOR_07="#aeeeee"           # Cyan (Prompt)
-export COLOR_08="#fcfcce"           # White
+export COLOR_07="#AEEEEE"           # Cyan (Prompt)
+export COLOR_08="#FCFCCE"           # White
 
 export COLOR_09="#101010"           # Bright Black
 export COLOR_10="#303030"           # Bright Red (Command error)
-export COLOR_11="#cccc7c"           # Bright Green (Exec)
-export COLOR_12="#ffffca"           # Bright Yellow
-export COLOR_13="#eaffff"           # Bright Blue (Folder)
+export COLOR_11="#CCCC7C"           # Bright Green (Exec)
+export COLOR_12="#FFFFCA"           # Bright Yellow
+export COLOR_13="#EAFFFF"           # Bright Blue (Folder)
 export COLOR_14="#505050"           # Bright Magenta
-export COLOR_15="#aeeeee"           # Bright Cyan
-export COLOR_16="#fcfcce"           # Bright White
+export COLOR_15="#AEEEEE"           # Bright Cyan
+export COLOR_16="#FCFCCE"           # Bright White
 
-export BACKGROUND_COLOR="#ffffea"   # Background
+export BACKGROUND_COLOR="#FFFFEA"   # Background
 export FOREGROUND_COLOR="#000000"   # Foreground (Text)
 
 export CURSOR_COLOR="#000000" # Cursor

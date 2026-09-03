@@ -2,25 +2,25 @@
 
 export PROFILE_NAME="Selenized White"
 
-export COLOR_01="#ebebeb"           # Black (Host)
-export COLOR_02="#d6000c"           # Red (Syntax string)
-export COLOR_03="#1d9700"           # Green (Command)
-export COLOR_04="#c49700"           # Yellow (Command second)
-export COLOR_05="#0064e4"           # Blue (Path)
-export COLOR_06="#dd0f9d"           # Magenta (Syntax var)
-export COLOR_07="#00ad9c"           # Cyan (Prompt)
+export COLOR_01="#EBEBEB"           # Black (Host)
+export COLOR_02="#D6000C"           # Red (Syntax string)
+export COLOR_03="#1D9700"           # Green (Command)
+export COLOR_04="#C49700"           # Yellow (Command second)
+export COLOR_05="#0064E4"           # Blue (Path)
+export COLOR_06="#DD0F9D"           # Magenta (Syntax var)
+export COLOR_07="#00AD9C"           # Cyan (Prompt)
 export COLOR_08="#878787"           # White
 
-export COLOR_09="#cdcdcd"           # Bright Black
-export COLOR_10="#bf0000"           # Bright Red (Command error)
+export COLOR_09="#CDCDCD"           # Bright Black
+export COLOR_10="#BF0000"           # Bright Red (Command error)
 export COLOR_11="#008400"           # Bright Green (Exec)
-export COLOR_12="#af8500"           # Bright Yellow
-export COLOR_13="#0054cf"           # Bright Blue (Folder)
-export COLOR_14="#c7008b"           # Bright Magenta
-export COLOR_15="#009a8a"           # Bright Cyan
+export COLOR_12="#AF8500"           # Bright Yellow
+export COLOR_13="#0054CF"           # Bright Blue (Folder)
+export COLOR_14="#C7008B"           # Bright Magenta
+export COLOR_15="#009A8A"           # Bright Cyan
 export COLOR_16="#282828"           # Bright White
 
-export BACKGROUND_COLOR="#ffffff"   # Background
+export BACKGROUND_COLOR="#FFFFFF"   # Background
 export FOREGROUND_COLOR="#474747"   # Foreground (Text)
 
 export CURSOR_COLOR="#282828" # Cursor

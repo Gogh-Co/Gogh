@@ -3,27 +3,27 @@
 export PROFILE_NAME="Miramare"
 
 export COLOR_01="#242021"           # Black (Host)
-export COLOR_02="#e68183"           # Red (Syntax string)
-export COLOR_03="#a7c080"           # Green (Command)
-export COLOR_04="#d9bb80"           # Yellow (Command second)
-export COLOR_05="#89beba"           # Blue (Path)
-export COLOR_06="#d3a0bc"           # Magenta (Syntax var)
-export COLOR_07="#87c095"           # Cyan (Prompt)
-export COLOR_08="#d8caac"           # White
+export COLOR_02="#E68183"           # Red (Syntax string)
+export COLOR_03="#A7C080"           # Green (Command)
+export COLOR_04="#D9BB80"           # Yellow (Command second)
+export COLOR_05="#89BEBA"           # Blue (Path)
+export COLOR_06="#D3A0BC"           # Magenta (Syntax var)
+export COLOR_07="#87C095"           # Cyan (Prompt)
+export COLOR_08="#D8CAAC"           # White
 
 export COLOR_09="#444444"           # Bright Black
-export COLOR_10="#e39b7b"           # Bright Red (Command error)
-export COLOR_11="#a7c080"           # Bright Green (Exec)
-export COLOR_12="#d9bb80"           # Bright Yellow
-export COLOR_13="#89beba"           # Bright Blue (Folder)
-export COLOR_14="#d3a0bc"           # Bright Magenta
-export COLOR_15="#87c095"           # Bright Cyan
-export COLOR_16="#e6d6ac"           # Bright White
+export COLOR_10="#E39B7B"           # Bright Red (Command error)
+export COLOR_11="#A7C080"           # Bright Green (Exec)
+export COLOR_12="#D9BB80"           # Bright Yellow
+export COLOR_13="#89BEBA"           # Bright Blue (Folder)
+export COLOR_14="#D3A0BC"           # Bright Magenta
+export COLOR_15="#87C095"           # Bright Cyan
+export COLOR_16="#E6D6AC"           # Bright White
 
-export BACKGROUND_COLOR="#2a2426"   # Background
-export FOREGROUND_COLOR="#e6d6ac"   # Foreground (Text)
+export BACKGROUND_COLOR="#2A2426"   # Background
+export FOREGROUND_COLOR="#E6D6AC"   # Foreground (Text)
 
-export CURSOR_COLOR="#e6d6ac" # Cursor
+export CURSOR_COLOR="#E6D6AC" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then

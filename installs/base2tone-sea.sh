@@ -2,26 +2,26 @@
 
 export PROFILE_NAME="Base2Tone Sea"
 
-export COLOR_01="#1d262f"           # Black (Host)
-export COLOR_02="#34659d"           # Red (Syntax string)
-export COLOR_03="#0fc78a"           # Green (Command)
-export COLOR_04="#47ebb4"           # Yellow (Command second)
-export COLOR_05="#57718e"           # Blue (Path)
-export COLOR_06="#0fc78a"           # Magenta (Syntax var)
-export COLOR_07="#6e9bcf"           # Cyan (Prompt)
-export COLOR_08="#a1aab5"           # White
+export COLOR_01="#1D262F"           # Black (Host)
+export COLOR_02="#34659D"           # Red (Syntax string)
+export COLOR_03="#0FC78A"           # Green (Command)
+export COLOR_04="#47EBB4"           # Yellow (Command second)
+export COLOR_05="#57718E"           # Blue (Path)
+export COLOR_06="#0FC78A"           # Magenta (Syntax var)
+export COLOR_07="#6E9BCF"           # Cyan (Prompt)
+export COLOR_08="#A1AAB5"           # White
 
-export COLOR_09="#4a5f78"           # Bright Black
-export COLOR_10="#14e19d"           # Bright Red (Command error)
-export COLOR_11="#27323f"           # Bright Green (Exec)
+export COLOR_09="#4A5F78"           # Bright Black
+export COLOR_10="#14E19D"           # Bright Red (Command error)
+export COLOR_11="#27323F"           # Bright Green (Exec)
 export COLOR_12="#405368"           # Bright Yellow
 export COLOR_13="#738191"           # Bright Blue (Folder)
-export COLOR_14="#afd4fe"           # Bright Magenta
-export COLOR_15="#0db57d"           # Bright Cyan
-export COLOR_16="#ebf4ff"           # Bright White
+export COLOR_14="#AFD4FE"           # Bright Magenta
+export COLOR_15="#0DB57D"           # Bright Cyan
+export COLOR_16="#EBF4FF"           # Bright White
 
-export BACKGROUND_COLOR="#1d262f"   # Background
-export FOREGROUND_COLOR="#a1aab5"   # Foreground (Text)
+export BACKGROUND_COLOR="#1D262F"   # Background
+export FOREGROUND_COLOR="#A1AAB5"   # Foreground (Text)
 
 export CURSOR_COLOR="#067953" # Cursor
 

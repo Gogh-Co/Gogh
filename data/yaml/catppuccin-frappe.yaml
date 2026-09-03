@@ -1,5 +1,5 @@
 name: Catppuccin Frappe
-author: Catppuccin (https://github.com/orgs/catppuccin/people)
+author: Catppuccin (https://github.com/catppuccin)
 variant: dark
 color_01: '#51576D'
 color_02: '#E78284'
@@ -8,16 +8,16 @@ color_04: '#E5C890'
 color_05: '#8CAAEE'
 color_06: '#F4B8E4'
 color_07: '#81C8BE'
-color_08: '#B5BFE2'
+color_08: '#A5ADCE'
 color_09: '#626880'
-color_10: '#EDA0A2'
-color_11: '#B9DBA2'
-color_12: '#ECD7AE'
-color_13: '#ADC2F3'
-color_14: '#F38ED8'
-color_15: '#98D2CA'
-color_16: '#A5ADCE'
+color_10: '#E67172'
+color_11: '#8EC772'
+color_12: '#D9BA73'
+color_13: '#7B9EF0'
+color_14: '#F2A4DB'
+color_15: '#5ABFB5'
+color_16: '#B5BFE2'
 background: '#303446'
 foreground: '#C6D0F5'
 cursor: '#F2D5CF'
-hash: 00f79be3f12111c1c04664d9826ee357d5fe9ff090cd5d56f447dd261447fa70
+hash: abff85bc8e3ad4ea12492d5f7b6ed263f801a660c92190f5f783fde11d9288fc

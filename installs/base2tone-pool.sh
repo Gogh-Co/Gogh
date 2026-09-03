@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Base2Tone Pool"
 
-export COLOR_01="#2a2433"           # Black (Host)
-export COLOR_02="#aa75f5"           # Red (Syntax string)
-export COLOR_03="#f87972"           # Green (Command)
-export COLOR_04="#ffb6b3"           # Yellow (Command second)
-export COLOR_05="#b886fd"           # Blue (Path)
-export COLOR_06="#f87972"           # Magenta (Syntax var)
-export COLOR_07="#c7a0fe"           # Cyan (Prompt)
-export COLOR_08="#9a90a7"           # White
+export COLOR_01="#2A2433"           # Black (Host)
+export COLOR_02="#AA75F5"           # Red (Syntax string)
+export COLOR_03="#F87972"           # Green (Command)
+export COLOR_04="#FFB6B3"           # Yellow (Command second)
+export COLOR_05="#B886FD"           # Blue (Path)
+export COLOR_06="#F87972"           # Magenta (Syntax var)
+export COLOR_07="#C7A0FE"           # Cyan (Prompt)
+export COLOR_08="#9A90A7"           # White
 
 export COLOR_09="#635775"           # Bright Black
-export COLOR_10="#fc8983"           # Bright Red (Command error)
-export COLOR_11="#372f42"           # Bright Green (Exec)
-export COLOR_12="#574b68"           # Bright Yellow
+export COLOR_10="#FC8983"           # Bright Red (Command error)
+export COLOR_11="#372F42"           # Bright Green (Exec)
+export COLOR_12="#574B68"           # Bright Yellow
 export COLOR_13="#706383"           # Bright Blue (Folder)
-export COLOR_14="#e4d2fe"           # Bright Magenta
-export COLOR_15="#f36f68"           # Bright Cyan
-export COLOR_16="#f3ebff"           # Bright White
+export COLOR_14="#E4D2FE"           # Bright Magenta
+export COLOR_15="#F36F68"           # Bright Cyan
+export COLOR_16="#F3EBFF"           # Bright White
 
-export BACKGROUND_COLOR="#2a2433"   # Background
-export FOREGROUND_COLOR="#9a90a7"   # Foreground (Text)
+export BACKGROUND_COLOR="#2A2433"   # Background
+export FOREGROUND_COLOR="#9A90A7"   # Foreground (Text)
 
-export CURSOR_COLOR="#cf504a" # Cursor
+export CURSOR_COLOR="#CF504A" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then

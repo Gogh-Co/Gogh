@@ -3,27 +3,27 @@
 export PROFILE_NAME="Vaombe"
 
 export COLOR_01="#111413"           # Black (Host)
-export COLOR_02="#8f3232"           # Red (Syntax string)
-export COLOR_03="#3b5c3b"           # Green (Command)
-export COLOR_04="#7a6322"           # Yellow (Command second)
-export COLOR_05="#28405c"           # Blue (Path)
-export COLOR_06="#46285c"           # Magenta (Syntax var)
+export COLOR_02="#8F3232"           # Red (Syntax string)
+export COLOR_03="#3B5C3B"           # Green (Command)
+export COLOR_04="#7A6322"           # Yellow (Command second)
+export COLOR_05="#28405C"           # Blue (Path)
+export COLOR_06="#46285C"           # Magenta (Syntax var)
 export COLOR_07="#346666"           # Cyan (Prompt)
-export COLOR_08="#d1d1d1"           # White
+export COLOR_08="#D1D1D1"           # White
 
 export COLOR_09="#212927"           # Bright Black
-export COLOR_10="#b84242"           # Bright Red (Command error)
-export COLOR_11="#57a355"           # Bright Green (Exec)
-export COLOR_12="#dbbb60"           # Bright Yellow
-export COLOR_13="#5183b8"           # Bright Blue (Folder)
-export COLOR_14="#935fb8"           # Bright Magenta
-export COLOR_15="#51b8b0"           # Bright Cyan
-export COLOR_16="#f5fffd"           # Bright White
+export COLOR_10="#B84242"           # Bright Red (Command error)
+export COLOR_11="#57A355"           # Bright Green (Exec)
+export COLOR_12="#DBBB60"           # Bright Yellow
+export COLOR_13="#5183B8"           # Bright Blue (Folder)
+export COLOR_14="#935FB8"           # Bright Magenta
+export COLOR_15="#51B8B0"           # Bright Cyan
+export COLOR_16="#F5FFFD"           # Bright White
 
-export BACKGROUND_COLOR="#010a08"   # Background
-export FOREGROUND_COLOR="#f5fffd"   # Foreground (Text)
+export BACKGROUND_COLOR="#010A08"   # Background
+export FOREGROUND_COLOR="#F5FFFD"   # Foreground (Text)
 
-export CURSOR_COLOR="#9df5e2" # Cursor
+export CURSOR_COLOR="#9DF5E2" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then

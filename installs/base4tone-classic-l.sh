@@ -2,26 +2,26 @@
 
 export PROFILE_NAME="Base4Tone Classic L"
 
-export COLOR_01="#1b2221"           # Black (Host)
-export COLOR_02="#7667e4"           # Red (Syntax string)
-export COLOR_03="#0da51f"           # Green (Command)
-export COLOR_04="#2bda3f"           # Yellow (Command second)
-export COLOR_05="#1cc4ae"           # Blue (Path)
-export COLOR_06="#659efb"           # Magenta (Syntax var)
-export COLOR_07="#22bf34"           # Cyan (Prompt)
-export COLOR_08="#e8eeed"           # White
+export COLOR_01="#1B2221"           # Black (Host)
+export COLOR_02="#7667E4"           # Red (Syntax string)
+export COLOR_03="#0DA51F"           # Green (Command)
+export COLOR_04="#2BDA3F"           # Yellow (Command second)
+export COLOR_05="#1CC4AE"           # Blue (Path)
+export COLOR_06="#659EFB"           # Magenta (Syntax var)
+export COLOR_07="#22BF34"           # Cyan (Prompt)
+export COLOR_08="#E8EEED"           # White
 
-export COLOR_09="#070d0c"           # Bright Black
-export COLOR_10="#a095f3"           # Bright Red (Command error)
-export COLOR_11="#3cdd4f"           # Bright Green (Exec)
-export COLOR_12="#97eda1"           # Bright Yellow
-export COLOR_13="#adf0e7"           # Bright Blue (Folder)
-export COLOR_14="#88b4fc"           # Bright Magenta
-export COLOR_15="#93ece0"           # Bright Cyan
-export COLOR_16="#f6f9f8"           # Bright White
+export COLOR_09="#070D0C"           # Bright Black
+export COLOR_10="#A095F3"           # Bright Red (Command error)
+export COLOR_11="#3CDD4F"           # Bright Green (Exec)
+export COLOR_12="#97EDA1"           # Bright Yellow
+export COLOR_13="#ADF0E7"           # Bright Blue (Folder)
+export COLOR_14="#88B4FC"           # Bright Magenta
+export COLOR_15="#93ECE0"           # Bright Cyan
+export COLOR_16="#F6F9F8"           # Bright White
 
-export BACKGROUND_COLOR="#1b2221"   # Background
-export FOREGROUND_COLOR="#8ea4a1"   # Foreground (Text)
+export BACKGROUND_COLOR="#1B2221"   # Background
+export FOREGROUND_COLOR="#8EA4A1"   # Foreground (Text)
 
 export CURSOR_COLOR="#748176" # Cursor
 

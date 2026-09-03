@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Tempus Totus"
 
-export COLOR_01="#4a484d"           # Black (Host)
-export COLOR_02="#a50000"           # Red (Syntax string)
-export COLOR_03="#005d26"           # Green (Command)
+export COLOR_01="#4A484D"           # Black (Host)
+export COLOR_02="#A50000"           # Red (Syntax string)
+export COLOR_03="#005D26"           # Green (Command)
 export COLOR_04="#714700"           # Yellow (Command second)
-export COLOR_05="#1d3ccf"           # Blue (Path)
-export COLOR_06="#88267a"           # Magenta (Syntax var)
+export COLOR_05="#1D3CCF"           # Blue (Path)
+export COLOR_06="#88267A"           # Magenta (Syntax var)
 export COLOR_07="#185570"           # Cyan (Prompt)
-export COLOR_08="#efefef"           # White
+export COLOR_08="#EFEFEF"           # White
 
-export COLOR_09="#5e4b4f"           # Bright Black
+export COLOR_09="#5E4B4F"           # Bright Black
 export COLOR_10="#992030"           # Bright Red (Command error)
-export COLOR_11="#4a5500"           # Bright Green (Exec)
-export COLOR_12="#8a3600"           # Bright Yellow
-export COLOR_13="#2d45b0"           # Bright Blue (Folder)
-export COLOR_14="#700dc9"           # Bright Magenta
+export COLOR_11="#4A5500"           # Bright Green (Exec)
+export COLOR_12="#8A3600"           # Bright Yellow
+export COLOR_13="#2D45B0"           # Bright Blue (Folder)
+export COLOR_14="#700DC9"           # Bright Magenta
 export COLOR_15="#005289"           # Bright Cyan
-export COLOR_16="#ffffff"           # Bright White
+export COLOR_16="#FFFFFF"           # Bright White
 
-export BACKGROUND_COLOR="#ffffff"   # Background
-export FOREGROUND_COLOR="#4a484d"   # Foreground (Text)
+export BACKGROUND_COLOR="#FFFFFF"   # Background
+export FOREGROUND_COLOR="#4A484D"   # Foreground (Text)
 
-export CURSOR_COLOR="#4a484d" # Cursor
+export CURSOR_COLOR="#4A484D" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then

@@ -1,23 +1,23 @@
 name: Catppuccin Latte
-author: Catppuccin (https://github.com/orgs/catppuccin/people)
+author: Catppuccin (https://github.com/catppuccin)
 variant: light
-color_01: '#BCC0CC'
+color_01: '#5C5F77'
 color_02: '#D20F39'
 color_03: '#40A02B'
 color_04: '#DF8E1D'
 color_05: '#1E66F5'
 color_06: '#EA76CB'
 color_07: '#179299'
-color_08: '#5C5F77'
-color_09: '#ACB0BE'
-color_10: '#E7103F'
-color_11: '#46B02F'
-color_12: '#E49931'
-color_13: '#3878F6'
-color_14: '#EF95D7'
-color_15: '#19A1A8'
-color_16: '#6C6F85'
+color_08: '#ACB0BE'
+color_09: '#6C6F85'
+color_10: '#DE293E'
+color_11: '#49AF3D'
+color_12: '#EEA02D'
+color_13: '#456EFF'
+color_14: '#FE85D8'
+color_15: '#2D9FA8'
+color_16: '#BCC0CC'
 background: '#EFF1F5'
 foreground: '#4C4F69'
 cursor: '#DC8A78'
-hash: c293b8d6295eb86490ca35308f75d8b6d24b5a9fdde9e460005e567603ef8dd8
+hash: 0084cbb6939b8c7d4af4fb8d234bd40ce33855aa187cca47c28e0ee29b87315e

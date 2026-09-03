@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Tempus Night"
 
-export COLOR_01="#1a1a1a"           # Black (Host)
-export COLOR_02="#ff929f"           # Red (Syntax string)
-export COLOR_03="#5fc940"           # Green (Command)
-export COLOR_04="#c5b300"           # Yellow (Command second)
-export COLOR_05="#5fb8ff"           # Blue (Path)
-export COLOR_06="#ef91df"           # Magenta (Syntax var)
-export COLOR_07="#1dc5c3"           # Cyan (Prompt)
-export COLOR_08="#c4bdaf"           # White
+export COLOR_01="#1A1A1A"           # Black (Host)
+export COLOR_02="#FF929F"           # Red (Syntax string)
+export COLOR_03="#5FC940"           # Green (Command)
+export COLOR_04="#C5B300"           # Yellow (Command second)
+export COLOR_05="#5FB8FF"           # Blue (Path)
+export COLOR_06="#EF91DF"           # Magenta (Syntax var)
+export COLOR_07="#1DC5C3"           # Cyan (Prompt)
+export COLOR_08="#C4BDAF"           # White
 
 export COLOR_09="#242536"           # Bright Black
-export COLOR_10="#f69d6a"           # Bright Red (Command error)
-export COLOR_11="#88c400"           # Bright Green (Exec)
-export COLOR_12="#d7ae00"           # Bright Yellow
-export COLOR_13="#8cb4f0"           # Bright Blue (Folder)
-export COLOR_14="#de99f0"           # Bright Magenta
-export COLOR_15="#00ca9a"           # Bright Cyan
-export COLOR_16="#e0e0e0"           # Bright White
+export COLOR_10="#F69D6A"           # Bright Red (Command error)
+export COLOR_11="#88C400"           # Bright Green (Exec)
+export COLOR_12="#D7AE00"           # Bright Yellow
+export COLOR_13="#8CB4F0"           # Bright Blue (Folder)
+export COLOR_14="#DE99F0"           # Bright Magenta
+export COLOR_15="#00CA9A"           # Bright Cyan
+export COLOR_16="#E0E0E0"           # Bright White
 
-export BACKGROUND_COLOR="#1a1a1a"   # Background
-export FOREGROUND_COLOR="#e0e0e0"   # Foreground (Text)
+export BACKGROUND_COLOR="#1A1A1A"   # Background
+export FOREGROUND_COLOR="#E0E0E0"   # Foreground (Text)
 
-export CURSOR_COLOR="#e0e0e0" # Cursor
+export CURSOR_COLOR="#E0E0E0" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then

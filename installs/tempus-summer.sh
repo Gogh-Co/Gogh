@@ -2,28 +2,28 @@
 
 export PROFILE_NAME="Tempus Summer"
 
-export COLOR_01="#202c3d"           # Black (Host)
-export COLOR_02="#fe6f70"           # Red (Syntax string)
-export COLOR_03="#4eb075"           # Green (Command)
-export COLOR_04="#ba9a0a"           # Yellow (Command second)
-export COLOR_05="#60a1e6"           # Blue (Path)
-export COLOR_06="#d285ad"           # Magenta (Syntax var)
-export COLOR_07="#3dae9f"           # Cyan (Prompt)
-export COLOR_08="#949cbf"           # White
+export COLOR_01="#202C3D"           # Black (Host)
+export COLOR_02="#FE6F70"           # Red (Syntax string)
+export COLOR_03="#4EB075"           # Green (Command)
+export COLOR_04="#BA9A0A"           # Yellow (Command second)
+export COLOR_05="#60A1E6"           # Blue (Path)
+export COLOR_06="#D285AD"           # Magenta (Syntax var)
+export COLOR_07="#3DAE9F"           # Cyan (Prompt)
+export COLOR_08="#949CBF"           # White
 
-export COLOR_09="#39304f"           # Bright Black
-export COLOR_10="#ec7f4f"           # Bright Red (Command error)
-export COLOR_11="#5baf4f"           # Bright Green (Exec)
-export COLOR_12="#be981f"           # Bright Yellow
-export COLOR_13="#8599ef"           # Bright Blue (Folder)
-export COLOR_14="#cc82d7"           # Bright Magenta
-export COLOR_15="#2aacbf"           # Bright Cyan
-export COLOR_16="#a0abae"           # Bright White
+export COLOR_09="#39304F"           # Bright Black
+export COLOR_10="#EC7F4F"           # Bright Red (Command error)
+export COLOR_11="#5BAF4F"           # Bright Green (Exec)
+export COLOR_12="#BE981F"           # Bright Yellow
+export COLOR_13="#8599EF"           # Bright Blue (Folder)
+export COLOR_14="#CC82D7"           # Bright Magenta
+export COLOR_15="#2AACBF"           # Bright Cyan
+export COLOR_16="#A0ABAE"           # Bright White
 
-export BACKGROUND_COLOR="#202c3d"   # Background
-export FOREGROUND_COLOR="#a0abae"   # Foreground (Text)
+export BACKGROUND_COLOR="#202C3D"   # Background
+export FOREGROUND_COLOR="#A0ABAE"   # Foreground (Text)
 
-export CURSOR_COLOR="#a0abae" # Cursor
+export CURSOR_COLOR="#A0ABAE" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then

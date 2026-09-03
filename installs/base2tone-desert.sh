@@ -3,27 +3,27 @@
 export PROFILE_NAME="Base2Tone Desert"
 
 export COLOR_01="#292724"           # Black (Host)
-export COLOR_02="#816f4b"           # Red (Syntax string)
-export COLOR_03="#ec9255"           # Green (Command)
-export COLOR_04="#ffb380"           # Yellow (Command second)
-export COLOR_05="#957e50"           # Blue (Path)
-export COLOR_06="#ec9255"           # Magenta (Syntax var)
-export COLOR_07="#ac8e53"           # Cyan (Prompt)
-export COLOR_08="#ada594"           # White
+export COLOR_02="#816F4B"           # Red (Syntax string)
+export COLOR_03="#EC9255"           # Green (Command)
+export COLOR_04="#FFB380"           # Yellow (Command second)
+export COLOR_05="#957E50"           # Blue (Path)
+export COLOR_06="#EC9255"           # Magenta (Syntax var)
+export COLOR_07="#AC8E53"           # Cyan (Prompt)
+export COLOR_08="#ADA594"           # White
 
-export COLOR_09="#7e7767"           # Bright Black
-export COLOR_10="#f29d63"           # Bright Red (Command error)
-export COLOR_11="#3d3a34"           # Bright Green (Exec)
-export COLOR_12="#615c51"           # Bright Yellow
+export COLOR_09="#7E7767"           # Bright Black
+export COLOR_10="#F29D63"           # Bright Red (Command error)
+export COLOR_11="#3D3A34"           # Bright Green (Exec)
+export COLOR_12="#615C51"           # Bright Yellow
 export COLOR_13="#908774"           # Bright Blue (Folder)
-export COLOR_14="#ddcba6"           # Bright Magenta
-export COLOR_15="#e58748"           # Bright Cyan
-export COLOR_16="#f2ead9"           # Bright White
+export COLOR_14="#DDCBA6"           # Bright Magenta
+export COLOR_15="#E58748"           # Bright Cyan
+export COLOR_16="#F2EAD9"           # Bright White
 
 export BACKGROUND_COLOR="#292724"   # Background
-export FOREGROUND_COLOR="#ada594"   # Foreground (Text)
+export FOREGROUND_COLOR="#ADA594"   # Foreground (Text)
 
-export CURSOR_COLOR="#bc672f" # Cursor
+export CURSOR_COLOR="#BC672F" # Cursor
 
 apply_theme() {
     if [[ -e "${GOGH_APPLY_SCRIPT}" ]]; then
