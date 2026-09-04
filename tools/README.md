@@ -36,12 +36,16 @@ Run by CI: `.github/workflows/generate-on-push.yml` (push to `master`), `.github
 | File | Checks | Scope |
 |---|---|---|
 | `validate_colors.py` | every theme's hex color values are uppercase | all of `themes/*.yml` |
-| `validate_theme_format.py` | filename matches `name:`; `name:` has no underscores; foreground/background contrast ≥ 2.5:1 | only the files passed in (a changed-files list), or all of `themes/*.yml` with no argument |
+| `validate_theme_format.py` | filename matches `name:` (blocking); `name:` has no underscores (blocking); foreground/background contrast ≥ 2.5:1 (**recommended**, doesn't fail the check) | only themes newly *added* vs. a base ref, or all of `themes/*.yml` with no argument |
 | `validate_pr.py` | PR title starts with `theme:`; every changed file is under `themes/` | the files passed in (a changed-files list) |
 
-Run one script: `python tools/validate/validate_colors.py`, `python tools/validate/validate_theme_format.py [changed-files-list-path]`, `python tools/validate/validate_pr.py <changed-files-list-path>`.
+Run one script: `python tools/validate/validate_colors.py`, `python tools/validate/validate_theme_format.py [base-ref]`, `python tools/validate/validate_pr.py <changed-files-list-path>`.
 
-`validate_theme_format.py` deliberately doesn't enforce Title Case or any other casing style: Gogh accepts theme names as given by their original author/repo (e.g. mbadolato/iTerm2-Color-Schemes), and plenty of legitimate ones aren't Title Case (`iTerm2 Default`, `0x96f`, `branch`...). Underscores are the one thing it does reject, since a space or hyphen reads better and no real source repo's names need one. It also takes an optional changed-files list so a pre-existing issue never blocks an unrelated PR: CI and `task validate` both pass it only the files touched by the current PR/branch; run it with no argument for a full-repo audit.
+`validate_theme_format.py` deliberately doesn't enforce Title Case or any other casing style: Gogh accepts theme names as given by their original author/repo (e.g. mbadolato/iTerm2-Color-Schemes), and plenty of legitimate ones aren't Title Case (`iTerm2 Default`, `0x96f`, `branch`...). Underscores are the one thing it does reject, since a space or hyphen reads better and no real source repo's names need one.
+
+Contrast is a recommendation, not a gate: it's a judgment call, not a hard fact like a filename mismatch, so a low ratio is reported but the check still exits 0 if that's the only issue.
+
+Scoped to newly *added* theme files only (`git diff --diff-filter=A` against `base-ref`) -- not modified ones, and not the whole corpus: a pre-existing issue on a theme nobody is touching should never block an unrelated PR, and editing an existing theme for an unrelated reason shouldn't force fixing its old name/contrast either. CI passes the PR's base SHA; `task validate`/`task validate:format` pass `BASE` (default `origin/master`). Run with no argument for a full-repo audit.
 
 Run by CI: `.github/workflows/validate-on-pr.yml`. Run all three locally: `task validate` (see [`CONTRIBUTING.md`](../CONTRIBUTING.md)).
 

@@ -346,7 +346,7 @@ Some rules to keep in mind (checked automatically by CI, see below — or run `t
   - **Filename**: `Solarized Dark.yml`
   - **Inside the .yml file**: `name: 'Solarized Dark'`
 - The name itself is free-form — Gogh accepts theme names as given by their original author/repo (including names ported from mbadolato/iTerm2-Color-Schemes), no forced casing style. The one thing to avoid is underscores (`_`); use a space or hyphen instead.
-- Ensure that the contrast is sufficient for good legibility (foreground/background ratio of at least 2.5:1).
+- Ensure that the contrast is sufficient for good legibility (foreground/background ratio of at least 2.5:1) — **recommended**, this one alone won't fail your PR.
 - All hex color values must be **uppercase** (`#FF0000`, not `#ff0000`).
 
 ### Pull Request checklist
@@ -355,7 +355,8 @@ Theme PRs are checked automatically by CI (`✅ - Validate PR`) whenever they to
 
 - **Title**: start it with `theme:`, e.g. `theme: Add Solarized Midnight`.
 - **Scope**: only add or edit files under `themes/` — no changes anywhere else in the repo (`data/`, `tools/`, `installs/`, `gogh.sh`, etc. are all generated automatically by CI once your PR is merged, so you don't need to touch them).
-- **Filename, no underscores, contrast**: as above.
+- **Filename, no underscores**: as above (only checked for a newly added theme, not one you're just editing).
+- **Contrast**: as above, but recommended only — it's reported, not required.
 - **Colors**: every hex value uppercase, as above.
 
 ***Now, you can send your Pull Request***

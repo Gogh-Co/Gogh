@@ -12,18 +12,9 @@ tasks:
       - uv run --with-requirements requirements.txt tools/validate/validate_colors.py
 
   format:
-    desc: 'Check filename/name/contrast for themes changed vs. a base ref (default origin/master), same check as CI. Override with BASE=<ref>.'
-    vars:
-      # distinct `sh:` command from validate:pr's on purpose -- format and pr
-      # run concurrently as deps of `validate`, and Task caches identical
-      # `sh:` commands, so an identical "mktemp" here would hand both tasks
-      # the same temp file and race on it.
-      CHANGED_FILES:
-        sh: mktemp -t gogh-validate-format-XXXXXX
+    desc: 'Check filename/underscores (blocking) and contrast (recommended) for themes newly added vs. a base ref (default origin/master), same check as CI. Override with BASE=<ref>.'
     cmds:
-      - git diff --name-only {{.BASE}}...HEAD > {{.CHANGED_FILES}}
-      - defer: rm -f {{.CHANGED_FILES}}
-      - uv run --with-requirements requirements.txt tools/validate/validate_theme_format.py {{.CHANGED_FILES}}
+      - uv run --with-requirements requirements.txt tools/validate/validate_theme_format.py {{.BASE}}
 
   pr:
     desc: 'Check PR title/scope vs. a base ref (default origin/master), same check as CI. Override with BASE=<ref> TITLE="theme: ..."'

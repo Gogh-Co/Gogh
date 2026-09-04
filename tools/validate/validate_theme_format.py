@@ -1,8 +1,12 @@
 # Validate the theme-authoring rules from README.md's "Create your Own
 # Theme!" section that validate_colors.py doesn't cover:
-#   - the filename matches the `name:` field exactly
-#   - `name:` has no underscores
-#   - foreground/background contrast meets a minimum legibility ratio
+#   - the filename matches the `name:` field exactly              (blocking)
+#   - `name:` has no underscores                                  (blocking)
+#   - foreground/background contrast meets a legibility floor  (recommended)
+#
+# Contrast is recommended, not blocking: it's a judgment call ("is this
+# still legible"), not a hard fact like a filename mismatch, so a low ratio
+# is reported but never fails the PR -- see tools/README.md.
 #
 # Deliberately does NOT enforce Title Case or any other stylistic casing:
 # Gogh accepts theme names as given by their original author/repo (e.g. from
@@ -11,13 +15,16 @@
 # one thing not worth accepting -- spaces or hyphens read better in a
 # filename/URL, and no real source repo's names actually need one.
 #
-# Scoped to a changed-files list (like validate_pr.py), not the whole
-# themes/ corpus, so a pre-existing issue never blocks an unrelated PR. Run
-# with no argument for a full-repo audit instead.
+# Scoped to newly ADDED theme files only (git diff --diff-filter=A against a
+# base ref), not the whole themes/ corpus and not files merely modified: a
+# pre-existing issue in a theme nobody is touching right now should never
+# block an unrelated PR, and editing an existing theme for an unrelated
+# reason shouldn't suddenly force fixing its unrelated old name/contrast
+# either. Run with no argument for a full-repo audit instead.
 #
-# Usage: python tools/validate/validate_theme_format.py [changed-files-list-path]
+# Usage: python tools/validate/validate_theme_format.py [base-ref]
 
-import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -35,6 +42,7 @@ def check_filename(filepath, name):
         return None
     return {
         "file": filepath.name,
+        "level": "error",
         "rule": "filename matches name",
         "problem": f"filename '{filepath.stem}' != name: '{name}'",
         "fix": f"rename the file to '{name}.yml', or correct name: to '{filepath.stem}' -- whichever is the typo",
@@ -46,6 +54,7 @@ def check_no_underscores(filepath, name):
         return None
     return {
         "file": filepath.name,
+        "level": "error",
         "rule": "no underscores",
         "problem": f"name: '{name}' contains an underscore",
         "fix": f"use a space or hyphen instead: '{name.replace('_', ' ')}'",
@@ -61,9 +70,10 @@ def check_contrast(filepath, data):
         return None
     return {
         "file": filepath.name,
+        "level": "recommended",
         "rule": "contrast",
         "problem": f"foreground {fg} vs background {bg} is only {ratio:.2f}:1",
-        "fix": f"pick a lighter foreground or a darker background (need at least {MIN_CONTRAST}:1)",
+        "fix": f"pick a lighter foreground or a darker background (recommended: at least {MIN_CONTRAST}:1)",
     }
 
 
@@ -82,27 +92,25 @@ def find_violations(filepaths):
     return violations
 
 
-def theme_filepaths_from_list(changed_files_path, themes_dir=Path("./themes")):
-    lines = Path(changed_files_path).read_text().splitlines()
-    paths = []
-    for line in lines:
-        line = line.strip()
-        if not line or not line.startswith("themes/") or not line.endswith(".yml"):
-            continue
-        filepath = Path(line)
-        if filepath.exists():  # skip files deleted by this PR
-            paths.append(filepath)
-    return paths
+def added_theme_filepaths(base_ref):
+    """themes/*.yml files added (not modified, not renamed) between
+    base_ref and HEAD."""
+    result = subprocess.run(
+        ["git", "diff", "--name-only", "--diff-filter=A",
+         f"{base_ref}...HEAD", "--", "themes/*.yml"],
+        capture_output=True, text=True, check=True,
+    )
+    return [Path(line) for line in result.stdout.splitlines() if line.strip()]
 
 
-def print_report(violations):
+def print_report(title, violations, row_style):
     try:
         from rich.console import Console
         from rich.table import Table
 
         console = Console()
-        table = Table(title="Theme format violations", show_lines=True)
-        table.add_column("File", style="bold red")
+        table = Table(title=title, show_lines=True)
+        table.add_column("File", style=f"bold {row_style}")
         table.add_column("Rule", style="yellow")
         table.add_column("Problem")
         table.add_column("How to fix", style="green")
@@ -110,7 +118,7 @@ def print_report(violations):
             table.add_row(v["file"], v["rule"], v["problem"], v["fix"])
         console.print(table)
     except ImportError:
-        print(f"❌ {len(violations)} theme format violation(s):\n")
+        print(f"{title}:\n")
         for v in violations:
             print(f"- {v['file']} [{v['rule']}]")
             print(f"    problem: {v['problem']}")
@@ -119,15 +127,22 @@ def print_report(violations):
 
 if __name__ == "__main__":
     if len(sys.argv) == 2:
-        filepaths = theme_filepaths_from_list(sys.argv[1])
+        filepaths = added_theme_filepaths(sys.argv[1])
     elif len(sys.argv) == 1:
         filepaths = list(Path("./themes").glob("*.yml"))
     else:
-        print(f"Usage: python {sys.argv[0]} [changed-files-list-path]")
+        print(f"Usage: python {sys.argv[0]} [base-ref]")
         sys.exit(2)
 
     violations = find_violations(filepaths)
-    if violations:
-        print_report(violations)
+    errors = [v for v in violations if v["level"] == "error"]
+    warnings = [v for v in violations if v["level"] == "recommended"]
+
+    if warnings:
+        print_report(f"⚠️  {len(warnings)} recommendation(s) -- won't block this PR", warnings, "yellow")
+
+    if errors:
+        print_report(f"❌ {len(errors)} theme format violation(s)", errors, "red")
         sys.exit(1)
-    print("✅ All theme names and contrast ratios look good.")
+
+    print("✅ Filename and underscore checks passed." + (" (see recommendations above)" if warnings else ""))

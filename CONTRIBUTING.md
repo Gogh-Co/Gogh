@@ -26,14 +26,13 @@ template in [`README.md`](README.md#-create-your-own-theme).
 
 The name itself can be whatever its original author/repo called it (e.g.
 ported from mbadolato/iTerm2-Color-Schemes) — Gogh doesn't force a casing
-style on it. Rules (the first three are checked automatically by
-`task validate`, see step 4):
+style on it. Rules (checked automatically by `task validate`, see step 4):
 
-- Filename matches `name:` exactly (e.g. `Solarized Dark.yml` ↔ `name: 'Solarized Dark'`).
-- No underscores (`_`) in the name — use a space or hyphen instead.
-- Foreground/background contrast of at least 2.5:1.
+- Filename matches `name:` exactly (e.g. `Solarized Dark.yml` ↔ `name: 'Solarized Dark'`) — **required**.
+- No underscores (`_`) in the name — use a space or hyphen instead — **required**.
+- Foreground/background contrast of at least 2.5:1 — **recommended**, won't block your PR if you skip it.
 - All 16 ANSI colors, plus `background`, `foreground`, `cursor`.
-- Every hex value **uppercase** (`#FF0000`, not `#ff0000`) — also checked automatically.
+- Every hex value **uppercase** (`#FF0000`, not `#ff0000`) — **required**.
 
 ## 3. Preview the generated output (optional)
 
@@ -61,8 +60,9 @@ task validate
 ```
 
 Runs the same checks CI runs on your PR: colors uppercase, filename matches
-`name:`, no underscores in `name:`, foreground/background contrast, and
-that only `themes/` was touched. Add your real title to also check that:
+`name:`, no underscores in `name:` (these three block), a foreground/
+background contrast recommendation (doesn't block), and that only
+`themes/` was touched. Add your real title to also check that:
 
 ```bash
 task validate TITLE="theme: Add Your Theme Name"

@@ -46,8 +46,9 @@ tasks:
           ${BOLD}${CYAN}❯ RUN:${RESET}  task validate
 
               Runs every check CI runs on your PR: colors uppercase,
-              filename matches name:, no underscores, contrast >= 2.5:1,
-              and that only themes/ was touched.
+              filename matches name:, no underscores (these block), a
+              contrast >= 2.5:1 recommendation (doesn't block), and that
+              only themes/ was touched.
 
           ${BOLD}${CYAN}❯ RUN:${RESET}  task validate TITLE="theme: Add Your Theme Name"
 
