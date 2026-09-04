@@ -23,7 +23,7 @@
                     <div class="code-wrap">
                         <h4>Linux <span>(wget)</span></h4>
                         <div class="code-holder">
-                            <pre><code class="language-bash" id="code-linux">bash -c  "$(wget -qO- https://git.io/vQgMr)" </code></pre>
+                            <pre><code class="language-bash" id="code-linux">bash -c  "$(wget -qO- https://gogh.website/gogh)" </code></pre>
                             <button type="button" class="btn-copy" data-clipboard-target="#code-linux" aria-label="Copy Linux install command">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="#000" width="48" height="48"> <path d="M27.4,14.7l-6.1-6.1C21,8.2,20.5,8,20,8h-8c-1.1,0-2,0.9-2,2v18c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V16.1C28,15.6,27.8,15.1,27.4,14.7z M20,10l5.9,6H20V10z M12,28V10h6v6c0,1.1,0.9,2,2,2h6l0,10H12z"/> <path d="M6,18H4V4c0-1.1,0.9-2,2-2h14v2H6V18z"/> <rect width="32" height="32" fill="none"/> </svg>
                             </button>
@@ -33,7 +33,7 @@
                     <div class="code-wrap">
                         <h4>Mac <span>(curl)</span></h4>
                         <div class="code-holder">
-                            <pre><code class="language-bash" id="code-mac">bash -c  "$(curl -sLo- https://git.io/vQgMr)" </code></pre>
+                            <pre><code class="language-bash" id="code-mac">bash -c  "$(curl -fsSL https://gogh.website/gogh)" </code></pre>
                             <button type="button" class="btn-copy" data-clipboard-target="#code-mac" aria-label="Copy macOS install command">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="#000" width="48" height="48"> <path d="M27.4,14.7l-6.1-6.1C21,8.2,20.5,8,20,8h-8c-1.1,0-2,0.9-2,2v18c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V16.1C28,15.6,27.8,15.1,27.4,14.7z M20,10l5.9,6H20V10z M12,28V10h6v6c0,1.1,0.9,2,2,2h6l0,10H12z"/> <path d="M6,18H4V4c0-1.1,0.9-2,2-2h14v2H6V18z"/> <rect width="32" height="32" fill="none"/> </svg>
                             </button>
@@ -531,7 +531,7 @@ function getLightboxInstallCodeId(theme) {
 }
 
 function getLightboxInstallCommand(theme) {
-    return `bash -c "$(wget -qO- https://git.io/vQgMr)" -- "${getLightboxThemeName(theme)}"`;
+    return `bash -c "$(wget -qO- https://gogh.website/gogh)" -- "${getLightboxThemeName(theme)}"`;
 }
 
 function getThemeName(theme) {

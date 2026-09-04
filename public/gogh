@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Official Gogh installer bootstrapper, served at https://gogh.website/gogh
+#
+#   bash -c "$(curl -fsSL https://gogh.website/gogh)"
+#   bash -c "$(curl -fsSL https://gogh.website/gogh)" -- Dracula
+#
+# Fetches and runs the real installer from Gogh-Co/Gogh@master so there is
+# a single source of truth for install logic (this file never duplicates it).
+set -euo pipefail
+
+GOGH_URL="https://raw.githubusercontent.com/Gogh-Co/Gogh/master/gogh.sh"
+
+GOGH_SCRIPT="$(curl -fsSL "$GOGH_URL")" || {
+  echo "gogh: failed to download $GOGH_URL" >&2
+  exit 1
+}
+
+exec bash -c "$GOGH_SCRIPT" -- "$@"
