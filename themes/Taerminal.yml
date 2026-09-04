@@ -1,0 +1,29 @@
+---
+name: 'Taerminal'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#26282A'    # Black (Host)
+color_02: '#FF8878'    # Red (Syntax string)
+color_03: '#B4FB73'    # Green (Command)
+color_04: '#FFFCB7'    # Yellow (Command second)
+color_05: '#8BBCE5'    # Blue (Path)
+color_06: '#FFB2FE'    # Magenta (Syntax var)
+color_07: '#A2E1F8'    # Cyan (Prompt)
+color_08: '#F1F1F1'    # White
+
+color_09: '#6F6F6F'    # Bright Black
+color_10: '#FE978B'    # Bright Red (Command error)
+color_11: '#D6FCBA'    # Bright Green (Exec)
+color_12: '#FFFED5'    # Bright Yellow
+color_13: '#C2E3FF'    # Bright Blue (Folder)
+color_14: '#FFC6FF'    # Bright Magenta
+color_15: '#C0E9F8'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#26282A'  # Background
+foreground: '#F0F0F0'  # Foreground (Text)
+
+cursor: '#F0F0F0'      # Cursor

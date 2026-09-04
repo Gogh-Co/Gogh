@@ -1,0 +1,29 @@
+---
+name: 'Bloody'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#2E3436'    # Black (Host)
+color_02: '#FF512F'    # Red (Syntax string)
+color_03: '#B2FFA9'    # Green (Command)
+color_04: '#FFFD82'    # Yellow (Command second)
+color_05: '#3185FC'    # Blue (Path)
+color_06: '#DD2476'    # Magenta (Syntax var)
+color_07: '#66D7D1'    # Cyan (Prompt)
+color_08: '#F2EFEA'    # White
+
+color_09: '#555753'    # Bright Black
+color_10: '#FF512F'    # Bright Red (Command error)
+color_11: '#B2FFA9'    # Bright Green (Exec)
+color_12: '#FFFD82'    # Bright Yellow
+color_13: '#3185FC'    # Bright Blue (Folder)
+color_14: '#DD2476'    # Bright Magenta
+color_15: '#66D7D1'    # Bright Cyan
+color_16: '#F2EFEA'    # Bright White
+
+background: '#1E1F29'  # Background
+foreground: '#AAAAAA'  # Foreground (Text)
+
+cursor: '#AAAAAA'      # Cursor

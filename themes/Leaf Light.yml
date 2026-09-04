@@ -1,0 +1,29 @@
+---
+name: 'Leaf Light'
+author: 'qewer33, brought to kitty by KodiakWeb'
+author_name: 'qewer33, brought to kitty by KodiakWeb'
+author_url: ''
+variant: 'light'            # dark or light
+
+color_01: '#2E2C2F'    # Black (Host)
+color_02: '#BA5860'    # Red (Syntax string)
+color_03: '#729B79'    # Green (Command)
+color_04: '#CCAA6C'    # Yellow (Command second)
+color_05: '#5292C6'    # Blue (Path)
+color_06: '#8C6AA8'    # Magenta (Syntax var)
+color_07: '#489CA5'    # Cyan (Prompt)
+color_08: '#E1E4DC'    # White
+
+color_09: '#403F42'    # Bright Black
+color_10: '#9D4B53'    # Bright Red (Command error)
+color_11: '#59795F'    # Bright Green (Exec)
+color_12: '#A78A58'    # Bright Yellow
+color_13: '#40739A'    # Bright Blue (Folder)
+color_14: '#715688'    # Bright Magenta
+color_15: '#3B8187'    # Bright Cyan
+color_16: '#B1B3AD'    # Bright White
+
+background: '#E1E4DC'  # Background
+foreground: '#2E2C2F'  # Foreground (Text)
+
+cursor: '#2E2C2F'      # Cursor

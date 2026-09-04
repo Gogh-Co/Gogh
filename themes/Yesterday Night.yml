@@ -1,0 +1,29 @@
+---
+name: 'Yesterday Night'
+author: 'FroZnShiva (https://github.com/FroZnShiva)'
+author_name: 'FroZnShiva'
+author_url: 'https://github.com/FroZnShiva'
+variant: 'dark'            # dark or light
+
+color_01: '#343D46'    # Black (Host)
+color_02: '#CC6666'    # Red (Syntax string)
+color_03: '#B5BD68'    # Green (Command)
+color_04: '#F0C674'    # Yellow (Command second)
+color_05: '#81A2BE'    # Blue (Path)
+color_06: '#B294BB'    # Magenta (Syntax var)
+color_07: '#8ABEB7'    # Cyan (Prompt)
+color_08: '#DFE1E8'    # White
+
+color_09: '#A7ADBA'    # Bright Black
+color_10: '#CC6666'    # Bright Red (Command error)
+color_11: '#B5BD68'    # Bright Green (Exec)
+color_12: '#F0C674'    # Bright Yellow
+color_13: '#81A2BE'    # Bright Blue (Folder)
+color_14: '#B294BB'    # Bright Magenta
+color_15: '#8ABEB7'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#343D46'  # Background
+foreground: '#DFE1E8'  # Foreground (Text)
+
+cursor: '#DFE1E8'      # Cursor

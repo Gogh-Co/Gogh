@@ -1,0 +1,29 @@
+---
+name: 'Everforest'
+author: 'Sainnhe Park (https://github.com/sainnhe)'
+author_name: 'Sainnhe Park'
+author_url: 'https://github.com/sainnhe'
+variant: 'dark'            # dark or light
+
+color_01: '#2D353B'    # Black (Host)
+color_02: '#E67E80'    # Red (Syntax string)
+color_03: '#A7C080'    # Green (Command)
+color_04: '#DBBC7F'    # Yellow (Command second)
+color_05: '#7FBBB3'    # Blue (Path)
+color_06: '#D699B6'    # Magenta (Syntax var)
+color_07: '#83C092'    # Cyan (Prompt)
+color_08: '#D3C6AA'    # White
+
+color_09: '#859289'    # Bright Black
+color_10: '#E67E80'    # Bright Red (Command error)
+color_11: '#A7C080'    # Bright Green (Exec)
+color_12: '#DBBC7F'    # Bright Yellow
+color_13: '#7FBBB3'    # Bright Blue (Folder)
+color_14: '#D699B6'    # Bright Magenta
+color_15: '#83C092'    # Bright Cyan
+color_16: '#FDF6E3'    # Bright White
+
+background: '#2D353B'  # Background
+foreground: '#D3C6AA'  # Foreground (Text)
+
+cursor: '#D3C6AA'      # Cursor

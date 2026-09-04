@@ -1,0 +1,29 @@
+---
+name: 'Oxocarbon Light'
+author: 'shaunsingh/IBM, Tinted Theming (https://github.com/tinted-theming)'
+author_name: 'shaunsingh/IBM, Tinted Theming'
+author_url: 'https://github.com/tinted-theming'
+variant: 'light'            # dark or light
+
+color_01: '#F2F4F8'    # Black (Host)
+color_02: '#FF7EB6'    # Red (Syntax string)
+color_03: '#42BE65'    # Green (Command)
+color_04: '#FF6F00'    # Yellow (Command second)
+color_05: '#0F62FE'    # Blue (Path)
+color_06: '#BE95FF'    # Magenta (Syntax var)
+color_07: '#673AB7'    # Cyan (Prompt)
+color_08: '#525F70'    # White
+
+color_09: '#A1ACBA'    # Bright Black
+color_10: '#FF7EB6'    # Bright Red (Command error)
+color_11: '#42BE65'    # Bright Green (Exec)
+color_12: '#FF6F00'    # Bright Yellow
+color_13: '#0F62FE'    # Bright Blue (Folder)
+color_14: '#BE95FF'    # Bright Magenta
+color_15: '#673AB7'    # Bright Cyan
+color_16: '#272D35'    # Bright White
+
+background: '#F2F4F8'  # Background
+foreground: '#525F70'  # Foreground (Text)
+
+cursor: '#525F70'      # Cursor

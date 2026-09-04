@@ -1,0 +1,29 @@
+---
+name: 'harmonic16 Dark'
+author: 'Jannik Siebert (https://github.com/janniks)'
+author_name: 'Jannik Siebert'
+author_url: 'https://github.com/janniks'
+variant: 'dark'            # dark or light
+
+color_01: '#0B1C2C'    # Black (Host)
+color_02: '#BF8B56'    # Red (Syntax string)
+color_03: '#56BF8B'    # Green (Command)
+color_04: '#8BBF56'    # Yellow (Command second)
+color_05: '#8B56BF'    # Blue (Path)
+color_06: '#BF568B'    # Magenta (Syntax var)
+color_07: '#568BBF'    # Cyan (Prompt)
+color_08: '#CBD6E2'    # White
+
+color_09: '#627E99'    # Bright Black
+color_10: '#BF8B56'    # Bright Red (Command error)
+color_11: '#56BF8B'    # Bright Green (Exec)
+color_12: '#8BBF56'    # Bright Yellow
+color_13: '#8B56BF'    # Bright Blue (Folder)
+color_14: '#BF568B'    # Bright Magenta
+color_15: '#568BBF'    # Bright Cyan
+color_16: '#F7F9FB'    # Bright White
+
+background: '#0B1C2C'  # Background
+foreground: '#CBD6E2'  # Foreground (Text)
+
+cursor: '#CBD6E2'      # Cursor

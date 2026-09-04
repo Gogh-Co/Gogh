@@ -1,0 +1,29 @@
+---
+name: 'Gruvbox Dark Medium Forest'
+author: 'Muhammad Talha (muhammadtalha.quant@gmail.com), morhetz (https://github.com/morhetz/gruvbox)'
+author_name: 'Muhammad Talha (muhammadtalha.quant@gmail.com), morhetz'
+author_url: 'https://github.com/morhetz/gruvbox'
+variant: 'dark'            # dark or light
+
+color_01: '#282828'    # Black (Host)
+color_02: '#FB4934'    # Red (Syntax string)
+color_03: '#B8BB26'    # Green (Command)
+color_04: '#FABD2F'    # Yellow (Command second)
+color_05: '#B8BB26'    # Blue (Path)
+color_06: '#96BDA2'    # Magenta (Syntax var)
+color_07: '#5F6C1F'    # Cyan (Prompt)
+color_08: '#D5C4A1'    # White
+
+color_09: '#665C50'    # Bright Black
+color_10: '#FB4934'    # Bright Red (Command error)
+color_11: '#B8BB26'    # Bright Green (Exec)
+color_12: '#FABD2F'    # Bright Yellow
+color_13: '#B8BB26'    # Bright Blue (Folder)
+color_14: '#96BDA2'    # Bright Magenta
+color_15: '#5F6C1F'    # Bright Cyan
+color_16: '#FBF1C7'    # Bright White
+
+background: '#282828'  # Background
+foreground: '#D5C4A1'  # Foreground (Text)
+
+cursor: '#D5C4A1'      # Cursor

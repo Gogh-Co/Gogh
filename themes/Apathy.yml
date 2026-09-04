@@ -1,0 +1,29 @@
+---
+name: 'Apathy'
+author: 'Jannik Siebert (https://github.com/janniks)'
+author_name: 'Jannik Siebert'
+author_url: 'https://github.com/janniks'
+variant: 'dark'            # dark or light
+
+color_01: '#031A16'    # Black (Host)
+color_02: '#3E9688'    # Red (Syntax string)
+color_03: '#883E96'    # Green (Command)
+color_04: '#3E4C96'    # Yellow (Command second)
+color_05: '#96883E'    # Blue (Path)
+color_06: '#4C963E'    # Magenta (Syntax var)
+color_07: '#963E4C'    # Cyan (Prompt)
+color_08: '#81B5AC'    # White
+
+color_09: '#2B685E'    # Bright Black
+color_10: '#3E9688'    # Bright Red (Command error)
+color_11: '#883E96'    # Bright Green (Exec)
+color_12: '#3E4C96'    # Bright Yellow
+color_13: '#96883E'    # Bright Blue (Folder)
+color_14: '#4C963E'    # Bright Magenta
+color_15: '#963E4C'    # Bright Cyan
+color_16: '#D2E7E4'    # Bright White
+
+background: '#031A16'  # Background
+foreground: '#81B5AC'  # Foreground (Text)
+
+cursor: '#81B5AC'      # Cursor

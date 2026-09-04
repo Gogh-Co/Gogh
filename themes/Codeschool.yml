@@ -1,0 +1,29 @@
+---
+name: 'Codeschool'
+author: 'blockloop'
+author_name: 'blockloop'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#232C31'    # Black (Host)
+color_02: '#2A5491'    # Red (Syntax string)
+color_03: '#237986'    # Green (Command)
+color_04: '#A03B1E'    # Yellow (Command second)
+color_05: '#484D79'    # Blue (Path)
+color_06: '#C59820'    # Magenta (Syntax var)
+color_07: '#B02F30'    # Cyan (Prompt)
+color_08: '#9EA7A6'    # White
+
+color_09: '#3F4944'    # Bright Black
+color_10: '#2A5491'    # Bright Red (Command error)
+color_11: '#237986'    # Bright Green (Exec)
+color_12: '#A03B1E'    # Bright Yellow
+color_13: '#484D79'    # Bright Blue (Folder)
+color_14: '#C59820'    # Bright Magenta
+color_15: '#B02F30'    # Bright Cyan
+color_16: '#B5D8F6'    # Bright White
+
+background: '#232C31'  # Background
+foreground: '#9EA7A6'  # Foreground (Text)
+
+cursor: '#9EA7A6'      # Cursor

@@ -1,0 +1,29 @@
+---
+name: 'Bogster Dark'
+author: 'lhs'
+author_name: 'lhs'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#161C23'    # Black (Host)
+color_02: '#BD2853'    # Red (Syntax string)
+color_03: '#549D2F'    # Green (Command)
+color_04: '#CCA734'    # Yellow (Command second)
+color_05: '#248BAA'    # Blue (Path)
+color_06: '#B759DC'    # Magenta (Syntax var)
+color_07: '#23A580'    # Cyan (Prompt)
+color_08: '#C6BFBA'    # White
+
+color_09: '#45576D'    # Bright Black
+color_10: '#DB567C'    # Bright Red (Command error)
+color_11: '#6FCC4C'    # Bright Green (Exec)
+color_12: '#DFC26B'    # Bright Yellow
+color_13: '#4FBADB'    # Bright Blue (Folder)
+color_14: '#DC59C0'    # Bright Magenta
+color_15: '#59DCB7'    # Bright Cyan
+color_16: '#DFD7D0'    # Bright White
+
+background: '#161C23'  # Background
+foreground: '#C6BFBA'  # Foreground (Text)
+
+cursor: '#C6BFBA'      # Cursor

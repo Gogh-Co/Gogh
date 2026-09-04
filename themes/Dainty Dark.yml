@@ -1,0 +1,29 @@
+---
+name: 'Dainty Dark'
+author: 'Anshul Singh Chauhan (https://github.com/anshul-exe)'
+author_name: 'Anshul Singh Chauhan'
+author_url: 'https://github.com/anshul-exe'
+variant: 'dark'            # dark or light
+
+color_01: '#214969'    # Black (Host)
+color_02: '#E52E2E'    # Red (Syntax string)
+color_03: '#44FFB1'    # Green (Command)
+color_04: '#FFE073'    # Yellow (Command second)
+color_05: '#0FC5ED'    # Blue (Path)
+color_06: '#A277FF'    # Magenta (Syntax var)
+color_07: '#24EAF7'    # Cyan (Prompt)
+color_08: '#24EAF7'    # White
+
+color_09: '#214969'    # Bright Black
+color_10: '#E52E2E'    # Bright Red (Command error)
+color_11: '#44FFB1'    # Bright Green (Exec)
+color_12: '#FFE073'    # Bright Yellow
+color_13: '#A277FF'    # Bright Blue (Folder)
+color_14: '#A277FF'    # Bright Magenta
+color_15: '#24EAF7'    # Bright Cyan
+color_16: '#24EAF7'    # Bright White
+
+background: '#011423'  # Background
+foreground: '#CBE0F0'  # Foreground (Text)
+
+cursor: '#CBE0F0'      # Cursor

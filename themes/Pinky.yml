@@ -1,0 +1,29 @@
+---
+name: 'Pinky'
+author: 'Benjamin (https://github.com/b3nj5m1n)'
+author_name: 'Benjamin'
+author_url: 'https://github.com/b3nj5m1n'
+variant: 'dark'            # dark or light
+
+color_01: '#171517'    # Black (Host)
+color_02: '#FFA600'    # Red (Syntax string)
+color_03: '#FF0066'    # Green (Command)
+color_04: '#20DF6C'    # Yellow (Command second)
+color_05: '#00FFFF'    # Blue (Path)
+color_06: '#007FFF'    # Magenta (Syntax var)
+color_07: '#6600FF'    # Cyan (Prompt)
+color_08: '#F5F5F5'    # White
+
+color_09: '#383338'    # Bright Black
+color_10: '#FFA600'    # Bright Red (Command error)
+color_11: '#FF0066'    # Bright Green (Exec)
+color_12: '#20DF6C'    # Bright Yellow
+color_13: '#00FFFF'    # Bright Blue (Folder)
+color_14: '#007FFF'    # Bright Magenta
+color_15: '#6600FF'    # Bright Cyan
+color_16: '#F7F3F7'    # Bright White
+
+background: '#171517'  # Background
+foreground: '#F5F5F5'  # Foreground (Text)
+
+cursor: '#F5F5F5'      # Cursor

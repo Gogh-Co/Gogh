@@ -1,0 +1,29 @@
+---
+name: 'Pastel Ega'
+author: 'Timo Heidutzek (trzyglow)'
+author_name: 'Timo Heidutzek (trzyglow)'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#414141'    # Black (Host)
+color_02: '#DD4274'    # Red (Syntax string)
+color_03: '#1DB37B'    # Green (Command)
+color_04: '#CBAE25'    # Yellow (Command second)
+color_05: '#4C96D7'    # Blue (Path)
+color_06: '#BF2FAF'    # Magenta (Syntax var)
+color_07: '#41BCBC'    # Cyan (Prompt)
+color_08: '#BFBFBF'    # White
+
+color_09: '#8D8D8D'    # Bright Black
+color_10: '#DB7497'    # Bright Red (Command error)
+color_11: '#70E6AE'    # Bright Green (Exec)
+color_12: '#FAF8AC'    # Bright Yellow
+color_13: '#A5D2F3'    # Bright Blue (Folder)
+color_14: '#DF7CD3'    # Bright Magenta
+color_15: '#5FE4E4'    # Bright Cyan
+color_16: '#F6F6F6'    # Bright White
+
+background: '#414141'  # Background
+foreground: '#F6F6F6'  # Foreground (Text)
+
+cursor: '#F6F6F6'      # Cursor

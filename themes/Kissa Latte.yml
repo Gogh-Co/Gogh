@@ -1,0 +1,29 @@
+---
+name: 'Kissa Latte'
+author: 'rwendell (https://github.com/rwendell/kissa)'
+author_name: 'rwendell'
+author_url: 'https://github.com/rwendell/kissa'
+variant: 'light'            # dark or light
+
+color_01: '#F5F4F0'    # Black (Host)
+color_02: '#9E3E3E'    # Red (Syntax string)
+color_03: '#387050'    # Green (Command)
+color_04: '#7D6820'    # Yellow (Command second)
+color_05: '#3468A8'    # Blue (Path)
+color_06: '#6438A0'    # Magenta (Syntax var)
+color_07: '#287070'    # Cyan (Prompt)
+color_08: '#1F1C16'    # White
+
+color_09: '#91887D'    # Bright Black
+color_10: '#9E3E3E'    # Bright Red (Command error)
+color_11: '#387050'    # Bright Green (Exec)
+color_12: '#7D6820'    # Bright Yellow
+color_13: '#3468A8'    # Bright Blue (Folder)
+color_14: '#6438A0'    # Bright Magenta
+color_15: '#287070'    # Bright Cyan
+color_16: '#FEFCFA'    # Bright White
+
+background: '#F5F4F0'  # Background
+foreground: '#1F1C16'  # Foreground (Text)
+
+cursor: '#1F1C16'      # Cursor

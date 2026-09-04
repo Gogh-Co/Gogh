@@ -1,0 +1,29 @@
+---
+name: 'Doom Vibrant'
+author: 'Henrik Lissner (https://github.com/hlissner)'
+author_name: 'Henrik Lissner'
+author_url: 'https://github.com/hlissner'
+variant: 'dark'            # dark or light
+
+color_01: '#2A2E38'    # Black (Host)
+color_02: '#FF665C'    # Red (Syntax string)
+color_03: '#7BC275'    # Green (Command)
+color_04: '#FCCE7B'    # Yellow (Command second)
+color_05: '#51AFEF'    # Blue (Path)
+color_06: '#C57BDB'    # Magenta (Syntax var)
+color_07: '#5CEFFF'    # Cyan (Prompt)
+color_08: '#DFDFDF'    # White
+
+color_09: '#484854'    # Bright Black
+color_10: '#FF665C'    # Bright Red (Command error)
+color_11: '#99BB66'    # Bright Green (Exec)
+color_12: '#ECBE7B'    # Bright Yellow
+color_13: '#51AFEF'    # Bright Blue (Folder)
+color_14: '#C678DD'    # Bright Magenta
+color_15: '#46D9FF'    # Bright Cyan
+color_16: '#BBC2CF'    # Bright White
+
+background: '#242730'  # Background
+foreground: '#BBC2CF'  # Foreground (Text)
+
+cursor: '#BBC2CF'      # Cursor

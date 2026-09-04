@@ -1,0 +1,29 @@
+---
+name: 'Blueberry Mango'
+author: 'janbridley'
+author_name: 'janbridley'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#16141E'    # Black (Host)
+color_02: '#ED7481'    # Red (Syntax string)
+color_03: '#54B99D'    # Green (Command)
+color_04: '#E0C750'    # Yellow (Command second)
+color_05: '#6EE4DE'    # Blue (Path)
+color_06: '#CA476A'    # Magenta (Syntax var)
+color_07: '#6FB3BF'    # Cyan (Prompt)
+color_08: '#F1F1F1'    # White
+
+color_09: '#4A5060'    # Bright Black
+color_10: '#F0A2A3'    # Bright Red (Command error)
+color_11: '#A0C180'    # Bright Green (Exec)
+color_12: '#F5E47D'    # Bright Yellow
+color_13: '#ABFCF3'    # Bright Blue (Folder)
+color_14: '#CC75D0'    # Bright Magenta
+color_15: '#C7F1FC'    # Bright Cyan
+color_16: '#FEFEFE'    # Bright White
+
+background: '#181321'  # Background
+foreground: '#FEFFE0'  # Foreground (Text)
+
+cursor: '#FEFFE0'      # Cursor

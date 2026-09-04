@@ -1,0 +1,29 @@
+---
+name: 'Sierra'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#0E0E04'    # Black (Host)
+color_02: '#515A45'    # Red (Syntax string)
+color_03: '#68694F'    # Green (Command)
+color_04: '#7F7F60'    # Yellow (Command second)
+color_05: '#989876'    # Blue (Path)
+color_06: '#897C5B'    # Magenta (Syntax var)
+color_07: '#A18E60'    # Cyan (Prompt)
+color_08: '#BB7774'    # White
+
+color_09: '#A85E5D'    # Bright Black
+color_10: '#475A2E'    # Bright Red (Command error)
+color_11: '#676938'    # Bright Green (Exec)
+color_12: '#7F7F41'    # Bright Yellow
+color_13: '#98984E'    # Bright Blue (Folder)
+color_14: '#897645'    # Bright Magenta
+color_15: '#A17140'    # Bright Cyan
+color_16: '#C9CBAC'    # Bright White
+
+background: '#1C1A14'  # Background
+foreground: '#CACBB9'  # Foreground (Text)
+
+cursor: '#CACBB9'      # Cursor

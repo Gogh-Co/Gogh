@@ -1,0 +1,29 @@
+---
+name: 'Chalkby'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#2E3436'    # Black (Host)
+color_02: '#FFB0B0'    # Red (Syntax string)
+color_03: '#C8FF9B'    # Green (Command)
+color_04: '#FFFCA4'    # Yellow (Command second)
+color_05: '#6F9CEB'    # Blue (Path)
+color_06: '#9395D3'    # Magenta (Syntax var)
+color_07: '#BDEAFF'    # Cyan (Prompt)
+color_08: '#D3D7CF'    # White
+
+color_09: '#555753'    # Bright Black
+color_10: '#FFB0B0'    # Bright Red (Command error)
+color_11: '#C8FF9B'    # Bright Green (Exec)
+color_12: '#FFFCA4'    # Bright Yellow
+color_13: '#6F9CEB'    # Bright Blue (Folder)
+color_14: '#9395D3'    # Bright Magenta
+color_15: '#BDEAFF'    # Bright Cyan
+color_16: '#EEEEEC'    # Bright White
+
+background: '#1F2D2D'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

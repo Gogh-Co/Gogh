@@ -1,0 +1,29 @@
+---
+name: 'Tokyo City Light'
+author: 'Michaël Ball'
+author_name: 'Michaël Ball'
+author_url: ''
+variant: 'light'            # dark or light
+
+color_01: '#FBFBFD'    # Black (Host)
+color_02: '#8C4351'    # Red (Syntax string)
+color_03: '#485E30'    # Green (Command)
+color_04: '#4C505E'    # Yellow (Command second)
+color_05: '#34548A'    # Blue (Path)
+color_06: '#5A4A78'    # Magenta (Syntax var)
+color_07: '#4C505E'    # Cyan (Prompt)
+color_08: '#343B59'    # White
+
+color_09: '#9699A3'    # Bright Black
+color_10: '#8C4351'    # Bright Red (Command error)
+color_11: '#485E30'    # Bright Green (Exec)
+color_12: '#4C505E'    # Bright Yellow
+color_13: '#34548A'    # Bright Blue (Folder)
+color_14: '#5A4A78'    # Bright Magenta
+color_15: '#4C505E'    # Bright Cyan
+color_16: '#171D23'    # Bright White
+
+background: '#FBFBFD'  # Background
+foreground: '#343B59'  # Foreground (Text)
+
+cursor: '#343B59'      # Cursor

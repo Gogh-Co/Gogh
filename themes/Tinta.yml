@@ -1,0 +1,29 @@
+---
+name: 'Tinta'
+author: 'Teshre'
+author_name: 'Teshre'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#101012'    # Black (Host)
+color_02: '#D0726A'    # Red (Syntax string)
+color_03: '#9AA890'    # Green (Command)
+color_04: '#C8B86A'    # Yellow (Command second)
+color_05: '#8A9AB0'    # Blue (Path)
+color_06: '#B0A0B8'    # Magenta (Syntax var)
+color_07: '#80B8B4'    # Cyan (Prompt)
+color_08: '#D8D6D0'    # White
+
+color_09: '#62626A'    # Bright Black
+color_10: '#D0726A'    # Bright Red (Command error)
+color_11: '#9AA890'    # Bright Green (Exec)
+color_12: '#C8B86A'    # Bright Yellow
+color_13: '#8A9AB0'    # Bright Blue (Folder)
+color_14: '#B0A0B8'    # Bright Magenta
+color_15: '#80B8B4'    # Bright Cyan
+color_16: '#EEECE6'    # Bright White
+
+background: '#101012'  # Background
+foreground: '#D8D6D0'  # Foreground (Text)
+
+cursor: '#D8D6D0'      # Cursor

@@ -1,0 +1,29 @@
+---
+name: 'Dumbledore'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#2B283D'    # Black (Host)
+color_02: '#AE0000'    # Red (Syntax string)
+color_03: '#3E7C54'    # Green (Command)
+color_04: '#F0C75E'    # Yellow (Command second)
+color_05: '#415BAF'    # Blue (Path)
+color_06: '#9445AE'    # Magenta (Syntax var)
+color_07: '#008AFF'    # Cyan (Prompt)
+color_08: '#850000'    # White
+
+color_09: '#413E53'    # Bright Black
+color_10: '#D3A624'    # Bright Red (Command error)
+color_11: '#AAAAAA'    # Bright Green (Exec)
+color_12: '#716254'    # Bright Yellow
+color_13: '#946A2C'    # Bright Blue (Folder)
+color_14: '#B294BA'    # Bright Magenta
+color_15: '#25DE50'    # Bright Cyan
+color_16: '#C9C9C9'    # Bright White
+
+background: '#422553'  # Background
+foreground: '#C4C8C5'  # Foreground (Text)
+
+cursor: '#C4C8C5'      # Cursor

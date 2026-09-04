@@ -1,0 +1,29 @@
+---
+name: 'Bliss'
+author: 'Joshua Jon, Eric Johnson'
+author_name: 'Joshua Jon, Eric Johnson'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#FF6F8D'    # Red (Syntax string)
+color_03: '#93FF8D'    # Green (Command)
+color_04: '#FFFC9B'    # Yellow (Command second)
+color_05: '#A198FF'    # Blue (Path)
+color_06: '#FF95DF'    # Magenta (Syntax var)
+color_07: '#95DFFF'    # Cyan (Prompt)
+color_08: '#C7C7C7'    # White
+
+color_09: '#676767'    # Bright Black
+color_10: '#FF7894'    # Bright Red (Command error)
+color_11: '#9AFF95'    # Bright Green (Exec)
+color_12: '#FFFDA9'    # Bright Yellow
+color_13: '#AEA6FF'    # Bright Blue (Folder)
+color_14: '#FFA2E3'    # Bright Magenta
+color_15: '#A5DEF7'    # Bright Cyan
+color_16: '#FEFFFF'    # Bright White
+
+background: '#16181F'  # Background
+foreground: '#EAEAEA'  # Foreground (Text)
+
+cursor: '#EAEAEA'      # Cursor

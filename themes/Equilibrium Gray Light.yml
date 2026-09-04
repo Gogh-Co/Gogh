@@ -1,0 +1,29 @@
+---
+name: 'Equilibrium Gray Light'
+author: 'Carlo Abelli'
+author_name: 'Carlo Abelli'
+author_url: ''
+variant: 'light'            # dark or light
+
+color_01: '#F1F1F1'    # Black (Host)
+color_02: '#D02023'    # Red (Syntax string)
+color_03: '#637200'    # Green (Command)
+color_04: '#9D6F00'    # Yellow (Command second)
+color_05: '#0073B5'    # Blue (Path)
+color_06: '#4E66B6'    # Magenta (Syntax var)
+color_07: '#007A72'    # Cyan (Prompt)
+color_08: '#474747'    # White
+
+color_09: '#777777'    # Bright Black
+color_10: '#D02023'    # Bright Red (Command error)
+color_11: '#637200'    # Bright Green (Exec)
+color_12: '#9D6F00'    # Bright Yellow
+color_13: '#0073B5'    # Bright Blue (Folder)
+color_14: '#4E66B6'    # Bright Magenta
+color_15: '#007A72'    # Bright Cyan
+color_16: '#1B1B1B'    # Bright White
+
+background: '#F1F1F1'  # Background
+foreground: '#474747'  # Foreground (Text)
+
+cursor: '#474747'      # Cursor

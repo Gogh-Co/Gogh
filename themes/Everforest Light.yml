@@ -1,0 +1,29 @@
+---
+name: 'Everforest Light'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'light'            # dark or light
+
+color_01: '#5C6A72'    # Black (Host)
+color_02: '#F85552'    # Red (Syntax string)
+color_03: '#8DA101'    # Green (Command)
+color_04: '#DFA000'    # Yellow (Command second)
+color_05: '#3A94C5'    # Blue (Path)
+color_06: '#DF69BA'    # Magenta (Syntax var)
+color_07: '#35A77C'    # Cyan (Prompt)
+color_08: '#E0DCC7'    # White
+
+color_09: '#5C6A72'    # Bright Black
+color_10: '#F85552'    # Bright Red (Command error)
+color_11: '#8DA101'    # Bright Green (Exec)
+color_12: '#DFA000'    # Bright Yellow
+color_13: '#3A94C5'    # Bright Blue (Folder)
+color_14: '#DF69BA'    # Bright Magenta
+color_15: '#35A77C'    # Bright Cyan
+color_16: '#E0DCC7'    # Bright White
+
+background: '#FDF6E3'  # Background
+foreground: '#5C6A72'  # Foreground (Text)
+
+cursor: '#5C6A72'      # Cursor

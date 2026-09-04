@@ -1,0 +1,29 @@
+---
+name: 'Moonlight'
+author: 'Jeremy Swinarton (https://github.com/jswinarton)'
+author_name: 'Jeremy Swinarton'
+author_url: 'https://github.com/jswinarton'
+variant: 'dark'            # dark or light
+
+color_01: '#212337'    # Black (Host)
+color_02: '#FF5370'    # Red (Syntax string)
+color_03: '#2DF4C0'    # Green (Command)
+color_04: '#FFC777'    # Yellow (Command second)
+color_05: '#40FFFF'    # Blue (Path)
+color_06: '#B994F1'    # Magenta (Syntax var)
+color_07: '#04D1F9'    # Cyan (Prompt)
+color_08: '#A3ACE1'    # White
+
+color_09: '#748CD6'    # Bright Black
+color_10: '#FF5370'    # Bright Red (Command error)
+color_11: '#2DF4C0'    # Bright Green (Exec)
+color_12: '#FFC777'    # Bright Yellow
+color_13: '#40FFFF'    # Bright Blue (Folder)
+color_14: '#B994F1'    # Bright Magenta
+color_15: '#04D1F9'    # Bright Cyan
+color_16: '#EF43FA'    # Bright White
+
+background: '#212337'  # Background
+foreground: '#A3ACE1'  # Foreground (Text)
+
+cursor: '#A3ACE1'      # Cursor

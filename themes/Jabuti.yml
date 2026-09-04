@@ -1,0 +1,29 @@
+---
+name: 'Jabuti'
+author: 'Notusknot (https://github.com/notusknot)'
+author_name: 'Notusknot'
+author_url: 'https://github.com/notusknot'
+variant: 'dark'            # dark or light
+
+color_01: '#292A37'    # Black (Host)
+color_02: '#EC6A88'    # Red (Syntax string)
+color_03: '#3FDAA4'    # Green (Command)
+color_04: '#E1C697'    # Yellow (Command second)
+color_05: '#3FC6DE'    # Blue (Path)
+color_06: '#BE95FF'    # Magenta (Syntax var)
+color_07: '#FF7EB6'    # Cyan (Prompt)
+color_08: '#C0CBE3'    # White
+
+color_09: '#45475D'    # Bright Black
+color_10: '#EC6A88'    # Bright Red (Command error)
+color_11: '#3FDAA4'    # Bright Green (Exec)
+color_12: '#E1C697'    # Bright Yellow
+color_13: '#3FC6DE'    # Bright Blue (Folder)
+color_14: '#BE95FF'    # Bright Magenta
+color_15: '#FF7EB6'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#292A37'  # Background
+foreground: '#C0CBE3'  # Foreground (Text)
+
+cursor: '#C0CBE3'      # Cursor

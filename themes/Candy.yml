@@ -1,0 +1,29 @@
+---
+name: 'Candy'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#2E3436'    # Black (Host)
+color_02: '#FA2573'    # Red (Syntax string)
+color_03: '#A6E32D'    # Green (Command)
+color_04: '#FC951E'    # Yellow (Command second)
+color_05: '#C48DFF'    # Blue (Path)
+color_06: '#FA2573'    # Magenta (Syntax var)
+color_07: '#67D9F0'    # Cyan (Prompt)
+color_08: '#F2F2F2'    # White
+
+color_09: '#555753'    # Bright Black
+color_10: '#FA2573'    # Bright Red (Command error)
+color_11: '#8AE234'    # Bright Green (Exec)
+color_12: '#FCE94F'    # Bright Yellow
+color_13: '#729FCF'    # Bright Blue (Folder)
+color_14: '#FA2573'    # Bright Magenta
+color_15: '#34E2E2'    # Bright Cyan
+color_16: '#EEEEEC'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#AAAAAA'  # Foreground (Text)
+
+cursor: '#AAAAAA'      # Cursor

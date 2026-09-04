@@ -1,0 +1,29 @@
+---
+name: 'Summercamp'
+author: 'zoe firi (zoefiri.github.io)'
+author_name: 'zoe firi (zoefiri.github.io)'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#1C1810'    # Black (Host)
+color_02: '#E35142'    # Red (Syntax string)
+color_03: '#5CEB5A'    # Green (Command)
+color_04: '#F2FF27'    # Yellow (Command second)
+color_05: '#489BF0'    # Blue (Path)
+color_06: '#FF8080'    # Magenta (Syntax var)
+color_07: '#5AEBBC'    # Cyan (Prompt)
+color_08: '#736E55'    # White
+
+color_09: '#504B38'    # Bright Black
+color_10: '#E35142'    # Bright Red (Command error)
+color_11: '#5CEB5A'    # Bright Green (Exec)
+color_12: '#F2FF27'    # Bright Yellow
+color_13: '#489BF0'    # Bright Blue (Folder)
+color_14: '#FF8080'    # Bright Magenta
+color_15: '#5AEBBC'    # Bright Cyan
+color_16: '#F8F5DE'    # Bright White
+
+background: '#1C1810'  # Background
+foreground: '#736E55'  # Foreground (Text)
+
+cursor: '#736E55'      # Cursor

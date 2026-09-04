@@ -1,0 +1,29 @@
+---
+name: 'Sick'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#2E3436'    # Black (Host)
+color_02: '#F47375'    # Red (Syntax string)
+color_03: '#6BF1BE'    # Green (Command)
+color_04: '#E5F081'    # Yellow (Command second)
+color_05: '#6AA1FD'    # Blue (Path)
+color_06: '#C481FF'    # Magenta (Syntax var)
+color_07: '#6DE4FD'    # Cyan (Prompt)
+color_08: '#D3D7CF'    # White
+
+color_09: '#555753'    # Bright Black
+color_10: '#F47375'    # Bright Red (Command error)
+color_11: '#6BF1BE'    # Bright Green (Exec)
+color_12: '#E5F081'    # Bright Yellow
+color_13: '#6AA1FD'    # Bright Blue (Folder)
+color_14: '#C481FF'    # Bright Magenta
+color_15: '#6DE4FD'    # Bright Cyan
+color_16: '#EEEEEC'    # Bright White
+
+background: '#272935'  # Background
+foreground: '#AEAEB1'  # Foreground (Text)
+
+cursor: '#AEAEB1'      # Cursor

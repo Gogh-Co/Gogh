@@ -1,0 +1,29 @@
+---
+name: 'Gruvbox Material Light Hard'
+author: 'Mayush Kumar, sainnhe (https://github.com/MayushKumar)'
+author_name: 'Mayush Kumar, sainnhe'
+author_url: 'https://github.com/MayushKumar'
+variant: 'light'            # dark or light
+
+color_01: '#F9F5D7'    # Black (Host)
+color_02: '#C14A4A'    # Red (Syntax string)
+color_03: '#6C782E'    # Green (Command)
+color_04: '#B47109'    # Yellow (Command second)
+color_05: '#45707A'    # Blue (Path)
+color_06: '#945E80'    # Magenta (Syntax var)
+color_07: '#4C7A5D'    # Cyan (Prompt)
+color_08: '#654735'    # White
+
+color_09: '#A89984'    # Bright Black
+color_10: '#C14A4A'    # Bright Red (Command error)
+color_11: '#6C782E'    # Bright Green (Exec)
+color_12: '#B47109'    # Bright Yellow
+color_13: '#45707A'    # Bright Blue (Folder)
+color_14: '#945E80'    # Bright Magenta
+color_15: '#4C7A5D'    # Bright Cyan
+color_16: '#282828'    # Bright White
+
+background: '#F9F5D7'  # Background
+foreground: '#654735'  # Foreground (Text)
+
+cursor: '#654735'      # Cursor

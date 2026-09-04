@@ -1,0 +1,29 @@
+---
+name: 'Cupertino'
+author: 'Defman21'
+author_name: 'Defman21'
+author_url: ''
+variant: 'light'            # dark or light
+
+color_01: '#FFFFFF'    # Black (Host)
+color_02: '#C41A15'    # Red (Syntax string)
+color_03: '#007400'    # Green (Command)
+color_04: '#826B28'    # Yellow (Command second)
+color_05: '#0000FF'    # Blue (Path)
+color_06: '#A90D91'    # Magenta (Syntax var)
+color_07: '#318495'    # Cyan (Prompt)
+color_08: '#404040'    # White
+
+color_09: '#808080'    # Bright Black
+color_10: '#C41A15'    # Bright Red (Command error)
+color_11: '#007400'    # Bright Green (Exec)
+color_12: '#826B28'    # Bright Yellow
+color_13: '#0000FF'    # Bright Blue (Folder)
+color_14: '#A90D91'    # Bright Magenta
+color_15: '#318495'    # Bright Cyan
+color_16: '#5E5E5E'    # Bright White
+
+background: '#FFFFFF'  # Background
+foreground: '#404040'  # Foreground (Text)
+
+cursor: '#404040'      # Cursor

@@ -1,0 +1,29 @@
+---
+name: 'Aquarium Dark'
+author: 'Detective Pikachu'
+author_name: 'Detective Pikachu'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#3B3B4D'    # Black (Host)
+color_02: '#EBB9B9'    # Red (Syntax string)
+color_03: '#CAF6BB'    # Green (Command)
+color_04: '#E6DFB8'    # Yellow (Command second)
+color_05: '#CDDBF9'    # Blue (Path)
+color_06: '#F6BBE7'    # Magenta (Syntax var)
+color_07: '#B8DCEB'    # Cyan (Prompt)
+color_08: '#C8CEDC'    # White
+
+color_09: '#1B1B23'    # Bright Black
+color_10: '#D95E59'    # Bright Red (Command error)
+color_11: '#8FC587'    # Bright Green (Exec)
+color_12: '#FFCF85'    # Bright Yellow
+color_13: '#4A83C3'    # Bright Blue (Folder)
+color_14: '#BF83B5'    # Bright Magenta
+color_15: '#4EB3CD'    # Bright Cyan
+color_16: '#ABB2C2'    # Bright White
+
+background: '#20202A'  # Background
+foreground: '#C6D0E9'  # Foreground (Text)
+
+cursor: '#C6D0E9'      # Cursor

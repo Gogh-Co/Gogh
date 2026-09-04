@@ -1,0 +1,29 @@
+---
+name: 'Primer Dark'
+author: 'Jimmy Lin'
+author_name: 'Jimmy Lin'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#010409'    # Black (Host)
+color_02: '#FF7B72'    # Red (Syntax string)
+color_03: '#3FB950'    # Green (Command)
+color_04: '#D29922'    # Yellow (Command second)
+color_05: '#58A6FF'    # Blue (Path)
+color_06: '#F778BA'    # Magenta (Syntax var)
+color_07: '#A5D6FF'    # Cyan (Prompt)
+color_08: '#B1BAC4'    # White
+
+color_09: '#484F58'    # Bright Black
+color_10: '#FF7B72'    # Bright Red (Command error)
+color_11: '#3FB950'    # Bright Green (Exec)
+color_12: '#D29922'    # Bright Yellow
+color_13: '#58A6FF'    # Bright Blue (Folder)
+color_14: '#F778BA'    # Bright Magenta
+color_15: '#A5D6FF'    # Bright Cyan
+color_16: '#F0F6FC'    # Bright White
+
+background: '#010409'  # Background
+foreground: '#B1BAC4'  # Foreground (Text)
+
+cursor: '#B1BAC4'      # Cursor

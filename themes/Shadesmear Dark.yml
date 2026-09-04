@@ -1,0 +1,29 @@
+---
+name: 'Shadesmear Dark'
+author: 'Kyle Giammarco (http://kyle.giammar.co)'
+author_name: 'Kyle Giammarco'
+author_url: 'http://kyle.giammar.co'
+variant: 'dark'            # dark or light
+
+color_01: '#232323'    # Black (Host)
+color_02: '#CC5450'    # Red (Syntax string)
+color_03: '#71983B'    # Green (Command)
+color_04: '#307878'    # Yellow (Command second)
+color_05: '#376388'    # Blue (Path)
+color_06: '#D7AB54'    # Magenta (Syntax var)
+color_07: '#C57D42'    # Cyan (Prompt)
+color_08: '#DBDBDB'    # White
+
+color_09: '#C0C0C0'    # Bright Black
+color_10: '#CC5450'    # Bright Red (Command error)
+color_11: '#71983B'    # Bright Green (Exec)
+color_12: '#307878'    # Bright Yellow
+color_13: '#376388'    # Bright Blue (Folder)
+color_14: '#D7AB54'    # Bright Magenta
+color_15: '#C57D42'    # Bright Cyan
+color_16: '#1C1C1C'    # Bright White
+
+background: '#232323'  # Background
+foreground: '#DBDBDB'  # Foreground (Text)
+
+cursor: '#DBDBDB'      # Cursor

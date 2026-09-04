@@ -1,0 +1,29 @@
+---
+name: 'Tarot'
+author: 'ed (https://codeberg.org/ed)'
+author_name: 'ed'
+author_url: 'https://codeberg.org/ed'
+variant: 'dark'            # dark or light
+
+color_01: '#0E091D'    # Black (Host)
+color_02: '#C53253'    # Red (Syntax string)
+color_03: '#A68E5A'    # Green (Command)
+color_04: '#FF6565'    # Yellow (Command second)
+color_05: '#6E6080'    # Blue (Path)
+color_06: '#A45782'    # Magenta (Syntax var)
+color_07: '#8C9785'    # Cyan (Prompt)
+color_08: '#AA556F'    # White
+
+color_09: '#74316B'    # Bright Black
+color_10: '#C53253'    # Bright Red (Command error)
+color_11: '#A68E5A'    # Bright Green (Exec)
+color_12: '#FF6565'    # Bright Yellow
+color_13: '#6E6080'    # Bright Blue (Folder)
+color_14: '#A45782'    # Bright Magenta
+color_15: '#8C9785'    # Bright Cyan
+color_16: '#DC8F7C'    # Bright White
+
+background: '#0E091D'  # Background
+foreground: '#AA556F'  # Foreground (Text)
+
+cursor: '#AA556F'      # Cursor

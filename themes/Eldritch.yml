@@ -1,0 +1,29 @@
+---
+name: 'Eldritch'
+author: 'Eldritch Theme (https://github.com/eldritch-theme)'
+author_name: 'Eldritch Theme'
+author_url: 'https://github.com/eldritch-theme'
+variant: 'dark'            # dark or light
+
+color_01: '#212337'    # Black (Host)
+color_02: '#F16C75'    # Red (Syntax string)
+color_03: '#37F499'    # Green (Command)
+color_04: '#F1FC79'    # Yellow (Command second)
+color_05: '#39DDFD'    # Blue (Path)
+color_06: '#A48CF2'    # Magenta (Syntax var)
+color_07: '#04D1F9'    # Cyan (Prompt)
+color_08: '#EBFAFA'    # White
+
+color_09: '#7081D0'    # Bright Black
+color_10: '#F89A9D'    # Bright Red (Command error)
+color_11: '#6FFFC1'    # Bright Green (Exec)
+color_12: '#F9E9A1'    # Bright Yellow
+color_13: '#7AE9FF'    # Bright Blue (Folder)
+color_14: '#D4B3FF'    # Bright Magenta
+color_15: '#6CE9FF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#212337'  # Background
+foreground: '#EBFAFA'  # Foreground (Text)
+
+cursor: '#EBFAFA'      # Cursor

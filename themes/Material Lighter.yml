@@ -1,0 +1,29 @@
+---
+name: 'Material Lighter'
+author: 'Nate Peterson'
+author_name: 'Nate Peterson'
+author_url: ''
+variant: 'light'            # dark or light
+
+color_01: '#FAFAFA'    # Black (Host)
+color_02: '#FF5370'    # Red (Syntax string)
+color_03: '#91B859'    # Green (Command)
+color_04: '#FFB62C'    # Yellow (Command second)
+color_05: '#6182B8'    # Blue (Path)
+color_06: '#7C4DFF'    # Magenta (Syntax var)
+color_07: '#39ADB5'    # Cyan (Prompt)
+color_08: '#80CBC4'    # White
+
+color_09: '#CCD7DA'    # Bright Black
+color_10: '#FF5370'    # Bright Red (Command error)
+color_11: '#91B859'    # Bright Green (Exec)
+color_12: '#FFB62C'    # Bright Yellow
+color_13: '#6182B8'    # Bright Blue (Folder)
+color_14: '#7C4DFF'    # Bright Magenta
+color_15: '#39ADB5'    # Bright Cyan
+color_16: '#000000'    # Bright White
+
+background: '#FAFAFA'  # Background
+foreground: '#80CBC4'  # Foreground (Text)
+
+cursor: '#80CBC4'      # Cursor

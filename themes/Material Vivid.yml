@@ -1,0 +1,29 @@
+---
+name: 'Material Vivid'
+author: 'joshyrobot'
+author_name: 'joshyrobot'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#202124'    # Black (Host)
+color_02: '#F44336'    # Red (Syntax string)
+color_03: '#00E676'    # Green (Command)
+color_04: '#FFEB3B'    # Yellow (Command second)
+color_05: '#2196F3'    # Blue (Path)
+color_06: '#673AB7'    # Magenta (Syntax var)
+color_07: '#00BCD4'    # Cyan (Prompt)
+color_08: '#80868B'    # White
+
+color_09: '#44464D'    # Bright Black
+color_10: '#F44336'    # Bright Red (Command error)
+color_11: '#00E676'    # Bright Green (Exec)
+color_12: '#FFEB3B'    # Bright Yellow
+color_13: '#2196F3'    # Bright Blue (Folder)
+color_14: '#673AB7'    # Bright Magenta
+color_15: '#00BCD4'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#202124'  # Background
+foreground: '#80868B'  # Foreground (Text)
+
+cursor: '#80868B'      # Cursor

@@ -1,0 +1,29 @@
+---
+name: 'Goa Base'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#880041'    # Black (Host)
+color_02: '#F78000'    # Red (Syntax string)
+color_03: '#249000'    # Green (Command)
+color_04: '#F40000'    # Yellow (Command second)
+color_05: '#000482'    # Blue (Path)
+color_06: '#F43BFF'    # Magenta (Syntax var)
+color_07: '#3AFFFF'    # Cyan (Prompt)
+color_08: '#000000'    # White
+
+color_09: '#411A6D'    # Bright Black
+color_10: '#F800E1'    # Bright Red (Command error)
+color_11: '#5743FF'    # Bright Green (Exec)
+color_12: '#EA00D7'    # Bright Yellow
+color_13: '#B90003'    # Bright Blue (Folder)
+color_14: '#9A5952'    # Bright Magenta
+color_15: '#C8F9F3'    # Bright Cyan
+color_16: '#F5F4FB'    # Bright White
+
+background: '#2F0033'  # Background
+foreground: '#F6ED00'  # Foreground (Text)
+
+cursor: '#F6ED00'      # Cursor

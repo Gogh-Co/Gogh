@@ -1,0 +1,29 @@
+---
+name: 'Solarized Osaka Dark'
+author: 'Folke Lemaitre'
+author_name: 'Folke Lemaitre'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#001014'    # Black (Host)
+color_02: '#DB302D'    # Red (Syntax string)
+color_03: '#849900'    # Green (Command)
+color_04: '#B28500'    # Yellow (Command second)
+color_05: '#268BD3'    # Blue (Path)
+color_06: '#D23681'    # Magenta (Syntax var)
+color_07: '#29A298'    # Cyan (Prompt)
+color_08: '#839395'    # White
+
+color_09: '#576D74'    # Bright Black
+color_10: '#DB302D'    # Bright Red (Command error)
+color_11: '#849900'    # Bright Green (Exec)
+color_12: '#B28500'    # Bright Yellow
+color_13: '#268BD3'    # Bright Blue (Folder)
+color_14: '#D23681'    # Bright Magenta
+color_15: '#29A298'    # Bright Cyan
+color_16: '#839395'    # Bright White
+
+background: '#001419'  # Background
+foreground: '#839395'  # Foreground (Text)
+
+cursor: '#839395'      # Cursor

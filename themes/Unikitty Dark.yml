@@ -1,0 +1,29 @@
+---
+name: 'Unikitty Dark'
+author: 'Josh W Lewis (@joshwlewis)'
+author_name: 'Josh W Lewis (@joshwlewis)'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#2E2A31'    # Black (Host)
+color_02: '#D8137F'    # Red (Syntax string)
+color_03: '#17AD98'    # Green (Command)
+color_04: '#DC8A0E'    # Yellow (Command second)
+color_05: '#796AF5'    # Blue (Path)
+color_06: '#BB60EA'    # Magenta (Syntax var)
+color_07: '#149BDA'    # Cyan (Prompt)
+color_08: '#BCBABE'    # White
+
+color_09: '#838085'    # Bright Black
+color_10: '#D8137F'    # Bright Red (Command error)
+color_11: '#17AD98'    # Bright Green (Exec)
+color_12: '#DC8A0E'    # Bright Yellow
+color_13: '#796AF5'    # Bright Blue (Folder)
+color_14: '#BB60EA'    # Bright Magenta
+color_15: '#149BDA'    # Bright Cyan
+color_16: '#F5F4F7'    # Bright White
+
+background: '#2E2A31'  # Background
+foreground: '#BCBABE'  # Foreground (Text)
+
+cursor: '#BCBABE'      # Cursor

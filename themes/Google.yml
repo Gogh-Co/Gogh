@@ -1,0 +1,29 @@
+---
+name: 'Google'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#1D1F21'    # Black (Host)
+color_02: '#CC342B'    # Red (Syntax string)
+color_03: '#198844'    # Green (Command)
+color_04: '#FBA922'    # Yellow (Command second)
+color_05: '#3971ED'    # Blue (Path)
+color_06: '#A36AC7'    # Magenta (Syntax var)
+color_07: '#3971ED'    # Cyan (Prompt)
+color_08: '#C5C8C6'    # White
+
+color_09: '#969896'    # Bright Black
+color_10: '#CC342B'    # Bright Red (Command error)
+color_11: '#198844'    # Bright Green (Exec)
+color_12: '#FBA922'    # Bright Yellow
+color_13: '#3971ED'    # Bright Blue (Folder)
+color_14: '#A36AC7'    # Bright Magenta
+color_15: '#3971ED'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#1D1F21'  # Background
+foreground: '#C5C8C6'  # Foreground (Text)
+
+cursor: '#C5C8C6'      # Cursor

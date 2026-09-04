@@ -1,0 +1,29 @@
+---
+name: 'Purpurite'
+author: 'Ehan Ahamed and contributors'
+author_name: 'Ehan Ahamed and contributors'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#1F2533'    # Black (Host)
+color_02: '#FF6666'    # Red (Syntax string)
+color_03: '#99FF99'    # Green (Command)
+color_04: '#FF9966'    # Yellow (Command second)
+color_05: '#99BBFF'    # Blue (Path)
+color_06: '#FF99DD'    # Magenta (Syntax var)
+color_07: '#99DDFF'    # Cyan (Prompt)
+color_08: '#CCDDFF'    # White
+
+color_09: '#3D4B66'    # Bright Black
+color_10: '#FF9999'    # Bright Red (Command error)
+color_11: '#99FFDD'    # Bright Green (Exec)
+color_12: '#FFCC66'    # Bright Yellow
+color_13: '#CCDDFF'    # Bright Blue (Folder)
+color_14: '#9999FF'    # Bright Magenta
+color_15: '#CCEEFF'    # Bright Cyan
+color_16: '#99FFDD'    # Bright White
+
+background: '#1F2533'  # Background
+foreground: '#CCDDFF'  # Foreground (Text)
+
+cursor: '#CCDDFF'      # Cursor

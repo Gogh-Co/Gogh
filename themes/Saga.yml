@@ -1,0 +1,29 @@
+---
+name: 'Saga'
+author: 'Saga (https://github.com/SAGAtheme/SAGA)'
+author_name: 'Saga'
+author_url: 'https://github.com/SAGAtheme/SAGA'
+variant: 'dark'            # dark or light
+
+color_01: '#05080A'    # Black (Host)
+color_02: '#FFD4E9'    # Red (Syntax string)
+color_03: '#F7DDFF'    # Green (Command)
+color_04: '#FBEBC8'    # Yellow (Command second)
+color_05: '#C9FFF7'    # Blue (Path)
+color_06: '#DCC3F9'    # Magenta (Syntax var)
+color_07: '#C5EDC1'    # Cyan (Prompt)
+color_08: '#DCE2F7'    # White
+
+color_09: '#141F27'    # Bright Black
+color_10: '#FFD4E9'    # Bright Red (Command error)
+color_11: '#F7DDFF'    # Bright Green (Exec)
+color_12: '#FBEBC8'    # Bright Yellow
+color_13: '#C9FFF7'    # Bright Blue (Folder)
+color_14: '#DCC3F9'    # Bright Magenta
+color_15: '#C5EDC1'    # Bright Cyan
+color_16: '#CCD3FE'    # Bright White
+
+background: '#05080A'  # Background
+foreground: '#DCE2F7'  # Foreground (Text)
+
+cursor: '#DCE2F7'      # Cursor

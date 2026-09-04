@@ -1,0 +1,29 @@
+---
+name: 'Grayscale Dark'
+author: 'Alexandre Gavioli (https://github.com/Alexx2/)'
+author_name: 'Alexandre Gavioli'
+author_url: 'https://github.com/Alexx2/'
+variant: 'dark'            # dark or light
+
+color_01: '#101010'    # Black (Host)
+color_02: '#7C7C7C'    # Red (Syntax string)
+color_03: '#8E8E8E'    # Green (Command)
+color_04: '#A0A0A0'    # Yellow (Command second)
+color_05: '#686868'    # Blue (Path)
+color_06: '#747474'    # Magenta (Syntax var)
+color_07: '#868686'    # Cyan (Prompt)
+color_08: '#B9B9B9'    # White
+
+color_09: '#525252'    # Bright Black
+color_10: '#7C7C7C'    # Bright Red (Command error)
+color_11: '#8E8E8E'    # Bright Green (Exec)
+color_12: '#A0A0A0'    # Bright Yellow
+color_13: '#686868'    # Bright Blue (Folder)
+color_14: '#747474'    # Bright Magenta
+color_15: '#868686'    # Bright Cyan
+color_16: '#F7F7F7'    # Bright White
+
+background: '#101010'  # Background
+foreground: '#B9B9B9'  # Foreground (Text)
+
+cursor: '#B9B9B9'      # Cursor

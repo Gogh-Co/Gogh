@@ -1,0 +1,29 @@
+---
+name: 'Helios'
+author: 'Alex Meyer (https://github.com/reyemxela)'
+author_name: 'Alex Meyer'
+author_url: 'https://github.com/reyemxela'
+variant: 'dark'            # dark or light
+
+color_01: '#1D2021'    # Black (Host)
+color_02: '#D72638'    # Red (Syntax string)
+color_03: '#88B92D'    # Green (Command)
+color_04: '#F19D1A'    # Yellow (Command second)
+color_05: '#1E8BAC'    # Blue (Path)
+color_06: '#BE4264'    # Magenta (Syntax var)
+color_07: '#1BA595'    # Cyan (Prompt)
+color_08: '#D5D5D5'    # White
+
+color_09: '#6F7579'    # Bright Black
+color_10: '#D72638'    # Bright Red (Command error)
+color_11: '#88B92D'    # Bright Green (Exec)
+color_12: '#F19D1A'    # Bright Yellow
+color_13: '#1E8BAC'    # Bright Blue (Folder)
+color_14: '#BE4264'    # Bright Magenta
+color_15: '#1BA595'    # Bright Cyan
+color_16: '#E5E5E5'    # Bright White
+
+background: '#1D2021'  # Background
+foreground: '#D5D5D5'  # Foreground (Text)
+
+cursor: '#D5D5D5'      # Cursor

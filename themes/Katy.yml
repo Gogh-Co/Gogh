@@ -1,0 +1,29 @@
+---
+name: 'Katy'
+author: 'George Essig (https://github.com/gessig)'
+author_name: 'George Essig'
+author_url: 'https://github.com/gessig'
+variant: 'dark'            # dark or light
+
+color_01: '#292D3E'    # Black (Host)
+color_02: '#6E98E1'    # Red (Syntax string)
+color_03: '#78C06E'    # Green (Command)
+color_04: '#E0A557'    # Yellow (Command second)
+color_05: '#82AAFF'    # Blue (Path)
+color_06: '#C792EA'    # Magenta (Syntax var)
+color_07: '#83B7E5'    # Cyan (Prompt)
+color_08: '#959DCB'    # White
+
+color_09: '#676E95'    # Bright Black
+color_10: '#6E98E1'    # Bright Red (Command error)
+color_11: '#78C06E'    # Bright Green (Exec)
+color_12: '#E0A557'    # Bright Yellow
+color_13: '#82AAFF'    # Bright Blue (Folder)
+color_14: '#C792EA'    # Bright Magenta
+color_15: '#83B7E5'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#292D3E'  # Background
+foreground: '#959DCB'  # Foreground (Text)
+
+cursor: '#959DCB'      # Cursor

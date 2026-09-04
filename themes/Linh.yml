@@ -1,0 +1,29 @@
+---
+name: 'Linh'
+author: 'cungun (https://github.com/cungun)'
+author_name: 'cungun'
+author_url: 'https://github.com/cungun'
+variant: 'dark'            # dark or light
+
+color_01: '#555555'    # Black (Host)
+color_02: '#C56360'    # Red (Syntax string)
+color_03: '#599B5C'    # Green (Command)
+color_04: '#B2B05B'    # Yellow (Command second)
+color_05: '#B26CB7'    # Blue (Path)
+color_06: '#7D7EB3'    # Magenta (Syntax var)
+color_07: '#50BBBC'    # Cyan (Prompt)
+color_08: '#D6D6D6'    # White
+
+color_09: '#717171'    # Bright Black
+color_10: '#E95752'    # Bright Red (Command error)
+color_11: '#49AE4D'    # Bright Green (Exec)
+color_12: '#D8D54F'    # Bright Yellow
+color_13: '#CE70D4'    # Bright Blue (Folder)
+color_14: '#7374CA'    # Bright Magenta
+color_15: '#57DCDD'    # Bright Cyan
+color_16: '#F3F4F4'    # Bright White
+
+background: '#232323'  # Background
+foreground: '#6EBEFE'  # Foreground (Text)
+
+cursor: '#6EBEFE'      # Cursor

@@ -1,0 +1,29 @@
+---
+name: 'Xcode Dusk'
+author: 'Elsa Gonsiorowski (https://github.com/gonsie)'
+author_name: 'Elsa Gonsiorowski'
+author_url: 'https://github.com/gonsie'
+variant: 'dark'            # dark or light
+
+color_01: '#282B35'    # Black (Host)
+color_02: '#B21889'    # Red (Syntax string)
+color_03: '#DF0002'    # Green (Command)
+color_04: '#438288'    # Yellow (Command second)
+color_05: '#790EAD'    # Blue (Path)
+color_06: '#B21889'    # Magenta (Syntax var)
+color_07: '#00A0BE'    # Cyan (Prompt)
+color_08: '#939599'    # White
+
+color_09: '#686A71'    # Bright Black
+color_10: '#B21889'    # Bright Red (Command error)
+color_11: '#DF0002'    # Bright Green (Exec)
+color_12: '#438288'    # Bright Yellow
+color_13: '#790EAD'    # Bright Blue (Folder)
+color_14: '#B21889'    # Bright Magenta
+color_15: '#00A0BE'    # Bright Cyan
+color_16: '#BEBFC2'    # Bright White
+
+background: '#282B35'  # Background
+foreground: '#939599'  # Foreground (Text)
+
+cursor: '#939599'      # Cursor

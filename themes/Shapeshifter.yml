@@ -1,0 +1,29 @@
+---
+name: 'Shapeshifter'
+author: 'Tyler Benziger (http://tybenz.com)'
+author_name: 'Tyler Benziger'
+author_url: 'http://tybenz.com'
+variant: 'light'            # dark or light
+
+color_01: '#F9F9F9'    # Black (Host)
+color_02: '#E92F2F'    # Red (Syntax string)
+color_03: '#0ED839'    # Green (Command)
+color_04: '#DDDD13'    # Yellow (Command second)
+color_05: '#3B48E3'    # Blue (Path)
+color_06: '#F996E2'    # Magenta (Syntax var)
+color_07: '#23EDDA'    # Cyan (Prompt)
+color_08: '#102015'    # White
+
+color_09: '#555555'    # Bright Black
+color_10: '#E92F2F'    # Bright Red (Command error)
+color_11: '#0ED839'    # Bright Green (Exec)
+color_12: '#DDDD13'    # Bright Yellow
+color_13: '#3B48E3'    # Bright Blue (Folder)
+color_14: '#F996E2'    # Bright Magenta
+color_15: '#23EDDA'    # Bright Cyan
+color_16: '#000000'    # Bright White
+
+background: '#F9F9F9'  # Background
+foreground: '#102015'  # Foreground (Text)
+
+cursor: '#102015'      # Cursor

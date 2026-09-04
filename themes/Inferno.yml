@@ -1,0 +1,29 @@
+---
+name: 'Inferno'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#330000'    # Black (Host)
+color_02: '#FF3300'    # Red (Syntax string)
+color_03: '#FF6600'    # Green (Command)
+color_04: '#FF9900'    # Yellow (Command second)
+color_05: '#FFCC00'    # Blue (Path)
+color_06: '#FF6600'    # Magenta (Syntax var)
+color_07: '#FF9900'    # Cyan (Prompt)
+color_08: '#D9D9D9'    # White
+
+color_09: '#663300'    # Bright Black
+color_10: '#FF6633'    # Bright Red (Command error)
+color_11: '#FF9966'    # Bright Green (Exec)
+color_12: '#FFCC99'    # Bright Yellow
+color_13: '#FFCC33'    # Bright Blue (Folder)
+color_14: '#FF9966'    # Bright Magenta
+color_15: '#FFCC99'    # Bright Cyan
+color_16: '#D9D9D9'    # Bright White
+
+background: '#270D06'  # Background
+foreground: '#D9D9D9'  # Foreground (Text)
+
+cursor: '#D9D9D9'      # Cursor

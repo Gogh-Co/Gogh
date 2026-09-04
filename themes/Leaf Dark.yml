@@ -1,0 +1,29 @@
+---
+name: 'Leaf Dark'
+author: 'qewer33, brought to kitty by KodiakWeb'
+author_name: 'qewer33, brought to kitty by KodiakWeb'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#2E2C2F'    # Black (Host)
+color_02: '#BA5860'    # Red (Syntax string)
+color_03: '#729B79'    # Green (Command)
+color_04: '#CCAA6C'    # Yellow (Command second)
+color_05: '#5292C6'    # Blue (Path)
+color_06: '#8C6AA8'    # Magenta (Syntax var)
+color_07: '#489CA5'    # Cyan (Prompt)
+color_08: '#E1E4DC'    # White
+
+color_09: '#403F42'    # Bright Black
+color_10: '#D6797A'    # Bright Red (Command error)
+color_11: '#98CCA4'    # Bright Green (Exec)
+color_12: '#E3C882'    # Bright Yellow
+color_13: '#76ACE6'    # Bright Blue (Folder)
+color_14: '#B798E6'    # Bright Magenta
+color_15: '#77C5DA'    # Bright Cyan
+color_16: '#FCFFF6'    # Bright White
+
+background: '#2E2C2F'  # Background
+foreground: '#E1E4DC'  # Foreground (Text)
+
+cursor: '#E1E4DC'      # Cursor

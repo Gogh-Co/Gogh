@@ -1,0 +1,29 @@
+---
+name: 'Macintosh'
+author: 'Rebecca Bettencourt (http://www.kreativekorp.com)'
+author_name: 'Rebecca Bettencourt'
+author_url: 'http://www.kreativekorp.com'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#DD0907'    # Red (Syntax string)
+color_03: '#1FB714'    # Green (Command)
+color_04: '#FBF305'    # Yellow (Command second)
+color_05: '#0000D3'    # Blue (Path)
+color_06: '#4700A5'    # Magenta (Syntax var)
+color_07: '#02ABEA'    # Cyan (Prompt)
+color_08: '#C0C0C0'    # White
+
+color_09: '#808080'    # Bright Black
+color_10: '#DD0907'    # Bright Red (Command error)
+color_11: '#1FB714'    # Bright Green (Exec)
+color_12: '#FBF305'    # Bright Yellow
+color_13: '#0000D3'    # Bright Blue (Folder)
+color_14: '#4700A5'    # Bright Magenta
+color_15: '#02ABEA'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#C0C0C0'  # Foreground (Text)
+
+cursor: '#C0C0C0'      # Cursor

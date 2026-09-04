@@ -1,0 +1,29 @@
+---
+name: 'Detroit Become Human'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#928C80'    # Black (Host)
+color_02: '#DD563E'    # Red (Syntax string)
+color_03: '#78E05E'    # Green (Command)
+color_04: '#F9FF4C'    # Yellow (Command second)
+color_05: '#78D6F2'    # Blue (Path)
+color_06: '#565BBC'    # Magenta (Syntax var)
+color_07: '#BCE5D2'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#A0A0A0'    # Bright Black
+color_10: '#DF806E'    # Bright Red (Command error)
+color_11: '#B9E293'    # Bright Green (Exec)
+color_12: '#E2D07A'    # Bright Yellow
+color_13: '#6DDDF1'    # Bright Blue (Folder)
+color_14: '#6369DB'    # Bright Magenta
+color_15: '#90E6BF'    # Bright Cyan
+color_16: '#FBFCFF'    # Bright White
+
+background: '#1A1A18'  # Background
+foreground: '#6AE4F1'  # Foreground (Text)
+
+cursor: '#6AE4F1'      # Cursor

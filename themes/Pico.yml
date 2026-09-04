@@ -1,0 +1,29 @@
+---
+name: 'Pico'
+author: 'PICO-8 (http://www.lexaloffle.com/pico-8.php)'
+author_name: 'PICO-8'
+author_url: 'http://www.lexaloffle.com/pico-8.php'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#FF004D'    # Red (Syntax string)
+color_03: '#00E756'    # Green (Command)
+color_04: '#FFF024'    # Yellow (Command second)
+color_05: '#83769C'    # Blue (Path)
+color_06: '#FF77A8'    # Magenta (Syntax var)
+color_07: '#29ADFF'    # Cyan (Prompt)
+color_08: '#5F574F'    # White
+
+color_09: '#008751'    # Bright Black
+color_10: '#FF004D'    # Bright Red (Command error)
+color_11: '#00E756'    # Bright Green (Exec)
+color_12: '#FFF024'    # Bright Yellow
+color_13: '#83769C'    # Bright Blue (Folder)
+color_14: '#FF77A8'    # Bright Magenta
+color_15: '#29ADFF'    # Bright Cyan
+color_16: '#FFF1E8'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#5F574F'  # Foreground (Text)
+
+cursor: '#5F574F'      # Cursor

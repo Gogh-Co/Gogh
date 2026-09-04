@@ -1,0 +1,29 @@
+---
+name: 'Pastelon De Amarillos Dark'
+author: 'Richard Martinez (https://sonofmartinus.com)'
+author_name: 'Richard Martinez'
+author_url: 'https://sonofmartinus.com'
+variant: 'dark'            # dark or light
+
+color_01: '#180D18'    # Black (Host)
+color_02: '#D95361'    # Red (Syntax string)
+color_03: '#36AA72'    # Green (Command)
+color_04: '#D8A93A'    # Yellow (Command second)
+color_05: '#4C84BD'    # Blue (Path)
+color_06: '#B765B0'    # Magenta (Syntax var)
+color_07: '#31A99E'    # Cyan (Prompt)
+color_08: '#FFE0A3'    # White
+
+color_09: '#A0747C'    # Bright Black
+color_10: '#FFD052'    # Bright Red (Command error)
+color_11: '#3ED2C3'    # Bright Green (Exec)
+color_12: '#43D98D'    # Bright Yellow
+color_13: '#E581DC'    # Bright Blue (Folder)
+color_14: '#ED7D51'    # Bright Magenta
+color_15: '#64ABF4'    # Bright Cyan
+color_16: '#FFF7E6'    # Bright White
+
+background: '#180D18'  # Background
+foreground: '#FFE0A3'  # Foreground (Text)
+
+cursor: '#FFE0A3'      # Cursor

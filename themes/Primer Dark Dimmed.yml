@@ -1,0 +1,29 @@
+---
+name: 'Primer Dark Dimmed'
+author: 'Jimmy Lin'
+author_name: 'Jimmy Lin'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#1C2128'    # Black (Host)
+color_02: '#F47067'    # Red (Syntax string)
+color_03: '#57AB5A'    # Green (Command)
+color_04: '#C69026'    # Yellow (Command second)
+color_05: '#539BF5'    # Blue (Path)
+color_06: '#E275AD'    # Magenta (Syntax var)
+color_07: '#96D0FF'    # Cyan (Prompt)
+color_08: '#909DAB'    # White
+
+color_09: '#545D68'    # Bright Black
+color_10: '#F47067'    # Bright Red (Command error)
+color_11: '#57AB5A'    # Bright Green (Exec)
+color_12: '#C69026'    # Bright Yellow
+color_13: '#539BF5'    # Bright Blue (Folder)
+color_14: '#E275AD'    # Bright Magenta
+color_15: '#96D0FF'    # Bright Cyan
+color_16: '#CDD9E5'    # Bright White
+
+background: '#1C2128'  # Background
+foreground: '#909DAB'  # Foreground (Text)
+
+cursor: '#909DAB'      # Cursor

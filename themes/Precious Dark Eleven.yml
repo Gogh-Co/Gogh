@@ -1,0 +1,29 @@
+---
+name: 'Precious Dark Eleven'
+author: '4lex4'
+author_name: '4lex4'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#1C1E20'    # Black (Host)
+color_02: '#FF8782'    # Red (Syntax string)
+color_03: '#95B658'    # Green (Command)
+color_04: '#D0A543'    # Yellow (Command second)
+color_05: '#68B0EE'    # Blue (Path)
+color_06: '#B799FE'    # Magenta (Syntax var)
+color_07: '#42BDA7'    # Cyan (Prompt)
+color_08: '#B8B7B6'    # White
+
+color_09: '#858585'    # Bright Black
+color_10: '#FF8782'    # Bright Red (Command error)
+color_11: '#95B658'    # Bright Green (Exec)
+color_12: '#D0A543'    # Bright Yellow
+color_13: '#68B0EE'    # Bright Blue (Folder)
+color_14: '#B799FE'    # Bright Magenta
+color_15: '#42BDA7'    # Bright Cyan
+color_16: '#B8B7B6'    # Bright White
+
+background: '#1C1E20'  # Background
+foreground: '#B8B7B6'  # Foreground (Text)
+
+cursor: '#B8B7B6'      # Cursor

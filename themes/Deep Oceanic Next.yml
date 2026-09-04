@@ -1,0 +1,29 @@
+---
+name: 'Deep Oceanic Next'
+author: 'spearkkk (https://github.com/spearkkk)'
+author_name: 'spearkkk'
+author_url: 'https://github.com/spearkkk'
+variant: 'dark'            # dark or light
+
+color_01: '#001C1F'    # Black (Host)
+color_02: '#D3464D'    # Red (Syntax string)
+color_03: '#63B784'    # Green (Command)
+color_04: '#F3B863'    # Yellow (Command second)
+color_05: '#568CCF'    # Blue (Path)
+color_06: '#8B66D6'    # Magenta (Syntax var)
+color_07: '#4FB7AE'    # Cyan (Prompt)
+color_08: '#D4E1E8'    # White
+
+color_09: '#004852'    # Bright Black
+color_10: '#FF6670'    # Bright Red (Command error)
+color_11: '#72E1A6'    # Bright Green (Exec)
+color_12: '#FFE08A'    # Bright Yellow
+color_13: '#5CAEFF'    # Bright Blue (Folder)
+color_14: '#B788FF'    # Bright Magenta
+color_15: '#4DE3E3'    # Bright Cyan
+color_16: '#F2F7F9'    # Bright White
+
+background: '#001C1F'  # Background
+foreground: '#D4E1E8'  # Foreground (Text)
+
+cursor: '#D4E1E8'      # Cursor

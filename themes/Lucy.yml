@@ -1,0 +1,29 @@
+---
+name: 'Lucy'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#2E3436'    # Black (Host)
+color_02: '#FB7DA7'    # Red (Syntax string)
+color_03: '#76C5A4'    # Green (Command)
+color_04: '#E8D56D'    # Yellow (Command second)
+color_05: '#3465A4'    # Blue (Path)
+color_06: '#AF98E6'    # Magenta (Syntax var)
+color_07: '#56C9DB'    # Cyan (Prompt)
+color_08: '#D3D7CF'    # White
+
+color_09: '#555753'    # Bright Black
+color_10: '#FB7DA7'    # Bright Red (Command error)
+color_11: '#76C5A4'    # Bright Green (Exec)
+color_12: '#E8D56D'    # Bright Yellow
+color_13: '#729FCF'    # Bright Blue (Folder)
+color_14: '#AF98E6'    # Bright Magenta
+color_15: '#56C9DB'    # Bright Cyan
+color_16: '#EEEEEC'    # Bright White
+
+background: '#1A1B23'  # Background
+foreground: '#96979B'  # Foreground (Text)
+
+cursor: '#96979B'      # Cursor

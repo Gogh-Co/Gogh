@@ -1,0 +1,29 @@
+---
+name: 'Wizzy Muted'
+author: 'erin'
+author_name: 'erin'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#444444'    # Black (Host)
+color_02: '#9D5776'    # Red (Syntax string)
+color_03: '#398484'    # Green (Command)
+color_04: '#6B6B88'    # Yellow (Command second)
+color_05: '#4A6684'    # Blue (Path)
+color_06: '#6F579D'    # Magenta (Syntax var)
+color_07: '#42769D'    # Cyan (Prompt)
+color_08: '#9AADB2'    # White
+
+color_09: '#4E4E4E'    # Bright Black
+color_10: '#CF5E91'    # Bright Red (Command error)
+color_11: '#64B7B7'    # Bright Green (Exec)
+color_12: '#8D8DBA'    # Bright Yellow
+color_13: '#588BC4'    # Bright Blue (Folder)
+color_14: '#8F73C4'    # Bright Magenta
+color_15: '#71A7CF'    # Bright Cyan
+color_16: '#D1D1D1'    # Bright White
+
+background: '#100814'  # Background
+foreground: '#B2B8C4'  # Foreground (Text)
+
+cursor: '#B2B8C4'      # Cursor

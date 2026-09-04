@@ -1,0 +1,29 @@
+---
+name: 'Brewer'
+author: 'Timothée Poisot (http://github.com/tpoisot)'
+author_name: 'Timothée Poisot'
+author_url: 'http://github.com/tpoisot'
+variant: 'dark'            # dark or light
+
+color_01: '#0C0D0E'    # Black (Host)
+color_02: '#E31A1C'    # Red (Syntax string)
+color_03: '#31A354'    # Green (Command)
+color_04: '#DCA060'    # Yellow (Command second)
+color_05: '#3182BD'    # Blue (Path)
+color_06: '#756BB1'    # Magenta (Syntax var)
+color_07: '#80B1D3'    # Cyan (Prompt)
+color_08: '#B7B8B9'    # White
+
+color_09: '#737475'    # Bright Black
+color_10: '#E31A1C'    # Bright Red (Command error)
+color_11: '#31A354'    # Bright Green (Exec)
+color_12: '#DCA060'    # Bright Yellow
+color_13: '#3182BD'    # Bright Blue (Folder)
+color_14: '#756BB1'    # Bright Magenta
+color_15: '#80B1D3'    # Bright Cyan
+color_16: '#FCFDFE'    # Bright White
+
+background: '#0C0D0E'  # Background
+foreground: '#B7B8B9'  # Foreground (Text)
+
+cursor: '#B7B8B9'      # Cursor

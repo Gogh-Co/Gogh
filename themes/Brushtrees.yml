@@ -1,0 +1,29 @@
+---
+name: 'Brushtrees'
+author: 'Abraham White'
+author_name: 'Abraham White'
+author_url: ''
+variant: 'light'            # dark or light
+
+color_01: '#E3EFEF'    # Black (Host)
+color_02: '#B38686'    # Red (Syntax string)
+color_03: '#87B386'    # Green (Command)
+color_04: '#AAB386'    # Yellow (Command second)
+color_05: '#868CB3'    # Blue (Path)
+color_06: '#B386B2'    # Magenta (Syntax var)
+color_07: '#86B3B3'    # Cyan (Prompt)
+color_08: '#6D828E'    # White
+
+color_09: '#98AFB5'    # Bright Black
+color_10: '#B38686'    # Bright Red (Command error)
+color_11: '#87B386'    # Bright Green (Exec)
+color_12: '#AAB386'    # Bright Yellow
+color_13: '#868CB3'    # Bright Blue (Folder)
+color_14: '#B386B2'    # Bright Magenta
+color_15: '#86B3B3'    # Bright Cyan
+color_16: '#485867'    # Bright White
+
+background: '#E3EFEF'  # Background
+foreground: '#6D828E'  # Foreground (Text)
+
+cursor: '#6D828E'      # Cursor

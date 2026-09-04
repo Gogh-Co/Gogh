@@ -1,0 +1,29 @@
+---
+name: 'Precious Dark Fifteen'
+author: '4lex4'
+author_name: '4lex4'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#23262B'    # Black (Host)
+color_02: '#FF8782'    # Red (Syntax string)
+color_03: '#95B659'    # Green (Command)
+color_04: '#CFA546'    # Yellow (Command second)
+color_05: '#66B0EF'    # Blue (Path)
+color_06: '#B799FF'    # Magenta (Syntax var)
+color_07: '#42BDA7'    # Cyan (Prompt)
+color_08: '#BAB9B6'    # White
+
+color_09: '#898989'    # Bright Black
+color_10: '#FF8782'    # Bright Red (Command error)
+color_11: '#95B659'    # Bright Green (Exec)
+color_12: '#CFA546'    # Bright Yellow
+color_13: '#66B0EF'    # Bright Blue (Folder)
+color_14: '#B799FF'    # Bright Magenta
+color_15: '#42BDA7'    # Bright Cyan
+color_16: '#BAB9B6'    # Bright White
+
+background: '#23262B'  # Background
+foreground: '#BAB9B6'  # Foreground (Text)
+
+cursor: '#BAB9B6'      # Cursor

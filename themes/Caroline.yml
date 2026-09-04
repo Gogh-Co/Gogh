@@ -1,0 +1,29 @@
+---
+name: 'Caroline'
+author: 'ed (https://codeberg.org/ed)'
+author_name: 'ed'
+author_url: 'https://codeberg.org/ed'
+variant: 'dark'            # dark or light
+
+color_01: '#1C1213'    # Black (Host)
+color_02: '#C24F57'    # Red (Syntax string)
+color_03: '#806C61'    # Green (Command)
+color_04: '#F28171'    # Yellow (Command second)
+color_05: '#684C59'    # Blue (Path)
+color_06: '#A63650'    # Magenta (Syntax var)
+color_07: '#6B6566'    # Cyan (Prompt)
+color_08: '#A87569'    # White
+
+color_09: '#6D4745'    # Bright Black
+color_10: '#C24F57'    # Bright Red (Command error)
+color_11: '#806C61'    # Bright Green (Exec)
+color_12: '#F28171'    # Bright Yellow
+color_13: '#684C59'    # Bright Blue (Folder)
+color_14: '#A63650'    # Bright Magenta
+color_15: '#6B6566'    # Bright Cyan
+color_16: '#E3A68C'    # Bright White
+
+background: '#1C1213'  # Background
+foreground: '#A87569'  # Foreground (Text)
+
+cursor: '#A87569'      # Cursor

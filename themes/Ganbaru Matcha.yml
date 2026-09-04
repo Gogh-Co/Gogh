@@ -1,0 +1,29 @@
+---
+name: 'Ganbaru Matcha'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#17181D'    # Black (Host)
+color_02: '#E86081'    # Red (Syntax string)
+color_03: '#75C186'    # Green (Command)
+color_04: '#FFAF5D'    # Yellow (Command second)
+color_05: '#95BFF0'    # Blue (Path)
+color_06: '#B5A7EF'    # Magenta (Syntax var)
+color_07: '#54CEC4'    # Cyan (Prompt)
+color_08: '#7B8E95'    # White
+
+color_09: '#475254'    # Bright Black
+color_10: '#FF6D7E'    # Bright Red (Command error)
+color_11: '#B1C771'    # Bright Green (Exec)
+color_12: '#E5DE8C'    # Bright Yellow
+color_13: '#A7D9F1'    # Bright Blue (Folder)
+color_14: '#F3ACE2'    # Bright Magenta
+color_15: '#A9D9BD'    # Bright Cyan
+color_16: '#859298'    # Bright White
+
+background: '#17181D'  # Background
+foreground: '#E1E5EC'  # Foreground (Text)
+
+cursor: '#E1E5EC'      # Cursor

@@ -1,0 +1,29 @@
+---
+name: 'Wood'
+author: 'ed9w2in6'
+author_name: 'ed9w2in6'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#161616'    # Black (Host)
+color_02: '#D00016'    # Red (Syntax string)
+color_03: '#7BBB00'    # Green (Command)
+color_04: '#F5EC00'    # Yellow (Command second)
+color_05: '#6644CC'    # Blue (Path)
+color_06: '#9D1650'    # Magenta (Syntax var)
+color_07: '#55AAFF'    # Cyan (Prompt)
+color_08: '#C8CCCD'    # White
+
+color_09: '#7A7A7A'    # Bright Black
+color_10: '#FF6481'    # Bright Red (Command error)
+color_11: '#BDE271'    # Bright Green (Exec)
+color_12: '#EEEE88'    # Bright Yellow
+color_13: '#BBAAFF'    # Bright Blue (Folder)
+color_14: '#E372D9'    # Bright Magenta
+color_15: '#55EEFF'    # Bright Cyan
+color_16: '#FEFFFF'    # Bright White
+
+background: '#331401'  # Background
+foreground: '#FFFBCA'  # Foreground (Text)
+
+cursor: '#FFFBCA'      # Cursor

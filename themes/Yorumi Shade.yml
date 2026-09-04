@@ -1,0 +1,29 @@
+---
+name: 'Yorumi Shade'
+author: 'yorumicolors'
+author_name: 'yorumicolors'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#0F1015'    # Black (Host)
+color_02: '#913B3B'    # Red (Syntax string)
+color_03: '#697F4D'    # Green (Command)
+color_04: '#9D672F'    # Yellow (Command second)
+color_05: '#42608A'    # Blue (Path)
+color_06: '#8D3F5A'    # Magenta (Syntax var)
+color_07: '#478584'    # Cyan (Prompt)
+color_08: '#878996'    # White
+
+color_09: '#343742'    # Bright Black
+color_10: '#C65E53'    # Bright Red (Command error)
+color_11: '#8CB167'    # Bright Green (Exec)
+color_12: '#C39D55'    # Bright Yellow
+color_13: '#597BC0'    # Bright Blue (Folder)
+color_14: '#BB5D7D'    # Bright Magenta
+color_15: '#67BBB9'    # Bright Cyan
+color_16: '#BDBFCB'    # Bright White
+
+background: '#0F101B'  # Background
+foreground: '#BDBFCB'  # Foreground (Text)
+
+cursor: '#BDBFCB'      # Cursor

@@ -1,0 +1,29 @@
+---
+name: 'Marine Dark'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#002221'    # Black (Host)
+color_02: '#EA3431'    # Red (Syntax string)
+color_03: '#00B6B6'    # Green (Command)
+color_04: '#F8B017'    # Yellow (Command second)
+color_05: '#4894FD'    # Blue (Path)
+color_06: '#E01DCA'    # Magenta (Syntax var)
+color_07: '#1AB2AD'    # Cyan (Prompt)
+color_08: '#99DDDB'    # White
+
+color_09: '#006562'    # Bright Black
+color_10: '#EA3431'    # Bright Red (Command error)
+color_11: '#00B6B6'    # Bright Green (Exec)
+color_12: '#F8B017'    # Bright Yellow
+color_13: '#4894FD'    # Bright Blue (Folder)
+color_14: '#E01DCA'    # Bright Magenta
+color_15: '#1AB2AD'    # Bright Cyan
+color_16: '#E6F6F6'    # Bright White
+
+background: '#002221'  # Background
+foreground: '#E6F8F8'  # Foreground (Text)
+
+cursor: '#E6F8F8'      # Cursor

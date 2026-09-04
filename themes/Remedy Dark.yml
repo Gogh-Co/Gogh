@@ -1,0 +1,29 @@
+---
+name: 'Remedy Dark'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#282A2E'    # Black (Host)
+color_02: '#A54242'    # Red (Syntax string)
+color_03: '#8C9440'    # Green (Command)
+color_04: '#DE935F'    # Yellow (Command second)
+color_05: '#5F819D'    # Blue (Path)
+color_06: '#85678F'    # Magenta (Syntax var)
+color_07: '#5E8D87'    # Cyan (Prompt)
+color_08: '#707880'    # White
+
+color_09: '#373B41'    # Bright Black
+color_10: '#CC6666'    # Bright Red (Command error)
+color_11: '#B5BD68'    # Bright Green (Exec)
+color_12: '#F0C674'    # Bright Yellow
+color_13: '#81A2BE'    # Bright Blue (Folder)
+color_14: '#B294BB'    # Bright Magenta
+color_15: '#8ABEB7'    # Bright Cyan
+color_16: '#C5C8C6'    # Bright White
+
+background: '#2C2B2A'  # Background
+foreground: '#F9E7C4'  # Foreground (Text)
+
+cursor: '#F9E7C4'      # Cursor

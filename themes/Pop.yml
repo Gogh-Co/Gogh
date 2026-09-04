@@ -1,0 +1,29 @@
+---
+name: 'Pop'
+author: 'Chris Kempson (http://chriskempson.com)'
+author_name: 'Chris Kempson'
+author_url: 'http://chriskempson.com'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#EB008A'    # Red (Syntax string)
+color_03: '#37B349'    # Green (Command)
+color_04: '#F8CA12'    # Yellow (Command second)
+color_05: '#0E5A94'    # Blue (Path)
+color_06: '#B31E8D'    # Magenta (Syntax var)
+color_07: '#00AABB'    # Cyan (Prompt)
+color_08: '#D0D0D0'    # White
+
+color_09: '#505050'    # Bright Black
+color_10: '#EB008A'    # Bright Red (Command error)
+color_11: '#37B349'    # Bright Green (Exec)
+color_12: '#F8CA12'    # Bright Yellow
+color_13: '#0E5A94'    # Bright Blue (Folder)
+color_14: '#B31E8D'    # Bright Magenta
+color_15: '#00AABB'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#D0D0D0'  # Foreground (Text)
+
+cursor: '#D0D0D0'      # Cursor

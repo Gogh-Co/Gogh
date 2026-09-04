@@ -1,0 +1,29 @@
+---
+name: 'Atelier Sulphurpool Light'
+author: 'Bram de Haan (http://atelierbramdehaan.nl)'
+author_name: 'Bram de Haan'
+author_url: 'http://atelierbramdehaan.nl'
+variant: 'light'            # dark or light
+
+color_01: '#F5F7FF'    # Black (Host)
+color_02: '#C94922'    # Red (Syntax string)
+color_03: '#AC9739'    # Green (Command)
+color_04: '#C08B30'    # Yellow (Command second)
+color_05: '#3D8FD1'    # Blue (Path)
+color_06: '#6679CC'    # Magenta (Syntax var)
+color_07: '#22A2C9'    # Cyan (Prompt)
+color_08: '#5E6687'    # White
+
+color_09: '#898EA4'    # Bright Black
+color_10: '#C94922'    # Bright Red (Command error)
+color_11: '#AC9739'    # Bright Green (Exec)
+color_12: '#C08B30'    # Bright Yellow
+color_13: '#3D8FD1'    # Bright Blue (Folder)
+color_14: '#6679CC'    # Bright Magenta
+color_15: '#22A2C9'    # Bright Cyan
+color_16: '#202746'    # Bright White
+
+background: '#F5F7FF'  # Background
+foreground: '#5E6687'  # Foreground (Text)
+
+cursor: '#5E6687'      # Cursor

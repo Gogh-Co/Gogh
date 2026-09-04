@@ -1,0 +1,29 @@
+---
+name: 'Pink Lavender'
+author: 'playerofceleste'
+author_name: 'playerofceleste'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#0C0611'    # Black (Host)
+color_02: '#B292AC'    # Red (Syntax string)
+color_03: '#C8A3BC'    # Green (Command)
+color_04: '#DAB2CC'    # Yellow (Command second)
+color_05: '#A697A0'    # Blue (Path)
+color_06: '#B292AC'    # Magenta (Syntax var)
+color_07: '#C8A3BC'    # Cyan (Prompt)
+color_08: '#DAB2CC'    # White
+
+color_09: '#90758D'    # Bright Black
+color_10: '#C29EB6'    # Bright Red (Command error)
+color_11: '#BB9FC2'    # Bright Green (Exec)
+color_12: '#EED8E5'    # Bright Yellow
+color_13: '#90758D'    # Bright Blue (Folder)
+color_14: '#C29EB6'    # Bright Magenta
+color_15: '#BB9FC2'    # Bright Cyan
+color_16: '#EED8E5'    # Bright White
+
+background: '#0C0611'  # Background
+foreground: '#EED8E5'  # Foreground (Text)
+
+cursor: '#EED8E5'      # Cursor

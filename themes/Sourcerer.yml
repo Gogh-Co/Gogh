@@ -1,0 +1,29 @@
+---
+name: 'Sourcerer'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#111111'    # Black (Host)
+color_02: '#AA4450'    # Red (Syntax string)
+color_03: '#719611'    # Green (Command)
+color_04: '#FF9800'    # Yellow (Command second)
+color_05: '#6688AA'    # Blue (Path)
+color_06: '#8F6F8F'    # Magenta (Syntax var)
+color_07: '#528B8B'    # Cyan (Prompt)
+color_08: '#D3D3D3'    # White
+
+color_09: '#181818'    # Bright Black
+color_10: '#FF6A6A'    # Bright Red (Command error)
+color_11: '#B1D631'    # Bright Green (Exec)
+color_12: '#87875F'    # Bright Yellow
+color_13: '#90B0D1'    # Bright Blue (Folder)
+color_14: '#8181A6'    # Bright Magenta
+color_15: '#87CEEB'    # Bright Cyan
+color_16: '#C1CDC1'    # Bright White
+
+background: '#222222'  # Background
+foreground: '#C2C2B0'  # Foreground (Text)
+
+cursor: '#C2C2B0'      # Cursor

@@ -1,0 +1,29 @@
+---
+name: 'Moonlight Ii Vscode'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#444A73'    # Black (Host)
+color_02: '#FF5370'    # Red (Syntax string)
+color_03: '#4FD6BE'    # Green (Command)
+color_04: '#FFC777'    # Yellow (Command second)
+color_05: '#3E68D7'    # Blue (Path)
+color_06: '#FC7B7B'    # Magenta (Syntax var)
+color_07: '#86E1FC'    # Cyan (Prompt)
+color_08: '#D0D0D0'    # White
+
+color_09: '#828BB8'    # Bright Black
+color_10: '#FF98A4'    # Bright Red (Command error)
+color_11: '#C3E88D'    # Bright Green (Exec)
+color_12: '#FFC777'    # Bright Yellow
+color_13: '#82AAFF'    # Bright Blue (Folder)
+color_14: '#FF966C'    # Bright Magenta
+color_15: '#B4F9F8'    # Bright Cyan
+color_16: '#5F8787'    # Bright White
+
+background: '#1E2030'  # Background
+foreground: '#7F85A3'  # Foreground (Text)
+
+cursor: '#7F85A3'      # Cursor

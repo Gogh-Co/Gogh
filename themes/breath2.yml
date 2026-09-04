@@ -1,0 +1,29 @@
+---
+name: 'breath2'
+author: 'b3yc0d3'
+author_name: 'b3yc0d3'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#0D0F11'    # Black (Host)
+color_02: '#C0392B'    # Red (Syntax string)
+color_03: '#55A649'    # Green (Command)
+color_04: '#FDBC4B'    # Yellow (Command second)
+color_05: '#3DAEE9'    # Blue (Path)
+color_06: '#8E44AD'    # Magenta (Syntax var)
+color_07: '#16A085'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#2E3439'    # Bright Black
+color_10: '#783228'    # Bright Red (Command error)
+color_11: '#32642C'    # Bright Green (Exec)
+color_12: '#B65619'    # Bright Yellow
+color_13: '#1B668F'    # Bright Blue (Folder)
+color_14: '#614A73'    # Bright Magenta
+color_15: '#186C60'    # Bright Cyan
+color_16: '#63686D'    # Bright White
+
+background: '#1E2229'  # Background
+foreground: '#17A88B'  # Foreground (Text)
+
+cursor: '#17A88B'      # Cursor

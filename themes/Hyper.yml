@@ -1,0 +1,29 @@
+---
+name: 'Hyper'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#FE0100'    # Red (Syntax string)
+color_03: '#33FF00'    # Green (Command)
+color_04: '#FEFF00'    # Yellow (Command second)
+color_05: '#0066FF'    # Blue (Path)
+color_06: '#CC00FF'    # Magenta (Syntax var)
+color_07: '#00FFFF'    # Cyan (Prompt)
+color_08: '#D0D0D0'    # White
+
+color_09: '#808080'    # Bright Black
+color_10: '#FE0100'    # Bright Red (Command error)
+color_11: '#33FF00'    # Bright Green (Exec)
+color_12: '#FEFF00'    # Bright Yellow
+color_13: '#0066FF'    # Bright Blue (Folder)
+color_14: '#CC00FF'    # Bright Magenta
+color_15: '#00FFFF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

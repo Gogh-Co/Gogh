@@ -1,0 +1,29 @@
+---
+name: 'Osaka Jade'
+author: 'Charles Kellogg'
+author_name: 'Charles Kellogg'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#23372B'    # Black (Host)
+color_02: '#FF5345'    # Red (Syntax string)
+color_03: '#549E6A'    # Green (Command)
+color_04: '#459451'    # Yellow (Command second)
+color_05: '#509475'    # Blue (Path)
+color_06: '#D2689C'    # Magenta (Syntax var)
+color_07: '#2DD5B7'    # Cyan (Prompt)
+color_08: '#F6F5DD'    # White
+
+color_09: '#53685B'    # Bright Black
+color_10: '#DB9F9C'    # Bright Red (Command error)
+color_11: '#143614'    # Bright Green (Exec)
+color_12: '#E5C736'    # Bright Yellow
+color_13: '#ACD4CF'    # Bright Blue (Folder)
+color_14: '#75BBB3'    # Bright Magenta
+color_15: '#8CD3CB'    # Bright Cyan
+color_16: '#9EEBB3'    # Bright White
+
+background: '#111C18'  # Background
+foreground: '#C1C497'  # Foreground (Text)
+
+cursor: '#C1C497'      # Cursor

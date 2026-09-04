@@ -1,0 +1,29 @@
+---
+name: 'Min Dark'
+author: 'pivattogui'
+author_name: 'pivattogui'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#1A1A1A'    # Black (Host)
+color_02: '#F97583'    # Red (Syntax string)
+color_03: '#85E89D'    # Green (Command)
+color_04: '#FFAB70'    # Yellow (Command second)
+color_05: '#79B8FF'    # Blue (Path)
+color_06: '#F97583'    # Magenta (Syntax var)
+color_07: '#9DB1C5'    # Cyan (Prompt)
+color_08: '#BBBBBB'    # White
+
+color_09: '#5C5C5C'    # Bright Black
+color_10: '#FF7A84'    # Bright Red (Command error)
+color_11: '#85E89D'    # Bright Green (Exec)
+color_12: '#FF9800'    # Bright Yellow
+color_13: '#B392F0'    # Bright Blue (Folder)
+color_14: '#FF7A84'    # Bright Magenta
+color_15: '#79B8FF'    # Bright Cyan
+color_16: '#F8F8F8'    # Bright White
+
+background: '#1F1F1F'  # Background
+foreground: '#F8F8F8'  # Foreground (Text)
+
+cursor: '#F8F8F8'      # Cursor

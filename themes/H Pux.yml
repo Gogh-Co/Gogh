@@ -1,0 +1,29 @@
+---
+name: 'H Pux'
+author: 'Jacob Chapman'
+author_name: 'Jacob Chapman'
+author_url: ''
+variant: 'light'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#8C0000'    # Red (Syntax string)
+color_03: '#007D00'    # Green (Command)
+color_04: '#8C7000'    # Yellow (Command second)
+color_05: '#003CB4'    # Blue (Path)
+color_06: '#820082'    # Magenta (Syntax var)
+color_07: '#008B8B'    # Cyan (Prompt)
+color_08: '#BBBBBB'    # White
+
+color_09: '#545454'    # Bright Black
+color_10: '#FF0000'    # Bright Red (Command error)
+color_11: '#00EE00'    # Bright Green (Exec)
+color_12: '#FFFF00'    # Bright Yellow
+color_13: '#0000FF'    # Bright Blue (Folder)
+color_14: '#FF00FF'    # Bright Magenta
+color_15: '#00CDCD'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#D1BCA7'  # Background
+foreground: '#000000'  # Foreground (Text)
+
+cursor: '#000000'      # Cursor

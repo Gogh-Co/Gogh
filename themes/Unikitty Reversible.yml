@@ -1,0 +1,29 @@
+---
+name: 'Unikitty Reversible'
+author: 'Josh W Lewis (@joshwlewis)'
+author_name: 'Josh W Lewis (@joshwlewis)'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#2E2A31'    # Black (Host)
+color_02: '#D8137F'    # Red (Syntax string)
+color_03: '#17AD98'    # Green (Command)
+color_04: '#DC8A0E'    # Yellow (Command second)
+color_05: '#7864FA'    # Blue (Path)
+color_06: '#B33CE8'    # Magenta (Syntax var)
+color_07: '#149BDA'    # Cyan (Prompt)
+color_08: '#C3C2C4'    # White
+
+color_09: '#878589'    # Bright Black
+color_10: '#D8137F'    # Bright Red (Command error)
+color_11: '#17AD98'    # Bright Green (Exec)
+color_12: '#DC8A0E'    # Bright Yellow
+color_13: '#7864FA'    # Bright Blue (Folder)
+color_14: '#B33CE8'    # Bright Magenta
+color_15: '#149BDA'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#2E2A31'  # Background
+foreground: '#C3C2C4'  # Foreground (Text)
+
+cursor: '#C3C2C4'      # Cursor

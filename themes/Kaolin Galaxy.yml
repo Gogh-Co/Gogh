@@ -1,0 +1,29 @@
+---
+name: 'Kaolin Galaxy'
+author: 'Ogden Webb'
+author_name: 'Ogden Webb'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#212026'    # Black (Host)
+color_02: '#EF6787'    # Red (Syntax string)
+color_03: '#49BDB0'    # Green (Command)
+color_04: '#EED891'    # Yellow (Command second)
+color_05: '#41B0F3'    # Blue (Path)
+color_06: '#CEA2CA'    # Magenta (Syntax var)
+color_07: '#6BD9DB'    # Cyan (Prompt)
+color_08: '#E6E6E8'    # White
+
+color_09: '#615B75'    # Bright Black
+color_10: '#D6224D'    # Bright Red (Command error)
+color_11: '#6DD797'    # Bright Green (Exec)
+color_12: '#F5C791'    # Bright Yellow
+color_13: '#2A57CC'    # Bright Blue (Folder)
+color_14: '#9D81BA'    # Bright Magenta
+color_15: '#0BC9CF'    # Bright Cyan
+color_16: '#F2F2F2'    # Bright White
+
+background: '#212026'  # Background
+foreground: '#E6E6E8'  # Foreground (Text)
+
+cursor: '#E6E6E8'      # Cursor

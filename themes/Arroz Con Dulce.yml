@@ -1,0 +1,29 @@
+---
+name: 'Arroz Con Dulce'
+author: 'Richard Martinez'
+author_name: 'Richard Martinez'
+author_url: ''
+variant: 'light'            # dark or light
+
+color_01: '#FFF8E7'    # Black (Host)
+color_02: '#A11D48'    # Red (Syntax string)
+color_03: '#A2380C'    # Green (Command)
+color_04: '#855500'    # Yellow (Command second)
+color_05: '#5940A0'    # Blue (Path)
+color_06: '#8C1F68'    # Magenta (Syntax var)
+color_07: '#98263E'    # Cyan (Prompt)
+color_08: '#4A2C20'    # White
+
+color_09: '#C8A77A'    # Bright Black
+color_10: '#A11D48'    # Bright Red (Command error)
+color_11: '#A2380C'    # Bright Green (Exec)
+color_12: '#855500'    # Bright Yellow
+color_13: '#5940A0'    # Bright Blue (Folder)
+color_14: '#8C1F68'    # Bright Magenta
+color_15: '#98263E'    # Bright Cyan
+color_16: '#21110B'    # Bright White
+
+background: '#FFF8E7'  # Background
+foreground: '#4A2C20'  # Foreground (Text)
+
+cursor: '#4A2C20'      # Cursor

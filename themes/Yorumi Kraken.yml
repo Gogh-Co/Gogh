@@ -1,0 +1,29 @@
+---
+name: 'Yorumi Kraken'
+author: 'yorumicolors'
+author_name: 'yorumicolors'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#0E121F'    # Black (Host)
+color_02: '#913B3B'    # Red (Syntax string)
+color_03: '#697F4D'    # Green (Command)
+color_04: '#9D672F'    # Yellow (Command second)
+color_05: '#42608A'    # Blue (Path)
+color_06: '#614686'    # Magenta (Syntax var)
+color_07: '#478584'    # Cyan (Prompt)
+color_08: '#A7A9B5'    # White
+
+color_09: '#343742'    # Bright Black
+color_10: '#F47571'    # Bright Red (Command error)
+color_11: '#A9D07C'    # Bright Green (Exec)
+color_12: '#E1C084'    # Bright Yellow
+color_13: '#798DDC'    # Bright Blue (Folder)
+color_14: '#AD8FD6'    # Bright Magenta
+color_15: '#85E0CB'    # Bright Cyan
+color_16: '#C0BCE6'    # Bright White
+
+background: '#0E0D17'  # Background
+foreground: '#C0BCE6'  # Foreground (Text)
+
+cursor: '#C0BCE6'      # Cursor

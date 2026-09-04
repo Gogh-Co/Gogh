@@ -1,0 +1,29 @@
+---
+name: 'Lichen Chartreuse Light'
+author: 'Aaron Colichia (https://aaron.colichia.org/)'
+author_name: 'Aaron Colichia'
+author_url: 'https://aaron.colichia.org/'
+variant: 'light'            # dark or light
+
+color_01: '#F5F7F2'    # Black (Host)
+color_02: '#A34740'    # Red (Syntax string)
+color_03: '#2F7462'    # Green (Command)
+color_04: '#506B29'    # Yellow (Command second)
+color_05: '#356E8A'    # Blue (Path)
+color_06: '#6E5689'    # Magenta (Syntax var)
+color_07: '#356569'    # Cyan (Prompt)
+color_08: '#2D302B'    # White
+
+color_09: '#687161'    # Bright Black
+color_10: '#A34740'    # Bright Red (Command error)
+color_11: '#506B29'    # Bright Green (Exec)
+color_12: '#875E20'    # Bright Yellow
+color_13: '#3B6D86'    # Bright Blue (Folder)
+color_14: '#8A4F67'    # Bright Magenta
+color_15: '#3F6464'    # Bright Cyan
+color_16: '#151613'    # Bright White
+
+background: '#F5F7F2'  # Background
+foreground: '#2D302B'  # Foreground (Text)
+
+cursor: '#2D302B'      # Cursor

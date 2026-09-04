@@ -1,0 +1,29 @@
+---
+name: 'Atelier Lakeside Light'
+author: 'Bram de Haan (http://atelierbramdehaan.nl)'
+author_name: 'Bram de Haan'
+author_url: 'http://atelierbramdehaan.nl'
+variant: 'light'            # dark or light
+
+color_01: '#EBF8FF'    # Black (Host)
+color_02: '#D22D72'    # Red (Syntax string)
+color_03: '#568C3B'    # Green (Command)
+color_04: '#8A8A0F'    # Yellow (Command second)
+color_05: '#257FAD'    # Blue (Path)
+color_06: '#6B6BB8'    # Magenta (Syntax var)
+color_07: '#2D8F6F'    # Cyan (Prompt)
+color_08: '#516D7B'    # White
+
+color_09: '#7195A8'    # Bright Black
+color_10: '#D22D72'    # Bright Red (Command error)
+color_11: '#568C3B'    # Bright Green (Exec)
+color_12: '#8A8A0F'    # Bright Yellow
+color_13: '#257FAD'    # Bright Blue (Folder)
+color_14: '#6B6BB8'    # Bright Magenta
+color_15: '#2D8F6F'    # Bright Cyan
+color_16: '#161B1D'    # Bright White
+
+background: '#EBF8FF'  # Background
+foreground: '#516D7B'  # Foreground (Text)
+
+cursor: '#516D7B'      # Cursor

@@ -1,0 +1,29 @@
+---
+name: 'Ryoccino'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#313244'    # Black (Host)
+color_02: '#F5A3C9'    # Red (Syntax string)
+color_03: '#9EE6B8'    # Green (Command)
+color_04: '#F5E6A8'    # Yellow (Command second)
+color_05: '#89B4FA'    # Blue (Path)
+color_06: '#EEC2F2'    # Magenta (Syntax var)
+color_07: '#94E2D5'    # Cyan (Prompt)
+color_08: '#BCD2F5'    # White
+
+color_09: '#45475A'    # Bright Black
+color_10: '#F5A3C9'    # Bright Red (Command error)
+color_11: '#9EE6B8'    # Bright Green (Exec)
+color_12: '#F5E6A8'    # Bright Yellow
+color_13: '#89B4FA'    # Bright Blue (Folder)
+color_14: '#EEC2F2'    # Bright Magenta
+color_15: '#94E2D5'    # Bright Cyan
+color_16: '#BCD2F5'    # Bright White
+
+background: '#11131B'  # Background
+foreground: '#B4C2ED'  # Foreground (Text)
+
+cursor: '#B4C2ED'      # Cursor

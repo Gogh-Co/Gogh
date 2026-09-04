@@ -1,0 +1,29 @@
+---
+name: 'Low Contrast'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#BB0000'    # Red (Syntax string)
+color_03: '#00BB00'    # Green (Command)
+color_04: '#BBBB00'    # Yellow (Command second)
+color_05: '#0000BB'    # Blue (Path)
+color_06: '#BB00BB'    # Magenta (Syntax var)
+color_07: '#00BBBB'    # Cyan (Prompt)
+color_08: '#BBBBBB'    # White
+
+color_09: '#000000'    # Bright Black
+color_10: '#BB0000'    # Bright Red (Command error)
+color_11: '#00BB00'    # Bright Green (Exec)
+color_12: '#BBBB00'    # Bright Yellow
+color_13: '#0000BB'    # Bright Blue (Folder)
+color_14: '#BB00BB'    # Bright Magenta
+color_15: '#00BBBB'    # Bright Cyan
+color_16: '#BBBBBB'    # Bright White
+
+background: '#333333'  # Background
+foreground: '#DDDDDD'  # Foreground (Text)
+
+cursor: '#DDDDDD'      # Cursor

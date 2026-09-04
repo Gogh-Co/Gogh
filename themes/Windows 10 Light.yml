@@ -1,0 +1,29 @@
+---
+name: 'Windows 10 Light'
+author: 'Fergus Collins (https://github.com/ferguscollins)'
+author_name: 'Fergus Collins'
+author_url: 'https://github.com/ferguscollins'
+variant: 'light'            # dark or light
+
+color_01: '#F2F2F2'    # Black (Host)
+color_02: '#C50F1F'    # Red (Syntax string)
+color_03: '#13A10E'    # Green (Command)
+color_04: '#C19C00'    # Yellow (Command second)
+color_05: '#0037DA'    # Blue (Path)
+color_06: '#881798'    # Magenta (Syntax var)
+color_07: '#3A96DD'    # Cyan (Prompt)
+color_08: '#767676'    # White
+
+color_09: '#CCCCCC'    # Bright Black
+color_10: '#C50F1F'    # Bright Red (Command error)
+color_11: '#13A10E'    # Bright Green (Exec)
+color_12: '#C19C00'    # Bright Yellow
+color_13: '#0037DA'    # Bright Blue (Folder)
+color_14: '#881798'    # Bright Magenta
+color_15: '#3A96DD'    # Bright Cyan
+color_16: '#0C0C0C'    # Bright White
+
+background: '#F2F2F2'  # Background
+foreground: '#767676'  # Foreground (Text)
+
+cursor: '#767676'      # Cursor

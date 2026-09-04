@@ -1,0 +1,29 @@
+---
+name: 'Atelier Forest Light'
+author: 'Bram de Haan (http://atelierbramdehaan.nl)'
+author_name: 'Bram de Haan'
+author_url: 'http://atelierbramdehaan.nl'
+variant: 'light'            # dark or light
+
+color_01: '#F1EFEE'    # Black (Host)
+color_02: '#F22C40'    # Red (Syntax string)
+color_03: '#7B9726'    # Green (Command)
+color_04: '#C38418'    # Yellow (Command second)
+color_05: '#407EE7'    # Blue (Path)
+color_06: '#6666EA'    # Magenta (Syntax var)
+color_07: '#3D97B8'    # Cyan (Prompt)
+color_08: '#68615E'    # White
+
+color_09: '#9C9491'    # Bright Black
+color_10: '#F22C40'    # Bright Red (Command error)
+color_11: '#7B9726'    # Bright Green (Exec)
+color_12: '#C38418'    # Bright Yellow
+color_13: '#407EE7'    # Bright Blue (Folder)
+color_14: '#6666EA'    # Bright Magenta
+color_15: '#3D97B8'    # Bright Cyan
+color_16: '#1B1918'    # Bright White
+
+background: '#F1EFEE'  # Background
+foreground: '#68615E'  # Foreground (Text)
+
+cursor: '#68615E'      # Cursor

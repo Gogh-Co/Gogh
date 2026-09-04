@@ -1,0 +1,29 @@
+---
+name: 'Fruit Soda'
+author: 'jozip'
+author_name: 'jozip'
+author_url: ''
+variant: 'light'            # dark or light
+
+color_01: '#F1ECF1'    # Black (Host)
+color_02: '#FE3E31'    # Red (Syntax string)
+color_03: '#47F74C'    # Green (Command)
+color_04: '#F7E203'    # Yellow (Command second)
+color_05: '#2931DF'    # Blue (Path)
+color_06: '#611FCE'    # Magenta (Syntax var)
+color_07: '#0F9CFD'    # Cyan (Prompt)
+color_08: '#515151'    # White
+
+color_09: '#B5B4B6'    # Bright Black
+color_10: '#FE3E31'    # Bright Red (Command error)
+color_11: '#47F74C'    # Bright Green (Exec)
+color_12: '#F7E203'    # Bright Yellow
+color_13: '#2931DF'    # Bright Blue (Folder)
+color_14: '#611FCE'    # Bright Magenta
+color_15: '#0F9CFD'    # Bright Cyan
+color_16: '#2D2C2C'    # Bright White
+
+background: '#F1ECF1'  # Background
+foreground: '#515151'  # Foreground (Text)
+
+cursor: '#515151'      # Cursor

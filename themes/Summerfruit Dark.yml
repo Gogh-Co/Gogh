@@ -1,0 +1,29 @@
+---
+name: 'Summerfruit Dark'
+author: 'Christopher Corley (http://christop.club/)'
+author_name: 'Christopher Corley'
+author_url: 'http://christop.club/'
+variant: 'dark'            # dark or light
+
+color_01: '#151515'    # Black (Host)
+color_02: '#FF0086'    # Red (Syntax string)
+color_03: '#00C918'    # Green (Command)
+color_04: '#ABA800'    # Yellow (Command second)
+color_05: '#3777E6'    # Blue (Path)
+color_06: '#AD00A1'    # Magenta (Syntax var)
+color_07: '#1FAAAA'    # Cyan (Prompt)
+color_08: '#D0D0D0'    # White
+
+color_09: '#505050'    # Bright Black
+color_10: '#FF0086'    # Bright Red (Command error)
+color_11: '#00C918'    # Bright Green (Exec)
+color_12: '#ABA800'    # Bright Yellow
+color_13: '#3777E6'    # Bright Blue (Folder)
+color_14: '#AD00A1'    # Bright Magenta
+color_15: '#1FAAAA'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#151515'  # Background
+foreground: '#D0D0D0'  # Foreground (Text)
+
+cursor: '#D0D0D0'      # Cursor

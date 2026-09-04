@@ -1,0 +1,29 @@
+---
+name: 'Adwaita Darker'
+author: 'Emil Löfquist (https://github.com/ewal)'
+author_name: 'Emil Löfquist'
+author_url: 'https://github.com/ewal'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#ED333B'    # Red (Syntax string)
+color_03: '#57E389'    # Green (Command)
+color_04: '#FF7800'    # Yellow (Command second)
+color_05: '#62A0EA'    # Blue (Path)
+color_06: '#9141AC'    # Magenta (Syntax var)
+color_07: '#5BC8AF'    # Cyan (Prompt)
+color_08: '#DEDDDA'    # White
+
+color_09: '#9A9996'    # Bright Black
+color_10: '#F66151'    # Bright Red (Command error)
+color_11: '#8FF0A4'    # Bright Green (Exec)
+color_12: '#FFA348'    # Bright Yellow
+color_13: '#99C1F1'    # Bright Blue (Folder)
+color_14: '#DC8ADD'    # Bright Magenta
+color_15: '#93DDC2'    # Bright Cyan
+color_16: '#F6F5F4'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#DEDDDA'  # Foreground (Text)
+
+cursor: '#DEDDDA'      # Cursor

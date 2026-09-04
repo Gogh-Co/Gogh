@@ -1,0 +1,29 @@
+---
+name: 'Onedark Dark'
+author: 'olimorris (https://github.com/olimorris)'
+author_name: 'olimorris'
+author_url: 'https://github.com/olimorris'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#EF596F'    # Red (Syntax string)
+color_03: '#89CA78'    # Green (Command)
+color_04: '#E5C07B'    # Yellow (Command second)
+color_05: '#61AFEF'    # Blue (Path)
+color_06: '#D55FDE'    # Magenta (Syntax var)
+color_07: '#2BBAC5'    # Cyan (Prompt)
+color_08: '#ABB2BF'    # White
+
+color_09: '#434852'    # Bright Black
+color_10: '#EF596F'    # Bright Red (Command error)
+color_11: '#89CA78'    # Bright Green (Exec)
+color_12: '#E5C07B'    # Bright Yellow
+color_13: '#61AFEF'    # Bright Blue (Folder)
+color_14: '#D55FDE'    # Bright Magenta
+color_15: '#2BBAC5'    # Bright Cyan
+color_16: '#C8CCD4'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#ABB2BF'  # Foreground (Text)
+
+cursor: '#ABB2BF'      # Cursor

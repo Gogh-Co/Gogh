@@ -1,0 +1,29 @@
+---
+name: 'Iris'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#111133'    # Black (Host)
+color_02: '#D61D52'    # Red (Syntax string)
+color_03: '#48A842'    # Green (Command)
+color_04: '#E1A51C'    # Yellow (Command second)
+color_05: '#5556D3'    # Blue (Path)
+color_06: '#8650D3'    # Magenta (Syntax var)
+color_07: '#52AFB7'    # Cyan (Prompt)
+color_08: '#9F9AA7'    # White
+
+color_09: '#484867'    # Bright Black
+color_10: '#E15877'    # Bright Red (Command error)
+color_11: '#71AB3A'    # Bright Green (Exec)
+color_12: '#C6A642'    # Bright Yellow
+color_13: '#6D6DC9'    # Bright Blue (Folder)
+color_14: '#956AD3'    # Bright Magenta
+color_15: '#6AB6BD'    # Bright Cyan
+color_16: '#E8E6E9'    # Bright White
+
+background: '#272537'  # Background
+foreground: '#E8E6E9'  # Foreground (Text)
+
+cursor: '#E8E6E9'      # Cursor

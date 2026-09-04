@@ -1,0 +1,29 @@
+---
+name: 'Material Palenight'
+author: 'Nate Peterson'
+author_name: 'Nate Peterson'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#2E3436'    # Black (Host)
+color_02: '#FF5370'    # Red (Syntax string)
+color_03: '#C3E88D'    # Green (Command)
+color_04: '#FFCB6B'    # Yellow (Command second)
+color_05: '#82AAFF'    # Blue (Path)
+color_06: '#C792EA'    # Magenta (Syntax var)
+color_07: '#89DDFF'    # Cyan (Prompt)
+color_08: '#D3D7CF'    # White
+
+color_09: '#555753'    # Bright Black
+color_10: '#F07178'    # Bright Red (Command error)
+color_11: '#C3E88D'    # Bright Green (Exec)
+color_12: '#F78C6C'    # Bright Yellow
+color_13: '#729FCF'    # Bright Blue (Folder)
+color_14: '#BB80B3'    # Bright Magenta
+color_15: '#89DDFF'    # Bright Cyan
+color_16: '#EEEEEC'    # Bright White
+
+background: '#292D3E'  # Background
+foreground: '#A6ACCD'  # Foreground (Text)
+
+cursor: '#A6ACCD'      # Cursor

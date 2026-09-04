@@ -1,0 +1,29 @@
+---
+name: 'Penumbra Light'
+author: 'Zachary Weiss (https://github.com/zacharyweiss)'
+author_name: 'Zachary Weiss'
+author_url: 'https://github.com/zacharyweiss'
+variant: 'light'            # dark or light
+
+color_01: '#FFFDFB'    # Black (Host)
+color_02: '#CA736C'    # Red (Syntax string)
+color_03: '#47A477'    # Green (Command)
+color_04: '#8D9741'    # Yellow (Command second)
+color_05: '#5794D0'    # Blue (Path)
+color_06: '#9481CC'    # Magenta (Syntax var)
+color_07: '#00A2AF'    # Cyan (Prompt)
+color_08: '#636363'    # White
+
+color_09: '#BEBEBE'    # Bright Black
+color_10: '#CA736C'    # Bright Red (Command error)
+color_11: '#47A477'    # Bright Green (Exec)
+color_12: '#8D9741'    # Bright Yellow
+color_13: '#5794D0'    # Bright Blue (Folder)
+color_14: '#9481CC'    # Bright Magenta
+color_15: '#00A2AF'    # Bright Cyan
+color_16: '#24272B'    # Bright White
+
+background: '#FFFDFB'  # Background
+foreground: '#636363'  # Foreground (Text)
+
+cursor: '#636363'      # Cursor

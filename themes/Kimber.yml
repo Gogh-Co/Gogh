@@ -1,0 +1,29 @@
+---
+name: 'Kimber'
+author: 'Mishka Nguyen (https://github.com/akhsiM)'
+author_name: 'Mishka Nguyen'
+author_url: 'https://github.com/akhsiM'
+variant: 'dark'            # dark or light
+
+color_01: '#222222'    # Black (Host)
+color_02: '#C88C8C'    # Red (Syntax string)
+color_03: '#99C899'    # Green (Command)
+color_04: '#D8B56D'    # Yellow (Command second)
+color_05: '#537C9C'    # Blue (Path)
+color_06: '#86CACD'    # Magenta (Syntax var)
+color_07: '#78B4B4'    # Cyan (Prompt)
+color_08: '#DEDEE7'    # White
+
+color_09: '#644646'    # Bright Black
+color_10: '#C88C8C'    # Bright Red (Command error)
+color_11: '#99C899'    # Bright Green (Exec)
+color_12: '#D8B56D'    # Bright Yellow
+color_13: '#537C9C'    # Bright Blue (Folder)
+color_14: '#86CACD'    # Bright Magenta
+color_15: '#78B4B4'    # Bright Cyan
+color_16: '#FFFFE6'    # Bright White
+
+background: '#222222'  # Background
+foreground: '#DEDEE7'  # Foreground (Text)
+
+cursor: '#DEDEE7'      # Cursor

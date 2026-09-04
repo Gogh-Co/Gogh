@@ -1,0 +1,29 @@
+---
+name: 'Kaolin Breeze'
+author: 'Ogden Webb'
+author_name: 'Ogden Webb'
+author_url: ''
+variant: 'light'            # dark or light
+
+color_01: '#383E3F'    # Black (Host)
+color_02: '#CD5C60'    # Red (Syntax string)
+color_03: '#39855F'    # Green (Command)
+color_04: '#B87E3C'    # Yellow (Command second)
+color_05: '#2683B5'    # Blue (Path)
+color_06: '#845A84'    # Magenta (Syntax var)
+color_07: '#48A9A9'    # Cyan (Prompt)
+color_08: '#C9C2BD'    # White
+
+color_09: '#7D8468'    # Bright Black
+color_10: '#EF6787'    # Bright Red (Command error)
+color_11: '#3E594E'    # Bright Green (Exec)
+color_12: '#D1832E'    # Bright Yellow
+color_13: '#4F9CB8'    # Bright Blue (Folder)
+color_14: '#605DB3'    # Bright Magenta
+color_15: '#008B8B'    # Bright Cyan
+color_16: '#60696B'    # Bright White
+
+background: '#EBE8E4'  # Background
+foreground: '#383E3F'  # Foreground (Text)
+
+cursor: '#383E3F'      # Cursor

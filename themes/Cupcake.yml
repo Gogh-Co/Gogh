@@ -1,0 +1,29 @@
+---
+name: 'Cupcake'
+author: 'Chris Kempson (http://chriskempson.com)'
+author_name: 'Chris Kempson'
+author_url: 'http://chriskempson.com'
+variant: 'light'            # dark or light
+
+color_01: '#FBF1F2'    # Black (Host)
+color_02: '#D57E85'    # Red (Syntax string)
+color_03: '#A3B367'    # Green (Command)
+color_04: '#DCB16C'    # Yellow (Command second)
+color_05: '#7297B9'    # Blue (Path)
+color_06: '#BB99B4'    # Magenta (Syntax var)
+color_07: '#69A9A7'    # Cyan (Prompt)
+color_08: '#8B8198'    # White
+
+color_09: '#BFB9C6'    # Bright Black
+color_10: '#D57E85'    # Bright Red (Command error)
+color_11: '#A3B367'    # Bright Green (Exec)
+color_12: '#DCB16C'    # Bright Yellow
+color_13: '#7297B9'    # Bright Blue (Folder)
+color_14: '#BB99B4'    # Bright Magenta
+color_15: '#69A9A7'    # Bright Cyan
+color_16: '#585062'    # Bright White
+
+background: '#FBF1F2'  # Background
+foreground: '#8B8198'  # Foreground (Text)
+
+cursor: '#8B8198'      # Cursor

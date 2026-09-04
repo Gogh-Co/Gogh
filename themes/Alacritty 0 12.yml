@@ -1,0 +1,29 @@
+---
+name: 'Alacritty 0 12'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#1D1F21'    # Black (Host)
+color_02: '#CC6666'    # Red (Syntax string)
+color_03: '#B5BD68'    # Green (Command)
+color_04: '#F0C674'    # Yellow (Command second)
+color_05: '#81A2BE'    # Blue (Path)
+color_06: '#B294BB'    # Magenta (Syntax var)
+color_07: '#8ABEB7'    # Cyan (Prompt)
+color_08: '#C5C8C6'    # White
+
+color_09: '#666666'    # Bright Black
+color_10: '#D54E53'    # Bright Red (Command error)
+color_11: '#B9CA4A'    # Bright Green (Exec)
+color_12: '#E7C547'    # Bright Yellow
+color_13: '#7AA6DA'    # Bright Blue (Folder)
+color_14: '#C397D8'    # Bright Magenta
+color_15: '#70C0B1'    # Bright Cyan
+color_16: '#EAEAEA'    # Bright White
+
+background: '#1D1F21'  # Background
+foreground: '#C5C8C6'  # Foreground (Text)
+
+cursor: '#C5C8C6'      # Cursor

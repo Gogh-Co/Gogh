@@ -1,0 +1,29 @@
+---
+name: 'Mocha'
+author: 'Chris Kempson (http://chriskempson.com)'
+author_name: 'Chris Kempson'
+author_url: 'http://chriskempson.com'
+variant: 'dark'            # dark or light
+
+color_01: '#3B3228'    # Black (Host)
+color_02: '#CB6077'    # Red (Syntax string)
+color_03: '#BEB55B'    # Green (Command)
+color_04: '#F4BC87'    # Yellow (Command second)
+color_05: '#8AB3B5'    # Blue (Path)
+color_06: '#A89BB9'    # Magenta (Syntax var)
+color_07: '#7BBDA4'    # Cyan (Prompt)
+color_08: '#D0C8C6'    # White
+
+color_09: '#7E705A'    # Bright Black
+color_10: '#CB6077'    # Bright Red (Command error)
+color_11: '#BEB55B'    # Bright Green (Exec)
+color_12: '#F4BC87'    # Bright Yellow
+color_13: '#8AB3B5'    # Bright Blue (Folder)
+color_14: '#A89BB9'    # Bright Magenta
+color_15: '#7BBDA4'    # Bright Cyan
+color_16: '#F5EEEB'    # Bright White
+
+background: '#3B3228'  # Background
+foreground: '#D0C8C6'  # Foreground (Text)
+
+cursor: '#D0C8C6'      # Cursor

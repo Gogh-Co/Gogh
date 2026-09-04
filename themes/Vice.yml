@@ -1,0 +1,29 @@
+---
+name: 'Vice'
+author: 'Thomas Leon Highbaugh thighbaugh@zoho.com'
+author_name: 'Thomas Leon Highbaugh thighbaugh@zoho.com'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#17191E'    # Black (Host)
+color_02: '#FF29A8'    # Red (Syntax string)
+color_03: '#0BADFF'    # Green (Command)
+color_04: '#F0FFAA'    # Yellow (Command second)
+color_05: '#00EAFF'    # Blue (Path)
+color_06: '#00F6D9'    # Magenta (Syntax var)
+color_07: '#8265FF'    # Cyan (Prompt)
+color_08: '#8B9CBE'    # White
+
+color_09: '#383A47'    # Bright Black
+color_10: '#FF29A8'    # Bright Red (Command error)
+color_11: '#0BADFF'    # Bright Green (Exec)
+color_12: '#F0FFAA'    # Bright Yellow
+color_13: '#00EAFF'    # Bright Blue (Folder)
+color_14: '#00F6D9'    # Bright Magenta
+color_15: '#8265FF'    # Bright Cyan
+color_16: '#F4F4F7'    # Bright White
+
+background: '#17191E'  # Background
+foreground: '#8B9CBE'  # Foreground (Text)
+
+cursor: '#8B9CBE'      # Cursor

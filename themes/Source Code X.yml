@@ -1,0 +1,29 @@
+---
+name: 'Source Code X'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#4E596B'    # Black (Host)
+color_02: '#FB695D'    # Red (Syntax string)
+color_03: '#74B391'    # Green (Command)
+color_04: '#FC8E3E'    # Yellow (Command second)
+color_05: '#9586F4'    # Blue (Path)
+color_06: '#FB5EA3'    # Magenta (Syntax var)
+color_07: '#79C8B6'    # Cyan (Prompt)
+color_08: '#BFBFBF'    # White
+
+color_09: '#91A0B1'    # Bright Black
+color_10: '#FB695D'    # Bright Red (Command error)
+color_11: '#AEF37C'    # Bright Green (Exec)
+color_12: '#FC8E3E'    # Bright Yellow
+color_13: '#53A4FB'    # Bright Blue (Folder)
+color_14: '#FB5EA3'    # Bright Magenta
+color_15: '#83D2C0'    # Bright Cyan
+color_16: '#91A0B1'    # Bright White
+
+background: '#1F1F24'  # Background
+foreground: '#000000'  # Foreground (Text)
+
+cursor: '#000000'      # Cursor

@@ -1,0 +1,29 @@
+---
+name: 'Embarcadero'
+author: 'Thomas Leon Highbaugh'
+author_name: 'Thomas Leon Highbaugh'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#252A2F'    # Black (Host)
+color_02: '#ED5D86'    # Red (Syntax string)
+color_03: '#20C290'    # Green (Command)
+color_04: '#EB824D'    # Yellow (Command second)
+color_05: '#4080D0'    # Blue (Path)
+color_06: '#A070D0'    # Magenta (Syntax var)
+color_07: '#02EFEF'    # Cyan (Prompt)
+color_08: '#BCBDC0'    # White
+
+color_09: '#7F8285'    # Bright Black
+color_10: '#F57D9A'    # Bright Red (Command error)
+color_11: '#A0D0A0'    # Bright Green (Exec)
+color_12: '#FFE089'    # Bright Yellow
+color_13: '#80B0F0'    # Bright Blue (Folder)
+color_14: '#C090F0'    # Bright Magenta
+color_15: '#40C0C0'    # Bright Cyan
+color_16: '#F8F8F8'    # Bright White
+
+background: '#252A2F'  # Background
+foreground: '#BCBDC0'  # Foreground (Text)
+
+cursor: '#BCBDC0'      # Cursor

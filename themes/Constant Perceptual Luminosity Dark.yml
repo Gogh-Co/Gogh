@@ -1,0 +1,29 @@
+---
+name: 'Constant Perceptual Luminosity Dark'
+author: 'Aaron Hall'
+author_name: 'Aaron Hall'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#B10B00'    # Red (Syntax string)
+color_03: '#007232'    # Green (Command)
+color_04: '#745B00'    # Yellow (Command second)
+color_05: '#3123FF'    # Blue (Path)
+color_06: '#9B0097'    # Magenta (Syntax var)
+color_07: '#006A78'    # Cyan (Prompt)
+color_08: '#777777'    # White
+
+color_09: '#464646'    # Bright Black
+color_10: '#FF3D2B'    # Bright Red (Command error)
+color_11: '#00AE50'    # Bright Green (Exec)
+color_12: '#B18C00'    # Bright Yellow
+color_13: '#6786FF'    # Bright Blue (Folder)
+color_14: '#EB00E4'    # Bright Magenta
+color_15: '#00A3B7'    # Bright Cyan
+color_16: '#ABABAB'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#777777'  # Foreground (Text)
+
+cursor: '#777777'      # Cursor

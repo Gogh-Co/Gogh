@@ -1,0 +1,29 @@
+---
+name: 'Snow Light'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'light'            # dark or light
+
+color_01: '#FBFFFF'    # Black (Host)
+color_02: '#AE5865'    # Red (Syntax string)
+color_03: '#4D7F43'    # Green (Command)
+color_04: '#906C33'    # Yellow (Command second)
+color_05: '#2B7AB2'    # Blue (Path)
+color_06: '#8F63A2'    # Magenta (Syntax var)
+color_07: '#008483'    # Cyan (Prompt)
+color_08: '#535C65'    # White
+
+color_09: '#6D7782'    # Bright Black
+color_10: '#AE5865'    # Bright Red (Command error)
+color_11: '#4D7F43'    # Bright Green (Exec)
+color_12: '#906C33'    # Bright Yellow
+color_13: '#2B7AB2'    # Bright Blue (Folder)
+color_14: '#8F63A2'    # Bright Magenta
+color_15: '#008483'    # Bright Cyan
+color_16: '#434951'    # Bright White
+
+background: '#FBFFFF'  # Background
+foreground: '#535C65'  # Foreground (Text)
+
+cursor: '#535C65'      # Cursor

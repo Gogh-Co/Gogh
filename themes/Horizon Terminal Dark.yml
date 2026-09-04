@@ -1,0 +1,29 @@
+---
+name: 'Horizon Terminal Dark'
+author: 'Michaël Ball (http://github.com/michael-ball/)'
+author_name: 'Michaël Ball'
+author_url: 'http://github.com/michael-ball/'
+variant: 'dark'            # dark or light
+
+color_01: '#1C1E26'    # Black (Host)
+color_02: '#E95678'    # Red (Syntax string)
+color_03: '#29D398'    # Green (Command)
+color_04: '#FAC29A'    # Yellow (Command second)
+color_05: '#26BBD9'    # Blue (Path)
+color_06: '#EE64AC'    # Magenta (Syntax var)
+color_07: '#59E1E3'    # Cyan (Prompt)
+color_08: '#CBCED0'    # White
+
+color_09: '#6F6F70'    # Bright Black
+color_10: '#E95678'    # Bright Red (Command error)
+color_11: '#29D398'    # Bright Green (Exec)
+color_12: '#FAC29A'    # Bright Yellow
+color_13: '#26BBD9'    # Bright Blue (Folder)
+color_14: '#EE64AC'    # Bright Magenta
+color_15: '#59E1E3'    # Bright Cyan
+color_16: '#E3E6EE'    # Bright White
+
+background: '#1C1E26'  # Background
+foreground: '#CBCED0'  # Foreground (Text)
+
+cursor: '#CBCED0'      # Cursor

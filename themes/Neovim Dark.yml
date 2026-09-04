@@ -1,0 +1,29 @@
+---
+name: 'Neovim Dark'
+author: 'Highlight Group.C (https://github.com/neovim/neovim/blob/master/src/nvim/highlight_group.c)'
+author_name: 'Highlight Group.C'
+author_url: 'https://github.com/neovim/neovim/blob/master/src/nvim/highlight_group.c'
+variant: 'dark'            # dark or light
+
+color_01: '#14161B'    # Black (Host)
+color_02: '#FFC0B9'    # Red (Syntax string)
+color_03: '#B3F6C0'    # Green (Command)
+color_04: '#FCE094'    # Yellow (Command second)
+color_05: '#A6DBFF'    # Blue (Path)
+color_06: '#FFCAFF'    # Magenta (Syntax var)
+color_07: '#8CF8F7'    # Cyan (Prompt)
+color_08: '#E0E2EA'    # White
+
+color_09: '#9B9EA4'    # Bright Black
+color_10: '#FFC0B9'    # Bright Red (Command error)
+color_11: '#B3F6C0'    # Bright Green (Exec)
+color_12: '#FCE094'    # Bright Yellow
+color_13: '#A6DBFF'    # Bright Blue (Folder)
+color_14: '#FFCAFF'    # Bright Magenta
+color_15: '#8CF8F7'    # Bright Cyan
+color_16: '#EEF1F8'    # Bright White
+
+background: '#14161B'  # Background
+foreground: '#E0E2EA'  # Foreground (Text)
+
+cursor: '#E0E2EA'      # Cursor

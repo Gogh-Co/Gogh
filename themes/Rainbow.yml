@@ -1,0 +1,29 @@
+---
+name: 'Rainbow'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#5B4375'    # Black (Host)
+color_02: '#426BB6'    # Red (Syntax string)
+color_03: '#2286B5'    # Green (Command)
+color_04: '#5AB782'    # Yellow (Command second)
+color_05: '#93CA5B'    # Blue (Path)
+color_06: '#C6C842'    # Magenta (Syntax var)
+color_07: '#8A5135'    # Cyan (Prompt)
+color_08: '#C54646'    # White
+
+color_09: '#5B4375'    # Bright Black
+color_10: '#426BB6'    # Bright Red (Command error)
+color_11: '#2286B5'    # Bright Green (Exec)
+color_12: '#5AB782'    # Bright Yellow
+color_13: '#93CA5B'    # Bright Blue (Folder)
+color_14: '#C6C842'    # Bright Magenta
+color_15: '#8A5135'    # Bright Cyan
+color_16: '#C54646'    # Bright White
+
+background: '#192835'  # Background
+foreground: '#AADA4F'  # Foreground (Text)
+
+cursor: '#AADA4F'      # Cursor

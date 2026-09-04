@@ -1,0 +1,29 @@
+---
+name: 'Konsole Linux'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#B21818'    # Red (Syntax string)
+color_03: '#18B218'    # Green (Command)
+color_04: '#B26818'    # Yellow (Command second)
+color_05: '#1818B2'    # Blue (Path)
+color_06: '#B218B2'    # Magenta (Syntax var)
+color_07: '#18B2B2'    # Cyan (Prompt)
+color_08: '#B2B2B2'    # White
+
+color_09: '#686868'    # Bright Black
+color_10: '#FF5454'    # Bright Red (Command error)
+color_11: '#54FF54'    # Bright Green (Exec)
+color_12: '#FFFF54'    # Bright Yellow
+color_13: '#5454FF'    # Bright Blue (Folder)
+color_14: '#FF54FF'    # Bright Magenta
+color_15: '#54FFFF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#1F1F1F'  # Background
+foreground: '#E3E3E3'  # Foreground (Text)
+
+cursor: '#E3E3E3'      # Cursor

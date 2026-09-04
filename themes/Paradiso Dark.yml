@@ -1,0 +1,29 @@
+---
+name: 'Paradiso Dark'
+author: 'BrokenSideViewMirror (https://github.com/BrokenSideViewMirror)'
+author_name: 'BrokenSideViewMirror'
+author_url: 'https://github.com/BrokenSideViewMirror'
+variant: 'dark'            # dark or light
+
+color_01: '#553A63'    # Black (Host)
+color_02: '#8EB8DB'    # Red (Syntax string)
+color_03: '#8E92DB'    # Green (Command)
+color_04: '#9157CC'    # Yellow (Command second)
+color_05: '#4660A0'    # Blue (Path)
+color_06: '#DB74E0'    # Magenta (Syntax var)
+color_07: '#68ACC1'    # Cyan (Prompt)
+color_08: '#B8D0DB'    # White
+
+color_09: '#6F4C82'    # Bright Black
+color_10: '#C2E1FC'    # Bright Red (Command error)
+color_11: '#C2C4FC'    # Bright Green (Exec)
+color_12: '#C68FFC'    # Bright Yellow
+color_13: '#5D8AFC'    # Bright Blue (Folder)
+color_14: '#F8AEFC'    # Bright Magenta
+color_15: '#99E5FC'    # Bright Cyan
+color_16: '#CCEBF9'    # Bright White
+
+background: '#302138'  # Background
+foreground: '#B8D0DB'  # Foreground (Text)
+
+cursor: '#B8D0DB'      # Cursor

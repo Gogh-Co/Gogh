@@ -1,0 +1,29 @@
+---
+name: 'School Boy Colored'
+author: 'BrokenSideViewMirror (https://github.com/BrokenSideViewMirror)'
+author_name: 'BrokenSideViewMirror'
+author_url: 'https://github.com/BrokenSideViewMirror'
+variant: 'dark'            # dark or light
+
+color_01: '#174715'    # Black (Host)
+color_02: '#FCA4A4'    # Red (Syntax string)
+color_03: '#9BFC94'    # Green (Command)
+color_04: '#FCF45F'    # Yellow (Command second)
+color_05: '#6384F9'    # Blue (Path)
+color_06: '#F771FC'    # Magenta (Syntax var)
+color_07: '#7EE9FC'    # Cyan (Prompt)
+color_08: '#BFBFBF'    # White
+
+color_09: '#21631E'    # Bright Black
+color_10: '#FCC2C2'    # Bright Red (Command error)
+color_11: '#BCFCB8'    # Bright Green (Exec)
+color_12: '#FCF797'    # Bright Yellow
+color_13: '#8AA3FC'    # Bright Blue (Folder)
+color_14: '#F99FFC'    # Bright Magenta
+color_15: '#A9EFFC'    # Bright Cyan
+color_16: '#DDDDDD'    # Bright White
+
+background: '#0B230A'  # Background
+foreground: '#BFBFBF'  # Foreground (Text)
+
+cursor: '#BFBFBF'      # Cursor

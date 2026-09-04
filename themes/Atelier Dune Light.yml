@@ -1,0 +1,29 @@
+---
+name: 'Atelier Dune Light'
+author: 'Bram de Haan (http://atelierbramdehaan.nl)'
+author_name: 'Bram de Haan'
+author_url: 'http://atelierbramdehaan.nl'
+variant: 'light'            # dark or light
+
+color_01: '#FEFBEC'    # Black (Host)
+color_02: '#D73737'    # Red (Syntax string)
+color_03: '#60AC39'    # Green (Command)
+color_04: '#AE9513'    # Yellow (Command second)
+color_05: '#6684E1'    # Blue (Path)
+color_06: '#B854D4'    # Magenta (Syntax var)
+color_07: '#1FAD83'    # Cyan (Prompt)
+color_08: '#6E6B5E'    # White
+
+color_09: '#999580'    # Bright Black
+color_10: '#D73737'    # Bright Red (Command error)
+color_11: '#60AC39'    # Bright Green (Exec)
+color_12: '#AE9513'    # Bright Yellow
+color_13: '#6684E1'    # Bright Blue (Folder)
+color_14: '#B854D4'    # Bright Magenta
+color_15: '#1FAD83'    # Bright Cyan
+color_16: '#20201D'    # Bright White
+
+background: '#FEFBEC'  # Background
+foreground: '#6E6B5E'  # Foreground (Text)
+
+cursor: '#6E6B5E'      # Cursor

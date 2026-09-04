@@ -1,0 +1,29 @@
+---
+name: 'Snow Dark'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#2C2D30'    # Black (Host)
+color_02: '#BE868C'    # Red (Syntax string)
+color_03: '#7F9D77'    # Green (Command)
+color_04: '#AB916D'    # Yellow (Command second)
+color_05: '#759ABD'    # Blue (Path)
+color_06: '#A88CB3'    # Magenta (Syntax var)
+color_07: '#5DA19F'    # Cyan (Prompt)
+color_08: '#AFB7C0'    # White
+
+color_09: '#363A3E'    # Bright Black
+color_10: '#BE868C'    # Bright Red (Command error)
+color_11: '#7F9D77'    # Bright Green (Exec)
+color_12: '#AB916D'    # Bright Yellow
+color_13: '#759ABD'    # Bright Blue (Folder)
+color_14: '#A88CB3'    # Bright Magenta
+color_15: '#5DA19F'    # Bright Cyan
+color_16: '#CBD2D9'    # Bright White
+
+background: '#2C2D30'  # Background
+foreground: '#AFB7C0'  # Foreground (Text)
+
+cursor: '#AFB7C0'      # Cursor

@@ -1,0 +1,29 @@
+---
+name: 'Yorumi Abyss'
+author: 'yorumicolors'
+author_name: 'yorumicolors'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#060914'    # Black (Host)
+color_02: '#C65E53'    # Red (Syntax string)
+color_03: '#8CB167'    # Green (Command)
+color_04: '#C39D55'    # Yellow (Command second)
+color_05: '#597BC0'    # Blue (Path)
+color_06: '#BB5D7D'    # Magenta (Syntax var)
+color_07: '#67BBB9'    # Cyan (Prompt)
+color_08: '#BDBFCB'    # White
+
+color_09: '#343742'    # Bright Black
+color_10: '#F47571'    # Bright Red (Command error)
+color_11: '#A9D07C'    # Bright Green (Exec)
+color_12: '#E1C084'    # Bright Yellow
+color_13: '#798DDC'    # Bright Blue (Folder)
+color_14: '#E184AF'    # Bright Magenta
+color_15: '#85E0CB'    # Bright Cyan
+color_16: '#D7E1B7'    # Bright White
+
+background: '#060914'  # Background
+foreground: '#BDBFCB'  # Foreground (Text)
+
+cursor: '#BDBFCB'      # Cursor

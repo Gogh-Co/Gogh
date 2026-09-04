@@ -1,0 +1,29 @@
+---
+name: 'Kokiri'
+author: 'Chuck'
+author_name: 'Chuck'
+author_url: ''
+variant: 'light'            # dark or light
+
+color_01: '#A0C080'    # Black (Host)
+color_02: '#B8860B'    # Red (Syntax string)
+color_03: '#4A7A4A'    # Green (Command)
+color_04: '#8A6830'    # Yellow (Command second)
+color_05: '#4A6A8A'    # Blue (Path)
+color_06: '#7A5A7A'    # Magenta (Syntax var)
+color_07: '#4A7A7A'    # Cyan (Prompt)
+color_08: '#C9A654'    # White
+
+color_09: '#704518'    # Bright Black
+color_10: '#D4A420'    # Bright Red (Command error)
+color_11: '#5A8A5A'    # Bright Green (Exec)
+color_12: '#A07838'    # Bright Yellow
+color_13: '#5A7A9A'    # Bright Blue (Folder)
+color_14: '#8A6A8A'    # Bright Magenta
+color_15: '#5A8A8A'    # Bright Cyan
+color_16: '#DDC070'    # Bright White
+
+background: '#C5D8A0'  # Background
+foreground: '#704518'  # Foreground (Text)
+
+cursor: '#704518'      # Cursor

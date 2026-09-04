@@ -1,0 +1,29 @@
+---
+name: 'Xterm'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#CD0000'    # Red (Syntax string)
+color_03: '#00CD00'    # Green (Command)
+color_04: '#CDCD00'    # Yellow (Command second)
+color_05: '#0000EE'    # Blue (Path)
+color_06: '#CD00CD'    # Magenta (Syntax var)
+color_07: '#00CDCD'    # Cyan (Prompt)
+color_08: '#E5E5E5'    # White
+
+color_09: '#7F7F7F'    # Bright Black
+color_10: '#FF0000'    # Bright Red (Command error)
+color_11: '#00FF00'    # Bright Green (Exec)
+color_12: '#FFFF00'    # Bright Yellow
+color_13: '#5C5CFF'    # Bright Blue (Folder)
+color_14: '#FF00FF'    # Bright Magenta
+color_15: '#00FFFF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

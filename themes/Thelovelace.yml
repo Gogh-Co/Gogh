@@ -1,0 +1,29 @@
+---
+name: 'Thelovelace'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#282A36'    # Black (Host)
+color_02: '#F37F97'    # Red (Syntax string)
+color_03: '#5ADECD'    # Green (Command)
+color_04: '#F2A272'    # Yellow (Command second)
+color_05: '#8897F4'    # Blue (Path)
+color_06: '#C574DD'    # Magenta (Syntax var)
+color_07: '#79E6F3'    # Cyan (Prompt)
+color_08: '#FDFDFD'    # White
+
+color_09: '#414458'    # Bright Black
+color_10: '#FF4971'    # Bright Red (Command error)
+color_11: '#18E3C8'    # Bright Green (Exec)
+color_12: '#EBCB8B'    # Bright Yellow
+color_13: '#FF8037'    # Bright Blue (Folder)
+color_14: '#556FFF'    # Bright Magenta
+color_15: '#3FDCEE'    # Bright Cyan
+color_16: '#BEBEC1'    # Bright White
+
+background: '#1D1F28'  # Background
+foreground: '#FDFDFD'  # Foreground (Text)
+
+cursor: '#FDFDFD'      # Cursor

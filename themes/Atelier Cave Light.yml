@@ -1,0 +1,29 @@
+---
+name: 'Atelier Cave Light'
+author: 'Bram de Haan (http://atelierbramdehaan.nl)'
+author_name: 'Bram de Haan'
+author_url: 'http://atelierbramdehaan.nl'
+variant: 'light'            # dark or light
+
+color_01: '#EFECF4'    # Black (Host)
+color_02: '#BE4678'    # Red (Syntax string)
+color_03: '#2A9292'    # Green (Command)
+color_04: '#A06E3B'    # Yellow (Command second)
+color_05: '#576DDB'    # Blue (Path)
+color_06: '#955AE7'    # Magenta (Syntax var)
+color_07: '#398BC6'    # Cyan (Prompt)
+color_08: '#585260'    # White
+
+color_09: '#7E7887'    # Bright Black
+color_10: '#BE4678'    # Bright Red (Command error)
+color_11: '#2A9292'    # Bright Green (Exec)
+color_12: '#A06E3B'    # Bright Yellow
+color_13: '#576DDB'    # Bright Blue (Folder)
+color_14: '#955AE7'    # Bright Magenta
+color_15: '#398BC6'    # Bright Cyan
+color_16: '#19171C'    # Bright White
+
+background: '#EFECF4'  # Background
+foreground: '#585260'  # Foreground (Text)
+
+cursor: '#585260'      # Cursor

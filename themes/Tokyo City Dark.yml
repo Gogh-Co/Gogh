@@ -1,0 +1,29 @@
+---
+name: 'Tokyo City Dark'
+author: 'Michaël Ball'
+author_name: 'Michaël Ball'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#171D23'    # Black (Host)
+color_02: '#F7768E'    # Red (Syntax string)
+color_03: '#9ECE6A'    # Green (Command)
+color_04: '#B7C5D3'    # Yellow (Command second)
+color_05: '#7AA2F7'    # Blue (Path)
+color_06: '#BB9AF7'    # Magenta (Syntax var)
+color_07: '#89DDFF'    # Cyan (Prompt)
+color_08: '#D8E2EC'    # White
+
+color_09: '#526270'    # Bright Black
+color_10: '#F7768E'    # Bright Red (Command error)
+color_11: '#9ECE6A'    # Bright Green (Exec)
+color_12: '#B7C5D3'    # Bright Yellow
+color_13: '#7AA2F7'    # Bright Blue (Folder)
+color_14: '#BB9AF7'    # Bright Magenta
+color_15: '#89DDFF'    # Bright Cyan
+color_16: '#FBFBFD'    # Bright White
+
+background: '#171D23'  # Background
+foreground: '#D8E2EC'  # Foreground (Text)
+
+cursor: '#D8E2EC'      # Cursor

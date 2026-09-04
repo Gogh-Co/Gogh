@@ -1,0 +1,29 @@
+---
+name: 'Gigavolt'
+author: 'Aidan Swope (http://github.com/Whillikers)'
+author_name: 'Aidan Swope'
+author_url: 'http://github.com/Whillikers'
+variant: 'dark'            # dark or light
+
+color_01: '#202126'    # Black (Host)
+color_02: '#FF661A'    # Red (Syntax string)
+color_03: '#F2E6A9'    # Green (Command)
+color_04: '#FFDC2D'    # Yellow (Command second)
+color_05: '#40BFFF'    # Blue (Path)
+color_06: '#AE94F9'    # Magenta (Syntax var)
+color_07: '#FB6ACB'    # Cyan (Prompt)
+color_08: '#E9E7E1'    # White
+
+color_09: '#A1D2E6'    # Bright Black
+color_10: '#FF661A'    # Bright Red (Command error)
+color_11: '#F2E6A9'    # Bright Green (Exec)
+color_12: '#FFDC2D'    # Bright Yellow
+color_13: '#40BFFF'    # Bright Blue (Folder)
+color_14: '#AE94F9'    # Bright Magenta
+color_15: '#FB6ACB'    # Bright Cyan
+color_16: '#F2FBFF'    # Bright White
+
+background: '#202126'  # Background
+foreground: '#E9E7E1'  # Foreground (Text)
+
+cursor: '#E9E7E1'      # Cursor

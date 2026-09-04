@@ -1,0 +1,29 @@
+---
+name: 'Alabaster Dark'
+author: 'Nikita Prokopov'
+author_name: 'Nikita Prokopov'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#E25D56'    # Red (Syntax string)
+color_03: '#73CA50'    # Green (Command)
+color_04: '#E9BF57'    # Yellow (Command second)
+color_05: '#4A88E4'    # Blue (Path)
+color_06: '#915CAF'    # Magenta (Syntax var)
+color_07: '#23ACDD'    # Cyan (Prompt)
+color_08: '#CECECE'    # White
+
+color_09: '#777777'    # Bright Black
+color_10: '#F36868'    # Bright Red (Command error)
+color_11: '#88DB3F'    # Bright Green (Exec)
+color_12: '#F0BF7A'    # Bright Yellow
+color_13: '#6F8FDB'    # Bright Blue (Folder)
+color_14: '#E987E9'    # Bright Magenta
+color_15: '#4AC9E2'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#0E1415'  # Background
+foreground: '#CECECE'  # Foreground (Text)
+
+cursor: '#CECECE'      # Cursor

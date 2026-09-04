@@ -1,0 +1,29 @@
+---
+name: 'Ia Dark'
+author: 'iA Inc. (modified by aramisgithub)'
+author_name: 'iA Inc. (modified by aramisgithub)'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#1A1A1A'    # Black (Host)
+color_02: '#D88568'    # Red (Syntax string)
+color_03: '#83A471'    # Green (Command)
+color_04: '#B99353'    # Yellow (Command second)
+color_05: '#8ECCDD'    # Blue (Path)
+color_06: '#B98EB2'    # Magenta (Syntax var)
+color_07: '#7C9CAE'    # Cyan (Prompt)
+color_08: '#CCCCCC'    # White
+
+color_09: '#767676'    # Bright Black
+color_10: '#D88568'    # Bright Red (Command error)
+color_11: '#83A471'    # Bright Green (Exec)
+color_12: '#B99353'    # Bright Yellow
+color_13: '#8ECCDD'    # Bright Blue (Folder)
+color_14: '#B98EB2'    # Bright Magenta
+color_15: '#7C9CAE'    # Bright Cyan
+color_16: '#F8F8F8'    # Bright White
+
+background: '#1A1A1A'  # Background
+foreground: '#CCCCCC'  # Foreground (Text)
+
+cursor: '#CCCCCC'      # Cursor

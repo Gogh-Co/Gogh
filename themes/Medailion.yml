@@ -1,0 +1,29 @@
+---
+name: 'Medailion'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#B54C00'    # Red (Syntax string)
+color_03: '#7C8A16'    # Green (Command)
+color_04: '#ABB8FF'    # Yellow (Command second)
+color_05: '#606BAF'    # Blue (Path)
+color_06: '#8B5990'    # Magenta (Syntax var)
+color_07: '#906B25'    # Cyan (Prompt)
+color_08: '#C9C199'    # White
+
+color_09: '#5E5118'    # Bright Black
+color_10: '#FF9148'    # Bright Red (Command error)
+color_11: '#B1C93A'    # Bright Green (Exec)
+color_12: '#FFE449'    # Bright Yellow
+color_13: '#ABB8FF'    # Bright Blue (Folder)
+color_14: '#FE9FFF'    # Bright Magenta
+color_15: '#FFBB51'    # Bright Cyan
+color_16: '#FED597'    # Bright White
+
+background: '#1D1808'  # Background
+foreground: '#AEA578'  # Foreground (Text)
+
+cursor: '#AEA578'      # Cursor

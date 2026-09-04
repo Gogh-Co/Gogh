@@ -1,0 +1,29 @@
+---
+name: 'Kanagawa'
+author: 'Tommaso Laurenzi (https://github.com/rebelot)'
+author_name: 'Tommaso Laurenzi'
+author_url: 'https://github.com/rebelot'
+variant: 'dark'            # dark or light
+
+color_01: '#1F1F28'    # Black (Host)
+color_02: '#C34043'    # Red (Syntax string)
+color_03: '#76946A'    # Green (Command)
+color_04: '#C0A36E'    # Yellow (Command second)
+color_05: '#7E9CD8'    # Blue (Path)
+color_06: '#957FB8'    # Magenta (Syntax var)
+color_07: '#6A9589'    # Cyan (Prompt)
+color_08: '#DCD7BA'    # White
+
+color_09: '#54546D'    # Bright Black
+color_10: '#C34043'    # Bright Red (Command error)
+color_11: '#76946A'    # Bright Green (Exec)
+color_12: '#C0A36E'    # Bright Yellow
+color_13: '#7E9CD8'    # Bright Blue (Folder)
+color_14: '#957FB8'    # Bright Magenta
+color_15: '#6A9589'    # Bright Cyan
+color_16: '#717C7C'    # Bright White
+
+background: '#1F1F28'  # Background
+foreground: '#DCD7BA'  # Foreground (Text)
+
+cursor: '#DCD7BA'      # Cursor

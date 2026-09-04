@@ -1,0 +1,29 @@
+---
+name: 'Baitong'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#F77272'    # Red (Syntax string)
+color_03: '#33FF33'    # Green (Command)
+color_04: '#1AE642'    # Yellow (Command second)
+color_05: '#68FDFE'    # Blue (Path)
+color_06: '#FF66FF'    # Magenta (Syntax var)
+color_07: '#87CEFA'    # Cyan (Prompt)
+color_08: '#DBDBD9'    # White
+
+color_09: '#FFFFFF'    # Bright Black
+color_10: '#F77272'    # Bright Red (Command error)
+color_11: '#33FF33'    # Bright Green (Exec)
+color_12: '#1AE642'    # Bright Yellow
+color_13: '#68FDFE'    # Bright Blue (Folder)
+color_14: '#FF66FF'    # Bright Magenta
+color_15: '#68FDFE'    # Bright Cyan
+color_16: '#DBDBD9'    # Bright White
+
+background: '#112A2A'  # Background
+foreground: '#33FF33'  # Foreground (Text)
+
+cursor: '#33FF33'      # Cursor

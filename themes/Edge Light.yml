@@ -1,0 +1,29 @@
+---
+name: 'Edge Light'
+author: 'cjayross, Tinted Theming (https://github.com/cjayross)'
+author_name: 'cjayross, Tinted Theming'
+author_url: 'https://github.com/cjayross'
+variant: 'light'            # dark or light
+
+color_01: '#FAFAFA'    # Black (Host)
+color_02: '#DB7070'    # Red (Syntax string)
+color_03: '#7C9F4B'    # Green (Command)
+color_04: '#EBCC1A'    # Yellow (Command second)
+color_05: '#6587BF'    # Blue (Path)
+color_06: '#B870CE'    # Magenta (Syntax var)
+color_07: '#509C93'    # Cyan (Prompt)
+color_08: '#474752'    # White
+
+color_09: '#9197A1'    # Bright Black
+color_10: '#DB7070'    # Bright Red (Command error)
+color_11: '#7C9F4B'    # Bright Green (Exec)
+color_12: '#EBCC1A'    # Bright Yellow
+color_13: '#6587BF'    # Bright Blue (Folder)
+color_14: '#B870CE'    # Bright Magenta
+color_15: '#509C93'    # Bright Cyan
+color_16: '#2E2E38'    # Bright White
+
+background: '#FAFAFA'  # Background
+foreground: '#474752'  # Foreground (Text)
+
+cursor: '#474752'      # Cursor

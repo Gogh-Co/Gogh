@@ -1,0 +1,29 @@
+---
+name: 'Atelier Savanna Dark'
+author: 'Bram de Haan (https://github.com/atelierbram)'
+author_name: 'Bram de Haan'
+author_url: 'https://github.com/atelierbram'
+variant: 'dark'            # dark or light
+
+color_01: '#171C19'    # Black (Host)
+color_02: '#B16139'    # Red (Syntax string)
+color_03: '#489963'    # Green (Command)
+color_04: '#A07E3B'    # Yellow (Command second)
+color_05: '#478C90'    # Blue (Path)
+color_06: '#55859B'    # Magenta (Syntax var)
+color_07: '#1C9AA0'    # Cyan (Prompt)
+color_08: '#87928A'    # White
+
+color_09: '#5F6D64'    # Bright Black
+color_10: '#9F713C'    # Bright Red (Command error)
+color_11: '#232A25'    # Bright Green (Exec)
+color_12: '#526057'    # Bright Yellow
+color_13: '#78877D'    # Bright Blue (Folder)
+color_14: '#DFE7E2'    # Bright Magenta
+color_15: '#867469'    # Bright Cyan
+color_16: '#ECF4EE'    # Bright White
+
+background: '#171C19'  # Background
+foreground: '#87928A'  # Foreground (Text)
+
+cursor: '#87928A'      # Cursor

@@ -1,0 +1,29 @@
+---
+name: 'Love Ghost'
+author: 'Chuck'
+author_name: 'Chuck'
+author_url: ''
+variant: 'light'            # dark or light
+
+color_01: '#C0B4B8'    # Black (Host)
+color_02: '#806068'    # Red (Syntax string)
+color_03: '#485848'    # Green (Command)
+color_04: '#604838'    # Yellow (Command second)
+color_05: '#484058'    # Blue (Path)
+color_06: '#603848'    # Magenta (Syntax var)
+color_07: '#385050'    # Cyan (Prompt)
+color_08: '#B0A8A4'    # White
+
+color_09: '#3A2830'    # Bright Black
+color_10: '#987078'    # Bright Red (Command error)
+color_11: '#586858'    # Bright Green (Exec)
+color_12: '#705848'    # Bright Yellow
+color_13: '#585068'    # Bright Blue (Folder)
+color_14: '#704858'    # Bright Magenta
+color_15: '#486060'    # Bright Cyan
+color_16: '#C8C0BC'    # Bright White
+
+background: '#EBE5E6'  # Background
+foreground: '#3A2830'  # Foreground (Text)
+
+cursor: '#3A2830'      # Cursor

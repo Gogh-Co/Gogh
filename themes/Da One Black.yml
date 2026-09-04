@@ -1,0 +1,29 @@
+---
+name: 'Da One Black'
+author: 'NNB (https://github.com/NNBnh)'
+author_name: 'NNB'
+author_url: 'https://github.com/NNBnh'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#FA7883'    # Red (Syntax string)
+color_03: '#98C379'    # Green (Command)
+color_04: '#FF9470'    # Yellow (Command second)
+color_05: '#6BB8FF'    # Blue (Path)
+color_06: '#E799FF'    # Magenta (Syntax var)
+color_07: '#8AF5FF'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#888888'    # Bright Black
+color_10: '#FA7883'    # Bright Red (Command error)
+color_11: '#98C379'    # Bright Green (Exec)
+color_12: '#FF9470'    # Bright Yellow
+color_13: '#6BB8FF'    # Bright Blue (Folder)
+color_14: '#E799FF'    # Bright Magenta
+color_15: '#8AF5FF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

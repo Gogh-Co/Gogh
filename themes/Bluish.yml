@@ -1,0 +1,29 @@
+---
+name: 'Bluish'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#0B0B0C'    # Black (Host)
+color_02: '#377FC4'    # Red (Syntax string)
+color_03: '#2691E7'    # Green (Command)
+color_04: '#2090C1'    # Yellow (Command second)
+color_05: '#2C5E87'    # Blue (Path)
+color_06: '#436280'    # Magenta (Syntax var)
+color_07: '#547AA2'    # Cyan (Prompt)
+color_08: '#536679'    # White
+
+color_09: '#23272C'    # Bright Black
+color_10: '#66A5CC'    # Bright Red (Command error)
+color_11: '#59B0F2'    # Bright Green (Exec)
+color_12: '#4BB0D3'    # Bright Yellow
+color_13: '#487092'    # Bright Blue (Folder)
+color_14: '#50829E'    # Bright Magenta
+color_15: '#658795'    # Bright Cyan
+color_16: '#4D676B'    # Bright White
+
+background: '#2C3640'  # Background
+foreground: '#297DD3'  # Foreground (Text)
+
+cursor: '#297DD3'      # Cursor

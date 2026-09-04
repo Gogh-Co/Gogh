@@ -1,0 +1,29 @@
+---
+name: 'Venom'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#2E3436'    # Black (Host)
+color_02: '#E94759'    # Red (Syntax string)
+color_03: '#9ECFA2'    # Green (Command)
+color_04: '#F3EFA9'    # Yellow (Command second)
+color_05: '#00898D'    # Blue (Path)
+color_06: '#9C21B0'    # Magenta (Syntax var)
+color_07: '#06989A'    # Cyan (Prompt)
+color_08: '#D3D7CF'    # White
+
+color_09: '#555753'    # Bright Black
+color_10: '#EF2929'    # Bright Red (Command error)
+color_11: '#8AE234'    # Bright Green (Exec)
+color_12: '#FCE94F'    # Bright Yellow
+color_13: '#729FCF'    # Bright Blue (Folder)
+color_14: '#AD7FA8'    # Bright Magenta
+color_15: '#34E2E2'    # Bright Cyan
+color_16: '#EEEEEC'    # Bright White
+
+background: '#060D14'  # Background
+foreground: '#668198'  # Foreground (Text)
+
+cursor: '#668198'      # Cursor

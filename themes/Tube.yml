@@ -1,0 +1,29 @@
+---
+name: 'Tube'
+author: 'Jan T. Sott'
+author_name: 'Jan T. Sott'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#231F20'    # Black (Host)
+color_02: '#EE2E24'    # Red (Syntax string)
+color_03: '#00853E'    # Green (Command)
+color_04: '#FFD204'    # Yellow (Command second)
+color_05: '#009DDC'    # Blue (Path)
+color_06: '#98005D'    # Magenta (Syntax var)
+color_07: '#85CEBC'    # Cyan (Prompt)
+color_08: '#D9D8D8'    # White
+
+color_09: '#737171'    # Bright Black
+color_10: '#EE2E24'    # Bright Red (Command error)
+color_11: '#00853E'    # Bright Green (Exec)
+color_12: '#FFD204'    # Bright Yellow
+color_13: '#009DDC'    # Bright Blue (Folder)
+color_14: '#98005D'    # Bright Magenta
+color_15: '#85CEBC'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#231F20'  # Background
+foreground: '#D9D8D8'  # Foreground (Text)
+
+cursor: '#D9D8D8'      # Cursor

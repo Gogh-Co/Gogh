@@ -1,0 +1,29 @@
+---
+name: 'Gnome Terminal'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#171421'    # Black (Host)
+color_02: '#C01C28'    # Red (Syntax string)
+color_03: '#26A269'    # Green (Command)
+color_04: '#A2734C'    # Yellow (Command second)
+color_05: '#12488B'    # Blue (Path)
+color_06: '#A347BA'    # Magenta (Syntax var)
+color_07: '#2AA1B3'    # Cyan (Prompt)
+color_08: '#D0CFCC'    # White
+
+color_09: '#5E5C64'    # Bright Black
+color_10: '#F66151'    # Bright Red (Command error)
+color_11: '#33D17A'    # Bright Green (Exec)
+color_12: '#E9AD0C'    # Bright Yellow
+color_13: '#2A7BDE'    # Bright Blue (Folder)
+color_14: '#C061CB'    # Bright Magenta
+color_15: '#33C7DE'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#1E1E1E'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

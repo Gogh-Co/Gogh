@@ -1,0 +1,29 @@
+---
+name: 'Juicy'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#2E3436'    # Black (Host)
+color_02: '#FF0945'    # Red (Syntax string)
+color_03: '#1AFF81'    # Green (Command)
+color_04: '#FFF64A'    # Yellow (Command second)
+color_05: '#2BF1FF'    # Blue (Path)
+color_06: '#7B68EE'    # Magenta (Syntax var)
+color_07: '#98F4FF'    # Cyan (Prompt)
+color_08: '#D3D7CF'    # White
+
+color_09: '#555753'    # Bright Black
+color_10: '#FF0945'    # Bright Red (Command error)
+color_11: '#1AFF81'    # Bright Green (Exec)
+color_12: '#FFF64A'    # Bright Yellow
+color_13: '#2BF1FF'    # Bright Blue (Folder)
+color_14: '#7B68EE'    # Bright Magenta
+color_15: '#98F4FF'    # Bright Cyan
+color_16: '#EEEEEC'    # Bright White
+
+background: '#212121'  # Background
+foreground: '#FCFCFC'  # Foreground (Text)
+
+cursor: '#FCFCFC'      # Cursor

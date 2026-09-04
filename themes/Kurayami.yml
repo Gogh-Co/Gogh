@@ -1,0 +1,29 @@
+---
+name: 'Kurayami'
+author: 'Kevin M (github.com/kevinm6)'
+author_name: 'Kevin M (github.com/kevinm6)'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#2C2C2C'    # Black (Host)
+color_02: '#BF616A'    # Red (Syntax string)
+color_03: '#00AF87'    # Green (Command)
+color_04: '#CECB00'    # Yellow (Command second)
+color_05: '#158C8A'    # Blue (Path)
+color_06: '#B48EAD'    # Magenta (Syntax var)
+color_07: '#1A8FFF'    # Cyan (Prompt)
+color_08: '#DCDCDC'    # White
+
+color_09: '#626262'    # Bright Black
+color_10: '#B2201F'    # Bright Red (Command error)
+color_11: '#36F57A'    # Bright Green (Exec)
+color_12: '#FFFD00'    # Bright Yellow
+color_13: '#1A8FFF'    # Bright Blue (Folder)
+color_14: '#CB1ED1'    # Bright Magenta
+color_15: '#14FFFF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#1C1C1C'  # Background
+foreground: '#CCCCCC'  # Foreground (Text)
+
+cursor: '#CCCCCC'      # Cursor

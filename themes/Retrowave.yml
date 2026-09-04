@@ -1,0 +1,29 @@
+---
+name: 'Retrowave'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#181A1F'    # Black (Host)
+color_02: '#FF16B0'    # Red (Syntax string)
+color_03: '#929292'    # Green (Command)
+color_04: '#FCEE54'    # Yellow (Command second)
+color_05: '#46BDFF'    # Blue (Path)
+color_06: '#FF92DF'    # Magenta (Syntax var)
+color_07: '#DF81FC'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#FF16B0'    # Bright Black
+color_10: '#F85353'    # Bright Red (Command error)
+color_11: '#FCEE54'    # Bright Green (Exec)
+color_12: '#FFFFFF'    # Bright Yellow
+color_13: '#46BDFF'    # Bright Blue (Folder)
+color_14: '#FF92DF'    # Bright Magenta
+color_15: '#FF901F'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#070825'  # Background
+foreground: '#46BDFF'  # Foreground (Text)
+
+cursor: '#46BDFF'      # Cursor

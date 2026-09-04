@@ -1,0 +1,29 @@
+---
+name: 'Ferra'
+author: 'eureka-cpu · (https://github.com/eureka-cpu)'
+author_name: 'eureka-cpu ·'
+author_url: 'https://github.com/eureka-cpu'
+variant: 'dark'            # dark or light
+
+color_01: '#1F1E20'    # Black (Host)
+color_02: '#C05862'    # Red (Syntax string)
+color_03: '#8E9478'    # Green (Command)
+color_04: '#FFA07A'    # Yellow (Command second)
+color_05: '#BFBFCF'    # Blue (Path)
+color_06: '#F6B6C9'    # Magenta (Syntax var)
+color_07: '#8EB5B0'    # Cyan (Prompt)
+color_08: '#D8D4D6'    # White
+
+color_09: '#6F5D63'    # Bright Black
+color_10: '#E06B75'    # Bright Red (Command error)
+color_11: '#B1B695'    # Bright Green (Exec)
+color_12: '#B8864E'    # Bright Yellow
+color_13: '#D1D1E0'    # Bright Blue (Folder)
+color_14: '#E8829C'    # Bright Magenta
+color_15: '#AACDC8'    # Bright Cyan
+color_16: '#E4E0E2'    # Bright White
+
+background: '#2B292D'  # Background
+foreground: '#FECDB2'  # Foreground (Text)
+
+cursor: '#FECDB2'      # Cursor

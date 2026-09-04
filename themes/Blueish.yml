@@ -1,0 +1,29 @@
+---
+name: 'Blueish'
+author: 'Ben Mayoras'
+author_name: 'Ben Mayoras'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#182430'    # Black (Host)
+color_02: '#4CE587'    # Red (Syntax string)
+color_03: '#C3E88D'    # Green (Command)
+color_04: '#F6CD5C'    # Yellow (Command second)
+color_05: '#82AAFF'    # Blue (Path)
+color_06: '#FF84DD'    # Magenta (Syntax var)
+color_07: '#5FD1FF'    # Cyan (Prompt)
+color_08: '#C8E1F8'    # White
+
+color_09: '#616D78'    # Bright Black
+color_10: '#4CE587'    # Bright Red (Command error)
+color_11: '#C3E88D'    # Bright Green (Exec)
+color_12: '#F6CD5C'    # Bright Yellow
+color_13: '#82AAFF'    # Bright Blue (Folder)
+color_14: '#FF84DD'    # Bright Magenta
+color_15: '#5FD1FF'    # Bright Cyan
+color_16: '#8F98A0'    # Bright White
+
+background: '#182430'  # Background
+foreground: '#C8E1F8'  # Foreground (Text)
+
+cursor: '#C8E1F8'      # Cursor

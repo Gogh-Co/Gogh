@@ -1,0 +1,29 @@
+---
+name: 'Dark Pastels'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#3F3F3F'    # Black (Host)
+color_02: '#705050'    # Red (Syntax string)
+color_03: '#60B48A'    # Green (Command)
+color_04: '#DFAF8F'    # Yellow (Command second)
+color_05: '#9AB8D7'    # Blue (Path)
+color_06: '#DC8CC3'    # Magenta (Syntax var)
+color_07: '#8CD0D3'    # Cyan (Prompt)
+color_08: '#DCDCCC'    # White
+
+color_09: '#709080'    # Bright Black
+color_10: '#DCA3A3'    # Bright Red (Command error)
+color_11: '#72D5A3'    # Bright Green (Exec)
+color_12: '#F0DFAF'    # Bright Yellow
+color_13: '#94BFF3'    # Bright Blue (Folder)
+color_14: '#EC93D3'    # Bright Magenta
+color_15: '#93E0E3'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#2C2C2C'  # Background
+foreground: '#DCDCCC'  # Foreground (Text)
+
+cursor: '#DCDCCC'      # Cursor

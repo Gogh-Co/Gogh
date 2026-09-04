@@ -1,0 +1,29 @@
+---
+name: 'Github Dark Tritanopia'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#484F58'    # Black (Host)
+color_02: '#FF7B72'    # Red (Syntax string)
+color_03: '#58A6FF'    # Green (Command)
+color_04: '#D29922'    # Yellow (Command second)
+color_05: '#58A6FF'    # Blue (Path)
+color_06: '#BC8CFF'    # Magenta (Syntax var)
+color_07: '#39C5CF'    # Cyan (Prompt)
+color_08: '#B1BAC4'    # White
+
+color_09: '#6E7681'    # Bright Black
+color_10: '#FFA198'    # Bright Red (Command error)
+color_11: '#79C0FF'    # Bright Green (Exec)
+color_12: '#E3B341'    # Bright Yellow
+color_13: '#79C0FF'    # Bright Blue (Folder)
+color_14: '#BC8CFF'    # Bright Magenta
+color_15: '#39C5CF'    # Bright Cyan
+color_16: '#B1BAC4'    # Bright White
+
+background: '#0D1117'  # Background
+foreground: '#C9D1D9'  # Foreground (Text)
+
+cursor: '#C9D1D9'      # Cursor

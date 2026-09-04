@@ -1,0 +1,29 @@
+---
+name: 'Tokyo Night Dark'
+author: 'Michaël Ball, based on Tokyo Night by enkia (https://github.com/enkia/tokyo-night-vscode-theme)'
+author_name: 'Michaël Ball, based on Tokyo Night by enkia'
+author_url: 'https://github.com/enkia/tokyo-night-vscode-theme'
+variant: 'dark'            # dark or light
+
+color_01: '#1A1B26'    # Black (Host)
+color_02: '#C0CAF5'    # Red (Syntax string)
+color_03: '#9ECE6A'    # Green (Command)
+color_04: '#0DB9D7'    # Yellow (Command second)
+color_05: '#2AC3DE'    # Blue (Path)
+color_06: '#BB9AF7'    # Magenta (Syntax var)
+color_07: '#B4F9F8'    # Cyan (Prompt)
+color_08: '#A9B1D6'    # White
+
+color_09: '#444B6A'    # Bright Black
+color_10: '#FF7A93'    # Bright Red (Command error)
+color_11: '#73DACA'    # Bright Green (Exec)
+color_12: '#FF9E64'    # Bright Yellow
+color_13: '#89DDFF'    # Bright Blue (Folder)
+color_14: '#BB9AF7'    # Bright Magenta
+color_15: '#7DCFFF'    # Bright Cyan
+color_16: '#D5D6DB'    # Bright White
+
+background: '#1A1B26'  # Background
+foreground: '#A9B1D6'  # Foreground (Text)
+
+cursor: '#A9B1D6'      # Cursor

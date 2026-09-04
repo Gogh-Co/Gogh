@@ -1,0 +1,29 @@
+---
+name: 'Pastelon De Amarillos'
+author: 'Richard Martinez (https://sonofmartinus.com)'
+author_name: 'Richard Martinez'
+author_url: 'https://sonofmartinus.com'
+variant: 'light'            # dark or light
+
+color_01: '#FFF4D6'    # Black (Host)
+color_02: '#A63D4A'    # Red (Syntax string)
+color_03: '#327056'    # Green (Command)
+color_04: '#846600'    # Yellow (Command second)
+color_05: '#365F91'    # Blue (Path)
+color_06: '#784A78'    # Magenta (Syntax var)
+color_07: '#276E6C'    # Cyan (Prompt)
+color_08: '#432C3B'    # White
+
+color_09: '#80616B'    # Bright Black
+color_10: '#A86E00'    # Bright Red (Command error)
+color_11: '#007B78'    # Bright Green (Exec)
+color_12: '#007B4E'    # Bright Yellow
+color_13: '#9B3395'    # Bright Blue (Folder)
+color_14: '#87301F'    # Bright Magenta
+color_15: '#005EB8'    # Bright Cyan
+color_16: '#1C0F20'    # Bright White
+
+background: '#FFF4D6'  # Background
+foreground: '#432C3B'  # Foreground (Text)
+
+cursor: '#432C3B'      # Cursor

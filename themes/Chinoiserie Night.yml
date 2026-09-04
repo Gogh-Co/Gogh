@@ -1,0 +1,29 @@
+---
+name: 'Chinoiserie Night'
+author: 'Di Wang (https://cs.cmu.edu/~diw3)'
+author_name: 'Di Wang'
+author_url: 'https://cs.cmu.edu/~diw3'
+variant: 'dark'            # dark or light
+
+color_01: '#1D1D1D'    # Black (Host)
+color_02: '#F07C82'    # Red (Syntax string)
+color_03: '#B2CF87'    # Green (Command)
+color_04: '#F4CE69'    # Yellow (Command second)
+color_05: '#8FB2C9'    # Blue (Path)
+color_06: '#BE9DB9'    # Magenta (Syntax var)
+color_07: '#B0D5DF'    # Cyan (Prompt)
+color_08: '#C4CBCF'    # White
+
+color_09: '#918072'    # Bright Black
+color_10: '#F07C82'    # Bright Red (Command error)
+color_11: '#B2CF87'    # Bright Green (Exec)
+color_12: '#F4CE69'    # Bright Yellow
+color_13: '#8FB2C9'    # Bright Blue (Folder)
+color_14: '#BE9DB9'    # Bright Magenta
+color_15: '#B0D5DF'    # Bright Cyan
+color_16: '#FFFEF9'    # Bright White
+
+background: '#1D1D1D'  # Background
+foreground: '#C4CBCF'  # Foreground (Text)
+
+cursor: '#C4CBCF'      # Cursor

@@ -1,0 +1,29 @@
+---
+name: 'Aquarium Light'
+author: 'ragdoll2iguess'
+author_name: 'ragdoll2iguess'
+author_url: ''
+variant: 'light'            # dark or light
+
+color_01: '#D5D4E0'    # Black (Host)
+color_02: '#C34864'    # Red (Syntax string)
+color_03: '#7D9685'    # Green (Command)
+color_04: '#DE956F'    # Yellow (Command second)
+color_05: '#6A8CBC'    # Blue (Path)
+color_06: '#8787BF'    # Magenta (Syntax var)
+color_07: '#829FB0'    # Cyan (Prompt)
+color_08: '#313449'    # White
+
+color_09: '#CCCBD9'    # Bright Black
+color_10: '#B7435E'    # Bright Red (Command error)
+color_11: '#7E8F80'    # Bright Green (Exec)
+color_12: '#D88B72'    # Bright Yellow
+color_13: '#6E7EBF'    # Bright Blue (Folder)
+color_14: '#7170C2'    # Bright Magenta
+color_15: '#728A9A'    # Bright Cyan
+color_16: '#414560'    # Bright White
+
+background: '#E6E6F1'  # Background
+foreground: '#708190'  # Foreground (Text)
+
+cursor: '#708190'      # Cursor

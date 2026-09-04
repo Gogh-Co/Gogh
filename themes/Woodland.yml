@@ -1,0 +1,29 @@
+---
+name: 'Woodland'
+author: 'Jay Cornwall (https://jcornwall.com)'
+author_name: 'Jay Cornwall'
+author_url: 'https://jcornwall.com'
+variant: 'dark'            # dark or light
+
+color_01: '#231E18'    # Black (Host)
+color_02: '#D35C5C'    # Red (Syntax string)
+color_03: '#B7BA53'    # Green (Command)
+color_04: '#E0AC16'    # Yellow (Command second)
+color_05: '#88A4D3'    # Blue (Path)
+color_06: '#BB90E2'    # Magenta (Syntax var)
+color_07: '#6EB958'    # Cyan (Prompt)
+color_08: '#CABCB1'    # White
+
+color_09: '#9D8B70'    # Bright Black
+color_10: '#D35C5C'    # Bright Red (Command error)
+color_11: '#B7BA53'    # Bright Green (Exec)
+color_12: '#E0AC16'    # Bright Yellow
+color_13: '#88A4D3'    # Bright Blue (Folder)
+color_14: '#BB90E2'    # Bright Magenta
+color_15: '#6EB958'    # Bright Cyan
+color_16: '#E4D4C8'    # Bright White
+
+background: '#231E18'  # Background
+foreground: '#CABCB1'  # Foreground (Text)
+
+cursor: '#CABCB1'      # Cursor

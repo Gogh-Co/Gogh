@@ -1,0 +1,29 @@
+---
+name: 'Measured Light'
+author: 'Measured (https://measured.co)'
+author_name: 'Measured'
+author_url: 'https://measured.co'
+variant: 'light'            # dark or light
+
+color_01: '#FDF9F5'    # Black (Host)
+color_02: '#AC1F35'    # Red (Syntax string)
+color_03: '#0C680C'    # Green (Command)
+color_04: '#645A00'    # Yellow (Command second)
+color_05: '#0158AD'    # Blue (Path)
+color_06: '#6645C2'    # Magenta (Syntax var)
+color_07: '#01716F'    # Cyan (Prompt)
+color_08: '#292929'    # White
+
+color_09: '#5A5A5A'    # Bright Black
+color_10: '#AC1F35'    # Bright Red (Command error)
+color_11: '#0C680C'    # Bright Green (Exec)
+color_12: '#645A00'    # Bright Yellow
+color_13: '#0158AD'    # Bright Blue (Folder)
+color_14: '#6645C2'    # Bright Magenta
+color_15: '#01716F'    # Bright Cyan
+color_16: '#000000'    # Bright White
+
+background: '#FDF9F5'  # Background
+foreground: '#292929'  # Foreground (Text)
+
+cursor: '#292929'      # Cursor

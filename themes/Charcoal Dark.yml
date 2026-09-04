@@ -1,0 +1,29 @@
+---
+name: 'Charcoal Dark'
+author: 'Mubin Muhammad (https://github.com/mubin6th)'
+author_name: 'Mubin Muhammad'
+author_url: 'https://github.com/mubin6th'
+variant: 'dark'            # dark or light
+
+color_01: '#0F0B05'    # Black (Host)
+color_02: '#A88C62'    # Red (Syntax string)
+color_03: '#DEC8A7'    # Green (Command)
+color_04: '#DEC8A7'    # Yellow (Command second)
+color_05: '#C3A983'    # Blue (Path)
+color_06: '#A88C62'    # Magenta (Syntax var)
+color_07: '#DEC8A7'    # Cyan (Prompt)
+color_08: '#C3A983'    # White
+
+color_09: '#57462C'    # Bright Black
+color_10: '#A88C62'    # Bright Red (Command error)
+color_11: '#DEC8A7'    # Bright Green (Exec)
+color_12: '#DEC8A7'    # Bright Yellow
+color_13: '#C3A983'    # Bright Blue (Folder)
+color_14: '#A88C62'    # Bright Magenta
+color_15: '#DEC8A7'    # Bright Cyan
+color_16: '#231B0E'    # Bright White
+
+background: '#0F0B05'  # Background
+foreground: '#C3A983'  # Foreground (Text)
+
+cursor: '#C3A983'      # Cursor

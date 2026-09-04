@@ -1,0 +1,29 @@
+---
+name: 'Evenok Dark'
+author: 'Mekeor Melire'
+author_name: 'Mekeor Melire'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#F5708A'    # Red (Syntax string)
+color_03: '#54BC5C'    # Green (Command)
+color_04: '#B8A300'    # Yellow (Command second)
+color_05: '#00AFF2'    # Blue (Path)
+color_06: '#9095FF'    # Magenta (Syntax var)
+color_07: '#00BAB3'    # Cyan (Prompt)
+color_08: '#D0D0D0'    # White
+
+color_09: '#505050'    # Bright Black
+color_10: '#F5708A'    # Bright Red (Command error)
+color_11: '#54BC5C'    # Bright Green (Exec)
+color_12: '#B8A300'    # Bright Yellow
+color_13: '#00AFF2'    # Bright Blue (Folder)
+color_14: '#9095FF'    # Bright Magenta
+color_15: '#00BAB3'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#D0D0D0'  # Foreground (Text)
+
+cursor: '#D0D0D0'      # Cursor

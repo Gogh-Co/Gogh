@@ -1,0 +1,29 @@
+---
+name: 'Standardized Light'
+author: 'ali (https://github.com/ali-githb/base16-standardized-scheme)'
+author_name: 'ali'
+author_url: 'https://github.com/ali-githb/base16-standardized-scheme'
+variant: 'light'            # dark or light
+
+color_01: '#FFFFFF'    # Black (Host)
+color_02: '#D03E3E'    # Red (Syntax string)
+color_03: '#31861F'    # Green (Command)
+color_04: '#AD8200'    # Yellow (Command second)
+color_05: '#3173C5'    # Blue (Path)
+color_06: '#9E57C2'    # Magenta (Syntax var)
+color_07: '#00998F'    # Cyan (Prompt)
+color_08: '#444444'    # White
+
+color_09: '#767676'    # Bright Black
+color_10: '#D03E3E'    # Bright Red (Command error)
+color_11: '#31861F'    # Bright Green (Exec)
+color_12: '#AD8200'    # Bright Yellow
+color_13: '#3173C5'    # Bright Blue (Folder)
+color_14: '#9E57C2'    # Bright Magenta
+color_15: '#00998F'    # Bright Cyan
+color_16: '#222222'    # Bright White
+
+background: '#FFFFFF'  # Background
+foreground: '#444444'  # Foreground (Text)
+
+cursor: '#444444'      # Cursor

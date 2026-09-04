@@ -1,0 +1,29 @@
+---
+name: 'Qualia'
+author: 'isaacwhanson'
+author_name: 'isaacwhanson'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#101010'    # Black (Host)
+color_02: '#EFA6A2'    # Red (Syntax string)
+color_03: '#80C990'    # Green (Command)
+color_04: '#E6A3DC'    # Yellow (Command second)
+color_05: '#50CACD'    # Blue (Path)
+color_06: '#E0AF85'    # Magenta (Syntax var)
+color_07: '#C8C874'    # Cyan (Prompt)
+color_08: '#C0C0C0'    # White
+
+color_09: '#454545'    # Bright Black
+color_10: '#EFA6A2'    # Bright Red (Command error)
+color_11: '#80C990'    # Bright Green (Exec)
+color_12: '#E6A3DC'    # Bright Yellow
+color_13: '#50CACD'    # Bright Blue (Folder)
+color_14: '#E0AF85'    # Bright Magenta
+color_15: '#C8C874'    # Bright Cyan
+color_16: '#454545'    # Bright White
+
+background: '#101010'  # Background
+foreground: '#C0C0C0'  # Foreground (Text)
+
+cursor: '#C0C0C0'      # Cursor

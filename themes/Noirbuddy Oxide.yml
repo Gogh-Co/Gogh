@@ -1,0 +1,29 @@
+---
+name: 'Noirbuddy Oxide'
+author: 'Dimitar Dimitrov (https://github.com/n1ghtmare)'
+author_name: 'Dimitar Dimitrov'
+author_url: 'https://github.com/n1ghtmare'
+variant: 'dark'            # dark or light
+
+color_01: '#070E11'    # Black (Host)
+color_02: '#FA5E86'    # Red (Syntax string)
+color_03: '#00D992'    # Green (Command)
+color_04: '#FFFFFF'    # Yellow (Command second)
+color_05: '#B0B0B0'    # Blue (Path)
+color_06: '#90A7F8'    # Magenta (Syntax var)
+color_07: '#787878'    # Cyan (Prompt)
+color_08: '#D5D5D5'    # White
+
+color_09: '#737373'    # Bright Black
+color_10: '#FF0088'    # Bright Red (Command error)
+color_11: '#00FF77'    # Bright Green (Exec)
+color_12: '#FDFDFD'    # Bright Yellow
+color_13: '#BEBEBE'    # Bright Blue (Folder)
+color_14: '#939393'    # Bright Magenta
+color_15: '#919191'    # Bright Cyan
+color_16: '#F5F5F5'    # Bright White
+
+background: '#070E11'  # Background
+foreground: '#D5D5D5'  # Foreground (Text)
+
+cursor: '#D5D5D5'      # Cursor

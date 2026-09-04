@@ -1,0 +1,29 @@
+---
+name: 'bl1nk'
+author: 'dhay3'
+author_name: 'dhay3'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#1A1C1D'    # Black (Host)
+color_02: '#FF5894'    # Red (Syntax string)
+color_03: '#B5E354'    # Green (Command)
+color_04: '#F5921D'    # Yellow (Command second)
+color_05: '#4E81AA'    # Blue (Path)
+color_06: '#8B54FE'    # Magenta (Syntax var)
+color_07: '#465456'    # Cyan (Prompt)
+color_08: '#CBCBC5'    # White
+
+color_09: '#505354'    # Bright Black
+color_10: '#F92571'    # Bright Red (Command error)
+color_11: '#81B313'    # Bright Green (Exec)
+color_12: '#FEED6B'    # Bright Yellow
+color_13: '#0B72C1'    # Bright Blue (Folder)
+color_14: '#9D6EFE'    # Bright Magenta
+color_15: '#889BA1'    # Bright Cyan
+color_16: '#F8F8F2'    # Bright White
+
+background: '#111111'  # Background
+foreground: '#A0A0A0'  # Foreground (Text)
+
+cursor: '#A0A0A0'      # Cursor

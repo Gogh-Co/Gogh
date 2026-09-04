@@ -1,0 +1,29 @@
+---
+name: 'Sakura Night'
+author: 'PandaCatPlayz'
+author_name: 'PandaCatPlayz'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#181425'    # Black (Host)
+color_02: '#E43B44'    # Red (Syntax string)
+color_03: '#3E8948'    # Green (Command)
+color_04: '#FEAE34'    # Yellow (Command second)
+color_05: '#124E89'    # Blue (Path)
+color_06: '#B55088'    # Magenta (Syntax var)
+color_07: '#008080'    # Cyan (Prompt)
+color_08: '#C0CBDC'    # White
+
+color_09: '#262B44'    # Bright Black
+color_10: '#FF0044'    # Bright Red (Command error)
+color_11: '#63C74D'    # Bright Green (Exec)
+color_12: '#FEE761'    # Bright Yellow
+color_13: '#0099DB'    # Bright Blue (Folder)
+color_14: '#F06292'    # Bright Magenta
+color_15: '#66B2B2'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#181425'  # Background
+foreground: '#F06292'  # Foreground (Text)
+
+cursor: '#F06292'      # Cursor

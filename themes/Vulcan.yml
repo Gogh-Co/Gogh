@@ -1,0 +1,29 @@
+---
+name: 'Vulcan'
+author: 'Andrey Varfolomeev'
+author_name: 'Andrey Varfolomeev'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#041523'    # Black (Host)
+color_02: '#818591'    # Red (Syntax string)
+color_03: '#977D7C'    # Green (Command)
+color_04: '#ADB4B9'    # Yellow (Command second)
+color_05: '#977D7C'    # Blue (Path)
+color_06: '#9198A3'    # Magenta (Syntax var)
+color_07: '#977D7C'    # Cyan (Prompt)
+color_08: '#5B778C'    # White
+
+color_09: '#7A5759'    # Bright Black
+color_10: '#818591'    # Bright Red (Command error)
+color_11: '#977D7C'    # Bright Green (Exec)
+color_12: '#ADB4B9'    # Bright Yellow
+color_13: '#977D7C'    # Bright Blue (Folder)
+color_14: '#9198A3'    # Bright Magenta
+color_15: '#977D7C'    # Bright Cyan
+color_16: '#214D68'    # Bright White
+
+background: '#041523'  # Background
+foreground: '#5B778C'  # Foreground (Text)
+
+cursor: '#5B778C'      # Cursor

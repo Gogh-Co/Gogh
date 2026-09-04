@@ -1,0 +1,29 @@
+---
+name: 'Eva Dim'
+author: 'kjakapat (https://github.com/kjakapat)'
+author_name: 'kjakapat'
+author_url: 'https://github.com/kjakapat'
+variant: 'dark'            # dark or light
+
+color_01: '#2A3B4D'    # Black (Host)
+color_02: '#C4676C'    # Red (Syntax string)
+color_03: '#5DE561'    # Green (Command)
+color_04: '#CFD05D'    # Yellow (Command second)
+color_05: '#1AE1DC'    # Blue (Path)
+color_06: '#9C6CD3'    # Magenta (Syntax var)
+color_07: '#4B8F77'    # Cyan (Prompt)
+color_08: '#9FA2A6'    # White
+
+color_09: '#55799C'    # Bright Black
+color_10: '#C4676C'    # Bright Red (Command error)
+color_11: '#5DE561'    # Bright Green (Exec)
+color_12: '#CFD05D'    # Bright Yellow
+color_13: '#1AE1DC'    # Bright Blue (Folder)
+color_14: '#9C6CD3'    # Bright Magenta
+color_15: '#4B8F77'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#2A3B4D'  # Background
+foreground: '#9FA2A6'  # Foreground (Text)
+
+cursor: '#9FA2A6'      # Cursor

@@ -1,0 +1,29 @@
+---
+name: 'Dark One Nuanced'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#3F4451'    # Black (Host)
+color_02: '#E06C75'    # Red (Syntax string)
+color_03: '#98C379'    # Green (Command)
+color_04: '#D19A66'    # Yellow (Command second)
+color_05: '#61AFEF'    # Blue (Path)
+color_06: '#C678DD'    # Magenta (Syntax var)
+color_07: '#56B6C2'    # Cyan (Prompt)
+color_08: '#E6E6E6'    # White
+
+color_09: '#4F5666'    # Bright Black
+color_10: '#FF7B86'    # Bright Red (Command error)
+color_11: '#B1E18B'    # Bright Green (Exec)
+color_12: '#EFB074'    # Bright Yellow
+color_13: '#67CDFF'    # Bright Blue (Folder)
+color_14: '#E48BFF'    # Bright Magenta
+color_15: '#63D4E0'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#282C34'  # Background
+foreground: '#ABB2BF'  # Foreground (Text)
+
+cursor: '#ABB2BF'      # Cursor

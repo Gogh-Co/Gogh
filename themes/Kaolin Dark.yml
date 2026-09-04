@@ -1,0 +1,29 @@
+---
+name: 'Kaolin Dark'
+author: 'Ogden Webb'
+author_name: 'Ogden Webb'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#4B5254'    # Black (Host)
+color_02: '#CD5C60'    # Red (Syntax string)
+color_03: '#6FB593'    # Green (Command)
+color_04: '#DBAC66'    # Yellow (Command second)
+color_05: '#91B9C7'    # Blue (Path)
+color_06: '#845A84'    # Magenta (Syntax var)
+color_07: '#4D9391'    # Cyan (Prompt)
+color_08: '#E4E4E8'    # White
+
+color_09: '#879193'    # Bright Black
+color_10: '#E36D5B'    # Bright Red (Command error)
+color_11: '#72CCBA'    # Bright Green (Exec)
+color_12: '#F2C866'    # Bright Yellow
+color_13: '#97B8DE'    # Bright Blue (Folder)
+color_14: '#8C629C'    # Bright Magenta
+color_15: '#5096AB'    # Bright Cyan
+color_16: '#EFEFF1'    # Bright White
+
+background: '#18181B'  # Background
+foreground: '#E4E4E8'  # Foreground (Text)
+
+cursor: '#E4E4E8'      # Cursor

@@ -1,0 +1,29 @@
+---
+name: 'Brasa'
+author: 'Teshre'
+author_name: 'Teshre'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#1A0F0A'    # Black (Host)
+color_02: '#F2685A'    # Red (Syntax string)
+color_03: '#B8C24A'    # Green (Command)
+color_04: '#F0B23A'    # Yellow (Command second)
+color_05: '#9AA6E0'    # Blue (Path)
+color_06: '#E68AA2'    # Magenta (Syntax var)
+color_07: '#6BC8B8'    # Cyan (Prompt)
+color_08: '#F0D8C0'    # White
+
+color_09: '#7A6150'    # Bright Black
+color_10: '#F2685A'    # Bright Red (Command error)
+color_11: '#B8C24A'    # Bright Green (Exec)
+color_12: '#F0B23A'    # Bright Yellow
+color_13: '#9AA6E0'    # Bright Blue (Folder)
+color_14: '#E68AA2'    # Bright Magenta
+color_15: '#6BC8B8'    # Bright Cyan
+color_16: '#FBEAD8'    # Bright White
+
+background: '#1A0F0A'  # Background
+foreground: '#F0D8C0'  # Foreground (Text)
+
+cursor: '#F0D8C0'      # Cursor

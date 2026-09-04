@@ -1,0 +1,29 @@
+---
+name: 'Dirtysea'
+author: 'Kahlil (Kal) Hodgson'
+author_name: 'Kahlil (Kal) Hodgson'
+author_url: ''
+variant: 'light'            # dark or light
+
+color_01: '#E0E0E0'    # Black (Host)
+color_02: '#840000'    # Red (Syntax string)
+color_03: '#730073'    # Green (Command)
+color_04: '#755B00'    # Yellow (Command second)
+color_05: '#007300'    # Blue (Path)
+color_06: '#000090'    # Magenta (Syntax var)
+color_07: '#755B00'    # Cyan (Prompt)
+color_08: '#000000'    # White
+
+color_09: '#707070'    # Bright Black
+color_10: '#840000'    # Bright Red (Command error)
+color_11: '#730073'    # Bright Green (Exec)
+color_12: '#755B00'    # Bright Yellow
+color_13: '#007300'    # Bright Blue (Folder)
+color_14: '#000090'    # Bright Magenta
+color_15: '#755B00'    # Bright Cyan
+color_16: '#C4D9C4'    # Bright White
+
+background: '#E0E0E0'  # Background
+foreground: '#000000'  # Foreground (Text)
+
+cursor: '#000000'      # Cursor

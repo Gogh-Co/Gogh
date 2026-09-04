@@ -1,0 +1,29 @@
+---
+name: 'Halcyon'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#1D2433'    # Black (Host)
+color_02: '#EF6B73'    # Red (Syntax string)
+color_03: '#BAE67E'    # Green (Command)
+color_04: '#FFD580'    # Yellow (Command second)
+color_05: '#6679A4'    # Blue (Path)
+color_06: '#C3A6FF'    # Magenta (Syntax var)
+color_07: '#5CCFE6'    # Cyan (Prompt)
+color_08: '#D7DCE2'    # White
+
+color_09: '#1D2433'    # Bright Black
+color_10: '#EF6B73'    # Bright Red (Command error)
+color_11: '#BAE67E'    # Bright Green (Exec)
+color_12: '#FFD580'    # Bright Yellow
+color_13: '#6679A4'    # Bright Blue (Folder)
+color_14: '#C3A6FF'    # Bright Magenta
+color_15: '#5CCFE6'    # Bright Cyan
+color_16: '#D7DCE2'    # Bright White
+
+background: '#171C28'  # Background
+foreground: '#D7DCE2'  # Foreground (Text)
+
+cursor: '#D7DCE2'      # Cursor

@@ -1,0 +1,29 @@
+---
+name: 'Chesterish'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#293340'    # Black (Host)
+color_02: '#E17E85'    # Red (Syntax string)
+color_03: '#61BA86'    # Green (Command)
+color_04: '#FFEC8E'    # Yellow (Command second)
+color_05: '#4CB2FF'    # Blue (Path)
+color_06: '#BE86E3'    # Magenta (Syntax var)
+color_07: '#2DCED0'    # Cyan (Prompt)
+color_08: '#CDD2E9'    # White
+
+color_09: '#546386'    # Bright Black
+color_10: '#E17E85'    # Bright Red (Command error)
+color_11: '#61BA86'    # Bright Green (Exec)
+color_12: '#FFEC8E'    # Bright Yellow
+color_13: '#4CB2FF'    # Bright Blue (Folder)
+color_14: '#BE86E3'    # Bright Magenta
+color_15: '#2DCED0'    # Bright Cyan
+color_16: '#CDD2E9'    # Bright White
+
+background: '#293340'  # Background
+foreground: '#CDD2E9'  # Foreground (Text)
+
+cursor: '#CDD2E9'      # Cursor

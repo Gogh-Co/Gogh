@@ -1,0 +1,29 @@
+---
+name: 'Atelier Seaside Light'
+author: 'Bram de Haan (http://atelierbramdehaan.nl)'
+author_name: 'Bram de Haan'
+author_url: 'http://atelierbramdehaan.nl'
+variant: 'light'            # dark or light
+
+color_01: '#F4FBF4'    # Black (Host)
+color_02: '#E6193C'    # Red (Syntax string)
+color_03: '#29A329'    # Green (Command)
+color_04: '#98981B'    # Yellow (Command second)
+color_05: '#3D62F5'    # Blue (Path)
+color_06: '#AD2BEE'    # Magenta (Syntax var)
+color_07: '#1999B3'    # Cyan (Prompt)
+color_08: '#5E6E5E'    # White
+
+color_09: '#809980'    # Bright Black
+color_10: '#E6193C'    # Bright Red (Command error)
+color_11: '#29A329'    # Bright Green (Exec)
+color_12: '#98981B'    # Bright Yellow
+color_13: '#3D62F5'    # Bright Blue (Folder)
+color_14: '#AD2BEE'    # Bright Magenta
+color_15: '#1999B3'    # Bright Cyan
+color_16: '#131513'    # Bright White
+
+background: '#F4FBF4'  # Background
+foreground: '#5E6E5E'  # Foreground (Text)
+
+cursor: '#5E6E5E'      # Cursor

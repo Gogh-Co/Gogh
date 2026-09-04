@@ -1,0 +1,29 @@
+---
+name: 'Msx'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#5955E0'    # Black (Host)
+color_02: '#B95E51'    # Red (Syntax string)
+color_03: '#3AA241'    # Green (Command)
+color_04: '#CCC35E'    # Yellow (Command second)
+color_05: '#000000'    # Blue (Path)
+color_06: '#DB6559'    # Magenta (Syntax var)
+color_07: '#3EB849'    # Cyan (Prompt)
+color_08: '#CCCCCC'    # White
+
+color_09: '#8076F1'    # Bright Black
+color_10: '#FF897D'    # Bright Red (Command error)
+color_11: '#74D07D'    # Bright Green (Exec)
+color_12: '#DED087'    # Bright Yellow
+color_13: '#CCCCCC'    # Bright Blue (Folder)
+color_14: '#B766B5'    # Bright Magenta
+color_15: '#65DBEF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#5955E0'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

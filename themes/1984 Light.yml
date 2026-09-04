@@ -1,0 +1,29 @@
+---
+name: '1984 Light'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'light'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#FF16B0'    # Red (Syntax string)
+color_03: '#00AF4F'    # Green (Command)
+color_04: '#FF8D01'    # Yellow (Command second)
+color_05: '#0098FD'    # Blue (Path)
+color_06: '#F806FA'    # Magenta (Syntax var)
+color_07: '#00B2BE'    # Cyan (Prompt)
+color_08: '#FEFFFF'    # White
+
+color_09: '#000000'    # Bright Black
+color_10: '#FF16B0'    # Bright Red (Command error)
+color_11: '#00AF4F'    # Bright Green (Exec)
+color_12: '#FF8D01'    # Bright Yellow
+color_13: '#0098FD'    # Bright Blue (Folder)
+color_14: '#F806FA'    # Bright Magenta
+color_15: '#00B2BE'    # Bright Cyan
+color_16: '#FEFFFF'    # Bright White
+
+background: '#E4E5F5'  # Background
+foreground: '#19152C'  # Foreground (Text)
+
+cursor: '#19152C'      # Cursor

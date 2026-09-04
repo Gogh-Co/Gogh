@@ -1,0 +1,29 @@
+---
+name: 'Outrun Dark'
+author: 'Hugo Delahousse (http://github.com/hugodelahousse/)'
+author_name: 'Hugo Delahousse'
+author_url: 'http://github.com/hugodelahousse/'
+variant: 'dark'            # dark or light
+
+color_01: '#00002A'    # Black (Host)
+color_02: '#FF4242'    # Red (Syntax string)
+color_03: '#59F176'    # Green (Command)
+color_04: '#F3E877'    # Yellow (Command second)
+color_05: '#66B0FF'    # Blue (Path)
+color_06: '#F10596'    # Magenta (Syntax var)
+color_07: '#0EF0F0'    # Cyan (Prompt)
+color_08: '#D0D0FA'    # White
+
+color_09: '#50507A'    # Bright Black
+color_10: '#FF4242'    # Bright Red (Command error)
+color_11: '#59F176'    # Bright Green (Exec)
+color_12: '#F3E877'    # Bright Yellow
+color_13: '#66B0FF'    # Bright Blue (Folder)
+color_14: '#F10596'    # Bright Magenta
+color_15: '#0EF0F0'    # Bright Cyan
+color_16: '#F5F5FF'    # Bright White
+
+background: '#00002A'  # Background
+foreground: '#D0D0FA'  # Foreground (Text)
+
+cursor: '#D0D0FA'      # Cursor

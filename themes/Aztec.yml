@@ -1,0 +1,29 @@
+---
+name: 'Aztec'
+author: 'TheNeverMan (github.com/TheNeverMan)'
+author_name: 'TheNeverMan (github.com/TheNeverMan)'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#101600'    # Black (Host)
+color_02: '#EE2E00'    # Red (Syntax string)
+color_03: '#63D932'    # Green (Command)
+color_04: '#EEBB00'    # Yellow (Command second)
+color_05: '#5B4A9F'    # Blue (Path)
+color_06: '#883E9F'    # Magenta (Syntax var)
+color_07: '#3D94A5'    # Cyan (Prompt)
+color_08: '#FFDA51'    # White
+
+color_09: '#2E2E05'    # Bright Black
+color_10: '#EE2E00'    # Bright Red (Command error)
+color_11: '#63D932'    # Bright Green (Exec)
+color_12: '#EEBB00'    # Bright Yellow
+color_13: '#5B4A9F'    # Bright Blue (Folder)
+color_14: '#883E9F'    # Bright Magenta
+color_15: '#3D94A5'    # Bright Cyan
+color_16: '#FFEBA0'    # Bright White
+
+background: '#101600'  # Background
+foreground: '#FFDA51'  # Foreground (Text)
+
+cursor: '#FFDA51'      # Cursor

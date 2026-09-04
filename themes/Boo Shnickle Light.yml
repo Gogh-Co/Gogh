@@ -1,0 +1,29 @@
+---
+name: 'Boo Shnickle Light'
+author: 'boo-shnickle (@boo_shnickle)'
+author_name: 'boo-shnickle (@boo_shnickle)'
+author_url: ''
+variant: 'light'            # dark or light
+
+color_01: '#FFFFCC'    # Black (Host)
+color_02: '#FFBFA5'    # Red (Syntax string)
+color_03: '#E7FF99'    # Green (Command)
+color_04: '#FFF299'    # Yellow (Command second)
+color_05: '#BFBFD9'    # Blue (Path)
+color_06: '#F2BFD9'    # Magenta (Syntax var)
+color_07: '#BFFFC5'    # Cyan (Prompt)
+color_08: '#5B5B49'    # White
+
+color_09: '#9C9C7D'    # Bright Black
+color_10: '#FFBFA5'    # Bright Red (Command error)
+color_11: '#E7FF99'    # Bright Green (Exec)
+color_12: '#FFF299'    # Bright Yellow
+color_13: '#BFBFD9'    # Bright Blue (Folder)
+color_14: '#F2BFD9'    # Bright Magenta
+color_15: '#BFFFC5'    # Bright Cyan
+color_16: '#191914'    # Bright White
+
+background: '#FFFFCC'  # Background
+foreground: '#5B5B49'  # Foreground (Text)
+
+cursor: '#5B5B49'      # Cursor

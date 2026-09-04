@@ -1,0 +1,29 @@
+---
+name: 'Kaolin Ocean'
+author: 'Ogden Webb'
+author_name: 'Ogden Webb'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#14141E'    # Black (Host)
+color_02: '#E84C58'    # Red (Syntax string)
+color_03: '#35BF88'    # Green (Command)
+color_04: '#DBAC66'    # Yellow (Command second)
+color_05: '#4CA6E8'    # Blue (Path)
+color_06: '#C79AF4'    # Magenta (Syntax var)
+color_07: '#6BD9DB'    # Cyan (Prompt)
+color_08: '#E6E6E8'    # White
+
+color_09: '#545C5E'    # Bright Black
+color_10: '#E84C58'    # Bright Red (Command error)
+color_11: '#7CF083'    # Bright Green (Exec)
+color_12: '#EED891'    # Bright Yellow
+color_13: '#53859D'    # Bright Blue (Folder)
+color_14: '#CEA2CA'    # Bright Magenta
+color_15: '#4D9391'    # Bright Cyan
+color_16: '#BEBEC4'    # Bright White
+
+background: '#14141E'  # Background
+foreground: '#E6E6E8'  # Foreground (Text)
+
+cursor: '#E6E6E8'      # Cursor

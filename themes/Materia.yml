@@ -1,0 +1,29 @@
+---
+name: 'Materia'
+author: 'Defman21'
+author_name: 'Defman21'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#263238'    # Black (Host)
+color_02: '#EC5F67'    # Red (Syntax string)
+color_03: '#8BD649'    # Green (Command)
+color_04: '#FFCC00'    # Yellow (Command second)
+color_05: '#89DDFF'    # Blue (Path)
+color_06: '#82AAFF'    # Magenta (Syntax var)
+color_07: '#80CBC4'    # Cyan (Prompt)
+color_08: '#CDD3DE'    # White
+
+color_09: '#707880'    # Bright Black
+color_10: '#EC5F67'    # Bright Red (Command error)
+color_11: '#8BD649'    # Bright Green (Exec)
+color_12: '#FFCC00'    # Bright Yellow
+color_13: '#89DDFF'    # Bright Blue (Folder)
+color_14: '#82AAFF'    # Bright Magenta
+color_15: '#80CBC4'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#263238'  # Background
+foreground: '#CDD3DE'  # Foreground (Text)
+
+cursor: '#CDD3DE'      # Cursor

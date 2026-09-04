@@ -1,0 +1,29 @@
+---
+name: 'Digital Rain'
+author: 'Nathan Byrd (https://github.com/cognitivegears)'
+author_name: 'Nathan Byrd'
+author_url: 'https://github.com/cognitivegears'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#C85A46'    # Red (Syntax string)
+color_03: '#64C83C'    # Green (Command)
+color_04: '#A67A50'    # Yellow (Command second)
+color_05: '#5482AF'    # Blue (Path)
+color_06: '#9472B4'    # Magenta (Syntax var)
+color_07: '#468C78'    # Cyan (Prompt)
+color_08: '#00FF00'    # White
+
+color_09: '#7C8D7C'    # Bright Black
+color_10: '#C85A46'    # Bright Red (Command error)
+color_11: '#64C83C'    # Bright Green (Exec)
+color_12: '#A67A50'    # Bright Yellow
+color_13: '#5482AF'    # Bright Blue (Folder)
+color_14: '#9472B4'    # Bright Magenta
+color_15: '#468C78'    # Bright Cyan
+color_16: '#D8E2DC'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#00FF00'  # Foreground (Text)
+
+cursor: '#00FF00'      # Cursor

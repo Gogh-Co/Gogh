@@ -1,0 +1,29 @@
+---
+name: 'Cerulean Signal Light'
+author: 'Aaron Colichia (https://aaron.colichia.org/)'
+author_name: 'Aaron Colichia'
+author_url: 'https://aaron.colichia.org/'
+variant: 'light'            # dark or light
+
+color_01: '#F7F9FC'    # Black (Host)
+color_02: '#B4233D'    # Red (Syntax string)
+color_03: '#17795E'    # Green (Command)
+color_04: '#6F6300'    # Yellow (Command second)
+color_05: '#006FA8'    # Blue (Path)
+color_06: '#A0007D'    # Magenta (Syntax var)
+color_07: '#00727E'    # Cyan (Prompt)
+color_08: '#232B38'    # White
+
+color_09: '#637287'    # Bright Black
+color_10: '#C7354D'    # Bright Red (Command error)
+color_11: '#247B4E'    # Bright Green (Exec)
+color_12: '#7B6500'    # Bright Yellow
+color_13: '#0078B5'    # Bright Blue (Folder)
+color_14: '#B5149E'    # Bright Magenta
+color_15: '#007787'    # Bright Cyan
+color_16: '#141D2A'    # Bright White
+
+background: '#F7F9FC'  # Background
+foreground: '#232B38'  # Foreground (Text)
+
+cursor: '#232B38'      # Cursor

@@ -1,0 +1,29 @@
+---
+name: 'Bright'
+author: 'Chris Kempson (http://chriskempson.com)'
+author_name: 'Chris Kempson'
+author_url: 'http://chriskempson.com'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#FB0120'    # Red (Syntax string)
+color_03: '#A1C659'    # Green (Command)
+color_04: '#FDA331'    # Yellow (Command second)
+color_05: '#6FB3D2'    # Blue (Path)
+color_06: '#D381C3'    # Magenta (Syntax var)
+color_07: '#76C7B7'    # Cyan (Prompt)
+color_08: '#E0E0E0'    # White
+
+color_09: '#B0B0B0'    # Bright Black
+color_10: '#FB0120'    # Bright Red (Command error)
+color_11: '#A1C659'    # Bright Green (Exec)
+color_12: '#FDA331'    # Bright Yellow
+color_13: '#6FB3D2'    # Bright Blue (Folder)
+color_14: '#D381C3'    # Bright Magenta
+color_15: '#76C7B7'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#E0E0E0'  # Foreground (Text)
+
+cursor: '#E0E0E0'      # Cursor

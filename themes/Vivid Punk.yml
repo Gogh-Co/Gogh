@@ -1,0 +1,29 @@
+---
+name: 'Vivid Punk'
+author: 'CarleScript'
+author_name: 'CarleScript'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#010101'    # Black (Host)
+color_02: '#A32522'    # Red (Syntax string)
+color_03: '#115A24'    # Green (Command)
+color_04: '#D5A243'    # Yellow (Command second)
+color_05: '#263788'    # Blue (Path)
+color_06: '#793664'    # Magenta (Syntax var)
+color_07: '#128CA1'    # Cyan (Prompt)
+color_08: '#DADAD7'    # White
+
+color_09: '#757575'    # Bright Black
+color_10: '#D53B3E'    # Bright Red (Command error)
+color_11: '#0A8439'    # Bright Green (Exec)
+color_12: '#F5BF59'    # Bright Yellow
+color_13: '#6C85E8'    # Bright Blue (Folder)
+color_14: '#B75492'    # Bright Magenta
+color_15: '#7ACCD4'    # Bright Cyan
+color_16: '#F3F3F2'    # Bright White
+
+background: '#171A26'  # Background
+foreground: '#F88132'  # Foreground (Text)
+
+cursor: '#F88132'      # Cursor

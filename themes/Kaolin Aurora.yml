@@ -1,0 +1,29 @@
+---
+name: 'Kaolin Aurora'
+author: 'Ogden Webb'
+author_name: 'Ogden Webb'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#14191E'    # Black (Host)
+color_02: '#E55C7A'    # Red (Syntax string)
+color_03: '#31E183'    # Green (Command)
+color_04: '#F5C791'    # Yellow (Command second)
+color_05: '#4CA6E8'    # Blue (Path)
+color_06: '#9D81BA'    # Magenta (Syntax var)
+color_07: '#49BDB0'    # Cyan (Prompt)
+color_08: '#E6E6E8'    # White
+
+color_09: '#454459'    # Bright Black
+color_10: '#CD5C60'    # Bright Red (Command error)
+color_11: '#7CF083'    # Bright Green (Exec)
+color_12: '#DBAC66'    # Bright Yellow
+color_13: '#91B9C7'    # Bright Blue (Folder)
+color_14: '#6E6884'    # Bright Magenta
+color_15: '#0D9C94'    # Bright Cyan
+color_16: '#F2F2F2'    # Bright White
+
+background: '#14191E'  # Background
+foreground: '#E6E6E8'  # Foreground (Text)
+
+cursor: '#E6E6E8'      # Cursor

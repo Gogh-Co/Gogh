@@ -1,0 +1,29 @@
+---
+name: 'Stella'
+author: 'Shrimpram'
+author_name: 'Shrimpram'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#2B213C'    # Black (Host)
+color_02: '#C79987'    # Red (Syntax string)
+color_03: '#ACC79B'    # Green (Command)
+color_04: '#C7C691'    # Yellow (Command second)
+color_05: '#A5AAD4'    # Blue (Path)
+color_06: '#C594FF'    # Magenta (Syntax var)
+color_07: '#9BC7BF'    # Cyan (Prompt)
+color_08: '#998BAD'    # White
+
+color_09: '#655978'    # Bright Black
+color_10: '#C79987'    # Bright Red (Command error)
+color_11: '#ACC79B'    # Bright Green (Exec)
+color_12: '#C7C691'    # Bright Yellow
+color_13: '#A5AAD4'    # Bright Blue (Folder)
+color_14: '#C594FF'    # Bright Magenta
+color_15: '#9BC7BF'    # Bright Cyan
+color_16: '#EBDCFF'    # Bright White
+
+background: '#2B213C'  # Background
+foreground: '#998BAD'  # Foreground (Text)
+
+cursor: '#998BAD'      # Cursor

@@ -1,0 +1,29 @@
+---
+name: 'Lime'
+author: 'limelier'
+author_name: 'limelier'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#1A1A2F'    # Black (Host)
+color_02: '#FF662A'    # Red (Syntax string)
+color_03: '#8CD97C'    # Green (Command)
+color_04: '#FFD15E'    # Yellow (Command second)
+color_05: '#2B926F'    # Blue (Path)
+color_06: '#1B825F'    # Magenta (Syntax var)
+color_07: '#4CAD83'    # Cyan (Prompt)
+color_08: '#818175'    # White
+
+color_09: '#313140'    # Bright Black
+color_10: '#FF662A'    # Bright Red (Command error)
+color_11: '#8CD97C'    # Bright Green (Exec)
+color_12: '#FFD15E'    # Bright Yellow
+color_13: '#2B926F'    # Bright Blue (Folder)
+color_14: '#1B825F'    # Bright Magenta
+color_15: '#4CAD83'    # Bright Cyan
+color_16: '#FFF8E1'    # Bright White
+
+background: '#1A1A2F'  # Background
+foreground: '#818175'  # Foreground (Text)
+
+cursor: '#818175'      # Cursor

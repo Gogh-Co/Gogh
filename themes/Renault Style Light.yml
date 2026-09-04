@@ -1,0 +1,29 @@
+---
+name: 'Renault Style Light'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#DA4839'    # Red (Syntax string)
+color_03: '#509F50'    # Green (Command)
+color_04: '#FFD249'    # Yellow (Command second)
+color_05: '#46657D'    # Blue (Path)
+color_06: '#CFCFFF'    # Magenta (Syntax var)
+color_07: '#87C1F1'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#323232'    # Bright Black
+color_10: '#FF7B6A'    # Bright Red (Command error)
+color_11: '#83D082'    # Bright Green (Exec)
+color_12: '#FFFF7B'    # Bright Yellow
+color_13: '#9FCEF0'    # Bright Blue (Folder)
+color_14: '#FFFFFF'    # Bright Magenta
+color_15: '#A4D4F8'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#3A3A3A'  # Background
+foreground: '#E9CB7B'  # Foreground (Text)
+
+cursor: '#E9CB7B'      # Cursor

@@ -1,0 +1,29 @@
+---
+name: 'Deep Space'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#1B202A'    # Black (Host)
+color_02: '#B15E7C'    # Red (Syntax string)
+color_03: '#709D6C'    # Green (Command)
+color_04: '#B5A262'    # Yellow (Command second)
+color_05: '#608CC3'    # Blue (Path)
+color_06: '#8F72BF'    # Magenta (Syntax var)
+color_07: '#56ADB7'    # Cyan (Prompt)
+color_08: '#9AA7BD'    # White
+
+color_09: '#232936'    # Bright Black
+color_10: '#B3785D'    # Bright Red (Command error)
+color_11: '#709D6C'    # Bright Green (Exec)
+color_12: '#D5B875'    # Bright Yellow
+color_13: '#608CC3'    # Bright Blue (Folder)
+color_14: '#C47EBD'    # Bright Magenta
+color_15: '#51617D'    # Bright Cyan
+color_16: '#9AA7BD'    # Bright White
+
+background: '#1B202A'  # Background
+foreground: '#9AA7BD'  # Foreground (Text)
+
+cursor: '#9AA7BD'      # Cursor

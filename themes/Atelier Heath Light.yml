@@ -1,0 +1,29 @@
+---
+name: 'Atelier Heath Light'
+author: 'Bram de Haan (http://atelierbramdehaan.nl)'
+author_name: 'Bram de Haan'
+author_url: 'http://atelierbramdehaan.nl'
+variant: 'light'            # dark or light
+
+color_01: '#F7F3F7'    # Black (Host)
+color_02: '#CA402B'    # Red (Syntax string)
+color_03: '#918B3B'    # Green (Command)
+color_04: '#BB8A35'    # Yellow (Command second)
+color_05: '#516AEC'    # Blue (Path)
+color_06: '#7B59C0'    # Magenta (Syntax var)
+color_07: '#159393'    # Cyan (Prompt)
+color_08: '#695D69'    # White
+
+color_09: '#9E8F9E'    # Bright Black
+color_10: '#CA402B'    # Bright Red (Command error)
+color_11: '#918B3B'    # Bright Green (Exec)
+color_12: '#BB8A35'    # Bright Yellow
+color_13: '#516AEC'    # Bright Blue (Folder)
+color_14: '#7B59C0'    # Bright Magenta
+color_15: '#159393'    # Bright Cyan
+color_16: '#1B181B'    # Bright White
+
+background: '#F7F3F7'  # Background
+foreground: '#695D69'  # Foreground (Text)
+
+cursor: '#695D69'      # Cursor

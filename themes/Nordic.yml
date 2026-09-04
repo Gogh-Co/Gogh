@@ -1,0 +1,29 @@
+---
+name: 'Nordic'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#191C1D'    # Black (Host)
+color_02: '#BD6062'    # Red (Syntax string)
+color_03: '#A3D6A9'    # Green (Command)
+color_04: '#F0DFAF'    # Yellow (Command second)
+color_05: '#8FB4D8'    # Blue (Path)
+color_06: '#C7A9D9'    # Magenta (Syntax var)
+color_07: '#B6D7A8'    # Cyan (Prompt)
+color_08: '#BDC5BD'    # White
+
+color_09: '#727C7C'    # Bright Black
+color_10: '#D18FAF'    # Bright Red (Command error)
+color_11: '#B7CEB0'    # Bright Green (Exec)
+color_12: '#BCBCBC'    # Bright Yellow
+color_13: '#E0CF9F'    # Bright Blue (Folder)
+color_14: '#C7A9D9'    # Bright Magenta
+color_15: '#BBDA97'    # Bright Cyan
+color_16: '#BDC5BD'    # Bright White
+
+background: '#242933'  # Background
+foreground: '#BBBDAF'  # Foreground (Text)
+
+cursor: '#BBBDAF'      # Cursor

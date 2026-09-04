@@ -1,0 +1,29 @@
+---
+name: 'Substrata'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#2E313D'    # Black (Host)
+color_02: '#CF8164'    # Red (Syntax string)
+color_03: '#76A065'    # Green (Command)
+color_04: '#AB924C'    # Yellow (Command second)
+color_05: '#8296B0'    # Blue (Path)
+color_06: '#A18DAF'    # Magenta (Syntax var)
+color_07: '#659EA2'    # Cyan (Prompt)
+color_08: '#B5B4C9'    # White
+
+color_09: '#5B5F71'    # Bright Black
+color_10: '#FE9F7C'    # Bright Red (Command error)
+color_11: '#92C47E'    # Bright Green (Exec)
+color_12: '#D2B45F'    # Bright Yellow
+color_13: '#A0B9D8'    # Bright Blue (Folder)
+color_14: '#C6AED7'    # Bright Magenta
+color_15: '#7DC2C7'    # Bright Cyan
+color_16: '#F0ECFE'    # Bright White
+
+background: '#191C25'  # Background
+foreground: '#B5B4C9'  # Foreground (Text)
+
+cursor: '#B5B4C9'      # Cursor

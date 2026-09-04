@@ -1,0 +1,29 @@
+---
+name: 'Kimbie Dark'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#221A0F'    # Black (Host)
+color_02: '#C87E5A'    # Red (Syntax string)
+color_03: '#879A6B'    # Green (Command)
+color_04: '#E4B581'    # Yellow (Command second)
+color_05: '#5D90CD'    # Blue (Path)
+color_06: '#C792EA'    # Magenta (Syntax var)
+color_07: '#6BBAB2'    # Cyan (Prompt)
+color_08: '#D3AF86'    # White
+
+color_09: '#7D6F48'    # Bright Black
+color_10: '#C87E5A'    # Bright Red (Command error)
+color_11: '#879A6B'    # Bright Green (Exec)
+color_12: '#E4B581'    # Bright Yellow
+color_13: '#5D90CD'    # Bright Blue (Folder)
+color_14: '#C792EA'    # Bright Magenta
+color_15: '#6BBAB2'    # Bright Cyan
+color_16: '#F2CCA8'    # Bright White
+
+background: '#221A0F'  # Background
+foreground: '#D3AF86'  # Foreground (Text)
+
+cursor: '#D3AF86'      # Cursor

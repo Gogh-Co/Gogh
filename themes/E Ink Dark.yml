@@ -1,0 +1,29 @@
+---
+name: 'E Ink Dark'
+author: 'Algilbert Gomez (https://github.com/alexxGmZ)'
+author_name: 'Algilbert Gomez'
+author_url: 'https://github.com/alexxGmZ'
+variant: 'dark'            # dark or light
+
+color_01: '#333333'    # Black (Host)
+color_02: '#CCCCCC'    # Red (Syntax string)
+color_03: '#686868'    # Green (Command)
+color_04: '#7C7C7C'    # Yellow (Command second)
+color_05: '#868686'    # Blue (Path)
+color_06: '#5E5E5E'    # Magenta (Syntax var)
+color_07: '#B8B8B8'    # Cyan (Prompt)
+color_08: '#A4A4A4'    # White
+
+color_09: '#A4A4A4'    # Bright Black
+color_10: '#CCCCCC'    # Bright Red (Command error)
+color_11: '#686868'    # Bright Green (Exec)
+color_12: '#7C7C7C'    # Bright Yellow
+color_13: '#868686'    # Bright Blue (Folder)
+color_14: '#5E5E5E'    # Bright Magenta
+color_15: '#B8B8B8'    # Bright Cyan
+color_16: '#868686'    # Bright White
+
+background: '#333333'  # Background
+foreground: '#C2C2C2'  # Foreground (Text)
+
+cursor: '#C2C2C2'      # Cursor

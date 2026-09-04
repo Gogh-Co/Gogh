@@ -1,0 +1,29 @@
+---
+name: 'Uwunicorn'
+author: 'Fernando Marques and Gabriel Fontes (https://github.com/RakkiUwU)'
+author_name: 'Fernando Marques and Gabriel Fontes'
+author_url: 'https://github.com/RakkiUwU'
+variant: 'dark'            # dark or light
+
+color_01: '#241B26'    # Black (Host)
+color_02: '#877BB6'    # Red (Syntax string)
+color_03: '#C965BF'    # Green (Command)
+color_04: '#A84A73'    # Yellow (Command second)
+color_05: '#6A9EB5'    # Blue (Path)
+color_06: '#78A38F'    # Magenta (Syntax var)
+color_07: '#9C5FCE'    # Cyan (Prompt)
+color_08: '#EED5D9'    # White
+
+color_09: '#6C3CB2'    # Bright Black
+color_10: '#877BB6'    # Bright Red (Command error)
+color_11: '#C965BF'    # Bright Green (Exec)
+color_12: '#A84A73'    # Bright Yellow
+color_13: '#6A9EB5'    # Bright Blue (Folder)
+color_14: '#78A38F'    # Bright Magenta
+color_15: '#9C5FCE'    # Bright Cyan
+color_16: '#E4CCD0'    # Bright White
+
+background: '#241B26'  # Background
+foreground: '#EED5D9'  # Foreground (Text)
+
+cursor: '#EED5D9'      # Cursor

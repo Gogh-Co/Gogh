@@ -1,0 +1,29 @@
+---
+name: 'Windows 95'
+author: 'Fergus Collins (https://github.com/ferguscollins)'
+author_name: 'Fergus Collins'
+author_url: 'https://github.com/ferguscollins'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#FC5454'    # Red (Syntax string)
+color_03: '#54FC54'    # Green (Command)
+color_04: '#FCFC54'    # Yellow (Command second)
+color_05: '#5454FC'    # Blue (Path)
+color_06: '#FC54FC'    # Magenta (Syntax var)
+color_07: '#54FCFC'    # Cyan (Prompt)
+color_08: '#A8A8A8'    # White
+
+color_09: '#545454'    # Bright Black
+color_10: '#FC5454'    # Bright Red (Command error)
+color_11: '#54FC54'    # Bright Green (Exec)
+color_12: '#FCFC54'    # Bright Yellow
+color_13: '#5454FC'    # Bright Blue (Folder)
+color_14: '#FC54FC'    # Bright Magenta
+color_15: '#54FCFC'    # Bright Cyan
+color_16: '#FCFCFC'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#A8A8A8'  # Foreground (Text)
+
+cursor: '#A8A8A8'      # Cursor

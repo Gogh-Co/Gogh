@@ -1,0 +1,29 @@
+---
+name: '1984 Orwellian'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#E74946'    # Red (Syntax string)
+color_03: '#4CB605'    # Green (Command)
+color_04: '#FCD395'    # Yellow (Command second)
+color_05: '#356FE4'    # Blue (Path)
+color_06: '#FCBE95'    # Magenta (Syntax var)
+color_07: '#3FC4CE'    # Cyan (Prompt)
+color_08: '#F1F1F1'    # White
+
+color_09: '#000000'    # Bright Black
+color_10: '#E74946'    # Bright Red (Command error)
+color_11: '#4CB605'    # Bright Green (Exec)
+color_12: '#FCD395'    # Bright Yellow
+color_13: '#356FE4'    # Bright Blue (Folder)
+color_14: '#FCBE95'    # Bright Magenta
+color_15: '#3FC4CE'    # Bright Cyan
+color_16: '#F1F1F1'    # Bright White
+
+background: '#2E2923'  # Background
+foreground: '#F1F1F1'  # Foreground (Text)
+
+cursor: '#F1F1F1'      # Cursor

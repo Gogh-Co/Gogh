@@ -1,0 +1,29 @@
+---
+name: 'Horizon Light'
+author: 'Michaël Ball (http://github.com/michael-ball/)'
+author_name: 'Michaël Ball'
+author_url: 'http://github.com/michael-ball/'
+variant: 'light'            # dark or light
+
+color_01: '#FDF0ED'    # Black (Host)
+color_02: '#F7939B'    # Red (Syntax string)
+color_03: '#94E1B0'    # Green (Command)
+color_04: '#FBE0D9'    # Yellow (Command second)
+color_05: '#DA103F'    # Blue (Path)
+color_06: '#1D8991'    # Magenta (Syntax var)
+color_07: '#DC3318'    # Cyan (Prompt)
+color_08: '#403C3D'    # White
+
+color_09: '#BDB3B1'    # Bright Black
+color_10: '#F7939B'    # Bright Red (Command error)
+color_11: '#94E1B0'    # Bright Green (Exec)
+color_12: '#FBE0D9'    # Bright Yellow
+color_13: '#DA103F'    # Bright Blue (Folder)
+color_14: '#1D8991'    # Bright Magenta
+color_15: '#DC3318'    # Bright Cyan
+color_16: '#201C1D'    # Bright White
+
+background: '#FDF0ED'  # Background
+foreground: '#403C3D'  # Foreground (Text)
+
+cursor: '#403C3D'      # Cursor

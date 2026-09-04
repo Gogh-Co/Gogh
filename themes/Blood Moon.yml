@@ -1,0 +1,29 @@
+---
+name: 'Blood Moon'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#10100E'    # Black (Host)
+color_02: '#C40233'    # Red (Syntax string)
+color_03: '#009F6B'    # Green (Command)
+color_04: '#FFD700'    # Yellow (Command second)
+color_05: '#0087BD'    # Blue (Path)
+color_06: '#9A4EAE'    # Magenta (Syntax var)
+color_07: '#20B2AA'    # Cyan (Prompt)
+color_08: '#C6C6C4'    # White
+
+color_09: '#696969'    # Bright Black
+color_10: '#FF2400'    # Bright Red (Command error)
+color_11: '#03C03C'    # Bright Green (Exec)
+color_12: '#FDFF00'    # Bright Yellow
+color_13: '#007FFF'    # Bright Blue (Folder)
+color_14: '#FF1493'    # Bright Magenta
+color_15: '#00CCCC'    # Bright Cyan
+color_16: '#FFFAFA'    # Bright White
+
+background: '#10100E'  # Background
+foreground: '#C6C6C4'  # Foreground (Text)
+
+cursor: '#C6C6C4'      # Cursor

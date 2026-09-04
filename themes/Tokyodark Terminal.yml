@@ -1,0 +1,29 @@
+---
+name: 'Tokyodark Terminal'
+author: 'Tiagovla (https://github.com/tiagovla/)'
+author_name: 'Tiagovla'
+author_url: 'https://github.com/tiagovla/'
+variant: 'dark'            # dark or light
+
+color_01: '#11121D'    # Black (Host)
+color_02: '#EE6D85'    # Red (Syntax string)
+color_03: '#95C561'    # Green (Command)
+color_04: '#D7A65F'    # Yellow (Command second)
+color_05: '#7199EE'    # Blue (Path)
+color_06: '#A485DD'    # Magenta (Syntax var)
+color_07: '#38A89D'    # Cyan (Prompt)
+color_08: '#A0A8CD'    # White
+
+color_09: '#282C34'    # Bright Black
+color_10: '#EE6D85'    # Bright Red (Command error)
+color_11: '#95C561'    # Bright Green (Exec)
+color_12: '#D7A65F'    # Bright Yellow
+color_13: '#7199EE'    # Bright Blue (Folder)
+color_14: '#A485DD'    # Bright Magenta
+color_15: '#38A89D'    # Bright Cyan
+color_16: '#A0A8CD'    # Bright White
+
+background: '#11121D'  # Background
+foreground: '#A0A8CD'  # Foreground (Text)
+
+cursor: '#A0A8CD'      # Cursor

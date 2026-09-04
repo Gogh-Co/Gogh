@@ -1,0 +1,29 @@
+---
+name: 'Atelier Plateau Light'
+author: 'Bram de Haan (http://atelierbramdehaan.nl)'
+author_name: 'Bram de Haan'
+author_url: 'http://atelierbramdehaan.nl'
+variant: 'light'            # dark or light
+
+color_01: '#F4ECEC'    # Black (Host)
+color_02: '#CA4949'    # Red (Syntax string)
+color_03: '#4B8B8B'    # Green (Command)
+color_04: '#A06E3B'    # Yellow (Command second)
+color_05: '#7272CA'    # Blue (Path)
+color_06: '#8464C4'    # Magenta (Syntax var)
+color_07: '#5485B6'    # Cyan (Prompt)
+color_08: '#585050'    # White
+
+color_09: '#7E7777'    # Bright Black
+color_10: '#CA4949'    # Bright Red (Command error)
+color_11: '#4B8B8B'    # Bright Green (Exec)
+color_12: '#A06E3B'    # Bright Yellow
+color_13: '#7272CA'    # Bright Blue (Folder)
+color_14: '#8464C4'    # Bright Magenta
+color_15: '#5485B6'    # Bright Cyan
+color_16: '#1B1818'    # Bright White
+
+background: '#F4ECEC'  # Background
+foreground: '#585050'  # Foreground (Text)
+
+cursor: '#585050'      # Cursor

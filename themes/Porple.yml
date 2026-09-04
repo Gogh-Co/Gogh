@@ -1,0 +1,29 @@
+---
+name: 'Porple'
+author: 'Niek den Breeje (https://github.com/AuditeMarlow)'
+author_name: 'Niek den Breeje'
+author_url: 'https://github.com/AuditeMarlow'
+variant: 'dark'            # dark or light
+
+color_01: '#292C36'    # Black (Host)
+color_02: '#F84547'    # Red (Syntax string)
+color_03: '#95C76F'    # Green (Command)
+color_04: '#EFA16B'    # Yellow (Command second)
+color_05: '#8485CE'    # Blue (Path)
+color_06: '#B74989'    # Magenta (Syntax var)
+color_07: '#64878F'    # Cyan (Prompt)
+color_08: '#D8D8D8'    # White
+
+color_09: '#65568A'    # Bright Black
+color_10: '#F84547'    # Bright Red (Command error)
+color_11: '#95C76F'    # Bright Green (Exec)
+color_12: '#EFA16B'    # Bright Yellow
+color_13: '#8485CE'    # Bright Blue (Folder)
+color_14: '#B74989'    # Bright Magenta
+color_15: '#64878F'    # Bright Cyan
+color_16: '#F8F8F8'    # Bright White
+
+background: '#292C36'  # Background
+foreground: '#D8D8D8'  # Foreground (Text)
+
+cursor: '#D8D8D8'      # Cursor

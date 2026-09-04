@@ -1,0 +1,29 @@
+---
+name: 'Darkviolet'
+author: 'ruler501 (https://github.com/ruler501/base16-darkviolet)'
+author_name: 'ruler501'
+author_url: 'https://github.com/ruler501/base16-darkviolet'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#A82EE6'    # Red (Syntax string)
+color_03: '#4595E6'    # Green (Command)
+color_04: '#F29DF2'    # Yellow (Command second)
+color_05: '#4136D9'    # Blue (Path)
+color_06: '#7E5CE6'    # Magenta (Syntax var)
+color_07: '#40DFFF'    # Cyan (Prompt)
+color_08: '#B08AE6'    # White
+
+color_09: '#593380'    # Bright Black
+color_10: '#A82EE6'    # Bright Red (Command error)
+color_11: '#4595E6'    # Bright Green (Exec)
+color_12: '#F29DF2'    # Bright Yellow
+color_13: '#4136D9'    # Bright Blue (Folder)
+color_14: '#7E5CE6'    # Bright Magenta
+color_15: '#40DFFF'    # Bright Cyan
+color_16: '#A366FF'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#B08AE6'  # Foreground (Text)
+
+cursor: '#B08AE6'      # Cursor

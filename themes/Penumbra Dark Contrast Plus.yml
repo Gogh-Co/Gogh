@@ -1,0 +1,29 @@
+---
+name: 'Penumbra Dark Contrast Plus'
+author: 'Zachary Weiss (https://github.com/zacharyweiss)'
+author_name: 'Zachary Weiss'
+author_url: 'https://github.com/zacharyweiss'
+variant: 'dark'            # dark or light
+
+color_01: '#181B1F'    # Black (Host)
+color_02: '#DF7F78'    # Red (Syntax string)
+color_03: '#50B584'    # Green (Command)
+color_04: '#9CA748'    # Yellow (Command second)
+color_05: '#61A3E6'    # Blue (Path)
+color_06: '#A48FE1'    # Magenta (Syntax var)
+color_07: '#00B3C2'    # Cyan (Prompt)
+color_08: '#CECECE'    # White
+
+color_09: '#636363'    # Bright Black
+color_10: '#DF7F78'    # Bright Red (Command error)
+color_11: '#50B584'    # Bright Green (Exec)
+color_12: '#9CA748'    # Bright Yellow
+color_13: '#61A3E6'    # Bright Blue (Folder)
+color_14: '#A48FE1'    # Bright Magenta
+color_15: '#00B3C2'    # Bright Cyan
+color_16: '#FFFDFB'    # Bright White
+
+background: '#181B1F'  # Background
+foreground: '#CECECE'  # Foreground (Text)
+
+cursor: '#CECECE'      # Cursor

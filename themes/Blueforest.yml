@@ -1,0 +1,29 @@
+---
+name: 'Blueforest'
+author: 'alonsodomin (https://github.com/alonsodomin)'
+author_name: 'alonsodomin'
+author_url: 'https://github.com/alonsodomin'
+variant: 'dark'            # dark or light
+
+color_01: '#141F2E'    # Black (Host)
+color_02: '#FFFAB1'    # Red (Syntax string)
+color_03: '#80FF80'    # Green (Command)
+color_04: '#91CCFF'    # Yellow (Command second)
+color_05: '#A2CFF5'    # Blue (Path)
+color_06: '#0099FF'    # Magenta (Syntax var)
+color_07: '#80FF80'    # Cyan (Prompt)
+color_08: '#FFCC33'    # White
+
+color_09: '#A0FFA0'    # Bright Black
+color_10: '#FFFAB1'    # Bright Red (Command error)
+color_11: '#80FF80'    # Bright Green (Exec)
+color_12: '#91CCFF'    # Bright Yellow
+color_13: '#A2CFF5'    # Bright Blue (Folder)
+color_14: '#0099FF'    # Bright Magenta
+color_15: '#80FF80'    # Bright Cyan
+color_16: '#375780'    # Bright White
+
+background: '#141F2E'  # Background
+foreground: '#FFCC33'  # Foreground (Text)
+
+cursor: '#FFCC33'      # Cursor

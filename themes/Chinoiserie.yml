@@ -1,0 +1,29 @@
+---
+name: 'Chinoiserie'
+author: 'Di Wang (https://cs.cmu.edu/~diw3)'
+author_name: 'Di Wang'
+author_url: 'https://cs.cmu.edu/~diw3'
+variant: 'light'            # dark or light
+
+color_01: '#FFFFFF'    # Black (Host)
+color_02: '#C04851'    # Red (Syntax string)
+color_03: '#428675'    # Green (Command)
+color_04: '#D6A01D'    # Yellow (Command second)
+color_05: '#815C94'    # Blue (Path)
+color_06: '#C08EAF'    # Magenta (Syntax var)
+color_07: '#2B73AF'    # Cyan (Prompt)
+color_08: '#4A4035'    # White
+
+color_09: '#80766E'    # Bright Black
+color_10: '#C04851'    # Bright Red (Command error)
+color_11: '#428675'    # Bright Green (Exec)
+color_12: '#D6A01D'    # Bright Yellow
+color_13: '#815C94'    # Bright Blue (Folder)
+color_14: '#C08EAF'    # Bright Magenta
+color_15: '#2B73AF'    # Bright Cyan
+color_16: '#131124'    # Bright White
+
+background: '#FFFFFF'  # Background
+foreground: '#4A4035'  # Foreground (Text)
+
+cursor: '#4A4035'      # Cursor

@@ -1,0 +1,29 @@
+---
+name: 'Windows Nt'
+author: 'Fergus Collins (https://github.com/ferguscollins)'
+author_name: 'Fergus Collins'
+author_url: 'https://github.com/ferguscollins'
+variant: 'dark'            # dark or light
+
+color_01: '#000000'    # Black (Host)
+color_02: '#FF0000'    # Red (Syntax string)
+color_03: '#00FF00'    # Green (Command)
+color_04: '#FFFF00'    # Yellow (Command second)
+color_05: '#0000FF'    # Blue (Path)
+color_06: '#FF00FF'    # Magenta (Syntax var)
+color_07: '#00FFFF'    # Cyan (Prompt)
+color_08: '#C0C0C0'    # White
+
+color_09: '#808080'    # Bright Black
+color_10: '#FF0000'    # Bright Red (Command error)
+color_11: '#00FF00'    # Bright Green (Exec)
+color_12: '#FFFF00'    # Bright Yellow
+color_13: '#0000FF'    # Bright Blue (Folder)
+color_14: '#FF00FF'    # Bright Magenta
+color_15: '#00FFFF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#000000'  # Background
+foreground: '#C0C0C0'  # Foreground (Text)
+
+cursor: '#C0C0C0'      # Cursor

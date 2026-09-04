@@ -1,0 +1,29 @@
+---
+name: 'Blitz'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#2E3436'    # Black (Host)
+color_02: '#F70047'    # Red (Syntax string)
+color_03: '#00FF7D'    # Green (Command)
+color_04: '#FCDD42'    # Yellow (Command second)
+color_05: '#26B3D2'    # Blue (Path)
+color_06: '#B055F4'    # Magenta (Syntax var)
+color_07: '#FF8DB4'    # Cyan (Prompt)
+color_08: '#D3D7CF'    # White
+
+color_09: '#555753'    # Bright Black
+color_10: '#FF5555'    # Bright Red (Command error)
+color_11: '#55FF55'    # Bright Green (Exec)
+color_12: '#FFFF55'    # Bright Yellow
+color_13: '#729FCF'    # Bright Blue (Folder)
+color_14: '#FF55FF'    # Bright Magenta
+color_15: '#34E2E2'    # Bright Cyan
+color_16: '#EEEEEC'    # Bright White
+
+background: '#16141E'  # Background
+foreground: '#00ECC8'  # Foreground (Text)
+
+cursor: '#00ECC8'      # Cursor

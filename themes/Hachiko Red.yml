@@ -1,0 +1,29 @@
+---
+name: 'Hachiko Red'
+author: 'Mert18'
+author_name: 'Mert18'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#181818'    # Black (Host)
+color_02: '#960042'    # Red (Syntax string)
+color_03: '#FF0000'    # Green (Command)
+color_04: '#FF5D05'    # Yellow (Command second)
+color_05: '#FF2044'    # Blue (Path)
+color_06: '#FFEDCF'    # Magenta (Syntax var)
+color_07: '#6F0027'    # Cyan (Prompt)
+color_08: '#FFDAF1'    # White
+
+color_09: '#333333'    # Bright Black
+color_10: '#870300'    # Bright Red (Command error)
+color_11: '#690000'    # Bright Green (Exec)
+color_12: '#6F2700'    # Bright Yellow
+color_13: '#333333'    # Bright Blue (Folder)
+color_14: '#FFFFB5'    # Bright Magenta
+color_15: '#F50056'    # Bright Cyan
+color_16: '#FFE6DA'    # Bright White
+
+background: '#181818'  # Background
+foreground: '#FFDAF1'  # Foreground (Text)
+
+cursor: '#FFDAF1'      # Cursor

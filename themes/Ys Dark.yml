@@ -1,0 +1,29 @@
+---
+name: 'Ys Dark'
+author: 'Ya-suke'
+author_name: 'Ya-suke'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#101010'    # Black (Host)
+color_02: '#F07178'    # Red (Syntax string)
+color_03: '#C3E88D'    # Green (Command)
+color_04: '#FFCB6B'    # Yellow (Command second)
+color_05: '#82AAFF'    # Blue (Path)
+color_06: '#E1ACFF'    # Magenta (Syntax var)
+color_07: '#89DDFF'    # Cyan (Prompt)
+color_08: '#D0D0D0'    # White
+
+color_09: '#434758'    # Bright Black
+color_10: '#FF8B92'    # Bright Red (Command error)
+color_11: '#DDFFA7'    # Bright Green (Exec)
+color_12: '#FFE585'    # Bright Yellow
+color_13: '#9CC4FF'    # Bright Blue (Folder)
+color_14: '#C792EA'    # Bright Magenta
+color_15: '#A3F7FF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#1B1E35'  # Background
+foreground: '#BBC5FF'  # Foreground (Text)
+
+cursor: '#BBC5FF'      # Cursor

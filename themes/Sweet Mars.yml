@@ -1,0 +1,29 @@
+---
+name: 'Sweet Mars'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#2E3436'    # Black (Host)
+color_02: '#F67E7D'    # Red (Syntax string)
+color_03: '#CAE7B9'    # Green (Command)
+color_04: '#E1DD8F'    # Yellow (Command second)
+color_05: '#729FCF'    # Blue (Path)
+color_06: '#D7BCC8'    # Magenta (Syntax var)
+color_07: '#A0C1B9'    # Cyan (Prompt)
+color_08: '#D3D7CF'    # White
+
+color_09: '#555753'    # Bright Black
+color_10: '#F67E7D'    # Bright Red (Command error)
+color_11: '#CAE7B9'    # Bright Green (Exec)
+color_12: '#E1DD8F'    # Bright Yellow
+color_13: '#729FCF'    # Bright Blue (Folder)
+color_14: '#D7BCC8'    # Bright Magenta
+color_15: '#A0C1B9'    # Bright Cyan
+color_16: '#EEEEEC'    # Bright White
+
+background: '#1A1E21'  # Background
+foreground: '#B6B7B9'  # Foreground (Text)
+
+cursor: '#B6B7B9'      # Cursor

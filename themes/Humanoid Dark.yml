@@ -1,0 +1,29 @@
+---
+name: 'Humanoid Dark'
+author: 'Thomas (tasmo) Friese'
+author_name: 'Thomas (tasmo) Friese'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#232629'    # Black (Host)
+color_02: '#F11235'    # Red (Syntax string)
+color_03: '#02D849'    # Green (Command)
+color_04: '#FFB627'    # Yellow (Command second)
+color_05: '#00A6FB'    # Blue (Path)
+color_06: '#F15EE3'    # Magenta (Syntax var)
+color_07: '#0DD9D6'    # Cyan (Prompt)
+color_08: '#F8F8F2'    # White
+
+color_09: '#60615D'    # Bright Black
+color_10: '#F11235'    # Bright Red (Command error)
+color_11: '#02D849'    # Bright Green (Exec)
+color_12: '#FFB627'    # Bright Yellow
+color_13: '#00A6FB'    # Bright Blue (Folder)
+color_14: '#F15EE3'    # Bright Magenta
+color_15: '#0DD9D6'    # Bright Cyan
+color_16: '#FCFCFC'    # Bright White
+
+background: '#232629'  # Background
+foreground: '#F8F8F2'  # Foreground (Text)
+
+cursor: '#F8F8F2'      # Cursor

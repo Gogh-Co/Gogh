@@ -1,0 +1,29 @@
+---
+name: 'Bespin'
+author: 'Jan T. Sott'
+author_name: 'Jan T. Sott'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#28211C'    # Black (Host)
+color_02: '#CF6A4C'    # Red (Syntax string)
+color_03: '#54BE0D'    # Green (Command)
+color_04: '#F9EE98'    # Yellow (Command second)
+color_05: '#5EA6EA'    # Blue (Path)
+color_06: '#9B859D'    # Magenta (Syntax var)
+color_07: '#AFC4DB'    # Cyan (Prompt)
+color_08: '#8A8986'    # White
+
+color_09: '#666666'    # Bright Black
+color_10: '#CF6A4C'    # Bright Red (Command error)
+color_11: '#54BE0D'    # Bright Green (Exec)
+color_12: '#F9EE98'    # Bright Yellow
+color_13: '#5EA6EA'    # Bright Blue (Folder)
+color_14: '#9B859D'    # Bright Magenta
+color_15: '#AFC4DB'    # Bright Cyan
+color_16: '#BAAE9E'    # Bright White
+
+background: '#28211C'  # Background
+foreground: '#8A8986'  # Foreground (Text)
+
+cursor: '#8A8986'      # Cursor

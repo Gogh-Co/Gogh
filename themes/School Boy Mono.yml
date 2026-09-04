@@ -1,0 +1,29 @@
+---
+name: 'School Boy Mono'
+author: 'BrokenSideViewMirror (https://github.com/BrokenSideViewMirror)'
+author_name: 'BrokenSideViewMirror'
+author_url: 'https://github.com/BrokenSideViewMirror'
+variant: 'dark'            # dark or light
+
+color_01: '#174715'    # Black (Host)
+color_02: '#BFBFBF'    # Red (Syntax string)
+color_03: '#BFBFBF'    # Green (Command)
+color_04: '#BFBFBF'    # Yellow (Command second)
+color_05: '#BFBFBF'    # Blue (Path)
+color_06: '#BFBFBF'    # Magenta (Syntax var)
+color_07: '#BFBFBF'    # Cyan (Prompt)
+color_08: '#BFBFBF'    # White
+
+color_09: '#21631E'    # Bright Black
+color_10: '#DDDDDD'    # Bright Red (Command error)
+color_11: '#DDDDDD'    # Bright Green (Exec)
+color_12: '#DDDDDD'    # Bright Yellow
+color_13: '#DDDDDD'    # Bright Blue (Folder)
+color_14: '#DDDDDD'    # Bright Magenta
+color_15: '#DDDDDD'    # Bright Cyan
+color_16: '#DDDDDD'    # Bright White
+
+background: '#0B230A'  # Background
+foreground: '#BFBFBF'  # Foreground (Text)
+
+cursor: '#BFBFBF'      # Cursor

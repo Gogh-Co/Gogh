@@ -1,0 +1,29 @@
+---
+name: 'Swamp Dark'
+author: 'Masroof Maindak (https://github.com/masroof-maindak)'
+author_name: 'Masroof Maindak'
+author_url: 'https://github.com/masroof-maindak'
+variant: 'dark'            # dark or light
+
+color_01: '#242015'    # Black (Host)
+color_02: '#DB930D'    # Red (Syntax string)
+color_03: '#7A7653'    # Green (Command)
+color_04: '#A82D56'    # Yellow (Command second)
+color_05: '#C1666B'    # Blue (Path)
+color_06: '#91506C'    # Magenta (Syntax var)
+color_07: '#DB930D'    # Cyan (Prompt)
+color_08: '#D2C3A4'    # White
+
+color_09: '#5F4E41'    # Bright Black
+color_10: '#DB930D'    # Bright Red (Command error)
+color_11: '#7A7653'    # Bright Green (Exec)
+color_12: '#A82D56'    # Bright Yellow
+color_13: '#C1666B'    # Bright Blue (Folder)
+color_14: '#91506C'    # Bright Magenta
+color_15: '#DB930D'    # Bright Cyan
+color_16: '#F1E9D0'    # Bright White
+
+background: '#242015'  # Background
+foreground: '#D2C3A4'  # Foreground (Text)
+
+cursor: '#D2C3A4'      # Cursor

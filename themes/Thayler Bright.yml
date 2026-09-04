@@ -1,0 +1,29 @@
+---
+name: 'Thayler Bright'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#1B1D1E'    # Black (Host)
+color_02: '#F92672'    # Red (Syntax string)
+color_03: '#4DF740'    # Green (Command)
+color_04: '#3F78FF'    # Yellow (Command second)
+color_05: '#2656D6'    # Blue (Path)
+color_06: '#8C54FE'    # Magenta (Syntax var)
+color_07: '#37C8B4'    # Cyan (Prompt)
+color_08: '#CCCCC6'    # White
+
+color_09: '#505354'    # Bright Black
+color_10: '#FF5995'    # Bright Red (Command error)
+color_11: '#B6E354'    # Bright Green (Exec)
+color_12: '#FEED6C'    # Bright Yellow
+color_13: '#3F78FF'    # Bright Blue (Folder)
+color_14: '#9E6FFE'    # Bright Magenta
+color_15: '#23CED4'    # Bright Cyan
+color_16: '#F8F8F2'    # Bright White
+
+background: '#1B1D1E'  # Background
+foreground: '#ADADA9'  # Foreground (Text)
+
+cursor: '#ADADA9'      # Cursor

@@ -1,0 +1,29 @@
+---
+name: 'Cherry Midnight'
+author: 'nullxception'
+author_name: 'nullxception'
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#33333F'    # Black (Host)
+color_02: '#FF568E'    # Red (Syntax string)
+color_03: '#64DE83'    # Green (Command)
+color_04: '#EFFF73'    # Yellow (Command second)
+color_05: '#73A9FF'    # Blue (Path)
+color_06: '#946FF7'    # Magenta (Syntax var)
+color_07: '#62C6DA'    # Cyan (Prompt)
+color_08: '#DEDEFF'    # White
+
+color_09: '#43435A'    # Bright Black
+color_10: '#FF69A2'    # Bright Red (Command error)
+color_11: '#73DE8A'    # Bright Green (Exec)
+color_12: '#F3FF85'    # Bright Yellow
+color_13: '#85B6FF'    # Bright Blue (Folder)
+color_14: '#A481F7'    # Bright Magenta
+color_15: '#71C2D9'    # Bright Cyan
+color_16: '#EBEBFF'    # Bright White
+
+background: '#101017'  # Background
+foreground: '#BDC3DF'  # Foreground (Text)
+
+cursor: '#BDC3DF'      # Cursor

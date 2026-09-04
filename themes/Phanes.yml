@@ -1,0 +1,29 @@
+---
+name: 'Phanes'
+author: 'dbw (https://github.com/wolgamot)'
+author_name: 'dbw'
+author_url: 'https://github.com/wolgamot'
+variant: 'dark'            # dark or light
+
+color_01: '#222021'    # Black (Host)
+color_02: '#6E5B86'    # Red (Syntax string)
+color_03: '#CCA133'    # Green (Command)
+color_04: '#FFCC4D'    # Yellow (Command second)
+color_05: '#8B78A3'    # Blue (Path)
+color_06: '#CCA133'    # Magenta (Syntax var)
+color_07: '#9067CF'    # Cyan (Prompt)
+color_08: '#9F999B'    # White
+
+color_09: '#635F60'    # Bright Black
+color_10: '#DDAF3C'    # Bright Red (Command error)
+color_11: '#2F2D2E'    # Bright Green (Exec)
+color_12: '#565254'    # Bright Yellow
+color_13: '#706B6D'    # Bright Blue (Folder)
+color_14: '#B28CE7'    # Bright Magenta
+color_15: '#C39622'    # Bright Cyan
+color_16: '#FFEBF2'    # Bright White
+
+background: '#222021'  # Background
+foreground: '#9F999B'  # Foreground (Text)
+
+cursor: '#9F999B'      # Cursor

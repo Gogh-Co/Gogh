@@ -1,0 +1,29 @@
+---
+name: 'Shrek'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#472D1A'    # Black (Host)
+color_02: '#FF1212'    # Red (Syntax string)
+color_03: '#7FFF00'    # Green (Command)
+color_04: '#FFD700'    # Yellow (Command second)
+color_05: '#3399FF'    # Blue (Path)
+color_06: '#9933FF'    # Magenta (Syntax var)
+color_07: '#00CCCC'    # Cyan (Prompt)
+color_08: '#FFFFE0'    # White
+
+color_09: '#3A5F3A'    # Bright Black
+color_10: '#FF3333'    # Bright Red (Command error)
+color_11: '#ADFF2F'    # Bright Green (Exec)
+color_12: '#FFEA00'    # Bright Yellow
+color_13: '#66B2FF'    # Bright Blue (Folder)
+color_14: '#B266FF'    # Bright Magenta
+color_15: '#33FFFF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#475347'  # Background
+foreground: '#F0F0C0'  # Foreground (Text)
+
+cursor: '#F0F0C0'      # Cursor

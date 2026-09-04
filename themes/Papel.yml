@@ -1,0 +1,29 @@
+---
+name: 'Papel'
+author: 'Teshre'
+author_name: 'Teshre'
+author_url: ''
+variant: 'light'            # dark or light
+
+color_01: '#F5EFE2'    # Black (Host)
+color_02: '#C0392B'    # Red (Syntax string)
+color_03: '#5E7A28'    # Green (Command)
+color_04: '#A8761A'    # Yellow (Command second)
+color_05: '#2C6CA0'    # Blue (Path)
+color_06: '#9B4D8E'    # Magenta (Syntax var)
+color_07: '#2A8A7A'    # Cyan (Prompt)
+color_08: '#3A2E20'    # White
+
+color_09: '#9A8C76'    # Bright Black
+color_10: '#C0392B'    # Bright Red (Command error)
+color_11: '#5E7A28'    # Bright Green (Exec)
+color_12: '#A8761A'    # Bright Yellow
+color_13: '#2C6CA0'    # Bright Blue (Folder)
+color_14: '#9B4D8E'    # Bright Magenta
+color_15: '#2A8A7A'    # Bright Cyan
+color_16: '#EFE8D8'    # Bright White
+
+background: '#F5EFE2'  # Background
+foreground: '#3A2E20'  # Foreground (Text)
+
+cursor: '#3A2E20'      # Cursor

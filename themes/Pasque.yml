@@ -1,0 +1,29 @@
+---
+name: 'Pasque'
+author: 'Gabriel Fontes (https://github.com/Misterio77)'
+author_name: 'Gabriel Fontes'
+author_url: 'https://github.com/Misterio77'
+variant: 'dark'            # dark or light
+
+color_01: '#271C3A'    # Black (Host)
+color_02: '#A92258'    # Red (Syntax string)
+color_03: '#C6914B'    # Green (Command)
+color_04: '#804EAD'    # Yellow (Command second)
+color_05: '#8E7DC6'    # Blue (Path)
+color_06: '#953B9D'    # Magenta (Syntax var)
+color_07: '#7263AA'    # Cyan (Prompt)
+color_08: '#DEDCDF'    # White
+
+color_09: '#5D5766'    # Bright Black
+color_10: '#A92258'    # Bright Red (Command error)
+color_11: '#C6914B'    # Bright Green (Exec)
+color_12: '#804EAD'    # Bright Yellow
+color_13: '#8E7DC6'    # Bright Blue (Folder)
+color_14: '#953B9D'    # Bright Magenta
+color_15: '#7263AA'    # Bright Cyan
+color_16: '#BBAADD'    # Bright White
+
+background: '#271C3A'  # Background
+foreground: '#DEDCDF'  # Foreground (Text)
+
+cursor: '#DEDCDF'      # Cursor

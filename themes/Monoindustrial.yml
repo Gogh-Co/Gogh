@@ -1,0 +1,29 @@
+---
+name: 'Monoindustrial'
+author: ''
+author_name: ''
+author_url: ''
+variant: 'dark'            # dark or light
+
+color_01: '#151C19'    # Black (Host)
+color_02: '#A39E64'    # Red (Syntax string)
+color_03: '#A8B3AB'    # Green (Command)
+color_04: '#E98800'    # Yellow (Command second)
+color_05: '#648BD2'    # Blue (Path)
+color_06: '#588E60'    # Magenta (Syntax var)
+color_07: '#C23800'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#151C19'    # Bright Black
+color_10: '#A39E64'    # Bright Red (Command error)
+color_11: '#A8B3AB'    # Bright Green (Exec)
+color_12: '#C87500'    # Bright Yellow
+color_13: '#5879B7'    # Bright Blue (Folder)
+color_14: '#588E60'    # Bright Magenta
+color_15: '#990000'    # Bright Cyan
+color_16: '#EEEEEE'    # Bright White
+
+background: '#222C28'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor
