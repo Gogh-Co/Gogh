@@ -1,0 +1,24 @@
+name: Chicago Day
+author: Wendell, Ryan
+variant: light
+color_01: '#E8F0EA'
+color_02: '#C60C30'
+color_03: '#009B3A'
+color_04: '#968400'
+color_05: '#522398'
+color_06: '#E27EA6'
+color_07: '#00A1DE'
+color_08: '#364C40'
+color_09: '#8A9A91'
+color_10: '#C60C30'
+color_11: '#009B3A'
+color_12: '#968400'
+color_13: '#522398'
+color_14: '#E27EA6'
+color_15: '#00A1DE'
+color_16: '#1E2A24'
+background: '#E8F0EA'
+foreground: '#364C40'
+cursor: '#364C40'
+hash: 23fb5f9fcf8f235d4144f5a7f4100ee43496454b59b44f5ceac27075ea7aa40e
+hash_bg: 22f8634e3d3e41465b57d4ff46a49b42f82c4b68dc62e7b284de1a91d5ff8236

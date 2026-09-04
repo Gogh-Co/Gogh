@@ -1,0 +1,24 @@
+name: Sandcastle
+author: George Essig (https://github.com/gessig)
+variant: dark
+color_01: '#282C34'
+color_02: '#83A598'
+color_03: '#528B8B'
+color_04: '#A07E3B'
+color_05: '#83A598'
+color_06: '#D75F5F'
+color_07: '#83A598'
+color_08: '#A89984'
+color_09: '#665C54'
+color_10: '#83A598'
+color_11: '#528B8B'
+color_12: '#A07E3B'
+color_13: '#83A598'
+color_14: '#D75F5F'
+color_15: '#83A598'
+color_16: '#FDF4C1'
+background: '#282C34'
+foreground: '#A89984'
+cursor: '#A89984'
+hash: 2181b913b65cf29a7c65ef88fa44697312b6f9488179068ea8aaf694d67bfe11
+hash_bg: 5e8eab6831045b60ca66d1dee977bb724c2cab9963110788954ed06cf9366b15

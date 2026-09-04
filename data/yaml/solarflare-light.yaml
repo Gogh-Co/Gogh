@@ -1,0 +1,24 @@
+name: Solarflare Light
+author: Chuck Harmston (https://chuck.harmston.ch)
+variant: light
+color_01: '#F5F7FA'
+color_02: '#EF5253'
+color_03: '#7CC844'
+color_04: '#E4B51C'
+color_05: '#33B5E1'
+color_06: '#A363D5'
+color_07: '#52CBB0'
+color_08: '#586875'
+color_09: '#85939E'
+color_10: '#EF5253'
+color_11: '#7CC844'
+color_12: '#E4B51C'
+color_13: '#33B5E1'
+color_14: '#A363D5'
+color_15: '#52CBB0'
+color_16: '#18262F'
+background: '#F5F7FA'
+foreground: '#586875'
+cursor: '#586875'
+hash: 81ccd2aec298cf4cf08d0f9459e6801a55f9b81449035004e0aaf80cd005f2bf
+hash_bg: 48e3301c8faca6b18f108494f493dccb21edda843c683dbb4ba480e36832290b

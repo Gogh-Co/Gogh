@@ -1,0 +1,24 @@
+name: Chicago Night
+author: Wendell, Ryan
+variant: dark
+color_01: '#1E2A24'
+color_02: '#C60C30'
+color_03: '#009B3A'
+color_04: '#F9E300'
+color_05: '#522398'
+color_06: '#E27EA6'
+color_07: '#00A1DE'
+color_08: '#A7B8AF'
+color_09: '#5F7368'
+color_10: '#C60C30'
+color_11: '#009B3A'
+color_12: '#F9E300'
+color_13: '#522398'
+color_14: '#E27EA6'
+color_15: '#00A1DE'
+color_16: '#DBE3DE'
+background: '#1E2A24'
+foreground: '#A7B8AF'
+cursor: '#A7B8AF'
+hash: 6590b146dd964d0e8bcde5dbffa5f36a2cf201bc3e71a9e1ab2048175b3a58fe
+hash_bg: 9354dd8b4970950bebf42aeb665a16c898f58916aef16f2dc2ba1d44783c57de

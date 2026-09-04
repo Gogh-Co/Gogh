@@ -1,0 +1,24 @@
+name: Atelier Dune Light
+author: Bram de Haan (http://atelierbramdehaan.nl)
+variant: light
+color_01: '#FEFBEC'
+color_02: '#D73737'
+color_03: '#60AC39'
+color_04: '#AE9513'
+color_05: '#6684E1'
+color_06: '#B854D4'
+color_07: '#1FAD83'
+color_08: '#6E6B5E'
+color_09: '#999580'
+color_10: '#D73737'
+color_11: '#60AC39'
+color_12: '#AE9513'
+color_13: '#6684E1'
+color_14: '#B854D4'
+color_15: '#1FAD83'
+color_16: '#20201D'
+background: '#FEFBEC'
+foreground: '#6E6B5E'
+cursor: '#6E6B5E'
+hash: 5045eccc04f3fc68c4ab53bbf5d544aa3a6c563b90bc5252850e4c610108028e
+hash_bg: 32b45e3b2943e5b2e1437828b0e33d260a17468601f0cb6505c56a053ef1026c

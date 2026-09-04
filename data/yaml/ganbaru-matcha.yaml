@@ -1,0 +1,24 @@
+name: Ganbaru Matcha
+author: ''
+variant: dark
+color_01: '#17181D'
+color_02: '#E86081'
+color_03: '#75C186'
+color_04: '#FFAF5D'
+color_05: '#95BFF0'
+color_06: '#B5A7EF'
+color_07: '#54CEC4'
+color_08: '#7B8E95'
+color_09: '#475254'
+color_10: '#FF6D7E'
+color_11: '#B1C771'
+color_12: '#E5DE8C'
+color_13: '#A7D9F1'
+color_14: '#F3ACE2'
+color_15: '#A9D9BD'
+color_16: '#859298'
+background: '#17181D'
+foreground: '#E1E5EC'
+cursor: '#E1E5EC'
+hash: 5f83a529f60ac67d52d7e512dc15838aeacba9326af034aa893d112357ee1062
+hash_bg: 2037a1bd5454b44e5be8ccd0dcc07a284d1d8bf006841852a16a7de44d6b438c

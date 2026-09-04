@@ -1,0 +1,24 @@
+name: Danqing Light
+author: Wenhan Zhu (Cosmos) (zhuwenhan950913@gmail.com)
+variant: light
+color_01: '#FCFEFD'
+color_02: '#F9906F'
+color_03: '#8AB361'
+color_04: '#F0C239'
+color_05: '#B0A4E3'
+color_06: '#CCA4E3'
+color_07: '#30DFF3'
+color_08: '#5A605D'
+color_09: '#CAD8D2'
+color_10: '#F9906F'
+color_11: '#8AB361'
+color_12: '#F0C239'
+color_13: '#B0A4E3'
+color_14: '#CCA4E3'
+color_15: '#30DFF3'
+color_16: '#2D302F'
+background: '#FCFEFD'
+foreground: '#5A605D'
+cursor: '#5A605D'
+hash: 2d480abd8d7d0ae8137c3ebd9035014f563e2ebc596576614e58dd5873daecb9
+hash_bg: 1b0dc823ad8bd806c2a98fdace202b97bf72f51df7b805ad228eb69cacf4fcd6

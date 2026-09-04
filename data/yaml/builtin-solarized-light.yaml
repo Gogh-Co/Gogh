@@ -1,0 +1,24 @@
+name: Builtin Solarized Light
+author: FredHappyface (https://github.com/fredHappyface)
+variant: light
+color_01: '#FDF6E3'
+color_02: '#DC322F'
+color_03: '#859900'
+color_04: '#839496'
+color_05: '#268BD2'
+color_06: '#D33682'
+color_07: '#2AA198'
+color_08: '#B2B8AD'
+color_09: '#3B5A5D'
+color_10: '#CB4B16'
+color_11: '#586E75'
+color_12: '#657B83'
+color_13: '#839496'
+color_14: '#6C71C4'
+color_15: '#93A1A1'
+color_16: '#002B36'
+background: '#FDF6E3'
+foreground: '#B2B8AD'
+cursor: '#B2B8AD'
+hash: d41c04ecd7d3a9cc492616a6b9bf9becf1acc824f40632686602e9eae4c5a589
+hash_bg: c02ddc0b1de22591d77634b9fe04f3f45e7ed16a5f1bce7aed32babbcf6064e6

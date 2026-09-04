@@ -1,0 +1,24 @@
+name: Liquid Carbon Transparent Inverse
+author: ''
+variant: dark
+color_01: '#BCCCCD'
+color_02: '#FF3030'
+color_03: '#559A70'
+color_04: '#CCAC00'
+color_05: '#0099CC'
+color_06: '#CC69C8'
+color_07: '#7AC4CC'
+color_08: '#000000'
+color_09: '#FFFFFF'
+color_10: '#FF3030'
+color_11: '#559A70'
+color_12: '#CCAC00'
+color_13: '#0099CC'
+color_14: '#CC69C8'
+color_15: '#7AC4CC'
+color_16: '#000000'
+background: '#000000'
+foreground: '#AFC2C2'
+cursor: '#AFC2C2'
+hash: 1169d1fe8b94e8a8fe5273f8e873b64174e21859abe6e02d1d31bf199d119d16
+hash_bg: 7b2817bf9b80e66d07f28095dcd1244590692778dc617a53cbd666ad280872ed

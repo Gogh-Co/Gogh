@@ -1,0 +1,24 @@
+name: '3024'
+author: Jan T. Sott (http://github.com/idleberg)
+variant: dark
+color_01: '#090300'
+color_02: '#DB2D20'
+color_03: '#01A252'
+color_04: '#FDED02'
+color_05: '#01A0E4'
+color_06: '#A16A94'
+color_07: '#B5E4F4'
+color_08: '#A5A2A2'
+color_09: '#5C5855'
+color_10: '#DB2D20'
+color_11: '#01A252'
+color_12: '#FDED02'
+color_13: '#01A0E4'
+color_14: '#A16A94'
+color_15: '#B5E4F4'
+color_16: '#F7F7F7'
+background: '#090300'
+foreground: '#A5A2A2'
+cursor: '#A5A2A2'
+hash: 17010ccb381472a2f247229772dec9f2d6bb5baf6132a3a4a55c5924ef3aefac
+hash_bg: 06020a8c5d4d4b5a9b09db6b7f49cb2c1133e2c74c08315012f645faeab8a36e

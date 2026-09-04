@@ -1,0 +1,24 @@
+name: Equilibrium Dark
+author: Carlo Abelli
+variant: dark
+color_01: '#0C1118'
+color_02: '#F04339'
+color_03: '#7F8B00'
+color_04: '#BB8801'
+color_05: '#008DD1'
+color_06: '#6A7FD2'
+color_07: '#00948B'
+color_08: '#AFABA2'
+color_09: '#7B776E'
+color_10: '#F04339'
+color_11: '#7F8B00'
+color_12: '#BB8801'
+color_13: '#008DD1'
+color_14: '#6A7FD2'
+color_15: '#00948B'
+color_16: '#E7E2D9'
+background: '#0C1118'
+foreground: '#AFABA2'
+cursor: '#AFABA2'
+hash: ba8ff86f66fd63ba3f47e80db33dfec02dbcb618b0cf7d83927e8b26740ac0b7
+hash_bg: a4b1d796ce750030c9169535271a45731a9b75069a18ca8654db9994bcb8f633

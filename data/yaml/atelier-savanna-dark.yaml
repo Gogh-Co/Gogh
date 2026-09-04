@@ -1,0 +1,24 @@
+name: Atelier Savanna Dark
+author: Bram de Haan (https://github.com/atelierbram)
+variant: dark
+color_01: '#171C19'
+color_02: '#B16139'
+color_03: '#489963'
+color_04: '#A07E3B'
+color_05: '#478C90'
+color_06: '#55859B'
+color_07: '#1C9AA0'
+color_08: '#87928A'
+color_09: '#5F6D64'
+color_10: '#9F713C'
+color_11: '#232A25'
+color_12: '#526057'
+color_13: '#78877D'
+color_14: '#DFE7E2'
+color_15: '#867469'
+color_16: '#ECF4EE'
+background: '#171C19'
+foreground: '#87928A'
+cursor: '#87928A'
+hash: 1eac078ff47dbb605cf69b5962039600cfddc3cbcf1bf2d8da064b6087292f14
+hash_bg: 9cfeb7f018abbd7310d393b6a81c1ea48bdccb1ca11dc3ab686fddce53be7245

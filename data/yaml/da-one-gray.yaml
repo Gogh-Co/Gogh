@@ -1,0 +1,24 @@
+name: Da One Gray
+author: NNB (https://github.com/NNBnh)
+variant: dark
+color_01: '#181818'
+color_02: '#FA7883'
+color_03: '#98C379'
+color_04: '#FF9470'
+color_05: '#6BB8FF'
+color_06: '#E799FF'
+color_07: '#8AF5FF'
+color_08: '#FFFFFF'
+color_09: '#888888'
+color_10: '#FA7883'
+color_11: '#98C379'
+color_12: '#FF9470'
+color_13: '#6BB8FF'
+color_14: '#E799FF'
+color_15: '#8AF5FF'
+color_16: '#FFFFFF'
+background: '#181818'
+foreground: '#FFFFFF'
+cursor: '#FFFFFF'
+hash: f606056f133105d5d8cdcba19282801dd1e06c3f725d68cf8afbccb1ddf1dd7d
+hash_bg: 330bda57284bd4a09a8e98ca84ad20ab7907fd4f0858613d918fcb417510b28f

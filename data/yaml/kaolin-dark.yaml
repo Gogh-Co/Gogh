@@ -1,0 +1,24 @@
+name: Kaolin Dark
+author: Ogden Webb
+variant: dark
+color_01: '#4B5254'
+color_02: '#CD5C60'
+color_03: '#6FB593'
+color_04: '#DBAC66'
+color_05: '#91B9C7'
+color_06: '#845A84'
+color_07: '#4D9391'
+color_08: '#E4E4E8'
+color_09: '#879193'
+color_10: '#E36D5B'
+color_11: '#72CCBA'
+color_12: '#F2C866'
+color_13: '#97B8DE'
+color_14: '#8C629C'
+color_15: '#5096AB'
+color_16: '#EFEFF1'
+background: '#18181B'
+foreground: '#E4E4E8'
+cursor: '#E4E4E8'
+hash: 5effc5a0bdbc5a97ee295982e83f3edd33f6c748e967536c44fcb2faafc4c30f
+hash_bg: 46e156bd01be06964b3a66b2a514038c64ec243c6ed5b7ca39b777a9e7c309c8

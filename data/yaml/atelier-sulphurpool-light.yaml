@@ -1,0 +1,24 @@
+name: Atelier Sulphurpool Light
+author: Bram de Haan (http://atelierbramdehaan.nl)
+variant: light
+color_01: '#F5F7FF'
+color_02: '#C94922'
+color_03: '#AC9739'
+color_04: '#C08B30'
+color_05: '#3D8FD1'
+color_06: '#6679CC'
+color_07: '#22A2C9'
+color_08: '#5E6687'
+color_09: '#898EA4'
+color_10: '#C94922'
+color_11: '#AC9739'
+color_12: '#C08B30'
+color_13: '#3D8FD1'
+color_14: '#6679CC'
+color_15: '#22A2C9'
+color_16: '#202746'
+background: '#F5F7FF'
+foreground: '#5E6687'
+cursor: '#5E6687'
+hash: 97f62ec9a57e642f444edc1d26ad964fa5cca0e111c1744cd7eda42f8a67fc99
+hash_bg: 43db82e58f2c1a0762e94ddba52b27eb2a7976e09026cebb0ecdb585ad6bee0f

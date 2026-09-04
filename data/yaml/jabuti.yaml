@@ -1,0 +1,24 @@
+name: Jabuti
+author: Notusknot (https://github.com/notusknot)
+variant: dark
+color_01: '#292A37'
+color_02: '#EC6A88'
+color_03: '#3FDAA4'
+color_04: '#E1C697'
+color_05: '#3FC6DE'
+color_06: '#BE95FF'
+color_07: '#FF7EB6'
+color_08: '#C0CBE3'
+color_09: '#45475D'
+color_10: '#EC6A88'
+color_11: '#3FDAA4'
+color_12: '#E1C697'
+color_13: '#3FC6DE'
+color_14: '#BE95FF'
+color_15: '#FF7EB6'
+color_16: '#FFFFFF'
+background: '#292A37'
+foreground: '#C0CBE3'
+cursor: '#C0CBE3'
+hash: 009105d623f4754c5e26be7cb9f82f0d28661be4b26ea31a1ec65d7b29c540e3
+hash_bg: 2b1d952293f990a684b10b1c30a5a09df60ba227013281d0e66141693704e6ea

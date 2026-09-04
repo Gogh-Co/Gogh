@@ -1,0 +1,24 @@
+name: Yesterday
+author: FroZnShiva (https://github.com/FroZnShiva)
+variant: dark
+color_01: '#1D1F21'
+color_02: '#C82829'
+color_03: '#718C00'
+color_04: '#EAB700'
+color_05: '#4271AE'
+color_06: '#8959A8'
+color_07: '#3E999F'
+color_08: '#D6D6D6'
+color_09: '#969896'
+color_10: '#C82829'
+color_11: '#718C00'
+color_12: '#EAB700'
+color_13: '#4271AE'
+color_14: '#8959A8'
+color_15: '#3E999F'
+color_16: '#FFFFFF'
+background: '#1D1F21'
+foreground: '#D6D6D6'
+cursor: '#D6D6D6'
+hash: 4b3893e7c5e1992c5e7d0d08d100c6056265f633e21e472ee85b6d3c26e7010b
+hash_bg: b29be55305e889dfa52c0fdc29cb9d5890cbdb807f6df267afdb97c14fe82ecc

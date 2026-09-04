@@ -1,0 +1,24 @@
+name: Unikitty Light
+author: Josh W Lewis (@joshwlewis)
+variant: light
+color_01: '#FFFFFF'
+color_02: '#D8137F'
+color_03: '#17AD98'
+color_04: '#DC8A0E'
+color_05: '#775DFF'
+color_06: '#AA17E6'
+color_07: '#149BDA'
+color_08: '#6C696E'
+color_09: '#A7A5A8'
+color_10: '#D8137F'
+color_11: '#17AD98'
+color_12: '#DC8A0E'
+color_13: '#775DFF'
+color_14: '#AA17E6'
+color_15: '#149BDA'
+color_16: '#322D34'
+background: '#FFFFFF'
+foreground: '#6C696E'
+cursor: '#6C696E'
+hash: 2a5ce43cfe948df9c4ca367c54db0073a24f02c51213c4b1afa0c1c6ebd9d805
+hash_bg: 07ee686b3ce29f11070f5edcd6f0da03659e67becfba76650c1c6b5ac079847a

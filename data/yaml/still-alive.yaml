@@ -1,0 +1,24 @@
+name: Still Alive
+author: Derrick McKee (derrick.mckee@gmail.com), Tinted Theming (https://github.com/tinted-theming)
+variant: light
+color_01: '#F0F0F0'
+color_02: '#D80000'
+color_03: '#30A860'
+color_04: '#FFF018'
+color_05: '#365EFF'
+color_06: '#9036FF'
+color_07: '#36D3FF'
+color_08: '#4C383B'
+color_09: '#A3A3A3'
+color_10: '#D80000'
+color_11: '#30A860'
+color_12: '#FFF018'
+color_13: '#365EFF'
+color_14: '#9036FF'
+color_15: '#36D3FF'
+color_16: '#140C0D'
+background: '#F0F0F0'
+foreground: '#4C383B'
+cursor: '#4C383B'
+hash: bb56dc35c3f72d2f7f17f48af00980b27a3aae22132526b6c304c9d3237572c1
+hash_bg: 585b1e79d8b15e48db2320ba1b42c98d31abda8bd7bb9eaa877a57439a12ca43

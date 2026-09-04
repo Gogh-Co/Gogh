@@ -1,0 +1,24 @@
+name: Vivid Punk
+author: CarleScript
+variant: dark
+color_01: '#010101'
+color_02: '#A32522'
+color_03: '#115A24'
+color_04: '#D5A243'
+color_05: '#263788'
+color_06: '#793664'
+color_07: '#128CA1'
+color_08: '#DADAD7'
+color_09: '#757575'
+color_10: '#D53B3E'
+color_11: '#0A8439'
+color_12: '#F5BF59'
+color_13: '#6C85E8'
+color_14: '#B75492'
+color_15: '#7ACCD4'
+color_16: '#F3F3F2'
+background: '#171A26'
+foreground: '#F88132'
+cursor: '#F88132'
+hash: f3362436a304025752e6c9123e32a79292b442c6984c1667dd7bca240b123cce
+hash_bg: 70e949ce342f0f19ab8bb9cb7b44f36ac267eb95c144954ab5f86f5d5b5b194d

@@ -1,0 +1,24 @@
+name: Precious Dark Fifteen
+author: 4lex4
+variant: dark
+color_01: '#23262B'
+color_02: '#FF8782'
+color_03: '#95B659'
+color_04: '#CFA546'
+color_05: '#66B0EF'
+color_06: '#B799FF'
+color_07: '#42BDA7'
+color_08: '#BAB9B6'
+color_09: '#898989'
+color_10: '#FF8782'
+color_11: '#95B659'
+color_12: '#CFA546'
+color_13: '#66B0EF'
+color_14: '#B799FF'
+color_15: '#42BDA7'
+color_16: '#BAB9B6'
+background: '#23262B'
+foreground: '#BAB9B6'
+cursor: '#BAB9B6'
+hash: a185a58ee16ee88b7667dffb9f992d35a7532a523cb1014feaf0f11a9bba7030
+hash_bg: ef9036b7824155be68ad3f11014049908ab39160fe59d19187bbd147a34950ee

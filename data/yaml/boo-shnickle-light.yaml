@@ -1,0 +1,24 @@
+name: Boo Shnickle Light
+author: boo-shnickle (@boo_shnickle)
+variant: light
+color_01: '#FFFFCC'
+color_02: '#FFBFA5'
+color_03: '#E7FF99'
+color_04: '#FFF299'
+color_05: '#BFBFD9'
+color_06: '#F2BFD9'
+color_07: '#BFFFC5'
+color_08: '#5B5B49'
+color_09: '#9C9C7D'
+color_10: '#FFBFA5'
+color_11: '#E7FF99'
+color_12: '#FFF299'
+color_13: '#BFBFD9'
+color_14: '#F2BFD9'
+color_15: '#BFFFC5'
+color_16: '#191914'
+background: '#FFFFCC'
+foreground: '#5B5B49'
+cursor: '#5B5B49'
+hash: 4faec6287f96a717390267112f8acf63b2621982690d0f592fb7fc12390a46e5
+hash_bg: 5f5093d3fd993031b8fcc3409ea9a35655ab30220dc721e664a601e61071651a

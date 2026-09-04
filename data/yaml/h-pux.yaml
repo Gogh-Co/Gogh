@@ -1,0 +1,24 @@
+name: H Pux
+author: Jacob Chapman
+variant: light
+color_01: '#000000'
+color_02: '#8C0000'
+color_03: '#007D00'
+color_04: '#8C7000'
+color_05: '#003CB4'
+color_06: '#820082'
+color_07: '#008B8B'
+color_08: '#BBBBBB'
+color_09: '#545454'
+color_10: '#FF0000'
+color_11: '#00EE00'
+color_12: '#FFFF00'
+color_13: '#0000FF'
+color_14: '#FF00FF'
+color_15: '#00CDCD'
+color_16: '#FFFFFF'
+background: '#D1BCA7'
+foreground: '#000000'
+cursor: '#000000'
+hash: 2e4443b8d66030527f97dc5124bc8c1581e4e0d494ccf804ed80ed97229ce145
+hash_bg: 14771dd6a31609ee7a5c7aa1ed92316a4e677f2316a6302ada2c57915eb0a731

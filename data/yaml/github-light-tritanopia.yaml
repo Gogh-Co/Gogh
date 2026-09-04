@@ -1,0 +1,24 @@
+name: Github Light Tritanopia
+author: ''
+variant: light
+color_01: '#24292F'
+color_02: '#CF222E'
+color_03: '#0550AE'
+color_04: '#4D2D00'
+color_05: '#0969DA'
+color_06: '#8250DF'
+color_07: '#1B7C83'
+color_08: '#6E7781'
+color_09: '#57606A'
+color_10: '#A40E26'
+color_11: '#0969DA'
+color_12: '#633C01'
+color_13: '#218BFF'
+color_14: '#8250DF'
+color_15: '#1B7C83'
+color_16: '#6E7781'
+background: '#FFFFFF'
+foreground: '#1B1F24'
+cursor: '#1B1F24'
+hash: 1aaca8c669e0343bdc0f47578157fbf5a323a68b3ff92c1521e9bfaee07fc85e
+hash_bg: 07ee686b3ce29f11070f5edcd6f0da03659e67becfba76650c1c6b5ac079847a

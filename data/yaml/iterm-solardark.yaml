@@ -1,0 +1,24 @@
+name: Iterm Solardark
+author: ''
+variant: dark
+color_01: '#003440'
+color_02: '#DC312E'
+color_03: '#7CC67F'
+color_04: '#B58900'
+color_05: '#268AD2'
+color_06: '#D33582'
+color_07: '#2AA197'
+color_08: '#EEE8D5'
+color_09: '#00779A'
+color_10: '#F9314B'
+color_11: '#5BEE96'
+color_12: '#C08F34'
+color_13: '#109FD2'
+color_14: '#E9679F'
+color_15: '#00BDAE'
+color_16: '#FDF6E3'
+background: '#002833'
+foreground: '#A5ABB6'
+cursor: '#A5ABB6'
+hash: c455cdce08a270400252d964cc3e4933ec2081c4a940d4f570d2557a2ac5e754
+hash_bg: 2143c029b34789afe77b4bbc65a8871664f7ef2d48f64fc4f243e677e514bbaa

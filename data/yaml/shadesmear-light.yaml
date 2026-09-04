@@ -1,0 +1,24 @@
+name: Shadesmear Light
+author: Kyle Giammarco (http://kyle.giammar.co)
+variant: light
+color_01: '#DBDBDB'
+color_02: '#CC5450'
+color_03: '#71983B'
+color_04: '#307878'
+color_05: '#376388'
+color_06: '#D7AB54'
+color_07: '#C57D42'
+color_08: '#232323'
+color_09: '#4E4E4E'
+color_10: '#CC5450'
+color_11: '#71983B'
+color_12: '#307878'
+color_13: '#376388'
+color_14: '#D7AB54'
+color_15: '#C57D42'
+color_16: '#E4E4E4'
+background: '#DBDBDB'
+foreground: '#232323'
+cursor: '#232323'
+hash: df3bdbc5a571ffc2120aa73d940dae0ef0468abe68a9ac793ec17c7a6644731e
+hash_bg: 85464c6778467456333d337146b29830849194c2fb3723373735a179b35bfa43

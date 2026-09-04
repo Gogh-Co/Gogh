@@ -1,0 +1,24 @@
+name: Equilibrium Gray Dark
+author: Carlo Abelli
+variant: dark
+color_01: '#111111'
+color_02: '#F04339'
+color_03: '#7F8B00'
+color_04: '#BB8801'
+color_05: '#008DD1'
+color_06: '#6A7FD2'
+color_07: '#00948B'
+color_08: '#ABABAB'
+color_09: '#777777'
+color_10: '#F04339'
+color_11: '#7F8B00'
+color_12: '#BB8801'
+color_13: '#008DD1'
+color_14: '#6A7FD2'
+color_15: '#00948B'
+color_16: '#E2E2E2'
+background: '#111111'
+foreground: '#ABABAB'
+cursor: '#ABABAB'
+hash: bbbc20c937b9eb04c6a9f50714f054e5fa1e8ccfd64507d5ba35d844652d8e28
+hash_bg: be5cc131d721af7085df4c15654b12c6534be6f8b5e616bd7dfc2aab35b75484

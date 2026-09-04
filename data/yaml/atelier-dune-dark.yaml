@@ -1,0 +1,24 @@
+name: Atelier Dune Dark
+author: Bram de Haan (https://github.com/atelierbram)
+variant: dark
+color_01: '#20201D'
+color_02: '#D73737'
+color_03: '#60AC39'
+color_04: '#AE9513'
+color_05: '#6684E1'
+color_06: '#B854D4'
+color_07: '#1FAD83'
+color_08: '#A6A28C'
+color_09: '#7D7A68'
+color_10: '#B65611'
+color_11: '#292824'
+color_12: '#6E6B5E'
+color_13: '#999580'
+color_14: '#E8E4CF'
+color_15: '#D43552'
+color_16: '#FEFBEC'
+background: '#20201D'
+foreground: '#A6A28C'
+cursor: '#A6A28C'
+hash: e445f138761cb1d5f6f30f118ce86bb7189aac3411d992749f2507215ae97144
+hash_bg: dcb58e8c94f713d5a8af44c7c7062db34ba84e6c8da2b9ad6103adcb15bc3857

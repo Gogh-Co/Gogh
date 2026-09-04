@@ -1,0 +1,24 @@
+name: One Dark Pro
+author: VictorPL (https://github.com/VictorPLopes)
+variant: dark
+color_01: '#3F4451'
+color_02: '#E06C75'
+color_03: '#98C379'
+color_04: '#D19A66'
+color_05: '#61AFEF'
+color_06: '#C678DD'
+color_07: '#56B6C2'
+color_08: '#D7DAE0'
+color_09: '#4F5666'
+color_10: '#BE5046'
+color_11: '#A5E075'
+color_12: '#E5C07B'
+color_13: '#4DC4FF'
+color_14: '#DE73FF'
+color_15: '#4CD1E0'
+color_16: '#E6E6E6'
+background: '#282C34'
+foreground: '#ABB2BF'
+cursor: '#ABB2BF'
+hash: 7caf9ecb93528d69e82b1d8519d2be01780d36dd26f76cc9df2bc3affbed229e
+hash_bg: 5e8eab6831045b60ca66d1dee977bb724c2cab9963110788954ed06cf9366b15

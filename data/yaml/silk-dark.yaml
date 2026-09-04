@@ -1,0 +1,24 @@
+name: Silk Dark
+author: Gabriel Fontes (https://github.com/Misterio77)
+variant: dark
+color_01: '#0E3C46'
+color_02: '#FB6953'
+color_03: '#73D8AD'
+color_04: '#FCE380'
+color_05: '#46BDDD'
+color_06: '#756B8A'
+color_07: '#3FB2B9'
+color_08: '#C7DBDD'
+color_09: '#587073'
+color_10: '#FB6953'
+color_11: '#73D8AD'
+color_12: '#FCE380'
+color_13: '#46BDDD'
+color_14: '#756B8A'
+color_15: '#3FB2B9'
+color_16: '#D2FAFF'
+background: '#0E3C46'
+foreground: '#C7DBDD'
+cursor: '#C7DBDD'
+hash: 881e6e86462b3df020d6808fed6a63ce5ebfed7ce5aeb3a814f7ab7065538831
+hash_bg: 7b0a027bd3c75ea59d59c43ff4636fcdd0dadea78d9c8d6d78c6ba65376800e5

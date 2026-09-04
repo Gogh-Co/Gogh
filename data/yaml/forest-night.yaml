@@ -1,0 +1,24 @@
+name: Forest Night
+author: ''
+variant: dark
+color_01: '#7F8F9F'
+color_02: '#FD8489'
+color_03: '#A9DD9D'
+color_04: '#F0AA8A'
+color_05: '#BDD0E5'
+color_06: '#DACCF0'
+color_07: '#A9DD9D'
+color_08: '#FFEBC3'
+color_09: '#7F8F9F'
+color_10: '#FD8489'
+color_11: '#A9DD9D'
+color_12: '#EED094'
+color_13: '#BDD0E5'
+color_14: '#DACCF0'
+color_15: '#A9DD9D'
+color_16: '#FFEBC3'
+background: '#3C4C55'
+foreground: '#FFEBC3'
+cursor: '#FFEBC3'
+hash: 131cface3fe62ad8f1d2cd2a383ac69b8aba2fee8205b673bfe29620b33f7e48
+hash_bg: b7f5fe7f16975df1860a9db380ea9766de2fe2b02ebd7c1ff55886b294a3b605

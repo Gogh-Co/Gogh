@@ -1,0 +1,24 @@
+name: Solarized Osaka Light
+author: Folke Lemaitre
+variant: light
+color_01: '#CAC4B5'
+color_02: '#DB302D'
+color_03: '#849900'
+color_04: '#B28500'
+color_05: '#268BD3'
+color_06: '#D23681'
+color_07: '#29A298'
+color_08: '#576D74'
+color_09: '#ADB7B7'
+color_10: '#DB302D'
+color_11: '#849900'
+color_12: '#B28500'
+color_13: '#268BD3'
+color_14: '#D23681'
+color_15: '#29A298'
+color_16: '#576D74'
+background: '#FDF5E2'
+foreground: '#576D74'
+cursor: '#576D74'
+hash: ae1566a63755d9363c6fbd9610087093a90f02b4268a042fadb644cbb2579e86
+hash_bg: 3fabf6ffad821cfb7126664eed7a59d5d4bb3c77d1dbea6b995dea0d0ca32bfc

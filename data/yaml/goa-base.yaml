@@ -1,0 +1,24 @@
+name: Goa Base
+author: ''
+variant: dark
+color_01: '#880041'
+color_02: '#F78000'
+color_03: '#249000'
+color_04: '#F40000'
+color_05: '#000482'
+color_06: '#F43BFF'
+color_07: '#3AFFFF'
+color_08: '#000000'
+color_09: '#411A6D'
+color_10: '#F800E1'
+color_11: '#5743FF'
+color_12: '#EA00D7'
+color_13: '#B90003'
+color_14: '#9A5952'
+color_15: '#C8F9F3'
+color_16: '#F5F4FB'
+background: '#2F0033'
+foreground: '#F6ED00'
+cursor: '#F6ED00'
+hash: 633fa36938d0787e8c423676e611831795ce1f020b85c7781898e27617759440
+hash_bg: b328b8ec669a7e62343e9803037f224e149bff75b760820b88f42b4b549207b5

@@ -1,0 +1,24 @@
+name: Da One White
+author: NNB (https://github.com/NNBnh)
+variant: light
+color_01: '#FFFFFF'
+color_02: '#DE5D6E'
+color_03: '#76A85D'
+color_04: '#B3684F'
+color_05: '#5890F8'
+color_06: '#C173D1'
+color_07: '#64B5A7'
+color_08: '#181818'
+color_09: '#585858'
+color_10: '#DE5D6E'
+color_11: '#76A85D'
+color_12: '#B3684F'
+color_13: '#5890F8'
+color_14: '#C173D1'
+color_15: '#64B5A7'
+color_16: '#000000'
+background: '#FFFFFF'
+foreground: '#181818'
+cursor: '#181818'
+hash: 0403878357d36e447c0929fd9c2e2b28bef4ac85239c49090c09cafc5078aa2a
+hash_bg: 07ee686b3ce29f11070f5edcd6f0da03659e67becfba76650c1c6b5ac079847a

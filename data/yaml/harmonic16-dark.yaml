@@ -1,0 +1,24 @@
+name: harmonic16 Dark
+author: Jannik Siebert (https://github.com/janniks)
+variant: dark
+color_01: '#0B1C2C'
+color_02: '#BF8B56'
+color_03: '#56BF8B'
+color_04: '#8BBF56'
+color_05: '#8B56BF'
+color_06: '#BF568B'
+color_07: '#568BBF'
+color_08: '#CBD6E2'
+color_09: '#627E99'
+color_10: '#BF8B56'
+color_11: '#56BF8B'
+color_12: '#8BBF56'
+color_13: '#8B56BF'
+color_14: '#BF568B'
+color_15: '#568BBF'
+color_16: '#F7F9FB'
+background: '#0B1C2C'
+foreground: '#CBD6E2'
+cursor: '#CBD6E2'
+hash: ee0cb6dd3d12cd0df3a9f3ac04a4a78b0b3f37848e34092109b1e6bb06ee15b3
+hash_bg: b30959a42a9951dc5f560bced80838460ed2b93f7bbfe967067cd027de7381d7

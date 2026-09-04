@@ -1,0 +1,24 @@
+name: Copland OS
+author: CrystalPixie
+variant: dark
+color_01: '#000000'
+color_02: '#CB0102'
+color_03: '#19CB00'
+color_04: '#F0A300'
+color_05: '#605BC6'
+color_06: '#9C3FA4'
+color_07: '#00D6A6'
+color_08: '#DDDDDD'
+color_09: '#767676'
+color_10: '#ED3A2C'
+color_11: '#23FD00'
+color_12: '#FFBC02'
+color_13: '#8483F2'
+color_14: '#BB5DC3'
+color_15: '#00FFC8'
+color_16: '#FFFFFF'
+background: '#001B33'
+foreground: '#6EBEFF'
+cursor: '#6EBEFF'
+hash: 1e142abbf4a8618d57e552701b8f7794cd9a8c3c985f93f592ffc89a17dc929a
+hash_bg: b57cc61f46d1a8cd62212c1fa2cd73522a003994b87d35108e1437b9b064765a

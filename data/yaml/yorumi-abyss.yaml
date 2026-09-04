@@ -1,0 +1,24 @@
+name: Yorumi Abyss
+author: yorumicolors
+variant: dark
+color_01: '#060914'
+color_02: '#C65E53'
+color_03: '#8CB167'
+color_04: '#C39D55'
+color_05: '#597BC0'
+color_06: '#BB5D7D'
+color_07: '#67BBB9'
+color_08: '#BDBFCB'
+color_09: '#343742'
+color_10: '#F47571'
+color_11: '#A9D07C'
+color_12: '#E1C084'
+color_13: '#798DDC'
+color_14: '#E184AF'
+color_15: '#85E0CB'
+color_16: '#D7E1B7'
+background: '#060914'
+foreground: '#BDBFCB'
+cursor: '#BDBFCB'
+hash: 6bd034424a69ed594310883ee22543988df943c484e1d8c062c7a0f843f36064
+hash_bg: 4f3a3293fc7a9ec8eb14785ddcdedabafaaef5a3ba5b9ea803e50726e1493d0d

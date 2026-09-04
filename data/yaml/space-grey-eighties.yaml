@@ -1,0 +1,24 @@
+name: Space Grey Eighties
+author: ''
+variant: dark
+color_01: '#15171C'
+color_02: '#EC5F67'
+color_03: '#80A763'
+color_04: '#4D83D0'
+color_05: '#5485C0'
+color_06: '#BF83C0'
+color_07: '#57C2C0'
+color_08: '#EEECE7'
+color_09: '#555555'
+color_10: '#FF6973'
+color_11: '#93D393'
+color_12: '#FFD156'
+color_13: '#4D83D0'
+color_14: '#FF55FF'
+color_15: '#83E8E4'
+color_16: '#FFFFFF'
+background: '#212121'
+foreground: '#C7C6C2'
+cursor: '#C7C6C2'
+hash: e3e7e00522e772c303fc859c8aa3102b66e3c9afe839053a3ae514915f51ae75
+hash_bg: 2976aa1e6076448b6cc95b6fc28ced3fafe21a86a14e7abaa110add6ee11a787

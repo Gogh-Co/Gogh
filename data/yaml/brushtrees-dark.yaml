@@ -1,0 +1,24 @@
+name: Brushtrees Dark
+author: Abraham White
+variant: dark
+color_01: '#485867'
+color_02: '#B38686'
+color_03: '#87B386'
+color_04: '#AAB386'
+color_05: '#868CB3'
+color_06: '#B386B2'
+color_07: '#86B3B3'
+color_08: '#B0C5C8'
+color_09: '#8299A1'
+color_10: '#B38686'
+color_11: '#87B386'
+color_12: '#AAB386'
+color_13: '#868CB3'
+color_14: '#B386B2'
+color_15: '#86B3B3'
+color_16: '#E3EFEF'
+background: '#485867'
+foreground: '#B0C5C8'
+cursor: '#B0C5C8'
+hash: 7832ec0a77591a9054e78e75884a53ae379c3d070662a1004dc2b6c3faec0c2f
+hash_bg: b0c3523b60fb9f5e80c6b7ebc7b0c7c06d7cc72f9bc0c357bfe887fbb3edf482

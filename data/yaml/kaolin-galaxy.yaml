@@ -1,0 +1,24 @@
+name: Kaolin Galaxy
+author: Ogden Webb
+variant: dark
+color_01: '#212026'
+color_02: '#EF6787'
+color_03: '#49BDB0'
+color_04: '#EED891'
+color_05: '#41B0F3'
+color_06: '#CEA2CA'
+color_07: '#6BD9DB'
+color_08: '#E6E6E8'
+color_09: '#615B75'
+color_10: '#D6224D'
+color_11: '#6DD797'
+color_12: '#F5C791'
+color_13: '#2A57CC'
+color_14: '#9D81BA'
+color_15: '#0BC9CF'
+color_16: '#F2F2F2'
+background: '#212026'
+foreground: '#E6E6E8'
+cursor: '#E6E6E8'
+hash: 7c348194a7efde103925e3c4d63157a60199f1507baf2fece5a8a63ad651f82f
+hash_bg: 7b44bb16a00a11a79cc7b8e0f86b82473993db5cdbe4b8a5d1c527da9a40356c

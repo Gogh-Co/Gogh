@@ -1,0 +1,24 @@
+name: Lichen Chartreuse Dark
+author: Aaron Colichia (https://aaron.colichia.org/)
+variant: dark
+color_01: '#151613'
+color_02: '#E28B82'
+color_03: '#83BDA5'
+color_04: '#B2D084'
+color_05: '#78ADC4'
+color_06: '#BFA6D4'
+color_07: '#9CC6C9'
+color_08: '#E0E5DA'
+color_09: '#899282'
+color_10: '#E28B82'
+color_11: '#CFE4AE'
+color_12: '#D5AD73'
+color_13: '#A3B8C2'
+color_14: '#D2A0B2'
+color_15: '#97C9C9'
+color_16: '#FCFCFA'
+background: '#151613'
+foreground: '#E0E5DA'
+cursor: '#E0E5DA'
+hash: f4043f3a19dd7a197b3301a435e863cd2cfadafdb87e6e30041405423447a159
+hash_bg: a2cdab1ba52742f9ca77590f11b587acdc34d1c333d0033fb38a2e389f8c7bda

@@ -1,0 +1,24 @@
+name: Bright
+author: Chris Kempson (http://chriskempson.com)
+variant: dark
+color_01: '#000000'
+color_02: '#FB0120'
+color_03: '#A1C659'
+color_04: '#FDA331'
+color_05: '#6FB3D2'
+color_06: '#D381C3'
+color_07: '#76C7B7'
+color_08: '#E0E0E0'
+color_09: '#B0B0B0'
+color_10: '#FB0120'
+color_11: '#A1C659'
+color_12: '#FDA331'
+color_13: '#6FB3D2'
+color_14: '#D381C3'
+color_15: '#76C7B7'
+color_16: '#FFFFFF'
+background: '#000000'
+foreground: '#E0E0E0'
+cursor: '#E0E0E0'
+hash: 277f9a879a518ace741c41c4414bb7623b5f414a8955cf0f66378b33680a5818
+hash_bg: 7b2817bf9b80e66d07f28095dcd1244590692778dc617a53cbd666ad280872ed

@@ -1,0 +1,24 @@
+name: Midsummer Night
+author: abrielleing
+variant: dark
+color_01: '#000000'
+color_02: '#D85069'
+color_03: '#2DCBBE'
+color_04: '#E5A382'
+color_05: '#35A5BB'
+color_06: '#D34C68'
+color_07: '#2DCBBE'
+color_08: '#B1C7C9'
+color_09: '#666666'
+color_10: '#D85069'
+color_11: '#2DCBBE'
+color_12: '#E5A382'
+color_13: '#35A5BB'
+color_14: '#D34C68'
+color_15: '#2DCBBE'
+color_16: '#B1C7C9'
+background: '#1C1E26'
+foreground: '#C6B8B1'
+cursor: '#C6B8B1'
+hash: b577b084985d83158edc1ace5025c06dd0d78a42573e232ba5bad4fdaab867f1
+hash_bg: e5055533779f22068a73eb36ca43b630eb4b6115de67c5506245397141273d13

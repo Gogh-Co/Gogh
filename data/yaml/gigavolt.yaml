@@ -1,0 +1,24 @@
+name: Gigavolt
+author: Aidan Swope (http://github.com/Whillikers)
+variant: dark
+color_01: '#202126'
+color_02: '#FF661A'
+color_03: '#F2E6A9'
+color_04: '#FFDC2D'
+color_05: '#40BFFF'
+color_06: '#AE94F9'
+color_07: '#FB6ACB'
+color_08: '#E9E7E1'
+color_09: '#A1D2E6'
+color_10: '#FF661A'
+color_11: '#F2E6A9'
+color_12: '#FFDC2D'
+color_13: '#40BFFF'
+color_14: '#AE94F9'
+color_15: '#FB6ACB'
+color_16: '#F2FBFF'
+background: '#202126'
+foreground: '#E9E7E1'
+cursor: '#E9E7E1'
+hash: dfa6a10d2b59eb0e1fd5b79da199afa3befa793ff7ce4b679ae56b9f4553237f
+hash_bg: fd83690b81121482e78bde3e74ecf278036a35efadb2088d850a17c6135e6ce6

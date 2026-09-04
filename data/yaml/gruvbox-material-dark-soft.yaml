@@ -1,0 +1,24 @@
+name: Gruvbox Material Dark Soft
+author: Mayush Kumar, sainnhe (https://github.com/MayushKumar)
+variant: dark
+color_01: '#32302F'
+color_02: '#EA6962'
+color_03: '#A9B665'
+color_04: '#D8A657'
+color_05: '#7DAEA3'
+color_06: '#D3869B'
+color_07: '#89B482'
+color_08: '#DDC7A1'
+color_09: '#7C6F64'
+color_10: '#EA6962'
+color_11: '#A9B665'
+color_12: '#D8A657'
+color_13: '#7DAEA3'
+color_14: '#D3869B'
+color_15: '#89B482'
+color_16: '#FBF1C7'
+background: '#32302F'
+foreground: '#DDC7A1'
+cursor: '#DDC7A1'
+hash: 9436721c28bdeb880cb00dbfce485e2e6f91ec2ea924b6fa75d1a1e49f0a6da6
+hash_bg: 99e92cd5e1ece158b8a0e8c0cee1c459549eb90b3ace70bb539bc4a7c51bb882

@@ -1,0 +1,24 @@
+name: Atelier Heath Dark
+author: Bram de Haan (https://github.com/atelierbram)
+variant: dark
+color_01: '#1B181B'
+color_02: '#CA402B'
+color_03: '#918B3B'
+color_04: '#BB8A35'
+color_05: '#516AEC'
+color_06: '#7B59C0'
+color_07: '#159393'
+color_08: '#AB9BAB'
+color_09: '#776977'
+color_10: '#A65926'
+color_11: '#292329'
+color_12: '#695D69'
+color_13: '#9E8F9E'
+color_14: '#D8CAD8'
+color_15: '#CC33CC'
+color_16: '#F7F3F7'
+background: '#1B181B'
+foreground: '#AB9BAB'
+cursor: '#AB9BAB'
+hash: d0a87fcb8ea41e1e67414d8d5057203a0a1bb467af9303f6ae1e063d6b58d585
+hash_bg: 68ec6e50d310351952dcc9d3f0cceaacb2c10e1d3a65aae36389b05e4ac36745

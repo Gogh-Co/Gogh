@@ -1,0 +1,24 @@
+name: Kanagawa
+author: Tommaso Laurenzi (https://github.com/rebelot)
+variant: dark
+color_01: '#1F1F28'
+color_02: '#C34043'
+color_03: '#76946A'
+color_04: '#C0A36E'
+color_05: '#7E9CD8'
+color_06: '#957FB8'
+color_07: '#6A9589'
+color_08: '#DCD7BA'
+color_09: '#54546D'
+color_10: '#C34043'
+color_11: '#76946A'
+color_12: '#C0A36E'
+color_13: '#7E9CD8'
+color_14: '#957FB8'
+color_15: '#6A9589'
+color_16: '#717C7C'
+background: '#1F1F28'
+foreground: '#DCD7BA'
+cursor: '#DCD7BA'
+hash: 24786103f4e1b7bbba3e057d5649192149561453c0e1c99b35d50885207ed2af
+hash_bg: 5ea563f1f70dee3d96945e82afea2ee20485d92e302f6a4eed3857a6b102e26e

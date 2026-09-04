@@ -1,0 +1,24 @@
+name: Alacritty 0 12
+author: ''
+variant: dark
+color_01: '#1D1F21'
+color_02: '#CC6666'
+color_03: '#B5BD68'
+color_04: '#F0C674'
+color_05: '#81A2BE'
+color_06: '#B294BB'
+color_07: '#8ABEB7'
+color_08: '#C5C8C6'
+color_09: '#666666'
+color_10: '#D54E53'
+color_11: '#B9CA4A'
+color_12: '#E7C547'
+color_13: '#7AA6DA'
+color_14: '#C397D8'
+color_15: '#70C0B1'
+color_16: '#EAEAEA'
+background: '#1D1F21'
+foreground: '#C5C8C6'
+cursor: '#C5C8C6'
+hash: 31f12a6515eb8e987337802caf2dd53dbe5cfa7460cb8914f8a1c527b7010917
+hash_bg: b29be55305e889dfa52c0fdc29cb9d5890cbdb807f6df267afdb97c14fe82ecc

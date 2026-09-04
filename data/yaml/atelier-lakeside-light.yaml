@@ -1,0 +1,24 @@
+name: Atelier Lakeside Light
+author: Bram de Haan (http://atelierbramdehaan.nl)
+variant: light
+color_01: '#EBF8FF'
+color_02: '#D22D72'
+color_03: '#568C3B'
+color_04: '#8A8A0F'
+color_05: '#257FAD'
+color_06: '#6B6BB8'
+color_07: '#2D8F6F'
+color_08: '#516D7B'
+color_09: '#7195A8'
+color_10: '#D22D72'
+color_11: '#568C3B'
+color_12: '#8A8A0F'
+color_13: '#257FAD'
+color_14: '#6B6BB8'
+color_15: '#2D8F6F'
+color_16: '#161B1D'
+background: '#EBF8FF'
+foreground: '#516D7B'
+cursor: '#516D7B'
+hash: c8d7817fcbd16a3604ef71ed95a49a759b27259d523d55b31164bb9ee09378a4
+hash_bg: 04e142678b1671f7df3dc77d576c85e4cc944cd1884241a2c4f7c16996b355b3

@@ -1,0 +1,24 @@
+name: Woodland
+author: Jay Cornwall (https://jcornwall.com)
+variant: dark
+color_01: '#231E18'
+color_02: '#D35C5C'
+color_03: '#B7BA53'
+color_04: '#E0AC16'
+color_05: '#88A4D3'
+color_06: '#BB90E2'
+color_07: '#6EB958'
+color_08: '#CABCB1'
+color_09: '#9D8B70'
+color_10: '#D35C5C'
+color_11: '#B7BA53'
+color_12: '#E0AC16'
+color_13: '#88A4D3'
+color_14: '#BB90E2'
+color_15: '#6EB958'
+color_16: '#E4D4C8'
+background: '#231E18'
+foreground: '#CABCB1'
+cursor: '#CABCB1'
+hash: 6785b041231815971cefeb52c0b983531b0ec1a8e2abff097971653af5541319
+hash_bg: 4a7a46ff1abdccc4138f8bda470ecc75c0d5037cbf1100e24d706d8cc35e732e

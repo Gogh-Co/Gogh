@@ -1,0 +1,24 @@
+name: Gruvbox Dark Pale
+author: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+variant: dark
+color_01: '#262626'
+color_02: '#D75F5F'
+color_03: '#AFAF00'
+color_04: '#FFAF00'
+color_05: '#83ADAD'
+color_06: '#D485AD'
+color_07: '#85AD85'
+color_08: '#DAB997'
+color_09: '#8A8A8A'
+color_10: '#D75F5F'
+color_11: '#AFAF00'
+color_12: '#FFAF00'
+color_13: '#83ADAD'
+color_14: '#D485AD'
+color_15: '#85AD85'
+color_16: '#EBDBB2'
+background: '#262626'
+foreground: '#DAB997'
+cursor: '#DAB997'
+hash: d987b4e08bad0c1ca26b090b2fe5629a2d0903ba61684c572eb03a99d675d759
+hash_bg: 170931320358994d5a207e537739d16911ee76874e63248892a3daac7b74ab85

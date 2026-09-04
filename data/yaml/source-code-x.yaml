@@ -1,0 +1,24 @@
+name: Source Code X
+author: ''
+variant: dark
+color_01: '#4E596B'
+color_02: '#FB695D'
+color_03: '#74B391'
+color_04: '#FC8E3E'
+color_05: '#9586F4'
+color_06: '#FB5EA3'
+color_07: '#79C8B6'
+color_08: '#BFBFBF'
+color_09: '#91A0B1'
+color_10: '#FB695D'
+color_11: '#AEF37C'
+color_12: '#FC8E3E'
+color_13: '#53A4FB'
+color_14: '#FB5EA3'
+color_15: '#83D2C0'
+color_16: '#91A0B1'
+background: '#1F1F24'
+foreground: '#000000'
+cursor: '#000000'
+hash: 3e9aa9f74c942efd26ede72ec985fc99245bd72358415f37188c970c4c6758fa
+hash_bg: 60fd05dc0978155b3c1ba8f10476681fb8b416d5987a8c1d8687c2b5a122358c

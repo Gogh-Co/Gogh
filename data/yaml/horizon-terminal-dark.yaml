@@ -1,0 +1,24 @@
+name: Horizon Terminal Dark
+author: Michaël Ball (http://github.com/michael-ball/)
+variant: dark
+color_01: '#1C1E26'
+color_02: '#E95678'
+color_03: '#29D398'
+color_04: '#FAC29A'
+color_05: '#26BBD9'
+color_06: '#EE64AC'
+color_07: '#59E1E3'
+color_08: '#CBCED0'
+color_09: '#6F6F70'
+color_10: '#E95678'
+color_11: '#29D398'
+color_12: '#FAC29A'
+color_13: '#26BBD9'
+color_14: '#EE64AC'
+color_15: '#59E1E3'
+color_16: '#E3E6EE'
+background: '#1C1E26'
+foreground: '#CBCED0'
+cursor: '#CBCED0'
+hash: 89ce8a40ff2fa74bdd0cc10ab3d5d3128706468485e99199fda2f5bf549678d9
+hash_bg: e5055533779f22068a73eb36ca43b630eb4b6115de67c5506245397141273d13

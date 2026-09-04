@@ -1,0 +1,24 @@
+name: Tokyo City Terminal Light
+author: Michaël Ball
+variant: light
+color_01: '#FBFBFD'
+color_02: '#8C4351'
+color_03: '#33635C'
+color_04: '#8F5E15'
+color_05: '#34548A'
+color_06: '#5A4A78'
+color_07: '#0F4B6E'
+color_08: '#28323A'
+color_09: '#B7C5D3'
+color_10: '#8C4351'
+color_11: '#33635C'
+color_12: '#8F5E15'
+color_13: '#34548A'
+color_14: '#5A4A78'
+color_15: '#0F4B6E'
+color_16: '#171D23'
+background: '#FBFBFD'
+foreground: '#28323A'
+cursor: '#28323A'
+hash: d0ee8b6d0b1525224af4ff67787f5232536abb8f0976e3cfe5d253076f57cdd1
+hash_bg: ff6da7ff95a3aa17ac8159b8c2eda7608c425a8943dffa3958dca9712b0e60b8

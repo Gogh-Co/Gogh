@@ -1,0 +1,24 @@
+name: Material Lighter
+author: Nate Peterson
+variant: light
+color_01: '#FAFAFA'
+color_02: '#FF5370'
+color_03: '#91B859'
+color_04: '#FFB62C'
+color_05: '#6182B8'
+color_06: '#7C4DFF'
+color_07: '#39ADB5'
+color_08: '#80CBC4'
+color_09: '#CCD7DA'
+color_10: '#FF5370'
+color_11: '#91B859'
+color_12: '#FFB62C'
+color_13: '#6182B8'
+color_14: '#7C4DFF'
+color_15: '#39ADB5'
+color_16: '#000000'
+background: '#FAFAFA'
+foreground: '#80CBC4'
+cursor: '#80CBC4'
+hash: 834b74d007b97cd4fa7a0129e8fff5a24d5f4872877ad5ce45888557285cfc70
+hash_bg: 7f6fe813de8e07553a3eb71e309f1f710f53117b136cfaec174e6a04c653bc88

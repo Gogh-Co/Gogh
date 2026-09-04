@@ -1,0 +1,24 @@
+name: Pop
+author: Chris Kempson (http://chriskempson.com)
+variant: dark
+color_01: '#000000'
+color_02: '#EB008A'
+color_03: '#37B349'
+color_04: '#F8CA12'
+color_05: '#0E5A94'
+color_06: '#B31E8D'
+color_07: '#00AABB'
+color_08: '#D0D0D0'
+color_09: '#505050'
+color_10: '#EB008A'
+color_11: '#37B349'
+color_12: '#F8CA12'
+color_13: '#0E5A94'
+color_14: '#B31E8D'
+color_15: '#00AABB'
+color_16: '#FFFFFF'
+background: '#000000'
+foreground: '#D0D0D0'
+cursor: '#D0D0D0'
+hash: 56c8efb7e5240cb83f5f592dd98ecc813481c1b86f1a31ddc66253ee0664607a
+hash_bg: 7b2817bf9b80e66d07f28095dcd1244590692778dc617a53cbd666ad280872ed

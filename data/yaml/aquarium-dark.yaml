@@ -1,0 +1,24 @@
+name: Aquarium Dark
+author: Detective Pikachu
+variant: dark
+color_01: '#3B3B4D'
+color_02: '#EBB9B9'
+color_03: '#CAF6BB'
+color_04: '#E6DFB8'
+color_05: '#CDDBF9'
+color_06: '#F6BBE7'
+color_07: '#B8DCEB'
+color_08: '#C8CEDC'
+color_09: '#1B1B23'
+color_10: '#D95E59'
+color_11: '#8FC587'
+color_12: '#FFCF85'
+color_13: '#4A83C3'
+color_14: '#BF83B5'
+color_15: '#4EB3CD'
+color_16: '#ABB2C2'
+background: '#20202A'
+foreground: '#C6D0E9'
+cursor: '#C6D0E9'
+hash: 3734469a1d05d9806827266fcb81bd5dbafad8302a3e845bdeac8bb2c2f44a31
+hash_bg: 5c206afff20f561a5a1a9656cffa6fadb9c47ae4a2247f16c3d7ab9f0ad3d114

@@ -1,0 +1,24 @@
+name: Unikitty Reversible
+author: Josh W Lewis (@joshwlewis)
+variant: dark
+color_01: '#2E2A31'
+color_02: '#D8137F'
+color_03: '#17AD98'
+color_04: '#DC8A0E'
+color_05: '#7864FA'
+color_06: '#B33CE8'
+color_07: '#149BDA'
+color_08: '#C3C2C4'
+color_09: '#878589'
+color_10: '#D8137F'
+color_11: '#17AD98'
+color_12: '#DC8A0E'
+color_13: '#7864FA'
+color_14: '#B33CE8'
+color_15: '#149BDA'
+color_16: '#FFFFFF'
+background: '#2E2A31'
+foreground: '#C3C2C4'
+cursor: '#C3C2C4'
+hash: b60e9e635df42b408bebdfad5ff80f80bc915e41dafbdb0912c8c96ac2ac648a
+hash_bg: c5a360679058b90361795c6073280ea2bc2cf56560ffc42bccf75c7a63353d36

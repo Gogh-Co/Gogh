@@ -1,0 +1,24 @@
+name: Solarized Osaka Day
+author: ''
+variant: light
+color_01: '#073642'
+color_02: '#DC322F'
+color_03: '#859900'
+color_04: '#B58900'
+color_05: '#268BD2'
+color_06: '#D33682'
+color_07: '#2AA198'
+color_08: '#EEE8D5'
+color_09: '#4C4C4C'
+color_10: '#CB4B16'
+color_11: '#586E75'
+color_12: '#657B83'
+color_13: '#839496'
+color_14: '#6C71C4'
+color_15: '#93A1A1'
+color_16: '#FDF6E3'
+background: '#FDF5E0'
+foreground: '#586E74'
+cursor: '#586E74'
+hash: c22b5a1d91ebc21a579a0941e33cca485b2def65e1c2bd7af7c966e3f5078786
+hash_bg: 2195573bc68520b9a0a895d50f8b99d6248dad15370055a183f014fd1b0597ea

@@ -1,0 +1,24 @@
+name: Midnight Haze
+author: ''
+variant: dark
+color_01: '#2C2C3D'
+color_02: '#FF6E6E'
+color_03: '#9EC875'
+color_04: '#FFA759'
+color_05: '#70A7D4'
+color_06: '#D291E0'
+color_07: '#96E0E0'
+color_08: '#D8DEE9'
+color_09: '#414166'
+color_10: '#FF8D8D'
+color_11: '#B3D987'
+color_12: '#FFC57F'
+color_13: '#9BB3D3'
+color_14: '#FFA1FF'
+color_15: '#9CD8D8'
+color_16: '#FFFFFF'
+background: '#0C0C16'
+foreground: '#D8DEE9'
+cursor: '#D8DEE9'
+hash: 268c6a5ce9c543f5aca48d8022b00c4cb819a11b4002d3b022269bfce8085ae9
+hash_bg: bc938122717052945c0d17143ccf9b4ed68f5c15d1d5e59a5fae5f693bec672d

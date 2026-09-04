@@ -1,0 +1,24 @@
+name: Yorumi Kraken
+author: yorumicolors
+variant: dark
+color_01: '#0E121F'
+color_02: '#913B3B'
+color_03: '#697F4D'
+color_04: '#9D672F'
+color_05: '#42608A'
+color_06: '#614686'
+color_07: '#478584'
+color_08: '#A7A9B5'
+color_09: '#343742'
+color_10: '#F47571'
+color_11: '#A9D07C'
+color_12: '#E1C084'
+color_13: '#798DDC'
+color_14: '#AD8FD6'
+color_15: '#85E0CB'
+color_16: '#C0BCE6'
+background: '#0E0D17'
+foreground: '#C0BCE6'
+cursor: '#C0BCE6'
+hash: 243a7d8894761964f2124018f66b3abfe0cd445d328fd6348f8b08b4d1b054ab
+hash_bg: 605e7e6ae04bb9e69800d89206d4e43c37d491516c6d925cda6e35b3622d8a53

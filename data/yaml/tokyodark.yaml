@@ -1,0 +1,24 @@
+name: Tokyodark
+author: Jamy Golden, Based on Tokyodark.nvim (https://github.com/JamyGolden)
+variant: dark
+color_01: '#11121D'
+color_02: '#EE6D85'
+color_03: '#95C561'
+color_04: '#D7A65F'
+color_05: '#7199EE'
+color_06: '#A485DD'
+color_07: '#9FBBF3'
+color_08: '#A0A8CD'
+color_09: '#353945'
+color_10: '#EE6D85'
+color_11: '#95C561'
+color_12: '#D7A65F'
+color_13: '#7199EE'
+color_14: '#A485DD'
+color_15: '#9FBBF3'
+color_16: '#BCC2DC'
+background: '#11121D'
+foreground: '#A0A8CD'
+cursor: '#A0A8CD'
+hash: be1d2eb41d457a8bed6bf8bb16522b2f5ca5c59059b4b5be8e6829583dc4119f
+hash_bg: 69a7fed5c0d609962905f573c5cb169461f6fc76785264c06dee2a33138aa61c

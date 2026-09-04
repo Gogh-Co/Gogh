@@ -1,0 +1,24 @@
+name: Hachiko Red
+author: Mert18
+variant: dark
+color_01: '#181818'
+color_02: '#960042'
+color_03: '#FF0000'
+color_04: '#FF5D05'
+color_05: '#FF2044'
+color_06: '#FFEDCF'
+color_07: '#6F0027'
+color_08: '#FFDAF1'
+color_09: '#333333'
+color_10: '#870300'
+color_11: '#690000'
+color_12: '#6F2700'
+color_13: '#333333'
+color_14: '#FFFFB5'
+color_15: '#F50056'
+color_16: '#FFE6DA'
+background: '#181818'
+foreground: '#FFDAF1'
+cursor: '#FFDAF1'
+hash: 5bd662ae75d621b8f40307c5e29d05a75cef8049fbb3fcfd3733ba5e4f46fc17
+hash_bg: 330bda57284bd4a09a8e98ca84ad20ab7907fd4f0858613d918fcb417510b28f

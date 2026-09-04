@@ -1,0 +1,24 @@
+name: Circus
+author: Stephan Boyer and Esther Wang (https://github.com/stepchowfun)
+variant: dark
+color_01: '#191919'
+color_02: '#DC657D'
+color_03: '#84B97C'
+color_04: '#C3BA63'
+color_05: '#639EE4'
+color_06: '#B888E2'
+color_07: '#4BB1A7'
+color_08: '#A7A7A7'
+color_09: '#5F5A60'
+color_10: '#DC657D'
+color_11: '#84B97C'
+color_12: '#C3BA63'
+color_13: '#639EE4'
+color_14: '#B888E2'
+color_15: '#4BB1A7'
+color_16: '#FFFFFF'
+background: '#191919'
+foreground: '#A7A7A7'
+cursor: '#A7A7A7'
+hash: e7f71d45c6a160a779c3a586e85864059bae9c58987e0faac6a51055d3fdd415
+hash_bg: 74fdfc67436b3623da346243598b759bae86cf6a084fedf77fa779f9037c623a

@@ -1,0 +1,24 @@
+name: Eldritch
+author: Eldritch Theme (https://github.com/eldritch-theme)
+variant: dark
+color_01: '#212337'
+color_02: '#F16C75'
+color_03: '#37F499'
+color_04: '#F1FC79'
+color_05: '#39DDFD'
+color_06: '#A48CF2'
+color_07: '#04D1F9'
+color_08: '#EBFAFA'
+color_09: '#7081D0'
+color_10: '#F89A9D'
+color_11: '#6FFFC1'
+color_12: '#F9E9A1'
+color_13: '#7AE9FF'
+color_14: '#D4B3FF'
+color_15: '#6CE9FF'
+color_16: '#FFFFFF'
+background: '#212337'
+foreground: '#EBFAFA'
+cursor: '#EBFAFA'
+hash: aebc372d17e5727d5d9bacf4689efcbd69d9771d359d9cc91bf9f1cdabd82bd3
+hash_bg: bd473294b4b9c06c0898235a6af5a2cf3ae8e1b009570d04cc4d3d992aa29fdc

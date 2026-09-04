@@ -1,0 +1,24 @@
+name: Eldritch Dark
+author: jacobrreed
+variant: dark
+color_01: '#21222C'
+color_02: '#F9515D'
+color_03: '#37F499'
+color_04: '#E9F941'
+color_05: '#9071F4'
+color_06: '#F265B5'
+color_07: '#04D1F9'
+color_08: '#EBFAFA'
+color_09: '#7081D0'
+color_10: '#F16C75'
+color_11: '#69F8B3'
+color_12: '#F1FC79'
+color_13: '#A48CF2'
+color_14: '#FD92CE'
+color_15: '#66E4FD'
+color_16: '#FFFFFF'
+background: '#171928'
+foreground: '#EBFAFA'
+cursor: '#EBFAFA'
+hash: 75c1217dac2f815193fcc9009789129e0e5c5c56fce667946517438d64a86b43
+hash_bg: d99f4f0683ff92d34ec1d070bf1f50c1efa5c9928b04ac8fdab707547ad3c212

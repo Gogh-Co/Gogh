@@ -1,0 +1,24 @@
+name: School Boy Colored
+author: BrokenSideViewMirror (https://github.com/BrokenSideViewMirror)
+variant: dark
+color_01: '#174715'
+color_02: '#FCA4A4'
+color_03: '#9BFC94'
+color_04: '#FCF45F'
+color_05: '#6384F9'
+color_06: '#F771FC'
+color_07: '#7EE9FC'
+color_08: '#BFBFBF'
+color_09: '#21631E'
+color_10: '#FCC2C2'
+color_11: '#BCFCB8'
+color_12: '#FCF797'
+color_13: '#8AA3FC'
+color_14: '#F99FFC'
+color_15: '#A9EFFC'
+color_16: '#DDDDDD'
+background: '#0B230A'
+foreground: '#BFBFBF'
+cursor: '#BFBFBF'
+hash: e2b9999a6e9dda227a6df5a182f781f1c7e36716a7d75c7d71a5a0afea08e8f4
+hash_bg: 2b8466b102e82536051ee6371faaec1556ac59ac54446450cd0d30995dfcc5e9

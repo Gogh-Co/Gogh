@@ -1,0 +1,24 @@
+name: Darkmoss
+author: Gabriel Avanzi (https://github.com/avanzzzi)
+variant: dark
+color_01: '#171E1F'
+color_02: '#FF4658'
+color_03: '#499180'
+color_04: '#FDB11F'
+color_05: '#498091'
+color_06: '#9BC0C8'
+color_07: '#66D9EF'
+color_08: '#C7C7A5'
+color_09: '#555E5F'
+color_10: '#FF4658'
+color_11: '#499180'
+color_12: '#FDB11F'
+color_13: '#498091'
+color_14: '#9BC0C8'
+color_15: '#66D9EF'
+color_16: '#E1EAEF'
+background: '#171E1F'
+foreground: '#C7C7A5'
+cursor: '#C7C7A5'
+hash: 37cf7c3c82c8b1c3c48b56fd886c663d4d372280a1aa35b3ac161b103b60a6d3
+hash_bg: aa88d12e6a1c807c64313e0f0a96d268e4b6484516ecb483ad65606960d81c99

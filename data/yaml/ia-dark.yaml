@@ -1,0 +1,24 @@
+name: Ia Dark
+author: iA Inc. (modified by aramisgithub)
+variant: dark
+color_01: '#1A1A1A'
+color_02: '#D88568'
+color_03: '#83A471'
+color_04: '#B99353'
+color_05: '#8ECCDD'
+color_06: '#B98EB2'
+color_07: '#7C9CAE'
+color_08: '#CCCCCC'
+color_09: '#767676'
+color_10: '#D88568'
+color_11: '#83A471'
+color_12: '#B99353'
+color_13: '#8ECCDD'
+color_14: '#B98EB2'
+color_15: '#7C9CAE'
+color_16: '#F8F8F8'
+background: '#1A1A1A'
+foreground: '#CCCCCC'
+cursor: '#CCCCCC'
+hash: 008473abf2bf26757e0dbf94eeb84e32150563358faa8edc5492f08ac2acf992
+hash_bg: f70b776dd81bc5cf00513200646fe4e0452b12e474fda29388b12ed13738fb90

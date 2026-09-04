@@ -1,0 +1,24 @@
+name: Alabaster Dark
+author: Nikita Prokopov
+variant: dark
+color_01: '#000000'
+color_02: '#E25D56'
+color_03: '#73CA50'
+color_04: '#E9BF57'
+color_05: '#4A88E4'
+color_06: '#915CAF'
+color_07: '#23ACDD'
+color_08: '#CECECE'
+color_09: '#777777'
+color_10: '#F36868'
+color_11: '#88DB3F'
+color_12: '#F0BF7A'
+color_13: '#6F8FDB'
+color_14: '#E987E9'
+color_15: '#4AC9E2'
+color_16: '#FFFFFF'
+background: '#0E1415'
+foreground: '#CECECE'
+cursor: '#CECECE'
+hash: 3b34582866d21269feefd1562b684b3fe66edd1bb435443b55083a21456679e7
+hash_bg: 747d6932edc31b16df928d4f6cc7285cb394c94b997e5d18e42f39134504215e

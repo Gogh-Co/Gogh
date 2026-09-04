@@ -1,0 +1,24 @@
+name: Darkviolet
+author: ruler501 (https://github.com/ruler501/base16-darkviolet)
+variant: dark
+color_01: '#000000'
+color_02: '#A82EE6'
+color_03: '#4595E6'
+color_04: '#F29DF2'
+color_05: '#4136D9'
+color_06: '#7E5CE6'
+color_07: '#40DFFF'
+color_08: '#B08AE6'
+color_09: '#593380'
+color_10: '#A82EE6'
+color_11: '#4595E6'
+color_12: '#F29DF2'
+color_13: '#4136D9'
+color_14: '#7E5CE6'
+color_15: '#40DFFF'
+color_16: '#A366FF'
+background: '#000000'
+foreground: '#B08AE6'
+cursor: '#B08AE6'
+hash: 83551e1102fdec1e11cf967afa1926326e8bebe0cc1907008a40e07c7c35ca84
+hash_bg: 7b2817bf9b80e66d07f28095dcd1244590692778dc617a53cbd666ad280872ed

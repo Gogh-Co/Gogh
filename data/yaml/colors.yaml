@@ -1,0 +1,24 @@
+name: Colors
+author: mrmrs (http://clrs.cc)
+variant: dark
+color_01: '#111111'
+color_02: '#FF4136'
+color_03: '#2ECC40'
+color_04: '#FFDC00'
+color_05: '#0074D9'
+color_06: '#B10DC9'
+color_07: '#7FDBFF'
+color_08: '#BBBBBB'
+color_09: '#777777'
+color_10: '#FF4136'
+color_11: '#2ECC40'
+color_12: '#FFDC00'
+color_13: '#0074D9'
+color_14: '#B10DC9'
+color_15: '#7FDBFF'
+color_16: '#FFFFFF'
+background: '#111111'
+foreground: '#BBBBBB'
+cursor: '#BBBBBB'
+hash: f7647cdba4ac508d8c9c5ed696a4e114706b2fea45fe89d8a8334986c12cf1e2
+hash_bg: be5cc131d721af7085df4c15654b12c6534be6f8b5e616bd7dfc2aab35b75484

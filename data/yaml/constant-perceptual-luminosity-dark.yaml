@@ -1,0 +1,24 @@
+name: Constant Perceptual Luminosity Dark
+author: Aaron Hall
+variant: dark
+color_01: '#000000'
+color_02: '#B10B00'
+color_03: '#007232'
+color_04: '#745B00'
+color_05: '#3123FF'
+color_06: '#9B0097'
+color_07: '#006A78'
+color_08: '#777777'
+color_09: '#464646'
+color_10: '#FF3D2B'
+color_11: '#00AE50'
+color_12: '#B18C00'
+color_13: '#6786FF'
+color_14: '#EB00E4'
+color_15: '#00A3B7'
+color_16: '#ABABAB'
+background: '#000000'
+foreground: '#777777'
+cursor: '#777777'
+hash: 3a75f84f78c1741af88663c154ce42bbc8e9dedacf8734a0fdeb346333b2357d
+hash_bg: 7b2817bf9b80e66d07f28095dcd1244590692778dc617a53cbd666ad280872ed

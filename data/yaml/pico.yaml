@@ -1,0 +1,24 @@
+name: Pico
+author: PICO-8 (http://www.lexaloffle.com/pico-8.php)
+variant: dark
+color_01: '#000000'
+color_02: '#FF004D'
+color_03: '#00E756'
+color_04: '#FFF024'
+color_05: '#83769C'
+color_06: '#FF77A8'
+color_07: '#29ADFF'
+color_08: '#5F574F'
+color_09: '#008751'
+color_10: '#FF004D'
+color_11: '#00E756'
+color_12: '#FFF024'
+color_13: '#83769C'
+color_14: '#FF77A8'
+color_15: '#29ADFF'
+color_16: '#FFF1E8'
+background: '#000000'
+foreground: '#5F574F'
+cursor: '#5F574F'
+hash: 381208546dfcd7193174597cc5c75bee622d4e74ee0c9e4079722eb6506b11ce
+hash_bg: 7b2817bf9b80e66d07f28095dcd1244590692778dc617a53cbd666ad280872ed

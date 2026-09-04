@@ -1,0 +1,24 @@
+name: Cerulean Signal Dark
+author: Aaron Colichia (https://aaron.colichia.org/)
+variant: dark
+color_01: '#101722'
+color_02: '#FF8A9A'
+color_03: '#70E1B0'
+color_04: '#E2C85F'
+color_05: '#7DD3FF'
+color_06: '#FF74D4'
+color_07: '#58D9DF'
+color_08: '#DCE6F2'
+color_09: '#8FA0B5'
+color_10: '#FF9CAC'
+color_11: '#8BE7BD'
+color_12: '#F4DC76'
+color_13: '#9ADFFF'
+color_14: '#FF8BDD'
+color_15: '#72E7EB'
+color_16: '#F7F9FC'
+background: '#101722'
+foreground: '#DCE6F2'
+cursor: '#DCE6F2'
+hash: 023b4e45ff5f28808f8c9a69e2bfc2d5fe2228b1e54021fb76a8a1341b91b98a
+hash_bg: 8330a562221828545149320c8ca3f16a2f398cdb72c551b442f43b3cc675b4ed

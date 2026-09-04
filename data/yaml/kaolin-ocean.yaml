@@ -1,0 +1,24 @@
+name: Kaolin Ocean
+author: Ogden Webb
+variant: dark
+color_01: '#14141E'
+color_02: '#E84C58'
+color_03: '#35BF88'
+color_04: '#DBAC66'
+color_05: '#4CA6E8'
+color_06: '#C79AF4'
+color_07: '#6BD9DB'
+color_08: '#E6E6E8'
+color_09: '#545C5E'
+color_10: '#E84C58'
+color_11: '#7CF083'
+color_12: '#EED891'
+color_13: '#53859D'
+color_14: '#CEA2CA'
+color_15: '#4D9391'
+color_16: '#BEBEC4'
+background: '#14141E'
+foreground: '#E6E6E8'
+cursor: '#E6E6E8'
+hash: 4d79cfa996a491bd5dc7db957427da9c8c557465790b8ee348c2073642dda499
+hash_bg: 2307a729ddb51f3d7c0b131b24ec802c5dc250a5241b6ca78d46d5e95d313e35

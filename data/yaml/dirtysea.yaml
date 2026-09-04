@@ -1,0 +1,24 @@
+name: Dirtysea
+author: Kahlil (Kal) Hodgson
+variant: light
+color_01: '#E0E0E0'
+color_02: '#840000'
+color_03: '#730073'
+color_04: '#755B00'
+color_05: '#007300'
+color_06: '#000090'
+color_07: '#755B00'
+color_08: '#000000'
+color_09: '#707070'
+color_10: '#840000'
+color_11: '#730073'
+color_12: '#755B00'
+color_13: '#007300'
+color_14: '#000090'
+color_15: '#755B00'
+color_16: '#C4D9C4'
+background: '#E0E0E0'
+foreground: '#000000'
+cursor: '#000000'
+hash: 2452b1a256a1e7e5238fa6e3d788bf31041f4de47ef17930b5541db177f6d062
+hash_bg: e8cb28436700f312952d6f6dbdda25bdaa714f653730ecd24105d40b837770e6

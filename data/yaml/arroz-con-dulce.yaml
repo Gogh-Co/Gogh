@@ -1,0 +1,24 @@
+name: Arroz Con Dulce
+author: Richard Martinez
+variant: light
+color_01: '#FFF8E7'
+color_02: '#A11D48'
+color_03: '#A2380C'
+color_04: '#855500'
+color_05: '#5940A0'
+color_06: '#8C1F68'
+color_07: '#98263E'
+color_08: '#4A2C20'
+color_09: '#C8A77A'
+color_10: '#A11D48'
+color_11: '#A2380C'
+color_12: '#855500'
+color_13: '#5940A0'
+color_14: '#8C1F68'
+color_15: '#98263E'
+color_16: '#21110B'
+background: '#FFF8E7'
+foreground: '#4A2C20'
+cursor: '#4A2C20'
+hash: 4693bb4bbdcef2c38291f29741fd75ad8ce2070cb9845398845fd5a23051cf2c
+hash_bg: 55696129c66787b18bc89a3f17637deeaf29f9947acaa375833c4da280aa35ec

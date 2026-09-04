@@ -1,0 +1,24 @@
+name: Danqing
+author: Wenhan Zhu (Cosmos) (zhuwenhan950913@gmail.com)
+variant: dark
+color_01: '#2D302F'
+color_02: '#F9906F'
+color_03: '#8AB361'
+color_04: '#F0C239'
+color_05: '#B0A4E3'
+color_06: '#CCA4E3'
+color_07: '#30DFF3'
+color_08: '#E0F0EF'
+color_09: '#9DA8A3'
+color_10: '#F9906F'
+color_11: '#8AB361'
+color_12: '#F0C239'
+color_13: '#B0A4E3'
+color_14: '#CCA4E3'
+color_15: '#30DFF3'
+color_16: '#FCFEFD'
+background: '#2D302F'
+foreground: '#E0F0EF'
+cursor: '#E0F0EF'
+hash: a169912378cfd263304f5a03ac7096ea2a086f9f154517a6a0a90c3dc82538a1
+hash_bg: 38f5a8524629a055d0e58565a7bd0e0f6f42d5fd18b23b38858ecfa816da5df3

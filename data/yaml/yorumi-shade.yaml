@@ -1,0 +1,24 @@
+name: Yorumi Shade
+author: yorumicolors
+variant: dark
+color_01: '#0F1015'
+color_02: '#913B3B'
+color_03: '#697F4D'
+color_04: '#9D672F'
+color_05: '#42608A'
+color_06: '#8D3F5A'
+color_07: '#478584'
+color_08: '#878996'
+color_09: '#343742'
+color_10: '#C65E53'
+color_11: '#8CB167'
+color_12: '#C39D55'
+color_13: '#597BC0'
+color_14: '#BB5D7D'
+color_15: '#67BBB9'
+color_16: '#BDBFCB'
+background: '#0F101B'
+foreground: '#BDBFCB'
+cursor: '#BDBFCB'
+hash: 056ee1ef97f3abd3f55260db6ab4995661ece49178154aaba474bab1672d346c
+hash_bg: f0ef1ee8b069dc47d9c767c22f6b73bcf06741a90928be6342b852eac70114e2

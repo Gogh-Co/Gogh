@@ -1,0 +1,24 @@
+name: Dark Pride
+author: apathyrecharge
+variant: dark
+color_01: '#282828'
+color_02: '#CA1444'
+color_03: '#789ABA'
+color_04: '#B3879F'
+color_05: '#94469B'
+color_06: '#CB6FA1'
+color_07: '#FB6E93'
+color_08: '#CF98C1'
+color_09: '#98218E'
+color_10: '#CB515D'
+color_11: '#5A87B1'
+color_12: '#9C61AB'
+color_13: '#9A77B1'
+color_14: '#F2A297'
+color_15: '#F4436F'
+color_16: '#EBDBB2'
+background: '#0D0D1B'
+foreground: '#CCCCCE'
+cursor: '#CCCCCE'
+hash: 5c53bc30d15d832876297467ad6d22422cd1fc4293eab37216155cb6de1f3ccc
+hash_bg: 22f9da8b1e8197e4e06d43f3e37ffc70e52bcbb139791d350eded3e4a58f9e9c

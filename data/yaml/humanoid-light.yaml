@@ -1,0 +1,24 @@
+name: Humanoid Light
+author: Thomas (tasmo) Friese
+variant: light
+color_01: '#F8F8F2'
+color_02: '#B0151A'
+color_03: '#388E3C'
+color_04: '#FFB627'
+color_05: '#0082C9'
+color_06: '#700F98'
+color_07: '#008E8E'
+color_08: '#232629'
+color_09: '#C0C0BD'
+color_10: '#B0151A'
+color_11: '#388E3C'
+color_12: '#FFB627'
+color_13: '#0082C9'
+color_14: '#700F98'
+color_15: '#008E8E'
+color_16: '#070708'
+background: '#F8F8F2'
+foreground: '#232629'
+cursor: '#232629'
+hash: 7df010df46c7e35c705c91cd94c314475292429e99332de1df7207570ab2a521
+hash_bg: 80c84800be7b60526b422611627bed496d0b9c7784c1fc298f8a0851fcedfcb6

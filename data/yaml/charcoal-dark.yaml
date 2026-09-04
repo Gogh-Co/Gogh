@@ -1,0 +1,24 @@
+name: Charcoal Dark
+author: Mubin Muhammad (https://github.com/mubin6th)
+variant: dark
+color_01: '#0F0B05'
+color_02: '#A88C62'
+color_03: '#DEC8A7'
+color_04: '#DEC8A7'
+color_05: '#C3A983'
+color_06: '#A88C62'
+color_07: '#DEC8A7'
+color_08: '#C3A983'
+color_09: '#57462C'
+color_10: '#A88C62'
+color_11: '#DEC8A7'
+color_12: '#DEC8A7'
+color_13: '#C3A983'
+color_14: '#A88C62'
+color_15: '#DEC8A7'
+color_16: '#231B0E'
+background: '#0F0B05'
+foreground: '#C3A983'
+cursor: '#C3A983'
+hash: 68b914a44a8013992833123a6aeed2485b9688b20fce0faaf54ac380b0400cc9
+hash_bg: b47a3c2b8c2620318129ab808e3800bb0b9eb76d5eb2cf9af1ff9c9aefd7bf7f

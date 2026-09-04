@@ -1,0 +1,24 @@
+name: Primer Dark Dimmed
+author: Jimmy Lin
+variant: dark
+color_01: '#1C2128'
+color_02: '#F47067'
+color_03: '#57AB5A'
+color_04: '#C69026'
+color_05: '#539BF5'
+color_06: '#E275AD'
+color_07: '#96D0FF'
+color_08: '#909DAB'
+color_09: '#545D68'
+color_10: '#F47067'
+color_11: '#57AB5A'
+color_12: '#C69026'
+color_13: '#539BF5'
+color_14: '#E275AD'
+color_15: '#96D0FF'
+color_16: '#CDD9E5'
+background: '#1C2128'
+foreground: '#909DAB'
+cursor: '#909DAB'
+hash: 321d857372730f0bc6bc81f87d70539c8aa2892c1a65a7948a1e7e7912c339cf
+hash_bg: 81f4d9f33964c4cf239aba184b949a2408f301a392bb245d437da9c68050fc8f

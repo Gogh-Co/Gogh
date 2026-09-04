@@ -1,0 +1,24 @@
+name: Linux Vt
+author: j-c-m (https://github.com/j-c-m/)
+variant: dark
+color_01: '#000000'
+color_02: '#AA0000'
+color_03: '#00AA00'
+color_04: '#FFFF55'
+color_05: '#5555FF'
+color_06: '#FF55FF'
+color_07: '#00AAAA'
+color_08: '#AAAAAA'
+color_09: '#555555'
+color_10: '#AA0000'
+color_11: '#00AA00'
+color_12: '#FFFF55'
+color_13: '#5555FF'
+color_14: '#FF55FF'
+color_15: '#00AAAA'
+color_16: '#FFFFFF'
+background: '#000000'
+foreground: '#AAAAAA'
+cursor: '#AAAAAA'
+hash: f43cb2a0e82bebf62873404c203aa14bb2bd5ff5eb209b7ff7159ceab1d2ddfd
+hash_bg: 7b2817bf9b80e66d07f28095dcd1244590692778dc617a53cbd666ad280872ed

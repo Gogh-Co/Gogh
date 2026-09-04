@@ -1,0 +1,24 @@
+name: Pastel Ega
+author: Timo Heidutzek (trzyglow)
+variant: dark
+color_01: '#414141'
+color_02: '#DD4274'
+color_03: '#1DB37B'
+color_04: '#CBAE25'
+color_05: '#4C96D7'
+color_06: '#BF2FAF'
+color_07: '#41BCBC'
+color_08: '#BFBFBF'
+color_09: '#8D8D8D'
+color_10: '#DB7497'
+color_11: '#70E6AE'
+color_12: '#FAF8AC'
+color_13: '#A5D2F3'
+color_14: '#DF7CD3'
+color_15: '#5FE4E4'
+color_16: '#F6F6F6'
+background: '#414141'
+foreground: '#F6F6F6'
+cursor: '#F6F6F6'
+hash: 184363b894d50384ebb5d55adf06d4464366ca32c35dc861f9a6f1faa9281881
+hash_bg: 0882d3bcd05a5e28c71d0a15e08bd7499bb9c0c31b75ac1b3220dfa824a5a8bd

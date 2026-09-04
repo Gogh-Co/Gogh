@@ -1,0 +1,24 @@
+name: Classic Light
+author: Jason Heeris (http://heeris.id.au)
+variant: light
+color_01: '#F5F5F5'
+color_02: '#AC4142'
+color_03: '#90A959'
+color_04: '#F4BF75'
+color_05: '#6A9FB5'
+color_06: '#AA759F'
+color_07: '#75B5AA'
+color_08: '#303030'
+color_09: '#B0B0B0'
+color_10: '#AC4142'
+color_11: '#90A959'
+color_12: '#F4BF75'
+color_13: '#6A9FB5'
+color_14: '#AA759F'
+color_15: '#75B5AA'
+color_16: '#151515'
+background: '#F5F5F5'
+foreground: '#303030'
+cursor: '#303030'
+hash: ef734c3b59d0b9862ff54c2f63255920d9ac5731e4fa649115d16642d01218db
+hash_bg: e155ed1a43c8e11f69abfd5ecef16e53ae81c351a1b676b24ccbea1ef6ee85e7

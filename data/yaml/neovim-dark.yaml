@@ -1,0 +1,24 @@
+name: Neovim Dark
+author: Highlight Group.C (https://github.com/neovim/neovim/blob/master/src/nvim/highlight_group.c)
+variant: dark
+color_01: '#14161B'
+color_02: '#FFC0B9'
+color_03: '#B3F6C0'
+color_04: '#FCE094'
+color_05: '#A6DBFF'
+color_06: '#FFCAFF'
+color_07: '#8CF8F7'
+color_08: '#E0E2EA'
+color_09: '#9B9EA4'
+color_10: '#FFC0B9'
+color_11: '#B3F6C0'
+color_12: '#FCE094'
+color_13: '#A6DBFF'
+color_14: '#FFCAFF'
+color_15: '#8CF8F7'
+color_16: '#EEF1F8'
+background: '#14161B'
+foreground: '#E0E2EA'
+cursor: '#E0E2EA'
+hash: b98012a32d2b8a10cfb3535d499ea7c72d7e1cd4e8b6bf095b4bd44aba65b6ce
+hash_bg: 16d2ed9299c9d55240f62d858902ed14316ad9cb44e0e4bef18a19943460f5a1

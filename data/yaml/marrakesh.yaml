@@ -1,0 +1,24 @@
+name: Marrakesh
+author: Alexandre Gavioli (http://github.com/Alexx2/)
+variant: dark
+color_01: '#201602'
+color_02: '#C35359'
+color_03: '#18974E'
+color_04: '#A88339'
+color_05: '#477CA1'
+color_06: '#8868B3'
+color_07: '#75A738'
+color_08: '#948E48'
+color_09: '#6C6823'
+color_10: '#C35359'
+color_11: '#18974E'
+color_12: '#A88339'
+color_13: '#477CA1'
+color_14: '#8868B3'
+color_15: '#75A738'
+color_16: '#FAF0A5'
+background: '#201602'
+foreground: '#948E48'
+cursor: '#948E48'
+hash: 01846223252fb3f5e5eb1952fda928a7586e009e84475d545feff8e0f8c9d0c5
+hash_bg: 19ab8e6e913a4c4df2a173da8e2873983cab92240a622da4c91a319fc0b26863

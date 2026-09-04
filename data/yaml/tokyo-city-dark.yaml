@@ -1,0 +1,24 @@
+name: Tokyo City Dark
+author: Michaël Ball
+variant: dark
+color_01: '#171D23'
+color_02: '#F7768E'
+color_03: '#9ECE6A'
+color_04: '#B7C5D3'
+color_05: '#7AA2F7'
+color_06: '#BB9AF7'
+color_07: '#89DDFF'
+color_08: '#D8E2EC'
+color_09: '#526270'
+color_10: '#F7768E'
+color_11: '#9ECE6A'
+color_12: '#B7C5D3'
+color_13: '#7AA2F7'
+color_14: '#BB9AF7'
+color_15: '#89DDFF'
+color_16: '#FBFBFD'
+background: '#171D23'
+foreground: '#D8E2EC'
+cursor: '#D8E2EC'
+hash: e34f81091c1b8f7fc301923fa1e2cc67a869b7cf93f395fab97255e901ca6d75
+hash_bg: 7d46d7f1afaf9e4b3646378470e0f3ff78428f51e68fb6f53a1cc3ea7bb78707

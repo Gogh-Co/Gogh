@@ -1,0 +1,24 @@
+name: Tube
+author: Jan T. Sott
+variant: dark
+color_01: '#231F20'
+color_02: '#EE2E24'
+color_03: '#00853E'
+color_04: '#FFD204'
+color_05: '#009DDC'
+color_06: '#98005D'
+color_07: '#85CEBC'
+color_08: '#D9D8D8'
+color_09: '#737171'
+color_10: '#EE2E24'
+color_11: '#00853E'
+color_12: '#FFD204'
+color_13: '#009DDC'
+color_14: '#98005D'
+color_15: '#85CEBC'
+color_16: '#FFFFFF'
+background: '#231F20'
+foreground: '#D9D8D8'
+cursor: '#D9D8D8'
+hash: f42050ee1fe04ac023ddccd32a678141db318adf0dd000c9a3b1a8354f199e81
+hash_bg: 8b3a10b16dc3198f4809ee09c1e4227927feca2e3b789b336a04f077482c4554

@@ -1,0 +1,24 @@
+name: Primer Light
+author: Jimmy Lin
+variant: light
+color_01: '#FAFBFC'
+color_02: '#D73A49'
+color_03: '#28A745'
+color_04: '#FFD33D'
+color_05: '#0366D6'
+color_06: '#EA4AAA'
+color_07: '#79B8FF'
+color_08: '#2F363D'
+color_09: '#959DA5'
+color_10: '#D73A49'
+color_11: '#28A745'
+color_12: '#FFD33D'
+color_13: '#0366D6'
+color_14: '#EA4AAA'
+color_15: '#79B8FF'
+color_16: '#1B1F23'
+background: '#FAFBFC'
+foreground: '#2F363D'
+cursor: '#2F363D'
+hash: c64263b165a73d9cc91c498f571a3aba343a89d029a40c9a0a50eb405a2f1520
+hash_bg: cc4dc825488b3ec8c3edb9e9fdfb8ff62f037cdfa4d73710a38b2101d90c4dbf

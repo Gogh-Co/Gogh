@@ -1,0 +1,24 @@
+name: Noirblaze
+author: Dimitar Dimitrov (https://github.com/n1ghtmare)
+variant: dark
+color_01: '#121212'
+color_02: '#FF0088'
+color_03: '#00FF77'
+color_04: '#FFFFFF'
+color_05: '#B0B0B0'
+color_06: '#7A7A7A'
+color_07: '#787878'
+color_08: '#D5D5D5'
+color_09: '#737373'
+color_10: '#FD319E'
+color_11: '#FD319E'
+color_12: '#FDFDFD'
+color_13: '#BEBEBE'
+color_14: '#939393'
+color_15: '#919191'
+color_16: '#F5F5F5'
+background: '#121212'
+foreground: '#D5D5D5'
+cursor: '#D5D5D5'
+hash: 59f94ee6c7342e02ac3e468ce0e37dda6b96059000be17f677f29688082a91dd
+hash_bg: 21dcede6e69a9179baf4f068aa143596c90d183d54dc17764131e198dd3dbe71

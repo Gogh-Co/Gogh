@@ -1,0 +1,24 @@
+name: Primer Dark
+author: Jimmy Lin
+variant: dark
+color_01: '#010409'
+color_02: '#FF7B72'
+color_03: '#3FB950'
+color_04: '#D29922'
+color_05: '#58A6FF'
+color_06: '#F778BA'
+color_07: '#A5D6FF'
+color_08: '#B1BAC4'
+color_09: '#484F58'
+color_10: '#FF7B72'
+color_11: '#3FB950'
+color_12: '#D29922'
+color_13: '#58A6FF'
+color_14: '#F778BA'
+color_15: '#A5D6FF'
+color_16: '#F0F6FC'
+background: '#010409'
+foreground: '#B1BAC4'
+cursor: '#B1BAC4'
+hash: bd13fe9d7706fae9bd73e49ef8e545f12d758536301ab74d253a35e1b68f6acb
+hash_bg: ec75dd2edafa8b99a83af7b228219d7a2d5af1ef6352e9b633de726102dd9785

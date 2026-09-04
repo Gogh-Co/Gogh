@@ -1,0 +1,24 @@
+name: Desert Night
+author: ''
+variant: dark
+color_01: '#473F31'
+color_02: '#E56B55'
+color_03: '#99B05F'
+color_04: '#E18245'
+color_05: '#949FB4'
+color_06: '#D261A5'
+color_07: '#BFAB36'
+color_08: '#87765D'
+color_09: '#473F31'
+color_10: '#E56B55'
+color_11: '#99B05F'
+color_12: '#E5A440'
+color_13: '#949FB4'
+color_14: '#D261A5'
+color_15: '#BFAB36'
+color_16: '#87765D'
+background: '#24221C'
+foreground: '#D4B07B'
+cursor: '#D4B07B'
+hash: 4792095ad08040e7a9df58ce1fa9d4bdd1d7f97438c9d2eca7a1f24bd893099f
+hash_bg: 6f27307a5659e3e60179b74c73dd0f253621a792a2d6704b791ebbfcdb81d349

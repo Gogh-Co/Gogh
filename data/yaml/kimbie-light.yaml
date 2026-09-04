@@ -1,0 +1,24 @@
+name: Kimbie Light
+author: ''
+variant: light
+color_01: '#FBEBD4'
+color_02: '#D43552'
+color_03: '#B8BB26'
+color_04: '#F0C674'
+color_05: '#7CAFC2'
+color_06: '#D3869B'
+color_07: '#8ABEB7'
+color_08: '#6E5346'
+color_09: '#F7E4C6'
+color_10: '#D43552'
+color_11: '#B8BB26'
+color_12: '#F0C674'
+color_13: '#7CAFC2'
+color_14: '#D3869B'
+color_15: '#8ABEB7'
+color_16: '#4A3631'
+background: '#FBEBD4'
+foreground: '#6E5346'
+cursor: '#6E5346'
+hash: d5e6002b787270ea29431540e31eb06fd4ab79efee76a5977bfd2978fea8b9a2
+hash_bg: 43ace2d44e5168ea83f3091dd092dd20253143b8b41a82c59a455d415be32f3d

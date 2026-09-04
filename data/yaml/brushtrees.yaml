@@ -1,0 +1,24 @@
+name: Brushtrees
+author: Abraham White
+variant: light
+color_01: '#E3EFEF'
+color_02: '#B38686'
+color_03: '#87B386'
+color_04: '#AAB386'
+color_05: '#868CB3'
+color_06: '#B386B2'
+color_07: '#86B3B3'
+color_08: '#6D828E'
+color_09: '#98AFB5'
+color_10: '#B38686'
+color_11: '#87B386'
+color_12: '#AAB386'
+color_13: '#868CB3'
+color_14: '#B386B2'
+color_15: '#86B3B3'
+color_16: '#485867'
+background: '#E3EFEF'
+foreground: '#6D828E'
+cursor: '#6D828E'
+hash: f17157b61f2634a2d905dc0af84ed99a1765779e9fa5e37b17be69905c276c75
+hash_bg: eaef33246cc14125f176e75c987b891ebf406f4f99f9b7c1805de20482d04cc8

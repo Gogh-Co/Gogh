@@ -1,0 +1,24 @@
+name: Atelier Plateau Dark
+author: Bram de Haan (https://github.com/atelierbram)
+variant: dark
+color_01: '#1B1818'
+color_02: '#CA4949'
+color_03: '#4B8B8B'
+color_04: '#A06E3B'
+color_05: '#7272CA'
+color_06: '#8464C4'
+color_07: '#5485B6'
+color_08: '#8A8585'
+color_09: '#655D5D'
+color_10: '#B45A3C'
+color_11: '#292424'
+color_12: '#585050'
+color_13: '#7E7777'
+color_14: '#E7DFDF'
+color_15: '#BD5187'
+color_16: '#F4ECEC'
+background: '#1B1818'
+foreground: '#8A8585'
+cursor: '#8A8585'
+hash: 7722e8627662cd167710035951f6cf09129d9ee32ed7c088a3a97384105891a7
+hash_bg: 5ca67084d2d73fdad4bf4078434d344484acc1f3b55b0965aa7bc4eddc2e074e

@@ -1,0 +1,24 @@
+name: Embers Light
+author: Jannik Siebert (https://github.com/janniks)
+variant: light
+color_01: '#DBD6D1'
+color_02: '#826D57'
+color_03: '#57826D'
+color_04: '#6D8257'
+color_05: '#6D5782'
+color_06: '#82576D'
+color_07: '#576D82'
+color_08: '#433B32'
+color_09: '#8A8075'
+color_10: '#826D57'
+color_11: '#57826D'
+color_12: '#6D8257'
+color_13: '#6D5782'
+color_14: '#82576D'
+color_15: '#576D82'
+color_16: '#16130F'
+background: '#DBD6D1'
+foreground: '#433B32'
+cursor: '#433B32'
+hash: c9324a7933230522c29bfd329bea8cf5929b52e5ef366e0fb8f403d637ca93e9
+hash_bg: a805eabeef07a288c56ec94ca68a973e238993c809a6f7b70ab873c62e6e5c23

@@ -1,0 +1,24 @@
+name: Material Theme Mod
+author: ''
+variant: dark
+color_01: '#666666'
+color_02: '#EB606B'
+color_03: '#C3E88D'
+color_04: '#F7EB95'
+color_05: '#80CBC4'
+color_06: '#FF2F90'
+color_07: '#AEDDFF'
+color_08: '#FFFFFF'
+color_09: '#A1A1A1'
+color_10: '#EB606B'
+color_11: '#C3E88D'
+color_12: '#F7EB95'
+color_13: '#7DC6BF'
+color_14: '#6C71C4'
+color_15: '#35434D'
+color_16: '#FFFFFF'
+background: '#1E282D'
+foreground: '#C4C7D1'
+cursor: '#C4C7D1'
+hash: d7c19efbbf112f8d3ff14fa78d085780f83df8a1ac668b25f07556dd4a55a1c5
+hash_bg: 0dbb90254fa1e536d95a37c08e4c7c53c64f1eebbf0da8ef06044132f45ae2c7

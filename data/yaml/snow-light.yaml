@@ -1,0 +1,24 @@
+name: Snow Light
+author: ''
+variant: light
+color_01: '#FBFFFF'
+color_02: '#AE5865'
+color_03: '#4D7F43'
+color_04: '#906C33'
+color_05: '#2B7AB2'
+color_06: '#8F63A2'
+color_07: '#008483'
+color_08: '#535C65'
+color_09: '#6D7782'
+color_10: '#AE5865'
+color_11: '#4D7F43'
+color_12: '#906C33'
+color_13: '#2B7AB2'
+color_14: '#8F63A2'
+color_15: '#008483'
+color_16: '#434951'
+background: '#FBFFFF'
+foreground: '#535C65'
+cursor: '#535C65'
+hash: aa1b2ccdcb7dbf1405871d46cc760000938760d566c452c35f6a25b9c444f6f7
+hash_bg: 8be485820f752ff8cc9a3ac75092fb414ca908c709158d80222742dae3561e06

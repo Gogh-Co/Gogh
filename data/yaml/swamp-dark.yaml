@@ -1,0 +1,24 @@
+name: Swamp Dark
+author: Masroof Maindak (https://github.com/masroof-maindak)
+variant: dark
+color_01: '#242015'
+color_02: '#DB930D'
+color_03: '#7A7653'
+color_04: '#A82D56'
+color_05: '#C1666B'
+color_06: '#91506C'
+color_07: '#DB930D'
+color_08: '#D2C3A4'
+color_09: '#5F4E41'
+color_10: '#DB930D'
+color_11: '#7A7653'
+color_12: '#A82D56'
+color_13: '#C1666B'
+color_14: '#91506C'
+color_15: '#DB930D'
+color_16: '#F1E9D0'
+background: '#242015'
+foreground: '#D2C3A4'
+cursor: '#D2C3A4'
+hash: 552902d2c30da62c2f1a8f898389c6fc2a66590fd93529daccf04a10ace5d3bf
+hash_bg: 2d9ef585825971b19816f66d5213be30cd1835e6ad8064c995c821348bedf17a

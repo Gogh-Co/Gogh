@@ -1,0 +1,24 @@
+name: Deep Oceanic Next
+author: spearkkk (https://github.com/spearkkk)
+variant: dark
+color_01: '#001C1F'
+color_02: '#D3464D'
+color_03: '#63B784'
+color_04: '#F3B863'
+color_05: '#568CCF'
+color_06: '#8B66D6'
+color_07: '#4FB7AE'
+color_08: '#D4E1E8'
+color_09: '#004852'
+color_10: '#FF6670'
+color_11: '#72E1A6'
+color_12: '#FFE08A'
+color_13: '#5CAEFF'
+color_14: '#B788FF'
+color_15: '#4DE3E3'
+color_16: '#F2F7F9'
+background: '#001C1F'
+foreground: '#D4E1E8'
+cursor: '#D4E1E8'
+hash: eb891c53e2b6f9ee1e6f9a03c08979f4f3430d60a9d62b5c8742e3e5ac363e81
+hash_bg: e1c9cc79e6935662d12ff9a806ccebba8f0126dfd197165f3abe404f0e6e2925

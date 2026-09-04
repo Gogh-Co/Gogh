@@ -1,0 +1,24 @@
+name: Atelier Forest Dark
+author: Bram de Haan (https://github.com/atelierbram)
+variant: dark
+color_01: '#1B1918'
+color_02: '#F22C40'
+color_03: '#7B9726'
+color_04: '#C38418'
+color_05: '#407EE7'
+color_06: '#6666EA'
+color_07: '#3D97B8'
+color_08: '#A8A19F'
+color_09: '#766E6B'
+color_10: '#DF5320'
+color_11: '#2C2421'
+color_12: '#68615E'
+color_13: '#9C9491'
+color_14: '#E6E2E0'
+color_15: '#C33FF3'
+color_16: '#F1EFEE'
+background: '#1B1918'
+foreground: '#A8A19F'
+cursor: '#A8A19F'
+hash: 710600e721ac8d742dcd4bff580d9463cde58253ebf85cbb1d227ad40a1befbf
+hash_bg: b1dd14942e4d2cf8ae1d6baf804a3cb13c4a5e1fd54f27059e438438f292fa4a

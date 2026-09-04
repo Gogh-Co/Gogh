@@ -1,0 +1,24 @@
+name: Onedark Dark
+author: olimorris (https://github.com/olimorris)
+variant: dark
+color_01: '#000000'
+color_02: '#EF596F'
+color_03: '#89CA78'
+color_04: '#E5C07B'
+color_05: '#61AFEF'
+color_06: '#D55FDE'
+color_07: '#2BBAC5'
+color_08: '#ABB2BF'
+color_09: '#434852'
+color_10: '#EF596F'
+color_11: '#89CA78'
+color_12: '#E5C07B'
+color_13: '#61AFEF'
+color_14: '#D55FDE'
+color_15: '#2BBAC5'
+color_16: '#C8CCD4'
+background: '#000000'
+foreground: '#ABB2BF'
+cursor: '#ABB2BF'
+hash: ecbc4a55aaa71230f471828031c3bee148ad0934e0ca893c71f64c84d920a770
+hash_bg: 7b2817bf9b80e66d07f28095dcd1244590692778dc617a53cbd666ad280872ed

@@ -1,0 +1,24 @@
+name: Everforest Light
+author: ''
+variant: light
+color_01: '#5C6A72'
+color_02: '#F85552'
+color_03: '#8DA101'
+color_04: '#DFA000'
+color_05: '#3A94C5'
+color_06: '#DF69BA'
+color_07: '#35A77C'
+color_08: '#E0DCC7'
+color_09: '#5C6A72'
+color_10: '#F85552'
+color_11: '#8DA101'
+color_12: '#DFA000'
+color_13: '#3A94C5'
+color_14: '#DF69BA'
+color_15: '#35A77C'
+color_16: '#E0DCC7'
+background: '#FDF6E3'
+foreground: '#5C6A72'
+cursor: '#5C6A72'
+hash: 93cc759f4f13e8e6f748c2ebe5fd0101947928ece56ab25a141adda1d7eb141c
+hash_bg: c02ddc0b1de22591d77634b9fe04f3f45e7ed16a5f1bce7aed32babbcf6064e6

@@ -1,0 +1,24 @@
+name: Da One Sea
+author: NNB (https://github.com/NNBnh)
+variant: dark
+color_01: '#22273D'
+color_02: '#FA7883'
+color_03: '#98C379'
+color_04: '#FF9470'
+color_05: '#6BB8FF'
+color_06: '#E799FF'
+color_07: '#8AF5FF'
+color_08: '#FFFFFF'
+color_09: '#878D96'
+color_10: '#FA7883'
+color_11: '#98C379'
+color_12: '#FF9470'
+color_13: '#6BB8FF'
+color_14: '#E799FF'
+color_15: '#8AF5FF'
+color_16: '#FFFFFF'
+background: '#22273D'
+foreground: '#FFFFFF'
+cursor: '#FFFFFF'
+hash: 5da4ee070c4465f11a36b12ea35de1f63508b9e65843f0bc9e8d84d0a02b2c74
+hash_bg: f180338dd22a772260b854166cb6b0c0976508f8705b15c8fcb151223ec7b7db

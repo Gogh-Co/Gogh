@@ -1,0 +1,24 @@
+name: Heetch
+author: Geoffrey Teale (tealeg@gmail.com)
+variant: dark
+color_01: '#190134'
+color_02: '#27D9D5'
+color_03: '#C33678'
+color_04: '#8F6C97'
+color_05: '#BD0152'
+color_06: '#82034C'
+color_07: '#F80059'
+color_08: '#BDB6C5'
+color_09: '#7B6D8B'
+color_10: '#27D9D5'
+color_11: '#C33678'
+color_12: '#8F6C97'
+color_13: '#BD0152'
+color_14: '#82034C'
+color_15: '#F80059'
+color_16: '#FEFFFF'
+background: '#190134'
+foreground: '#BDB6C5'
+cursor: '#BDB6C5'
+hash: 3f0112b7917caeb393cc27c5e12e656a930b79d651dd267c0258b834ef9559dd
+hash_bg: 21643b5b6709c4f8018cce00d1057fe32d060ac0cb99f3312f7ef477470ea3f4

@@ -1,0 +1,24 @@
+name: Blueforest
+author: alonsodomin (https://github.com/alonsodomin)
+variant: dark
+color_01: '#141F2E'
+color_02: '#FFFAB1'
+color_03: '#80FF80'
+color_04: '#91CCFF'
+color_05: '#A2CFF5'
+color_06: '#0099FF'
+color_07: '#80FF80'
+color_08: '#FFCC33'
+color_09: '#A0FFA0'
+color_10: '#FFFAB1'
+color_11: '#80FF80'
+color_12: '#91CCFF'
+color_13: '#A2CFF5'
+color_14: '#0099FF'
+color_15: '#80FF80'
+color_16: '#375780'
+background: '#141F2E'
+foreground: '#FFCC33'
+cursor: '#FFCC33'
+hash: 02eb0ccf1a10cf693d6e4ebcebd67cd6e70409c99ed339d7874db5b12dfe78ac
+hash_bg: 9857e5222b181057b1c139c68741545176911de07692b3fe4e56b82ff58041a4

@@ -1,0 +1,24 @@
+name: Solarized Osaka Dark
+author: Folke Lemaitre
+variant: dark
+color_01: '#001014'
+color_02: '#DB302D'
+color_03: '#849900'
+color_04: '#B28500'
+color_05: '#268BD3'
+color_06: '#D23681'
+color_07: '#29A298'
+color_08: '#839395'
+color_09: '#576D74'
+color_10: '#DB302D'
+color_11: '#849900'
+color_12: '#B28500'
+color_13: '#268BD3'
+color_14: '#D23681'
+color_15: '#29A298'
+color_16: '#839395'
+background: '#001419'
+foreground: '#839395'
+cursor: '#839395'
+hash: 68ccbde1c320c3f9c5e192c4ab4645f9af8c722acadd6f6623da784212162c5b
+hash_bg: f4a7932c42497e1dd273a7787e181c0d3c7be6cab91ac6128e251ed67a6bfa20

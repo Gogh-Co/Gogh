@@ -1,0 +1,24 @@
+name: Gruvbox Material Dark Medium
+author: Mayush Kumar, sainnhe (https://github.com/MayushKumar)
+variant: dark
+color_01: '#292828'
+color_02: '#EA6962'
+color_03: '#A9B665'
+color_04: '#D8A657'
+color_05: '#7DAEA3'
+color_06: '#D3869B'
+color_07: '#89B482'
+color_08: '#DDC7A1'
+color_09: '#665C54'
+color_10: '#EA6962'
+color_11: '#A9B665'
+color_12: '#D8A657'
+color_13: '#7DAEA3'
+color_14: '#D3869B'
+color_15: '#89B482'
+color_16: '#FBF1C7'
+background: '#292828'
+foreground: '#DDC7A1'
+cursor: '#DDC7A1'
+hash: a97c2123507e518d9aca2bea21cab8e0bec05eb3e0cca15ae7ab867a5455d5eb
+hash_bg: 8e08c943c2b3d4e1cc06535b1b1623001360f657f646dc8384bc630f96a5d85a

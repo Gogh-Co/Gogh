@@ -1,0 +1,24 @@
+name: Paradiso Dark
+author: BrokenSideViewMirror (https://github.com/BrokenSideViewMirror)
+variant: dark
+color_01: '#553A63'
+color_02: '#8EB8DB'
+color_03: '#8E92DB'
+color_04: '#9157CC'
+color_05: '#4660A0'
+color_06: '#DB74E0'
+color_07: '#68ACC1'
+color_08: '#B8D0DB'
+color_09: '#6F4C82'
+color_10: '#C2E1FC'
+color_11: '#C2C4FC'
+color_12: '#C68FFC'
+color_13: '#5D8AFC'
+color_14: '#F8AEFC'
+color_15: '#99E5FC'
+color_16: '#CCEBF9'
+background: '#302138'
+foreground: '#B8D0DB'
+cursor: '#B8D0DB'
+hash: cb8660f73b481f13b51d570fb8a0ffaff1875323b4b3283b7e221630102f05f6
+hash_bg: 2e1cc38735d36d167929d20b560e25a622f1b2df90e382f8a2b739bfa476b762

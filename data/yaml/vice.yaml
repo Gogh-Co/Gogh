@@ -1,0 +1,24 @@
+name: Vice
+author: Thomas Leon Highbaugh thighbaugh@zoho.com
+variant: dark
+color_01: '#17191E'
+color_02: '#FF29A8'
+color_03: '#0BADFF'
+color_04: '#F0FFAA'
+color_05: '#00EAFF'
+color_06: '#00F6D9'
+color_07: '#8265FF'
+color_08: '#8B9CBE'
+color_09: '#383A47'
+color_10: '#FF29A8'
+color_11: '#0BADFF'
+color_12: '#F0FFAA'
+color_13: '#00EAFF'
+color_14: '#00F6D9'
+color_15: '#8265FF'
+color_16: '#F4F4F7'
+background: '#17191E'
+foreground: '#8B9CBE'
+cursor: '#8B9CBE'
+hash: 1f33b9d351d3b81fc9204624c8e088fcc67ad0e0b50d6e72bdaeca51ef74d662
+hash_bg: 302e6ce1f572db86f60fec81b73f96b14ee8105769bda451abcb29cd5e99a3e1

@@ -1,0 +1,24 @@
+name: Evenok Dark
+author: Mekeor Melire
+variant: dark
+color_01: '#000000'
+color_02: '#F5708A'
+color_03: '#54BC5C'
+color_04: '#B8A300'
+color_05: '#00AFF2'
+color_06: '#9095FF'
+color_07: '#00BAB3'
+color_08: '#D0D0D0'
+color_09: '#505050'
+color_10: '#F5708A'
+color_11: '#54BC5C'
+color_12: '#B8A300'
+color_13: '#00AFF2'
+color_14: '#9095FF'
+color_15: '#00BAB3'
+color_16: '#FFFFFF'
+background: '#000000'
+foreground: '#D0D0D0'
+cursor: '#D0D0D0'
+hash: 0377ec6ddb1bafa73b459d04dd53c4ef4566a707a92458f932c54dfc6f3c561e
+hash_bg: 7b2817bf9b80e66d07f28095dcd1244590692778dc617a53cbd666ad280872ed

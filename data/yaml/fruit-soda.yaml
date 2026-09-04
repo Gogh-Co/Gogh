@@ -1,0 +1,24 @@
+name: Fruit Soda
+author: jozip
+variant: light
+color_01: '#F1ECF1'
+color_02: '#FE3E31'
+color_03: '#47F74C'
+color_04: '#F7E203'
+color_05: '#2931DF'
+color_06: '#611FCE'
+color_07: '#0F9CFD'
+color_08: '#515151'
+color_09: '#B5B4B6'
+color_10: '#FE3E31'
+color_11: '#47F74C'
+color_12: '#F7E203'
+color_13: '#2931DF'
+color_14: '#611FCE'
+color_15: '#0F9CFD'
+color_16: '#2D2C2C'
+background: '#F1ECF1'
+foreground: '#515151'
+cursor: '#515151'
+hash: 7dd6b34429dfea8b3929a280bef0fd0be9a9b2d236566bd132550c764e1407ad
+hash_bg: 03a495b5f8f4a25e3f31722f872a1ec19f2ca7e2c121ca4797259235dfa24ada

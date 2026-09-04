@@ -1,0 +1,24 @@
+name: Mission Brogue
+author: Thomas Leon Highbaugh
+variant: dark
+color_01: '#283139'
+color_02: '#EFA9A9'
+color_03: '#8CD4B0'
+color_04: '#E0B88A'
+color_05: '#A2C5FD'
+color_06: '#CCB7DB'
+color_07: '#93DFEC'
+color_08: '#93A5B4'
+color_09: '#60778A'
+color_10: '#F6BFBF'
+color_11: '#B5E090'
+color_12: '#FFF0B2'
+color_13: '#C3D9FD'
+color_14: '#E3C3E6'
+color_15: '#B2F0FD'
+color_16: '#E7EBEE'
+background: '#283139'
+foreground: '#93A5B4'
+cursor: '#93A5B4'
+hash: b8f59288758659e51954470450f480c5c7519754e8a06e0d6fcca1a63786546f
+hash_bg: 91470eff09f41c2a21f7b21751f6a25ddad6fcbfacc42791361d020005ddf869

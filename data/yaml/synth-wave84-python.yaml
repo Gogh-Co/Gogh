@@ -1,0 +1,24 @@
+name: Synth Wave84 Python
+author: Dio Lin (Dionysus326)
+variant: dark
+color_01: '#2A2139'
+color_02: '#FF2331'
+color_03: '#37F39E'
+color_04: '#FFD83D'
+color_05: '#03EDF9'
+color_06: '#B30065'
+color_07: '#03EDF9'
+color_08: '#DDDDDD'
+color_09: '#444251'
+color_10: '#FE4450'
+color_11: '#72F1B8'
+color_12: '#FEDE5D'
+color_13: '#03EDF9'
+color_14: '#D40078'
+color_15: '#03EDF9'
+color_16: '#FFFFFF'
+background: '#100A24'
+foreground: '#FFADE8'
+cursor: '#FFADE8'
+hash: d7cfc73e6e2900e667a5f651c1c85e286de99225869711632f8bf64e39072110
+hash_bg: f2b5010a4e5752bd3b6982f0d8024caad275ffdda828dcee76aa4b36c85091a9

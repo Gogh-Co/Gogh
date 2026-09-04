@@ -1,0 +1,24 @@
+name: harmonic16 Light
+author: Jannik Siebert (https://github.com/janniks)
+variant: light
+color_01: '#F7F9FB'
+color_02: '#BF8B56'
+color_03: '#56BF8B'
+color_04: '#8BBF56'
+color_05: '#8B56BF'
+color_06: '#BF568B'
+color_07: '#568BBF'
+color_08: '#405C79'
+color_09: '#AABCCE'
+color_10: '#BF8B56'
+color_11: '#56BF8B'
+color_12: '#8BBF56'
+color_13: '#8B56BF'
+color_14: '#BF568B'
+color_15: '#568BBF'
+color_16: '#0B1C2C'
+background: '#F7F9FB'
+foreground: '#405C79'
+cursor: '#405C79'
+hash: e3a2fe893fd04cc95a2e2501bfc4562d3af70dcd5fb7d69cd9666c2c39abcade
+hash_bg: d62703813a9a27a077cd8718ce0aa3c884c0a87f9fa367b4d7d795a5f9e28fc6

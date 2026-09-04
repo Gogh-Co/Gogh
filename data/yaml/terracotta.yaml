@@ -1,0 +1,24 @@
+name: Terracotta
+author: Alexander Rossell Hayes (https://github.com/rossellhayes)
+variant: light
+color_01: '#EFEAE8'
+color_02: '#A75045'
+color_03: '#7A894A'
+color_04: '#CE943E'
+color_05: '#625574'
+color_06: '#8D5968'
+color_07: '#847F9E'
+color_08: '#473731'
+color_09: '#C0ACA4'
+color_10: '#A75045'
+color_11: '#7A894A'
+color_12: '#CE943E'
+color_13: '#625574'
+color_14: '#8D5968'
+color_15: '#847F9E'
+color_16: '#241C19'
+background: '#EFEAE8'
+foreground: '#473731'
+cursor: '#473731'
+hash: 46f95e9ab58cdc0667ff2ec2613e027da455cf1cc4381fa417012130ef325dbc
+hash_bg: 0270640138a5e409dc493a2a52b7b6d9f66add8f33559ae5a55305da6546b459

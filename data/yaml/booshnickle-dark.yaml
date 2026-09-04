@@ -1,0 +1,24 @@
+name: Booshnickle Dark
+author: boo-shnickle (@boo_shnickle)
+variant: dark
+color_01: '#191914'
+color_02: '#FFBFA5'
+color_03: '#E7FF99'
+color_04: '#FFF299'
+color_05: '#CCBFD9'
+color_06: '#F2BFD9'
+color_07: '#BFFFC5'
+color_08: '#BDBD97'
+color_09: '#7C7C63'
+color_10: '#FFBFA5'
+color_11: '#E7FF99'
+color_12: '#FFF299'
+color_13: '#CCBFD9'
+color_14: '#F2BFD9'
+color_15: '#BFFFC5'
+color_16: '#FFFFCC'
+background: '#191914'
+foreground: '#BDBD97'
+cursor: '#BDBD97'
+hash: 90103b6b4d689af8f62310ea68fbad40ab5ff16ffe947e741d8c6ca396e3d03c
+hash_bg: 821835e061c2c75530b650ed359e19cbd9d8555dbcf62d49a83c9aceb10e7dde

@@ -1,0 +1,24 @@
+name: Penumbra Light Contrast Plus
+author: Zachary Weiss (https://github.com/zacharyweiss)
+variant: light
+color_01: '#FFFDFB'
+color_02: '#DF7F78'
+color_03: '#50B584'
+color_04: '#9CA748'
+color_05: '#61A3E6'
+color_06: '#A48FE1'
+color_07: '#00B3C2'
+color_08: '#636363'
+color_09: '#CECECE'
+color_10: '#DF7F78'
+color_11: '#50B584'
+color_12: '#9CA748'
+color_13: '#61A3E6'
+color_14: '#A48FE1'
+color_15: '#00B3C2'
+color_16: '#181B1F'
+background: '#FFFDFB'
+foreground: '#636363'
+cursor: '#636363'
+hash: 45e836afd5cf58d90734d516c866b00a744c91a988fc3775b0ac720d530c6b95
+hash_bg: 3a25881fd49bb7aca5c7e6d658e2740704449a78b68072af06e4c18519d47613

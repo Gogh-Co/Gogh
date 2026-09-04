@@ -1,0 +1,24 @@
+name: Pink Lavender
+author: playerofceleste
+variant: dark
+color_01: '#0C0611'
+color_02: '#B292AC'
+color_03: '#C8A3BC'
+color_04: '#DAB2CC'
+color_05: '#A697A0'
+color_06: '#B292AC'
+color_07: '#C8A3BC'
+color_08: '#DAB2CC'
+color_09: '#90758D'
+color_10: '#C29EB6'
+color_11: '#BB9FC2'
+color_12: '#EED8E5'
+color_13: '#90758D'
+color_14: '#C29EB6'
+color_15: '#BB9FC2'
+color_16: '#EED8E5'
+background: '#0C0611'
+foreground: '#EED8E5'
+cursor: '#EED8E5'
+hash: a1ab3d25eb20aae57fbc85fb3ab35afd700214f1a2fa8ba475e22445ef636f6b
+hash_bg: 57d5615d8bd0ccbafb2ffe82e0cdf4d6f9a440eae6a33ad952560f550ba14ba2

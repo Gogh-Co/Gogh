@@ -1,0 +1,24 @@
+name: Sweet Mars
+author: ''
+variant: dark
+color_01: '#2E3436'
+color_02: '#F67E7D'
+color_03: '#CAE7B9'
+color_04: '#E1DD8F'
+color_05: '#729FCF'
+color_06: '#D7BCC8'
+color_07: '#A0C1B9'
+color_08: '#D3D7CF'
+color_09: '#555753'
+color_10: '#F67E7D'
+color_11: '#CAE7B9'
+color_12: '#E1DD8F'
+color_13: '#729FCF'
+color_14: '#D7BCC8'
+color_15: '#A0C1B9'
+color_16: '#EEEEEC'
+background: '#1A1E21'
+foreground: '#B6B7B9'
+cursor: '#B6B7B9'
+hash: d3cba0d18b4e3c50e9c802c89be6f651466822802b2a193658be3eb65b049c79
+hash_bg: c2deb8b5d9a7993c84025cdde42f07ffb7f93aff33fc01cc7e4f5470b6daed43

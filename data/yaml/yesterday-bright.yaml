@@ -1,0 +1,24 @@
+name: Yesterday Bright
+author: FroZnShiva (https://github.com/FroZnShiva)
+variant: dark
+color_01: '#343D46'
+color_02: '#D54E53'
+color_03: '#B9CA4A'
+color_04: '#E7C547'
+color_05: '#7AA6DA'
+color_06: '#C397D8'
+color_07: '#70C0B1'
+color_08: '#DFE1E8'
+color_09: '#A7ADBA'
+color_10: '#D54E53'
+color_11: '#B9CA4A'
+color_12: '#E7C547'
+color_13: '#7AA6DA'
+color_14: '#C397D8'
+color_15: '#70C0B1'
+color_16: '#FFFFFF'
+background: '#343D46'
+foreground: '#DFE1E8'
+cursor: '#DFE1E8'
+hash: d9dce7bbd5a03f60ebb3b5a57efda82f815e642163dcb630dd7e9de8334e5841
+hash_bg: 63ac3457fa6f333e29d6142ca3822270e1d59977eba73ef9334f436acc904b7b

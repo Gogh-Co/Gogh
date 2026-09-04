@@ -1,0 +1,24 @@
+name: Alucard
+author: clach04 (https://github.com/clach04)
+variant: light
+color_01: '#FFFBEB'
+color_02: '#CB3A2A'
+color_03: '#14710A'
+color_04: '#846E15'
+color_05: '#644AC9'
+color_06: '#A3144D'
+color_07: '#036A96'
+color_08: '#1F1F1F'
+color_09: '#6C664B'
+color_10: '#D74C3D'
+color_11: '#198D0C'
+color_12: '#9E841A'
+color_13: '#7862D0'
+color_14: '#BF185A'
+color_15: '#047FB4'
+color_16: '#2C2B31'
+background: '#FFFBEB'
+foreground: '#1F1F1F'
+cursor: '#1F1F1F'
+hash: 520155156916ffef8f0df4063885af998082e5b03e7367d567f8f5d7f0812e87
+hash_bg: f5cabf272a70a7d598d1f87f953f223afe5f75dc369d04eb1f9c02a30ef9e21e

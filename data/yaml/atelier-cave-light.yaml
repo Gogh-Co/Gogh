@@ -1,0 +1,24 @@
+name: Atelier Cave Light
+author: Bram de Haan (http://atelierbramdehaan.nl)
+variant: light
+color_01: '#EFECF4'
+color_02: '#BE4678'
+color_03: '#2A9292'
+color_04: '#A06E3B'
+color_05: '#576DDB'
+color_06: '#955AE7'
+color_07: '#398BC6'
+color_08: '#585260'
+color_09: '#7E7887'
+color_10: '#BE4678'
+color_11: '#2A9292'
+color_12: '#A06E3B'
+color_13: '#576DDB'
+color_14: '#955AE7'
+color_15: '#398BC6'
+color_16: '#19171C'
+background: '#EFECF4'
+foreground: '#585260'
+cursor: '#585260'
+hash: 4f3a325042b633cc22cc27ba3e95d4031d38f5df09f6d46d8e3f7a51f9829e64
+hash_bg: 8b429fdb34247aa034b639cc5de443fd758f928656f2c3c708bb1b679272aa6b

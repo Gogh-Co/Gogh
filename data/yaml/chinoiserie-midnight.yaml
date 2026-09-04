@@ -1,0 +1,24 @@
+name: Chinoiserie Midnight
+author: Di Wang (https://cs.cmu.edu/~diw3)
+variant: dark
+color_01: '#1D1D1D'
+color_02: '#ED5A56'
+color_03: '#AEB831'
+color_04: '#FBB957'
+color_05: '#81A2A2'
+color_06: '#CF8997'
+color_07: '#88B68D'
+color_08: '#C4CBCF'
+color_09: '#918072'
+color_10: '#ED5A56'
+color_11: '#AEB831'
+color_12: '#FBB957'
+color_13: '#81A2A2'
+color_14: '#CF8997'
+color_15: '#88B68D'
+color_16: '#FFFEF9'
+background: '#1D1D1D'
+foreground: '#C4CBCF'
+cursor: '#C4CBCF'
+hash: 2c2b28f8ac7fc90e868607572f9168c83ef8feb9c26582afb0293d685539bb4a
+hash_bg: 8a8b3014d41f919506a5f4d8263348f42298d9033ddb990d5f335041167a6270

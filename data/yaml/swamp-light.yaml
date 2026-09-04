@@ -1,0 +1,24 @@
+name: Swamp Light
+author: Masroof Maindak (https://github.com/masroof-maindak)
+variant: light
+color_01: '#F1E3D1'
+color_02: '#D09700'
+color_03: '#908D6A'
+color_04: '#993333'
+color_05: '#BF7979'
+color_06: '#9E5581'
+color_07: '#D09700'
+color_08: '#64513E'
+color_09: '#B5A492'
+color_10: '#D09700'
+color_11: '#908D6A'
+color_12: '#993333'
+color_13: '#BF7979'
+color_14: '#9E5581'
+color_15: '#D09700'
+color_16: '#8C7B68'
+background: '#F1E3D1'
+foreground: '#64513E'
+cursor: '#64513E'
+hash: 6e0d8b6090d8300f1411d1ce6fc163011277ca70f31e17f1034dcecd7fb79260
+hash_bg: 712bbbc07c640a90536f274f3a7d6dd8bced13ef3a0412df866bb258bd3d6084

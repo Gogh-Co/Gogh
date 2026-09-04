@@ -1,0 +1,24 @@
+name: Penumbra Dark Contrast Plus Plus
+author: Zachary Weiss (https://github.com/zacharyweiss)
+variant: dark
+color_01: '#0D0F13'
+color_02: '#F58C81'
+color_03: '#54C794'
+color_04: '#A9B852'
+color_05: '#6EB2FD'
+color_06: '#B69CF6'
+color_07: '#00C4D7'
+color_08: '#DEDEDE'
+color_09: '#636363'
+color_10: '#F58C81'
+color_11: '#54C794'
+color_12: '#A9B852'
+color_13: '#6EB2FD'
+color_14: '#B69CF6'
+color_15: '#00C4D7'
+color_16: '#FFFDFB'
+background: '#0D0F13'
+foreground: '#DEDEDE'
+cursor: '#DEDEDE'
+hash: 5eb1de9b7322f47cb1835385fea7f57db95c373d33a3b40f8bf3c7762003a38c
+hash_bg: dfd2794657f7ee50ef54460144883ac61d310032e95b24f85a570d3217b4b4c1

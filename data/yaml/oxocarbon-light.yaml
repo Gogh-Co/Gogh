@@ -1,0 +1,24 @@
+name: Oxocarbon Light
+author: shaunsingh/IBM, Tinted Theming (https://github.com/tinted-theming)
+variant: light
+color_01: '#F2F4F8'
+color_02: '#FF7EB6'
+color_03: '#42BE65'
+color_04: '#FF6F00'
+color_05: '#0F62FE'
+color_06: '#BE95FF'
+color_07: '#673AB7'
+color_08: '#525F70'
+color_09: '#A1ACBA'
+color_10: '#FF7EB6'
+color_11: '#42BE65'
+color_12: '#FF6F00'
+color_13: '#0F62FE'
+color_14: '#BE95FF'
+color_15: '#673AB7'
+color_16: '#272D35'
+background: '#F2F4F8'
+foreground: '#525F70'
+cursor: '#525F70'
+hash: 5c5d5431da3307c10c1415d53bc3ddd747a65068b730240eb425445fcf6e7f28
+hash_bg: bae05f11eece4afbb58d0f0c374e8dcb261a5b8f2cf9758ac515fc5e32bde86a

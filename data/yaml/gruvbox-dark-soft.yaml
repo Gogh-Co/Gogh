@@ -1,0 +1,24 @@
+name: Gruvbox Dark Soft
+author: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+variant: dark
+color_01: '#32302F'
+color_02: '#FB4934'
+color_03: '#B8BB26'
+color_04: '#FABD2F'
+color_05: '#83A598'
+color_06: '#D3869B'
+color_07: '#8EC07C'
+color_08: '#D5C4A1'
+color_09: '#665C54'
+color_10: '#FB4934'
+color_11: '#B8BB26'
+color_12: '#FABD2F'
+color_13: '#83A598'
+color_14: '#D3869B'
+color_15: '#8EC07C'
+color_16: '#FBF1C7'
+background: '#32302F'
+foreground: '#D5C4A1'
+cursor: '#D5C4A1'
+hash: 3e1b1c83ad750730ada1ec2f0226476798fa0d4689eae2d3cf4bd73be021b660
+hash_bg: 99e92cd5e1ece158b8a0e8c0cee1c459549eb90b3ace70bb539bc4a7c51bb882

@@ -1,0 +1,24 @@
+name: Outrun Dark
+author: Hugo Delahousse (http://github.com/hugodelahousse/)
+variant: dark
+color_01: '#00002A'
+color_02: '#FF4242'
+color_03: '#59F176'
+color_04: '#F3E877'
+color_05: '#66B0FF'
+color_06: '#F10596'
+color_07: '#0EF0F0'
+color_08: '#D0D0FA'
+color_09: '#50507A'
+color_10: '#FF4242'
+color_11: '#59F176'
+color_12: '#F3E877'
+color_13: '#66B0FF'
+color_14: '#F10596'
+color_15: '#0EF0F0'
+color_16: '#F5F5FF'
+background: '#00002A'
+foreground: '#D0D0FA'
+cursor: '#D0D0FA'
+hash: b0dc4661289df4d5f5b1e8403cb5f867df045396f1e572610446f1839459eaee
+hash_bg: 736b6e1a56f815fd04499be6d8fdb1f1711894f30622e12eb7aeaac12aa5d91c

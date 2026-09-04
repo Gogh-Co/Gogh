@@ -1,0 +1,24 @@
+name: Windows 95 Light
+author: Fergus Collins (https://github.com/ferguscollins)
+variant: light
+color_01: '#FCFCFC'
+color_02: '#A80000'
+color_03: '#00A800'
+color_04: '#A85400'
+color_05: '#0000A8'
+color_06: '#A800A8'
+color_07: '#00A8A8'
+color_08: '#545454'
+color_09: '#A8A8A8'
+color_10: '#A80000'
+color_11: '#00A800'
+color_12: '#A85400'
+color_13: '#0000A8'
+color_14: '#A800A8'
+color_15: '#00A8A8'
+color_16: '#000000'
+background: '#FCFCFC'
+foreground: '#545454'
+cursor: '#545454'
+hash: d886daaa2b12ed34357f48b2ec6ec007c66bbc392ce2b536e93db1647f7db904
+hash_bg: 760e7f9cd8633858fb37431dea4855c8cd0c680d75d4e7406ea1509cc0a3a5ef

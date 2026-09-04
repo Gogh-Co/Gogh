@@ -1,0 +1,24 @@
+name: Ultra Violet
+author: FredHappyface (https://github.com/fredHappyface)
+variant: dark
+color_01: '#242728'
+color_02: '#FF0090'
+color_03: '#B5FF00'
+color_04: '#7FEBFF'
+color_05: '#47DFFB'
+color_06: '#D630FF'
+color_07: '#0EFFBB'
+color_08: '#C1C2C2'
+color_09: '#818484'
+color_10: '#FB57B4'
+color_11: '#DEFF8B'
+color_12: '#EBDF86'
+color_13: '#7FEBFF'
+color_14: '#E681FF'
+color_15: '#68FCD2'
+color_16: '#F9F9F4'
+background: '#242728'
+foreground: '#C1C2C2'
+cursor: '#C1C2C2'
+hash: 08a4fde9bdcbbd56f5dd42fd687778bc5c2e5f710cff135bb96deefd38a1c691
+hash_bg: c33b635810a2f7b93ed967623c91552a3222f33b1de44493acb71a5b5210f0ad

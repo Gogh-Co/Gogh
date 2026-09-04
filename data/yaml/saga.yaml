@@ -1,0 +1,24 @@
+name: Saga
+author: Saga (https://github.com/SAGAtheme/SAGA)
+variant: dark
+color_01: '#05080A'
+color_02: '#FFD4E9'
+color_03: '#F7DDFF'
+color_04: '#FBEBC8'
+color_05: '#C9FFF7'
+color_06: '#DCC3F9'
+color_07: '#C5EDC1'
+color_08: '#DCE2F7'
+color_09: '#141F27'
+color_10: '#FFD4E9'
+color_11: '#F7DDFF'
+color_12: '#FBEBC8'
+color_13: '#C9FFF7'
+color_14: '#DCC3F9'
+color_15: '#C5EDC1'
+color_16: '#CCD3FE'
+background: '#05080A'
+foreground: '#DCE2F7'
+cursor: '#DCE2F7'
+hash: a3ed9a3cb31df7321d91c670c363b84f9ac63dd9b39c50041e8fdcb38fd646aa
+hash_bg: 6114b3ce8dbb93dc7b5bc98f4dd16199d7670539c1461894d3322befe8658bde

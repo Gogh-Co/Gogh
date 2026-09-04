@@ -1,0 +1,24 @@
+name: Penumbra Dark
+author: Zachary Weiss (https://github.com/zacharyweiss)
+variant: dark
+color_01: '#24272B'
+color_02: '#CA736C'
+color_03: '#47A477'
+color_04: '#8D9741'
+color_05: '#5794D0'
+color_06: '#9481CC'
+color_07: '#00A2AF'
+color_08: '#BEBEBE'
+color_09: '#636363'
+color_10: '#CA736C'
+color_11: '#47A477'
+color_12: '#8D9741'
+color_13: '#5794D0'
+color_14: '#9481CC'
+color_15: '#00A2AF'
+color_16: '#FFFDFB'
+background: '#24272B'
+foreground: '#BEBEBE'
+cursor: '#BEBEBE'
+hash: 4f64f9fcc3568988bde10dbf03cfec344122953924782440a5680847423a196f
+hash_bg: f5fa55e01b9c3c0fba2afc31da7707764d0f82407211a0ca3f592b93c21ca4e5

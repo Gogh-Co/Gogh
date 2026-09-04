@@ -1,0 +1,24 @@
+name: Uwunicorn
+author: Fernando Marques and Gabriel Fontes (https://github.com/RakkiUwU)
+variant: dark
+color_01: '#241B26'
+color_02: '#877BB6'
+color_03: '#C965BF'
+color_04: '#A84A73'
+color_05: '#6A9EB5'
+color_06: '#78A38F'
+color_07: '#9C5FCE'
+color_08: '#EED5D9'
+color_09: '#6C3CB2'
+color_10: '#877BB6'
+color_11: '#C965BF'
+color_12: '#A84A73'
+color_13: '#6A9EB5'
+color_14: '#78A38F'
+color_15: '#9C5FCE'
+color_16: '#E4CCD0'
+background: '#241B26'
+foreground: '#EED5D9'
+cursor: '#EED5D9'
+hash: fb10c3556f7de6fbf68643206e792322001b994d0423a23d910976917aee4e68
+hash_bg: a2ddd85589e7b126f4b16127e4d2e9aafa780196db360cc8e09d073125b00061

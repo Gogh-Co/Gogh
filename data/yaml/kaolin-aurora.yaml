@@ -1,0 +1,24 @@
+name: Kaolin Aurora
+author: Ogden Webb
+variant: dark
+color_01: '#14191E'
+color_02: '#E55C7A'
+color_03: '#31E183'
+color_04: '#F5C791'
+color_05: '#4CA6E8'
+color_06: '#9D81BA'
+color_07: '#49BDB0'
+color_08: '#E6E6E8'
+color_09: '#454459'
+color_10: '#CD5C60'
+color_11: '#7CF083'
+color_12: '#DBAC66'
+color_13: '#91B9C7'
+color_14: '#6E6884'
+color_15: '#0D9C94'
+color_16: '#F2F2F2'
+background: '#14191E'
+foreground: '#E6E6E8'
+cursor: '#E6E6E8'
+hash: c5c1b1d2a1ccffe2deaf4e3c6e8817c641da49603759a125583f509f3672c2dc
+hash_bg: 1d790b93504b9976734f3a11e5f18cb4043e67690589c2817c638150f74de79a

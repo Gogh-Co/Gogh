@@ -1,0 +1,24 @@
+name: 1984 Dark
+author: ''
+variant: dark
+color_01: '#000000'
+color_02: '#FF16B0'
+color_03: '#B3F361'
+color_04: '#FFEA16'
+color_05: '#46BDFF'
+color_06: '#F806FA'
+color_07: '#59E1E3'
+color_08: '#FFFFFF'
+color_09: '#555753'
+color_10: '#FF16B0'
+color_11: '#B3F361'
+color_12: '#FFEA16'
+color_13: '#46BDFF'
+color_14: '#F806FA'
+color_15: '#6BE4E6'
+color_16: '#FFFFFF'
+background: '#0D0F31'
+foreground: '#FFFFFF'
+cursor: '#FFFFFF'
+hash: 21d3153e73087ee973856b90cecedf206e7ef6372705c3cb23056fbf298c17a3
+hash_bg: 81088e536c7cd7421e62889a79443d1fb9d51526c17785dcad9a8e2cc7647b5e
