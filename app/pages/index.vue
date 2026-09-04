@@ -66,6 +66,11 @@
                                 Dark Themes
                             </ButtonFilter>
 
+                            <ButtonFilter extra-class="js-btn--filter" :active="filter === 'popular'"
+                                @click="setFilter('popular'); resetMenuSelected(); setSortMode('random'); setViewMode('compact')">
+                                Popular
+                            </ButtonFilter>
+
                             <ButtonFilter :active="selected === 'background' || filter === 'background'"
                                 @click="setBackground(); toggleFilterBackground();">
                                 by Background
@@ -263,6 +268,130 @@ import ButtonFilter from '@/components/Buttons/ButtonFilter.vue';
 const getUrl = '/api/themes';
 const GITHUB_THEMES_RAW_API = 'https://api.github.com/repos/Gogh-Co/Gogh/contents/data/themes-min.json?ref=master';
 const THEMES_PAGE_SIZE = 60;
+
+// The 48 most popular terminal color schemes, used by the "Popular" filter.
+// One single research pass (web search, Sept 2026), ranking every candidate
+// on the same two signals:
+//   1. GitHub stars on the scheme's own origin repo (api.github.com/repos/<owner>/<repo>).
+//   2. VS Code Marketplace install counts for the closest matching editor theme.
+// ...corroborated with "best terminal/iTerm2/VS Code theme" roundup articles
+// and r/unixporn / r/neovim mentions where no repo/install number applied.
+// Each entry is matched to its exact Gogh filename (Gogh/themes/<Name>.yml)
+// -- re-verify spelling/casing against Gogh/themes/ before reusing this list,
+// scheme names there aren't normalized (e.g. "Github Light" vs "GitHub Dark",
+// "Papercolor Dark" vs "PaperColor" upstream).
+//
+// Ranked by evidence found (strongest first):
+//   GitHub Dark        - github/github-vscode-theme, 18.8M VS Code installs
+//   Dracula            - dracula/dracula-theme, 7.5M installs / 23,577 GH stars
+//   One Dark Pro       - Binaryify/OneDark-Pro, 6.7M installs
+//   Catppuccin Mocha   - catppuccin/catppuccin, 3.5M installs / 19,729 GH stars
+//   Monokai            - "Monokai" VS Code theme, 2.9M installs
+//   TokyoNight Storm   - folke/tokyonight.nvim, 2.7M installs / 8,183 GH stars
+//   Solarized Dark     - altercation/solarized, 16,013 GH stars
+//   Gruvbox Dark       - morhetz/gruvbox, 15,727 GH stars
+//   Tomorrow Night     - chriskempson/tomorrow-theme, 13,988 GH stars
+//   Material Theme     - equinusocio/material-theme, 11,313 GH stars
+//   Nord               - nordtheme/nord (=arcticicestudio/nord), 6,874 GH stars
+//   Kanagawa Wave      - rebelot/kanagawa.nvim, 6,370 GH stars
+//   Synthwave 84       - robb0wen/synthwave-vscode, 5,290 GH stars
+//   Everforest Dark    - sainnhe/everforest, 4,189 GH stars
+//   Nightfox           - EdenEast/nightfox.nvim, 4,065 GH stars
+//   Aura               - daltonmenezes/aura-theme, 3,818 GH stars
+//   Rose Pine          - rose-pine/neovim, 3,085 GH stars
+//   Night Owl          - sdras/night-owl-vscode-theme, 2,956 GH stars
+//   Papercolor Dark    - NLKNguyen/papercolor-theme, 2,844 GH stars
+//   Andromeda          - EliverLara/andromeda, 2,420 GH stars
+//   Iceberg Dark       - cocopon/iceberg.vim, 2,380 GH stars
+//   Sonokai            - sainnhe/sonokai, 1,954 GH stars
+//   Seoul256           - junegunn/seoul256.vim, 1,756 GH stars
+//   Snazzy             - sindresorhus/hyper-snazzy, ~1.5k GH stars, widely mirrored
+//   Hybrid             - w0ng/vim-hybrid, 1,490 GH stars
+//   Doom One / Doom Vibrant - doomemacs/themes, 1,490 stars (Doom Emacs host: 20k+ stars)
+//   Zenburn            - jnurmine/Zenburn, 920 GH stars (one of the oldest ported schemes)
+//   Ayu Dark           - ayu-theme/ayu-colors, 851 GH stars but very widely ported
+//   Cobalt2            - wesbos/cobalt2-vscode, 807 GH stars
+//   Vesper             - raunofreiberg/vesper, 778 GH stars, trending 2025-26
+//
+//   No single hard star/install number found for these, but each recurs
+//   across multiple independent "best terminal themes" roundups:
+//   Palenight, Horizon, Panda, Oceanic Next, One Half Dark, Spacegray,
+//   IR Black (classic TextMate/Sublime scheme, still cited constantly)
+//
+//   Ubuntu             - default terminal palette, high exposure by
+//                        install-base rather than GH stars/roundup mentions
+//
+//   Light/other-flavor variants of a family already above (independently
+//   popular, not redundant with the parent entry):
+//   Gruvbox Light, Catppuccin Macchiato, Catppuccin Frappe, TokyoNight Moon,
+//   Kanagawa Dragon, Rose Pine Moon, Ayu Mirage, Github Light, Everforest Light
+//
+// Checked but deliberately left out as redundant or too weak a signal:
+//   - Molokai (tomasr/molokai, 3,626 GH stars) -- a Monokai reskin, same
+//     family already covered by "Monokai" above; keeping both reads as one
+//     entry duplicated under two names in a 48-theme gallery.
+//   - Bluloco (https://www.blulocotheme.com/, 227-442 stars across its repos)
+//   - Poimandres (https://github.com/topics/poimandres, ~490 stars, Neovim-niche)
+//   - "City Lights" (no matching origin repo found under that name)
+//
+// Sources consulted (re-run similar searches to refresh this list):
+//   - https://moltamp.com/blog/best-terminal-color-schemes-2026/
+//   - https://terminalcolors.com/
+//   - https://www.jit.io/blog/best-vs-code-themes-2023
+//   - https://dev.to/dhavalkurkutiya/material-nova-the-best-vs-code-theme-of-2026-50el
+//   - https://terminalcandy.com/blog/iterm2-themes-2026/
+//   - GitHub REST API, api.github.com/repos/<owner>/<repo>, for GH star counts above
+//   - VS Code Marketplace listing pages, for install counts above
+const POPULAR_THEME_NAMES = new Set([
+    'GitHub Dark',
+    'Dracula',
+    'One Dark Pro',
+    'Catppuccin Mocha',
+    'Monokai',
+    'TokyoNight Storm',
+    'Solarized Dark',
+    'Gruvbox Dark',
+    'Tomorrow Night',
+    'Material Theme',
+    'Nord',
+    'Kanagawa Wave',
+    'Synthwave 84',
+    'Everforest Dark',
+    'Nightfox',
+    'Aura',
+    'Rose Pine',
+    'Night Owl',
+    'Papercolor Dark',
+    'Andromeda',
+    'Iceberg Dark',
+    'Sonokai',
+    'Seoul256',
+    'Snazzy',
+    'Hybrid',
+    'Doom One',
+    'Doom Vibrant',
+    'Zenburn',
+    'Ayu Dark',
+    'Cobalt2',
+    'Vesper',
+    'Palenight',
+    'Horizon',
+    'Panda',
+    'Oceanic Next',
+    'One Half Dark',
+    'Spacegray',
+    'IR Black',
+    'Ubuntu',
+    'Gruvbox Light',
+    'Catppuccin Macchiato',
+    'Catppuccin Frappe',
+    'TokyoNight Moon',
+    'Kanagawa Dragon',
+    'Rose Pine Moon',
+    'Ayu Mirage',
+    'Github Light',
+    'Everforest Light',
+]);
 
 const VIEW_MODE_STORAGE_KEY = 'gogh-gallery-view-mode';
 const SORT_MODE_STORAGE_KEY = 'gogh-gallery-sort-mode';
@@ -588,7 +717,7 @@ function matchesThemeSearch(theme) {
 }
 
 function themeMatchesFilter(theme) {
-    return (filter.value === theme.category || filter.value === 'all' || filter.value === 'background' || filter.value === theme.background.toLowerCase()) && matchesThemeSearch(theme);
+    return (filter.value === theme.category || filter.value === 'all' || filter.value === 'background' || filter.value === theme.background.toLowerCase() || (filter.value === 'popular' && theme.popular)) && matchesThemeSearch(theme);
 }
 
 function themeSortKey(theme) {
@@ -654,6 +783,7 @@ const rawThemes = normalizeThemes(themesData.value);
 themes.value = rawThemes.map((theme) => ({
     ...theme,
     category: lightOrDark(theme.background),
+    popular: POPULAR_THEME_NAMES.has(getThemeName(theme)),
 }));
 
 getBackgrounds();
@@ -702,6 +832,7 @@ onMounted(() => {
             themes.value = clientThemes.map((theme) => ({
                 ...theme,
                 category: lightOrDark(theme.background),
+                popular: POPULAR_THEME_NAMES.has(getThemeName(theme)),
             }));
             getBackgrounds();
 
