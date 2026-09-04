@@ -9,6 +9,12 @@ on:
   workflow_run:
     workflows: ["🛠️ - Run Generators"]
     types: [completed]
+  workflow_call:
+    # Lets a tiny push-triggered stub workflow on main/website (which can't
+    # carry a push trigger for that branch here, since GitHub only reads
+    # workflow files from the ref that received the push) call this one by
+    # reference instead of duplicating it. See
+    # main/website:.github/workflows/deploy-on-push.yml.
 
 jobs:
   build:
