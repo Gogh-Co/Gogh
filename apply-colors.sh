@@ -1363,6 +1363,26 @@ case "${TERMINAL}" in
 
     : ${DEFAULT_SLUG:="$(${DCONF} read ${BASE_DIR}default | tr -d \')"}
 
+    # Tilix ships the profile list as a schema default, and dconf only reports
+    # values the user has set, so this reads back empty until a profile is added
+    # or renamed. gsettings does honour schema defaults.
+    if [[ -z "${DEFAULT_SLUG}" ]] && [[ -n "${GS}" ]]; then
+      DEFAULT_SLUG="$(${GS} get com.gexperts.Tilix.ProfilesList default | tr -d \')"
+
+      # dlist_append rebuilds the list from dconf too, so seed it before adding
+      # a profile or the existing one gets dropped from it.
+      if ! [[ ${TILIX_RES::1} =~ ^(y|Y)$ ]] && [[ -z "$(${DCONF} read ${PROFILE_LIST_KEY})" ]]; then
+        ${DCONF} write "${PROFILE_LIST_KEY}" "$(${GS} get com.gexperts.Tilix.ProfilesList list)"
+      fi
+    fi
+
+    if [[ -z "${DEFAULT_SLUG}" ]]; then
+      printserr "Error, no saved profiles found!" \
+      "Possible fix, new a profile (Tilix > Preferences > Profiles > +, then Close) and try again." \
+      "You can safely delete the created profile after the installation."
+      exit 1
+    fi
+
     LEFT_WRAPPER="["
     RIGHT_WRAPPER="]"
     PALETTE_DELIM="', '"
