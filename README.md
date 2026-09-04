@@ -21,7 +21,7 @@ The inspiration for Gogh came from the clean and minimalistic design of Elementa
 ##### Run:
 
 ```bash
-bash -c "$(curl -sLo- https://git.io/vQgMr)"
+bash -c "$(curl -fsSL https://gogh.website/gogh)"
 ```
 
 <br>
@@ -101,13 +101,13 @@ You can now install Gogh in Interactive Mode (Easier) or Non-Interactive Mode! (
 **1. Just copy and paste this one-line command:**
 
 ```bash
-bash -c "$(wget -qO- https://git.io/vQgMr)"
+bash -c "$(wget -qO- https://gogh.website/gogh)"
 ```
 
 Or, if you're a Mac user:
 
 ```bash
-bash -c "$(curl -sLo- https://git.io/vQgMr)"
+bash -c "$(curl -fsSL https://gogh.website/gogh)"
 ```
 
 **2. Select your installed theme from your terminal.**
@@ -348,7 +348,7 @@ rules a theme PR needs to follow, and how to check it locally with
 **WARNING:** *Only if you know what you are doing or trust me :)*
 
 ```bash
-sudo wget -O /usr/local/bin/gogh https://git.io/vQgMr && sudo chmod +x /usr/local/bin/gogh
+sudo wget -O /usr/local/bin/gogh https://gogh.website/gogh && sudo chmod +x /usr/local/bin/gogh
 ```
 
 Now in your terminal just type `gogh`:
@@ -371,7 +371,7 @@ gogh ALL
 For one-line remote usage with arguments, pass `--` before the options:
 
 ```bash
-bash -c "$(wget -qO- https://git.io/vQgMr)" -- Dracula
+bash -c "$(wget -qO- https://gogh.website/gogh)" -- Dracula
 ```
 
 <br/>
