@@ -96,7 +96,8 @@
         gap: 20px;
     }
 
-    .view-toggle {
+    .view-toggle,
+    .sort-toggle {
         display: flex;
         gap: 8px;
     }
@@ -218,84 +219,100 @@
 * ·······  Filters Bg
 * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
-.filter-background {
-    margin: 0 0 70px;
-    border: 1px solid #ffffff;
+.background-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background-color: rgba(5, 8, 12, 0.94);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    animation: lightbox-backdrop-in 0.2s ease forwards;
+}
 
-    .btn--filter-bg {
-        position: relative;
-        padding: 0;
-        width: 5%;
-        height: 44px;
-        border: none;
-        cursor: pointer;
-        transition: all 0.3s ease, border-radius 0.9s ease;
-        border-radius: 0;
+.background-lightbox__content {
+    width: min(1600px, 96%);
+    max-height: 90vh;
+    overflow: auto;
+    padding: 32px;
+    background: var(--site-background, #e7e7e7);
+    color: var(--site-foreground, #0d1926);
+    transition: background-color 0.18s ease, color 0.18s ease;
+    animation: lightbox-content-in 0.28s ease forwards;
+}
 
-        span {
-            position: absolute;
-            bottom: -12px;
-            display: none;
-            padding: 1px 3px;
-            width: 100%;
-            border-radius: 1px;
-            background: #0d1926;
-            color: #ffffff;
-            text-align: center;
-            text-transform: none;
-            font-size: 0.9rem;
-            transition: all 0.3s ease;
-        }
+.background-lightbox__title {
+    margin: 0 0 24px;
+    color: var(--site-foreground, #0d1926);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
 
-        &:hover {
-            z-index: 20;
-            height: 40px;
-            border: 1px solid #414141;
-            border-radius: 1px;
-            transform: scale(1.6);
+.background-lightbox__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(64px, 1fr));
+    gap: 10px;
+}
 
-            span {
-                display: block;
-            }
-        }
+.background-lightbox__swatch {
+    position: relative;
+    height: 56px;
+    padding: 0;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    span {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -22px;
+        display: none;
+        padding: 2px 4px;
+        border-radius: 2px;
+        background: #0d1926;
+        color: #ffffff;
+        text-align: center;
+        text-transform: none;
+        font-size: 0.9rem;
+        white-space: nowrap;
+        pointer-events: none;
     }
 
-    .btn--filter-bg.active {
-        z-index: 10;
-        border: 1px solid #414141;
-        border-radius: 1px;
-        transform: scale(1.6);
+    &:hover,
+    &.active {
+        z-index: 2;
+        border-color: #414141;
+        transform: scale(1.12);
 
         span {
             display: block;
         }
     }
+
+    &.active {
+        box-shadow: 0 0 0 2px #0d1926;
+    }
 }
 
-.filter-background-wrap {
-    overflow: hidden;
-    max-height: 1000px;
-    opacity: 1;
-    transform: translateY(0);
+.background-lightbox__close {
+    position: absolute;
+    top: 14px;
+    right: 18px;
+    border: 0;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    width: 44px;
+    height: 44px;
+    font-size: 30px;
+    line-height: 1;
+    cursor: pointer;
 }
 
-.bg-filter-enter-active,
-.bg-filter-leave-active {
-    transition: max-height 0.35s ease, opacity 0.28s ease, transform 0.28s ease;
-}
-
-.bg-filter-enter-from,
-.bg-filter-leave-to {
-    max-height: 0;
-    opacity: 0;
-    transform: translateY(-8px);
-}
-
-.bg-filter-enter-to,
-.bg-filter-leave-from {
-    max-height: 1000px;
-    opacity: 1;
-    transform: translateY(0);
+.background-lightbox__close:hover {
+    background: rgba(255, 255, 255, 0.25);
 }
 
 /**
@@ -323,6 +340,28 @@
 * ·······  Animations
 * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
+@keyframes lightbox-backdrop-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes lightbox-content-in {
+    from {
+        opacity: 0;
+        transform: scale(0.94) translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
 @keyframes anim-gogh {
     25% {
         fill: #83FF08;
@@ -372,12 +411,14 @@
     align-items: center;
     justify-content: center;
     padding: 24px;
+    animation: lightbox-backdrop-in 0.2s ease forwards;
 }
 
 .terminal-lightbox__content {
     width: min(1200px, 100%);
     max-height: 100%;
     overflow: auto;
+    animation: lightbox-content-in 0.28s ease forwards;
 
     .code-wrap {
         margin-bottom: 30px;

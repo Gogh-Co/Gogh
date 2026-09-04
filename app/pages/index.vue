@@ -81,6 +81,16 @@
                                 </ButtonFilter>
                             </div>
 
+                            <div class="sort-toggle" role="group" aria-label="Sort themes">
+                                <ButtonFilter :active="sortMode === 'alphabetical'" @click="setSortMode('alphabetical')">
+                                    {{ sortDirection === 'desc' ? 'Z-A' : 'A-Z' }}
+                                </ButtonFilter>
+
+                                <ButtonFilter :active="sortMode === 'random'" @click="setSortMode('random')">
+                                    Shuffle
+                                </ButtonFilter>
+                            </div>
+
                             <button
                                 type="button"
                                 class="page-theme-toggle"
@@ -117,21 +127,6 @@
                     </div>
                 </div>
 
-                <div class="col-md-12">
-                    <Transition name="bg-filter">
-                        <div v-if="filterBackgroundVisible" class="filter-background-wrap">
-                            <div class="filter-background">
-                                <template v-for="item in themeBackgrounds" :key="item">
-                                    <button class="btn btn--filter-bg" :class="{ active: filter === item.toLowerCase() }"
-                                        :style="'background-color:' + item"
-                                        @click="setFilter(item); toggleFilterBackground(false);">
-                                        <span>{{ item.toLowerCase() }}</span>
-                                    </button>
-                                </template>
-                            </div>
-                        </div>
-                    </Transition>
-                </div>
             </div>
         </div>
 
@@ -199,6 +194,39 @@
                 </div>
             </div>
         </div>
+
+        <div
+            v-if="filterBackgroundVisible"
+            class="background-lightbox"
+            @click.self="toggleFilterBackground(false)"
+        >
+            <button
+                type="button"
+                class="background-lightbox__close"
+                aria-label="Close background filter"
+                @click="toggleFilterBackground(false)"
+            >
+                ×
+            </button>
+
+            <div class="background-lightbox__content">
+                <h3 class="background-lightbox__title">Filter by background color</h3>
+
+                <div class="background-lightbox__grid">
+                    <template v-for="item in themeBackgrounds" :key="item">
+                        <button
+                            type="button"
+                            class="background-lightbox__swatch"
+                            :class="{ active: filter === item.toLowerCase() }"
+                            :style="'background-color:' + item"
+                            @click="setFilter(item); toggleFilterBackground(false);"
+                        >
+                            <span>{{ item.toLowerCase() }}</span>
+                        </button>
+                    </template>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div id=master-dev style="display:none">
@@ -237,6 +265,8 @@ const GITHUB_THEMES_RAW_API = 'https://api.github.com/repos/Gogh-Co/Gogh/content
 const THEMES_PAGE_SIZE = 60;
 
 const VIEW_MODE_STORAGE_KEY = 'gogh-gallery-view-mode';
+const SORT_MODE_STORAGE_KEY = 'gogh-gallery-sort-mode';
+const SORT_DIRECTION_STORAGE_KEY = 'gogh-gallery-sort-direction';
 const PAGE_THEME_STORAGE_KEY = 'gogh-page-theme';
 const PAGE_THEME_DARK_STYLE = {
     '--site-background': '#121F2A',
@@ -251,6 +281,9 @@ const themes = ref([]);
 const themesError = ref('');
 const filter = ref('all');
 const viewMode = ref('compact');
+const sortMode = ref('alphabetical');
+const sortDirection = ref('asc');
+const shuffleOrder = ref(new Map());
 const pageTheme = ref('light');
 const themeBackgrounds = ref([]);
 const selected = ref(null);
@@ -474,8 +507,16 @@ function closeThemeLightbox() {
 }
 
 function onWindowKeydown(event) {
-    if (event.key === 'Escape' && lightboxVisible.value) {
+    if (event.key !== 'Escape') {
+        return;
+    }
+
+    if (lightboxVisible.value) {
         closeThemeLightbox();
+    }
+
+    if (filterBackgroundVisible.value) {
+        toggleFilterBackground(false);
     }
 }
 
@@ -550,7 +591,54 @@ function themeMatchesFilter(theme) {
     return (filter.value === theme.category || filter.value === 'all' || filter.value === 'background' || filter.value === theme.background.toLowerCase()) && matchesThemeSearch(theme);
 }
 
-const filteredThemes = computed(() => themes.value.filter(themeMatchesFilter));
+function themeSortKey(theme) {
+    return getThemeName(theme) || `${theme.background}-${theme.foreground}`;
+}
+
+function generateShuffleOrder() {
+    const map = new Map();
+    themes.value.forEach((theme) => {
+        map.set(themeSortKey(theme), Math.random());
+    });
+    shuffleOrder.value = map;
+}
+
+function setSortMode(mode) {
+    if (mode === 'alphabetical' && sortMode.value === 'alphabetical') {
+        sortDirection.value = sortDirection.value === 'asc' ? 'desc' : 'asc';
+    } else if (mode === 'alphabetical') {
+        sortDirection.value = 'asc';
+    }
+
+    sortMode.value = mode;
+    visibleCount.value = THEMES_PAGE_SIZE;
+
+    if (mode === 'random') {
+        generateShuffleOrder();
+    }
+
+    try {
+        localStorage.setItem(SORT_MODE_STORAGE_KEY, mode);
+        localStorage.setItem(SORT_DIRECTION_STORAGE_KEY, sortDirection.value);
+    } catch {
+        // Ignore storage failures (private browsing, disabled storage, etc.).
+    }
+}
+
+const filteredThemes = computed(() => {
+    const matched = themes.value.filter(themeMatchesFilter);
+
+    if (sortMode.value === 'random') {
+        return [...matched].sort((a, b) => {
+            const keyA = shuffleOrder.value.get(themeSortKey(a)) ?? 0;
+            const keyB = shuffleOrder.value.get(themeSortKey(b)) ?? 0;
+            return keyA - keyB;
+        });
+    }
+
+    const direction = sortDirection.value === 'desc' ? -1 : 1;
+    return [...matched].sort((a, b) => direction * getThemeName(a).localeCompare(getThemeName(b)));
+});
 const visibleThemes = computed(() => filteredThemes.value.slice(0, visibleCount.value));
 
 watch([filter, searchQuery], () => {
@@ -591,6 +679,24 @@ onMounted(() => {
         // Ignore storage failures (private browsing, disabled storage, etc.).
     }
 
+    try {
+        const savedSortMode = localStorage.getItem(SORT_MODE_STORAGE_KEY);
+        if (savedSortMode === 'alphabetical' || savedSortMode === 'random') {
+            sortMode.value = savedSortMode;
+        }
+
+        const savedSortDirection = localStorage.getItem(SORT_DIRECTION_STORAGE_KEY);
+        if (savedSortDirection === 'asc' || savedSortDirection === 'desc') {
+            sortDirection.value = savedSortDirection;
+        }
+    } catch {
+        // Ignore storage failures (private browsing, disabled storage, etc.).
+    }
+
+    if (sortMode.value === 'random' && themes.value.length) {
+        generateShuffleOrder();
+    }
+
     if (!themes.value.length) {
         fetchData().then((clientThemes) => {
             themes.value = clientThemes.map((theme) => ({
@@ -598,6 +704,10 @@ onMounted(() => {
                 category: lightOrDark(theme.background),
             }));
             getBackgrounds();
+
+            if (sortMode.value === 'random') {
+                generateShuffleOrder();
+            }
         });
     }
 
