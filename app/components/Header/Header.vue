@@ -14,6 +14,9 @@
             </NuxtLink>
 
             <nav class="gogh-header__nav" aria-label="Primary">
+                <NuxtLink to="/" class="gogh-header__nav-link">
+                    Home
+                </NuxtLink>
                 <NuxtLink to="/generator" class="gogh-header__nav-link">
                     Generator
                 </NuxtLink>
