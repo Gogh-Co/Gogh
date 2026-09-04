@@ -52,9 +52,9 @@
                         <h4>Linux <span>(wget)</span></h4>
                         <div class="code-holder">
                             <pre><code class="language-bash" id="code-linux">bash -c  "$(wget -qO- https://git.io/vQgMr)" </code></pre>
-                            <span class="btn-copy" data-clipboard-target="#code-linux">
+                            <button type="button" class="btn-copy" data-clipboard-target="#code-linux" aria-label="Copy Linux install command">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="#000" width="48" height="48"> <path d="M27.4,14.7l-6.1-6.1C21,8.2,20.5,8,20,8h-8c-1.1,0-2,0.9-2,2v18c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V16.1C28,15.6,27.8,15.1,27.4,14.7z M20,10l5.9,6H20V10z M12,28V10h6v6c0,1.1,0.9,2,2,2h6l0,10H12z"/> <path d="M6,18H4V4c0-1.1,0.9-2,2-2h14v2H6V18z"/> <rect width="32" height="32" fill="none"/> </svg>
-                            </span>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -64,9 +64,9 @@
                         <h4>Mac <span>(curl)</span></h4>
                         <div class="code-holder">
                             <pre><code class="language-bash" id="code-mac">bash -c  "$(curl -sLo- https://git.io/vQgMr)" </code></pre>
-                            <span class="btn-copy" data-clipboard-target="#code-mac">
+                            <button type="button" class="btn-copy" data-clipboard-target="#code-mac" aria-label="Copy macOS install command">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="#000" width="48" height="48"> <path d="M27.4,14.7l-6.1-6.1C21,8.2,20.5,8,20,8h-8c-1.1,0-2,0.9-2,2v18c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V16.1C28,15.6,27.8,15.1,27.4,14.7z M20,10l5.9,6H20V10z M12,28V10h6v6c0,1.1,0.9,2,2,2h6l0,10H12z"/> <path d="M6,18H4V4c0-1.1,0.9-2,2-2h14v2H6V18z"/> <rect width="32" height="32" fill="none"/> </svg>
-                            </span>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -173,6 +173,16 @@
 
         <br>
 
+        <div v-if="themesError && !themes.length" class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="themes-status themes-status--error" role="alert">
+                        <p>{{ themesError }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="container-fluid">
             <div class="row ">
                 <template v-for="theme in visibleThemes" :key="getThemeName(theme) || theme.background + theme.foreground">
@@ -216,9 +226,9 @@
                 <div v-if="lightboxTheme" class="code-wrap terminal-lightbox__install">
                     <div class="code-holder lightbox-code-holder">
                         <pre><code class="language-bash" :id="getLightboxInstallCodeId(lightboxTheme)">{{ getLightboxInstallCommand(lightboxTheme) }}</code></pre>
-                        <span class="btn-copy" :data-clipboard-target="`#${getLightboxInstallCodeId(lightboxTheme)}`">
+                        <button type="button" class="btn-copy" :data-clipboard-target="`#${getLightboxInstallCodeId(lightboxTheme)}`" aria-label="Copy install command">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="#000" width="48" height="48"> <path d="M27.4,14.7l-6.1-6.1C21,8.2,20.5,8,20,8h-8c-1.1,0-2,0.9-2,2v18c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V16.1C28,15.6,27.8,15.1,27.4,14.7z M20,10l5.9,6H20V10z M12,28V10h6v6c0,1.1,0.9,2,2,2h6l0,10H12z"/> <path d="M6,18H4V4c0-1.1,0.9-2,2-2h14v2H6V18z"/> <rect width="32" height="32" fill="none"/> </svg>
-                        </span>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -258,9 +268,11 @@ import ButtonFilter from '@/components/Buttons/ButtonFilter.vue';
 import Button from '@/components/Buttons/Button.vue';
 
 const getUrl = '/api/themes';
+const GITHUB_THEMES_RAW_API = 'https://api.github.com/repos/Gogh-Co/Gogh/contents/data/themes-min.json?ref=master';
 const THEMES_PAGE_SIZE = 60;
 
 const themes = ref([]);
+const themesError = ref('');
 const filter = ref('all');
 const themeBackgrounds = ref([]);
 const selected = ref(null);
@@ -396,9 +408,26 @@ async function fetchData() {
             timeout: 12000,
         });
 
+        themesError.value = '';
         return normalizeThemes(remoteThemes);
     } catch {
-        return [];
+        // Static deploy fallback (e.g. GitHub Pages): /api/themes only exists
+        // at build time, so fetch directly from GitHub API at runtime.
+        try {
+            const remoteThemes = await $fetch(GITHUB_THEMES_RAW_API, {
+                timeout: 12000,
+                headers: {
+                    Accept: 'application/vnd.github.raw+json',
+                    'X-GitHub-Api-Version': '2022-11-28',
+                },
+            });
+
+            themesError.value = '';
+            return normalizeThemes(remoteThemes);
+        } catch {
+            themesError.value = 'Could not fetch theme data from GitHub.';
+            return [];
+        }
     }
 }
 

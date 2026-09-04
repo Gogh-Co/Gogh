@@ -56,6 +56,7 @@
             padding: 5px 10px;
             height: 50px;
             background-color: #F5F2F0;
+            border: 0;
             cursor: pointer;
             transition: all 0.3s ease;
 
@@ -432,4 +433,18 @@
 
 .load-more-sentinel {
     height: 1px;
+}
+
+.themes-status {
+    margin: 10px 0 30px;
+    padding: 14px 16px;
+    border: 1px solid #cfd6dc;
+    background: #f7f7f7;
+    color: #595647;
+    font-size: 1.5rem;
+}
+
+.themes-status--error {
+    border-color: #e0b3b3;
+    background: #f8ebeb;
 }
