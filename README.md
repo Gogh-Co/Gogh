@@ -9,7 +9,7 @@
 <br>
 
 <div align="center">
-🔸🔸🔸 <a href="http://Gogh-Co.github.io/Gogh"> Visit the Website </a> 🔸🔸🔸
+🔸🔸🔸 <a href="http://Gogh-Co.github.io/Gogh"> gogh.website </a> 🔸🔸🔸
 </div>
 
 ## Color Scheme Implementer for Terminals
