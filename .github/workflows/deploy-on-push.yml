@@ -11,6 +11,7 @@ name: "🚀 - Deploy to GitHub Pages (push trigger)"
 on:
   push:
     branches: ["main/website"]
+  workflow_dispatch:
 
 jobs:
   deploy:
