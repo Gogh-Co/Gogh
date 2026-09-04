@@ -326,6 +326,22 @@ import GeneratorTerminal from '@/components/Terminal/GeneratorTerminal.vue';
 import themeTemplate from '../../theme-template.yml?raw';
 import Button from '@/components/Buttons/Button.vue';
 
+const title = 'Theme Generator - Gogh';
+const description = "Design your own terminal color scheme with a live preview, then export it as a ready-to-use Gogh theme file.";
+
+useSeoMeta({
+    title,
+    description,
+    ogTitle: title,
+    ogDescription: description,
+    ogUrl: canonicalUrl('/generator/'),
+    twitterTitle: title,
+    twitterDescription: description,
+});
+useHead({
+    link: [{ rel: 'canonical', href: canonicalUrl('/generator/') }],
+});
+
 const DEFAULT_NAME = 'My Theme';
 const DEFAULT_AUTHOR = 'Your Name (https://example.com)';
 

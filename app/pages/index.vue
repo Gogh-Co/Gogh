@@ -235,6 +235,22 @@ import ClipboardJS from 'clipboard';
 import Prism from 'prismjs';
 import githubButtonsScript from '@/assets/static/buttons.js?raw';
 
+const title = 'Gogh - Terminal Color Schemes';
+const description = 'Gogh is a collection of hundreds of color schemes for terminal emulators like GNOME Terminal, iTerm2, Tilix, and more. Install any theme with a single command.';
+
+useSeoMeta({
+    title,
+    description,
+    ogTitle: title,
+    ogDescription: description,
+    ogUrl: canonicalUrl('/'),
+    twitterTitle: title,
+    twitterDescription: description,
+});
+useHead({
+    link: [{ rel: 'canonical', href: canonicalUrl('/') }],
+});
+
 import PreviewTerminal from '@/components/Terminal/PreviewTerminal.vue';
 import Header from '@/components/Header/Header.vue';
 import ButtonFilter from '@/components/Buttons/ButtonFilter.vue';

@@ -14,6 +14,9 @@ function withBase(path) {
 }
 
 useHead({
+    htmlAttrs: {
+        lang: 'en',
+    },
     link: [
         { rel: 'apple-touch-icon', sizes: '57x57', href: withBase('favicons/apple-icon-57x57.png') },
         { rel: 'apple-touch-icon', sizes: '60x60', href: withBase('favicons/apple-icon-60x60.png') },
@@ -28,12 +31,21 @@ useHead({
         { rel: 'icon', type: 'image/png', sizes: '32x32', href: withBase('favicons/favicon-32x32.png') },
         { rel: 'icon', type: 'image/png', sizes: '96x96', href: withBase('favicons/favicon-96x96.png') },
         { rel: 'icon', type: 'image/png', sizes: '16x16', href: withBase('favicons/favicon-16x16.png') },
+        { rel: 'manifest', href: withBase('favicons/manifest.json') },
     ],
     meta: [
         { name: 'msapplication-TileColor', content: '#ffffff' },
         { name: 'msapplication-TileImage', content: withBase('favicons/ms-icon-144x144.png') },
         { name: 'theme-color', content: '#ffffff' },
     ],
+});
+
+useSeoMeta({
+    ogSiteName: SITE_NAME,
+    ogType: 'website',
+    ogImage: SITE_IMAGE,
+    twitterCard: 'summary_large_image',
+    twitterImage: SITE_IMAGE,
 });
 </script>
 

@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://gogh.website/sitemap.xml

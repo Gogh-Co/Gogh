@@ -524,6 +524,22 @@
 import Header from '@/components/Header/Header.vue';
 import Button from '@/components/Buttons/Button.vue';
 
+const title = 'Theme Statistics - Gogh';
+const description = 'Browse statistics across every Gogh terminal theme, including author coverage, and name and color-hash duplicates.';
+
+useSeoMeta({
+    title,
+    description,
+    ogTitle: title,
+    ogDescription: description,
+    ogUrl: canonicalUrl('/stats/'),
+    twitterTitle: title,
+    twitterDescription: description,
+});
+useHead({
+    link: [{ rel: 'canonical', href: canonicalUrl('/stats/') }],
+});
+
 const COLOR_KEYS = Array.from({ length: 16 }, (_, index) => `color_${String(index + 1).padStart(2, '0')}`);
 const ALL_COLOR_FIELDS = [...COLOR_KEYS, 'background', 'foreground', 'cursor'];
 

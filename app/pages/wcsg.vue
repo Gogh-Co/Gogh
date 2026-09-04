@@ -103,6 +103,22 @@ import Header from '@/components/Header/Header.vue'
 import WcsgThemeCard from '@/components/Wcsg/WcsgThemeCard.vue'
 import ButtonFilter from '@/components/Buttons/ButtonFilter.vue'
 
+const title = 'WCAG Color Data - Gogh';
+const description = 'Explore WCAG contrast ratios and accessibility data for every Gogh terminal color scheme, filterable by light and dark themes.';
+
+useSeoMeta({
+    title,
+    description,
+    ogTitle: title,
+    ogDescription: description,
+    ogUrl: canonicalUrl('/wcsg/'),
+    twitterTitle: title,
+    twitterDescription: description,
+});
+useHead({
+    link: [{ rel: 'canonical', href: canonicalUrl('/wcsg/') }],
+});
+
 const data = ref([])
 const loading = ref(true)
 const errorMessage = ref('')
