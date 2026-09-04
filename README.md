@@ -340,13 +340,13 @@ Good news! Now, creating themes are easier than ever.
 
 All you need to do is to create a YAML format file, following the example of the other files in the `themes` folder.
 
-Some rules to keep in mind:
+Some rules to keep in mind (checked automatically by CI, see below — or run `task validate` locally, see [`CONTRIBUTING.md`](CONTRIBUTING.md)):
 
 - The file name should match the name of the theme. For example:
   - **Filename**: `Solarized Dark.yml`
   - **Inside the .yml file**: `name: 'Solarized Dark'`
-- Use title case for all words by capitalizing their first letter.
-- Ensure that the contrast is sufficient for good legibility.
+- The name itself is free-form — Gogh accepts theme names as given by their original author/repo (including names ported from mbadolato/iTerm2-Color-Schemes), no forced casing style. The one thing to avoid is underscores (`_`); use a space or hyphen instead.
+- Ensure that the contrast is sufficient for good legibility (foreground/background ratio of at least 2.5:1).
 - All hex color values must be **uppercase** (`#FF0000`, not `#ff0000`).
 
 ### Pull Request checklist
@@ -355,6 +355,7 @@ Theme PRs are checked automatically by CI (`✅ - Validate PR`) whenever they to
 
 - **Title**: start it with `theme:`, e.g. `theme: Add Solarized Midnight`.
 - **Scope**: only add or edit files under `themes/` — no changes anywhere else in the repo (`data/`, `tools/`, `installs/`, `gogh.sh`, etc. are all generated automatically by CI once your PR is merged, so you don't need to touch them).
+- **Filename, no underscores, contrast**: as above.
 - **Colors**: every hex value uppercase, as above.
 
 ***Now, you can send your Pull Request***

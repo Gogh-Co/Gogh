@@ -4,3 +4,4 @@ pyyaml
 tomli
 tomli_w
 configobj
+rich

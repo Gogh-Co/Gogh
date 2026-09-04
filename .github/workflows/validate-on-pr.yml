@@ -40,6 +40,9 @@ jobs:
           git diff --name-only "${{ github.event.pull_request.base.sha }}" "${{ github.event.pull_request.head.sha }}" > /tmp/changed_files.txt
           cat /tmp/changed_files.txt
 
+      - name: 🏅 Validate theme name, filename, and contrast (changed themes only)
+        run: python tools/validate/validate_theme_format.py /tmp/changed_files.txt
+
       - name: 🏅 Validate PR title and scope (themes/ only)
         env:
           PR_TITLE: ${{ github.event.pull_request.title }}

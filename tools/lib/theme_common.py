@@ -60,3 +60,23 @@ def unique_path(output_dir, slug, suffix):
         path = output_dir / f"{slug}-{counter}{suffix}"
         counter += 1
     return path
+
+
+def _relative_luminance(hex_color):
+    """WCAG relative luminance of a '#RRGGBB' color."""
+    hex_color = hex_color.lstrip("#")
+    channels = (int(hex_color[i:i + 2], 16) / 255 for i in (0, 2, 4))
+
+    def linearize(c):
+        return c / 12.92 if c <= 0.03928 else ((c + 0.055) / 1.055) ** 2.4
+
+    r, g, b = (linearize(c) for c in channels)
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b
+
+
+def contrast_ratio(hex_a, hex_b):
+    """WCAG contrast ratio (1:1 .. 21:1) between two '#RRGGBB' colors."""
+    l_a = _relative_luminance(hex_a)
+    l_b = _relative_luminance(hex_b)
+    lighter, darker = max(l_a, l_b), min(l_a, l_b)
+    return (lighter + 0.05) / (darker + 0.05)

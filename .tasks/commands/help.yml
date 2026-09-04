@@ -1,0 +1,64 @@
+---
+version: '3'
+
+tasks:
+  help:
+    desc: Print the step-by-step contributor workflow (when to run each task).
+    silent: true  # otherwise Task echoes the raw multi-line command (heredoc
+                  # body included) before running it -- doubling every line.
+    cmds:
+      - |
+        BOLD=$(printf '\033[1m'); DIM=$(printf '\033[2m')
+        CYAN=$(printf '\033[36m'); YELLOW=$(printf '\033[33m')
+        RESET=$(printf '\033[0m')
+
+        cat <<EOF
+
+        ${BOLD}Gogh -- contributor workflow${RESET}
+        =============================
+
+        ${YELLOW}STEP 1${RESET} -- one-time per clone
+
+          ${BOLD}${CYAN}❯ RUN:${RESET}  task init
+
+              Enables the hook that blocks committing data/, installs/,
+              gogh.sh, tools/run.txt -- those are CI-only output, never
+              written by hand.
+
+        ${YELLOW}STEP 2${RESET} -- create the theme
+              Add themes/<Your Theme Name>.yml. Filename must match name:
+              exactly. No underscores in the name. See CONTRIBUTING.md
+              for the full field-by-field reference.
+
+        ${YELLOW}STEP 3${RESET} -- preview locally ${DIM}(optional)${RESET}
+
+          ${BOLD}${CYAN}❯ RUN:${RESET}  task generate
+
+              Preview data/, installs/, gogh.sh locally -- no push/pull
+              needed to see what CI would produce.
+
+          ${BOLD}${CYAN}❯ RUN:${RESET}  task clean
+
+              Discard that local preview once you're done looking at it.
+
+        ${YELLOW}STEP 4${RESET} -- check before opening the PR
+
+          ${BOLD}${CYAN}❯ RUN:${RESET}  task validate
+
+              Runs every check CI runs on your PR: colors uppercase,
+              filename matches name:, no underscores, contrast >= 2.5:1,
+              and that only themes/ was touched.
+
+          ${BOLD}${CYAN}❯ RUN:${RESET}  task validate TITLE="theme: Add Your Theme Name"
+
+              Same, and also checks your real PR title format.
+
+        ${YELLOW}STEP 5${RESET} -- open the PR
+              Commit only themes/<Your Theme Name>.yml. Title must start
+              with "theme:". CI regenerates data/, installs/, gogh.sh,
+              etc. automatically once a maintainer merges it.
+
+        ${DIM}Full walkthrough: CONTRIBUTING.md${RESET}
+        ${DIM}All tasks:        task${RESET}
+
+        EOF

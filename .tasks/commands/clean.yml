@@ -1,0 +1,9 @@
+---
+version: '3'
+
+tasks:
+  clean:
+    desc: Discard everything `task generate` wrote (data/, installs/, gogh.sh, tools/run.txt) so only your themes/*.yml change remains.
+    cmds:
+      - git checkout -- data/ installs/ gogh.sh tools/run.txt
+      - git clean -fd data/ installs/

@@ -1,0 +1,8 @@
+---
+version: '3'
+
+tasks:
+  generate:
+    desc: Regenerate data/, installs/, gogh.sh, and tools/run.txt locally from themes/*.yml (uv-managed, no venv needed).
+    cmds:
+      - ./tools/generate-run_local.sh

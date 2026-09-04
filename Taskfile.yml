@@ -1,0 +1,48 @@
+---
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+# https://taskfile.dev
+
+version: '3'
+
+# `init`, `default`, and `validate` are defined directly here, instead of
+# via `includes:` below, so they get a stable position in
+# `task --list-all --sort none` -- Task's include-merge order is not
+# deterministic across runs (confirmed: `--sort none` reshuffles unrelated
+# includes' relative order between invocations of the exact same Taskfile),
+# but a task's own root `tasks:` block keeps its declaration order. `task
+# help` is the reliable place for the full step-by-step order; this
+# ordering is a best-effort nicety on top.
+#
+# `validate` specifically also needs to live here (rather than as
+# validate.yml's own `default:` task) because a namespaced task's automatic
+# bare-namespace alias only ever shows up as "validate:default", which reads
+# badly in `task --list-all`; a plain root task named `validate` that deps
+# on the namespaced checks gives a clean name AND `task validate` still works.
+tasks:
+  init:
+    desc: One-time per clone. Enables the hook that blocks commits touching data/, installs/, gogh.sh, or tools/run.txt.
+    cmds:
+      - git config core.hooksPath tools/git-hooks
+      - 'echo "core.hooksPath set to tools/git-hooks -- generated-output commits are now blocked in this clone."'
+
+  default:
+    desc: List available tasks.
+    cmds:
+      - task --list-all --sort none
+
+  validate:
+    desc: Run every PR-readiness check locally (colors + format + scope).
+    deps: [validate:colors, validate:format, validate:pr]
+
+includes:
+  generate:
+    taskfile: .tasks/commands/generate.yml
+    flatten: true
+  validate:
+    taskfile: .tasks/commands/validate.yml
+  clean:
+    taskfile: .tasks/commands/clean.yml
+    flatten: true
+  help:
+    taskfile: .tasks/commands/help.yml
+    flatten: true
