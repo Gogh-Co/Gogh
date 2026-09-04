@@ -13872,7 +13872,7 @@
   hash_bg: 07ee686b3ce29f11070f5edcd6f0da03659e67becfba76650c1c6b5ac079847a
 - name: Punk
   author: Alex Bachlej (https://alexbachlej.com)
-  variant: Dark
+  variant: dark
   color_01: '#2E3436'
   color_02: '#FD3057'
   color_03: '#970230'
@@ -13896,7 +13896,7 @@
   hash_bg: 2e6e59641a0e4a6301f1409e1a0bcfb83c1b2027f3c832dc7b436d71673767a6
 - name: Punk Bg
   author: Alex Bachlej (https://alexbachlej.com)
-  variant: Dark
+  variant: dark
   color_01: '#2E3436'
   color_02: '#FD3057'
   color_03: '#970230'
@@ -18120,7 +18120,7 @@
   hash_bg: 1592b4f4c1e5927de5ea7e7acd53df1e1ba9277ae32f4c342ecd7f86e1a30bcd
 - name: Vaporwave Control Room
   author: Alex Bachlej (https://alexbachlej.com)
-  variant: Light
+  variant: light
   color_01: '#393552'
   color_02: '#B50134'
   color_03: '#70EAFF'
