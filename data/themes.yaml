@@ -10846,7 +10846,7 @@
   cursor: '#FFD300'
   hash: f30b4dbb76385f9d10c5d1f3c1bf77c7ba52e9b6a70a5415585ee3133be52184
   hash_bg: 4db257539f39cc3a3bb014a0d317800029ef2619f74938ab85ba89943628b4b8
-- name: Monokai Classic
+- name: Monokai
   author: Monokai (https://monokai.com/)
   variant: dark
   color_01: '#272822'
