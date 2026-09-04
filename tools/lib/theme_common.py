@@ -14,7 +14,7 @@ COLOR_FIELDS = [
 ]
 
 FIELD_ORDER = [
-    "name", "author", "variant",
+    "name", "author", "author_name", "author_url", "variant",
     *COLOR_FIELDS,
     "background", "foreground", "cursor",
     "hash", "hash_bg",
