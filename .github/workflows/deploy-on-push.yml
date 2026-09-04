@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+
+name: "🚀 - Deploy to GitHub Pages (push trigger)"
+
+# GitHub only evaluates workflow files from the ref that received the push
+# event, so this branch needs at least this stub present to react to a push
+# here at all. The actual build/deploy steps live once, on master, in
+# .github/workflows/gh-pages.yml (called below by reference) -- keep this
+# file thin and let that one carry the real logic.
+
+on:
+  push:
+    branches: ["main/website"]
+
+jobs:
+  deploy:
+    permissions:
+      pages: write
+      id-token: write
+    uses: Gogh-Co/Gogh/.github/workflows/gh-pages.yml@master
