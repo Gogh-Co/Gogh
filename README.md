@@ -429,13 +429,7 @@ There is no blue without yellow and without orange.
 
 ## 📣 Mentions
 
-- [VSCode Theme](https://marketplace.visualstudio.com/items?itemName=Avetis.gogh-theme)
-- [Awesome-Shell](https://github.com/alebcay/awesome-shell)
-- [Hipertextual](https://hipertextual.com/archivo/2014/11/4bit/)
-- [MuyLinux](https://www.muylinux.com/2015/06/06/ping-91)
-- [Reddit - elementaryos](https://www.reddit.com/r/elementaryos/comments/3ivnb7/how_to_change_terminals_colors/)
-- [dev.to](https://dev.to/Gogh-Co/color-scheme-for-your-terminal-1pea)
-- [Ubuntupit](https://www.ubuntupit.com/best-ubuntu-terminal-themes-and-color-schemes/)
+The full list of blogs, forums, videos and comparison sites that have mentioned Gogh now lives in [MENTIONS.md](./MENTIONS.md).
 
 <br/>
 
