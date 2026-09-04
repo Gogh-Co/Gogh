@@ -1,32 +1,76 @@
+@use '@/assets/sass/base' as *;
+
 .gogh-header {
-    display: flex;
     background-color: var(--gogh-header-background, #121f2a);
-    align-items: center;
-    justify-content: center;
     transition: background-color 0.18s ease;
+}
 
-    .gogh-header__link {
-        display: block;
-        text-decoration: none;
+.gogh-header__inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px 24px;
+    max-width: 2100px;
+    margin: 0 auto;
+    padding: 14px 12px;
+
+    @include m768 {
+        padding: 16px 12px;
     }
+}
 
-    h1 {
-        width: 500px;
-        text-align: center;
-        font-size: 1rem;
-        line-height: 1;
+.gogh-header__brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
 
-        span {
-            display: block;
-            overflow: hidden;
-            color: #fff;
-            text-indent: 100%;
-            white-space: nowrap;
-        }
+.gogh-header__brand-text {
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
 
-        img {
-            width: 100%;
-            height: auto;
-        }
+.gogh-header__logo-bar {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    overflow: hidden;
+    width: 64px;
+    height: 18px;
+    border-radius: 2px;
+}
+
+.gogh-header__logo-swatch {
+    display: block;
+}
+
+.gogh-header__nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px 20px;
+}
+
+.gogh-header__nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: color 0.18s ease;
+
+    &:hover,
+    &.router-link-active {
+        color: #ffffff;
     }
+}
+
+.gogh-header__github {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }

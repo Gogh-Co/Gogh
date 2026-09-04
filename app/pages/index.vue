@@ -4,32 +4,8 @@
     <div class="gogh-content" :style="pageContentStyle">
         <div class="container">
 
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="github-int">
-                        <a class="github-button"
-                            href="https://github.com/Gogh-Co/Gogh"
-                            data-color-scheme="no-preference: dark; light: light; dark: dark;"
-                            data-size="large"
-                            aria-label="Open Gogh-Co/Gogh on GitHub">
-                            View
-                        </a>
-                        <!-- Place this tag where you want the button to render. -->
-                        <a class="github-button"
-                            href="https://github.com/Gogh-Co/Gogh"
-                            data-color-scheme="no-preference: dark; light: light; dark: dark;"
-                            data-icon="octicon-star"
-                            data-size="large"
-                            data-show-count="true"
-                            aria-label="Star Gogh-Co/Gogh on GitHub">
-                            Star
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-12">
+            <div class="row hero-row">
+                <div class="col-md-6">
                     <h2>
                         Color scheme for your terminal
                     </h2>
@@ -37,11 +13,7 @@
                     <p>
                         Gogh is a collection of color schemes for various terminal emulators, including Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4 Terminal. These schemes are designed to make your terminal more visually appealing and improve your productivity by providing a better contrast and color differentiation.
                     </p>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-md-12">
                     <p class="install-intro">
                         <strong>Install: </strong>Just copy and paste One line command.
                     </p>
@@ -57,9 +29,7 @@
                             </button>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-md-6">
                     <div class="code-wrap">
                         <h4>Mac <span>(curl)</span></h4>
                         <div class="code-holder">
@@ -75,36 +45,10 @@
 
 
 
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
                     <div class="filters">
-                        <div class="filters__row filters__row--links">
-                            <Button
-                                to="/generator"
-                                target="_blank"
-                                extra-class="btn-bk">
-                                Generator
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Remix Icon by Remix Design - https://github.com/Remix-Design/RemixIcon/blob/master/License --><path fill="currentColor" d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zm11-3v8h-2V6.413l-7.793 7.794l-1.414-1.414L17.585 5H13V3z"/></svg>
-                            </Button>
-
-                            <Button
-                                to="/wcsg"
-                                target="_blank"
-                                extra-class="btn-bk">
-                                WCSG
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Remix Icon by Remix Design - https://github.com/Remix-Design/RemixIcon/blob/master/License --><path fill="currentColor" d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zm11-3v8h-2V6.413l-7.793 7.794l-1.414-1.414L17.585 5H13V3z"/></svg>
-                            </Button>
-
-                            <Button
-                                to="/stats"
-                                target="_blank"
-                                extra-class="btn-bk">
-                                Stats
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M3 3h2v18H3zm16 7h2v11h-2zM8 13h2v8H8zm5-5h2v13h-2z"/></svg>
-                            </Button>
-                        </div>
-
                         <div class="filters__row filters__row--filters">
                             <ButtonFilter extra-class="js-btn--filter" :active="filter === 'all'"
                                 @click="setFilter('all'); resetMenuSelected()">
@@ -266,7 +210,6 @@
 import chroma from 'chroma-js';
 import ClipboardJS from 'clipboard';
 import Prism from 'prismjs';
-import githubButtonsScript from '@/assets/static/buttons.js?raw';
 
 const title = 'Gogh - Terminal Color Schemes';
 const description = SITE_DESCRIPTION;
@@ -288,7 +231,6 @@ import PreviewTerminal from '@/components/Terminal/PreviewTerminal.vue';
 import CompactThemeCard from '@/components/Terminal/CompactThemeCard.vue';
 import Header from '@/components/Header/Header.vue';
 import ButtonFilter from '@/components/Buttons/ButtonFilter.vue';
-import Button from '@/components/Buttons/Button.vue';
 
 const getUrl = '/api/themes';
 const GITHUB_THEMES_RAW_API = 'https://api.github.com/repos/Gogh-Co/Gogh/contents/data/themes-min.json?ref=master';
@@ -301,7 +243,6 @@ const PAGE_THEME_DARK_STYLE = {
     '--site-foreground': '#e7e7e7',
     '--generator-action-background': '#e7e7e7',
     '--generator-action-foreground': '#0d1926',
-    '--site-button-fill': 'rgba(255, 255, 255, 0.08)',
     '--code-block-background': '#0d1926',
     '--code-block-foreground': '#e7e7e7',
 };
@@ -320,25 +261,6 @@ const loadMoreSentinel = ref(null);
 let loadMoreObserver = null;
 const lightboxTheme = ref(null);
 const searchQuery = ref('');
-
-function mountGithubButtons() {
-    if (typeof document === 'undefined') {
-        return;
-    }
-
-    const scriptId = 'github-buttons-inline';
-    const existingScript = document.getElementById(scriptId);
-
-    if (existingScript) {
-        return;
-    }
-
-    const script = document.createElement('script');
-    script.id = scriptId;
-    script.type = 'text/javascript';
-    script.text = githubButtonsScript;
-    document.body.appendChild(script);
-}
 
 function lightOrDark(color) {
     // Variables for red, green, blue values
@@ -649,7 +571,6 @@ themes.value = rawThemes.map((theme) => ({
 getBackgrounds();
 
 onMounted(() => {
-    mountGithubButtons();
     new ClipboardJS('.btn-copy');
 
     try {

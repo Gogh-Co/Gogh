@@ -5,6 +5,14 @@
     max-width: 2100px;
 }
 
+.hero-row {
+    align-items: center;
+
+    p {
+        padding-right: 50px;
+    }
+}
+
 .gogh-content {
     p {
         margin: 0 0 30px;
@@ -15,31 +23,6 @@
         }
     }
 }
-
-.btn-bk {
-    background-color: var(--site-button-fill, rgba(226 245 255 / 0.58));
-    position: relative;
-    padding-right: 4.2rem;
-
-    &:hover {
-        background-color: #0d1926;
-        color: #ffffff;
-    }
-
-    svg {
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        right: 11px;
-        top: 11px;
-        fill:gray;
-
-        path {
-            color: gray;
-        }
-    }
-}
-
 
 .code-wrap {
     position: relative;
@@ -92,10 +75,6 @@
 
 
 
-.github-int {
-    margin: 0 0 25px;
-    text-align: center;
-}
 
 .filters {
     margin: 0 0 40px;
@@ -111,10 +90,6 @@
         justify-content: center;
         align-items: center;
         gap: 12px;
-    }
-
-    .filters__row--links {
-        margin-bottom: 4px;
     }
 
     .filters__row--filters {
