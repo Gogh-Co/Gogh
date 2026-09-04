@@ -36,7 +36,7 @@ Run by CI: `.github/workflows/generate-on-push.yml` (push to `master`), `.github
 | File | Checks | Scope |
 |---|---|---|
 | `validate_colors.py` | every theme's hex color values are uppercase | all of `themes/*.yml` |
-| `validate_theme_format.py` | filename matches `name:` (blocking); `name:` has no underscores (blocking); foreground/background contrast ≥ 2.5:1 (**recommended**, doesn't fail the check) | only themes newly *added* vs. a base ref, or all of `themes/*.yml` with no argument |
+| `validate_theme_format.py` | filename matches `name:` (blocking); `name:` has no underscores (blocking); `variant:` is exactly `dark`/`light`/empty (blocking); foreground/background contrast ≥ 2.5:1 (**recommended**, doesn't fail the check) | only themes newly *added* vs. a base ref, or all of `themes/*.yml` with no argument |
 | `validate_pr.py` | PR title starts with `theme:`; every changed file is under `themes/` | the files passed in (a changed-files list) |
 
 Run one script: `python tools/validate/validate_colors.py`, `python tools/validate/validate_theme_format.py [base-ref]`, `python tools/validate/validate_pr.py <changed-files-list-path>`.

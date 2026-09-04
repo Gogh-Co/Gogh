@@ -2,6 +2,7 @@
 # Theme!" section that validate_colors.py doesn't cover:
 #   - the filename matches the `name:` field exactly              (blocking)
 #   - `name:` has no underscores                                  (blocking)
+#   - `variant:` is exactly 'dark' or 'light' (lowercase), or empty (blocking)
 #   - foreground/background contrast meets a legibility floor  (recommended)
 #
 # Contrast is recommended, not blocking: it's a judgment call ("is this
@@ -36,6 +37,8 @@ from lib.theme_common import contrast_ratio
 MIN_CONTRAST = 2.5  # WCAG AA for normal text is 4.5:1; this is a legibility
                      # floor, not a strict AA gate -- see tools/README.md.
 
+VALID_VARIANTS = {"dark", "light"}
+
 
 def check_filename(filepath, name):
     if filepath.stem == name:
@@ -58,6 +61,27 @@ def check_no_underscores(filepath, name):
         "rule": "no underscores",
         "problem": f"name: '{name}' contains an underscore",
         "fix": f"use a space or hyphen instead: '{name.replace('_', ' ')}'",
+    }
+
+
+def check_variant(filepath, data):
+    variant = data.get("variant")
+    if variant is None:
+        return None
+    variant = str(variant).strip()
+    if variant == "" or variant in VALID_VARIANTS:
+        return None
+    fix = (
+        f"lowercase it: variant: '{variant.lower()}'"
+        if variant.lower() in VALID_VARIANTS
+        else "set it to 'dark' or 'light' (or leave it empty)"
+    )
+    return {
+        "file": filepath.name,
+        "level": "error",
+        "rule": "variant is dark/light",
+        "problem": f"variant: '{variant}' is not exactly 'dark' or 'light'",
+        "fix": fix,
     }
 
 
@@ -85,6 +109,7 @@ def find_violations(filepaths):
         for check in (
             check_filename(filepath, name),
             check_no_underscores(filepath, name),
+            check_variant(filepath, data),
             check_contrast(filepath, data),
         ):
             if check:
@@ -145,4 +170,4 @@ if __name__ == "__main__":
         print_report(f"❌ {len(errors)} theme format violation(s)", errors, "red")
         sys.exit(1)
 
-    print("✅ Filename and underscore checks passed." + (" (see recommendations above)" if warnings else ""))
+    print("✅ Filename, underscore, and variant checks passed." + (" (see recommendations above)" if warnings else ""))

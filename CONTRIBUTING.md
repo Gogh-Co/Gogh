@@ -1,9 +1,8 @@
 # Contributing a theme
 
-This is the step-by-step workflow for adding a theme, using the `task`
-commands in this repo. For the `.yml` field-by-field reference (color
-meanings, full template), see [`README.md` → "Create your Own
-Theme!"](README.md#-create-your-own-theme).
+This is the single source of truth for adding a theme to Gogh: the
+step-by-step workflow, the `.yml` template, the field reference, and the
+rules a theme PR needs to follow.
 
 Requires [`task`](https://taskfile.dev) and [`uv`](https://docs.astral.sh/uv/)
 installed locally. Run `task help` any time for this same workflow printed
@@ -21,8 +20,46 @@ Enables a local git hook that blocks commits touching `data/`, `installs/`,
 ## 2. Create the theme file
 
 Add `themes/<Your Theme Name>.yml` (filename must match the theme's `name:`
-field). Copy an existing file in `themes/` as a starting point, or see the
-template in [`README.md`](README.md#-create-your-own-theme).
+field). Copy an existing file in `themes/` as a starting point, or use this
+template — replace the hex values with your own:
+
+```yml
+---
+name: 'Gogh'
+author: ''             # 'Author Name (http://website.com)'
+variant: ''            # dark or light (lowercase)
+
+color_01: '#292D3E'    # Black (Host)
+color_02: '#F07178'    # Red (Syntax string)
+color_03: '#62DE84'    # Green (Command)
+color_04: '#FFCB6B'    # Yellow (Command second)
+color_05: '#75A1FF'    # Blue (Path)
+color_06: '#F580FF'    # Magenta (Syntax var)
+color_07: '#60BAEC'    # Cyan (Prompt)
+color_08: '#ABB2BF'    # White
+
+color_09: '#959DCB'    # Bright Black
+color_10: '#F07178'    # Bright Red (Command error)
+color_11: '#C3E88D'    # Bright Green (Exec)
+color_12: '#FF5572'    # Bright Yellow
+color_13: '#82AAFF'    # Bright Blue (Folder)
+color_14: '#FFCB6B'    # Bright Magenta
+color_15: '#676E95'    # Bright Cyan
+color_16: '#FFFEFE'    # Bright White
+
+background: '#292D3E'  # Background
+foreground: '#BFC7D5'  # Foreground (Text)
+
+cursor: '#BFC7D5'      # Cursor
+```
+
+The 18 colors are laid out in 3 sections — regular text (`color_01`-`08`),
+bold text (`color_09`-`16`), and text/background (`foreground`/`background`/
+`cursor`) — across the 8 basic colors (black, red, green, yellow, blue,
+purple, cyan, white). This image shows how they map to what you see in a
+terminal:
+
+![Colors](https://raw.githubusercontent.com/Gogh-Co/Gogh/master/.images/gogh/colors.png)
 
 The name itself can be whatever its original author/repo called it (e.g.
 ported from mbadolato/iTerm2-Color-Schemes) — Gogh doesn't force a casing
@@ -30,6 +67,7 @@ style on it. Rules (checked automatically by `task validate`, see step 4):
 
 - Filename matches `name:` exactly (e.g. `Solarized Dark.yml` ↔ `name: 'Solarized Dark'`) — **required**.
 - No underscores (`_`) in the name — use a space or hyphen instead — **required**.
+- `variant:` is exactly `dark` or `light`, lowercase (or empty) — **required**.
 - Foreground/background contrast of at least 2.5:1 — **recommended**, won't block your PR if you skip it.
 - All 16 ANSI colors, plus `background`, `foreground`, `cursor`.
 - Every hex value **uppercase** (`#FF0000`, not `#ff0000`) — **required**.
@@ -60,9 +98,10 @@ task validate
 ```
 
 Runs the same checks CI runs on your PR: colors uppercase, filename matches
-`name:`, no underscores in `name:` (these three block), a foreground/
-background contrast recommendation (doesn't block), and that only
-`themes/` was touched. Add your real title to also check that:
+`name:`, no underscores in `name:`, `variant:` is `dark`/`light`/empty
+(these block), a foreground/background contrast recommendation (doesn't
+block), and that only `themes/` was touched. Add your real title to also
+check that:
 
 ```bash
 task validate TITLE="theme: Add Your Theme Name"
@@ -71,7 +110,14 @@ task validate TITLE="theme: Add Your Theme Name"
 ## 5. Open the PR
 
 - **Title**: starts with `theme:`, e.g. `theme: Add Solarized Midnight`.
-- **Scope**: only `themes/<Your Theme Name>.yml` — nothing else.
+- **Scope**: only add or edit files under `themes/` — no changes anywhere
+  else in the repo (`data/`, `tools/`, `installs/`, `gogh.sh`, etc. are all
+  generated automatically by CI once your PR is merged, so you don't need
+  to touch them).
+- **Filename, no underscores, variant**: as in step 2 (only checked for a
+  newly added theme, not one you're just editing).
+- **Contrast**: as in step 2, but recommended only — it's reported, not required.
+- **Colors**: every hex value uppercase, as in step 2.
 
 CI regenerates `data/`, `installs/`, `gogh.sh`, etc. automatically once a
 maintainer merges it.

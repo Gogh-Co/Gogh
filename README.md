@@ -49,7 +49,7 @@ If you want to buy me a coffee voluntarily, you can use this link.
 - [Terminal Support](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-terminals)
 - [Available Themes](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-themes)
 - [Help](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-help)
-- [Create your Own Theme!](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-how-to-create-your-own-theme)
+- [Create your Own Theme!](CONTRIBUTING.md)
 - [As Command line](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-as-command-line)
 - [Accessibility ~ WCAG](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-accessibility---wcag)
 - [First commit](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-first-commit)
@@ -336,92 +336,10 @@ source .bashrc
 
 ## 🖼️ Create your Own Theme!
 
-Good news! Now, creating themes are easier than ever.
-
-All you need to do is to create a YAML format file, following the example of the other files in the `themes` folder.
-
-Some rules to keep in mind (checked automatically by CI, see below — or run `task validate` locally, see [`CONTRIBUTING.md`](CONTRIBUTING.md)):
-
-- The file name should match the name of the theme. For example:
-  - **Filename**: `Solarized Dark.yml`
-  - **Inside the .yml file**: `name: 'Solarized Dark'`
-- The name itself is free-form — Gogh accepts theme names as given by their original author/repo (including names ported from mbadolato/iTerm2-Color-Schemes), no forced casing style. The one thing to avoid is underscores (`_`); use a space or hyphen instead.
-- Ensure that the contrast is sufficient for good legibility (foreground/background ratio of at least 2.5:1) — **recommended**, this one alone won't fail your PR.
-- All hex color values must be **uppercase** (`#FF0000`, not `#ff0000`).
-
-### Pull Request checklist
-
-Theme PRs are checked automatically by CI (`✅ - Validate PR`) whenever they touch `themes/**` — or `data/`, `installs/`, `gogh.sh`, `tools/run.txt` directly, which also fails the check below. To pass:
-
-- **Title**: start it with `theme:`, e.g. `theme: Add Solarized Midnight`.
-- **Scope**: only add or edit files under `themes/` — no changes anywhere else in the repo (`data/`, `tools/`, `installs/`, `gogh.sh`, etc. are all generated automatically by CI once your PR is merged, so you don't need to touch them).
-- **Filename, no underscores**: as above (only checked for a newly added theme, not one you're just editing).
-- **Contrast**: as above, but recommended only — it's reported, not required.
-- **Colors**: every hex value uppercase, as above.
-
-***Now, you can send your Pull Request***
-**Thank you for collaborating!**
-
-### Theme ".yml" template
-
-If you indeed use this, replace the HEX values with your own ones.
-
-```yml
----
-name: 'Gogh'
-author: ''             # 'Author Name (http://website.com)'
-variant: ''            # Dark or Light
-
-color_01: '#292D3E'    # Black (Host)
-color_02: '#F07178'    # Red (Syntax string)
-color_03: '#62DE84'    # Green (Command)
-color_04: '#FFCB6B'    # Yellow (Command second)
-color_05: '#75A1FF'    # Blue (Path)
-color_06: '#F580FF'    # Magenta (Syntax var)
-color_07: '#60BAEC'    # Cyan (Prompt)
-color_08: '#ABB2BF'    # White
-
-color_09: '#959DCB'    # Bright Black
-color_10: '#F07178'    # Bright Red (Command error)
-color_11: '#C3E88D'    # Bright Green (Exec)
-color_12: '#FF5572'    # Bright Yellow
-color_13: '#82AAFF'    # Bright Blue (Folder)
-color_14: '#FFCB6B'    # Bright Magenta
-color_15: '#676E95'    # Bright Cyan
-color_16: '#FFFEFE'    # Bright White
-
-background: '#292D3E'  # Background
-foreground: '#BFC7D5'  # Foreground (Text)
-
-cursor: '#BFC7D5'      # Cursor
-```
-
-### Explanation of colors and variables
-
-The colors of the terminal are composed of 18 colors in 3 sections.
-
-Section 1: Regular text.
-
-Section 2: Bold text.
-
-Section 3: text and background.
-
-The basic colors are 8:
-
-- Black
-- Red
-- Green
-- Yellow
-- Blue
-- Purple
-- Cyan
-- White
-
-In comments variables is that of the console belongs each color.
-
-Here is a picture that explains a little better as colors are distributed.
-
-![Colors](https://raw.githubusercontent.com/Gogh-Co/Gogh/master/.images/gogh/colors.png)
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) — the single source of truth for
+adding a theme: the `.yml` template, the field-by-field reference, the
+rules a theme PR needs to follow, and how to check it locally with
+`task validate` before opening the PR.
 
 <br>
 
