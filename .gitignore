@@ -4,9 +4,12 @@
 .data
 .nuxt
 .nuxt/
-.nitro
-.cache
-dist
+.nitro/
+.cache/
+.agents/
+.claude/
+
+dist/
 
 # Node dependencies
 node_modules

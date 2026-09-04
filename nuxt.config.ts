@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     port: devPort,
   },
   app: {
-    baseURL: '/Gogh/',
+    baseURL: '/',
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
