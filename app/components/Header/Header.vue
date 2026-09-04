@@ -26,6 +26,9 @@
                 <NuxtLink to="/wallpapers" class="gogh-header__nav-link">
                     Wallpapers
                 </NuxtLink>
+                <NuxtLink to="/terminals" class="gogh-header__nav-link">
+                    Terminals
+                </NuxtLink>
 
                 <div class="gogh-header__github">
                     <a class="github-button"

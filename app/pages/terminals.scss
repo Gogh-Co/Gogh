@@ -1,0 +1,75 @@
+@use '@/assets/sass/base' as *;
+
+.terminals-container {
+    max-width: 2100px;
+}
+
+.gogh-content.terminals-page h2 {
+    text-align: center;
+}
+
+.terminals-grid {
+    margin-top: 20px;
+}
+
+.terminal-card {
+    margin: 0 0 24px;
+    overflow: hidden;
+    border: 1px solid #cfd6dc;
+    background: #ffffff;
+}
+
+.terminal-card__frame {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    background: #f5f2f0;
+    overflow: hidden;
+}
+
+.terminal-card__image {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.terminal-card__placeholder {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    background: #0d1926;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.terminal-card__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 14px 16px;
+}
+
+.terminal-card__name {
+    overflow: hidden;
+    color: #0d1926;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.terminal-card__link {
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 0.6rem 1.6rem;
+    font-size: 1.2rem;
+}

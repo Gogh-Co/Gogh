@@ -3,23 +3,30 @@
     <Header />
 
     <div class="gogh-content wcsg-page">
-        <div class="container-fluid">
+        <div class="container-fluid wcsg-container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>
+                        WCAG Color Data
+                    </h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 wcsg-download-row">
+                    <a
+                        class="btn wcsg-download-link"
+                        href="https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/wcag-min.json"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Download Data
+                    </a>
+                </div>
+            </div>
+
             <div class="row">
                 <div class="col">
-                    <div class="wcsg-title-row d-flex align-items-center justify-content-center">
-                        <h2>
-                            WCAG Color Data
-                        </h2>
-                        <a
-                            class="wcsg-download-link"
-                            href="https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/wcag-min.json"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            download data
-                        </a>
-                    </div>
-
                     <div class="filters">
                         <ButtonFilter :active="filter === 'all'" @click="setFilter('all'); resetMenuSelected()">
                             All
@@ -61,20 +68,6 @@
                         </div>
                     </div>
 
-                    <Transition name="bg-filter">
-                        <div v-if="filterBackgroundVisible" class="filter-background-wrap">
-                            <div class="filter-background">
-                                <template v-for="item in themeBackgrounds" :key="item">
-                                    <button class="btn btn--filter-bg" :class="{ active: filter === item.toLowerCase() }"
-                                        :style="'background-color:' + item"
-                                        @click="setFilter(item); toggleFilterBackground(false);">
-                                        <span>{{ item.toLowerCase() }}</span>
-                                    </button>
-                                </template>
-                            </div>
-                        </div>
-                    </Transition>
-
                     <div v-if="loading">
                         Loading data...
                     </div>
@@ -93,11 +86,44 @@
                 </template>
             </div>
         </div>
+
+        <div
+            v-if="filterBackgroundVisible"
+            class="background-lightbox"
+            @click.self="toggleFilterBackground(false)"
+        >
+            <button
+                type="button"
+                class="background-lightbox__close"
+                aria-label="Close background filter"
+                @click="toggleFilterBackground(false)"
+            >
+                &times;
+            </button>
+
+            <div class="background-lightbox__content">
+                <h3 class="background-lightbox__title">Filter by background color</h3>
+
+                <div class="background-lightbox__grid">
+                    <template v-for="item in themeBackgrounds" :key="item">
+                        <button
+                            type="button"
+                            class="background-lightbox__swatch"
+                            :class="{ active: filter === item.toLowerCase() }"
+                            :style="'background-color:' + item"
+                            @click="setFilter(item); toggleFilterBackground(false);"
+                        >
+                            <span>{{ item.toLowerCase() }}</span>
+                        </button>
+                    </template>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 import axios from 'axios'
 import Header from '@/components/Header/Header.vue'
 import WcsgThemeCard from '@/components/Wcsg/WcsgThemeCard.vue'
@@ -205,6 +231,12 @@ function clearSearchQuery() {
     searchQuery.value = ''
 }
 
+function onWindowKeydown(event) {
+    if (event.key === 'Escape' && filterBackgroundVisible.value) {
+        toggleFilterBackground(false)
+    }
+}
+
 const themedData = computed(() => data.value.map((theme) => ({
     ...theme,
     background: normalizeHexColor(theme.background),
@@ -254,6 +286,12 @@ onMounted(() => {
         .finally(() => {
             loading.value = false
         })
+
+  window.addEventListener('keydown', onWindowKeydown)
+})
+
+onUnmounted(() => {
+    window.removeEventListener('keydown', onWindowKeydown)
 })
 
 </script>

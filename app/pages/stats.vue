@@ -46,15 +46,22 @@
                     <span>Total themes: <strong>{{ totalThemes }}</strong></span>
                 </div>
 
+                <p class="stats-duplicates-note">
+                    Duplicate groups &mdash;
+                    Name: <strong>{{ duplicateNames.length }}</strong>,
+                    Hash: <strong>{{ duplicateHashes.length }}</strong>,
+                    Background: <strong>{{ duplicateBackgrounds.length }}</strong>
+                </p>
+
                 <div class="row stats-summary-row">
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-md-6">
                         <div class="stats-card summary-card h-100">
                             <h3>Total themes</h3>
                             <p class="stats-value">{{ totalThemes }}</p>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-md-6">
                         <div class="stats-card summary-card h-100">
                             <h3>Author coverage</h3>
                             <ul class="summary-list">
@@ -65,30 +72,6 @@
                                 <li>
                                     <span>Missing author</span>
                                     <strong class="summary-number">{{ authorCounts.missing }}</strong>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="stats-card summary-card h-100">
-                            <h3>Name duplicates</h3>
-                            <ul class="summary-list">
-                                <li>
-                                    <span>Duplicate groups</span>
-                                    <strong class="summary-number">{{ duplicateNames.length }}</strong>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="stats-card summary-card h-100">
-                            <h3>Hash duplicates</h3>
-                            <ul class="summary-list">
-                                <li>
-                                    <span>Duplicate groups</span>
-                                    <strong class="summary-number">{{ duplicateHashes.length }}</strong>
                                 </li>
                             </ul>
                         </div>
@@ -196,17 +179,19 @@
 
                     <div class="col-lg-4">
                         <div class="stats-card">
-                            <h3>Top palette colors (01..16)</h3>
+                            <h3>Most common color by slot</h3>
                             <table class="stats-table">
                                 <thead>
                                     <tr>
+                                        <th>Slot</th>
                                         <th>Color</th>
                                         <th>Hex</th>
                                         <th>Count</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr v-for="entry in topPaletteColors" :key="entry.value">
+                                    <tr v-for="entry in topColorBySlot" :key="entry.key">
+                                        <td>{{ entry.name }}</td>
                                         <td><span class="color-swatch" :style="{ backgroundColor: entry.value }"></span></td>
                                         <td>{{ entry.value }}</td>
                                         <td>{{ entry.count }}</td>
@@ -770,13 +755,44 @@ const authorCounts = computed(() => {
 
 const duplicateNames = computed(() => duplicateEntriesBy(themes.value, (theme) => theme.name));
 const duplicateHashes = computed(() => duplicateEntriesBy(themes.value, (theme) => theme.hash));
+const duplicateBackgrounds = computed(() => duplicateEntriesBy(themes.value, (theme) => theme.background));
 
 const duplicateNameValues = computed(() => new Set(duplicateNames.value.map((entry) => entry.value)));
 const duplicateHashValues = computed(() => new Set(duplicateHashes.value.map((entry) => entry.value)));
+const duplicateBackgroundValues = computed(() => new Set(duplicateBackgrounds.value.map((entry) => entry.value)));
 
 const topBackgroundColors = computed(() => topColorsBy(themes.value, ['background']));
 const topForegroundColors = computed(() => topColorsBy(themes.value, ['foreground']));
-const topPaletteColors = computed(() => topColorsBy(themes.value, COLOR_KEYS));
+
+const ANSI_COLOR_NAMES = {
+    color_01: 'Black',
+    color_02: 'Red',
+    color_03: 'Green',
+    color_04: 'Yellow',
+    color_05: 'Blue',
+    color_06: 'Magenta',
+    color_07: 'Cyan',
+    color_08: 'White',
+    color_09: 'Bright Black',
+    color_10: 'Bright Red',
+    color_11: 'Bright Green',
+    color_12: 'Bright Yellow',
+    color_13: 'Bright Blue',
+    color_14: 'Bright Magenta',
+    color_15: 'Bright Cyan',
+    color_16: 'Bright White',
+};
+
+const topColorBySlot = computed(() => COLOR_KEYS.map((key) => {
+    const top = topColorsBy(themes.value, [key], 1)[0];
+
+    return {
+        key,
+        name: ANSI_COLOR_NAMES[key],
+        value: top?.value || '',
+        count: top?.count || 0,
+    };
+}));
 const allColorUsage = computed(() => {
     const usageMap = new Map();
 
@@ -853,8 +869,9 @@ const filteredThemes = computed(() => {
             if (duplicatesFilter.value === 'duplicates') {
                 const isDuplicateName = duplicateNameValues.value.has(theme.name);
                 const isDuplicateHash = duplicateHashValues.value.has(theme.hash);
+                const isDuplicateBackground = duplicateBackgroundValues.value.has(theme.background);
 
-                if (!isDuplicateName && !isDuplicateHash) {
+                if (!isDuplicateName && !isDuplicateHash && !isDuplicateBackground) {
                     return false;
                 }
             }
