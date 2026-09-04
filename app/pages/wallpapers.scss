@@ -1,0 +1,189 @@
+@use '@/assets/sass/base' as *;
+
+.wallpapers-container {
+    max-width: 2100px;
+}
+
+.gogh-content.wallpapers-page h2 {
+    text-align: center;
+}
+
+.wallpapers-grid {
+    margin-top: 20px;
+}
+
+.wallpaper-card {
+    margin: 0 0 24px;
+    overflow: hidden;
+    border: 1px solid #cfd6dc;
+    background: #ffffff;
+}
+
+.wallpaper-card__image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1672 / 941;
+    object-fit: cover;
+    cursor: zoom-in;
+    transition: opacity 0.18s ease;
+
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+.wallpaper-card__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 14px 16px;
+}
+
+.wallpaper-card__meta {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+}
+
+.wallpaper-card__name {
+    overflow: hidden;
+    color: #0d1926;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.wallpaper-card__info {
+    color: #7e868c;
+    font-size: 1.1rem;
+}
+
+.wallpaper-card__download {
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 0.6rem 1.6rem;
+    font-size: 1.2rem;
+}
+
+.wallpaper-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background-color: rgba(5, 8, 12, 0.94);
+    animation: wallpaper-lightbox-backdrop-in 0.2s ease forwards;
+}
+
+.wallpaper-lightbox__content {
+    width: min(1200px, 100%);
+    max-height: 100%;
+    overflow: auto;
+    animation: wallpaper-lightbox-content-in 0.28s ease forwards;
+}
+
+.wallpaper-lightbox__image {
+    display: block;
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 4px 20px rgba(27, 27, 27, 0.95);
+}
+
+.wallpaper-lightbox__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.wallpaper-lightbox__footer .wallpaper-card__name {
+    color: #ffffff;
+}
+
+.wallpaper-lightbox__footer .wallpaper-card__info {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.wallpaper-lightbox__footer .wallpaper-card__download {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.wallpaper-lightbox__footer .wallpaper-card__download:hover {
+    background-color: #ffffff;
+    color: #0d1926;
+}
+
+.wallpaper-lightbox__close {
+    position: absolute;
+    top: 14px;
+    right: 18px;
+    border: 0;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    width: 44px;
+    height: 44px;
+    font-size: 30px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.wallpaper-lightbox__close:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.wallpaper-lightbox__arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    width: 52px;
+    height: 52px;
+    font-size: 36px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.wallpaper-lightbox__arrow:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.wallpaper-lightbox__arrow--prev {
+    left: 18px;
+}
+
+.wallpaper-lightbox__arrow--next {
+    right: 18px;
+}
+
+@keyframes wallpaper-lightbox-backdrop-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes wallpaper-lightbox-content-in {
+    from {
+        opacity: 0;
+        transform: scale(0.94) translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}

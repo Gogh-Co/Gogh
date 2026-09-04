@@ -1,5 +1,5 @@
 <template>
-    <Header :background-color="siteBackgroundColor" />
+    <Header />
 
     <div
         class="gogh-content"

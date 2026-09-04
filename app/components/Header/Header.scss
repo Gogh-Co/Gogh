@@ -1,8 +1,7 @@
 @use '@/assets/sass/base' as *;
 
 .gogh-header {
-    background-color: var(--gogh-header-background, #121f2a);
-    transition: background-color 0.18s ease;
+    background-color: #121f2a;
 }
 
 .gogh-header__inner {

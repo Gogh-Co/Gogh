@@ -1,5 +1,5 @@
 <template>
-    <header class="gogh-header" :style="{ '--gogh-header-background': props.backgroundColor }">
+    <header class="gogh-header">
         <div class="gogh-header__inner">
             <NuxtLink to="/" class="gogh-header__brand" aria-label="Gogh home">
                 <span class="gogh-header__brand-text">Gogh</span>
@@ -22,6 +22,9 @@
                 </NuxtLink>
                 <NuxtLink to="/stats" class="gogh-header__nav-link">
                     Stats
+                </NuxtLink>
+                <NuxtLink to="/wallpapers" class="gogh-header__nav-link">
+                    Wallpapers
                 </NuxtLink>
 
                 <div class="gogh-header__github">
@@ -50,13 +53,6 @@
 <script setup>
 import githubButtonsScript from '@/assets/static/buttons.js?raw';
 
-const props = defineProps({
-  backgroundColor: {
-    type: String,
-    default: '#121f2a',
-  },
-});
-
 const logoBarColors = [
     '#243342', '#C54133', '#27AE60', '#EDB20A', '#2479D0', '#7D3EA0', '#1D8579', '#C9CCCD',
     '#34495E', '#E74C3C', '#2ECC71', '#F1C40F', '#3498DB', '#9B59B6', '#2AA198', '#ECF0F1',
@@ -67,11 +63,17 @@ function mountGithubButtons() {
         return;
     }
 
+    // The buttons.js library only scans the DOM for `.github-button`
+    // anchors once, when its script executes. Header re-mounts fresh
+    // anchors on every client-side navigation (it lives in each page,
+    // not app.vue), so the old script must be removed and re-injected
+    // each time to force a re-scan — otherwise the new anchors are
+    // left untransformed.
     const scriptId = 'github-buttons-inline';
     const existingScript = document.getElementById(scriptId);
 
     if (existingScript) {
-        return;
+        existingScript.remove();
     }
 
     const script = document.createElement('script');
