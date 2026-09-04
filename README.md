@@ -3,7 +3,7 @@
 </h1>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Gogh-Co/Gogh/master/.images/gogh/Gogh-logo-dark.png" alt="Gogh" width="100%">
+  <img src=".images/intro.gif" alt="Gogh" width="80%">
 </div>
 
 <br>
