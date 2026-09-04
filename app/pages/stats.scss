@@ -107,7 +107,19 @@
         background: #f8ebeb;
     }
 
-    .stats-status--loading {
+    .stats-loading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .stats-loading__text {
+        margin: 0;
+        color: #595647;
         font-size: 1.9rem;
         font-weight: 700;
     }

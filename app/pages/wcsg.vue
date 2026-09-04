@@ -68,8 +68,19 @@
                         </div>
                     </div>
 
-                    <div v-if="loading">
-                        Loading data...
+                    <div v-if="loading" class="wcsg-loading" role="status" aria-live="polite">
+                        <div class="gogh-banner-anim" aria-hidden="true">
+                            <span class="gogh-banner-anim__color gogh-banner-anim__color--01"></span>
+                            <span class="gogh-banner-anim__color gogh-banner-anim__color--02"></span>
+                            <span class="gogh-banner-anim__color gogh-banner-anim__color--03"></span>
+                            <span class="gogh-banner-anim__color gogh-banner-anim__color--04"></span>
+                            <span class="gogh-banner-anim__color gogh-banner-anim__color--05"></span>
+                            <span class="gogh-banner-anim__color gogh-banner-anim__color--06"></span>
+                            <span class="gogh-banner-anim__color gogh-banner-anim__color--07"></span>
+                            <span class="gogh-banner-anim__color gogh-banner-anim__color--08"></span>
+                            <span class="gogh-banner-anim__shine"></span>
+                        </div>
+                        <p class="wcsg-loading__text">Loading WCAG data...</p>
                     </div>
 
                     <div v-else-if="errorMessage" class="wcsg-error">
