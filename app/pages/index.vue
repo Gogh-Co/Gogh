@@ -175,9 +175,8 @@
 
         <div class="container-fluid">
             <div class="row ">
-                <template v-for="theme in themes">
-                    <div class="col-12 col-md-6  col-xl-4"
-                        v-show="(filter === theme.category || filter === 'all' || filter === 'background' || filter === theme.background.toLowerCase()) && matchesThemeSearch(theme)">
+                <template v-for="theme in visibleThemes" :key="getThemeName(theme) || theme.background + theme.foreground">
+                    <div class="col-12 col-md-6  col-xl-4">
                         <div
                             class="terminal-preview"
                             role="button"
@@ -191,6 +190,8 @@
                     </div>
                 </template>
             </div>
+
+            <div ref="loadMoreSentinel" class="load-more-sentinel" aria-hidden="true"></div>
         </div>
 
         <div
@@ -236,7 +237,7 @@ import Prism from 'prismjs';
 import githubButtonsScript from '@/assets/static/buttons.js?raw';
 
 const title = 'Gogh - Terminal Color Schemes';
-const description = 'Gogh is a collection of hundreds of color schemes for terminal emulators like GNOME Terminal, iTerm2, Tilix, and more. Install any theme with a single command.';
+const description = SITE_DESCRIPTION;
 
 useSeoMeta({
     title,
@@ -257,6 +258,7 @@ import ButtonFilter from '@/components/Buttons/ButtonFilter.vue';
 import Button from '@/components/Buttons/Button.vue';
 
 const getUrl = '/api/themes';
+const THEMES_PAGE_SIZE = 60;
 
 const themes = ref([]);
 const filter = ref('all');
@@ -264,6 +266,9 @@ const themeBackgrounds = ref([]);
 const selected = ref(null);
 const filterBackgroundVisible = ref(false);
 const lightboxVisible = ref(false);
+const visibleCount = ref(THEMES_PAGE_SIZE);
+const loadMoreSentinel = ref(null);
+let loadMoreObserver = null;
 const lightboxTheme = ref(null);
 const searchQuery = ref('');
 
@@ -527,6 +532,17 @@ function matchesThemeSearch(theme) {
     return getThemeName(theme).toLowerCase().includes(normalizedSearch);
 }
 
+function themeMatchesFilter(theme) {
+    return (filter.value === theme.category || filter.value === 'all' || filter.value === 'background' || filter.value === theme.background.toLowerCase()) && matchesThemeSearch(theme);
+}
+
+const filteredThemes = computed(() => themes.value.filter(themeMatchesFilter));
+const visibleThemes = computed(() => filteredThemes.value.slice(0, visibleCount.value));
+
+watch([filter, searchQuery], () => {
+    visibleCount.value = THEMES_PAGE_SIZE;
+});
+
 const { data: themesData } = await useAsyncData('themes', () => fetchData(), {
     default: () => [],
 });
@@ -556,10 +572,20 @@ onMounted(() => {
 
     getBackgrounds();
     window.addEventListener('keydown', onWindowKeydown);
+
+    if (loadMoreSentinel.value && typeof IntersectionObserver !== 'undefined') {
+        loadMoreObserver = new IntersectionObserver((entries) => {
+            if (entries.some((entry) => entry.isIntersecting) && visibleCount.value < filteredThemes.value.length) {
+                visibleCount.value = Math.min(visibleCount.value + THEMES_PAGE_SIZE, filteredThemes.value.length);
+            }
+        });
+        loadMoreObserver.observe(loadMoreSentinel.value);
+    }
 });
 
 onUnmounted(() => {
     window.removeEventListener('keydown', onWindowKeydown);
+    loadMoreObserver?.disconnect();
 });
 </script>
 

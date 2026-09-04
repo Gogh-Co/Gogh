@@ -5,6 +5,7 @@
         :class="[{ active }, extraClass]"
         :to="to"
         :target="target || undefined"
+        :rel="target === '_blank' ? 'noopener noreferrer' : undefined"
     >
         <slot />
     </NuxtLink>

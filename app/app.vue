@@ -38,6 +38,18 @@ useHead({
         { name: 'msapplication-TileImage', content: withBase('favicons/ms-icon-144x144.png') },
         { name: 'theme-color', content: '#ffffff' },
     ],
+    script: [
+        {
+            type: 'application/ld+json',
+            innerHTML: JSON.stringify({
+                '@context': 'https://schema.org',
+                '@type': 'WebSite',
+                name: SITE_NAME,
+                url: SITE_URL,
+                description: SITE_DESCRIPTION,
+            }),
+        },
+    ],
 });
 
 useSeoMeta({
