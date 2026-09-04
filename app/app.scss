@@ -19,16 +19,20 @@
 * ·······  Content
 * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
-.gogh-content {
+// Doubled selector: each page's own scoped SCSS re-imports _base.scss too
+// (Sass @use duplicates its rules per compilation unit), so its bare `p`/`body`
+// resets get re-emitted with [data-v-xxx] scoping at the same specificity as
+// a plain `.gogh-content p` here, and can win on load order alone.
+.gogh-content.gogh-content {
     padding: 33px 0;
     min-height: 200vh;
     background-color: var(--site-background, #e7e7e7);
-    color: #595647;
-    transition: background-color 0.18s ease;
+    color: var(--site-foreground, #595647);
+    transition: background-color 0.18s ease, color 0.18s ease;
 
     h2 {
         margin: 0 0 25px;
-        color: #595647;
+        color: var(--site-foreground, #595647);
         text-align: center;
         font-weight: 700;
         font-size: 2.0rem;
@@ -65,7 +69,7 @@
 
     p {
         margin: 0 0 30px;
-        color: #595647;
+        color: var(--site-foreground, #595647);
         font-size: 1.2rem;
         line-height: 1.4;
 

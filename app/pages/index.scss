@@ -17,7 +17,7 @@
 }
 
 .btn-bk {
-    background-color: rgba(226 245 255 / 0.58);
+    background-color: var(--site-button-fill, rgba(226 245 255 / 0.58));
     position: relative;
     padding-right: 4.2rem;
 
@@ -48,6 +48,13 @@
     .code-holder {
         position: relative;
 
+        pre[class*="language-"],
+        code[class*="language-"] {
+            background: var(--code-block-background, #f5f2f0);
+            color: var(--code-block-foreground, black);
+            transition: background-color 0.18s ease, color 0.18s ease;
+        }
+
         .btn-copy {
             position: absolute;
             right: 0;
@@ -55,7 +62,7 @@
             display: inline-flex;
             padding: 5px 10px;
             height: 50px;
-            background-color: #F5F2F0;
+            background-color: var(--code-block-background, #F5F2F0);
             border: 0;
             cursor: pointer;
             transition: all 0.3s ease;
@@ -112,6 +119,31 @@
 
     .filters__row--filters {
         gap: 20px;
+    }
+
+    .view-toggle {
+        display: flex;
+        gap: 8px;
+    }
+
+    .page-theme-toggle {
+        display: inline-flex;
+        flex: 0 0 auto;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        padding: 0;
+        border: 1px solid var(--site-foreground, #0d1926);
+        background: transparent;
+        color: var(--site-foreground, #0d1926);
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+            background-color: var(--site-foreground, #0d1926);
+            color: var(--site-background, #e7e7e7);
+        }
     }
 
     @include m650 {

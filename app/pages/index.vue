@@ -1,7 +1,7 @@
 <template>
     <Header />
 
-    <div class="gogh-content">
+    <div class="gogh-content" :style="pageContentStyle">
         <div class="container">
 
             <div class="row">
@@ -127,6 +127,27 @@
                                 by Background
                             </ButtonFilter>
 
+                            <div class="view-toggle" role="group" aria-label="Gallery view">
+                                <ButtonFilter :active="viewMode === 'compact'" @click="setViewMode('compact')">
+                                    Compact
+                                </ButtonFilter>
+
+                                <ButtonFilter :active="viewMode === 'detailed'" @click="setViewMode('detailed')">
+                                    Detailed
+                                </ButtonFilter>
+                            </div>
+
+                            <button
+                                type="button"
+                                class="page-theme-toggle"
+                                :aria-label="pageTheme === 'dark' ? 'Switch page to light background' : 'Switch page to dark background'"
+                                :aria-pressed="pageTheme === 'dark'"
+                                @click="togglePageTheme"
+                            >
+                                <svg v-if="pageTheme === 'dark'" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M12 7a5 5 0 1 0 0 10a5 5 0 0 0 0-10m0-5a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1m0 18a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1M3 11a1 1 0 0 1 0 2H2a1 1 0 1 1 0-2zm19 0a1 1 0 0 1 0 2h-1a1 1 0 1 1 0-2zM4.929 4.929a1 1 0 0 1 1.414 0l.707.707A1 1 0 1 1 5.636 7.05l-.707-.707a1 1 0 0 1 0-1.414m12.02 12.02a1 1 0 0 1 1.415 0l.707.707a1 1 0 1 1-1.414 1.414l-.707-.707a1 1 0 0 1 0-1.414M19.071 4.929a1 1 0 0 1 0 1.414l-.707.707a1 1 0 1 1-1.414-1.414l.707-.707a1 1 0 0 1 1.414 0M7.05 16.95a1 1 0 0 1 0 1.414l-.707.707a1 1 0 0 1-1.414-1.414l.707-.707a1 1 0 0 1 1.414 0"/></svg>
+                                <svg v-else xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.822 2.238a.75.75 0 0 1 .174.808a7.5 7.5 0 0 0 9.958 9.958a.75.75 0 0 1 .982.982A9.001 9.001 0 0 1 12 21a9 9 0 0 1-2.834-17.539a.75.75 0 0 1 .656.777"/></svg>
+                            </button>
+
                             <div class="theme-search" role="search">
                                 <button
                                     v-if="searchQuery"
@@ -186,7 +207,7 @@
         <div class="container-fluid">
             <div class="row ">
                 <template v-for="theme in visibleThemes" :key="getThemeName(theme) || theme.background + theme.foreground">
-                    <div class="col-12 col-md-6  col-xl-4">
+                    <div :class="viewMode === 'compact' ? 'col-6 col-md-4 col-lg-3 col-xl-2' : 'col-12 col-md-6  col-xl-4'">
                         <div
                             class="terminal-preview"
                             role="button"
@@ -195,7 +216,8 @@
                             @keydown.enter.prevent="openThemeLightbox(theme)"
                             @keydown.space.prevent="openThemeLightbox(theme)"
                         >
-                            <PreviewTerminal :theme="theme" />
+                            <CompactThemeCard v-if="viewMode === 'compact'" :theme="theme" />
+                            <PreviewTerminal v-else :theme="theme" />
                         </div>
                     </div>
                 </template>
@@ -263,6 +285,7 @@ useHead({
 });
 
 import PreviewTerminal from '@/components/Terminal/PreviewTerminal.vue';
+import CompactThemeCard from '@/components/Terminal/CompactThemeCard.vue';
 import Header from '@/components/Header/Header.vue';
 import ButtonFilter from '@/components/Buttons/ButtonFilter.vue';
 import Button from '@/components/Buttons/Button.vue';
@@ -271,9 +294,23 @@ const getUrl = '/api/themes';
 const GITHUB_THEMES_RAW_API = 'https://api.github.com/repos/Gogh-Co/Gogh/contents/data/themes-min.json?ref=master';
 const THEMES_PAGE_SIZE = 60;
 
+const VIEW_MODE_STORAGE_KEY = 'gogh-gallery-view-mode';
+const PAGE_THEME_STORAGE_KEY = 'gogh-page-theme';
+const PAGE_THEME_DARK_STYLE = {
+    '--site-background': '#121F2A',
+    '--site-foreground': '#e7e7e7',
+    '--generator-action-background': '#e7e7e7',
+    '--generator-action-foreground': '#0d1926',
+    '--site-button-fill': 'rgba(255, 255, 255, 0.08)',
+    '--code-block-background': '#0d1926',
+    '--code-block-foreground': '#e7e7e7',
+};
+
 const themes = ref([]);
 const themesError = ref('');
 const filter = ref('all');
+const viewMode = ref('compact');
+const pageTheme = ref('light');
 const themeBackgrounds = ref([]);
 const selected = ref(null);
 const filterBackgroundVisible = ref(false);
@@ -443,6 +480,32 @@ function setBackground() {
     filter.value = 'background';
 }
 
+function setViewMode(mode) {
+    viewMode.value = mode;
+
+    try {
+        localStorage.setItem(VIEW_MODE_STORAGE_KEY, mode);
+    } catch {
+        // Ignore storage failures (private browsing, disabled storage, etc.).
+    }
+}
+
+function setPageTheme(mode) {
+    pageTheme.value = mode;
+
+    try {
+        localStorage.setItem(PAGE_THEME_STORAGE_KEY, mode);
+    } catch {
+        // Ignore storage failures (private browsing, disabled storage, etc.).
+    }
+}
+
+function togglePageTheme() {
+    setPageTheme(pageTheme.value === 'dark' ? 'light' : 'dark');
+}
+
+const pageContentStyle = computed(() => (pageTheme.value === 'dark' ? PAGE_THEME_DARK_STYLE : undefined));
+
 function getBackgrounds() {
     if (!Array.isArray(themes.value) || themes.value.length === 0) {
         themeBackgrounds.value = [];
@@ -588,6 +651,24 @@ getBackgrounds();
 onMounted(() => {
     mountGithubButtons();
     new ClipboardJS('.btn-copy');
+
+    try {
+        const savedViewMode = localStorage.getItem(VIEW_MODE_STORAGE_KEY);
+        if (savedViewMode === 'compact' || savedViewMode === 'detailed') {
+            viewMode.value = savedViewMode;
+        }
+    } catch {
+        // Ignore storage failures (private browsing, disabled storage, etc.).
+    }
+
+    try {
+        const savedPageTheme = localStorage.getItem(PAGE_THEME_STORAGE_KEY);
+        if (savedPageTheme === 'dark' || savedPageTheme === 'light') {
+            pageTheme.value = savedPageTheme;
+        }
+    } catch {
+        // Ignore storage failures (private browsing, disabled storage, etc.).
+    }
 
     if (!themes.value.length) {
         fetchData().then((clientThemes) => {
