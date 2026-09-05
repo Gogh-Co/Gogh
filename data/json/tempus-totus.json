@@ -1,6 +1,8 @@
 {
   "name": "Tempus Totus",
   "author": "Protesilaos Stavrou (https://protesilaos.com)",
+  "author_name": "Protesilaos Stavrou",
+  "author_url": "https://protesilaos.com",
   "variant": "light",
   "color_01": "#4A484D",
   "color_02": "#A50000",

@@ -1,5 +1,7 @@
 name: Atelier Dune
 author: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)
+author_name: Bram de Haan
+author_url: http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune
 variant: dark
 color_01: '#20201D'
 color_02: '#D73737'

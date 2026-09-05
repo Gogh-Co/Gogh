@@ -1,5 +1,7 @@
 name: Hardcore
 author: hardcore (https://github.com/hardcore/iTerm-colors)
+author_name: hardcore
+author_url: https://github.com/hardcore/iTerm-colors
 variant: dark
 color_01: '#1B1D1E'
 color_02: '#F92672'

@@ -1,6 +1,8 @@
 {
   "name": "CRT Amber",
   "author": "theebest.com (https://www.theebest.com)",
+  "author_name": "theebest.com",
+  "author_url": "https://www.theebest.com",
   "variant": "dark",
   "color_01": "#4C422F",
   "color_02": "#EF4444",

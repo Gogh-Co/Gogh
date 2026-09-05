@@ -1,5 +1,7 @@
 name: Atelier Heath Dark
 author: Bram de Haan (https://github.com/atelierbram)
+author_name: Bram de Haan
+author_url: https://github.com/atelierbram
 variant: dark
 color_01: '#1B181B'
 color_02: '#CA402B'

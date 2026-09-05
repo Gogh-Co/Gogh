@@ -1,6 +1,8 @@
 {
   "name": "Material Lighter",
   "author": "Nate Peterson",
+  "author_name": "Nate Peterson",
+  "author_url": "",
   "variant": "light",
   "color_01": "#FAFAFA",
   "color_02": "#FF5370",

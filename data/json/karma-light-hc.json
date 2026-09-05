@@ -1,6 +1,8 @@
 {
   "name": "Karma Light HC",
   "author": "Sreetam Das (https://github.com/sreetamdas)",
+  "author_name": "Sreetam Das",
+  "author_url": "https://github.com/sreetamdas",
   "variant": "light",
   "color_01": "#000000",
   "color_02": "#C01650",

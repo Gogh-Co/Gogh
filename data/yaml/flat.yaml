@@ -1,5 +1,7 @@
 name: Flat
 author: ahmetsulek (https://github.com/ahmetsulek/flat-terminal)
+author_name: ahmetsulek
+author_url: https://github.com/ahmetsulek/flat-terminal
 variant: dark
 color_01: '#222D3F'
 color_02: '#A82320'

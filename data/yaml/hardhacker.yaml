@@ -1,5 +1,7 @@
 name: Hardhacker
 author: fe2-Nyxar, based on the (https://github.com/hardhackerlabs)
+author_name: fe2-Nyxar, based on the
+author_url: https://github.com/hardhackerlabs
 variant: dark
 color_01: '#211E2A'
 color_02: '#E965A5'

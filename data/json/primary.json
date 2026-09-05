@@ -1,6 +1,8 @@
 {
   "name": "Primary",
   "author": "jayanthkoushik (https://github.com/jayanthkoushik)",
+  "author_name": "jayanthkoushik",
+  "author_url": "https://github.com/jayanthkoushik",
   "variant": "light",
   "color_01": "#000000",
   "color_02": "#DB4437",

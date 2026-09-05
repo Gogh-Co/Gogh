@@ -1,5 +1,7 @@
 name: Monokai
 author: Monokai (https://monokai.com/)
+author_name: Monokai
+author_url: https://monokai.com/
 variant: dark
 color_01: '#272822'
 color_02: '#F92672'

@@ -1,5 +1,7 @@
 name: Monokai Pro Machine
 author: Monokai (https://monokai.com/)
+author_name: Monokai
+author_url: https://monokai.com/
 variant: dark
 color_01: '#273136'
 color_02: '#FF6D7E'

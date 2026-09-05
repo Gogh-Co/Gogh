@@ -1,5 +1,7 @@
 name: Adwaita Dark
 author: cnavajas (https://github.com/cnavajas)
+author_name: cnavajas
+author_url: https://github.com/cnavajas
 variant: dark
 color_01: '#241F31'
 color_02: '#C01C28'

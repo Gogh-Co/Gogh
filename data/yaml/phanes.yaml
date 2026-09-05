@@ -1,5 +1,7 @@
 name: Phanes
 author: dbw (https://github.com/wolgamot)
+author_name: dbw
+author_url: https://github.com/wolgamot
 variant: dark
 color_01: '#222021'
 color_02: '#6E5B86'

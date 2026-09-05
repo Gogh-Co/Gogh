@@ -1,6 +1,8 @@
 {
   "name": "Noirblaze",
   "author": "Dimitar Dimitrov (https://github.com/n1ghtmare)",
+  "author_name": "Dimitar Dimitrov",
+  "author_url": "https://github.com/n1ghtmare",
   "variant": "dark",
   "color_01": "#121212",
   "color_02": "#FF0088",

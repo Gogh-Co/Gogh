@@ -1,5 +1,7 @@
 name: Github Light
 author: ''
+author_name: ''
+author_url: ''
 variant: light
 color_01: '#24292F'
 color_02: '#CF222E'

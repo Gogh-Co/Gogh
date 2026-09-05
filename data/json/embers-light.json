@@ -1,6 +1,8 @@
 {
   "name": "Embers Light",
   "author": "Jannik Siebert (https://github.com/janniks)",
+  "author_name": "Jannik Siebert",
+  "author_url": "https://github.com/janniks",
   "variant": "light",
   "color_01": "#DBD6D1",
   "color_02": "#826D57",

@@ -1,6 +1,8 @@
 {
   "name": "Aardvark Blue",
   "author": "joshka (https://github.com/joshka)",
+  "author_name": "joshka",
+  "author_url": "https://github.com/joshka",
   "variant": "dark",
   "color_01": "#191919",
   "color_02": "#AA342E",

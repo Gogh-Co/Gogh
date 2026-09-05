@@ -1,5 +1,7 @@
 name: Firefox Dev
 author: Or3stis (https://github.com/Or3stis)
+author_name: Or3stis
+author_url: https://github.com/Or3stis
 variant: dark
 color_01: '#002831'
 color_02: '#E63853'

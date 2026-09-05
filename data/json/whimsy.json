@@ -1,6 +1,8 @@
 {
   "name": "Whimsy",
   "author": "Rod (https://github.com/rod)",
+  "author_name": "Rod",
+  "author_url": "https://github.com/rod",
   "variant": "dark",
   "color_01": "#535178",
   "color_02": "#EF6487",

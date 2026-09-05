@@ -1,5 +1,7 @@
 name: Google Dark
 author: ''
+author_name: ''
+author_url: ''
 variant: dark
 color_01: '#202124'
 color_02: '#EA4335'

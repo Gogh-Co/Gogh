@@ -1,6 +1,8 @@
 {
   "name": "Catppuccin Frappe",
   "author": "Catppuccin (https://github.com/catppuccin)",
+  "author_name": "Catppuccin",
+  "author_url": "https://github.com/catppuccin",
   "variant": "dark",
   "color_01": "#51576D",
   "color_02": "#E78284",

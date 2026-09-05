@@ -1,6 +1,8 @@
 {
   "name": "Tempus Classic",
   "author": "Protesilaos Stavrou (https://protesilaos.com)",
+  "author_name": "Protesilaos Stavrou",
+  "author_url": "https://protesilaos.com",
   "variant": "dark",
   "color_01": "#232323",
   "color_02": "#D4823D",

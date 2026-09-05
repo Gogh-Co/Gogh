@@ -1,6 +1,8 @@
 {
   "name": "Silk Light",
   "author": "Gabriel Fontes (https://github.com/Misterio77)",
+  "author_name": "Gabriel Fontes",
+  "author_url": "https://github.com/Misterio77",
   "variant": "light",
   "color_01": "#E9F1EF",
   "color_02": "#CF432E",

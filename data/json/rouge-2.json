@@ -1,6 +1,8 @@
 {
   "name": "Rouge 2",
   "author": "Josef Aidt (https://github.com/josefaidt/rouge-theme)",
+  "author_name": "Josef Aidt",
+  "author_url": "https://github.com/josefaidt/rouge-theme",
   "variant": "dark",
   "color_01": "#5D5D6B",
   "color_02": "#C6797E",

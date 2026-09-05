@@ -1,5 +1,7 @@
 name: Lovelace
 author: nalanbar (https://github.com/nalanbar)
+author_name: nalanbar
+author_url: https://github.com/nalanbar
 variant: dark
 color_01: '#282A36'
 color_02: '#F37F97'

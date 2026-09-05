@@ -1,6 +1,8 @@
 {
   "name": "Katy",
   "author": "George Essig (https://github.com/gessig)",
+  "author_name": "George Essig",
+  "author_url": "https://github.com/gessig",
   "variant": "dark",
   "color_01": "#292D3E",
   "color_02": "#6E98E1",

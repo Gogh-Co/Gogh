@@ -1,5 +1,7 @@
 name: Amber CRT Retro
 author: PoshPalette (https://github.com/livlign/posh-palette)
+author_name: PoshPalette
+author_url: https://github.com/livlign/posh-palette
 variant: dark
 color_01: '#2A1E00'
 color_02: '#FF6A00'

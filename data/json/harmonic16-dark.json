@@ -1,6 +1,8 @@
 {
   "name": "harmonic16 Dark",
   "author": "Jannik Siebert (https://github.com/janniks)",
+  "author_name": "Jannik Siebert",
+  "author_url": "https://github.com/janniks",
   "variant": "dark",
   "color_01": "#0B1C2C",
   "color_02": "#BF8B56",

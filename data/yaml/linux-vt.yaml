@@ -1,5 +1,7 @@
 name: Linux Vt
 author: j-c-m (https://github.com/j-c-m/)
+author_name: j-c-m
+author_url: https://github.com/j-c-m/
 variant: dark
 color_01: '#000000'
 color_02: '#AA0000'

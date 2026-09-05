@@ -1,6 +1,8 @@
 {
   "name": "Electron Highlighter",
   "author": "mikemcbride (https://github.com/mikemcbride)",
+  "author_name": "mikemcbride",
+  "author_url": "https://github.com/mikemcbride",
   "variant": "dark",
   "color_01": "#15161E",
   "color_02": "#F7768E",

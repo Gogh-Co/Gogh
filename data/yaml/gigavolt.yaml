@@ -1,5 +1,7 @@
 name: Gigavolt
 author: Aidan Swope (http://github.com/Whillikers)
+author_name: Aidan Swope
+author_url: http://github.com/Whillikers
 variant: dark
 color_01: '#202126'
 color_02: '#FF661A'

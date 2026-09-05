@@ -1,5 +1,7 @@
 name: C64
 author: idleberg (https://github.com/idleberg)
+author_name: idleberg
+author_url: https://github.com/idleberg
 variant: dark
 color_01: '#090300'
 color_02: '#883932'

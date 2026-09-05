@@ -1,5 +1,7 @@
 name: Kissa Latte
 author: rwendell (https://github.com/rwendell/kissa)
+author_name: rwendell
+author_url: https://github.com/rwendell/kissa
 variant: light
 color_01: '#F5F4F0'
 color_02: '#9E3E3E'

@@ -1,6 +1,8 @@
 {
   "name": "Misterioso",
   "author": "flooose (https://github.com/flooose/misterioso-iterm2)",
+  "author_name": "flooose",
+  "author_url": "https://github.com/flooose/misterioso-iterm2",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FF4242",

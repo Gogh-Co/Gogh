@@ -1,5 +1,7 @@
 name: GitHub Dark
 author: Al Duncanson (https://github.com/alDuncanson)
+author_name: Al Duncanson
+author_url: https://github.com/alDuncanson
 variant: dark
 color_01: '#000000'
 color_02: '#F78166'

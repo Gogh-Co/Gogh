@@ -1,6 +1,8 @@
 {
   "name": "Pyrokai Light",
   "author": "Patrick Serrano (https://patrickserrano.com)",
+  "author_name": "Patrick Serrano",
+  "author_url": "https://patrickserrano.com",
   "variant": "light",
   "color_01": "#242120",
   "color_02": "#B84963",

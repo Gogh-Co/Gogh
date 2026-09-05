@@ -1,6 +1,8 @@
 {
   "name": "Spaceduck",
   "author": "Guillermo Rodriguez, packaged by Gabriel Fontes (https://github.com/pineapplegiant)",
+  "author_name": "Guillermo Rodriguez, packaged by Gabriel Fontes",
+  "author_url": "https://github.com/pineapplegiant",
   "variant": "dark",
   "color_01": "#16172D",
   "color_02": "#E33400",

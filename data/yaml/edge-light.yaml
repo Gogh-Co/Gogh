@@ -1,5 +1,7 @@
 name: Edge Light
 author: cjayross, Tinted Theming (https://github.com/cjayross)
+author_name: cjayross, Tinted Theming
+author_url: https://github.com/cjayross
 variant: light
 color_01: '#FAFAFA'
 color_02: '#DB7070'

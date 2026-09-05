@@ -1,5 +1,7 @@
 name: Django Reborn Again
 author: christopherscott (https://github.com/christopherscott/django-reborn)
+author_name: christopherscott
+author_url: https://github.com/christopherscott/django-reborn
 variant: dark
 color_01: '#000000'
 color_02: '#FD6209'

@@ -1,6 +1,8 @@
 {
   "name": "Atelier Plateau",
   "author": "Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau)",
+  "author_name": "Bram de Haan",
+  "author_url": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau",
   "variant": "dark",
   "color_01": "#1B1818",
   "color_02": "#CA4949",

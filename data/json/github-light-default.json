@@ -1,6 +1,8 @@
 {
   "name": "GitHub Light Default",
   "author": "Antonio Camargo (https://github.com/apcamargo)",
+  "author_name": "Antonio Camargo",
+  "author_url": "https://github.com/apcamargo",
   "variant": "light",
   "color_01": "#24292F",
   "color_02": "#CF222E",

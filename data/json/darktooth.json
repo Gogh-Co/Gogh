@@ -1,6 +1,8 @@
 {
   "name": "Darktooth",
   "author": "Jason Milkins (https://github.com/jasonm23)",
+  "author_name": "Jason Milkins",
+  "author_url": "https://github.com/jasonm23",
   "variant": "dark",
   "color_01": "#1D2021",
   "color_02": "#FB543F",

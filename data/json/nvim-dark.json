@@ -1,6 +1,8 @@
 {
   "name": "Nvim Dark",
   "author": "slavamak (https://github.com/slavamak)",
+  "author_name": "slavamak",
+  "author_url": "https://github.com/slavamak",
   "variant": "dark",
   "color_01": "#07080D",
   "color_02": "#FFC0B9",

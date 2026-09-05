@@ -1,5 +1,7 @@
 name: Windows Nt Light
 author: Fergus Collins (https://github.com/ferguscollins)
+author_name: Fergus Collins
+author_url: https://github.com/ferguscollins
 variant: light
 color_01: '#FFFFFF'
 color_02: '#800000'

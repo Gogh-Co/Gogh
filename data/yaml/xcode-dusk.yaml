@@ -1,5 +1,7 @@
 name: Xcode Dusk
 author: Elsa Gonsiorowski (https://github.com/gonsie)
+author_name: Elsa Gonsiorowski
+author_url: https://github.com/gonsie
 variant: dark
 color_01: '#282B35'
 color_02: '#B21889'

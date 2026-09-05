@@ -1,6 +1,8 @@
 {
   "name": "Penumbra Light Contrast Plus Plus",
   "author": "Zachary Weiss (https://github.com/zacharyweiss)",
+  "author_name": "Zachary Weiss",
+  "author_url": "https://github.com/zacharyweiss",
   "variant": "light",
   "color_01": "#FFFDFB",
   "color_02": "#F58C81",

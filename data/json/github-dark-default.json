@@ -1,6 +1,8 @@
 {
   "name": "GitHub Dark Default",
   "author": "Antonio Camargo (https://github.com/apcamargo)",
+  "author_name": "Antonio Camargo",
+  "author_url": "https://github.com/apcamargo",
   "variant": "dark",
   "color_01": "#484F58",
   "color_02": "#FF7B72",

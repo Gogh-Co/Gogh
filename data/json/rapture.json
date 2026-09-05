@@ -1,6 +1,8 @@
 {
   "name": "Rapture",
   "author": "Pustur (https://github.com/Pustur)",
+  "author_name": "Pustur",
+  "author_url": "https://github.com/Pustur",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FC644D",

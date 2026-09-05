@@ -1,6 +1,8 @@
 {
   "name": "Liquid Carbon",
   "author": "markcho (https://github.com/markcho/iTerm2_LiquidCarbon)",
+  "author_name": "markcho",
+  "author_url": "https://github.com/markcho/iTerm2_LiquidCarbon",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FF3030",

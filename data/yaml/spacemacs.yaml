@@ -1,5 +1,7 @@
 name: Spacemacs
 author: Nasser Alshammari (https://github.com/nashamri/spacemacs-theme)
+author_name: Nasser Alshammari
+author_url: https://github.com/nashamri/spacemacs-theme
 variant: dark
 color_01: '#1F2022'
 color_02: '#F2241F'

@@ -1,6 +1,8 @@
 {
   "name": "Argonaut",
   "author": "effkay (https://github.com/effkay/iTerm-argonaut)",
+  "author_name": "effkay",
+  "author_url": "https://github.com/effkay/iTerm-argonaut",
   "variant": "dark",
   "color_01": "#232323",
   "color_02": "#FF000F",

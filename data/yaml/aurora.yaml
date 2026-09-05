@@ -1,5 +1,7 @@
 name: Aurora
 author: fcsmJS (https://github.com/fcsmJS/iTerm2-Color-Schemes)
+author_name: fcsmJS
+author_url: https://github.com/fcsmJS/iTerm2-Color-Schemes
 variant: dark
 color_01: '#23262E'
 color_02: '#F0266F'

@@ -1,6 +1,8 @@
 {
   "name": "Nord Wave",
   "author": "Antonio Camargo (https://github.com/apcamargo)",
+  "author_name": "Antonio Camargo",
+  "author_url": "https://github.com/apcamargo",
   "variant": "dark",
   "color_01": "#3B4252",
   "color_02": "#BF616A",

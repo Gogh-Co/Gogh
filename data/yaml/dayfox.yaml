@@ -1,5 +1,7 @@
 name: Dayfox
 author: EdenEast (https://github.com/edeneast/nightfox.nvim)
+author_name: EdenEast
+author_url: https://github.com/edeneast/nightfox.nvim
 variant: light
 color_01: '#352C24'
 color_02: '#A5222F'

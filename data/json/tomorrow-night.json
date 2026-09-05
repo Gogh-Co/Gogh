@@ -1,6 +1,8 @@
 {
   "name": "Tomorrow Night",
   "author": "Chris Kempson (http://chriskempson.com)",
+  "author_name": "Chris Kempson",
+  "author_url": "http://chriskempson.com",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#CC6666",

@@ -1,5 +1,7 @@
 name: E Ink Dark
 author: Algilbert Gomez (https://github.com/alexxGmZ)
+author_name: Algilbert Gomez
+author_url: https://github.com/alexxGmZ
 variant: dark
 color_01: '#333333'
 color_02: '#CCCCCC'

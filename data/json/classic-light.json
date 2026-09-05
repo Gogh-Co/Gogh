@@ -1,6 +1,8 @@
 {
   "name": "Classic Light",
   "author": "Jason Heeris (http://heeris.id.au)",
+  "author_name": "Jason Heeris",
+  "author_url": "http://heeris.id.au",
   "variant": "light",
   "color_01": "#F5F5F5",
   "color_02": "#AC4142",

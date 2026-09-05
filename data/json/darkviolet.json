@@ -1,6 +1,8 @@
 {
   "name": "Darkviolet",
   "author": "ruler501 (https://github.com/ruler501/base16-darkviolet)",
+  "author_name": "ruler501",
+  "author_url": "https://github.com/ruler501/base16-darkviolet",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#A82EE6",

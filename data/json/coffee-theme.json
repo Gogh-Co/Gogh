@@ -1,6 +1,8 @@
 {
   "name": "Coffee Theme",
   "author": "cbitterfield (https://github.com/cbitterfield)",
+  "author_name": "cbitterfield",
+  "author_url": "https://github.com/cbitterfield",
   "variant": "light",
   "color_01": "#000000",
   "color_02": "#C91B00",

@@ -1,6 +1,8 @@
 {
   "name": "Miasma",
   "author": "xero (https://github.com/xero)",
+  "author_name": "xero",
+  "author_url": "https://github.com/xero",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#685742",

@@ -1,6 +1,8 @@
 {
   "name": "Equilibrium Light",
   "author": "Carlo Abelli",
+  "author_name": "Carlo Abelli",
+  "author_url": "",
   "variant": "light",
   "color_01": "#F5F0E7",
   "color_02": "#D02023",

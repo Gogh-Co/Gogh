@@ -1,6 +1,8 @@
 {
   "name": "Catppuccin Macchiato",
   "author": "Catppuccin (https://github.com/catppuccin)",
+  "author_name": "Catppuccin",
+  "author_url": "https://github.com/catppuccin",
   "variant": "dark",
   "color_01": "#494D64",
   "color_02": "#ED8796",

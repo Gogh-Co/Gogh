@@ -1,6 +1,8 @@
 {
   "name": "Helios",
   "author": "Alex Meyer (https://github.com/reyemxela)",
+  "author_name": "Alex Meyer",
+  "author_url": "https://github.com/reyemxela",
   "variant": "dark",
   "color_01": "#1D2021",
   "color_02": "#D72638",

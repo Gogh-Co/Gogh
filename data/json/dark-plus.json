@@ -1,6 +1,8 @@
 {
   "name": "Dark Plus",
   "author": "FredHappyface (https://github.com/fredHappyface)",
+  "author_name": "FredHappyface",
+  "author_url": "https://github.com/fredHappyface",
   "variant": "dark",
   "color_01": "#0E0E0E",
   "color_02": "#CD3131",

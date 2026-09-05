@@ -1,6 +1,8 @@
 {
   "name": "Measured Light",
   "author": "Measured (https://measured.co)",
+  "author_name": "Measured",
+  "author_url": "https://measured.co",
   "variant": "light",
   "color_01": "#FDF9F5",
   "color_02": "#AC1F35",

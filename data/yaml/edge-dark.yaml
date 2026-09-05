@@ -1,5 +1,7 @@
 name: Edge Dark
 author: cjayross, Tinted Theming (https://github.com/cjayross)
+author_name: cjayross, Tinted Theming
+author_url: https://github.com/cjayross
 variant: dark
 color_01: '#262729'
 color_02: '#E77171'

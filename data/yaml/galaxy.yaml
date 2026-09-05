@@ -1,5 +1,7 @@
 name: Galaxy
 author: jglovier (https://github.com/jglovier/galaxy-theme-iterm)
+author_name: jglovier
+author_url: https://github.com/jglovier/galaxy-theme-iterm
 variant: dark
 color_01: '#000000'
 color_02: '#F9555F'

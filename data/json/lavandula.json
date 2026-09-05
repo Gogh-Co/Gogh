@@ -1,6 +1,8 @@
 {
   "name": "Lavandula",
   "author": "zdj (https://github.com/zdj/themes/tree/master/iterm2)",
+  "author_name": "zdj",
+  "author_url": "https://github.com/zdj/themes/tree/master/iterm2",
   "variant": "dark",
   "color_01": "#230046",
   "color_02": "#7D1625",

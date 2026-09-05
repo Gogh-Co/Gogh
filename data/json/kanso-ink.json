@@ -1,6 +1,8 @@
 {
   "name": "Kanso Ink",
   "author": "webhooked (https://github.com/webhooked)",
+  "author_name": "webhooked",
+  "author_url": "https://github.com/webhooked",
   "variant": "dark",
   "color_01": "#14171D",
   "color_02": "#C4746E",

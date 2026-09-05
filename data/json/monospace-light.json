@@ -1,6 +1,8 @@
 {
   "name": "Monospace Light",
   "author": "conventoangelo (https://github.com/conventoangelo)",
+  "author_name": "conventoangelo",
+  "author_url": "https://github.com/conventoangelo",
   "variant": "light",
   "color_01": "#333E4F",
   "color_02": "#D03941",

@@ -1,5 +1,7 @@
 name: TokyoNight Storm
 author: folke (https://github.com/folke/tokyonight.nvim)
+author_name: folke
+author_url: https://github.com/folke/tokyonight.nvim
 variant: dark
 color_01: '#1D202F'
 color_02: '#F7768E'

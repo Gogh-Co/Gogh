@@ -1,5 +1,7 @@
 name: Apple System Colors
 author: Jeremy Bahadirli (https://github.com/jeremybahadirli)
+author_name: Jeremy Bahadirli
+author_url: https://github.com/jeremybahadirli
 variant: dark
 color_01: '#1A1A1A'
 color_02: '#CC372E'

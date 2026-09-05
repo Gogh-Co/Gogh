@@ -1,6 +1,8 @@
 {
   "name": "Retrowave Dark",
   "author": "BrokenSideViewMirror (https://github.com/BrokenSideViewMirror)",
+  "author_name": "BrokenSideViewMirror",
+  "author_url": "https://github.com/BrokenSideViewMirror",
   "variant": "dark",
   "color_01": "#7C676F",
   "color_02": "#F06060",

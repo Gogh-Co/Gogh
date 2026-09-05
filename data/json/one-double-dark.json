@@ -1,6 +1,8 @@
 {
   "name": "One Double Dark",
   "author": "pamburus (https://github.com/pamburus/one-double)",
+  "author_name": "pamburus",
+  "author_url": "https://github.com/pamburus/one-double",
   "variant": "dark",
   "color_01": "#3E4451",
   "color_02": "#E06C75",

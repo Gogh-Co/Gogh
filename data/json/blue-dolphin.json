@@ -1,6 +1,8 @@
 {
   "name": "Blue Dolphin",
   "author": "vimiomori (https://github.com/vimiomori)",
+  "author_name": "vimiomori",
+  "author_url": "https://github.com/vimiomori",
   "variant": "dark",
   "color_01": "#292D3E",
   "color_02": "#FF8288",

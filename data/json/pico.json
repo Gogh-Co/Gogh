@@ -1,6 +1,8 @@
 {
   "name": "Pico",
   "author": "PICO-8 (http://www.lexaloffle.com/pico-8.php)",
+  "author_name": "PICO-8",
+  "author_url": "http://www.lexaloffle.com/pico-8.php",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FF004D",

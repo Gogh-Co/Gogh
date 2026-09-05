@@ -1,5 +1,7 @@
 name: Mocha
 author: Chris Kempson (http://chriskempson.com)
+author_name: Chris Kempson
+author_url: http://chriskempson.com
 variant: dark
 color_01: '#3B3228'
 color_02: '#CB6077'

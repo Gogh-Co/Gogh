@@ -1,6 +1,8 @@
 {
   "name": "Karma Dark HC",
   "author": "Sreetam Das (https://github.com/sreetamdas)",
+  "author_name": "Sreetam Das",
+  "author_url": "https://github.com/sreetamdas",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FF5C87",

@@ -1,6 +1,8 @@
 {
   "name": "Material Design Colors",
   "author": "MartinSeeler (https://www.martinseeler.com/iterm2-material-design)",
+  "author_name": "MartinSeeler",
+  "author_url": "https://www.martinseeler.com/iterm2-material-design",
   "variant": "dark",
   "color_01": "#435B67",
   "color_02": "#FC3841",

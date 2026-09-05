@@ -1,5 +1,7 @@
 name: Monokai SublimeText
 author: Howar31 (https://github.com/howar31/monokai-sublimetext)
+author_name: Howar31
+author_url: https://github.com/howar31/monokai-sublimetext
 variant: dark
 color_01: '#333333'
 color_02: '#C4265E'

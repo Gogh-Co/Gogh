@@ -1,5 +1,7 @@
 name: Violet Dark
 author: ashfinal (https://github.com/ashfinal/vim-colors-violet)
+author_name: ashfinal
+author_url: https://github.com/ashfinal/vim-colors-violet
 variant: dark
 color_01: '#56595C'
 color_02: '#C94C22'

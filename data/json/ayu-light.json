@@ -1,6 +1,8 @@
 {
   "name": "Ayu Light",
   "author": "alebcay (https://github.com/alebcay)",
+  "author_name": "alebcay",
+  "author_url": "https://github.com/alebcay",
   "variant": "light",
   "color_01": "#000000",
   "color_02": "#EA6C6D",

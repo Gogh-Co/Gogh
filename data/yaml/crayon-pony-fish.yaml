@@ -1,5 +1,7 @@
 name: Crayon Pony Fish
 author: zdj (https://github.com/zdj/themes/tree/master/iterm2)
+author_name: zdj
+author_url: https://github.com/zdj/themes/tree/master/iterm2
 variant: dark
 color_01: '#2B1B1D'
 color_02: '#91002B'

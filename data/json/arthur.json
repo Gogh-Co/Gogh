@@ -1,6 +1,8 @@
 {
   "name": "Arthur",
   "author": "baskerville (https://github.com/baskerville/iTerm-2-Color-Themes)",
+  "author_name": "baskerville",
+  "author_url": "https://github.com/baskerville/iTerm-2-Color-Themes",
   "variant": "dark",
   "color_01": "#3D352A",
   "color_02": "#CD5C5C",

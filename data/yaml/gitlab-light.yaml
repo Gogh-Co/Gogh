@@ -1,5 +1,7 @@
 name: GitLab Light
 author: Antonio Camargo (https://github.com/apcamargo)
+author_name: Antonio Camargo
+author_url: https://github.com/apcamargo
 variant: light
 color_01: '#303030'
 color_02: '#A31700'

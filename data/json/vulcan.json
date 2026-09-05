@@ -1,6 +1,8 @@
 {
   "name": "Vulcan",
   "author": "Andrey Varfolomeev",
+  "author_name": "Andrey Varfolomeev",
+  "author_url": "",
   "variant": "dark",
   "color_01": "#041523",
   "color_02": "#818591",

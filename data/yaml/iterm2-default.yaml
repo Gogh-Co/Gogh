@@ -1,5 +1,7 @@
 name: iTerm2 Default
 author: ''
+author_name: ''
+author_url: ''
 variant: dark
 color_01: '#000000'
 color_02: '#C91B00'

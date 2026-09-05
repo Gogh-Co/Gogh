@@ -1,6 +1,8 @@
 {
   "name": "Pro Light",
   "author": "crowsonkb (https://github.com/crowsonkb)",
+  "author_name": "crowsonkb",
+  "author_url": "https://github.com/crowsonkb",
   "variant": "light",
   "color_01": "#000000",
   "color_02": "#E5492B",

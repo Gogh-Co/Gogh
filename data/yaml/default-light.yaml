@@ -1,5 +1,7 @@
 name: Default Light
 author: Chris Kempson (http://chriskempson.com)
+author_name: Chris Kempson
+author_url: http://chriskempson.com
 variant: light
 color_01: '#F8F8F8'
 color_02: '#AB4642'

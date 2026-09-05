@@ -1,6 +1,8 @@
 {
   "name": "Lichen Chartreuse Dark",
   "author": "Aaron Colichia (https://aaron.colichia.org/)",
+  "author_name": "Aaron Colichia",
+  "author_url": "https://aaron.colichia.org/",
   "variant": "dark",
   "color_01": "#151613",
   "color_02": "#E28B82",

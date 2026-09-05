@@ -1,5 +1,7 @@
 name: Batman
 author: pyrophos (https://github.com/pyrophos)
+author_name: pyrophos
+author_url: https://github.com/pyrophos
 variant: dark
 color_01: '#1B1D1E'
 color_02: '#E6DC44'

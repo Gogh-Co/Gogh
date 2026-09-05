@@ -1,6 +1,8 @@
 {
   "name": "Solarflare",
   "author": "Chuck Harmston (https://chuck.harmston.ch)",
+  "author_name": "Chuck Harmston",
+  "author_url": "https://chuck.harmston.ch",
   "variant": "dark",
   "color_01": "#18262F",
   "color_02": "#EF5253",

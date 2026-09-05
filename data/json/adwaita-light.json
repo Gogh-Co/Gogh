@@ -1,6 +1,8 @@
 {
   "name": "Adwaita Light",
   "author": "Emil L\u00f6fquist (https://github.com/ewal)",
+  "author_name": "Emil L\u00f6fquist",
+  "author_url": "https://github.com/ewal",
   "variant": "light",
   "color_01": "#FCFCFC",
   "color_02": "#ED333B",

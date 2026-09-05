@@ -1,5 +1,7 @@
 name: Nova
 author: George Essig, Trevor D. Miller (https://github.com/gessig)
+author_name: George Essig, Trevor D. Miller
+author_url: https://github.com/gessig
 variant: dark
 color_01: '#3C4C55'
 color_02: '#83AFE5'

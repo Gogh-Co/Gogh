@@ -1,6 +1,8 @@
 {
   "name": "Seti",
   "author": "jesseweed (https://github.com/jesseweed/seti-syntax/)",
+  "author_name": "jesseweed",
+  "author_url": "https://github.com/jesseweed/seti-syntax/",
   "variant": "dark",
   "color_01": "#323232",
   "color_02": "#C22832",

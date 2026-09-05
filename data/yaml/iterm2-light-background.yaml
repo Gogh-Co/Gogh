@@ -1,5 +1,7 @@
 name: iTerm2 Light Background
 author: ''
+author_name: ''
+author_url: ''
 variant: light
 color_01: '#000000'
 color_02: '#C91B00'

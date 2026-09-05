@@ -1,6 +1,8 @@
 {
   "name": "Horizon Terminal Dark",
   "author": "Micha\u00ebl Ball (http://github.com/michael-ball/)",
+  "author_name": "Micha\u00ebl Ball",
+  "author_url": "http://github.com/michael-ball/",
   "variant": "dark",
   "color_01": "#1C1E26",
   "color_02": "#E95678",

@@ -1,5 +1,7 @@
 name: One Half Light
 author: sonph (https://github.com/sonph)
+author_name: sonph
+author_url: https://github.com/sonph
 variant: light
 color_01: '#383A42'
 color_02: '#E45649'

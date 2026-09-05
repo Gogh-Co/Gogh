@@ -1,6 +1,8 @@
 {
   "name": "Oxocarbon",
   "author": "Nyoom Engineering (https://github.com/nyoom-engineering)",
+  "author_name": "Nyoom Engineering",
+  "author_url": "https://github.com/nyoom-engineering",
   "variant": "dark",
   "color_01": "#161616",
   "color_02": "#3DDBD9",

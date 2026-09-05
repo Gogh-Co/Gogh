@@ -1,5 +1,7 @@
 name: Outrun Dark
 author: Hugo Delahousse (http://github.com/hugodelahousse/)
+author_name: Hugo Delahousse
+author_url: http://github.com/hugodelahousse/
 variant: dark
 color_01: '#00002A'
 color_02: '#FF4242'

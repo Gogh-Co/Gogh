@@ -1,5 +1,7 @@
 name: Eris
 author: ed, Tinted Theming (https://codeberg.org/ed)
+author_name: ed, Tinted Theming
+author_url: https://codeberg.org/ed
 variant: dark
 color_01: '#0A0920'
 color_02: '#F768A3'

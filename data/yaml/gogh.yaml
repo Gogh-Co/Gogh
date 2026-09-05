@@ -1,5 +1,7 @@
 name: Gogh
 author: Gogh (https://github.com/Gogh-Co/Gogh)
+author_name: Gogh
+author_url: https://github.com/Gogh-Co/Gogh
 variant: dark
 color_01: '#243342'
 color_02: '#C54133'

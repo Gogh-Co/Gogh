@@ -1,5 +1,7 @@
 name: datum (dark)
 author: w0zro (https://github.com/w0zro)
+author_name: w0zro
+author_url: https://github.com/w0zro
 variant: dark
 color_01: '#2B2F35'
 color_02: '#FE9864'

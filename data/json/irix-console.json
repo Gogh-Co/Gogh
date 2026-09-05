@@ -1,6 +1,8 @@
 {
   "name": "IRIX Console",
   "author": "Skeeve (https://github.com/Skeeve)",
+  "author_name": "Skeeve",
+  "author_url": "https://github.com/Skeeve",
   "variant": "dark",
   "color_01": "#1A1919",
   "color_02": "#D42426",

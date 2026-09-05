@@ -1,6 +1,8 @@
 {
   "name": "Peppermint",
   "author": "Noah Frederick (https://noahfrederick.com/log/lion-terminal-theme-peppermint)",
+  "author_name": "Noah Frederick",
+  "author_url": "https://noahfrederick.com/log/lion-terminal-theme-peppermint",
   "variant": "dark",
   "color_01": "#353535",
   "color_02": "#E74669",

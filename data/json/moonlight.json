@@ -1,6 +1,8 @@
 {
   "name": "Moonlight",
   "author": "Jeremy Swinarton (https://github.com/jswinarton)",
+  "author_name": "Jeremy Swinarton",
+  "author_url": "https://github.com/jswinarton",
   "variant": "dark",
   "color_01": "#212337",
   "color_02": "#FF5370",

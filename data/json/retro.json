@@ -1,6 +1,8 @@
 {
   "name": "Retro",
   "author": "Rob Latour (https://github.com/roblatour)",
+  "author_name": "Rob Latour",
+  "author_url": "https://github.com/roblatour",
   "variant": "dark",
   "color_01": "#13A10E",
   "color_02": "#13A10E",

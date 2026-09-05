@@ -1,5 +1,7 @@
 name: Harper
 author: idleberg (https://github.com/idleberg/Harper-iTerm2)
+author_name: idleberg
+author_url: https://github.com/idleberg/Harper-iTerm2
 variant: dark
 color_01: '#010101'
 color_02: '#F8B63F'

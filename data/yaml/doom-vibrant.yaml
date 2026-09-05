@@ -1,5 +1,7 @@
 name: Doom Vibrant
 author: Henrik Lissner (https://github.com/hlissner)
+author_name: Henrik Lissner
+author_url: https://github.com/hlissner
 variant: dark
 color_01: '#2A2E38'
 color_02: '#FF665C'

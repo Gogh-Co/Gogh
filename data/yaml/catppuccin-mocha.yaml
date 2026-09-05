@@ -1,5 +1,7 @@
 name: Catppuccin Mocha
 author: Catppuccin (https://github.com/catppuccin)
+author_name: Catppuccin
+author_url: https://github.com/catppuccin
 variant: dark
 color_01: '#45475A'
 color_02: '#F38BA8'

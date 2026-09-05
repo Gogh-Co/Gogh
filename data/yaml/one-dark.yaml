@@ -1,5 +1,7 @@
 name: One Dark
 author: ''
+author_name: ''
+author_url: ''
 variant: dark
 color_01: '#000000'
 color_02: '#E06C75'

@@ -1,5 +1,7 @@
 name: Penumbra Dark
 author: Zachary Weiss (https://github.com/zacharyweiss)
+author_name: Zachary Weiss
+author_url: https://github.com/zacharyweiss
 variant: dark
 color_01: '#24272B'
 color_02: '#CA736C'

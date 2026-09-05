@@ -1,6 +1,8 @@
 {
   "name": "Wilmersdorf",
   "author": "sayeefm0 (https://github.com/sayeefm0/iterm2-wilmersdorf)",
+  "author_name": "sayeefm0",
+  "author_url": "https://github.com/sayeefm0/iterm2-wilmersdorf",
   "variant": "dark",
   "color_01": "#34373E",
   "color_02": "#E06383",

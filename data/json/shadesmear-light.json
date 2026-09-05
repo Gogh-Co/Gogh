@@ -1,6 +1,8 @@
 {
   "name": "Shadesmear Light",
   "author": "Kyle Giammarco (http://kyle.giammar.co)",
+  "author_name": "Kyle Giammarco",
+  "author_url": "http://kyle.giammar.co",
   "variant": "light",
   "color_01": "#DBDBDB",
   "color_02": "#CC5450",

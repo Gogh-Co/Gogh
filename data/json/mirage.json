@@ -1,6 +1,8 @@
 {
   "name": "Mirage",
   "author": "Tristan Remy (https://github.com/tristanremy/mirage)",
+  "author_name": "Tristan Remy",
+  "author_url": "https://github.com/tristanremy/mirage",
   "variant": "dark",
   "color_01": "#011627",
   "color_02": "#FF9999",

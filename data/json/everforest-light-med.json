@@ -1,6 +1,8 @@
 {
   "name": "Everforest Light Med",
   "author": "robertjkeller (https://github.com/robertjkeller)",
+  "author_name": "robertjkeller",
+  "author_url": "https://github.com/robertjkeller",
   "variant": "light",
   "color_01": "#7A8478",
   "color_02": "#E67E80",

@@ -1,5 +1,7 @@
 name: Constant Perceptual Luminosity Dark
 author: Aaron Hall
+author_name: Aaron Hall
+author_url: ''
 variant: dark
 color_01: '#000000'
 color_02: '#B10B00'

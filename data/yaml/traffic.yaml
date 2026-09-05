@@ -1,5 +1,7 @@
 name: traffic
 author: dkeg (https://github.com/dkeg/crayolo)
+author_name: dkeg
+author_url: https://github.com/dkeg/crayolo
 variant: dark
 color_01: '#292D31'
 color_02: '#8A5249'

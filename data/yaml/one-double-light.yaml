@@ -1,5 +1,7 @@
 name: One Double Light
 author: pamburus (https://github.com/pamburus/one-double)
+author_name: pamburus
+author_url: https://github.com/pamburus/one-double
 variant: light
 color_01: '#464B57'
 color_02: '#E45649'

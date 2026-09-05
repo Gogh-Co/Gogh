@@ -1,6 +1,8 @@
 {
   "name": "Piatto Light",
   "author": "kovv (https://github.com/kovv)",
+  "author_name": "kovv",
+  "author_url": "https://github.com/kovv",
   "variant": "light",
   "color_01": "#414141",
   "color_02": "#B23771",

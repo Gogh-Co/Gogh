@@ -1,5 +1,7 @@
 name: Circus
 author: Stephan Boyer and Esther Wang (https://github.com/stepchowfun)
+author_name: Stephan Boyer and Esther Wang
+author_url: https://github.com/stepchowfun
 variant: dark
 color_01: '#191919'
 color_02: '#DC657D'

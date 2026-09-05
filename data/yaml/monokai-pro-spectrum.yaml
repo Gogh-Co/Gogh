@@ -1,5 +1,7 @@
 name: Monokai Pro Spectrum
 author: Monokai (https://monokai.com/)
+author_name: Monokai
+author_url: https://monokai.com/
 variant: dark
 color_01: '#222222'
 color_02: '#FC618D'

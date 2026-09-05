@@ -1,5 +1,7 @@
 name: Pnevma
 author: baskerville (https://github.com/baskerville/iTerm-2-Color-Themes)
+author_name: baskerville
+author_url: https://github.com/baskerville/iTerm-2-Color-Themes
 variant: dark
 color_01: '#2F2E2D'
 color_02: '#A36666'

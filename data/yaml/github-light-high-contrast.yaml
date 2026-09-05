@@ -1,5 +1,7 @@
 name: GitHub Light High Contrast
 author: Antonio Camargo (https://github.com/apcamargo)
+author_name: Antonio Camargo
+author_url: https://github.com/apcamargo
 variant: light
 color_01: '#0E1116'
 color_02: '#A0111F'

@@ -1,6 +1,8 @@
 {
   "name": "Material",
   "author": "stoeffel (https://github.com/stoeffel/material-iterm)",
+  "author_name": "stoeffel",
+  "author_url": "https://github.com/stoeffel/material-iterm",
   "variant": "light",
   "color_01": "#212121",
   "color_02": "#B7141F",

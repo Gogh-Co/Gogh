@@ -1,5 +1,7 @@
 name: Gruvbox Light Soft
 author: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+author_name: Dawid Kurek (dawikur@gmail.com), morhetz
+author_url: https://github.com/morhetz/gruvbox
 variant: light
 color_01: '#F2E5BC'
 color_02: '#9D0006'

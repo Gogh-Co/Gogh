@@ -1,6 +1,8 @@
 {
   "name": "Sagelight",
   "author": "Carter Veldhuizen",
+  "author_name": "Carter Veldhuizen",
+  "author_url": "",
   "variant": "light",
   "color_01": "#F8F8F8",
   "color_02": "#FA8480",

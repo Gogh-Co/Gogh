@@ -1,5 +1,7 @@
 name: Horizon Light
 author: Michaël Ball (http://github.com/michael-ball/)
+author_name: Michaël Ball
+author_url: http://github.com/michael-ball/
 variant: light
 color_01: '#FDF0ED'
 color_02: '#F7939B'

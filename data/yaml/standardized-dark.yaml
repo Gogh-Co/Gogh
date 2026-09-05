@@ -1,5 +1,7 @@
 name: Standardized Dark
 author: ali (https://github.com/ali-githb/base16-standardized-scheme)
+author_name: ali
+author_url: https://github.com/ali-githb/base16-standardized-scheme
 variant: dark
 color_01: '#222222'
 color_02: '#E15D67'

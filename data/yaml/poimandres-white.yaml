@@ -1,5 +1,7 @@
 name: Poimandres White
 author: drcmda (https://github.com/drcmda/poimandres-theme)
+author_name: drcmda
+author_url: https://github.com/drcmda/poimandres-theme
 variant: light
 color_01: '#FEFEFF'
 color_02: '#FF2090'

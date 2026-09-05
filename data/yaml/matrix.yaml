@@ -1,5 +1,7 @@
 name: Matrix
 author: Jim Xu (https://github.com/i3d)
+author_name: Jim Xu
+author_url: https://github.com/i3d
 variant: dark
 color_01: '#0F191C'
 color_02: '#23755A'

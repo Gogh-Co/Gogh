@@ -1,6 +1,8 @@
 {
   "name": "Kissa Macchiato",
   "author": "rwendell (https://github.com/rwendell/kissa)",
+  "author_name": "rwendell",
+  "author_url": "https://github.com/rwendell/kissa",
   "variant": "dark",
   "color_01": "#1F1C16",
   "color_02": "#E87777",

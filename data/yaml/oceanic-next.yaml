@@ -1,5 +1,7 @@
 name: Oceanic Next
 author: mhartington (https://github.com/mhartington/oceanic-next-iterm)
+author_name: mhartington
+author_url: https://github.com/mhartington/oceanic-next-iterm
 variant: dark
 color_01: '#1B2B34'
 color_02: '#DB686B'

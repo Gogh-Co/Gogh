@@ -1,6 +1,8 @@
 {
   "name": "Kanagawa",
   "author": "Tommaso Laurenzi (https://github.com/rebelot)",
+  "author_name": "Tommaso Laurenzi",
+  "author_url": "https://github.com/rebelot",
   "variant": "dark",
   "color_01": "#1F1F28",
   "color_02": "#C34043",

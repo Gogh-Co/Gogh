@@ -1,6 +1,8 @@
 {
   "name": "Aubade",
   "author": "PoshPalette (https://github.com/livlign/posh-palette)",
+  "author_name": "PoshPalette",
+  "author_url": "https://github.com/livlign/posh-palette",
   "variant": "light",
   "color_01": "#33293F",
   "color_02": "#C0303A",

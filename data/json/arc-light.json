@@ -1,6 +1,8 @@
 {
   "name": "Arc Light",
   "author": "https://hesamrad.com",
+  "author_name": "Hesamrad",
+  "author_url": "https://hesamrad.com",
   "variant": "light",
   "color_01": "#0D1117",
   "color_02": "#C32424",

@@ -1,5 +1,7 @@
 name: Operator Mono Dark
 author: dreamyguy (https://github.com/dreamyguy/iterm-theme-operator-mono-dark)
+author_name: dreamyguy
+author_url: https://github.com/dreamyguy/iterm-theme-operator-mono-dark
 variant: dark
 color_01: '#5A5A5A'
 color_02: '#CA372D'

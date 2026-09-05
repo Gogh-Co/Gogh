@@ -1,5 +1,7 @@
 name: Atelier Cave
 author: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave)
+author_name: Bram de Haan
+author_url: http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave
 variant: dark
 color_01: '#19171C'
 color_02: '#BE4678'

@@ -1,5 +1,7 @@
 name: Cobalt Next Minimal
 author: davidleininger (https://github.com/davidleininger/cobaltnext-vscode)
+author_name: davidleininger
+author_url: https://github.com/davidleininger/cobaltnext-vscode
 variant: dark
 color_01: '#343D46'
 color_02: '#ED6F7D'

@@ -1,6 +1,8 @@
 {
   "name": "Fun Forrest",
   "author": "zdj (https://github.com/zdj/themes/tree/master/iterm2)",
+  "author_name": "zdj",
+  "author_url": "https://github.com/zdj/themes/tree/master/iterm2",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#D6262B",

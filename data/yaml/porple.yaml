@@ -1,5 +1,7 @@
 name: Porple
 author: Niek den Breeje (https://github.com/AuditeMarlow)
+author_name: Niek den Breeje
+author_url: https://github.com/AuditeMarlow
 variant: dark
 color_01: '#292C36'
 color_02: '#F84547'

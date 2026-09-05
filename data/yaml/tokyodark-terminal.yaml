@@ -1,5 +1,7 @@
 name: Tokyodark Terminal
 author: Tiagovla (https://github.com/tiagovla/)
+author_name: Tiagovla
+author_url: https://github.com/tiagovla/
 variant: dark
 color_01: '#11121D'
 color_02: '#EE6D85'

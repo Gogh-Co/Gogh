@@ -1,6 +1,8 @@
 {
   "name": "Chalk",
   "author": "achalv (https://github.com/achalv/chalk)",
+  "author_name": "achalv",
+  "author_url": "https://github.com/achalv/chalk",
   "variant": "dark",
   "color_01": "#7D8B8F",
   "color_02": "#B23A52",

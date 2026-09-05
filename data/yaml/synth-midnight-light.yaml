@@ -1,5 +1,7 @@
 name: Synth Midnight Light
 author: Michaël Ball (http://github.com/michael-ball/)
+author_name: Michaël Ball
+author_url: http://github.com/michael-ball/
 variant: light
 color_01: '#DDDFE0'
 color_02: '#B53B50'

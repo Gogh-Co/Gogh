@@ -1,6 +1,8 @@
 {
   "name": "Arcoiris",
   "author": "some random guy (https://github.com/indyandie)",
+  "author_name": "some random guy",
+  "author_url": "https://github.com/indyandie",
   "variant": "dark",
   "color_01": "#333333",
   "color_02": "#DA2700",

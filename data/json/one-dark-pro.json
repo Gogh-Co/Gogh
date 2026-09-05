@@ -1,6 +1,8 @@
 {
   "name": "One Dark Pro",
   "author": "VictorPL (https://github.com/VictorPLopes)",
+  "author_name": "VictorPL",
+  "author_url": "https://github.com/VictorPLopes",
   "variant": "dark",
   "color_01": "#3F4451",
   "color_02": "#E06C75",

@@ -1,6 +1,8 @@
 {
   "name": "Ashes",
   "author": "Jannik Siebert (https://github.com/janniks)",
+  "author_name": "Jannik Siebert",
+  "author_url": "https://github.com/janniks",
   "variant": "dark",
   "color_01": "#1C2023",
   "color_02": "#C7AE95",

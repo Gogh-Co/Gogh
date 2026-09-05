@@ -1,5 +1,7 @@
 name: Caroline
 author: ed (https://codeberg.org/ed)
+author_name: ed
+author_url: https://codeberg.org/ed
 variant: dark
 color_01: '#1C1213'
 color_02: '#C24F57'

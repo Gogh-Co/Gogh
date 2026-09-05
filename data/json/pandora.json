@@ -1,6 +1,8 @@
 {
   "name": "Pandora",
   "author": "milosmatic (https://github.com/milosmatic/Pandora-iterm)",
+  "author_name": "milosmatic",
+  "author_url": "https://github.com/milosmatic/Pandora-iterm",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FF4242",

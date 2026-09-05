@@ -1,5 +1,7 @@
 name: Brewer
 author: Timothée Poisot (http://github.com/tpoisot)
+author_name: Timothée Poisot
+author_url: http://github.com/tpoisot
 variant: dark
 color_01: '#0C0D0E'
 color_02: '#E31A1C'

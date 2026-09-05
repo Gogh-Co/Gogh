@@ -1,6 +1,8 @@
 {
   "name": "Selenized Dark",
   "author": "jan-warchol (https://github.com/jan-warchol)",
+  "author_name": "jan-warchol",
+  "author_url": "https://github.com/jan-warchol",
   "variant": "dark",
   "color_01": "#184956",
   "color_02": "#FA5750",

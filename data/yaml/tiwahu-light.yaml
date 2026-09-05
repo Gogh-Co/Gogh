@@ -1,5 +1,7 @@
 name: Tiwahu Light
 author: Tim Huber (http://www.tiwahu.com)
+author_name: Tim Huber
+author_url: http://www.tiwahu.com
 variant: light
 color_01: '#000000'
 color_02: '#AA0000'

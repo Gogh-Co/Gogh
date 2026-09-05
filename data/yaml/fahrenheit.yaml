@@ -1,5 +1,7 @@
 name: Fahrenheit
 author: jonascarpay (https://github.com/jonascarpay)
+author_name: jonascarpay
+author_url: https://github.com/jonascarpay
 variant: dark
 color_01: '#1D1D1D'
 color_02: '#CDA074'

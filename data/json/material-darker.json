@@ -1,6 +1,8 @@
 {
   "name": "Material Darker",
   "author": "jos3s (https://github.com/jos3s)",
+  "author_name": "jos3s",
+  "author_url": "https://github.com/jos3s",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FF5370",

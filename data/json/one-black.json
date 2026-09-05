@@ -1,6 +1,8 @@
 {
   "name": "One Black",
   "author": "FredHappyface (https://github.com/fredHappyface)",
+  "author_name": "FredHappyface",
+  "author_url": "https://github.com/fredHappyface",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#E05561",

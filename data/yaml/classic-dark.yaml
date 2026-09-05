@@ -1,5 +1,7 @@
 name: Classic Dark
 author: Jason Heeris (http://heeris.id.au)
+author_name: Jason Heeris
+author_url: http://heeris.id.au
 variant: dark
 color_01: '#151515'
 color_02: '#AC4142'

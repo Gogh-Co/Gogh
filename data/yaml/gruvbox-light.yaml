@@ -1,5 +1,7 @@
 name: Gruvbox Light
 author: morhetz (https://github.com/morhetz)
+author_name: morhetz
+author_url: https://github.com/morhetz
 variant: light
 color_01: '#FBF1C7'
 color_02: '#CC241D'

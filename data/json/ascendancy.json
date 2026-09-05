@@ -1,6 +1,8 @@
 {
   "name": "Ascendancy",
   "author": "EmergentMind (https://github.com/emergentmind/ascendancy-scheme)",
+  "author_name": "EmergentMind",
+  "author_url": "https://github.com/emergentmind/ascendancy-scheme",
   "variant": "dark",
   "color_01": "#282828",
   "color_02": "#D05000",

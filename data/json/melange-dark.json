@@ -1,6 +1,8 @@
 {
   "name": "Melange Dark",
   "author": "savq (https://github.com/savq)",
+  "author_name": "savq",
+  "author_url": "https://github.com/savq",
   "variant": "dark",
   "color_01": "#34302C",
   "color_02": "#BD8183",

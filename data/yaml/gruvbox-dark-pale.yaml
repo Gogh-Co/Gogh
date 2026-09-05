@@ -1,5 +1,7 @@
 name: Gruvbox Dark Pale
 author: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+author_name: Dawid Kurek (dawikur@gmail.com), morhetz
+author_url: https://github.com/morhetz/gruvbox
 variant: dark
 color_01: '#262626'
 color_02: '#D75F5F'

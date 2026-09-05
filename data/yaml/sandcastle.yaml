@@ -1,5 +1,7 @@
 name: Sandcastle
 author: George Essig (https://github.com/gessig)
+author_name: George Essig
+author_url: https://github.com/gessig
 variant: dark
 color_01: '#282C34'
 color_02: '#83A598'

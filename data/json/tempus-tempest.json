@@ -1,6 +1,8 @@
 {
   "name": "Tempus Tempest",
   "author": "Protesilaos Stavrou (https://protesilaos.com)",
+  "author_name": "Protesilaos Stavrou",
+  "author_url": "https://protesilaos.com",
   "variant": "dark",
   "color_01": "#282B2B",
   "color_02": "#CFC80A",

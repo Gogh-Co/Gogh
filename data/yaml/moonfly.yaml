@@ -1,5 +1,7 @@
 name: Moonfly
 author: bluz71 (https://github.com/bluz71/vim-moonfly-colors)
+author_name: bluz71
+author_url: https://github.com/bluz71/vim-moonfly-colors
 variant: dark
 color_01: '#323437'
 color_02: '#FF5454'

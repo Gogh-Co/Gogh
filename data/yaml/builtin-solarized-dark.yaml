@@ -1,5 +1,7 @@
 name: Builtin Solarized Dark
 author: FredHappyface (https://github.com/fredHappyface)
+author_name: FredHappyface
+author_url: https://github.com/fredHappyface
 variant: dark
 color_01: '#002B36'
 color_02: '#DC322F'

@@ -1,6 +1,8 @@
 {
   "name": "Purple Rain",
   "author": "msorre2 (https://github.com/msorre2)",
+  "author_name": "msorre2",
+  "author_url": "https://github.com/msorre2",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FF260E",

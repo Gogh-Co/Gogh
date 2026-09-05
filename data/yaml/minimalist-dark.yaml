@@ -1,5 +1,7 @@
 name: Minimalist Dark
 author: Gabriel Soares (https://github.com/Gabrielsoac)
+author_name: Gabriel Soares
+author_url: https://github.com/Gabrielsoac
 variant: dark
 color_01: '#F5F5F5'
 color_02: '#B81414'

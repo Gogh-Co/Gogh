@@ -1,5 +1,7 @@
 name: Vesper
 author: raunofreiberg (https://github.com/raunofreiberg)
+author_name: raunofreiberg
+author_url: https://github.com/raunofreiberg
 variant: dark
 color_01: '#101010'
 color_02: '#F5A191'

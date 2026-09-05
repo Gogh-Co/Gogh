@@ -1,6 +1,8 @@
 {
   "name": "Onenord",
   "author": "Ryan Mehri (https://github.com/rmehri01/onenord.nvim)",
+  "author_name": "Ryan Mehri",
+  "author_url": "https://github.com/rmehri01/onenord.nvim",
   "variant": "dark",
   "color_01": "#3B4252",
   "color_02": "#E06C75",

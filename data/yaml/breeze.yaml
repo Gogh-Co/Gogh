@@ -1,5 +1,7 @@
 name: Breeze
 author: KDE (https://kde.org)
+author_name: KDE
+author_url: https://kde.org
 variant: dark
 color_01: '#31363B'
 color_02: '#ED1515'

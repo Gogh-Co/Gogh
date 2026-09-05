@@ -1,5 +1,7 @@
 name: Tokyodark
 author: Jamy Golden, Based on Tokyodark.nvim (https://github.com/JamyGolden)
+author_name: Jamy Golden, Based on Tokyodark.nvim
+author_url: https://github.com/JamyGolden
 variant: dark
 color_01: '#11121D'
 color_02: '#EE6D85'

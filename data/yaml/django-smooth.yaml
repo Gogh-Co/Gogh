@@ -1,5 +1,7 @@
 name: Django Smooth
 author: Jannis Leidel (https://code.djangoproject.com/wiki/TextMate)
+author_name: Jannis Leidel
+author_url: https://code.djangoproject.com/wiki/TextMate
 variant: dark
 color_01: '#000000'
 color_02: '#FD6209'

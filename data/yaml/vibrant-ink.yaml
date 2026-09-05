@@ -1,5 +1,7 @@
 name: Vibrant Ink
 author: asanghi (https://github.com/asanghi/vibrantinklion)
+author_name: asanghi
+author_url: https://github.com/asanghi/vibrantinklion
 variant: dark
 color_01: '#878787'
 color_02: '#FF6600'

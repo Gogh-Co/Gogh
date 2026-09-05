@@ -1,6 +1,8 @@
 {
   "name": "Terracotta Dark",
   "author": "Alexander Rossell Hayes (https://github.com/rossellhayes)",
+  "author_name": "Alexander Rossell Hayes",
+  "author_url": "https://github.com/rossellhayes",
   "variant": "dark",
   "color_01": "#241D1A",
   "color_02": "#F6998F",

@@ -1,5 +1,7 @@
 name: Outrun Electric
 author: samrap (https://github.com/samrap/outrun-theme-vscode)
+author_name: samrap
+author_url: https://github.com/samrap/outrun-theme-vscode
 variant: dark
 color_01: '#131033'
 color_02: '#E61F44'

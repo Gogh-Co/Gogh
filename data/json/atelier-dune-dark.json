@@ -1,6 +1,8 @@
 {
   "name": "Atelier Dune Dark",
   "author": "Bram de Haan (https://github.com/atelierbram)",
+  "author_name": "Bram de Haan",
+  "author_url": "https://github.com/atelierbram",
   "variant": "dark",
   "color_01": "#20201D",
   "color_02": "#D73737",

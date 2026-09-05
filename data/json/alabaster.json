@@ -1,6 +1,8 @@
 {
   "name": "Alabaster",
   "author": "mkaschenko (https://github.com/mkaschenko)",
+  "author_name": "mkaschenko",
+  "author_url": "https://github.com/mkaschenko",
   "variant": "light",
   "color_01": "#000000",
   "color_02": "#AA3731",

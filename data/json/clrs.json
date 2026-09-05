@@ -1,6 +1,8 @@
 {
   "name": "CLRS",
   "author": "jasonlong (https://github.com/jasonlong/iterm-clrs)",
+  "author_name": "jasonlong",
+  "author_url": "https://github.com/jasonlong/iterm-clrs",
   "variant": "light",
   "color_01": "#000000",
   "color_02": "#F8282A",

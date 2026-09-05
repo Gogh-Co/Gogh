@@ -1,6 +1,8 @@
 {
   "name": "Digital Rain",
   "author": "Nathan Byrd (https://github.com/cognitivegears)",
+  "author_name": "Nathan Byrd",
+  "author_url": "https://github.com/cognitivegears",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#C85A46",

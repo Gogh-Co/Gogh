@@ -1,6 +1,8 @@
 {
   "name": "Sublette",
   "author": "sublee (https://github.com/sublee)",
+  "author_name": "sublee",
+  "author_url": "https://github.com/sublee",
   "variant": "dark",
   "color_01": "#253045",
   "color_02": "#EE5577",

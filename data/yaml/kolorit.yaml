@@ -1,5 +1,7 @@
 name: Kolorit
 author: thomaspaulmann (https://github.com/thomaspaulmann)
+author_name: thomaspaulmann
+author_url: https://github.com/thomaspaulmann
 variant: dark
 color_01: '#1D1A1E'
 color_02: '#FF5B82'

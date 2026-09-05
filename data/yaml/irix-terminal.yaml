@@ -1,5 +1,7 @@
 name: IRIX Terminal
 author: Skeeve (https://github.com/Skeeve)
+author_name: Skeeve
+author_url: https://github.com/Skeeve
 variant: dark
 color_01: '#1A1919'
 color_02: '#FF2B1E'

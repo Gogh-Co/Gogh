@@ -1,6 +1,8 @@
 {
   "name": "Espresso Libre",
   "author": "jurgemaister (https://github.com/jurgemaister/Espresso-Libre)",
+  "author_name": "jurgemaister",
+  "author_url": "https://github.com/jurgemaister/Espresso-Libre",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#CC0000",

@@ -1,6 +1,8 @@
 {
   "name": "Phd",
   "author": "Hennig Hasemann (http://leetless.de/vim.html)",
+  "author_name": "Hennig Hasemann",
+  "author_url": "http://leetless.de/vim.html",
   "variant": "dark",
   "color_01": "#061229",
   "color_02": "#D07346",

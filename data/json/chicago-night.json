@@ -1,6 +1,8 @@
 {
   "name": "Chicago Night",
   "author": "Wendell, Ryan",
+  "author_name": "Wendell, Ryan",
+  "author_url": "",
   "variant": "dark",
   "color_01": "#1E2A24",
   "color_02": "#C60C30",

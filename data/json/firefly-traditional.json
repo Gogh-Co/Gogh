@@ -1,6 +1,8 @@
 {
   "name": "Firefly Traditional",
   "author": "Seunghun Thomas Lee (https://github.com/stlee42)",
+  "author_name": "Seunghun Thomas Lee",
+  "author_url": "https://github.com/stlee42",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#C23720",

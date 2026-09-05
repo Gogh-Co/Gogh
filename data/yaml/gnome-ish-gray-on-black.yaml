@@ -1,5 +1,7 @@
 name: Gnome Ish Gray On Black
 author: Ittner (https://www.ittner.com.br)
+author_name: Ittner
+author_url: https://www.ittner.com.br
 variant: dark
 color_01: '#1E1E1E'
 color_02: '#C01C28'

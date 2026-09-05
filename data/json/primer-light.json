@@ -1,6 +1,8 @@
 {
   "name": "Primer Light",
   "author": "Jimmy Lin",
+  "author_name": "Jimmy Lin",
+  "author_url": "",
   "variant": "light",
   "color_01": "#FAFBFC",
   "color_02": "#D73A49",

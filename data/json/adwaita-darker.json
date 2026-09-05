@@ -1,6 +1,8 @@
 {
   "name": "Adwaita Darker",
   "author": "Emil L\u00f6fquist (https://github.com/ewal)",
+  "author_name": "Emil L\u00f6fquist",
+  "author_url": "https://github.com/ewal",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#ED333B",

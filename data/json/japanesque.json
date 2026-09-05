@@ -1,6 +1,8 @@
 {
   "name": "Japanesque",
   "author": "aereal (https://github.com/aereal/dotfiles/blob/master/colors/Japanesque/Japanesque.itermcolors)",
+  "author_name": "aereal",
+  "author_url": "https://github.com/aereal/dotfiles/blob/master/colors/Japanesque/Japanesque.itermcolors",
   "variant": "dark",
   "color_01": "#343935",
   "color_02": "#CF3F61",

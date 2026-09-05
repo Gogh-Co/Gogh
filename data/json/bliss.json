@@ -1,6 +1,8 @@
 {
   "name": "Bliss",
   "author": "Joshua Jon, Eric Johnson",
+  "author_name": "Joshua Jon, Eric Johnson",
+  "author_url": "",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FF6F8D",

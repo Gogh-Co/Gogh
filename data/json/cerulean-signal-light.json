@@ -1,6 +1,8 @@
 {
   "name": "Cerulean Signal Light",
   "author": "Aaron Colichia (https://aaron.colichia.org/)",
+  "author_name": "Aaron Colichia",
+  "author_url": "https://aaron.colichia.org/",
   "variant": "light",
   "color_01": "#F7F9FC",
   "color_02": "#B4233D",

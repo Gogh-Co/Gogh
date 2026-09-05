@@ -1,5 +1,7 @@
 name: Wez
 author: wez (https://gist.github.com/wez/850268/)
+author_name: wez
+author_url: https://gist.github.com/wez/850268/
 variant: dark
 color_01: '#000000'
 color_02: '#CC5555'

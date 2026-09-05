@@ -1,5 +1,7 @@
 name: Onenord Light
 author: Ryan Mehri (https://github.com/rmehri01/onenord.nvim)
+author_name: Ryan Mehri
+author_url: https://github.com/rmehri01/onenord.nvim
 variant: light
 color_01: '#2E3440'
 color_02: '#CB4F53'

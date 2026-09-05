@@ -1,6 +1,8 @@
 {
   "name": "Paraiso Dark",
   "author": "idleberg (https://github.com/idleberg)",
+  "author_name": "idleberg",
+  "author_url": "https://github.com/idleberg",
   "variant": "dark",
   "color_01": "#2F1E2E",
   "color_02": "#EF6155",

@@ -1,5 +1,7 @@
 name: Onedark Dark
 author: olimorris (https://github.com/olimorris)
+author_name: olimorris
+author_url: https://github.com/olimorris
 variant: dark
 color_01: '#000000'
 color_02: '#EF596F'

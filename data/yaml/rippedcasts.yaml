@@ -1,5 +1,7 @@
 name: Rippedcasts
 author: mdw123 (https://github.com/mdw123/rippedcasts)
+author_name: mdw123
+author_url: https://github.com/mdw123/rippedcasts
 variant: dark
 color_01: '#000000'
 color_02: '#CDAF95'

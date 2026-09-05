@@ -1,6 +1,8 @@
 {
   "name": "urban",
   "author": "dkeg (https://github.com/dkeg/crayolo)",
+  "author_name": "dkeg",
+  "author_url": "https://github.com/dkeg/crayolo",
   "variant": "dark",
   "color_01": "#32303A",
   "color_02": "#7E444F",

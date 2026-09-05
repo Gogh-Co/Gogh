@@ -1,6 +1,8 @@
 {
   "name": "Chinoiserie",
   "author": "Di Wang (https://cs.cmu.edu/~diw3)",
+  "author_name": "Di Wang",
+  "author_url": "https://cs.cmu.edu/~diw3",
   "variant": "light",
   "color_01": "#FFFFFF",
   "color_02": "#C04851",

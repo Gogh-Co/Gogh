@@ -1,6 +1,8 @@
 {
   "name": "Deep",
   "author": "ADoyle (https://github.com/adoyle-h)",
+  "author_name": "ADoyle",
+  "author_url": "https://github.com/adoyle-h",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#D70005",

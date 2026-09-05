@@ -1,6 +1,8 @@
 {
   "name": "Aura",
   "author": "daltonmenezes (https://github.com/daltonmenezes)",
+  "author_name": "daltonmenezes",
+  "author_url": "https://github.com/daltonmenezes",
   "variant": "dark",
   "color_01": "#110F18",
   "color_02": "#FF6767",

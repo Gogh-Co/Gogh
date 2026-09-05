@@ -1,6 +1,8 @@
 {
   "name": "Cobalt2",
   "author": "wesbos (https://github.com/wesbos/Cobalt2-iterm)",
+  "author_name": "wesbos",
+  "author_url": "https://github.com/wesbos/Cobalt2-iterm",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FF0000",

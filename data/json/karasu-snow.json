@@ -1,6 +1,8 @@
 {
   "name": "Karasu Snow",
   "author": "scozu (https://github.com/scozu)",
+  "author_name": "scozu",
+  "author_url": "https://github.com/scozu",
   "variant": "light",
   "color_01": "#0A0A0A",
   "color_02": "#B84755",

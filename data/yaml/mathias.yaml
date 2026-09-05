@@ -1,5 +1,7 @@
 name: Mathias
 author: mathiasbynens (https://github.com/mathiasbynens/dotfiles)
+author_name: mathiasbynens
+author_url: https://github.com/mathiasbynens/dotfiles
 variant: dark
 color_01: '#000000'
 color_02: '#E52222'

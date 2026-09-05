@@ -1,5 +1,7 @@
 name: Atelier Heath
 author: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath)
+author_name: Bram de Haan
+author_url: http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath
 variant: dark
 color_01: '#1B181B'
 color_02: '#CA402B'

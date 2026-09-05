@@ -1,6 +1,8 @@
 {
   "name": "Penumbra Dark Contrast Plus",
   "author": "Zachary Weiss (https://github.com/zacharyweiss)",
+  "author_name": "Zachary Weiss",
+  "author_url": "https://github.com/zacharyweiss",
   "variant": "dark",
   "color_01": "#181B1F",
   "color_02": "#DF7F78",

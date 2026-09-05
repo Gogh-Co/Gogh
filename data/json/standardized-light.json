@@ -1,6 +1,8 @@
 {
   "name": "Standardized Light",
   "author": "ali (https://github.com/ali-githb/base16-standardized-scheme)",
+  "author_name": "ali",
+  "author_url": "https://github.com/ali-githb/base16-standardized-scheme",
   "variant": "light",
   "color_01": "#FFFFFF",
   "color_02": "#D03E3E",

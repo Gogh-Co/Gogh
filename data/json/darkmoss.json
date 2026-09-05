@@ -1,6 +1,8 @@
 {
   "name": "Darkmoss",
   "author": "Gabriel Avanzi (https://github.com/avanzzzi)",
+  "author_name": "Gabriel Avanzi",
+  "author_url": "https://github.com/avanzzzi",
   "variant": "dark",
   "color_01": "#171E1F",
   "color_02": "#FF4658",

@@ -1,5 +1,7 @@
 name: Patina Dark
 author: lmarkmann (https://github.com/lmarkmann)
+author_name: lmarkmann
+author_url: https://github.com/lmarkmann
 variant: dark
 color_01: '#2E2E2E'
 color_02: '#CB7676'

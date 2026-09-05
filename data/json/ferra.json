@@ -1,6 +1,8 @@
 {
   "name": "Ferra",
   "author": "eureka-cpu \u00b7 (https://github.com/eureka-cpu)",
+  "author_name": "eureka-cpu \u00b7",
+  "author_url": "https://github.com/eureka-cpu",
   "variant": "dark",
   "color_01": "#1F1E20",
   "color_02": "#C05862",

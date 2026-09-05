@@ -1,5 +1,7 @@
 name: Grayscale Light
 author: Alexandre Gavioli (https://github.com/Alexx2/)
+author_name: Alexandre Gavioli
+author_url: https://github.com/Alexx2/
 variant: light
 color_01: '#F7F7F7'
 color_02: '#7C7C7C'

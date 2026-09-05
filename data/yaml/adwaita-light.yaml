@@ -1,5 +1,7 @@
 name: Adwaita Light
 author: Emil Löfquist (https://github.com/ewal)
+author_name: Emil Löfquist
+author_url: https://github.com/ewal
 variant: light
 color_01: '#FCFCFC'
 color_02: '#ED333B'

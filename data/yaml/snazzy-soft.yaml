@@ -1,5 +1,7 @@
 name: Snazzy Soft
 author: liby (https://github.com/liby)
+author_name: liby
+author_url: https://github.com/liby
 variant: dark
 color_01: '#000000'
 color_02: '#FF5C57'

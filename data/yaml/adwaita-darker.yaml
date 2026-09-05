@@ -1,5 +1,7 @@
 name: Adwaita Darker
 author: Emil Löfquist (https://github.com/ewal)
+author_name: Emil Löfquist
+author_url: https://github.com/ewal
 variant: dark
 color_01: '#000000'
 color_02: '#ED333B'

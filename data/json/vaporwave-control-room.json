@@ -1,6 +1,8 @@
 {
   "name": "Vaporwave Control Room",
   "author": "Alex Bachlej (https://alexbachlej.com)",
+  "author_name": "Alex Bachlej",
+  "author_url": "https://alexbachlej.com",
   "variant": "light",
   "color_01": "#393552",
   "color_02": "#B50134",

@@ -1,6 +1,8 @@
 {
   "name": "Modus Operandi Tritanopia",
   "author": "Protesilaos Stavrou (https://github.com/protesilaos)",
+  "author_name": "Protesilaos Stavrou",
+  "author_url": "https://github.com/protesilaos",
   "variant": "light",
   "color_01": "#000000",
   "color_02": "#A60000",

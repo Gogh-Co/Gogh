@@ -1,5 +1,7 @@
 name: Colors
 author: mrmrs (http://clrs.cc)
+author_name: mrmrs
+author_url: http://clrs.cc
 variant: dark
 color_01: '#111111'
 color_02: '#FF4136'

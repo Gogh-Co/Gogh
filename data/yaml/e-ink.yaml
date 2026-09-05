@@ -1,5 +1,7 @@
 name: E Ink
 author: Algilbert Gomez (https://github.com/alexxGmZ)
+author_name: Algilbert Gomez
+author_url: https://github.com/alexxGmZ
 variant: light
 color_01: '#CCCCCC'
 color_02: '#333333'

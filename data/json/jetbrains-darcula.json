@@ -1,6 +1,8 @@
 {
   "name": "JetBrains Darcula",
   "author": "vitstr (https://github.com/vitstr)",
+  "author_name": "vitstr",
+  "author_url": "https://github.com/vitstr",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FA5355",

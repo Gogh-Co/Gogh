@@ -1,5 +1,7 @@
 name: Cyberpunk
 author: Murderlon (https://github.com/Murderlon/cyberpunk-iterm)
+author_name: Murderlon
+author_url: https://github.com/Murderlon/cyberpunk-iterm
 variant: dark
 color_01: '#000000'
 color_02: '#FF7092'

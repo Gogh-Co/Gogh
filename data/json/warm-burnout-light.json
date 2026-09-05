@@ -1,6 +1,8 @@
 {
   "name": "Warm Burnout Light",
   "author": "Felipe Lima (https://github.com/felipefdl)",
+  "author_name": "Felipe Lima",
+  "author_url": "https://github.com/felipefdl",
   "variant": "light",
   "color_01": "#3A3630",
   "color_02": "#B82820",

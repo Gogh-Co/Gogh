@@ -1,6 +1,8 @@
 {
   "name": "Default Dark",
   "author": "Chris Kempson (http://chriskempson.com)",
+  "author_name": "Chris Kempson",
+  "author_url": "http://chriskempson.com",
   "variant": "dark",
   "color_01": "#181818",
   "color_02": "#AB4642",

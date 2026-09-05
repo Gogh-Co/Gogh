@@ -1,5 +1,7 @@
 name: Unikitty
 author: jakebathman (https://github.com/jakebathman)
+author_name: jakebathman
+author_url: https://github.com/jakebathman
 variant: light
 color_01: '#0C0C0C'
 color_02: '#A80F20'

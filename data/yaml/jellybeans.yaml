@@ -1,5 +1,7 @@
 name: Jellybeans
 author: qtpi (https://github.com/qtpi/Jellybeans.itermcolors)
+author_name: qtpi
+author_url: https://github.com/qtpi/Jellybeans.itermcolors
 variant: dark
 color_01: '#929292'
 color_02: '#E27373'

@@ -1,6 +1,8 @@
 {
   "name": "Eclipse",
   "author": "PoshPalette (https://github.com/livlign/posh-palette)",
+  "author_name": "PoshPalette",
+  "author_url": "https://github.com/livlign/posh-palette",
   "variant": "dark",
   "color_01": "#0A0D12",
   "color_02": "#FF6366",

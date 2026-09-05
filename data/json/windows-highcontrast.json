@@ -1,6 +1,8 @@
 {
   "name": "Windows Highcontrast",
   "author": "Fergus Collins (https://github.com/ferguscollins)",
+  "author_name": "Fergus Collins",
+  "author_url": "https://github.com/ferguscollins",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FC5454",

@@ -1,6 +1,8 @@
 {
   "name": "Adwaita",
   "author": "cnavajas (https://github.com/cnavajas)",
+  "author_name": "cnavajas",
+  "author_url": "https://github.com/cnavajas",
   "variant": "light",
   "color_01": "#1D1D20",
   "color_02": "#C01C28",

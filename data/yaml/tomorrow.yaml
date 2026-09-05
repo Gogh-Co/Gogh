@@ -1,5 +1,7 @@
 name: Tomorrow
 author: Chris Kempson (http://chriskempson.com)
+author_name: Chris Kempson
+author_url: http://chriskempson.com
 variant: light
 color_01: '#000000'
 color_02: '#C82829'

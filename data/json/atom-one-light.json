@@ -1,6 +1,8 @@
 {
   "name": "Atom One Light",
   "author": "iamstarkov (https://github.com/iamstarkov)",
+  "author_name": "iamstarkov",
+  "author_url": "https://github.com/iamstarkov",
   "variant": "light",
   "color_01": "#000000",
   "color_02": "#DE3E35",

@@ -1,6 +1,8 @@
 {
   "name": "Gruvbox Light Medium",
   "author": "Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)",
+  "author_name": "Dawid Kurek (dawikur@gmail.com), morhetz",
+  "author_url": "https://github.com/morhetz/gruvbox",
   "variant": "light",
   "color_01": "#FBF1C7",
   "color_02": "#9D0006",

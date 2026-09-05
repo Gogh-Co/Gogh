@@ -1,5 +1,7 @@
 name: Acme
 author: plan9-for-vimspace (https://github.com/plan9-for-vimspace/acme-colors)
+author_name: plan9-for-vimspace
+author_url: https://github.com/plan9-for-vimspace/acme-colors
 variant: light
 color_01: '#101010'
 color_02: '#303030'

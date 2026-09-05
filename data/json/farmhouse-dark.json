@@ -1,6 +1,8 @@
 {
   "name": "Farmhouse Dark",
   "author": "mattly (https://github.com/mattly)",
+  "author_name": "mattly",
+  "author_url": "https://github.com/mattly",
   "variant": "dark",
   "color_01": "#1D2027",
   "color_02": "#BA0004",

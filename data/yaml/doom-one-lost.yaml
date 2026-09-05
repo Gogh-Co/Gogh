@@ -1,5 +1,7 @@
 name: Doom One Lost
 author: Henrik Lissner
+author_name: Henrik Lissner
+author_url: https://github.com/hlissner
 variant: dark
 color_01: '#1B2229'
 color_02: '#FF6C6B'

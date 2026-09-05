@@ -1,6 +1,8 @@
 {
   "name": "Karma Light Dimmed",
   "author": "Sreetam Das (https://github.com/sreetamdas)",
+  "author_name": "Sreetam Das",
+  "author_url": "https://github.com/sreetamdas",
   "variant": "light",
   "color_01": "#1C1F24",
   "color_02": "#E07A90",

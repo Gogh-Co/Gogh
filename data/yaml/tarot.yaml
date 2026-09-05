@@ -1,5 +1,7 @@
 name: Tarot
 author: ed (https://codeberg.org/ed)
+author_name: ed
+author_url: https://codeberg.org/ed
 variant: dark
 color_01: '#0E091D'
 color_02: '#C53253'

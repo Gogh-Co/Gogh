@@ -1,6 +1,8 @@
 {
   "name": "Solarized Dark",
   "author": "Ethan Schoonover (https://github.com/altercation/solarized)",
+  "author_name": "Ethan Schoonover",
+  "author_url": "https://github.com/altercation/solarized",
   "variant": "dark",
   "color_01": "#002831",
   "color_02": "#D11C24",

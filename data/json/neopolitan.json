@@ -1,6 +1,8 @@
 {
   "name": "Neopolitan",
   "author": "daytonn (https://github.com/daytonn/iTerm2-Color-Schemes)",
+  "author_name": "daytonn",
+  "author_url": "https://github.com/daytonn/iTerm2-Color-Schemes",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#800000",

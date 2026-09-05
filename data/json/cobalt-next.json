@@ -1,6 +1,8 @@
 {
   "name": "Cobalt Next",
   "author": "davidleininger (https://github.com/davidleininger/cobaltnext-vscode)",
+  "author_name": "davidleininger",
+  "author_url": "https://github.com/davidleininger/cobaltnext-vscode",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#ED5F7D",

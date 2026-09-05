@@ -1,5 +1,7 @@
 name: Glacier
 author: bahlo (https://github.com/bahlo/iterm-colors)
+author_name: bahlo
+author_url: https://github.com/bahlo/iterm-colors
 variant: dark
 color_01: '#2E343C'
 color_02: '#BD0F2F'

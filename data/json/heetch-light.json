@@ -1,6 +1,8 @@
 {
   "name": "Heetch Light",
   "author": "Geoffrey Teale (tealeg@gmail.com), Tinted Theming (https://github.com/tinted-theming)",
+  "author_name": "Geoffrey Teale (tealeg@gmail.com), Tinted Theming",
+  "author_url": "https://github.com/tinted-theming",
   "variant": "light",
   "color_01": "#FEFFFF",
   "color_02": "#F80059",

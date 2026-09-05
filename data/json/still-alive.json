@@ -1,6 +1,8 @@
 {
   "name": "Still Alive",
   "author": "Derrick McKee (derrick.mckee@gmail.com), Tinted Theming (https://github.com/tinted-theming)",
+  "author_name": "Derrick McKee (derrick.mckee@gmail.com), Tinted Theming",
+  "author_url": "https://github.com/tinted-theming",
   "variant": "light",
   "color_01": "#F0F0F0",
   "color_02": "#D80000",

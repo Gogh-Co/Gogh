@@ -1,6 +1,8 @@
 {
   "name": "Eldritch",
   "author": "Eldritch Theme (https://github.com/eldritch-theme)",
+  "author_name": "Eldritch Theme",
+  "author_url": "https://github.com/eldritch-theme",
   "variant": "dark",
   "color_01": "#212337",
   "color_02": "#F16C75",

@@ -1,5 +1,7 @@
 name: Mountain
 author: Stefan Weigl-Bosker, based on Mountain Theme (https://github.com/sweiglbosker)
+author_name: Stefan Weigl-Bosker, based on Mountain Theme
+author_url: https://github.com/sweiglbosker
 variant: dark
 color_01: '#0F0F0F'
 color_02: '#AC8A8C'

@@ -1,6 +1,8 @@
 {
   "name": "Sea Shells",
   "author": "zdj (https://github.com/zdj/themes/tree/master/iterm2)",
+  "author_name": "zdj",
+  "author_url": "https://github.com/zdj/themes/tree/master/iterm2",
   "variant": "dark",
   "color_01": "#17384C",
   "color_02": "#D15123",

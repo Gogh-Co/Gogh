@@ -1,5 +1,7 @@
 name: Darkside
 author: bahlo (https://github.com/bahlo/iterm-colors)
+author_name: bahlo
+author_url: https://github.com/bahlo/iterm-colors
 variant: dark
 color_01: '#000000'
 color_02: '#E8341C'

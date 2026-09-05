@@ -1,5 +1,7 @@
 name: Horizon Terminal Dark
 author: Michaël Ball (http://github.com/michael-ball/)
+author_name: Michaël Ball
+author_url: http://github.com/michael-ball/
 variant: dark
 color_01: '#1C1E26'
 color_02: '#E95678'

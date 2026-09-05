@@ -1,5 +1,7 @@
 name: TokyoNight Day
 author: folke (https://github.com/folke/tokyonight.nvim)
+author_name: folke
+author_url: https://github.com/folke/tokyonight.nvim
 variant: light
 color_01: '#E9E9ED'
 color_02: '#F52A65'

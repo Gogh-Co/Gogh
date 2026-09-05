@@ -1,6 +1,8 @@
 {
   "name": "branch",
   "author": "dkeg (https://github.com/dkeg/crayolo)",
+  "author_name": "dkeg",
+  "author_url": "https://github.com/dkeg/crayolo",
   "variant": "dark",
   "color_01": "#32251D",
   "color_02": "#B55C38",

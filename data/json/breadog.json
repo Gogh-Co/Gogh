@@ -1,6 +1,8 @@
 {
   "name": "Breadog",
   "author": "Ruby Klover (https://gitlab.com/warningnonpotablewater/breadog)",
+  "author_name": "Ruby Klover",
+  "author_url": "https://gitlab.com/warningnonpotablewater/breadog",
   "variant": "light",
   "color_01": "#362C24",
   "color_02": "#B10B00",

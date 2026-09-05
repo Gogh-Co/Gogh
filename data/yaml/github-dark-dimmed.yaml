@@ -1,5 +1,7 @@
 name: GitHub Dark Dimmed
 author: Antonio Camargo (https://github.com/apcamargo)
+author_name: Antonio Camargo
+author_url: https://github.com/apcamargo
 variant: dark
 color_01: '#545D68'
 color_02: '#F47067'

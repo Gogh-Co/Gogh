@@ -1,5 +1,7 @@
 name: Railscasts
 author: Ryan Bates (http://railscasts.com)
+author_name: Ryan Bates
+author_url: http://railscasts.com
 variant: dark
 color_01: '#2B2B2B'
 color_02: '#DA4939'

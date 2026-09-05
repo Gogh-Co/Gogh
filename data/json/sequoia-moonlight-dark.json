@@ -1,6 +1,8 @@
 {
   "name": "Sequoia Moonlight Dark",
   "author": "Michael Andreuzza (https://github.com/michael-andreuzza)",
+  "author_name": "Michael Andreuzza",
+  "author_url": "https://github.com/michael-andreuzza",
   "variant": "dark",
   "color_01": "#131317",
   "color_02": "#F58EE0",

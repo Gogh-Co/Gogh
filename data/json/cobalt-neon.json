@@ -1,6 +1,8 @@
 {
   "name": "Cobalt Neon",
   "author": "vazquez (https://github.com/vazquez/cobalt-neon-iterm)",
+  "author_name": "vazquez",
+  "author_url": "https://github.com/vazquez/cobalt-neon-iterm",
   "variant": "dark",
   "color_01": "#142631",
   "color_02": "#FF2320",

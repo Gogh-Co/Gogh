@@ -1,5 +1,7 @@
 name: Kanso Mist
 author: webhooked (https://github.com/webhooked)
+author_name: webhooked
+author_url: https://github.com/webhooked
 variant: dark
 color_01: '#22262D'
 color_02: '#C4746E'

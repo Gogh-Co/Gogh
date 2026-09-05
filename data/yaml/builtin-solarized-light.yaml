@@ -1,5 +1,7 @@
 name: Builtin Solarized Light
 author: FredHappyface (https://github.com/fredHappyface)
+author_name: FredHappyface
+author_url: https://github.com/fredHappyface
 variant: light
 color_01: '#FDF6E3'
 color_02: '#DC322F'

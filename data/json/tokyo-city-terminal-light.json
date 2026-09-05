@@ -1,6 +1,8 @@
 {
   "name": "Tokyo City Terminal Light",
   "author": "Micha\u00ebl Ball",
+  "author_name": "Micha\u00ebl Ball",
+  "author_url": "",
   "variant": "light",
   "color_01": "#FBFBFD",
   "color_02": "#8C4351",

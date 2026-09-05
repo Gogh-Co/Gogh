@@ -1,6 +1,8 @@
 {
   "name": "Noctis Lux",
   "author": "Liviu Schera (https://github.com/liviuschera)",
+  "author_name": "Liviu Schera",
+  "author_url": "https://github.com/liviuschera",
   "variant": "light",
   "color_01": "#003B42",
   "color_02": "#E34E1C",

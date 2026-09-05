@@ -1,6 +1,8 @@
 {
   "name": "Pinky",
   "author": "Benjamin (https://github.com/b3nj5m1n)",
+  "author_name": "Benjamin",
+  "author_url": "https://github.com/b3nj5m1n",
   "variant": "dark",
   "color_01": "#171517",
   "color_02": "#FFA600",

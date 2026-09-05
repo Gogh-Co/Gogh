@@ -1,5 +1,7 @@
 name: Belafonte Day
 author: idleberg (https://github.com/idleberg)
+author_name: idleberg
+author_url: https://github.com/idleberg
 variant: light
 color_01: '#20111B'
 color_02: '#BE100E'

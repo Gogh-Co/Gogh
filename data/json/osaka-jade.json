@@ -1,6 +1,8 @@
 {
   "name": "Osaka Jade",
   "author": "Charles Kellogg",
+  "author_name": "Charles Kellogg",
+  "author_url": "",
   "variant": "dark",
   "color_01": "#23372B",
   "color_02": "#FF5345",

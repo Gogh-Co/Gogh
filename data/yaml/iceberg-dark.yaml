@@ -1,5 +1,7 @@
 name: Iceberg Dark
 author: cocopon (https://github.com/cocopon/iceberg.vim)
+author_name: cocopon
+author_url: https://github.com/cocopon/iceberg.vim
 variant: dark
 color_01: '#1E2132'
 color_02: '#E27878'

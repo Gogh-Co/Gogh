@@ -1,5 +1,7 @@
 name: Idea
 author: ''
+author_name: ''
+author_url: ''
 variant: dark
 color_01: '#ADADAD'
 color_02: '#FC5256'

@@ -1,6 +1,8 @@
 {
   "name": "Wombat",
   "author": "djoyner (https://github.com/djoyner/iTerm2-wombat)",
+  "author_name": "djoyner",
+  "author_url": "https://github.com/djoyner/iTerm2-wombat",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FF615A",

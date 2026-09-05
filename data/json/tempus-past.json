@@ -1,6 +1,8 @@
 {
   "name": "Tempus Past",
   "author": "Protesilaos Stavrou (https://protesilaos.com)",
+  "author_name": "Protesilaos Stavrou",
+  "author_url": "https://protesilaos.com",
   "variant": "light",
   "color_01": "#53545B",
   "color_02": "#C00C50",

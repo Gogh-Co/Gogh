@@ -1,5 +1,7 @@
 name: Pencil Light
 author: mattly (https://github.com/mattly/iterm-colors-pencil)
+author_name: mattly
+author_url: https://github.com/mattly/iterm-colors-pencil
 variant: light
 color_01: '#212121'
 color_02: '#C30771'

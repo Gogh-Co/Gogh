@@ -1,6 +1,8 @@
 {
   "name": "Doom One Light",
   "author": "Henrik Lissner (https://github.com/hlissner)",
+  "author_name": "Henrik Lissner",
+  "author_url": "https://github.com/hlissner",
   "variant": "light",
   "color_01": "#383A42",
   "color_02": "#E45649",

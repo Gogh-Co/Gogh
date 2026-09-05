@@ -1,6 +1,8 @@
 {
   "name": "datum (light)",
   "author": "w0zro (https://github.com/w0zro)",
+  "author_name": "w0zro",
+  "author_url": "https://github.com/w0zro",
   "variant": "light",
   "color_01": "#292E35",
   "color_02": "#A24500",

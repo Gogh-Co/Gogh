@@ -1,6 +1,8 @@
 {
   "name": "Monokai Pro Light",
   "author": "Monokai (https://monokai.com/)",
+  "author_name": "Monokai",
+  "author_url": "https://monokai.com/",
   "variant": "light",
   "color_01": "#FAF4F2",
   "color_02": "#E14775",

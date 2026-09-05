@@ -1,5 +1,7 @@
 name: Atelier Lakeside Light
 author: Bram de Haan (http://atelierbramdehaan.nl)
+author_name: Bram de Haan
+author_url: http://atelierbramdehaan.nl
 variant: light
 color_01: '#EBF8FF'
 color_02: '#D22D72'

@@ -1,6 +1,8 @@
 {
   "name": "Brewer",
   "author": "Timoth\u00e9e Poisot (http://github.com/tpoisot)",
+  "author_name": "Timoth\u00e9e Poisot",
+  "author_url": "http://github.com/tpoisot",
   "variant": "dark",
   "color_01": "#0C0D0E",
   "color_02": "#E31A1C",

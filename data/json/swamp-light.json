@@ -1,6 +1,8 @@
 {
   "name": "Swamp Light",
   "author": "Masroof Maindak (https://github.com/masroof-maindak)",
+  "author_name": "Masroof Maindak",
+  "author_url": "https://github.com/masroof-maindak",
   "variant": "light",
   "color_01": "#F1E3D1",
   "color_02": "#D09700",

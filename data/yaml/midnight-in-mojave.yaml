@@ -1,5 +1,7 @@
 name: Midnight In Mojave
 author: OberstKrueger (https://github.com/oberstkrueger)
+author_name: OberstKrueger
+author_url: https://github.com/oberstkrueger
 variant: dark
 color_01: '#1E1E1E'
 color_02: '#FF453A'

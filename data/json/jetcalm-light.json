@@ -1,6 +1,8 @@
 {
   "name": "JetCalm Light",
   "author": "mtueih (https://github.com/mtueih)",
+  "author_name": "mtueih",
+  "author_url": "https://github.com/mtueih",
   "variant": "light",
   "color_01": "#383A42",
   "color_02": "#A52A2A",

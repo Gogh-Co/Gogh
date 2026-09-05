@@ -1,5 +1,7 @@
 name: Paul Millr
 author: paulmillr (https://github.com/paulmillr/dotfiles/tree/master/terminal)
+author_name: paulmillr
+author_url: https://github.com/paulmillr/dotfiles/tree/master/terminal
 variant: dark
 color_01: '#2A2A2A'
 color_02: '#FF0000'

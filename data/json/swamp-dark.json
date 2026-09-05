@@ -1,6 +1,8 @@
 {
   "name": "Swamp Dark",
   "author": "Masroof Maindak (https://github.com/masroof-maindak)",
+  "author_name": "Masroof Maindak",
+  "author_url": "https://github.com/masroof-maindak",
   "variant": "dark",
   "color_01": "#242015",
   "color_02": "#DB930D",

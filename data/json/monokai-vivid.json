@@ -1,6 +1,8 @@
 {
   "name": "Monokai Vivid",
   "author": "vitalymak (https://github.com/vitalymak/iTerm2-Color-Schemes)",
+  "author_name": "vitalymak",
+  "author_url": "https://github.com/vitalymak/iTerm2-Color-Schemes",
   "variant": "dark",
   "color_01": "#121212",
   "color_02": "#FA2934",

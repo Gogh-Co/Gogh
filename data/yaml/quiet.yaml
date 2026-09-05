@@ -1,5 +1,7 @@
 name: Quiet
 author: ''
+author_name: ''
+author_url: ''
 variant: dark
 color_01: '#141414'
 color_02: '#C16262'

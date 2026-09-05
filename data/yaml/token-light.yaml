@@ -1,5 +1,7 @@
 name: Token Light
 author: Thorsten Rhau (https://github.com/ThorstenRhau)
+author_name: Thorsten Rhau
+author_url: https://github.com/ThorstenRhau
 variant: light
 color_01: '#2A2920'
 color_02: '#B05555'

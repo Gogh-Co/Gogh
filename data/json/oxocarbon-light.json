@@ -1,6 +1,8 @@
 {
   "name": "Oxocarbon Light",
   "author": "shaunsingh/IBM, Tinted Theming (https://github.com/tinted-theming)",
+  "author_name": "shaunsingh/IBM, Tinted Theming",
+  "author_url": "https://github.com/tinted-theming",
   "variant": "light",
   "color_01": "#F2F4F8",
   "color_02": "#FF7EB6",

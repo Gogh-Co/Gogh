@@ -1,6 +1,8 @@
 {
   "name": "Summerfruit Light",
   "author": "Christopher Corley (http://christop.club/)",
+  "author_name": "Christopher Corley",
+  "author_url": "http://christop.club/",
   "variant": "light",
   "color_01": "#FFFFFF",
   "color_02": "#FF0086",

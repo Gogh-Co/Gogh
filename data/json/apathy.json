@@ -1,6 +1,8 @@
 {
   "name": "Apathy",
   "author": "Jannik Siebert (https://github.com/janniks)",
+  "author_name": "Jannik Siebert",
+  "author_url": "https://github.com/janniks",
   "variant": "dark",
   "color_01": "#031A16",
   "color_02": "#3E9688",

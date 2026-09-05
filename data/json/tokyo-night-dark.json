@@ -1,6 +1,8 @@
 {
   "name": "Tokyo Night Dark",
   "author": "Micha\u00ebl Ball, based on Tokyo Night by enkia (https://github.com/enkia/tokyo-night-vscode-theme)",
+  "author_name": "Micha\u00ebl Ball, based on Tokyo Night by enkia",
+  "author_url": "https://github.com/enkia/tokyo-night-vscode-theme",
   "variant": "dark",
   "color_01": "#1A1B26",
   "color_02": "#C0CAF5",

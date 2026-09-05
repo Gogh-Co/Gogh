@@ -1,5 +1,7 @@
 name: Monokai Remastered
 author: Monokai (https://monokai.com/)
+author_name: Monokai
+author_url: https://monokai.com/
 variant: dark
 color_01: '#1A1A1A'
 color_02: '#F4005F'

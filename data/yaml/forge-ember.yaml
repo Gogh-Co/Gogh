@@ -1,5 +1,7 @@
 name: Forge Ember
 author: PoshPalette (https://github.com/livlign/posh-palette)
+author_name: PoshPalette
+author_url: https://github.com/livlign/posh-palette
 variant: dark
 color_01: '#241810'
 color_02: '#FF4733'

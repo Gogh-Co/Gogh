@@ -1,6 +1,8 @@
 {
   "name": "Claude Light",
   "author": "techfitmaster (https://github.com/techfitmaster/ghostty-claude-theme)",
+  "author_name": "techfitmaster",
+  "author_url": "https://github.com/techfitmaster/ghostty-claude-theme",
   "variant": "light",
   "color_01": "#0A0A0A",
   "color_02": "#A84B3A",

@@ -1,5 +1,7 @@
 name: Neovim Dark
 author: Highlight Group.C (https://github.com/neovim/neovim/blob/master/src/nvim/highlight_group.c)
+author_name: Highlight Group.C
+author_url: https://github.com/neovim/neovim/blob/master/src/nvim/highlight_group.c
 variant: dark
 color_01: '#14161B'
 color_02: '#FFC0B9'

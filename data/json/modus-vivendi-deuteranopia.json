@@ -1,6 +1,8 @@
 {
   "name": "Modus Vivendi Deuteranopia",
   "author": "Protesilaos Stavrou (https://github.com/protesilaos)",
+  "author_name": "Protesilaos Stavrou",
+  "author_url": "https://github.com/protesilaos",
   "variant": "dark",
   "color_01": "#000000",
   "color_02": "#FF5F59",

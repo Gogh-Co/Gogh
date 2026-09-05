@@ -1,6 +1,8 @@
 {
   "name": "Tempus Spring",
   "author": "Protesilaos Stavrou (https://protesilaos.com)",
+  "author_name": "Protesilaos Stavrou",
+  "author_url": "https://protesilaos.com",
   "variant": "dark",
   "color_01": "#283A37",
   "color_02": "#FF8B5F",
