@@ -408,6 +408,13 @@ I cannot claim to be the only author of this project. Without the help of the pe
 - Miguel D. Quintero - [Lanet.co](https://lanet.co)
 
 <div align="center">
+
+[![X](https://img.shields.io/badge/X-Mgldvd__tech-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Mgldvd_tech)
+[![GitHub](https://img.shields.io/badge/GitHub-Mgldvd-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mgldvd)
+
+</div>
+
+<div align="center">
 This project is here for anyone to use, no expectations. <br>
 If you want to buy me a coffee voluntarily, you can use this link.
 
