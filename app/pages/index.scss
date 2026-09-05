@@ -96,10 +96,30 @@
         gap: 20px;
     }
 
-    .view-toggle,
-    .sort-toggle {
+    .filters__group {
         display: flex;
+        align-items: center;
         gap: 8px;
+
+        // Dividers only once the row has room to stay on one line -- on
+        // narrow screens the groups wrap, where a border-left would float
+        // awkwardly at the start of a new line.
+        @include m900 {
+            &:not(:first-child) {
+                padding-left: 20px;
+                border-left: 1px solid color-mix(in srgb, var(--site-foreground, #0d1926) 20%, transparent);
+            }
+        }
+    }
+
+    .filters__group-label {
+        flex: 0 0 auto;
+        color: var(--site-foreground, #0d1926);
+        opacity: 0.5;
+        font-size: 1.1rem;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
     }
 
     .page-theme-toggle {
@@ -216,7 +236,9 @@
 
 /**
 * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-* ·······  Filters Bg
+* ·······  Filter by color (step 2: pick the value) -- also doubles as the
+* ·······  plain background-color picker, since background is one of the
+* ·······  fields step 1 can pick.
 * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
 .background-lightbox {
@@ -242,11 +264,30 @@
     animation: lightbox-content-in 0.28s ease forwards;
 }
 
-.background-lightbox__title {
+.background-lightbox__header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px 24px;
     margin: 0 0 24px;
+}
+
+.background-lightbox__title {
+    margin: 0;
     color: var(--site-foreground, #0d1926);
     font-size: 1.8rem;
     font-weight: 700;
+}
+
+.background-lightbox__sort {
+    display: flex;
+    flex: 0 0 auto;
+    gap: 8px;
+
+    .btn {
+        margin: 0;
+    }
 }
 
 .background-lightbox__grid {
@@ -257,13 +298,16 @@
 
 .background-lightbox__swatch {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 56px;
     padding: 0;
     border: 2px solid transparent;
     cursor: pointer;
     transition: all 0.2s ease;
 
-    span {
+    .background-lightbox__hex {
         position: absolute;
         left: 0;
         right: 0;
@@ -286,7 +330,7 @@
         border-color: #414141;
         transform: scale(1.12);
 
-        span {
+        .background-lightbox__hex {
             display: block;
         }
     }
@@ -294,6 +338,17 @@
     &.active {
         box-shadow: 0 0 0 2px #0d1926;
     }
+}
+
+// Theme count per swatch -- no background box (would clutter a plain color
+// grid), just adaptive text color + a soft shadow of the opposite tone so it
+// stays legible whether the swatch itself is light or dark.
+.background-lightbox__count {
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1;
+    pointer-events: none;
+    user-select: none;
 }
 
 .background-lightbox__close {
@@ -312,6 +367,100 @@
 }
 
 .background-lightbox__close:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+/**
+* ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+* ·······  Filter by color (step 1: pick the field)
+* ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+*/
+.color-filter-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background-color: rgba(5, 8, 12, 0.94);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    animation: lightbox-backdrop-in 0.2s ease forwards;
+}
+
+.color-filter-lightbox__content {
+    width: min(900px, 96%);
+    max-height: 90vh;
+    overflow: auto;
+    padding: 32px;
+    background: var(--site-background, #e7e7e7);
+    transition: background-color 0.18s ease;
+    animation: lightbox-content-in 0.28s ease forwards;
+}
+
+// Mirrors CompactThemeCard's two-row ANSI swatch grid (normal colors on top,
+// bright colors below), with a background cube spanning both rows beside it.
+.color-filter-grid {
+    display: flex;
+    align-items: stretch;
+    gap: 14px;
+}
+
+.color-filter-grid__ansi {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.color-filter-grid__row {
+    display: flex;
+    flex: 1 1 0;
+    gap: 10px;
+}
+
+.color-filter-cube {
+    flex: 1 1 0;
+    aspect-ratio: 1;
+    padding: 0;
+    border: 2px solid transparent;
+    outline-offset: 2px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+        z-index: 2;
+        transform: scale(1.08);
+    }
+
+    &.active {
+        z-index: 2;
+        border-color: #414141;
+        box-shadow: 0 0 0 2px #0d1926;
+    }
+}
+
+.color-filter-cube--background {
+    flex: 0 0 auto;
+    width: 68px;
+    aspect-ratio: auto;
+}
+
+.color-filter-lightbox__close {
+    position: absolute;
+    top: 14px;
+    right: 18px;
+    border: 0;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    width: 44px;
+    height: 44px;
+    font-size: 30px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.color-filter-lightbox__close:hover {
     background: rgba(255, 255, 255, 0.25);
 }
 

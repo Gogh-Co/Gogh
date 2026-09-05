@@ -50,33 +50,43 @@
                 <div class="col-md-12">
                     <div class="filters">
                         <div class="filters__row filters__row--filters">
-                            <ButtonFilter extra-class="js-btn--filter" :active="filter === 'all'"
-                                @click="setFilter('all'); resetMenuSelected()">
-                                All
+                            <div class="filters__group" role="group" aria-label="Filter themes">
+                                <span class="filters__group-label">Filter</span>
 
-                            </ButtonFilter>
+                                <ButtonFilter extra-class="js-btn--filter" :active="filter === 'all' && !colorFilterField"
+                                    @click="setFilter('all'); clearColorFilter()">
+                                    All
 
-                            <ButtonFilter extra-class="js-btn--filter" :active="filter === 'light'"
-                                @click="setFilter('light'); resetMenuSelected()">
-                                Light Themes
-                            </ButtonFilter>
+                                </ButtonFilter>
 
-                            <ButtonFilter extra-class="js-btn--filter" :active="filter === 'dark'"
-                                @click="setFilter('dark'); resetMenuSelected()">
-                                Dark Themes
-                            </ButtonFilter>
+                                <ButtonFilter extra-class="js-btn--filter" :active="filter === 'light' && !colorFilterField"
+                                    @click="setFilter('light'); clearColorFilter()">
+                                    Light Themes
+                                </ButtonFilter>
 
-                            <ButtonFilter extra-class="js-btn--filter" :active="filter === 'popular'"
-                                @click="setFilter('popular'); resetMenuSelected(); setSortMode('random'); setViewMode('compact')">
-                                Popular
-                            </ButtonFilter>
+                                <ButtonFilter extra-class="js-btn--filter" :active="filter === 'dark' && !colorFilterField"
+                                    @click="setFilter('dark'); clearColorFilter()">
+                                    Dark Themes
+                                </ButtonFilter>
 
-                            <ButtonFilter :active="selected === 'background' || filter === 'background'"
-                                @click="setBackground(); toggleFilterBackground();">
-                                by Background
-                            </ButtonFilter>
+                                <ButtonFilter extra-class="js-btn--filter" :active="filter === 'popular' && !colorFilterField"
+                                    @click="setFilter('popular'); clearColorFilter(); setSortMode('random'); setViewMode('compact')">
+                                    Popular
+                                </ButtonFilter>
 
-                            <div class="view-toggle" role="group" aria-label="Gallery view">
+                                <ButtonFilter
+                                    :active="!!colorFilterField"
+                                    aria-haspopup="dialog"
+                                    :aria-expanded="colorFilterFieldMenuOpen"
+                                    @click="openColorFilterFieldMenu"
+                                >
+                                    by Color
+                                </ButtonFilter>
+                            </div>
+
+                            <div class="filters__group view-toggle" role="group" aria-label="Gallery view">
+                                <span class="filters__group-label">View</span>
+
                                 <ButtonFilter :active="viewMode === 'compact'" @click="setViewMode('compact')">
                                     Compact
                                 </ButtonFilter>
@@ -86,9 +96,11 @@
                                 </ButtonFilter>
                             </div>
 
-                            <div class="sort-toggle" role="group" aria-label="Sort themes">
+                            <div class="filters__group sort-toggle" role="group" aria-label="Sort themes">
+                                <span class="filters__group-label">Sort</span>
+
                                 <ButtonFilter :active="sortMode === 'alphabetical'" @click="setSortMode('alphabetical')">
-                                    {{ sortDirection === 'desc' ? 'Z-A' : 'A-Z' }}
+                                    {{ sortMode === 'alphabetical' && sortDirection === 'desc' ? 'Z-A' : 'A-Z' }}
                                 </ButtonFilter>
 
                                 <ButtonFilter :active="sortMode === 'random'" @click="setSortMode('random')">
@@ -201,32 +213,108 @@
         </div>
 
         <div
-            v-if="filterBackgroundVisible"
+            v-if="colorFilterFieldMenuOpen"
+            class="color-filter-lightbox"
+            @click.self="closeColorFilterFieldMenu"
+        >
+            <button
+                type="button"
+                class="color-filter-lightbox__close"
+                aria-label="Close color filter"
+                @click="closeColorFilterFieldMenu"
+            >
+                ×
+            </button>
+
+            <div class="color-filter-lightbox__content">
+                <div class="color-filter-grid" role="group" aria-label="Filter by color">
+                    <button
+                        type="button"
+                        class="color-filter-cube color-filter-cube--background"
+                        :class="{ active: colorFilterField === 'background' }"
+                        :style="'background-color:' + BACKGROUND_FILTER_OPTION.previewColor"
+                        :aria-pressed="colorFilterField === 'background'"
+                        :title="BACKGROUND_FILTER_OPTION.label"
+                        :aria-label="'Filter by ' + BACKGROUND_FILTER_OPTION.label"
+                        @click="selectColorFilterField('background')"
+                    ></button>
+
+                    <div class="color-filter-grid__ansi">
+                        <div class="color-filter-grid__row">
+                            <button
+                                v-for="option in NORMAL_COLOR_FILTER_OPTIONS"
+                                :key="option.key"
+                                type="button"
+                                class="color-filter-cube"
+                                :class="{ active: colorFilterField === option.key }"
+                                :style="'background-color:' + option.previewColor"
+                                :aria-pressed="colorFilterField === option.key"
+                                :title="option.label"
+                                :aria-label="'Filter by ' + option.label"
+                                @click="selectColorFilterField(option.key)"
+                            ></button>
+                        </div>
+
+                        <div class="color-filter-grid__row">
+                            <button
+                                v-for="option in BRIGHT_COLOR_FILTER_OPTIONS"
+                                :key="option.key"
+                                type="button"
+                                class="color-filter-cube"
+                                :class="{ active: colorFilterField === option.key }"
+                                :style="'background-color:' + option.previewColor"
+                                :aria-pressed="colorFilterField === option.key"
+                                :title="option.label"
+                                :aria-label="'Filter by ' + option.label"
+                                @click="selectColorFilterField(option.key)"
+                            ></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div
+            v-if="colorFilterValueMenuOpen"
             class="background-lightbox"
-            @click.self="toggleFilterBackground(false)"
+            @click.self="closeColorFilterValueMenu"
         >
             <button
                 type="button"
                 class="background-lightbox__close"
-                aria-label="Close background filter"
-                @click="toggleFilterBackground(false)"
+                aria-label="Close color filter"
+                @click="closeColorFilterValueMenu"
             >
                 ×
             </button>
 
             <div class="background-lightbox__content">
-                <h3 class="background-lightbox__title">Filter by background color</h3>
+                <div class="background-lightbox__header">
+                    <h3 class="background-lightbox__title">Filter by {{ colorFilterFieldLabel }} color</h3>
+
+                    <div class="background-lightbox__sort" role="group" aria-label="Sort swatches">
+                        <ButtonFilter :active="colorFilterValueSortMode === 'color'" @click="setColorFilterValueSortMode('color')">
+                            Color
+                        </ButtonFilter>
+
+                        <ButtonFilter :active="colorFilterValueSortMode === 'count'" @click="setColorFilterValueSortMode('count')">
+                            {{ colorFilterValueSortMode === 'count' && colorFilterValueSortDirection === 'asc' ? 'Least first' : 'Most first' }}
+                        </ButtonFilter>
+                    </div>
+                </div>
 
                 <div class="background-lightbox__grid">
-                    <template v-for="item in themeBackgrounds" :key="item">
+                    <template v-for="item in colorFilterFieldValues" :key="item.hex">
                         <button
                             type="button"
                             class="background-lightbox__swatch"
-                            :class="{ active: filter === item.toLowerCase() }"
-                            :style="'background-color:' + item"
-                            @click="setFilter(item); toggleFilterBackground(false);"
+                            :class="{ active: colorFilterValue === item.hex.toLowerCase() }"
+                            :style="'background-color:' + item.hex"
+                            :title="item.count + (item.count === 1 ? ' theme' : ' themes')"
+                            @click="selectColorFilterValue(item.hex)"
                         >
-                            <span>{{ item.toLowerCase() }}</span>
+                            <span class="background-lightbox__count" :style="{ color: item.textColor, textShadow: item.textShadow }">{{ item.count }}</span>
+                            <span class="background-lightbox__hex">{{ item.hex.toLowerCase() }}</span>
                         </button>
                     </template>
                 </div>
@@ -397,6 +485,49 @@ const VIEW_MODE_STORAGE_KEY = 'gogh-gallery-view-mode';
 const SORT_MODE_STORAGE_KEY = 'gogh-gallery-sort-mode';
 const SORT_DIRECTION_STORAGE_KEY = 'gogh-gallery-sort-direction';
 const PAGE_THEME_STORAGE_KEY = 'gogh-page-theme';
+
+// Labels/preview swatches for the "filter by color" submenu, in theme-template.yml
+// order (color_01..color_16: 8 base ANSI colors, then their 8 bright variants).
+// Preview colors are lifted verbatim from the "Gogh" theme itself
+// (themes/Gogh.yml on master) rather than generic ANSI primaries, so the
+// filter cubes read as the project's own palette.
+const COLOR_FILTER_SLOTS = [
+    { label: 'Black', previewColor: '#243342' },
+    { label: 'Red', previewColor: '#C54133' },
+    { label: 'Green', previewColor: '#27AE60' },
+    { label: 'Yellow', previewColor: '#EDB20A' },
+    { label: 'Blue', previewColor: '#2479D0' },
+    { label: 'Magenta', previewColor: '#7D3EA0' },
+    { label: 'Cyan', previewColor: '#1D8579' },
+    { label: 'White', previewColor: '#C9CCCD' },
+    { label: 'Bright Black', previewColor: '#34495E' },
+    { label: 'Bright Red', previewColor: '#E74C3C' },
+    { label: 'Bright Green', previewColor: '#2ECC71' },
+    { label: 'Bright Yellow', previewColor: '#F1C40F' },
+    { label: 'Bright Blue', previewColor: '#3498DB' },
+    { label: 'Bright Magenta', previewColor: '#9B59B6' },
+    { label: 'Bright Cyan', previewColor: '#2AA198' },
+    { label: 'Bright White', previewColor: '#ECF0F1' },
+];
+
+const COLOR_FILTER_OPTIONS = [
+    { key: 'background', label: 'Background', previewColor: '#0D1926' },
+    ...COLOR_FILTER_SLOTS.map((slot, index) => ({
+        key: `color_${String(index + 1).padStart(2, '0')}`,
+        label: slot.label,
+        previewColor: slot.previewColor,
+    })),
+];
+
+const COLOR_FILTER_KEYS = new Set(COLOR_FILTER_OPTIONS.map((option) => option.key));
+
+// Split for the field-picker lightbox's layout: a background cube beside a
+// 2-row grid of the 16 ANSI colors (normal row on top, bright row below),
+// matching the swatch grid on CompactThemeCard.
+const BACKGROUND_FILTER_OPTION = COLOR_FILTER_OPTIONS[0];
+const NORMAL_COLOR_FILTER_OPTIONS = COLOR_FILTER_OPTIONS.slice(1, 9);
+const BRIGHT_COLOR_FILTER_OPTIONS = COLOR_FILTER_OPTIONS.slice(9, 17);
+
 const PAGE_THEME_DARK_STYLE = {
     '--site-background': '#121F2A',
     '--site-foreground': '#e7e7e7',
@@ -414,9 +545,12 @@ const sortMode = ref('alphabetical');
 const sortDirection = ref('asc');
 const shuffleOrder = ref(new Map());
 const pageTheme = ref('light');
-const themeBackgrounds = ref([]);
-const selected = ref(null);
-const filterBackgroundVisible = ref(false);
+const colorFilterField = ref('');
+const colorFilterValue = ref('');
+const colorFilterFieldMenuOpen = ref(false);
+const colorFilterValueMenuOpen = ref(false);
+const colorFilterValueSortMode = ref('color');
+const colorFilterValueSortDirection = ref('desc');
 const lightboxVisible = ref(false);
 const visibleCount = ref(THEMES_PAGE_SIZE);
 const loadMoreSentinel = ref(null);
@@ -449,66 +583,6 @@ function lightOrDark(color) {
     } else {
         return 'dark';
     }
-}
-
-function colorDistance(color1, color2) {
-    // This is actually the square of the distance but
-    // this doesn't matter for sorting.
-    var result = 0;
-    for (var i = 0; i < color1.length; i++)
-        result += (color1[i] - color2[i]) * (color1[i] - color2[i]);
-    return result;
-}
-
-function sortColors(colors) {
-    // Calculate distance between each color
-    var distances = [];
-    for (var i = 0; i < colors.length; i++) {
-        distances[i] = [];
-        for (var j = 0; j < i; j++)
-            distances.push([
-                colors[i],
-                colors[j],
-                colorDistance(colors[i], colors[j]),
-            ]);
-    }
-    distances.sort(function (a, b) {
-        return a[2] - b[2];
-    });
-
-    // Put each color into separate cluster initially
-    var colorToCluster = {};
-    for (var y = 0; y < colors.length; y++)
-        colorToCluster[colors[y]] = [colors[y]];
-
-    // Merge clusters, starting with lowest distances
-    var lastCluster;
-    for (var e = 0; e < distances.length; e++) {
-        var color1 = distances[e][0];
-        var color2 = distances[e][1];
-        var cluster1 = colorToCluster[color1];
-        var cluster2 = colorToCluster[color2];
-        if (!cluster1 || !cluster2 || cluster1 == cluster2)
-            continue;
-
-        // Make sure color1 is at the end of its cluster and
-        // color2 at the beginning.
-        if (color1 !== cluster1[cluster1.length - 1])
-            cluster1.reverse();
-        if (color2 !== cluster2[0])
-            cluster2.reverse();
-
-        // Merge cluster2 into cluster1
-        cluster1.push.apply(cluster1, cluster2);
-        delete colorToCluster[color1];
-        delete colorToCluster[color2];
-        colorToCluster[cluster1[0]] = cluster1;
-        colorToCluster[cluster1[cluster1.length - 1]] = cluster1;
-        lastCluster = cluster1;
-    }
-
-    // By now all colors should be in one cluster
-    return lastCluster;
 }
 
 function normalizeThemes(remoteThemes) {
@@ -559,11 +633,6 @@ function setFilter(f) {
     }, 100);
 }
 
-function setBackground() {
-    selected.value = 'background';
-    filter.value = 'background';
-}
-
 function setViewMode(mode) {
     viewMode.value = mode;
 
@@ -590,33 +659,106 @@ function togglePageTheme() {
 
 const pageContentStyle = computed(() => (pageTheme.value === 'dark' ? PAGE_THEME_DARK_STYLE : undefined));
 
-function getBackgrounds() {
-    if (!Array.isArray(themes.value) || themes.value.length === 0) {
-        themeBackgrounds.value = [];
+// Unique, rainbow-ordered values for whichever field the 2-step "by Color"
+// filter has picked (an ANSI slot or "background"). Neutrals are grouped
+// black-to-white first, then hue-sorted, so a hue like blue always shows as
+// one contiguous run instead of being scattered by sort noise -- same
+// ordering as the field-picker cubes themselves.
+const colorFilterFieldValues = computed(() => {
+    if (!colorFilterField.value || !Array.isArray(themes.value) || themes.value.length === 0) {
+        return [];
+    }
+
+    const counts = new Map();
+    themes.value.forEach((theme) => {
+        const value = theme[colorFilterField.value];
+        if (typeof value !== 'string' || !value) {
+            return;
+        }
+
+        const hex = chroma(value.toLowerCase()).hex();
+        counts.set(hex, (counts.get(hex) || 0) + 1);
+    });
+
+    return [...counts.entries()]
+        .map(([hex, count]) => {
+            // Adaptive contrast (reusing the same light/dark check as the
+            // category filter) so the theme count reads on any swatch color,
+            // light or dark, without a background box cluttering the grid.
+            const isLight = lightOrDark(hex) === 'light';
+            return {
+                hex,
+                count,
+                textColor: isLight ? '#0d1926' : '#ffffff',
+                textShadow: isLight ? '0 0 3px rgba(255, 255, 255, 0.75)' : '0 0 3px rgba(0, 0, 0, 0.75)',
+            };
+        })
+        .sort((a, b) => {
+            if (colorFilterValueSortMode.value === 'count' && a.count !== b.count) {
+                const direction = colorFilterValueSortDirection.value === 'asc' ? 1 : -1;
+                return direction * (a.count - b.count);
+            }
+
+            // Rainbow order: the default sort, and the tie-breaker when
+            // sorting by count (so same-count swatches still read as a
+            // contiguous run instead of a shuffled pile).
+            return compareHexRainbow(a.hex, b.hex);
+        });
+});
+
+const colorFilterFieldLabel = computed(() => {
+    const option = COLOR_FILTER_OPTIONS.find((opt) => opt.key === colorFilterField.value);
+    return option ? option.label.toLowerCase() : 'color';
+});
+
+function isValidColorFilterKey(key) {
+    return COLOR_FILTER_KEYS.has(key);
+}
+
+function clearColorFilter() {
+    colorFilterField.value = '';
+    colorFilterValue.value = '';
+    colorFilterFieldMenuOpen.value = false;
+    colorFilterValueMenuOpen.value = false;
+}
+
+function openColorFilterFieldMenu() {
+    colorFilterFieldMenuOpen.value = true;
+}
+
+function closeColorFilterFieldMenu() {
+    colorFilterFieldMenuOpen.value = false;
+}
+
+function selectColorFilterField(fieldKey) {
+    if (!isValidColorFilterKey(fieldKey)) {
         return;
     }
 
-    const bgs = themes.value.map(e => e.background);
-    const bgsLowerCase = bgs.map(ele => ele.toLowerCase());
-    const bgsUnique = [...new Set(bgsLowerCase)];
-    const bgsRGB = bgsUnique.map(ele => chroma(ele).rgb());
-    const bgsSort = sortColors(bgsRGB);
-    const bgsHEX = (bgsSort || []).map(ele => chroma(ele).hex());
-    themeBackgrounds.value = bgsHEX.reverse();
+    colorFilterField.value = fieldKey;
+    colorFilterValue.value = '';
+    colorFilterValueSortMode.value = 'color';
+    colorFilterFieldMenuOpen.value = false;
+    colorFilterValueMenuOpen.value = true;
 }
 
-
-function resetMenuSelected() {
-    selected.value = '';
-    filterBackgroundVisible.value = false;
+function closeColorFilterValueMenu() {
+    colorFilterValueMenuOpen.value = false;
 }
 
-function toggleFilterBackground(force) {
-    if (typeof force === 'boolean') {
-        filterBackgroundVisible.value = force;
-    } else {
-        filterBackgroundVisible.value = !filterBackgroundVisible.value;
+function selectColorFilterValue(hex) {
+    colorFilterValue.value = hex.toLowerCase();
+    colorFilterValueMenuOpen.value = false;
+}
+
+function setColorFilterValueSortMode(mode) {
+    if (mode === 'count' && colorFilterValueSortMode.value === 'count') {
+        colorFilterValueSortDirection.value = colorFilterValueSortDirection.value === 'desc' ? 'asc' : 'desc';
+    } else if (mode === 'count') {
+        colorFilterValueSortDirection.value = 'desc';
     }
+
+    colorFilterValueSortMode.value = mode;
 }
 
 function openThemeLightbox(theme) {
@@ -644,8 +786,10 @@ function onWindowKeydown(event) {
         closeThemeLightbox();
     }
 
-    if (filterBackgroundVisible.value) {
-        toggleFilterBackground(false);
+    if (colorFilterValueMenuOpen.value) {
+        closeColorFilterValueMenu();
+    } else if (colorFilterFieldMenuOpen.value) {
+        closeColorFilterFieldMenu();
     }
 }
 
@@ -717,11 +861,69 @@ function matchesThemeSearch(theme) {
 }
 
 function themeMatchesFilter(theme) {
-    return (filter.value === theme.category || filter.value === 'all' || filter.value === 'background' || filter.value === theme.background.toLowerCase() || (filter.value === 'popular' && theme.popular)) && matchesThemeSearch(theme);
+    if (colorFilterField.value && colorFilterValue.value) {
+        const themeValue = (theme[colorFilterField.value] || '').toLowerCase();
+        return themeValue === colorFilterValue.value && matchesThemeSearch(theme);
+    }
+
+    return (filter.value === theme.category || filter.value === 'all' || (filter.value === 'popular' && theme.popular)) && matchesThemeSearch(theme);
 }
 
 function themeSortKey(theme) {
     return getThemeName(theme) || `${theme.background}-${theme.foreground}`;
+}
+
+// Cached per hex value (many themes/slots share the exact same hex), so sorting
+// by color doesn't re-run chroma's LCH conversion on every pairwise comparison.
+const colorSortTupleCache = new Map();
+
+// Below this LCH chroma, a color's hue is just noise -- HSL saturation was
+// tried first, but it blows up near the lightness extremes (an off-white like
+// #FDF0ED reads as 80% "saturated" in HSL despite being barely tinted), which
+// scattered near-white colors across the whole hue spectrum instead of
+// grouping them. LCH chroma measures actual colorfulness without that
+// distortion, so it stays low for true near-black/near-white colors regardless
+// of how light or dark they are. Those go in their own achromatic bucket (-2,
+// sorted black-to-white by lightness) ahead of the true hue-sorted rainbow.
+const ACHROMATIC_CHROMA_THRESHOLD = 15;
+
+function getColorSortTuple(hex) {
+    if (typeof hex !== 'string' || !hex) {
+        return [-2, 0, 0];
+    }
+
+    const cacheKey = hex.toLowerCase();
+    const cached = colorSortTupleCache.get(cacheKey);
+    if (cached) {
+        return cached;
+    }
+
+    let tuple;
+    try {
+        const [l, c, h] = chroma(hex).lch();
+        const hue = Number.isNaN(h) ? null : h;
+        const isAchromatic = hue === null || c < ACHROMATIC_CHROMA_THRESHOLD;
+        // Within a hue, sort light-to-dark (a shade gradient) before chroma.
+        tuple = isAchromatic ? [-2, l, c] : [hue, l, c];
+    } catch {
+        tuple = [-2, 0, 0];
+    }
+
+    colorSortTupleCache.set(cacheKey, tuple);
+    return tuple;
+}
+
+function compareHexRainbow(hexA, hexB) {
+    const tupleA = getColorSortTuple(hexA);
+    const tupleB = getColorSortTuple(hexB);
+
+    for (let i = 0; i < tupleA.length; i++) {
+        if (tupleA[i] !== tupleB[i]) {
+            return tupleA[i] - tupleB[i];
+        }
+    }
+
+    return 0;
 }
 
 function generateShuffleOrder() {
@@ -770,7 +972,7 @@ const filteredThemes = computed(() => {
 });
 const visibleThemes = computed(() => filteredThemes.value.slice(0, visibleCount.value));
 
-watch([filter, searchQuery], () => {
+watch([filter, searchQuery, colorFilterValue], () => {
     visibleCount.value = THEMES_PAGE_SIZE;
 });
 
@@ -785,8 +987,6 @@ themes.value = rawThemes.map((theme) => ({
     category: lightOrDark(theme.background),
     popular: POPULAR_THEME_NAMES.has(getThemeName(theme)),
 }));
-
-getBackgrounds();
 
 onMounted(() => {
     new ClipboardJS('.btn-copy');
@@ -834,7 +1034,6 @@ onMounted(() => {
                 category: lightOrDark(theme.background),
                 popular: POPULAR_THEME_NAMES.has(getThemeName(theme)),
             }));
-            getBackgrounds();
 
             if (sortMode.value === 'random') {
                 generateShuffleOrder();
@@ -842,7 +1041,6 @@ onMounted(() => {
         });
     }
 
-    getBackgrounds();
     window.addEventListener('keydown', onWindowKeydown);
 
     if (loadMoreSentinel.value && typeof IntersectionObserver !== 'undefined') {
