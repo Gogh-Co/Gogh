@@ -2,9 +2,12 @@
     <NuxtLayout>
         <NuxtPage />
     </NuxtLayout>
+    <Footer />
 </template>
 
 <script setup>
+import Footer from '@/components/Footer/Footer.vue';
+
 const { app } = useRuntimeConfig();
 
 function withBase(path) {

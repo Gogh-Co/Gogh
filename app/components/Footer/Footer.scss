@@ -1,0 +1,55 @@
+@use '@/assets/sass/base' as *;
+
+// Same fixed dark bar as the Header, so the site reads as framed top and
+// bottom regardless of the page's light/dark toggle (Header never follows
+// that toggle either -- see Header.scss).
+.gogh-footer {
+    background-color: #121f2a;
+}
+
+.gogh-footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px 24px;
+    max-width: 2100px;
+    margin: 0 auto;
+    padding: 20px 12px;
+}
+
+.gogh-footer__credit {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.3rem;
+
+    a {
+        color: rgba(255, 255, 255, 0.9);
+        text-decoration: none;
+
+        &:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+    }
+}
+
+.gogh-footer__socials {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.gogh-footer__social-link {
+    display: inline-flex;
+    color: rgba(255, 255, 255, 0.7);
+    transition: color 0.18s ease, transform 0.18s ease;
+
+    svg {
+        display: block;
+    }
+
+    &:hover {
+        color: #ffffff;
+        transform: translateY(-2px);
+    }
+}
