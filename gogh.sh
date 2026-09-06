@@ -1448,18 +1448,18 @@ if [[ $# -gt 0 ]]; then
       OPTION=($(seq 1 "${ARRAYLENGTH}"))
       break
     elif [[ "${ARG}" =~ ^[0-9]+$ ]]; then
-      echo -e "${C1} ~ INVALID OPTION: '${ARG}' ~${CR}"
-      echo "CLI mode accepts theme names/slugs only."
-      echo "Use interactive mode for numbered selection."
-      print_usage
+      echo -e "${C1} ~ INVALID OPTION: '${ARG}' ~${CR}" >&2
+      echo "CLI mode accepts theme names/slugs only." >&2
+      echo "Use interactive mode for numbered selection." >&2
+      print_usage >&2
       exit 1
     else
       ARG_THEME_NUMBER=$(get_theme_number_from_selector "${ARG}")
       if [[ -n "${ARG_THEME_NUMBER}" ]]; then
         OPTION+=("${ARG_THEME_NUMBER}")
       else
-        echo -e "${C1} ~ INVALID OPTION: '${ARG}' ~${CR}"
-        print_usage
+        echo -e "${C1} ~ INVALID OPTION: '${ARG}' ~${CR}" >&2
+        print_usage >&2
         exit 1
       fi
     fi
@@ -1693,7 +1693,7 @@ for OP in "${OPTION[@]#0}"; do
       GOGH_EXIT_STATUS=1
     fi
   else
-    echo -e "${C1} ~ INVALID OPTION! ~${CR}"
+    echo -e "${C1} ~ INVALID OPTION! ~${CR}" >&2
     exit 1
   fi
 done
