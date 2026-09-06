@@ -1,12 +1,15 @@
 #!/usr/bin/env bash
-set -uo pipefail
+set -euo pipefail
 
 # Variables to avoid repeated calls to tput
+# tput exits non-zero (and prints nothing) on a terminal that doesn't support
+# the requested capability (e.g. TERM=dumb) -- `|| true` keeps that a graceful
+# "no color" fallback instead of aborting under `set -e`.
 for n in {0..15}; do
-  declare C$n=$(tput setaf $n)
+  declare C$n=$(tput setaf $n || true)
 done
-CR=$(tput sgr0)
-CS0=$(tput sgr 0)
+CR=$(tput sgr0 || true)
+CS0=$(tput sgr 0 || true)
 
 # Define traps and trapfunctions early in case any errors before script exits
 GLOBAL_VAR_CLEANUP(){
@@ -1455,7 +1458,7 @@ if [[ $# -gt 0 ]]; then
       print_usage >&2
       exit 1
     else
-      ARG_THEME_NUMBER=$(get_theme_number_from_selector "${ARG}")
+      ARG_THEME_NUMBER=$(get_theme_number_from_selector "${ARG}") || true
       if [[ -n "${ARG_THEME_NUMBER}" ]]; then
         OPTION+=("${ARG_THEME_NUMBER}")
       else
@@ -1472,7 +1475,7 @@ fi
 # | ::::::: Print logo
 # |
 if [[ ${#OPTION[@]} -eq 0 ]]; then
-  tput clear
+  tput clear || true
   if [[ ${COLUMNS:-$(tput cols)} -ge 80 ]]; then
     gogh_str=""
     gogh_str+="                                                                                \n"
@@ -1523,7 +1526,7 @@ if [[ ${#OPTION[@]} -eq 0 ]]; then
   # Column display of available themes
   # Note: /usr/bin/column uses tabs and does not support ANSI codes yet (merged but not released)
   MAXL=$(( $(printf "%s\n" "${THEMES[@]}" | wc -L) - 3 )) # Biggest theme name without the extension
-  NCOLS=$(( ${COLUMNS:-$(tput cols)} / (10+MAXL) ))       # number of columns, 10 is the length of '  ( xxx ) '
+  NCOLS=$(( ${COLUMNS:-$(tput cols || echo 80)} / (10+MAXL) )) # number of columns, 10 is the length of '  ( xxx ) '
   (( NCOLS < 1 )) && NCOLS=1                              # avoid a division by zero below on narrow terminals
   NROWS=$(( (ARRAYLENGTH-1)/NCOLS + 1 ))                  # number of rows
   row=0
@@ -1537,10 +1540,10 @@ if [[ ${#OPTION[@]} -eq 0 ]]; then
         FORMATTED_NAME=$(format_theme_name "$NAME")
         printf "  ( ${C4}%3d${CR} ) %-${MAXL}s" $((NUM+1)) "$FORMATTED_NAME"
       fi
-      ((col++))
+      ((++col))
     done
     echo
-    ((row++))
+    ((++row))
   done
 
   echo -e "  (${C4} ALL ${CR}) All themes"
@@ -1550,7 +1553,7 @@ if [[ ${#OPTION[@]} -eq 0 ]]; then
   # |
   echo -e "\nUsage : Enter Desired Themes Numbers (${C4}OPTIONS${CR}) Separated By A Blank Space"
   echo -e "        Press ${C4}ENTER${CR} without options to Exit\n"
-  read -r -p 'Enter OPTION(S) : ' -a OPTION
+  read -r -p 'Enter OPTION(S) : ' -a OPTION || true
 
   # Automagically generate options if user opts for all themes
   [[ "$(echo "${OPTION[0]:-}" | tr '[:lower:]' '[:upper:]')" == ALL ]] && OPTION=($(seq -s " " $ARRAYLENGTH))
@@ -1582,10 +1585,10 @@ if [[ -z "${TERMINAL:-}" ]]; then
     # | to loop until pid is no longer a subshell
     # | ===========================================
     pid="$$"
-    TERMINAL="$(ps -h -o comm -p $pid)"
+    TERMINAL="$(ps -h -o comm -p $pid)" || true
     while [[ "${TERMINAL:(-2)}" == "sh" ]]; do
-      pid="$(ps -h -o ppid -p $pid)"
-      TERMINAL="$(ps -h -o comm -p $pid)"
+      pid="$(ps -h -o ppid -p $pid)" || true
+      TERMINAL="$(ps -h -o comm -p $pid)" || true
     done
   fi
 fi
@@ -1626,7 +1629,7 @@ fi
 if [[ "$TERMINAL" = "tilix" ]] && [[ ${#OPTION[@]} -gt 0 ]]; then
   if [[ -z "${GOGH_NONINTERACTIVE+no}" ]]; then
     echo
-    read -r -p "Tilix detected - use color schemes instead of profiles? [y/N] " -n 1 TILIX_RES
+    read -r -p "Tilix detected - use color schemes instead of profiles? [y/N] " -n 1 TILIX_RES || true
     echo
   else
     TILIX_RES="n"
