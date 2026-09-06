@@ -1,9 +1,9 @@
 name: Monokai Dark
-author: ''
-author_name: ''
-author_url: ''
+author: Monokai (https://monokai.com/)
+author_name: Monokai
+author_url: https://monokai.com/
 variant: dark
-color_01: '#75715E'
+color_01: '#272822'
 color_02: '#F92672'
 color_03: '#A6E22E'
 color_04: '#F4BF75'
@@ -11,7 +11,7 @@ color_05: '#66D9EF'
 color_06: '#AE81FF'
 color_07: '#2AA198'
 color_08: '#F9F8F5'
-color_09: '#272822'
+color_09: '#75715E'
 color_10: '#F92672'
 color_11: '#A6E22E'
 color_12: '#F4BF75'
@@ -22,5 +22,5 @@ color_16: '#F8F8F2'
 background: '#272822'
 foreground: '#F8F8F2'
 cursor: '#F8F8F2'
-hash: d68ed811cbafa30b5825982ff4d8e9173eaff4eecb5a5caac33db19da77c302d
+hash: cdef48ea13a9cd5272989273c23f9079c6ad02a98c33dc2fd799c9835e80a83e
 hash_bg: 578421fdfba21d447a355a9f7367e791fb49a07134d0b3065b369650ec2a46e1

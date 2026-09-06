@@ -18303,11 +18303,11 @@
   hash: 631a28e6249fb4fbcb234b4dee6d9cd883e125f6bae714b77497ca4194765ee2
   hash_bg: 578421fdfba21d447a355a9f7367e791fb49a07134d0b3065b369650ec2a46e1
 - name: Monokai Dark
-  author: ''
-  author_name: ''
-  author_url: ''
+  author: Monokai (https://monokai.com/)
+  author_name: Monokai
+  author_url: https://monokai.com/
   variant: dark
-  color_01: '#75715E'
+  color_01: '#272822'
   color_02: '#F92672'
   color_03: '#A6E22E'
   color_04: '#F4BF75'
@@ -18315,7 +18315,7 @@
   color_06: '#AE81FF'
   color_07: '#2AA198'
   color_08: '#F9F8F5'
-  color_09: '#272822'
+  color_09: '#75715E'
   color_10: '#F92672'
   color_11: '#A6E22E'
   color_12: '#F4BF75'
@@ -18326,7 +18326,7 @@
   background: '#272822'
   foreground: '#F8F8F2'
   cursor: '#F8F8F2'
-  hash: d68ed811cbafa30b5825982ff4d8e9173eaff4eecb5a5caac33db19da77c302d
+  hash: cdef48ea13a9cd5272989273c23f9079c6ad02a98c33dc2fd799c9835e80a83e
   hash_bg: 578421fdfba21d447a355a9f7367e791fb49a07134d0b3065b369650ec2a46e1
 - name: Monokai Pro
   author: Monokai (https://monokai.com/)
@@ -18433,9 +18433,9 @@
   hash: 018851133d63577d26058ca6c58aa5f8ceb956c5ba861eaca793789016487e2c
   hash_bg: ce8b1b7175510f812b27f9d2ff9be5551a6cdcae4a3bfdb413af361882da9ddd
 - name: Monokai Pro Octagon
-  author: ''
-  author_name: ''
-  author_url: ''
+  author: Monokai (https://monokai.com/)
+  author_name: Monokai
+  author_url: https://monokai.com/
   variant: dark
   color_01: '#282A3A'
   color_02: '#FF657A'
@@ -18563,9 +18563,9 @@
   hash: c99a9f866c874b8ae67d6cc4f8a9af4e65b2ec647ae246e71a255b8f9584b891
   hash_bg: dfab364d521d78e1bc9b4ea353db8988a2b77459f3d09fc7b5f3a0ffd0a80d75
 - name: Monokai Soda
-  author: ''
-  author_name: ''
-  author_url: ''
+  author: deepsweet (https://github.com/deepsweet/Monokai-Soda-iTerm)
+  author_name: deepsweet
+  author_url: https://github.com/deepsweet/Monokai-Soda-iTerm
   variant: dark
   color_01: '#1A1A1A'
   color_02: '#F4005F'

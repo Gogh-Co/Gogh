@@ -2,7 +2,7 @@
 
 export PROFILE_NAME="Monokai Dark"
 
-export COLOR_01="#75715E"           # Black (Host)
+export COLOR_01="#272822"           # Black (Host)
 export COLOR_02="#F92672"           # Red (Syntax string)
 export COLOR_03="#A6E22E"           # Green (Command)
 export COLOR_04="#F4BF75"           # Yellow (Command second)
@@ -11,7 +11,7 @@ export COLOR_06="#AE81FF"           # Magenta (Syntax var)
 export COLOR_07="#2AA198"           # Cyan (Prompt)
 export COLOR_08="#F9F8F5"           # White
 
-export COLOR_09="#272822"           # Bright Black
+export COLOR_09="#75715E"           # Bright Black
 export COLOR_10="#F92672"           # Bright Red (Command error)
 export COLOR_11="#A6E22E"           # Bright Green (Exec)
 export COLOR_12="#F4BF75"           # Bright Yellow

@@ -84255,9 +84255,9 @@
       },
       {
         "Color": "color_01",
-        "Hex": "#75715E",
-        "Score": "AA Large",
-        "Ratio": "3.0"
+        "Hex": "#272822",
+        "Score": "Fail",
+        "Ratio": "1.0"
       },
       {
         "Color": "color_02",
@@ -84303,9 +84303,9 @@
       },
       {
         "Color": "color_09",
-        "Hex": "#272822",
-        "Score": "Fail",
-        "Ratio": "1.0"
+        "Hex": "#75715E",
+        "Score": "AA Large",
+        "Ratio": "3.0"
       },
       {
         "Color": "color_10",
@@ -84358,9 +84358,9 @@
     ],
     "scoreCounts": {
       "AAA": 10,
+      "Fail": 1,
       "AA Large": 3,
-      "AA": 4,
-      "Fail": 1
+      "AA": 4
     }
   },
   {
