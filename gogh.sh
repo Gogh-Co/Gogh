@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -uo pipefail
 
 # Variables to avoid repeated calls to tput
 for n in {0..15}; do
@@ -1408,7 +1409,7 @@ ARRAYLENGTH=${#THEMES[@]}
 declare -a OPTION=()
 
 # Allow direct CLI selection by number/name/ALL
-if [[ "$1" = "--" ]]; then
+if [[ "${1:-}" = "--" ]]; then
   shift
 fi
 
@@ -1541,17 +1542,17 @@ if [[ -z "${TERMINAL:-}" ]]; then
   # | Check for the terminal name (depening on os)
   # | ===========================================
   OS="$(uname)"
-  if [[ "$TERM" = "xterm-ghostty" ]] || [[ "$TERM_PROGRAM" = "ghostty" ]]; then
+  if [[ "${TERM:-}" = "xterm-ghostty" ]] || [[ "${TERM_PROGRAM:-}" = "ghostty" ]]; then
     TERMINAL="ghostty"
   elif [[ "$OS" = "Darwin" ]]; then
-    TERMINAL=$TERM_PROGRAM
+    TERMINAL="${TERM_PROGRAM:-}"
   elif [[ "${OS#CYGWIN}" != "${OS}" ]]; then
     TERMINAL="mintty"
-  elif [[ "$TERM" = "xterm-kitty" ]]; then
+  elif [[ "${TERM:-}" = "xterm-kitty" ]]; then
     TERMINAL="kitty"
-  elif [[ "${TERM}" = "linux" ]]; then
+  elif [[ "${TERM:-}" = "linux" ]]; then
     TERMINAL="linux"
-  elif [[ "${HOME}" = *com.termux* ]]; then
+  elif [[ "${HOME:-}" = *com.termux* ]]; then
     TERMINAL="termux"
   else
     # |
