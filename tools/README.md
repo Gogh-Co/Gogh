@@ -47,7 +47,7 @@ Contrast is a recommendation, not a gate: it's a judgment call, not a hard fact 
 
 Scoped to newly *added* theme files only (`git diff --diff-filter=A` against `base-ref`) -- not modified ones, and not the whole corpus: a pre-existing issue on a theme nobody is touching should never block an unrelated PR, and editing an existing theme for an unrelated reason shouldn't force fixing its old name/contrast either. CI passes the PR's base SHA; `task validate`/`task validate:format` pass `BASE` (default `origin/master`). Run with no argument for a full-repo audit.
 
-Run by CI: `.github/workflows/validate-on-pr.yml`. Run all three locally: `task validate` (see [`CONTRIBUTING.md`](../CONTRIBUTING.md)).
+Run by CI: `.github/workflows/validate-on-pr.yml`. Run all three locally: `task validate` (see [`CONTRIBUTING.md`](../docs/CONTRIBUTING.md)).
 
 ## `lib/`
 

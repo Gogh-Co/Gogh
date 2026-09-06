@@ -27,7 +27,7 @@ tasks:
 
         ${YELLOW}STEP 2${RESET} -- create the theme
               Add themes/<Your Theme Name>.yml. Filename must match name:
-              exactly. No underscores in the name. See CONTRIBUTING.md
+              exactly. No underscores in the name. See docs/CONTRIBUTING.md
               for the full field-by-field reference.
 
         ${YELLOW}STEP 3${RESET} -- preview locally ${DIM}(optional)${RESET}
@@ -60,7 +60,7 @@ tasks:
               with "theme:". CI regenerates data/, installs/, gogh.sh,
               etc. automatically once a maintainer merges it.
 
-        ${DIM}Full walkthrough: CONTRIBUTING.md${RESET}
+        ${DIM}Full walkthrough: docs/CONTRIBUTING.md${RESET}
         ${DIM}All tasks:        task${RESET}
 
         EOF

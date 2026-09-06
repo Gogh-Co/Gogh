@@ -49,7 +49,7 @@ If you want to buy me a coffee voluntarily, you can use this link.
 - [Terminal Support](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-terminals)
 - [Available Themes](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-themes)
 - [Help](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-help)
-- [Create your Own Theme!](CONTRIBUTING.md)
+- [Create your Own Theme!](docs/CONTRIBUTING.md)
 - [As Command line](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-as-command-line)
 - [Accessibility ~ WCAG](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-accessibility---wcag)
 - [First commit](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-first-commit)
@@ -58,6 +58,7 @@ If you want to buy me a coffee voluntarily, you can use this link.
 - [Author](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-author-contributor)
 - [Why Gogh?](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-why-gogh)
 - [Mentions](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-mentions)
+- [License](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-license)
 - [*Stargazers Over Time*](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-stargazers-over-time)
 
 </td>
@@ -336,7 +337,7 @@ source .bashrc
 
 ## 🖼️ Create your Own Theme!
 
-See [`CONTRIBUTING.md`](CONTRIBUTING.md) — the single source of truth for
+See [`CONTRIBUTING.md`](docs/CONTRIBUTING.md) — the single source of truth for
 adding a theme: the `.yml` template, the field-by-field reference, the
 rules a theme PR needs to follow, and how to check it locally with
 `task validate` before opening the PR.
@@ -384,7 +385,7 @@ Nov 18, 2013 - [aa9871e](https://github.com/Gogh-Co/Gogh/commit/aa9871e2d6008d5d
 
 ## :heart: Credits:
 
-The full theme-by-theme author list now lives in [CREDITS.md](./CREDITS.md).
+The full theme-by-theme author list now lives in [CREDITS.md](docs/CREDITS.md).
 
 <br/>
 
@@ -436,7 +437,14 @@ There is no blue without yellow and without orange.
 
 ## 📣 Mentions
 
-The full list of blogs, forums, videos and comparison sites that have mentioned Gogh now lives in [MENTIONS.md](./MENTIONS.md).
+The full list of blogs, forums, videos and comparison sites that have mentioned Gogh now lives in [MENTIONS.md](docs/MENTIONS.md).
+
+<br/>
+
+## 📜 License
+
+Gogh is dual-licensed under either the [MIT license](LICENSE-MIT) or the
+[Apache License, Version 2.0](LICENSE-APACHE), at your option.
 
 <br/>
 
