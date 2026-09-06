@@ -1510,7 +1510,7 @@ if [[ ${#OPTION[@]} -eq 0 ]]; then
     col=0
     while ((col < NCOLS)); do
       NUM=$((col*NROWS+row))
-      NAME="${THEMES[$NUM]}"
+      NAME="${THEMES[$NUM]:-}"
       if [[ -n $NAME ]]; then
         FORMATTED_NAME=$(format_theme_name "$NAME")
         printf "  ( ${C4}%3d${CR} ) %-${MAXL}s" $((NUM+1)) "$FORMATTED_NAME"
@@ -1531,7 +1531,7 @@ if [[ ${#OPTION[@]} -eq 0 ]]; then
   read -r -p 'Enter OPTION(S) : ' -a OPTION
 
   # Automagically generate options if user opts for all themes
-  [[ "$(echo "${OPTION}" | tr '[:lower:]' '[:upper:]')" == ALL ]] && OPTION=($(seq -s " " $ARRAYLENGTH))
+  [[ "$(echo "${OPTION[0]:-}" | tr '[:lower:]' '[:upper:]')" == ALL ]] && OPTION=($(seq -s " " $ARRAYLENGTH))
 fi
 
 # |
