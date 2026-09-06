@@ -1260,7 +1260,11 @@ declare -a THEMES=(
 # Allow developer to change url to forked url for easier testing
 BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Gogh-Co/Gogh/master"}
 
-SCRIPT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+if [[ -n "${BASH_SOURCE[0]:-}" && -f "${BASH_SOURCE[0]}" ]]; then
+  SCRIPT_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+else
+  SCRIPT_PATH=""
+fi
 
 capitalize() {
   local ARGUMENT=$1
@@ -1279,7 +1283,7 @@ capitalize() {
 
 
 # Used to get required python scripts, either from the internet or from local directory
-if [[ ! -f "${SCRIPT_PATH}/apply-alacritty.py" ]]; then
+if [[ -z "${SCRIPT_PATH}" || ! -f "${SCRIPT_PATH}/apply-alacritty.py" ]]; then
   ALACRITTY_APPLY_TMP_CLEANUP() {
     rm -rf "${GOGH_ALACRITTY_SCRIPT}"
     unset GOGH_ALACRITTY_SCRIPT
@@ -1296,7 +1300,7 @@ fi
 
 
 # Used to get required python scripts, either from the internet or from local directory
-if [[ ! -e "${SCRIPT_PATH}/apply-terminator.py" ]]; then
+if [[ -z "${SCRIPT_PATH}" || ! -e "${SCRIPT_PATH}/apply-terminator.py" ]]; then
   TERMINATOR_APPLY_TMP_CLEANUP() {
     rm -rf "${GOGH_TERMINATOR_SCRIPT}"
     unset GOGH_TERMINATOR_SCRIPT
@@ -1313,7 +1317,7 @@ fi
 
 
 # Used to get required shell scripts, either from the internet or from local directory
-if [[ ! -e "${SCRIPT_PATH}/apply-colors.sh" ]]; then
+if [[ -z "${SCRIPT_PATH}" || ! -e "${SCRIPT_PATH}/apply-colors.sh" ]]; then
   APPLY_SCRIPT_TMP_CLEANUP() {
     rm -rf "${GOGH_APPLY_SCRIPT}"
     unset GOGH_APPLY_SCRIPT
@@ -1338,7 +1342,7 @@ set_gogh() {
 
   export {PROFILE_NAME,PROFILE_SLUG}="$result"
 
-  if [[ -e "${SCRIPT_PATH}/installs/$1" ]]; then
+  if [[ -n "${SCRIPT_PATH}" && -e "${SCRIPT_PATH}/installs/$1" ]]; then
     bash "${SCRIPT_PATH}/installs/$1"
   else
     if [[ "$(uname)" = "Darwin" ]]; then
