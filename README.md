@@ -229,6 +229,8 @@ Here are some terminals that Gogh is supported with:
 - XFCE4 - [Web](https://docs.xfce.org/apps/terminal/start)
 - Terminator - [Web](https://github.com/gnome-terminator/terminator)
 
+Don't see your terminal on this list? [Open a terminal support request](https://github.com/Gogh-Co/Gogh/issues/new?template=terminal-support.yml).
+
 <br/>
 <br/>
 
@@ -290,6 +292,8 @@ Example — `Solarized Dark.yml`:
 <br>
 
 ## ❓ HELP
+
+See [docs/ISSUE_POLICY.md](docs/ISSUE_POLICY.md) for how issues are triaged and when they're closed.
 
 - [Ubuntu 19.10: default_profile not a valid identifier, command not found](https://github.com/Gogh-Co/Gogh/issues/203)
 - [Using Elementary terminal but says unsupported](https://github.com/Gogh-Co/Gogh/issues/175)

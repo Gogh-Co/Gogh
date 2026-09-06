@@ -23,6 +23,7 @@ out.txt
 devbox.lock
 bun.lock
 
-# Ignore Markdown files except the root README.
+# Ignore Markdown files except the root README and select docs.
 *.md
 !/README.md
+!/docs/ISSUE_POLICY.md

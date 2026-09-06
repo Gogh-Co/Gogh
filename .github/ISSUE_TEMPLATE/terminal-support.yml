@@ -1,0 +1,75 @@
+name: 🖥️ Terminal support request
+description: Ask for Gogh to support applying themes to a terminal it doesn't support yet
+title: "[Terminal support]: "
+labels: ["terminal-support", "help-needed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to request support for a new terminal!
+        Before filling this out, please search [existing issues](https://github.com/Gogh-Co/Gogh/issues?q=is%3Aissue+label%3Aterminal-support)
+        to check whether this terminal was already requested.
+
+  - type: input
+    id: terminal-name
+    attributes:
+      label: Terminal name
+      description: The name of the terminal emulator you'd like Gogh to support.
+      placeholder: e.g. Blackbox, Contour, Windows Terminal
+    validations:
+      required: true
+
+  - type: input
+    id: terminal-link
+    attributes:
+      label: Project link
+      description: A link to the terminal's website or source code repository.
+      placeholder: https://github.com/...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform(s)
+      description: Which operating system(s) does this terminal run on?
+      multiple: true
+      options:
+        - Linux
+        - macOS
+        - Windows
+        - Other / cross-platform
+    validations:
+      required: true
+
+  - type: textarea
+    id: config-format
+    attributes:
+      label: How does this terminal store its color scheme / theme?
+      description: |
+        If you know, describe the config file (path, format) or mechanism this
+        terminal uses to set its 16/256-color palette. This is the most useful
+        piece of information for whoever implements support.
+      placeholder: |
+        e.g. ~/.config/foo-term/config.toml, a [colors] section with color0..color15 keys
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: |
+        Anything else that helps: error output from Gogh when run against this
+        terminal, whether the terminal already ships Gogh-compatible palettes
+        out of the box, links to similar implementations in other tools, etc.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I would be willing to submit a pull request implementing this
+          required: false
