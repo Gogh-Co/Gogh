@@ -1259,7 +1259,6 @@ declare -a THEMES=(
 
 # Allow developer to change url to forked url for easier testing
 BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Gogh-Co/Gogh/master"}
-PROGRESS_URL="https://raw.githubusercontent.com/phenonymous/shell-progressbar/1.0/progress.sh"
 
 SCRIPT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
@@ -1571,13 +1570,28 @@ fi
 # |
 # | ::::::: Fancy progressbar for lengthy operations
 # |
+# | Minimal, vendored implementation (no third-party download/eval — see the
+# | improvement plan for why this replaced an `eval`'d remote script).
+# |
 if [[ ${#OPTION[@]} -gt 5 ]]; then
-  # Note: We use eval here because we want the functions to be available in this script
-  if [[ "$(uname)" = "Darwin" ]]; then
-    eval "$(curl -so- ${PROGRESS_URL})" 2> /dev/null
-  else
-    eval "$(wget -qO- ${PROGRESS_URL})"  2> /dev/null
-  fi
+  bar::start() {
+    printf '\n'
+  }
+
+  bar::status_changed() {
+    local current="$1" total="$2"
+    local width=40
+    local filled=$(( total > 0 ? current * width / total : 0 ))
+    local bar
+    bar="$(printf '%*s' "$filled" '')"
+    bar="${bar// /#}"
+    printf '\r[%-*s] %3d%% (%d/%d)' "$width" "$bar" $(( total > 0 ? current * 100 / total : 0 )) "$current" "$total"
+    [[ "$current" -ge "$total" ]] && printf '\n'
+  }
+
+  bar::stop() {
+    printf '\n'
+  }
 fi
 
 
