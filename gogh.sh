@@ -1279,6 +1279,23 @@ capitalize() {
 }
 
 
+fetch() {  # fetch URL DEST -- downloads URL into DEST, verifies it's non-empty
+  local url="$1" dest="$2"
+  if command -v curl >/dev/null 2>&1; then
+    curl -fsSL --connect-timeout 5 --max-time 30 --retry 2 -o "$dest" "$url" || return $?
+  elif command -v wget >/dev/null 2>&1; then
+    wget -q --timeout=30 --tries=3 -O "$dest" "$url" || return $?
+  else
+    echo "Error: gogh requires curl or wget to download files" >&2
+    return 127
+  fi
+  if [[ ! -s "$dest" ]]; then
+    echo "Error: downloaded file is empty: ${url}" >&2
+    return 1
+  fi
+}
+
+
 # Used to get required python scripts, either from the internet or from local directory
 if [[ ! -f "${SCRIPT_PATH}/apply-alacritty.py" ]]; then
   ALACRITTY_APPLY_TMP_CLEANUP() {
@@ -1286,12 +1303,9 @@ if [[ ! -f "${SCRIPT_PATH}/apply-alacritty.py" ]]; then
     unset GOGH_ALACRITTY_SCRIPT
   }
   export GOGH_ALACRITTY_SCRIPT="$(mktemp -t gogh.alacritty.XXXXXX)"
-  if [[ "$(uname)" = "Darwin" ]]; then
-    # OSX ships with curl and ancient bash
-    curl -so "${GOGH_ALACRITTY_SCRIPT}" "${BASE_URL}/apply-alacritty.py"
-  else
-    # Linux ships with wget
-    wget -qO "${GOGH_ALACRITTY_SCRIPT}" "${BASE_URL}/apply-alacritty.py"
+  if ! fetch "${BASE_URL}/apply-alacritty.py" "${GOGH_ALACRITTY_SCRIPT}"; then
+    echo "Error: failed to download apply-alacritty.py" >&2
+    exit 1
   fi
 fi
 
@@ -1303,12 +1317,9 @@ if [[ ! -e "${SCRIPT_PATH}/apply-terminator.py" ]]; then
     unset GOGH_TERMINATOR_SCRIPT
   }
   export GOGH_TERMINATOR_SCRIPT="$(mktemp -t gogh.terminator.XXXXXX)"
-  if [[ "$(uname)" = "Darwin" ]]; then
-    # OSX ships with curl and ancient bash
-    curl -so "${GOGH_TERMINATOR_SCRIPT}" "${BASE_URL}/apply-terminator.py"
-  else
-    # Linux ships with wget
-    wget -qO "${GOGH_TERMINATOR_SCRIPT}" "${BASE_URL}/apply-terminator.py"
+  if ! fetch "${BASE_URL}/apply-terminator.py" "${GOGH_TERMINATOR_SCRIPT}"; then
+    echo "Error: failed to download apply-terminator.py" >&2
+    exit 1
   fi
 fi
 
@@ -1320,12 +1331,9 @@ if [[ ! -e "${SCRIPT_PATH}/apply-colors.sh" ]]; then
     unset GOGH_APPLY_SCRIPT
   }
   export GOGH_APPLY_SCRIPT="$(mktemp -t gogh.apply.XXXXXX)"
-  if [[ "$(uname)" = "Darwin" ]]; then
-    # OSX ships with curl and ancient bash
-    curl -so "${GOGH_APPLY_SCRIPT}" "${BASE_URL}/apply-colors.sh"
-  else
-    # Linux ships with wget
-    wget -qO "${GOGH_APPLY_SCRIPT}" "${BASE_URL}/apply-colors.sh"
+  if ! fetch "${BASE_URL}/apply-colors.sh" "${GOGH_APPLY_SCRIPT}"; then
+    echo "Error: failed to download apply-colors.sh" >&2
+    exit 1
   fi
 fi
 
@@ -1341,15 +1349,20 @@ set_gogh() {
 
   if [[ -e "${SCRIPT_PATH}/installs/$1" ]]; then
     bash "${SCRIPT_PATH}/installs/$1"
-  else
-    if [[ "$(uname)" = "Darwin" ]]; then
-      # OSX ships with curl
-      bash -c "$(curl -sLo- "${url}")"
-    else
-      # Linux ships with wget
-      bash -c "$(wget -qO- "${url}")"
-    fi
+    return $?
   fi
+
+  local tmp_install
+  tmp_install="$(mktemp -t gogh.install.XXXXXX)"
+  if ! fetch "${url}" "${tmp_install}"; then
+    echo "Error: failed to download theme installer for '$1'" >&2
+    rm -f "${tmp_install}"
+    return 1
+  fi
+  bash "${tmp_install}"
+  local status=$?
+  rm -f "${tmp_install}"
+  return $status
 }
 
 
@@ -1633,6 +1646,7 @@ done
 # Hence option 08 and 09 will not work
 # Solution is to remove the leading 0 from the parsed options
 command -v bar::start > /dev/null && bar::start
+GOGH_EXIT_STATUS=0
 for OP in "${OPTION[@]#0}"; do
   # See appy_tilixschemes in apply-colors.sh for usage of LOOP
   LOOP=$((${LOOP:-0}+1))
@@ -1648,12 +1662,13 @@ for OP in "${OPTION[@]#0}"; do
     echo
 
     SET_THEME="${THEMES[((OP-1))]}"
-    set_gogh "${SET_THEME}"
+    if ! set_gogh "${SET_THEME}"; then
+      GOGH_EXIT_STATUS=1
+    fi
   else
     echo -e "${C1} ~ INVALID OPTION! ~${CR}"
     exit 1
   fi
 done
-# If you skip || : and the command does not exist the script will exit with code 1
-# this will always return exit code 0 if we got this far
-command -v bar::stop > /dev/null && bar::stop || :
+command -v bar::stop > /dev/null && bar::stop
+exit "${GOGH_EXIT_STATUS}"
