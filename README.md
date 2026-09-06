@@ -58,6 +58,7 @@ If you want to buy me a coffee voluntarily, you can use this link.
 - [Author](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-author-contributor)
 - [Why Gogh?](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-why-gogh)
 - [Mentions](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-mentions)
+- [Work with Agents](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-work-with-agents)
 - [License](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-license)
 - [*Stargazers Over Time*](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-stargazers-over-time)
 
@@ -374,6 +375,35 @@ For one-line remote usage with arguments, pass `--` before the options:
 ```bash
 bash -c "$(wget -qO- https://gogh.website/gogh)" -- Dracula
 ```
+
+<br/>
+
+## 🤖 Work with Agents
+
+`master` does not track agent-context files — `AGENTS.md` and the `memory/` folder
+(architecture decisions + current project status) live on a dedicated orphan branch,
+`meta/agents`, so the project's own history stays focused on Gogh itself.
+
+If you want to work on this repo with an AI coding agent, bring those files into your
+working copy:
+
+```bash
+git restore --source meta/agents -- AGENTS.md
+git restore --source meta/agents -- memory/
+```
+
+That gives you:
+
+- `AGENTS.md` — the entry-point pointer any agent should read first.
+- `memory/STATUS.md` — the real, current state of the project (what's in progress,
+  what's uncommitted).
+- `memory/decisions/` — Architecture Decision Records (ADRs) for choices already made,
+  with their rationale, so an agent doesn't re-propose something already settled.
+
+**Note:** tool-specific folders such as `.agents/` and `.claude/` (agent *skills*) are
+intentionally left out of this — there isn't an established, tool-agnostic standard
+yet for how skills should be structured or shared, so for now they stay local/
+untracked rather than committed to either branch.
 
 <br/>
 
