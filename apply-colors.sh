@@ -1002,7 +1002,7 @@ apply_gtk() {
   PROFILE_KEY="${BASE_DIR}${PROFILE_SLUG:-}"
 
   if [[ -z "${legacy}" ]]; then
-    if [[ -z "$(${DCONF} list ${BASE_DIR%:})" ]]; then
+    if [[ -z "$(${DCONF} list "${BASE_DIR%:}")" ]]; then
       # Provide a user friendly error text if no saved profile exists, otherwise it will display "Error gconftool not found!"
       #  it could happen on a newly installed system. (happened on CentOS 7)
       printserr "Error, no saved profiles found!" \
@@ -1103,7 +1103,7 @@ appy_tilixschemes() {
       rm -rf "${scratchdir}"
       if [ -z "${GOGH_NONINTERACTIVE+no}" ] && [ -z "${GOGH_USE_NEW_THEME+no}" ]; then
               read -r -p "All done - apply new theme? [y/N] " -n 1 TILIX_RES
-      elif [ ! -z "${GOGH_USE_NEW_THEME+yes}" ]; then
+      elif [ -n "${GOGH_USE_NEW_THEME+yes}" ]; then
               TILIX_RES="Y"
       else
               TILIX_RES="N"
@@ -1168,7 +1168,7 @@ apply_xfce4-terminal() {
     if ((LOOP == OPTLENGTH)); then
         if [ -z "${GOGH_NONINTERACTIVE+no}" ] && [ -z "${GOGH_USE_NEW_THEME+no}" ]; then
             read -r -p "All done - apply new theme? [y/N] " -n 1 XFCE4_APPLY_CURR_THEME
-        elif [ ! -z "${GOGH_USE_NEW_THEME+yes}" ]; then
+        elif [ -n "${GOGH_USE_NEW_THEME+yes}" ]; then
             XFCE4_APPLY_CURR_THEME="Y"
         else
             XFCE4_APPLY_CURR_THEME="N"
@@ -1277,7 +1277,7 @@ apply_termux() {
     read -r -p "All done - apply new theme? [y/N] " -n 1
     res="${REPLY}"
     unset REPLY
-  elif [[ ! -z "${GOGH_USE_NEW_THEME+yes}" ]]; then
+  elif [[ -n "${GOGH_USE_NEW_THEME+yes}" ]]; then
     res="Y"
   else
     res="N"
