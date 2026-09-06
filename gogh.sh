@@ -1642,13 +1642,13 @@ for OP in "${OPTION[@]}"; do
 
   if [[ "${OP}" =~ ^0*[0-9]+$ ]] && (( 10#${OP} <= ARRAYLENGTH && 10#${OP} > 0 )); then
 
-    FILENAME=$(remove_file_extension "${THEMES[((OP-1))]}")
+    FILENAME=$(remove_file_extension "${THEMES[((10#${OP}-1))]}")
     FILENAME_SPACE="${FILENAME//-/ }"
     echo -e "\nTheme: $(capitalize "${FILENAME_SPACE}")"
     echo "${color_dot_str}"
     echo
 
-    SET_THEME="${THEMES[((OP-1))]}"
+    SET_THEME="${THEMES[((10#${OP}-1))]}"
     set_gogh "${SET_THEME}"
   else
     echo -e "${C1} ~ INVALID OPTION! ~${CR}"
