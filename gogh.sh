@@ -1600,9 +1600,13 @@ fi
 # | This is to avoid creating multiple profiles just for colors
 # | ===========================================
 if [[ "$TERMINAL" = "tilix" ]] && [[ ${#OPTION[@]} -gt 0 ]]; then
-  echo
-  read -r -p "Tilix detected - use color schemes instead of profiles? [y/N] " -n 1 TILIX_RES
-  echo
+  if [[ -z "${GOGH_NONINTERACTIVE+no}" ]]; then
+    echo
+    read -r -p "Tilix detected - use color schemes instead of profiles? [y/N] " -n 1 TILIX_RES
+    echo
+  else
+    TILIX_RES="n"
+  fi
 
   # |
   # | When selecting multiple themes and user opts for color schemes, we save all themes
