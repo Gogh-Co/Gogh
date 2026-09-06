@@ -382,14 +382,14 @@ bash -c "$(wget -qO- https://gogh.website/gogh)" -- Dracula
 
 `master` does not track agent-context files — `AGENTS.md` and the `memory/` folder
 (architecture decisions + current project status) live on a dedicated orphan branch,
-`meta/agents`, so the project's own history stays focused on Gogh itself.
+`meta/agents-master`, so the project's own history stays focused on Gogh itself.
 
 If you want to work on this repo with an AI coding agent, bring those files into your
 working copy:
 
 ```bash
-git restore --source meta/agents -- AGENTS.md
-git restore --source meta/agents -- memory/
+git restore --source meta/agents-master -- AGENTS.md
+git restore --source meta/agents-master -- memory/
 ```
 
 That gives you:
