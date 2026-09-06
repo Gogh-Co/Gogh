@@ -47,3 +47,38 @@ jobs:
         env:
           PR_TITLE: ${{ github.event.pull_request.title }}
         run: python tools/validate/validate_pr.py /tmp/changed_files.txt
+
+  shell-validation:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: 🏅 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🏅 bash -n syntax check
+        run: |
+          bash -n gogh.sh
+          bash -n apply-colors.sh
+          for f in installs/*.sh; do bash -n "$f"; done
+
+      # ubuntu-22.04 GitHub-hosted runners ship shellcheck preinstalled
+      # (see actions/runner-images), so no separate install step is needed here.
+      #
+      # --severity=error is the widest scope that is currently clean against
+      # gogh.sh and apply-colors.sh (verified locally with shellcheck 0.11.0).
+      # Everything above "error" (the "warning"/"info"/"style" findings, e.g.
+      # SC2086/SC2046/SC2207/SC2155/SC2034/SC2059/SC2223/SC2129/SC2005/SC2154/
+      # SC2188/SC2269) is pre-existing quoting/style debt unrelated to this
+      # branch's scope (CI/test infra only) -- left for a human to triage in a
+      # follow-up, and still visible (never hidden) via the informational
+      # report step below.
+      - name: 🏅 ShellCheck (errors only, blocking)
+        run: shellcheck --severity=error gogh.sh apply-colors.sh
+
+      - name: 🏅 ShellCheck (full report, informational)
+        run: shellcheck gogh.sh apply-colors.sh || true
+
+      - name: 🏅 Install Bats
+        run: sudo apt-get update && sudo apt-get install -y bats
+
+      - name: 🏅 Run Bats tests
+        run: bats tests/
