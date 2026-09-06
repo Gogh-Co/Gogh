@@ -1,0 +1,101 @@
+name: 🐛 Bug report
+description: Report something that isn't working as expected
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug!
+        Before filling this out, please search [existing issues](https://github.com/Gogh-Co/Gogh/issues) to check whether it was already reported.
+
+  - type: dropdown
+    id: terminal
+    attributes:
+      label: Terminal
+      description: Which terminal is affected?
+      options:
+        - Alacritty
+        - Cygwin
+        - Foot
+        - Ghostty
+        - Gnome Terminal
+        - Guake
+        - iTerm
+        - Kitty
+        - Konsole
+        - Mate
+        - Mintty
+        - Pantheon / Elementary
+        - st+
+        - Terminator
+        - Tilix
+        - Wezterm
+        - XFCE4
+        - Other (not listed)
+        - Not terminal-specific
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Linux
+        - macOS
+        - Windows / WSL
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: os-details
+    attributes:
+      label: Distro / OS version
+      description: e.g. Ubuntu 24.04, Arch, Fedora 40, macOS 15
+    validations:
+      required: false
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the bug.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Run `gogh` ...
+        2. Select theme ...
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant output / error message
+      description: Paste any error output or terminal log. This will be rendered as a shell code block.
+      render: shell
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Anything else that might help — screenshots, links, related issues.
+    validations:
+      required: false
