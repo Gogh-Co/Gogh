@@ -2,6 +2,7 @@ gh-pages/node_modules/
 node_modules/
 venv/
 bin/
+memory/
 
 .venv/
 .devbox/
@@ -21,3 +22,7 @@ apply-colors-original.sh
 out.txt
 devbox.lock
 bun.lock
+
+# Ignore Markdown files except the root README.
+*.md
+!/README.md
