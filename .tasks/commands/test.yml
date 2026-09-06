@@ -1,0 +1,20 @@
+---
+version: '3'
+
+tasks:
+  syntax:
+    desc: bash -n syntax check on gogh.sh, apply-colors.sh, and every installs/*.sh (same check as CI).
+    cmds:
+      - bash -n gogh.sh
+      - bash -n apply-colors.sh
+      - for f in installs/*.sh; do bash -n "$f"; done
+
+  shellcheck:
+    desc: ShellCheck on gogh.sh and apply-colors.sh, errors only (same blocking check as CI).
+    cmds:
+      - shellcheck --severity=error gogh.sh apply-colors.sh
+
+  bats:
+    desc: Run the Bats behavioral test suite for gogh.sh (tests/*.bats). Requires bats-core installed.
+    cmds:
+      - bats tests/

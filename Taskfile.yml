@@ -34,12 +34,18 @@ tasks:
     desc: Run every PR-readiness check locally (colors + format + scope).
     deps: [validate:colors, validate:format, validate:pr]
 
+  test:
+    desc: Run every gogh.sh check locally (syntax + shellcheck + Bats), same as CI's shell-validation job.
+    deps: [test:syntax, test:shellcheck, test:bats]
+
 includes:
   generate:
     taskfile: .tasks/commands/generate.yml
     flatten: true
   validate:
     taskfile: .tasks/commands/validate.yml
+  test:
+    taskfile: .tasks/commands/test.yml
   clean:
     taskfile: .tasks/commands/clean.yml
     flatten: true
