@@ -50,7 +50,6 @@ If you want to buy me a coffee voluntarily, you can use this link.
 - [Available Themes](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-themes)
 - [Help](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-help)
 - [Create your Own Theme!](docs/CONTRIBUTING.md)
-- [As Command line](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-as-command-line)
 - [Accessibility ~ WCAG](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-accessibility---wcag)
 - [First commit](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-first-commit)
 - [Credits](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#heart-credits)
@@ -117,6 +116,26 @@ bash -c "$(curl -fsSL https://gogh.website/gogh)"
 **DEMO:**
 
 ![gogh-demo-profile](https://raw.githubusercontent.com/Gogh-Co/Gogh/master/.images/demos/gogh-demo-profile.gif)
+
+<br/>
+
+### CLI Arguments (skip the interactive menu)
+
+Select themes directly by name/slug instead of the interactive list:
+
+```bash
+./gogh.sh Dracula
+./gogh.sh dracula nord-light
+
+# all themes
+./gogh.sh ALL
+```
+
+For one-line remote usage with arguments, pass `--` before the options:
+
+```bash
+bash -c "$(wget -qO- https://gogh.website/gogh)" -- Dracula
+```
 
 <br/>
 <br/>
@@ -344,39 +363,6 @@ rules a theme PR needs to follow, and how to check it locally with
 `task validate` before opening the PR.
 
 <br>
-
-## 👨‍💻 As command line
-
-**WARNING:** *Only if you know what you are doing or trust me :)*
-
-```bash
-sudo wget -O /usr/local/bin/gogh https://gogh.website/gogh && sudo chmod +x /usr/local/bin/gogh
-```
-
-Now in your terminal just type `gogh`:
-
-```bash
-gogh
-```
-
-You can also select themes directly with CLI arguments (skip the interactive list):
-
-```bash
-# by name/slug (recommended, stable)
-gogh Dracula
-gogh dracula nord-light
-
-# all themes
-gogh ALL
-```
-
-For one-line remote usage with arguments, pass `--` before the options:
-
-```bash
-bash -c "$(wget -qO- https://gogh.website/gogh)" -- Dracula
-```
-
-<br/>
 
 ## 🤖 Work with Agents
 
