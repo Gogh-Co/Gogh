@@ -1524,6 +1524,7 @@ if [[ ${#OPTION[@]} -eq 0 ]]; then
   # Note: /usr/bin/column uses tabs and does not support ANSI codes yet (merged but not released)
   MAXL=$(( $(printf "%s\n" "${THEMES[@]}" | wc -L) - 3 )) # Biggest theme name without the extension
   NCOLS=$(( ${COLUMNS:-$(tput cols)} / (10+MAXL) ))       # number of columns, 10 is the length of '  ( xxx ) '
+  (( NCOLS < 1 )) && NCOLS=1                              # avoid a division by zero below on narrow terminals
   NROWS=$(( (ARRAYLENGTH-1)/NCOLS + 1 ))                  # number of rows
   row=0
 
@@ -1670,26 +1671,26 @@ for c in C{0..15}; do
 done
 
 # Note:
-# Constants with a leading 0 are interpreted as octal numbers
-# Hence option 08 and 09 will not work
-# Solution is to remove the leading 0 from the parsed options
+# Constants with a leading 0 are interpreted as octal numbers, so a
+# zero-padded option (08, 008, ...) is forced to base 10 via the 10#
+# prefix below instead of being parsed as octal.
 command -v bar::start > /dev/null && bar::start
 GOGH_EXIT_STATUS=0
-for OP in "${OPTION[@]#0}"; do
+for OP in "${OPTION[@]}"; do
   # See appy_tilixschemes in apply-colors.sh for usage of LOOP
   LOOP=$((${LOOP:-0}+1))
 
   command -v bar::status_changed > /dev/null && bar::status_changed $LOOP ${#OPTION[@]}
 
-  if [[ OP -le ARRAYLENGTH && OP -gt 0 ]]; then
+  if [[ "${OP}" =~ ^0*[0-9]+$ ]] && (( 10#${OP} <= ARRAYLENGTH && 10#${OP} > 0 )); then
 
-    FILENAME=$(remove_file_extension "${THEMES[((OP-1))]}")
+    FILENAME=$(remove_file_extension "${THEMES[((10#${OP}-1))]}")
     FILENAME_SPACE="${FILENAME//-/ }"
     echo -e "\nTheme: $(capitalize "${FILENAME_SPACE}")"
     echo "${color_dot_str}"
     echo
 
-    SET_THEME="${THEMES[((OP-1))]}"
+    SET_THEME="${THEMES[((10#${OP}-1))]}"
     if ! set_gogh "${SET_THEME}"; then
       GOGH_EXIT_STATUS=1
     fi

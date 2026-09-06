@@ -1,6 +1,8 @@
+import datetime
 import io
 import json
 import os
+import shutil
 import sys
 
 import tomli
@@ -103,6 +105,12 @@ if not "GOGH_NONINTERACTIVE" in os.environ:
     if answer.lower() not in ['y', 'yes']:
         print("Aborted")
         sys.exit(1)
+
+# Back up the existing config before overwriting it, in case the write below
+# is interrupted partway through (e.g. Ctrl-C, disk full, permission error).
+backup_path = f"{conf_path}.{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}"
+shutil.copyfile(conf_path, backup_path)
+print(f"Backup created at {backup_path}")
 
 # Write alacritty config
 if conf_path.endswith('yml'):
