@@ -16,3 +16,4 @@ a trade-off that was already discussed and explicitly accepted.
 | [0003](0003-gh-pages-workflow-call.md) | Make the gh-pages deploy workflow callable via `workflow_call` instead of duplicating it per branch | Accepted |
 | [0004](0004-gogh-sh-installer-hardening-series.md) | Harden `gogh.sh`'s installer safety and reliability via a 9-branch fix series | Accepted |
 | [0005](0005-adopt-set-e-in-gogh-sh.md) | Adopt `set -e` in `gogh.sh`, after auditing every place it would break | Accepted |
+| [0006](0006-remove-persistent-cli-install-from-readme.md) | Remove the persistent `/usr/local/bin/gogh` install from the README | Accepted |

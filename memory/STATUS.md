@@ -9,20 +9,23 @@ _Last updated: 2026-09-06._
 
 ## In progress / uncommitted
 
-`gogh.sh` on `master` has an **uncommitted, stashed** change (`git stash list` —
-message "wip: set -euo pipefail audit fixes on gogh.sh") adopting `set -e` per
-[ADR 0005](decisions/0005-adopt-set-e-in-gogh-sh.md) — the last item
-that was still open in this file. It was stashed (not committed) only so this
-branch, `meta/agents-master`, could be checked out in the same working directory
-to update this file and add the ADR; nothing about the fix itself is unfinished.
-**Pop it back (`git stash pop`) after switching back to `master`.**
+`README.md` on `master` has an **uncommitted, stashed** change (`git stash list` —
+message "wip: README simplification (remove persistent install, keep 2
+traditional methods)") implementing [ADR 0006](decisions/0006-remove-persistent-cli-install-from-readme.md).
+It was stashed (not committed) only so this branch, `meta/agents-master`, could
+be checked out in the same working directory to add that ADR; nothing about the
+edit itself is unfinished. **Pop it back (`git stash pop`) after switching back
+to `master`.**
 
-Otherwise `master` is clean and matches `origin/master`. The 9-branch `gogh.sh`
-hardening series (ADR 0004) is fully merged and pushed.
+Otherwise `master` is clean and matches `origin/master` (`dba7481`). Fully
+landed and pushed since the 9-branch series (ADR 0004):
+- `set -e` adoption (ADR 0005).
+- The full ShellCheck backlog (all 12 remaining finding types, ~52 occurrences)
+  — `shellcheck gogh.sh apply-colors.sh` is now clean at every severity, not
+  just `--severity=error`.
 
-This branch itself, `meta/agents-master`, has **not** been pushed to `origin` yet
-— it only exists in this local clone. Push it if you want `AGENTS.md`/`memory/`
-to survive a fresh clone elsewhere.
+This branch itself, `meta/agents-master`, **is** pushed to `origin` (as of the
+ADR 0004/0005 commit).
 
 **If you're picking this up**: run `git status --short` first — if it no longer
 matches what's described above, someone else kept working or committed; trust git,
@@ -30,37 +33,42 @@ not this file, and fix this section before continuing.
 
 ## Recently verified
 
-Everything from the previous entry (the 9-branch series, all against the fully
-merged `master`) still holds. Additionally, for the `set -e` adoption (ADR 0005):
-- `bats tests/` — 8/8 passing, run twice, against the patched (uncommitted)
-  `gogh.sh`.
-- `shellcheck --severity=error` — still clean.
-- Direct reproduction of every scenario the audit flagged (minimal/empty
-  environment with `TERM=dumb`, zero-padded input `8`/`08`/`008`/`0008`,
-  `COLUMNS=40`, a deliberately broken `BASE_URL`, `-h`, a real theme name) all
-  behave the same as before adopting `-e` — no new failures introduced.
-- `TERM=dumb` specifically was the scenario that caught the biggest issue: `tput
-  setaf`/`tput sgr0`/`tput clear` all exit non-zero on a terminal without color
-  support, which would have aborted the script on its very first line under a
-  naive `set -e`. Worth remembering as *the* environment to always retest against
-  when touching the top of this file.
+Everything from earlier entries (the 9-branch series, `set -e`, all against the
+fully merged `master`) still holds. Additionally, for the ShellCheck backlog
+cleanup:
+- `shellcheck gogh.sh apply-colors.sh` — exit 0, zero findings at any severity.
+- `bats tests/` — 8/8, run twice.
+- `task test` end to end.
+- One near-miss caught by a byte-level check, not just re-running tests: an
+  attempted fix to `apply-colors.sh`'s Wezterm palette-escape-sequence builder
+  (`printf '%s'` instead of the variable-as-format pattern) looked correct but
+  silently broke the `\033`/`\007` escape-sequence generation (`printf '%s'`
+  doesn't reinterpret backslash escapes in its arguments, only in the format
+  string). Caught by comparing `xxd` output before/after, reverted, and
+  documented/suppressed instead. Worth remembering: when "fixing" a printf
+  format-string warning, diff the actual output bytes, not just re-running
+  `bash -n`/tests, if the string being printed contains escape sequences.
+- Terminal-specific functions touched during that cleanup (Kitty, Konsole,
+  XFCE4-terminal, GTK/dconf profiles in `apply-colors.sh`) were verified by
+  syntax + static analysis + manual reasoning about each changed expression,
+  **not** end-to-end against a real desktop terminal — this sandbox has none of
+  those environments. If something in that area misbehaves later, re-check
+  those specific diffs first.
 
 ## Open / pending ideas
 
 - **Real CI never exercised.** `.github/workflows/validate-on-pr.yml`'s
   `shell-validation` job triggers on `pull_request`, not on a push to `master` —
-  since the whole series (including the `set -e` follow-up) was merged/committed
-  directly, that job has never actually run on GitHub Actions. Worth confirming
-  via a real PR.
-- **ShellCheck backlog.** The full (non-`--severity=error`) shellcheck report
-  surfaces ~40 pre-existing warning/info/style findings (SC2086, SC2046, SC2207,
-  SC2155, SC2034, SC2059, SC2223, SC2129, SC2005, SC2154, SC2188, SC2269) across
-  `gogh.sh`/`apply-colors.sh`. Visible in CI's informational (non-blocking) step;
-  nobody has triaged them yet.
-- **Deliberately out of scope** (rated "Optional" in the original review, no
-  branch planned): checksum/signature verification for the persistent
-  `sudo wget -O /usr/local/bin/gogh ...` install path documented in the README;
-  pinning `BASE_URL` to a release tag/commit instead of always tracking `master`.
+  since the whole series was merged/committed directly, that job has never
+  actually run on GitHub Actions. Worth confirming via a real PR.
+- **Real CLI-binary support, deliberately not attempted.** ADR 0006 removed the
+  ad hoc persistent-install path (`sudo wget -O /usr/local/bin/gogh ...`,
+  unverified) from the README rather than hardening it, on the understanding
+  that a *real* CLI binary — versioned releases, checksums/signatures, a real
+  `--version`/`--help`, an update/uninstall story, maybe package-manager
+  distribution — is a legitimate future direction but a substantially different
+  (packaging + release infrastructure) effort, not a README tweak. If someone
+  picks this up, it deserves its own ADR, not a revival of 0006.
 - `docs/CONTRIBUTING.md` / `.tasks/commands/help.yml` document the
   add-a-theme contributor flow, not the "I'm touching `gogh.sh`" flow — neither
   mentions `task test`. Minor discoverability gap, not urgent.
