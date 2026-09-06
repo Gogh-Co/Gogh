@@ -1,8 +1,8 @@
 ---
 name: 'Monokai Pro Octagon'
-author: ''             # 'AUTHOR NAME (http://WEBSITE.com)'
-author_name: ''
-author_url: ''
+author: 'Monokai (https://monokai.com/)'
+author_name: 'Monokai'
+author_url: 'https://monokai.com/'
 variant: 'dark'        # dark or light
 
 color_01: '#282A3A'    # Black (Host)
