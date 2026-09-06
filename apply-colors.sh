@@ -317,7 +317,11 @@ updateMinttyConfig () {
   local  color="${2}"
   local   name="${3}"
 
-  sed -i -r -e "s/^${name}=.+/$(createMinttyEntry "${name}" "${color}")/g" "${config}"
+  if grep -q "^${name}=" "${config}"; then
+    sed -i -r -e "s/^${name}=.+/$(createMinttyEntry "${name}" "${color}")/g" "${config}"
+  else
+    createMinttyEntry "${name}" "${color}" >> "${config}"
+  fi
 }
 
 createKmsconEntry () {
@@ -1366,13 +1370,31 @@ case "${TERMINAL}" in
     ;;
 
   gnome-terminal* )
-    if [[ -n "$(${DCONF} list /org/gnome/terminal/)" ]]; then
+    # Modern GNOME Terminal is detected by schema presence, not by dconf having
+    # written keys -- dconf list is empty for a never-customized default
+    # profile even on a fully modern install, which used to misroute here into
+    # the legacy gconftool-2 branch below.
+    if [[ -n "$(${DCONF} list /org/gnome/terminal/)" ]] || { [[ -n "${GS}" ]] && ${GS} list-schemas 2>/dev/null | grep -qx "org.gnome.Terminal.ProfilesList"; }; then
       BASE_DIR="/org/gnome/terminal/legacy/profiles:/:"
       PROFILE_LIST_KEY="${BASE_DIR%:}list"
 
       # Note -- ${BASE_DIR%s} is a workaround to avoid doing additional conditional testing for existing profiles
       # if terminal is set to gnome-terminal
       : "${DEFAULT_SLUG:="$(${DCONF} read "${BASE_DIR%:}default" | tr -d \')"}"
+
+      # GNOME Terminal ships the default profile as a schema default, and dconf
+      # only reports values the user has set, so this reads back empty until a
+      # profile is added or renamed. gsettings does honour schema defaults.
+      if [[ -z "${DEFAULT_SLUG}" ]] && [[ -n "${GS}" ]]; then
+        DEFAULT_SLUG="$(${GS} get org.gnome.Terminal.ProfilesList default | tr -d \')"
+      fi
+
+      if [[ -z "${DEFAULT_SLUG}" ]]; then
+        printserr "Error, no saved profiles found!" \
+        "Possible fix, create a new profile (Terminal > Preferences > Profiles > +) and try again." \
+        "You can safely delete the created profile after the installation."
+        exit 1
+      fi
 
       LEFT_WRAPPER="["
       RIGHT_WRAPPER="]"
@@ -1383,6 +1405,13 @@ case "${TERMINAL}" in
       BASE_DIR="/apps/gnome-terminal/profiles/"
       PROFILE_LIST_KEY="${BASE_DIR/profiles/global}profile_list"
       LEGACY_BOLD=true
+
+      if [[ -z "${GCONF}" ]]; then
+        printserr "Error gconftool not found!" \
+        "This looks like a pre-3.8 GNOME Terminal, which needs gconftool-2 to read its profile settings." \
+        "sudo apt install gconf2? or export GCONF=/path/to/gconftool-2"
+        exit 1
+      fi
 
       : "${DEFAULT_SLUG:="$(${GCONF} read "${BASE_DIR}default_profile")"}"
 
@@ -1396,6 +1425,20 @@ case "${TERMINAL}" in
     LEGACY_BOLD=true
 
     : "${DEFAULT_SLUG:="$(${DCONF} read "${BASE_DIR/profiles/global}default-profile" | tr -d \')"}"
+
+    # MATE Terminal ships the default profile as a schema default, and dconf
+    # only reports values the user has set, so this reads back empty until a
+    # profile is added or renamed. gsettings does honour schema defaults.
+    if [[ -z "${DEFAULT_SLUG}" ]] && [[ -n "${GS}" ]]; then
+      DEFAULT_SLUG="$(${GS} get org.mate.terminal.global default-profile | tr -d \')"
+    fi
+
+    if [[ -z "${DEFAULT_SLUG}" ]]; then
+      printserr "Error, no saved profiles found!" \
+      "Possible fix, create a new profile (MATE Terminal > Edit > Profiles > New) and try again." \
+      "You can safely delete the created profile after the installation."
+      exit 1
+    fi
 
     PALETTE_DELIM=":"
 
