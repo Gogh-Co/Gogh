@@ -46,10 +46,17 @@ PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 # will not get inherited. Hence traps defined in gogh.sh and print-themes.sh will still trigger
 trap 'GLOBAL_VAR_CLEANUP; trap - EXIT' EXIT HUP INT QUIT PIPE TERM
 
+# These are intentional printf-format wrappers: `format` IS the parameter, by
+# design, so it can never be a plain literal in the printf call itself. Every
+# call site passes a fixed literal (e.g. '%s\n', '\n%s\n\n') -- dynamic values
+# only ever go through "${@}" as printf's %s arguments, never as the format
+# string itself, so there is no risk of a stray "%" in dynamic data being
+# misinterpreted as a format specifier.
 print() {
         format="${1:?missing value for print}"
         shift
         if [ -z "${GOGH_NONINTERACTIVE+no}" ]; then
+                # shellcheck disable=SC2059
                 printf "${format}" "${@}"
         fi
 }
@@ -61,6 +68,7 @@ prints() {
 printerr() {
         format="${1:?missing value for printerr}"
         shift
+        # shellcheck disable=SC2059
         printf "${format}" "${@}" 1>&2
 }
 
@@ -1193,14 +1201,14 @@ apply_linux_vt () {
             echo "${!color}" >> "${file_name}"
           done
     # apply the theme if setvtrgb exists
-    if command -v setvtrgb >/dev/null &2>&1; then
+    if command -v setvtrgb >/dev/null 2>&1; then
             setvtrgb "${file_name}"
             echo setvtrgb "${file_name}"
             gogh_colors # preview
     fi
   fi
 
-  if command -v update-alternatives >/dev/null &2>&1 && [[ "${USER}" = "root" ]]; then
+  if command -v update-alternatives >/dev/null 2>&1 && [[ "${USER}" = "root" ]]; then
     update-alternatives --install /etc/vtrgb vtrgb "${file_name}" 30
     update-alternatives --set vtrgb "${file_name}"
     setvtrgb /etc/vtrgb
@@ -1276,16 +1284,22 @@ apply_wezterm() {
   palette_seq="${palette_seq};15;${COLOR_16}\\007"
 
   # Apply the color palette
+  # palette_seq's literal \033/\007 sequences need printf's own format-string
+  # escape processing to become real ESC/BEL bytes -- printf '%s' would print
+  # them as literal backslash-digit text instead (verified). The dynamic parts
+  # (COLOR_01..COLOR_16) are validated hex colors (tools/validate/validate_colors.py),
+  # never containing "%", so there's no real risk from using it as the format.
+  # shellcheck disable=SC2059
   printf "${palette_seq}"
 
   # Set foreground color (escape sequence 10)
-  printf "\\033]10;${FOREGROUND_COLOR}\\007"
+  printf '\033]10;%s\007' "${FOREGROUND_COLOR}"
 
   # Set background color (escape sequence 11)
-  printf "\\033]11;${BACKGROUND_COLOR}\\007"
+  printf '\033]11;%s\007' "${BACKGROUND_COLOR}"
 
   # Set cursor color (escape sequence 12)
-  printf "\\033]12;${CURSOR_COLOR}\\007"
+  printf '\033]12;%s\007' "${CURSOR_COLOR}"
 
   prints "Done - Wezterm colors have been applied dynamically."
   prints "Theme: ${PROFILE_NAME}"

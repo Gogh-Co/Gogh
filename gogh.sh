@@ -1314,7 +1314,8 @@ if [[ -z "${SCRIPT_PATH}" || ! -f "${SCRIPT_PATH}/apply-alacritty.py" ]]; then
     rm -rf "${GOGH_ALACRITTY_SCRIPT}"
     unset GOGH_ALACRITTY_SCRIPT
   }
-  export GOGH_ALACRITTY_SCRIPT="$(mktemp -t gogh.alacritty.XXXXXX)"
+  GOGH_ALACRITTY_SCRIPT="$(mktemp -t gogh.alacritty.XXXXXX)"
+  export GOGH_ALACRITTY_SCRIPT
   if ! fetch "${BASE_URL}/apply-alacritty.py" "${GOGH_ALACRITTY_SCRIPT}"; then
     echo "Error: failed to download apply-alacritty.py" >&2
     exit 1
@@ -1328,7 +1329,8 @@ if [[ -z "${SCRIPT_PATH}" || ! -e "${SCRIPT_PATH}/apply-terminator.py" ]]; then
     rm -rf "${GOGH_TERMINATOR_SCRIPT}"
     unset GOGH_TERMINATOR_SCRIPT
   }
-  export GOGH_TERMINATOR_SCRIPT="$(mktemp -t gogh.terminator.XXXXXX)"
+  GOGH_TERMINATOR_SCRIPT="$(mktemp -t gogh.terminator.XXXXXX)"
+  export GOGH_TERMINATOR_SCRIPT
   if ! fetch "${BASE_URL}/apply-terminator.py" "${GOGH_TERMINATOR_SCRIPT}"; then
     echo "Error: failed to download apply-terminator.py" >&2
     exit 1
@@ -1342,7 +1344,8 @@ if [[ -z "${SCRIPT_PATH}" || ! -e "${SCRIPT_PATH}/apply-colors.sh" ]]; then
     rm -rf "${GOGH_APPLY_SCRIPT}"
     unset GOGH_APPLY_SCRIPT
   }
-  export GOGH_APPLY_SCRIPT="$(mktemp -t gogh.apply.XXXXXX)"
+  GOGH_APPLY_SCRIPT="$(mktemp -t gogh.apply.XXXXXX)"
+  export GOGH_APPLY_SCRIPT
   if ! fetch "${BASE_URL}/apply-colors.sh" "${GOGH_APPLY_SCRIPT}"; then
     echo "Error: failed to download apply-colors.sh" >&2
     exit 1
