@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -uo pipefail
 
 # Variables to avoid repeated calls to tput
 for n in {0..15}; do
@@ -1429,7 +1430,7 @@ ARRAYLENGTH=${#THEMES[@]}
 declare -a OPTION=()
 
 # Allow direct CLI selection by number/name/ALL
-if [[ "$1" = "--" ]]; then
+if [[ "${1:-}" = "--" ]]; then
   shift
 fi
 
@@ -1530,7 +1531,7 @@ if [[ ${#OPTION[@]} -eq 0 ]]; then
     col=0
     while ((col < NCOLS)); do
       NUM=$((col*NROWS+row))
-      NAME="${THEMES[$NUM]}"
+      NAME="${THEMES[$NUM]:-}"
       if [[ -n $NAME ]]; then
         FORMATTED_NAME=$(format_theme_name "$NAME")
         printf "  ( ${C4}%3d${CR} ) %-${MAXL}s" $((NUM+1)) "$FORMATTED_NAME"
@@ -1551,7 +1552,7 @@ if [[ ${#OPTION[@]} -eq 0 ]]; then
   read -r -p 'Enter OPTION(S) : ' -a OPTION
 
   # Automagically generate options if user opts for all themes
-  [[ "$(echo "${OPTION}" | tr '[:lower:]' '[:upper:]')" == ALL ]] && OPTION=($(seq -s " " $ARRAYLENGTH))
+  [[ "$(echo "${OPTION[0]:-}" | tr '[:lower:]' '[:upper:]')" == ALL ]] && OPTION=($(seq -s " " $ARRAYLENGTH))
 fi
 
 # |
@@ -1562,17 +1563,17 @@ if [[ -z "${TERMINAL:-}" ]]; then
   # | Check for the terminal name (depening on os)
   # | ===========================================
   OS="$(uname)"
-  if [[ "$TERM" = "xterm-ghostty" ]] || [[ "$TERM_PROGRAM" = "ghostty" ]]; then
+  if [[ "${TERM:-}" = "xterm-ghostty" ]] || [[ "${TERM_PROGRAM:-}" = "ghostty" ]]; then
     TERMINAL="ghostty"
   elif [[ "$OS" = "Darwin" ]]; then
-    TERMINAL=$TERM_PROGRAM
+    TERMINAL="${TERM_PROGRAM:-}"
   elif [[ "${OS#CYGWIN}" != "${OS}" ]]; then
     TERMINAL="mintty"
-  elif [[ "$TERM" = "xterm-kitty" ]]; then
+  elif [[ "${TERM:-}" = "xterm-kitty" ]]; then
     TERMINAL="kitty"
-  elif [[ "${TERM}" = "linux" ]]; then
+  elif [[ "${TERM:-}" = "linux" ]]; then
     TERMINAL="linux"
-  elif [[ "${HOME}" = *com.termux* ]]; then
+  elif [[ "${HOME:-}" = *com.termux* ]]; then
     TERMINAL="termux"
   else
     # |
