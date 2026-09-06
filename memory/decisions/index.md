@@ -17,3 +17,5 @@ a trade-off that was already discussed and explicitly accepted.
 | [0004](0004-gogh-sh-installer-hardening-series.md) | Harden `gogh.sh`'s installer safety and reliability via a 9-branch fix series | Accepted |
 | [0005](0005-adopt-set-e-in-gogh-sh.md) | Adopt `set -e` in `gogh.sh`, after auditing every place it would break | Accepted |
 | [0006](0006-remove-persistent-cli-install-from-readme.md) | Remove the persistent `/usr/local/bin/gogh` install from the README | Accepted |
+| [0007](0007-pin-shellcheck-version-in-ci.md) | Pin ShellCheck to an explicit version in CI instead of the runner's default | Accepted |
+| [0008](0008-rewrite-stale-bot-policy.md) | Rewrite the stale-bot policy per issue #545 | Accepted |

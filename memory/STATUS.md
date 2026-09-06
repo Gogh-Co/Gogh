@@ -9,23 +9,18 @@ _Last updated: 2026-09-06._
 
 ## In progress / uncommitted
 
-`README.md` on `master` has an **uncommitted, stashed** change (`git stash list` —
-message "wip: README simplification (remove persistent install, keep 2
-traditional methods)") implementing [ADR 0006](decisions/0006-remove-persistent-cli-install-from-readme.md).
-It was stashed (not committed) only so this branch, `meta/agents-master`, could
-be checked out in the same working directory to add that ADR; nothing about the
-edit itself is unfinished. **Pop it back (`git stash pop`) after switching back
-to `master`.**
+Nothing in progress. `master` is clean and matches `origin/master`
+(`6197eb9`). This branch, `meta/agents-master`, is also pushed and matches
+`origin/meta/agents-master`.
 
-Otherwise `master` is clean and matches `origin/master` (`dba7481`). Fully
-landed and pushed since the 9-branch series (ADR 0004):
-- `set -e` adoption (ADR 0005).
-- The full ShellCheck backlog (all 12 remaining finding types, ~52 occurrences)
-  — `shellcheck gogh.sh apply-colors.sh` is now clean at every severity, not
-  just `--severity=error`.
-
-This branch itself, `meta/agents-master`, **is** pushed to `origin` (as of the
-ADR 0004/0005 commit).
+Everything that came out of the original security/correctness review of
+`gogh.sh` (the plan tracked in the now-deleted `PLAN_DE_MEJORAS.md`) is
+resolved and landed — see [ADR 0004](decisions/0004-gogh-sh-installer-hardening-series.md)
+through [0007](decisions/0007-pin-shellcheck-version-in-ci.md). Unrelated
+maintainer-driven work also landed since: the stale-bot policy rewrite
+([ADR 0008](decisions/0008-rewrite-stale-bot-policy.md)) and a small
+`docs/CONTRIBUTING.md`/`task help` pointer to `task test` for installer
+changes.
 
 **If you're picking this up**: run `git status --short` first — if it no longer
 matches what's described above, someone else kept working or committed; trust git,
@@ -33,42 +28,33 @@ not this file, and fix this section before continuing.
 
 ## Recently verified
 
-Everything from earlier entries (the 9-branch series, `set -e`, all against the
-fully merged `master`) still holds. Additionally, for the ShellCheck backlog
-cleanup:
-- `shellcheck gogh.sh apply-colors.sh` — exit 0, zero findings at any severity.
-- `bats tests/` — 8/8, run twice.
+- `shellcheck gogh.sh apply-colors.sh` — exit 0 at every severity, pinned to
+  the exact ShellCheck version CI now uses (v0.11.0), verified in a clean
+  container with no ShellCheck preinstalled (not just this dev machine's
+  install). See ADR 0007 for why that distinction mattered.
+- `bats tests/` — 8/8, run repeatedly across sessions.
 - `task test` end to end.
-- One near-miss caught by a byte-level check, not just re-running tests: an
-  attempted fix to `apply-colors.sh`'s Wezterm palette-escape-sequence builder
-  (`printf '%s'` instead of the variable-as-format pattern) looked correct but
-  silently broke the `\033`/`\007` escape-sequence generation (`printf '%s'`
-  doesn't reinterpret backslash escapes in its arguments, only in the format
-  string). Caught by comparing `xxd` output before/after, reverted, and
-  documented/suppressed instead. Worth remembering: when "fixing" a printf
-  format-string warning, diff the actual output bytes, not just re-running
-  `bash -n`/tests, if the string being printed contains escape sequences.
-- Terminal-specific functions touched during that cleanup (Kitty, Konsole,
-  XFCE4-terminal, GTK/dconf profiles in `apply-colors.sh`) were verified by
-  syntax + static analysis + manual reasoning about each changed expression,
-  **not** end-to-end against a real desktop terminal — this sandbox has none of
-  those environments. If something in that area misbehaves later, re-check
-  those specific diffs first.
+- The rewritten `stale-bot.yml` was dry-run for real on GitHub Actions
+  (`debug-only: true`, dispatched from a disposable branch, deleted after):
+  ran clean, no errors, processed all 7 currently-open issues/PRs without
+  incorrectly flagging/closing anything (none are old enough yet to trigger
+  either the 365-day or 45-day thresholds).
+- `task help`'s rendered output (ANSI codes and all) was checked directly,
+  not just the YAML/heredoc source, after adding the `task test` pointer.
 
 ## Open / pending ideas
 
-- **Real CI never exercised.** `.github/workflows/validate-on-pr.yml`'s
-  `shell-validation` job triggers on `pull_request`, not on a push to `master` —
-  since the whole series was merged/committed directly, that job has never
-  actually run on GitHub Actions. Worth confirming via a real PR.
-- **Real CLI-binary support, deliberately not attempted.** ADR 0006 removed the
-  ad hoc persistent-install path (`sudo wget -O /usr/local/bin/gogh ...`,
-  unverified) from the README rather than hardening it, on the understanding
-  that a *real* CLI binary — versioned releases, checksums/signatures, a real
-  `--version`/`--help`, an update/uninstall story, maybe package-manager
-  distribution — is a legitimate future direction but a substantially different
-  (packaging + release infrastructure) effort, not a README tweak. If someone
-  picks this up, it deserves its own ADR, not a revival of 0006.
-- `docs/CONTRIBUTING.md` / `.tasks/commands/help.yml` document the
-  add-a-theme contributor flow, not the "I'm touching `gogh.sh`" flow — neither
-  mentions `task test`. Minor discoverability gap, not urgent.
+- **Real CLI-binary support, deliberately not attempted.** ADR 0006 removed
+  the ad hoc persistent-install path from the README rather than hardening
+  it, on the understanding that a *real* CLI binary — versioned releases,
+  checksums/signatures, a real `--version`/`--help`, an update/uninstall
+  story, maybe package-manager distribution — is a legitimate future
+  direction but a substantially different (packaging + release
+  infrastructure) effort. If someone picks this up, it deserves its own ADR.
+- `shell-validation`'s YAML orchestration (as opposed to the individual
+  commands it runs, which are verified above) has still never been executed
+  by GitHub Actions itself via an actual `pull_request` event — every merge
+  so far has gone directly to `master`. Not treated as a live risk (every
+  command in it has been verified with the exact pinned tool versions), just
+  noted in case something about the trigger/permissions context itself
+  (as opposed to the commands) ever needs debugging.
