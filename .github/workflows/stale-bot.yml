@@ -1,6 +1,13 @@
 # yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
 
-name: "🤖 - Close stale issues and PRs"
+# Policy from https://github.com/Gogh-Co/Gogh/issues/545:
+# - Regular issues: flagged "needs-confirmation" after 365 days of inactivity,
+#   never auto-closed for inactivity alone. New activity clears the flag.
+# - Issues labeled "Needs More Info": may be closed after 45 days if the
+#   requested info never arrives.
+# - Pull requests: marked stale after 120 days, closed after 30 more.
+
+name: "🤖 - Stale bot (issues & PRs)"
 
 on:
   schedule:
@@ -15,34 +22,52 @@ jobs:
   stale:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/stale@v10
+      - name: 🏅 Regular issues (365d, never auto-closed) + PRs (120d stale, +30d close)
+        uses: actions/stale@v10
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 
-          days-before-stale: 30
-          days-before-close: 30
-
+          days-before-issue-stale: 365
+          days-before-issue-close: -1
+          stale-issue-label: "needs-confirmation"
           stale-issue-message: |
-            🤖 This issue has been inactive for a while.
-            It will be closed in 30 days if no further activity occurs.
+            🤖 This issue has had no activity for a year. If it's still relevant, a 👍, a comment with more context, or a pull request are all welcome.
+            This label is informational only -- the issue will not be closed automatically, and any new activity removes it.
 
-          stale-pr-message: |
-            🤖 This pull request has been inactive for a while.
-            It will be closed in 30 days if no further activity occurs.
-
-          close-issue-message: |
-            🤖 Closing this issue due to 30 days of inactivity after being marked stale.
-
-          close-pr-message: |
-            🤖 Closing this pull request due to 30 days of inactivity after being marked stale.
-
-          stale-issue-label: "stale"
+          days-before-pr-stale: 120
+          days-before-pr-close: 30
           stale-pr-label: "stale"
+          stale-pr-message: |
+            🤖 This pull request has been inactive for 120 days. It will be closed in 30 days if no further activity occurs.
+          close-pr-message: |
+            🤖 Closing this pull request due to inactivity.
 
-          exempt-issue-labels: "bug,duplicate,enhancement,FYI - Docs,help-needed,inactive,Needs More Info,question,wontfix"
-          exempt-pr-labels: "bug,duplicate,enhancement,FYI - Docs,help-needed,inactive,Needs More Info,question,wontfix"
+          exempt-issue-labels: "wontfix,duplicate,Needs More Info,inactive"
+          exempt-pr-labels: "wontfix,duplicate"
 
           exempt-all-milestones: true
           exempt-all-assignees: true
+          operations-per-run: 200
 
+      - name: 🏅 Issues needing more info (close after 45d if unanswered)
+        uses: actions/stale@v10
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+          only-issue-labels: "Needs More Info"
+          days-before-issue-stale: 45
+          days-before-issue-close: 0
+          close-issue-reason: "not_planned"
+          stale-issue-label: "Needs More Info"
+          stale-issue-message: |
+            🤖 This issue is waiting on more information and has had no activity for 45 days.
+            It will be closed if the requested information isn't provided -- feel free to comment anytime, and it can be reopened once the missing details are available.
+          close-issue-message: |
+            🤖 Closing due to 45 days of inactivity while waiting for more information. Feel free to reopen or comment if those details become available.
+
+          days-before-pr-stale: -1
+          days-before-pr-close: -1
+
+          exempt-all-milestones: true
+          exempt-all-assignees: true
           operations-per-run: 200
