@@ -60,7 +60,8 @@ tasks:
               with "theme:". CI regenerates data/, installs/, gogh.sh,
               etc. automatically once a maintainer merges it.
 
-        ${DIM}Full walkthrough: docs/CONTRIBUTING.md${RESET}
-        ${DIM}All tasks:        task${RESET}
+        ${DIM}Full walkthrough:      docs/CONTRIBUTING.md${RESET}
+        ${DIM}All tasks:             task${RESET}
+        ${DIM}Touching gogh.sh/apply-colors.sh instead? Run task test.${RESET}
 
         EOF

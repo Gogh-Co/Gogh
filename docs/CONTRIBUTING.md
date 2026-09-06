@@ -8,6 +8,10 @@ Requires [`task`](https://taskfile.dev) and [`uv`](https://docs.astral.sh/uv/)
 installed locally. Run `task help` any time for this same workflow printed
 to your terminal, or bare `task` to list every command.
 
+> Changing `gogh.sh` or `apply-colors.sh` directly instead of adding a theme?
+> This guide doesn't cover that — run `task test` before opening a PR
+> (`bash -n`, ShellCheck, and the Bats suite in `tests/`; same checks CI runs).
+
 ## 1. One-time setup
 
 ```bash
