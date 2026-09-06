@@ -9,40 +9,16 @@ _Last updated: 2026-09-06._
 
 ## In progress / uncommitted
 
-- `PLAN_DE_MEJORAS.md` (repo root, **untracked**): a prioritized hardening plan for
-  `gogh.sh` produced by a security/correctness review of the installer (covers the
-  README-documented `bash -c "$(curl|wget ...)"` one-liner, `apply-colors.sh`,
-  `apply-alacritty.py`, `apply-terminator.py`, and CI). Nothing in it has been
-  implemented yet — no code has changed as a result of the review, only the plan
-  document itself exists. Priority order (highest first):
-  1. Remove the `eval` of the third-party `phenonymous/shell-progressbar` script
-     (blocking — explicitly requested first).
-  2. Make the Tilix confirmation prompt respect `GOGH_NONINTERACTIVE`.
-  3. Fix `SCRIPT_PATH` detection so it stops resolving to the CWD under
-     `bash -c "$(curl ...)"` (can cause a locally-present file to be executed
-     instead of the real remote one).
-  4. Harden downloads: timeouts, `curl`/`wget` availability checks, real exit-status
-     propagation instead of the hardcoded final success.
-  5. Fix signal handling — Ctrl+C currently runs cleanup but does not terminate the
-     script (verified: process still alive 3s+ after `SIGINT`).
-  6. Separate `stdout` (results) from `stderr` (diagnostics).
-  7. Add Bash-specific CI (`bash -n`, shellcheck, Bats) — **does not exist today**.
-  8. Adopt `set -euo pipefail`, but only after #7's test suite exists (audit-first).
-  9. Minor fixes: division-by-zero on narrow terminals, incomplete leading-zero
-     handling, missing backup in `apply-alacritty.py` before overwriting config.
+Nothing in progress on `master` right now — `master` is clean and matches
+`origin/master`. The 9-branch `gogh.sh` hardening series described in
+[ADR 0004](decisions/0004-gogh-sh-installer-hardening-series.md) is fully merged
+and pushed. `PLAN_DE_MEJORAS.md` (the working document that tracked it) has been
+deleted from the repo root now that ADR 0004 and the merge commits themselves are
+the durable record.
 
-  See the file itself for full evidence/repro commands per item.
-
-- `memory/` (this ADR/STATUS setup) and a new root `AGENTS.md` are being created in
-  this same session — not yet committed.
-
-**Note on the docs/ convention:** [ADR 0001](decisions/0001-docs-reorg-and-dual-license.md)
-(the commit right before this session) established that new top-level markdown docs
-should go in `docs/`, not the repo root — `README.md` is the only intentional
-exception. `PLAN_DE_MEJORAS.md` currently sits at the root, which is inconsistent
-with that convention. It was left in place rather than moved automatically; decide
-where it belongs (root, `docs/`, or delete once its items are tracked elsewhere)
-before committing.
+This branch itself, `meta/agents-master`, has **not** been pushed to `origin` yet
+— it only exists in this local clone. Push it if you want `AGENTS.md`/`memory/`
+to survive a fresh clone elsewhere.
 
 **If you're picking this up**: run `git status --short` first — if it no longer
 matches what's described above, someone else kept working or committed; trust git,
@@ -50,27 +26,52 @@ not this file, and fix this section before continuing.
 
 ## Recently verified
 
-No automated test suite exists for `gogh.sh` (see plan item #7 above). During the
-review that produced `PLAN_DE_MEJORAS.md`, the following were manually verified by
-direct reproduction against Bash 5.2.21 in this environment (not via an automated
-suite):
-- `BASH_SOURCE[0]` is empty under `bash -c "..."`, causing `SCRIPT_PATH` to resolve
-  to the CWD.
-- A failed `wget -qO-` download yields an empty string, which `bash -c ""` executes
-  as a no-op with exit code 0 (false success).
-- `SIGINT` runs `GLOBAL_VAR_CLEANUP` but does not terminate the script — it stays
-  alive, blocked back at the read prompt.
-- `COLUMNS=40` crashes the theme-listing renderer with a division-by-zero.
-- Unsanitized interactive input flowing into `[[ OP -le ARRAYLENGTH ]]` does **not**
-  allow command injection on Bash 5.2 (tested and ruled out, not just assumed).
+All of the following were verified against the fully merged `master` (not just in
+isolation on each branch), by direct reproduction in this environment:
+- The `bash -c "$(curl ...)"` remote-bootstrap mode no longer lets a same-named
+  local file (`apply-colors.sh`, `installs/<theme>.sh`) get executed instead of
+  the real one from `BASE_URL`.
+- A broken/unroutable `BASE_URL` now makes `gogh.sh` exit non-zero with a clear
+  stderr message, instead of silently exiting 0.
+- `SIGINT`/`SIGTERM` now actually terminate a running instance (confirmed by
+  signaling the real `bash gogh.sh` PID directly — signaling the wrong process in
+  a nested shell-wrapper chain gave a false "still running" reading at first;
+  worth remembering if this needs re-testing in this same kind of environment).
+- `COLUMNS=40` no longer crashes the theme listing with a division-by-zero.
+- Zero-padded interactive input (`08`, `008`, `0008`) all parse correctly now
+  (needed a second, follow-up fix on top of the first: the array-subscript uses
+  of `OP` a few lines below the bounds check also needed the `10#` prefix, not
+  just the bounds check itself).
+- `set -uo pipefail` (adopted in branch 08) does not break the script's most
+  common invocation (interactive mode, zero CLI args) — this took two follow-up
+  fixes beyond the branch's original scope (`THEMES[$NUM]` and bare `${OPTION}`
+  both being unset-but-referenced under `set -u`), found by actually exercising
+  that path rather than just the `-h`/`<theme>` paths the branch was scoped to.
+- `bats tests/` — 8/8 passing, run twice to check for flakiness.
+- `shellcheck --severity=error gogh.sh apply-colors.sh` — clean.
+- `task test` — works end to end (`task:syntax` + `task:shellcheck` + `task:bats`).
 
 ## Open / pending ideas
 
-- Everything in `PLAN_DE_MEJORAS.md` is, by definition, an open idea — none of it is
-  implemented. Treat that file as the working backlog until items are done, at which
-  point closing them out (and eventually deleting or archiving the file) would be a
-  good time to also decide whether any of those fixes deserve their own ADR (e.g. the
-  `SCRIPT_PATH` local-vs-remote fix is architecturally significant enough to
-  potentially warrant one once implemented).
-- Where `PLAN_DE_MEJORAS.md` itself should live long-term (root vs. `docs/`) is
-  unresolved — see the note above.
+- **`set -e` not yet adopted.** Branch 08 deliberately stopped at
+  `set -uo pipefail`; enabling `-e` too needs an audit of every place the script
+  currently relies on tolerating a nonzero exit (several exist, e.g. the
+  `command -v X > /dev/null && X` pattern used for the optional `bar::*`
+  functions). Now that the Bats suite from branch 07 exists as a safety net, this
+  is unblocked — next session's likely next step.
+- **Real CI never exercised.** `.github/workflows/validate-on-pr.yml`'s new
+  `shell-validation` job triggers on `pull_request`, not on a push to `master` —
+  since the whole series was merged and pushed directly, that job has never
+  actually run on GitHub Actions. Worth confirming via a real PR.
+- **ShellCheck backlog.** The full (non-`--severity=error`) shellcheck report
+  surfaces ~40 pre-existing warning/info/style findings (SC2086, SC2046, SC2207,
+  SC2155, SC2034, SC2059, SC2223, SC2129, SC2005, SC2154, SC2188, SC2269) across
+  `gogh.sh`/`apply-colors.sh`. Visible in CI's informational (non-blocking) step;
+  nobody has triaged them yet.
+- **Deliberately out of scope** (rated "Optional" in the original review, no
+  branch planned): checksum/signature verification for the persistent
+  `sudo wget -O /usr/local/bin/gogh ...` install path documented in the README;
+  pinning `BASE_URL` to a release tag/commit instead of always tracking `master`.
+- `docs/CONTRIBUTING.md` / `.tasks/commands/help.yml` document the
+  add-a-theme contributor flow, not the "I'm touching `gogh.sh`" flow — neither
+  mentions `task test`. Minor discoverability gap, not urgent.
