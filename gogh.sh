@@ -6,12 +6,13 @@ set -euo pipefail
 # the requested capability (e.g. TERM=dumb) -- `|| true` keeps that a graceful
 # "no color" fallback instead of aborting under `set -e`.
 for n in {0..15}; do
-  declare C$n=$(tput setaf $n || true)
+  declare "C$n"="$(tput setaf "$n" || true)"
 done
 CR=$(tput sgr0 || true)
 CS0=$(tput sgr 0 || true)
 
 # Define traps and trapfunctions early in case any errors before script exits
+# shellcheck disable=SC2329 # invoked indirectly via `trap ... EXIT` below
 GLOBAL_VAR_CLEANUP(){
   echo "Cleanup up..."
   [[ -n "$(command -v TILIX_TMP_CLEANUP)" ]] && TILIX_TMP_CLEANUP
@@ -1310,6 +1311,7 @@ fetch() {  # fetch URL DEST -- downloads URL into DEST, verifies it's non-empty
 
 # Used to get required python scripts, either from the internet or from local directory
 if [[ -z "${SCRIPT_PATH}" || ! -f "${SCRIPT_PATH}/apply-alacritty.py" ]]; then
+  # shellcheck disable=SC2329 # invoked indirectly via GLOBAL_VAR_CLEANUP's `command -v` check
   ALACRITTY_APPLY_TMP_CLEANUP() {
     rm -rf "${GOGH_ALACRITTY_SCRIPT}"
     unset GOGH_ALACRITTY_SCRIPT
@@ -1325,6 +1327,7 @@ fi
 
 # Used to get required python scripts, either from the internet or from local directory
 if [[ -z "${SCRIPT_PATH}" || ! -e "${SCRIPT_PATH}/apply-terminator.py" ]]; then
+  # shellcheck disable=SC2329 # invoked indirectly via GLOBAL_VAR_CLEANUP's `command -v` check
   TERMINATOR_APPLY_TMP_CLEANUP() {
     rm -rf "${GOGH_TERMINATOR_SCRIPT}"
     unset GOGH_TERMINATOR_SCRIPT
@@ -1340,6 +1343,7 @@ fi
 
 # Used to get required shell scripts, either from the internet or from local directory
 if [[ -z "${SCRIPT_PATH}" || ! -e "${SCRIPT_PATH}/apply-colors.sh" ]]; then
+  # shellcheck disable=SC2329 # invoked indirectly via GLOBAL_VAR_CLEANUP's `command -v` check
   APPLY_SCRIPT_TMP_CLEANUP() {
     rm -rf "${GOGH_APPLY_SCRIPT}"
     unset GOGH_APPLY_SCRIPT
@@ -1452,7 +1456,7 @@ if [[ $# -gt 0 ]]; then
     ARG_UPPER=$(echo "${ARG}" | tr '[:lower:]' '[:upper:]')
 
     if [[ "${ARG_UPPER}" = "ALL" ]]; then
-      OPTION=($(seq 1 "${ARRAYLENGTH}"))
+      mapfile -t OPTION < <(seq 1 "${ARRAYLENGTH}")
       break
     elif [[ "${ARG}" =~ ^[0-9]+$ ]]; then
       echo -e "${C1} ~ INVALID OPTION: '${ARG}' ~${CR}" >&2
@@ -1559,7 +1563,9 @@ if [[ ${#OPTION[@]} -eq 0 ]]; then
   read -r -p 'Enter OPTION(S) : ' -a OPTION || true
 
   # Automagically generate options if user opts for all themes
-  [[ "$(echo "${OPTION[0]:-}" | tr '[:lower:]' '[:upper:]')" == ALL ]] && OPTION=($(seq -s " " $ARRAYLENGTH))
+  if [[ "$(echo "${OPTION[0]:-}" | tr '[:lower:]' '[:upper:]')" == ALL ]]; then
+    mapfile -t OPTION < <(seq 1 "${ARRAYLENGTH}")
+  fi
 fi
 
 # |
@@ -1588,10 +1594,10 @@ if [[ -z "${TERMINAL:-}" ]]; then
     # | to loop until pid is no longer a subshell
     # | ===========================================
     pid="$$"
-    TERMINAL="$(ps -h -o comm -p $pid)" || true
+    TERMINAL="$(ps -h -o comm -p "$pid")" || true
     while [[ "${TERMINAL:(-2)}" == "sh" ]]; do
-      pid="$(ps -h -o ppid -p $pid)" || true
-      TERMINAL="$(ps -h -o comm -p $pid)" || true
+      pid="$(ps -h -o ppid -p "$pid")" || true
+      TERMINAL="$(ps -h -o comm -p "$pid")" || true
     done
   fi
 fi
@@ -1644,6 +1650,7 @@ if [[ "$TERMINAL" = "tilix" ]] && [[ ${#OPTION[@]} -gt 0 ]]; then
   # | desides to abort before all themes has been processed this section will cleanup the tmpdir
   # | =======================================
   if [[ ${TILIX_RES::1} =~ ^(y|Y)$ ]]; then
+    # shellcheck disable=SC2329 # invoked indirectly via GLOBAL_VAR_CLEANUP's `command -v` check
     TILIX_TMP_CLEANUP() {
       echo
       echo "Cleaning up"
