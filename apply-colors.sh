@@ -422,6 +422,25 @@ dlist_append() {
   "${DCONF}" write "${key}" "[${entries}]"
 }
 
+# GNOME/MATE/Tilix all ship their profile list as a schema default, so it
+# reads back empty from dconf under the exact same conditions as the default
+# profile itself -- confirmed empirically (fresh installs of all three) that
+# both keys are empty together, not just the default one. Seed the list from
+# gsettings before dlist_append() reads it, or it silently drops the
+# pre-existing profile instead of appending to it.
+seed_profile_list_from_gsettings() {
+  local dconf_key="${1}"
+  local gs_schema="${2}"
+  local gs_key="${3}"
+  local list
+
+  [[ -n "${GS}" ]] || return 0
+  [[ -z "$(${DCONF} read "${dconf_key}")" ]] || return 0
+
+  list="$(${GS} get "${gs_schema}" "${gs_key}")"
+  [[ -n "${list}" ]] && "${DCONF}" write "${dconf_key}" "${list}"
+}
+
 gcset() {
   local type="${1}"; shift
   local  key="${1}";  shift
@@ -1115,6 +1134,11 @@ appy_tilixschemes() {
       if [[ ${TILIX_RES::1} =~ ^(y|Y)$ ]]; then
         PROFILE_KEY="${BASE_DIR}${DEFAULT_SLUG}"
         PROFILE_NAME="$(${DCONF} read "${PROFILE_KEY}/visible-name" | tr -d \')"
+        # Same schema-default gap as the profile list/default above, just for
+        # this one profile's display name.
+        if [[ -z "${PROFILE_NAME}" ]] && [[ -n "${GS}" ]]; then
+          PROFILE_NAME="$(${GS} get "com.gexperts.Tilix.Profile:${PROFILE_KEY}/" visible-name | tr -d \')"
+        fi
         set_theme
         dset palette "['${COLOR_01}', '${COLOR_02}', '${COLOR_03}', '${COLOR_04}', '${COLOR_05}', '${COLOR_06}', '${COLOR_07}', '${COLOR_08}', '${COLOR_09}', '${COLOR_10}', '${COLOR_11}', '${COLOR_12}', '${COLOR_13}', '${COLOR_14}', '${COLOR_15}', '${COLOR_16}']"
       fi
@@ -1388,6 +1412,7 @@ case "${TERMINAL}" in
       if [[ -z "${DEFAULT_SLUG}" ]] && [[ -n "${GS}" ]]; then
         DEFAULT_SLUG="$(${GS} get org.gnome.Terminal.ProfilesList default | tr -d \')"
       fi
+      seed_profile_list_from_gsettings "${PROFILE_LIST_KEY}" "org.gnome.Terminal.ProfilesList" "list"
 
       if [[ -z "${DEFAULT_SLUG}" ]]; then
         printserr "Error, no saved profiles found!" \
@@ -1432,6 +1457,7 @@ case "${TERMINAL}" in
     if [[ -z "${DEFAULT_SLUG}" ]] && [[ -n "${GS}" ]]; then
       DEFAULT_SLUG="$(${GS} get org.mate.terminal.global default-profile | tr -d \')"
     fi
+    seed_profile_list_from_gsettings "${PROFILE_LIST_KEY}" "org.mate.terminal.global" "profile-list"
 
     if [[ -z "${DEFAULT_SLUG}" ]]; then
       printserr "Error, no saved profiles found!" \
@@ -1450,6 +1476,21 @@ case "${TERMINAL}" in
     PROFILE_LIST_KEY="${BASE_DIR}list"
 
     : "${DEFAULT_SLUG:="$(${DCONF} read "${BASE_DIR}default" | tr -d \')"}"
+
+    # Tilix ships the default profile as a schema default, and dconf only
+    # reports values the user has set, so this reads back empty until a
+    # profile is added or renamed. gsettings does honour schema defaults.
+    if [[ -z "${DEFAULT_SLUG}" ]] && [[ -n "${GS}" ]]; then
+      DEFAULT_SLUG="$(${GS} get com.gexperts.Tilix.ProfilesList default | tr -d \')"
+    fi
+    seed_profile_list_from_gsettings "${PROFILE_LIST_KEY}" "com.gexperts.Tilix.ProfilesList" "list"
+
+    if [[ -z "${DEFAULT_SLUG}" ]]; then
+      printserr "Error, no saved profiles found!" \
+      "Possible fix, create a new profile (Tilix > Preferences > Profiles > +, then Close) and try again." \
+      "You can safely delete the created profile after the installation."
+      exit 1
+    fi
 
     LEFT_WRAPPER="["
     RIGHT_WRAPPER="]"
