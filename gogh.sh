@@ -21,7 +21,12 @@ GLOBAL_VAR_CLEANUP(){
   echo "Done"
 }
 
-trap 'GLOBAL_VAR_CLEANUP; trap - EXIT' EXIT HUP INT QUIT PIPE TERM
+# Cleanup always runs on EXIT. For signals that would otherwise terminate the
+# process (HUP/INT/QUIT/PIPE/TERM), Bash's default terminating behavior is
+# suppressed once a handler is installed for them, so the handler must call
+# exit itself -- otherwise the script keeps running after e.g. Ctrl+C.
+trap 'GLOBAL_VAR_CLEANUP' EXIT
+trap 'GLOBAL_VAR_CLEANUP; trap - EXIT HUP INT QUIT PIPE TERM; exit 130' HUP INT QUIT PIPE TERM
 
 # TO-DO: Investigate dynamically building this array e.g.
 # curl -s https://github.com/Gogh-Co/Gogh/tree/master/themes | grep -o "title=.*\.sh\" " | awk -F '=' '{print $2}'
