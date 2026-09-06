@@ -49,7 +49,6 @@ declare -a THEMES=(
   'abernathy.sh'
   'aci.sh'
   'acid-lime.sh'
-  'acme.sh'
   'aco.sh'
   'adapta-nokto-maia.sh'
   'adventure-time.sh'

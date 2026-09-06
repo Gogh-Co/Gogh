@@ -336,32 +336,6 @@
   cursor: '#C2FF33'
   hash: 4482cb319bef40192fb43742ae2d0024ea28bd728358b9cf1b80513d21181d36
   hash_bg: fabb8964ce477c99dc2a23897d44bea7ef31ea83c7f8d8255519fa76f9a20231
-- name: Acme
-  author: plan9-for-vimspace (https://github.com/plan9-for-vimspace/acme-colors)
-  author_name: plan9-for-vimspace
-  author_url: https://github.com/plan9-for-vimspace/acme-colors
-  variant: light
-  color_01: '#101010'
-  color_02: '#303030'
-  color_03: '#CCCC7C'
-  color_04: '#FFFFCA'
-  color_05: '#EAFFFF'
-  color_06: '#505050'
-  color_07: '#AEEEEE'
-  color_08: '#FCFCCE'
-  color_09: '#101010'
-  color_10: '#303030'
-  color_11: '#CCCC7C'
-  color_12: '#FFFFCA'
-  color_13: '#EAFFFF'
-  color_14: '#505050'
-  color_15: '#AEEEEE'
-  color_16: '#FCFCCE'
-  background: '#FFFFEA'
-  foreground: '#000000'
-  cursor: '#000000'
-  hash: 931628318b64428a774d11df1303e48823b6e19c655ead23764e6d59d0f864d9
-  hash_bg: eb8833c6a1be6596d4fa3dd000aeac6ad9291caf622bc3a98804f43189af0504
 - name: Aco
   author: ''
   author_name: ''
