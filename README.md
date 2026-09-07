@@ -97,7 +97,7 @@ You can now install Gogh in Interactive Mode (Easier) or Non-Interactive Mode! (
 
 ## ⚙️ Install
 
-### Interactive Mode
+<br>
 
 **1. Run the one-line install command:**
 
@@ -113,11 +113,14 @@ bash -c "$(wget -qO- https://gogh.website/gogh)"
 bash -c "$(curl -fsSL https://gogh.website/gogh)"
 ```
 
-**Using Fish or NuShell?** Run this instead:
+**Fish or NuShell**
 
 ```bash
 bash -c 'bash -c "$(wget -qO- https://gogh.website/gogh)"'
 ```
+
+<br>
+<br>
 
 **2. Select your theme from the interactive list.**
 
