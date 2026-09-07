@@ -48,6 +48,8 @@ If you want to buy me a coffee voluntarily, you can use this link.
 - [Install (Non-Interactive mode)](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-install-non-interactive-mode)
 - [Terminal Support](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-terminal-support)
 - [Available Themes](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-themes)
+- [API](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-api)
+- [Color Hash](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-color-hash)
 - [Help](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-help)
 - [Create your Own Theme!](docs/CONTRIBUTING.md)
 - [WCAG - Accessibility Contrast](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-wcag---accessibility-contrast)
@@ -176,13 +178,31 @@ Here are some terminals that Gogh is supported with:
 We have lots of themes in stock!
 
 - **[Browse themes](https://Gogh-Co.github.io/Gogh/)** — the full catalog.
-- **json**: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json
-- **json min**: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes-min.json
 
 <br/>
 
+## 🔌 API
+
+Theme data is also published as plain files, for scripting or pulling into your own tools — not a dedicated API, just static content, no authentication needed:
+
+- **json**: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json
+- **json min**: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes-min.json
 - **csv**: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.csv
-- **[Color Hash](docs/COLOR_HASH.md)** — how the `hash`/`hash_bg` fields in `themes.json` are computed, for comparing palettes across themes.
+
+To fetch the same files through GitHub's actual REST API instead (e.g. for conditional requests via `ETag`, or commit history on a file) use the [Contents API](https://docs.github.com/en/rest/repos/contents):
+
+```bash
+curl -s https://api.github.com/repos/Gogh-Co/Gogh/contents/data/themes.json \
+  -H "Accept: application/vnd.github.raw+json"
+```
+
+That path is rate-limited like the rest of GitHub's REST API (60 requests/hour unauthenticated, much higher with a token) — the raw files above aren't.
+
+<br/>
+
+## 🔑 Color Hash
+
+- **[Color Hash](docs/COLOR_HASH.md)** — how the `hash`/`hash_bg` fields in `themes.json` are computed, for comparing and validating palettes across themes.
 
 <br/>
 
