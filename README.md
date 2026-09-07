@@ -217,26 +217,27 @@ GOGH_APPLY_SCRIPT=/path/to/file/apply-colors.sh bash ./selenized-dark.sh
 
 Here are some terminals that Gogh is supported with:
 
-- Alacritty - [Web](https://github.com/alacritty/alacritty)
-- Cygwin - [Web](https://www.cygwin.com/)
-- Foot - [Web](https://codeberg.org/dnkl/foot)
-- Ghostty - [Web](https://ghostty.org/)
-- Gnome - [Web](https://help.gnome.org/users/gnome-terminal/stable/)
-- Guake - [Web](http://guake-project.org/)
-- iTerm - [Web](https://iterm2.com/)
-- Kitty - [Web](https://sw.kovidgoyal.net/kitty/)
-- kmscon - [Web](https://github.com/dvdhrm/kmscon)
-- Konsole - [Web](https://konsole.kde.org/)
-- linux (Linux virtual terminal) - [Web](https://man7.org/linux/man-pages/man4/console.4.html)
-- Mate - [Web](https://github.com/mate-desktop/mate-terminal)
-- Mintty - [Web](https://mintty.github.io/)
-- Pantheon / Elementary - [Web](https://github.com/elementary/terminal)
-- st+ - [Web](https://github.com/vishnu350/st)
-- Termux - [Web](https://termux.dev/)
-- Tilix - [Web](https://gnunn1.github.io/tilix-web/)
-- Wezterm - [Web](https://wezterm.org/)
-- XFCE4 - [Web](https://docs.xfce.org/apps/terminal/start)
-- Terminator - [Web](https://github.com/gnome-terminator/terminator)
+| Terminal | Web | Implementation |
+| --- | --- | --- |
+| Alacritty | [Web](https://github.com/alacritty/alacritty) | [`apply_alacritty()`](apply-colors.sh#L625) |
+| Cygwin | [Web](https://www.cygwin.com/) | [`apply_cygwin()`](apply-colors.sh#L593) |
+| Foot | [Web](https://codeberg.org/dnkl/foot) | [`apply_foot()`](apply-colors.sh#L703) |
+| Ghostty | [Web](https://ghostty.org/) | [`apply_ghostty()`](apply-colors.sh#L734) |
+| Gnome | [Web](https://help.gnome.org/users/gnome-terminal/stable/) | [`apply_gtk()`](apply-colors.sh#L986) |
+| Guake | [Web](http://guake-project.org/) | [`apply_guake()`](apply-colors.sh#L1078) |
+| iTerm | [Web](https://iterm2.com/) | [`apply_darwin()`](apply-colors.sh#L953) |
+| Kitty | [Web](https://sw.kovidgoyal.net/kitty/) | [`apply_kitty()`](apply-colors.sh#L813) |
+| kmscon | [Web](https://github.com/dvdhrm/kmscon) | [`apply_kmscon()`](apply-colors.sh#L870) |
+| Konsole | [Web](https://konsole.kde.org/) | [`apply_konsole()`](apply-colors.sh#L900) |
+| linux (Linux virtual terminal) | [Web](https://man7.org/linux/man-pages/man4/console.4.html) | [`apply_linux_vt()`](apply-colors.sh#L1247) |
+| Mate | [Web](https://github.com/mate-desktop/mate-terminal) | [`apply_gtk()`](apply-colors.sh#L986) |
+| Mintty | [Web](https://mintty.github.io/) | [`apply_cygwin()`](apply-colors.sh#L593) |
+| Pantheon / Elementary | [Web](https://github.com/elementary/terminal) | [`apply_elementary()`](apply-colors.sh#L571) |
+| Termux | [Web](https://termux.dev/) | [`apply_termux()`](apply-colors.sh#L1278) |
+| Tilix | [Web](https://gnunn1.github.io/tilix-web/) | [`apply_gtk()`](apply-colors.sh#L986) / [`appy_tilixschemes()`](apply-colors.sh#L1107) |
+| Wezterm | [Web](https://wezterm.org/) | [`apply_wezterm()`](apply-colors.sh#L1319) |
+| XFCE4 | [Web](https://docs.xfce.org/apps/terminal/start) | [`apply_xfce4-terminal()`](apply-colors.sh#L1154) |
+| Terminator | [Web](https://github.com/gnome-terminator/terminator) | [`apply_terminator()`](apply-colors.sh#L674) |
 
 Don't see your terminal on this list? [Open a terminal support request](https://github.com/Gogh-Co/Gogh/issues/new?template=terminal-support.yml).
 
