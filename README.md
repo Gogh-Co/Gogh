@@ -48,6 +48,9 @@ If you want to buy me a coffee voluntarily, you can use this link.
 - [Install (Non-Interactive mode)](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-install-non-interactive-mode)
 - [Terminal Support](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-terminal-support)
 
+</td>
+<td valign="top" width="220">
+
 **Themes & Data**
 
 - [Themes](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-themes)
@@ -55,14 +58,14 @@ If you want to buy me a coffee voluntarily, you can use this link.
 - [Color Hash](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-color-hash)
 - [WCAG - Accessibility Contrast](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-wcag---accessibility-contrast)
 
-</td>
-<td valign="top" width="220">
-
 **Help & Contributing**
 
 - [Help](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-help)
 - [Create your Own Theme!](docs/CONTRIBUTING.md)
 - [Work with Agents](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-work-with-agents)
+
+</td>
+<td valign="top" width="220">
 
 **Project**
 
@@ -74,11 +77,6 @@ If you want to buy me a coffee voluntarily, you can use this link.
 - [Mentions](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-mentions)
 - [License](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-license)
 - [Star History](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-star-history)
-
-</td>
-<td valign="top">
-
-![gogh](https://raw.githubusercontent.com/Gogh-Co/Gogh/master/.images/demos/gogh-demo.gif)
 
 </td>
 </tr>
@@ -195,6 +193,8 @@ Here are some terminals that Gogh is supported with:
 ## 🎨 Themes
 
 We have lots of themes in stock!
+
+![gogh-themes-showcase](https://raw.githubusercontent.com/Gogh-Co/Gogh/master/.images/demos/gogh-themes-showcase.gif)
 
 - **[Browse themes](https://Gogh-Co.github.io/Gogh/)** — the full catalog.
 
