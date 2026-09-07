@@ -111,6 +111,12 @@ Or, if you're a Mac user:
 bash -c "$(curl -fsSL https://gogh.website/gogh)"
 ```
 
+> **Using Fish or NuShell?** The `$(...)` command substitution above isn't valid syntax in those shells. Wrap the whole thing in an extra `bash -c` instead:
+>
+> ```bash
+> bash -c 'bash -c "$(wget -qO- https://gogh.website/gogh)"'
+> ```
+
 **2. Select your installed theme from your terminal.**
 
 **DEMO:**
