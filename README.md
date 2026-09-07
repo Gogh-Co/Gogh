@@ -196,7 +196,15 @@ curl -s https://api.github.com/repos/Gogh-Co/Gogh/contents/data/themes.json \
   -H "Accept: application/vnd.github.raw+json"
 ```
 
-That path is rate-limited like the rest of GitHub's REST API (60 requests/hour unauthenticated, much higher with a token) — the raw files above aren't.
+That path is rate-limited like the rest of GitHub's REST API: 60 requests/hour unauthenticated. Add a [personal access token](https://github.com/settings/tokens) (no special scopes needed for a public repo) to raise that to 5,000/hour:
+
+```bash
+curl -s https://api.github.com/repos/Gogh-Co/Gogh/contents/data/themes.json \
+  -H "Accept: application/vnd.github.raw+json" \
+  -H "Authorization: Bearer YOUR_GITHUB_TOKEN"
+```
+
+The raw files above aren't rate-limited this way — no token needed for those.
 
 <br/>
 
