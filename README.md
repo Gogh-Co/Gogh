@@ -9,7 +9,7 @@
 <br>
 
 <div align="center">
-🔸🔸🔸 <a href="http://Gogh-Co.github.io/Gogh"> gogh.website </a> 🔸🔸🔸
+🔹🔹🔹 <a href="http://Gogh-Co.github.io/Gogh"> gogh.website </a> 🔹🔹🔹
 </div>
 
 ## Color Scheme Implementer for Terminals
@@ -148,7 +148,9 @@ bash -c "$(wget -qO- https://gogh.website/gogh)" -- Dracula
 
 ## ⚙️ Install (Non-Interactive Mode)
 
-For scripting, dotfiles, provisioning tools, CI, or container images. See [docs/NON_INTERACTIVE.md](docs/NON_INTERACTIVE.md) for both install methods (clone the repo, or download just the required files) and the full environment variable reference (`TERMINAL`, `GOGH_NONINTERACTIVE`, `GOGH_USE_NEW_THEME`, and the `GOGH_*_SCRIPT` path overrides).
+For scripting, dotfiles, provisioning tools, CI, or container images.
+
+- **[Non-Interactive Install Guide](docs/NON_INTERACTIVE.md)** — both install methods (clone the repo, or download just the required files) and the full environment variable reference (`TERMINAL`, `GOGH_NONINTERACTIVE`, `GOGH_USE_NEW_THEME`, and the `GOGH_*_SCRIPT` path overrides).
 
 <br/>
 <br/>
@@ -179,15 +181,16 @@ Here are some terminals that Gogh is supported with:
 | XFCE4                          | [Web](https://docs.xfce.org/apps/terminal/start)            | [`apply_xfce4-terminal()`](https://github.com/Gogh-Co/Gogh/blob/master/apply-colors.sh#L1154)                                                                                  |
 | Terminator                     | [Web](https://github.com/gnome-terminator/terminator)       | [`apply_terminator()`](https://github.com/Gogh-Co/Gogh/blob/master/apply-colors.sh#L674)                                                                                       |
 
-Don't see your terminal on this list? [Open a terminal support request](https://github.com/Gogh-Co/Gogh/issues/new?template=terminal-support.yml).
+- **[Request a terminal](https://github.com/Gogh-Co/Gogh/issues/new?template=terminal-support.yml)** — don't see your terminal on this list? Open a support request.
 
 <br/>
 <br/>
 
-## 🎨 [Themes](https://Gogh-Co.github.io/Gogh/)
+## 🎨 Themes
 
-We have lots of themes in stock! Check them out [here](https://Gogh-Co.github.io/Gogh/)!
+We have lots of themes in stock!
 
+- **[Browse themes](https://Gogh-Co.github.io/Gogh/)** — the full catalog.
 - **json**: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json
 - **json min**: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes-min.json
 
@@ -225,18 +228,12 @@ Example — `Solarized Dark.yml`:
 
 <br/>
 
-## 👀 [WCAG](https://Gogh-Co.github.io/Gogh/wcag) - Accessibility Contrast
+## 👀 WCAG - Accessibility Contrast
 
-- **Web**: https://gogh-co.github.io/Gogh/wcag
-
-<br/>
-
+- **[Web](https://gogh-co.github.io/Gogh/wcag)** — the WCAG contrast report.
 - **wcag**: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/wcag.json
 - **wcag min**: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/wcag-min.json
-
-<br/>
-
-- More information: https://webaim.org/resources/contrastchecker/
+- **[More information](https://webaim.org/resources/contrastchecker/)** — WebAIM's contrast checker.
 
 <br/>
 <br>
@@ -292,7 +289,7 @@ Nov 18, 2013 - [aa9871e](https://github.com/Gogh-Co/Gogh/commit/aa9871e2d6008d5d
 
 ## :heart: Credits:
 
-The full theme-by-theme author list now lives in [CREDITS.md](docs/CREDITS.md).
+- **[Credits](docs/CREDITS.md)** — the full theme-by-theme author list.
 
 <br/>
 
@@ -344,7 +341,7 @@ There is no blue without yellow and without orange.
 
 ## 📣 Mentions
 
-The full list of blogs, forums, videos and comparison sites that have mentioned Gogh now lives in [MENTIONS.md](docs/MENTIONS.md).
+- **[Mentions](docs/MENTIONS.md)** — the full list of blogs, forums, videos, and comparison sites that have mentioned Gogh.
 
 <br/>
 
