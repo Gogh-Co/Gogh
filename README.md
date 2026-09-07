@@ -97,27 +97,29 @@ You can now install Gogh in Interactive Mode (Easier) or Non-Interactive Mode! (
 
 ## ⚙️ Install
 
-### Interactive Mode:
+### Interactive Mode
 
-**1. Just copy and paste this one-line command:**
+**1. Run the one-line install command:**
+
+**Linux**
 
 ```bash
 bash -c "$(wget -qO- https://gogh.website/gogh)"
 ```
 
-Or, if you're a Mac user:
+**macOS**
 
 ```bash
 bash -c "$(curl -fsSL https://gogh.website/gogh)"
 ```
 
-> **Using Fish or NuShell?** The `$(...)` command substitution above isn't valid syntax in those shells. Wrap the whole thing in an extra `bash -c` instead:
+> **Fish or NuShell?** The `$(...)` command substitution above isn't valid syntax in those shells. Wrap the whole thing in an extra `bash -c` instead:
 >
 > ```bash
 > bash -c 'bash -c "$(wget -qO- https://gogh.website/gogh)"'
 > ```
 
-**2. Select your installed theme from your terminal.**
+**2. Select your theme from the interactive list.**
 
 **DEMO:**
 
