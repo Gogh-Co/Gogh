@@ -75,6 +75,9 @@ def choose_profile():
 
 
 def backup_conf(terminator_conf_file_path):
+    if not os.path.exists(terminator_conf_file_path):
+        # Fresh install, Terminator never launched: nothing to back up yet.
+        return
     now_str = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     backup_path = f'{terminator_conf_file_path}.{now_str}'
     shutil.copyfile(terminator_conf_file_path, backup_path)

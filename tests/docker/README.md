@@ -32,31 +32,29 @@ terminal's config file.
   build. Regression-tests the ppid= trim fix specifically (confirmed it
   reproducibly breaks with "error: improper list" without the trim, on
   all three).
-- **`run-gtk-terminals.sh`** -- GNOME Terminal, MATE Terminal, and Tilix,
-  the real `apply-colors.sh` end to end (via `installs/dracula.sh`, the
-  same contract a real install uses) against their real, installed
+- **`run-gtk-terminals.sh`** -- GNOME Terminal, MATE Terminal, Tilix, and
+  Guake, the real `apply-colors.sh` end to end (via `installs/dracula.sh`,
+  the same contract a real install uses) against their real, installed
   gsettings schemas, in a fresh `dbus-run-session`. This is what caught
-  the MATE-specific bug below.
+  the MATE-specific bug below. Guake writes straight into
+  `guake.style.font` (no profile list, so no schema-default gap to hit)
+  and gets its own check for that reason.
 - **`run-file-terminals.sh`** -- xfce4-terminal, foot, Konsole, kitty,
-  kmscon, Termux, Linux vt, and mintty's config-writing logic. Also the
-  real end-to-end path, checking the written config file contains the
-  expected color.
+  kmscon, Termux, Linux vt, mintty, Alacritty, Terminator, and Ghostty's
+  config-writing logic. Also the real end-to-end path, checking the
+  written config file contains the expected color. Alacritty and
+  Terminator go through their Python helpers
+  (`apply-alacritty.py`/`apply-terminator.py`), so this image also
+  installs `requirements.txt`; this is what caught the Terminator bug
+  below. Ghostty isn't an Ubuntu 24.04 apt package, but `apply_ghostty`
+  only writes a file, so it's testable without it.
 
 ### Not covered, and why
 
-- **Guake** -- gsettings-based like the `gtk-terminals` group, but a
-  single profile/palette key rather than a profile list, so it doesn't
-  share their schema-default gap. Not implemented; would slot into
-  `gtk-terminals` if it turns out to need it.
-- **Alacritty, Terminator** -- go through a Python helper
-  (`apply-alacritty.py`/`apply-terminator.py`), which needs
-  `requirements.txt` installed. Doable, just not done yet.
 - **Wezterm** -- applies colors via *runtime* OSC escape sequences, no
   config file at all. Nothing to assert against without a live PTY
   reading them; at most this could check the generated escape sequence
   *string* matches what's expected, without Wezterm installed.
-- **Ghostty** -- config-file based, but not an Ubuntu 24.04 apt package
-  as of writing.
 - **Pantheon/elementary terminal** -- gsettings-based, but its schema
   isn't realistically installable outside actual elementary OS.
 - **iTerm2 (`apply_darwin`)** -- macOS-only, can't run under Linux Docker
@@ -66,10 +64,9 @@ terminal's config file.
   is tested directly in `run-file-terminals.sh` with `TERMINAL=mintty`
   set explicitly, bypassing OS auto-detection.
 
-## Two real bugs this caught while being built
+## Three real bugs this caught while being built
 
-Both already fixed in `apply-colors.sh`, kept here as the reason this
-exists:
+All already fixed, kept here as the reason this exists:
 
 1. **MATE Terminal false "no saved profiles found."** `apply_gtk()` had
    its own pre-flight check (`dconf list "${BASE_DIR%:}"` non-empty)
@@ -87,6 +84,13 @@ exists:
    `touch`/`echo` failed silently (no `set -e` in this codebase) and the
    script still exited 0, so a user would see no error and no theme.
    Fixed with a `mkdir --parents` before the first write.
+3. **Terminator crashed on a fresh config.** `apply-terminator.py`'s
+   `backup_conf()` unconditionally `shutil.copyfile()`s the existing
+   config to make a backup, but `ConfigObj` doesn't require that file to
+   already exist -- so a Terminator that had never been launched before
+   (no `~/.config/terminator/config` yet) crashed with an unhandled
+   `FileNotFoundError` instead of writing the theme. Fixed by skipping
+   the backup when there's nothing to back up yet.
 
 ## Why Docker, never the host
 

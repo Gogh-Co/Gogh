@@ -10,7 +10,9 @@ REPO_ROOT="$(cd ../.. && pwd)"
 
 echo "=== file-based terminals ==="
 
-docker build -q -t gogh-test-file file-terminals >/tmp/build_file.log 2>&1 \
+# Build context is the repo root (not file-terminals/) so the Dockerfile can
+# COPY requirements.txt for the Alacritty/Terminator Python helpers.
+docker build -q -f file-terminals/Dockerfile -t gogh-test-file "$REPO_ROOT" >/tmp/build_file.log 2>&1 \
   || { fail "docker build" "$(tail -c 500 /tmp/build_file.log)"; suite_summary "file-terminals" || exit 1; exit 0; }
 
 # run_terminal <name> <terminal> <setup-shell-snippet> <resulting-config-file> <needle>
@@ -58,6 +60,31 @@ run_terminal "xfce4-terminal" "xfce4-terminal" \
   "" \
   "/root/.local/share/xfce4/terminal/colorschemes/dracula.theme" \
   "282A36"
+
+# apply_alacritty's get_conf_path() requires an existing config file (errors
+# out otherwise), and it updates colors.primary/normal/bright in place rather
+# than creating them -- seed a TOML with those tables already present, same
+# as a real alacritty.toml with colors uncommented.
+run_terminal "alacritty" "alacritty" \
+  "mkdir -p /root/.config/alacritty && printf '[colors.primary]\n[colors.normal]\n[colors.bright]\n' > /root/.config/alacritty/alacritty.toml" \
+  "/root/.config/alacritty/alacritty.toml" \
+  "21222C"
+
+# apply_terminator writes into profiles.default in place, same as a real
+# terminator config auto-created on first launch -- seed that minimal
+# structure. (This also regression-tests the backup_conf() fix: before it,
+# a config file that didn't exist yet crashed with FileNotFoundError.)
+run_terminal "terminator" "terminator" \
+  "mkdir -p /root/.config/terminator && printf '[profiles]\n[[default]]\n' > /root/.config/terminator/config" \
+  "/root/.config/terminator/config" \
+  "21222C"
+
+# apply_ghostty always writes the theme file regardless of GOGH_NONINTERACTIVE
+# (unlike xfce4-terminal, there's no separate "apply now" step to skip).
+run_terminal "ghostty" "ghostty" \
+  "" \
+  "/root/.config/ghostty/themes/Gogh Dracula" \
+  "#21222C"
 
 run_terminal "foot" "foot" \
   "" \
