@@ -93,14 +93,12 @@ For **Arch Linux:**
 sudo pacman -S dconf util-linux
 ```
 
-You can now install Gogh in Interactive Mode (Easier) or Non-Interactive Mode! (Ideal for Scripting)
+You can now install Gogh interactively (easiest), install a specific theme directly in one line, or install non-interactively (ideal for scripting).
 
 <br>
 <br>
 
 ## ⚙️ Install
-
-<br>
 
 **1. Run the one-line install command:**
 
