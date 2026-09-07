@@ -105,10 +105,18 @@ if [[ -z "${TERMINAL:-}" ]]; then
     # | to loop until pid is no longer a subshell
     # | ===========================================
     pid="$$"
-    TERMINAL="$(ps -h -o comm -p "$pid")"
+    # -o field= (empty header) suppresses the header without -h: -h itself
+    # triggers BSD-vs-SysV personality detection that some procps-ng versions
+    # reject outright ("error: unsupported SysV option") when combined with
+    # -o/-p, even though it works fine on others.
+    TERMINAL="$(ps -o comm= -p "$pid")"
     while [[ "${TERMINAL:(-2)}" == "sh" ]]; do
-      pid="$(ps -h -o ppid -p "$pid")"
-      TERMINAL="$(ps -h -o comm -p "$pid")"
+      # ppid= is numeric and right-padded by ps to its column width, so a
+      # short pid can come back with leading spaces -- trim them, or the
+      # next -p "$pid" gets quoted whitespace and fails ("improper list").
+      pid="$(ps -o ppid= -p "$pid")"
+      pid="${pid// /}"
+      TERMINAL="$(ps -o comm= -p "$pid")"
     done
   fi
 fi
@@ -1570,7 +1578,7 @@ case "${TERMINAL}" in
     ""                                                        \
     "If you believe you have received this message in error," \
     "try manually setting env \`TERMINAL' with the value above." \
-    "hint: ps -h -o comm -p \$PPID"
+    "hint: ps -o comm= -p \$PPID"
     exit 1
     ;;
 
