@@ -28,3 +28,4 @@ bun.lock
 !/README.md
 !/docs/ISSUE_POLICY.md
 !/docs/TROUBLESHOOTING.md
+!/docs/NON_INTERACTIVE.md
