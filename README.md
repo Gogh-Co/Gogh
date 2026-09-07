@@ -48,7 +48,7 @@ If you want to buy me a coffee voluntarily, you can use this link.
 - [Install a Specific Theme](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-install-a-specific-theme)
 - [Install (Non-Interactive mode)](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-install-non-interactive-mode)
 - [Terminal Support](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-terminal-support)
-- [Available Themes](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-themes)
+- [Themes](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-themes)
 - [API](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-api)
 - [Color Hash](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-color-hash)
 - [Help](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-help)
