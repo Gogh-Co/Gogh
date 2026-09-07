@@ -83,6 +83,12 @@ If you want to buy me a coffee voluntarily, you can use this link.
 </table>
 
 <br>
+<br>
+
+
+![gogh-themes-showcase](.images/demos/gogh-themes-showcase.gif)
+
+<br>
 
 ## ⚙️ Pre-Install
 
@@ -193,8 +199,6 @@ Here are some terminals that Gogh is supported with:
 ## 🎨 Themes
 
 We have lots of themes in stock!
-
-![gogh-themes-showcase](https://raw.githubusercontent.com/Gogh-Co/Gogh/master/.images/demos/gogh-themes-showcase.gif)
 
 - **[Browse themes](https://Gogh-Co.github.io/Gogh/)** — the full catalog.
 
