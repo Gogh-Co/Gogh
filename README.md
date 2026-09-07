@@ -44,7 +44,7 @@ If you want to buy me a coffee voluntarily, you can use this link.
 <br>
 
 - [Pre-Install](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-pre-install)
-- **[Install](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-install)**
+- **[Install](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-install)**
 - [Install a Specific Theme](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-install-a-specific-theme)
 - [Install (Non-Interactive mode)](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-install-non-interactive-mode)
 - [Terminal Support](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-terminal-support)
