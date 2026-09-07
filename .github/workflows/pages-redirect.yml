@@ -1,0 +1,60 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+
+name: "🚀 - Deploy Pages redirect stub"
+
+# The website now lives at gogh.website (served from Gogh-Co/gogh-website).
+# This repo's GitHub Pages site (gogh-co.github.io/Gogh) is kept alive only
+# to redirect visitors who still land on the old default URL.
+
+on:
+  push:
+    branches: ["master"]
+    paths:
+      - ".github/workflows/pages-redirect.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build redirect page
+        run: |
+          mkdir -p dist
+          cat > dist/index.html <<'HTML'
+          <!doctype html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <title>Gogh has moved</title>
+            <link rel="canonical" href="https://gogh.website/">
+            <meta name="robots" content="noindex">
+            <meta http-equiv="refresh" content="0; url=https://gogh.website/">
+            <script>location.replace("https://gogh.website/");</script>
+          </head>
+          <body>
+            <p>This site has moved to <a href="https://gogh.website/">gogh.website</a>.</p>
+          </body>
+          </html>
+          HTML
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github_pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
