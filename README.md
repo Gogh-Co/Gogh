@@ -14,9 +14,9 @@
 
 ## Color Scheme Implementer for Terminals
 
-Gogh is a collection of color schemes for various terminal emulators, including Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4 Terminal. These schemes are designed to make your terminal more visually appealing and improve your productivity by providing a better contrast and color differentiation.
+Gogh is a collection of color schemes for terminal emulators across Linux and macOS (plus Cygwin/Mintty on Windows) — see the [Terminal Support](#-terminal-support) table below for the full list. These schemes are designed to make your terminal more visually appealing and improve readability with better contrast and color differentiation.
 
-The inspiration for Gogh came from the clean and minimalistic design of Elementary OS, but the project has since grown to include a variety of unique and beautiful options. Not only does Gogh work on Linux systems, but it's also compatible with iTerm on macOS, providing a consistent and visually appealing experience across platforms.
+The inspiration for Gogh came from the clean and minimalistic design of Elementary OS, but the project has since grown to include a variety of unique and beautiful options across platforms.
 
 ##### Run:
 
@@ -46,11 +46,11 @@ If you want to buy me a coffee voluntarily, you can use this link.
 - [Pre-Install](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-pre-install)
 - **[Install](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-install)**
 - [Install (Non-Interactive mode)](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-install-non-interactive-mode)
-- [Terminal Support](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-terminals)
+- [Terminal Support](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-terminal-support)
 - [Available Themes](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-themes)
 - [Help](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-help)
 - [Create your Own Theme!](docs/CONTRIBUTING.md)
-- [Accessibility ~ WCAG](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-accessibility---wcag)
+- [WCAG - Accessibility Contrast](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-wcag---accessibility-contrast)
 - [First commit](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-first-commit)
 - [Credits](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#heart-credits)
 - [Contributors](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#heart-contributors)
@@ -59,7 +59,7 @@ If you want to buy me a coffee voluntarily, you can use this link.
 - [Mentions](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-mentions)
 - [Work with Agents](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-work-with-agents)
 - [License](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-license)
-- [*Stargazers Over Time*](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-stargazers-over-time)
+- [Star History](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-star-history)
 
 </td>
 <td>
@@ -87,7 +87,7 @@ sudo apt-get install dconf-cli uuid-runtime
 For **Arch Linux:**
 
 ```bash
-sudo pacman -S dconf util-linux-libs
+sudo pacman -S dconf util-linux
 ```
 
 You can now install Gogh in Interactive Mode (Easier) or Non-Interactive Mode! (Ideal for Scripting)
@@ -177,34 +177,7 @@ We have lots of themes in stock!
 <br/>
 
 - **csv**: https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.csv
-
-<br/>
-
-### 🔑 Color Hash
-
-Every theme in `themes.json` carries two SHA-256 fields, so palette and background can be compared independently:
-
-- `hash` — the theme's **16 ANSI colors only**, independent of `name`, `author`, `variant`, `background`, `foreground`, or `cursor` (those are cosmetic).
-- `hash_bg` — the theme's `background` value only.
-
-**How they're computed** (`tools/lib/theme_common.py`, used by `tools/generate/01_generate_themes_json.py`):
-
-- `hash`: concatenate `color_01` → `color_16` hex values as-is, no separators, then SHA-256 the result.
-- `hash_bg`: SHA-256 of the `background` hex value on its own.
-
-Example — `Solarized Dark.yml`:
-
-```
-#002831#D11C24#738A05#A57706#2176C7#C61C6F#259286#EAE3CB#001E27#BD3613#475B62#536870#708284#5956BA#819090#FCF4DC
-↓ SHA-256 → hash
-56c19575cf17b9adb71130dbf58b45d36ef250ace147115edfe61b126166f489
-
-#001E27
-↓ SHA-256 → hash_bg
-70c870089f3b222d01ae3f98d86dc53e11cb7f4cde69ecfe1f1a90a541811b2e
-```
-
-`hash` only changes if one of the 16 palette colors changes — background/cursor/foreground and metadata edits don't touch it. `hash_bg` only changes if the background changes. Two themes sharing both hashes are true duplicates; sharing only `hash` means same palette, different background.
+- **[Color Hash](docs/COLOR_HASH.md)** — how the `hash`/`hash_bg` fields in `themes.json` are computed, for comparing palettes across themes.
 
 <br/>
 

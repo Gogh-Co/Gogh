@@ -14,13 +14,9 @@ a new one.
 
 ## Arch Linux
 
-**[#297](https://github.com/Gogh-Co/Gogh/issues/297):** `dconf-cli` and `uuid-runtime` don't exist under those names on Arch.
+**[#297](https://github.com/Gogh-Co/Gogh/issues/297):** `dconf-cli` and `uuid-runtime` don't exist under those names on Arch — see [Pre-Install](../README.md#-pre-install) for the correct package names (`dconf`, `util-linux`; `util-linux` provides `uuidgen`, Arch's equivalent of `uuid-runtime`).
 
-```bash
-sudo pacman -S --needed dconf util-linux gnome-terminal
-```
-
-`dconf` provides the dconf backend, `util-linux` provides `uuidgen` (Arch's equivalent of `uuid-runtime`). If `gsettings get org.gnome.Terminal.ProfilesList default` still errors after installing, log out/in (or reboot) to refresh the D-Bus session, then re-run Gogh.
+If `gsettings get org.gnome.Terminal.ProfilesList default` still errors after installing, log out/in (or reboot) to refresh the D-Bus session, then re-run Gogh.
 
 ## Debian
 

@@ -29,3 +29,4 @@ bun.lock
 !/docs/ISSUE_POLICY.md
 !/docs/TROUBLESHOOTING.md
 !/docs/NON_INTERACTIVE.md
+!/docs/COLOR_HASH.md
