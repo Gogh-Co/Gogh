@@ -354,6 +354,6 @@ Gogh is dual-licensed under either the [MIT license](LICENSE-MIT) or the
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/chart?repos=Gogh-Co/Gogh&type=date&logscale&legend=bottom-right&sealed_token=TC_btT_luE3IIjZQynKiuDBwXpxahiZ7vEyJudCa_0pjwPYTo1bZgIV8QhXqoJ5i1KmCoB7TZ1xUU1pk0PF9ZfwUEqqllCUG-xjMYUMrMdPLt6iWE_865TMGMd-TiTN8wLhoXJAfaG35jHL8-nTV2qvQw6SEy39L5NWLbNKjXWBv22pVbKipWpfUaPvp)](https://www.star-history.com/?repos=Gogh-Co%2FGogh&type=date&legend=bottom-right)
+[![Star History Chart](https://api.star-history.com/chart?repos=gogh-co/gogh&type=date&legend=top-left)](https://www.star-history.com/?repos=gogh-co%2Fgogh&type=date&legend=top-left)
 
 [![Star History Rank](https://api.star-history.com/badge?repo=Gogh-Co/Gogh&type=rank)](https://www.star-history.com/gogh-co/gogh)
