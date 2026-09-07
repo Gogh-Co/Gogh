@@ -124,7 +124,11 @@ bash -c 'bash -c "$(wget -qO- https://gogh.website/gogh)"'
 <br>
 <br>
 
-**2. Select your theme from the interactive list.**
+**2. Select your theme from the interactive list** — or skip it and install a specific theme directly by passing its name after `--`:
+
+```bash
+bash -c "$(wget -qO- https://gogh.website/gogh)" -- "Aci"
+```
 
 **DEMO:**
 
