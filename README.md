@@ -34,45 +34,54 @@ If you want to buy me a coffee voluntarily, you can use this link.
 
 </div>
 
-<table>
-<tr>
-<td>
-<img width="441" height="1">
-
 <b style="font-size:30px">Index:</b>
 
-<br>
+<table>
+<tr>
+<td valign="top" width="220">
+
+**Getting Started**
 
 - [Pre-Install](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-pre-install)
-- **[Install](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-install)**
+- [Install](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-install)
 - [Install a Specific Theme](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-install-a-specific-theme)
 - [Install (Non-Interactive mode)](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-install-non-interactive-mode)
 - [Terminal Support](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-terminal-support)
+
+**Themes & Data**
+
 - [Themes](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-themes)
 - [API](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-api)
 - [Color Hash](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-color-hash)
+- [WCAG - Accessibility Contrast](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-wcag---accessibility-contrast)
+
+</td>
+<td valign="top" width="220">
+
+**Help & Contributing**
+
 - [Help](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-help)
 - [Create your Own Theme!](docs/CONTRIBUTING.md)
-- [WCAG - Accessibility Contrast](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-wcag---accessibility-contrast)
+- [Work with Agents](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-work-with-agents)
+
+**Project**
+
 - [First commit](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-first-commit)
 - [Credits](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#heart-credits)
 - [Contributors](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#heart-contributors)
 - [Author](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-author-contributor)
 - [Why Gogh?](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-why-gogh)
 - [Mentions](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-mentions)
-- [Work with Agents](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-work-with-agents)
 - [License](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-license)
 - [Star History](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-star-history)
 
 </td>
-<td>
-<img width="441" height="1">
-<br>
-<br>
+<td valign="top">
 
-![gogh](https://raw.githubusercontent.com/Gogh-Co/Gogh/master/.images/demos/themes.gif)
+![gogh](https://raw.githubusercontent.com/Gogh-Co/Gogh/master/.images/demos/gogh-demo.gif)
 
 </td>
+</tr>
 </table>
 
 <br>
