@@ -1,0 +1,4 @@
+# procps-ng 3.3.17 (Debian 11 Bullseye) -- the oldest widely-used ps we could
+# reasonably still expect in the wild.
+FROM debian:bullseye
+RUN apt-get update -qq && apt-get install -y -qq procps bash --no-install-recommends

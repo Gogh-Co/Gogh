@@ -18,3 +18,8 @@ tasks:
     desc: Run the Bats behavioral test suite for gogh.sh (tests/*.bats). Requires bats-core installed.
     cmds:
       - bats tests/
+
+  docker:
+    desc: 'Run the Docker-based integration suites (ps compat, GTK/dconf terminals, file-based terminals). Requires Docker; not part of `task test`. See tests/docker/README.md.'
+    cmds:
+      - bash tests/docker/run-all.sh

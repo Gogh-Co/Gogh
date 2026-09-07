@@ -1,0 +1,3 @@
+# procps-ng 4.0.2 (Debian 12 Bookworm) -- current Debian stable.
+FROM debian:bookworm
+RUN apt-get update -qq && apt-get install -y -qq procps bash --no-install-recommends

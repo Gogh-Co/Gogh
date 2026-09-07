@@ -1,0 +1,4 @@
+# Alpine ships procps-ng too (not BusyBox's own ps applet) once the procps
+# package is installed explicitly -- covers the musl-libc build path.
+FROM alpine:3.20
+RUN apk add --no-cache procps bash

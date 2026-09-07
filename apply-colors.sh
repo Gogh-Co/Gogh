@@ -921,6 +921,11 @@ apply_konsole() {
         KDIR="${XDG_DATA_HOME}/konsole"
   fi
 
+  # A fresh system (Konsole never launched, or ~/.local/share/konsole never
+  # created) doesn't have this directory yet -- the touch calls below fail
+  # silently without it.
+  [[ -d "${KDIR}" ]] || mkdir --parents "${KDIR}"
+
   KPROFILE="${KDIR}/${PROFILE_NAME}.profile"
   if [[ -f "${KPROFILE}" ]]; then
       prints "Profile ${PROFILE_NAME} already exists in Konsole confiuration (${KONSOLE_DIR}); Skipping ..."
@@ -1033,7 +1038,17 @@ apply_gtk() {
   PROFILE_KEY="${BASE_DIR}${PROFILE_SLUG:-}"
 
   if [[ -z "${legacy}" ]]; then
-    if [[ -z "$(${DCONF} list "${BASE_DIR%:}")" ]]; then
+    # Every non-legacy caller (gnome-terminal, mate-terminal, tilix) already
+    # validates DEFAULT_SLUG itself before calling apply_gtk, via the same
+    # gsettings fallback -- so check that directly instead of re-deriving
+    # "any profile exists" from `dconf list "${BASE_DIR%:}"`. That path-based
+    # check happened to keep working for gnome-terminal/tilix only because
+    # their PROFILE_LIST_KEY is a direct child of BASE_DIR (seeding the list
+    # incidentally populates it); MATE's PROFILE_LIST_KEY lives under a
+    # sibling .../global/ subtree instead, so the same fresh-install case
+    # that DEFAULT_SLUG's fallback already resolved still failed this
+    # second, redundant check.
+    if [[ -z "${DEFAULT_SLUG}" ]]; then
       # Provide a user friendly error text if no saved profile exists, otherwise it will display "Error gconftool not found!"
       #  it could happen on a newly installed system. (happened on CentOS 7)
       printserr "Error, no saved profiles found!" \
