@@ -3,7 +3,11 @@
 </h1>
 
 <div align="center">
-  <img src=".images/intro.gif" alt="Gogh" width="80%">
+  <img src=".images/gogh/gogh--tiles.png" alt="Gogh" width="300">
+</div>
+
+<div align="center">
+  <img src=".images/intro.gif" alt="Gogh" width="850">
 </div>
 
 <br>
