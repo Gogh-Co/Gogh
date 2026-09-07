@@ -4,6 +4,7 @@ For scripting, dotfiles, provisioning tools, CI, or container images — install
 
 - [Method 1: clone the repository](#method-1-clone-the-repository)
 - [Method 2: download only what you need](#method-2-download-only-what-you-need)
+- [Selecting themes by name (CLI arguments)](#selecting-themes-by-name-cli-arguments)
 - [Environment variables](#environment-variables)
 
 ## Method 1: Clone the repository
@@ -43,6 +44,24 @@ Then apply the theme (the apply script must be in the same folder, or point `GOG
 
 ```bash
 TERMINAL=gnome-terminal bash ./selenized-dark.sh
+```
+
+## Selecting themes by name (CLI arguments)
+
+From a cloned repo, `gogh.sh` also accepts theme names/slugs directly, skipping the interactive list:
+
+```bash
+./gogh.sh Dracula
+./gogh.sh dracula nord-light
+
+# all themes
+./gogh.sh ALL
+```
+
+For one-line remote usage with arguments, pass `--` before the options:
+
+```bash
+bash -c "$(wget -qO- https://gogh.website/gogh)" -- Dracula
 ```
 
 ## Environment variables

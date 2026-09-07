@@ -95,7 +95,7 @@ You can now install Gogh in Interactive Mode (Easier) or Non-Interactive Mode! (
 <br>
 <br>
 
-## **Install**
+## ⚙️ Install
 
 ### Interactive Mode:
 
@@ -124,33 +124,13 @@ bash -c "$(curl -fsSL https://gogh.website/gogh)"
 ![gogh-demo-profile](https://raw.githubusercontent.com/Gogh-Co/Gogh/master/.images/demos/gogh-demo-profile.gif)
 
 <br/>
-
-### CLI Arguments (skip the interactive menu)
-
-Select themes directly by name/slug instead of the interactive list:
-
-```bash
-./gogh.sh Dracula
-./gogh.sh dracula nord-light
-
-# all themes
-./gogh.sh ALL
-```
-
-For one-line remote usage with arguments, pass `--` before the options:
-
-```bash
-bash -c "$(wget -qO- https://gogh.website/gogh)" -- Dracula
-```
-
-<br/>
 <br/>
 
 ## ⚙️ Install (Non-Interactive Mode)
 
 For scripting, dotfiles, provisioning tools, CI, or container images.
 
-- **[Non-Interactive Install Guide](docs/NON_INTERACTIVE.md)** — both install methods (clone the repo, or download just the required files) and the full environment variable reference (`TERMINAL`, `GOGH_NONINTERACTIVE`, `GOGH_USE_NEW_THEME`, and the `GOGH_*_SCRIPT` path overrides).
+- **[Non-Interactive Install Guide](docs/NON_INTERACTIVE.md)** — both install methods (clone the repo, or download just the required files), selecting themes by name/slug as CLI arguments, and the full environment variable reference (`TERMINAL`, `GOGH_NONINTERACTIVE`, `GOGH_USE_NEW_THEME`, and the `GOGH_*_SCRIPT` path overrides).
 
 <br/>
 <br/>
