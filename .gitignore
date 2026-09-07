@@ -30,3 +30,4 @@ bun.lock
 !/docs/TROUBLESHOOTING.md
 !/docs/NON_INTERACTIVE.md
 !/docs/COLOR_HASH.md
+!/tests/docker/README.md
