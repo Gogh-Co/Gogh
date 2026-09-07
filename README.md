@@ -243,17 +243,15 @@ Example — `Solarized Dark.yml`:
 
 ## ❓ HELP
 
-See [docs/ISSUE_POLICY.md](docs/ISSUE_POLICY.md) for how issues are triaged and when they're closed, and [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) for common installation problems by platform (Arch, Debian, Elementary OS, Fedora, Termux, Ubuntu) with the fixes that worked for other users.
+- **[Issue Policy](docs/ISSUE_POLICY.md)** — how issues are triaged and when they're closed.
+- **[Troubleshooting](docs/TROUBLESHOOTING.md)** — common installation problems by platform (Arch, Debian, Elementary OS, Fedora, Termux, Ubuntu) with the fixes that worked for other users.
 
 <br>
 <br>
 
 ## 🖼️ Create your Own Theme!
 
-See [`CONTRIBUTING.md`](docs/CONTRIBUTING.md) — the single source of truth for
-adding a theme: the `.yml` template, the field-by-field reference, the
-rules a theme PR needs to follow, and how to check it locally with
-`task validate` before opening the PR.
+- **[Contributing Guide](docs/CONTRIBUTING.md)** — the single source of truth for adding a theme: the `.yml` template, the field-by-field reference, the rules a theme PR needs to follow, and how to check it locally with `task validate` before opening the PR.
 
 <br>
 
