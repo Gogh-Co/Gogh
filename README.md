@@ -45,6 +45,7 @@ If you want to buy me a coffee voluntarily, you can use this link.
 
 - [Pre-Install](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-pre-install)
 - **[Install](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-install)**
+- [Install a Specific Theme](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-install-a-specific-theme)
 - [Install (Non-Interactive mode)](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#%EF%B8%8F-install-non-interactive-mode)
 - [Terminal Support](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-terminal-support)
 - [Available Themes](https://github.com/Gogh-Co/Gogh?tab=readme-ov-file#-themes)
@@ -124,15 +125,22 @@ bash -c 'bash -c "$(wget -qO- https://gogh.website/gogh)"'
 <br>
 <br>
 
-**2. Select your theme from the interactive list** — or skip it and install a specific theme directly by passing its name after `--`:
-
-```bash
-bash -c "$(wget -qO- https://gogh.website/gogh)" -- "Aci"
-```
+**2. Select your theme from the interactive list.**
 
 **DEMO:**
 
 ![gogh-demo-profile](https://raw.githubusercontent.com/Gogh-Co/Gogh/master/.images/demos/gogh-demo-profile.gif)
+
+<br/>
+<br/>
+
+## ⚡ Install a Specific Theme
+
+Already know which theme you want? Skip the interactive list and pass its name after `--`:
+
+```bash
+bash -c "$(wget -qO- https://gogh.website/gogh)" -- "Aci"
+```
 
 <br/>
 <br/>
