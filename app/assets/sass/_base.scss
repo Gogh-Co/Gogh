@@ -64,6 +64,18 @@ $font_size_base: 1.6rem;
 
 /**
  * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ * ·······  Touch targets
+ * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ * Minimum height for anything tappable on a touch viewport (nav/menu rows,
+ * filter/view/sort chips, icon buttons) -- mirrors the iOS Human Interface
+ * Guidelines' 44pt target. Width is left to the content; these are almost
+ * all horizontal buttons where cramped height, not width, is what makes a
+ * tap miss.
+*/
+$tap_target_min: 44px;
+
+/**
+ * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
  * ·······  General
  * ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */

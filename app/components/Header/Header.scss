@@ -46,11 +46,54 @@
     display: block;
 }
 
+.gogh-header__toggle {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: $tap_target_min;
+    height: $tap_target_min;
+    padding: 0;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    flex: 0 0 auto;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.12);
+    }
+
+    @media (max-width: 991px) {
+        display: inline-flex;
+    }
+}
+
 .gogh-header__nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 16px 20px;
+
+    // Collapses into a full-width dropdown panel toggled by the hamburger
+    // button below 992px -- six links, the theme toggle and the GitHub
+    // badges need close to 950px to sit on one line (measured), so this
+    // wraps into an ugly two-line header well before a phone/tablet's
+    // media query would suggest.
+    @media (max-width: 991px) {
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        width: 100%;
+        margin-top: 14px;
+        padding-top: 6px;
+        border-top: 1px solid rgba(255, 255, 255, 0.14);
+
+        &.is-open {
+            display: flex;
+        }
+    }
 }
 
 .gogh-header__nav-link {
@@ -66,6 +109,62 @@
     &.router-link-active {
         color: #ffffff;
     }
+
+    // Full-width rows with a real tap height, instead of a tight inline run.
+    @media (max-width: 991px) {
+        display: flex;
+        align-items: center;
+        min-height: $tap_target_min;
+        padding: 11px 4px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        font-size: 1.4rem;
+    }
+}
+
+.gogh-header__theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: $tap_target_min;
+    height: $tap_target_min;
+    padding: 0;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    flex: 0 0 auto;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.12);
+    }
+
+    // Inside the mobile dropdown a bare icon reads as unlabeled among a
+    // column of text links, so it grows into a labeled row there; on the
+    // desktop inline bar it stays an icon-only button, matching the
+    // GitHub badges beside it.
+    @media (max-width: 991px) {
+        width: 100%;
+        height: auto;
+        justify-content: flex-start;
+        padding: 11px 4px;
+        min-height: $tap_target_min;
+        border: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+}
+
+.gogh-header__theme-toggle-label {
+    display: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+
+    @media (max-width: 991px) {
+        display: inline;
+    }
 }
 
 .gogh-header__github {
@@ -78,4 +177,8 @@
     // size here, the header visibly reflows once they pop in.
     min-width: 200px;
     min-height: 28px;
+
+    @media (max-width: 991px) {
+        margin-top: 14px;
+    }
 }

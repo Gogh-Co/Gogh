@@ -98,8 +98,16 @@
 
     .filters__group {
         display: flex;
-        align-items: center;
+        flex-direction: column;
+        align-items: flex-start;
         gap: 8px;
+        width: 100%;
+
+        @include m650 {
+            flex-direction: row;
+            align-items: center;
+            width: auto;
+        }
 
         // Dividers only once the row has room to stay on one line -- on
         // narrow screens the groups wrap, where a border-left would float
@@ -109,6 +117,24 @@
                 padding-left: 20px;
                 border-left: 1px solid color-mix(in srgb, var(--site-foreground, #0d1926) 20%, transparent);
             }
+        }
+    }
+
+    // Below m650 the buttons in a group wrap onto as many rows as they need
+    // instead of stacking every button full-width. A horizontal scroll strip
+    // was tried here first, but at common phone widths it hid "Popular" /
+    // "By Color" off-screen with no visible hint that more existed --
+    // wrapping keeps every option always visible, at the cost of a bit more
+    // vertical space.
+    .filters__group-scroll {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 8px;
+        width: 100%;
+
+        @include m650 {
+            width: auto;
         }
     }
 
@@ -122,35 +148,22 @@
         text-transform: uppercase;
     }
 
-    .page-theme-toggle {
-        display: inline-flex;
-        flex: 0 0 auto;
-        align-items: center;
-        justify-content: center;
-        width: 44px;
-        height: 44px;
-        padding: 0;
-        border: 1px solid var(--site-foreground, #0d1926);
-        background: transparent;
-        color: var(--site-foreground, #0d1926);
-        cursor: pointer;
-        transition: all 0.3s ease;
-
-        &:hover {
-            background-color: var(--site-foreground, #0d1926);
-            color: var(--site-background, #e7e7e7);
-        }
-    }
-
     @include m650 {
         gap: 12px;
     }
 
     .btn {
-        width: 100%;
+        flex: 0 0 auto;
+        width: auto;
 
-        @include m650 {
-            width: auto;
+        // Compact, thumb-sized chip sizing while the group wraps at chip
+        // width; Button.scss's own m650+ sizing takes back over once the
+        // group switches to a normal single row.
+        @media (max-width: 649px) {
+            min-height: $tap_target_min;
+            padding: 0.65rem 1.3rem;
+            font-size: 1.3rem;
+            margin: 0;
         }
     }
 }

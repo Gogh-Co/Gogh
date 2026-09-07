@@ -53,71 +53,66 @@
                             <div class="filters__group" role="group" aria-label="Filter themes">
                                 <span class="filters__group-label">Filter</span>
 
-                                <ButtonFilter extra-class="js-btn--filter" :active="filter === 'all' && !colorFilterField"
-                                    @click="setFilter('all'); clearColorFilter()">
-                                    All
+                                <div class="filters__group-scroll">
+                                    <ButtonFilter extra-class="js-btn--filter" :active="filter === 'all' && !colorFilterField"
+                                        @click="setFilter('all'); clearColorFilter()">
+                                        All
 
-                                </ButtonFilter>
+                                    </ButtonFilter>
 
-                                <ButtonFilter extra-class="js-btn--filter" :active="filter === 'light' && !colorFilterField"
-                                    @click="setFilter('light'); clearColorFilter()">
-                                    Light Themes
-                                </ButtonFilter>
+                                    <ButtonFilter extra-class="js-btn--filter" :active="filter === 'light' && !colorFilterField"
+                                        @click="setFilter('light'); clearColorFilter()">
+                                        Light Themes
+                                    </ButtonFilter>
 
-                                <ButtonFilter extra-class="js-btn--filter" :active="filter === 'dark' && !colorFilterField"
-                                    @click="setFilter('dark'); clearColorFilter()">
-                                    Dark Themes
-                                </ButtonFilter>
+                                    <ButtonFilter extra-class="js-btn--filter" :active="filter === 'dark' && !colorFilterField"
+                                        @click="setFilter('dark'); clearColorFilter()">
+                                        Dark Themes
+                                    </ButtonFilter>
 
-                                <ButtonFilter extra-class="js-btn--filter" :active="filter === 'popular' && !colorFilterField"
-                                    @click="setFilter('popular'); clearColorFilter(); setSortMode('random'); setViewMode('compact')">
-                                    Popular
-                                </ButtonFilter>
+                                    <ButtonFilter extra-class="js-btn--filter" :active="filter === 'popular' && !colorFilterField"
+                                        @click="setFilter('popular'); clearColorFilter(); setSortMode('random'); setViewMode('compact')">
+                                        Popular
+                                    </ButtonFilter>
 
-                                <ButtonFilter
-                                    :active="!!colorFilterField"
-                                    aria-haspopup="dialog"
-                                    :aria-expanded="colorFilterFieldMenuOpen"
-                                    @click="openColorFilterFieldMenu"
-                                >
-                                    by Color
-                                </ButtonFilter>
+                                    <ButtonFilter
+                                        :active="!!colorFilterField"
+                                        aria-haspopup="dialog"
+                                        :aria-expanded="colorFilterFieldMenuOpen"
+                                        @click="openColorFilterFieldMenu"
+                                    >
+                                        by Color
+                                    </ButtonFilter>
+                                </div>
                             </div>
 
                             <div class="filters__group view-toggle" role="group" aria-label="Gallery view">
                                 <span class="filters__group-label">View</span>
 
-                                <ButtonFilter :active="viewMode === 'compact'" @click="setViewMode('compact')">
-                                    Compact
-                                </ButtonFilter>
+                                <div class="filters__group-scroll">
+                                    <ButtonFilter :active="viewMode === 'compact'" @click="setViewMode('compact')">
+                                        Compact
+                                    </ButtonFilter>
 
-                                <ButtonFilter :active="viewMode === 'detailed'" @click="setViewMode('detailed')">
-                                    Detailed
-                                </ButtonFilter>
+                                    <ButtonFilter :active="viewMode === 'detailed'" @click="setViewMode('detailed')">
+                                        Detailed
+                                    </ButtonFilter>
+                                </div>
                             </div>
 
                             <div class="filters__group sort-toggle" role="group" aria-label="Sort themes">
                                 <span class="filters__group-label">Sort</span>
 
-                                <ButtonFilter :active="sortMode === 'alphabetical'" @click="setSortMode('alphabetical')">
-                                    {{ sortMode === 'alphabetical' && sortDirection === 'desc' ? 'Z-A' : 'A-Z' }}
-                                </ButtonFilter>
+                                <div class="filters__group-scroll">
+                                    <ButtonFilter :active="sortMode === 'alphabetical'" @click="setSortMode('alphabetical')">
+                                        {{ sortMode === 'alphabetical' && sortDirection === 'desc' ? 'Z-A' : 'A-Z' }}
+                                    </ButtonFilter>
 
-                                <ButtonFilter :active="sortMode === 'random'" @click="setSortMode('random')">
-                                    Shuffle
-                                </ButtonFilter>
+                                    <ButtonFilter :active="sortMode === 'random'" @click="setSortMode('random')">
+                                        Shuffle
+                                    </ButtonFilter>
+                                </div>
                             </div>
-
-                            <button
-                                type="button"
-                                class="page-theme-toggle"
-                                :aria-label="pageTheme === 'dark' ? 'Switch page to light background' : 'Switch page to dark background'"
-                                :aria-pressed="pageTheme === 'dark'"
-                                @click="togglePageTheme"
-                            >
-                                <svg v-if="pageTheme === 'dark'" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M12 7a5 5 0 1 0 0 10a5 5 0 0 0 0-10m0-5a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1m0 18a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1M3 11a1 1 0 0 1 0 2H2a1 1 0 1 1 0-2zm19 0a1 1 0 0 1 0 2h-1a1 1 0 1 1 0-2zM4.929 4.929a1 1 0 0 1 1.414 0l.707.707A1 1 0 1 1 5.636 7.05l-.707-.707a1 1 0 0 1 0-1.414m12.02 12.02a1 1 0 0 1 1.415 0l.707.707a1 1 0 1 1-1.414 1.414l-.707-.707a1 1 0 0 1 0-1.414M19.071 4.929a1 1 0 0 1 0 1.414l-.707.707a1 1 0 1 1-1.414-1.414l.707-.707a1 1 0 0 1 1.414 0M7.05 16.95a1 1 0 0 1 0 1.414l-.707.707a1 1 0 0 1-1.414-1.414l.707-.707a1 1 0 0 1 1.414 0"/></svg>
-                                <svg v-else xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M9.822 2.238a.75.75 0 0 1 .174.808a7.5 7.5 0 0 0 9.958 9.958a.75.75 0 0 1 .982.982A9.001 9.001 0 0 1 12 21a9 9 0 0 1-2.834-17.539a.75.75 0 0 1 .656.777"/></svg>
-                            </button>
 
                             <div class="theme-search" role="search">
                                 <button
@@ -484,7 +479,6 @@ const POPULAR_THEME_NAMES = new Set([
 const VIEW_MODE_STORAGE_KEY = 'gogh-gallery-view-mode';
 const SORT_MODE_STORAGE_KEY = 'gogh-gallery-sort-mode';
 const SORT_DIRECTION_STORAGE_KEY = 'gogh-gallery-sort-direction';
-const PAGE_THEME_STORAGE_KEY = 'gogh-page-theme';
 
 // Labels/preview swatches for the "filter by color" submenu, in theme-template.yml
 // order (color_01..color_16: 8 base ANSI colors, then their 8 bright variants).
@@ -544,7 +538,7 @@ const viewMode = ref('compact');
 const sortMode = ref('alphabetical');
 const sortDirection = ref('asc');
 const shuffleOrder = ref(new Map());
-const pageTheme = ref('light');
+const { pageTheme } = usePageTheme();
 const colorFilterField = ref('');
 const colorFilterValue = ref('');
 const colorFilterFieldMenuOpen = ref(false);
@@ -641,20 +635,6 @@ function setViewMode(mode) {
     } catch {
         // Ignore storage failures (private browsing, disabled storage, etc.).
     }
-}
-
-function setPageTheme(mode) {
-    pageTheme.value = mode;
-
-    try {
-        localStorage.setItem(PAGE_THEME_STORAGE_KEY, mode);
-    } catch {
-        // Ignore storage failures (private browsing, disabled storage, etc.).
-    }
-}
-
-function togglePageTheme() {
-    setPageTheme(pageTheme.value === 'dark' ? 'light' : 'dark');
 }
 
 const pageContentStyle = computed(() => (pageTheme.value === 'dark' ? PAGE_THEME_DARK_STYLE : undefined));
@@ -995,15 +975,6 @@ onMounted(() => {
         const savedViewMode = localStorage.getItem(VIEW_MODE_STORAGE_KEY);
         if (savedViewMode === 'compact' || savedViewMode === 'detailed') {
             viewMode.value = savedViewMode;
-        }
-    } catch {
-        // Ignore storage failures (private browsing, disabled storage, etc.).
-    }
-
-    try {
-        const savedPageTheme = localStorage.getItem(PAGE_THEME_STORAGE_KEY);
-        if (savedPageTheme === 'dark' || savedPageTheme === 'light') {
-            pageTheme.value = savedPageTheme;
         }
     } catch {
         // Ignore storage failures (private browsing, disabled storage, etc.).
