@@ -113,11 +113,11 @@ bash -c "$(wget -qO- https://gogh.website/gogh)"
 bash -c "$(curl -fsSL https://gogh.website/gogh)"
 ```
 
-> **Fish or NuShell?** The `$(...)` command substitution above isn't valid syntax in those shells. Wrap the whole thing in an extra `bash -c` instead:
->
-> ```bash
-> bash -c 'bash -c "$(wget -qO- https://gogh.website/gogh)"'
-> ```
+**Using Fish or NuShell?** Run this instead:
+
+```bash
+bash -c 'bash -c "$(wget -qO- https://gogh.website/gogh)"'
+```
 
 **2. Select your theme from the interactive list.**
 
