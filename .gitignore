@@ -27,3 +27,4 @@ bun.lock
 *.md
 !/README.md
 !/docs/ISSUE_POLICY.md
+!/docs/TROUBLESHOOTING.md
