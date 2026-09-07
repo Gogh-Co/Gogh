@@ -5,6 +5,13 @@ worked for other users. If your issue isn't listed here, check
 [existing issues](https://github.com/Gogh-Co/Gogh/issues) before opening
 a new one.
 
+- [Arch Linux](#arch-linux)
+- [Debian](#debian)
+- [Elementary OS](#elementary-os)
+- [Fedora 40](#fedora-40)
+- [Termux](#termux)
+- [Ubuntu 19.10](#ubuntu-1910)
+
 ## Arch Linux
 
 **[#297](https://github.com/Gogh-Co/Gogh/issues/297):** `dconf-cli` and `uuid-runtime` don't exist under those names on Arch.
