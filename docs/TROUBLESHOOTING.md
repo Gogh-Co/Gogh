@@ -1,7 +1,7 @@
 # Troubleshooting
 
-Common installation problems, grouped by platform, with the fix that
-worked for other users. If your issue isn't listed here, check
+Common installation problems, grouped by platform or terminal, with the
+fix that worked for other users. If your issue isn't listed here, check
 [existing issues](https://github.com/Gogh-Co/Gogh/issues) before opening
 a new one.
 
