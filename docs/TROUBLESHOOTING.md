@@ -5,12 +5,28 @@ worked for other users. If your issue isn't listed here, check
 [existing issues](https://github.com/Gogh-Co/Gogh/issues) before opening
 a new one.
 
+- [Alacritty](#alacritty)
 - [Arch Linux](#arch-linux)
 - [Debian](#debian)
 - [Elementary OS](#elementary-os)
 - [Fedora 40](#fedora-40)
+- [Fish / NuShell](#fish--nushell)
+- [Terminator](#terminator)
 - [Termux](#termux)
 - [Ubuntu 19.10](#ubuntu-1910)
+- [Ubuntu 24.04](#ubuntu-2404)
+- [WSL (Windows Subsystem for Linux)](#wsl-windows-subsystem-for-linux)
+- [xfce4-terminal](#xfce4-terminal)
+
+## Alacritty
+
+**[#304](https://github.com/Gogh-Co/Gogh/issues/304):** `KeyError: 'colors'` when applying a theme.
+
+Alacritty's config only accepts colors if the `colors:` block (and its `primary`, `normal`, `bright` sub-keys) already exist. Uncomment or add that block in `alacritty.yml`, then run Gogh again:
+
+```bash
+export TERMINAL=alacritty
+```
 
 ## Arch Linux
 
@@ -55,6 +71,12 @@ Then rename the profile called "default" and run the Gogh script.
 sudo apt install gconf2
 ```
 
+**[#492](https://github.com/Gogh-Co/Gogh/issues/492):** script exits with no visible error and no theme applied — missing `uuid-runtime`, needed to generate the profile UUID.
+
+```bash
+sudo apt install uuid-runtime
+```
+
 ## Elementary OS
 
 **[#175](https://github.com/Gogh-Co/Gogh/issues/175):** "Unsupported terminal!" — Pantheon Terminal's identifier has changed names over the years; force the current one:
@@ -86,6 +108,26 @@ sudo dnf install -y GConf2 gnome-terminal
 ```
 
 Re-run Gogh and confirm the theme applies in a new terminal session.
+
+## Fish / NuShell
+
+**[#303](https://github.com/Gogh-Co/Gogh/issues/303):** the one-line install command fails — Fish and NuShell don't support the `$(...)` command substitution syntax `bash -c "$(...)"` relies on.
+
+Wrap the whole thing in an outer `bash -c` instead:
+
+```bash
+bash -c 'bash -c "$(wget -qO- https://gogh.website/gogh)"'
+```
+
+## Terminator
+
+**[#439](https://github.com/Gogh-Co/Gogh/issues/439):** `ModuleNotFoundError: No module named 'configobj'`. This is a missing dependency of Terminator itself, not a Gogh bug.
+
+```bash
+sudo apt install python3-configobj
+# or
+pip install configobj
+```
 
 ## Termux
 
@@ -119,3 +161,23 @@ Create or rename your GNOME Terminal profile to **Default**, then re-run Gogh. V
 gsettings get org.gnome.Terminal.ProfilesList list
 gsettings get org.gnome.Terminal.ProfilesList default
 ```
+
+## Ubuntu 24.04
+
+**[#523](https://github.com/Gogh-Co/Gogh/issues/523):** `default_profile: not a valid identifier` even with all dependencies installed — GNOME Terminal's "Use colors from system theme" option can conflict with Gogh's palette and trigger this error.
+
+Go to **Terminal → Preferences → [your profile] → Colors**, uncheck **Use colors from system theme**, then re-run Gogh.
+
+## WSL (Windows Subsystem for Linux)
+
+**[#333](https://github.com/Gogh-Co/Gogh/issues/333):** `/usr/bin/env: 'bash\r': No such file or directory` — the script has Windows-style CRLF line endings, usually from being edited or downloaded through a Windows tool.
+
+Convert it to Unix (LF) line endings before running, e.g.:
+
+```bash
+dos2unix install.sh
+```
+
+## xfce4-terminal
+
+**[#508](https://github.com/Gogh-Co/Gogh/issues/508), [#463](https://github.com/Gogh-Co/Gogh/issues/463):** the theme writes correctly to `terminalrc`, but the terminal window Gogh was run from doesn't live-reload it. Open a **new** xfce4-terminal window or tab to see the applied theme.
