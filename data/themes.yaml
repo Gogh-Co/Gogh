@@ -25452,6 +25452,136 @@
   cursor: '#385156'
   hash: 7a6ae9494c43c199bde6db446039ab83e5ecf18027976196ee1bd0a7bed87888
   hash_bg: f7a87c20d250c70a7d182767af80883e4f3c87a0de974866f9d29cbfb81e2cc7
+- name: SilkCircuit Dawn
+  author: Stefanie Jane (https://github.com/hyperb1iss/silkcircuit)
+  author_name: Stefanie Jane
+  author_url: https://github.com/hyperb1iss/silkcircuit
+  variant: light
+  color_01: '#2B2540'
+  color_02: '#C1272D'
+  color_03: '#1D6E46'
+  color_04: '#796100'
+  color_05: '#1454DC'
+  color_06: '#B40077'
+  color_07: '#006E72'
+  color_08: '#FAF8FF'
+  color_09: '#5A4D6E'
+  color_10: '#DC2626'
+  color_11: '#288855'
+  color_12: '#7F5F00'
+  color_13: '#2572EF'
+  color_14: '#D92A99'
+  color_15: '#048397'
+  color_16: '#FFFFFF'
+  background: '#FAF8FF'
+  foreground: '#2B2540'
+  cursor: '#006E72'
+  hash: 9e2cc40d3a368e6efc40492db2439732c0069c35d32ecaad398890c2d3b0f07b
+  hash_bg: e115f06df3bfe26ecedbb58f1895ae321360afcfbf7a41534b54812378edaa9f
+- name: SilkCircuit Glow
+  author: Stefanie Jane (https://github.com/hyperb1iss/silkcircuit)
+  author_name: Stefanie Jane
+  author_url: https://github.com/hyperb1iss/silkcircuit
+  variant: dark
+  color_01: '#000000'
+  color_02: '#FF2244'
+  color_03: '#00FF00'
+  color_04: '#FFFF00'
+  color_05: '#0099FF'
+  color_06: '#FF00FF'
+  color_07: '#00FFFF'
+  color_08: '#FFFFFF'
+  color_09: '#818181'
+  color_10: '#FF6666'
+  color_11: '#66FF66'
+  color_12: '#FFFF66'
+  color_13: '#66CCFF'
+  color_14: '#FF66FF'
+  color_15: '#66FFFF'
+  color_16: '#FFFFFF'
+  background: '#0A0816'
+  foreground: '#FFFFFF'
+  cursor: '#00FFFF'
+  hash: f5c2ac1d458ad4cad84885a7b3665d0f97a0f50a5de334f530fe5a9585752668
+  hash_bg: 6171434ffcefc49936e3edfa82ad29442ac4f2abf41655e126ec40c3745120f2
+- name: SilkCircuit Neon
+  author: Stefanie Jane (https://github.com/hyperb1iss/silkcircuit)
+  author_name: Stefanie Jane
+  author_url: https://github.com/hyperb1iss/silkcircuit
+  variant: dark
+  color_01: '#12101A'
+  color_02: '#FF6363'
+  color_03: '#50FA7B'
+  color_04: '#F1FA8C'
+  color_05: '#82AAFF'
+  color_06: '#FF00FF'
+  color_07: '#80FFEA'
+  color_08: '#F8F8F2'
+  color_09: '#768D8D'
+  color_10: '#FF8787'
+  color_11: '#86FBA8'
+  color_12: '#FFFFA5'
+  color_13: '#82B1FF'
+  color_14: '#FF69FF'
+  color_15: '#5FFFFF'
+  color_16: '#FFFFFF'
+  background: '#12101A'
+  foreground: '#F8F8F2'
+  cursor: '#80FFEA'
+  hash: b25e8a531641f00baa60cec65ba4c030ba03890e88fe93b408d0a98e7cbe84a0
+  hash_bg: 125a7088f006ce6d2fc08e840fd0a7f2ff21d72b2ffeec72058f1110d1690a6a
+- name: SilkCircuit Soft
+  author: Stefanie Jane (https://github.com/hyperb1iss/silkcircuit)
+  author_name: Stefanie Jane
+  author_url: https://github.com/hyperb1iss/silkcircuit
+  variant: dark
+  color_01: '#141220'
+  color_02: '#FF6677'
+  color_03: '#66FF99'
+  color_04: '#FFE699'
+  color_05: '#92AAFF'
+  color_06: '#FF99FF'
+  color_07: '#99FFEE'
+  color_08: '#F8F8F2'
+  color_09: '#6272A4'
+  color_10: '#FF7788'
+  color_11: '#80FFB3'
+  color_12: '#FFFFA5'
+  color_13: '#A2BBFF'
+  color_14: '#FFB3FF'
+  color_15: '#B3FFEA'
+  color_16: '#FFFFFF'
+  background: '#1A1626'
+  foreground: '#F8F8F2'
+  cursor: '#99FFEE'
+  hash: aeb8cf4cb08dfabace5959584db1a9c8c46b378d70743890f51b2cc668154a4e
+  hash_bg: 7559477e79af17b864457db4eb0fb1077b06320fefde93c733421e26634fab17
+- name: SilkCircuit Vibrant
+  author: Stefanie Jane (https://github.com/hyperb1iss/silkcircuit)
+  author_name: Stefanie Jane
+  author_url: https://github.com/hyperb1iss/silkcircuit
+  variant: dark
+  color_01: '#0F0C1A'
+  color_02: '#FF3366'
+  color_03: '#00FF66'
+  color_04: '#FFCC00'
+  color_05: '#6699FF'
+  color_06: '#FF00CC'
+  color_07: '#00FFCC'
+  color_08: '#F8F8F2'
+  color_09: '#728989'
+  color_10: '#FF6677'
+  color_11: '#66FF99'
+  color_12: '#FFFF66'
+  color_13: '#88AAFF'
+  color_14: '#FF66FF'
+  color_15: '#00FFFF'
+  color_16: '#FFFFFF'
+  background: '#0F0C1A'
+  foreground: '#F8F8F2'
+  cursor: '#00FFCC'
+  hash: dca1b4b5503368bb069d66c359a6cb50ed214b192e0e3a4310ed90025fa64f07
+  hash_bg: f716824337e352149427b1a87fe7aa07413d792e533a618cc97d97d7a9f7f3ab
 - name: Slate
   author: deneshshan (https://github.com/deneshshan)
   author_name: deneshshan

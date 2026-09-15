@@ -1,0 +1,26 @@
+name: SilkCircuit Dawn
+author: Stefanie Jane (https://github.com/hyperb1iss/silkcircuit)
+author_name: Stefanie Jane
+author_url: https://github.com/hyperb1iss/silkcircuit
+variant: light
+color_01: '#2B2540'
+color_02: '#C1272D'
+color_03: '#1D6E46'
+color_04: '#796100'
+color_05: '#1454DC'
+color_06: '#B40077'
+color_07: '#006E72'
+color_08: '#FAF8FF'
+color_09: '#5A4D6E'
+color_10: '#DC2626'
+color_11: '#288855'
+color_12: '#7F5F00'
+color_13: '#2572EF'
+color_14: '#D92A99'
+color_15: '#048397'
+color_16: '#FFFFFF'
+background: '#FAF8FF'
+foreground: '#2B2540'
+cursor: '#006E72'
+hash: 9e2cc40d3a368e6efc40492db2439732c0069c35d32ecaad398890c2d3b0f07b
+hash_bg: e115f06df3bfe26ecedbb58f1895ae321360afcfbf7a41534b54812378edaa9f
