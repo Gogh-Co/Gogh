@@ -18,6 +18,7 @@ on:
 env:
   # Pinned for reproducible results; bump this deliberately, not implicitly.
   SHELLCHECK_VERSION: v0.11.0
+  BATS_VERSION: v1.14.0
 
 jobs:
   validate-colors:
@@ -75,8 +76,16 @@ jobs:
       - name: 🏅 ShellCheck
         run: shellcheck gogh.sh apply-colors.sh
 
-      - name: 🏅 Install Bats
-        run: sudo apt-get update && sudo apt-get install -y bats
+      # Install a pinned bats-core release directly -- the Ubuntu 22.04 apt
+      # package is bats 1.2.1, which predates BATS_TEST_TMPDIR (it silently
+      # expands empty, turning "${BATS_TEST_TMPDIR}/foo.XXXXXX" into
+      # "/foo.XXXXXX" and failing every test that uses it with a
+      # permission-denied mktemp/mkfifo error at the filesystem root).
+      - name: 🏅 Install Bats ${{ env.BATS_VERSION }}
+        run: |
+          git clone --depth 1 --branch "$BATS_VERSION" https://github.com/bats-core/bats-core.git /tmp/bats-core
+          sudo /tmp/bats-core/install.sh /usr/local
+          bats --version
 
       - name: 🏅 Run Bats tests
         run: bats tests/
