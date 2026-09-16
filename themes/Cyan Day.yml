@@ -1,0 +1,26 @@
+---
+name: 'Cyan Day'
+author: 'Alex Bachlej (https://alexbachlej.com)'
+variant: 'light'
+
+color_01: '#12343B'
+color_02: '#B3345C'
+color_03: '#147C72'
+color_04: '#9B6A00'
+color_05: '#006D8F'
+color_06: '#6F4AA8'
+color_07: '#008CA8'
+color_08: '#E8FBFF'
+
+color_09: '#5B7E86'
+color_10: '#D64B73'
+color_11: '#1B9A8E'
+color_12: '#C98300'
+color_13: '#0088B8'
+color_14: '#8964C8'
+color_15: '#00AFCF'
+color_16: '#FFFFFF'
+
+background: '#E8FBFF'
+foreground: '#12343B'
+cursor: '#008CA8'
