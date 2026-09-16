@@ -312,6 +312,8 @@ declare -a THEMES=(
   'cursor-dark.sh'
   'cursor-light.sh'
   'cutie-pro.sh'
+  'cyan-day.sh'
+  'cyan-night.sh'
   'cyberdyne.sh'
   'cyberpunk-icy.sh'
   'cyberpunk-neon.sh'
