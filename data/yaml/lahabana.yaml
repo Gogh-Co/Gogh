@@ -1,0 +1,26 @@
+name: Lahabana
+author: xscriptor (https://github.com/xscriptor)
+author_name: xscriptor
+author_url: https://github.com/xscriptor
+variant: dark
+color_01: '#19191A'
+color_02: '#FC618D'
+color_03: '#7BD88F'
+color_04: '#E5FF9D'
+color_05: '#FD9353'
+color_06: '#948AE3'
+color_07: '#5AD4E6'
+color_08: '#F7F1FF'
+color_09: '#19191A'
+color_10: '#FC618D'
+color_11: '#7BD88F'
+color_12: '#E5FF9D'
+color_13: '#FD9353'
+color_14: '#948AE3'
+color_15: '#5AD4E6'
+color_16: '#F7F1FF'
+background: '#19191A'
+foreground: '#F7F1FF'
+cursor: '#F7F1FF'
+hash: 31bba6c6c990c599f5fd4200905f78e233007b062946d2997be3a7fbb6c1a33b
+hash_bg: c917fdb1cff0b3f94c926f88c0cdd75469ec59bcdefe7b72b39deb06611e6c54

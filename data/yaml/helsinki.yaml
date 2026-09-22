@@ -1,0 +1,26 @@
+name: Helsinki
+author: xscriptor (https://github.com/xscriptor)
+author_name: xscriptor
+author_url: https://github.com/xscriptor
+variant: light
+color_01: '#F8FAFE'
+color_02: '#1FAA9E'
+color_03: '#733D9A'
+color_04: '#2E70AD'
+color_05: '#B55A0F'
+color_06: '#3E9D21'
+color_07: '#BD4C3D'
+color_08: '#544D40'
+color_09: '#B0A999'
+color_10: '#009E91'
+color_11: '#5A1F8A'
+color_12: '#0F5BA2'
+color_13: '#B23B00'
+color_14: '#218C00'
+color_15: '#B32E1F'
+color_16: '#000000'
+background: '#F8FAFE'
+foreground: '#544D40'
+cursor: '#544D40'
+hash: 1d09f59aaf8acb59f9da36c77d722ef3f9037b0fea8808507c19c541845e798b
+hash_bg: 8bc122100107d6148b0e8780a57e2df749a9e77d18ae722d5d109ea97164e6e2

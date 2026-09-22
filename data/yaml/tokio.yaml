@@ -1,0 +1,26 @@
+name: Tokio
+author: xscriptor (https://github.com/xscriptor)
+author_name: xscriptor
+author_url: https://github.com/xscriptor
+variant: dark
+color_01: '#1C1C1D'
+color_02: '#FC618D'
+color_03: '#7BD88F'
+color_04: '#FCE566'
+color_05: '#FD9353'
+color_06: '#948AE3'
+color_07: '#5AD4E6'
+color_08: '#F7F1FF'
+color_09: '#1C1C1D'
+color_10: '#FC618D'
+color_11: '#7BD88F'
+color_12: '#FCE566'
+color_13: '#FD9353'
+color_14: '#948AE3'
+color_15: '#5AD4E6'
+color_16: '#F7F1FF'
+background: '#1C1C1D'
+foreground: '#F7F1FF'
+cursor: '#F7F1FF'
+hash: 49345d07cb73305b9f7d1d7ea38a2fc95a02146f7fd2bdb886bc32ffff4eff57
+hash_bg: 82edfc79f8183c94c7e30f471254e7a35fae98ea211b03dfab82e2d210674bec

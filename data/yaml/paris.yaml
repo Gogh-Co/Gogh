@@ -1,0 +1,26 @@
+name: Paris
+author: xscriptor (https://github.com/xscriptor)
+author_name: xscriptor
+author_url: https://github.com/xscriptor
+variant: dark
+color_01: '#1A0A30'
+color_02: '#FC618D'
+color_03: '#7BD88F'
+color_04: '#FCE566'
+color_05: '#A3F3FF'
+color_06: '#C4BDFF'
+color_07: '#A3F3FF'
+color_08: '#1A0A30'
+color_09: '#C4BDFF'
+color_10: '#FC618D'
+color_11: '#7BD88F'
+color_12: '#FCE566'
+color_13: '#A3F3FF'
+color_14: '#C4BDFF'
+color_15: '#A3F3FF'
+color_16: '#F7F1FF'
+background: '#1A0A30'
+foreground: '#F7F1FF'
+cursor: '#F7F1FF'
+hash: d757ff0ef8f85381f4ee8b05e08e7ad88bf1f89e2b52f867db4d17aa654181df
+hash_bg: 68ded65a3c47044d45f62112cf8604c136b055915e729e180ded7421328aa07c

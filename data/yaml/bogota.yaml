@@ -1,0 +1,26 @@
+name: Bogota
+author: xscriptor (https://github.com/xscriptor)
+author_name: xscriptor
+author_url: https://github.com/xscriptor
+variant: dark
+color_01: '#200B0A'
+color_02: '#FC618D'
+color_03: '#7BD88F'
+color_04: '#FFED89'
+color_05: '#47E6FF'
+color_06: '#FF9999'
+color_07: '#47E6FF'
+color_08: '#F7F1FF'
+color_09: '#525053'
+color_10: '#FC618D'
+color_11: '#7BD88F'
+color_12: '#FFED89'
+color_13: '#47E6FF'
+color_14: '#FF9999'
+color_15: '#47E6FF'
+color_16: '#F7F1FF'
+background: '#200B0A'
+foreground: '#F7F1FF'
+cursor: '#F7F1FF'
+hash: c1a7e061e37cdce6acea40ce7e371ed567f04577e45ba9e398bd97221db2614d
+hash_bg: f18ef73ea7e255bdb5da387b20527076a3d6aafd1172ba8246724e8007a2e00a

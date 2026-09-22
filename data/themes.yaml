@@ -3742,6 +3742,32 @@
   cursor: '#968C83'
   hash: 35112016cac8188a9d0ab5195bc6341029ad3e82a3b5b37b0450b6cdd2c4b934
   hash_bg: 249ee5dcbdd08213c0d667ea000ada2da2f1f1ff96676c997553241c1ffadc2c
+- name: Berlin
+  author: xscriptor (https://github.com/xscriptor)
+  author_name: xscriptor
+  author_url: https://github.com/xscriptor
+  variant: dark
+  color_01: '#000000'
+  color_02: '#999999'
+  color_03: '#BBBBBB'
+  color_04: '#DDDDDD'
+  color_05: '#888888'
+  color_06: '#AAAAAA'
+  color_07: '#CCCCCC'
+  color_08: '#FFFFFF'
+  color_09: '#333333'
+  color_10: '#BBBBBB'
+  color_11: '#DDDDDD'
+  color_12: '#FFFFFF'
+  color_13: '#AAAAAA'
+  color_14: '#CCCCCC'
+  color_15: '#EEEEEE'
+  color_16: '#FFFFFF'
+  background: '#000000'
+  foreground: '#CCCCCC'
+  cursor: '#CCCCCC'
+  hash: d08aec8ca64d0b7731e3e5693acfbfe7b1cfec6775713f69edaeb10ee3f599ff
+  hash_bg: 7b2817bf9b80e66d07f28095dcd1244590692778dc617a53cbd666ad280872ed
 - name: Bespin
   author: Jan T. Sott
   author_name: Jan T. Sott
@@ -4548,6 +4574,32 @@
   cursor: '#383A42'
   hash: d981d486005af9ed92722ba72d387b302c948056332475fd661221950765877d
   hash_bg: 0142ea2bd1d1589ebb8c0b75a30f5e07e4868140fee5d8b5f78b44be07ffd3e9
+- name: Bogota
+  author: xscriptor (https://github.com/xscriptor)
+  author_name: xscriptor
+  author_url: https://github.com/xscriptor
+  variant: dark
+  color_01: '#200B0A'
+  color_02: '#FC618D'
+  color_03: '#7BD88F'
+  color_04: '#FFED89'
+  color_05: '#47E6FF'
+  color_06: '#FF9999'
+  color_07: '#47E6FF'
+  color_08: '#F7F1FF'
+  color_09: '#525053'
+  color_10: '#FC618D'
+  color_11: '#7BD88F'
+  color_12: '#FFED89'
+  color_13: '#47E6FF'
+  color_14: '#FF9999'
+  color_15: '#47E6FF'
+  color_16: '#F7F1FF'
+  background: '#200B0A'
+  foreground: '#F7F1FF'
+  cursor: '#F7F1FF'
+  hash: c1a7e061e37cdce6acea40ce7e371ed567f04577e45ba9e398bd97221db2614d
+  hash_bg: f18ef73ea7e255bdb5da387b20527076a3d6aafd1172ba8246724e8007a2e00a
 - name: Bogster Dark
   author: lhs
   author_name: lhs
@@ -13154,6 +13206,32 @@
   cursor: '#D5D5D5'
   hash: 79f14c7245f34f2e8f431a458a6cfa34ad9abe9ebe737639b2eea4c031e784ba
   hash_bg: 3934a4e8079e372a18fe53e3046e902052594a64d28d2b803fc97434197aa537
+- name: Helsinki
+  author: xscriptor (https://github.com/xscriptor)
+  author_name: xscriptor
+  author_url: https://github.com/xscriptor
+  variant: light
+  color_01: '#F8FAFE'
+  color_02: '#1FAA9E'
+  color_03: '#733D9A'
+  color_04: '#2E70AD'
+  color_05: '#B55A0F'
+  color_06: '#3E9D21'
+  color_07: '#BD4C3D'
+  color_08: '#544D40'
+  color_09: '#B0A999'
+  color_10: '#009E91'
+  color_11: '#5A1F8A'
+  color_12: '#0F5BA2'
+  color_13: '#B23B00'
+  color_14: '#218C00'
+  color_15: '#B32E1F'
+  color_16: '#000000'
+  background: '#F8FAFE'
+  foreground: '#544D40'
+  cursor: '#544D40'
+  hash: 1d09f59aaf8acb59f9da36c77d722ef3f9037b0fea8808507c19c541845e798b
+  hash_bg: 8bc122100107d6148b0e8780a57e2df749a9e77d18ae722d5d109ea97164e6e2
 - name: Hemisu Dark
   author: ''
   author_name: ''
@@ -15832,6 +15910,32 @@
   cursor: '#7F7F7F'
   hash: b49cf8bb15ad0be5023ef499d20e12ea9b0ea4670e91e9df3b317f25154d5ce4
   hash_bg: fe528cf3f8ccd34a1f468827c343042ff96539ea9ca3c2ef5167ab850334c0ea
+- name: Lahabana
+  author: xscriptor (https://github.com/xscriptor)
+  author_name: xscriptor
+  author_url: https://github.com/xscriptor
+  variant: dark
+  color_01: '#19191A'
+  color_02: '#FC618D'
+  color_03: '#7BD88F'
+  color_04: '#E5FF9D'
+  color_05: '#FD9353'
+  color_06: '#948AE3'
+  color_07: '#5AD4E6'
+  color_08: '#F7F1FF'
+  color_09: '#19191A'
+  color_10: '#FC618D'
+  color_11: '#7BD88F'
+  color_12: '#E5FF9D'
+  color_13: '#FD9353'
+  color_14: '#948AE3'
+  color_15: '#5AD4E6'
+  color_16: '#F7F1FF'
+  background: '#19191A'
+  foreground: '#F7F1FF'
+  cursor: '#F7F1FF'
+  hash: 31bba6c6c990c599f5fd4200905f78e233007b062946d2997be3a7fbb6c1a33b
+  hash_bg: c917fdb1cff0b3f94c926f88c0cdd75469ec59bcdefe7b72b39deb06611e6c54
 - name: Laser
   author: ReagentX (https://github.com/ReagentX)
   author_name: ReagentX
@@ -16248,6 +16352,32 @@
   cursor: '#AFC2C2'
   hash: 1169d1fe8b94e8a8fe5273f8e873b64174e21859abe6e02d1d31bf199d119d16
   hash_bg: 7b2817bf9b80e66d07f28095dcd1244590692778dc617a53cbd666ad280872ed
+- name: London
+  author: xscriptor (https://github.com/xscriptor)
+  author_name: xscriptor
+  author_url: https://github.com/xscriptor
+  variant: light
+  color_01: '#FFFFFF'
+  color_02: '#333333'
+  color_03: '#444444'
+  color_04: '#555555'
+  color_05: '#666666'
+  color_06: '#777777'
+  color_07: '#888888'
+  color_08: '#333333'
+  color_09: '#333333'
+  color_10: '#444444'
+  color_11: '#555555'
+  color_12: '#666666'
+  color_13: '#777777'
+  color_14: '#888888'
+  color_15: '#999999'
+  color_16: '#AAAAAA'
+  background: '#FFFFFF'
+  foreground: '#333333'
+  cursor: '#333333'
+  hash: e8d5103ecb8f66f091093210200fee9c02ecb48e8e77bdfdafa6f2d3536525a9
+  hash_bg: 07ee686b3ce29f11070f5edcd6f0da03659e67becfba76650c1c6b5ac079847a
 - name: London Bonfire Night
   author: Scott Matthews (https://github.com/scottmatthews7)
   author_name: Scott Matthews
@@ -16560,6 +16690,32 @@
   cursor: '#C0C0C0'
   hash: a3c1bbdc85d655d56a48b3c43ae349a7aba3000a87688db3ed3af3f4125461f3
   hash_bg: 7b2817bf9b80e66d07f28095dcd1244590692778dc617a53cbd666ad280872ed
+- name: Madrid
+  author: xscriptor (https://github.com/xscriptor)
+  author_name: xscriptor
+  author_url: https://github.com/xscriptor
+  variant: light
+  color_01: '#FAFAFA'
+  color_02: '#990026'
+  color_03: '#007A28'
+  color_04: '#8A6408'
+  color_05: '#007A9E'
+  color_06: '#4D2699'
+  color_07: '#007A9E'
+  color_08: '#1A1A1A'
+  color_09: '#4D4D4D'
+  color_10: '#990026'
+  color_11: '#007A28'
+  color_12: '#8A6408'
+  color_13: '#007A9E'
+  color_14: '#4D2699'
+  color_15: '#007A9E'
+  color_16: '#1A1A1A'
+  background: '#FAFAFA'
+  foreground: '#1A1A1A'
+  cursor: '#1A1A1A'
+  hash: fe2e1969e9a57a43d597e00891297dfade40d457bae62da7c74b62e6efaed065
+  hash_bg: 7f6fe813de8e07553a3eb71e309f1f710f53117b136cfaec174e6a04c653bc88
 - name: Maia
   author: ''
   author_name: ''
@@ -17496,6 +17652,32 @@
   cursor: '#E0D8C8'
   hash: 6f8d5c777e347b2ecf149f20483dc9dc1cfde88284ee252395c35e0f9d0d1ad4
   hash_bg: cd468272739766c6072d380eb95f98dc3905fe96cb17aed6cbff922124a19b2a
+- name: Miami
+  author: xscriptor (https://github.com/xscriptor)
+  author_name: xscriptor
+  author_url: https://github.com/xscriptor
+  variant: dark
+  color_01: '#000000'
+  color_02: '#FF4C8B'
+  color_03: '#7FFFD4'
+  color_04: '#FFD84C'
+  color_05: '#00FFA8'
+  color_06: '#D36CFF'
+  color_07: '#47CFFF'
+  color_08: '#F7F1FF'
+  color_09: '#69676C'
+  color_10: '#FF4C8B'
+  color_11: '#7FFFD4'
+  color_12: '#FFD84C'
+  color_13: '#00FFA8'
+  color_14: '#D36CFF'
+  color_15: '#47CFFF'
+  color_16: '#F7F1FF'
+  background: '#000000'
+  foreground: '#F7F1FF'
+  cursor: '#F7F1FF'
+  hash: b4af27f2558e8c4674f26f3ebd4fbde54ecf299120c1bcd0d57f91a03055ff09
+  hash_bg: 7b2817bf9b80e66d07f28095dcd1244590692778dc617a53cbd666ad280872ed
 - name: Miami Heat
   author: PoshPalette (https://github.com/livlign/posh-palette)
   author_name: PoshPalette
@@ -20928,6 +21110,32 @@
   cursor: '#C1C497'
   hash: 27ef62ecbb247ea9e5d5bae617978886878d1bba4483161796afaf318f6453ab
   hash_bg: dcb0c7fe2ea596a1a860db5059457f56e5f08cd2014d2ae9292fbf09d2421c7d
+- name: Oslo
+  author: xscriptor (https://github.com/xscriptor)
+  author_name: xscriptor
+  author_url: https://github.com/xscriptor
+  variant: dark
+  color_01: '#3F4451'
+  color_02: '#E05561'
+  color_03: '#8CC265'
+  color_04: '#D18F52'
+  color_05: '#4AA5F0'
+  color_06: '#C162DE'
+  color_07: '#42B3C2'
+  color_08: '#E6E6E6'
+  color_09: '#4F5666'
+  color_10: '#FF616E'
+  color_11: '#A5E075'
+  color_12: '#F0A45D'
+  color_13: '#4DC4FF'
+  color_14: '#DE73FF'
+  color_15: '#4CD1E0'
+  color_16: '#FFFFFF'
+  background: '#3F4451'
+  foreground: '#ABB2BF'
+  cursor: '#ABB2BF'
+  hash: d45c2b53db25c7f7f46c37b5f1e72e4d89f4cd75f5a1decbc897be22b8187e1d
+  hash_bg: d0c92503a4b37e3370148132ceaa1f096857918675e5e17815150d76e7385d38
 - name: Outrun Dark
   author: Hugo Delahousse (http://github.com/hugodelahousse/)
   author_name: Hugo Delahousse
@@ -21422,6 +21630,32 @@
   cursor: '#A39E9B'
   hash: cad219863a2b614a101d75920a66f5413dbc805040f158b4e4b760a0aca7cff7
   hash_bg: 83e51b73ab3ef6eedb14912b0137f802ee55640b4979c7ba991665f8b4993ac5
+- name: Paris
+  author: xscriptor (https://github.com/xscriptor)
+  author_name: xscriptor
+  author_url: https://github.com/xscriptor
+  variant: dark
+  color_01: '#1A0A30'
+  color_02: '#FC618D'
+  color_03: '#7BD88F'
+  color_04: '#FCE566'
+  color_05: '#A3F3FF'
+  color_06: '#C4BDFF'
+  color_07: '#A3F3FF'
+  color_08: '#1A0A30'
+  color_09: '#C4BDFF'
+  color_10: '#FC618D'
+  color_11: '#7BD88F'
+  color_12: '#FCE566'
+  color_13: '#A3F3FF'
+  color_14: '#C4BDFF'
+  color_15: '#A3F3FF'
+  color_16: '#F7F1FF'
+  background: '#1A0A30'
+  foreground: '#F7F1FF'
+  cursor: '#F7F1FF'
+  hash: d757ff0ef8f85381f4ee8b05e08e7ad88bf1f89e2b52f867db4d17aa654181df
+  hash_bg: 68ded65a3c47044d45f62112cf8604c136b055915e729e180ded7421328aa07c
 - name: Pasque
   author: Gabriel Fontes (https://github.com/Misterio77)
   author_name: Gabriel Fontes
@@ -22540,6 +22774,32 @@
   cursor: '#F6F6F7'
   hash: 0a1270b3cf77b4be7fa8a120cc58001dd266b34e1526f97f4558f63481d59663
   hash_bg: 92bdce04be9f73e491d87b45b22da71ffc3ae30ecb724ba271fd66f4d6114d21
+- name: Praha
+  author: xscriptor (https://github.com/xscriptor)
+  author_name: xscriptor
+  author_url: https://github.com/xscriptor
+  variant: dark
+  color_01: '#1A1A1A'
+  color_02: '#FF5555'
+  color_03: '#B8E6A0'
+  color_04: '#FFE4A3'
+  color_05: '#BD93F9'
+  color_06: '#FF9AA2'
+  color_07: '#8BE9FD'
+  color_08: '#FFFFFF'
+  color_09: '#6272A4'
+  color_10: '#FF6E6E'
+  color_11: '#B8E6A0'
+  color_12: '#FFE4A3'
+  color_13: '#D6ACFF'
+  color_14: '#FF9AA2'
+  color_15: '#A4FFFF'
+  color_16: '#FFFFFF'
+  background: '#1A1A1A'
+  foreground: '#FFFFFF'
+  cursor: '#FFFFFF'
+  hash: 936488797a0a0d626c767c177621301c80bf22c918cc6dc92c95b74950f6ca34
+  hash_bg: f70b776dd81bc5cf00513200646fe4e0452b12e474fda29388b12ed13738fb90
 - name: Precious Dark Eleven
   author: 4lex4
   author_name: 4lex4
@@ -28650,6 +28910,32 @@
   cursor: '#2A2920'
   hash: a03bdb7928328621329b58db512a1d2c0078d4018b9e230ca7bf1d6345f203b7
   hash_bg: 03f7279ae1e812bc71eaedf8ebaba7932e01b1ae348b2ac354ffcde755bb19a8
+- name: Tokio
+  author: xscriptor (https://github.com/xscriptor)
+  author_name: xscriptor
+  author_url: https://github.com/xscriptor
+  variant: dark
+  color_01: '#1C1C1D'
+  color_02: '#FC618D'
+  color_03: '#7BD88F'
+  color_04: '#FCE566'
+  color_05: '#FD9353'
+  color_06: '#948AE3'
+  color_07: '#5AD4E6'
+  color_08: '#F7F1FF'
+  color_09: '#1C1C1D'
+  color_10: '#FC618D'
+  color_11: '#7BD88F'
+  color_12: '#FCE566'
+  color_13: '#FD9353'
+  color_14: '#948AE3'
+  color_15: '#5AD4E6'
+  color_16: '#F7F1FF'
+  background: '#1C1C1D'
+  foreground: '#F7F1FF'
+  cursor: '#F7F1FF'
+  hash: 49345d07cb73305b9f7d1d7ea38a2fc95a02146f7fd2bdb886bc32ffff4eff57
+  hash_bg: 82edfc79f8183c94c7e30f471254e7a35fae98ea211b03dfab82e2d210674bec
 - name: Tokyo City Dark
   author: Michaël Ball
   author_name: Michaël Ball
@@ -30860,6 +31146,32 @@
   cursor: '#FCFCFA'
   hash: 9812aadbfde6d08c19e1d4fb723a63a23dc57232b4c781d08ebb02bf7689f197
   hash_bg: 1b109385f94aff71ad227784252eff8f66b277ed9259f9aeba76bd72a7fd4d57
+- name: X
+  author: xscriptor (https://github.com/xscriptor)
+  author_name: xscriptor
+  author_url: https://github.com/xscriptor
+  variant: dark
+  color_01: '#0A0A0A'
+  color_02: '#FC618D'
+  color_03: '#7BD88F'
+  color_04: '#FCE566'
+  color_05: '#FD9353'
+  color_06: '#948AE3'
+  color_07: '#5AD4E6'
+  color_08: '#F7F1FF'
+  color_09: '#0F0F0F'
+  color_10: '#FC618D'
+  color_11: '#7BD88F'
+  color_12: '#FCE566'
+  color_13: '#FD9353'
+  color_14: '#948AE3'
+  color_15: '#5AD4E6'
+  color_16: '#F7F1FF'
+  background: '#050505'
+  foreground: '#F7F1FF'
+  cursor: '#F7F1FF'
+  hash: ecb7634b7438d82bccb0fe66f7c612320f7fa776fdf590f0659887a91c8d2a7a
+  hash_bg: c2081841e010bfec7f7d1564575ead5276f4feb4db62e290bfa94e029a4965f0
 - name: Xcode Dark
   author: lunacookies (https://github.com/lunacookies/vim-colors-xcode)
   author_name: lunacookies
