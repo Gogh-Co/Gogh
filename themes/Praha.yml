@@ -1,0 +1,29 @@
+---
+name: 'Praha'
+author: 'xscriptor (https://github.com/xscriptor)'
+author_name: 'xscriptor'
+author_url: 'https://github.com/xscriptor'
+variant: 'dark'
+
+color_01: '#1A1A1A'    # Black (Host)
+color_02: '#FF5555'    # Red (Syntax string)
+color_03: '#B8E6A0'    # Green (Command)
+color_04: '#FFE4A3'    # Yellow (Command second)
+color_05: '#BD93F9'    # Blue (Path)
+color_06: '#FF9AA2'    # Magenta (Syntax var)
+color_07: '#8BE9FD'    # Cyan (Prompt)
+color_08: '#FFFFFF'    # White
+
+color_09: '#6272A4'    # Bright Black
+color_10: '#FF6E6E'    # Bright Red (Command error)
+color_11: '#B8E6A0'    # Bright Green (Exec)
+color_12: '#FFE4A3'    # Bright Yellow
+color_13: '#D6ACFF'    # Bright Blue (Folder)
+color_14: '#FF9AA2'    # Bright Magenta
+color_15: '#A4FFFF'    # Bright Cyan
+color_16: '#FFFFFF'    # Bright White
+
+background: '#1A1A1A'  # Background
+foreground: '#FFFFFF'  # Foreground (Text)
+
+cursor: '#FFFFFF'      # Cursor

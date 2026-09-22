@@ -1,0 +1,29 @@
+---
+name: 'Helsinki'
+author: 'xscriptor (https://github.com/xscriptor)'
+author_name: 'xscriptor'
+author_url: 'https://github.com/xscriptor'
+variant: 'light'
+
+color_01: '#F8FAFE'    # Black (Host)
+color_02: '#1FAA9E'    # Red (Syntax string)
+color_03: '#733D9A'    # Green (Command)
+color_04: '#2E70AD'    # Yellow (Command second)
+color_05: '#B55A0F'    # Blue (Path)
+color_06: '#3E9D21'    # Magenta (Syntax var)
+color_07: '#BD4C3D'    # Cyan (Prompt)
+color_08: '#544D40'    # White
+
+color_09: '#B0A999'    # Bright Black
+color_10: '#009E91'    # Bright Red (Command error)
+color_11: '#5A1F8A'    # Bright Green (Exec)
+color_12: '#0F5BA2'    # Bright Yellow
+color_13: '#B23B00'    # Bright Blue (Folder)
+color_14: '#218C00'    # Bright Magenta
+color_15: '#B32E1F'    # Bright Cyan
+color_16: '#000000'    # Bright White
+
+background: '#F8FAFE'  # Background
+foreground: '#544D40'  # Foreground (Text)
+
+cursor: '#544D40'      # Cursor

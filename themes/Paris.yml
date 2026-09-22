@@ -1,0 +1,29 @@
+---
+name: 'Paris'
+author: 'xscriptor (https://github.com/xscriptor)'
+author_name: 'xscriptor'
+author_url: 'https://github.com/xscriptor'
+variant: 'dark'
+
+color_01: '#1A0A30'    # Black (Host)
+color_02: '#FC618D'    # Red (Syntax string)
+color_03: '#7BD88F'    # Green (Command)
+color_04: '#FCE566'    # Yellow (Command second)
+color_05: '#A3F3FF'    # Blue (Path)
+color_06: '#C4BDFF'    # Magenta (Syntax var)
+color_07: '#A3F3FF'    # Cyan (Prompt)
+color_08: '#1A0A30'    # White
+
+color_09: '#C4BDFF'    # Bright Black
+color_10: '#FC618D'    # Bright Red (Command error)
+color_11: '#7BD88F'    # Bright Green (Exec)
+color_12: '#FCE566'    # Bright Yellow
+color_13: '#A3F3FF'    # Bright Blue (Folder)
+color_14: '#C4BDFF'    # Bright Magenta
+color_15: '#A3F3FF'    # Bright Cyan
+color_16: '#F7F1FF'    # Bright White
+
+background: '#1A0A30'  # Background
+foreground: '#F7F1FF'  # Foreground (Text)
+
+cursor: '#F7F1FF'      # Cursor
