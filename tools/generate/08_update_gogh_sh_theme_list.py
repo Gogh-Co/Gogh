@@ -2,16 +2,18 @@
 # Refresh the THEMES array in gogh.sh using names from data/themes.json.
 # Produces sorted and de-duplicated .sh entries.
 #
-# NOTE: this uses its own slugify regex (line below) rather than
-# lib.theme_common.slugify_theme_name(), and de-dupes via set() with no
-# collision suffix — two theme names that slug to the same string silently
-# collapse to one gogh.sh entry. Left as-is here (same behavior as before
-# this reorg); fixing it is a separate, deliberate change since it changes
-# what ships in gogh.sh's public THEMES list.
+# NOTE: this uses lib.theme_common.gogh_list_slug() rather than
+# slugify_theme_name(), and de-dupes via set() with no collision suffix --
+# two theme names that slug to the same string would collapse to one gogh.sh
+# entry. validate_theme_format.py prevents that by rejecting a new theme
+# whose slug is already taken, so existing themes keep their entry.
 
 import json
-import re
-from unidecode import unidecode
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from lib.theme_common import gogh_list_slug
 
 input_file = 'data/themes.json'
 output_file = 'gogh.sh'
@@ -22,7 +24,7 @@ end_text = ")"
 with open(input_file, "r") as f:
     data = json.load(f)
 
-theme_names = [re.sub(r'[^a-zA-Z0-9\s]+', '-', unidecode(theme["name"]).lower().replace(' ', '-')).rstrip('-') for theme in data]
+theme_names = [gogh_list_slug(theme["name"]) for theme in data]
 themes = sorted(list(set([f"{name}.sh" for name in theme_names])))
 
 with open(output_file, "r") as f:

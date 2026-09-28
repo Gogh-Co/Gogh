@@ -73,6 +73,10 @@ style on it. Rules (checked automatically by `task validate`, see step 4):
 - Filename matches `name:` exactly (e.g. `Solarized Dark.yml` ↔ `name: 'Solarized Dark'`) — **required**.
 - No underscores (`_`) in the name — use a space or hyphen instead — **required**.
 - `variant:` is exactly `dark` or `light`, lowercase (or empty) — **required**.
+- The name is unique: it can't turn into the same file name as an existing
+  theme once lowercased and with symbols replaced by hyphens (e.g. `DRACULA`,
+  `Dracula+` and `dracula` all become `dracula`) — **required**. Existing
+  themes keep their name, so pick a different one.
 - Foreground/background contrast of at least 2.5:1 — **recommended**, won't block your PR if you skip it.
 - All 16 ANSI colors, plus `background`, `foreground`, `cursor`.
 - Every hex value **uppercase** (`#FF0000`, not `#ff0000`) — **required**.
@@ -103,8 +107,9 @@ task validate
 ```
 
 Runs the same checks CI runs on your PR: colors uppercase, filename matches
-`name:`, no underscores in `name:`, `variant:` is `dark`/`light`/empty
-(these block), a foreground/background contrast recommendation (doesn't
+`name:`, no underscores in `name:`, `variant:` is `dark`/`light`/empty,
+the name doesn't collide with an existing theme (these block), a
+foreground/background contrast recommendation (doesn't
 block), and that only `themes/` was touched. Add your real title to also
 check that:
 
@@ -119,7 +124,7 @@ task validate TITLE="theme: Add Your Theme Name"
   else in the repo (`data/`, `tools/`, `installs/`, `gogh.sh`, etc. are all
   generated automatically by CI once your PR is merged, so you don't need
   to touch them).
-- **Filename, no underscores, variant**: as in step 2 (only checked for a
+- **Filename, no underscores, variant, unique name**: as in step 2 (only checked for a
   newly added theme, not one you're just editing).
 - **Contrast**: as in step 2, but recommended only — it's reported, not required.
 - **Colors**: every hex value uppercase, as in step 2.
