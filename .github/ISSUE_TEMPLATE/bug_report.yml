@@ -23,12 +23,14 @@ body:
         - Guake
         - iTerm
         - Kitty
+        - kmscon
         - Konsole
+        - Linux virtual terminal
         - Mate
         - Mintty
         - Pantheon / Elementary
-        - st+
         - Terminator
+        - Termux
         - Tilix
         - Wezterm
         - XFCE4
