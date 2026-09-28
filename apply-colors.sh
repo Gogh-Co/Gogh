@@ -1154,7 +1154,7 @@ apply_guake() {
 # |
 # | Applying values on Tilix color schemes
 # | ===========================================
-appy_tilixschemes() {
+apply_tilixschemes() {
   if [[ ${TILIX_RES::1} =~ ^(y|Y)$ ]]; then
     [[ -d "${HOME}/.config/tilix/schemes" ]] || mkdir -p "${HOME}/.config/tilix/schemes"
 
@@ -1560,7 +1560,7 @@ case "${TERMINAL}" in
     RIGHT_WRAPPER="]"
     PALETTE_DELIM="', '"
 
-    appy_tilixschemes
+    apply_tilixschemes
     apply_gtk
     ;;
 

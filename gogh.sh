@@ -1761,7 +1761,7 @@ done
 command -v bar::start > /dev/null && bar::start
 GOGH_EXIT_STATUS=0
 for OP in "${OPTION[@]}"; do
-  # See `appy_tilixschemes` in `apply-colors.sh` for the usage of LOOP
+  # See `apply_tilixschemes` in `apply-colors.sh` for the usage of LOOP
   LOOP=$((${LOOP:-0}+1))
 
   command -v bar::status_changed > /dev/null && bar::status_changed $LOOP ${#OPTION[@]}
