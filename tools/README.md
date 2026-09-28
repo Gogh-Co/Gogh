@@ -37,9 +37,10 @@ Run by CI: `.github/workflows/generate-on-push.yml` (push to `master`), `.github
 |---|---|---|
 | `validate_colors.py` | every theme's hex color values are uppercase | all of `themes/*.yml` |
 | `validate_theme_format.py` | filename matches `name:` (blocking); `name:` has no underscores (blocking); `variant:` is exactly `dark`/`light`/empty (blocking); the name doesn't collide with an existing theme's `gogh.sh`/`installs/`/`data/` file names (blocking); foreground/background contrast ≥ 2.5:1 (**recommended**, doesn't fail the check) | only themes newly *added* vs. a base ref, or all of `themes/*.yml` with no argument |
-| `validate_pr.py` | PR title starts with `theme:`; every changed file is under `themes/` | the files passed in (a changed-files list) |
+| `validate_pr.py` | a theme PR (title `theme:` or any change under `themes/`) has a `theme:` title and only touches `themes/`; any other PR leaves generated output alone (`data/`, `installs/`, `tools/run.txt`, the THEMES array in `gogh.sh`) | the files passed in (a changed-files list), plus `gogh.sh` vs. a base ref when given |
+| `validate_readme_links.py` | `README.md`'s links to the apply functions (`apply-colors.sh#L<n>`) point at the line where each function is defined; `--fix` updates them | `README.md` |
 
-Run one script: `python tools/validate/validate_colors.py`, `python tools/validate/validate_theme_format.py [base-ref]`, `python tools/validate/validate_pr.py <changed-files-list-path>`.
+Run one script: `python tools/validate/validate_colors.py`, `python tools/validate/validate_theme_format.py [base-ref]`, `python tools/validate/validate_pr.py <changed-files-list-path> [base-ref]`, `python tools/validate/validate_readme_links.py [--fix]`.
 
 `validate_theme_format.py` deliberately doesn't enforce Title Case or any other casing style: Gogh accepts theme names as given by their original author/repo (e.g. mbadolato/iTerm2-Color-Schemes), and plenty of legitimate ones aren't Title Case (`iTerm2 Default`, `0x96f`, `branch`...). Underscores are the one thing it does reject, since a space or hyphen reads better and no real source repo's names need one.
 
@@ -47,7 +48,7 @@ Contrast is a recommendation, not a gate: it's a judgment call, not a hard fact 
 
 Scoped to newly *added* theme files only (`git diff --diff-filter=A` against `base-ref`) -- not modified ones, and not the whole corpus: a pre-existing issue on a theme nobody is touching should never block an unrelated PR, and editing an existing theme for an unrelated reason shouldn't force fixing its old name/contrast either. CI passes the PR's base SHA; `task validate`/`task validate:format` pass `BASE` (default `origin/master`). Run with no argument for a full-repo audit.
 
-Run by CI: `.github/workflows/validate-on-pr.yml`. Run all three locally: `task validate` (see [`CONTRIBUTING.md`](../docs/CONTRIBUTING.md)).
+Run by CI: `.github/workflows/validate-on-pr.yml`. Run them all locally: `task validate` (see [`CONTRIBUTING.md`](../docs/CONTRIBUTING.md)).
 
 ## `lib/`
 

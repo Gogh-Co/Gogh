@@ -22,6 +22,7 @@ on:
       - 'tests/**'
       - 'tools/validate/**'
       - 'tools/lib/**'
+      - 'README.md'
       - '.github/workflows/validate-on-pr.yml'
 
 env:
@@ -51,6 +52,9 @@ jobs:
 
       - name: 🏅 Validate theme name, filename, and contrast (new themes only)
         run: python tools/validate/validate_theme_format.py "${{ github.event.pull_request.base.sha }}"
+
+      - name: 🏅 Validate README links to the apply functions
+        run: python tools/validate/validate_readme_links.py
 
       - name: 🏅 List changed files
         run: |

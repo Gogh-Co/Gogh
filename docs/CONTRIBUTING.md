@@ -148,6 +148,9 @@ maintenance PR, with these rules:
   of `gogh.sh` is regular code and can be changed).
 - **Tests**: run `task test` before opening the PR (`bash -n`, ShellCheck,
   and the Bats suite in `tests/`; same checks CI runs).
+- **README links**: the README links each terminal to its `apply_*()`
+  function by line number. If your change moves lines in `apply-colors.sh`,
+  run `task validate:readme-links-fix` to update them (CI checks it).
 
 To check the scope locally the same way CI does:
 
