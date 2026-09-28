@@ -11,6 +11,16 @@ tasks:
     cmds:
       - uv run --with-requirements requirements.txt tools/validate/validate_colors.py
 
+  readme-links:
+    desc: Check README.md's links to the apply functions point at the line where each is defined (same check as CI).
+    cmds:
+      - uv run tools/validate/validate_readme_links.py
+
+  readme-links-fix:
+    desc: Update the line numbers in README.md's links to the apply functions.
+    cmds:
+      - uv run tools/validate/validate_readme_links.py --fix
+
   format:
     desc: 'Check filename/underscores/variant/unique name (blocking) and contrast (recommended) for themes newly added vs. a base ref (default origin/master), same check as CI. Override with BASE=<ref>.'
     cmds:

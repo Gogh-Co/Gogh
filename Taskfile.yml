@@ -31,8 +31,8 @@ tasks:
       - task --list-all --sort none
 
   validate:
-    desc: Run every PR-readiness check locally (colors + format + scope).
-    deps: [validate:colors, validate:format, validate:pr]
+    desc: Run every PR-readiness check locally (colors + format + scope + README links).
+    deps: [validate:colors, validate:format, validate:pr, validate:readme-links]
 
   test:
     desc: Run every gogh.sh check locally (syntax + shellcheck + Bats), same as CI's shell-validation job.
