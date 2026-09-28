@@ -1087,20 +1087,32 @@ apply_terminator() {
   if [[ "${profile}" != "default" ]] && ! terminatorProfileExists "${CFGFILE}" "${profile}"; then
     copy_default="yes"
     if [[ -z "${GOGH_NONINTERACTIVE+no}" ]]; then
-      read -r -p "Copy the rest of the settings from the default profile? [Y/n] " answer
-      [[ "${answer}" =~ ^[nN] ]] && copy_default="no"
+      while true; do
+        read -r -p "Copy the rest of the settings from the default profile? [Y/n] " answer
+        case "${answer,,}" in
+          ""|y|yes) break ;;
+          n|no) copy_default="no"; break ;;
+          *) prints "Please answer Y or N." ;;
+        esac
+      done
     fi
   fi
 
-  new_config="$(mktemp -t gogh.terminator.XXXXXX)"
-  updateTerminatorProfile "${CFGFILE}" "${profile}" "${copy_default}" \
-    "${BACKGROUND_COLOR}" "${FOREGROUND_COLOR}" \
-    "${COLOR_01}:${COLOR_02}:${COLOR_03}:${COLOR_04}:${COLOR_05}:${COLOR_06}:${COLOR_07}:${COLOR_08}:${COLOR_09}:${COLOR_10}:${COLOR_11}:${COLOR_12}:${COLOR_13}:${COLOR_14}:${COLOR_15}:${COLOR_16}" \
-    > "${new_config}"
+  if ! new_config="$(mktemp -t gogh.terminator.XXXXXX)" ||
+     ! updateTerminatorProfile "${CFGFILE}" "${profile}" "${copy_default}" \
+       "${BACKGROUND_COLOR}" "${FOREGROUND_COLOR}" \
+       "${COLOR_01}:${COLOR_02}:${COLOR_03}:${COLOR_04}:${COLOR_05}:${COLOR_06}:${COLOR_07}:${COLOR_08}:${COLOR_09}:${COLOR_10}:${COLOR_11}:${COLOR_12}:${COLOR_13}:${COLOR_14}:${COLOR_15}:${COLOR_16}" \
+       > "${new_config}"; then
+    printerr '\n%s\n' "Error: Couldn't read ${CFGFILE}."
+    exit 1
+  fi
 
   if ! cmp -s "${CFGFILE}" "${new_config}"; then
-    backupConfig "${CFGFILE}"
-    cat "${new_config}" > "${CFGFILE}"
+    if ! backupConfig "${CFGFILE}" || ! cat "${new_config}" > "${CFGFILE}"; then
+      rm -f "${new_config}"
+      printerr '\n%s\n' "Error: Couldn't update ${CFGFILE}."
+      exit 1
+    fi
   fi
   rm -f "${new_config}"
 
