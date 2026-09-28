@@ -19,7 +19,6 @@ body:
       options:
         - gogh.sh
         - apply-colors.sh
-        - Python apply script (Terminator)
         - Tooling (tools/, Taskfile)
         - CI / GitHub workflows
         - Tests

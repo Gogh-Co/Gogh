@@ -17,9 +17,6 @@ cd gogh
 
 export TERMINAL=gnome-terminal  # or whichever terminal you're targeting
 
-# Terminator needs its Python dependency (configobj) installed first
-pip install -r requirements.txt
-
 cd installs
 ./dracula.sh
 ```
@@ -31,12 +28,6 @@ Skip cloning the whole repo — just grab `apply-colors.sh` and the one theme's 
 ```bash
 wget https://github.com/Gogh-Co/Gogh/raw/master/apply-colors.sh
 wget https://github.com/Gogh-Co/Gogh/raw/master/installs/selenized-dark.sh
-```
-
-Terminator needs an extra Python helper script:
-
-```bash
-wget https://github.com/Gogh-Co/Gogh/raw/master/apply-terminator.py   # only for Terminator
 ```
 
 Then apply the theme (the apply script must be in the same folder, or point `GOGH_APPLY_SCRIPT` at it):
@@ -71,7 +62,6 @@ bash -c "$(wget -qO- https://gogh.website/gogh)" -- Dracula
 | `GOGH_NONINTERACTIVE` | Silences output and answers every prompt with its default instead of asking. Errors still print. |
 | `GOGH_USE_NEW_THEME` | Applies the theme to the terminal's current session automatically instead of asking "apply new theme?". Only affects Tilix, XFCE4 Terminal, and Termux — other terminals ignore it. |
 | `GOGH_APPLY_SCRIPT` | Path to `apply-colors.sh`, if it isn't next to the theme's install script. |
-| `GOGH_TERMINATOR_SCRIPT` | Path to `apply-terminator.py`. Only needed for Terminator. |
 
 Combining a few of these:
 

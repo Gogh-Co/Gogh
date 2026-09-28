@@ -18,7 +18,6 @@ on:
       # shared helpers in tools/lib/ it imports), so a non-theme PR still
       # gets the shell checks and the scope check below.
       - 'apply-colors.sh'
-      - 'apply-*.py'
       - 'tests/**'
       - 'tools/validate/**'
       - 'tools/lib/**'

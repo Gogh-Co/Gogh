@@ -28,7 +28,6 @@ CS0=$(tput sgr 0 || true)
 GLOBAL_VAR_CLEANUP(){
   echo "Cleanup up..."
   [[ -n "$(command -v TILIX_TMP_CLEANUP)" ]] && TILIX_TMP_CLEANUP
-  [[ -n "$(command -v TERMINATOR_APPLY_TMP_CLEANUP)" ]] && TERMINATOR_APPLY_TMP_CLEANUP
   [[ -n "$(command -v APPLY_SCRIPT_TMP_CLEANUP)" ]] && APPLY_SCRIPT_TMP_CLEANUP
   unset PROFILE_NAME
   unset PROFILE_SLUG
@@ -1354,24 +1353,8 @@ fetch() {
 }
 
 # |
-# | Get the apply scripts when not running from a checkout
+# | Get apply-colors.sh when not running from a checkout
 # | ===========================================
-# Get the required Python scripts from the internet or the local directory
-if [[ -z "${SCRIPT_PATH}" || ! -e "${SCRIPT_PATH}/apply-terminator.py" ]]; then
-  # Invoked indirectly via GLOBAL_VAR_CLEANUP's `command -v` check.
-  # shellcheck disable=SC2329
-  TERMINATOR_APPLY_TMP_CLEANUP() {
-    rm -rf "${GOGH_TERMINATOR_SCRIPT}"
-    unset GOGH_TERMINATOR_SCRIPT
-  }
-  GOGH_TERMINATOR_SCRIPT="$(mktemp -t gogh.terminator.XXXXXX)"
-  export GOGH_TERMINATOR_SCRIPT
-  if ! fetch "${BASE_URL}/apply-terminator.py" "${GOGH_TERMINATOR_SCRIPT}"; then
-    echo "Error: failed to download apply-terminator.py" >&2
-    exit 1
-  fi
-fi
-
 # Get the required shell scripts from the internet or the local directory
 if [[ -z "${SCRIPT_PATH}" || ! -e "${SCRIPT_PATH}/apply-colors.sh" ]]; then
   # Invoked indirectly via GLOBAL_VAR_CLEANUP's `command -v` check.

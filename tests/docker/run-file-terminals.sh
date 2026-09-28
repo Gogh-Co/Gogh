@@ -10,9 +10,7 @@ REPO_ROOT="$(cd ../.. && pwd)"
 
 echo "=== file-based terminals ==="
 
-# Build context is the repo root (not file-terminals/) so the Dockerfile can
-# COPY requirements.txt for the Terminator Python helper.
-docker build -q -f file-terminals/Dockerfile -t gogh-test-file "$REPO_ROOT" >/tmp/build_file.log 2>&1 \
+docker build -q -f file-terminals/Dockerfile -t gogh-test-file file-terminals >/tmp/build_file.log 2>&1 \
   || { fail "docker build" "$(tail -c 500 /tmp/build_file.log)"; suite_summary "file-terminals" || exit 1; exit 0; }
 
 # run_terminal <name> <terminal> <setup-shell-snippet> <resulting-config-file> <needle>
@@ -75,11 +73,16 @@ run_terminal "alacritty (existing colors)" "alacritty" \
   "/root/.config/alacritty/alacritty.toml" \
   '"~/.config/alacritty/gogh.toml"'
 
-# apply_terminator writes into profiles.default in place, same as a real
-# terminator config auto-created on first launch -- seed that minimal
-# structure. (This also regression-tests the backup_conf() fix: before it,
-# a config file that didn't exist yet crashed with FileNotFoundError.)
+# apply_terminator creates the config when Terminator was never launched
+# (the old Python helper crashed there with FileNotFoundError).
 run_terminal "terminator" "terminator" \
+  "" \
+  "/root/.config/terminator/config" \
+  "21222C"
+
+# ...and writes into profiles.default in place in the minimal config a real
+# Terminator creates on first launch.
+run_terminal "terminator (existing config)" "terminator" \
   "mkdir -p /root/.config/terminator && printf '[profiles]\n[[default]]\n' > /root/.config/terminator/config" \
   "/root/.config/terminator/config" \
   "21222C"

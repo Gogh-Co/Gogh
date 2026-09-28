@@ -119,13 +119,10 @@ bash -c 'bash -c "$(wget -qO- https://gogh.website/gogh)"'
 
 ## Terminator
 
-**[#439](https://github.com/Gogh-Co/Gogh/issues/439):** `ModuleNotFoundError: No module named 'configobj'`. This is a missing dependency of Terminator itself, not a Gogh bug.
+Gogh writes the theme into one profile of `~/.config/terminator/config` (`default`, unless you type another name; a new profile can start as a copy of `default`), after a backup. Close and reopen Terminator to see it.
 
-```bash
-sudo apt install python3-configobj
-# or
-pip install configobj
-```
+- **The colors don't change:** check you're using the profile Gogh wrote to (Preferences → Profiles). Gogh also sets `use_theme_colors = False` on it, since with `True` Terminator ignores the theme's colors.
+- **[#439](https://github.com/Gogh-Co/Gogh/issues/439)** (`ModuleNotFoundError: No module named 'configobj'`) came from the old Python helper; Gogh no longer needs Python for Terminator.
 
 ## Termux
 
