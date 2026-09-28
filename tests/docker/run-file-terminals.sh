@@ -11,7 +11,7 @@ REPO_ROOT="$(cd ../.. && pwd)"
 echo "=== file-based terminals ==="
 
 # Build context is the repo root (not file-terminals/) so the Dockerfile can
-# COPY requirements.txt for the Alacritty/Terminator Python helpers.
+# COPY requirements.txt for the Terminator Python helper.
 docker build -q -f file-terminals/Dockerfile -t gogh-test-file "$REPO_ROOT" >/tmp/build_file.log 2>&1 \
   || { fail "docker build" "$(tail -c 500 /tmp/build_file.log)"; suite_summary "file-terminals" || exit 1; exit 0; }
 
@@ -61,14 +61,19 @@ run_terminal "xfce4-terminal" "xfce4-terminal" \
   "/root/.local/share/xfce4/terminal/colorschemes/dracula.theme" \
   "282A36"
 
-# apply_alacritty's get_conf_path() requires an existing config file (errors
-# out otherwise), and it updates colors.primary/normal/bright in place rather
-# than creating them -- seed a TOML with those tables already present, same
-# as a real alacritty.toml with colors uncommented.
+# apply_alacritty writes the theme to gogh.toml and imports it from
+# alacritty.toml, creating that file when Alacritty was never configured.
 run_terminal "alacritty" "alacritty" \
-  "mkdir -p /root/.config/alacritty && printf '[colors.primary]\n[colors.normal]\n[colors.bright]\n' > /root/.config/alacritty/alacritty.toml" \
-  "/root/.config/alacritty/alacritty.toml" \
+  "" \
+  "/root/.config/alacritty/gogh.toml" \
   "21222C"
+
+# A config with color tables (as Gogh's old Python helper left them) would
+# override the import, so those get commented out and the import added.
+run_terminal "alacritty (existing colors)" "alacritty" \
+  "mkdir -p /root/.config/alacritty && printf '[colors.primary]\nbackground = \"#000000\"\n' > /root/.config/alacritty/alacritty.toml" \
+  "/root/.config/alacritty/alacritty.toml" \
+  '"~/.config/alacritty/gogh.toml"'
 
 # apply_terminator writes into profiles.default in place, same as a real
 # terminator config auto-created on first launch -- seed that minimal

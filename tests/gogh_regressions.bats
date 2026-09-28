@@ -63,8 +63,8 @@ setup() {
 }
 
 @test "a deliberately-broken BASE_URL causes gogh.sh to exit non-zero instead of silently succeeding" {
-  # Copy only gogh.sh (no installs/, apply-colors.sh, apply-alacritty.py,
-  # or apply-terminator.py alongside it) into an empty tmpdir. That forces
+  # Copy only gogh.sh (no installs/, apply-colors.sh or apply-terminator.py
+  # alongside it) into an empty tmpdir. That forces
   # every helper-script/theme fetch through the (deliberately unroutable)
   # BASE_URL network path instead of using files that exist locally in the
   # real repo.
