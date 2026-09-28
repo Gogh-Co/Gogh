@@ -14,6 +14,13 @@ on:
       - 'installs/**'
       - 'gogh.sh'
       - 'tools/run.txt'
+      # Scripts, their tests and this validation itself, so a non-theme PR
+      # still gets the shell checks and the scope check below.
+      - 'apply-colors.sh'
+      - 'apply-*.py'
+      - 'tests/**'
+      - 'tools/validate/**'
+      - '.github/workflows/validate-on-pr.yml'
 
 env:
   # Pinned for reproducible results; bump this deliberately, not implicitly.
@@ -48,10 +55,13 @@ jobs:
           git diff --name-only "${{ github.event.pull_request.base.sha }}" "${{ github.event.pull_request.head.sha }}" > /tmp/changed_files.txt
           cat /tmp/changed_files.txt
 
-      - name: 🏅 Validate PR title and scope (themes/ only)
+      # A theme PR must be titled "theme:" and only touch themes/; any other
+      # PR must leave generated output (data/, installs/, tools/run.txt and
+      # the THEMES array in gogh.sh) alone.
+      - name: 🏅 Validate PR title and scope
         env:
           PR_TITLE: ${{ github.event.pull_request.title }}
-        run: python tools/validate/validate_pr.py /tmp/changed_files.txt
+        run: python tools/validate/validate_pr.py /tmp/changed_files.txt "${{ github.event.pull_request.base.sha }}"
 
   shell-validation:
     runs-on: ubuntu-22.04
