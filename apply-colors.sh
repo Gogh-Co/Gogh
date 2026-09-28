@@ -314,6 +314,17 @@ case "${TERMINAL}" in
     fi
     ;;
 
+  terminator )
+    CFGFILE="${XDG_CONFIG_HOME:-${HOME}/.config}/terminator/config"
+    if [[ ! -f "${CFGFILE}" ]]; then
+      # Terminator runs fine without a config file, so create an empty one to patch
+      if ! mkdir -p "$(dirname "${CFGFILE}")" || ! touch "${CFGFILE}"; then
+        printerr '\n%s\n' "Error: Couldn't create a configuration file for Terminator at ${CFGFILE}."
+        exit 1
+      fi
+    fi
+    ;;
+
   termux )
     CFGFILE="${HOME}/.termux/colors.properties"
     echo > "${CFGFILE}"
@@ -556,6 +567,126 @@ addAlacrittyImport () {
         line[1] = added "\n\n" line[1]
       }
       for (i = 1; i <= NR; i++) print line[i]
+    }
+  ' "${config}"
+}
+
+# Succeed if a Terminator config has `profile` under its [profiles] section
+terminatorProfileExists () {
+  local config="${1}"
+  local profile="${2}"
+
+  awk -v profile="${profile}" '
+    function name(l) {
+      sub(/^[[:space:]]*\[+[[:space:]]*/, "", l)
+      sub(/[[:space:]]*\]+[[:space:]]*(#.*)?$/, "", l)
+      return l
+    }
+    /^[[:space:]]*\[\[\[/ { next }
+    /^[[:space:]]*\[\[/ { if (section == "profiles" && name($0) == profile) found = 1; next }
+    /^[[:space:]]*\[/ { section = name($0) }
+    END { exit !found }
+  ' "${config}"
+}
+
+# Print a Terminator config with `profile` (under [profiles], not the
+# [[default]] of [layouts]) set to the given colors. A missing [profiles]
+# section or profile is created; a new profile starts as a copy of
+# [[default]] when copy_default is "yes". Other settings are kept.
+updateTerminatorProfile () {
+  local config="${1}"
+  local profile="${2}"
+  local copy_default="${3}"
+  local background="${4}"
+  local foreground="${5}"
+  local palette="${6}"
+
+  awk -v profile="${profile}" -v copy="${copy_default}" \
+      -v bg="${background}" -v fg="${foreground}" -v palette="${palette}" '
+    function name(l) {
+      sub(/^[[:space:]]*\[+[[:space:]]*/, "", l)
+      sub(/[[:space:]]*\]+[[:space:]]*(#.*)?$/, "", l)
+      return l
+    }
+    function level(l) {
+      if (l ~ /^[[:space:]]*\[\[\[/) return 3
+      if (l ~ /^[[:space:]]*\[\[/) return 2
+      if (l ~ /^[[:space:]]*\[/) return 1
+      return 0
+    }
+    # Last line of the section or subsection whose header is at `start`
+    function block_end(start, max_level,   j, lv) {
+      for (j = start + 1; j <= NR; j++) {
+        lv = level(line[j])
+        if (lv && lv <= max_level) return j - 1
+      }
+      return NR
+    }
+    function is_key(l,   k) {
+      for (k = 1; k <= nkeys; k++)
+        if (l ~ ("^[[:space:]]*" key[k] "[[:space:]]*=")) return k
+      return 0
+    }
+    function key_lines(indent,   k, out) {
+      out = ""
+      for (k = 1; k <= nkeys; k++) out = out (k > 1 ? "\n" : "") indent key[k] " = " val[k]
+      return out
+    }
+    { line[NR] = $0 }
+    END {
+      nkeys = 4
+      key[1] = "use_theme_colors"; val[1] = "False"
+      key[2] = "background_color"; val[2] = "\"" bg "\""
+      key[3] = "foreground_color"; val[3] = "\"" fg "\""
+      key[4] = "palette";          val[4] = "\"" palette "\""
+
+      section = ""; profiles = 0; target = 0; default_profile = 0
+      for (i = 1; i <= NR; i++) {
+        lv = level(line[i])
+        if (lv == 1) {
+          section = name(line[i])
+          if (section == "profiles" && !profiles) profiles = i
+        } else if (lv == 2 && section == "profiles") {
+          if (name(line[i]) == profile && !target) target = i
+          if (name(line[i]) == "default" && !default_profile) default_profile = i
+        }
+      }
+
+      if (target) {
+        # Existing profile: replace each key in place, add the missing ones
+        last = block_end(target, 2)
+        for (i = target + 1; i <= NR && i <= last; i++) {
+          k = is_key(line[i])
+          if (!k) continue
+          if (done[k]) { skip[i] = 1; continue }
+          indent = line[i]; sub(/[^[:space:]].*$/, "", indent)
+          line[i] = indent key[k] " = " val[k]
+          done[k] = 1
+        }
+        indent = line[target]; sub(/[^[:space:]].*$/, "", indent)
+        for (k = 1; k <= nkeys; k++)
+          if (!done[k]) line[target] = line[target] "\n" indent "  " key[k] " = " val[k]
+      } else {
+        block = "  [[" profile "]]"
+        if (copy == "yes" && default_profile) {
+          last = block_end(default_profile, 2)
+          for (i = default_profile + 1; i <= last; i++)
+            if (!is_key(line[i]) && line[i] ~ /[^[:space:]]/) block = block "\n" line[i]
+        }
+        block = block "\n" key_lines("    ")
+        if (profiles) {
+          # Add it after the last non-blank line of [profiles]
+          last = block_end(profiles, 1)
+          while (last > profiles && line[last] !~ /[^[:space:]]/) last--
+          line[last] = line[last] "\n" block
+        } else {
+          if (NR) line[NR] = line[NR] "\n"
+          else NR = 1
+          line[NR] = line[NR] "[profiles]\n" block
+        }
+      }
+
+      for (i = 1; i <= NR; i++) if (!skip[i]) print line[i]
     }
   ' "${config}"
 }
@@ -934,29 +1065,58 @@ apply_alacritty() {
 # |
 # | Applying values on Terminator
 # | ===========================================
+# Terminator has no include mechanism, so the colors are written into one
+# profile of its config: `default` unless another one is chosen. A profile
+# that doesn't exist yet is created, optionally as a copy of `default`; an
+# existing one keeps all its other settings.
 apply_terminator() {
-  json_str="\
-  { \
-    \"colors\": \
-    {\
-      \"primary\":\
-      {\
-        \"background\": \"$BACKGROUND_COLOR\",\
-        \"foreground\": \"$FOREGROUND_COLOR\"\
-      },\
-      \"pallete\":\"${COLOR_01}:${COLOR_02}:${COLOR_03}:${COLOR_04}:${COLOR_05}:${COLOR_06}:${COLOR_07}:${COLOR_08}:${COLOR_09}:${COLOR_10}:${COLOR_11}:${COLOR_12}:${COLOR_13}:${COLOR_14}:${COLOR_15}:${COLOR_16}\"
-    }\
-  }"
+  local profile="default" copy_default="no" answer new_config
 
-  if [[ -e "${GOGH_TERMINATOR_SCRIPT}" ]]; then
-   python3 "${GOGH_TERMINATOR_SCRIPT}" "$json_str"
-  elif [[ -e "${SCRIPT_PATH}/apply-terminator.py" ]]; then
-    python3 "${SCRIPT_PATH}/apply-terminator.py" "$json_str"
-  else
-    printerr '\n%s\n' "Error: Couldn't find apply-terminator.py."
+  if [[ -z "${GOGH_NONINTERACTIVE+no}" ]]; then
+    read -r -p "Enter profile to update/create [default]: " answer
+    # Profile names become [[section]] headers: drop accents and brackets
+    answer="$(printf '%s' "${answer}" | iconv -f UTF-8 -t ASCII//TRANSLIT 2>/dev/null || printf '%s' "${answer}")"
+    answer="${answer//[\[\]]/}"
+    answer="${answer#"${answer%%[![:space:]]*}"}"
+    answer="${answer%"${answer##*[![:space:]]}"}"
+    if [[ -n "${answer}" && "${answer,,}" != "default" ]]; then
+      profile="${answer}"
+    fi
+  fi
+
+  if [[ "${profile}" != "default" ]] && ! terminatorProfileExists "${CFGFILE}" "${profile}"; then
+    copy_default="yes"
+    if [[ -z "${GOGH_NONINTERACTIVE+no}" ]]; then
+      while true; do
+        read -r -p "Copy the rest of the settings from the default profile? [Y/n] " answer
+        case "${answer,,}" in
+          ""|y|yes) break ;;
+          n|no) copy_default="no"; break ;;
+          *) prints "Please answer Y or N." ;;
+        esac
+      done
+    fi
+  fi
+
+  if ! new_config="$(mktemp -t gogh.terminator.XXXXXX)" ||
+     ! updateTerminatorProfile "${CFGFILE}" "${profile}" "${copy_default}" \
+       "${BACKGROUND_COLOR}" "${FOREGROUND_COLOR}" \
+       "${COLOR_01}:${COLOR_02}:${COLOR_03}:${COLOR_04}:${COLOR_05}:${COLOR_06}:${COLOR_07}:${COLOR_08}:${COLOR_09}:${COLOR_10}:${COLOR_11}:${COLOR_12}:${COLOR_13}:${COLOR_14}:${COLOR_15}:${COLOR_16}" \
+       > "${new_config}"; then
+    printerr '\n%s\n' "Error: Couldn't read ${CFGFILE}."
     exit 1
   fi
 
+  if ! cmp -s "${CFGFILE}" "${new_config}"; then
+    if ! backupConfig "${CFGFILE}" || ! cat "${new_config}" > "${CFGFILE}"; then
+      rm -f "${new_config}"
+      printerr '\n%s\n' "Error: Couldn't update ${CFGFILE}."
+      exit 1
+    fi
+  fi
+  rm -f "${new_config}"
+
+  prints "Done - saved to the \"${profile}\" profile; close and reopen Terminator to see the changes"
 }
 
 # |

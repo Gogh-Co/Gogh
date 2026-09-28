@@ -44,9 +44,9 @@ terminal's config file.
   config-writing logic. Also the real end-to-end path, checking the
   written config file contains the expected color. Alacritty is checked
   twice: from scratch, and over a config with color tables that must get
-  commented out. Terminator goes through its Python helper
-  (`apply-terminator.py`), so this image also
-  installs `requirements.txt`; this is what caught the Terminator bug
+  commented out. Terminator is checked from scratch and over the minimal
+  config it creates on first launch; the from-scratch case is what caught
+  the Terminator bug
   below. Ghostty isn't an Ubuntu 24.04 apt package, but `apply_ghostty`
   only writes a file, so it's testable without it.
 
@@ -85,7 +85,8 @@ All already fixed, kept here as the reason this exists:
    `touch`/`echo` failed silently (no `set -e` in this codebase) and the
    script still exited 0, so a user would see no error and no theme.
    Fixed with a `mkdir --parents` before the first write.
-3. **Terminator crashed on a fresh config.** `apply-terminator.py`'s
+3. **Terminator crashed on a fresh config** (in the Python helper
+   `apply-terminator.py`, since replaced by Bash in `apply-colors.sh`). Its
    `backup_conf()` unconditionally `shutil.copyfile()`s the existing
    config to make a backup, but `ConfigObj` doesn't require that file to
    already exist -- so a Terminator that had never been launched before
