@@ -1,18 +1,19 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Variables to avoid repeated calls to tput
-# tput exits non-zero (and prints nothing) on a terminal that doesn't support
-# the requested capability (e.g. TERM=dumb) -- `|| true` keeps that a graceful
-# "no color" fallback instead of aborting under `set -e`.
+# Variables to avoid repeated calls to `tput`.
+# `tput` exits non-zero (and prints nothing) on a terminal that doesn't
+# support the requested capability (e.g. TERM=dumb) -- `|| true` keeps that a
+# graceful "no color" fallback instead of aborting under `set -e`.
 for n in {0..15}; do
   declare "C$n"="$(tput setaf "$n" || true)"
 done
 CR=$(tput sgr0 || true)
 CS0=$(tput sgr 0 || true)
 
-# Define traps and trapfunctions early in case any errors before script exits
-# shellcheck disable=SC2329 # invoked indirectly via `trap ... EXIT` below
+# Define traps and trap functions early in case of errors before the script
+# exits. Invoked indirectly via `trap ... EXIT` below.
+# shellcheck disable=SC2329
 GLOBAL_VAR_CLEANUP(){
   echo "Cleanup up..."
   [[ -n "$(command -v TILIX_TMP_CLEANUP)" ]] && TILIX_TMP_CLEANUP
@@ -33,7 +34,7 @@ GLOBAL_VAR_CLEANUP(){
 trap 'GLOBAL_VAR_CLEANUP' EXIT
 trap 'GLOBAL_VAR_CLEANUP; trap - EXIT HUP INT QUIT PIPE TERM; exit 130' HUP INT QUIT PIPE TERM
 
-# TO-DO: Investigate dynamically building this array e.g.
+# TODO: Investigate dynamically building this array, e.g.:
 # curl -s https://github.com/Gogh-Co/Gogh/tree/master/themes | grep -o "title=.*\.sh\" " | awk -F '=' '{print $2}'
 declare -a THEMES=(
   '0x96f.sh'
@@ -1285,7 +1286,7 @@ declare -a THEMES=(
   'zenwritten-light.sh'
 )
 
-# Allow developer to change url to forked url for easier testing
+# Allow developers to change the URL to a fork for easier testing
 BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Gogh-Co/Gogh/master"}
 
 if [[ -n "${BASH_SOURCE[0]:-}" && -f "${BASH_SOURCE[0]}" ]]; then
@@ -1310,7 +1311,7 @@ capitalize() {
 }
 
 
-fetch() {  # fetch URL DEST -- downloads URL into DEST, verifies it's non-empty
+fetch() {  # Usage: fetch URL DEST -- download URL into DEST, verify it's non-empty
   local url="$1" dest="$2"
   if command -v curl >/dev/null 2>&1; then
     curl -fsSL --connect-timeout 5 --max-time 30 --retry 2 -o "$dest" "$url" || return $?
@@ -1327,9 +1328,10 @@ fetch() {  # fetch URL DEST -- downloads URL into DEST, verifies it's non-empty
 }
 
 
-# Used to get required python scripts, either from the internet or from local directory
+# Get the required Python scripts from the internet or the local directory
 if [[ -z "${SCRIPT_PATH}" || ! -f "${SCRIPT_PATH}/apply-alacritty.py" ]]; then
-  # shellcheck disable=SC2329 # invoked indirectly via GLOBAL_VAR_CLEANUP's `command -v` check
+  # Invoked indirectly via GLOBAL_VAR_CLEANUP's `command -v` check.
+  # shellcheck disable=SC2329
   ALACRITTY_APPLY_TMP_CLEANUP() {
     rm -rf "${GOGH_ALACRITTY_SCRIPT}"
     unset GOGH_ALACRITTY_SCRIPT
@@ -1343,9 +1345,10 @@ if [[ -z "${SCRIPT_PATH}" || ! -f "${SCRIPT_PATH}/apply-alacritty.py" ]]; then
 fi
 
 
-# Used to get required python scripts, either from the internet or from local directory
+# Get the required Python scripts from the internet or the local directory
 if [[ -z "${SCRIPT_PATH}" || ! -e "${SCRIPT_PATH}/apply-terminator.py" ]]; then
-  # shellcheck disable=SC2329 # invoked indirectly via GLOBAL_VAR_CLEANUP's `command -v` check
+  # Invoked indirectly via GLOBAL_VAR_CLEANUP's `command -v` check.
+  # shellcheck disable=SC2329
   TERMINATOR_APPLY_TMP_CLEANUP() {
     rm -rf "${GOGH_TERMINATOR_SCRIPT}"
     unset GOGH_TERMINATOR_SCRIPT
@@ -1359,9 +1362,10 @@ if [[ -z "${SCRIPT_PATH}" || ! -e "${SCRIPT_PATH}/apply-terminator.py" ]]; then
 fi
 
 
-# Used to get required shell scripts, either from the internet or from local directory
+# Get the required shell scripts from the internet or the local directory
 if [[ -z "${SCRIPT_PATH}" || ! -e "${SCRIPT_PATH}/apply-colors.sh" ]]; then
-  # shellcheck disable=SC2329 # invoked indirectly via GLOBAL_VAR_CLEANUP's `command -v` check
+  # Invoked indirectly via GLOBAL_VAR_CLEANUP's `command -v` check.
+  # shellcheck disable=SC2329
   APPLY_SCRIPT_TMP_CLEANUP() {
     rm -rf "${GOGH_APPLY_SCRIPT}"
     unset GOGH_APPLY_SCRIPT
@@ -1451,7 +1455,7 @@ print_usage() {
 }
 
 
-### Get length of an array
+# Get the length of the themes array
 ARRAYLENGTH=${#THEMES[@]}
 
 
@@ -1497,8 +1501,8 @@ fi
 
 
 # |
-# | ::::::: Print logo
-# |
+# | Print logo
+# | ===========================================
 if [[ ${#OPTION[@]} -eq 0 ]]; then
   tput clear || true
   if [[ ${COLUMNS:-$(tput cols)} -ge 80 ]]; then
@@ -1526,15 +1530,15 @@ if [[ ${#OPTION[@]} -eq 0 ]]; then
     echo -e "\nGogh\n"
     for c in C{0..15}; do
       echo -n "${!c}█████${CR}"
-      [[ $c == C7 ]] && echo # new line
+      [[ $c == C7 ]] && echo  # New line
     done
     echo
   fi
 
 
   # |
-  # | ::::::: Print Themes
-  # |
+  # | Print themes
+  # | ===========================================
   echo -e "\nThemes:\n"
 
   # Cross-platform function to format theme names
@@ -1544,16 +1548,17 @@ if [[ ${#OPTION[@]} -eq 0 ]]; then
     name="${name%.*}"
     # Replace hyphens with spaces
     name="${name//-/ }"
-    # Capitalize first letter of each word using awk (cross-platform)
+    # Capitalize the first letter of each word using `awk` (cross-platform)
     echo "$name" | awk '{for(i=1;i<=NF;i++) $i=toupper(substr($i,1,1)) substr($i,2)} 1'
   }
 
   # Column display of available themes
-  # Note: /usr/bin/column uses tabs and does not support ANSI codes yet (merged but not released)
-  MAXL=$(( $(printf "%s\n" "${THEMES[@]}" | wc -L) - 3 )) # Biggest theme name without the extension
-  NCOLS=$(( ${COLUMNS:-$(tput cols || echo 80)} / (10+MAXL) )) # number of columns, 10 is the length of '  ( xxx ) '
-  (( NCOLS < 1 )) && NCOLS=1                              # avoid a division by zero below on narrow terminals
-  NROWS=$(( (ARRAYLENGTH-1)/NCOLS + 1 ))                  # number of rows
+  # Note: `/usr/bin/column` uses tabs and does not support ANSI codes yet
+  # (merged but not released).
+  MAXL=$(( $(printf "%s\n" "${THEMES[@]}" | wc -L) - 3 ))  # Longest theme name without the extension
+  NCOLS=$(( ${COLUMNS:-$(tput cols || echo 80)} / (10+MAXL) ))  # Number of columns, 10 is the length of '  ( xxx ) '
+  (( NCOLS < 1 )) && NCOLS=1                              # Avoid a division by zero below on narrow terminals
+  NROWS=$(( (ARRAYLENGTH-1)/NCOLS + 1 ))                  # Number of rows
   row=0
 
   while ((row < NROWS)); do
@@ -1574,24 +1579,24 @@ if [[ ${#OPTION[@]} -eq 0 ]]; then
   echo -e "  (${C4} ALL ${CR}) All themes"
 
   # |
-  # | ::::::: Select Option
-  # |
+  # | Select option
+  # | ===========================================
   echo -e "\nUsage : Enter Desired Themes Numbers (${C4}OPTIONS${CR}) Separated By A Blank Space"
   echo -e "        Press ${C4}ENTER${CR} without options to Exit\n"
   read -r -p 'Enter OPTION(S) : ' -a OPTION || true
 
-  # Automagically generate options if user opts for all themes
+  # Automatically generate options if the user opts for all themes
   if [[ "$(echo "${OPTION[0]:-}" | tr '[:lower:]' '[:upper:]')" == ALL ]]; then
     mapfile -t OPTION < <(seq 1 "${ARRAYLENGTH}")
   fi
 fi
 
 # |
-# | ::::::: Get terminal
-# |
+# | Get terminal
+# | ===========================================
 if [[ -z "${TERMINAL:-}" ]]; then
   # |
-  # | Check for the terminal name (depening on os)
+  # | Check for the terminal name (depending on OS)
   # | ===========================================
   OS="$(uname)"
   if [[ "${TERM:-}" = "xterm-ghostty" ]] || [[ "${TERM_PROGRAM:-}" = "ghostty" ]]; then
@@ -1608,19 +1613,18 @@ if [[ -z "${TERMINAL:-}" ]]; then
     TERMINAL="termux"
   else
     # |
-    # | Depending on how the script was invoked, we need
-    # | to loop until pid is no longer a subshell
+    # | Walk up the parent processes until pid is no longer a subshell
     # | ===========================================
     pid="$$"
-    # -o field= (empty header) suppresses the header without -h: -h itself
-    # triggers BSD-vs-SysV personality detection that some procps-ng versions
-    # reject outright ("error: unsupported SysV option") when combined with
-    # -o/-p, even though it works fine on others.
+    # `-o field=` (empty header) suppresses the header without `-h`: `-h`
+    # itself triggers BSD-vs-SysV personality detection that some procps-ng
+    # versions reject outright ("error: unsupported SysV option") when
+    # combined with `-o`/`-p`, even though it works fine on others.
     TERMINAL="$(ps -o comm= -p "$pid")" || true
     while [[ "${TERMINAL:(-2)}" == "sh" ]]; do
-      # ppid= is numeric and right-padded by ps to its column width, so a
+      # `ppid=` is numeric and right-padded by `ps` to its column width, so a
       # short pid can come back with leading spaces -- trim them, or the
-      # next -p "$pid" gets quoted whitespace and fails ("improper list").
+      # next `-p "$pid"` gets quoted whitespace and fails ("improper list").
       pid="$(ps -o ppid= -p "$pid")" || true
       pid="${pid// /}"
       TERMINAL="$(ps -o comm= -p "$pid")" || true
@@ -1630,11 +1634,10 @@ fi
 
 
 # |
-# | ::::::: Fancy progressbar for lengthy operations
-# |
-# | Minimal, vendored implementation (no third-party download/eval — see the
-# | improvement plan for why this replaced an `eval`'d remote script).
-# |
+# | Fancy progress bar for lengthy operations
+# | ===========================================
+# Minimal, vendored implementation, so no third-party script is downloaded
+# and run through `eval`.
 if [[ ${#OPTION[@]} -gt 5 ]]; then
   bar::start() {
     printf '\n'
@@ -1658,9 +1661,10 @@ fi
 
 
 # |
-# | Tilix supports fg/bg in color schemes - ask wether user wants to go that route
-# | This is to avoid creating multiple profiles just for colors
+# | Ask whether to use Tilix color schemes instead of profiles
 # | ===========================================
+# Tilix supports fg/bg in color schemes, which avoids creating multiple
+# profiles just for colors.
 if [[ "$TERMINAL" = "tilix" ]] && [[ ${#OPTION[@]} -gt 0 ]]; then
   if [[ -z "${GOGH_NONINTERACTIVE+no}" ]]; then
     echo
@@ -1671,12 +1675,15 @@ if [[ "$TERMINAL" = "tilix" ]] && [[ ${#OPTION[@]} -gt 0 ]]; then
   fi
 
   # |
-  # | When selecting multiple themes and user opts for color schemes, we save all themes
-  # | in a tmpdir and copy the files once all themes has been processed.. If a user
-  # | desides to abort before all themes has been processed this section will cleanup the tmpdir
-  # | =======================================
+  # | Stage Tilix color schemes in a temporary directory
+  # | ===========================================
+  # When selecting multiple themes and the user opts for color schemes, all
+  # themes are saved in a tmpdir and the files are copied once all themes
+  # have been processed. If the user decides to abort before that, this
+  # section cleans up the tmpdir.
   if [[ ${TILIX_RES::1} =~ ^(y|Y)$ ]]; then
-    # shellcheck disable=SC2329 # invoked indirectly via GLOBAL_VAR_CLEANUP's `command -v` check
+    # Invoked indirectly via GLOBAL_VAR_CLEANUP's `command -v` check.
+    # shellcheck disable=SC2329
     TILIX_TMP_CLEANUP() {
       echo
       echo "Cleaning up"
@@ -1693,15 +1700,15 @@ fi
 
 
 # |
-# | ::::::: Export one-off variables
-# |
+# | Export one-off variables
+# | ===========================================
 [[ -n "${TILIX_RES:-}" ]] && export TILIX_RES
 export TERMINAL LOOP OPTLENGTH=${#OPTION[@]}
 
 
 # |
-# | ::::::: Apply Theme
-# |
+# | Apply theme
+# | ===========================================
 
 declare color_dot_str
 for c in C{0..15}; do
@@ -1709,14 +1716,13 @@ for c in C{0..15}; do
   [[ $c == C7 ]] && color_dot_str+=" "
 done
 
-# Note:
-# Constants with a leading 0 are interpreted as octal numbers, so a
-# zero-padded option (08, 008, ...) is forced to base 10 via the 10#
+# Note: Constants with a leading 0 are interpreted as octal numbers, so a
+# zero-padded option (08, 008, ...) is forced to base 10 via the `10#`
 # prefix below instead of being parsed as octal.
 command -v bar::start > /dev/null && bar::start
 GOGH_EXIT_STATUS=0
 for OP in "${OPTION[@]}"; do
-  # See appy_tilixschemes in apply-colors.sh for usage of LOOP
+  # See `appy_tilixschemes` in `apply-colors.sh` for the usage of LOOP
   LOOP=$((${LOOP:-0}+1))
 
   command -v bar::status_changed > /dev/null && bar::status_changed $LOOP ${#OPTION[@]}
