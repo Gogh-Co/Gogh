@@ -233,8 +233,11 @@ case "${TERMINAL}" in
     fi
     CFGFILE="${KITTY_CONFIG_DIRECTORY}/kitty.conf"
     if [[ ! -f "${CFGFILE}" ]]; then
-      printerr '\n%s\n' "Error: Couldn't find an existing configuration file for Kitty."
-      exit 1
+      # Kitty runs fine without a config file, so create an empty one to patch
+      if ! mkdir -p "${KITTY_CONFIG_DIRECTORY}" || ! touch "${CFGFILE}"; then
+        printerr '\n%s\n' "Error: Couldn't create a configuration file for Kitty at ${CFGFILE}."
+        exit 1
+      fi
     fi
     ;;
 
