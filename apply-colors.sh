@@ -1613,7 +1613,7 @@ case "${TERMINAL}" in
     ""                                                        \
     "Supported terminals:"                                    \
     "   alacritty"                                            \
-    "   mintty (and deriviates)"                              \
+    "   mintty (and derivatives)"                             \
     "   guake"                                                \
     "   iTerm.app (iTerm2)"                                   \
     "   pantheon-terminal"                                    \
