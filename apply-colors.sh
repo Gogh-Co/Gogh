@@ -174,6 +174,45 @@ case "${TERMINAL}" in
     fi
     ;;
 
+  alacritty )
+    # Same lookup order as Alacritty itself (see `man 5 alacritty`)
+    CFGFILE=""
+    for candidate in \
+      "${XDG_CONFIG_HOME:-${HOME}/.config}/alacritty/alacritty.toml" \
+      "${XDG_CONFIG_HOME:-${HOME}/.config}/alacritty.toml" \
+      "${HOME}/.config/alacritty/alacritty.toml" \
+      "${HOME}/.alacritty.toml"; do
+      if [[ -f "${candidate}" ]]; then
+        CFGFILE="${candidate}"
+        break
+      fi
+    done
+    unset candidate
+
+    if [[ -z "${CFGFILE}" ]]; then
+      # Alacritty 0.13 replaced alacritty.yml with alacritty.toml
+      for candidate in \
+        "${XDG_CONFIG_HOME:-${HOME}/.config}/alacritty/alacritty.yml" \
+        "${XDG_CONFIG_HOME:-${HOME}/.config}/alacritty.yml" \
+        "${HOME}/.config/alacritty/alacritty.yml" \
+        "${HOME}/.alacritty.yml"; do
+        if [[ -f "${candidate}" ]]; then
+          printerr '\n%s\n' "Error: Found ${candidate}, but Gogh only supports Alacritty 0.13 or newer, which uses alacritty.toml."
+          printerr '%s\n\n' "Upgrade Alacritty and run \`alacritty migrate\` to convert your configuration, then try again."
+          exit 1
+        fi
+      done
+      unset candidate
+
+      # Alacritty runs fine without a config file, so create an empty one to patch
+      CFGFILE="${XDG_CONFIG_HOME:-${HOME}/.config}/alacritty/alacritty.toml"
+      if ! mkdir -p "$(dirname "${CFGFILE}")" || ! touch "${CFGFILE}"; then
+        printerr '\n%s\n' "Error: Couldn't create a configuration file for Alacritty at ${CFGFILE}."
+        exit 1
+      fi
+    fi
+    ;;
+
   foot )
     CFGFILE="${HOME}/.config/foot/foot.ini"
     if [[ ! -f "${CFGFILE}" ]]; then
@@ -390,6 +429,135 @@ updateTermuxConfig() {
   local   name="${3}"
 
   echo "${name}=${color}" >> "${config}"
+}
+
+# Copy a config file to <file>.<timestamp> before Gogh changes it, unless
+# it's empty (Gogh just created it). Several changes within one second,
+# e.g. when applying many themes, keep the first backup: the one with the
+# user's original content.
+backupConfig () {
+  local config="${1}"
+  local backup
+
+  [[ -s "${config}" ]] || return 0
+  backup="${config}.$(date +%Y%m%d_%H%M%S)"
+  if [[ ! -e "${backup}" ]]; then
+    cp "${config}" "${backup}" || return 1
+    prints "Backup created at ${backup}"
+  fi
+}
+
+# Print an Alacritty config with its [colors.primary], [colors.normal] and
+# [colors.bright] tables commented out, so an imported theme isn't
+# overridden by them (the importing file is loaded last).
+disableAlacrittyColorTables () {
+  local config="${1}"
+
+  awk '
+    /^[[:space:]]*\[/ {
+      in_colors = ($0 ~ /^[[:space:]]*\[[[:space:]]*colors\.(primary|normal|bright)[[:space:]]*\][[:space:]]*(#.*)?$/)
+    }
+    in_colors && $0 !~ /^[[:space:]]*(#.*)?$/ { print "# Disabled by Gogh: " $0; next }
+    { print }
+  ' "${config}"
+}
+
+# Print the lines of an Alacritty config that still set primary, normal or
+# bright colors in a form disableAlacrittyColorTables doesn't handle
+# (dotted keys or inline tables).
+findOtherAlacrittyColors () {
+  local config="${1}"
+
+  awk '
+    /^[[:space:]]*\[/ {
+      table = $0
+      sub(/^[[:space:]]*\[+[[:space:]]*/, "", table)
+      sub(/[[:space:]]*\].*$/, "", table)
+      next
+    }
+    (table == "" && /^[[:space:]]*colors[[:space:]]*(\.[[:space:]]*(primary|normal|bright)|=)/) ||
+    (table == "colors" && /^[[:space:]]*(primary|normal|bright)[[:space:]]*[.=]/) { print FNR ": " $0 }
+  ' "${config}"
+}
+
+# Print an Alacritty config with `entry` (a quoted path) added as the last
+# import, so it wins over any other import, unless the import array already
+# has it. `key` is "general.import" for
+# Alacritty 0.14+ or "import" for 0.13. Exits 3 when the import can't be
+# added safely (`general` is an inline table, or the array never closes).
+addAlacrittyImport () {
+  local config="${1}"
+  local entry="${2}"
+  local key="${3}"
+
+  awk -v entry="${entry}" -v key="${key}" '
+    function rtrim(s) { sub(/[[:space:]]+$/, "", s); return s }
+    # Drop a trailing comment: a "#" outside of a quoted string
+    function code(s,   i, ch, quote) {
+      quote = ""
+      for (i = 1; i <= length(s); i++) {
+        ch = substr(s, i, 1)
+        if (quote == "\"" && ch == "\\") { i++; continue }
+        if (quote != "") { if (ch == quote) quote = ""; continue }
+        if (ch == "\"" || ch == "'\''") { quote = ch; continue }
+        if (ch == "#") return rtrim(substr(s, 1, i - 1))
+      }
+      return s
+    }
+    # Insert entry before the last "]" of line n
+    function insert_before_bracket(n,   c, comment, p, i, before, sep) {
+      c = code(line[n]); comment = substr(line[n], length(c) + 1)
+      for (i = length(c); i > 0; i--) if (substr(c, i, 1) == "]") { p = i; break }
+      before = rtrim(substr(c, 1, p - 1))
+      if (before ~ /\[$/) sep = ""
+      else if (before ~ /,$/) sep = " "
+      else sep = ", "
+      line[n] = before sep entry substr(c, p) comment
+    }
+    { line[NR] = $0 }
+    END {
+      table = ""; imp = 0; general = 0
+      for (i = 1; i <= NR; i++) {
+        l = line[i]
+        if (l ~ /^[[:space:]]*\[\[/) { table = "[[]]"; continue }
+        if (l ~ /^[[:space:]]*\[/) {
+          table = l
+          sub(/^[[:space:]]*\[[[:space:]]*/, "", table)
+          sub(/[[:space:]]*\].*$/, "", table)
+          if (table == "general" && !general) general = i
+          continue
+        }
+        if (table == "" && l ~ /^[[:space:]]*general[[:space:]]*=/) exit 3
+        if ((table == "" && l ~ /^[[:space:]]*(general[[:space:]]*\.[[:space:]]*)?import[[:space:]]*=/) ||
+            (table == "general" && l ~ /^[[:space:]]*import[[:space:]]*=/)) { imp = i; break }
+      }
+
+      if (imp) {
+        # Find the line that closes the array
+        for (c = imp; c <= NR; c++) if (rtrim(code(line[c])) ~ /\]$/) break
+        if (c > NR) exit 3
+        # Already imported: leave the config as it is
+        for (i = imp; i <= c; i++)
+          if (index(code(line[i]), entry)) { for (i = 1; i <= NR; i++) print line[i]; exit }
+        if (c > imp && code(line[c]) ~ /^[[:space:]]*\]/) {
+          # "]" on its own line: make sure the last element ends with a comma
+          for (k = c - 1; k > imp && rtrim(code(line[k])) == ""; k--) ;
+          last = rtrim(code(line[k]))
+          if (last !~ /[\[,]$/) line[k] = last "," substr(line[k], length(code(line[k])) + 1)
+          line[c] = "  " entry ",\n" line[c]
+        } else {
+          insert_before_bracket(c)
+        }
+      } else if (key == "general.import" && general) {
+        line[general] = line[general] "\n# Added by Gogh\nimport = [" entry "]"
+      } else {
+        added = "# Added by Gogh\n" key " = [" entry "]"
+        if (NR == 0) { print added; exit }
+        line[1] = added "\n\n" line[1]
+      }
+      for (i = 1; i <= NR; i++) print line[i]
+    }
+  ' "${config}"
 }
 
 createKonsoleEntry () {
@@ -663,49 +831,104 @@ apply_cygwin() {
 # |
 # | Applying values on Alacritty
 # | ===========================================
+# Alacritty can import other TOML files, so the theme goes into its own
+# gogh.toml next to alacritty.toml, and the user's configuration only gets
+# one import entry. The importing file is loaded after its imports, so color
+# tables left in alacritty.toml (e.g. by Gogh's old Python helper) would win
+# over the theme -- those get commented out, after a backup.
 apply_alacritty() {
-  json_str="\
-  { \
-    \"colors\": \
-    {\
-      \"primary\":\
-      {\
-        \"background\": \"$BACKGROUND_COLOR\",\
-        \"foreground\": \"$FOREGROUND_COLOR\"\
-      },\
-      \"normal\":\
-      {\
-        \"black\": \"$COLOR_01\",\
-        \"red\": \"$COLOR_02\",\
-        \"green\": \"$COLOR_03\",\
-        \"yellow\":\"$COLOR_04\",\
-        \"blue\":\"$COLOR_05\",\
-        \"magenta\": \"$COLOR_06\",\
-        \"cyan\":\"$COLOR_07\",\
-        \"white\": \"$COLOR_08\"\
-      },\
-      \"bright\":\
-      {\
-        \"black\":\"$COLOR_09\",\
-        \"red\":\"$COLOR_10\",\
-        \"green\":\"$COLOR_11\",\
-        \"yellow\": \"$COLOR_12\",\
-        \"blue\": \"$COLOR_13\",\
-        \"magenta\":\"$COLOR_14\",\
-        \"cyan\": \"$COLOR_15\",\
-        \"white\":\"$COLOR_16\"\
-      } \
-    }\
-  }"
+  local theme_file import_path import_key version new_config other_colors status
 
-  if [[ -e "${GOGH_ALACRITTY_SCRIPT}" ]]; then
-    python3 "${GOGH_ALACRITTY_SCRIPT}" "$json_str"
-  elif [[ -e "${SCRIPT_PATH}/apply-alacritty.py" ]]; then
-    python3 "${SCRIPT_PATH}/apply-alacritty.py" "$json_str"
+  theme_file="$(dirname "${CFGFILE}")/gogh.toml"
+  # Keep the import portable across machines when it lives under $HOME.
+  # The tilde is literal on purpose: Alacritty expands it when reading.
+  if [[ "${theme_file}" == "${HOME}/"* ]]; then
+    # shellcheck disable=SC2088
+    import_path="~/${theme_file#"${HOME}/"}"
   else
-    printerr '\n%s\n' "Error: Couldn't find apply-alacritty.py file."
+    import_path="${theme_file}"
+  fi
+
+  # Alacritty 0.14 moved `import` under [general]; 0.13 only reads it at
+  # the top level. Newer versions still read the top-level key, with a
+  # deprecation warning, so it's the fallback when the version can't be
+  # detected (e.g. when applying over SSH with TERMINAL=alacritty).
+  import_key="import"
+  version="$(alacritty --version 2>/dev/null || true)"
+  if [[ "${version}" =~ ([0-9]+)\.([0-9]+) ]]; then
+    if (( BASH_REMATCH[1] > 0 || BASH_REMATCH[2] >= 14 )); then
+      import_key="general.import"
+    fi
+  else
+    prints "Couldn't detect the Alacritty version: using the top-level import, read by every version (0.14+ reports it as deprecated)"
+  fi
+
+  prints "Writing Alacritty color theme file (${theme_file})..."
+
+  if ! {
+    echo "# Color theme: ${PROFILE_NAME}"
+    echo "# Auto-generated by Gogh (https://Gogh-Co.github.io/Gogh/)"
+    echo ""
+    echo "[colors.primary]"
+    echo "background = \"${BACKGROUND_COLOR}\""
+    echo "foreground = \"${FOREGROUND_COLOR}\""
+    echo ""
+    echo "[colors.normal]"
+    echo "black = \"${COLOR_01}\""
+    echo "red = \"${COLOR_02}\""
+    echo "green = \"${COLOR_03}\""
+    echo "yellow = \"${COLOR_04}\""
+    echo "blue = \"${COLOR_05}\""
+    echo "magenta = \"${COLOR_06}\""
+    echo "cyan = \"${COLOR_07}\""
+    echo "white = \"${COLOR_08}\""
+    echo ""
+    echo "[colors.bright]"
+    echo "black = \"${COLOR_09}\""
+    echo "red = \"${COLOR_10}\""
+    echo "green = \"${COLOR_11}\""
+    echo "yellow = \"${COLOR_12}\""
+    echo "blue = \"${COLOR_13}\""
+    echo "magenta = \"${COLOR_14}\""
+    echo "cyan = \"${COLOR_15}\""
+    echo "white = \"${COLOR_16}\""
+  } > "${theme_file}"; then
+    printerr '\n%s\n' "Error: Couldn't write ${theme_file}."
     exit 1
   fi
+
+  if ! new_config="$(mktemp -t gogh.alacritty.XXXXXX)" ||
+     ! disableAlacrittyColorTables "${CFGFILE}" > "${new_config}"; then
+    printerr '\n%s\n' "Error: Couldn't read ${CFGFILE}."
+    exit 1
+  fi
+
+  status=0
+  addAlacrittyImport "${new_config}" "\"${import_path}\"" "${import_key}" > "${new_config}.import" || status=$?
+  if (( status != 0 )); then
+    rm -f "${new_config}" "${new_config}.import"
+    printerr '\n%s\n' "Error: Couldn't add the theme import to ${CFGFILE} automatically."
+    printerr '%s\n\n' "Add \"${import_path}\" to ${import_key} in that file, then try again."
+    exit 1
+  fi
+  mv "${new_config}.import" "${new_config}"
+
+  if ! cmp -s "${CFGFILE}" "${new_config}"; then
+    if ! backupConfig "${CFGFILE}" || ! cat "${new_config}" > "${CFGFILE}"; then
+      rm -f "${new_config}"
+      printerr '\n%s\n' "Error: Couldn't update ${CFGFILE}."
+      exit 1
+    fi
+    prints "Updated ${CFGFILE} to import the theme"
+  fi
+  rm -f "${new_config}"
+
+  other_colors="$(findOtherAlacrittyColors "${CFGFILE}")"
+  if [[ -n "${other_colors}" ]]; then
+    print '\n%s\n%s\n\n' "Warning: ${CFGFILE} still sets colors that override the theme:" "${other_colors}"
+  fi
+
+  prints "Done - Alacritty reloads its configuration automatically"
 }
 
 # |

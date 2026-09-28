@@ -42,9 +42,10 @@ terminal's config file.
 - **`run-file-terminals.sh`** -- xfce4-terminal, foot, Konsole, kitty,
   kmscon, Termux, Linux vt, mintty, Alacritty, Terminator, and Ghostty's
   config-writing logic. Also the real end-to-end path, checking the
-  written config file contains the expected color. Alacritty and
-  Terminator go through their Python helpers
-  (`apply-alacritty.py`/`apply-terminator.py`), so this image also
+  written config file contains the expected color. Alacritty is checked
+  twice: from scratch, and over a config with color tables that must get
+  commented out. Terminator goes through its Python helper
+  (`apply-terminator.py`), so this image also
   installs `requirements.txt`; this is what caught the Terminator bug
   below. Ghostty isn't an Ubuntu 24.04 apt package, but `apply_ghostty`
   only writes a file, so it's testable without it.

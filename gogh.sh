@@ -28,7 +28,6 @@ CS0=$(tput sgr 0 || true)
 GLOBAL_VAR_CLEANUP(){
   echo "Cleanup up..."
   [[ -n "$(command -v TILIX_TMP_CLEANUP)" ]] && TILIX_TMP_CLEANUP
-  [[ -n "$(command -v ALACRITTY_APPLY_TMP_CLEANUP)" ]] && ALACRITTY_APPLY_TMP_CLEANUP
   [[ -n "$(command -v TERMINATOR_APPLY_TMP_CLEANUP)" ]] && TERMINATOR_APPLY_TMP_CLEANUP
   [[ -n "$(command -v APPLY_SCRIPT_TMP_CLEANUP)" ]] && APPLY_SCRIPT_TMP_CLEANUP
   unset PROFILE_NAME
@@ -1357,22 +1356,6 @@ fetch() {
 # |
 # | Get the apply scripts when not running from a checkout
 # | ===========================================
-# Get the required Python scripts from the internet or the local directory
-if [[ -z "${SCRIPT_PATH}" || ! -f "${SCRIPT_PATH}/apply-alacritty.py" ]]; then
-  # Invoked indirectly via GLOBAL_VAR_CLEANUP's `command -v` check.
-  # shellcheck disable=SC2329
-  ALACRITTY_APPLY_TMP_CLEANUP() {
-    rm -rf "${GOGH_ALACRITTY_SCRIPT}"
-    unset GOGH_ALACRITTY_SCRIPT
-  }
-  GOGH_ALACRITTY_SCRIPT="$(mktemp -t gogh.alacritty.XXXXXX)"
-  export GOGH_ALACRITTY_SCRIPT
-  if ! fetch "${BASE_URL}/apply-alacritty.py" "${GOGH_ALACRITTY_SCRIPT}"; then
-    echo "Error: failed to download apply-alacritty.py" >&2
-    exit 1
-  fi
-fi
-
 # Get the required Python scripts from the internet or the local directory
 if [[ -z "${SCRIPT_PATH}" || ! -e "${SCRIPT_PATH}/apply-terminator.py" ]]; then
   # Invoked indirectly via GLOBAL_VAR_CLEANUP's `command -v` check.

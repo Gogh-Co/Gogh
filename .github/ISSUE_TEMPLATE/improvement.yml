@@ -19,7 +19,7 @@ body:
       options:
         - gogh.sh
         - apply-colors.sh
-        - Python apply scripts (Alacritty, Terminator)
+        - Python apply script (Terminator)
         - Tooling (tools/, Taskfile)
         - CI / GitHub workflows
         - Tests
