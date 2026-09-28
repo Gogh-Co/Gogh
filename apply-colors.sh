@@ -431,6 +431,22 @@ updateTermuxConfig() {
   echo "${name}=${color}" >> "${config}"
 }
 
+# Copy a config file to <file>.<timestamp> before Gogh changes it, unless
+# it's empty (Gogh just created it). Several changes within one second,
+# e.g. when applying many themes, keep the first backup: the one with the
+# user's original content.
+backupConfig () {
+  local config="${1}"
+  local backup
+
+  [[ -s "${config}" ]] || return 0
+  backup="${config}.$(date +%Y%m%d_%H%M%S)"
+  if [[ ! -e "${backup}" ]]; then
+    cp "${config}" "${backup}"
+    prints "Backup created at ${backup}"
+  fi
+}
+
 # Print an Alacritty config with its [colors.primary], [colors.normal] and
 # [colors.bright] tables commented out, so an imported theme isn't
 # overridden by them (the importing file is loaded last).
@@ -807,7 +823,7 @@ apply_cygwin() {
 # tables left in alacritty.toml (e.g. by Gogh's old Python helper) would win
 # over the theme -- those get commented out, after a backup.
 apply_alacritty() {
-  local theme_file import_path import_key version new_config other_colors backup status
+  local theme_file import_path import_key version new_config other_colors status
 
   theme_file="$(dirname "${CFGFILE}")/gogh.toml"
   # Keep the import portable across machines when it lives under $HOME.
@@ -874,12 +890,7 @@ apply_alacritty() {
   fi
 
   if ! cmp -s "${CFGFILE}" "${new_config}"; then
-    # Nothing worth backing up in a config Gogh just created empty
-    if [[ -s "${CFGFILE}" ]]; then
-      backup="${CFGFILE}.$(date +%Y%m%d_%H%M%S)"
-      cp "${CFGFILE}" "${backup}"
-      prints "Backup created at ${backup}"
-    fi
+    backupConfig "${CFGFILE}"
     cat "${new_config}" > "${CFGFILE}"
     prints "Updated ${CFGFILE} to import the theme"
   fi
