@@ -7,8 +7,9 @@
 # lib.theme_common.installer_slug() rather than slugify_theme_name() -- that
 # function's output can differ for names with underscores, and this one feeds
 # public installer filenames (installs/<slug>.sh), so unifying it is a
-# separate, deliberate change. validate_theme_format.py uses the same function
-# to reject a new theme whose installer name is already taken.
+# separate, deliberate change. Step 8 uses the same function for gogh.sh's
+# THEMES entries, and validate_theme_format.py to reject a new theme whose
+# installer name is already taken.
 
 import json
 import os

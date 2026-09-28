@@ -51,7 +51,7 @@ Run by CI: `.github/workflows/validate-on-pr.yml`. Run all three locally: `task 
 
 ## `lib/`
 
-- `theme_common.py` — imported by `generate/` and `validate/`: `hash_palette`/`hash_background` (color hashing), `build_ordered_theme` (canonical field order), `slugify_theme_name`/`installer_slug`/`gogh_list_slug`/`unique_path` (theme name → filename, `theme_file_slugs` for all of them at once), `contrast_ratio` (WCAG contrast between two hex colors).
+- `theme_common.py` — imported by `generate/` and `validate/`: `hash_palette`/`hash_background` (color hashing), `build_ordered_theme` (canonical field order), `slugify_theme_name`/`installer_slug`/`unique_path` (theme name → filename; `installer_slug` names both `installs/` and gogh.sh's THEMES entries; `theme_file_slugs` for all of them at once), `contrast_ratio` (WCAG contrast between two hex colors).
 
 ## `legacy/`
 

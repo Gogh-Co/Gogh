@@ -53,26 +53,21 @@ def slugify_theme_name(name):
 
 def installer_slug(name):
     """Slug for the public installer filename, installs/<slug>.sh (step 7
-    of the generate/ pipeline). Differs from slugify_theme_name() for names
-    with underscores, so it's kept as its own rule."""
+    of the generate/ pipeline), and for the theme's entry in gogh.sh's
+    THEMES array (step 8): gogh.sh downloads installs/<entry>, so both must
+    always match. Differs from slugify_theme_name() for names with
+    underscores, so it's kept as its own rule."""
     slug = re.sub(r'[^a-zA-Z0-9]+', '-', unidecode(name).lower().replace(' ', '-'))
     return re.sub(r'[-]+', '-', slug).strip('-')
 
 
-def gogh_list_slug(name):
-    """Slug for the theme's entry in gogh.sh's THEMES array, <slug>.sh
-    (step 8 of the generate/ pipeline)."""
-    return re.sub(r'[^a-zA-Z0-9\s]+', '-', unidecode(name).lower().replace(' ', '-')).rstrip('-')
-
-
 def theme_file_slugs(name):
     """Every slug a theme name becomes a file or list entry under, keyed by
-    where it's used. Two themes sharing any of them would collide: the
-    THEMES array silently drops one, installs/ overwrites one, and data/
+    where it's used. Two themes sharing any of them would collide: installs/
+    overwrites one (and gogh.sh's THEMES array silently drops it), and data/
     renames one with a -1 suffix."""
     return {
-        "gogh.sh THEMES": gogh_list_slug(name),
-        "installs/": installer_slug(name),
+        "gogh.sh THEMES and installs/": installer_slug(name),
         "data/": slugify_theme_name(name),
     }
 
