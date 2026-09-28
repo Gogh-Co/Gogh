@@ -7,7 +7,8 @@ import sys
 
 import tomli
 import tomli_w
-from ruamel.yaml import YAML  # Use ruamel.yaml to preserve comments in config
+# Use ruamel.yaml to preserve comments in config
+from ruamel.yaml import YAML
 
 
 def printerr(*args, **kwargs):
@@ -19,9 +20,11 @@ def get_conf_path():
     if sys.platform.startswith('java'):
         import platform
         os_name = platform.java_ver()[3][0]
-        if os_name.startswith('Windows'):  # "Windows XP", "Windows 7", etc.
+        # "Windows XP", "Windows 7", etc.
+        if os_name.startswith('Windows'):
             system = 'win32'
-        else:  # Anything that isn't Windows ("darwin", "Linux", "SunOS", etc.)
+        # Anything that isn't Windows ("darwin", "Linux", "SunOS", etc.)
+        else:
             system = 'linux2'
     else:
         system = sys.platform

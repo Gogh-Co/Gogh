@@ -1,6 +1,14 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+
+# | ===========================================
+# | SETUP
+# | ===========================================
+
+# |
+# | Terminal colors
+# | ===========================================
 # Variables to avoid repeated calls to `tput`.
 # `tput` exits non-zero (and prints nothing) on a terminal that doesn't
 # support the requested capability (e.g. TERM=dumb) -- `|| true` keeps that a
@@ -11,6 +19,9 @@ done
 CR=$(tput sgr0 || true)
 CS0=$(tput sgr 0 || true)
 
+# |
+# | Cleanup traps
+# | ===========================================
 # Define traps and trap functions early in case of errors before the script
 # exits. Invoked indirectly via `trap ... EXIT` below.
 # shellcheck disable=SC2329
@@ -33,6 +44,11 @@ GLOBAL_VAR_CLEANUP(){
 # exit itself -- otherwise the script keeps running after e.g. Ctrl+C.
 trap 'GLOBAL_VAR_CLEANUP' EXIT
 trap 'GLOBAL_VAR_CLEANUP; trap - EXIT HUP INT QUIT PIPE TERM; exit 130' HUP INT QUIT PIPE TERM
+
+
+# | ===========================================
+# | THEME LIST
+# | ===========================================
 
 # TODO: Investigate dynamically building this array, e.g.:
 # curl -s https://github.com/Gogh-Co/Gogh/tree/master/themes | grep -o "title=.*\.sh\" " | awk -F '=' '{print $2}'
@@ -1286,6 +1302,14 @@ declare -a THEMES=(
   'zenwritten-light.sh'
 )
 
+
+# | ===========================================
+# | SCRIPT DEPENDENCIES
+# | ===========================================
+
+# |
+# | Script location
+# | ===========================================
 # Allow developers to change the URL to a fork for easier testing
 BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Gogh-Co/Gogh/master"}
 
@@ -1295,6 +1319,9 @@ else
   SCRIPT_PATH=""
 fi
 
+# |
+# | Download helpers
+# | ===========================================
 capitalize() {
   local ARGUMENT=$1
   local RES=""
@@ -1310,8 +1337,8 @@ capitalize() {
   echo "${RES_NO_TRAIL_SPACE}"
 }
 
-
-fetch() {  # Usage: fetch URL DEST -- download URL into DEST, verify it's non-empty
+# Usage: fetch URL DEST -- download URL into DEST and verify it's non-empty
+fetch() {
   local url="$1" dest="$2"
   if command -v curl >/dev/null 2>&1; then
     curl -fsSL --connect-timeout 5 --max-time 30 --retry 2 -o "$dest" "$url" || return $?
@@ -1327,7 +1354,9 @@ fetch() {  # Usage: fetch URL DEST -- download URL into DEST, verify it's non-em
   fi
 }
 
-
+# |
+# | Get the apply scripts when not running from a checkout
+# | ===========================================
 # Get the required Python scripts from the internet or the local directory
 if [[ -z "${SCRIPT_PATH}" || ! -f "${SCRIPT_PATH}/apply-alacritty.py" ]]; then
   # Invoked indirectly via GLOBAL_VAR_CLEANUP's `command -v` check.
@@ -1344,7 +1373,6 @@ if [[ -z "${SCRIPT_PATH}" || ! -f "${SCRIPT_PATH}/apply-alacritty.py" ]]; then
   fi
 fi
 
-
 # Get the required Python scripts from the internet or the local directory
 if [[ -z "${SCRIPT_PATH}" || ! -e "${SCRIPT_PATH}/apply-terminator.py" ]]; then
   # Invoked indirectly via GLOBAL_VAR_CLEANUP's `command -v` check.
@@ -1360,7 +1388,6 @@ if [[ -z "${SCRIPT_PATH}" || ! -e "${SCRIPT_PATH}/apply-terminator.py" ]]; then
     exit 1
   fi
 fi
-
 
 # Get the required shell scripts from the internet or the local directory
 if [[ -z "${SCRIPT_PATH}" || ! -e "${SCRIPT_PATH}/apply-colors.sh" ]]; then
@@ -1379,6 +1406,13 @@ if [[ -z "${SCRIPT_PATH}" || ! -e "${SCRIPT_PATH}/apply-colors.sh" ]]; then
 fi
 
 
+# | ===========================================
+# | THEME SELECTION
+# | ===========================================
+
+# |
+# | Theme selection helpers
+# | ===========================================
 set_gogh() {
   string=$1
   string_r="${string%???}"
@@ -1406,18 +1440,15 @@ set_gogh() {
   return $status
 }
 
-
 remove_file_extension (){
   echo "${1%.*}"
 }
-
 
 normalize_theme_selector() {
   echo "$1" \
     | tr '[:upper:]' '[:lower:]' \
     | sed -e 's/\.sh$//' -e 's/[^[:alnum:]]\+/-/g' -e 's/--*/-/g' -e 's/^-//' -e 's/-$//'
 }
-
 
 get_theme_number_from_selector() {
   local SELECTOR="$1"
@@ -1438,7 +1469,6 @@ get_theme_number_from_selector() {
   return 1
 }
 
-
 print_usage() {
   echo "Usage: $0 [OPTION ...]"
   echo
@@ -1454,10 +1484,11 @@ print_usage() {
   echo "  $0 ALL"
 }
 
-
+# |
+# | Parse command-line options
+# | ===========================================
 # Get the length of the themes array
 ARRAYLENGTH=${#THEMES[@]}
-
 
 declare -a OPTION=()
 
@@ -1499,7 +1530,6 @@ if [[ $# -gt 0 ]]; then
   done
 fi
 
-
 # |
 # | Print logo
 # | ===========================================
@@ -1523,18 +1553,17 @@ if [[ ${#OPTION[@]} -eq 0 ]]; then
     gogh_str+="    ${C8}█████████${C9}█████████${C10}█████████${C11}█████████${C12}█████████${C13}█████████${C14}█████████${C15}█████████${CS0}    \n"
     gogh_str+="                                                                                "
 
-
     printf '%b\n' "${gogh_str}"
     sleep 2.5
   else
     echo -e "\nGogh\n"
     for c in C{0..15}; do
       echo -n "${!c}█████${CR}"
-      [[ $c == C7 ]] && echo  # New line
+      # New line
+      [[ $c == C7 ]] && echo
     done
     echo
   fi
-
 
   # |
   # | Print themes
@@ -1555,10 +1584,14 @@ if [[ ${#OPTION[@]} -eq 0 ]]; then
   # Column display of available themes
   # Note: `/usr/bin/column` uses tabs and does not support ANSI codes yet
   # (merged but not released).
-  MAXL=$(( $(printf "%s\n" "${THEMES[@]}" | wc -L) - 3 ))  # Longest theme name without the extension
-  NCOLS=$(( ${COLUMNS:-$(tput cols || echo 80)} / (10+MAXL) ))  # Number of columns, 10 is the length of '  ( xxx ) '
-  (( NCOLS < 1 )) && NCOLS=1                              # Avoid a division by zero below on narrow terminals
-  NROWS=$(( (ARRAYLENGTH-1)/NCOLS + 1 ))                  # Number of rows
+  # Longest theme name without the extension
+  MAXL=$(( $(printf "%s\n" "${THEMES[@]}" | wc -L) - 3 ))
+  # Number of columns, 10 is the length of '  ( xxx ) '
+  NCOLS=$(( ${COLUMNS:-$(tput cols || echo 80)} / (10+MAXL) ))
+  # Avoid a division by zero below on narrow terminals
+  (( NCOLS < 1 )) && NCOLS=1
+  # Number of rows
+  NROWS=$(( (ARRAYLENGTH-1)/NCOLS + 1 ))
   row=0
 
   while ((row < NROWS)); do
@@ -1590,6 +1623,11 @@ if [[ ${#OPTION[@]} -eq 0 ]]; then
     mapfile -t OPTION < <(seq 1 "${ARRAYLENGTH}")
   fi
 fi
+
+
+# | ===========================================
+# | TERMINAL DETECTION
+# | ===========================================
 
 # |
 # | Get terminal
@@ -1633,6 +1671,10 @@ if [[ -z "${TERMINAL:-}" ]]; then
 fi
 
 
+# | ===========================================
+# | APPLY THEMES
+# | ===========================================
+
 # |
 # | Fancy progress bar for lengthy operations
 # | ===========================================
@@ -1658,7 +1700,6 @@ if [[ ${#OPTION[@]} -gt 5 ]]; then
     printf '\n'
   }
 fi
-
 
 # |
 # | Ask whether to use Tilix color schemes instead of profiles
@@ -1698,13 +1739,11 @@ if [[ "$TERMINAL" = "tilix" ]] && [[ ${#OPTION[@]} -gt 0 ]]; then
   fi
 fi
 
-
 # |
 # | Export one-off variables
 # | ===========================================
 [[ -n "${TILIX_RES:-}" ]] && export TILIX_RES
 export TERMINAL LOOP OPTLENGTH=${#OPTION[@]}
-
 
 # |
 # | Apply theme

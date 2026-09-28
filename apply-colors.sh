@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+
+# | ===========================================
+# | SETUP
+# | ===========================================
+
 # |
 # | Early prerequisites check
 # | ===========================================
@@ -46,6 +51,9 @@ SCRIPT_PATH="${SCRIPT_PATH:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
 # `print-themes.sh` will still trigger.
 trap 'GLOBAL_VAR_CLEANUP; trap - EXIT' EXIT HUP INT QUIT PIPE TERM
 
+# |
+# | Print helpers
+# | ===========================================
 # These are intentional printf-format wrappers: `format` IS the parameter, by
 # design, so it can never be a plain literal in the printf call itself. Every
 # call site passes a fixed literal (e.g. '%s\n', '\n%s\n\n') -- dynamic values
@@ -75,6 +83,11 @@ printerr() {
 printserr() {
         printerr '%s\n' "${@}"
 }
+
+
+# | ===========================================
+# | TERMINAL DETECTION
+# | ===========================================
 
 # |
 # | Detect TERMINAL again in case the theme script was run directly
@@ -120,7 +133,9 @@ if [[ -z "${TERMINAL:-}" ]]; then
   fi
 fi
 
-
+# |
+# | Locate the configuration file of each terminal
+# | ===========================================
 case "${TERMINAL}" in
   pantheon-terminal|io.elementary.t* )
     if [[ -z "${GS}" ]]; then
@@ -252,7 +267,6 @@ case "${TERMINAL}" in
     fi
     ;;
 
-
   konsole )
     CFGFILE="${HOME}/.config/konsolerc"
     if [[ ! -f "${CFGFILE}" ]]; then
@@ -268,8 +282,12 @@ case "${TERMINAL}" in
 esac
 
 
+# | ===========================================
+# | HELPER FUNCTIONS
+# | ===========================================
+
 # |
-# | Convert RGB to GNOME colors
+# | Color conversion
 # | ===========================================
 gnome_color () {
 
@@ -309,6 +327,9 @@ convertRGBtoMac () {
   echo "${R}" "${G}" "${B}"
 }
 
+# |
+# | Configuration entry writers
+# | ===========================================
 createMinttyEntry () {
   local  name="${1}"
   local color="${2}"
@@ -385,8 +406,10 @@ createKonsoleEntry () {
 
 createKonsoleTriple () {
   local   name="${1}"
-  local colorn="${2}"  # Normal and faint
-  local colori="${3}"  # Intense
+  # Normal and faint
+  local colorn="${2}"
+  # Intense
+  local colori="${3}"
 
   createKonsoleEntry "${name}" "${colorn}"
   createKonsoleEntry "${name}Faint" "${colorn}"
@@ -405,6 +428,9 @@ convertNameAndRGBtoITerm() {
   echo "<key>${name}</key><dict><key>Blue Component</key><real>${B}</real><key>Green Component</key><real>${G}</real><key>Red Component</key><real>${R}</real></dict>"
 }
 
+# |
+# | dconf, gconf and gsettings helpers
+# | ===========================================
 dset() {
   local key="${1}"; shift
   local val="${1}"
@@ -526,6 +552,9 @@ legacy_set_theme() {
 }
 
 
+# | ===========================================
+# | COLOR PREVIEW
+# | ===========================================
 
 # |
 # | Preview theme colors without applying them on truecolor terminals
@@ -543,7 +572,8 @@ if [[ "${COLORTERM:-}" == "truecolor" ]] || [[ "${COLORTERM:-}" == "24bit" ]]; t
       set -- $(hexRGBtoDecRGB "${!color}")
       color_str+="\033[38;2;${1};${2};${3}m█████$(tput sgr0)"
       [[ ${GOGH_DRY_RUN:-0} -eq 1 ]] && export "DEMO_COLOR_$c=\033[38;2;${1};${2};${3}m"
-      [[ "$c" == "08" ]] && color_str+="\n"  # New line
+      # New line
+      [[ "$c" == "08" ]] && color_str+="\n"
     done
     print '\n%b\n\n\n' "${color_str}"
     unset color_str
@@ -554,13 +584,13 @@ else
     local color_str
     for c in {0..15}; do
       color_str+="$(tput setaf "$c")█████$(tput sgr0)"
-      [[ $c == 7 ]] && color_str+="\n"  # New line
+      # New line
+      [[ $c == 7 ]] && color_str+="\n"
     done
     print '\n%b\n\n' "${color_str}"
     unset color_str
   }
 fi
-
 
 # |
 # | Print theme colors
@@ -573,11 +603,14 @@ if [[ ${GOGH_DRY_RUN:-0} -eq 1 ]]; then
 fi
 
 
-apply_elementary() {
-  # |
-  # | Applying values on elementary/Pantheon Terminal
-  # | ===========================================
+# | ===========================================
+# | TERMINAL APPLY FUNCTIONS
+# | ===========================================
 
+# |
+# | Applying values on elementary/Pantheon Terminal
+# | ===========================================
+apply_elementary() {
   local BG_COLOR="${BACKGROUND_COLOR}"
 
   # If the background color is in the format #rrggbb, convert it to
@@ -596,11 +629,10 @@ apply_elementary() {
   gset palette      "${COLOR_01}:${COLOR_02}:${COLOR_03}:${COLOR_04}:${COLOR_05}:${COLOR_06}:${COLOR_07}:${COLOR_08}:${COLOR_09}:${COLOR_10}:${COLOR_11}:${COLOR_12}:${COLOR_13}:${COLOR_14}:${COLOR_15}:${COLOR_16}"
 }
 
+# |
+# | Applying values on mintty (cygwin)
+# | ===========================================
 apply_cygwin() {
-  # |
-  # | Applying values on mintty (cygwin)
-  # | ===========================================
-
   prints "Patching mintty configuration file (${CFGFILE}) with new colors..."
 
   updateMinttyConfig "$CFGFILE" "$COLOR_01"         "Black"
@@ -628,11 +660,10 @@ apply_cygwin() {
   prints "Done - please reopen your Cygwin terminal to see the changes"
 }
 
+# |
+# | Applying values on Alacritty
+# | ===========================================
 apply_alacritty() {
-  # |
-  # | Applying values on Alacritty
-  # | ===========================================
-
   json_str="\
   { \
     \"colors\": \
@@ -677,11 +708,10 @@ apply_alacritty() {
   fi
 }
 
+# |
+# | Applying values on Terminator
+# | ===========================================
 apply_terminator() {
-  # |
-  # | Applying values on Terminator
-  # | ===========================================
-
   json_str="\
   { \
     \"colors\": \
@@ -706,11 +736,10 @@ apply_terminator() {
 
 }
 
+# |
+# | Applying values on foot
+# | ===========================================
 apply_foot() {
-  # |
-  # | Applying values on foot
-  # | ===========================================
-
   prints "Patching foot configuration file (${CFGFILE}) with new colors..."
 
   updateFootConfig "$CFGFILE" "$COLOR_01" "regular0"
@@ -737,21 +766,21 @@ apply_foot() {
   prints "Done - please reopen your foot terminal to see the changes"
 }
 
+# |
+# | Applying values on Ghostty
+# | ===========================================
+# Ghostty discovers themes by name from the `themes` directory of its
+# configuration directory, so installing a theme file there is all that is
+# needed to register it -- it shows up in `ghostty +list-themes` alongside
+# the built-in ones and can be used as `theme = <name>`. Lookup is flat, so
+# the file has to sit directly in `themes` rather than a subdirectory of it.
+#
+# Ghostty ships hundreds of themes of its own and 162 of them share a name
+# with a Gogh theme. A theme in the configuration directory wins over the
+# built-in of the same name, and the theme picker only ever records a name,
+# so installing under the bare name would make the built-in unreachable.
+# Prefixing keeps both available and groups the Gogh themes in the picker.
 apply_ghostty() {
-  # |
-  # | Applying values on Ghostty
-  # | ===========================================
-  # Ghostty discovers themes by name from the `themes` directory of its
-  # configuration directory, so installing a theme file there is all that is
-  # needed to register it -- it shows up in `ghostty +list-themes` alongside
-  # the built-in ones and can be used as `theme = <name>`. Lookup is flat, so
-  # the file has to sit directly in `themes` rather than a subdirectory of it.
-  #
-  # Ghostty ships hundreds of themes of its own and 162 of them share a name
-  # with a Gogh theme. A theme in the configuration directory wins over the
-  # built-in of the same name, and the theme picker only ever records a name,
-  # so installing under the bare name would make the built-in unreachable.
-  # Prefixing keeps both available and groups the Gogh themes in the picker.
   THEME_DIR="${GHOSTTY_CONFIG_DIRECTORY}/themes"
   THEME_NAME="Gogh ${PROFILE_NAME}"
   THEME_FILE="${THEME_DIR}/${THEME_NAME}"
@@ -816,11 +845,10 @@ apply_ghostty() {
   prints "    theme = ${THEME_NAME}"
 }
 
+# |
+# | Applying values on Kitty
+# | ===========================================
 apply_kitty() {
-  # |
-  # | Applying values on Kitty
-  # | ===========================================
-
   prints "Patching kitty configuration file ($CFGFILE) with include of color theme file..."
 
   COLOR_FILE="colors.conf"
@@ -873,11 +901,10 @@ apply_kitty() {
   killall -u "${USER}" -SIGUSR1 kitty || pkill --uid "$(id -u)" -SIGUSR1 kitty || prints "Reload failed. Please reopen your kitty terminal to see the changes."
 }
 
+# |
+# | Applying values on kmscon
+# | ===========================================
 apply_kmscon() {
-  # |
-  # | Applying values on kmscon
-  # | ===========================================
-
   prints "Patching kmscon configuration file (${CFGFILE}) with new colors..."
 
   updateKmsconConfig "$CFGFILE" "$COLOR_01"         "palette-black"
@@ -904,11 +931,10 @@ apply_kmscon() {
   prints "Done - please restart your kmscon vt to see changes"
 }
 
+# |
+# | Applying values on Konsole
+# | ===========================================
 apply_konsole() {
-  # |
-  # | Applying values on Konsole
-  # | ===========================================
-
   PARENT=$(grep -o "^DefaultProfile=.*$" "${CFGFILE}" | cut -d '=' -f 2)
   if [[ -z "${PARENT}" ]]; then
     PARENT="FALLBACK/"
@@ -962,11 +988,10 @@ apply_konsole() {
   } >> "${KCOLORSCHEME}"
 }
 
+# |
+# | Applying values on iTerm2
+# | ===========================================
 apply_darwin() {
-  # |
-  # | Applying values on iTerm2
-  # | ===========================================
-
   BACKGROUND_COLOR=$(convertNameAndRGBtoITerm "Background Color" "$BACKGROUND_COLOR")
   FOREGROUND_COLOR=$(convertNameAndRGBtoITerm "Foreground Color" "$FOREGROUND_COLOR")
   COLOR_01=$(convertNameAndRGBtoITerm "Ansi 0 Color"             "$COLOR_01")
@@ -995,11 +1020,10 @@ apply_darwin() {
   rm   "${PROFILE_NAME}.itermcolors"
 }
 
+# |
+# | Applying values on GNOME/MATE/Tilix
+# | ===========================================
 apply_gtk() {
-  # |
-  # | Applying values on GNOME/MATE/Tilix
-  # | ===========================================
-
   local legacy="${1:-}"
 
   # This is to avoid doing the profile loop definition twice
@@ -1087,7 +1111,8 @@ apply_gtk() {
 
     set_theme
     dset palette              "${LEFT_WRAPPER:-}'${COLOR_01}${PALETTE_DELIM}${COLOR_02}${PALETTE_DELIM}${COLOR_03}${PALETTE_DELIM}${COLOR_04}${PALETTE_DELIM}${COLOR_05}${PALETTE_DELIM}${COLOR_06}${PALETTE_DELIM}${COLOR_07}${PALETTE_DELIM}${COLOR_08}${PALETTE_DELIM}${COLOR_09}${PALETTE_DELIM}${COLOR_10}${PALETTE_DELIM}${COLOR_11}${PALETTE_DELIM}${COLOR_12}${PALETTE_DELIM}${COLOR_13}${PALETTE_DELIM}${COLOR_14}${PALETTE_DELIM}${COLOR_15}${PALETTE_DELIM}${COLOR_16}'${RIGHT_WRAPPER:-}"
-    ${LEGACY_BOLD:-} && dset allow-bold "true"  # MATE
+    # MATE
+    ${LEGACY_BOLD:-} && dset allow-bold "true"
   else
     # Append the Base16 profile to the profile list
     glist_append string       "${PROFILE_LIST_KEY}" "${PROFILE_SLUG}"
@@ -1098,11 +1123,10 @@ apply_gtk() {
   fi
 }
 
+# |
+# | Applying values on Guake
+# | ===========================================
 apply_guake() {
-  # |
-  # | Applying values on Guake
-  # | ===========================================
-
   local legacy="${1:-}"
 
   if [[ -z "${legacy}" ]]; then
@@ -1127,11 +1151,10 @@ apply_guake() {
   fi
 }
 
+# |
+# | Applying values on Tilix color schemes
+# | ===========================================
 appy_tilixschemes() {
-  # |
-  # | Applying values on Tilix color schemes
-  # | ===========================================
-
   if [[ ${TILIX_RES::1} =~ ^(y|Y)$ ]]; then
     [[ -d "${HOME}/.config/tilix/schemes" ]] || mkdir -p "${HOME}/.config/tilix/schemes"
 
@@ -1174,6 +1197,9 @@ appy_tilixschemes() {
   fi
 }
 
+# |
+# | Applying values on Xfce Terminal
+# | ===========================================
 apply_xfce4-terminal() {
     # Xfce Terminal has no profiles, instead it uses color presets
     SCHEMEDIR="${HOME}/.local/share/xfce4/terminal/colorschemes"
@@ -1266,6 +1292,9 @@ apply_xfce4-terminal() {
     exit 0
 }
 
+# |
+# | Applying values on the Linux virtual console
+# | ===========================================
 apply_linux_vt () {
   local theme_dir
   if [[ "${USER}" = "root" ]]; then
@@ -1286,7 +1315,8 @@ apply_linux_vt () {
     if command -v setvtrgb >/dev/null 2>&1; then
             setvtrgb "${file_name}"
             echo setvtrgb "${file_name}"
-            gogh_colors  # Preview
+            # Preview
+            gogh_colors
     fi
   fi
 
@@ -1297,6 +1327,9 @@ apply_linux_vt () {
   fi
 }
 
+# |
+# | Applying values on Termux
+# | ===========================================
 apply_termux() {
 
   updateTermuxConfig "$CFGFILE" "$BACKGROUND_COLOR" "background"
@@ -1338,11 +1371,10 @@ apply_termux() {
   fi
 }
 
+# |
+# | Applying values on WezTerm using dynamic color escape sequences
+# | ===========================================
 apply_wezterm() {
-  # |
-  # | Applying values on WezTerm using dynamic color escape sequences
-  # | ===========================================
-
   prints "Applying Wezterm color theme using dynamic color escape sequences..."
 
   # Build the color palette escape sequence
@@ -1388,6 +1420,14 @@ apply_wezterm() {
   prints "Theme: ${PROFILE_NAME}"
 }
 
+
+# | ===========================================
+# | MAIN
+# | ===========================================
+
+# |
+# | Apply the theme on the detected terminal
+# | ===========================================
 [[ -n "${UUIDGEN}" ]] && PROFILE_SLUG="$(uuidgen)"
 
 case "${TERMINAL}" in
