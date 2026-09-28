@@ -14,12 +14,14 @@ on:
       - 'installs/**'
       - 'gogh.sh'
       - 'tools/run.txt'
-      # Scripts, their tests and this validation itself, so a non-theme PR
-      # still gets the shell checks and the scope check below.
+      # Scripts, their tests and this validation itself (including the
+      # shared helpers in tools/lib/ it imports), so a non-theme PR still
+      # gets the shell checks and the scope check below.
       - 'apply-colors.sh'
       - 'apply-*.py'
       - 'tests/**'
       - 'tools/validate/**'
+      - 'tools/lib/**'
       - '.github/workflows/validate-on-pr.yml'
 
 env:
