@@ -14,10 +14,10 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: 🏅 Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: 🏅 Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.x'
 
@@ -74,17 +74,18 @@ jobs:
             echo "tag_exists=false" >> $GITHUB_ENV
           fi
 
+      # Same release actions/create-release@v1 made (archived, and stuck on
+      # Node 12): tag the commit that triggered this run.
       - name: 🏅 Create Release
         if: env.tag_exists != 'true'
-        uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: v${{ env.total_files }}
-          release_name: Themes ${{ env.total_files }}
-          body: "Release with ${{ env.total_files }} files in the 'themes' directory."
-          draft: false
-          prerelease: false
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOTAL_FILES: ${{ env.total_files }}
+        run: |
+          gh release create "v${TOTAL_FILES}" \
+            --target "${GITHUB_SHA}" \
+            --title "Themes ${TOTAL_FILES}" \
+            --notes "Release with ${TOTAL_FILES} files in the 'themes' directory."
 
       - name: 🏅 Commit and push changes
         env:

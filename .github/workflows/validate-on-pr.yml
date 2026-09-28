@@ -32,12 +32,12 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: 🏅 Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
       - name: 🏅 Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.x'
 
@@ -67,7 +67,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: 🏅 Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: 🏅 bash -n syntax check
         run: |
