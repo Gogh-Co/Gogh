@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # Refuses to commit anything under the CI-generated output paths: data/,
-# installs/, gogh.sh, tools/run.txt. Those are written by the generate/
-# pipeline in CI (.github/workflows/generate-on-push.yml) -- a hand-made
-# commit there just gets overwritten (or conflicts) on the next push.
+# installs/, tools/run.txt and the THEMES array in gogh.sh. Those are written
+# by the generate/ pipeline in CI (.github/workflows/generate-on-push.yml) --
+# a hand-made commit there just gets overwritten (or conflicts) on the next
+# push. The rest of gogh.sh is regular code and can be committed.
 #
 # Only enabled locally, only for humans: this only runs for commits made in
 # a clone that has this hooks path configured (see setup below), and CI's own
@@ -18,7 +19,12 @@
 set -euo pipefail
 
 blocked_prefixes=("data/" "installs/")
-blocked_files=("gogh.sh" "tools/run.txt")
+blocked_files=("tools/run.txt")
+
+# Print the THEMES array of gogh.sh read from stdin
+themes_array() {
+  sed -n '/declare -a THEMES=(/,/^)$/p'
+}
 
 violations=()
 while IFS= read -r f; do
@@ -31,6 +37,11 @@ while IFS= read -r f; do
   for blocked in "${blocked_files[@]}"; do
     [ "$f" = "$blocked" ] && violations+=("$f")
   done
+  # Compare the staged THEMES array with the one in HEAD
+  if [ "$f" = "gogh.sh" ] &&
+     [ "$(git show HEAD:gogh.sh 2>/dev/null | themes_array)" != "$(git show :gogh.sh | themes_array)" ]; then
+    violations+=("gogh.sh (THEMES array)")
+  fi
 done < <(git diff --cached --name-only --diff-filter=ACM)
 
 if [ "${#violations[@]}" -gt 0 ]; then

@@ -1,0 +1,69 @@
+name: 💡 Improvement / maintenance
+description: Suggest an improvement to Gogh's scripts, tooling, CI or docs (not a bug, not a new terminal)
+title: "[Improvement]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest an improvement!
+        Before filling this out, please search [existing issues](https://github.com/Gogh-Co/Gogh/issues) to check whether it was already proposed.
+        Want to add or edit a theme? No issue is needed — follow the [Contributing Guide](https://github.com/Gogh-Co/Gogh/blob/master/docs/CONTRIBUTING.md) and open a PR.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part of Gogh would this change?
+      multiple: true
+      options:
+        - gogh.sh
+        - apply-colors.sh
+        - Python apply scripts (Alacritty, Terminator)
+        - Tooling (tools/, Taskfile)
+        - CI / GitHub workflows
+        - Tests
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: What is the current behavior or situation?
+      description: What happens today, and why is it a problem or worth improving?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What do you propose?
+      description: Describe the change you'd like to see.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Other ways to solve this that you've thought about, if any.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Anything else that might help — links, examples, related issues.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I would be willing to submit a pull request implementing this
+          required: false

@@ -17,11 +17,11 @@ tasks:
       - uv run --with-requirements requirements.txt tools/validate/validate_theme_format.py {{.BASE}}
 
   pr:
-    desc: 'Check PR title/scope vs. a base ref (default origin/master), same check as CI. Override with BASE=<ref> TITLE="theme: ..."'
+    desc: 'Check PR title/scope vs. a base ref (default origin/master), same check as CI. Override with BASE=<ref> TITLE="theme: ..." (or e.g. TITLE="fix: ..." for a non-theme PR)'
     vars:
       CHANGED_FILES:
         sh: mktemp -t gogh-validate-pr-XXXXXX
     cmds:
       - git diff --name-only {{.BASE}}...HEAD > {{.CHANGED_FILES}}
       - defer: rm -f {{.CHANGED_FILES}}
-      - PR_TITLE="{{.TITLE}}" uv run tools/validate/validate_pr.py {{.CHANGED_FILES}}
+      - PR_TITLE="{{.TITLE}}" uv run tools/validate/validate_pr.py {{.CHANGED_FILES}} {{.BASE}}
