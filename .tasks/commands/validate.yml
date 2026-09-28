@@ -12,7 +12,7 @@ tasks:
       - uv run --with-requirements requirements.txt tools/validate/validate_colors.py
 
   format:
-    desc: 'Check filename/underscores (blocking) and contrast (recommended) for themes newly added vs. a base ref (default origin/master), same check as CI. Override with BASE=<ref>.'
+    desc: 'Check filename/underscores/variant/unique name (blocking) and contrast (recommended) for themes newly added vs. a base ref (default origin/master), same check as CI. Override with BASE=<ref>.'
     cmds:
       - uv run --with-requirements requirements.txt tools/validate/validate_theme_format.py {{.BASE}}
 

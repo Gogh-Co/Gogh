@@ -3,7 +3,15 @@
 #   - the filename matches the `name:` field exactly              (blocking)
 #   - `name:` has no underscores                                  (blocking)
 #   - `variant:` is exactly 'dark' or 'light' (lowercase), or empty (blocking)
+#   - the name doesn't collide with another theme's file names    (blocking)
 #   - foreground/background contrast meets a legibility floor  (recommended)
+#
+# Name collisions: a theme name becomes several file names (gogh.sh's
+# THEMES entry, installs/<slug>.sh and the data/ files), and two names can
+# map to the same one ("Foo Bar" and "Foo-Bar" are both foo-bar). A new
+# theme that collides with an existing one fails: the existing theme keeps
+# its name, and the new one has to pick another. Two new themes in the same
+# PR that collide with each other both fail.
 #
 # Contrast is recommended, not blocking: it's a judgment call ("is this
 # still legible"), not a hard fact like a filename mismatch, so a low ratio
@@ -32,7 +40,7 @@ from pathlib import Path
 import yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from lib.theme_common import contrast_ratio
+from lib.theme_common import contrast_ratio, theme_file_slugs
 
 MIN_CONTRAST = 2.5  # WCAG AA for normal text is 4.5:1; this is a legibility
                      # floor, not a strict AA gate -- see tools/README.md.
@@ -85,6 +93,50 @@ def check_variant(filepath, data):
     }
 
 
+def theme_name(data):
+    return str(data.get("name", "")).strip()
+
+
+def check_name_collisions(filepaths, all_filepaths):
+    """Errors for each theme in `filepaths` whose file names collide with
+    any other theme in `all_filepaths` (the whole themes/ directory)."""
+    names = {
+        filepath.name: theme_name(yaml.safe_load(filepath.read_text()))
+        for filepath in all_filepaths
+    }
+    checked = {filepath.name for filepath in filepaths}
+    owners = {}
+    for file, name in names.items():
+        for where, slug in theme_file_slugs(name).items():
+            owners.setdefault((where, slug), []).append(file)
+
+    violations = []
+    for file in sorted(checked):
+        clashes = {}
+        for where, slug in theme_file_slugs(names[file]).items():
+            for other in owners[(where, slug)]:
+                if other != file:
+                    clashes.setdefault(other, []).append(f"{where} '{slug}'")
+        for other, places in sorted(clashes.items()):
+            existing = other not in checked
+            violations.append({
+                "file": file,
+                "level": "error",
+                "rule": "unique name",
+                "problem": (
+                    f"name: '{names[file]}' collides with "
+                    f"{'existing theme' if existing else 'theme'} "
+                    f"'{names[other]}' ({other}) on {', '.join(places)}"
+                ),
+                "fix": (
+                    "pick a different name -- the existing theme keeps its name"
+                    if existing else
+                    "rename one of the two themes"
+                ),
+            })
+    return violations
+
+
 def check_contrast(filepath, data):
     fg, bg = data.get("foreground"), data.get("background")
     if not fg or not bg:
@@ -105,7 +157,7 @@ def find_violations(filepaths):
     violations = []
     for filepath in sorted(filepaths):
         data = yaml.safe_load(filepath.read_text())
-        name = str(data.get("name", "")).strip()
+        name = theme_name(data)
         for check in (
             check_filename(filepath, name),
             check_no_underscores(filepath, name),
@@ -114,6 +166,9 @@ def find_violations(filepaths):
         ):
             if check:
                 violations.append(check)
+    violations.extend(
+        check_name_collisions(filepaths, list(Path("./themes").glob("*.yml")))
+    )
     return violations
 
 
@@ -170,4 +225,4 @@ if __name__ == "__main__":
         print_report(f"❌ {len(errors)} theme format violation(s)", errors, "red")
         sys.exit(1)
 
-    print("✅ Filename, underscore, and variant checks passed." + (" (see recommendations above)" if warnings else ""))
+    print("✅ Filename, underscore, variant, and unique name checks passed." + (" (see recommendations above)" if warnings else ""))

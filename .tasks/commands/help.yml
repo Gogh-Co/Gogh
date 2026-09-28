@@ -27,7 +27,8 @@ tasks:
 
         ${YELLOW}STEP 2${RESET} -- create the theme
               Add themes/<Your Theme Name>.yml. Filename must match name:
-              exactly. No underscores in the name. See docs/CONTRIBUTING.md
+              exactly. No underscores in the name, and it can't collide
+              with an existing theme's name. See docs/CONTRIBUTING.md
               for the full field-by-field reference.
 
         ${YELLOW}STEP 3${RESET} -- preview locally ${DIM}(optional)${RESET}
@@ -47,7 +48,8 @@ tasks:
 
               Runs every check CI runs on your PR: colors uppercase,
               filename matches name:, no underscores, variant is
-              dark/light lowercase (these block), a contrast >= 2.5:1
+              dark/light lowercase, unique name (these block), a
+              contrast >= 2.5:1
               recommendation (doesn't block), and that only themes/
               was touched.
 

@@ -3,18 +3,23 @@
 # Creates one script per theme and applies executable file permissions.
 #
 # NOTE: unlike the split_themes_* steps, this reads themes/*.yml directly
-# (not data/themes.json) and its own slugify regex/collision handling below
-# is intentionally left as-is rather than switched to
-# lib.theme_common.slugify_theme_name() — that function's output can differ
-# for names with underscores, and this one feeds public installer filenames
-# (installs/<slug>.sh), so unifying it is a separate, deliberate change.
+# (not data/themes.json) and names each installer with
+# lib.theme_common.installer_slug() rather than slugify_theme_name() -- that
+# function's output can differ for names with underscores, and this one feeds
+# public installer filenames (installs/<slug>.sh), so unifying it is a
+# separate, deliberate change. validate_theme_format.py uses the same function
+# to reject a new theme whose installer name is already taken.
 
-from unidecode import unidecode
 import json
 import os
-import re
 import subprocess
+import sys
+from pathlib import Path
+
 import yaml
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from lib.theme_common import installer_slug
 
 folder_path = "./themes"
 dest_path = "./installs"
@@ -112,9 +117,7 @@ fi
 # Generate .sh files for each color scheme
 for scheme in themes:
     # Convert theme name to a valid filename
-    filename = re.sub(r'[^a-zA-Z0-9]+', '-', unidecode(scheme['name']).lower().replace(' ', '-'))
-    filename = re.sub(r'[-]+', '-', filename).strip('-')
-    filename = f"{dest_path}/{filename}.sh"
+    filename = f"{dest_path}/{installer_slug(scheme['name'])}.sh"
 
     with open(filename, 'w') as f:
         f.write(template.format(**scheme))
