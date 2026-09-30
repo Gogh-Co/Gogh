@@ -14,7 +14,7 @@ color_06: '#B95485'    # Magenta (Syntax var)
 color_07: '#A3CBC2'    # Cyan (Prompt)
 color_08: '#E0E0DC'    # White
 
-color_09: '#33333F'    # Bright Black
+color_09: '#62627A'    # Bright Black
 color_10: '#E43E1D'    # Bright Red (Command error)
 color_11: '#75BF52'    # Bright Green (Exec)
 color_12: '#E4C92E'    # Bright Yellow
