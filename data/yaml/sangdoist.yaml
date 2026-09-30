@@ -1,0 +1,26 @@
+name: Sangdoist
+author: Lee Yunjin (https://oborona.zip)
+author_name: Lee Yunjin
+author_url: https://oborona.zip
+variant: dark
+color_01: '#131417'
+color_02: '#EC6029'
+color_03: '#A1C246'
+color_04: '#E5BD2B'
+color_05: '#2D7AEC'
+color_06: '#B95485'
+color_07: '#A3CBC2'
+color_08: '#E0E0DC'
+color_09: '#62627A'
+color_10: '#E43E1D'
+color_11: '#75BF52'
+color_12: '#E4C92E'
+color_13: '#3641CF'
+color_14: '#D3579D'
+color_15: '#BFC9E1'
+color_16: '#E7E7E4'
+background: '#131417'
+foreground: '#CECECC'
+cursor: '#CECECC'
+hash: 328e2d29c3dcf41ed845c749b6ef48924ee956dd1ed616978031e8c1c95c5fbb
+hash_bg: 1b40d409d984497a7ceaaa4e5d62eeb886fe6efc1fd05991f2fc5a0daa097323

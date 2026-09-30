@@ -1008,6 +1008,7 @@ declare -a THEMES=(
   'sandstone-classic.sh'
   'sandstone-ink.sh'
   'sandstone-warm.sh'
+  'sangdoist.sh'
   'sat.sh'
   'sauber.sh'
   'scarlet-protocol.sh'
