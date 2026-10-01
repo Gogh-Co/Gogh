@@ -1,0 +1,29 @@
+---
+name: 'Seoulism Light'
+author: 'Lee Yunjin (https://oborona.zip)'             # 'AUTHOR NAME (http://WEBSITE.com)'
+author_name: 'Lee Yunjin'
+author_url: 'https://oborona.zip'
+variant: 'light'            # dark or light
+
+color_01: '#101114'    # Black (Host)
+color_02: '#C83024'    # Red (Syntax string)
+color_03: '#108C76'    # Green (Command)
+color_04: '#C46E0A'    # Yellow (Command second)
+color_05: '#244CC8'    # Blue (Path)
+color_06: '#8040D2'    # Magenta (Syntax var)
+color_07: '#1880B4'    # Cyan (Prompt)
+color_08: '#C8C8C4'    # White
+
+color_09: '#5A5C64'    # Bright Black
+color_10: '#E24E42'    # Bright Red (Command error)
+color_11: '#1EA68C'    # Bright Green (Exec)
+color_12: '#DE8A1E'    # Bright Yellow
+color_13: '#466CE2'    # Bright Blue (Folder)
+color_14: '#9E62E4'    # Bright Magenta
+color_15: '#3298CC'    # Bright Cyan
+color_16: '#ECECE9'    # Bright White
+
+background: '#FAFAF7'  # Background
+foreground: '#101114'  # Foreground (Text)
+
+cursor: '#808080'      # Cursor
