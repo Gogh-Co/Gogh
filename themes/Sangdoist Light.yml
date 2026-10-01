@@ -1,0 +1,29 @@
+---
+name: 'Sangdoist Light'
+author: 'Lee Yunjin (https://oborona.zip)'
+author_name: 'Lee Yunjin'
+author_url: 'https://oborona.zip'
+variant: 'light'            # dark or light
+
+color_01: '#131417'    # Black (Host)
+color_02: '#C4481A'    # Red (Syntax string)
+color_03: '#5E7E1A'    # Green (Command)
+color_04: '#9C7A08'    # Yellow (Command second)
+color_05: '#1F5FC4'    # Blue (Path)
+color_06: '#9A3F6C'    # Magenta (Syntax var)
+color_07: '#3A7F72'    # Cyan (Prompt)
+color_08: '#C8C8C4'    # White
+
+color_09: '#62627A'    # Bright Black
+color_10: '#B8300F'    # Bright Red (Command error)
+color_11: '#4A8A2C'    # Bright Green (Exec)
+color_12: '#B0901A'    # Bright Yellow
+color_13: '#3641CF'    # Bright Blue (Folder)
+color_14: '#B3407E'    # Bright Magenta
+color_15: '#55689A'    # Bright Cyan
+color_16: '#E7E7E4'    # Bright White
+
+background: '#F4F4F1'  # Background
+foreground: '#26272B'  # Foreground (Text)
+
+cursor: '#808080'      # Cursor
