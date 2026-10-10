@@ -59,6 +59,45 @@ run_terminal "xfce4-terminal" "xfce4-terminal" \
   "/root/.local/share/xfce4/terminal/colorschemes/dracula.theme" \
   "282A36"
 
+# Multi-select must not abort part-way through applying queued themes.
+run_multi_terminal() {
+  local name="$1" terminal="$2" list="$3" cfgfile="$4" needle="$5"
+
+  local script="
+set -e
+export HOME=/root
+export TERMINAL=$terminal
+export GOGH_NONINTERACTIVE=1
+export GOGH_USE_NEW_THEME=yes
+export SCRIPT_PATH=/repo
+printf '%s\n' '$list' | bash /repo/gogh.sh >/tmp/gogh_multi.out 2>&1
+echo APPLY_EXIT=\$?
+cat /tmp/gogh_multi.out
+echo '--- config file ---'
+ls -1 /root/.local/share/xfce4/terminal/colorschemes 2>/dev/null || true
+cat '$cfgfile' 2>&1 || echo 'MISSING FILE'
+"
+
+  local out status
+  out="$(docker run --rm -v "$REPO_ROOT:/repo:ro" gogh-test-file bash -c "$script" 2>&1)" && status=0 || status=$?
+
+  if [ "$status" -ne 0 ]; then
+    fail "$name: apply-colors.sh exits 0" "$(echo "$out" | tail -c 500)"
+    return
+  fi
+  pass "$name: apply-colors.sh exits 0"
+
+  if echo "$out" | grep -qF -- "$needle"; then
+    pass "$name: config file contains Everforest's $needle"
+  else
+    fail "$name: config file contains Everforest's $needle" "$(echo "$out" | tail -c 400)"
+  fi
+}
+
+run_multi_terminal "xfce4-terminal (multi)" "xfce4-terminal" "391 392 393 394 395 396" \
+  "/root/.local/share/xfce4/terminal/colorschemes/everforest-light-soft.theme" \
+  "5C6A72"
+
 # apply_alacritty writes the theme to gogh.toml and imports it from
 # alacritty.toml, creating that file when Alacritty was never configured.
 run_terminal "alacritty" "alacritty" \

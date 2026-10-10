@@ -69,6 +69,46 @@ gsettings get $schema $list_key
 }
 
 run_terminal gnome-terminal org.gnome.Terminal.ProfilesList list
+
+run_multi_terminal() {
+  local terminal="$1" schema="$2" list_key="$3"
+
+  # Multi-select must not abort after the first entry when $TERM is a real
+  # GTK terminal; the progress bar only reports status, it must not trip
+  # `set -e` and exit the script early.
+  local script="
+set -e
+export HOME=/root
+export TERMINAL=$terminal
+export GOGH_NONINTERACTIVE=1
+export GOGH_USE_NEW_THEME=yes
+export LOOP=1 OPTLENGTH=2
+export SCRIPT_PATH=/repo
+printf '%s\n' '391 392' | bash /repo/gogh.sh >/tmp/gogh_multi.out 2>&1
+cat /tmp/gogh_multi.out
+echo '--- profile list after multi-apply ---'
+gsettings get $schema $list_key
+"
+
+  local out status
+  out="$(docker run --rm -v "$REPO_ROOT:/repo:ro" gogh-test-gtk \
+      dbus-run-session -- bash -c "$script" 2>&1)" && status=0 || status=$?
+
+  if [ "$status" -ne 0 ]; then
+    fail "$terminal (multi): apply-colors.sh exits 0" "exit $status: $(echo "$out" | tail -c 500)"
+    return
+  fi
+  pass "$terminal (multi): apply-colors.sh exits 0"
+
+  if echo "$out" | tail -1 | grep -qE "^\['"; then
+    pass "$terminal (multi): list stays populated after multi-select"
+  else
+    fail "$terminal (multi): list stays populated after multi-select" "got: $(echo "$out" | tail -1)"
+  fi
+}
+
+run_multi_terminal gnome-terminal org.gnome.Terminal.ProfilesList list
+
 run_terminal mate-terminal org.mate.terminal.global profile-list
 run_terminal tilix com.gexperts.Tilix.ProfilesList list
 
