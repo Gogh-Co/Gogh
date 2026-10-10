@@ -1662,7 +1662,9 @@ if [[ ${#OPTION[@]} -gt 5 ]]; then
     bar="$(printf '%*s' "$filled" '')"
     bar="${bar// /#}"
     printf '\r[%-*s] %3d%% (%d/%d)' "$width" "$bar" $(( total > 0 ? current * 100 / total : 0 )) "$current" "$total"
-    [[ "$current" -ge "$total" ]] && printf '\n'
+    if [[ "$current" -ge "$total" ]]; then
+      printf '\n'
+    fi
   }
 
   bar::stop() {
