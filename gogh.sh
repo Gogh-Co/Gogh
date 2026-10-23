@@ -748,6 +748,7 @@ declare -a THEMES=(
   'mesila-one.sh'
   'mexico-light.sh'
   'mezcal.sh'
+  'mgruv.sh'
   'miami-heat.sh'
   'miami.sh'
   'miasma.sh'
